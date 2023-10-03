@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "naturescanvas:polished_white_granite"
+    }
+  },
+  "result": {
+    "item": "naturescanvas:polished_white_granite_slab",
+    "count": 6
+  }
+}

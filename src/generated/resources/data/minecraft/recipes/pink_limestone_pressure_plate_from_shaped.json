@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LL"
+  ],
+  "key": {
+    "L": {
+      "item": "naturescanvas:pink_limestone"
+    }
+  },
+  "result": {
+    "item": "naturescanvas:pink_limestone_pressure_plate"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "naturescanvas:tan_limestone_bricks"
+  },
+  "result": "naturescanvas:cracked_tan_limestone_bricks",
+  "experience": 0.1,
+  "cookingtime": 200
+}

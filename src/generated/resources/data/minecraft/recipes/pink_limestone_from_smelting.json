@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "naturescanvas:cobbled_pink_limestone"
+  },
+  "result": "naturescanvas:pink_limestone",
+  "experience": 0.1,
+  "cookingtime": 200
+}

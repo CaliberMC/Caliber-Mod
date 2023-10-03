@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "naturescanvas:orange_sandstone"
+    }
+  },
+  "result": {
+    "item": "naturescanvas:orange_sandstone_wall",
+    "count": 6
+  }
+}

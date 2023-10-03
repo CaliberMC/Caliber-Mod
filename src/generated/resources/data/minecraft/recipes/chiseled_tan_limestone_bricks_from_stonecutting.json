@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "naturescanvas:tan_limestone"
+  },
+  "result": "naturescanvas:chiseled_tan_limestone_bricks",
+  "count": 1
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "naturescanvas:cobalt_block",
+    "naturescanvas:raw_cobalt_block",
+    "naturescanvas:cobalt_ore",
+    "naturescanvas:deepslate_cobalt_ore",
+
+    "naturescanvas:light_limestone",
+    "naturescanvas:dark_limestone"
+
+  ]
+}

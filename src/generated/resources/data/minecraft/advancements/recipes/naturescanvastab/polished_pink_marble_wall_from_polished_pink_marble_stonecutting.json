@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:polished_pink_marble_wall_from_polished_pink_marble_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_pink_marble": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "naturescanvas:pink_marble"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:polished_pink_marble_wall_from_polished_pink_marble_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_pink_marble",
+      "has_the_recipe"
+    ]
+  ]
+}

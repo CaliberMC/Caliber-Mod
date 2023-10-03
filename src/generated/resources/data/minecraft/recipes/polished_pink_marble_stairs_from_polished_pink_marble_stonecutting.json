@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "naturescanvas:polished_pink_marble"
+  },
+  "result": "naturescanvas:polished_pink_marble_stairs",
+  "count": 1
+}

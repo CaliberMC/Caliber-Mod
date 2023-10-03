@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "naturescanvas:block/orange_sandstone_top",
+    "side": "naturescanvas:block/orange_sandstone",
+    "bottom": "naturescanvas:block/orange_sandstone_bottom"
+  }
+}

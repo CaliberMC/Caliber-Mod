@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "G  ",
+    "GG ",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "naturescanvas:polished_black_granite"
+    }
+  },
+  "result": {
+    "item": "naturescanvas:polished_black_granite_stairs",
+    "count": 4
+  }
+}

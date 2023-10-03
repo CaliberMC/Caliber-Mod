@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "item": "naturescanvas:cobbled_pink_limestone"
+    }
+  },
+  "result": {
+    "item": "naturescanvas:cobbled_pink_limestone_wall",
+    "count": 6
+  }
+}

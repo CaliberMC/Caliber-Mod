@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:brown_granite_stairs_from_shaped"
+    ]
+  },
+  "criteria": {
+    "has_brown_granite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "naturescanvas:brown_granite"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:brown_granite_stairs_from_shaped"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_brown_granite",
+      "has_the_recipe"
+    ]
+  ]
+}

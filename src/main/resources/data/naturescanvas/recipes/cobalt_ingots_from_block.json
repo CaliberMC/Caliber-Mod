@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "naturescanvas:cobalt_block"
+    }
+  ],
+  "result": {
+    "item": "naturescanvas:cobalt_ingot",
+    "count": 9
+  }
+}

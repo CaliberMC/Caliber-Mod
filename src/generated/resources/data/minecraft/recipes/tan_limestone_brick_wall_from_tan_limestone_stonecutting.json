@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "naturescanvas:tan_limestone"
+  },
+  "result": "naturescanvas:tan_limestone_brick_wall",
+  "count": 1
+}

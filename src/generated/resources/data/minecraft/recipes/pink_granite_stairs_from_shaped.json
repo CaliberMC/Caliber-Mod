@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "G  ",
+    "GG ",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "naturescanvas:pink_granite"
+    }
+  },
+  "result": {
+    "item": "naturescanvas:pink_granite_stairs",
+    "count": 4
+  }
+}

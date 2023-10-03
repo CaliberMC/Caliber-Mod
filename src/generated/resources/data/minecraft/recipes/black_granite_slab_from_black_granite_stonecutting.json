@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "naturescanvas:black_granite"
+  },
+  "result": "naturescanvas:black_granite_slab",
+  "count": 2
+}

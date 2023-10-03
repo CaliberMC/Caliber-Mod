@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "naturescanvas:light_limestone_bricks"
+  },
+  "result": "naturescanvas:light_limestone_brick_stairs",
+  "count": 1
+}

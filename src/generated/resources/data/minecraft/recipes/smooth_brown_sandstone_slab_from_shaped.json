@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "naturescanvas:smooth_brown_sandstone"
+    }
+  },
+  "result": {
+    "item": "naturescanvas:smooth_brown_sandstone_slab",
+    "count": 6
+  }
+}

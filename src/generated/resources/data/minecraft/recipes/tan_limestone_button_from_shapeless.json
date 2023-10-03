@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "naturescanvas:tan_limestone"
+    }
+  ],
+  "result": {
+    "item": "naturescanvas:tan_limestone_button"
+  }
+}

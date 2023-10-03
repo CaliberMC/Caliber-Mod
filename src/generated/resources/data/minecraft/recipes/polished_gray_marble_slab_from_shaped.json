@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "naturescanvas:polished_gray_marble"
+    }
+  },
+  "result": {
+    "item": "naturescanvas:polished_gray_marble_slab",
+    "count": 6
+  }
+}

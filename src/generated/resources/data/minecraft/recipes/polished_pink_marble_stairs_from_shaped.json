@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "M  ",
+    "MM ",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "naturescanvas:polished_pink_marble"
+    }
+  },
+  "result": {
+    "item": "naturescanvas:polished_pink_marble_stairs",
+    "count": 4
+  }
+}

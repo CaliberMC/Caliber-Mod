@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "naturescanvas:block/raw_cobalt_block"
+  }
+}
