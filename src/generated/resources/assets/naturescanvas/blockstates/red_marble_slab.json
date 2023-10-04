@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "naturescanvas:block/red_marble_slab_top"
+    },
+    "type=bottom": {
+      "model": "naturescanvas:block/red_marble_slab"
+    },
+    "type=double": {
+      "model": "naturescanvas:block/red_marble"
+    }
+  }
+}

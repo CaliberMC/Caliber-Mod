@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "side": "naturescanvas:block/gray_marble",
+    "bottom": "naturescanvas:block/gray_marble",
+    "top": "naturescanvas:block/gray_marble"
+  }
+}

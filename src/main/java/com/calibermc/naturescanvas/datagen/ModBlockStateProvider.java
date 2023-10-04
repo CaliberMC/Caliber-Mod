@@ -212,8 +212,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
         wallBlock((WallBlock) ModBlocks.POLISHED_RED_MARBLE_WALL.get(), blockTexture(ModBlocks.POLISHED_RED_MARBLE.get()));
         wallBlock((WallBlock) ModBlocks.POLISHED_WHITE_MARBLE_WALL.get(), blockTexture(ModBlocks.POLISHED_WHITE_MARBLE.get()));
 
+//        horizontalBlock();
+//        horizontalBlock(ModBlocks.SMOOTH_BROWN_SANDSTONE.get(), models().cubeAll("brown_sandstone_top"));
         simpleBlock(ModBlocks.SMOOTH_BROWN_SANDSTONE.get());
         simpleBlock(ModBlocks.SMOOTH_ORANGE_SANDSTONE.get());
+//        simpleBlock(ModBlocks.SMOOTH_BROWN_SANDSTONE.get(), models().cubeAll("brown_sandstone_top", modLoc("block/brown_sandstone_top.png")));
+//        simpleBlock(ModBlocks.SMOOTH_ORANGE_SANDSTONE.get(), models().cubeAll("orange_sandstone_top", modLoc("block/orange_sandstone_top.png")));
         wallBlock((WallBlock) ModBlocks.BROWN_SANDSTONE_WALL.get(), blockTexture(ModBlocks.BROWN_SANDSTONE.get()));
         wallBlock((WallBlock) ModBlocks.ORANGE_SANDSTONE_WALL.get(), blockTexture(ModBlocks.ORANGE_SANDSTONE.get()));
 
@@ -237,7 +241,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
 //        fourWayBlock(ModBlocks.ORANGE_SANDSTONE.get(), models().cubeColumn(), ("block/orange_sandstone_side"), modLoc("block/orange_sandstone_top"));
 
-        models().cubeBottomTop("brown_sandstone", modLoc("block/brown_sandstone_side"), modLoc("block/brown_sandstone_bottom"), modLoc("block/brown_sandstone_top"));
+//        models().cubeBottomTop("brown_sandstone", modLoc("block/brown_sandstone_side"), modLoc("block/brown_sandstone_bottom"), modLoc("block/brown_sandstone_top"));
 
 
 

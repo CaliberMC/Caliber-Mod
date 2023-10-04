@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "naturescanvas:block/dark_limestone_brick_slab_top"
+    },
+    "type=bottom": {
+      "model": "naturescanvas:block/dark_limestone_brick_slab"
+    },
+    "type=double": {
+      "model": "naturescanvas:block/dark_limestone_bricks"
+    }
+  }
+}

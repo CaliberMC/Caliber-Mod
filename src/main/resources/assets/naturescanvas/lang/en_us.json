@@ -49,6 +49,7 @@
     "block.naturescanvas.polished_black_granite_wall": "Polished Black Granite Wall",
     "block.naturescanvas.polished_brown_granite_wall": "Polished Brown Granite Wall",
     "block.naturescanvas.polished_gray_granite_wall": "Polished Gray Granite Wall",
+    "block.naturescanvas.polished_red_granite_wall": "Polished Red Granite Wall",
     "block.naturescanvas.polished_pink_granite_wall": "Polished Pink Granite Wall",
     "block.naturescanvas.polished_white_granite_wall": "Polished White Granite Wall",
 
@@ -173,16 +174,32 @@
     "block.naturescanvas.polished_white_marble_wall":"Polished White Marble Wall",
 
     "block.naturescanvas.brown_sandstone":"Brown Sandstone",
+    "block.naturescanvas.brown_sandstone_slab":"Brown Sandstone Slab",
+    "block.naturescanvas.brown_sandstone_stairs":"Brown Sandstone Stairs",
+    "block.naturescanvas.brown_sandstone_wall":"Brown Sandstone Wall",
+
     "block.naturescanvas.orange_sandstone":"Orange Sandstone",
+    "block.naturescanvas.orange_sandstone_slab":"Orange Sandstone Slab",
+    "block.naturescanvas.orange_sandstone_stairs":"Orange Sandstone Stairs",
+    "block.naturescanvas.orange_sandstone_wall":"Orange Sandstone Wall",
 
     "block.naturescanvas.chiseled_brown_sandstone":"Chiseled Brown Sandstone",
     "block.naturescanvas.chiseled_orange_sandstone":"Chiseled Orange Sandstone",
 
     "block.naturescanvas.cut_brown_sandstone":"Cut Brown Sandstone",
+    "block.naturescanvas.cut_brown_sandstone_slab":"Cut Brown Sandstone Slab",
+
     "block.naturescanvas.cut_orange_sandstone":"Cut Orange Sandstone",
+    "block.naturescanvas.cut_orange_sandstone_slab":"Cut Orange Sandstone Slab",
 
     "block.naturescanvas.smooth_brown_sandstone":"Smooth Brown Sandstone",
+    "block.naturescanvas.brown_sandstone_slab":"Brown Sandstone Slab",
+    "block.naturescanvas.brown_sandstone_stairs":"Brown Sandstone Stairs",
+
     "block.naturescanvas.smooth_orange_sandstone":"Smooth Orange Sandstone",
+    "block.naturescanvas.orange_sandstone_slab":"Orange Sandstone Slab",
+    "block.naturescanvas.orange_sandstone_stairs":"Orange Sandstone Stairs",
+
 
     "block.naturescanvas.black_sand":"Black Sand",
     "block.naturescanvas.brown_sand":"Brown Sand",

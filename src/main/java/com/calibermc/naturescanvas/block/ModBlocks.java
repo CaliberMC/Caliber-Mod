@@ -474,19 +474,19 @@ public class ModBlocks {
 
     // -- MARBLE -- SLAB
     public static final RegistryObject<Block> BLACK_MARBLE_SLAB = registerBlock("black_marble_slab",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5f).requiresCorrectToolForDrops()), CreativeTab.NATURESCANVAS_TAB);
     public static final RegistryObject<Block> GRAY_MARBLE_SLAB = registerBlock("gray_marble_slab",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5f).requiresCorrectToolForDrops()), CreativeTab.NATURESCANVAS_TAB);
     public static final RegistryObject<Block> PINK_MARBLE_SLAB = registerBlock("pink_marble_slab",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5f).requiresCorrectToolForDrops()), CreativeTab.NATURESCANVAS_TAB);
     public static final RegistryObject<Block> RED_MARBLE_SLAB = registerBlock("red_marble_slab",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5f).requiresCorrectToolForDrops()), CreativeTab.NATURESCANVAS_TAB);
     public static final RegistryObject<Block> WHITE_MARBLE_SLAB = registerBlock("white_marble_slab",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5f).requiresCorrectToolForDrops()), CreativeTab.NATURESCANVAS_TAB);
 
     // -- MARBLE -- STAIRS
@@ -548,19 +548,19 @@ public class ModBlocks {
 
     // -- MARBLE -- POLISHED -- SLAB
     public static final RegistryObject<Block> POLISHED_BLACK_MARBLE_SLAB = registerBlock("polished_black_marble_slab",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5f).requiresCorrectToolForDrops()), CreativeTab.NATURESCANVAS_TAB);
     public static final RegistryObject<Block> POLISHED_GRAY_MARBLE_SLAB = registerBlock("polished_gray_marble_slab",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5f).requiresCorrectToolForDrops()), CreativeTab.NATURESCANVAS_TAB);
     public static final RegistryObject<Block> POLISHED_PINK_MARBLE_SLAB = registerBlock("polished_pink_marble_slab",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5f).requiresCorrectToolForDrops()), CreativeTab.NATURESCANVAS_TAB);
     public static final RegistryObject<Block> POLISHED_RED_MARBLE_SLAB = registerBlock("polished_red_marble_slab",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5f).requiresCorrectToolForDrops()), CreativeTab.NATURESCANVAS_TAB);
     public static final RegistryObject<Block> POLISHED_WHITE_MARBLE_SLAB = registerBlock("polished_white_marble_slab",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5f).requiresCorrectToolForDrops()), CreativeTab.NATURESCANVAS_TAB);
 
     // -- MARBLE -- POLISHED -- STAIRS
@@ -613,10 +613,10 @@ public class ModBlocks {
 
     // -- SANDSTONE -- SLAB
     public static final RegistryObject<Block> BROWN_SANDSTONE_SLAB = registerBlock("brown_sandstone_slab",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(0.8f).requiresCorrectToolForDrops()), CreativeTab.NATURESCANVAS_TAB);
     public static final RegistryObject<Block> ORANGE_SANDSTONE_SLAB = registerBlock("orange_sandstone_slab",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(0.8f).requiresCorrectToolForDrops()), CreativeTab.NATURESCANVAS_TAB);
 
     // -- SANDSTONE -- STAIRS
@@ -656,10 +656,10 @@ public class ModBlocks {
 
     // -- SANDSTONE -- CUT -- SLAB
     public static final RegistryObject<Block> CUT_BROWN_SANDSTONE_SLAB = registerBlock("cut_brown_sandstone_slab",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(0.8f).requiresCorrectToolForDrops()), CreativeTab.NATURESCANVAS_TAB);
     public static final RegistryObject<Block> CUT_ORANGE_SANDSTONE_SLAB = registerBlock("cut_orange_sandstone_slab",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(0.8f).requiresCorrectToolForDrops()), CreativeTab.NATURESCANVAS_TAB);
 
 
@@ -673,10 +673,10 @@ public class ModBlocks {
 
     // -- SANDSTONE -- SMOOTH -- SLAB
     public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_SLAB = registerBlock("smooth_brown_sandstone_slab",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(2.0f).requiresCorrectToolForDrops()), CreativeTab.NATURESCANVAS_TAB);
     public static final RegistryObject<Block> SMOOTH_ORANGE_SANDSTONE_SLAB = registerBlock("smooth_orange_sandstone_slab",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(2.0f).requiresCorrectToolForDrops()), CreativeTab.NATURESCANVAS_TAB);
 
     // -- SANDSTONE -- SMOOTH -- STAIRS
