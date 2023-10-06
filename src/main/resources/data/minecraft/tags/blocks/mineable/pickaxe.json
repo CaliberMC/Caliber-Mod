@@ -1,6 +1,14 @@
 {
   "replace": false,
   "values": [
+    "naturescanvas:tin_block",
+    "naturescanvas:raw_tin_block",
+    "naturescanvas:tin_ore",
+    "naturescanvas:deepslate_tin_ore",
+    "naturescanvas:silver_block",
+    "naturescanvas:raw_silver_block",
+    "naturescanvas:silver_ore",
+    "naturescanvas:deepslate_silver_ore",
     "naturescanvas:black_granite",
     "naturescanvas:brown_granite",
     "naturescanvas:gray_granite",
