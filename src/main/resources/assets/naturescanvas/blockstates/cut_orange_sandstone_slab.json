@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "naturescanvas:block/cut_orange_sandstone_slab"
+    },
+    "type=double": {
+      "model": "naturescanvas:block/cut_orange_sandstone"
+    },
+    "type=top": {
+      "model": "naturescanvas:block/cut_orange_sandstone_slab_top"
+    }
+  }
+}

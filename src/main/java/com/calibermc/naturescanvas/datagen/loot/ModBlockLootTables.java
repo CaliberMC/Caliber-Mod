@@ -211,8 +211,8 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.ORANGE_SAND.get());
         this.dropSelf(ModBlocks.WHITE_SAND.get());
 
-//         add(ModBlocks.COBALT_ORE.get(), (cobaltOre) ->
-//                 createOreDrop(cobaltOre, ModItems.COBALT_INGOT.get()));
+//         add(ModBlocks.tin_ORE.get(), (tinOre) ->
+//                 createOreDrop(tinOre, ModItems.tin_INGOT.get()));
     }
 
     @Override

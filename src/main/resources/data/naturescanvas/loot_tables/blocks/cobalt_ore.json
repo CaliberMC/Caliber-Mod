@@ -25,7 +25,7 @@
                   }
                 }
               ],
-              "name": "naturescanvas:cobalt_ore"
+              "name": "naturescanvas:tin_ore"
             },
             {
               "type": "minecraft:item",
@@ -48,7 +48,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "naturescanvas:raw_cobalt"
+              "name": "naturescanvas:raw_tin"
             }
           ]
         }

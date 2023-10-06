@@ -11,13 +11,23 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, NaturesCanvas.MOD_ID);
 
-    public static final RegistryObject<Item> COBALT_INGOT = ITEMS.register("cobalt_ingot",
+    public static final RegistryObject<Item> TIN_INGOT = ITEMS.register("tin_ingot",
             () -> new Item(new Item.Properties().tab(CreativeTab.NATURESCANVAS_TAB)));
-    public static final RegistryObject<Item> COBALT_NUGGET = ITEMS.register("cobalt_nugget",
+    public static final RegistryObject<Item> TIN_NUGGET = ITEMS.register("tin_nugget",
             () -> new Item(new Item.Properties().tab(CreativeTab.NATURESCANVAS_TAB)));
 
-    public static final RegistryObject<Item> RAW_COBALT = ITEMS.register("raw_cobalt",
+    public static final RegistryObject<Item> RAW_TIN = ITEMS.register("raw_tin",
             () -> new Item(new Item.Properties().tab(CreativeTab.NATURESCANVAS_TAB)));
+
+    public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot",
+            () -> new Item(new Item.Properties().tab(CreativeTab.NATURESCANVAS_TAB)));
+    public static final RegistryObject<Item> SILVER_NUGGET = ITEMS.register("silver_nugget",
+            () -> new Item(new Item.Properties().tab(CreativeTab.NATURESCANVAS_TAB)));
+
+    public static final RegistryObject<Item> RAW_SILVER = ITEMS.register("raw_silver",
+            () -> new Item(new Item.Properties().tab(CreativeTab.NATURESCANVAS_TAB)));
+    
+
 
 
 

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "naturescanvas:cobalt_ingot"
+      "item": "naturescanvas:tin_ingot"
     }
   },
   "result": {
-    "item": "naturescanvas:cobalt_block"
+    "item": "naturescanvas:tin_block"
   }
 }

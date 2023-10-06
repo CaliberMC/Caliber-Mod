@@ -1,13 +1,23 @@
 {
-    "item.naturescanvas.cobalt_ingot": "Cobalt Ingot",
-    "item.naturescanvas.cobalt_nugget": "Cobalt Nugget",
-    "item.naturescanvas.raw_cobalt": "Raw Cobalt",
+    "item.naturescanvas.tin_ingot": "Tin Ingot",
+    "item.naturescanvas.tin_nugget": "Tin Nugget",
+    "item.naturescanvas.raw_tin": "Raw Tin",
 
 
-    "block.naturescanvas.cobalt_block": "Cobalt Block",
-    "block.naturescanvas.cobalt_ore": "Cobalt Ore",
-    "block.naturescanvas.raw_cobalt_block": "Raw Cobalt Block",
-    "block.naturescanvas.deepslate_cobalt_ore": "Deepslate Cobalt Ore",
+    "block.naturescanvas.tin_block": "Tin Block",
+    "block.naturescanvas.tin_ore": "Tin Ore",
+    "block.naturescanvas.raw_tin_block": "Raw Tin Block",
+    "block.naturescanvas.deepslate_tin_ore": "Deepslate Tin Ore",
+
+    "item.naturescanvas.silver_ingot": "Silver Ingot",
+    "item.naturescanvas.silver_nugget": "Silver Nugget",
+    "item.naturescanvas.raw_silver": "Raw Silver",
+
+
+    "block.naturescanvas.silver_block": "Silver Block",
+    "block.naturescanvas.silver_ore": "Silver Ore",
+    "block.naturescanvas.raw_silver_block": "Raw Silver Block",
+    "block.naturescanvas.deepslate_silver_ore": "Deepslate Silver Ore",
 
     "block.naturescanvas.black_granite": "Black Granite",
     "block.naturescanvas.brown_granite": "Brown Granite",
@@ -195,10 +205,14 @@
     "block.naturescanvas.smooth_brown_sandstone":"Smooth Brown Sandstone",
     "block.naturescanvas.brown_sandstone_slab":"Brown Sandstone Slab",
     "block.naturescanvas.brown_sandstone_stairs":"Brown Sandstone Stairs",
+    "block.naturescanvas.smooth_brown_sandstone_slab":"Smooth Brown Sandstone Slab",
+    "block.naturescanvas.smooth_brown_sandstone_stairs":"Smooth Brown Sandstone Stairs",
 
     "block.naturescanvas.smooth_orange_sandstone":"Smooth Orange Sandstone",
     "block.naturescanvas.orange_sandstone_slab":"Orange Sandstone Slab",
     "block.naturescanvas.orange_sandstone_stairs":"Orange Sandstone Stairs",
+    "block.naturescanvas.smooth_orange_sandstone_slab":"Smooth Orange Sandstone Slab",
+    "block.naturescanvas.smooth_orange_sandstone_stairs":"Smooth Orange Sandstone Stairs",
 
 
     "block.naturescanvas.black_sand":"Black Sand",

@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "naturescanvas:dark_limestone_bricks",
+    "naturescanvas:light_limestone_bricks",
+    "naturescanvas:pink_limestone_bricks",
+    "naturescanvas:tan_limestone_bricks",
+    "naturescanvas:cracked_dark_limestone_bricks",
+    "naturescanvas:cracked_light_limestone_bricks",
+    "naturescanvas:cracked_pink_limestone_bricks",
+    "naturescanvas:cracked_tan_limestone_bricks",
+    "naturescanvas:chiseled_dark_limestone_bricks",
+    "naturescanvas:chiseled_light_limestone_bricks",
+    "naturescanvas:chiseled_pink_limestone_bricks",
+    "naturescanvas:chiseled_tan_limestone_bricks"
+  ]
+}

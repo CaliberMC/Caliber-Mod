@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "naturescanvas:block/pink_limestone_bricks"
+  }
+}
