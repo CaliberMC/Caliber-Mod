@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "side": "naturescanvas:block/cobbled_pink_limestone",
-    "bottom": "naturescanvas:block/cobbled_pink_limestone",
-    "top": "naturescanvas:block/cobbled_pink_limestone"
-  }
-}

@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "naturescanvas:brown_sandstone"
+    "item": "caliber:brown_sandstone"
   },
-  "result": "naturescanvas:smooth_brown_sandstone",
+  "result": "caliber:smooth_brown_sandstone",
   "experience": 0.1,
   "cookingtime": 200
 }

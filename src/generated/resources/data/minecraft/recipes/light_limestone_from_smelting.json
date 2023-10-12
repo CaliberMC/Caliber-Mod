@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "naturescanvas:cobbled_light_limestone"
+    "item": "caliber:cobbled_light_limestone"
   },
-  "result": "naturescanvas:light_limestone",
+  "result": "caliber:light_limestone",
   "experience": 0.1,
   "cookingtime": 200
 }

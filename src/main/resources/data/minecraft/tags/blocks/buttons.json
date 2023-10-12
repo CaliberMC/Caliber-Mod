@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "naturescanvas:dark_limestone_button",
-    "naturescanvas:light_limestone_button",
-    "naturescanvas:pink_limestone_button",
-    "naturescanvas:tan_limestone_button"
+    "caliber:dark_limestone_button",
+    "caliber:light_limestone_button",
+    "caliber:pink_limestone_button",
+    "caliber:tan_limestone_button"
   ]
 }

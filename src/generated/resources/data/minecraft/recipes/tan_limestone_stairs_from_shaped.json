@@ -7,11 +7,11 @@
   ],
   "key": {
     "L": {
-      "item": "naturescanvas:tan_limestone"
+      "item": "caliber:tan_limestone"
     }
   },
   "result": {
-    "item": "naturescanvas:tan_limestone_stairs",
+    "item": "caliber:tan_limestone_stairs",
     "count": 4
   }
 }

@@ -17,8 +17,8 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
 version = '0.0.2-1.18.2'
-group = 'com.calibermc.naturescanvas' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'naturescanvas'
+group = 'com.calibermc.caliber' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'caliber'
 
 // Mojang ships Java 17 to end users in 1.18+, so your mod should target Java 17.
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
@@ -59,7 +59,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                naturescanvas {
+                caliber {
                     source sourceSets.main
                 }
             }
@@ -81,7 +81,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                naturescanvas {
+                caliber {
                     source sourceSets.main
                 }
             }
@@ -103,10 +103,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
-            args '--mod', 'naturescanvas', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            args '--mod', 'caliber', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
-                naturescanvas {
+                caliber {
                     source sourceSets.main
                 }
             }
@@ -150,7 +150,7 @@ dependencies {
 jar {
     manifest {
         attributes([
-                "Specification-Title"     : "naturescanvas",
+                "Specification-Title"     : "caliber",
                 "Specification-Vendor"    : "calibermc",
                 "Specification-Version"   : "1",
                 "Implementation-Title"    : project.name,

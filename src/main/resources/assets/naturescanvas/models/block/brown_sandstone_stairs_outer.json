@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/outer_stairs",
-  "textures": {
-    "bottom": "naturescanvas:block/brown_sandstone_bottom",
-    "top": "naturescanvas:block/brown_sandstone_top",
-    "side": "naturescanvas:block/brown_sandstone"
-  }
-}

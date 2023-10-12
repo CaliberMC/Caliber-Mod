@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "naturescanvas:pink_marble"
+    "item": "caliber:pink_marble"
   },
-  "result": "naturescanvas:polished_pink_marble_slab",
+  "result": "caliber:polished_pink_marble_slab",
   "count": 2
 }

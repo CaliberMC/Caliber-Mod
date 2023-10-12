@@ -1,21 +1,21 @@
 {
   "replace": false,
   "values": [
-    "naturescanvas:black_granite",
-    "naturescanvas:brown_granite",
-    "naturescanvas:gray_granite",
-    "naturescanvas:pink_granite",
-    "naturescanvas:white_granite",
+    "caliber:black_granite",
+    "caliber:brown_granite",
+    "caliber:gray_granite",
+    "caliber:pink_granite",
+    "caliber:white_granite",
 
-    "naturescanvas:dark_limestone",
-    "naturescanvas:light_limestone",
-    "naturescanvas:pink_limestone",
-    "naturescanvas:tan_limestone",
+    "caliber:dark_limestone",
+    "caliber:light_limestone",
+    "caliber:pink_limestone",
+    "caliber:tan_limestone",
 
-    "naturescanvas:black_marble",
-    "naturescanvas:gray_marble",
-    "naturescanvas:pink_marble",
-    "naturescanvas:red_marble",
-    "naturescanvas:white_marble"
+    "caliber:black_marble",
+    "caliber:gray_marble",
+    "caliber:pink_marble",
+    "caliber:red_marble",
+    "caliber:white_marble"
   ]
 }

@@ -5,11 +5,11 @@
   ],
   "key": {
     "G": {
-      "item": "naturescanvas:polished_gray_granite"
+      "item": "caliber:polished_gray_granite"
     }
   },
   "result": {
-    "item": "naturescanvas:polished_gray_granite_slab",
+    "item": "caliber:polished_gray_granite_slab",
     "count": 6
   }
 }

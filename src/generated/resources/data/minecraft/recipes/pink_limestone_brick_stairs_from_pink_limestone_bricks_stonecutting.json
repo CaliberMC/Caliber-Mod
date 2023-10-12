@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "naturescanvas:pink_limestone_bricks"
+    "item": "caliber:pink_limestone_bricks"
   },
-  "result": "naturescanvas:pink_limestone_brick_stairs",
+  "result": "caliber:pink_limestone_brick_stairs",
   "count": 1
 }

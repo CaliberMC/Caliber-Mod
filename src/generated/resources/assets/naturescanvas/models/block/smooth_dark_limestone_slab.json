@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "side": "naturescanvas:block/smooth_dark_limestone",
-    "bottom": "naturescanvas:block/smooth_dark_limestone",
-    "top": "naturescanvas:block/smooth_dark_limestone"
-  }
-}

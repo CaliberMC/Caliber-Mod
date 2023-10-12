@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "naturescanvas:pink_limestone"
+    "item": "caliber:pink_limestone"
   },
-  "result": "naturescanvas:chiseled_pink_limestone_bricks",
+  "result": "caliber:chiseled_pink_limestone_bricks",
   "count": 1
 }

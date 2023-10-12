@@ -6,11 +6,11 @@
   ],
   "key": {
     "M": {
-      "item": "naturescanvas:white_marble"
+      "item": "caliber:white_marble"
     }
   },
   "result": {
-    "item": "naturescanvas:polished_white_marble",
+    "item": "caliber:polished_white_marble",
     "count": 4
   }
 }

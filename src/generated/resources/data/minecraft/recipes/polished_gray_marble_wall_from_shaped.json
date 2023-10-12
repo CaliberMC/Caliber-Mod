@@ -6,11 +6,11 @@
   ],
   "key": {
     "M": {
-      "item": "naturescanvas:polished_gray_marble"
+      "item": "caliber:polished_gray_marble"
     }
   },
   "result": {
-    "item": "naturescanvas:polished_gray_marble_wall",
+    "item": "caliber:polished_gray_marble_wall",
     "count": 6
   }
 }

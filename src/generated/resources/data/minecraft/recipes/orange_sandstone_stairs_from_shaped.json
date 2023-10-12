@@ -7,11 +7,11 @@
   ],
   "key": {
     "S": {
-      "item": "naturescanvas:orange_sandstone"
+      "item": "caliber:orange_sandstone"
     }
   },
   "result": {
-    "item": "naturescanvas:orange_sandstone_stairs",
+    "item": "caliber:orange_sandstone_stairs",
     "count": 4
   }
 }

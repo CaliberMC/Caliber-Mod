@@ -5,11 +5,11 @@
   ],
   "key": {
     "S": {
-      "item": "naturescanvas:brown_sandstone"
+      "item": "caliber:brown_sandstone"
     }
   },
   "result": {
-    "item": "naturescanvas:brown_sandstone_slab",
+    "item": "caliber:brown_sandstone_slab",
     "count": 6
   }
 }

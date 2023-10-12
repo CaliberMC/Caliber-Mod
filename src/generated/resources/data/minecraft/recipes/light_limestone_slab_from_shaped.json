@@ -5,11 +5,11 @@
   ],
   "key": {
     "L": {
-      "item": "naturescanvas:light_limestone"
+      "item": "caliber:light_limestone"
     }
   },
   "result": {
-    "item": "naturescanvas:light_limestone_slab",
+    "item": "caliber:light_limestone_slab",
     "count": 6
   }
 }

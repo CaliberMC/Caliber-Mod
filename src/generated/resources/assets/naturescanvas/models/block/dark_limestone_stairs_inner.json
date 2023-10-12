@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "side": "naturescanvas:block/dark_limestone",
-    "bottom": "naturescanvas:block/dark_limestone",
-    "top": "naturescanvas:block/dark_limestone"
-  }
-}

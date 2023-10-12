@@ -6,11 +6,11 @@
   ],
   "key": {
     "L": {
-      "item": "naturescanvas:cobbled_pink_limestone"
+      "item": "caliber:cobbled_pink_limestone"
     }
   },
   "result": {
-    "item": "naturescanvas:cobbled_pink_limestone_wall",
+    "item": "caliber:cobbled_pink_limestone_wall",
     "count": 6
   }
 }

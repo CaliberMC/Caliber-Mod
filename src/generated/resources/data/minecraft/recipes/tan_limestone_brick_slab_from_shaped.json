@@ -5,11 +5,11 @@
   ],
   "key": {
     "L": {
-      "item": "naturescanvas:tan_limestone_bricks"
+      "item": "caliber:tan_limestone_bricks"
     }
   },
   "result": {
-    "item": "naturescanvas:tan_limestone_brick_slab",
+    "item": "caliber:tan_limestone_brick_slab",
     "count": 6
   }
 }

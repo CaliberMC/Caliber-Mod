@@ -5,11 +5,11 @@
   ],
   "key": {
     "L": {
-      "item": "naturescanvas:smooth_pink_limestone"
+      "item": "caliber:smooth_pink_limestone"
     }
   },
   "result": {
-    "item": "naturescanvas:smooth_pink_limestone_slab",
+    "item": "caliber:smooth_pink_limestone_slab",
     "count": 6
   }
 }

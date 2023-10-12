@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "naturescanvas:cut_orange_sandstone"
+    "item": "caliber:cut_orange_sandstone"
   },
-  "result": "naturescanvas:cut_orange_sandstone_slab",
+  "result": "caliber:cut_orange_sandstone_slab",
   "count": 2
 }

@@ -7,11 +7,11 @@
   ],
   "key": {
     "M": {
-      "item": "naturescanvas:polished_red_marble"
+      "item": "caliber:polished_red_marble"
     }
   },
   "result": {
-    "item": "naturescanvas:polished_red_marble_stairs",
+    "item": "caliber:polished_red_marble_stairs",
     "count": 4
   }
 }

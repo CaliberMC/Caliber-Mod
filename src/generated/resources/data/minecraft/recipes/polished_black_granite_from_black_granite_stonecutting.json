@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "naturescanvas:black_granite"
+    "item": "caliber:black_granite"
   },
-  "result": "naturescanvas:polished_black_granite",
+  "result": "caliber:polished_black_granite",
   "count": 1
 }

@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "side": "naturescanvas:block/pink_marble",
-    "bottom": "naturescanvas:block/pink_marble",
-    "top": "naturescanvas:block/pink_marble"
-  }
-}

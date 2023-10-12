@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "naturescanvas:block/polished_red_marble"
-  }
-}

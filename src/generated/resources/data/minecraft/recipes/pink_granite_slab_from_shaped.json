@@ -5,11 +5,11 @@
   ],
   "key": {
     "G": {
-      "item": "naturescanvas:pink_granite"
+      "item": "caliber:pink_granite"
     }
   },
   "result": {
-    "item": "naturescanvas:pink_granite_slab",
+    "item": "caliber:pink_granite_slab",
     "count": 6
   }
 }

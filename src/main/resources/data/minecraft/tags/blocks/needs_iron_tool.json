@@ -1,13 +1,13 @@
 {
   "replace": false,
   "values": [
-    "naturescanvas:tin_block",
-    "naturescanvas:raw_tin_block",
-    "naturescanvas:tin_ore",
-    "naturescanvas:deepslate_tin_ore",
-    "naturescanvas:silver_block",
-    "naturescanvas:raw_silver_block",
-    "naturescanvas:silver_ore",
-    "naturescanvas:deepslate_silver_ore"
+    "caliber:tin_block",
+    "caliber:raw_tin_block",
+    "caliber:tin_ore",
+    "caliber:deepslate_tin_ore",
+    "caliber:silver_block",
+    "caliber:raw_silver_block",
+    "caliber:silver_ore",
+    "caliber:deepslate_silver_ore"
   ]
 }

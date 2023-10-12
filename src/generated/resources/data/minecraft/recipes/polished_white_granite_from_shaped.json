@@ -6,11 +6,11 @@
   ],
   "key": {
     "G": {
-      "item": "naturescanvas:white_granite"
+      "item": "caliber:white_granite"
     }
   },
   "result": {
-    "item": "naturescanvas:polished_white_granite",
+    "item": "caliber:polished_white_granite",
     "count": 4
   }
 }

@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "naturescanvas:brown_sandstone"
+    "item": "caliber:brown_sandstone"
   },
-  "result": "naturescanvas:chiseled_brown_sandstone",
+  "result": "caliber:chiseled_brown_sandstone",
   "count": 1
 }

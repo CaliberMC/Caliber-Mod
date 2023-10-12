@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/outer_stairs",
-  "textures": {
-    "side": "naturescanvas:block/cobbled_tan_limestone",
-    "bottom": "naturescanvas:block/cobbled_tan_limestone",
-    "top": "naturescanvas:block/cobbled_tan_limestone"
-  }
-}

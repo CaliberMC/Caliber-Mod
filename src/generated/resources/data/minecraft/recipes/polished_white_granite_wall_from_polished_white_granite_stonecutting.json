@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "naturescanvas:polished_white_granite"
+    "item": "caliber:polished_white_granite"
   },
-  "result": "naturescanvas:polished_white_granite_wall",
+  "result": "caliber:polished_white_granite_wall",
   "count": 1
 }

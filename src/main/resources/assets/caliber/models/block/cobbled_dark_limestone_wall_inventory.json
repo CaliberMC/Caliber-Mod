@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "caliber:block/cobbled_dark_limestone"
+  }
+}

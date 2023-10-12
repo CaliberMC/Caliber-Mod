@@ -7,11 +7,11 @@
   ],
   "key": {
     "G": {
-      "item": "naturescanvas:polished_brown_granite"
+      "item": "caliber:polished_brown_granite"
     }
   },
   "result": {
-    "item": "naturescanvas:polished_brown_granite_stairs",
+    "item": "caliber:polished_brown_granite_stairs",
     "count": 4
   }
 }

@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "naturescanvas:cobbled_light_limestone"
+    "item": "caliber:cobbled_light_limestone"
   },
-  "result": "naturescanvas:cobbled_light_limestone_stairs",
+  "result": "caliber:cobbled_light_limestone_stairs",
   "count": 1
 }

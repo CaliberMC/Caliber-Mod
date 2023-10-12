@@ -5,11 +5,11 @@
   ],
   "key": {
     "G": {
-      "item": "naturescanvas:brown_granite"
+      "item": "caliber:brown_granite"
     }
   },
   "result": {
-    "item": "naturescanvas:brown_granite_slab",
+    "item": "caliber:brown_granite_slab",
     "count": 6
   }
 }

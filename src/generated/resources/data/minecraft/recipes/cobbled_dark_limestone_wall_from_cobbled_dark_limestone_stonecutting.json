@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "naturescanvas:cobbled_dark_limestone"
+    "item": "caliber:cobbled_dark_limestone"
   },
-  "result": "naturescanvas:cobbled_dark_limestone_wall",
+  "result": "caliber:cobbled_dark_limestone_wall",
   "count": 1
 }

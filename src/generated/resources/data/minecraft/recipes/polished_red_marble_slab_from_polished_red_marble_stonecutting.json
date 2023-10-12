@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "naturescanvas:polished_red_marble"
+    "item": "caliber:polished_red_marble"
   },
-  "result": "naturescanvas:polished_red_marble_slab",
+  "result": "caliber:polished_red_marble_slab",
   "count": 2
 }

@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "naturescanvas:dark_limestone_pressure_plate",
-    "naturescanvas:light_limestone_pressure_plate",
-    "naturescanvas:pink_limestone_pressure_plate",
-    "naturescanvas:tan_limestone_pressure_plate"
+    "caliber:dark_limestone_pressure_plate",
+    "caliber:light_limestone_pressure_plate",
+    "caliber:pink_limestone_pressure_plate",
+    "caliber:tan_limestone_pressure_plate"
   ]
 }
