@@ -21,7 +21,7 @@ modId="naturescanvas" #mandatory
 # see the associated build.gradle script for how to populate this completely automatically during a build
 version="${file.jarVersion}" #mandatory
  # A display name for the mod
-displayName="Minecraft Modding Course Mod" #mandatory
+displayName="Natures Canvas" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://mcforge.readthedocs.io/en/latest/gettingstarted/autoupdate/
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
@@ -34,7 +34,7 @@ credits="Thanks for this example mod goes to Java" #optional
 authors="CaliberMC" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Natures Canvas aims to add more blocks from our natural world into Minecraft.  This mod is a work in progress and will be updated as my free time permits.
+Natures Canvas aims to add more block variations from the natural world into Minecraft.  This mod is a work in progress and will be updated as my free time permits.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.naturescanvas]] #optional
