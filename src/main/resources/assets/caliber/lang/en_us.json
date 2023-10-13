@@ -1,9 +1,9 @@
 {
+    "block.caliber.smelter": "Smelter",
+
     "item.caliber.tin_ingot": "Tin Ingot",
     "item.caliber.tin_nugget": "Tin Nugget",
     "item.caliber.raw_tin": "Raw Tin",
-
-
     "block.caliber.tin_block": "Tin Block",
     "block.caliber.tin_ore": "Tin Ore",
     "block.caliber.raw_tin_block": "Raw Tin Block",
@@ -12,8 +12,6 @@
     "item.caliber.silver_ingot": "Silver Ingot",
     "item.caliber.silver_nugget": "Silver Nugget",
     "item.caliber.raw_silver": "Raw Silver",
-
-
     "block.caliber.silver_block": "Silver Block",
     "block.caliber.silver_ore": "Silver Ore",
     "block.caliber.raw_silver_block": "Raw Silver Block",

@@ -21,6 +21,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     protected void buildCraftingRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
 
         // METAL BLOCKS/ITEMS
+        ShapedRecipeBuilder.shaped(ModBlocks.BRONZE_BLOCK.get(), 1).define('B', ModItems.BRONZE_INGOT.get()).pattern("BBB").pattern("BBB").pattern("BBB").unlockedBy("has_bronze_ingot",
+                        inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.BRONZE_INGOT.get()).build())).save(pFinishedRecipeConsumer, "bronze_block_from_shaped_ingots");
+        ShapelessRecipeBuilder.shapeless(ModItems.BRONZE_INGOT.get(), 9).requires(ModBlocks.BRONZE_BLOCK.get()).unlockedBy("has_bronze_block",
+                        inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BRONZE_BLOCK.get()).build())).save(pFinishedRecipeConsumer, "bronze_ingot_from_bronze_block");
+        // SPECIAL CRAFTING RECIPES FOR BRONZE INGOT
+
+        // Smelting with new table
         ShapedRecipeBuilder.shaped(ModBlocks.TIN_BLOCK.get(), 1).define('T', ModItems.TIN_INGOT.get()).pattern("TTT").pattern("TTT").pattern("TTT").unlockedBy("has_tin_ore",
                         inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.TIN_INGOT.get()).build())).save(pFinishedRecipeConsumer, "tin_block_from_shaped_ingots");
         ShapelessRecipeBuilder.shapeless(ModItems.TIN_INGOT.get(), 9).requires(ModBlocks.TIN_ORE.get()).unlockedBy("has_tin_ore",

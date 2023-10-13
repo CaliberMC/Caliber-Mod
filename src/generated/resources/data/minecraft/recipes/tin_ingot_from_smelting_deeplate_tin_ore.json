@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "caliber:deepslate_tin_ore"
+  },
+  "result": "caliber:tin_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

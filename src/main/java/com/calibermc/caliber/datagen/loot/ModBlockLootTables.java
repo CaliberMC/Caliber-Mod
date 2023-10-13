@@ -10,7 +10,10 @@ public class ModBlockLootTables extends BlockLoot {
     @Override
     protected void addTables() {
 
-        // -- ORES
+        // SMELTER
+        this.dropSelf(ModBlocks.SMELTER.get());
+
+        // ORES
         add(ModBlocks.TIN_ORE.get(), (Block) ->
                 createOreDrop(ModBlocks.TIN_ORE.get(), ModItems.RAW_TIN.get()));
         add(ModBlocks.DEEPSLATE_TIN_ORE.get(), (Block) ->

@@ -11,6 +11,9 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, Caliber.MOD_ID);
 
+    public static final RegistryObject<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot",
+            () -> new Item(new Item.Properties().tab(CreativeTab.CALIBER_TAB)));
+
     public static final RegistryObject<Item> TIN_INGOT = ITEMS.register("tin_ingot",
             () -> new Item(new Item.Properties().tab(CreativeTab.CALIBER_TAB)));
     public static final RegistryObject<Item> TIN_NUGGET = ITEMS.register("tin_nugget",
