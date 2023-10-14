@@ -1,10 +1,7 @@
 package com.calibermc.caliber;
 
 import com.calibermc.caliber.block.ModBlocks;
-import com.calibermc.caliber.block.entity.ModBlockEntities;
 import com.calibermc.caliber.item.ModItems;
-import com.calibermc.caliber.recipe.ModRecipes;
-import com.calibermc.caliber.screen.ModMenuTypes;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -28,11 +25,6 @@ public class Caliber {
 
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);
-
-        ModBlockEntities.register(eventBus);
-        ModMenuTypes.register(eventBus);
-
-        ModRecipes.register(eventBus);
 
         eventBus.addListener(this::setup);
 

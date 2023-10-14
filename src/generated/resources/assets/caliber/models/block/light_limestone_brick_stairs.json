@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "side": "caliber:block/light_limestone_bricks",
-    "bottom": "caliber:block/light_limestone_bricks",
-    "top": "caliber:block/light_limestone_bricks"
-  }
-}

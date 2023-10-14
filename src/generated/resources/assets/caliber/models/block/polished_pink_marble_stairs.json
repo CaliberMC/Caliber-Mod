@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "side": "caliber:block/polished_pink_marble",
-    "bottom": "caliber:block/polished_pink_marble",
-    "top": "caliber:block/polished_pink_marble"
-  }
-}

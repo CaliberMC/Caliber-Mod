@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "caliber:deepslate_silver_ore"
-  },
-  "result": "caliber:silver_ingot",
-  "experience": 1.0,
-  "cookingtime": 200
-}

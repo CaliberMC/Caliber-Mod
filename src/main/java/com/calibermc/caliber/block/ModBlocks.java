@@ -19,19 +19,7 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, Caliber.MOD_ID);
 
-    // SMELTER
-
-    public static final RegistryObject<Block> SMELTER = registerBlock("smelter",
-            () -> new SmelterBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)),
-            CreativeTab.CALIBER_TAB);
-
-
-
     // METAL BLOCKS
-    public static final RegistryObject<Block> BRONZE_BLOCK = registerBlock("bronze_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(6f).requiresCorrectToolForDrops()), CreativeTab.CALIBER_TAB);
-
     public static final RegistryObject<Block> TIN_BLOCK = registerBlock("tin_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(5f).requiresCorrectToolForDrops()), CreativeTab.CALIBER_TAB);
@@ -60,7 +48,7 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(2f).requiresCorrectToolForDrops()), CreativeTab.CALIBER_TAB);
 
-
+    // #####BRONZE STUFF#####
 
     // STONE BLOCKS
 

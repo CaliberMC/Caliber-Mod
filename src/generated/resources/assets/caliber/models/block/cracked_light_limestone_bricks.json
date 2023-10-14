@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "caliber:block/cracked_light_limestone_bricks"
-  }
-}
