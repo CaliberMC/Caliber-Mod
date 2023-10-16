@@ -2,6 +2,8 @@ package com.calibermc.caliber;
 
 import com.calibermc.caliber.block.ModBlocks;
 import com.calibermc.caliber.item.ModItems;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -25,6 +27,8 @@ public class Caliber {
 
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);
+
+//        ItemBlockRenderTypes.setRenderLayer(ModBlocks.BLACK_GRANITE_SLAB_VERTICAL.get(), RenderType.translucent());
 
         eventBus.addListener(this::setup);
 

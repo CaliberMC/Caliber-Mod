@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "caliber:block/white_granite_slab_top"
+    },
+    "type=bottom": {
+      "model": "caliber:block/white_granite_slab"
+    },
+    "type=double": {
+      "model": "caliber:block/white_granite"
+    }
+  }
+}

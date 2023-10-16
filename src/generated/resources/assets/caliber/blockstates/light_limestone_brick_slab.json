@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "caliber:block/light_limestone_brick_slab_top"
+    },
+    "type=bottom": {
+      "model": "caliber:block/light_limestone_brick_slab"
+    },
+    "type=double": {
+      "model": "caliber:block/light_limestone_bricks"
+    }
+  }
+}

@@ -1,6 +1,8 @@
 package com.calibermc.caliber.block;
 
 import com.calibermc.caliber.Caliber;
+import com.calibermc.caliber.block.custom.QuarterBlock;
+import com.calibermc.caliber.block.custom.VerticalSlabBlock;
 import com.calibermc.caliber.item.CreativeTab;
 import com.calibermc.caliber.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -18,6 +20,8 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, Caliber.MOD_ID);
+
+
 
     // METAL BLOCKS
     public static final RegistryObject<Block> TIN_BLOCK = registerBlock("tin_block",
@@ -124,6 +128,21 @@ public class ModBlocks {
     public static final RegistryObject<Block> WHITE_GRANITE_WALL = registerBlock("white_granite_wall",
             () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5f).requiresCorrectToolForDrops()), CreativeTab.CALIBER_TAB);
+
+    // -- GRANITE -- CUSTOM
+    public static final RegistryObject<Block> BLACK_GRANITE_SLAB_VERTICAL = registerBlock("black_granite_slab_vertical",
+            () -> new VerticalSlabBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()),CreativeTab.CALIBER_TAB);
+    public static final RegistryObject<Block> BROWN_GRANITE_SLAB_VERTICAL = registerBlock("brown_granite_slab_vertical",
+            () -> new VerticalSlabBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()),CreativeTab.CALIBER_TAB);
+    public static final RegistryObject<Block> BLACK_GRANITE_QUARTER = registerBlock("black_granite_quarter",
+            () -> new QuarterBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()),CreativeTab.CALIBER_TAB);
+
+    public static final RegistryObject<Block> BROWN_GRANITE_QUARTER = registerBlock("brown_granite_quarter",
+            () -> new QuarterBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()),CreativeTab.CALIBER_TAB);
 
 
     // -- GRANITE -- POLISHED
