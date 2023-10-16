@@ -92,6 +92,7 @@ public class VerticalQuarterBlock extends Block implements SimpleWaterloggedBloc
             double hitX = pContext.getClickLocation().x - (double) blockpos.getX();
             double hitZ = pContext.getClickLocation().z - (double) blockpos.getZ();
             Direction direction = pContext.getClickedFace();
+//            Direction lookingDirection = pContext.getNearestLookingDirection();
             if (direction == Direction.NORTH && hitX < 0.5) {
                 return blockstate1.setValue(TYPE, ShapeType.RIGHT);
             } else if (direction == Direction.SOUTH && hitX > 0.5) {
