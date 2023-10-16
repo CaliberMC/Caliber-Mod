@@ -1,9 +1,9 @@
 package com.calibermc.caliber.util;
 
-import com.calibermc.caliber.block.custom.VerticalSlabType;
+import com.calibermc.caliber.block.custom.ShapeType;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
-import net.minecraft.world.level.block.state.properties.SlabType;
+
 
 public class ModBlockStateProperties {
-    public static final EnumProperty<VerticalSlabType> SLAB_TYPE = EnumProperty.create("type", VerticalSlabType.class);
+    public static final EnumProperty<ShapeType> SHAPE_TYPE = EnumProperty.create("type", ShapeType.class);
 }

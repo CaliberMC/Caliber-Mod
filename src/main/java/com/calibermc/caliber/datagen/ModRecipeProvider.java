@@ -133,6 +133,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WHITE_GRANITE.get()), ModBlocks.WHITE_GRANITE_WALL.get(), 1).unlockedBy("has_white_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "white_granite_wall_from_white_granite_stonecutting");
 
+        // -- GRANITE CUSTOM
+
+
         // -- POLISHED GRANITE
         ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_BLACK_GRANITE.get(), 4).define('G', ModBlocks.BLACK_GRANITE.get()).pattern("GG").pattern("GG").unlockedBy("has_black_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BLACK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_black_granite_from_shaped");

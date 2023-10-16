@@ -2,6 +2,7 @@ package com.calibermc.caliber.block;
 
 import com.calibermc.caliber.Caliber;
 import com.calibermc.caliber.block.custom.QuarterBlock;
+import com.calibermc.caliber.block.custom.VerticalQuarterBlock;
 import com.calibermc.caliber.block.custom.VerticalSlabBlock;
 import com.calibermc.caliber.item.CreativeTab;
 import com.calibermc.caliber.item.ModItems;
@@ -136,12 +137,38 @@ public class ModBlocks {
     public static final RegistryObject<Block> BROWN_GRANITE_SLAB_VERTICAL = registerBlock("brown_granite_slab_vertical",
             () -> new VerticalSlabBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
                     .strength(1.5f).requiresCorrectToolForDrops()),CreativeTab.CALIBER_TAB);
+    public static final RegistryObject<Block> GRAY_GRANITE_SLAB_VERTICAL = registerBlock("gray_granite_slab_vertical",
+            () -> new VerticalSlabBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()),CreativeTab.CALIBER_TAB);
+    public static final RegistryObject<Block> PINK_GRANITE_SLAB_VERTICAL = registerBlock("pink_granite_slab_vertical",
+            () -> new VerticalSlabBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()),CreativeTab.CALIBER_TAB);
+    public static final RegistryObject<Block> RED_GRANITE_SLAB_VERTICAL = registerBlock("red_granite_slab_vertical",
+            () -> new VerticalSlabBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()),CreativeTab.CALIBER_TAB);
+    public static final RegistryObject<Block> WHITE_GRANITE_SLAB_VERTICAL = registerBlock("white_granite_slab_vertical",
+            () -> new VerticalSlabBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()),CreativeTab.CALIBER_TAB);
     public static final RegistryObject<Block> BLACK_GRANITE_QUARTER = registerBlock("black_granite_quarter",
             () -> new QuarterBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
                     .strength(1.5f).requiresCorrectToolForDrops()),CreativeTab.CALIBER_TAB);
-
     public static final RegistryObject<Block> BROWN_GRANITE_QUARTER = registerBlock("brown_granite_quarter",
             () -> new QuarterBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()),CreativeTab.CALIBER_TAB);
+    public static final RegistryObject<Block> GRAY_GRANITE_QUARTER = registerBlock("gray_granite_quarter",
+            () -> new QuarterBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()),CreativeTab.CALIBER_TAB);
+    public static final RegistryObject<Block> PINK_GRANITE_QUARTER = registerBlock("pink_granite_quarter",
+            () -> new QuarterBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()),CreativeTab.CALIBER_TAB);
+    public static final RegistryObject<Block> RED_GRANITE_QUARTER = registerBlock("red_granite_quarter",
+            () -> new QuarterBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()),CreativeTab.CALIBER_TAB);
+    public static final RegistryObject<Block> WHITE_GRANITE_QUARTER = registerBlock("white_granite_quarter",
+            () -> new QuarterBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()),CreativeTab.CALIBER_TAB);
+    public static final RegistryObject<Block> BLACK_GRANITE_QUARTER_VERTICAL = registerBlock("black_granite_quarter_vertical",
+            () -> new VerticalQuarterBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
                     .strength(1.5f).requiresCorrectToolForDrops()),CreativeTab.CALIBER_TAB);
 
 

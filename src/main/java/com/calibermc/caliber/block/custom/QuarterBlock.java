@@ -1,5 +1,6 @@
 package com.calibermc.caliber.block.custom;
 
+import com.calibermc.caliber.util.ModBlockStateProperties;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Maps;
 import net.minecraft.core.BlockPos;
@@ -25,7 +26,7 @@ import java.util.Map;
 public class QuarterBlock extends Block implements SimpleWaterloggedBlock {
 
     public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
-    public static final EnumProperty<SlabType> TYPE = BlockStateProperties.SLAB_TYPE;
+    public static final EnumProperty<ShapeType> TYPE = ModBlockStateProperties.SHAPE_TYPE;
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
     private static final Map<Direction, VoxelShape> TOP_SHAPE = Maps.newEnumMap(ImmutableMap.of(
@@ -44,7 +45,7 @@ public class QuarterBlock extends Block implements SimpleWaterloggedBlock {
         super(properties);
         this.registerDefaultState(this.stateDefinition.any() // ? this.defaultBlockState()
                 .setValue(FACING, Direction.NORTH)
-                .setValue(TYPE, SlabType.BOTTOM)
+                .setValue(TYPE, ShapeType.BOTTOM)
                 .setValue(WATERLOGGED, Boolean.valueOf(false)));
     }
 
@@ -57,14 +58,17 @@ public class QuarterBlock extends Block implements SimpleWaterloggedBlock {
     }
 
     public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
-        SlabType slabtype = pState.getValue(TYPE);
-        switch(slabtype) {
-            case DOUBLE:
+        ShapeType shapeType = pState.getValue(TYPE);
+        switch (shapeType) {
+            case DOUBLE -> {
                 return VerticalSlabBlock.SHAPE.get(pState.getValue(FACING));
-            case TOP:
+            }
+            case TOP -> {
                 return TOP_SHAPE.get(pState.getValue(FACING));
-            default:
+            }
+            default -> {
                 return BOTTOM_SHAPE.get(pState.getValue(FACING));
+            }
         }
     }
 
@@ -73,26 +77,26 @@ public class QuarterBlock extends Block implements SimpleWaterloggedBlock {
         BlockPos blockpos = pContext.getClickedPos();
         BlockState blockstate = pContext.getLevel().getBlockState(blockpos);
         if (blockstate.is(this)) {
-            return blockstate.setValue(TYPE, SlabType.DOUBLE).setValue(WATERLOGGED, Boolean.valueOf(false));
+            return blockstate.setValue(TYPE, ShapeType.DOUBLE).setValue(WATERLOGGED, Boolean.valueOf(false));
         } else {
             FluidState fluidstate = pContext.getLevel().getFluidState(blockpos);
             BlockState blockstate1 = this.defaultBlockState().setValue(FACING, pContext.getHorizontalDirection().getOpposite())
-                    .setValue(TYPE, SlabType.BOTTOM).setValue(WATERLOGGED, Boolean.valueOf(fluidstate.getType() == Fluids.WATER));
+                    .setValue(TYPE, ShapeType.BOTTOM).setValue(WATERLOGGED, Boolean.valueOf(fluidstate.getType() == Fluids.WATER));
             Direction direction = pContext.getClickedFace();
             return direction != Direction.DOWN && (direction == Direction.UP ||
                     !(pContext.getClickLocation().y - (double)blockpos.getY() > 0.5D)) ? blockstate1 :
-                    blockstate1.setValue(FACING, pContext.getHorizontalDirection().getOpposite()).setValue(TYPE, SlabType.TOP);
+                    blockstate1.setValue(FACING, pContext.getHorizontalDirection().getOpposite()).setValue(TYPE, ShapeType.TOP);
         }
     }
 
     public boolean canBeReplaced(BlockState pState, BlockPlaceContext pUseContext) {
         ItemStack itemstack = pUseContext.getItemInHand();
-        SlabType slabtype = pState.getValue(TYPE);
-        if (slabtype != SlabType.DOUBLE && itemstack.is(this.asItem())) {
+        ShapeType shapeType = pState.getValue(TYPE);
+        if (shapeType != ShapeType.DOUBLE && itemstack.is(this.asItem())) {
             if (pUseContext.replacingClickedOnBlock()) {
                 boolean flag = pUseContext.getClickLocation().y - (double)pUseContext.getClickedPos().getY() > 0.5D;
                 Direction direction = pUseContext.getClickedFace();
-                if (slabtype == SlabType.BOTTOM) {
+                if (shapeType == ShapeType.BOTTOM) {
                     return direction == Direction.UP || flag && direction.getAxis().isHorizontal();
                 } else {
                     return direction == Direction.DOWN || !flag && direction.getAxis().isHorizontal();
@@ -110,11 +114,11 @@ public class QuarterBlock extends Block implements SimpleWaterloggedBlock {
     }
 
     public boolean placeLiquid(LevelAccessor pLevel, BlockPos pPos, BlockState pState, FluidState pFluidState) {
-        return pState.getValue(TYPE) != SlabType.DOUBLE ? SimpleWaterloggedBlock.super.placeLiquid(pLevel, pPos, pState, pFluidState) : false;
+        return pState.getValue(TYPE) != ShapeType.DOUBLE ? SimpleWaterloggedBlock.super.placeLiquid(pLevel, pPos, pState, pFluidState) : false;
     }
 
     public boolean canPlaceLiquid(BlockGetter pLevel, BlockPos pPos, BlockState pState, Fluid pFluid) {
-        return pState.getValue(TYPE) != SlabType.DOUBLE ? SimpleWaterloggedBlock.super.canPlaceLiquid(pLevel, pPos, pState, pFluid) : false;
+        return pState.getValue(TYPE) != ShapeType.DOUBLE ? SimpleWaterloggedBlock.super.canPlaceLiquid(pLevel, pPos, pState, pFluid) : false;
     }
 
     /**

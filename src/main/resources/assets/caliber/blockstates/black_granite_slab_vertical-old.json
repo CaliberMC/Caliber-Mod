@@ -1,9 +1,0 @@
-{
-  "variants": {
-    "facing=north": { "model": "caliber:block/black_granite_slab_vertical" },
-    "facing=east": { "model": "caliber:block/black_granite_slab_vertical", "y": 90 },
-    "facing=south": { "model": "caliber:block/black_granite_slab_vertical", "y": 180 },
-    "facing=west": { "model": "caliber:block/black_granite_slab_vertical", "y": 270 }
-
-  }
-}

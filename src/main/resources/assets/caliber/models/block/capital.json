@@ -1,0 +1,67 @@
+{
+	"credit": "Made by Charm8er for CaliberMC",
+	"texture_size": [16, 16],
+	"textures": {
+		"particle": "#side"
+	},
+	"elements": [
+		{
+			"from": [0, 5, 0],
+			"to": [16, 6, 16],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 5, 16, 6], "rotation": 180, "texture": "#missing", "cullface": "south"},
+				"east": {"uv": [0, 5, 16, 6], "rotation": 180, "texture": "#missing", "cullface": "east"},
+				"south": {"uv": [0, 5, 16, 6], "rotation": 180, "texture": "#missing", "cullface": "north"},
+				"west": {"uv": [0, 5, 16, 6], "rotation": 180, "texture": "#missing", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#missing"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#missing", "cullface": "up"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [16, 5, 16],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 5], "rotation": 180, "texture": "#missing", "cullface": "south"},
+				"east": {"uv": [0, 0, 16, 5], "rotation": 180, "texture": "#missing", "cullface": "up"},
+				"south": {"uv": [0, 0, 16, 5], "rotation": 180, "texture": "#missing", "cullface": "north"},
+				"west": {"uv": [0, 0, 16, 5], "rotation": 180, "texture": "#missing", "cullface": "west"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#missing", "cullface": "up"}
+			}
+		},
+		{
+			"from": [4, 6, 4],
+			"to": [12, 12, 12],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [4, 6, 12, 12], "rotation": 180, "texture": "#missing"},
+				"east": {"uv": [4, 6, 12, 12], "rotation": 180, "texture": "#missing"},
+				"south": {"uv": [4, 6, 12, 12], "rotation": 180, "texture": "#missing"},
+				"west": {"uv": [4, 6, 12, 12], "rotation": 180, "texture": "#missing"},
+				"up": {"uv": [4, 4, 12, 12], "texture": "#missing"}
+			}
+		},
+		{
+			"from": [6, 12, 6],
+			"to": [10, 16, 10],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [6, 12, 10, 16], "rotation": 180, "texture": "#missing"},
+				"east": {"uv": [6, 12, 10, 16], "rotation": 180, "texture": "#missing"},
+				"south": {"uv": [6, 12, 10, 16], "rotation": 180, "texture": "#missing"},
+				"west": {"uv": [6, 12, 10, 16], "rotation": 180, "texture": "#missing"},
+				"up": {"uv": [6, 6, 10, 10], "texture": "#missing", "cullface": "down"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "VoxelShapes",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"nbt": "{}",
+			"children": [0, 1, 2, 3]
+		}
+	]
+}
