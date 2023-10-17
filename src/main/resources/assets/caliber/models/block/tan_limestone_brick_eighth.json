@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/eighth",
+  "textures": {
+    "side": "caliber:block/tan_limestone_brick",
+    "bottom": "caliber:block/tan_limestone_brick",
+    "top": "caliber:block/tan_limestone_brick"
+  }
+}

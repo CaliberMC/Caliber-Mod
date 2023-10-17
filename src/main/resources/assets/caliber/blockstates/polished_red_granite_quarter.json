@@ -1,0 +1,49 @@
+{
+  "variants": {
+    "facing=north,type=bottom": {
+      "model": "caliber:block/polished_red_granite_quarter"
+    },
+    "facing=north,type=top": {
+      "model": "caliber:block/polished_red_granite_quarter_top"
+    },
+    "facing=north,type=double": {
+      "model": "caliber:block/polished_red_granite_slab_vertical"
+    },
+    "facing=east,type=bottom": {
+      "model": "caliber:block/polished_red_granite_quarter",
+      "y": 90
+    },
+    "facing=east,type=top": {
+      "model": "caliber:block/polished_red_granite_quarter_top",
+      "y": 90
+    },
+    "facing=east,type=double": {
+      "model": "caliber:block/polished_red_granite_slab_vertical",
+      "y": 90
+    },
+    "facing=south,type=bottom": {
+      "model": "caliber:block/polished_red_granite_quarter",
+      "y": 180
+    },
+    "facing=south,type=top": {
+      "model": "caliber:block/polished_red_granite_quarter_top",
+      "y": 180
+    },
+    "facing=south,type=double": {
+      "model": "caliber:block/polished_red_granite_slab_vertical",
+      "y": 180
+    },
+    "facing=west,type=bottom": {
+      "model": "caliber:block/polished_red_granite_quarter",
+      "y": 270
+    },
+    "facing=west,type=top": {
+      "model": "caliber:block/polished_red_granite_quarter_top",
+      "y": 270
+    },
+    "facing=west,type=double": {
+      "model": "caliber:block/polished_red_granite_slab_vertical",
+      "y": 270
+    }
+  }
+}
