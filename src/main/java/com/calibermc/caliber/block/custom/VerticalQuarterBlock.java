@@ -35,13 +35,13 @@ public class VerticalQuarterBlock extends Block implements SimpleWaterloggedBloc
     public static final EnumProperty<ShapeType> TYPE = ModBlockStateProperties.SHAPE_TYPE;
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
-    private static final Map<Direction, VoxelShape> LEFT_SHAPE = Maps.newEnumMap(ImmutableMap.of(
+    public static final Map<Direction, VoxelShape> LEFT_SHAPE = Maps.newEnumMap(ImmutableMap.of(
             NORTH, Block.box(8, 0, 8, 16, 16, 16),
             Direction.SOUTH, Block.box(0, 0, 0, 8, 16, 8),
             Direction.EAST, Block.box(0, 0, 8, 8, 16, 16),
             Direction.WEST, Block.box(8, 0, 0, 16, 16, 8)));
 
-    private static final Map<Direction, VoxelShape> RIGHT_SHAPE = Maps.newEnumMap(ImmutableMap.of(
+    public static final Map<Direction, VoxelShape> RIGHT_SHAPE = Maps.newEnumMap(ImmutableMap.of(
             NORTH, Block.box(0, 0, 8, 8, 16, 16),
             Direction.SOUTH, Block.box(8, 0, 0, 16, 16, 8),
             Direction.EAST, Block.box(0, 0, 0, 8, 16, 8),

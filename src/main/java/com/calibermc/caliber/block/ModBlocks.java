@@ -1,6 +1,7 @@
 package com.calibermc.caliber.block;
 
 import com.calibermc.caliber.Caliber;
+import com.calibermc.caliber.block.custom.EighthBlock;
 import com.calibermc.caliber.block.custom.QuarterBlock;
 import com.calibermc.caliber.block.custom.VerticalQuarterBlock;
 import com.calibermc.caliber.block.custom.VerticalSlabBlock;
@@ -169,6 +170,9 @@ public class ModBlocks {
                     .strength(1.5f).requiresCorrectToolForDrops()),CreativeTab.CALIBER_TAB);
     public static final RegistryObject<Block> BLACK_GRANITE_QUARTER_VERTICAL = registerBlock("black_granite_quarter_vertical",
             () -> new VerticalQuarterBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()),CreativeTab.CALIBER_TAB);
+    public static final RegistryObject<Block> BLACK_GRANITE_EIGHTH = registerBlock("black_granite_eighth",
+            () -> new EighthBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
                     .strength(1.5f).requiresCorrectToolForDrops()),CreativeTab.CALIBER_TAB);
 
 

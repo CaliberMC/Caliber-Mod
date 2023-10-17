@@ -3,16 +3,18 @@ package com.calibermc.caliber.block.custom;
 import net.minecraft.util.StringRepresentable;
 
 public enum ShapeType implements StringRepresentable {
-    TOP_LEFT("top_left"),
-    TOP_RIGHT("top_right"),
-    DOUBLE_LEFT("double_left"),
-    DOUBLE_RIGHT("double_right"),
+    SINGLE("single"),
+    DOUBLE("double"),
     TOP("top"),
     BOTTOM("bottom"),
     LEFT("left"),
     RIGHT("right"),
-    SINGLE("single"),
-    DOUBLE("double");
+    TOP_LEFT("top_left"),
+    TOP_RIGHT("top_right"),
+    DOUBLE_TOP("double_top"),
+    DOUBLE_LEFT("double_left"),
+    DOUBLE_RIGHT("double_right");
+
 
     private final String name;
 
