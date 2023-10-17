@@ -3,18 +3,18 @@
     "facing=north,type=single": {
       "model": "caliber:block/tan_limestone_brick_slab_vertical" },
     "facing=north,type=double": {
-      "model": "caliber:block/tan_limestone_brick" },
+      "model": "caliber:block/tan_limestone_bricks" },
     "facing=east,type=single": {
       "model": "caliber:block/tan_limestone_brick_slab_vertical", "y": 90 },
     "facing=east,type=double": {
-      "model": "caliber:block/tan_limestone_brick", "y": 90 },
+      "model": "caliber:block/tan_limestone_bricks", "y": 90 },
     "facing=south,type=single": {
       "model": "caliber:block/tan_limestone_brick_slab_vertical", "y": 180 },
     "facing=south,type=double": {
-      "model": "caliber:block/tan_limestone_brick", "y": 180 },
+      "model": "caliber:block/tan_limestone_bricks", "y": 180 },
     "facing=west,type=single": {
       "model": "caliber:block/tan_limestone_brick_slab_vertical", "y": 270 },
     "facing=west,type=double": {
-      "model": "caliber:block/tan_limestone_brick", "y": 270 }
+      "model": "caliber:block/tan_limestone_bricks", "y": 270 }
   }
 }

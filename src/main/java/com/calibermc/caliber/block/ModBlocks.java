@@ -692,7 +692,7 @@ public class ModBlocks {
                     .strength(1.5f).requiresCorrectToolForDrops()), CreativeTab.CALIBER_TAB);
     
     // -- LIMESTONE -- BRICK -- CUSTOM
-    public static final RegistryObject<Block> DARK_LIMESTONE_BRICK_BRICK_SLAB_VERTICAL = registerBlock("dark_limestone_brick_slab_vertical",
+    public static final RegistryObject<Block> DARK_LIMESTONE_BRICK_SLAB_VERTICAL = registerBlock("dark_limestone_brick_slab_vertical",
             () -> new VerticalSlabBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
                     .strength(1.5f).requiresCorrectToolForDrops()),CreativeTab.CALIBER_TAB);
     public static final RegistryObject<Block> LIGHT_LIMESTONE_BRICK_SLAB_VERTICAL = registerBlock("light_limestone_brick_slab_vertical",
