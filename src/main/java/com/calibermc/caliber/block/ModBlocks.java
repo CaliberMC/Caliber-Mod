@@ -283,7 +283,7 @@ public class ModBlocks {
                     .strength(1.5f).requiresCorrectToolForDrops()), CreativeTab.CALIBER_TAB);
     
     // -- GRANITE -- POLISHED -- CUSTOM
-    public static final RegistryObject<Block> POLISHED_POLISHED_BLACK_GRANITE_SLAB_VERTICAL = registerBlock("polished_black_granite_slab_vertical",
+    public static final RegistryObject<Block> POLISHED_BLACK_GRANITE_SLAB_VERTICAL = registerBlock("polished_black_granite_slab_vertical",
             () -> new VerticalSlabBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
                     .strength(1.5f).requiresCorrectToolForDrops()),CreativeTab.CALIBER_TAB);
     public static final RegistryObject<Block> POLISHED_BROWN_GRANITE_SLAB_VERTICAL = registerBlock("polished_brown_granite_slab_vertical",
@@ -569,7 +569,7 @@ public class ModBlocks {
                     .strength(2.0f).requiresCorrectToolForDrops()), CreativeTab.CALIBER_TAB);
     
     // -- LIMESTONE -- COBBLED -- CUSTOM
-    public static final RegistryObject<Block> COBBLED_COBBLED_DARK_LIMESTONE_SLAB_VERTICAL = registerBlock("cobbled_dark_limestone_slab_vertical",
+    public static final RegistryObject<Block> COBBLED_DARK_LIMESTONE_SLAB_VERTICAL = registerBlock("cobbled_dark_limestone_slab_vertical",
             () -> new VerticalSlabBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
                     .strength(1.5f).requiresCorrectToolForDrops()),CreativeTab.CALIBER_TAB);
     public static final RegistryObject<Block> COBBLED_LIGHT_LIMESTONE_SLAB_VERTICAL = registerBlock("cobbled_light_limestone_slab_vertical",
