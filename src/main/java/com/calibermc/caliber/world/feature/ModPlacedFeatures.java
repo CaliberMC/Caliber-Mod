@@ -46,6 +46,7 @@ public class ModPlacedFeatures {
                     HeightRangePlacement.uniform(VerticalAnchor.absolute(CaliberCommonConfigs.GRANITE_LOWER_GEN_MIN.get()),
                             VerticalAnchor.absolute(CaliberCommonConfigs.GRANITE_LOWER_GEN_MAX.get()))));
 
+// TODO: Added remaining ores
 
 //    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> BLACK_GRANITE = FeatureUtils.register("ore_granite", Feature.ORE, new OreConfiguration(NATURAL_STONE, Blocks.GRANITE.defaultBlockState(), 64));
 //    public static void register(IEventBus eventBus) {

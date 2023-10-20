@@ -4,7 +4,7 @@ import com.calibermc.caliber.block.ModBlocks;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 
-public class CreativeTab {
+public class CreativeTabs {
     public static final CreativeModeTab CALIBER_TAB = new CreativeModeTab("calibertab") {
         @Override
         public ItemStack makeIcon() {

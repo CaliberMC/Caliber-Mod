@@ -33,6 +33,8 @@ public class ModConfiguredFeatures {
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> MOD_GRANITE_ORE = FeatureUtils.register("black_granite_ore",
             Feature.ORE, new OreConfiguration(BLACK_GRANITE_ORE, 64));
 
+    // TODO: Added remaining ores
+
 //    public static final List<OreConfiguration.TargetBlockState> BROWN_GRANITE_ORE = List.of(
 //            OreConfiguration.target(OreFeatures.NATURAL_STONE, ModBlocks.BLACK_GRANITE.get().defaultBlockState()));
 //    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> MOD_GRANITE_ORE = FeatureUtils.register("brown_granite_ore",
