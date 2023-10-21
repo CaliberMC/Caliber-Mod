@@ -880,6 +880,68 @@ public class ModBlocks {
     public static final RegistryObject<Block> WHITE_MARBLE_WALL = registerBlock("white_marble_wall",
             () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    
+    // -- MARBLE -- CUSTOM
+    public static final RegistryObject<Block> BLACK_MARBLE_SLAB_VERTICAL = registerBlock("black_marble_slab_vertical",
+            () -> new VerticalSlabBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> GRAY_MARBLE_SLAB_VERTICAL = registerBlock("gray_marble_slab_vertical",
+            () -> new VerticalSlabBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> PINK_MARBLE_SLAB_VERTICAL = registerBlock("pink_marble_slab_vertical",
+            () -> new VerticalSlabBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> RED_MARBLE_SLAB_VERTICAL = registerBlock("red_marble_slab_vertical",
+            () -> new VerticalSlabBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> WHITE_MARBLE_SLAB_VERTICAL = registerBlock("white_marble_slab_vertical",
+            () -> new VerticalSlabBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> BLACK_MARBLE_QUARTER = registerBlock("black_marble_quarter",
+            () -> new QuarterBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> GRAY_MARBLE_QUARTER = registerBlock("gray_marble_quarter",
+            () -> new QuarterBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> PINK_MARBLE_QUARTER = registerBlock("pink_marble_quarter",
+            () -> new QuarterBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> RED_MARBLE_QUARTER = registerBlock("red_marble_quarter",
+            () -> new QuarterBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> WHITE_MARBLE_QUARTER = registerBlock("white_marble_quarter",
+            () -> new QuarterBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> BLACK_MARBLE_QUARTER_VERTICAL = registerBlock("black_marble_quarter_vertical",
+            () -> new VerticalQuarterBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> GRAY_MARBLE_QUARTER_VERTICAL = registerBlock("gray_marble_quarter_vertical",
+            () -> new VerticalQuarterBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> PINK_MARBLE_QUARTER_VERTICAL = registerBlock("pink_marble_quarter_vertical",
+            () -> new VerticalQuarterBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> RED_MARBLE_QUARTER_VERTICAL = registerBlock("red_marble_quarter_vertical",
+            () -> new VerticalQuarterBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> WHITE_MARBLE_QUARTER_VERTICAL = registerBlock("white_marble_quarter_vertical",
+            () -> new VerticalQuarterBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> BLACK_MARBLE_EIGHTH = registerBlock("black_marble_eighth",
+            () -> new EighthBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> GRAY_MARBLE_EIGHTH = registerBlock("gray_marble_eighth",
+            () -> new EighthBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> PINK_MARBLE_EIGHTH = registerBlock("pink_marble_eighth",
+            () -> new EighthBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> RED_MARBLE_EIGHTH = registerBlock("red_marble_eighth",
+            () -> new EighthBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> WHITE_MARBLE_EIGHTH = registerBlock("white_marble_eighth",
+            () -> new EighthBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
 
 
     // -- MARBLE -- POLISHED
@@ -955,6 +1017,68 @@ public class ModBlocks {
             () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
 
+    // -- MARBLE -- POLISHED -- CUSTOM
+    public static final RegistryObject<Block> POLISHED_BLACK_MARBLE_SLAB_VERTICAL = registerBlock("polished_black_marble_slab_vertical",
+            () -> new VerticalSlabBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> POLISHED_GRAY_MARBLE_SLAB_VERTICAL = registerBlock("polished_gray_marble_slab_vertical",
+            () -> new VerticalSlabBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> POLISHED_PINK_MARBLE_SLAB_VERTICAL = registerBlock("polished_pink_marble_slab_vertical",
+            () -> new VerticalSlabBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> POLISHED_RED_MARBLE_SLAB_VERTICAL = registerBlock("polished_red_marble_slab_vertical",
+            () -> new VerticalSlabBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> POLISHED_WHITE_MARBLE_SLAB_VERTICAL = registerBlock("polished_white_marble_slab_vertical",
+            () -> new VerticalSlabBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> POLISHED_BLACK_MARBLE_QUARTER = registerBlock("polished_black_marble_quarter",
+            () -> new QuarterBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> POLISHED_GRAY_MARBLE_QUARTER = registerBlock("polished_gray_marble_quarter",
+            () -> new QuarterBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> POLISHED_PINK_MARBLE_QUARTER = registerBlock("polished_pink_marble_quarter",
+            () -> new QuarterBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> POLISHED_RED_MARBLE_QUARTER = registerBlock("polished_red_marble_quarter",
+            () -> new QuarterBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> POLISHED_WHITE_MARBLE_QUARTER = registerBlock("polished_white_marble_quarter",
+            () -> new QuarterBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> POLISHED_BLACK_MARBLE_QUARTER_VERTICAL = registerBlock("polished_black_marble_quarter_vertical",
+            () -> new VerticalQuarterBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> POLISHED_GRAY_MARBLE_QUARTER_VERTICAL = registerBlock("polished_gray_marble_quarter_vertical",
+            () -> new VerticalQuarterBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> POLISHED_PINK_MARBLE_QUARTER_VERTICAL = registerBlock("polished_pink_marble_quarter_vertical",
+            () -> new VerticalQuarterBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> POLISHED_RED_MARBLE_QUARTER_VERTICAL = registerBlock("polished_red_marble_quarter_vertical",
+            () -> new VerticalQuarterBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> POLISHED_WHITE_MARBLE_QUARTER_VERTICAL = registerBlock("polished_white_marble_quarter_vertical",
+            () -> new VerticalQuarterBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> POLISHED_BLACK_MARBLE_EIGHTH = registerBlock("polished_black_marble_eighth",
+            () -> new EighthBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> POLISHED_GRAY_MARBLE_EIGHTH = registerBlock("polished_gray_marble_eighth",
+            () -> new EighthBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> POLISHED_PINK_MARBLE_EIGHTH = registerBlock("polished_pink_marble_eighth",
+            () -> new EighthBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> POLISHED_RED_MARBLE_EIGHTH = registerBlock("polished_red_marble_eighth",
+            () -> new EighthBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> POLISHED_WHITE_MARBLE_EIGHTH = registerBlock("polished_white_marble_eighth",
+            () -> new EighthBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+
 
     // -- SANDSTONE
     public static final RegistryObject<Block> BROWN_SANDSTONE = registerBlock("brown_sandstone",
@@ -988,6 +1112,32 @@ public class ModBlocks {
                     .strength(0.8f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
     public static final RegistryObject<Block> ORANGE_SANDSTONE_WALL = registerBlock("orange_sandstone_wall",
             () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(0.8f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    
+    // -- SANDSTONE -- CUSTOM
+    public static final RegistryObject<Block> BROWN_SANDSTONE_SLAB_VERTICAL = registerBlock("brown_sandstone_slab_vertical",
+            () -> new VerticalSlabBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(0.8f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> ORANGE_SANDSTONE_SLAB_VERTICAL = registerBlock("orange_sandstone_slab_vertical",
+            () -> new VerticalSlabBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(0.8f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> BROWN_SANDSTONE_QUARTER = registerBlock("brown_sandstone_quarter",
+            () -> new QuarterBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(0.8f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> ORANGE_SANDSTONE_QUARTER = registerBlock("orange_sandstone_quarter",
+            () -> new QuarterBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(0.8f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> BROWN_SANDSTONE_QUARTER_VERTICAL = registerBlock("brown_sandstone_quarter_vertical",
+            () -> new VerticalQuarterBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(0.8f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> ORANGE_SANDSTONE_QUARTER_VERTICAL = registerBlock("orange_sandstone_quarter_vertical",
+            () -> new VerticalQuarterBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(0.8f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> BROWN_SANDSTONE_EIGHTH = registerBlock("brown_sandstone_eighth",
+            () -> new EighthBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(0.8f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> ORANGE_SANDSTONE_EIGHTH = registerBlock("orange_sandstone_eighth",
+            () -> new EighthBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
                     .strength(0.8f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
 
 

@@ -1,0 +1,20 @@
+{
+  "variants": {
+      "facing=north,type=single": {
+        "model": "caliber:block/polished_pink_marble_slab_vertical" },
+      "facing=north,type=double": {
+        "model": "caliber:block/polished_pink_marble" },
+      "facing=east,type=single": {
+        "model": "caliber:block/polished_pink_marble_slab_vertical", "y": 90 },
+      "facing=east,type=double": {
+        "model": "caliber:block/polished_pink_marble", "y": 90 },
+      "facing=south,type=single": {
+        "model": "caliber:block/polished_pink_marble_slab_vertical", "y": 180 },
+      "facing=south,type=double": {
+        "model": "caliber:block/polished_pink_marble", "y": 180 },
+      "facing=west,type=single": {
+        "model": "caliber:block/polished_pink_marble_slab_vertical", "y": 270 },
+      "facing=west,type=double": {
+        "model": "caliber:block/polished_pink_marble", "y": 270 }
+  }
+}

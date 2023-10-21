@@ -1,0 +1,49 @@
+{
+  "variants": {
+    "facing=north,type=right": {
+      "model": "caliber:block/polished_black_marble_quarter_vertical"
+    },
+    "facing=north,type=left": {
+      "model": "caliber:block/polished_black_marble_quarter_vertical_left"
+    },
+    "facing=north,type=double": {
+      "model": "caliber:block/polished_black_marble_slab_vertical"
+    },
+    "facing=east,type=right": {
+      "model": "caliber:block/polished_black_marble_quarter_vertical",
+      "y": 90
+    },
+    "facing=east,type=left": {
+      "model": "caliber:block/polished_black_marble_quarter_vertical_left",
+      "y": 90
+    },
+    "facing=east,type=double": {
+      "model": "caliber:block/polished_black_marble_slab_vertical",
+      "y": 90
+    },
+    "facing=south,type=right": {
+      "model": "caliber:block/polished_black_marble_quarter_vertical",
+      "y": 180
+    },
+    "facing=south,type=left": {
+      "model": "caliber:block/polished_black_marble_quarter_vertical_left",
+      "y": 180
+    },
+    "facing=south,type=double": {
+      "model": "caliber:block/polished_black_marble_slab_vertical",
+      "y": 180
+    },
+    "facing=west,type=right": {
+      "model": "caliber:block/polished_black_marble_quarter_vertical",
+      "y": 270
+    },
+    "facing=west,type=left": {
+      "model": "caliber:block/polished_black_marble_quarter_vertical_left",
+      "y": 270
+    },
+    "facing=west,type=double": {
+      "model": "caliber:block/polished_black_marble_slab_vertical",
+      "y": 270
+    }
+  }
+}
