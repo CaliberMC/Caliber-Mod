@@ -25,9 +25,29 @@ public class ModOreGeneration {
         base.add(ModPlacedFeatures.TIN_ORE_PLACED);
         base.add(ModPlacedFeatures.SILVER_ORE_PLACED);
 
+        base.add(ModPlacedFeatures.BLACK_GRANITE_UPPER_PLACED);
+        base.add(ModPlacedFeatures.BLACK_GRANITE_LOWER_PLACED);
+        base.add(ModPlacedFeatures.BROWN_GRANITE_UPPER_PLACED);
+        base.add(ModPlacedFeatures.BROWN_GRANITE_LOWER_PLACED);
+        base.add(ModPlacedFeatures.GRAY_GRANITE_UPPER_PLACED);
+        base.add(ModPlacedFeatures.GRAY_GRANITE_LOWER_PLACED);
+        base.add(ModPlacedFeatures.PINK_GRANITE_UPPER_PLACED);
+        base.add(ModPlacedFeatures.PINK_GRANITE_LOWER_PLACED);
+        base.add(ModPlacedFeatures.WHITE_GRANITE_UPPER_PLACED);
+        base.add(ModPlacedFeatures.WHITE_GRANITE_LOWER_PLACED);
 
-        base.add(ModPlacedFeatures.MOD_GRANITE_UPPER_PLACED);
-        base.add(ModPlacedFeatures.MOD_GRANITE_LOWER_PLACED);
+        base.add(ModPlacedFeatures.DARK_LIMESTONE_PLACED);
+        base.add(ModPlacedFeatures.LIGHT_LIMESTONE_PLACED);
+        base.add(ModPlacedFeatures.PINK_LIMESTONE_PLACED);
+        base.add(ModPlacedFeatures.TAN_LIMESTONE_PLACED);
+
+        base.add(ModPlacedFeatures.BLACK_MARBLE_PLACED);
+        base.add(ModPlacedFeatures.GRAY_MARBLE_PLACED);
+        base.add(ModPlacedFeatures.PINK_MARBLE_PLACED);
+        base.add(ModPlacedFeatures.RED_MARBLE_PLACED);
+        base.add(ModPlacedFeatures.WHITE_MARBLE_PLACED);
+
+
 
 
 
