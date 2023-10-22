@@ -199,11 +199,11 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.COBBLED_LIGHT_LIMESTONE_WALL.get());
         this.dropSelf(ModBlocks.COBBLED_PINK_LIMESTONE_WALL.get());
         this.dropSelf(ModBlocks.COBBLED_TAN_LIMESTONE_WALL.get());
-//        this.dropSelf(ModBlocks.COBBLED_DARK_LIMESTONE_CORNER.get());
-//        this.dropSelf(ModBlocks.COBBLED_LIGHT_LIMESTONE_CORNER.get());
-//        this.dropSelf(ModBlocks.COBBLED_LIMESTONE_CORNER.get());
-//        this.dropSelf(ModBlocks.COBBLED_PINK_LIMESTONE_CORNER.get());
-//        this.dropSelf(ModBlocks.COBBLED_TAN_LIMESTONE_CORNER.get());
+        this.dropSelf(ModBlocks.COBBLED_DARK_LIMESTONE_CORNER.get());
+        this.dropSelf(ModBlocks.COBBLED_LIGHT_LIMESTONE_CORNER.get());
+        this.dropSelf(ModBlocks.COBBLED_LIMESTONE_CORNER.get());
+        this.dropSelf(ModBlocks.COBBLED_PINK_LIMESTONE_CORNER.get());
+        this.dropSelf(ModBlocks.COBBLED_TAN_LIMESTONE_CORNER.get());
         this.dropSelf(ModBlocks.COBBLED_DARK_LIMESTONE_SLAB_VERTICAL.get());
         this.dropSelf(ModBlocks.COBBLED_LIGHT_LIMESTONE_SLAB_VERTICAL.get());
         this.dropSelf(ModBlocks.COBBLED_LIMESTONE_SLAB_VERTICAL.get());
@@ -388,8 +388,8 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.ORANGE_SANDSTONE_STAIRS.get());
         this.dropSelf(ModBlocks.BROWN_SANDSTONE_WALL.get());
         this.dropSelf(ModBlocks.ORANGE_SANDSTONE_WALL.get());
-//        this.dropSelf(ModBlocks.BROWN_SANDSTONE_CORNER.get());
-//        this.dropSelf(ModBlocks.ORANGE_SANDSTONE_CORNER.get());
+        this.dropSelf(ModBlocks.BROWN_SANDSTONE_CORNER.get());
+        this.dropSelf(ModBlocks.ORANGE_SANDSTONE_CORNER.get());
         this.dropSelf(ModBlocks.BROWN_SANDSTONE_SLAB_VERTICAL.get());
         this.dropSelf(ModBlocks.ORANGE_SANDSTONE_SLAB_VERTICAL.get());
         this.dropSelf(ModBlocks.BROWN_SANDSTONE_QUARTER.get());
