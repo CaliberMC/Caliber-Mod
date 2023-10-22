@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,type=right": {
+      "model": "caliber:block/red_marble_corner"
+    },
+    "facing=north,type=left": {
+      "model": "caliber:block/red_marble_corner_left"
+    },
+    "facing=east,type=right": {
+      "model": "caliber:block/red_marble_corner",
+      "y": 90
+    },
+    "facing=east,type=left": {
+      "model": "caliber:block/red_marble_corner_left",
+      "y": 90
+    },
+    "facing=south,type=right": {
+      "model": "caliber:block/red_marble_corner",
+      "y": 180
+    },
+    "facing=south,type=left": {
+      "model": "caliber:block/red_marble_corner_left",
+      "y": 180
+    },
+    "facing=west,type=right": {
+      "model": "caliber:block/red_marble_corner",
+      "y": 270
+    },
+    "facing=west,type=left": {
+      "model": "caliber:block/red_marble_corner_left",
+      "y": 270
+    }
+  }
+}
