@@ -50,6 +50,7 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.BROWN_GRANITE_CORNER.get());
         this.dropSelf(ModBlocks.GRAY_GRANITE_CORNER.get());
         this.dropSelf(ModBlocks.PINK_GRANITE_CORNER.get());
+        this.dropSelf(ModBlocks.RED_GRANITE_CORNER.get());
         this.dropSelf(ModBlocks.WHITE_GRANITE_CORNER.get());
         this.dropSelf(ModBlocks.BLACK_GRANITE_SLAB_VERTICAL.get());
         this.dropSelf(ModBlocks.BROWN_GRANITE_SLAB_VERTICAL.get());
