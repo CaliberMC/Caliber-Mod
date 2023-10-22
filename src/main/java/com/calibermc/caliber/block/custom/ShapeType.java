@@ -13,7 +13,15 @@ public enum ShapeType implements StringRepresentable {
     TOP_RIGHT("top_right"),
     DOUBLE_TOP("double_top"),
     DOUBLE_LEFT("double_left"),
-    DOUBLE_RIGHT("double_right");
+    DOUBLE_RIGHT("double_right"),
+    VERTICAL_SLAB_RIGHT("vertical_slab_right"),
+    VERTICAL_SLAB_LEFT("vertical_slab_left"),
+    SLAB_TOP("slab_top"),
+    SLAB_BOTTOM("slab_bottom"),
+    CORNER_RIGHT("corner_right"),
+    CORNER_LEFT("corner_left"),
+    FULL_BLOCK("full_block");
+
 
 
     private final String name;

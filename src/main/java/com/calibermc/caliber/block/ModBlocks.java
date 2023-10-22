@@ -882,6 +882,9 @@ public class ModBlocks {
                     .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
     
     // -- MARBLE -- CUSTOM
+    public static final RegistryObject<Block> BLACK_MARBLE_CORNER = registerBlock("black_marble_corner",
+            () -> new CornerBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
+                    .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
     public static final RegistryObject<Block> BLACK_MARBLE_SLAB_VERTICAL = registerBlock("black_marble_slab_vertical",
             () -> new VerticalSlabBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()
                     .strength(1.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);

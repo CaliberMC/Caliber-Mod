@@ -16,7 +16,7 @@ apply plugin: 'org.parchmentmc.librarian.forgegradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '0.0.5-1.18.2'
+version = '0.0.7-1.18.2'
 group = 'com.calibermc.caliber' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'caliber'
 
