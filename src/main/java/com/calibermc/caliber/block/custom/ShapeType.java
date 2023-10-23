@@ -5,6 +5,7 @@ import net.minecraft.util.StringRepresentable;
 public enum ShapeType implements StringRepresentable {
     SINGLE("single"),
     DOUBLE("double"),
+    CONNECTED("connected"),
     TOP("top"),
     BOTTOM("bottom"),
     LEFT("left"),
@@ -21,8 +22,6 @@ public enum ShapeType implements StringRepresentable {
     CORNER_RIGHT("corner_right"),
     CORNER_LEFT("corner_left"),
     FULL_BLOCK("full_block");
-
-
 
     private final String name;
 

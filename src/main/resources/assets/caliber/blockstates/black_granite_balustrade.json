@@ -1,0 +1,55 @@
+{
+  "variants": {
+    "facing=north,type=single": {
+      "model": "caliber:block/black_granite_balustrade"
+    },
+    "facing=east,type=single": {
+      "model": "caliber:block/black_granite_balustrade"
+    },
+    "facing=south,type=single": {
+      "model": "caliber:block/black_granite_balustrade"
+    },
+    "facing=west,type=single": {
+      "model": "caliber:block/black_granite_balustrade"
+    },
+    "facing=north,type=connected": {
+      "model": "caliber:block/black_granite_balustrade_connected"
+    },
+    "facing=east,type=connected": {
+      "model": "caliber:block/black_granite_balustrade_connected",
+      "y": 90
+    },
+    "facing=south,type=connected": {
+      "model": "caliber:block/black_granite_balustrade_connected",
+      "y": 180
+    },
+    "facing=west,type=connected": {
+      "model": "caliber:block/black_granite_balustrade_connected",
+      "y": 270
+    },
+    "facing=north,type=corner_right": {
+      "model": "caliber:block/black_granite_balustrade_corner_right"
+    },
+    "facing=east,type=corner_right": {
+      "model": "caliber:block/black_granite_balustrade_corner_right"
+    },
+    "facing=south,type=corner_right": {
+      "model": "caliber:block/black_granite_balustrade_corner_right"
+    },
+    "facing=west,type=corner_right": {
+      "model": "caliber:block/black_granite_balustrade_corner_right"
+    },
+    "facing=north,type=corner_left": {
+      "model": "caliber:block/black_granite_balustrade_corner_left"
+    },
+    "facing=east,type=corner_left": {
+      "model": "caliber:block/black_granite_balustrade_corner_left"
+    },
+    "facing=south,type=corner_left": {
+      "model": "caliber:block/black_granite_balustrade_corner_left"
+    },
+    "facing=west,type=corner_left": {
+      "model": "caliber:block/black_granite_balustrade_corner_left"
+    }
+  }
+}
