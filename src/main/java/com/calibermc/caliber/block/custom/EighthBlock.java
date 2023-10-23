@@ -37,7 +37,6 @@ public class EighthBlock extends Block implements SimpleWaterloggedBlock {
 
     private static final Logger LOGGER = LogManager.getLogger();
 
-
     public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
     public static final EnumProperty<ShapeType> TYPE = ModBlockStateProperties.SHAPE_TYPE;
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
