@@ -8,6 +8,7 @@ public enum ShapeType implements StringRepresentable {
     CONNECTED("connected"),
     TOP("top"),
     BOTTOM("bottom"),
+    MIDDLE("middle"),
     LEFT("left"),
     RIGHT("right"),
     TOP_LEFT("top_left"),

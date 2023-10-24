@@ -228,6 +228,10 @@ public class ModBlocks {
     public static final RegistryObject<Block> BLACK_GRANITE_ARROWSLIT = registerBlock("black_granite_arrowslit",
             () -> new ArrowSlitBlock(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f)
                     .requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> BLACK_GRANITE_WINDOW = registerBlock("black_granite_window",
+            () -> new WindowBlock(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f)
+                    .requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+
 
 
     // -- GRANITE -- POLISHED
