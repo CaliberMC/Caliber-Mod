@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "caliber:block/cobbled_dark_limestone_capital"
+    },
+    "type=top": {
+      "model": "caliber:block/cobbled_dark_limestone_capital_top"
+    }
+  }
+}

@@ -2,7 +2,7 @@
   "parent": "caliber:block/quarter",
   "textures": {
     "side": "caliber:block/orange_sandstone",
-    "bottom": "caliber:block/orange_sandstone",
+    "bottom": "caliber:block/orange_sandstone_bottom",
     "top": "caliber:block/orange_sandstone"
   }
 }

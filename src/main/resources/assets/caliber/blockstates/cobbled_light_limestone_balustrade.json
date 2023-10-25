@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "facing=north,type=single": {
+      "model": "caliber:block/cobbled_light_limestone_balustrade"
+    },
+    "facing=east,type=single": {
+      "model": "caliber:block/cobbled_light_limestone_balustrade"
+    },
+    "facing=south,type=single": {
+      "model": "caliber:block/cobbled_light_limestone_balustrade"
+    },
+    "facing=west,type=single": {
+      "model": "caliber:block/cobbled_light_limestone_balustrade"
+    },
+    "facing=north,type=connected": {
+      "model": "caliber:block/cobbled_light_limestone_balustrade_connected"
+    },
+    "facing=east,type=connected": {
+      "model": "caliber:block/cobbled_light_limestone_balustrade_connected",
+      "y": 90
+    },
+    "facing=south,type=connected": {
+      "model": "caliber:block/cobbled_light_limestone_balustrade_connected",
+      "y": 180
+    },
+    "facing=west,type=connected": {
+      "model": "caliber:block/cobbled_light_limestone_balustrade_connected",
+      "y": 270
+    }
+  }
+}
