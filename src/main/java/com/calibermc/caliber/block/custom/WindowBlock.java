@@ -33,6 +33,7 @@ import java.util.stream.Stream;
 import static net.minecraft.core.Direction.*;
 
 public class WindowBlock extends HorizontalDirectionalBlock implements SimpleWaterloggedBlock {
+
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
     public static final EnumProperty<ShapeType> TYPE = ModBlockStateProperties.SHAPE_TYPE;
     public static final Map<Direction, VoxelShape> TOP_SHAPE = Maps.newEnumMap(ImmutableMap.of(
@@ -122,14 +123,18 @@ public class WindowBlock extends HorizontalDirectionalBlock implements SimpleWat
                 .setValue(TYPE, ShapeType.FULL_BLOCK)
                 .setValue(WATERLOGGED, Boolean.valueOf(false)));
     }
+
+    @Override
     public boolean useShapeForLightOcclusion(BlockState pState) {
         return true;
     }
 
+    @Override
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> pBuilder) {
         pBuilder.add(FACING, TYPE, WATERLOGGED);
     }
 
+    @Override
     public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
         ShapeType shapeType = pState.getValue(TYPE);
         switch (shapeType) {
@@ -149,6 +154,7 @@ public class WindowBlock extends HorizontalDirectionalBlock implements SimpleWat
         }
     }
 
+    @Override
     @Nullable
     public BlockState getStateForPlacement(BlockPlaceContext pContext) {
         BlockPos blockpos = pContext.getClickedPos();
@@ -183,6 +189,7 @@ public class WindowBlock extends HorizontalDirectionalBlock implements SimpleWat
      * returns its solidified counterpart.
      * Note that this method should ideally consider only the specific direction passed in.
      */
+    @Override
     public BlockState updateShape(BlockState pState, Direction pFacing, BlockState pFacingState, LevelAccessor pLevel, BlockPos pCurrentPos, BlockPos pFacingPos) {
         if (pState.getValue(WATERLOGGED)) {
             pLevel.scheduleTick(pCurrentPos, Fluids.WATER, Fluids.WATER.getTickDelay(pLevel));
@@ -191,6 +198,7 @@ public class WindowBlock extends HorizontalDirectionalBlock implements SimpleWat
         return super.updateShape(pState, pFacing, pFacingState, pLevel, pCurrentPos, pFacingPos);
     }
 
+    @Override
     public boolean isPathfindable(BlockState pState, BlockGetter pLevel, BlockPos pPos, PathComputationType pType) {
         switch(pType) {
             case LAND:

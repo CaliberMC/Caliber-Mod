@@ -41,7 +41,6 @@ public class CornerBlock extends Block implements SimpleWaterloggedBlock {
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
     public static final EnumProperty<ShapeType> TYPE = ModBlockStateProperties.SHAPE_TYPE;
 
-
     public static final Map<Direction, VoxelShape> LEFT_SHAPE = Maps.newEnumMap(ImmutableMap.of(
             Direction.NORTH, Shapes.join(Block.box(0, 0, 8, 16, 16, 16), Block.box(8, 0, 0, 16, 16, 8), BooleanOp.OR),
             Direction.SOUTH, Shapes.join(Block.box(0, 0, 0, 16, 16, 8), Block.box(0, 0, 8, 8, 16, 16), BooleanOp.OR),
@@ -58,14 +57,16 @@ public class CornerBlock extends Block implements SimpleWaterloggedBlock {
         super(properties);
         this.registerDefaultState(this.stateDefinition.any()
                 .setValue(FACING, Direction.NORTH)
-                .setValue(TYPE, ShapeType.SINGLE)
+                .setValue(TYPE, ShapeType.RIGHT)
                 .setValue(WATERLOGGED, Boolean.valueOf(false)));
     }
 
+    @Override
     public boolean useShapeForLightOcclusion(BlockState pState) {
         return true;
     }
 
+    @Override
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> pBuilder) {
         pBuilder.add(FACING, TYPE, WATERLOGGED);
     }
@@ -82,64 +83,32 @@ public class CornerBlock extends Block implements SimpleWaterloggedBlock {
         }
     }
 
-    /* FACING */
+    @Override
     @Nullable
     public BlockState getStateForPlacement(BlockPlaceContext pContext) {
         BlockPos blockpos = pContext.getClickedPos();
-        BlockState blockstate = pContext.getLevel().getBlockState(blockpos);
-        double hitY = pContext.getClickLocation().y - (double) blockpos.getY();
         double hitX = pContext.getClickLocation().x - (double) blockpos.getX();
         double hitZ = pContext.getClickLocation().z - (double) blockpos.getZ();
         Direction direction = pContext.getHorizontalDirection().getOpposite();
+        FluidState fluidstate = pContext.getLevel().getFluidState(blockpos);
+        BlockState blockstate1 = this.defaultBlockState().setValue(FACING, pContext.getHorizontalDirection().getOpposite())
+                .setValue(TYPE, ShapeType.RIGHT).setValue(WATERLOGGED, Boolean.valueOf(fluidstate.getType() == Fluids.WATER));
 
-        if (blockstate.is(this)) {
-            return blockstate.setValue(WATERLOGGED, Boolean.valueOf(false));
+        if (direction == NORTH && hitX < 0.5 || direction == EAST && hitZ < 0.5) {
+            return blockstate1.setValue(TYPE, ShapeType.RIGHT);
+        } else if (direction == NORTH && hitX > 0.5 || direction == EAST && hitZ > 0.5) {
+            return blockstate1.setValue(TYPE, ShapeType.LEFT);
+        } else if (direction == SOUTH && hitX > 0.5 || direction == WEST && hitZ > 0.5) {
+            return blockstate1.setValue(TYPE, ShapeType.RIGHT);
+        } else if (direction == SOUTH && hitX < 0.5 || direction == WEST && hitZ < 0.5) {
+            return blockstate1.setValue(TYPE, ShapeType.LEFT);
         } else {
-            FluidState fluidstate = pContext.getLevel().getFluidState(blockpos);
-            BlockState blockstate1 = this.defaultBlockState().setValue(FACING, pContext.getHorizontalDirection().getOpposite())
-                    .setValue(TYPE, ShapeType.SINGLE).setValue(WATERLOGGED, Boolean.valueOf(fluidstate.getType() == Fluids.WATER));
-//            Direction direction = pContext.getClickedFace();
-            if (direction == NORTH && hitX < 0.5 || direction == EAST && hitZ < 0.5) {
-                return blockstate1.setValue(TYPE, ShapeType.RIGHT);
-            } else if (direction == NORTH && hitX > 0.5 || direction == EAST && hitZ > 0.5) {
-                return blockstate1.setValue(TYPE, ShapeType.LEFT);
-
-            } else if (direction == SOUTH && hitX > 0.5 || direction == WEST && hitZ > 0.5) {
-                return blockstate1.setValue(TYPE, ShapeType.RIGHT);
-            } else if (direction == SOUTH && hitX < 0.5 || direction == WEST && hitZ < 0.5) {
-                return blockstate1.setValue(TYPE, ShapeType.LEFT);
-            } else {
-                return blockstate1.setValue(TYPE, ShapeType.RIGHT);
-            }
-        }
-    }
-
-    public FluidState getFluidState(BlockState pState) {
-        return pState.getValue(WATERLOGGED) ? Fluids.WATER.getSource(false) : super.getFluidState(pState);
-    }
-
-    public boolean placeLiquid(LevelAccessor pLevel, BlockPos pPos, BlockState pState, FluidState pFluidState) {
-        return pState.getValue(TYPE) != ShapeType.DOUBLE ? SimpleWaterloggedBlock.super.placeLiquid(pLevel, pPos, pState, pFluidState) : false;
-    }
-
-    public boolean canPlaceLiquid(BlockGetter pLevel, BlockPos pPos, BlockState pState, Fluid pFluid) {
-        return pState.getValue(TYPE) != ShapeType.DOUBLE ? SimpleWaterloggedBlock.super.canPlaceLiquid(pLevel, pPos, pState, pFluid) : false;
-    }
-
-    /**
-     * Update the provided state given the provided neighbor direction and neighbor state, returning a new state.
-     * For example, fences make their connections to the passed in state if possible, and wet concrete powder immediately
-     * returns its solidified counterpart.
-     * Note that this method should ideally consider only the specific direction passed in.
-     */
-    public BlockState updateShape(BlockState pState, Direction pFacing, BlockState pFacingState, LevelAccessor pLevel, BlockPos pCurrentPos, BlockPos pFacingPos) {
-        if (pState.getValue(WATERLOGGED)) {
-            pLevel.scheduleTick(pCurrentPos, Fluids.WATER, Fluids.WATER.getTickDelay(pLevel));
+            return blockstate1.setValue(TYPE, ShapeType.RIGHT);
         }
 
-        return super.updateShape(pState, pFacing, pFacingState, pLevel, pCurrentPos, pFacingPos);
     }
 
+    @Override
     public boolean isPathfindable(BlockState pState, BlockGetter pLevel, BlockPos pPos, PathComputationType pType) {
         switch(pType) {
             case LAND:
