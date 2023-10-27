@@ -13,10 +13,10 @@
       "model": "caliber:block/black_granite_corner_slab_vertical_top_left"
     },
     "facing=north,type=double": {
-      "model": "caliber:block/black_granite_stairs"
+      "model": "caliber:block/black_granite_corner_slab_vertical_double"
     },
     "facing=north,type=double_top": {
-      "model": "caliber:block/black_granite_stairs_top"
+      "model": "caliber:block/black_granite_corner_slab_vertical_double_top"
     },
     "facing=east,type=right": {
       "model": "caliber:block/black_granite_corner_slab_vertical",
@@ -35,11 +35,11 @@
       "y": 90
     },
     "facing=east,type=double": {
-      "model": "caliber:block/black_granite_stairs",
+      "model": "caliber:block/black_granite_corner_slab_vertical_double",
       "y": 90
     },
     "facing=east,type=double_top": {
-      "model": "caliber:block/black_granite_stairs_top",
+      "model": "caliber:block/black_granite_corner_slab_vertical_double_top",
       "y": 90
     },
     "facing=south,type=right": {
@@ -59,11 +59,11 @@
       "y": 180
     },
     "facing=south,type=double": {
-      "model": "caliber:block/black_granite_stairs",
+      "model": "caliber:block/black_granite_corner_slab_vertical_double",
       "y": 180
     },
     "facing=south,type=double_top": {
-      "model": "caliber:block/black_granite_stairs_top",
+      "model": "caliber:block/black_granite_corner_slab_vertical_double_top",
       "y": 180
     },
     "facing=west,type=right": {
@@ -83,11 +83,11 @@
       "y": 270
     },
     "facing=west,type=double": {
-      "model": "caliber:block/black_granite_stairs",
+      "model": "caliber:block/black_granite_corner_slab_vertical_double",
       "y": 270
     },
     "facing=west,type=double_top": {
-      "model": "caliber:block/black_granite_stairs_top",
+      "model": "caliber:block/black_granite_corner_slab_vertical_double_top",
       "y": 270
     }
   }

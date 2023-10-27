@@ -118,13 +118,9 @@ public class CornerSlabBlock extends Block implements SimpleWaterloggedBlock {
         Direction direction = pContext.getHorizontalDirection().getOpposite();
 
         if (blockstate.is(this)) {
-            if (blockstate.getValue(TYPE) == ShapeType.RIGHT && (direction == NORTH && hitX < 0.5 || direction == EAST && hitZ < 0.5)) {
+            if (blockstate.getValue(TYPE) == ShapeType.RIGHT || blockstate.getValue(TYPE) == ShapeType.TOP_RIGHT) {
                 return blockstate.setValue(TYPE, ShapeType.DOUBLE_RIGHT).setValue(WATERLOGGED, Boolean.valueOf(false));
-            } else if (blockstate.getValue(TYPE) == ShapeType.LEFT && (direction == NORTH && hitX > 0.5 || direction == EAST && hitZ > 0.5)) {
-                return blockstate.setValue(TYPE, ShapeType.DOUBLE_LEFT).setValue(WATERLOGGED, Boolean.valueOf(false));
-            } else if (blockstate.getValue(TYPE) == ShapeType.TOP_RIGHT && (direction == NORTH && hitX < 0.5 || direction == EAST && hitZ < 0.5)) {
-                return blockstate.setValue(TYPE, ShapeType.DOUBLE_RIGHT).setValue(WATERLOGGED, Boolean.valueOf(false));
-            } else if (blockstate.getValue(TYPE) == ShapeType.TOP_LEFT && (direction == NORTH && hitX > 0.5 || direction == EAST && hitZ > 0.5)) {
+            } else if (blockstate.getValue(TYPE) == ShapeType.LEFT || blockstate.getValue(TYPE) == ShapeType.TOP_LEFT) {
                 return blockstate.setValue(TYPE, ShapeType.DOUBLE_LEFT).setValue(WATERLOGGED, Boolean.valueOf(false));
             }
         } else {
