@@ -1755,13 +1755,13 @@ public class ModBlocks {
 
     // -- SAND
     public static final RegistryObject<Block> BLACK_SAND = registerBlock("black_sand",
-            () -> new Block(BlockBehaviour.Properties.of(Material.SAND).strength(0.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+            () -> new SandBlock(0,BlockBehaviour.Properties.of(Material.SAND).strength(0.5f).sound(SoundType.SAND)), CreativeTabs.CALIBER_TAB);
     public static final RegistryObject<Block> BROWN_SAND = registerBlock("brown_sand",
-            () -> new Block(BlockBehaviour.Properties.of(Material.SAND).strength(0.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+            () -> new SandBlock(0,BlockBehaviour.Properties.of(Material.SAND).strength(0.5f).sound(SoundType.SAND)), CreativeTabs.CALIBER_TAB);
     public static final RegistryObject<Block> ORANGE_SAND = registerBlock("orange_sand",
-            () -> new Block(BlockBehaviour.Properties.of(Material.SAND).strength(0.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+            () -> new SandBlock(0,BlockBehaviour.Properties.of(Material.SAND).strength(0.5f).sound(SoundType.SAND)), CreativeTabs.CALIBER_TAB);
     public static final RegistryObject<Block> WHITE_SAND = registerBlock("white_sand",
-            () -> new Block(BlockBehaviour.Properties.of(Material.SAND).strength(0.5f).requiresCorrectToolForDrops()), CreativeTabs.CALIBER_TAB);
+            () -> new SandBlock(0,BlockBehaviour.Properties.of(Material.SAND).strength(0.5f).sound(SoundType.SAND)), CreativeTabs.CALIBER_TAB);
 
 
     // WOOD BLOCKS
