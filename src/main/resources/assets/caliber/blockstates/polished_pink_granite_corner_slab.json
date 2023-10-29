@@ -4,91 +4,99 @@
       "model": "caliber:block/polished_pink_granite_corner_slab"
     },
     "facing=north,type=left": {
-      "model": "caliber:block/polished_pink_granite_corner_slab_left"
+      "model": "caliber:block/polished_pink_granite_corner_slab",
+      "y": 270
     },
     "facing=north,type=top_right": {
-      "model": "caliber:block/polished_pink_granite_corner_slab_top"
+      "model": "caliber:block/polished_pink_granite_corner_slab",
+      "x": 180,
+      "y": 270
     },
     "facing=north,type=top_left": {
-      "model": "caliber:block/polished_pink_granite_corner_slab_top_left"
+      "model": "caliber:block/polished_pink_granite_corner_slab",
+      "x": 180,
+      "y": 180
     },
     "facing=north,type=double_right": {
       "model": "caliber:block/polished_pink_granite_corner"
     },
     "facing=north,type=double_left": {
-      "model": "caliber:block/polished_pink_granite_corner_left"
+      "model": "caliber:block/polished_pink_granite_corner",
+      "y": 270
     },
     "facing=east,type=right": {
       "model": "caliber:block/polished_pink_granite_corner_slab",
       "y": 90
     },
     "facing=east,type=left": {
-      "model": "caliber:block/polished_pink_granite_corner_slab_left",
-      "y": 90
+      "model": "caliber:block/polished_pink_granite_corner_slab"
     },
     "facing=east,type=top_right": {
-      "model": "caliber:block/polished_pink_granite_corner_slab_top",
-      "y": 90
+      "model": "caliber:block/polished_pink_granite_corner_slab",
+      "x": 180
     },
     "facing=east,type=top_left": {
-      "model": "caliber:block/polished_pink_granite_corner_slab_top_left",
-      "y": 90
+      "model": "caliber:block/polished_pink_granite_corner_slab",
+      "x": 180,
+      "y": 270
     },
     "facing=east,type=double_right": {
       "model": "caliber:block/polished_pink_granite_corner",
       "y": 90
     },
     "facing=east,type=double_left": {
-      "model": "caliber:block/polished_pink_granite_corner_left",
-      "y": 90
+      "model": "caliber:block/polished_pink_granite_corner"
     },
     "facing=south,type=right": {
       "model": "caliber:block/polished_pink_granite_corner_slab",
       "y": 180
     },
     "facing=south,type=left": {
-      "model": "caliber:block/polished_pink_granite_corner_slab_left",
-      "y": 180
+      "model": "caliber:block/polished_pink_granite_corner_slab",
+      "y": 90
     },
     "facing=south,type=top_right": {
-      "model": "caliber:block/polished_pink_granite_corner_slab_top",
-      "y": 180
+      "model": "caliber:block/polished_pink_granite_corner_slab",
+      "x": 180,
+      "y": 90
     },
     "facing=south,type=top_left": {
-      "model": "caliber:block/polished_pink_granite_corner_slab_top_left",
-      "y": 180
+      "model": "caliber:block/polished_pink_granite_corner_slab",
+      "x": 180
     },
     "facing=south,type=double_right": {
       "model": "caliber:block/polished_pink_granite_corner",
       "y": 180
     },
     "facing=south,type=double_left": {
-      "model": "caliber:block/polished_pink_granite_corner_left",
-      "y": 180
+      "model": "caliber:block/polished_pink_granite_corner",
+      "y": 90
     },
     "facing=west,type=right": {
       "model": "caliber:block/polished_pink_granite_corner_slab",
       "y": 270
     },
     "facing=west,type=left": {
-      "model": "caliber:block/polished_pink_granite_corner_slab_left",
-      "y": 270
+      "model": "caliber:block/polished_pink_granite_corner_slab",
+      "y": 180
     },
     "facing=west,type=top_right": {
-      "model": "caliber:block/polished_pink_granite_corner_slab_top",
-      "y": 270
+      "model": "caliber:block/polished_pink_granite_corner_slab",
+      "x": 180,
+      "y": 180
     },
     "facing=west,type=top_left": {
-      "model": "caliber:block/polished_pink_granite_corner_slab_top_left",
-      "y": 270
+      "model": "caliber:block/polished_pink_granite_corner_slab",
+      "x": 180,
+      "y": 90
     },
     "facing=west,type=double_right": {
       "model": "caliber:block/polished_pink_granite_corner",
       "y": 270
     },
     "facing=west,type=double_left": {
-      "model": "caliber:block/polished_pink_granite_corner_left",
-      "y": 270
+      "model": "caliber:block/polished_pink_granite_corner",
+      "y": 180
     }
   }
 }

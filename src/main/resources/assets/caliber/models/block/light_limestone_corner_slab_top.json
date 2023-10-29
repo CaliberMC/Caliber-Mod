@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/corner_slab_top",
-  "textures": {
-    "side": "caliber:block/light_limestone",
-    "bottom": "caliber:block/light_limestone",
-    "top": "caliber:block/light_limestone"
-  }
-}
