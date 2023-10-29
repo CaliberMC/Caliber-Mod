@@ -4,7 +4,8 @@
       "model": "caliber:block/red_sandstone_capital"
     },
     "type=top": {
-      "model": "caliber:block/red_sandstone_capital_top"
+      "model": "caliber:block/red_sandstone_capital",
+      "x": 180
     }
   }
 }

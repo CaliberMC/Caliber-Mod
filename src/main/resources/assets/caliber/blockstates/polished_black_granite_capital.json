@@ -4,7 +4,8 @@
       "model": "caliber:block/polished_black_granite_capital"
     },
     "type=top": {
-      "model": "caliber:block/polished_black_granite_capital_top"
+      "model": "caliber:block/polished_black_granite_capital",
+      "x": 180
     }
   }
 }
