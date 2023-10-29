@@ -4,8 +4,7 @@
       "model": "caliber:block/tan_limestone_capital"
     },
     "type=top": {
-      "model": "caliber:block/tan_limestone_capital",
-      "x": 180
+      "model": "caliber:block/tan_limestone_capital_top"
     }
   }
 }

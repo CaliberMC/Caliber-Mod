@@ -4,8 +4,7 @@
       "model": "caliber:block/light_limestone_brick_capital"
     },
     "type=top": {
-      "model": "caliber:block/light_limestone_brick_capital",
-      "x": 180
+      "model": "caliber:block/light_limestone_brick_capital_top"
     }
   }
 }

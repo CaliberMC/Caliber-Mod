@@ -4,8 +4,7 @@
       "model": "caliber:block/red_marble_capital"
     },
     "type=top": {
-      "model": "caliber:block/red_marble_capital",
-      "x": 180
+      "model": "caliber:block/red_marble_capital_top"
     }
   }
 }
