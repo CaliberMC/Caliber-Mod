@@ -8,14 +8,11 @@
       "y": 270
     },
     "facing=north,type=top_right": {
-      "model": "caliber:block/dark_limestone_corner_slab",
-      "x": 180,
-      "y": 270
+      "model": "caliber:block/dark_limestone_corner_slab_top"
     },
     "facing=north,type=top_left": {
-      "model": "caliber:block/dark_limestone_corner_slab",
-      "x": 180,
-      "y": 180
+      "model": "caliber:block/dark_limestone_corner_slab_top",
+      "y": 270
     },
     "facing=north,type=double_right": {
       "model": "caliber:block/dark_limestone_corner"
@@ -32,13 +29,11 @@
       "model": "caliber:block/dark_limestone_corner_slab"
     },
     "facing=east,type=top_right": {
-      "model": "caliber:block/dark_limestone_corner_slab",
-      "x": 180
+      "model": "caliber:block/dark_limestone_corner_slab_top",
+      "y": 90
     },
     "facing=east,type=top_left": {
-      "model": "caliber:block/dark_limestone_corner_slab",
-      "x": 180,
-      "y": 270
+      "model": "caliber:block/dark_limestone_corner_slab_top"
     },
     "facing=east,type=double_right": {
       "model": "caliber:block/dark_limestone_corner",
@@ -56,13 +51,12 @@
       "y": 90
     },
     "facing=south,type=top_right": {
-      "model": "caliber:block/dark_limestone_corner_slab",
-      "x": 180,
-      "y": 90
+      "model": "caliber:block/dark_limestone_corner_slab_top",
+      "y": 180
     },
     "facing=south,type=top_left": {
-      "model": "caliber:block/dark_limestone_corner_slab",
-      "x": 180
+      "model": "caliber:block/dark_limestone_corner_slab_top",
+      "x": 90
     },
     "facing=south,type=double_right": {
       "model": "caliber:block/dark_limestone_corner",
@@ -81,14 +75,12 @@
       "y": 180
     },
     "facing=west,type=top_right": {
-      "model": "caliber:block/dark_limestone_corner_slab",
-      "x": 180,
-      "y": 180
+      "model": "caliber:block/dark_limestone_corner_slab_top",
+      "y": 270
     },
     "facing=west,type=top_left": {
-      "model": "caliber:block/dark_limestone_corner_slab",
-      "x": 180,
-      "y": 90
+      "model": "caliber:block/dark_limestone_corner_slab_top",
+      "y": 180
     },
     "facing=west,type=double_right": {
       "model": "caliber:block/dark_limestone_corner",
