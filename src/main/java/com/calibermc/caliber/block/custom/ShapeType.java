@@ -22,6 +22,10 @@ public enum ShapeType implements StringRepresentable {
     SLAB_BOTTOM("slab_bottom"),
     CORNER_RIGHT("corner_right"),
     CORNER_LEFT("corner_left"),
+    RIGHT_T("right_t"),
+    LEFT_T("left_t"),
+    CROSS("cross"),
+    STRAIGHT("straight"),
     FULL_BLOCK("full_block");
 
     private final String name;
