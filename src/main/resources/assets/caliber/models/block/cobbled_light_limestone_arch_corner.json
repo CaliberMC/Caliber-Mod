@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/arch_corner",
+  "textures": {
+    "side": "caliber:block/cobbled_light_limestone_64",
+    "bottom": "caliber:block/cobbled_light_limestone_64",
+    "top": "caliber:block/cobbled_light_limestone_64"
+  }
+}

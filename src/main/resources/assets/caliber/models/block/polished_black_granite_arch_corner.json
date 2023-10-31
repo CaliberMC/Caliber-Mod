@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/arch_corner",
+  "textures": {
+    "side": "caliber:block/polished_black_granite_64",
+    "bottom": "caliber:block/polished_black_granite_64",
+    "top": "caliber:block/polished_black_granite_64"
+  }
+}
