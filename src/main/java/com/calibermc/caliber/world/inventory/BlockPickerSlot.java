@@ -8,11 +8,11 @@ import net.minecraft.world.item.ItemStack;
 /**
  * Used to prevent items from being placed in a slot with block options, and scaling slots
  */
-public class BlockStateSlot extends Slot {
+public class BlockPickerSlot extends Slot {
 
     protected float scale;
 
-    public BlockStateSlot(Container pContainer, int pSlot, int pX, int pY, float scale) {
+    public BlockPickerSlot(Container pContainer, int pSlot, int pX, int pY, float scale) {
         super(pContainer, pSlot, pX, pY);
         this.scale = scale;
     }

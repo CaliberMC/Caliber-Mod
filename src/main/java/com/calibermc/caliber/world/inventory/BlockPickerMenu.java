@@ -16,10 +16,9 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 
 import java.util.List;
-import java.util.Map;
 import java.util.function.Supplier;
 
-public class BlockStateMenu extends AbstractContainerMenu {
+public class BlockPickerMenu extends AbstractContainerMenu {
 
     protected static final ImmutableMap<Block, Supplier<List<ItemStack>>> BLOCKS_STATES;
 
@@ -45,12 +44,12 @@ public class BlockStateMenu extends AbstractContainerMenu {
 
     public final ItemStack stack;
 
-    public BlockStateMenu(int pContainerId, Inventory pPlayerInventory) {
+    public BlockPickerMenu(int pContainerId, Inventory pPlayerInventory) {
         this(pContainerId, pPlayerInventory, new SimpleContainer(0));
     }
 
-    public BlockStateMenu(int pContainerId, Inventory pPlayerInventory, Container pContainer) {
-        super(ModMenuTypes.BLOCKSTATE.get(), pContainerId);
+    public BlockPickerMenu(int pContainerId, Inventory pPlayerInventory, Container pContainer) {
+        super(ModMenuTypes.BLOCK_TYPE.get(), pContainerId);
 
         this.stack = pPlayerInventory.player.getMainHandItem().copy();
         // set count to 1, for render main slot
@@ -70,10 +69,10 @@ public class BlockStateMenu extends AbstractContainerMenu {
 
         pContainer.startOpen(pPlayerInventory.player);
 
-        this.addSlot(new BlockStateSlot(new SimpleContainer(this.stack), 0, 0, 0, 2F));
+        this.addSlot(new BlockPickerSlot(new SimpleContainer(this.stack), 0, 0, 0, 2F));
 
         for (int i = 0; i < pContainer.getContainerSize(); i++) {
-            this.addSlot(new BlockStateSlot(pContainer, i, i * 20, 40, 1F));
+            this.addSlot(new BlockPickerSlot(pContainer, i, i * 20, 40, 1F));
         }
 
         for (int i = 0; i < 9; ++i) {

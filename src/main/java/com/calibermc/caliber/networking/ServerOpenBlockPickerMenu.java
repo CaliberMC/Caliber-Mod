@@ -10,11 +10,11 @@ import net.minecraftforge.network.NetworkHooks;
 
 import java.util.function.Supplier;
 
-public class ServerOpenBlockStateMenu {
+public class ServerOpenBlockPickerMenu {
 
-    public ServerOpenBlockStateMenu() {}
+    public ServerOpenBlockPickerMenu() {}
 
-    public ServerOpenBlockStateMenu(FriendlyByteBuf buffer) {
+    public ServerOpenBlockPickerMenu(FriendlyByteBuf buffer) {
     }
 
     public void toBytes(FriendlyByteBuf buffer) {
@@ -25,8 +25,8 @@ public class ServerOpenBlockStateMenu {
             ServerPlayer sender = ctx.get().getSender();
             if (sender != null) {
                 NetworkHooks.openGui(sender, new SimpleMenuProvider((id, playerInventory, entity) ->
-                        ModMenuTypes.BLOCKSTATE.get().create(id, playerInventory),
-                        new TranslatableComponent("screen.caliber.blockstate")));
+                        ModMenuTypes.BLOCK_TYPE.get().create(id, playerInventory),
+                        new TranslatableComponent("screen.caliber.block_picker")));
             }
         });
         ctx.get().setPacketHandled(true);

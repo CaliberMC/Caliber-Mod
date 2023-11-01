@@ -1,8 +1,8 @@
 package com.calibermc.caliber.client;
 
 import com.calibermc.caliber.Caliber;
-import com.calibermc.caliber.world.inventory.BlockStateMenu;
-import com.calibermc.caliber.world.inventory.BlockStateSlot;
+import com.calibermc.caliber.world.inventory.BlockPickerMenu;
+import com.calibermc.caliber.world.inventory.BlockPickerSlot;
 import com.mojang.blaze3d.platform.InputConstants;
 import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.vertex.PoseStack;
@@ -33,12 +33,12 @@ import java.util.Map;
 
 import static net.minecraft.util.Mth.PI;
 
-public class BlockStateScreen extends Screen implements MenuAccess<BlockStateMenu> {
+public class BlockPickerScreen extends Screen implements MenuAccess<BlockPickerMenu> {
 
     protected static final ResourceLocation TEXTURE = new ResourceLocation(Caliber.MOD_ID, "textures/gui/blank.png");
     protected static final ResourceLocation SLOT_SHADOW = new ResourceLocation(Caliber.MOD_ID, "textures/gui/slot.png");
     protected static final int RADIUS = 56;
-    public final BlockStateMenu menu;
+    public final BlockPickerMenu menu;
     public final Map<Slot, Vec2> slotPositions = new HashMap<>();
     protected final Inventory playerInventory;
     protected int imageWidth = 176, imageHeight = 141;
@@ -53,7 +53,7 @@ public class BlockStateScreen extends Screen implements MenuAccess<BlockStateMen
     private int lastClickButton;
     private boolean doubleclick;
 
-    public BlockStateScreen(BlockStateMenu pMenu, Inventory pPlayerInventory, Component pTitle) {
+    public BlockPickerScreen(BlockPickerMenu pMenu, Inventory pPlayerInventory, Component pTitle) {
         super(pTitle);
         this.menu = pMenu;
         this.playerInventory = pPlayerInventory;
@@ -119,7 +119,7 @@ public class BlockStateScreen extends Screen implements MenuAccess<BlockStateMen
         this.itemRenderer.blitOffset = 100.0F;
 
         float scale = 1;
-        if (pSlot instanceof BlockStateSlot slot) {
+        if (pSlot instanceof BlockPickerSlot slot) {
             scale = slot.getScale(); // getting a basic size
 
             if (this.menu.slots.indexOf(slot) != 0) {
@@ -331,7 +331,7 @@ public class BlockStateScreen extends Screen implements MenuAccess<BlockStateMen
     private boolean isHoveringSlot(Slot pSlot, double pMouseX, double pMouseY) {
         Vec2 slotPos = this.slotPositions.get(pSlot);
         float scale = 16;
-        if (pSlot instanceof BlockStateSlot slot) {
+        if (pSlot instanceof BlockPickerSlot slot) {
             scale *= slot.getScale();
         }
         return this.isHovering(slotPos.x, slotPos.y, scale, scale, pMouseX, pMouseY);
@@ -400,7 +400,7 @@ public class BlockStateScreen extends Screen implements MenuAccess<BlockStateMen
 
     @NotNull
     @Override
-    public BlockStateMenu getMenu() {
+    public BlockPickerMenu getMenu() {
         return this.menu;
     }
 

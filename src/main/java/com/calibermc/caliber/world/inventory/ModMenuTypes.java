@@ -12,7 +12,7 @@ public class ModMenuTypes {
 
     public static final DeferredRegister<MenuType<?>> CONTAINERS = DeferredRegister.create(ForgeRegistries.CONTAINERS, Caliber.MOD_ID);
 
-    public static final RegistryObject<MenuType<BlockStateMenu>> BLOCKSTATE = register("blockstate", BlockStateMenu::new);
+    public static final RegistryObject<MenuType<BlockPickerMenu>> BLOCK_TYPE = register("block_type", BlockPickerMenu::new);
 
     private static <T extends AbstractContainerMenu> RegistryObject<MenuType<T>> register(String name, MenuType.MenuSupplier<T> factory) {
         return CONTAINERS.register(name, () -> new MenuType<>(factory));

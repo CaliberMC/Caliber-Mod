@@ -3,6 +3,8 @@
 
     "key.categories.caliber": "Caliber Mod",
     "caliber.key.block_picker_screen": "Block Picker",
+    "screen.caliber.block_picker": "Block Picker",
+
 
     "itemGroup.calibertab": "Caliber Mod",
 
@@ -872,6 +874,4 @@
     "block.caliber.brown_sand":"Brown Sand",
     "block.caliber.orange_sand":"Orange Sand",
     "block.caliber.white_sand":"White Sand"
-
-
 }

@@ -2,9 +2,9 @@ package com.calibermc.caliber.event;
 
 
 import com.calibermc.caliber.Caliber;
-import com.calibermc.caliber.client.BlockStateScreen;
+import com.calibermc.caliber.client.BlockPickerScreen;
 import com.calibermc.caliber.networking.ModNetworking;
-import com.calibermc.caliber.networking.ServerOpenBlockStateMenu;
+import com.calibermc.caliber.networking.ServerOpenBlockPickerMenu;
 import com.calibermc.caliber.world.inventory.ModMenuTypes;
 import net.minecraft.client.KeyMapping;
 import net.minecraft.client.Minecraft;
@@ -41,7 +41,7 @@ public class ModClientEventBus {
     public static void clientSetup(final FMLClientSetupEvent event) {
         // register key V
         ClientRegistry.registerKeyBinding(BLOCK_PICKER);
-        MenuScreens.register(ModMenuTypes.BLOCKSTATE.get(), BlockStateScreen::new);
+        MenuScreens.register(ModMenuTypes.BLOCK_TYPE.get(), BlockPickerScreen::new);
     }
 
     @SubscribeEvent
@@ -58,7 +58,7 @@ public class ModClientEventBus {
             Minecraft mc = Minecraft.getInstance();
             if (mc.player == null || mc.screen != null) return;
             if (BLOCK_PICKER.consumeClick() && !mc.player.getMainHandItem().isEmpty() && mc.player.isCreative()) {
-                ModNetworking.INSTANCE.sendToServer(new ServerOpenBlockStateMenu());
+                ModNetworking.INSTANCE.sendToServer(new ServerOpenBlockPickerMenu());
             }
 
 
