@@ -1,4 +1,11 @@
 {
+
+
+    "key.categories.caliber": "Caliber Mod",
+    "caliber.key.block_picker_screen": "Block Picker",
+
+    "itemGroup.calibertab": "Caliber Mod",
+
     "item.caliber.tin_ingot": "Tin Ingot",
     "item.caliber.tin_nugget": "Tin Nugget",
     "item.caliber.raw_tin": "Raw Tin",
@@ -864,7 +871,7 @@
     "block.caliber.black_sand":"Black Sand",
     "block.caliber.brown_sand":"Brown Sand",
     "block.caliber.orange_sand":"Orange Sand",
-    "block.caliber.white_sand":"White Sand",
+    "block.caliber.white_sand":"White Sand"
 
-    "itemGroup.calibertab": "Caliber Mod"
+
 }
