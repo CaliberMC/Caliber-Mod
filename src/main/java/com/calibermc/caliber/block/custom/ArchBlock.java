@@ -1,8 +1,7 @@
 package com.calibermc.caliber.block.custom;
 
+import com.calibermc.caliber.block.properties.ArchShape;
 import com.calibermc.caliber.util.ModBlockStateProperties;
-import com.google.common.collect.ImmutableMap;
-import com.google.common.collect.Maps;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.tags.FluidTags;
@@ -12,31 +11,25 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.SimpleWaterloggedBlock;
-import net.minecraft.world.level.block.StairBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
-import net.minecraft.world.level.block.state.properties.StairsShape;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.level.pathfinder.PathComputationType;
-import net.minecraft.world.phys.shapes.BooleanOp;
 import net.minecraft.world.phys.shapes.CollisionContext;
-import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
 import javax.annotation.Nullable;
-import java.util.Map;
-import java.util.stream.Stream;
 
 import static net.minecraft.core.Direction.*;
 
 public class ArchBlock extends HorizontalDirectionalBlock implements SimpleWaterloggedBlock {
 
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
-    public static final EnumProperty<ShapeType> TYPE = ModBlockStateProperties.SHAPE_TYPE;
+    public static final EnumProperty<ArchShape> TYPE = ModBlockStateProperties.ARCH_SHAPE;
 
     public static final VoxelShape SHAPE = Block.box(0, 8, 0, 16, 16, 16);
 
@@ -44,7 +37,7 @@ public class ArchBlock extends HorizontalDirectionalBlock implements SimpleWater
         super(properties);
         this.registerDefaultState(this.stateDefinition.any() // ? this.defaultBlockState()
                 .setValue(FACING, NORTH)
-                .setValue(TYPE, ShapeType.STRAIGHT)
+                .setValue(TYPE, ArchShape.STRAIGHT)
                 .setValue(WATERLOGGED, Boolean.valueOf(false)));
     }
 
@@ -71,7 +64,7 @@ public class ArchBlock extends HorizontalDirectionalBlock implements SimpleWater
         BlockState blockstate1 = this.defaultBlockState().setValue(FACING, pContext.getHorizontalDirection().getOpposite())
                 .setValue(WATERLOGGED, Boolean.valueOf(fluidstate.getType() == Fluids.WATER));
 
-        return blockstate1.setValue(TYPE, ShapeType.STRAIGHT)
+        return blockstate1.setValue(TYPE, ArchShape.STRAIGHT)
                 .setValue(WATERLOGGED, Boolean.valueOf(false));
     }
 
@@ -90,7 +83,7 @@ public class ArchBlock extends HorizontalDirectionalBlock implements SimpleWater
     }
 
 
-    private static ShapeType getArchShape(BlockState pState, BlockGetter pLevel, BlockPos pPos) {
+    private static ArchShape getArchShape(BlockState pState, BlockGetter pLevel, BlockPos pPos) {
         Direction direction = pState.getValue(FACING);
         Direction opposite = direction.getOpposite();
 
@@ -101,30 +94,30 @@ public class ArchBlock extends HorizontalDirectionalBlock implements SimpleWater
 
         // Check for corner (left)
         if ((left && front && !right && !back) || (right && back && !left && !front)) {
-            return ShapeType.CORNER_LEFT;
+            return ArchShape.CORNER_LEFT;
         }
 
         // Check for corner (right)
         if ((right && front && !left && !back) || (left && back && !right && !front)) {
-            return ShapeType.CORNER_RIGHT;
+            return ArchShape.CORNER_RIGHT;
         }
 
         // Check for 3-way intersection (left)
         if (left && front && back && !right) {
-            return ShapeType.LEFT_T;
+            return ArchShape.LEFT_T;
         }
 
         // Check for 3-way intersection (right)
         if (right && front && back && !left) {
-            return ShapeType.RIGHT_T;
+            return ArchShape.RIGHT_T;
         }
 
         // Check for 4-way intersection
         if (right && left && front && back) {
-            return ShapeType.CROSS;
+            return ArchShape.CROSS;
         }
 
-        return ShapeType.STRAIGHT;
+        return ArchShape.STRAIGHT;
     }
 
     public static boolean isArch(BlockState pState) {

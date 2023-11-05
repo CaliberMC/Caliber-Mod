@@ -1,22 +1,20 @@
 package com.calibermc.caliber.block.custom;
 
+import com.calibermc.caliber.block.properties.BalustradeShape;
 import com.calibermc.caliber.util.ModBlockStateProperties;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Maps;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.tags.FluidTags;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.SimpleWaterloggedBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.*;
-import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.level.pathfinder.PathComputationType;
@@ -34,7 +32,7 @@ import static net.minecraft.core.Direction.WEST;
 
 public class BalustradeBlock extends Block implements SimpleWaterloggedBlock {
     public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
-    public static final EnumProperty<ShapeType> TYPE = ModBlockStateProperties.SHAPE_TYPE;
+    public static final EnumProperty<BalustradeShape> TYPE = ModBlockStateProperties.BALUSTRADE_SHAPE;
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
     public static final Map<Direction, VoxelShape> SINGLE_SHAPE = Maps.newEnumMap(ImmutableMap.of(
             NORTH, Stream.of(Block.box(1.5, 10, 1.5, 14.5, 16, 14.5),
@@ -87,7 +85,7 @@ public class BalustradeBlock extends Block implements SimpleWaterloggedBlock {
         super(properties);
         this.registerDefaultState(this.defaultBlockState() // ? this.stateDefinition.any()
                 .setValue(FACING, NORTH)
-                .setValue(TYPE, ShapeType.SINGLE)
+                .setValue(TYPE, BalustradeShape.SINGLE)
                 .setValue(WATERLOGGED, Boolean.valueOf(false)));
     }
     @Override
@@ -102,8 +100,8 @@ public class BalustradeBlock extends Block implements SimpleWaterloggedBlock {
 
     @Override
     public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
-        ShapeType shapeType = pState.getValue(TYPE);
-        switch (shapeType) {
+        BalustradeShape balustradeShape = pState.getValue(TYPE);
+        switch (balustradeShape) {
             case CONNECTED -> {
                 return CONNECTED_SHAPE.get(pState.getValue(FACING));
             }
@@ -123,7 +121,7 @@ public class BalustradeBlock extends Block implements SimpleWaterloggedBlock {
             FluidState fluidstate = pContext.getLevel().getFluidState(blockpos);
             BlockState blockstate1 = this.defaultBlockState().setValue(FACING, pContext.getHorizontalDirection().getOpposite())
                     .setValue(WATERLOGGED, Boolean.valueOf(fluidstate.getType() == Fluids.WATER));
-            return blockstate1.setValue(TYPE, ShapeType.CONNECTED).setValue(FACING, pContext.getHorizontalDirection()
+            return blockstate1.setValue(TYPE, BalustradeShape.CONNECTED).setValue(FACING, pContext.getHorizontalDirection()
                     .getOpposite()).setValue(WATERLOGGED, Boolean.valueOf(fluidstate.getType() == Fluids.WATER));
         } else {
             return defaultBlockState();

@@ -1,5 +1,6 @@
 package com.calibermc.caliber.block.custom;
 
+import com.calibermc.caliber.block.properties.VerticalCornerSlabShape;
 import com.calibermc.caliber.util.ModBlockStateProperties;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Maps;
@@ -12,7 +13,6 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.SimpleWaterloggedBlock;
-import net.minecraft.world.level.block.StairBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.*;
@@ -34,7 +34,7 @@ public class VerticalCornerSlabBlock extends Block implements SimpleWaterloggedB
 
     public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
-    public static final EnumProperty<ShapeType> TYPE = ModBlockStateProperties.SHAPE_TYPE;
+    public static final EnumProperty<VerticalCornerSlabShape> TYPE = ModBlockStateProperties.VERTICAL_CORNER_SLAB_SHAPE;
 
 
     public static final Map<Direction, VoxelShape> LEFT_SHAPE = Maps.newEnumMap(ImmutableMap.of(
@@ -77,7 +77,7 @@ public class VerticalCornerSlabBlock extends Block implements SimpleWaterloggedB
         super(properties);
         this.registerDefaultState(this.stateDefinition.any()
                 .setValue(FACING, Direction.NORTH)
-                .setValue(TYPE, ShapeType.RIGHT)
+                .setValue(TYPE, VerticalCornerSlabShape.RIGHT)
                 .setValue(WATERLOGGED, Boolean.valueOf(false)));
     }
 
@@ -92,8 +92,8 @@ public class VerticalCornerSlabBlock extends Block implements SimpleWaterloggedB
     }
     @Override
     public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
-        ShapeType shapeType = pState.getValue(TYPE);
-        switch (shapeType) {
+        VerticalCornerSlabShape verticalCornerSlabShape = pState.getValue(TYPE);
+        switch (verticalCornerSlabShape) {
             case DOUBLE_TOP -> {
                 return DOUBLE_TOP.get(pState.getValue(FACING));
             }
@@ -126,10 +126,10 @@ public class VerticalCornerSlabBlock extends Block implements SimpleWaterloggedB
         Direction direction = pContext.getHorizontalDirection().getOpposite();
 
         if (blockstate.is(this)) {
-            if (blockstate.getValue(TYPE) == ShapeType.RIGHT || blockstate.getValue(TYPE) == ShapeType.LEFT) {
-                return blockstate.setValue(TYPE, ShapeType.DOUBLE).setValue(WATERLOGGED, Boolean.valueOf(false));
-            } else if (blockstate.getValue(TYPE) == ShapeType.TOP_RIGHT || blockstate.getValue(TYPE) == ShapeType.TOP_LEFT) {
-                return blockstate.setValue(TYPE, ShapeType.DOUBLE_TOP).setValue(WATERLOGGED, Boolean.valueOf(false));
+            if (blockstate.getValue(TYPE) == VerticalCornerSlabShape.RIGHT || blockstate.getValue(TYPE) == VerticalCornerSlabShape.LEFT) {
+                return blockstate.setValue(TYPE, VerticalCornerSlabShape.DOUBLE).setValue(WATERLOGGED, Boolean.valueOf(false));
+            } else if (blockstate.getValue(TYPE) == VerticalCornerSlabShape.TOP_RIGHT || blockstate.getValue(TYPE) == VerticalCornerSlabShape.TOP_LEFT) {
+                return blockstate.setValue(TYPE, VerticalCornerSlabShape.DOUBLE_TOP).setValue(WATERLOGGED, Boolean.valueOf(false));
             }
         } else {
             FluidState fluidstate = pContext.getLevel().getFluidState(blockpos);
@@ -137,23 +137,23 @@ public class VerticalCornerSlabBlock extends Block implements SimpleWaterloggedB
                     .setValue(WATERLOGGED, Boolean.valueOf(fluidstate.getType() == Fluids.WATER));
 
             if ((direction == NORTH && hitX < 0.5 || direction == EAST && hitZ < 0.5) && hitY < 0.5) {
-                return blockstate1.setValue(TYPE, ShapeType.RIGHT);
+                return blockstate1.setValue(TYPE, VerticalCornerSlabShape.RIGHT);
             } else if ((direction == NORTH && hitX > 0.5 || direction == EAST && hitZ > 0.5) && hitY < 0.5) {
-                return blockstate1.setValue(TYPE, ShapeType.LEFT);
+                return blockstate1.setValue(TYPE, VerticalCornerSlabShape.LEFT);
             } else if ((direction == SOUTH && hitX > 0.5 || direction == WEST && hitZ > 0.5) && hitY < 0.5) {
-                return blockstate1.setValue(TYPE, ShapeType.RIGHT);
+                return blockstate1.setValue(TYPE, VerticalCornerSlabShape.RIGHT);
             } else if ((direction == SOUTH && hitX < 0.5 || direction == WEST && hitZ < 0.5) && hitY < 0.5) {
-                return blockstate1.setValue(TYPE, ShapeType.LEFT);
+                return blockstate1.setValue(TYPE, VerticalCornerSlabShape.LEFT);
             } else if ((direction == NORTH && hitX < 0.5 || direction == EAST && hitZ < 0.5) && hitY > 0.5) {
-                return blockstate1.setValue(TYPE, ShapeType.TOP_RIGHT);
+                return blockstate1.setValue(TYPE, VerticalCornerSlabShape.TOP_RIGHT);
             } else if ((direction == NORTH && hitX > 0.5 || direction == EAST && hitZ > 0.5) && hitY > 0.5) {
-                return blockstate1.setValue(TYPE, ShapeType.TOP_LEFT);
+                return blockstate1.setValue(TYPE, VerticalCornerSlabShape.TOP_LEFT);
             } else if ((direction == SOUTH && hitX > 0.5 || direction == WEST && hitZ > 0.5) && hitY > 0.5) {
-                return blockstate1.setValue(TYPE, ShapeType.TOP_RIGHT);
+                return blockstate1.setValue(TYPE, VerticalCornerSlabShape.TOP_RIGHT);
             } else if ((direction == SOUTH && hitX < 0.5 || direction == WEST && hitZ < 0.5) && hitY > 0.5) {
-                return blockstate1.setValue(TYPE, ShapeType.TOP_LEFT);
+                return blockstate1.setValue(TYPE, VerticalCornerSlabShape.TOP_LEFT);
             } else {
-                return blockstate1.setValue(TYPE, ShapeType.RIGHT);
+                return blockstate1.setValue(TYPE, VerticalCornerSlabShape.RIGHT);
             }
         }
         return blockstate;
@@ -162,11 +162,11 @@ public class VerticalCornerSlabBlock extends Block implements SimpleWaterloggedB
     @Override
     public boolean canBeReplaced(BlockState pState, BlockPlaceContext pUseContext) {
         ItemStack itemstack = pUseContext.getItemInHand();
-        ShapeType shapeType = pState.getValue(TYPE);
-        if ((shapeType == ShapeType.LEFT ||
-                shapeType == ShapeType.RIGHT ||
-                shapeType == ShapeType.TOP_LEFT ||
-                shapeType == ShapeType.TOP_RIGHT) &&
+        VerticalCornerSlabShape verticalCornerSlabShape = pState.getValue(TYPE);
+        if ((verticalCornerSlabShape == VerticalCornerSlabShape.LEFT ||
+                verticalCornerSlabShape == VerticalCornerSlabShape.RIGHT ||
+                verticalCornerSlabShape == VerticalCornerSlabShape.TOP_LEFT ||
+                verticalCornerSlabShape == VerticalCornerSlabShape.TOP_RIGHT) &&
                 itemstack.is(this.asItem())) {
             return true;
         } else {

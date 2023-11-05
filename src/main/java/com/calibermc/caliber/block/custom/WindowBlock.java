@@ -1,5 +1,6 @@
 package com.calibermc.caliber.block.custom;
 
+import com.calibermc.caliber.block.properties.WindowShape;
 import com.calibermc.caliber.util.ModBlockStateProperties;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Maps;
@@ -35,7 +36,7 @@ import static net.minecraft.core.Direction.*;
 public class WindowBlock extends HorizontalDirectionalBlock implements SimpleWaterloggedBlock {
 
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
-    public static final EnumProperty<ShapeType> TYPE = ModBlockStateProperties.SHAPE_TYPE;
+    public static final EnumProperty<WindowShape> TYPE = ModBlockStateProperties.WINDOW_SHAPE;
     public static final Map<Direction, VoxelShape> TOP_SHAPE = Maps.newEnumMap(ImmutableMap.of(
             NORTH,  Stream.of(
                     Block.box(12, 0, 0, 16, 16, 16),
@@ -120,7 +121,7 @@ public class WindowBlock extends HorizontalDirectionalBlock implements SimpleWat
         super(properties);
         this.registerDefaultState(this.stateDefinition.any() // ? this.defaultBlockState()
                 .setValue(FACING, NORTH)
-                .setValue(TYPE, ShapeType.FULL_BLOCK)
+                .setValue(TYPE, WindowShape.FULL_BLOCK)
                 .setValue(WATERLOGGED, Boolean.valueOf(false)));
     }
 
@@ -136,8 +137,8 @@ public class WindowBlock extends HorizontalDirectionalBlock implements SimpleWat
 
     @Override
     public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
-        ShapeType shapeType = pState.getValue(TYPE);
-        switch (shapeType) {
+        WindowShape windowShape = pState.getValue(TYPE);
+        switch (windowShape) {
             case TOP -> {
                 return TOP_SHAPE.get(pState.getValue(FACING));
             }
@@ -166,22 +167,22 @@ public class WindowBlock extends HorizontalDirectionalBlock implements SimpleWat
 
         // If the block below is a window and the block above is not a window, this block is a top window.
 //        if (below.getBlock() == this && above.getBlock() != this) {
-//            return blockstate1.setValue(TYPE, ShapeType.TOP)
+//            return blockstate1.setValue(TYPE, WindowShape.TOP)
 //                    .setValue(WATERLOGGED, Boolean.valueOf(false));
 //            // If both the block below and the block above are windows, this block is a middle window.
 //        } else if (below.getBlock() == this && above.getBlock() == this) {
-//            return blockstate1.setValue(TYPE, ShapeType.MIDDLE)
+//            return blockstate1.setValue(TYPE, WindowShape.MIDDLE)
 //                    .setValue(WATERLOGGED, Boolean.valueOf(false));
 //            // If the block below is not a window and the block above is a window, this block is a bottom window.
 //        } else if (below.getBlock() != this && above.getBlock() == this) {
-//            return blockstate1.setValue(TYPE, ShapeType.BOTTOM)
+//            return blockstate1.setValue(TYPE, WindowShape.BOTTOM)
 //                    .setValue(WATERLOGGED, Boolean.valueOf(false));
 //            // By default, place as a whole window.
 //        } else {
-//            return blockstate1.setValue(TYPE, ShapeType.FULL_BLOCK)
+//            return blockstate1.setValue(TYPE, WindowShape.FULL_BLOCK)
 //                    .setValue(WATERLOGGED, Boolean.valueOf(false));
 //        }
-        return blockstate1.setValue(TYPE, ShapeType.FULL_BLOCK)
+        return blockstate1.setValue(TYPE, WindowShape.FULL_BLOCK)
                 .setValue(WATERLOGGED, Boolean.valueOf(false));
     }
 
@@ -198,13 +199,13 @@ public class WindowBlock extends HorizontalDirectionalBlock implements SimpleWat
         }
 
         if (pLevel.getBlockState(pCurrentPos.below()).getBlock() == this && pLevel.getBlockState(pCurrentPos.above()).getBlock() != this) {
-            return pState.setValue(TYPE, ShapeType.TOP);
+            return pState.setValue(TYPE, WindowShape.TOP);
         } else if (pLevel.getBlockState(pCurrentPos.below()).getBlock() == this && pLevel.getBlockState(pCurrentPos.above()).getBlock() == this) {
-            return pState.setValue(TYPE, ShapeType.MIDDLE);
+            return pState.setValue(TYPE, WindowShape.MIDDLE);
         } else if (pLevel.getBlockState(pCurrentPos.below()).getBlock() != this && pLevel.getBlockState(pCurrentPos.above()).getBlock() == this) {
-            return pState.setValue(TYPE, ShapeType.BOTTOM);
+            return pState.setValue(TYPE, WindowShape.BOTTOM);
         } else {
-            return pState.setValue(TYPE, ShapeType.FULL_BLOCK);
+            return pState.setValue(TYPE, WindowShape.FULL_BLOCK);
         }
 
 //        return super.updateShape(pState, pFacing, pFacingState, pLevel, pCurrentPos, pFacingPos);

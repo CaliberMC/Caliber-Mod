@@ -1,5 +1,6 @@
 package com.calibermc.caliber.block.custom;
 
+import com.calibermc.caliber.block.properties.VerticalSlabShape;
 import com.calibermc.caliber.util.ModBlockStateProperties;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Maps;
@@ -30,7 +31,7 @@ public class VerticalSlabBlock extends Block implements SimpleWaterloggedBlock {
 
     public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
-    public static final EnumProperty<ShapeType> TYPE = ModBlockStateProperties.SHAPE_TYPE;
+    public static final EnumProperty<VerticalSlabShape> TYPE = ModBlockStateProperties.VERTICAL_SLAB_SHAPE;
 
 
     public static final Map<Direction, VoxelShape> SHAPE = Maps.newEnumMap(ImmutableMap.of(
@@ -45,7 +46,7 @@ public class VerticalSlabBlock extends Block implements SimpleWaterloggedBlock {
         super(properties);
         this.registerDefaultState(this.stateDefinition.any()
                 .setValue(FACING, Direction.NORTH)
-                .setValue(TYPE, ShapeType.SINGLE)
+                .setValue(TYPE, VerticalSlabShape.SINGLE)
                 .setValue(WATERLOGGED, Boolean.valueOf(false)));
     }
 
@@ -61,8 +62,8 @@ public class VerticalSlabBlock extends Block implements SimpleWaterloggedBlock {
 
     @Override
     public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
-        ShapeType shapeType = pState.getValue(TYPE);
-        return switch (shapeType) {
+        VerticalSlabShape verticalSlabShape = pState.getValue(TYPE);
+        return switch (verticalSlabShape) {
             case DOUBLE -> DOUBLE;
             default -> SHAPE.get(pState.getValue(FACING));
         };
@@ -75,27 +76,27 @@ public class VerticalSlabBlock extends Block implements SimpleWaterloggedBlock {
         BlockPos blockpos = pContext.getClickedPos();
         BlockState blockstate = pContext.getLevel().getBlockState(blockpos);
         if (blockstate.is(this)) {
-            return blockstate.setValue(TYPE, ShapeType.DOUBLE).setValue(WATERLOGGED, Boolean.valueOf(false));
+            return blockstate.setValue(TYPE, VerticalSlabShape.DOUBLE).setValue(WATERLOGGED, Boolean.valueOf(false));
         } else {
             FluidState fluidstate = pContext.getLevel().getFluidState(blockpos);
             BlockState blockstate1 = this.defaultBlockState().setValue(FACING, pContext.getHorizontalDirection().getOpposite())
-                    .setValue(TYPE, ShapeType.SINGLE).setValue(WATERLOGGED, Boolean.valueOf(fluidstate.getType() == Fluids.WATER));
+                    .setValue(TYPE, VerticalSlabShape.SINGLE).setValue(WATERLOGGED, Boolean.valueOf(fluidstate.getType() == Fluids.WATER));
             Direction direction = pContext.getClickedFace();
             return direction != Direction.DOWN && (direction == Direction.UP ||
                     !(pContext.getClickLocation().y - (double)blockpos.getY() > 0.5D)) ? blockstate1 :
-                    blockstate1.setValue(FACING, pContext.getHorizontalDirection().getOpposite()).setValue(TYPE, ShapeType.SINGLE);
+                    blockstate1.setValue(FACING, pContext.getHorizontalDirection().getOpposite()).setValue(TYPE, VerticalSlabShape.SINGLE);
         }
     }
 
     @Override
     public boolean canBeReplaced(BlockState pState, BlockPlaceContext pUseContext) {
         ItemStack itemstack = pUseContext.getItemInHand();
-        ShapeType shapeType = pState.getValue(TYPE);
-        if (shapeType != ShapeType.DOUBLE && itemstack.is(this.asItem())) {
+        VerticalSlabShape verticalSlabShape = pState.getValue(TYPE);
+        if (verticalSlabShape != VerticalSlabShape.DOUBLE && itemstack.is(this.asItem())) {
             if (pUseContext.replacingClickedOnBlock()) {
                 boolean flag = pUseContext.getClickLocation().y - (double)pUseContext.getClickedPos().getY() > 0.5D;
                 Direction direction = pUseContext.getClickedFace();
-                if (shapeType == ShapeType.SINGLE) {
+                if (verticalSlabShape == VerticalSlabShape.SINGLE) {
                     return direction == Direction.UP || flag && direction.getAxis().isHorizontal();
                 } else {
                     return direction == Direction.DOWN || !flag && direction.getAxis().isHorizontal();

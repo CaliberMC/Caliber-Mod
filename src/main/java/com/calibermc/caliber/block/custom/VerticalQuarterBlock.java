@@ -1,6 +1,6 @@
 package com.calibermc.caliber.block.custom;
 
-import com.calibermc.caliber.Caliber;
+import com.calibermc.caliber.block.properties.VerticalQuarterShape;
 import com.calibermc.caliber.util.ModBlockStateProperties;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Maps;
@@ -10,14 +10,12 @@ import net.minecraft.tags.FluidTags;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.SimpleWaterloggedBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.*;
-import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.level.pathfinder.PathComputationType;
@@ -33,7 +31,7 @@ import static net.minecraft.core.Direction.WEST;
 public class VerticalQuarterBlock extends Block implements SimpleWaterloggedBlock {
 
     public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
-    public static final EnumProperty<ShapeType> TYPE = ModBlockStateProperties.SHAPE_TYPE;
+    public static final EnumProperty<VerticalQuarterShape> TYPE = ModBlockStateProperties.VERTICAL_QUARTER_SHAPE;
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
     public static final Map<Direction, VoxelShape> LEFT_SHAPE = Maps.newEnumMap(ImmutableMap.of(
@@ -52,7 +50,7 @@ public class VerticalQuarterBlock extends Block implements SimpleWaterloggedBloc
         super(properties);
         this.registerDefaultState(this.stateDefinition.any() // ? this.defaultBlockState()
                 .setValue(FACING, NORTH)
-                .setValue(TYPE, ShapeType.RIGHT)
+                .setValue(TYPE, VerticalQuarterShape.RIGHT)
                 .setValue(WATERLOGGED, Boolean.valueOf(false)));
     }
 
@@ -68,8 +66,8 @@ public class VerticalQuarterBlock extends Block implements SimpleWaterloggedBloc
 
     @Override
     public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
-        ShapeType shapeType = pState.getValue(TYPE);
-        switch (shapeType) {
+        VerticalQuarterShape verticalQuarterShape = pState.getValue(TYPE);
+        switch (verticalQuarterShape) {
             case DOUBLE-> {
                 return VerticalSlabBlock.SHAPE.get(pState.getValue(FACING));
             }
@@ -93,14 +91,14 @@ public class VerticalQuarterBlock extends Block implements SimpleWaterloggedBloc
         Direction direction = pContext.getHorizontalDirection().getOpposite();
 
         if (blockstate.is(this)) {
-            if (blockstate.getValue(TYPE) == ShapeType.RIGHT && (direction == NORTH && hitX < 0.5 || direction == EAST && hitZ < 0.5)) {
-                return blockstate.setValue(TYPE, ShapeType.DOUBLE).setValue(FACING, pContext.getClickedFace().getClockWise()).setValue(WATERLOGGED, Boolean.valueOf(false));
-            } else if (blockstate.getValue(TYPE) == ShapeType.LEFT && (direction == NORTH && hitX > 0.5 || direction == EAST && hitZ > 0.5)) {
-                return blockstate.setValue(TYPE, ShapeType.DOUBLE).setValue(FACING, pContext.getClickedFace().getCounterClockWise()).setValue(WATERLOGGED, Boolean.valueOf(false));
-            } else if (blockstate.getValue(TYPE) == ShapeType.RIGHT && (direction == SOUTH && hitX > 0.5 || direction == WEST && hitZ > 0.5)) {
-                return blockstate.setValue(TYPE, ShapeType.DOUBLE).setValue(FACING, pContext.getClickedFace().getClockWise()).setValue(WATERLOGGED, Boolean.valueOf(false));
-            } else if (blockstate.getValue(TYPE) == ShapeType.LEFT && (direction == SOUTH && hitX < 0.5 || direction == WEST && hitZ < 0.5)) {
-                return blockstate.setValue(TYPE, ShapeType.DOUBLE).setValue(FACING, pContext.getClickedFace().getCounterClockWise()).setValue(WATERLOGGED, Boolean.valueOf(false));
+            if (blockstate.getValue(TYPE) == VerticalQuarterShape.RIGHT && (direction == NORTH && hitX < 0.5 || direction == EAST && hitZ < 0.5)) {
+                return blockstate.setValue(TYPE, VerticalQuarterShape.DOUBLE).setValue(FACING, pContext.getClickedFace().getClockWise()).setValue(WATERLOGGED, Boolean.valueOf(false));
+            } else if (blockstate.getValue(TYPE) == VerticalQuarterShape.LEFT && (direction == NORTH && hitX > 0.5 || direction == EAST && hitZ > 0.5)) {
+                return blockstate.setValue(TYPE, VerticalQuarterShape.DOUBLE).setValue(FACING, pContext.getClickedFace().getCounterClockWise()).setValue(WATERLOGGED, Boolean.valueOf(false));
+            } else if (blockstate.getValue(TYPE) == VerticalQuarterShape.RIGHT && (direction == SOUTH && hitX > 0.5 || direction == WEST && hitZ > 0.5)) {
+                return blockstate.setValue(TYPE, VerticalQuarterShape.DOUBLE).setValue(FACING, pContext.getClickedFace().getClockWise()).setValue(WATERLOGGED, Boolean.valueOf(false));
+            } else if (blockstate.getValue(TYPE) == VerticalQuarterShape.LEFT && (direction == SOUTH && hitX < 0.5 || direction == WEST && hitZ < 0.5)) {
+                return blockstate.setValue(TYPE, VerticalQuarterShape.DOUBLE).setValue(FACING, pContext.getClickedFace().getCounterClockWise()).setValue(WATERLOGGED, Boolean.valueOf(false));
             }
         } else {
             FluidState fluidstate = pContext.getLevel().getFluidState(blockpos);
@@ -108,15 +106,15 @@ public class VerticalQuarterBlock extends Block implements SimpleWaterloggedBloc
                     .setValue(WATERLOGGED, Boolean.valueOf(fluidstate.getType() == Fluids.WATER));
 
             if (direction == Direction.NORTH && hitX < 0.5) {
-                return blockstate1.setValue(TYPE, ShapeType.RIGHT);
+                return blockstate1.setValue(TYPE, VerticalQuarterShape.RIGHT);
             } else if (direction == Direction.SOUTH && hitX > 0.5) {
-                return blockstate1.setValue(TYPE, ShapeType.RIGHT);
+                return blockstate1.setValue(TYPE, VerticalQuarterShape.RIGHT);
             } else if (direction == Direction.EAST && hitZ < 0.5) {
-                return blockstate1.setValue(TYPE, ShapeType.RIGHT);
+                return blockstate1.setValue(TYPE, VerticalQuarterShape.RIGHT);
             } else if (direction == Direction.WEST && hitZ > 0.5) {
-                return blockstate1.setValue(TYPE, ShapeType.RIGHT);
+                return blockstate1.setValue(TYPE, VerticalQuarterShape.RIGHT);
             } else {
-                return blockstate1.setValue(TYPE, ShapeType.LEFT);
+                return blockstate1.setValue(TYPE, VerticalQuarterShape.LEFT);
             }
         }
         return blockstate;
@@ -125,8 +123,8 @@ public class VerticalQuarterBlock extends Block implements SimpleWaterloggedBloc
     @Override
     public boolean canBeReplaced(BlockState pState, BlockPlaceContext pUseContext) {
         ItemStack itemstack = pUseContext.getItemInHand();
-        ShapeType shapeType = pState.getValue(TYPE);
-        if (shapeType != ShapeType.DOUBLE && itemstack.is(this.asItem())) {
+        VerticalQuarterShape verticalQuarterShape = pState.getValue(TYPE);
+        if (verticalQuarterShape != VerticalQuarterShape.DOUBLE && itemstack.is(this.asItem())) {
                 return true;
         } else {
             return false;
