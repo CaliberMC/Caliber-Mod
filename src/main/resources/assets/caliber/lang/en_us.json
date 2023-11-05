@@ -39,7 +39,6 @@
     "itemGroup.armor": "Armor",
 
 
-
     "item.caliber.tin_ingot": "Tin Ingot",
     "item.caliber.tin_nugget": "Tin Nugget",
     "item.caliber.raw_tin": "Raw Tin",
@@ -110,6 +109,7 @@
     "block.caliber.gray_granite_corner": "Gray Granite Corner",
     "block.caliber.pink_granite_corner": "Pink Granite Corner",
     "block.caliber.red_granite_corner": "Red Granite Corner",
+    "block.caliber.white_granite_corner": "White Granite Corner",
     "block.caliber.black_granite_corner_slab": "Black Granite Corner Slab",
     "block.caliber.brown_granite_corner_slab": "Brown Granite Corner Slab",
     "block.caliber.gray_granite_corner_slab": "Gray Granite Corner Slab",
@@ -122,7 +122,6 @@
     "block.caliber.pink_granite_corner_slab_vertical": "Pink Granite Vertical Corner Slab",
     "block.caliber.red_granite_corner_slab_vertical": "Red Granite Vertical Corner Slab",
     "block.caliber.white_granite_corner_slab_vertical": "White Granite Vertical Corner Slab",
-    "block.caliber.white_granite_corner": "White Granite Corner",
     "block.caliber.black_granite_eighth": "Black Granite Eighth",
     "block.caliber.brown_granite_eighth": "Brown Granite Eighth",
     "block.caliber.gray_granite_eighth": "Gray Granite Eighth",
@@ -897,7 +896,7 @@
 
     "block.caliber.smooth_brown_sandstone":"Smooth Brown Sandstone",
     "block.caliber.smooth_brown_sandstone_slab":"Smooth Brown Sandstone Slab",
-    "block.caliber.smooth brown_sandstone_stairs":"Smooth Brown Sandstone Stairs",
+    "block.caliber.smooth_brown_sandstone_stairs":"Smooth Brown Sandstone Stairs",
 
     "block.caliber.smooth_orange_sandstone":"Smooth Orange Sandstone",
     "block.caliber.smooth_orange_sandstone_slab":"Smooth Orange Sandstone Slab",

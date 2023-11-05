@@ -3,18 +3,18 @@
       "facing=north,type=single": {
         "model": "caliber:block/sandstone_slab_vertical" },
       "facing=north,type=double": {
-        "model": "caliber:block/sandstone" },
+        "model": "minecraft:block/sandstone" },
       "facing=east,type=single": {
         "model": "caliber:block/sandstone_slab_vertical", "y": 90 },
       "facing=east,type=double": {
-        "model": "caliber:block/sandstone", "y": 90 },
+        "model": "minecraft:block/sandstone", "y": 90 },
       "facing=south,type=single": {
         "model": "caliber:block/sandstone_slab_vertical", "y": 180 },
       "facing=south,type=double": {
-        "model": "caliber:block/sandstone", "y": 180 },
+        "model": "minecraft:block/sandstone", "y": 180 },
       "facing=west,type=single": {
         "model": "caliber:block/sandstone_slab_vertical", "y": 270 },
       "facing=west,type=double": {
-        "model": "caliber:block/sandstone", "y": 270 }
+        "model": "minecraft:block/sandstone", "y": 270 }
   }
 }

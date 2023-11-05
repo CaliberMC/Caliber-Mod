@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "caliber:block/smooth_brown_sandstone_slab"
+    },
+    "type=double": {
+      "model": "caliber:block/smooth_brown_sandstone"
+    },
+    "type=top": {
+      "model": "caliber:block/smooth_brown_sandstone_slab_top"
+    }
+  }
+}

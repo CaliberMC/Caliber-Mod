@@ -3,18 +3,18 @@
     "facing=north,type=single": {
       "model": "caliber:block/cobbled_limestone_slab_vertical" },
     "facing=north,type=double": {
-      "model": "caliber:block/cobbled_limestone" },
+      "model": "minecraft:block/cobblestone" },
     "facing=east,type=single": {
       "model": "caliber:block/cobbled_limestone_slab_vertical", "y": 90 },
     "facing=east,type=double": {
-      "model": "caliber:block/cobbled_limestone", "y": 90 },
+      "model": "minecraft:block/cobblestone", "y": 90 },
     "facing=south,type=single": {
       "model": "caliber:block/cobbled_limestone_slab_vertical", "y": 180 },
     "facing=south,type=double": {
-      "model": "caliber:block/cobbled_limestone", "y": 180 },
+      "model": "minecraft:block/cobblestone", "y": 180 },
     "facing=west,type=single": {
       "model": "caliber:block/cobbled_limestone_slab_vertical", "y": 270 },
     "facing=west,type=double": {
-      "model": "caliber:block/cobbled_limestone", "y": 270 }
+      "model": "minecraft:block/cobblestone", "y": 270 }
   }
 }

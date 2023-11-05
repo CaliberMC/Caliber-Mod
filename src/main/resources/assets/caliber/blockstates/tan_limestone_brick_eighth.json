@@ -1,7 +1,7 @@
 {
   "variants": {
     "facing=north,type=right": {
-      "model": "caliber:block/tan_limestone_brick_brick_eighth"
+      "model": "caliber:block/tan_limestone_brick_eighth"
     },
     "facing=north,type=left": {
       "model": "caliber:block/tan_limestone_brick_eighth_left"
