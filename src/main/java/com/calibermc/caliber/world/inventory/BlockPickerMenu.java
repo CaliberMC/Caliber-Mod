@@ -27,14 +27,6 @@ public class BlockPickerMenu extends AbstractContainerMenu {
     static {
         Map<Block, Supplier<List<ItemStack>>> map = new HashMap<>();
 
-        // just example with minecraft items
-        map.put(ModBlocks.LIGHT_LIMESTONE.get(), () -> Lists.newArrayList(
-                Items.LADDER.getDefaultInstance(),
-                new ItemStack(Items.DIAMOND, 36),
-                Items.ACACIA_PLANKS.getDefaultInstance(),
-                Items.TNT.getDefaultInstance()
-        ));
-
         Set<Block> processedBaseBlocks = new HashSet<>();
 
         for (ModBlockFamily modBlockFamily : ModBlockFamilies.getAllFamilies().toList()) {
@@ -116,6 +108,12 @@ public class BlockPickerMenu extends AbstractContainerMenu {
         for (int i = 0; i < 9; ++i) {
             this.addSlot(new Slot(pPlayerInventory, i, i * 20, 190));
         }
+    }
+
+    @Override
+    public void setRemoteCarried(ItemStack pRemoteCarried) {
+        super.setRemoteCarried(pRemoteCarried);
+        this.setCarried(pRemoteCarried);
     }
 
     @Override
