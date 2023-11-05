@@ -50,7 +50,7 @@ public class CreativeTabs {
         System.arraycopy(CreativeModeTab.TABS, 0, TABS, 0, CreativeModeTab.TABS.length);
         boolean removeMCTabs = CaliberClientConfigs.CUSTOM_CREATIVE_INVENTORY.get();
         if (removeMCTabs) {
-            CreativeModeTab.TABS = new CreativeModeTab[12];
+            CreativeModeTab.TABS = new CreativeModeTab[32]; //12
         }
         for (CreativeModeTab mainTab : MAIN_TABS) {
             CreativeTabs.addGroupSafe(mainTab.getId(), mainTab);
@@ -156,6 +156,46 @@ public class CreativeTabs {
                         ;
             }
         };
+        new ModifiedTab("sand_gravel", () -> new ItemStack(Blocks.SAND)) {
+
+            @Override
+            public boolean keyIsCorrect(Item item, ResourceLocation key) {
+                return key.getPath().endsWith("sand") || key.getPath().endsWith("gravel");
+            }
+        };
+        new ModifiedTab("grass_dirt", () -> new ItemStack(Blocks.GRASS_BLOCK)) {
+
+            @Override
+            public boolean keyIsCorrect(Item item, ResourceLocation key) {
+                return key.getPath().endsWith("grass_block") || key.getPath().contains("dirt");
+            }
+        };
+        new ModifiedTab("metals_ores", () -> new ItemStack(Blocks.GOLD_ORE)) {
+            @Override
+            public void fillItemList(NonNullList<ItemStack> pItems) {
+                for(Item item : ModifiedTab.getItems()) {
+                    if (Block.byItem(item) instanceof OreBlock
+                            ) {
+                        pItems.add(new ItemStack(item));
+                    }
+                }
+            }
+
+        };
+        new ModifiedTab("logs", () -> new ItemStack(Blocks.OAK_LOG)) {
+
+            @Override
+            public boolean keyIsCorrect(Item item, ResourceLocation key) {
+                return key.getPath().endsWith("_log");
+            }
+        };
+        new ModifiedTab("leaves", () -> new ItemStack(Blocks.ACACIA_LEAVES)) {
+
+            @Override
+            public boolean keyIsCorrect(Item item, ResourceLocation key) {
+                return Block.byItem(item) instanceof LeavesBlock;
+            }
+        };
         new ModifiedTab("decor", () -> new ItemStack(Blocks.BLUE_BANNER)) {
             @Override
             public void fillItemList(NonNullList<ItemStack> pItems) {
@@ -216,46 +256,6 @@ public class CreativeTabs {
                 for(Item item : ModifiedTab.getItems()) {
                     item.fillItemCategory(TAB_REDSTONE, pItems);
                 }
-            }
-        };
-        new ModifiedTab("sand_gravel", () -> new ItemStack(Blocks.SAND)) {
-
-            @Override
-            public boolean keyIsCorrect(Item item, ResourceLocation key) {
-                return key.getPath().endsWith("sand") || key.getPath().endsWith("gravel");
-            }
-        };
-        new ModifiedTab("grass_dirt", () -> new ItemStack(Blocks.GRASS_BLOCK)) {
-
-            @Override
-            public boolean keyIsCorrect(Item item, ResourceLocation key) {
-                return key.getPath().endsWith("grass_block") || key.getPath().contains("dirt");
-            }
-        };
-        new ModifiedTab("metals_ores", () -> new ItemStack(Blocks.GOLD_ORE)) {
-            @Override
-            public void fillItemList(NonNullList<ItemStack> pItems) {
-                for(Item item : ModifiedTab.getItems()) {
-                    if (Block.byItem(item) instanceof OreBlock
-                            ) {
-                        pItems.add(new ItemStack(item));
-                    }
-                }
-            }
-
-        };
-        new ModifiedTab("logs", () -> new ItemStack(Blocks.OAK_LOG)) {
-
-            @Override
-            public boolean keyIsCorrect(Item item, ResourceLocation key) {
-                return key.getPath().endsWith("_log");
-            }
-        };
-        new ModifiedTab("leaves", () -> new ItemStack(Blocks.ACACIA_LEAVES)) {
-
-            @Override
-            public boolean keyIsCorrect(Item item, ResourceLocation key) {
-                return Block.byItem(item) instanceof LeavesBlock;
             }
         };
         new ModifiedTab("flowers", () -> new ItemStack(Blocks.AZURE_BLUET)) {
