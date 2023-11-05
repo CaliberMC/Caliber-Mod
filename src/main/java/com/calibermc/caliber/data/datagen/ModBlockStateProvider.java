@@ -1,4 +1,4 @@
-package com.calibermc.caliber.datagen;
+package com.calibermc.caliber.data.datagen;
 
 import com.calibermc.caliber.Caliber;
 import com.calibermc.caliber.block.ModBlocks;
@@ -94,6 +94,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         stairsBlock((StairBlock) ModBlocks.TAN_LIMESTONE_STAIRS.get(), blockTexture(ModBlocks.TAN_LIMESTONE.get()));
         wallBlock((WallBlock) ModBlocks.DARK_LIMESTONE_WALL.get(), blockTexture(ModBlocks.DARK_LIMESTONE.get()));
         wallBlock((WallBlock) ModBlocks.LIGHT_LIMESTONE_WALL.get(), blockTexture(ModBlocks.LIGHT_LIMESTONE.get()));
+        wallBlock((WallBlock) ModBlocks.LIMESTONE_WALL.get(), blockTexture(Blocks.STONE));
         wallBlock((WallBlock) ModBlocks.PINK_LIMESTONE_WALL.get(), blockTexture(ModBlocks.PINK_LIMESTONE.get()));
         wallBlock((WallBlock) ModBlocks.TAN_LIMESTONE_WALL.get(), blockTexture(ModBlocks.TAN_LIMESTONE.get()));
         buttonBlock((ButtonBlock)ModBlocks.DARK_LIMESTONE_BUTTON.get(), blockTexture(ModBlocks.DARK_LIMESTONE.get()));

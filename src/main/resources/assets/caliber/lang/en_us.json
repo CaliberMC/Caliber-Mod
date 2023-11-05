@@ -3,10 +3,42 @@
 
     "key.categories.caliber": "Caliber Mod",
     "caliber.key.block_picker_screen": "Block Picker",
+    "caliber.key.copy_block": "Copy BlockState",
+    "caliber.key.adjust_reach": "Adjust Reach Distance",
     "screen.caliber.block_picker": "Block Picker",
 
-
     "itemGroup.calibertab": "Caliber Mod",
+    "itemGroup.stone": "Stone",
+    "itemGroup.cobble_brick": "Cobble & Brick",
+    "itemGroup.planks_beams": "Planks & Beams",
+    "itemGroup.roofs": "Roofing",
+
+    "itemGroup.plaster_stucco": "Plaster & Stucco",
+    "itemGroup.half_timbered_walls": "Half-Timbered Walls",
+    "itemGroup.tiles_flooring": "Tiles & Flooring",
+    "itemGroup.glass_windows": "Glass & Windows",
+    "itemGroup.lighting": "Lighting",
+
+    "itemGroup.decor": "Decor",
+    "itemGroup.furniture": "Furniture",
+    "itemGroup.food": "Food",
+    "itemGroup.storage": "Storage",
+    "itemGroup.redstone": "Redstone",
+
+
+    "itemGroup.sand_gravel": "Sand & Gravel",
+    "itemGroup.grass_dirt": "Grass & Dirt",
+    "itemGroup.metals_ores": "Metals & Ores",
+    "itemGroup.logs": "Logs",
+    "itemGroup.leaves": "Leaves",
+
+    "itemGroup.flowers": "Flowers",
+    "itemGroup.crops": "Crops",
+    "itemGroup.crafting": "Crafting, Etc",
+    "itemGroup.tools_weapons": "Tools & Weapons",
+    "itemGroup.armor": "Armor",
+
+
 
     "item.caliber.tin_ingot": "Tin Ingot",
     "item.caliber.tin_nugget": "Tin Nugget",
@@ -589,6 +621,7 @@
     "block.caliber.black_marble": "Black Marble",
     "block.caliber.gray_marble": "Gray Marble",
     "block.caliber.pink_marble": "Pink Marble",
+    "block.caliber.red_marble": "Red Marble",
     "block.caliber.white_marble": "White Marble",
     "block.caliber.black_marble_arch": "Black Marble Arch",
     "block.caliber.gray_marble_arch": "Gray Marble Arch",

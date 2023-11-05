@@ -1,5 +1,7 @@
 package com.calibermc.caliber.world.inventory;
 
+import com.calibermc.caliber.data.ModBlockFamilies;
+import com.calibermc.caliber.data.ModBlockFamily;
 import com.calibermc.caliber.block.ModBlocks;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Lists;
@@ -15,7 +17,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 
-import java.util.List;
+import java.util.*;
 import java.util.function.Supplier;
 
 public class BlockPickerMenu extends AbstractContainerMenu {
@@ -23,22 +25,62 @@ public class BlockPickerMenu extends AbstractContainerMenu {
     protected static final ImmutableMap<Block, Supplier<List<ItemStack>>> BLOCKS_STATES;
 
     static {
-        var builder = new ImmutableMap.Builder<Block, Supplier<List<ItemStack>>>();
+        Map<Block, Supplier<List<ItemStack>>> map = new HashMap<>();
 
         // just example with minecraft items
-        builder.put(ModBlocks.LIGHT_LIMESTONE.get(), () -> Lists.newArrayList(
+        map.put(ModBlocks.LIGHT_LIMESTONE.get(), () -> Lists.newArrayList(
                 Items.LADDER.getDefaultInstance(),
                 new ItemStack(Items.DIAMOND, 36),
                 Items.ACACIA_PLANKS.getDefaultInstance(),
                 Items.TNT.getDefaultInstance()
         ));
 
-        // and another example with blockfamilies (things related to the block) by minecraft
-        for (BlockFamily blockFamily : BlockFamilies.getAllFamilies().toList()) {
-            builder.put(blockFamily.getBaseBlock(), () -> blockFamily.getVariants().values().stream()
-                    .map(block -> block.asItem().getDefaultInstance()).toList());
+        // TODO: ADD LOGIC FOR DISABLING BLOCKFAMILIES FOR BLOCKS THAT HAVE MODBLOCKFAMILIES
+
+//        for (BlockFamily blockFamily : BlockFamilies.getAllFamilies().toList()) {
+//            map.put(blockFamily.getBaseBlock(), () -> blockFamily.getVariants().values().stream()
+//                    .map(block -> block.asItem().getDefaultInstance()).toList());
+//        }
+//
+//        for (ModBlockFamily modBlockFamily : ModBlockFamilies.getAllFamilies().toList()) {
+//            List<ItemStack> otherVariants = map.containsKey(modBlockFamily.getBaseBlock()) ?
+//                    map.get(modBlockFamily.getBaseBlock()).get() : Lists.newArrayList();
+//            map.put(modBlockFamily.getBaseBlock(), () -> {
+//                List<ItemStack> itemStacks = new ArrayList<>(modBlockFamily.getVariants().values().stream()
+//                        .map(block -> block.asItem().getDefaultInstance()).toList());
+//                itemStacks.addAll(otherVariants);
+//                return itemStacks;
+//            });
+//        }
+
+        Set<Block> processedBaseBlocks = new HashSet<>();
+
+        for (ModBlockFamily modBlockFamily : ModBlockFamilies.getAllFamilies().toList()) {
+            processedBaseBlocks.add(modBlockFamily.getBaseBlock());
+
+            // Process modBlockFamily and add it to the map
+            List<ItemStack> otherVariants = map.containsKey(modBlockFamily.getBaseBlock()) ?
+                    map.get(modBlockFamily.getBaseBlock()).get() : Lists.newArrayList();
+            map.put(modBlockFamily.getBaseBlock(), () -> {
+                List<ItemStack> itemStacks = new ArrayList<>(modBlockFamily.getVariants().values().stream()
+                        .map(block -> block.asItem().getDefaultInstance()).toList());
+                itemStacks.addAll(otherVariants);
+                return itemStacks;
+            });
         }
 
+        for (BlockFamily blockFamily : BlockFamilies.getAllFamilies().toList()) {
+            Block baseBlock = blockFamily.getBaseBlock();
+
+            // Check if baseBlock has already been processed
+            if (!processedBaseBlocks.contains(baseBlock)) {
+                map.put(baseBlock, () -> blockFamily.getVariants().values().stream()
+                        .map(block -> block.asItem().getDefaultInstance()).toList());
+            }
+        }
+
+        var builder = new ImmutableMap.Builder<Block, Supplier<List<ItemStack>>>();
+        builder.putAll(map);
         BLOCKS_STATES = builder.build();
     }
 

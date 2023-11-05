@@ -1,4 +1,4 @@
-package com.calibermc.caliber.datagen;
+package com.calibermc.caliber.data.datagen;
 
 import com.calibermc.caliber.Caliber;
 import net.minecraft.data.DataGenerator;

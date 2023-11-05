@@ -35,7 +35,7 @@ import static net.minecraft.util.Mth.PI;
 
 public class BlockPickerScreen extends Screen implements MenuAccess<BlockPickerMenu> {
 
-    protected static final ResourceLocation TEXTURE = new ResourceLocation(Caliber.MOD_ID, "textures/gui/blank.png");
+    protected static final ResourceLocation TEXTURE = new ResourceLocation(Caliber.MOD_ID, "textures/gui/block_picker.png");
     protected static final ResourceLocation SLOT_SHADOW = new ResourceLocation(Caliber.MOD_ID, "textures/gui/slot.png");
     protected static final int RADIUS = 56;
     public final BlockPickerMenu menu;

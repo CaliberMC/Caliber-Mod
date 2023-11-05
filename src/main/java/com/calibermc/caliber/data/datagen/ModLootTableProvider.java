@@ -1,8 +1,8 @@
-package com.calibermc.caliber.datagen;
+package com.calibermc.caliber.data.datagen;
 
 import com.google.common.collect.ImmutableList;
 import com.mojang.datafixers.util.Pair;
-import com.calibermc.caliber.datagen.loot.ModBlockLootTables;
+import com.calibermc.caliber.data.datagen.loot.ModBlockLootTables;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.loot.LootTableProvider;
 import net.minecraft.resources.ResourceLocation;

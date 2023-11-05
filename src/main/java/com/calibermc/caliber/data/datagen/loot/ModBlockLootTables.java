@@ -1,4 +1,4 @@
-package com.calibermc.caliber.datagen.loot;
+package com.calibermc.caliber.data.datagen.loot;
 
 import com.calibermc.caliber.block.ModBlocks;
 import com.calibermc.caliber.item.ModItems;
