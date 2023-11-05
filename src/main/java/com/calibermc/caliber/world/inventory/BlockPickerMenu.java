@@ -35,24 +35,6 @@ public class BlockPickerMenu extends AbstractContainerMenu {
                 Items.TNT.getDefaultInstance()
         ));
 
-        // TODO: ADD LOGIC FOR DISABLING BLOCKFAMILIES FOR BLOCKS THAT HAVE MODBLOCKFAMILIES
-
-//        for (BlockFamily blockFamily : BlockFamilies.getAllFamilies().toList()) {
-//            map.put(blockFamily.getBaseBlock(), () -> blockFamily.getVariants().values().stream()
-//                    .map(block -> block.asItem().getDefaultInstance()).toList());
-//        }
-//
-//        for (ModBlockFamily modBlockFamily : ModBlockFamilies.getAllFamilies().toList()) {
-//            List<ItemStack> otherVariants = map.containsKey(modBlockFamily.getBaseBlock()) ?
-//                    map.get(modBlockFamily.getBaseBlock()).get() : Lists.newArrayList();
-//            map.put(modBlockFamily.getBaseBlock(), () -> {
-//                List<ItemStack> itemStacks = new ArrayList<>(modBlockFamily.getVariants().values().stream()
-//                        .map(block -> block.asItem().getDefaultInstance()).toList());
-//                itemStacks.addAll(otherVariants);
-//                return itemStacks;
-//            });
-//        }
-
         Set<Block> processedBaseBlocks = new HashSet<>();
 
         for (ModBlockFamily modBlockFamily : ModBlockFamilies.getAllFamilies().toList()) {
@@ -106,6 +88,20 @@ public class BlockPickerMenu extends AbstractContainerMenu {
             pContainer = new SimpleContainer(stacks.size());
             for (int i = 0; i < stacks.size(); i++) {
                 pContainer.setItem(i, stacks.get(i));
+            }
+        } else {
+            for (Map.Entry<Block, Supplier<List<ItemStack>>> e : BLOCKS_STATES.entrySet()) {
+                Supplier<List<ItemStack>> sup = e.getValue();
+                if (sup.get().stream().anyMatch(i -> i.is(this.stack.getItem()))) {
+                    List<ItemStack> stacks = new ArrayList<>(sup.get());
+                    stacks.removeIf(p -> p.is(this.stack.getItem()));
+                    stacks.add(new ItemStack(e.getKey()));
+
+                    pContainer = new SimpleContainer(stacks.size());
+                    for (int i = 0; i < stacks.size(); i++) {
+                        pContainer.setItem(i, stacks.get(i));
+                    }
+                }
             }
         }
 
