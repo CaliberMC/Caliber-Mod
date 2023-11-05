@@ -45,7 +45,7 @@ public class CreativeTabs {
     private static final String[] SANDSTONE = new String[]{"brown_sandstone", "orange_sandstone", "red_sandstone", "sandstone"};
 
     //public static void setupCreativeTabs()
-    static {
+    public static void setupCreativeTabs() {
         TABS = new CreativeModeTab[CreativeModeTab.TABS.length];
         System.arraycopy(CreativeModeTab.TABS, 0, TABS, 0, CreativeModeTab.TABS.length);
         boolean removeMCTabs = CaliberClientConfigs.CUSTOM_CREATIVE_INVENTORY.get();
@@ -415,6 +415,33 @@ public class CreativeTabs {
             }
         }
 
+//        private static List<Item> getItems() {
+//            boolean shouldSort = CaliberClientConfigs.SORT_CREATIVE_INVENTORY.get();
+////            boolean shouldSort = false;
+//
+//            // Retrieve all registered items as a stream of Map.Entry objects.
+//            List<Item> items = ForgeRegistries.ITEMS.getEntries().stream()
+//                    // Map each Map.Entry to its associated item.
+//                    .map(Map.Entry::getValue)
+//                    // Collect the items into a list.
+//                    .toList();
+//
+//            // Conditionally sort the list if shouldSort is true.
+//            if (shouldSort) {
+//                items.sort((item1, item2) -> {
+//                    ResourceLocation loc1 = ForgeRegistries.ITEMS.getKey(item1);
+//                    ResourceLocation loc2 = ForgeRegistries.ITEMS.getKey(item2);
+//
+//                    // Use compareTo to compare the ResourceLocation strings.
+//                    assert loc1 != null && loc2 != null;
+//                    return loc1.compareTo(loc2);
+//                });
+//            }
+//
+//            return items;
+//        }
+
+        // Sorted
         private static List<Item> getItems() {
             return ForgeRegistries.ITEMS.getEntries().stream().map(Map.Entry::getValue).sorted((o, o1) -> {
                 ResourceLocation str1 = ForgeRegistries.ITEMS.getKey(o);
@@ -423,6 +450,15 @@ public class CreativeTabs {
                 return str1.compareTo(str2);
             }).toList();
         }
+        // Unsorted
+//        private static List<Item> getItems() {
+//            // Retrieve all registered items as a stream of Map.Entry objects.
+//            return ForgeRegistries.ITEMS.getEntries().stream()
+//                    // Map each Map.Entry to its associated item.
+//                    .map(Map.Entry::getValue)
+//                    // Collect the items into a list without sorting.
+//                    .toList();
+//        }
 
         private static boolean blockIs(ResourceLocation location, String... keys) {
             return blockIs(location, (s) -> s, keys);

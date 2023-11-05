@@ -3,6 +3,7 @@ package com.calibermc.caliber;
 import com.calibermc.caliber.block.ModBlocks;
 import com.calibermc.caliber.config.CaliberClientConfigs;
 import com.calibermc.caliber.config.CaliberCommonConfigs;
+import com.calibermc.caliber.item.CreativeTabs;
 import com.calibermc.caliber.item.ModItems;
 import com.calibermc.caliber.networking.ModNetworking;
 import com.calibermc.caliber.world.feature.ModConfiguredFeatures;
@@ -66,5 +67,7 @@ public class Caliber {
 
 
         ModNetworking.registerMessages();
+        CreativeTabs.setupCreativeTabs();
+
     }
 }
