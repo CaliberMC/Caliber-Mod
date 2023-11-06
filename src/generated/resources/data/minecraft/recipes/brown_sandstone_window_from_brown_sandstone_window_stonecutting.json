@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "caliber:brown_sandstone"
+  },
+  "result": "caliber:brown_sandstone_window",
+  "count": 2
+}

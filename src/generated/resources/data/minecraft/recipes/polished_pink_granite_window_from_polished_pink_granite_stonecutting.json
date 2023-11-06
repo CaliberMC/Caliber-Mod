@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "caliber:polished_pink_granite"
+  },
+  "result": "caliber:polished_pink_granite_window",
+  "count": 2
+}
