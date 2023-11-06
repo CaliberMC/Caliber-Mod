@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "caliber:polished_red_marble"
+  },
+  "result": "caliber:polished_red_marble_quarter",
+  "count": 4
+}
