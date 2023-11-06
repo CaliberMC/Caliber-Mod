@@ -30,6 +30,8 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 import javax.annotation.Nullable;
 import java.util.Map;
 
+import static net.minecraft.core.Direction.*;
+
 
 public class HalfArchBlock extends Block implements SimpleWaterloggedBlock {
 
@@ -39,17 +41,17 @@ public class HalfArchBlock extends Block implements SimpleWaterloggedBlock {
 
 
     public static final Map<Direction, VoxelShape> SHAPE = Maps.newEnumMap(ImmutableMap.of(
-            Direction.NORTH, Block.box(0, 8, 8, 16, 16, 16),
-            Direction.SOUTH, Block.box(0, 8, 0, 16, 16, 8),
-            Direction.EAST, Block.box(0, 8, 0, 8, 16, 16),
-            Direction.WEST, Block.box(8, 8, 0, 16, 16, 16)));
+            NORTH, Block.box(0, 8, 8, 16, 16, 16),
+            SOUTH, Block.box(0, 8, 0, 16, 16, 8),
+            EAST, Block.box(0, 8, 0, 8, 16, 16),
+            WEST, Block.box(8, 8, 0, 16, 16, 16)));
 
     public static final VoxelShape DOUBLE = Block.box(0, 0, 0, 16, 16, 16);
 
     public HalfArchBlock(Properties properties) {
         super(properties);
         this.registerDefaultState(this.stateDefinition.any()
-                .setValue(FACING, Direction.NORTH)
+                .setValue(FACING, NORTH)
                 .setValue(TYPE, HalfArchShape.SINGLE)
                 .setValue(WATERLOGGED, Boolean.FALSE));
     }
@@ -73,7 +75,6 @@ public class HalfArchBlock extends Block implements SimpleWaterloggedBlock {
         };
     }
 
-
     @Override
     @Nullable
     public BlockState getStateForPlacement(BlockPlaceContext pContext) {
@@ -86,9 +87,7 @@ public class HalfArchBlock extends Block implements SimpleWaterloggedBlock {
             BlockState blockstate1 = this.defaultBlockState().setValue(FACING, pContext.getHorizontalDirection().getOpposite())
                     .setValue(TYPE, HalfArchShape.SINGLE).setValue(WATERLOGGED, fluidstate.getType() == Fluids.WATER);
             Direction direction = pContext.getClickedFace();
-            return direction != Direction.DOWN && (direction == Direction.UP ||
-                    !(pContext.getClickLocation().y - (double)blockpos.getY() > 0.5D)) ? blockstate1 :
-                    blockstate1.setValue(FACING, pContext.getHorizontalDirection().getOpposite()).setValue(TYPE, HalfArchShape.SINGLE);
+            return blockstate1.setValue(FACING, direction).setValue(TYPE, HalfArchShape.SINGLE);
         }
     }
 
@@ -96,21 +95,7 @@ public class HalfArchBlock extends Block implements SimpleWaterloggedBlock {
     public boolean canBeReplaced(BlockState pState, BlockPlaceContext pUseContext) {
         ItemStack itemstack = pUseContext.getItemInHand();
         HalfArchShape halfArchShape = pState.getValue(TYPE);
-        if (halfArchShape != HalfArchShape.DOUBLE && itemstack.is(this.asItem())) {
-            if (pUseContext.replacingClickedOnBlock()) {
-                boolean flag = pUseContext.getClickLocation().y - (double)pUseContext.getClickedPos().getY() > 0.5D;
-                Direction direction = pUseContext.getClickedFace();
-                if (halfArchShape == HalfArchShape.SINGLE) {
-                    return direction == Direction.UP || flag && direction.getAxis().isHorizontal();
-                } else {
-                    return direction == Direction.DOWN || !flag && direction.getAxis().isHorizontal();
-                }
-            } else {
-                return true;
-            }
-        } else {
-            return false;
-        }
+        return halfArchShape != HalfArchShape.DOUBLE && itemstack.is(this.asItem());
     }
 
     @Override

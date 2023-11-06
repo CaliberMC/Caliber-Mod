@@ -38,15 +38,15 @@ public class VerticalQuarterBlock extends Block implements SimpleWaterloggedBloc
 
     public static final Map<Direction, VoxelShape> LEFT_SHAPE = Maps.newEnumMap(ImmutableMap.of(
             NORTH, Block.box(8, 0, 8, 16, 16, 16),
-            Direction.SOUTH, Block.box(0, 0, 0, 8, 16, 8),
-            Direction.EAST, Block.box(0, 0, 8, 8, 16, 16),
-            Direction.WEST, Block.box(8, 0, 0, 16, 16, 8)));
+            SOUTH, Block.box(0, 0, 0, 8, 16, 8),
+            EAST, Block.box(0, 0, 8, 8, 16, 16),
+            WEST, Block.box(8, 0, 0, 16, 16, 8)));
 
     public static final Map<Direction, VoxelShape> RIGHT_SHAPE = Maps.newEnumMap(ImmutableMap.of(
             NORTH, Block.box(0, 0, 8, 8, 16, 16),
-            Direction.SOUTH, Block.box(8, 0, 0, 16, 16, 8),
-            Direction.EAST, Block.box(0, 0, 0, 8, 16, 8),
-            Direction.WEST, Block.box(8, 0, 8, 16, 16, 16)));
+            SOUTH, Block.box(8, 0, 0, 16, 16, 8),
+            EAST, Block.box(0, 0, 0, 8, 16, 8),
+            WEST, Block.box(8, 0, 8, 16, 16, 16)));
 
     public VerticalQuarterBlock(Properties properties) {
         super(properties);
@@ -126,7 +126,7 @@ public class VerticalQuarterBlock extends Block implements SimpleWaterloggedBloc
         ItemStack itemstack = pUseContext.getItemInHand();
         VerticalQuarterShape verticalQuarterShape = pState.getValue(TYPE);
         if (verticalQuarterShape != VerticalQuarterShape.DOUBLE && itemstack.is(this.asItem())) {
-                return true;
+            return true;
         } else {
             return false;
         }
