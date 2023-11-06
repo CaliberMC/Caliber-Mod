@@ -2,17 +2,17 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:light_limestone_arch_from_light_limestone_stonecutting"
+      "minecraft:polished_gray_marble_eighth_from_polished_gray_marble_stonecutting"
     ]
   },
   "criteria": {
-    "has_light_limestone": {
+    "has_gray_marble": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "caliber:light_limestone"
+              "caliber:gray_marble"
             ]
           }
         ]
@@ -21,13 +21,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:light_limestone_arch_from_light_limestone_stonecutting"
+        "recipe": "minecraft:polished_gray_marble_eighth_from_polished_gray_marble_stonecutting"
       }
     }
   },
   "requirements": [
     [
-      "has_light_limestone",
+      "has_gray_marble",
       "has_the_recipe"
     ]
   ]

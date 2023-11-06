@@ -2,17 +2,17 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:pink_limestone_arch_from_pink_limestone_stonecutting"
+      "minecraft:polished_brown_granite_eighth_from_polished_brown_granite_stonecutting"
     ]
   },
   "criteria": {
-    "has_pink_limestone": {
+    "has_polished_brown_granite": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "caliber:pink_limestone"
+              "caliber:polished_brown_granite"
             ]
           }
         ]
@@ -21,13 +21,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:pink_limestone_arch_from_pink_limestone_stonecutting"
+        "recipe": "minecraft:polished_brown_granite_eighth_from_polished_brown_granite_stonecutting"
       }
     }
   },
   "requirements": [
     [
-      "has_pink_limestone",
+      "has_polished_brown_granite",
       "has_the_recipe"
     ]
   ]

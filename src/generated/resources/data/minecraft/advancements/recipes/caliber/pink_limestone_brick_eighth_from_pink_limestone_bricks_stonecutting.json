@@ -2,17 +2,17 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:tan_limestone_arch_from_tan_limestone_stonecutting"
+      "minecraft:pink_limestone_brick_eighth_from_pink_limestone_bricks_stonecutting"
     ]
   },
   "criteria": {
-    "has_tan_limestone": {
+    "has_pink_limestone_bricks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "caliber:tan_limestone"
+              "caliber:pink_limestone_bricks"
             ]
           }
         ]
@@ -21,13 +21,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:tan_limestone_arch_from_tan_limestone_stonecutting"
+        "recipe": "minecraft:pink_limestone_brick_eighth_from_pink_limestone_bricks_stonecutting"
       }
     }
   },
   "requirements": [
     [
-      "has_tan_limestone",
+      "has_pink_limestone_bricks",
       "has_the_recipe"
     ]
   ]

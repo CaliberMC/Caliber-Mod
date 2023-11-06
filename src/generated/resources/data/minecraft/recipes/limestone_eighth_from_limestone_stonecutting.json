@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "minecraft:stone"
   },
-  "result": "caliber:limestone_arch",
-  "count": 2
+  "result": "caliber:limestone_eighth",
+  "count": 8
 }

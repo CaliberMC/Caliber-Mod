@@ -2,17 +2,17 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:limestone_arch_from_limestone_stonecutting"
+      "minecraft:gray_granite_eighth_from_gray_granite_stonecutting"
     ]
   },
   "criteria": {
-    "has_limestone": {
+    "has_gray_granite": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:stone"
+              "caliber:gray_granite"
             ]
           }
         ]
@@ -21,13 +21,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:limestone_arch_from_limestone_stonecutting"
+        "recipe": "minecraft:gray_granite_eighth_from_gray_granite_stonecutting"
       }
     }
   },
   "requirements": [
     [
-      "has_limestone",
+      "has_gray_granite",
       "has_the_recipe"
     ]
   ]
