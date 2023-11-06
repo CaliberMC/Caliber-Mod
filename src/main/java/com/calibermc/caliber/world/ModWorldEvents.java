@@ -1,6 +1,8 @@
 package com.calibermc.caliber.world;
 
 import com.calibermc.caliber.Caliber;
+import com.calibermc.caliber.config.CaliberClientConfigs;
+import com.calibermc.caliber.config.CaliberCommonConfigs;
 import com.calibermc.caliber.networking.ServerAdjustReach;
 import com.calibermc.caliber.world.gen.ModOreGeneration;
 import net.minecraft.world.entity.LivingEntity;
@@ -16,7 +18,10 @@ public class ModWorldEvents {
 
     @SubscribeEvent
     public static void biomeLoadingEvent(final BiomeLoadingEvent event) {
-        ModOreGeneration.generateOres(event);
+        boolean generateOres = CaliberCommonConfigs.WORLD_GEN_ORES.get();
+        if (generateOres) {
+            ModOreGeneration.generateOres(event);
+        }
 
 //        ModTreeGeneration.generateTrees(event);
 //        ModFlowerGeneration.generateFlowers(event);
