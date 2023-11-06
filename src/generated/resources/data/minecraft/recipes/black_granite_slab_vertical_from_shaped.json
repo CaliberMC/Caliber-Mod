@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    " G ",
+    " G "
+  ],
+  "key": {
+    "G": {
+      "item": "caliber:black_granite"
+    }
+  },
+  "result": {
+    "item": "caliber:black_granite_slab_vertical",
+    "count": 6
+  }
+}

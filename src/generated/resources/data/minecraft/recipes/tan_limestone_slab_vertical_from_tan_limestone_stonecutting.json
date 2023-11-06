@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "caliber:tan_limestone"
+  },
+  "result": "caliber:tan_limestone_slab_vertical",
+  "count": 2
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "caliber:pink_marble_slab"
+  },
+  "result": "caliber:pink_marble_slab_vertical",
+  "count": 1
+}

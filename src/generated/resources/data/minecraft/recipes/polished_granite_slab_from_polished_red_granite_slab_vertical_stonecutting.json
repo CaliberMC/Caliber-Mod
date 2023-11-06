@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "caliber:polished_red_granite_slab_vertical"
+  },
+  "result": "minecraft:polished_granite_slab",
+  "count": 1
+}

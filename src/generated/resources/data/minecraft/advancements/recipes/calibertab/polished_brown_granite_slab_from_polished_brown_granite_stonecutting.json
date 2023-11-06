@@ -6,13 +6,13 @@
     ]
   },
   "criteria": {
-    "has_brown_granite": {
+    "has_polished_brown_granite": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "caliber:brown_granite"
+              "caliber:polished_brown_granite"
             ]
           }
         ]
@@ -27,7 +27,7 @@
   },
   "requirements": [
     [
-      "has_brown_granite",
+      "has_polished_brown_granite",
       "has_the_recipe"
     ]
   ]

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "caliber:brown_sandstone"
+    }
+  },
+  "result": {
+    "item": "caliber:brown_sandstone_slab_vertical",
+    "count": 6
+  }
+}

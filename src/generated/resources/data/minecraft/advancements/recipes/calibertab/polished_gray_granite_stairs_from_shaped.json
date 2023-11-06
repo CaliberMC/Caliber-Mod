@@ -6,7 +6,7 @@
     ]
   },
   "criteria": {
-    "has_gray_granite": {
+    "has_polished_gray_granite": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -27,7 +27,7 @@
   },
   "requirements": [
     [
-      "has_gray_granite",
+      "has_polished_gray_granite",
       "has_the_recipe"
     ]
   ]

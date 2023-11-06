@@ -2,17 +2,17 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:cut_brown_sandstone_slab_from_shaped"
+      "minecraft:red_sandstone_slab_from_red_sandstone_slab_vertical_stonecutting"
     ]
   },
   "criteria": {
-    "has_brown_sandstone": {
+    "has_red_sandstone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "caliber:brown_sandstone"
+              "minecraft:red_sandstone"
             ]
           }
         ]
@@ -21,13 +21,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:cut_brown_sandstone_slab_from_shaped"
+        "recipe": "minecraft:red_sandstone_slab_from_red_sandstone_slab_vertical_stonecutting"
       }
     }
   },
   "requirements": [
     [
-      "has_brown_sandstone",
+      "has_red_sandstone",
       "has_the_recipe"
     ]
   ]

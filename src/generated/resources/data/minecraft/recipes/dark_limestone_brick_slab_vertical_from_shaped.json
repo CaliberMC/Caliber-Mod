@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " L ",
+    " L ",
+    " L "
+  ],
+  "key": {
+    "L": {
+      "item": "caliber:dark_limestone_bricks"
+    }
+  },
+  "result": {
+    "item": "caliber:dark_limestone_brick_slab_vertical",
+    "count": 6
+  }
+}
