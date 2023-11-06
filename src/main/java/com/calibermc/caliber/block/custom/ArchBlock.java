@@ -16,6 +16,7 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
+import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.level.pathfinder.PathComputationType;
@@ -38,7 +39,7 @@ public class ArchBlock extends HorizontalDirectionalBlock implements SimpleWater
         this.registerDefaultState(this.stateDefinition.any() // ? this.defaultBlockState()
                 .setValue(FACING, NORTH)
                 .setValue(TYPE, ArchShape.STRAIGHT)
-                .setValue(WATERLOGGED, Boolean.valueOf(false)));
+                .setValue(WATERLOGGED, Boolean.FALSE));
     }
 
     @Override
@@ -62,10 +63,10 @@ public class ArchBlock extends HorizontalDirectionalBlock implements SimpleWater
         BlockPos blockpos = pContext.getClickedPos();
         FluidState fluidstate = pContext.getLevel().getFluidState(blockpos);
         BlockState blockstate1 = this.defaultBlockState().setValue(FACING, pContext.getHorizontalDirection().getOpposite())
-                .setValue(WATERLOGGED, Boolean.valueOf(fluidstate.getType() == Fluids.WATER));
+                .setValue(WATERLOGGED, fluidstate.getType() == Fluids.WATER);
 
         return blockstate1.setValue(TYPE, ArchShape.STRAIGHT)
-                .setValue(WATERLOGGED, Boolean.valueOf(false));
+                .setValue(WATERLOGGED, Boolean.FALSE);
     }
 
     /**
@@ -125,12 +126,26 @@ public class ArchBlock extends HorizontalDirectionalBlock implements SimpleWater
     }
 
     @Override
+    public FluidState getFluidState(BlockState pState) {
+        return pState.getValue(WATERLOGGED) ? Fluids.WATER.getSource(false) : super.getFluidState(pState);
+    }
+
+    @Override
+    public boolean placeLiquid(LevelAccessor pLevel, BlockPos pPos, BlockState pState, FluidState pFluidState) {
+        return SimpleWaterloggedBlock.super.placeLiquid(pLevel, pPos, pState, pFluidState);
+    }
+
+    @Override
+    public boolean canPlaceLiquid(BlockGetter pLevel, BlockPos pPos, BlockState pState, Fluid pFluid) {
+        return SimpleWaterloggedBlock.super.canPlaceLiquid(pLevel, pPos, pState, pFluid);
+    }
+
+    @Override
     public boolean isPathfindable(BlockState pState, BlockGetter pLevel, BlockPos pPos, PathComputationType pType) {
         return switch (pType) {
             case LAND -> false;
             case WATER -> pLevel.getFluidState(pPos).is(FluidTags.WATER);
             case AIR -> false;
-            default -> false;
         };
     }
 }

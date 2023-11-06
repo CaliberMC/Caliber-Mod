@@ -36,8 +36,6 @@ import static net.minecraft.core.Direction.*;
 
 public class EighthBlock extends Block implements SimpleWaterloggedBlock {
 
-    private static final Logger LOGGER = LogManager.getLogger();
-
     public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
     public static final EnumProperty<EighthShape> TYPE = ModBlockStateProperties.EIGHTH_SHAPE;
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
@@ -72,7 +70,7 @@ public class EighthBlock extends Block implements SimpleWaterloggedBlock {
         this.registerDefaultState(this.stateDefinition.any() // ? this.defaultBlockState()
                 .setValue(FACING, NORTH)
                 .setValue(TYPE, EighthShape.RIGHT)
-                .setValue(WATERLOGGED, Boolean.valueOf(false)));
+                .setValue(WATERLOGGED, Boolean.FALSE));
     }
 
     @Override
@@ -126,79 +124,71 @@ public class EighthBlock extends Block implements SimpleWaterloggedBlock {
         double hitY = pContext.getClickLocation().y - (double) blockpos.getY();
         double hitX = pContext.getClickLocation().x - (double) blockpos.getX();
         double hitZ = pContext.getClickLocation().z - (double) blockpos.getZ();
-//        Direction direction = pContext.getClickedFace();
         Direction direction = pContext.getHorizontalDirection().getOpposite();
 
 
         if (blockstate.is(this)) {
             if (blockstate.getValue(TYPE) == EighthShape.RIGHT && (direction == NORTH && hitX > 0.5 || direction == EAST && hitZ > 0.5) && hitY < 0.5) { //
-                return blockstate.setValue(TYPE, EighthShape.DOUBLE).setValue(WATERLOGGED, Boolean.valueOf(false));
+                return blockstate.setValue(TYPE, EighthShape.DOUBLE).setValue(WATERLOGGED, Boolean.FALSE);
             } else if (blockstate.getValue(TYPE) == EighthShape.RIGHT && (direction == NORTH && hitX < 0.5 || direction == EAST && hitZ < 0.5) && hitY > 0.5) {
-                return blockstate.setValue(TYPE, EighthShape.DOUBLE_RIGHT).setValue(WATERLOGGED, Boolean.valueOf(false));
+                return blockstate.setValue(TYPE, EighthShape.DOUBLE_RIGHT).setValue(WATERLOGGED, Boolean.FALSE);
             } else if (blockstate.getValue(TYPE) == EighthShape.RIGHT && (direction == NORTH && hitX < 0.5 || direction == EAST && hitZ < 0.5) && hitY < 0.5) {
-                return blockstate.setValue(TYPE, EighthShape.DOUBLE).setValue(FACING, pContext.getClickedFace().getClockWise()).setValue(WATERLOGGED, Boolean.valueOf(false));
-//            } else if (blockstate.getValue(TYPE) == EighthShape.DOUBLE_RIGHT && (direction == NORTH && hitX < 0.5 || direction == EAST && hitZ < 0.5)) {
-//                return blockstate.setValue(TYPE, EighthShape.DOUBLE_RUL).setValue(FACING, pContext.getClickedFace().getClockWise()).setValue(WATERLOGGED, Boolean.valueOf(false));
-//            } else if (blockstate.getValue(TYPE) == EighthShape.DOUBLE_RIGHT && (direction == NORTH && hitX < 0.5 || direction == EAST && hitZ < 0.5)) {
-//                return blockstate.setValue(TYPE, EighthShape.DOUBLE_RLL).setValue(FACING, pContext.getClickedFace().getClockWise()).setValue(WATERLOGGED, Boolean.valueOf(false));
+                return blockstate.setValue(TYPE, EighthShape.DOUBLE).setValue(FACING, pContext.getClickedFace().getClockWise()).setValue(WATERLOGGED, Boolean.FALSE);
 
             } else if (blockstate.getValue(TYPE) == EighthShape.TOP_RIGHT && (direction == NORTH && hitX > 0.5 || direction == EAST && hitZ > 0.5) && hitY > 0.5) { //
-                return blockstate.setValue(TYPE, EighthShape.DOUBLE_TOP).setValue(WATERLOGGED, Boolean.valueOf(false));
+                return blockstate.setValue(TYPE, EighthShape.DOUBLE_TOP).setValue(WATERLOGGED, Boolean.FALSE);
             } else if (blockstate.getValue(TYPE) == EighthShape.TOP_RIGHT && (direction == NORTH && hitX < 0.5 || direction == EAST && hitZ < 0.5) && hitY < 0.5) {
-                return blockstate.setValue(TYPE, EighthShape.DOUBLE_RIGHT).setValue(WATERLOGGED, Boolean.valueOf(false));
+                return blockstate.setValue(TYPE, EighthShape.DOUBLE_RIGHT).setValue(WATERLOGGED, Boolean.FALSE);
             } else if (blockstate.getValue(TYPE) == EighthShape.TOP_RIGHT && (direction == NORTH && hitX < 0.5 || direction == EAST && hitZ < 0.5) && hitY > 0.5) {
-                return blockstate.setValue(TYPE, EighthShape.DOUBLE_TOP).setValue(FACING, pContext.getClickedFace().getClockWise()).setValue(WATERLOGGED, Boolean.valueOf(false));
-//            } else if (blockstate.getValue(TYPE) == EighthShape.DOUBLE_RIGHT && (direction == NORTH && hitX < 0.5 || direction == EAST && hitZ < 0.5) && hitY > 0.5) {
-//                return blockstate.setValue(TYPE, EighthShape.DOUBLE_TOP).setValue(FACING, pContext.getClickedFace().getClockWise()).setValue(WATERLOGGED, Boolean.valueOf(false));
+                return blockstate.setValue(TYPE, EighthShape.DOUBLE_TOP).setValue(FACING, pContext.getClickedFace().getClockWise()).setValue(WATERLOGGED, Boolean.FALSE);
 
             } else if (blockstate.getValue(TYPE) == EighthShape.LEFT && (direction == NORTH && hitX < 0.5 || direction == EAST && hitZ < 0.5) && hitY < 0.5) {
-                return blockstate.setValue(TYPE, EighthShape.DOUBLE).setValue(WATERLOGGED, Boolean.valueOf(false));
+                return blockstate.setValue(TYPE, EighthShape.DOUBLE).setValue(WATERLOGGED, Boolean.FALSE);
             } else if (blockstate.getValue(TYPE) == EighthShape.LEFT && (direction == NORTH && hitX > 0.5 || direction == EAST && hitZ > 0.5) && hitY > 0.5) {
-                return blockstate.setValue(TYPE, EighthShape.DOUBLE_LEFT).setValue(WATERLOGGED, Boolean.valueOf(false));
+                return blockstate.setValue(TYPE, EighthShape.DOUBLE_LEFT).setValue(WATERLOGGED, Boolean.FALSE);
             } else if (blockstate.getValue(TYPE) == EighthShape.LEFT && (direction == NORTH && hitX > 0.5 || direction == EAST && hitZ > 0.5) && hitY < 0.5) {
-                return blockstate.setValue(TYPE, EighthShape.DOUBLE).setValue(FACING, pContext.getClickedFace().getCounterClockWise()).setValue(WATERLOGGED, Boolean.valueOf(false));
+                return blockstate.setValue(TYPE, EighthShape.DOUBLE).setValue(FACING, pContext.getClickedFace().getCounterClockWise()).setValue(WATERLOGGED, Boolean.FALSE);
 
             } else if (blockstate.getValue(TYPE) == EighthShape.TOP_LEFT && (direction == NORTH && hitX < 0.5 || direction == EAST && hitZ < 0.5) && hitY > 0.5) {
-                return blockstate.setValue(TYPE, EighthShape.DOUBLE_TOP).setValue(WATERLOGGED, Boolean.valueOf(false));
+                return blockstate.setValue(TYPE, EighthShape.DOUBLE_TOP).setValue(WATERLOGGED, Boolean.FALSE);
             } else if (blockstate.getValue(TYPE) == EighthShape.TOP_LEFT && (direction == NORTH && hitX > 0.5 || direction == EAST && hitZ > 0.5) && hitY < 0.5) {
-                return blockstate.setValue(TYPE, EighthShape.DOUBLE_LEFT).setValue(WATERLOGGED, Boolean.valueOf(false));
+                return blockstate.setValue(TYPE, EighthShape.DOUBLE_LEFT).setValue(WATERLOGGED, Boolean.FALSE);
             } else if (blockstate.getValue(TYPE) == EighthShape.TOP_LEFT && (direction == NORTH && hitX > 0.5 || direction == EAST && hitZ > 0.5) && hitY > 0.5) {
-                return blockstate.setValue(TYPE, EighthShape.DOUBLE_TOP).setValue(FACING, pContext.getClickedFace().getCounterClockWise()).setValue(WATERLOGGED, Boolean.valueOf(false));
+                return blockstate.setValue(TYPE, EighthShape.DOUBLE_TOP).setValue(FACING, pContext.getClickedFace().getCounterClockWise()).setValue(WATERLOGGED, Boolean.FALSE);
 
             } else if (blockstate.getValue(TYPE) == EighthShape.RIGHT && (direction == SOUTH && hitX < 0.5 || direction == WEST && hitZ < 0.5) && hitY < 0.5) {
-                return blockstate.setValue(TYPE, EighthShape.DOUBLE).setValue(WATERLOGGED, Boolean.valueOf(false));
+                return blockstate.setValue(TYPE, EighthShape.DOUBLE).setValue(WATERLOGGED, Boolean.FALSE);
             } else if (blockstate.getValue(TYPE) == EighthShape.RIGHT && (direction == SOUTH && hitX > 0.5 || direction == WEST && hitZ > 0.5) && hitY > 0.5) {
-                return blockstate.setValue(TYPE, EighthShape.DOUBLE_RIGHT).setValue(WATERLOGGED, Boolean.valueOf(false));
+                return blockstate.setValue(TYPE, EighthShape.DOUBLE_RIGHT).setValue(WATERLOGGED, Boolean.FALSE);
             } else if (blockstate.getValue(TYPE) == EighthShape.RIGHT && (direction == SOUTH && hitX > 0.5 || direction == WEST && hitZ > 0.5) && hitY < 0.5) {
-                return blockstate.setValue(TYPE, EighthShape.DOUBLE).setValue(FACING, pContext.getClickedFace().getClockWise()).setValue(WATERLOGGED, Boolean.valueOf(false));
+                return blockstate.setValue(TYPE, EighthShape.DOUBLE).setValue(FACING, pContext.getClickedFace().getClockWise()).setValue(WATERLOGGED, Boolean.FALSE);
 
             } else if (blockstate.getValue(TYPE) == EighthShape.TOP_RIGHT && (direction == SOUTH && hitX < 0.5 || direction == WEST && hitZ < 0.5) && hitY > 0.5) {
-                return blockstate.setValue(TYPE, EighthShape.DOUBLE_TOP).setValue(WATERLOGGED, Boolean.valueOf(false));
+                return blockstate.setValue(TYPE, EighthShape.DOUBLE_TOP).setValue(WATERLOGGED, Boolean.FALSE);
             } else if (blockstate.getValue(TYPE) == EighthShape.TOP_RIGHT && (direction == SOUTH && hitX > 0.5 || direction == WEST && hitZ > 0.5) && hitY < 0.5) {
-                return blockstate.setValue(TYPE, EighthShape.DOUBLE_RIGHT).setValue(WATERLOGGED, Boolean.valueOf(false));
+                return blockstate.setValue(TYPE, EighthShape.DOUBLE_RIGHT).setValue(WATERLOGGED, Boolean.FALSE);
             } else if (blockstate.getValue(TYPE) == EighthShape.TOP_RIGHT && (direction == SOUTH && hitX > 0.5 || direction == WEST && hitZ > 0.5) && hitY > 0.5) {
-                return blockstate.setValue(TYPE, EighthShape.DOUBLE_TOP).setValue(FACING, pContext.getClickedFace().getClockWise()).setValue(WATERLOGGED, Boolean.valueOf(false));
+                return blockstate.setValue(TYPE, EighthShape.DOUBLE_TOP).setValue(FACING, pContext.getClickedFace().getClockWise()).setValue(WATERLOGGED, Boolean.FALSE);
 
             } else if (blockstate.getValue(TYPE) == EighthShape.LEFT && (direction == SOUTH && hitX > 0.5 || direction == WEST && hitZ > 0.5) && hitY < 0.5) {
-                return blockstate.setValue(TYPE, EighthShape.DOUBLE).setValue(WATERLOGGED, Boolean.valueOf(false));
+                return blockstate.setValue(TYPE, EighthShape.DOUBLE).setValue(WATERLOGGED, Boolean.FALSE);
             } else if (blockstate.getValue(TYPE) == EighthShape.LEFT && (direction == SOUTH && hitX < 0.5 || direction == WEST && hitZ < 0.5) && hitY > 0.5) {
-                return blockstate.setValue(TYPE, EighthShape.DOUBLE_LEFT).setValue(WATERLOGGED, Boolean.valueOf(false));
+                return blockstate.setValue(TYPE, EighthShape.DOUBLE_LEFT).setValue(WATERLOGGED, Boolean.FALSE);
             } else if (blockstate.getValue(TYPE) == EighthShape.LEFT && (direction == SOUTH && hitX < 0.5 || direction == WEST && hitZ < 0.5) && hitY < 0.5) {
-                return blockstate.setValue(TYPE, EighthShape.DOUBLE).setValue(FACING, pContext.getClickedFace().getCounterClockWise()).setValue(WATERLOGGED, Boolean.valueOf(false));
+                return blockstate.setValue(TYPE, EighthShape.DOUBLE).setValue(FACING, pContext.getClickedFace().getCounterClockWise()).setValue(WATERLOGGED, Boolean.FALSE);
 
             } else if (blockstate.getValue(TYPE) == EighthShape.TOP_LEFT && (direction == SOUTH && hitX > 0.5 || direction == WEST && hitZ > 0.5) && hitY > 0.5) {
-                return blockstate.setValue(TYPE, EighthShape.DOUBLE_TOP).setValue(WATERLOGGED, Boolean.valueOf(false));
+                return blockstate.setValue(TYPE, EighthShape.DOUBLE_TOP).setValue(WATERLOGGED, Boolean.FALSE);
             } else if (blockstate.getValue(TYPE) == EighthShape.TOP_LEFT && (direction == SOUTH && hitX < 0.5 || direction == WEST && hitZ < 0.5) && hitY < 0.5) {
-                return blockstate.setValue(TYPE, EighthShape.DOUBLE_LEFT).setValue(WATERLOGGED, Boolean.valueOf(false));
+                return blockstate.setValue(TYPE, EighthShape.DOUBLE_LEFT).setValue(WATERLOGGED, Boolean.FALSE);
             } else if (blockstate.getValue(TYPE) == EighthShape.TOP_LEFT && (direction == SOUTH && hitX < 0.5 || direction == WEST && hitZ < 0.5) && hitY > 0.5) {
-                return blockstate.setValue(TYPE, EighthShape.DOUBLE_TOP).setValue(FACING, pContext.getClickedFace().getCounterClockWise()).setValue(WATERLOGGED, Boolean.valueOf(false));
+                return blockstate.setValue(TYPE, EighthShape.DOUBLE_TOP).setValue(FACING, pContext.getClickedFace().getCounterClockWise()).setValue(WATERLOGGED, Boolean.FALSE);
             }
-
 
         } else {
             FluidState fluidstate = pContext.getLevel().getFluidState(blockpos);
             BlockState blockstate1 = this.defaultBlockState().setValue(FACING, pContext.getHorizontalDirection().getOpposite())
-                    .setValue(WATERLOGGED, Boolean.valueOf(fluidstate.getType() == Fluids.WATER));
+                    .setValue(WATERLOGGED, fluidstate.getType() == Fluids.WATER);
 
             if ((direction == NORTH && hitX < 0.5 || direction == EAST && hitZ < 0.5) && hitY < 0.5) {
                 return blockstate1.setValue(TYPE, EighthShape.RIGHT);
@@ -230,29 +220,34 @@ public class EighthBlock extends Block implements SimpleWaterloggedBlock {
     public boolean canBeReplaced(BlockState pState, BlockPlaceContext pUseContext) {
         ItemStack itemstack = pUseContext.getItemInHand();
         EighthShape eighthShape = pState.getValue(TYPE);
-//        if (eighthShape != EighthShape.DOUBLE && itemstack.is(this.asItem())) {
-        if ((eighthShape == EighthShape.LEFT ||
+        return (eighthShape == EighthShape.LEFT ||
                 eighthShape == EighthShape.RIGHT ||
                 eighthShape == EighthShape.TOP_LEFT ||
                 eighthShape == EighthShape.TOP_RIGHT) &&
-                itemstack.is(this.asItem())) {
-                return true;
-        } else {
-            return false;
-        }
+                itemstack.is(this.asItem());
+    }
+
+    @Override
+    public FluidState getFluidState(BlockState pState) {
+        return pState.getValue(WATERLOGGED) ? Fluids.WATER.getSource(false) : super.getFluidState(pState);
+    }
+
+    @Override
+    public boolean placeLiquid(LevelAccessor pLevel, BlockPos pPos, BlockState pState, FluidState pFluidState) {
+        return SimpleWaterloggedBlock.super.placeLiquid(pLevel, pPos, pState, pFluidState);
+    }
+
+    @Override
+    public boolean canPlaceLiquid(BlockGetter pLevel, BlockPos pPos, BlockState pState, Fluid pFluid) {
+        return SimpleWaterloggedBlock.super.canPlaceLiquid(pLevel, pPos, pState, pFluid);
     }
 
     @Override
     public boolean isPathfindable(BlockState pState, BlockGetter pLevel, BlockPos pPos, PathComputationType pType) {
-        switch(pType) {
-            case LAND:
-                return false;
-            case WATER:
-                return pLevel.getFluidState(pPos).is(FluidTags.WATER);
-            case AIR:
-                return false;
-            default:
-                return false;
-        }
+        return switch (pType) {
+            case LAND -> false;
+            case WATER -> pLevel.getFluidState(pPos).is(FluidTags.WATER);
+            case AIR -> false;
+        };
     }
 }

@@ -71,7 +71,7 @@ public class CornerSlabBlock extends Block implements SimpleWaterloggedBlock {
         this.registerDefaultState(this.stateDefinition.any()
                 .setValue(FACING, Direction.NORTH)
                 .setValue(TYPE, CornerSlabShape.RIGHT)
-                .setValue(WATERLOGGED, Boolean.valueOf(false)));
+                .setValue(WATERLOGGED, Boolean.FALSE));
     }
 
     @Override
@@ -120,14 +120,14 @@ public class CornerSlabBlock extends Block implements SimpleWaterloggedBlock {
 
         if (blockstate.is(this)) {
             if (blockstate.getValue(TYPE) == CornerSlabShape.RIGHT || blockstate.getValue(TYPE) == CornerSlabShape.TOP_RIGHT) {
-                return blockstate.setValue(TYPE, CornerSlabShape.DOUBLE_RIGHT).setValue(WATERLOGGED, Boolean.valueOf(false));
+                return blockstate.setValue(TYPE, CornerSlabShape.DOUBLE_RIGHT).setValue(WATERLOGGED, Boolean.FALSE);
             } else if (blockstate.getValue(TYPE) == CornerSlabShape.LEFT || blockstate.getValue(TYPE) == CornerSlabShape.TOP_LEFT) {
-                return blockstate.setValue(TYPE, CornerSlabShape.DOUBLE_LEFT).setValue(WATERLOGGED, Boolean.valueOf(false));
+                return blockstate.setValue(TYPE, CornerSlabShape.DOUBLE_LEFT).setValue(WATERLOGGED, Boolean.FALSE);
             }
         } else {
             FluidState fluidstate = pContext.getLevel().getFluidState(blockpos);
             BlockState blockstate1 = this.defaultBlockState().setValue(FACING, pContext.getHorizontalDirection().getOpposite())
-                    .setValue(WATERLOGGED, Boolean.valueOf(fluidstate.getType() == Fluids.WATER));
+                    .setValue(WATERLOGGED, fluidstate.getType() == Fluids.WATER);
 
             if ((direction == NORTH && hitX < 0.5 || direction == EAST && hitZ < 0.5) && hitY < 0.5) {
                 return blockstate1.setValue(TYPE, CornerSlabShape.RIGHT);
@@ -168,16 +168,26 @@ public class CornerSlabBlock extends Block implements SimpleWaterloggedBlock {
     }
 
     @Override
+    public FluidState getFluidState(BlockState pState) {
+        return pState.getValue(WATERLOGGED) ? Fluids.WATER.getSource(false) : super.getFluidState(pState);
+    }
+
+    @Override
+    public boolean placeLiquid(LevelAccessor pLevel, BlockPos pPos, BlockState pState, FluidState pFluidState) {
+        return SimpleWaterloggedBlock.super.placeLiquid(pLevel, pPos, pState, pFluidState);
+    }
+
+    @Override
+    public boolean canPlaceLiquid(BlockGetter pLevel, BlockPos pPos, BlockState pState, Fluid pFluid) {
+        return SimpleWaterloggedBlock.super.canPlaceLiquid(pLevel, pPos, pState, pFluid);
+    }
+
+    @Override
     public boolean isPathfindable(BlockState pState, BlockGetter pLevel, BlockPos pPos, PathComputationType pType) {
-        switch(pType) {
-            case LAND:
-                return false;
-            case WATER:
-                return pLevel.getFluidState(pPos).is(FluidTags.WATER);
-            case AIR:
-                return false;
-            default:
-                return false;
-        }
+        return switch (pType) {
+            case LAND -> false;
+            case WATER -> pLevel.getFluidState(pPos).is(FluidTags.WATER);
+            case AIR -> false;
+        };
     }
 }

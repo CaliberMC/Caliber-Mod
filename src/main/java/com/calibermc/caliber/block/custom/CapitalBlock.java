@@ -7,6 +7,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.tags.FluidTags;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SimpleWaterloggedBlock;
 import net.minecraft.world.level.block.state.BlockState;
@@ -14,6 +15,7 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
+import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.level.pathfinder.PathComputationType;
@@ -34,7 +36,7 @@ public class CapitalBlock  extends Block implements SimpleWaterloggedBlock {
         super(properties);
         this.registerDefaultState(this.stateDefinition.any() // ? this.defaultBlockState()
                 .setValue(TYPE, CapitalShape.BOTTOM)
-                .setValue(WATERLOGGED, Boolean.valueOf(false)));
+                .setValue(WATERLOGGED, Boolean.FALSE));
     }
 
     @Override
@@ -65,21 +67,31 @@ public class CapitalBlock  extends Block implements SimpleWaterloggedBlock {
     public BlockState getStateForPlacement(BlockPlaceContext pContext) {
         BlockPos blockpos = pContext.getClickedPos();
         FluidState fluidstate = pContext.getLevel().getFluidState(blockpos);
-        BlockState blockstate1 = this.defaultBlockState().setValue(TYPE, CapitalShape.BOTTOM).setValue(WATERLOGGED, Boolean.valueOf(fluidstate.getType() == Fluids.WATER));
+        BlockState blockstate1 = this.defaultBlockState().setValue(TYPE, CapitalShape.BOTTOM).setValue(WATERLOGGED, fluidstate.getType() == Fluids.WATER);
         Direction direction = pContext.getClickedFace();
             return direction != Direction.DOWN && (direction == Direction.UP || !(pContext.getClickLocation().y - (double)blockpos.getY() > 0.5D)) ? blockstate1 : blockstate1.setValue(TYPE, CapitalShape.TOP);
     }
 
+    @Override
+    public FluidState getFluidState(BlockState pState) {
+        return pState.getValue(WATERLOGGED) ? Fluids.WATER.getSource(false) : super.getFluidState(pState);
+    }
+
+    @Override
+    public boolean placeLiquid(LevelAccessor pLevel, BlockPos pPos, BlockState pState, FluidState pFluidState) {
+        return SimpleWaterloggedBlock.super.placeLiquid(pLevel, pPos, pState, pFluidState);
+    }
+
+    @Override
+    public boolean canPlaceLiquid(BlockGetter pLevel, BlockPos pPos, BlockState pState, Fluid pFluid) {
+        return SimpleWaterloggedBlock.super.canPlaceLiquid(pLevel, pPos, pState, pFluid);
+    }
+
     public boolean isPathfindable(BlockState pState, BlockGetter pLevel, BlockPos pPos, PathComputationType pType) {
-        switch(pType) {
-            case LAND:
-                return false;
-            case WATER:
-                return pLevel.getFluidState(pPos).is(FluidTags.WATER);
-            case AIR:
-                return false;
-            default:
-                return false;
-        }
+        return switch (pType) {
+            case LAND -> false;
+            case WATER -> pLevel.getFluidState(pPos).is(FluidTags.WATER);
+            case AIR -> false;
+        };
     }
 }

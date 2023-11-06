@@ -10,6 +10,7 @@ import net.minecraft.tags.FluidTags;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.SimpleWaterloggedBlock;
@@ -19,6 +20,7 @@ import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
+import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.level.pathfinder.PathComputationType;
@@ -49,7 +51,7 @@ public class HalfArchBlock extends Block implements SimpleWaterloggedBlock {
         this.registerDefaultState(this.stateDefinition.any()
                 .setValue(FACING, Direction.NORTH)
                 .setValue(TYPE, HalfArchShape.SINGLE)
-                .setValue(WATERLOGGED, Boolean.valueOf(false)));
+                .setValue(WATERLOGGED, Boolean.FALSE));
     }
 
     @Override
@@ -78,11 +80,11 @@ public class HalfArchBlock extends Block implements SimpleWaterloggedBlock {
         BlockPos blockpos = pContext.getClickedPos();
         BlockState blockstate = pContext.getLevel().getBlockState(blockpos);
         if (blockstate.is(this)) {
-            return blockstate.setValue(TYPE, HalfArchShape.DOUBLE).setValue(WATERLOGGED, Boolean.valueOf(false));
+            return blockstate.setValue(TYPE, HalfArchShape.DOUBLE).setValue(WATERLOGGED, Boolean.FALSE);
         } else {
             FluidState fluidstate = pContext.getLevel().getFluidState(blockpos);
             BlockState blockstate1 = this.defaultBlockState().setValue(FACING, pContext.getHorizontalDirection().getOpposite())
-                    .setValue(TYPE, HalfArchShape.SINGLE).setValue(WATERLOGGED, Boolean.valueOf(fluidstate.getType() == Fluids.WATER));
+                    .setValue(TYPE, HalfArchShape.SINGLE).setValue(WATERLOGGED, fluidstate.getType() == Fluids.WATER);
             Direction direction = pContext.getClickedFace();
             return direction != Direction.DOWN && (direction == Direction.UP ||
                     !(pContext.getClickLocation().y - (double)blockpos.getY() > 0.5D)) ? blockstate1 :
@@ -112,16 +114,26 @@ public class HalfArchBlock extends Block implements SimpleWaterloggedBlock {
     }
 
     @Override
+    public FluidState getFluidState(BlockState pState) {
+        return pState.getValue(WATERLOGGED) ? Fluids.WATER.getSource(false) : super.getFluidState(pState);
+    }
+
+    @Override
+    public boolean placeLiquid(LevelAccessor pLevel, BlockPos pPos, BlockState pState, FluidState pFluidState) {
+        return SimpleWaterloggedBlock.super.placeLiquid(pLevel, pPos, pState, pFluidState);
+    }
+
+    @Override
+    public boolean canPlaceLiquid(BlockGetter pLevel, BlockPos pPos, BlockState pState, Fluid pFluid) {
+        return SimpleWaterloggedBlock.super.canPlaceLiquid(pLevel, pPos, pState, pFluid);
+    }
+
+    @Override
     public boolean isPathfindable(BlockState pState, BlockGetter pLevel, BlockPos pPos, PathComputationType pType) {
-        switch(pType) {
-            case LAND:
-                return false;
-            case WATER:
-                return pLevel.getFluidState(pPos).is(FluidTags.WATER);
-            case AIR:
-                return false;
-            default:
-                return false;
-        }
+        return switch (pType) {
+            case LAND -> false;
+            case WATER -> pLevel.getFluidState(pPos).is(FluidTags.WATER);
+            case AIR -> false;
+        };
     }
 }

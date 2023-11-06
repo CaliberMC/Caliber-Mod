@@ -10,12 +10,14 @@ import net.minecraft.tags.FluidTags;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.SimpleWaterloggedBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.*;
+import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.level.pathfinder.PathComputationType;
@@ -51,7 +53,7 @@ public class VerticalQuarterBlock extends Block implements SimpleWaterloggedBloc
         this.registerDefaultState(this.stateDefinition.any() // ? this.defaultBlockState()
                 .setValue(FACING, NORTH)
                 .setValue(TYPE, VerticalQuarterShape.RIGHT)
-                .setValue(WATERLOGGED, Boolean.valueOf(false)));
+                .setValue(WATERLOGGED, Boolean.FALSE));
     }
 
     @Override
@@ -85,20 +87,19 @@ public class VerticalQuarterBlock extends Block implements SimpleWaterloggedBloc
     public BlockState getStateForPlacement(BlockPlaceContext pContext) {
         BlockPos blockpos = pContext.getClickedPos();
         BlockState blockstate = pContext.getLevel().getBlockState(blockpos);
-        double hitY = pContext.getClickLocation().y - (double) blockpos.getY();
         double hitX = pContext.getClickLocation().x - (double) blockpos.getX();
         double hitZ = pContext.getClickLocation().z - (double) blockpos.getZ();
         Direction direction = pContext.getHorizontalDirection().getOpposite();
 
         if (blockstate.is(this)) {
             if (blockstate.getValue(TYPE) == VerticalQuarterShape.RIGHT && (direction == NORTH && hitX < 0.5 || direction == EAST && hitZ < 0.5)) {
-                return blockstate.setValue(TYPE, VerticalQuarterShape.DOUBLE).setValue(FACING, pContext.getClickedFace().getClockWise()).setValue(WATERLOGGED, Boolean.valueOf(false));
+                return blockstate.setValue(TYPE, VerticalQuarterShape.DOUBLE).setValue(FACING, pContext.getClickedFace().getClockWise()).setValue(WATERLOGGED, Boolean.FALSE);
             } else if (blockstate.getValue(TYPE) == VerticalQuarterShape.LEFT && (direction == NORTH && hitX > 0.5 || direction == EAST && hitZ > 0.5)) {
-                return blockstate.setValue(TYPE, VerticalQuarterShape.DOUBLE).setValue(FACING, pContext.getClickedFace().getCounterClockWise()).setValue(WATERLOGGED, Boolean.valueOf(false));
+                return blockstate.setValue(TYPE, VerticalQuarterShape.DOUBLE).setValue(FACING, pContext.getClickedFace().getCounterClockWise()).setValue(WATERLOGGED, Boolean.FALSE);
             } else if (blockstate.getValue(TYPE) == VerticalQuarterShape.RIGHT && (direction == SOUTH && hitX > 0.5 || direction == WEST && hitZ > 0.5)) {
-                return blockstate.setValue(TYPE, VerticalQuarterShape.DOUBLE).setValue(FACING, pContext.getClickedFace().getClockWise()).setValue(WATERLOGGED, Boolean.valueOf(false));
+                return blockstate.setValue(TYPE, VerticalQuarterShape.DOUBLE).setValue(FACING, pContext.getClickedFace().getClockWise()).setValue(WATERLOGGED, Boolean.FALSE);
             } else if (blockstate.getValue(TYPE) == VerticalQuarterShape.LEFT && (direction == SOUTH && hitX < 0.5 || direction == WEST && hitZ < 0.5)) {
-                return blockstate.setValue(TYPE, VerticalQuarterShape.DOUBLE).setValue(FACING, pContext.getClickedFace().getCounterClockWise()).setValue(WATERLOGGED, Boolean.valueOf(false));
+                return blockstate.setValue(TYPE, VerticalQuarterShape.DOUBLE).setValue(FACING, pContext.getClickedFace().getCounterClockWise()).setValue(WATERLOGGED, Boolean.FALSE);
             }
         } else {
             FluidState fluidstate = pContext.getLevel().getFluidState(blockpos);
@@ -132,16 +133,26 @@ public class VerticalQuarterBlock extends Block implements SimpleWaterloggedBloc
     }
 
     @Override
+    public FluidState getFluidState(BlockState pState) {
+        return pState.getValue(WATERLOGGED) ? Fluids.WATER.getSource(false) : super.getFluidState(pState);
+    }
+
+    @Override
+    public boolean placeLiquid(LevelAccessor pLevel, BlockPos pPos, BlockState pState, FluidState pFluidState) {
+        return SimpleWaterloggedBlock.super.placeLiquid(pLevel, pPos, pState, pFluidState);
+    }
+
+    @Override
+    public boolean canPlaceLiquid(BlockGetter pLevel, BlockPos pPos, BlockState pState, Fluid pFluid) {
+        return SimpleWaterloggedBlock.super.canPlaceLiquid(pLevel, pPos, pState, pFluid);
+    }
+
+    @Override
     public boolean isPathfindable(BlockState pState, BlockGetter pLevel, BlockPos pPos, PathComputationType pType) {
-        switch(pType) {
-            case LAND:
-                return false;
-            case WATER:
-                return pLevel.getFluidState(pPos).is(FluidTags.WATER);
-            case AIR:
-                return false;
-            default:
-                return false;
-        }
+        return switch (pType) {
+            case LAND -> false;
+            case WATER -> pLevel.getFluidState(pPos).is(FluidTags.WATER);
+            case AIR -> false;
+        };
     }
 }
