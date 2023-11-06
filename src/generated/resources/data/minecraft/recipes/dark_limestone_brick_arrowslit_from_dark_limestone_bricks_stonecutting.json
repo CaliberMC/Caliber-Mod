@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "caliber:dark_limestone_bricks"
+  },
+  "result": "caliber:dark_limestone_brick_arrowslit",
+  "count": 2
+}

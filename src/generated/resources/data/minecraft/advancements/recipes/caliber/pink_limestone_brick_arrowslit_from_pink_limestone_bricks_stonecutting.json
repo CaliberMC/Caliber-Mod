@@ -2,17 +2,17 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:orange_sandstone_slab_from_orange_sandstone_arch_stonecutting"
+      "minecraft:pink_limestone_brick_arrowslit_from_pink_limestone_bricks_stonecutting"
     ]
   },
   "criteria": {
-    "has_orange_sandstone": {
+    "has_pink_limestone_bricks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "caliber:orange_sandstone"
+              "caliber:pink_limestone_bricks"
             ]
           }
         ]
@@ -21,13 +21,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:orange_sandstone_slab_from_orange_sandstone_arch_stonecutting"
+        "recipe": "minecraft:pink_limestone_brick_arrowslit_from_pink_limestone_bricks_stonecutting"
       }
     }
   },
   "requirements": [
     [
-      "has_orange_sandstone",
+      "has_pink_limestone_bricks",
       "has_the_recipe"
     ]
   ]

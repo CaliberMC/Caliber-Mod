@@ -2,17 +2,17 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:brown_sandstone_slab_from_brown_sandstone_arch_stonecutting"
+      "minecraft:polished_gray_granite_arrowslit_from_polished_gray_granite_stonecutting"
     ]
   },
   "criteria": {
-    "has_brown_sandstone": {
+    "has_polished_gray_granite": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "caliber:brown_sandstone"
+              "caliber:polished_gray_granite"
             ]
           }
         ]
@@ -21,13 +21,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:brown_sandstone_slab_from_brown_sandstone_arch_stonecutting"
+        "recipe": "minecraft:polished_gray_granite_arrowslit_from_polished_gray_granite_stonecutting"
       }
     }
   },
   "requirements": [
     [
-      "has_brown_sandstone",
+      "has_polished_gray_granite",
       "has_the_recipe"
     ]
   ]
