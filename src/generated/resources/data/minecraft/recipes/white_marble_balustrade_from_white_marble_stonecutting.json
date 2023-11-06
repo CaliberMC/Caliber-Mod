@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "caliber:white_marble"
+  },
+  "result": "caliber:white_marble_balustrade",
+  "count": 2
+}

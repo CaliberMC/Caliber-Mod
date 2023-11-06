@@ -129,6 +129,8 @@ public class BalustradeBlock extends Block implements SimpleWaterloggedBlock {
 
     }
 
+    // TODO: ADD UPDATE SHAPE METHOD FOR CONNECTED BLOCKS & CORNERS
+
     @Override
     public boolean isPathfindable(BlockState pState, BlockGetter pLevel, BlockPos pPos, PathComputationType pType) {
         switch(pType) {
