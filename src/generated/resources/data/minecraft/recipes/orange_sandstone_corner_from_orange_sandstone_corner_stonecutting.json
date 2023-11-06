@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "caliber:orange_sandstone"
+  },
+  "result": "caliber:orange_sandstone_corner",
+  "count": 2
+}
