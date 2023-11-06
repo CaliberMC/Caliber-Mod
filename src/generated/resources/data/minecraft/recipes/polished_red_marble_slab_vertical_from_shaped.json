@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " M ",
+    " M ",
+    " M "
+  ],
+  "key": {
+    "M": {
+      "item": "caliber:polished_red_marble"
+    }
+  },
+  "result": {
+    "item": "caliber:polished_red_marble_slab_vertical",
+    "count": 6
+  }
+}

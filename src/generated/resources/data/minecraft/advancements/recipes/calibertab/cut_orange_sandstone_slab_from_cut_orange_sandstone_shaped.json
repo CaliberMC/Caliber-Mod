@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:cut_orange_sandstone_slab_from_shaped"
+      "minecraft:cut_orange_sandstone_slab_from_cut_orange_sandstone_shaped"
     ]
   },
   "criteria": {
@@ -21,7 +21,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:cut_orange_sandstone_slab_from_shaped"
+        "recipe": "minecraft:cut_orange_sandstone_slab_from_cut_orange_sandstone_shaped"
       }
     }
   },

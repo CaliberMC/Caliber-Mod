@@ -358,6 +358,7 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.TAN_LIMESTONE_STAIRS.get());
         this.dropSelf(ModBlocks.DARK_LIMESTONE_WALL.get());
         this.dropSelf(ModBlocks.LIGHT_LIMESTONE_WALL.get());
+        this.dropSelf(ModBlocks.LIMESTONE_WALL.get());
         this.dropSelf(ModBlocks.PINK_LIMESTONE_WALL.get());
         this.dropSelf(ModBlocks.TAN_LIMESTONE_WALL.get());
         this.dropSelf(ModBlocks.DARK_LIMESTONE_WINDOW.get());
