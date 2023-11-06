@@ -27,7 +27,7 @@ import java.util.function.Supplier;
 
 public class CreativeTabs {
     public static CreativeModeTab[] TABS;
-    public static final CreativeModeTab CALIBER_TAB = new CreativeModeTab("calibertab") {
+    public static final CreativeModeTab CALIBER_TAB = new CreativeModeTab("caliber") {
         @Override
         public ItemStack makeIcon() {
             return new ItemStack(ModBlocks.POLISHED_PINK_MARBLE.get());
