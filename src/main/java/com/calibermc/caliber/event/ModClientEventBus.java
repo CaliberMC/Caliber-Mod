@@ -81,7 +81,7 @@ public class ModClientEventBus {
                 ModNetworking.INSTANCE.sendToServer(new ServerOpenBlockPickerMenu());
             }
             if (COPY_BLOCK.consumeClick()) {
-                if (mc.hitResult != null && mc.hitResult.getType() == HitResult.Type.BLOCK) {
+                if (mc.hitResult != null && mc.hitResult.getType() == HitResult.Type.BLOCK && mc.player.isCreative()) {
                     onPickBlock(mc.hitResult, mc.player, mc.level);
                 }
             }
