@@ -30,6 +30,8 @@ public class ModRecipeProvider2 extends RecipeProvider implements IConditionBuil
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.GRAY_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "gray_granite_arch_from_gray_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_GRANITE.get()), ModBlocks.PINK_GRANITE_ARCH.get(), 2).unlockedBy("has_pink_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "pink_granite_arch_from_pink_granite_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.GRANITE), ModBlocks.RED_GRANITE_ARCH.get(), 2).unlockedBy("has_granite",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.GRANITE).build())).save(pFinishedRecipeConsumer, "red_granite_arch_from_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WHITE_GRANITE.get()), ModBlocks.WHITE_GRANITE_ARCH.get(), 2).unlockedBy("has_white_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "white_granite_arch_from_white_granite_stonecutting");
 
@@ -42,6 +44,8 @@ public class ModRecipeProvider2 extends RecipeProvider implements IConditionBuil
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.GRAY_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "gray_granite_arrowslit_from_gray_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_GRANITE.get()), ModBlocks.PINK_GRANITE_ARROWSLIT.get(), 2).unlockedBy("has_pink_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "pink_granite_arrowslit_from_pink_granite_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.GRANITE), ModBlocks.RED_GRANITE_ARROWSLIT.get(), 2).unlockedBy("has_granite",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.GRANITE).build())).save(pFinishedRecipeConsumer, "red_granite_arrowslit_from_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WHITE_GRANITE.get()), ModBlocks.WHITE_GRANITE_ARROWSLIT.get(), 2).unlockedBy("has_white_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "white_granite_arrowslit_from_white_granite_stonecutting");
 
@@ -54,6 +58,8 @@ public class ModRecipeProvider2 extends RecipeProvider implements IConditionBuil
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.GRAY_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "gray_granite_balustrade_from_gray_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_GRANITE.get()), ModBlocks.PINK_GRANITE_BALUSTRADE.get(), 2).unlockedBy("has_pink_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "pink_granite_balustrade_from_pink_granite_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.GRANITE), ModBlocks.RED_GRANITE_BALUSTRADE.get(), 2).unlockedBy("has_granite",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.GRANITE).build())).save(pFinishedRecipeConsumer, "red_granite_balustrade_from_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WHITE_GRANITE.get()), ModBlocks.WHITE_GRANITE_BALUSTRADE.get(), 2).unlockedBy("has_white_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "white_granite_balustrade_from_white_granite_stonecutting");
 
@@ -66,6 +72,8 @@ public class ModRecipeProvider2 extends RecipeProvider implements IConditionBuil
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.GRAY_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "gray_granite_capital_from_gray_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_GRANITE.get()), ModBlocks.PINK_GRANITE_CAPITAL.get(), 2).unlockedBy("has_pink_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "pink_granite_capital_from_pink_granite_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.GRANITE), ModBlocks.RED_GRANITE_CAPITAL.get(), 2).unlockedBy("has_granite",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.GRANITE).build())).save(pFinishedRecipeConsumer, "red_granite_capital_from_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WHITE_GRANITE.get()), ModBlocks.WHITE_GRANITE_CAPITAL.get(), 2).unlockedBy("has_white_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "white_granite_capital_from_white_granite_stonecutting");
 
@@ -79,6 +87,8 @@ public class ModRecipeProvider2 extends RecipeProvider implements IConditionBuil
 //                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.GRAY_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "gray_granite_window_from_shaped");
 //        ShapedRecipeBuilder.shaped(ModBlocks.PINK_GRANITE_WINDOW.get(), 12).define('G', ModBlocks.PINK_GRANITE.get()).pattern("GGG").pattern(" GG").pattern("  G").unlockedBy("has_pink_granite",
 //                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "pink_granite_window_from_shaped");
+        //        ShapedRecipeBuilder.shaped(ModBlocks.RED_GRANITE_WINDOW.get(), 12).define('G', Blocks.GRANITE).pattern("GGG").pattern(" GG").pattern("  G").unlockedBy("has_granite",
+//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.GRANITE).build())).save(pFinishedRecipeConsumer, "red_granite_window_from_shaped");
 //        ShapedRecipeBuilder.shaped(ModBlocks.WHITE_GRANITE_WINDOW.get(), 12).define('G', ModBlocks.WHITE_GRANITE.get()).pattern("GGG").pattern(" GG").pattern("  G").unlockedBy("has_white_granite",
 //                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "white_granite_window_from_shaped");
         
@@ -90,6 +100,8 @@ public class ModRecipeProvider2 extends RecipeProvider implements IConditionBuil
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.GRAY_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "gray_granite_corner_from_gray_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_GRANITE.get()), ModBlocks.PINK_GRANITE_CORNER.get(), 2).unlockedBy("has_pink_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "pink_granite_corner_from_pink_granite_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.GRANITE), ModBlocks.RED_GRANITE_CORNER.get(), 2).unlockedBy("has_granite",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.GRANITE).build())).save(pFinishedRecipeConsumer, "red_granite_corner_from_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WHITE_GRANITE.get()), ModBlocks.WHITE_GRANITE_CORNER.get(), 2).unlockedBy("has_white_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "white_granite_corner_from_white_granite_stonecutting");
 
@@ -102,6 +114,8 @@ public class ModRecipeProvider2 extends RecipeProvider implements IConditionBuil
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.GRAY_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "gray_granite_corner_slab_from_gray_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_GRANITE.get()), ModBlocks.PINK_GRANITE_CORNER_SLAB.get(), 4).unlockedBy("has_pink_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "pink_granite_corner_slab_from_pink_granite_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.GRANITE), ModBlocks.RED_GRANITE_CORNER_SLAB.get(), 4).unlockedBy("has_granite",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.GRANITE).build())).save(pFinishedRecipeConsumer, "red_granite_corner_slab_from_red_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WHITE_GRANITE.get()), ModBlocks.WHITE_GRANITE_CORNER_SLAB.get(), 4).unlockedBy("has_white_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "white_granite_corner_slab_from_white_granite_stonecutting");
         
@@ -114,6 +128,8 @@ public class ModRecipeProvider2 extends RecipeProvider implements IConditionBuil
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.GRAY_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "gray_granite_corner_slab_vertical_from_gray_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_GRANITE.get()), ModBlocks.PINK_GRANITE_CORNER_SLAB_VERTICAL.get(), 4).unlockedBy("has_pink_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "pink_granite_corner_slab_vertical_from_pink_granite_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.GRANITE), ModBlocks.RED_GRANITE_CORNER_SLAB_VERTICAL.get(), 4).unlockedBy("has_granite",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.GRANITE).build())).save(pFinishedRecipeConsumer, "red_granite_corner_slab_vertical_from_red_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WHITE_GRANITE.get()), ModBlocks.WHITE_GRANITE_CORNER_SLAB_VERTICAL.get(), 4).unlockedBy("has_white_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "white_granite_corner_slab_vertical_from_white_granite_stonecutting");
 
@@ -126,6 +142,8 @@ public class ModRecipeProvider2 extends RecipeProvider implements IConditionBuil
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.GRAY_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "gray_granite_eighth_from_gray_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_GRANITE.get()), ModBlocks.PINK_GRANITE_EIGHTH.get(), 8).unlockedBy("has_pink_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "pink_granite_eighth_from_pink_granite_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.GRANITE), ModBlocks.RED_GRANITE_EIGHTH.get(), 8).unlockedBy("has_granite",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.GRANITE).build())).save(pFinishedRecipeConsumer, "red_granite_eighth_from_red_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WHITE_GRANITE.get()), ModBlocks.WHITE_GRANITE_EIGHTH.get(), 8).unlockedBy("has_white_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "white_granite_eighth_from_white_granite_stonecutting");
 
@@ -138,6 +156,8 @@ public class ModRecipeProvider2 extends RecipeProvider implements IConditionBuil
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.GRAY_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "gray_granite_quarter_from_gray_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_GRANITE.get()), ModBlocks.PINK_GRANITE_QUARTER.get(), 4).unlockedBy("has_pink_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "pink_granite_quarter_from_pink_granite_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.GRANITE), ModBlocks.RED_GRANITE_QUARTER.get(), 4).unlockedBy("has_granite",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.GRANITE).build())).save(pFinishedRecipeConsumer, "red_granite_quarter_from_red_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WHITE_GRANITE.get()), ModBlocks.WHITE_GRANITE_QUARTER.get(), 4).unlockedBy("has_white_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "white_granite_quarter_from_white_granite_stonecutting");
 
@@ -150,6 +170,8 @@ public class ModRecipeProvider2 extends RecipeProvider implements IConditionBuil
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.GRAY_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "gray_granite_quarter_vertical_from_gray_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_GRANITE.get()), ModBlocks.PINK_GRANITE_QUARTER_VERTICAL.get(), 4).unlockedBy("has_pink_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "pink_granite_quarter_vertical_from_pink_granite_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.GRANITE), ModBlocks.RED_GRANITE_QUARTER_VERTICAL.get(), 4).unlockedBy("has_granite",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.GRANITE).build())).save(pFinishedRecipeConsumer, "red_granite_quarter_vertical_from_red_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WHITE_GRANITE.get()), ModBlocks.WHITE_GRANITE_QUARTER_VERTICAL.get(), 4).unlockedBy("has_white_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "white_granite_quarter_vertical_from_white_granite_stonecutting");
 
@@ -162,6 +184,8 @@ public class ModRecipeProvider2 extends RecipeProvider implements IConditionBuil
 //                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.GRAY_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "gray_granite_window_from_shaped");
 //        ShapedRecipeBuilder.shaped(ModBlocks.PINK_GRANITE_WINDOW.get(), 16).define('G', ModBlocks.PINK_GRANITE.get()).pattern("GGG").pattern("G G").pattern("GGG").unlockedBy("has_pink_granite",
 //                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "pink_granite_window_from_shaped");
+        //        ShapedRecipeBuilder.shaped(ModBlocks.RED_GRANITE_WINDOW.get(), 16).define('G', Blocks.GRANITE).pattern("GGG").pattern("G G").pattern("GGG").unlockedBy("has_granite",
+//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.GRANITE).build())).save(pFinishedRecipeConsumer, "red_granite_window_from_shaped");
 //        ShapedRecipeBuilder.shaped(ModBlocks.WHITE_GRANITE_WINDOW.get(), 16).define('G', ModBlocks.WHITE_GRANITE.get()).pattern("GGG").pattern("G G").pattern("GGG").unlockedBy("has_white_granite",
 //                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "white_granite_window_from_shaped");
 
@@ -174,6 +198,8 @@ public class ModRecipeProvider2 extends RecipeProvider implements IConditionBuil
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.GRAY_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "gray_granite_window_from_gray_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_GRANITE.get()), ModBlocks.PINK_GRANITE_WINDOW.get(), 2).unlockedBy("has_pink_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "pink_granite_window_from_pink_granite_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.GRANITE), ModBlocks.RED_GRANITE_WINDOW.get(), 2).unlockedBy("has_granite",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.GRANITE).build())).save(pFinishedRecipeConsumer, "red_granite_window_from_red_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WHITE_GRANITE.get()), ModBlocks.WHITE_GRANITE_WINDOW.get(), 2).unlockedBy("has_white_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "white_granite_window_from_white_granite_stonecutting");
         
@@ -211,6 +237,8 @@ public class ModRecipeProvider2 extends RecipeProvider implements IConditionBuil
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_GRAY_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_gray_granite_balustrade_from_polished_gray_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_PINK_GRANITE.get()), ModBlocks.POLISHED_PINK_GRANITE_BALUSTRADE.get(), 2).unlockedBy("has_polished_pink_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_PINK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_pink_granite_balustrade_from_polished_pink_granite_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.POLISHED_GRANITE), ModBlocks.POLISHED_RED_GRANITE_BALUSTRADE.get(), 2).unlockedBy("has_polished_granite",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.POLISHED_GRANITE).build())).save(pFinishedRecipeConsumer, "polished_red_granite_balustrade_from_polished_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_WHITE_GRANITE.get()), ModBlocks.POLISHED_WHITE_GRANITE_BALUSTRADE.get(), 2).unlockedBy("has_polished_white_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_white_granite_balustrade_from_polished_white_granite_stonecutting");
 
@@ -223,6 +251,8 @@ public class ModRecipeProvider2 extends RecipeProvider implements IConditionBuil
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_GRAY_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_gray_granite_capital_from_polished_gray_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_PINK_GRANITE.get()), ModBlocks.POLISHED_PINK_GRANITE_CAPITAL.get(), 2).unlockedBy("has_polished_pink_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_PINK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_pink_granite_capital_from_polished_pink_granite_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.POLISHED_GRANITE), ModBlocks.POLISHED_RED_GRANITE_CAPITAL.get(), 2).unlockedBy("has_polished_granite",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.POLISHED_GRANITE).build())).save(pFinishedRecipeConsumer, "polished_red_granite_capital_from_polished_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_WHITE_GRANITE.get()), ModBlocks.POLISHED_WHITE_GRANITE_CAPITAL.get(), 2).unlockedBy("has_polished_white_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_white_granite_capital_from_polished_white_granite_stonecutting");
 
@@ -236,6 +266,8 @@ public class ModRecipeProvider2 extends RecipeProvider implements IConditionBuil
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_GRAY_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_gray_granite_corner_from_polished_gray_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_PINK_GRANITE.get()), ModBlocks.POLISHED_PINK_GRANITE_CORNER.get(), 2).unlockedBy("has_polished_pink_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_PINK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_pink_granite_corner_from_polished_pink_granite_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.POLISHED_GRANITE), ModBlocks.POLISHED_RED_GRANITE_CORNER.get(), 2).unlockedBy("has_polished_granite",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.POLISHED_GRANITE).build())).save(pFinishedRecipeConsumer, "polished_red_granite_corner_from_polished_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_WHITE_GRANITE.get()), ModBlocks.POLISHED_WHITE_GRANITE_CORNER.get(), 2).unlockedBy("has_polished_white_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_white_granite_corner_from_polished_white_granite_stonecutting");
 
@@ -248,6 +280,8 @@ public class ModRecipeProvider2 extends RecipeProvider implements IConditionBuil
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_GRAY_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_gray_granite_corner_slab_from_polished_gray_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_PINK_GRANITE.get()), ModBlocks.POLISHED_PINK_GRANITE_CORNER_SLAB.get(), 4).unlockedBy("has_polished_pink_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_PINK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_pink_granite_corner_slab_from_polished_pink_granite_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.POLISHED_GRANITE), ModBlocks.POLISHED_RED_GRANITE_CORNER_SLAB.get(), 4).unlockedBy("has_polished_granite",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.POLISHED_GRANITE).build())).save(pFinishedRecipeConsumer, "polished_red_granite_corner_slab_from_polished_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_WHITE_GRANITE.get()), ModBlocks.POLISHED_WHITE_GRANITE_CORNER_SLAB.get(), 4).unlockedBy("has_polished_white_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_white_granite_corner_slab_from_polished_white_granite_stonecutting");
 
@@ -260,6 +294,8 @@ public class ModRecipeProvider2 extends RecipeProvider implements IConditionBuil
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_GRAY_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_gray_granite_corner_slab_vertical_from_polished_gray_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_PINK_GRANITE.get()), ModBlocks.POLISHED_PINK_GRANITE_CORNER_SLAB_VERTICAL.get(), 4).unlockedBy("has_polished_pink_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_PINK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_pink_granite_corner_slab_vertical_from_polished_pink_granite_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.POLISHED_GRANITE), ModBlocks.POLISHED_RED_GRANITE_CORNER_SLAB_VERTICAL.get(), 4).unlockedBy("has_polished_granite",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.POLISHED_GRANITE).build())).save(pFinishedRecipeConsumer, "polished_red_granite_corner_slab_vertical_from_polished_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_WHITE_GRANITE.get()), ModBlocks.POLISHED_WHITE_GRANITE_CORNER_SLAB_VERTICAL.get(), 4).unlockedBy("has_polished_white_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_white_granite_corner_slab_vertical_from_polished_white_granite_stonecutting");
 
@@ -272,6 +308,8 @@ public class ModRecipeProvider2 extends RecipeProvider implements IConditionBuil
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_GRAY_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_gray_granite_eighth_from_polished_gray_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_PINK_GRANITE.get()), ModBlocks.POLISHED_PINK_GRANITE_EIGHTH.get(), 8).unlockedBy("has_polished_pink_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_PINK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_pink_granite_eighth_from_polished_pink_granite_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.POLISHED_GRANITE), ModBlocks.POLISHED_RED_GRANITE_EIGHTH.get(), 8).unlockedBy("has_polished_granite",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.POLISHED_GRANITE).build())).save(pFinishedRecipeConsumer, "polished_red_granite_eighth_from_polished_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_WHITE_GRANITE.get()), ModBlocks.POLISHED_WHITE_GRANITE_EIGHTH.get(), 8).unlockedBy("has_polished_white_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_white_granite_eighth_from_polished_white_granite_stonecutting");
 
@@ -284,6 +322,8 @@ public class ModRecipeProvider2 extends RecipeProvider implements IConditionBuil
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_GRAY_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_gray_granite_quarter_from_polished_gray_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_PINK_GRANITE.get()), ModBlocks.POLISHED_PINK_GRANITE_QUARTER.get(), 4).unlockedBy("has_polished_pink_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_PINK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_pink_granite_quarter_from_polished_pink_granite_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.POLISHED_GRANITE), ModBlocks.POLISHED_RED_GRANITE_QUARTER.get(), 4).unlockedBy("has_polished_granite",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.POLISHED_GRANITE).build())).save(pFinishedRecipeConsumer, "polished_red_granite_quarter_from_polished_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_WHITE_GRANITE.get()), ModBlocks.POLISHED_WHITE_GRANITE_QUARTER.get(), 4).unlockedBy("has_polished_white_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_white_granite_quarter_from_polished_white_granite_stonecutting");
 
@@ -296,6 +336,8 @@ public class ModRecipeProvider2 extends RecipeProvider implements IConditionBuil
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_GRAY_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_gray_granite_quarter_vertical_from_polished_gray_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_PINK_GRANITE.get()), ModBlocks.POLISHED_PINK_GRANITE_QUARTER_VERTICAL.get(), 4).unlockedBy("has_polished_pink_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_PINK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_pink_granite_quarter_vertical_from_polished_pink_granite_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.POLISHED_GRANITE), ModBlocks.POLISHED_RED_GRANITE_QUARTER_VERTICAL.get(), 4).unlockedBy("has_polished_granite",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.POLISHED_GRANITE).build())).save(pFinishedRecipeConsumer, "polished_red_granite_quarter_vertical_from_polished_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_WHITE_GRANITE.get()), ModBlocks.POLISHED_WHITE_GRANITE_QUARTER_VERTICAL.get(), 4).unlockedBy("has_polished_white_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_white_granite_quarter_vertical_from_polished_white_granite_stonecutting");
 
@@ -308,6 +350,8 @@ public class ModRecipeProvider2 extends RecipeProvider implements IConditionBuil
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_GRAY_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_gray_granite_window_from_polished_gray_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_PINK_GRANITE.get()), ModBlocks.POLISHED_PINK_GRANITE_WINDOW.get(), 2).unlockedBy("has_polished_pink_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_PINK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_pink_granite_window_from_polished_pink_granite_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.POLISHED_GRANITE), ModBlocks.POLISHED_RED_GRANITE_WINDOW.get(), 2).unlockedBy("has_polished_granite",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.POLISHED_GRANITE).build())).save(pFinishedRecipeConsumer, "polished_red_granite_window_from_polished_granite_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_WHITE_GRANITE.get()), ModBlocks.POLISHED_WHITE_GRANITE_WINDOW.get(), 2).unlockedBy("has_polished_white_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_white_granite_window_from_polished_white_granite_stonecutting");
         

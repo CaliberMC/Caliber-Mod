@@ -62,8 +62,8 @@ public class Caliber {
 
     private void setup(final FMLCommonSetupEvent event) {
         // some preinit code
-        LOGGER.info("HELLO FROM PREINIT");
-        LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
+        LOGGER.info("Loading Caliber Mod");
+//        LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
 
 
         ModNetworking.registerMessages();
