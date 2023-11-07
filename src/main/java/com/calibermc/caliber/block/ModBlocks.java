@@ -23,21 +23,28 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, Caliber.MOD_ID);
 
     public static final Block.Properties GRANITE_PROPERTIES = 
-            BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).sound(SoundType.STONE).requiresCorrectToolForDrops();
+            BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6.0F).sound(SoundType.STONE).requiresCorrectToolForDrops();
     public static final Block.Properties LIMESTONE_PROPERTIES =
-            BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).sound(SoundType.STONE).requiresCorrectToolForDrops();
+            BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6.0F).sound(SoundType.STONE).requiresCorrectToolForDrops();
     public static final Block.Properties LIMESTONE_BRICK_PROPERTIES =
-            BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).sound(SoundType.STONE).requiresCorrectToolForDrops();
+            BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6.0F).sound(SoundType.STONE).requiresCorrectToolForDrops();
     public static final Block.Properties SMOOTH_LIMESTONE_PROPERTIES =
-            BlockBehaviour.Properties.of(Material.STONE).strength(2.0f).sound(SoundType.STONE).requiresCorrectToolForDrops();
+            BlockBehaviour.Properties.of(Material.STONE).strength(2.0f, 6.0F).sound(SoundType.STONE).requiresCorrectToolForDrops();
     public static final Block.Properties COBBLESTONE_PROPERTIES =
-            BlockBehaviour.Properties.of(Material.STONE).strength(2.0f).sound(SoundType.STONE).requiresCorrectToolForDrops();
+            BlockBehaviour.Properties.of(Material.STONE).strength(2.0f, 6.0F).sound(SoundType.STONE).requiresCorrectToolForDrops();
     public static final Block.Properties SANDSTONE_PROPERTIES =
             BlockBehaviour.Properties.of(Material.STONE).strength(0.8f).sound(SoundType.STONE).requiresCorrectToolForDrops();
     public static final Block.Properties SMOOTH_SANDSTONE_PROPERTIES =
-            BlockBehaviour.Properties.of(Material.STONE).strength(2.0f).sound(SoundType.STONE).requiresCorrectToolForDrops();
+            BlockBehaviour.Properties.of(Material.STONE).strength(2.0f, 6.0F).sound(SoundType.STONE).requiresCorrectToolForDrops();
     public static final Block.Properties MARBLE_PROPERTIES =
-            BlockBehaviour.Properties.of(Material.STONE).strength(2.0f).sound(SoundType.STONE).requiresCorrectToolForDrops();
+            BlockBehaviour.Properties.of(Material.STONE).strength(2.0f, 6.0F).sound(SoundType.STONE).requiresCorrectToolForDrops();
+    
+    public static final Block.Properties PLANK_PROPERTIES =
+            BlockBehaviour.Properties.of(Material.WOOD).strength(2.0f, 3.0F).sound(SoundType.WOOD);
+    public static final Block.Properties WOOD_PROPERTIES =
+            BlockBehaviour.Properties.of(Material.WOOD).strength(2.0f).sound(SoundType.WOOD);
+    
+    
     // METAL BLOCKS
     public static final RegistryObject<Block> TIN_BLOCK = registerBlock("tin_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(5f).requiresCorrectToolForDrops()), CALIBER_TAB);
@@ -710,7 +717,6 @@ public class ModBlocks {
             () -> new SlabBlock(LIMESTONE_PROPERTIES), CALIBER_TAB);
     public static final RegistryObject<Block> DARK_LIMESTONE_SLAB_VERTICAL = registerBlock("dark_limestone_slab_vertical",
             () -> new VerticalSlabBlock(LIMESTONE_PROPERTIES), CALIBER_TAB);
-
     public static final RegistryObject<Block> LIGHT_LIMESTONE_SLAB_VERTICAL = registerBlock("light_limestone_slab_vertical",
             () -> new VerticalSlabBlock(LIMESTONE_PROPERTIES), CALIBER_TAB);
     public static final RegistryObject<Block> LIMESTONE_SLAB_VERTICAL = registerBlock("limestone_slab_vertical",
@@ -1734,13 +1740,13 @@ public class ModBlocks {
     public static final RegistryObject<Block> SANDSTONE_WINDOW = registerBlock("sandstone_window",
             () -> new WindowBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
 //    public static final RegistryObject<Block> BROWN_SANDSTONE_WINDOW_HALF = registerBlock("brown_sandstone_window_half",
-//            () -> new WindowHalfBlock(SANDSTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(SANDSTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 //    public static final RegistryObject<Block> ORANGE_SANDSTONE_WINDOW_HALF = registerBlock("orange_sandstone_window_half",
-//            () -> new WindowHalfBlock(SANDSTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(SANDSTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 //    public static final RegistryObject<Block> RED_SANDSTONE_WINDOW_HALF = registerBlock("red_sandstone_window_half",
-//            () -> new WindowHalfBlock(SANDSTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(SANDSTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 //    public static final RegistryObject<Block> SANDSTONE_WINDOW_HALF = registerBlock("sandstone_window_half",
-//            () -> new WindowHalfBlock(SANDSTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(SANDSTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
     
 
     // -- SANDSTONE -- CHISELED
@@ -1778,7 +1784,6 @@ public class ModBlocks {
             () -> new StairBlock(() -> ModBlocks.SMOOTH_ORANGE_SANDSTONE.get().defaultBlockState(),
                     SMOOTH_SANDSTONE_PROPERTIES), CALIBER_TAB);
 
-
     // -- SAND
     public static final RegistryObject<Block> BLACK_SAND = registerBlock("black_sand",
             () -> new SandBlock(0,BlockBehaviour.Properties.of(Material.SAND).strength(0.5f).sound(SoundType.SAND)), CALIBER_TAB);
@@ -1789,11 +1794,151 @@ public class ModBlocks {
     public static final RegistryObject<Block> WHITE_SAND = registerBlock("white_sand",
             () -> new SandBlock(0,BlockBehaviour.Properties.of(Material.SAND).strength(0.5f).sound(SoundType.SAND)), CALIBER_TAB);
 
-
     // WOOD BLOCKS
-
-
-
+    public static final RegistryObject<Block> ACACIA_BALUSTRADE = registerBlock("acacia_balustrade",
+            () -> new BalustradeBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> BIRCH_BALUSTRADE = registerBlock("birch_balustrade",
+            () -> new BalustradeBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> DARK_OAK_BALUSTRADE = registerBlock("dark_oak_balustrade",
+            () -> new BalustradeBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> JUNGLE_BALUSTRADE = registerBlock("jungle_balustrade",
+            () -> new BalustradeBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> OAK_BALUSTRADE = registerBlock("oak_balustrade",
+            () -> new BalustradeBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SPRUCE_BALUSTRADE = registerBlock("spruce_balustrade",
+            () -> new BalustradeBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> ACACIA_CAPITAL = registerBlock("acacia_capital",
+            () -> new CapitalBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> BIRCH_CAPITAL = registerBlock("birch_capital",
+            () -> new CapitalBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> DARK_OAK_CAPITAL = registerBlock("dark_oak_capital",
+            () -> new CapitalBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> JUNGLE_CAPITAL = registerBlock("jungle_capital",
+            () -> new CapitalBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> OAK_CAPITAL = registerBlock("oak_capital",
+            () -> new CapitalBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SPRUCE_CAPITAL = registerBlock("spruce_capital",
+            () -> new CapitalBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> ACACIA_CORNER = registerBlock("acacia_corner",
+            () -> new CornerBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> BIRCH_CORNER = registerBlock("birch_corner",
+            () -> new CornerBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> DARK_OAK_CORNER = registerBlock("dark_oak_corner",
+            () -> new CornerBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> JUNGLE_CORNER = registerBlock("jungle_corner",
+            () -> new CornerBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> OAK_CORNER = registerBlock("oak_corner",
+            () -> new CornerBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SPRUCE_CORNER = registerBlock("spruce_corner",
+            () -> new CornerBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> ACACIA_CORNER_SLAB = registerBlock("acacia_corner_slab",
+            () -> new CornerSlabBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> BIRCH_CORNER_SLAB = registerBlock("birch_corner_slab",
+            () -> new CornerSlabBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> DARK_OAK_CORNER_SLAB = registerBlock("dark_oak_corner_slab",
+            () -> new CornerSlabBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> JUNGLE_CORNER_SLAB = registerBlock("jungle_corner_slab",
+            () -> new CornerSlabBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> OAK_CORNER_SLAB = registerBlock("oak_corner_slab",
+            () -> new CornerSlabBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SPRUCE_CORNER_SLAB = registerBlock("spruce_corner_slab",
+            () -> new CornerSlabBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> ACACIA_CORNER_SLAB_VERTICAL = registerBlock("acacia_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> BIRCH_CORNER_SLAB_VERTICAL = registerBlock("birch_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> DARK_OAK_CORNER_SLAB_VERTICAL = registerBlock("dark_oak_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> JUNGLE_CORNER_SLAB_VERTICAL = registerBlock("jungle_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> OAK_CORNER_SLAB_VERTICAL = registerBlock("oak_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SPRUCE_CORNER_SLAB_VERTICAL = registerBlock("spruce_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> ACACIA_EIGHTH = registerBlock("acacia_eighth",
+            () -> new EighthBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> BIRCH_EIGHTH = registerBlock("birch_eighth",
+            () -> new EighthBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> DARK_OAK_EIGHTH = registerBlock("dark_oak_eighth",
+            () -> new EighthBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> JUNGLE_EIGHTH = registerBlock("jungle_eighth",
+            () -> new EighthBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> OAK_EIGHTH = registerBlock("oak_eighth",
+            () -> new EighthBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SPRUCE_EIGHTH = registerBlock("spruce_eighth",
+            () -> new EighthBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> ACACIA_QUARTER = registerBlock("acacia_quarter",
+            () -> new QuarterBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> BIRCH_QUARTER = registerBlock("birch_quarter",
+            () -> new QuarterBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> DARK_OAK_QUARTER = registerBlock("dark_oak_quarter",
+            () -> new QuarterBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> JUNGLE_QUARTER = registerBlock("jungle_quarter",
+            () -> new QuarterBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> OAK_QUARTER = registerBlock("oak_quarter",
+            () -> new QuarterBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SPRUCE_QUARTER = registerBlock("spruce_quarter",
+            () -> new QuarterBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> ACACIA_QUARTER_VERTICAL = registerBlock("acacia_quarter_vertical",
+            () -> new VerticalQuarterBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> BIRCH_QUARTER_VERTICAL = registerBlock("birch_quarter_vertical",
+            () -> new VerticalQuarterBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> DARK_OAK_QUARTER_VERTICAL = registerBlock("dark_oak_quarter_vertical",
+            () -> new VerticalQuarterBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> JUNGLE_QUARTER_VERTICAL = registerBlock("jungle_quarter_vertical",
+            () -> new VerticalQuarterBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> OAK_QUARTER_VERTICAL = registerBlock("oak_quarter_vertical",
+            () -> new VerticalQuarterBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SPRUCE_QUARTER_VERTICAL = registerBlock("spruce_quarter_vertical",
+            () -> new VerticalQuarterBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> ACACIA_SLAB_VERTICAL = registerBlock("acacia_slab_vertical",
+            () -> new VerticalSlabBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> BIRCH_SLAB_VERTICAL = registerBlock("birch_slab_vertical",
+            () -> new VerticalSlabBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> DARK_OAK_SLAB_VERTICAL = registerBlock("dark_oak_slab_vertical",
+            () -> new VerticalSlabBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> JUNGLE_SLAB_VERTICAL = registerBlock("jungle_slab_vertical",
+            () -> new VerticalSlabBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> OAK_SLAB_VERTICAL = registerBlock("oak_slab_vertical",
+            () -> new VerticalSlabBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SPRUCE_SLAB_VERTICAL = registerBlock("spruce_slab_vertical",
+            () -> new VerticalSlabBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> ACACIA_WALL = registerBlock("acacia_wall",
+            () -> new WallBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> BIRCH_WALL = registerBlock("birch_wall",
+            () -> new WallBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> DARK_OAK_WALL = registerBlock("dark_oak_wall",
+            () -> new WallBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> JUNGLE_WALL = registerBlock("jungle_wall",
+            () -> new WallBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> OAK_WALL = registerBlock("oak_wall",
+            () -> new WallBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SPRUCE_WALL = registerBlock("spruce_wall",
+            () -> new WallBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> ACACIA_WINDOW = registerBlock("acacia_window",
+            () -> new WindowBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> BIRCH_WINDOW = registerBlock("birch_window",
+            () -> new WindowBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> DARK_OAK_WINDOW = registerBlock("dark_oak_window",
+            () -> new WindowBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> JUNGLE_WINDOW = registerBlock("jungle_window",
+            () -> new WindowBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> OAK_WINDOW = registerBlock("oak_window",
+            () -> new WindowBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SPRUCE_WINDOW = registerBlock("spruce_window",
+            () -> new WindowBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> ACACIA_WINDOW_HALF = registerBlock("acacia_window_half",
+            () -> new HalfWindowBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> BIRCH_WINDOW_HALF = registerBlock("birch_window_half",
+            () -> new HalfWindowBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> DARK_OAK_WINDOW_HALF = registerBlock("dark_oak_window_half",
+            () -> new HalfWindowBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> JUNGLE_WINDOW_HALF = registerBlock("jungle_window_half",
+            () -> new HalfWindowBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> OAK_WINDOW_HALF = registerBlock("oak_window_half",
+            () -> new HalfWindowBlock(PLANK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SPRUCE_WINDOW_HALF = registerBlock("spruce_window_half",
+            () -> new HalfWindowBlock(PLANK_PROPERTIES), CALIBER_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, net.minecraft.world.item.CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

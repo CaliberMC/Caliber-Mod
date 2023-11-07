@@ -254,7 +254,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
 //        models().cubeBottomTop("brown_sandstone", modLoc("block/brown_sandstone_side"), modLoc("block/brown_sandstone_bottom"), modLoc("block/brown_sandstone_top"));
 
-
+        wallBlock((WallBlock) ModBlocks.ACACIA_WALL.get(), blockTexture(Blocks.ACACIA_PLANKS));
+        wallBlock((WallBlock) ModBlocks.BIRCH_WALL.get(), blockTexture(Blocks.BIRCH_PLANKS));
+        wallBlock((WallBlock) ModBlocks.DARK_OAK_WALL.get(), blockTexture(Blocks.DARK_OAK_PLANKS));
+        wallBlock((WallBlock) ModBlocks.JUNGLE_WALL.get(), blockTexture(Blocks.JUNGLE_PLANKS));
+        wallBlock((WallBlock) ModBlocks.OAK_WALL.get(), blockTexture(Blocks.OAK_PLANKS));
+        wallBlock((WallBlock) ModBlocks.SPRUCE_WALL.get(), blockTexture(Blocks.SPRUCE_PLANKS));
 
 
 

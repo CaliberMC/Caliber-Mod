@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "caliber:block/jungle_capital"
+    },
+    "type=top": {
+      "model": "caliber:block/jungle_capital_top"
+    }
+  }
+}
