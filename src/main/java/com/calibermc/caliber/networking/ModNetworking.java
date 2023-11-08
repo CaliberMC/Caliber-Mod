@@ -14,5 +14,6 @@ public class ModNetworking {
         INSTANCE = NetworkRegistry.newSimpleChannel(new ResourceLocation(Caliber.MOD_ID, "network"), () -> "1.0", s -> true, s -> true);
         INSTANCE.registerMessage(id++, ServerOpenBlockPickerMenu.class, ServerOpenBlockPickerMenu::toBytes, ServerOpenBlockPickerMenu::new, ServerOpenBlockPickerMenu::handle);
         INSTANCE.registerMessage(id++, ServerAdjustReach.class, ServerAdjustReach::toBytes, ServerAdjustReach::new, ServerAdjustReach::handle);
+        INSTANCE.registerMessage(id++, ServerSetBlockMenuSlot.class, ServerSetBlockMenuSlot::toBytes, ServerSetBlockMenuSlot::new, ServerSetBlockMenuSlot::handle);
     }
 }

@@ -1,6 +1,8 @@
 package com.calibermc.caliber.client;
 
 import com.calibermc.caliber.Caliber;
+import com.calibermc.caliber.networking.ModNetworking;
+import com.calibermc.caliber.networking.ServerSetBlockMenuSlot;
 import com.calibermc.caliber.world.inventory.BlockPickerMenu;
 import com.calibermc.caliber.world.inventory.BlockPickerSlot;
 import com.mojang.blaze3d.platform.InputConstants;
@@ -8,6 +10,7 @@ import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.vertex.PoseStack;
 import net.minecraft.ChatFormatting;
 import net.minecraft.Util;
+import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.components.AbstractWidget;
 import net.minecraft.client.gui.screens.Screen;
@@ -52,6 +55,7 @@ public class BlockPickerScreen extends Screen implements MenuAccess<BlockPickerM
     private long lastClickTime;
     private int lastClickButton;
     private boolean doubleclick;
+    protected boolean hasClickedOutside;
 
     public BlockPickerScreen(BlockPickerMenu pMenu, Inventory pPlayerInventory, Component pTitle) {
         super(pTitle);
@@ -199,7 +203,7 @@ public class BlockPickerScreen extends Screen implements MenuAccess<BlockPickerM
             } else {
                 int j = this.leftPos;
                 int k = this.topPos;
-                boolean flag1 = this.hasClickedOutside(pMouseX, pMouseY, j, k);
+                boolean flag1 = this.hasClickedOutside;
                 if (slot != null)
                     flag1 = false; // Forge, prevent dropping of items through slots outside of GUI boundaries
                 int l = -1;
@@ -230,8 +234,11 @@ public class BlockPickerScreen extends Screen implements MenuAccess<BlockPickerM
                             if (this.minecraft.options.keyPickItem.isActiveAndMatches(mouseKey)) {
                                 this.slotClicked(slot, l, pButton, ClickType.CLONE);
                             } else {
+                                boolean flag2 = l != -999 && (InputConstants.isKeyDown(Minecraft.getInstance().getWindow().getWindow(), 340) || InputConstants.isKeyDown(Minecraft.getInstance().getWindow().getWindow(), 344));
                                 ClickType clicktype = ClickType.PICKUP;
-                                if (l == -999) {
+                                if (flag2) {
+                                    clicktype = ClickType.QUICK_MOVE;
+                                } else if (l == -999) {
                                     clicktype = ClickType.THROW;
                                 }
 
@@ -286,10 +293,11 @@ public class BlockPickerScreen extends Screen implements MenuAccess<BlockPickerM
 
     @Override
     public boolean mouseReleased(double pMouseX, double pMouseY, int pButton) {
-        super.mouseReleased(pMouseX, pMouseY, pButton);
+        super.mouseReleased(pMouseX, pMouseY, pButton); //Forge, Call parent to release buttons
         Slot slot = this.findSlot(pMouseX, pMouseY);
-        assert this.minecraft != null;
-        boolean flag = this.hasClickedOutside(pMouseX, pMouseY, this.leftPos, this.topPos);
+        int i = this.leftPos;
+        int j = this.topPos;
+        boolean flag = this.hasClickedOutside;
         if (slot != null) flag = false; // Forge, prevent dropping of items through slots outside of GUI boundaries
         InputConstants.Key mouseKey = InputConstants.Type.MOUSE.getOrCreate(pButton);
         int k = -1;
@@ -302,22 +310,48 @@ public class BlockPickerScreen extends Screen implements MenuAccess<BlockPickerM
         }
 
         if (this.doubleclick && slot != null && pButton == 0 && this.menu.canTakeItemForPickAll(ItemStack.EMPTY, slot)) {
-            this.slotClicked(slot, k, pButton, ClickType.PICKUP_ALL);
+            ItemStack lastQuickMoved = slot.hasItem() ? slot.getItem().copy() : ItemStack.EMPTY;
+            if (hasShiftDown()) {
+                if (!lastQuickMoved.isEmpty()) {
+                    for (Slot slot2 : this.menu.slots) {
+                        if (slot2 != null && slot2.mayPickup(this.minecraft.player) && slot2.hasItem() && slot2.isSameInventory(slot) && AbstractContainerMenu.canItemQuickReplace(slot2, lastQuickMoved, true)) {
+                            this.slotClicked(slot2, slot2.index, pButton, ClickType.QUICK_MOVE);
+                        }
+                    }
+                }
+            } else {
+                this.slotClicked(slot, k, pButton, ClickType.PICKUP_ALL);
+            }
 
             this.doubleclick = false;
             this.lastClickTime = 0L;
         } else {
-
             if (this.skipNextRelease) {
                 this.skipNextRelease = false;
                 return true;
             }
 
-            if (!this.menu.getCarried().isEmpty()) {
+            if (this.clickedSlot != null && this.minecraft.options.touchscreen) {
+                if (pButton == 0 || pButton == 1) {
+                    if (this.draggingItem.isEmpty() && slot != this.clickedSlot) {
+                        this.draggingItem = this.clickedSlot.getItem();
+                    }
+
+                    boolean flag2 = AbstractContainerMenu.canItemQuickReplace(slot, this.draggingItem, false);
+                    if (k != -1 && !this.draggingItem.isEmpty() && flag2) {
+                        this.slotClicked(this.clickedSlot, this.clickedSlot.index, pButton, ClickType.PICKUP);
+                        this.slotClicked(slot, k, 0, ClickType.PICKUP);
+                    }
+
+                    this.draggingItem = ItemStack.EMPTY;
+                    this.clickedSlot = null;
+                }
+            } else if (!this.menu.getCarried().isEmpty()) {
                 if (this.minecraft.options.keyPickItem.isActiveAndMatches(mouseKey)) {
                     this.slotClicked(slot, k, pButton, ClickType.CLONE);
                 } else {
-                    this.slotClicked(slot, k, pButton, ClickType.PICKUP);
+                    boolean flag1 = k != -999 && (InputConstants.isKeyDown(Minecraft.getInstance().getWindow().getWindow(), 340) || InputConstants.isKeyDown(Minecraft.getInstance().getWindow().getWindow(), 344));
+                    this.slotClicked(slot, k, pButton, flag1 ? ClickType.QUICK_MOVE : ClickType.PICKUP);
                 }
             }
         }
@@ -343,12 +377,115 @@ public class BlockPickerScreen extends Screen implements MenuAccess<BlockPickerM
         return pMouseX >= (pX - 1) && pMouseX < (pX + pWidth + 1) && pMouseY >= (pY - 1) && pMouseY < (pY + pHeight + 1);
     }
 
-    protected void slotClicked(Slot pSlot, int pSlotId, int pMouseButton, ClickType pType) {
-        if (pSlot != null) {
-            pSlotId = pSlot.index;
+    protected void slotClicked(@Nullable Slot pSlot, int pSlotId, int pMouseButton, ClickType pType) {
+        boolean flag = pType == ClickType.QUICK_MOVE;
+        pType = pSlotId == -999 && pType == ClickType.PICKUP ? ClickType.THROW : pType;
+        if (pSlot == null && pType != ClickType.QUICK_CRAFT) {
+            if (!this.menu.getCarried().isEmpty() && this.hasClickedOutside) {
+                if (pMouseButton == 0) {
+                    dropItem(this.menu.getCarried());
+                    this.menu.setCarried(ItemStack.EMPTY);
+                }
+
+                if (pMouseButton == 1) {
+                    ItemStack itemstack5 = this.menu.getCarried().split(1);
+                    dropItem(itemstack5);
+                }
+            }
+        } else {
+            if (pSlot != null && !pSlot.mayPickup(this.minecraft.player)) {
+                return;
+            }
+
+            if (pType != ClickType.QUICK_CRAFT && !(pSlot.container instanceof Inventory)) {
+                ItemStack itemstack4 = this.menu.getCarried();
+                ItemStack itemstack7 = pSlot.getItem();
+                if (pType == ClickType.SWAP) {
+                    if (!itemstack7.isEmpty()) {
+                        ItemStack itemstack10 = itemstack7.copy();
+                        itemstack10.setCount(itemstack10.getMaxStackSize());
+
+                        addItem(itemstack10, 20 + pMouseButton);
+                    }
+
+                    return;
+                }
+
+                if (pType == ClickType.CLONE) {
+                    if (this.menu.getCarried().isEmpty() && pSlot.hasItem()) {
+                        ItemStack itemstack9 = pSlot.getItem().copy();
+                        itemstack9.setCount(itemstack9.getMaxStackSize());
+                        this.menu.setCarried(itemstack9);
+                    }
+
+                    return;
+                }
+
+                if (pType == ClickType.THROW) {
+                    if (!itemstack7.isEmpty()) {
+                        ItemStack itemstack8 = itemstack7.copy();
+                        itemstack8.setCount(pMouseButton == 0 ? 1 : itemstack8.getMaxStackSize());
+                        dropItem(itemstack8);
+                    }
+
+                    return;
+                }
+
+                if (!itemstack4.isEmpty() && !itemstack7.isEmpty() && itemstack4.sameItem(itemstack7) && ItemStack.tagMatches(itemstack4, itemstack7)) {
+                    if (pMouseButton == 0) {
+                        if (flag) {
+                            itemstack4.setCount(itemstack4.getMaxStackSize());
+                        } else if (itemstack4.getCount() < itemstack4.getMaxStackSize()) {
+                            itemstack4.grow(1);
+                        }
+                    } else {
+                        itemstack4.shrink(1);
+                    }
+                } else if (!itemstack7.isEmpty() && itemstack4.isEmpty()) {
+                    this.menu.setCarried(itemstack7.copy());
+                    itemstack4 = this.menu.getCarried();
+                    if (flag) {
+                        itemstack4.setCount(itemstack4.getMaxStackSize());
+                    }
+                } else if (pMouseButton == 0) {
+                    this.menu.setCarried(ItemStack.EMPTY);
+                } else {
+                    this.menu.getCarried().shrink(1);
+                }
+            } else if (this.menu != null) {
+                ItemStack itemstack3 = pSlot == null ? ItemStack.EMPTY : this.menu.getSlot(pSlot.index).getItem();
+                this.menu.clicked(pSlot == null ? pSlotId : pSlot.index, pMouseButton, pType, this.minecraft.player);
+                if (AbstractContainerMenu.getQuickcraftHeader(pMouseButton) == 2) {
+                    for (int k = 0; k < 9; ++k) {
+                        addItem(this.menu.getSlot(20 + k).getItem(), 20 + k);
+                    }
+                } else if (pSlot != null) {
+                    ItemStack itemstack6 = this.menu.getSlot(pSlot.index).getItem();
+                    addItem(itemstack6, pSlot.index);
+                    if (pType == ClickType.SWAP) {
+                        addItem(itemstack3, 20 + pMouseButton);
+                    } else if (pType == ClickType.THROW && !itemstack3.isEmpty()) {
+                        ItemStack itemstack2 = itemstack3.copy();
+                        itemstack2.setCount(pMouseButton == 0 ? 1 : itemstack2.getMaxStackSize());
+                        dropItem(itemstack2);
+                    }
+
+                    this.minecraft.player.inventoryMenu.broadcastChanges();
+                }
+            }
         }
 
-        this.minecraft.gameMode.handleInventoryMouseClick(this.menu.containerId, pSlotId, pMouseButton, pType, this.minecraft.player);
+    }
+
+    public void addItem(ItemStack pStack, int pSlotId) {
+        ModNetworking.INSTANCE.sendToServer(new ServerSetBlockMenuSlot(pSlotId, pStack));
+    }
+
+    public void dropItem(ItemStack pStack) {
+        if (!pStack.isEmpty()) {
+            this.minecraft.player.drop(pStack, true);
+            ModNetworking.INSTANCE.sendToServer(new ServerSetBlockMenuSlot(-1, pStack));
+        }
     }
 
     @Override
@@ -414,6 +551,8 @@ public class BlockPickerScreen extends Screen implements MenuAccess<BlockPickerM
 
     @Override
     public void render(@NotNull PoseStack pPoseStack, int pMouseX, int pMouseY, float pPartialTick) {
+        this.hasClickedOutside = this.hasClickedOutside(pMouseX, pMouseY, this.leftPos, this.topPos);
+
         int width = this.width / 2;
         int height = this.height / 2;
 

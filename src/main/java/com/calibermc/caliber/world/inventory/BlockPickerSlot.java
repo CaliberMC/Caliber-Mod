@@ -36,15 +36,6 @@ public class BlockPickerSlot extends Slot {
     }
 
     @Override
-    public boolean mayPickup(Player pPlayer) {
-        if (this.container.getContainerSize() == 1 && this.index == 0) {
-            return false;
-        }
-
-        return super.mayPickup(pPlayer);
-    }
-
-    @Override
     public void set(ItemStack pStack) {
 
     }
