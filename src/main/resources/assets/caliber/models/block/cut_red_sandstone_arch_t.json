@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/arch_t",
+  "textures": {
+    "side": "caliber:block/cut_red_sandstone_64",
+    "bottom": "caliber:block/cut_red_sandstone_64",
+    "top": "caliber:block/cut_red_sandstone_64"
+  }
+}

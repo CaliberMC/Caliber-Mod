@@ -1,0 +1,100 @@
+{
+  "variants": {
+    "facing=north,type=straight": {
+      "model": "caliber:block/cut_orange_sandstone_arch"
+    },
+    "facing=north,type=cross": {
+      "model": "caliber:block/cut_orange_sandstone_arch_cross"
+    },
+    "facing=north,type=corner_left": {
+      "model": "caliber:block/cut_orange_sandstone_arch_corner",
+      "y": 0
+    },
+    "facing=north,type=corner_right": {
+      "model": "caliber:block/cut_orange_sandstone_arch_corner",
+      "y": 90
+    },
+    "facing=north,type=left_t": {
+      "model": "caliber:block/cut_orange_sandstone_arch_t",
+      "y": 0
+    },
+    "facing=north,type=right_t": {
+      "model": "caliber:block/cut_orange_sandstone_arch_t",
+      "y": 180
+    },
+    "facing=east,type=straight": {
+      "model": "caliber:block/cut_orange_sandstone_arch",
+      "y": 90
+    },
+    "facing=east,type=cross": {
+      "model": "caliber:block/cut_orange_sandstone_arch_cross",
+      "y": 90
+    },
+    "facing=east,type=corner_left": {
+      "model": "caliber:block/cut_orange_sandstone_arch_corner",
+      "y": 90
+    },
+    "facing=east,type=corner_right": {
+      "model": "caliber:block/cut_orange_sandstone_arch_corner",
+      "y": 180
+    },
+    "facing=east,type=left_t": {
+      "model": "caliber:block/cut_orange_sandstone_arch_t",
+      "y": 90
+    },
+    "facing=east,type=right_t": {
+      "model": "caliber:block/cut_orange_sandstone_arch_t",
+      "y": 270
+    },    
+    "facing=south,type=straight": {
+      "model": "caliber:block/cut_orange_sandstone_arch",
+      "y": 180
+    },
+    "facing=south,type=cross": {
+      "model": "caliber:block/cut_orange_sandstone_arch_cross",
+      "y": 180
+    },
+    "facing=south,type=corner_left": {
+      "model": "caliber:block/cut_orange_sandstone_arch_corner",
+      "y": 180
+    },
+    "facing=south,type=corner_right": {
+      "model": "caliber:block/cut_orange_sandstone_arch_corner",
+      "y": 270
+    },
+    "facing=south,type=left_t": {
+      "model": "caliber:block/cut_orange_sandstone_arch_t",
+      "y": 180
+    },
+    "facing=south,type=right_t": {
+      "model": "caliber:block/cut_orange_sandstone_arch_t",
+      "y": 0
+    },
+    "facing=west,type=straight": {
+      "model": "caliber:block/cut_orange_sandstone_arch",
+      "y": 270
+    },
+    "facing=west,type=cross": {
+      "model": "caliber:block/cut_orange_sandstone_arch_cross",
+      "y": 270
+    },
+    "facing=west,type=corner_left": {
+      "model": "caliber:block/cut_orange_sandstone_arch_corner",
+      "y": 270
+    },
+    "facing=west,type=corner_right": {
+      "model": "caliber:block/cut_orange_sandstone_arch_corner",
+      "y": 0
+    },
+    "facing=west,type=left_t": {
+      "model": "caliber:block/cut_orange_sandstone_arch_t",
+      "y": 270
+    },
+    "facing=west,type=right_t": {
+      "model": "caliber:block/cut_orange_sandstone_arch_t",
+      "y": 90
+    }
+  }
+}
+    
+    

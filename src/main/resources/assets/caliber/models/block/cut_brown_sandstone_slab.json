@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/slab",
   "textures": {
-    "bottom": "caliber:block/brown_sandstone_top",
-    "top": "caliber:block/brown_sandstone_top",
+    "bottom": "caliber:block/cut_brown_sandstone",
+    "top": "caliber:block/cut_brown_sandstone",
     "side": "caliber:block/cut_brown_sandstone"
   }
 }

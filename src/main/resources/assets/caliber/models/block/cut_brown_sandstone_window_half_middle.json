@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/window_half_middle",
+  "textures": {
+    "side": "caliber:block/cut_brown_sandstone",
+    "bottom": "caliber:block/cut_brown_sandstone",
+    "top": "caliber:block/cut_brown_sandstone"
+  }
+}

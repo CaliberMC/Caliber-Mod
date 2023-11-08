@@ -1628,7 +1628,6 @@ public class ModBlocks {
             () -> new Block(SANDSTONE_PROPERTIES), CALIBER_TAB);
     public static final RegistryObject<Block> ORANGE_SANDSTONE = registerBlock("orange_sandstone",
             () -> new Block(SANDSTONE_PROPERTIES), CALIBER_TAB);
-    //TODO: ADD SANDSTONE ARCHES
     public static final RegistryObject<Block> BROWN_SANDSTONE_ARCH = registerBlock("brown_sandstone_arch",
             () -> new ArchBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
     public static final RegistryObject<Block> ORANGE_SANDSTONE_ARCH = registerBlock("orange_sandstone_arch",
@@ -1760,29 +1759,264 @@ public class ModBlocks {
             () -> new Block(SANDSTONE_PROPERTIES), CALIBER_TAB);
     public static final RegistryObject<Block> CUT_ORANGE_SANDSTONE = registerBlock("cut_orange_sandstone",
             () -> new Block(SANDSTONE_PROPERTIES), CALIBER_TAB);
-
-    // -- SANDSTONE -- CUT -- SLAB
+    public static final RegistryObject<Block> CUT_BROWN_SANDSTONE_ARCH = registerBlock("cut_brown_sandstone_arch",
+            () -> new ArchBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_ORANGE_SANDSTONE_ARCH = registerBlock("cut_orange_sandstone_arch",
+            () -> new ArchBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_RED_SANDSTONE_ARCH = registerBlock("cut_red_sandstone_arch",
+            () -> new ArchBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_SANDSTONE_ARCH = registerBlock("cut_sandstone_arch",
+            () -> new ArchBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_BROWN_SANDSTONE_ARROWSLIT = registerBlock("cut_brown_sandstone_arrowslit",
+            () -> new ArrowSlitBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_ORANGE_SANDSTONE_ARROWSLIT = registerBlock("cut_orange_sandstone_arrowslit",
+            () -> new ArrowSlitBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_RED_SANDSTONE_ARROWSLIT = registerBlock("cut_red_sandstone_arrowslit",
+            () -> new ArrowSlitBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_SANDSTONE_ARROWSLIT = registerBlock("cut_sandstone_arrowslit",
+            () -> new ArrowSlitBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_BROWN_SANDSTONE_BALUSTRADE = registerBlock("cut_brown_sandstone_balustrade",
+            () -> new BalustradeBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_ORANGE_SANDSTONE_BALUSTRADE = registerBlock("cut_orange_sandstone_balustrade",
+            () -> new BalustradeBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_RED_SANDSTONE_BALUSTRADE = registerBlock("cut_red_sandstone_balustrade",
+            () -> new BalustradeBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_SANDSTONE_BALUSTRADE = registerBlock("cut_sandstone_balustrade",
+            () -> new BalustradeBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_BROWN_SANDSTONE_CAPITAL = registerBlock("cut_brown_sandstone_capital",
+            () -> new CapitalBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_ORANGE_SANDSTONE_CAPITAL = registerBlock("cut_orange_sandstone_capital",
+            () -> new CapitalBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_RED_SANDSTONE_CAPITAL = registerBlock("cut_red_sandstone_capital",
+            () -> new CapitalBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_SANDSTONE_CAPITAL = registerBlock("cut_sandstone_capital",
+            () -> new CapitalBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_BROWN_SANDSTONE_CORNER = registerBlock("cut_brown_sandstone_corner",
+            () -> new CornerBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_ORANGE_SANDSTONE_CORNER = registerBlock("cut_orange_sandstone_corner",
+            () -> new CornerBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_RED_SANDSTONE_CORNER = registerBlock("cut_red_sandstone_corner",
+            () -> new CornerBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_SANDSTONE_CORNER = registerBlock("cut_sandstone_corner",
+            () -> new CornerBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_BROWN_SANDSTONE_CORNER_SLAB = registerBlock("cut_brown_sandstone_corner_slab",
+            () -> new CornerSlabBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_ORANGE_SANDSTONE_CORNER_SLAB = registerBlock("cut_orange_sandstone_corner_slab",
+            () -> new CornerSlabBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_RED_SANDSTONE_CORNER_SLAB = registerBlock("cut_red_sandstone_corner_slab",
+            () -> new CornerSlabBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_SANDSTONE_CORNER_SLAB = registerBlock("cut_sandstone_corner_slab",
+            () -> new CornerSlabBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_BROWN_SANDSTONE_CORNER_SLAB_VERTICAL = registerBlock("cut_brown_sandstone_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_ORANGE_SANDSTONE_CORNER_SLAB_VERTICAL = registerBlock("cut_orange_sandstone_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_RED_SANDSTONE_CORNER_SLAB_VERTICAL = registerBlock("cut_red_sandstone_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_SANDSTONE_CORNER_SLAB_VERTICAL = registerBlock("cut_sandstone_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_BROWN_SANDSTONE_EIGHTH = registerBlock("cut_brown_sandstone_eighth",
+            () -> new EighthBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_ORANGE_SANDSTONE_EIGHTH = registerBlock("cut_orange_sandstone_eighth",
+            () -> new EighthBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_RED_SANDSTONE_EIGHTH = registerBlock("cut_red_sandstone_eighth",
+            () -> new EighthBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_SANDSTONE_EIGHTH = registerBlock("cut_sandstone_eighth",
+            () -> new EighthBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_BROWN_SANDSTONE_QUARTER = registerBlock("cut_brown_sandstone_quarter",
+            () -> new QuarterBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_ORANGE_SANDSTONE_QUARTER = registerBlock("cut_orange_sandstone_quarter",
+            () -> new QuarterBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_RED_SANDSTONE_QUARTER = registerBlock("cut_red_sandstone_quarter",
+            () -> new QuarterBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_SANDSTONE_QUARTER = registerBlock("cut_sandstone_quarter",
+            () -> new QuarterBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_BROWN_SANDSTONE_QUARTER_VERTICAL = registerBlock("cut_brown_sandstone_quarter_vertical",
+            () -> new VerticalQuarterBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_ORANGE_SANDSTONE_QUARTER_VERTICAL = registerBlock("cut_orange_sandstone_quarter_vertical",
+            () -> new VerticalQuarterBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_RED_SANDSTONE_QUARTER_VERTICAL = registerBlock("cut_red_sandstone_quarter_vertical",
+            () -> new VerticalQuarterBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_SANDSTONE_QUARTER_VERTICAL = registerBlock("cut_sandstone_quarter_vertical",
+            () -> new VerticalQuarterBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
     public static final RegistryObject<Block> CUT_BROWN_SANDSTONE_SLAB = registerBlock("cut_brown_sandstone_slab",
             () -> new SlabBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
     public static final RegistryObject<Block> CUT_ORANGE_SANDSTONE_SLAB = registerBlock("cut_orange_sandstone_slab",
             () -> new SlabBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_BROWN_SANDSTONE_SLAB_VERTICAL = registerBlock("cut_brown_sandstone_slab_vertical",
+            () -> new VerticalSlabBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_ORANGE_SANDSTONE_SLAB_VERTICAL = registerBlock("cut_orange_sandstone_slab_vertical",
+            () -> new VerticalSlabBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_RED_SANDSTONE_SLAB_VERTICAL = registerBlock("cut_red_sandstone_slab_vertical",
+            () -> new VerticalSlabBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_SANDSTONE_SLAB_VERTICAL = registerBlock("cut_sandstone_slab_vertical",
+            () -> new VerticalSlabBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_BROWN_SANDSTONE_STAIRS = registerBlock("cut_brown_sandstone_stairs",
+            () -> new StairBlock(() -> ModBlocks.CUT_BROWN_SANDSTONE.get().defaultBlockState(),
+                    SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_ORANGE_SANDSTONE_STAIRS = registerBlock("cut_orange_sandstone_stairs",
+            () -> new StairBlock(() -> ModBlocks.CUT_ORANGE_SANDSTONE.get().defaultBlockState(),
+                    SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_RED_SANDSTONE_STAIRS = registerBlock("cut_red_sandstone_stairs",
+            () -> new StairBlock(() -> Blocks.CUT_RED_SANDSTONE.defaultBlockState(),
+                    SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_SANDSTONE_STAIRS = registerBlock("cut_sandstone_stairs",
+            () -> new StairBlock(() -> Blocks.CUT_SANDSTONE.defaultBlockState(),
+                    SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_BROWN_SANDSTONE_WALL = registerBlock("cut_brown_sandstone_wall",
+            () -> new WallBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_ORANGE_SANDSTONE_WALL = registerBlock("cut_orange_sandstone_wall",
+            () -> new WallBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_RED_SANDSTONE_WALL = registerBlock("cut_red_sandstone_wall",
+            () -> new WallBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_SANDSTONE_WALL = registerBlock("cut_sandstone_wall",
+            () -> new WallBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_BROWN_SANDSTONE_WINDOW = registerBlock("cut_brown_sandstone_window",
+            () -> new WindowBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_ORANGE_SANDSTONE_WINDOW = registerBlock("cut_orange_sandstone_window",
+            () -> new WindowBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_RED_SANDSTONE_WINDOW = registerBlock("cut_red_sandstone_window",
+            () -> new WindowBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_SANDSTONE_WINDOW = registerBlock("cut_sandstone_window",
+            () -> new WindowBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_BROWN_SANDSTONE_WINDOW_HALF = registerBlock("cut_brown_sandstone_window_half",
+            () -> new HalfWindowBlock(SANDSTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_ORANGE_SANDSTONE_WINDOW_HALF = registerBlock("cut_orange_sandstone_window_half",
+            () -> new HalfWindowBlock(SANDSTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_RED_SANDSTONE_WINDOW_HALF = registerBlock("cut_red_sandstone_window_half",
+            () -> new HalfWindowBlock(SANDSTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> CUT_SANDSTONE_WINDOW_HALF = registerBlock("cut_sandstone_window_half",
+            () -> new HalfWindowBlock(SANDSTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+
 
 
     // -- SANDSTONE -- SMOOTH
     public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE = registerBlock("smooth_brown_sandstone",
-            () -> new Block(SMOOTH_SANDSTONE_PROPERTIES), CALIBER_TAB);
+            () -> new Block(SANDSTONE_PROPERTIES), CALIBER_TAB);
     public static final RegistryObject<Block> SMOOTH_ORANGE_SANDSTONE = registerBlock("smooth_orange_sandstone",
-            () -> new Block(SMOOTH_SANDSTONE_PROPERTIES), CALIBER_TAB);
+            () -> new Block(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH = registerBlock("smooth_brown_sandstone_arch",
+            () -> new ArchBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_ORANGE_SANDSTONE_ARCH = registerBlock("smooth_orange_sandstone_arch",
+            () -> new ArchBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_RED_SANDSTONE_ARCH = registerBlock("smooth_red_sandstone_arch",
+            () -> new ArchBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_SANDSTONE_ARCH = registerBlock("smooth_sandstone_arch",
+            () -> new ArchBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARROWSLIT = registerBlock("smooth_brown_sandstone_arrowslit",
+            () -> new ArrowSlitBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_ORANGE_SANDSTONE_ARROWSLIT = registerBlock("smooth_orange_sandstone_arrowslit",
+            () -> new ArrowSlitBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_RED_SANDSTONE_ARROWSLIT = registerBlock("smooth_red_sandstone_arrowslit",
+            () -> new ArrowSlitBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_SANDSTONE_ARROWSLIT = registerBlock("smooth_sandstone_arrowslit",
+            () -> new ArrowSlitBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_BALUSTRADE = registerBlock("smooth_brown_sandstone_balustrade",
+            () -> new BalustradeBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_ORANGE_SANDSTONE_BALUSTRADE = registerBlock("smooth_orange_sandstone_balustrade",
+            () -> new BalustradeBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_RED_SANDSTONE_BALUSTRADE = registerBlock("smooth_red_sandstone_balustrade",
+            () -> new BalustradeBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_SANDSTONE_BALUSTRADE = registerBlock("smooth_sandstone_balustrade",
+            () -> new BalustradeBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_CAPITAL = registerBlock("smooth_brown_sandstone_capital",
+            () -> new CapitalBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_ORANGE_SANDSTONE_CAPITAL = registerBlock("smooth_orange_sandstone_capital",
+            () -> new CapitalBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_RED_SANDSTONE_CAPITAL = registerBlock("smooth_red_sandstone_capital",
+            () -> new CapitalBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_SANDSTONE_CAPITAL = registerBlock("smooth_sandstone_capital",
+            () -> new CapitalBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_CORNER = registerBlock("smooth_brown_sandstone_corner",
+            () -> new CornerBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_ORANGE_SANDSTONE_CORNER = registerBlock("smooth_orange_sandstone_corner",
+            () -> new CornerBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_RED_SANDSTONE_CORNER = registerBlock("smooth_red_sandstone_corner",
+            () -> new CornerBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_SANDSTONE_CORNER = registerBlock("smooth_sandstone_corner",
+            () -> new CornerBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_CORNER_SLAB = registerBlock("smooth_brown_sandstone_corner_slab",
+            () -> new CornerSlabBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_ORANGE_SANDSTONE_CORNER_SLAB = registerBlock("smooth_orange_sandstone_corner_slab",
+            () -> new CornerSlabBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_RED_SANDSTONE_CORNER_SLAB = registerBlock("smooth_red_sandstone_corner_slab",
+            () -> new CornerSlabBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_SANDSTONE_CORNER_SLAB = registerBlock("smooth_sandstone_corner_slab",
+            () -> new CornerSlabBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_CORNER_SLAB_VERTICAL = registerBlock("smooth_brown_sandstone_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_ORANGE_SANDSTONE_CORNER_SLAB_VERTICAL = registerBlock("smooth_orange_sandstone_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_RED_SANDSTONE_CORNER_SLAB_VERTICAL = registerBlock("smooth_red_sandstone_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_SANDSTONE_CORNER_SLAB_VERTICAL = registerBlock("smooth_sandstone_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_EIGHTH = registerBlock("smooth_brown_sandstone_eighth",
+            () -> new EighthBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_ORANGE_SANDSTONE_EIGHTH = registerBlock("smooth_orange_sandstone_eighth",
+            () -> new EighthBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_RED_SANDSTONE_EIGHTH = registerBlock("smooth_red_sandstone_eighth",
+            () -> new EighthBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_SANDSTONE_EIGHTH = registerBlock("smooth_sandstone_eighth",
+            () -> new EighthBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_QUARTER = registerBlock("smooth_brown_sandstone_quarter",
+            () -> new QuarterBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_ORANGE_SANDSTONE_QUARTER = registerBlock("smooth_orange_sandstone_quarter",
+            () -> new QuarterBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_RED_SANDSTONE_QUARTER = registerBlock("smooth_red_sandstone_quarter",
+            () -> new QuarterBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_SANDSTONE_QUARTER = registerBlock("smooth_sandstone_quarter",
+            () -> new QuarterBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_QUARTER_VERTICAL = registerBlock("smooth_brown_sandstone_quarter_vertical",
+            () -> new VerticalQuarterBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_ORANGE_SANDSTONE_QUARTER_VERTICAL = registerBlock("smooth_orange_sandstone_quarter_vertical",
+            () -> new VerticalQuarterBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_RED_SANDSTONE_QUARTER_VERTICAL = registerBlock("smooth_red_sandstone_quarter_vertical",
+            () -> new VerticalQuarterBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_SANDSTONE_QUARTER_VERTICAL = registerBlock("smooth_sandstone_quarter_vertical",
+            () -> new VerticalQuarterBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
     public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_SLAB = registerBlock("smooth_brown_sandstone_slab",
-            () -> new SlabBlock(SMOOTH_SANDSTONE_PROPERTIES), CALIBER_TAB);
+            () -> new SlabBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
     public static final RegistryObject<Block> SMOOTH_ORANGE_SANDSTONE_SLAB = registerBlock("smooth_orange_sandstone_slab",
-            () -> new SlabBlock(SMOOTH_SANDSTONE_PROPERTIES), CALIBER_TAB);
+            () -> new SlabBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_SLAB_VERTICAL = registerBlock("smooth_brown_sandstone_slab_vertical",
+            () -> new VerticalSlabBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_ORANGE_SANDSTONE_SLAB_VERTICAL = registerBlock("smooth_orange_sandstone_slab_vertical",
+            () -> new VerticalSlabBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_RED_SANDSTONE_SLAB_VERTICAL = registerBlock("smooth_red_sandstone_slab_vertical",
+            () -> new VerticalSlabBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_SANDSTONE_SLAB_VERTICAL = registerBlock("smooth_sandstone_slab_vertical",
+            () -> new VerticalSlabBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
     public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_STAIRS = registerBlock("smooth_brown_sandstone_stairs",
             () -> new StairBlock(() -> ModBlocks.SMOOTH_BROWN_SANDSTONE.get().defaultBlockState(),
-                    SMOOTH_SANDSTONE_PROPERTIES), CALIBER_TAB);
+                    SANDSTONE_PROPERTIES), CALIBER_TAB);
     public static final RegistryObject<Block> SMOOTH_ORANGE_SANDSTONE_STAIRS = registerBlock("smooth_orange_sandstone_stairs",
             () -> new StairBlock(() -> ModBlocks.SMOOTH_ORANGE_SANDSTONE.get().defaultBlockState(),
-                    SMOOTH_SANDSTONE_PROPERTIES), CALIBER_TAB);
+                    SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_WALL = registerBlock("smooth_brown_sandstone_wall",
+            () -> new WallBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_ORANGE_SANDSTONE_WALL = registerBlock("smooth_orange_sandstone_wall",
+            () -> new WallBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_RED_SANDSTONE_WALL = registerBlock("smooth_red_sandstone_wall",
+            () -> new WallBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_SANDSTONE_WALL = registerBlock("smooth_sandstone_wall",
+            () -> new WallBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_WINDOW = registerBlock("smooth_brown_sandstone_window",
+            () -> new WindowBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_ORANGE_SANDSTONE_WINDOW = registerBlock("smooth_orange_sandstone_window",
+            () -> new WindowBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_RED_SANDSTONE_WINDOW = registerBlock("smooth_red_sandstone_window",
+            () -> new WindowBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_SANDSTONE_WINDOW = registerBlock("smooth_sandstone_window",
+            () -> new WindowBlock(SANDSTONE_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_WINDOW_HALF = registerBlock("smooth_brown_sandstone_window_half",
+            () -> new HalfWindowBlock(SANDSTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_ORANGE_SANDSTONE_WINDOW_HALF = registerBlock("smooth_orange_sandstone_window_half",
+            () -> new HalfWindowBlock(SANDSTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_RED_SANDSTONE_WINDOW_HALF = registerBlock("smooth_red_sandstone_window_half",
+            () -> new HalfWindowBlock(SANDSTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> SMOOTH_SANDSTONE_WINDOW_HALF = registerBlock("smooth_sandstone_window_half",
+            () -> new HalfWindowBlock(SANDSTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 
     // -- SAND
     public static final RegistryObject<Block> BLACK_SAND = registerBlock("black_sand",

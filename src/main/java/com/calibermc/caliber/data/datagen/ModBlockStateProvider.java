@@ -232,7 +232,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
         wallBlock((WallBlock) ModBlocks.BROWN_SANDSTONE_WALL.get(), blockTexture(ModBlocks.BROWN_SANDSTONE.get()));
         wallBlock((WallBlock) ModBlocks.ORANGE_SANDSTONE_WALL.get(), blockTexture(ModBlocks.ORANGE_SANDSTONE.get()));
 
-
 //        slabBlock((SlabBlock) ModBlocks.BROWN_SANDSTONE_SLAB.get(), blockTexture(ModBlocks.BROWN_SANDSTONE.get()),
 //                blockTexture(ModBlocks.BROWN_SANDSTONE.get()));
 //        slabBlock((SlabBlock) ModBlocks.ORANGE_SANDSTONE_SLAB.get(), blockTexture(ModBlocks.ORANGE_SANDSTONE.get()),
