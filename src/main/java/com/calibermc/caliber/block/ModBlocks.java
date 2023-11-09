@@ -298,17 +298,17 @@ public class ModBlocks {
     public static final RegistryObject<Block> WHITE_GRANITE_WINDOW = registerBlock("white_granite_window",
             () -> new WindowBlock(GRANITE_PROPERTIES), CALIBER_TAB);
 //    public static final RegistryObject<Block> BLACK_GRANITE_WINDOW_HALF = registerBlock("black_granite_window_half",
-//            () -> new Window_HalfBlock(GRANITE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(GRANITE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 //    public static final RegistryObject<Block> BROWN_GRANITE_WINDOW_HALF = registerBlock("brown_granite_window_half",
-//            () -> new Window_HalfBlock(GRANITE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(GRANITE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 //    public static final RegistryObject<Block> GRAY_GRANITE_WINDOW_HALF = registerBlock("gray_granite_window_half",
-//            () -> new Window_HalfBlock(GRANITE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(GRANITE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 //    public static final RegistryObject<Block> PINK_GRANITE_WINDOW_HALF = registerBlock("pink_granite_window_half",
-//            () -> new Window_HalfBlock(GRANITE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(GRANITE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 //    public static final RegistryObject<Block> RED_GRANITE_WINDOW_HALF = registerBlock("red_granite_window_half",
-//            () -> new Window_HalfBlock(GRANITE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(GRANITE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 //    public static final RegistryObject<Block> WHITE_GRANITE_WINDOW_HALF = registerBlock("white_granite_window_half",
-//            () -> new Window_HalfBlock(GRANITE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(GRANITE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 
     // -- GRANITE -- POLISHED
     public static final RegistryObject<Block> POLISHED_BLACK_GRANITE = registerBlock("polished_black_granite",
@@ -539,17 +539,17 @@ public class ModBlocks {
     public static final RegistryObject<Block> POLISHED_WHITE_GRANITE_WINDOW = registerBlock("polished_white_granite_window",
             () -> new WindowBlock(GRANITE_PROPERTIES), CALIBER_TAB);
 //    public static final RegistryObject<Block> POLISHED_BLACK_GRANITE_WINDOW_HALF = registerBlock("polished_black_granite_window_half",
-//            () -> new Window_HalfBlock(GRANITE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(GRANITE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 //    public static final RegistryObject<Block> POLISHED_BROWN_GRANITE_WINDOW_HALF = registerBlock("polished_brown_granite_window_half",
-//            () -> new Window_HalfBlock(GRANITE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(GRANITE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 //    public static final RegistryObject<Block> POLISHED_GRAY_GRANITE_WINDOW_HALF = registerBlock("polished_gray_granite_window_half",
-//            () -> new Window_HalfBlock(GRANITE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(GRANITE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 //    public static final RegistryObject<Block> POLISHED_PINK_GRANITE_WINDOW_HALF = registerBlock("polished_pink_granite_window_half",
-//            () -> new Window_HalfBlock(GRANITE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(GRANITE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 //    public static final RegistryObject<Block> POLISHED_RED_GRANITE_WINDOW_HALF = registerBlock("polished_red_granite_window_half",
-//            () -> new Window_HalfBlock(GRANITE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(GRANITE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 //    public static final RegistryObject<Block> POLISHED_WHITE_GRANITE_WINDOW_HALF = registerBlock("polished_white_granite_window_half",
-//            () -> new Window_HalfBlock(GRANITE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(GRANITE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 
 
     // -- LIMESTONE
@@ -758,15 +758,15 @@ public class ModBlocks {
     public static final RegistryObject<Block> TAN_LIMESTONE_WINDOW = registerBlock("tan_limestone_window",
             () -> new WindowBlock(LIMESTONE_PROPERTIES), CALIBER_TAB);
 //    public static final RegistryObject<Block> DARK_LIMESTONE_WINDOW_HALF = registerBlock("dark_limestone_window_half",
-//            () -> new Window_HalfBlock(LIMESTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(LIMESTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 //    public static final RegistryObject<Block> LIGHT_LIMESTONE_WINDOW_HALF = registerBlock("light_limestone_window_half",
-//            () -> new Window_HalfBlock(LIMESTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(LIMESTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 //    public static final RegistryObject<Block> LIMESTONE_WINDOW_HALF = registerBlock("limestone_window_half",
-//            () -> new Window_HalfBlock(LIMESTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(LIMESTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 //    public static final RegistryObject<Block> PINK_LIMESTONE_WINDOW_HALF = registerBlock("pink_limestone_window_half",
-//            () -> new Window_HalfBlock(LIMESTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(LIMESTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 //    public static final RegistryObject<Block> TAN_LIMESTONE_WINDOW_HALF = registerBlock("tan_limestone_window_half",
-//            () -> new Window_HalfBlock(LIMESTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(LIMESTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 
 
     // -- LIMESTONE -- COBBLED
@@ -957,15 +957,15 @@ public class ModBlocks {
     public static final RegistryObject<Block> COBBLED_TAN_LIMESTONE_WINDOW = registerBlock("cobbled_tan_limestone_window",
             () -> new WindowBlock(COBBLESTONE_PROPERTIES), CALIBER_TAB);
 //    public static final RegistryObject<Block> COBBLED_DARK_LIMESTONE_WINDOW_HALF = registerBlock("cobbled_dark_limestone_window_half",
-//            () -> new Window_HalfBlock(COBBLESTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(COBBLESTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 //    public static final RegistryObject<Block> COBBLED_LIGHT_LIMESTONE_WINDOW_HALF = registerBlock("cobbled_light_limestone_window_half",
-//            () -> new Window_HalfBlock(COBBLESTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(COBBLESTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 //    public static final RegistryObject<Block> COBBLED_LIMESTONE_WINDOW_HALF = registerBlock("cobbled_limestone_window_half",
-//            () -> new Window_HalfBlock(COBBLESTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(COBBLESTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 //    public static final RegistryObject<Block> COBBLED_PINK_LIMESTONE_WINDOW_HALF = registerBlock("cobbled_pink_limestone_window_half",
-//            () -> new Window_HalfBlock(COBBLESTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(COBBLESTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 //    public static final RegistryObject<Block> COBBLED_TAN_LIMESTONE_WINDOW_HALF = registerBlock("cobbled_tan_limestone_window_half",
-//            () -> new Window_HalfBlock(COBBLESTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(COBBLESTONE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 
 
     // -- LIMESTONE -- BRICKS
@@ -1156,15 +1156,213 @@ public class ModBlocks {
     public static final RegistryObject<Block> TAN_LIMESTONE_BRICK_WINDOW = registerBlock("tan_limestone_brick_window",
             () -> new WindowBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
 //    public static final RegistryObject<Block> DARK_LIMESTONE_BRICK_WINDOW_HALF = registerBlock("dark_limestone_brick_window_half",
-//            () -> new Window_HalfBlock(LIMESTONE_BRICK_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(LIMESTONE_BRICK_PROPERTIES), CreativeTabs.CALIBER_TAB);
 //    public static final RegistryObject<Block> LIGHT_LIMESTONE_BRICK_WINDOW_HALF = registerBlock("light_limestone_brick_window_half",
-//            () -> new Window_HalfBlock(LIMESTONE_BRICK_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(LIMESTONE_BRICK_PROPERTIES), CreativeTabs.CALIBER_TAB);
 //    public static final RegistryObject<Block> LIMESTONE_BRICK_WINDOW_HALF = registerBlock("limestone_brick_window_half",
-//            () -> new Window_HalfBlock(LIMESTONE_BRICK_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(LIMESTONE_BRICK_PROPERTIES), CreativeTabs.CALIBER_TAB);
 //    public static final RegistryObject<Block> PINK_LIMESTONE_BRICK_WINDOW_HALF = registerBlock("pink_limestone_brick_window_half",
-//            () -> new Window_HalfBlock(LIMESTONE_BRICK_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(LIMESTONE_BRICK_PROPERTIES), CreativeTabs.CALIBER_TAB);
 //    public static final RegistryObject<Block> TAN_LIMESTONE_BRICK_WINDOW_HALF = registerBlock("tan_limestone_brick_window_half",
-//            () -> new Window_HalfBlock(LIMESTONE_BRICK_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(LIMESTONE_BRICK_PROPERTIES), CreativeTabs.CALIBER_TAB);
+
+    // -- MOSSY -- LIMESTONE -- BRICKS
+    public static final RegistryObject<Block> MOSSY_DARK_LIMESTONE_BRICKS = registerBlock("mossy_dark_limestone_bricks",
+            () -> new Block(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_LIGHT_LIMESTONE_BRICKS = registerBlock("mossy_light_limestone_bricks",
+            () -> new Block(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_PINK_LIMESTONE_BRICKS = registerBlock("mossy_pink_limestone_bricks",
+            () -> new Block(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_TAN_LIMESTONE_BRICKS = registerBlock("mossy_tan_limestone_bricks",
+            () -> new Block(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_DARK_LIMESTONE_BRICK_ARCH = registerBlock("mossy_dark_limestone_brick_arch",
+            () -> new ArchBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_LIGHT_LIMESTONE_BRICK_ARCH = registerBlock("mossy_light_limestone_brick_arch",
+            () -> new ArchBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_LIMESTONE_BRICK_ARCH = registerBlock("mossy_limestone_brick_arch",
+            () -> new ArchBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_PINK_LIMESTONE_BRICK_ARCH = registerBlock("mossy_pink_limestone_brick_arch",
+            () -> new ArchBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_TAN_LIMESTONE_BRICK_ARCH = registerBlock("mossy_tan_limestone_brick_arch",
+            () -> new ArchBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    //    public static final RegistryObject<Block> MOSSY_DARK_LIMESTONE_BRICK_ARCH_HALF = registerBlock("mossy_dark_limestone_brick_arch_half",
+//            () -> new ArchHalfBlock(LIMESTONE_BRICK_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//    public static final RegistryObject<Block> MOSSY_LIGHT_LIMESTONE_BRICK_ARCH_HALF = registerBlock("mossy_light_limestone_brick_arch_half",
+//            () -> new ArchHalfBlock(LIMESTONE_BRICK_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//    public static final RegistryObject<Block> MOSSY_LIMESTONE_BRICK_ARCH_HALF = registerBlock("mossy_limestone_brick_arch_half",
+//            () -> new ArchHalfBlock(LIMESTONE_BRICK_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//    public static final RegistryObject<Block> MOSSY_PINK_LIMESTONE_BRICK_ARCH_HALF = registerBlock("mossy_pink_limestone_brick_arch_half",
+//            () -> new ArchHalfBlock(LIMESTONE_BRICK_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//    public static final RegistryObject<Block> MOSSY_TAN_LIMESTONE_BRICK_ARCH_HALF = registerBlock("mossy_tan_limestone_brick_arch_half",
+//            () -> new ArchHalfBlock(LIMESTONE_BRICK_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//    public static final RegistryObject<Block> MOSSY_DARK_LIMESTONE_BRICK_ARCH_LARGE = registerBlock("mossy_dark_limestone_brick_arch_large",
+//            () -> new ArchLargeBlock(LIMESTONE_BRICK_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//    public static final RegistryObject<Block> MOSSY_LIGHT_LIMESTONE_BRICK_ARCH_LARGE = registerBlock("mossy_light_limestone_brick_arch_large",
+//            () -> new ArchLargeBlock(LIMESTONE_BRICK_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//    public static final RegistryObject<Block> MOSSY_LIMESTONE_BRICK_ARCH_LARGE = registerBlock("mossy_limestone_brick_arch_large",
+//            () -> new ArchLargeBlock(LIMESTONE_BRICK_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//    public static final RegistryObject<Block> MOSSY_PINK_LIMESTONE_BRICK_ARCH_LARGE = registerBlock("mossy_pink_limestone_brick_arch_large",
+//            () -> new ArchLargeBlock(LIMESTONE_BRICK_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//    public static final RegistryObject<Block> MOSSY_TAN_LIMESTONE_BRICK_ARCH_LARGE = registerBlock("mossy_tan_limestone_brick_arch_large",
+//            () -> new ArchLargeBlock(LIMESTONE_BRICK_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//    public static final RegistryObject<Block> MOSSY_DARK_LIMESTONE_BRICK_ARCH_LARGE_HALF = registerBlock("mossy_dark_limestone_brick_arch_large_half",
+//            () -> new ArchLargeHalfBlock(LIMESTONE_BRICK_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//    public static final RegistryObject<Block> MOSSY_LIGHT_LIMESTONE_BRICK_ARCH_LARGE_HALF = registerBlock("mossy_light_limestone_brick_arch_large_half",
+//            () -> new ArchLargeHalfBlock(LIMESTONE_BRICK_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//    public static final RegistryObject<Block> MOSSY_LIMESTONE_BRICK_ARCH_LARGE_HALF = registerBlock("mossy_limestone_brick_arch_large_half",
+//            () -> new ArchLargeHalfBlock(LIMESTONE_BRICK_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//    public static final RegistryObject<Block> MOSSY_PINK_LIMESTONE_BRICK_ARCH_LARGE_HALF = registerBlock("mossy_pink_limestone_brick_arch_large_half",
+//            () -> new ArchLargeHalfBlock(LIMESTONE_BRICK_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//    public static final RegistryObject<Block> MOSSY_TAN_LIMESTONE_BRICK_ARCH_LARGE_HALF = registerBlock("mossy_tan_limestone_brick_arch_large_half",
+//            () -> new ArchLargeHalfBlock(LIMESTONE_BRICK_PROPERTIES), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_DARK_LIMESTONE_BRICK_ARROWSLIT = registerBlock("mossy_dark_limestone_brick_arrowslit",
+            () -> new ArrowSlitBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_LIGHT_LIMESTONE_BRICK_ARROWSLIT = registerBlock("mossy_light_limestone_brick_arrowslit",
+            () -> new ArrowSlitBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_LIMESTONE_BRICK_ARROWSLIT = registerBlock("mossy_limestone_brick_arrowslit",
+            () -> new ArrowSlitBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_PINK_LIMESTONE_BRICK_ARROWSLIT = registerBlock("mossy_pink_limestone_brick_arrowslit",
+            () -> new ArrowSlitBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_TAN_LIMESTONE_BRICK_ARROWSLIT = registerBlock("mossy_tan_limestone_brick_arrowslit",
+            () -> new ArrowSlitBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_DARK_LIMESTONE_BRICK_BALUSTRADE = registerBlock("mossy_dark_limestone_brick_balustrade",
+            () -> new BalustradeBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_LIGHT_LIMESTONE_BRICK_BALUSTRADE = registerBlock("mossy_light_limestone_brick_balustrade",
+            () -> new BalustradeBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_LIMESTONE_BRICK_BALUSTRADE = registerBlock("mossy_limestone_brick_balustrade",
+            () -> new BalustradeBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_PINK_LIMESTONE_BRICK_BALUSTRADE = registerBlock("mossy_pink_limestone_brick_balustrade",
+            () -> new BalustradeBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_TAN_LIMESTONE_BRICK_BALUSTRADE = registerBlock("mossy_tan_limestone_brick_balustrade",
+            () -> new BalustradeBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_DARK_LIMESTONE_BRICK_CAPITAL = registerBlock("mossy_dark_limestone_brick_capital",
+            () -> new CapitalBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_LIGHT_LIMESTONE_BRICK_CAPITAL = registerBlock("mossy_light_limestone_brick_capital",
+            () -> new CapitalBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_LIMESTONE_BRICK_CAPITAL = registerBlock("mossy_limestone_brick_capital",
+            () -> new CapitalBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_PINK_LIMESTONE_BRICK_CAPITAL = registerBlock("mossy_pink_limestone_brick_capital",
+            () -> new CapitalBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_TAN_LIMESTONE_BRICK_CAPITAL = registerBlock("mossy_tan_limestone_brick_capital",
+            () -> new CapitalBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_DARK_LIMESTONE_BRICK_CORNER = registerBlock("mossy_dark_limestone_brick_corner",
+            () -> new CornerBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_LIGHT_LIMESTONE_BRICK_CORNER = registerBlock("mossy_light_limestone_brick_corner",
+            () -> new CornerBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_LIMESTONE_BRICK_CORNER = registerBlock("mossy_limestone_brick_corner",
+            () -> new CornerBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_PINK_LIMESTONE_BRICK_CORNER = registerBlock("mossy_pink_limestone_brick_corner",
+            () -> new CornerBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_TAN_LIMESTONE_BRICK_CORNER = registerBlock("mossy_tan_limestone_brick_corner",
+            () -> new CornerBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_DARK_LIMESTONE_BRICK_CORNER_SLAB = registerBlock("mossy_dark_limestone_brick_corner_slab",
+            () -> new CornerSlabBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_LIGHT_LIMESTONE_BRICK_CORNER_SLAB = registerBlock("mossy_light_limestone_brick_corner_slab",
+            () -> new CornerSlabBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_LIMESTONE_BRICK_CORNER_SLAB = registerBlock("mossy_limestone_brick_corner_slab",
+            () -> new CornerSlabBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_PINK_LIMESTONE_BRICK_CORNER_SLAB = registerBlock("mossy_pink_limestone_brick_corner_slab",
+            () -> new CornerSlabBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_TAN_LIMESTONE_BRICK_CORNER_SLAB = registerBlock("mossy_tan_limestone_brick_corner_slab",
+            () -> new CornerSlabBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_DARK_LIMESTONE_BRICK_CORNER_SLAB_VERTICAL = registerBlock("mossy_dark_limestone_brick_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_LIGHT_LIMESTONE_BRICK_CORNER_SLAB_VERTICAL = registerBlock("mossy_light_limestone_brick_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_LIMESTONE_BRICK_CORNER_SLAB_VERTICAL = registerBlock("mossy_limestone_brick_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_PINK_LIMESTONE_BRICK_CORNER_SLAB_VERTICAL = registerBlock("mossy_pink_limestone_brick_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_TAN_LIMESTONE_BRICK_CORNER_SLAB_VERTICAL = registerBlock("mossy_tan_limestone_brick_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_DARK_LIMESTONE_BRICK_EIGHTH = registerBlock("mossy_dark_limestone_brick_eighth",
+            () -> new EighthBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_LIGHT_LIMESTONE_BRICK_EIGHTH = registerBlock("mossy_light_limestone_brick_eighth",
+            () -> new EighthBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_LIMESTONE_BRICK_EIGHTH = registerBlock("mossy_limestone_brick_eighth",
+            () -> new EighthBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_PINK_LIMESTONE_BRICK_EIGHTH = registerBlock("mossy_pink_limestone_brick_eighth",
+            () -> new EighthBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_TAN_LIMESTONE_BRICK_EIGHTH = registerBlock("mossy_tan_limestone_brick_eighth",
+            () -> new EighthBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_DARK_LIMESTONE_BRICK_QUARTER = registerBlock("mossy_dark_limestone_brick_quarter",
+            () -> new QuarterBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_LIGHT_LIMESTONE_BRICK_QUARTER = registerBlock("mossy_light_limestone_brick_quarter",
+            () -> new QuarterBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_LIMESTONE_BRICK_QUARTER = registerBlock("mossy_limestone_brick_quarter",
+            () -> new QuarterBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_PINK_LIMESTONE_BRICK_QUARTER = registerBlock("mossy_pink_limestone_brick_quarter",
+            () -> new QuarterBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_TAN_LIMESTONE_BRICK_QUARTER = registerBlock("mossy_tan_limestone_brick_quarter",
+            () -> new QuarterBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_DARK_LIMESTONE_BRICK_QUARTER_VERTICAL = registerBlock("mossy_dark_limestone_brick_quarter_vertical",
+            () -> new VerticalQuarterBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_LIGHT_LIMESTONE_BRICK_QUARTER_VERTICAL = registerBlock("mossy_light_limestone_brick_quarter_vertical",
+            () -> new VerticalQuarterBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_LIMESTONE_BRICK_QUARTER_VERTICAL = registerBlock("mossy_limestone_brick_quarter_vertical",
+            () -> new VerticalQuarterBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_PINK_LIMESTONE_BRICK_QUARTER_VERTICAL = registerBlock("mossy_pink_limestone_brick_quarter_vertical",
+            () -> new VerticalQuarterBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_TAN_LIMESTONE_BRICK_QUARTER_VERTICAL = registerBlock("mossy_tan_limestone_brick_quarter_vertical",
+            () -> new VerticalQuarterBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_DARK_LIMESTONE_BRICK_SLAB = registerBlock("mossy_dark_limestone_brick_slab",
+            () -> new SlabBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_LIGHT_LIMESTONE_BRICK_SLAB = registerBlock("mossy_light_limestone_brick_slab",
+            () -> new SlabBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_PINK_LIMESTONE_BRICK_SLAB = registerBlock("mossy_pink_limestone_brick_slab",
+            () -> new SlabBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_TAN_LIMESTONE_BRICK_SLAB = registerBlock("mossy_tan_limestone_brick_slab",
+            () -> new SlabBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_DARK_LIMESTONE_BRICK_SLAB_VERTICAL = registerBlock("mossy_dark_limestone_brick_slab_vertical",
+            () -> new VerticalSlabBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_LIGHT_LIMESTONE_BRICK_SLAB_VERTICAL = registerBlock("mossy_light_limestone_brick_slab_vertical",
+            () -> new VerticalSlabBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_LIMESTONE_BRICK_SLAB_VERTICAL = registerBlock("mossy_limestone_brick_slab_vertical",
+            () -> new VerticalSlabBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_PINK_LIMESTONE_BRICK_SLAB_VERTICAL = registerBlock("mossy_pink_limestone_brick_slab_vertical",
+            () -> new VerticalSlabBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_TAN_LIMESTONE_BRICK_SLAB_VERTICAL = registerBlock("mossy_tan_limestone_brick_slab_vertical",
+            () -> new VerticalSlabBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_DARK_LIMESTONE_BRICK_STAIRS = registerBlock("mossy_dark_limestone_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.MOSSY_DARK_LIMESTONE_BRICKS.get().defaultBlockState(),
+                    LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_LIGHT_LIMESTONE_BRICK_STAIRS = registerBlock("mossy_light_limestone_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.MOSSY_LIGHT_LIMESTONE_BRICKS.get().defaultBlockState(),
+                    LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_PINK_LIMESTONE_BRICK_STAIRS = registerBlock("mossy_pink_limestone_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.MOSSY_PINK_LIMESTONE_BRICKS.get().defaultBlockState(),
+                    LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_TAN_LIMESTONE_BRICK_STAIRS = registerBlock("mossy_tan_limestone_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.MOSSY_TAN_LIMESTONE_BRICKS.get().defaultBlockState(),
+                    LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_DARK_LIMESTONE_BRICK_WALL = registerBlock("mossy_dark_limestone_brick_wall",
+            () -> new WallBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_LIGHT_LIMESTONE_BRICK_WALL = registerBlock("mossy_light_limestone_brick_wall",
+            () -> new WallBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_PINK_LIMESTONE_BRICK_WALL = registerBlock("mossy_pink_limestone_brick_wall",
+            () -> new WallBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_TAN_LIMESTONE_BRICK_WALL = registerBlock("mossy_tan_limestone_brick_wall",
+            () -> new WallBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_DARK_LIMESTONE_BRICK_WINDOW = registerBlock("mossy_dark_limestone_brick_window",
+            () -> new WindowBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_LIGHT_LIMESTONE_BRICK_WINDOW = registerBlock("mossy_light_limestone_brick_window",
+            () -> new WindowBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_LIMESTONE_BRICK_WINDOW = registerBlock("mossy_limestone_brick_window",
+            () -> new WindowBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_PINK_LIMESTONE_BRICK_WINDOW = registerBlock("mossy_pink_limestone_brick_window",
+            () -> new WindowBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_TAN_LIMESTONE_BRICK_WINDOW = registerBlock("mossy_tan_limestone_brick_window",
+            () -> new WindowBlock(LIMESTONE_BRICK_PROPERTIES), CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_DARK_LIMESTONE_BRICK_WINDOW_HALF = registerBlock("mossy_dark_limestone_brick_window_half",
+            () -> new HalfWindowBlock(LIMESTONE_BRICK_PROPERTIES), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_LIGHT_LIMESTONE_BRICK_WINDOW_HALF = registerBlock("mossy_light_limestone_brick_window_half",
+            () -> new HalfWindowBlock(LIMESTONE_BRICK_PROPERTIES), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_LIMESTONE_BRICK_WINDOW_HALF = registerBlock("mossy_limestone_brick_window_half",
+            () -> new HalfWindowBlock(LIMESTONE_BRICK_PROPERTIES), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_PINK_LIMESTONE_BRICK_WINDOW_HALF = registerBlock("mossy_pink_limestone_brick_window_half",
+            () -> new HalfWindowBlock(LIMESTONE_BRICK_PROPERTIES), CreativeTabs.CALIBER_TAB);
+    public static final RegistryObject<Block> MOSSY_TAN_LIMESTONE_BRICK_WINDOW_HALF = registerBlock("mossy_tan_limestone_brick_window_half",
+            () -> new HalfWindowBlock(LIMESTONE_BRICK_PROPERTIES), CreativeTabs.CALIBER_TAB);
 
 
     // -- LIMESTONE -- CRACKED BRICKS
@@ -1404,15 +1602,15 @@ public class ModBlocks {
     public static final RegistryObject<Block> WHITE_MARBLE_WINDOW = registerBlock("white_marble_window",
             () -> new WindowBlock(MARBLE_PROPERTIES), CALIBER_TAB);
 //    public static final RegistryObject<Block> BLACK_MARBLE_WINDOW_HALF = registerBlock("black_marble_window_half",
-//            () -> new Window_HalfBlock(MARBLE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(MARBLE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 //    public static final RegistryObject<Block> GRAY_MARBLE_WINDOW_HALF = registerBlock("gray_marble_window_half",
-//            () -> new Window_HalfBlock(MARBLE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(MARBLE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 //    public static final RegistryObject<Block> PINK_MARBLE_WINDOW_HALF = registerBlock("pink_marble_window_half",
-//            () -> new Window_HalfBlock(MARBLE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(MARBLE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 //    public static final RegistryObject<Block> RED_MARBLE_WINDOW_HALF = registerBlock("red_marble_window_half",
-//            () -> new Window_HalfBlock(MARBLE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(MARBLE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 //    public static final RegistryObject<Block> WHITE_MARBLE_WINDOW_HALF = registerBlock("white_marble_window_half",
-//            () -> new Window_HalfBlock(MARBLE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(MARBLE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 
 
     // -- MARBLE -- POLISHED
@@ -1612,15 +1810,15 @@ public class ModBlocks {
     public static final RegistryObject<Block> POLISHED_WHITE_MARBLE_WINDOW = registerBlock("polished_white_marble_window",
             () -> new WindowBlock(MARBLE_PROPERTIES), CALIBER_TAB);
 //    public static final RegistryObject<Block> POLISHED_BLACK_MARBLE_WINDOW_HALF = registerBlock("polished_black_marble_window_half",
-//            () -> new Window_HalfBlock(MARBLE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(MARBLE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 //    public static final RegistryObject<Block> POLISHED_GRAY_MARBLE_WINDOW_HALF = registerBlock("polished_gray_marble_window_half",
-//            () -> new Window_HalfBlock(MARBLE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(MARBLE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 //    public static final RegistryObject<Block> POLISHED_PINK_MARBLE_WINDOW_HALF = registerBlock("polished_pink_marble_window_half",
-//            () -> new Window_HalfBlock(MARBLE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(MARBLE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 //    public static final RegistryObject<Block> POLISHED_RED_MARBLE_WINDOW_HALF = registerBlock("polished_red_marble_window_half",
-//            () -> new Window_HalfBlock(MARBLE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(MARBLE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 //    public static final RegistryObject<Block> POLISHED_WHITE_MARBLE_WINDOW_HALF = registerBlock("polished_white_marble_window_half",
-//            () -> new Window_HalfBlock(MARBLE_PROPERTIES), CreativeTabs.CALIBER_TAB);
+//            () -> new HalfWindowBlock(MARBLE_PROPERTIES), CreativeTabs.CALIBER_TAB);
 
 
     // -- SANDSTONE

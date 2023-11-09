@@ -148,6 +148,28 @@ public class ModBlockStateProvider extends BlockStateProvider {
         wallBlock((WallBlock) ModBlocks.PINK_LIMESTONE_BRICK_WALL.get(), blockTexture(ModBlocks.PINK_LIMESTONE_BRICKS.get()));
         wallBlock((WallBlock) ModBlocks.TAN_LIMESTONE_BRICK_WALL.get(), blockTexture(ModBlocks.TAN_LIMESTONE_BRICKS.get()));
 
+        simpleBlock(ModBlocks.MOSSY_DARK_LIMESTONE_BRICKS.get());
+        simpleBlock(ModBlocks.MOSSY_LIGHT_LIMESTONE_BRICKS.get());
+        simpleBlock(ModBlocks.MOSSY_PINK_LIMESTONE_BRICKS.get());
+        simpleBlock(ModBlocks.MOSSY_TAN_LIMESTONE_BRICKS.get());
+        slabBlock((SlabBlock) ModBlocks.MOSSY_DARK_LIMESTONE_BRICK_SLAB.get(), blockTexture(ModBlocks.MOSSY_DARK_LIMESTONE_BRICKS.get()),
+                blockTexture(ModBlocks.MOSSY_DARK_LIMESTONE_BRICKS.get()));
+        slabBlock((SlabBlock) ModBlocks.MOSSY_LIGHT_LIMESTONE_BRICK_SLAB.get(), blockTexture(ModBlocks.MOSSY_LIGHT_LIMESTONE_BRICKS.get()),
+                blockTexture(ModBlocks.MOSSY_LIGHT_LIMESTONE_BRICKS.get()));
+        slabBlock((SlabBlock) ModBlocks.MOSSY_PINK_LIMESTONE_BRICK_SLAB.get(), blockTexture(ModBlocks.MOSSY_PINK_LIMESTONE_BRICKS.get()),
+                blockTexture(ModBlocks.MOSSY_PINK_LIMESTONE_BRICKS.get()));
+        slabBlock((SlabBlock) ModBlocks.MOSSY_TAN_LIMESTONE_BRICK_SLAB.get(), blockTexture(ModBlocks.MOSSY_TAN_LIMESTONE_BRICKS.get()),
+                blockTexture(ModBlocks.MOSSY_TAN_LIMESTONE_BRICKS.get()));
+        stairsBlock((StairBlock) ModBlocks.MOSSY_DARK_LIMESTONE_BRICK_STAIRS.get(), blockTexture(ModBlocks.MOSSY_DARK_LIMESTONE_BRICKS.get()));
+        stairsBlock((StairBlock) ModBlocks.MOSSY_LIGHT_LIMESTONE_BRICK_STAIRS.get(), blockTexture(ModBlocks.MOSSY_LIGHT_LIMESTONE_BRICKS.get()));
+        stairsBlock((StairBlock) ModBlocks.MOSSY_PINK_LIMESTONE_BRICK_STAIRS.get(), blockTexture(ModBlocks.MOSSY_PINK_LIMESTONE_BRICKS.get()));
+        stairsBlock((StairBlock) ModBlocks.MOSSY_TAN_LIMESTONE_BRICK_STAIRS.get(), blockTexture(ModBlocks.MOSSY_TAN_LIMESTONE_BRICKS.get()));
+        wallBlock((WallBlock) ModBlocks.MOSSY_DARK_LIMESTONE_BRICK_WALL.get(), blockTexture(ModBlocks.MOSSY_DARK_LIMESTONE_BRICKS.get()));
+        wallBlock((WallBlock) ModBlocks.MOSSY_LIGHT_LIMESTONE_BRICK_WALL.get(), blockTexture(ModBlocks.MOSSY_LIGHT_LIMESTONE_BRICKS.get()));
+        wallBlock((WallBlock) ModBlocks.MOSSY_PINK_LIMESTONE_BRICK_WALL.get(), blockTexture(ModBlocks.MOSSY_PINK_LIMESTONE_BRICKS.get()));
+        wallBlock((WallBlock) ModBlocks.MOSSY_TAN_LIMESTONE_BRICK_WALL.get(), blockTexture(ModBlocks.MOSSY_TAN_LIMESTONE_BRICKS.get()));
+
+
         simpleBlock(ModBlocks.CRACKED_DARK_LIMESTONE_BRICKS.get());
         simpleBlock(ModBlocks.CRACKED_LIGHT_LIMESTONE_BRICKS.get());
         simpleBlock(ModBlocks.CRACKED_PINK_LIMESTONE_BRICKS.get());

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "caliber:block/mossy_light_limestone_brick_capital"
+    },
+    "type=top": {
+      "model": "caliber:block/mossy_light_limestone_brick_capital_top"
+    }
+  }
+}
