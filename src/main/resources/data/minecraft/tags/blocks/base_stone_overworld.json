@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "caliber:dark_limestone",
+    "caliber:light_limestone",
+    "caliber:pink_limestone",
+    "caliber:tan_limestone",
+    "caliber:black_granite",
+    "caliber:brown_granite",
+    "caliber:gray_granite",
+    "caliber:pink_granite",
+    "caliber:white_granite",
+    "caliber:black_marble",
+    "caliber:gray_marble",
+    "caliber:pink_marble",
+    "caliber:red_marble",
+    "caliber:white_marble"
+    ]
+}

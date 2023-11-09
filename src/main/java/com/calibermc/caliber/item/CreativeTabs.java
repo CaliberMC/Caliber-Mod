@@ -5,11 +5,14 @@ import com.calibermc.caliber.data.ModBlockFamilies;
 import com.calibermc.caliber.block.ModBlocks;
 import com.calibermc.caliber.config.CaliberClientConfigs;
 
+import com.calibermc.caliber.util.ModTags;
 import com.google.common.collect.Lists;
 import net.minecraft.core.NonNullList;
+import net.minecraft.core.Registry;
 import net.minecraft.data.BlockFamilies;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.TagKey;
 import net.minecraft.util.datafix.fixes.EntityPaintingItemFrameDirectionFix;
 import net.minecraft.world.entity.decoration.Painting;
 import net.minecraft.world.item.*;
@@ -24,6 +27,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
 import java.util.function.Supplier;
+
 
 public class CreativeTabs {
     public static CreativeModeTab[] TABS;
@@ -55,40 +59,6 @@ public class CreativeTabs {
         for (CreativeModeTab mainTab : MAIN_TABS) {
             CreativeTabs.addGroupSafe(mainTab.getId(), mainTab);
         }
-        new ModifiedTab("stone", () -> new ItemStack(Blocks.STONE)) {
-            @Override
-            public boolean keyIsCorrect(Item item, ResourceLocation key) {
-                boolean b = ModBlockFamilies.getAllFamilies().anyMatch(p -> p.getBaseBlock() == Block.byItem(item));
-
-                if ((key.getPath().equals("black_granite")
-                        || key.getPath().equals("brown_granite")
-                        || key.getPath().equals("gray_granite")
-                        || key.getPath().equals("pink_granite")
-                        || key.getPath().equals("granite")
-                        || key.getPath().equals("white_granite")
-
-                        || key.getPath().equals("dark_limestone")
-                        || key.getPath().equals("light_limestone")
-                        || key.getPath().equals("stone")
-                        || key.getPath().equals("pink_limestone")
-                        || key.getPath().equals("tan_limestone")
-
-                        || key.getPath().equals("black_marble")
-                        || key.getPath().equals("gray_marble")
-                        || key.getPath().equals("pink_marble")
-                        || key.getPath().equals("red_marble")
-                        || key.getPath().equals("white_marble")
-
-                        || key.getPath().equals("brown_sandstone")
-                        || key.getPath().equals("orange_sandstone")
-                        || key.getPath().equals("red_sandstone")
-                        || key.getPath().equals("sandstone")
-                )) {
-                    return b;
-                }
-                return false;
-            }
-        };
         new ModifiedTab("cobble_brick", () -> new ItemStack(ModBlocks.COBBLED_DARK_LIMESTONE.get())) {
 
             @Override
@@ -96,10 +66,13 @@ public class CreativeTabs {
                 boolean b = ModBlockFamilies.getAllFamilies().anyMatch(p -> p.getBaseBlock() == Block.byItem(item));
 
                 if ((key.getPath().startsWith("cobbled")
+                        || key.getPath().contains("cobblestone")
                         || key.getPath().contains("brick")
-                        || key.getPath().contains("cut")
-                        || key.getPath().contains("chiseled")
-                        || key.getPath().contains("smooth")
+                        || key.getPath().startsWith("cut")
+                        || key.getPath().startsWith("chiseled")
+                        || key.getPath().startsWith("smooth")
+                        || key.getPath().startsWith("polished")
+
                 )) {
                     return b;
                 }
@@ -156,6 +129,69 @@ public class CreativeTabs {
                         ;
             }
         };
+        new ModifiedTab("crafting", () -> new ItemStack(Items.CRAFTING_TABLE)) {
+            @Override
+            public void fillItemList(NonNullList<ItemStack> pItems) {
+                for(Item item : ModifiedTab.getItems()) {
+                    if (Block.byItem(item) instanceof CraftingTableBlock
+                            || Block.byItem(item) instanceof FurnaceBlock
+                            || Block.byItem(item) instanceof BarrelBlock
+                            || Block.byItem(item) instanceof LecternBlock
+                            || Block.byItem(item) instanceof CartographyTableBlock
+                            || Block.byItem(item) instanceof ComposterBlock
+                            || Block.byItem(item) instanceof FletchingTableBlock
+                            || Block.byItem(item) instanceof SmithingTableBlock
+                            || Block.byItem(item) instanceof LoomBlock
+                            || Block.byItem(item) instanceof GrindstoneBlock
+                            || Block.byItem(item) instanceof BlastFurnaceBlock
+                            || Block.byItem(item) instanceof SmokerBlock
+                            || Block.byItem(item) instanceof StonecutterBlock
+                            || Block.byItem(item) instanceof AnvilBlock
+                            || Block.byItem(item) instanceof EnchantmentTableBlock
+                            || Block.byItem(item) instanceof BrewingStandBlock
+                            || Block.byItem(item) instanceof CauldronBlock
+                            || Block.byItem(item) instanceof BeehiveBlock
+                            || Block.byItem(item) instanceof BellBlock)
+                    {
+                        pItems.add(new ItemStack(item));
+                    }
+                }
+            }
+        };
+        new ModifiedTab("stone", () -> new ItemStack(Blocks.STONE)) {
+            @Override
+            public boolean keyIsCorrect(Item item, ResourceLocation key) {
+                boolean b = ModBlockFamilies.getAllFamilies().anyMatch(p -> p.getBaseBlock() == Block.byItem(item));
+
+                if ((key.getPath().equals("black_granite")
+                        || key.getPath().equals("brown_granite")
+                        || key.getPath().equals("gray_granite")
+                        || key.getPath().equals("pink_granite")
+                        || key.getPath().equals("granite")
+                        || key.getPath().equals("white_granite")
+
+                        || key.getPath().equals("dark_limestone")
+                        || key.getPath().equals("light_limestone")
+                        || key.getPath().equals("stone")
+                        || key.getPath().equals("pink_limestone")
+                        || key.getPath().equals("tan_limestone")
+
+                        || key.getPath().equals("black_marble")
+                        || key.getPath().equals("gray_marble")
+                        || key.getPath().equals("pink_marble")
+                        || key.getPath().equals("red_marble")
+                        || key.getPath().equals("white_marble")
+
+                        || key.getPath().equals("brown_sandstone")
+                        || key.getPath().equals("orange_sandstone")
+                        || key.getPath().equals("red_sandstone")
+                        || key.getPath().equals("sandstone")
+                )) {
+                    return b;
+                }
+                return false;
+            }
+        };
         new ModifiedTab("sand_gravel", () -> new ItemStack(Blocks.SAND)) {
 
             @Override
@@ -196,6 +232,20 @@ public class CreativeTabs {
                 return Block.byItem(item) instanceof LeavesBlock;
             }
         };
+        new ModifiedTab("flowers", () -> new ItemStack(Blocks.AZURE_BLUET)) {
+
+            @Override
+            public boolean keyIsCorrect(Item item, ResourceLocation key) {
+                return Block.byItem(item) instanceof FlowerBlock;
+            }
+        };
+        new ModifiedTab("crops", () -> new ItemStack(Blocks.WHEAT)) {
+
+            @Override
+            public boolean keyIsCorrect(Item item, ResourceLocation key) {
+                return Block.byItem(item) instanceof CropBlock;
+            }
+        };
         new ModifiedTab("decor", () -> new ItemStack(Blocks.BLUE_BANNER)) {
             @Override
             public void fillItemList(NonNullList<ItemStack> pItems) {
@@ -229,14 +279,6 @@ public class CreativeTabs {
 
 
         };
-        new ModifiedTab("food", () -> new ItemStack(Items.APPLE)) {
-            @Override
-            public void fillItemList(NonNullList<ItemStack> pItems) {
-                for(Item item : ModifiedTab.getItems()) {
-                    item.fillItemCategory(TAB_FOOD, pItems);
-                }
-            }
-        };
         new ModifiedTab("storage", () -> new ItemStack(Blocks.CHEST)) {
             @Override
             public boolean keyIsCorrect(Item item, ResourceLocation key) {
@@ -258,46 +300,11 @@ public class CreativeTabs {
                 }
             }
         };
-        new ModifiedTab("flowers", () -> new ItemStack(Blocks.AZURE_BLUET)) {
-
-            @Override
-            public boolean keyIsCorrect(Item item, ResourceLocation key) {
-                return Block.byItem(item) instanceof FlowerBlock;
-            }
-        };
-        new ModifiedTab("crops", () -> new ItemStack(Blocks.WHEAT)) {
-
-            @Override
-            public boolean keyIsCorrect(Item item, ResourceLocation key) {
-                return Block.byItem(item) instanceof CropBlock;
-            }
-        };
-        new ModifiedTab("crafting", () -> new ItemStack(Items.CRAFTING_TABLE)) {
+        new ModifiedTab("food", () -> new ItemStack(Items.APPLE)) {
             @Override
             public void fillItemList(NonNullList<ItemStack> pItems) {
                 for(Item item : ModifiedTab.getItems()) {
-                    if (Block.byItem(item) instanceof CraftingTableBlock
-                            || Block.byItem(item) instanceof FurnaceBlock
-                            || Block.byItem(item) instanceof BarrelBlock
-                            || Block.byItem(item) instanceof LecternBlock
-                            || Block.byItem(item) instanceof CartographyTableBlock
-                            || Block.byItem(item) instanceof ComposterBlock
-                            || Block.byItem(item) instanceof FletchingTableBlock
-                            || Block.byItem(item) instanceof SmithingTableBlock
-                            || Block.byItem(item) instanceof LoomBlock
-                            || Block.byItem(item) instanceof GrindstoneBlock
-                            || Block.byItem(item) instanceof BlastFurnaceBlock
-                            || Block.byItem(item) instanceof SmokerBlock
-                            || Block.byItem(item) instanceof StonecutterBlock
-                            || Block.byItem(item) instanceof AnvilBlock
-                            || Block.byItem(item) instanceof EnchantmentTableBlock
-                            || Block.byItem(item) instanceof BrewingStandBlock
-                            || Block.byItem(item) instanceof CauldronBlock
-                            || Block.byItem(item) instanceof BeehiveBlock
-                            || Block.byItem(item) instanceof BellBlock)
-                    {
-                        pItems.add(new ItemStack(item));
-                    }
+                    item.fillItemCategory(TAB_FOOD, pItems);
                 }
             }
         };
@@ -405,11 +412,54 @@ public class CreativeTabs {
             return true;
         }
 
+        public boolean tabTag(TagKey tag) {
+            return tag.equals(ModTags.Items.armorTab)
+                    || tag.equals(ModTags.Items.brewingTab)
+                    || tag.equals(ModTags.Items.cobbleBricksTab)
+                    || tag.equals(ModTags.Items.craftingTab)
+                    || tag.equals(ModTags.Items.cropsTab)
+                    || tag.equals(ModTags.Items.decorTab)
+                    || tag.equals(ModTags.Items.flowersTab)
+                    || tag.equals(ModTags.Items.foodTab)
+                    || tag.equals(ModTags.Items.furnitureTab)
+                    || tag.equals(ModTags.Items.glassWindowsTab)
+                    || tag.equals(ModTags.Items.grassDirtTab)
+                    || tag.equals(ModTags.Items.halfTimberedWallTab)
+                    || tag.equals(ModTags.Items.leavesTab)
+                    || tag.equals(ModTags.Items.lightingTab)
+                    || tag.equals(ModTags.Items.logsTab)
+                    || tag.equals(ModTags.Items.metalsOresTab)
+                    || tag.equals(ModTags.Items.miscTab)
+                    || tag.equals(ModTags.Items.planksBeamsTab)
+                    || tag.equals(ModTags.Items.plasterStuccoTab)
+                    || tag.equals(ModTags.Items.redstoneTab)
+                    || tag.equals(ModTags.Items.sandGravelTab)
+                    || tag.equals(ModTags.Items.stoneTab)
+                    || tag.equals(ModTags.Items.storageTab)
+                    || tag.equals(ModTags.Items.tilesFlooringTab)
+                    || tag.equals(ModTags.Items.toolsWeaponsTab);
+
+        }
+
+
+        // Orignal
+//        @Override
+//        public void fillItemList(NonNullList<ItemStack> pItems) {
+//            for(Item item : ModifiedTab.getItems()) {
+//                ResourceLocation key = ForgeRegistries.ITEMS.getKey(item);
+//                if (key != null && keyIsCorrect(item, key)) {
+//                    pItems.add(new ItemStack(item));
+//                }
+//            }
+//        }
+
+        // via Tags
         @Override
         public void fillItemList(NonNullList<ItemStack> pItems) {
             for(Item item : ModifiedTab.getItems()) {
+                ModTags tag = ForgeRegistries.ITEMS.getKey(item).getNamespace().equals("caliber") ? ModTags.Items.class;
                 ResourceLocation key = ForgeRegistries.ITEMS.getKey(item);
-                if (key != null && keyIsCorrect(item, key)) {
+                if (key != null && tabTag(tag)) {
                     pItems.add(new ItemStack(item));
                 }
             }
