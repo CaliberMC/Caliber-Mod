@@ -443,28 +443,29 @@ public class CreativeTabs {
 
 
         // Orignal
-//        @Override
-//        public void fillItemList(NonNullList<ItemStack> pItems) {
-//            for(Item item : ModifiedTab.getItems()) {
-//                ResourceLocation key = ForgeRegistries.ITEMS.getKey(item);
-//                if (key != null && keyIsCorrect(item, key)) {
-//                    pItems.add(new ItemStack(item));
-//                }
-//            }
-//        }
-
-        // via Tags
         @Override
         public void fillItemList(NonNullList<ItemStack> pItems) {
             for(Item item : ModifiedTab.getItems()) {
-                ModTags tag = ForgeRegistries.ITEMS.getKey(item).getNamespace().equals("caliber") ? ModTags.Items.class;
                 ResourceLocation key = ForgeRegistries.ITEMS.getKey(item);
-                if (key != null && tabTag(tag)) {
+                if (key != null && keyIsCorrect(item, key)) {
                     pItems.add(new ItemStack(item));
                 }
             }
         }
 
+        // via Tags
+//        @Override
+//        public void fillItemList(NonNullList<ItemStack> pItems) {
+//            for(Item item : ModifiedTab.getItems()) {
+//                ModTags tag = ForgeRegistries.ITEMS.getKey(item).getNamespace().equals("caliber") ? ModTags.Items.class;
+//                ResourceLocation key = ForgeRegistries.ITEMS.getKey(item);
+//                if (key != null && tabTag(tag)) {
+//                    pItems.add(new ItemStack(item));
+//                }
+//            }
+//        }
+
+            // Sorted or Not Sorted via Config
 //        private static List<Item> getItems() {
 //            boolean shouldSort = CaliberClientConfigs.SORT_CREATIVE_INVENTORY.get();
 ////            boolean shouldSort = false;
