@@ -1225,247 +1225,247 @@ public class ModRecipeProvider2 extends RecipeProvider implements IConditionBuil
         
         /* CUT SANDSTONE BLOCKS */
         /* Cut Sandstone Arches */
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BROWN_SANDSTONE.get()), ModBlocks.CUT_BROWN_SANDSTONE_ARCH.get(), 2).unlockedBy("has_brown_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_brown_sandstone_arch_from_brown_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.ORANGE_SANDSTONE.get()), ModBlocks.CUT_ORANGE_SANDSTONE_ARCH.get(), 2).unlockedBy("has_orange_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_orange_sandstone_arch_from_orange_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.RED_SANDSTONE), ModBlocks.CUT_RED_SANDSTONE_ARCH.get(), 2).unlockedBy("has_red_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_red_sandstone_arch_from_red_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SANDSTONE), ModBlocks.CUT_SANDSTONE_ARCH.get(), 2).unlockedBy("has_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_sandstone_arch_from_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BROWN_SANDSTONE.get()), ModBlocks.CUT_BROWN_SANDSTONE_ARCH.get(), 2).unlockedBy("has_brown_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_brown_sandstone_arch_from_brown_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.ORANGE_SANDSTONE.get()), ModBlocks.CUT_ORANGE_SANDSTONE_ARCH.get(), 2).unlockedBy("has_orange_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_orange_sandstone_arch_from_orange_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.RED_SANDSTONE), ModBlocks.CUT_RED_SANDSTONE_ARCH.get(), 2).unlockedBy("has_red_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_red_sandstone_arch_from_red_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SANDSTONE), ModBlocks.CUT_SANDSTONE_ARCH.get(), 2).unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_sandstone_arch_from_sandstone_stonecutting");
 
         /* Cut Sandstone Arrowslits */
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BROWN_SANDSTONE.get()), ModBlocks.CUT_BROWN_SANDSTONE_ARROWSLIT.get(), 2).unlockedBy("has_brown_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_brown_sandstone_arrowslit_from_brown_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.ORANGE_SANDSTONE.get()), ModBlocks.CUT_ORANGE_SANDSTONE_ARROWSLIT.get(), 2).unlockedBy("has_orange_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_orange_sandstone_arrowslit_from_orange_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.RED_SANDSTONE), ModBlocks.CUT_RED_SANDSTONE_ARROWSLIT.get(), 2).unlockedBy("has_red_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_red_sandstone_arrowslit_from_red_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SANDSTONE), ModBlocks.CUT_SANDSTONE_ARROWSLIT.get(), 2).unlockedBy("has_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_sandstone_arrowslit_from_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BROWN_SANDSTONE.get()), ModBlocks.CUT_BROWN_SANDSTONE_ARROWSLIT.get(), 2).unlockedBy("has_brown_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_brown_sandstone_arrowslit_from_brown_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.ORANGE_SANDSTONE.get()), ModBlocks.CUT_ORANGE_SANDSTONE_ARROWSLIT.get(), 2).unlockedBy("has_orange_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_orange_sandstone_arrowslit_from_orange_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.RED_SANDSTONE), ModBlocks.CUT_RED_SANDSTONE_ARROWSLIT.get(), 2).unlockedBy("has_red_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_red_sandstone_arrowslit_from_red_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SANDSTONE), ModBlocks.CUT_SANDSTONE_ARROWSLIT.get(), 2).unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_sandstone_arrowslit_from_sandstone_stonecutting");
 
         /* Cut Sandstone Balustrades */
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_BROWN_SANDSTONE.get()), ModBlocks.CUT_BROWN_SANDSTONE_BALUSTRADE.get(), 2).unlockedBy("has_brown_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_brown_sandstone_balustrade_from_cut_brown_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_ORANGE_SANDSTONE.get()), ModBlocks.CUT_ORANGE_SANDSTONE_BALUSTRADE.get(), 2).unlockedBy("has_orange_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_orange_sandstone_balustrade_from_cut_orange_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_RED_SANDSTONE), ModBlocks.CUT_RED_SANDSTONE_BALUSTRADE.get(), 2).unlockedBy("has_red_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_red_sandstone_balustrade_from_cut_red_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_SANDSTONE), ModBlocks.CUT_SANDSTONE_BALUSTRADE.get(), 2).unlockedBy("has_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_sandstone_balustrade_from_cut_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_BROWN_SANDSTONE.get()), ModBlocks.CUT_BROWN_SANDSTONE_BALUSTRADE.get(), 2).unlockedBy("has_brown_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_brown_sandstone_balustrade_from_cut_brown_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_ORANGE_SANDSTONE.get()), ModBlocks.CUT_ORANGE_SANDSTONE_BALUSTRADE.get(), 2).unlockedBy("has_orange_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_orange_sandstone_balustrade_from_cut_orange_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_RED_SANDSTONE), ModBlocks.CUT_RED_SANDSTONE_BALUSTRADE.get(), 2).unlockedBy("has_red_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_red_sandstone_balustrade_from_cut_red_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_SANDSTONE), ModBlocks.CUT_SANDSTONE_BALUSTRADE.get(), 2).unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_sandstone_balustrade_from_cut_sandstone_stonecutting");
 
         /* Cut Sandstone Capitals */
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_BROWN_SANDSTONE.get()), ModBlocks.CUT_BROWN_SANDSTONE_CAPITAL.get(), 2).unlockedBy("has_brown_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_brown_sandstone_capital_from_cut_brown_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_ORANGE_SANDSTONE.get()), ModBlocks.CUT_ORANGE_SANDSTONE_CAPITAL.get(), 2).unlockedBy("has_orange_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_orange_sandstone_capital_from_cut_orange_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_RED_SANDSTONE), ModBlocks.CUT_RED_SANDSTONE_CAPITAL.get(), 2).unlockedBy("has_red_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_red_sandstone_capital_from_cut_red_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_SANDSTONE), ModBlocks.CUT_SANDSTONE_CAPITAL.get(), 2).unlockedBy("has_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_sandstone_capital_from_cut_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_BROWN_SANDSTONE.get()), ModBlocks.CUT_BROWN_SANDSTONE_CAPITAL.get(), 2).unlockedBy("has_brown_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_brown_sandstone_capital_from_cut_brown_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_ORANGE_SANDSTONE.get()), ModBlocks.CUT_ORANGE_SANDSTONE_CAPITAL.get(), 2).unlockedBy("has_orange_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_orange_sandstone_capital_from_cut_orange_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_RED_SANDSTONE), ModBlocks.CUT_RED_SANDSTONE_CAPITAL.get(), 2).unlockedBy("has_red_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_red_sandstone_capital_from_cut_red_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_SANDSTONE), ModBlocks.CUT_SANDSTONE_CAPITAL.get(), 2).unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_sandstone_capital_from_cut_sandstone_stonecutting");
 
         /* Cut Sandstone Corners */
         // TODO: ADD SHAPED RECIPE FOR CORNERS
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_BROWN_SANDSTONE.get()), ModBlocks.CUT_BROWN_SANDSTONE_CORNER.get(), 2).unlockedBy("has_brown_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_brown_sandstone_corner_from_cut_brown_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_ORANGE_SANDSTONE.get()), ModBlocks.CUT_ORANGE_SANDSTONE_CORNER.get(), 2).unlockedBy("has_orange_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_orange_sandstone_corner_from_cut_orange_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_RED_SANDSTONE), ModBlocks.CUT_RED_SANDSTONE_CORNER.get(), 2).unlockedBy("has_red_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_red_sandstone_corner_from_cut_red_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_SANDSTONE), ModBlocks.CUT_SANDSTONE_CORNER.get(), 2).unlockedBy("has_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_sandstone_corner_from_cut_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_BROWN_SANDSTONE.get()), ModBlocks.CUT_BROWN_SANDSTONE_CORNER.get(), 2).unlockedBy("has_brown_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_brown_sandstone_corner_from_cut_brown_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_ORANGE_SANDSTONE.get()), ModBlocks.CUT_ORANGE_SANDSTONE_CORNER.get(), 2).unlockedBy("has_orange_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_orange_sandstone_corner_from_cut_orange_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_RED_SANDSTONE), ModBlocks.CUT_RED_SANDSTONE_CORNER.get(), 2).unlockedBy("has_red_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_red_sandstone_corner_from_cut_red_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_SANDSTONE), ModBlocks.CUT_SANDSTONE_CORNER.get(), 2).unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_sandstone_corner_from_cut_sandstone_stonecutting");
 
         /* Cut Sandstone Corner Slabs */
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_BROWN_SANDSTONE.get()), ModBlocks.CUT_BROWN_SANDSTONE_CORNER_SLAB.get(), 4).unlockedBy("has_brown_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_brown_sandstone_corner_slab_from_cut_brown_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_ORANGE_SANDSTONE.get()), ModBlocks.CUT_ORANGE_SANDSTONE_CORNER_SLAB.get(), 4).unlockedBy("has_orange_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_orange_sandstone_corner_slab_from_cut_orange_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_RED_SANDSTONE), ModBlocks.CUT_RED_SANDSTONE_CORNER_SLAB.get(), 4).unlockedBy("has_red_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_red_sandstone_corner_slab_from_cut_red_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_SANDSTONE), ModBlocks.CUT_SANDSTONE_CORNER_SLAB.get(), 4).unlockedBy("has_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_sandstone_corner_slab_from_cut_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_BROWN_SANDSTONE.get()), ModBlocks.CUT_BROWN_SANDSTONE_CORNER_SLAB.get(), 4).unlockedBy("has_brown_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_brown_sandstone_corner_slab_from_cut_brown_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_ORANGE_SANDSTONE.get()), ModBlocks.CUT_ORANGE_SANDSTONE_CORNER_SLAB.get(), 4).unlockedBy("has_orange_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_orange_sandstone_corner_slab_from_cut_orange_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_RED_SANDSTONE), ModBlocks.CUT_RED_SANDSTONE_CORNER_SLAB.get(), 4).unlockedBy("has_red_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_red_sandstone_corner_slab_from_cut_red_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_SANDSTONE), ModBlocks.CUT_SANDSTONE_CORNER_SLAB.get(), 4).unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_sandstone_corner_slab_from_cut_sandstone_stonecutting");
 
         /* Cut Sandstone Vertical Corner Slabs */
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_BROWN_SANDSTONE.get()), ModBlocks.CUT_BROWN_SANDSTONE_CORNER_SLAB_VERTICAL.get(), 4).unlockedBy("has_brown_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_brown_sandstone_corner_slab_vertical_from_cut_brown_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_ORANGE_SANDSTONE.get()), ModBlocks.CUT_ORANGE_SANDSTONE_CORNER_SLAB_VERTICAL.get(), 4).unlockedBy("has_orange_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_orange_sandstone_corner_slab_vertical_from_cut_orange_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_RED_SANDSTONE), ModBlocks.CUT_RED_SANDSTONE_CORNER_SLAB_VERTICAL.get(), 4).unlockedBy("has_red_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_red_sandstone_corner_slab_vertical_from_cut_red_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_SANDSTONE), ModBlocks.CUT_SANDSTONE_CORNER_SLAB_VERTICAL.get(), 4).unlockedBy("has_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_sandstone_corner_slab_vertical_from_cut_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_BROWN_SANDSTONE.get()), ModBlocks.CUT_BROWN_SANDSTONE_CORNER_SLAB_VERTICAL.get(), 4).unlockedBy("has_brown_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_brown_sandstone_corner_slab_vertical_from_cut_brown_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_ORANGE_SANDSTONE.get()), ModBlocks.CUT_ORANGE_SANDSTONE_CORNER_SLAB_VERTICAL.get(), 4).unlockedBy("has_orange_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_orange_sandstone_corner_slab_vertical_from_cut_orange_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_RED_SANDSTONE), ModBlocks.CUT_RED_SANDSTONE_CORNER_SLAB_VERTICAL.get(), 4).unlockedBy("has_red_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_red_sandstone_corner_slab_vertical_from_cut_red_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_SANDSTONE), ModBlocks.CUT_SANDSTONE_CORNER_SLAB_VERTICAL.get(), 4).unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_sandstone_corner_slab_vertical_from_cut_sandstone_stonecutting");
 
         /* Cut Sandstone Eighths */
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_BROWN_SANDSTONE.get()), ModBlocks.CUT_BROWN_SANDSTONE_EIGHTH.get(), 8).unlockedBy("has_brown_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_brown_sandstone_eighth_from_cut_brown_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_ORANGE_SANDSTONE.get()), ModBlocks.CUT_ORANGE_SANDSTONE_EIGHTH.get(), 8).unlockedBy("has_orange_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_orange_sandstone_eighth_from_cut_orange_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_RED_SANDSTONE), ModBlocks.CUT_RED_SANDSTONE_EIGHTH.get(), 8).unlockedBy("has_red_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_red_sandstone_eighth_from_cut_red_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_SANDSTONE), ModBlocks.CUT_SANDSTONE_EIGHTH.get(), 8).unlockedBy("has_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_sandstone_eighth_from_cut_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_BROWN_SANDSTONE.get()), ModBlocks.CUT_BROWN_SANDSTONE_EIGHTH.get(), 8).unlockedBy("has_brown_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_brown_sandstone_eighth_from_cut_brown_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_ORANGE_SANDSTONE.get()), ModBlocks.CUT_ORANGE_SANDSTONE_EIGHTH.get(), 8).unlockedBy("has_orange_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_orange_sandstone_eighth_from_cut_orange_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_RED_SANDSTONE), ModBlocks.CUT_RED_SANDSTONE_EIGHTH.get(), 8).unlockedBy("has_red_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_red_sandstone_eighth_from_cut_red_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_SANDSTONE), ModBlocks.CUT_SANDSTONE_EIGHTH.get(), 8).unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_sandstone_eighth_from_cut_sandstone_stonecutting");
 
         /* Cut Sandstone Quarters */
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_BROWN_SANDSTONE.get()), ModBlocks.CUT_BROWN_SANDSTONE_QUARTER.get(), 4).unlockedBy("has_brown_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_brown_sandstone_quarter_from_cut_brown_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_ORANGE_SANDSTONE.get()), ModBlocks.CUT_ORANGE_SANDSTONE_QUARTER.get(), 4).unlockedBy("has_orange_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_orange_sandstone_quarter_from_cut_orange_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_RED_SANDSTONE), ModBlocks.CUT_RED_SANDSTONE_QUARTER.get(), 4).unlockedBy("has_red_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_red_sandstone_quarter_from_cut_red_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_SANDSTONE), ModBlocks.CUT_SANDSTONE_QUARTER.get(), 4).unlockedBy("has_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_sandstone_quarter_from_cut_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_BROWN_SANDSTONE.get()), ModBlocks.CUT_BROWN_SANDSTONE_QUARTER.get(), 4).unlockedBy("has_brown_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_brown_sandstone_quarter_from_cut_brown_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_ORANGE_SANDSTONE.get()), ModBlocks.CUT_ORANGE_SANDSTONE_QUARTER.get(), 4).unlockedBy("has_orange_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_orange_sandstone_quarter_from_cut_orange_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_RED_SANDSTONE), ModBlocks.CUT_RED_SANDSTONE_QUARTER.get(), 4).unlockedBy("has_red_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_red_sandstone_quarter_from_cut_red_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_SANDSTONE), ModBlocks.CUT_SANDSTONE_QUARTER.get(), 4).unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_sandstone_quarter_from_cut_sandstone_stonecutting");
 
         /* Cut Sandstone Vertical Quarters */
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_BROWN_SANDSTONE.get()), ModBlocks.CUT_BROWN_SANDSTONE_QUARTER_VERTICAL.get(), 4).unlockedBy("has_brown_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_brown_sandstone_quarter_vertical_from_cut_brown_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_ORANGE_SANDSTONE.get()), ModBlocks.CUT_ORANGE_SANDSTONE_QUARTER_VERTICAL.get(), 4).unlockedBy("has_orange_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_orange_sandstone_quarter_vertical_from_cut_orange_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_RED_SANDSTONE), ModBlocks.CUT_RED_SANDSTONE_QUARTER_VERTICAL.get(), 4).unlockedBy("has_red_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_red_sandstone_quarter_vertical_from_cut_red_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_SANDSTONE), ModBlocks.CUT_SANDSTONE_QUARTER_VERTICAL.get(), 4).unlockedBy("has_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_sandstone_quarter_vertical_from_cut_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_BROWN_SANDSTONE.get()), ModBlocks.CUT_BROWN_SANDSTONE_QUARTER_VERTICAL.get(), 4).unlockedBy("has_brown_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_brown_sandstone_quarter_vertical_from_cut_brown_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_ORANGE_SANDSTONE.get()), ModBlocks.CUT_ORANGE_SANDSTONE_QUARTER_VERTICAL.get(), 4).unlockedBy("has_orange_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_orange_sandstone_quarter_vertical_from_cut_orange_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_RED_SANDSTONE), ModBlocks.CUT_RED_SANDSTONE_QUARTER_VERTICAL.get(), 4).unlockedBy("has_red_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_red_sandstone_quarter_vertical_from_cut_red_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_SANDSTONE), ModBlocks.CUT_SANDSTONE_QUARTER_VERTICAL.get(), 4).unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_sandstone_quarter_vertical_from_cut_sandstone_stonecutting");
 
         /* Cut Sandstone Windows */
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_BROWN_SANDSTONE.get()), ModBlocks.CUT_BROWN_SANDSTONE_WINDOW.get(), 2).unlockedBy("has_brown_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_brown_sandstone_window_from_cut_brown_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_ORANGE_SANDSTONE.get()), ModBlocks.CUT_ORANGE_SANDSTONE_WINDOW.get(), 2).unlockedBy("has_orange_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_orange_sandstone_window_from_cut_orange_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_RED_SANDSTONE), ModBlocks.CUT_RED_SANDSTONE_WINDOW.get(), 2).unlockedBy("has_red_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_red_sandstone_window_from_cut_red_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_SANDSTONE), ModBlocks.CUT_SANDSTONE_WINDOW.get(), 2).unlockedBy("has_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_sandstone_window_from_cut_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_BROWN_SANDSTONE.get()), ModBlocks.CUT_BROWN_SANDSTONE_WINDOW.get(), 2).unlockedBy("has_brown_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_brown_sandstone_window_from_cut_brown_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_ORANGE_SANDSTONE.get()), ModBlocks.CUT_ORANGE_SANDSTONE_WINDOW.get(), 2).unlockedBy("has_orange_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_orange_sandstone_window_from_cut_orange_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_RED_SANDSTONE), ModBlocks.CUT_RED_SANDSTONE_WINDOW.get(), 2).unlockedBy("has_red_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_red_sandstone_window_from_cut_red_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_SANDSTONE), ModBlocks.CUT_SANDSTONE_WINDOW.get(), 2).unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_sandstone_window_from_cut_sandstone_stonecutting");
         
         /* Cut Sandstone Half Windows */
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_BROWN_SANDSTONE.get()), ModBlocks.CUT_BROWN_SANDSTONE_WINDOW_HALF.get(), 2).unlockedBy("has_brown_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_brown_sandstone_window_half_from_cut_brown_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_ORANGE_SANDSTONE.get()), ModBlocks.CUT_ORANGE_SANDSTONE_WINDOW_HALF.get(), 2).unlockedBy("has_orange_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_orange_sandstone_window_half_from_cut_orange_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_RED_SANDSTONE), ModBlocks.CUT_RED_SANDSTONE_WINDOW_HALF.get(), 2).unlockedBy("has_red_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_red_sandstone_window_half_from_cut_red_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_SANDSTONE), ModBlocks.CUT_SANDSTONE_WINDOW_HALF.get(), 2).unlockedBy("has_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_sandstone_window_half_from_cut_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_BROWN_SANDSTONE.get()), ModBlocks.CUT_BROWN_SANDSTONE_WINDOW_HALF.get(), 2).unlockedBy("has_brown_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_brown_sandstone_window_half_from_cut_brown_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_ORANGE_SANDSTONE.get()), ModBlocks.CUT_ORANGE_SANDSTONE_WINDOW_HALF.get(), 2).unlockedBy("has_orange_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.CUT_ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_orange_sandstone_window_half_from_cut_orange_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_RED_SANDSTONE), ModBlocks.CUT_RED_SANDSTONE_WINDOW_HALF.get(), 2).unlockedBy("has_red_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_red_sandstone_window_half_from_cut_red_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_SANDSTONE), ModBlocks.CUT_SANDSTONE_WINDOW_HALF.get(), 2).unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.CUT_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_sandstone_window_half_from_cut_sandstone_stonecutting");
 
         /* SMOOTH SANDSTONE BLOCKS */
         /* Smooth Sandstone Arches */
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_BROWN_SANDSTONE.get()), ModBlocks.SMOOTH_BROWN_SANDSTONE_ARCH.get(), 2).unlockedBy("has_brown_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_brown_sandstone_arch_from_smooth_brown_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_ORANGE_SANDSTONE.get()), ModBlocks.SMOOTH_ORANGE_SANDSTONE_ARCH.get(), 2).unlockedBy("has_orange_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_orange_sandstone_arch_from_smooth_orange_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_RED_SANDSTONE), ModBlocks.SMOOTH_RED_SANDSTONE_ARCH.get(), 2).unlockedBy("has_red_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_red_sandstone_arch_from_smooth_red_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_SANDSTONE), ModBlocks.SMOOTH_SANDSTONE_ARCH.get(), 2).unlockedBy("has_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_sandstone_arch_from_smooth_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_BROWN_SANDSTONE.get()), ModBlocks.SMOOTH_BROWN_SANDSTONE_ARCH.get(), 2).unlockedBy("has_brown_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_brown_sandstone_arch_from_smooth_brown_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_ORANGE_SANDSTONE.get()), ModBlocks.SMOOTH_ORANGE_SANDSTONE_ARCH.get(), 2).unlockedBy("has_orange_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_orange_sandstone_arch_from_smooth_orange_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_RED_SANDSTONE), ModBlocks.SMOOTH_RED_SANDSTONE_ARCH.get(), 2).unlockedBy("has_red_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_red_sandstone_arch_from_smooth_red_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_SANDSTONE), ModBlocks.SMOOTH_SANDSTONE_ARCH.get(), 2).unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_sandstone_arch_from_smooth_sandstone_stonecutting");
 
         /* Smooth Sandstone Arrowslits */
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_BROWN_SANDSTONE.get()), ModBlocks.SMOOTH_BROWN_SANDSTONE_ARROWSLIT.get(), 2).unlockedBy("has_brown_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_brown_sandstone_arrowslit_from_smooth_brown_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_ORANGE_SANDSTONE.get()), ModBlocks.SMOOTH_ORANGE_SANDSTONE_ARROWSLIT.get(), 2).unlockedBy("has_orange_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_orange_sandstone_arrowslit_from_smooth_orange_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_RED_SANDSTONE), ModBlocks.SMOOTH_RED_SANDSTONE_ARROWSLIT.get(), 2).unlockedBy("has_red_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_red_sandstone_arrowslit_from_smooth_red_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_SANDSTONE), ModBlocks.SMOOTH_SANDSTONE_ARROWSLIT.get(), 2).unlockedBy("has_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_sandstone_arrowslit_from_smooth_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_BROWN_SANDSTONE.get()), ModBlocks.SMOOTH_BROWN_SANDSTONE_ARROWSLIT.get(), 2).unlockedBy("has_brown_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_brown_sandstone_arrowslit_from_smooth_brown_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_ORANGE_SANDSTONE.get()), ModBlocks.SMOOTH_ORANGE_SANDSTONE_ARROWSLIT.get(), 2).unlockedBy("has_orange_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_orange_sandstone_arrowslit_from_smooth_orange_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_RED_SANDSTONE), ModBlocks.SMOOTH_RED_SANDSTONE_ARROWSLIT.get(), 2).unlockedBy("has_red_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_red_sandstone_arrowslit_from_smooth_red_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_SANDSTONE), ModBlocks.SMOOTH_SANDSTONE_ARROWSLIT.get(), 2).unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_sandstone_arrowslit_from_smooth_sandstone_stonecutting");
 
         /* Smooth Sandstone Balustrades */
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_BROWN_SANDSTONE.get()), ModBlocks.SMOOTH_BROWN_SANDSTONE_BALUSTRADE.get(), 2).unlockedBy("has_brown_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_brown_sandstone_balustrade_from_smooth_brown_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_ORANGE_SANDSTONE.get()), ModBlocks.SMOOTH_ORANGE_SANDSTONE_BALUSTRADE.get(), 2).unlockedBy("has_orange_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_orange_sandstone_balustrade_from_smooth_orange_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_RED_SANDSTONE), ModBlocks.SMOOTH_RED_SANDSTONE_BALUSTRADE.get(), 2).unlockedBy("has_red_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_red_sandstone_balustrade_from_smooth_red_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_SANDSTONE), ModBlocks.SMOOTH_SANDSTONE_BALUSTRADE.get(), 2).unlockedBy("has_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_sandstone_balustrade_from_smooth_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_BROWN_SANDSTONE.get()), ModBlocks.SMOOTH_BROWN_SANDSTONE_BALUSTRADE.get(), 2).unlockedBy("has_brown_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_brown_sandstone_balustrade_from_smooth_brown_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_ORANGE_SANDSTONE.get()), ModBlocks.SMOOTH_ORANGE_SANDSTONE_BALUSTRADE.get(), 2).unlockedBy("has_orange_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_orange_sandstone_balustrade_from_smooth_orange_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_RED_SANDSTONE), ModBlocks.SMOOTH_RED_SANDSTONE_BALUSTRADE.get(), 2).unlockedBy("has_red_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_red_sandstone_balustrade_from_smooth_red_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_SANDSTONE), ModBlocks.SMOOTH_SANDSTONE_BALUSTRADE.get(), 2).unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_sandstone_balustrade_from_smooth_sandstone_stonecutting");
 
         /* Smooth Sandstone Capitals */
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_BROWN_SANDSTONE.get()), ModBlocks.SMOOTH_BROWN_SANDSTONE_CAPITAL.get(), 2).unlockedBy("has_brown_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_brown_sandstone_capital_from_smooth_brown_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_ORANGE_SANDSTONE.get()), ModBlocks.SMOOTH_ORANGE_SANDSTONE_CAPITAL.get(), 2).unlockedBy("has_orange_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_orange_sandstone_capital_from_smooth_orange_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_RED_SANDSTONE), ModBlocks.SMOOTH_RED_SANDSTONE_CAPITAL.get(), 2).unlockedBy("has_red_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_red_sandstone_capital_from_smooth_red_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_SANDSTONE), ModBlocks.SMOOTH_SANDSTONE_CAPITAL.get(), 2).unlockedBy("has_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_sandstone_capital_from_smooth_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_BROWN_SANDSTONE.get()), ModBlocks.SMOOTH_BROWN_SANDSTONE_CAPITAL.get(), 2).unlockedBy("has_brown_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_brown_sandstone_capital_from_smooth_brown_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_ORANGE_SANDSTONE.get()), ModBlocks.SMOOTH_ORANGE_SANDSTONE_CAPITAL.get(), 2).unlockedBy("has_orange_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_orange_sandstone_capital_from_smooth_orange_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_RED_SANDSTONE), ModBlocks.SMOOTH_RED_SANDSTONE_CAPITAL.get(), 2).unlockedBy("has_red_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_red_sandstone_capital_from_smooth_red_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_SANDSTONE), ModBlocks.SMOOTH_SANDSTONE_CAPITAL.get(), 2).unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_sandstone_capital_from_smooth_sandstone_stonecutting");
 
         /* Smooth Sandstone Corners */
         // TODO: ADD SHAPED RECIPE FOR CORNERS
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_BROWN_SANDSTONE.get()), ModBlocks.SMOOTH_BROWN_SANDSTONE_CORNER.get(), 2).unlockedBy("has_brown_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_brown_sandstone_corner_from_smooth_brown_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_ORANGE_SANDSTONE.get()), ModBlocks.SMOOTH_ORANGE_SANDSTONE_CORNER.get(), 2).unlockedBy("has_orange_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_orange_sandstone_corner_from_smooth_orange_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_RED_SANDSTONE), ModBlocks.SMOOTH_RED_SANDSTONE_CORNER.get(), 2).unlockedBy("has_red_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_red_sandstone_corner_from_smooth_red_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_SANDSTONE), ModBlocks.SMOOTH_SANDSTONE_CORNER.get(), 2).unlockedBy("has_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_sandstone_corner_from_smooth_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_BROWN_SANDSTONE.get()), ModBlocks.SMOOTH_BROWN_SANDSTONE_CORNER.get(), 2).unlockedBy("has_brown_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_brown_sandstone_corner_from_smooth_brown_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_ORANGE_SANDSTONE.get()), ModBlocks.SMOOTH_ORANGE_SANDSTONE_CORNER.get(), 2).unlockedBy("has_orange_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_orange_sandstone_corner_from_smooth_orange_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_RED_SANDSTONE), ModBlocks.SMOOTH_RED_SANDSTONE_CORNER.get(), 2).unlockedBy("has_red_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_red_sandstone_corner_from_smooth_red_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_SANDSTONE), ModBlocks.SMOOTH_SANDSTONE_CORNER.get(), 2).unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_sandstone_corner_from_smooth_sandstone_stonecutting");
 
         /* Smooth Sandstone Corner Slabs */
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_BROWN_SANDSTONE.get()), ModBlocks.SMOOTH_BROWN_SANDSTONE_CORNER_SLAB.get(), 4).unlockedBy("has_brown_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_brown_sandstone_corner_slab_from_smooth_brown_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_ORANGE_SANDSTONE.get()), ModBlocks.SMOOTH_ORANGE_SANDSTONE_CORNER_SLAB.get(), 4).unlockedBy("has_orange_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_orange_sandstone_corner_slab_from_smooth_orange_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_RED_SANDSTONE), ModBlocks.SMOOTH_RED_SANDSTONE_CORNER_SLAB.get(), 4).unlockedBy("has_red_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_red_sandstone_corner_slab_from_smooth_red_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_SANDSTONE), ModBlocks.SMOOTH_SANDSTONE_CORNER_SLAB.get(), 4).unlockedBy("has_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_sandstone_corner_slab_from_smooth_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_BROWN_SANDSTONE.get()), ModBlocks.SMOOTH_BROWN_SANDSTONE_CORNER_SLAB.get(), 4).unlockedBy("has_brown_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_brown_sandstone_corner_slab_from_smooth_brown_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_ORANGE_SANDSTONE.get()), ModBlocks.SMOOTH_ORANGE_SANDSTONE_CORNER_SLAB.get(), 4).unlockedBy("has_orange_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_orange_sandstone_corner_slab_from_smooth_orange_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_RED_SANDSTONE), ModBlocks.SMOOTH_RED_SANDSTONE_CORNER_SLAB.get(), 4).unlockedBy("has_red_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_red_sandstone_corner_slab_from_smooth_red_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_SANDSTONE), ModBlocks.SMOOTH_SANDSTONE_CORNER_SLAB.get(), 4).unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_sandstone_corner_slab_from_smooth_sandstone_stonecutting");
 
         /* Smooth Sandstone Vertical Corner Slabs */
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_BROWN_SANDSTONE.get()), ModBlocks.SMOOTH_BROWN_SANDSTONE_CORNER_SLAB_VERTICAL.get(), 4).unlockedBy("has_brown_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_brown_sandstone_corner_slab_vertical_from_smooth_brown_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_ORANGE_SANDSTONE.get()), ModBlocks.SMOOTH_ORANGE_SANDSTONE_CORNER_SLAB_VERTICAL.get(), 4).unlockedBy("has_orange_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_orange_sandstone_corner_slab_vertical_from_smooth_orange_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_RED_SANDSTONE), ModBlocks.SMOOTH_RED_SANDSTONE_CORNER_SLAB_VERTICAL.get(), 4).unlockedBy("has_red_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_red_sandstone_corner_slab_vertical_from_smooth_red_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_SANDSTONE), ModBlocks.SMOOTH_SANDSTONE_CORNER_SLAB_VERTICAL.get(), 4).unlockedBy("has_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_sandstone_corner_slab_vertical_from_smooth_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_BROWN_SANDSTONE.get()), ModBlocks.SMOOTH_BROWN_SANDSTONE_CORNER_SLAB_VERTICAL.get(), 4).unlockedBy("has_brown_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_brown_sandstone_corner_slab_vertical_from_smooth_brown_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_ORANGE_SANDSTONE.get()), ModBlocks.SMOOTH_ORANGE_SANDSTONE_CORNER_SLAB_VERTICAL.get(), 4).unlockedBy("has_orange_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_orange_sandstone_corner_slab_vertical_from_smooth_orange_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_RED_SANDSTONE), ModBlocks.SMOOTH_RED_SANDSTONE_CORNER_SLAB_VERTICAL.get(), 4).unlockedBy("has_red_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_red_sandstone_corner_slab_vertical_from_smooth_red_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_SANDSTONE), ModBlocks.SMOOTH_SANDSTONE_CORNER_SLAB_VERTICAL.get(), 4).unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_sandstone_corner_slab_vertical_from_smooth_sandstone_stonecutting");
 
         /* Smooth Sandstone Eighths */
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_BROWN_SANDSTONE.get()), ModBlocks.SMOOTH_BROWN_SANDSTONE_EIGHTH.get(), 8).unlockedBy("has_brown_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_brown_sandstone_eighth_from_smooth_brown_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_ORANGE_SANDSTONE.get()), ModBlocks.SMOOTH_ORANGE_SANDSTONE_EIGHTH.get(), 8).unlockedBy("has_orange_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_orange_sandstone_eighth_from_smooth_orange_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_RED_SANDSTONE), ModBlocks.SMOOTH_RED_SANDSTONE_EIGHTH.get(), 8).unlockedBy("has_red_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_red_sandstone_eighth_from_smooth_red_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_SANDSTONE), ModBlocks.SMOOTH_SANDSTONE_EIGHTH.get(), 8).unlockedBy("has_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_sandstone_eighth_from_smooth_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_BROWN_SANDSTONE.get()), ModBlocks.SMOOTH_BROWN_SANDSTONE_EIGHTH.get(), 8).unlockedBy("has_brown_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_brown_sandstone_eighth_from_smooth_brown_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_ORANGE_SANDSTONE.get()), ModBlocks.SMOOTH_ORANGE_SANDSTONE_EIGHTH.get(), 8).unlockedBy("has_orange_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_orange_sandstone_eighth_from_smooth_orange_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_RED_SANDSTONE), ModBlocks.SMOOTH_RED_SANDSTONE_EIGHTH.get(), 8).unlockedBy("has_red_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_red_sandstone_eighth_from_smooth_red_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_SANDSTONE), ModBlocks.SMOOTH_SANDSTONE_EIGHTH.get(), 8).unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_sandstone_eighth_from_smooth_sandstone_stonecutting");
 
         /* Smooth Sandstone Quarters */
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_BROWN_SANDSTONE.get()), ModBlocks.SMOOTH_BROWN_SANDSTONE_QUARTER.get(), 4).unlockedBy("has_brown_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_brown_sandstone_quarter_from_smooth_brown_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_ORANGE_SANDSTONE.get()), ModBlocks.SMOOTH_ORANGE_SANDSTONE_QUARTER.get(), 4).unlockedBy("has_orange_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_orange_sandstone_quarter_from_smooth_orange_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_RED_SANDSTONE), ModBlocks.SMOOTH_RED_SANDSTONE_QUARTER.get(), 4).unlockedBy("has_red_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_red_sandstone_quarter_from_smooth_red_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_SANDSTONE), ModBlocks.SMOOTH_SANDSTONE_QUARTER.get(), 4).unlockedBy("has_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_sandstone_quarter_from_smooth_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_BROWN_SANDSTONE.get()), ModBlocks.SMOOTH_BROWN_SANDSTONE_QUARTER.get(), 4).unlockedBy("has_brown_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_brown_sandstone_quarter_from_smooth_brown_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_ORANGE_SANDSTONE.get()), ModBlocks.SMOOTH_ORANGE_SANDSTONE_QUARTER.get(), 4).unlockedBy("has_orange_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_orange_sandstone_quarter_from_smooth_orange_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_RED_SANDSTONE), ModBlocks.SMOOTH_RED_SANDSTONE_QUARTER.get(), 4).unlockedBy("has_red_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_red_sandstone_quarter_from_smooth_red_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_SANDSTONE), ModBlocks.SMOOTH_SANDSTONE_QUARTER.get(), 4).unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_sandstone_quarter_from_smooth_sandstone_stonecutting");
 
         /* Smooth Sandstone Vertical Quarters */
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_BROWN_SANDSTONE.get()), ModBlocks.SMOOTH_BROWN_SANDSTONE_QUARTER_VERTICAL.get(), 4).unlockedBy("has_brown_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_brown_sandstone_quarter_vertical_from_smooth_brown_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_ORANGE_SANDSTONE.get()), ModBlocks.SMOOTH_ORANGE_SANDSTONE_QUARTER_VERTICAL.get(), 4).unlockedBy("has_orange_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_orange_sandstone_quarter_vertical_from_smooth_orange_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_RED_SANDSTONE), ModBlocks.SMOOTH_RED_SANDSTONE_QUARTER_VERTICAL.get(), 4).unlockedBy("has_red_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_red_sandstone_quarter_vertical_from_smooth_red_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_SANDSTONE), ModBlocks.SMOOTH_SANDSTONE_QUARTER_VERTICAL.get(), 4).unlockedBy("has_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_sandstone_quarter_vertical_from_smooth_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_BROWN_SANDSTONE.get()), ModBlocks.SMOOTH_BROWN_SANDSTONE_QUARTER_VERTICAL.get(), 4).unlockedBy("has_brown_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_brown_sandstone_quarter_vertical_from_smooth_brown_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_ORANGE_SANDSTONE.get()), ModBlocks.SMOOTH_ORANGE_SANDSTONE_QUARTER_VERTICAL.get(), 4).unlockedBy("has_orange_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_orange_sandstone_quarter_vertical_from_smooth_orange_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_RED_SANDSTONE), ModBlocks.SMOOTH_RED_SANDSTONE_QUARTER_VERTICAL.get(), 4).unlockedBy("has_red_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_red_sandstone_quarter_vertical_from_smooth_red_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_SANDSTONE), ModBlocks.SMOOTH_SANDSTONE_QUARTER_VERTICAL.get(), 4).unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_sandstone_quarter_vertical_from_smooth_sandstone_stonecutting");
 
         /* Smooth Sandstone Windows */
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_BROWN_SANDSTONE.get()), ModBlocks.SMOOTH_BROWN_SANDSTONE_WINDOW.get(), 2).unlockedBy("has_brown_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_brown_sandstone_window_from_smooth_brown_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_ORANGE_SANDSTONE.get()), ModBlocks.SMOOTH_ORANGE_SANDSTONE_WINDOW.get(), 2).unlockedBy("has_orange_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_orange_sandstone_window_from_smooth_orange_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_RED_SANDSTONE), ModBlocks.SMOOTH_RED_SANDSTONE_WINDOW.get(), 2).unlockedBy("has_red_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_red_sandstone_window_from_smooth_red_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_SANDSTONE), ModBlocks.SMOOTH_SANDSTONE_WINDOW.get(), 2).unlockedBy("has_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_sandstone_window_from_smooth_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_BROWN_SANDSTONE.get()), ModBlocks.SMOOTH_BROWN_SANDSTONE_WINDOW.get(), 2).unlockedBy("has_brown_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_brown_sandstone_window_from_smooth_brown_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_ORANGE_SANDSTONE.get()), ModBlocks.SMOOTH_ORANGE_SANDSTONE_WINDOW.get(), 2).unlockedBy("has_orange_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_orange_sandstone_window_from_smooth_orange_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_RED_SANDSTONE), ModBlocks.SMOOTH_RED_SANDSTONE_WINDOW.get(), 2).unlockedBy("has_red_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_red_sandstone_window_from_smooth_red_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_SANDSTONE), ModBlocks.SMOOTH_SANDSTONE_WINDOW.get(), 2).unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_sandstone_window_from_smooth_sandstone_stonecutting");
 
-        /* Smooth Sandstone Windows */
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_BROWN_SANDSTONE.get()), ModBlocks.SMOOTH_BROWN_SANDSTONE_WINDOW_HALF.get(), 2).unlockedBy("has_brown_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_brown_sandstone_window_half_from_smooth_brown_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_ORANGE_SANDSTONE.get()), ModBlocks.SMOOTH_ORANGE_SANDSTONE_WINDOW_HALF.get(), 2).unlockedBy("has_orange_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_orange_sandstone_window_half_from_smooth_orange_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_RED_SANDSTONE), ModBlocks.SMOOTH_RED_SANDSTONE_WINDOW_HALF.get(), 2).unlockedBy("has_red_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_red_sandstone_window_half_from_smooth_red_sandstone_stonecutting");
-//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_SANDSTONE), ModBlocks.SMOOTH_SANDSTONE_WINDOW_HALF.get(), 2).unlockedBy("has_sandstone",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_sandstone_window_half_from_smooth_sandstone_stonecutting");
+        /* Smooth Sandstone Half Windows */
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_BROWN_SANDSTONE.get()), ModBlocks.SMOOTH_BROWN_SANDSTONE_WINDOW_HALF.get(), 2).unlockedBy("has_brown_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_brown_sandstone_window_half_from_smooth_brown_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_ORANGE_SANDSTONE.get()), ModBlocks.SMOOTH_ORANGE_SANDSTONE_WINDOW_HALF.get(), 2).unlockedBy("has_orange_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_orange_sandstone_window_half_from_smooth_orange_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_RED_SANDSTONE), ModBlocks.SMOOTH_RED_SANDSTONE_WINDOW_HALF.get(), 2).unlockedBy("has_red_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_red_sandstone_window_half_from_smooth_red_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_SANDSTONE), ModBlocks.SMOOTH_SANDSTONE_WINDOW_HALF.get(), 2).unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_sandstone_window_half_from_smooth_sandstone_stonecutting");
 
 
     }
