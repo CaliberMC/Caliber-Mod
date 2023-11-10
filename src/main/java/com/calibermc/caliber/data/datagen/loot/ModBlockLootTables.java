@@ -136,12 +136,12 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.PINK_GRANITE_WINDOW.get());
         this.dropSelf(ModBlocks.RED_GRANITE_WINDOW.get());
         this.dropSelf(ModBlocks.WHITE_GRANITE_WINDOW.get());
-//        this.dropSelf(ModBlocks.BLACK_GRANITE_WINDOW_HALF.get());
-//        this.dropSelf(ModBlocks.BROWN_GRANITE_WINDOW_HALF.get());
-//        this.dropSelf(ModBlocks.GRAY_GRANITE_WINDOW_HALF.get());
-//        this.dropSelf(ModBlocks.PINK_GRANITE_WINDOW_HALF.get());
-//        this.dropSelf(ModBlocks.RED_GRANITE_WINDOW_HALF.get());
-//        this.dropSelf(ModBlocks.WHITE_GRANITE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.BLACK_GRANITE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.BROWN_GRANITE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.GRAY_GRANITE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.PINK_GRANITE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.RED_GRANITE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.WHITE_GRANITE_WINDOW_HALF.get());
         
         this.dropSelf(ModBlocks.POLISHED_BLACK_GRANITE.get());
         this.dropSelf(ModBlocks.POLISHED_BROWN_GRANITE.get());
@@ -254,12 +254,12 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.POLISHED_PINK_GRANITE_WINDOW.get());
         this.dropSelf(ModBlocks.POLISHED_RED_GRANITE_WINDOW.get());
         this.dropSelf(ModBlocks.POLISHED_WHITE_GRANITE_WINDOW.get());
-//        this.dropSelf(ModBlocks.POLISHED_BLACK_GRANITE_WINDOW_HALF.get());
-//        this.dropSelf(ModBlocks.POLISHED_BROWN_GRANITE_WINDOW_HALF.get());
-//        this.dropSelf(ModBlocks.POLISHED_GRAY_GRANITE_WINDOW_HALF.get());
-//        this.dropSelf(ModBlocks.POLISHED_PINK_GRANITE_WINDOW_HALF.get());
-//        this.dropSelf(ModBlocks.POLISHED_RED_GRANITE_WINDOW_HALF.get());
-//        this.dropSelf(ModBlocks.POLISHED_WHITE_GRANITE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.POLISHED_BLACK_GRANITE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.POLISHED_BROWN_GRANITE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.POLISHED_GRAY_GRANITE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.POLISHED_PINK_GRANITE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.POLISHED_RED_GRANITE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.POLISHED_WHITE_GRANITE_WINDOW_HALF.get());
         
         // -- LIMESTONE
         this.add(ModBlocks.DARK_LIMESTONE.get(), (block) ->
@@ -366,11 +366,11 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.LIMESTONE_WINDOW.get());
         this.dropSelf(ModBlocks.PINK_LIMESTONE_WINDOW.get());
         this.dropSelf(ModBlocks.TAN_LIMESTONE_WINDOW.get());
-//        this.dropSelf(ModBlocks.DARK_LIMESTONE_WINDOW_HALF.get());
-//        this.dropSelf(ModBlocks.LIGHT_LIMESTONE_WINDOW_HALF.get());
-//        this.dropSelf(ModBlocks.LIMESTONE_WINDOW_HALF.get());
-//        this.dropSelf(ModBlocks.PINK_LIMESTONE_WINDOW_HALF.get());
-//        this.dropSelf(ModBlocks.TAN_LIMESTONE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.DARK_LIMESTONE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.LIGHT_LIMESTONE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.LIMESTONE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.PINK_LIMESTONE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.TAN_LIMESTONE_WINDOW_HALF.get());
 
         this.dropSelf(ModBlocks.COBBLED_DARK_LIMESTONE.get());
         this.dropSelf(ModBlocks.COBBLED_LIGHT_LIMESTONE.get());
@@ -463,11 +463,11 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.COBBLED_LIMESTONE_WINDOW.get());
         this.dropSelf(ModBlocks.COBBLED_PINK_LIMESTONE_WINDOW.get());
         this.dropSelf(ModBlocks.COBBLED_TAN_LIMESTONE_WINDOW.get());
-//        this.dropSelf(ModBlocks.COBBLED_DARK_LIMESTONE_WINDOW_HALF.get());
-//        this.dropSelf(ModBlocks.COBBLED_LIGHT_LIMESTONE_WINDOW_HALF.get());
-//        this.dropSelf(ModBlocks.COBBLED_LIMESTONE_WINDOW_HALF.get());
-//        this.dropSelf(ModBlocks.COBBLED_PINK_LIMESTONE_WINDOW_HALF.get());
-//        this.dropSelf(ModBlocks.COBBLED_TAN_LIMESTONE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.COBBLED_DARK_LIMESTONE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.COBBLED_LIGHT_LIMESTONE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.COBBLED_LIMESTONE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.COBBLED_PINK_LIMESTONE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.COBBLED_TAN_LIMESTONE_WINDOW_HALF.get());
 
         this.dropSelf(ModBlocks.DARK_LIMESTONE_BRICKS.get());
         this.dropSelf(ModBlocks.LIGHT_LIMESTONE_BRICKS.get());
@@ -560,11 +560,11 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.LIMESTONE_BRICK_WINDOW.get());
         this.dropSelf(ModBlocks.PINK_LIMESTONE_BRICK_WINDOW.get());
         this.dropSelf(ModBlocks.TAN_LIMESTONE_BRICK_WINDOW.get());
-//        this.dropSelf(ModBlocks.DARK_LIMESTONE_BRICK_WINDOW_HALF.get());
-//        this.dropSelf(ModBlocks.LIGHT_LIMESTONE_BRICK_WINDOW_HALF.get());
-//        this.dropSelf(ModBlocks.LIMESTONE_BRICK_WINDOW_HALF.get());
-//        this.dropSelf(ModBlocks.PINK_LIMESTONE_BRICK_WINDOW_HALF.get());
-//        this.dropSelf(ModBlocks.TAN_LIMESTONE_BRICK_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.DARK_LIMESTONE_BRICK_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.LIGHT_LIMESTONE_BRICK_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.LIMESTONE_BRICK_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.PINK_LIMESTONE_BRICK_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.TAN_LIMESTONE_BRICK_WINDOW_HALF.get());
 
         this.dropSelf(ModBlocks.MOSSY_DARK_LIMESTONE_BRICKS.get());
         this.dropSelf(ModBlocks.MOSSY_LIGHT_LIMESTONE_BRICKS.get());
@@ -778,11 +778,11 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.PINK_MARBLE_WINDOW.get());
         this.dropSelf(ModBlocks.RED_MARBLE_WINDOW.get());
         this.dropSelf(ModBlocks.WHITE_MARBLE_WINDOW.get());
-//        this.dropSelf(ModBlocks.BLACK_MARBLE_WINDOW_HALF.get());
-//        this.dropSelf(ModBlocks.GRAY_MARBLE_WINDOW_HALF.get());
-//        this.dropSelf(ModBlocks.PINK_MARBLE_WINDOW_HALF.get());
-//        this.dropSelf(ModBlocks.RED_MARBLE_WINDOW_HALF.get());
-//        this.dropSelf(ModBlocks.WHITE_MARBLE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.BLACK_MARBLE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.GRAY_MARBLE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.PINK_MARBLE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.RED_MARBLE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.WHITE_MARBLE_WINDOW_HALF.get());
 
         this.dropSelf(ModBlocks.POLISHED_BLACK_MARBLE.get());
         this.dropSelf(ModBlocks.POLISHED_GRAY_MARBLE.get());
@@ -879,11 +879,11 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.POLISHED_PINK_MARBLE_WINDOW.get());
         this.dropSelf(ModBlocks.POLISHED_RED_MARBLE_WINDOW.get());
         this.dropSelf(ModBlocks.POLISHED_WHITE_MARBLE_WINDOW.get());
-//        this.dropSelf(ModBlocks.POLISHED_BLACK_MARBLE_WINDOW_HALF.get());
-//        this.dropSelf(ModBlocks.POLISHED_GRAY_MARBLE_WINDOW_HALF.get());
-//        this.dropSelf(ModBlocks.POLISHED_PINK_MARBLE_WINDOW_HALF.get());
-//        this.dropSelf(ModBlocks.POLISHED_RED_MARBLE_WINDOW_HALF.get());
-//        this.dropSelf(ModBlocks.POLISHED_WHITE_MARBLE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.POLISHED_BLACK_MARBLE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.POLISHED_GRAY_MARBLE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.POLISHED_PINK_MARBLE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.POLISHED_RED_MARBLE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.POLISHED_WHITE_MARBLE_WINDOW_HALF.get());
 
         // -- SANDSTONE
         this.dropSelf(ModBlocks.BROWN_SANDSTONE.get());
@@ -954,10 +954,10 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.ORANGE_SANDSTONE_WINDOW.get());
         this.dropSelf(ModBlocks.RED_SANDSTONE_WINDOW.get());
         this.dropSelf(ModBlocks.SANDSTONE_WINDOW.get());
-//        this.dropSelf(ModBlocks.BROWN_SANDSTONE_WINDOW_HALF.get());
-//        this.dropSelf(ModBlocks.ORANGE_SANDSTONE_WINDOW_HALF.get());
-//        this.dropSelf(ModBlocks.RED_SANDSTONE_WINDOW_HALF.get());
-//        this.dropSelf(ModBlocks.SANDSTONE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.BROWN_SANDSTONE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.ORANGE_SANDSTONE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.RED_SANDSTONE_WINDOW_HALF.get());
+        this.dropSelf(ModBlocks.SANDSTONE_WINDOW_HALF.get());
         
         this.dropSelf(ModBlocks.CHISELED_BROWN_SANDSTONE.get());
         this.dropSelf(ModBlocks.CHISELED_ORANGE_SANDSTONE.get());

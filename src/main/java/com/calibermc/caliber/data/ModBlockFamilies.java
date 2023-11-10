@@ -33,7 +33,7 @@ public class ModBlockFamilies {
             .stairs(ModBlocks.BLACK_GRANITE_STAIRS.get())
             .wall(ModBlocks.BLACK_GRANITE_WALL.get())
             .window(ModBlocks.BLACK_GRANITE_WINDOW.get())
-//            .window_half(ModBlocks.BLACK_GRANITE_WINDOW_HALF.get())
+            .window_half(ModBlocks.BLACK_GRANITE_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily BROWN_GRANITE = familyBuilder(ModBlocks.BROWN_GRANITE.get())
             .arch(ModBlocks.BROWN_GRANITE_ARCH.get())
@@ -57,7 +57,7 @@ public class ModBlockFamilies {
             .stairs(ModBlocks.BROWN_GRANITE_STAIRS.get())
             .wall(ModBlocks.BROWN_GRANITE_WALL.get())
             .window(ModBlocks.BROWN_GRANITE_WINDOW.get())
-//            .window_half(ModBlocks.BROWN_GRANITE_WINDOW_HALF.get())
+            .window_half(ModBlocks.BROWN_GRANITE_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily GRAY_GRANITE = familyBuilder(ModBlocks.GRAY_GRANITE.get())
             .arch(ModBlocks.GRAY_GRANITE_ARCH.get())
@@ -81,7 +81,7 @@ public class ModBlockFamilies {
             .stairs(ModBlocks.GRAY_GRANITE_STAIRS.get())
             .wall(ModBlocks.GRAY_GRANITE_WALL.get())
             .window(ModBlocks.GRAY_GRANITE_WINDOW.get())
-//            .window_half(ModBlocks.GRAY_GRANITE_WINDOW_HALF.get())
+            .window_half(ModBlocks.GRAY_GRANITE_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily PINK_GRANITE = familyBuilder(ModBlocks.PINK_GRANITE.get())
             .arch(ModBlocks.PINK_GRANITE_ARCH.get())
@@ -105,7 +105,7 @@ public class ModBlockFamilies {
             .stairs(ModBlocks.PINK_GRANITE_STAIRS.get())
             .wall(ModBlocks.PINK_GRANITE_WALL.get())
             .window(ModBlocks.PINK_GRANITE_WINDOW.get())
-//            .window_half(ModBlocks.PINK_GRANITE_WINDOW_HALF.get())
+            .window_half(ModBlocks.PINK_GRANITE_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily RED_GRANITE = familyBuilder(Blocks.GRANITE)
             .arch(ModBlocks.RED_GRANITE_ARCH.get())
@@ -129,7 +129,7 @@ public class ModBlockFamilies {
             .stairs(Blocks.GRANITE_STAIRS)
             .wall(Blocks.GRANITE_WALL)
             .window(ModBlocks.RED_GRANITE_WINDOW.get())
-//            .window_half(ModBlocks.RED_GRANITE_WINDOW_HALF.get())
+            .window_half(ModBlocks.RED_GRANITE_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily WHITE_GRANITE = familyBuilder(ModBlocks.WHITE_GRANITE.get())
             .arch(ModBlocks.WHITE_GRANITE_ARCH.get())
@@ -153,7 +153,7 @@ public class ModBlockFamilies {
             .stairs(ModBlocks.WHITE_GRANITE_STAIRS.get())
             .wall(ModBlocks.WHITE_GRANITE_WALL.get())
             .window(ModBlocks.WHITE_GRANITE_WINDOW.get())
-//            .window_half(ModBlocks.WHITE_GRANITE_WINDOW_HALF.get())
+            .window_half(ModBlocks.WHITE_GRANITE_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily POLISHED_BLACK_GRANITE = familyBuilder(ModBlocks.POLISHED_BLACK_GRANITE.get())
             .arch(ModBlocks.POLISHED_BLACK_GRANITE_ARCH.get())
@@ -177,7 +177,7 @@ public class ModBlockFamilies {
             .stairs(ModBlocks.POLISHED_BLACK_GRANITE_STAIRS.get())
             .wall(ModBlocks.POLISHED_BLACK_GRANITE_WALL.get())
             .window(ModBlocks.POLISHED_BLACK_GRANITE_WINDOW.get())
-//            .window_half(ModBlocks.POLISHED_BLACK_GRANITE_WINDOW_HALF.get())
+            .window_half(ModBlocks.POLISHED_BLACK_GRANITE_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily POLISHED_BROWN_GRANITE = familyBuilder(ModBlocks.POLISHED_BROWN_GRANITE.get())
             .arch(ModBlocks.POLISHED_BROWN_GRANITE_ARCH.get())
@@ -201,7 +201,7 @@ public class ModBlockFamilies {
             .stairs(ModBlocks.POLISHED_BROWN_GRANITE_STAIRS.get())
             .wall(ModBlocks.POLISHED_BROWN_GRANITE_WALL.get())
             .window(ModBlocks.POLISHED_BROWN_GRANITE_WINDOW.get())
-//            .window_half(ModBlocks.POLISHED_BROWN_GRANITE_WINDOW_HALF.get())
+            .window_half(ModBlocks.POLISHED_BROWN_GRANITE_WINDOW_HALF.get())
            .getFamily();
     public static final ModBlockFamily POLISHED_GRAY_GRANITE = familyBuilder(ModBlocks.POLISHED_GRAY_GRANITE.get())
             .arch(ModBlocks.POLISHED_GRAY_GRANITE_ARCH.get())
@@ -225,7 +225,7 @@ public class ModBlockFamilies {
             .stairs(ModBlocks.POLISHED_GRAY_GRANITE_STAIRS.get())
             .wall(ModBlocks.POLISHED_GRAY_GRANITE_WALL.get())
             .window(ModBlocks.POLISHED_GRAY_GRANITE_WINDOW.get())
-//            .window_half(ModBlocks.POLISHED_GRAY_GRANITE_WINDOW_HALF.get())
+            .window_half(ModBlocks.POLISHED_GRAY_GRANITE_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily POLISHED_PINK_GRANITE = familyBuilder(ModBlocks.POLISHED_PINK_GRANITE.get())
             .arch(ModBlocks.POLISHED_PINK_GRANITE_ARCH.get())
@@ -249,7 +249,7 @@ public class ModBlockFamilies {
             .stairs(ModBlocks.POLISHED_PINK_GRANITE_STAIRS.get())
             .wall(ModBlocks.POLISHED_PINK_GRANITE_WALL.get())
             .window(ModBlocks.POLISHED_PINK_GRANITE_WINDOW.get())
-//            .window_half(ModBlocks.POLISHED_PINK_GRANITE_WINDOW_HALF.get())
+            .window_half(ModBlocks.POLISHED_PINK_GRANITE_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily POLISHED_RED_GRANITE = familyBuilder(Blocks.POLISHED_GRANITE)
             .arch(ModBlocks.POLISHED_RED_GRANITE_ARCH.get())
@@ -273,7 +273,7 @@ public class ModBlockFamilies {
             .stairs(Blocks.GRANITE_STAIRS)
             .wall(Blocks.GRANITE_WALL)
             .window(ModBlocks.POLISHED_RED_GRANITE_WINDOW.get())
-//            .window_half(ModBlocks.POLISHED_RED_GRANITE_WINDOW_HALF.get())
+            .window_half(ModBlocks.POLISHED_RED_GRANITE_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily POLISHED_WHITE_GRANITE = familyBuilder(ModBlocks.POLISHED_WHITE_GRANITE.get())
             .arch(ModBlocks.POLISHED_WHITE_GRANITE_ARCH.get())
@@ -297,7 +297,7 @@ public class ModBlockFamilies {
             .stairs(ModBlocks.POLISHED_WHITE_GRANITE_STAIRS.get())
             .wall(ModBlocks.POLISHED_WHITE_GRANITE_WALL.get())
             .window(ModBlocks.POLISHED_WHITE_GRANITE_WINDOW.get())
-//            .window_half(ModBlocks.POLISHED_WHITE_GRANITE_WINDOW_HALF.get())
+            .window_half(ModBlocks.POLISHED_WHITE_GRANITE_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily DARK_LIMESTONE = familyBuilder(ModBlocks.DARK_LIMESTONE.get())
             .arch(ModBlocks.DARK_LIMESTONE_ARCH.get())
@@ -321,7 +321,7 @@ public class ModBlockFamilies {
             .stairs(ModBlocks.DARK_LIMESTONE_STAIRS.get())
             .wall(ModBlocks.DARK_LIMESTONE_WALL.get())
             .window(ModBlocks.DARK_LIMESTONE_WINDOW.get())
-//            .window_half(ModBlocks.DARK_LIMESTONE_WINDOW_HALF.get())
+            .window_half(ModBlocks.DARK_LIMESTONE_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily LIGHT_LIMESTONE = familyBuilder(ModBlocks.LIGHT_LIMESTONE.get())
             .arch(ModBlocks.LIGHT_LIMESTONE_ARCH.get())
@@ -345,7 +345,7 @@ public class ModBlockFamilies {
             .stairs(ModBlocks.LIGHT_LIMESTONE_STAIRS.get())
             .wall(ModBlocks.LIGHT_LIMESTONE_WALL.get())
             .window(ModBlocks.LIGHT_LIMESTONE_WINDOW.get())
-//            .window_half(ModBlocks.LIGHT_LIMESTONE_WINDOW_HALF.get())
+            .window_half(ModBlocks.LIGHT_LIMESTONE_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily LIMESTONE = familyBuilder(Blocks.STONE)
             .arch(ModBlocks.LIMESTONE_ARCH.get())
@@ -369,7 +369,7 @@ public class ModBlockFamilies {
             .stairs(Blocks.STONE_STAIRS)
             .wall(ModBlocks.LIMESTONE_WALL.get())
             .window(ModBlocks.LIMESTONE_WINDOW.get())
-//            .window_half(ModBlocks.LIMESTONE_WINDOW_HALF.get())
+            .window_half(ModBlocks.LIMESTONE_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily PINK_LIMESTONE = familyBuilder(ModBlocks.PINK_LIMESTONE.get())
             .arch(ModBlocks.PINK_LIMESTONE_ARCH.get())
@@ -393,7 +393,7 @@ public class ModBlockFamilies {
             .stairs(ModBlocks.PINK_LIMESTONE_STAIRS.get())
             .wall(ModBlocks.PINK_LIMESTONE_WALL.get())
             .window(ModBlocks.PINK_LIMESTONE_WINDOW.get())
-//            .window_half(ModBlocks.PINK_LIMESTONE_WINDOW_HALF.get())
+            .window_half(ModBlocks.PINK_LIMESTONE_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily TAN_LIMESTONE = familyBuilder(ModBlocks.TAN_LIMESTONE.get())
             .arch(ModBlocks.TAN_LIMESTONE_ARCH.get())
@@ -417,7 +417,7 @@ public class ModBlockFamilies {
             .stairs(ModBlocks.TAN_LIMESTONE_STAIRS.get())
             .wall(ModBlocks.TAN_LIMESTONE_WALL.get())
             .window(ModBlocks.TAN_LIMESTONE_WINDOW.get())
-//            .window_half(ModBlocks.TAN_LIMESTONE_WINDOW_HALF.get())
+            .window_half(ModBlocks.TAN_LIMESTONE_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily COBBLED_DARK_LIMESTONE = familyBuilder(ModBlocks.COBBLED_DARK_LIMESTONE.get())
             .arch(ModBlocks.COBBLED_DARK_LIMESTONE_ARCH.get())
@@ -441,7 +441,7 @@ public class ModBlockFamilies {
             .stairs(ModBlocks.COBBLED_DARK_LIMESTONE_STAIRS.get())
             .wall(ModBlocks.COBBLED_DARK_LIMESTONE_WALL.get())
             .window(ModBlocks.COBBLED_DARK_LIMESTONE_WINDOW.get())
-//            .window_half(ModBlocks.COBBLED_DARK_LIMESTONE_WINDOW_HALF.get())
+            .window_half(ModBlocks.COBBLED_DARK_LIMESTONE_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily COBBLED_LIGHT_LIMESTONE = familyBuilder(ModBlocks.COBBLED_LIGHT_LIMESTONE.get())
             .arch(ModBlocks.COBBLED_LIGHT_LIMESTONE_ARCH.get())
@@ -465,7 +465,7 @@ public class ModBlockFamilies {
             .stairs(ModBlocks.COBBLED_LIGHT_LIMESTONE_STAIRS.get())
             .wall(ModBlocks.COBBLED_LIGHT_LIMESTONE_WALL.get())
             .window(ModBlocks.COBBLED_LIGHT_LIMESTONE_WINDOW.get())
-//            .window_half(ModBlocks.COBBLED_LIGHT_LIMESTONE_WINDOW_HALF.get())
+            .window_half(ModBlocks.COBBLED_LIGHT_LIMESTONE_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily COBBLED_LIMESTONE = familyBuilder(Blocks.COBBLESTONE)
             .arch(ModBlocks.COBBLED_LIMESTONE_ARCH.get())
@@ -489,7 +489,7 @@ public class ModBlockFamilies {
             .stairs(Blocks.COBBLESTONE_STAIRS)
             .wall(Blocks.COBBLESTONE_WALL)
             .window(ModBlocks.COBBLED_LIMESTONE_WINDOW.get())
-//            .window_half(ModBlocks.COBBLED_LIMESTONE_WINDOW_HALF.get())
+            .window_half(ModBlocks.COBBLED_LIMESTONE_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily COBBLED_PINK_LIMESTONE = familyBuilder(ModBlocks.COBBLED_PINK_LIMESTONE.get())
             .arch(ModBlocks.COBBLED_PINK_LIMESTONE_ARCH.get())
@@ -513,7 +513,7 @@ public class ModBlockFamilies {
             .stairs(ModBlocks.COBBLED_PINK_LIMESTONE_STAIRS.get())
             .wall(ModBlocks.COBBLED_PINK_LIMESTONE_WALL.get())
             .window(ModBlocks.COBBLED_PINK_LIMESTONE_WINDOW.get())
-//            .window_half(ModBlocks.COBBLED_PINK_LIMESTONE_WINDOW_HALF.get())
+            .window_half(ModBlocks.COBBLED_PINK_LIMESTONE_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily COBBLED_TAN_LIMESTONE = familyBuilder(ModBlocks.COBBLED_TAN_LIMESTONE.get())
             .arch(ModBlocks.COBBLED_TAN_LIMESTONE_ARCH.get())
@@ -537,7 +537,7 @@ public class ModBlockFamilies {
             .stairs(ModBlocks.COBBLED_TAN_LIMESTONE_STAIRS.get())
             .wall(ModBlocks.COBBLED_TAN_LIMESTONE_WALL.get())
             .window(ModBlocks.COBBLED_TAN_LIMESTONE_WINDOW.get())
-//            .window_half(ModBlocks.COBBLED_TAN_LIMESTONE_WINDOW_HALF.get())
+            .window_half(ModBlocks.COBBLED_TAN_LIMESTONE_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily DARK_LIMESTONE_BRICK = familyBuilder(ModBlocks.DARK_LIMESTONE_BRICKS.get())
             .arch(ModBlocks.DARK_LIMESTONE_BRICK_ARCH.get())
@@ -561,7 +561,7 @@ public class ModBlockFamilies {
             .stairs(ModBlocks.DARK_LIMESTONE_BRICK_STAIRS.get())
             .wall(ModBlocks.DARK_LIMESTONE_BRICK_WALL.get())
             .window(ModBlocks.DARK_LIMESTONE_BRICK_WINDOW.get())
-//            .window_half(ModBlocks.DARK_LIMESTONE_BRICK_WINDOW_HALF.get())
+            .window_half(ModBlocks.DARK_LIMESTONE_BRICK_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily LIGHT_LIMESTONE_BRICK = familyBuilder(ModBlocks.LIGHT_LIMESTONE_BRICKS.get())
             .arch(ModBlocks.LIGHT_LIMESTONE_BRICK_ARCH.get())
@@ -585,7 +585,7 @@ public class ModBlockFamilies {
             .stairs(ModBlocks.LIGHT_LIMESTONE_BRICK_STAIRS.get())
             .wall(ModBlocks.LIGHT_LIMESTONE_BRICK_WALL.get())
             .window(ModBlocks.LIGHT_LIMESTONE_BRICK_WINDOW.get())
-//            .window_half(ModBlocks.LIGHT_LIMESTONE_BRICK_WINDOW_HALF.get())
+            .window_half(ModBlocks.LIGHT_LIMESTONE_BRICK_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily LIMESTONE_BRICKS = familyBuilder(Blocks.STONE_BRICKS)
             .arch(ModBlocks.LIMESTONE_BRICK_ARCH.get())
@@ -609,7 +609,7 @@ public class ModBlockFamilies {
             .stairs(Blocks.STONE_BRICK_STAIRS)
             .wall(Blocks.STONE_BRICK_WALL)
             .window(ModBlocks.LIMESTONE_BRICK_WINDOW.get())
-//            .window_half(ModBlocks.LIMESTONE_BRICK_WINDOW_HALF.get())
+            .window_half(ModBlocks.LIMESTONE_BRICK_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily PINK_LIMESTONE_BRICK = familyBuilder(ModBlocks.PINK_LIMESTONE_BRICKS.get())
             .arch(ModBlocks.PINK_LIMESTONE_BRICK_ARCH.get())
@@ -633,7 +633,7 @@ public class ModBlockFamilies {
             .stairs(ModBlocks.PINK_LIMESTONE_BRICK_STAIRS.get())
             .wall(ModBlocks.PINK_LIMESTONE_BRICK_WALL.get())
             .window(ModBlocks.PINK_LIMESTONE_BRICK_WINDOW.get())
-//            .window_half(ModBlocks.PINK_LIMESTONE_BRICK_WINDOW_HALF.get())
+            .window_half(ModBlocks.PINK_LIMESTONE_BRICK_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily TAN_LIMESTONE_BRICK = familyBuilder(ModBlocks.TAN_LIMESTONE_BRICKS.get())
             .arch(ModBlocks.TAN_LIMESTONE_BRICK_ARCH.get())
@@ -657,7 +657,7 @@ public class ModBlockFamilies {
             .stairs(ModBlocks.TAN_LIMESTONE_BRICK_STAIRS.get())
             .wall(ModBlocks.TAN_LIMESTONE_BRICK_WALL.get())
             .window(ModBlocks.TAN_LIMESTONE_BRICK_WINDOW.get())
-//            .window_half(ModBlocks.TAN_LIMESTONE_BRICK_WINDOW_HALF.get())
+            .window_half(ModBlocks.TAN_LIMESTONE_BRICK_WINDOW_HALF.get())
             .getFamily();
 
     public static final ModBlockFamily MOSSY_DARK_LIMESTONE_BRICK = familyBuilder(ModBlocks.MOSSY_DARK_LIMESTONE_BRICKS.get())
@@ -1054,7 +1054,7 @@ public class ModBlockFamilies {
             .stairs(ModBlocks.BLACK_MARBLE_STAIRS.get())
             .wall(ModBlocks.BLACK_MARBLE_WALL.get())
             .window(ModBlocks.BLACK_MARBLE_WINDOW.get())
-//            .window_half(ModBlocks.BLACK_MARBLE_WINDOW_HALF.get())
+            .window_half(ModBlocks.BLACK_MARBLE_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily GRAY_MARBLE = familyBuilder(ModBlocks.GRAY_MARBLE.get())
             .arch(ModBlocks.GRAY_MARBLE_ARCH.get())
@@ -1078,7 +1078,7 @@ public class ModBlockFamilies {
             .stairs(ModBlocks.GRAY_MARBLE_STAIRS.get())
             .wall(ModBlocks.GRAY_MARBLE_WALL.get())
             .window(ModBlocks.GRAY_MARBLE_WINDOW.get())
-//            .window_half(ModBlocks.GRAY_MARBLE_WINDOW_HALF.get())
+            .window_half(ModBlocks.GRAY_MARBLE_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily PINK_MARBLE = familyBuilder(ModBlocks.PINK_MARBLE.get())
             .arch(ModBlocks.PINK_MARBLE_ARCH.get())
@@ -1102,7 +1102,7 @@ public class ModBlockFamilies {
             .stairs(ModBlocks.PINK_MARBLE_STAIRS.get())
             .wall(ModBlocks.PINK_MARBLE_WALL.get())
             .window(ModBlocks.PINK_MARBLE_WINDOW.get())
-//            .window_half(ModBlocks.PINK_MARBLE_WINDOW_HALF.get())
+            .window_half(ModBlocks.PINK_MARBLE_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily RED_MARBLE = familyBuilder(ModBlocks.RED_MARBLE.get())
             .arch(ModBlocks.RED_MARBLE_ARCH.get())
@@ -1126,7 +1126,7 @@ public class ModBlockFamilies {
             .stairs(ModBlocks.RED_MARBLE_STAIRS.get())
             .wall(ModBlocks.RED_MARBLE_WALL.get())
             .window(ModBlocks.RED_MARBLE_WINDOW.get())
-//            .window_half(ModBlocks.RED_MARBLE_WINDOW_HALF.get())
+            .window_half(ModBlocks.RED_MARBLE_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily WHITE_MARBLE = familyBuilder(ModBlocks.WHITE_MARBLE.get())
             .arch(ModBlocks.WHITE_MARBLE_ARCH.get())
@@ -1150,7 +1150,7 @@ public class ModBlockFamilies {
             .stairs(ModBlocks.WHITE_MARBLE_STAIRS.get())
             .wall(ModBlocks.WHITE_MARBLE_WALL.get())
             .window(ModBlocks.WHITE_MARBLE_WINDOW.get())
-//            .window_half(ModBlocks.WHITE_MARBLE_WINDOW_HALF.get())
+            .window_half(ModBlocks.WHITE_MARBLE_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily POLISHED_BLACK_MARBLE = familyBuilder(ModBlocks.POLISHED_BLACK_MARBLE.get())
             .arch(ModBlocks.POLISHED_BLACK_MARBLE_ARCH.get())
@@ -1174,7 +1174,7 @@ public class ModBlockFamilies {
             .stairs(ModBlocks.POLISHED_BLACK_MARBLE_STAIRS.get())
             .wall(ModBlocks.POLISHED_BLACK_MARBLE_WALL.get())
             .window(ModBlocks.POLISHED_BLACK_MARBLE_WINDOW.get())
-//            .window_half(ModBlocks.POLISHED_BLACK_MARBLE_WINDOW_HALF.get())
+            .window_half(ModBlocks.POLISHED_BLACK_MARBLE_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily POLISHED_GRAY_MARBLE = familyBuilder(ModBlocks.POLISHED_GRAY_MARBLE.get())
             .arch(ModBlocks.POLISHED_GRAY_MARBLE_ARCH.get())
@@ -1198,7 +1198,7 @@ public class ModBlockFamilies {
             .stairs(ModBlocks.POLISHED_GRAY_MARBLE_STAIRS.get())
             .wall(ModBlocks.POLISHED_GRAY_MARBLE_WALL.get())
             .window(ModBlocks.POLISHED_GRAY_MARBLE_WINDOW.get())
-//            .window_half(ModBlocks.POLISHED_GRAY_MARBLE_WINDOW_HALF.get())
+            .window_half(ModBlocks.POLISHED_GRAY_MARBLE_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily POLISHED_PINK_MARBLE = familyBuilder(ModBlocks.POLISHED_PINK_MARBLE.get())
             .arch(ModBlocks.POLISHED_PINK_MARBLE_ARCH.get())
@@ -1222,7 +1222,7 @@ public class ModBlockFamilies {
             .stairs(ModBlocks.POLISHED_PINK_MARBLE_STAIRS.get())
             .wall(ModBlocks.POLISHED_PINK_MARBLE_WALL.get())
             .window(ModBlocks.POLISHED_PINK_MARBLE_WINDOW.get())
-//            .window_half(ModBlocks.POLISHED_PINK_MARBLE_WINDOW_HALF.get())
+            .window_half(ModBlocks.POLISHED_PINK_MARBLE_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily POLISHED_RED_MARBLE = familyBuilder(ModBlocks.POLISHED_RED_MARBLE.get())
             .arch(ModBlocks.POLISHED_RED_MARBLE_ARCH.get())
@@ -1246,7 +1246,7 @@ public class ModBlockFamilies {
             .stairs(ModBlocks.POLISHED_RED_MARBLE_STAIRS.get())
             .wall(ModBlocks.POLISHED_RED_MARBLE_WALL.get())
             .window(ModBlocks.POLISHED_RED_MARBLE_WINDOW.get())
-//            .window_half(ModBlocks.POLISHED_RED_MARBLE_WINDOW_HALF.get())
+            .window_half(ModBlocks.POLISHED_RED_MARBLE_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily POLISHED_WHITE_MARBLE = familyBuilder(ModBlocks.POLISHED_WHITE_MARBLE.get())
             .arch(ModBlocks.POLISHED_WHITE_MARBLE_ARCH.get())
@@ -1270,7 +1270,7 @@ public class ModBlockFamilies {
             .stairs(ModBlocks.POLISHED_WHITE_MARBLE_STAIRS.get())
             .wall(ModBlocks.POLISHED_WHITE_MARBLE_WALL.get())
             .window(ModBlocks.POLISHED_WHITE_MARBLE_WINDOW.get())
-//            .window_half(ModBlocks.POLISHED_WHITE_MARBLE_WINDOW_HALF.get())
+            .window_half(ModBlocks.POLISHED_WHITE_MARBLE_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily BROWN_SANDSTONE = familyBuilder(ModBlocks.BROWN_SANDSTONE.get())
             .arch(ModBlocks.BROWN_SANDSTONE_ARCH.get())
@@ -1294,7 +1294,7 @@ public class ModBlockFamilies {
             .stairs(ModBlocks.BROWN_SANDSTONE_STAIRS.get())
             .wall(ModBlocks.BROWN_SANDSTONE_WALL.get())
             .window(ModBlocks.BROWN_SANDSTONE_WINDOW.get())
-//            .window_half(ModBlocks.BROWN_SANDSTONE_WINDOW_HALF.get())
+            .window_half(ModBlocks.BROWN_SANDSTONE_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily ORANGE_SANDSTONE = familyBuilder(ModBlocks.ORANGE_SANDSTONE.get())
             .arch(ModBlocks.ORANGE_SANDSTONE_ARCH.get())
@@ -1318,7 +1318,7 @@ public class ModBlockFamilies {
             .stairs(ModBlocks.ORANGE_SANDSTONE_STAIRS.get())
             .wall(ModBlocks.ORANGE_SANDSTONE_WALL.get())
             .window(ModBlocks.ORANGE_SANDSTONE_WINDOW.get())
-//            .window_half(ModBlocks.ORANGE_SANDSTONE_WINDOW_HALF.get())
+            .window_half(ModBlocks.ORANGE_SANDSTONE_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily RED_SANDSTONE = familyBuilder(Blocks.RED_SANDSTONE)
             .arch(ModBlocks.RED_SANDSTONE_ARCH.get())
@@ -1342,7 +1342,7 @@ public class ModBlockFamilies {
             .stairs(Blocks.RED_SANDSTONE_STAIRS)
             .wall(Blocks.RED_SANDSTONE_WALL)
             .window(ModBlocks.RED_SANDSTONE_WINDOW.get())
-//            .window_half(ModBlocks.RED_SANDSTONE_WINDOW_HALF.get())
+            .window_half(ModBlocks.RED_SANDSTONE_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily SANDSTONE = familyBuilder(Blocks.SANDSTONE)
             .arch(ModBlocks.SANDSTONE_ARCH.get())
@@ -1366,7 +1366,7 @@ public class ModBlockFamilies {
             .stairs(Blocks.SANDSTONE_STAIRS)
             .wall(Blocks.SANDSTONE_WALL)
             .window(ModBlocks.SANDSTONE_WINDOW.get())
-//            .window_half(ModBlocks.SANDSTONE_WINDOW_HALF.get())
+            .window_half(ModBlocks.SANDSTONE_WINDOW_HALF.get())
             .getFamily();
     public static final ModBlockFamily CHISELED_BROWN_SANDSTONE = familyBuilder(ModBlocks.CHISELED_BROWN_SANDSTONE.get())
 //            .arrowslit(ModBlocks.CHISELED_BROWN_SANDSTONE_ARROWSLIT.get())
