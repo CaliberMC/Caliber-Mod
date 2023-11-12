@@ -1,6 +1,7 @@
-package com.calibermc.caliber.block.properties;
+package com.calibermc.caliber.block.shapes;
 
 import net.minecraft.util.StringRepresentable;
+import org.jetbrains.annotations.NotNull;
 
 public enum WindowShape implements StringRepresentable {
     TOP ("top"),
@@ -11,7 +12,7 @@ public enum WindowShape implements StringRepresentable {
 
     private final String name;
 
-    private WindowShape(String pName) {
+    WindowShape(String pName) {
         this.name = pName;
     }
 
@@ -19,7 +20,7 @@ public enum WindowShape implements StringRepresentable {
         return this.name;
     }
 
-    public String getSerializedName() {
+    public @NotNull String getSerializedName() {
         return this.name;
     }
 }

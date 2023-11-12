@@ -1,6 +1,6 @@
 package com.calibermc.caliber.block.custom;
 
-import com.calibermc.caliber.block.properties.BalustradeShape;
+import com.calibermc.caliber.block.shapes.BalustradeShape;
 import com.calibermc.caliber.util.ModBlockStateProperties;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Maps;

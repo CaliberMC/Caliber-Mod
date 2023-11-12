@@ -4,19 +4,10 @@ import com.calibermc.caliber.Caliber;
 import com.calibermc.caliber.config.CaliberCommonConfigs;
 import net.minecraft.core.Holder;
 import net.minecraft.core.Registry;
-import net.minecraft.data.worldgen.features.FeatureUtils;
 import net.minecraft.data.worldgen.placement.PlacementUtils;
-import net.minecraft.world.level.biome.Biome;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.levelgen.VerticalAnchor;
-import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
-import net.minecraft.world.level.levelgen.feature.Feature;
-import net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration;
 import net.minecraft.world.level.levelgen.placement.*;
-import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
-
-import static net.minecraft.data.worldgen.features.OreFeatures.NATURAL_STONE;
 
 public class ModPlacedFeatures {
 //    public static final DeferredRegister<PlacedFeature> PLACED_FEATURES =

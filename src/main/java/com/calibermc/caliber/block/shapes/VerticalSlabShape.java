@@ -1,6 +1,7 @@
-package com.calibermc.caliber.block.properties;
+package com.calibermc.caliber.block.shapes;
 
 import net.minecraft.util.StringRepresentable;
+import org.jetbrains.annotations.NotNull;
 
 public enum VerticalSlabShape implements StringRepresentable {
     SINGLE ("single"),
@@ -9,7 +10,7 @@ public enum VerticalSlabShape implements StringRepresentable {
 
     private final String name;
 
-    private VerticalSlabShape(String pName) {
+    VerticalSlabShape(String pName) {
         this.name = pName;
     }
 
@@ -17,7 +18,7 @@ public enum VerticalSlabShape implements StringRepresentable {
         return this.name;
     }
 
-    public String getSerializedName() {
+    public @NotNull String getSerializedName() {
         return this.name;
     }
 }

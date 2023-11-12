@@ -1,6 +1,6 @@
 package com.calibermc.caliber.block.custom;
 
-import com.calibermc.caliber.block.properties.CapitalShape;
+import com.calibermc.caliber.block.shapes.CapitalShape;
 import com.calibermc.caliber.util.ModBlockStateProperties;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;

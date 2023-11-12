@@ -1,6 +1,6 @@
 package com.calibermc.caliber.util;
 
-import com.calibermc.caliber.block.properties.*;
+import com.calibermc.caliber.block.shapes.*;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
 
 
