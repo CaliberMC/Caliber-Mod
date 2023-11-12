@@ -3,6 +3,7 @@
   "textures": {
     "side": "caliber:block/polished_brown_granite_64",
     "bottom": "caliber:block/polished_brown_granite_64",
-    "top": "caliber:block/polished_brown_granite_64"
+    "top": "caliber:block/polished_brown_granite_64",
+    "particle": "caliber:block/polished_brown_granite"
   }
 }

@@ -3,6 +3,7 @@
   "textures": {
     "side": "caliber:block/cobbled_light_limestone_64",
     "bottom": "caliber:block/cobbled_light_limestone_64",
-    "top": "caliber:block/cobbled_light_limestone_64"
+    "top": "caliber:block/cobbled_light_limestone_64",
+    "particle": "caliber:block/cobbled_light_limestone"
   }
 }

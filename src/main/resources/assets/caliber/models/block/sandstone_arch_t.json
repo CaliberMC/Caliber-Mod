@@ -3,6 +3,7 @@
   "textures": {
     "side": "caliber:block/sandstone_64",
     "bottom": "caliber:block/sandstone_bottom_64",
-    "top": "caliber:block/sandstone_top_64"
+    "top": "caliber:block/sandstone_top_64",
+    "particle": "minecraft:block/sandstone"
   }
 }

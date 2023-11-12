@@ -4,6 +4,6 @@
     "side": "caliber:block/cobblestone_64",
     "bottom": "caliber:block/cobblestone_64",
     "top": "caliber:block/cobblestone_64",
-    "64": "caliber:block/cobblestone_64"
+    "particle": "minecraft:block/cobblestone"
   }
 }

@@ -4,6 +4,6 @@
     "side": "caliber:block/mossy_cobblestone_64",
     "bottom": "caliber:block/mossy_cobblestone_64",
     "top": "caliber:block/mossy_cobblestone_64",
-    "64": "caliber:block/mossy_cobblestone_64"
+    "particle": "minecraft:block/mossy_cobblestone"
   }
 }

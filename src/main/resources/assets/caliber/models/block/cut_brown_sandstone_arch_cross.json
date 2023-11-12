@@ -2,7 +2,8 @@
   "parent": "caliber:block/arch_cross",
   "textures": {
     "side": "caliber:block/cut_brown_sandstone_64",
-    "bottom": "caliber:block/cut_brown_sandstone_64",
-    "top": "caliber:block/cut_brown_sandstone_64"
+    "bottom": "caliber:block/brown_sandstone_top_64",
+    "top": "caliber:block/brown_sandstone_top_64",
+    "particle": "caliber:block/cut_brown_sandstone"
   }
 }

@@ -3,6 +3,7 @@
   "textures": {
     "side": "caliber:block/mossy_stone_bricks_64",
     "bottom": "caliber:block/mossy_stone_bricks_64",
-    "top": "caliber:block/mossy_stone_bricks_64"
+    "top": "caliber:block/mossy_stone_bricks_64",
+    "particle": "minecraft:block/mossy_stone_bricks"
   }
 }
