@@ -127,6 +127,27 @@ public class ModBlockStateProvider extends BlockStateProvider {
         wallBlock((WallBlock) ModBlocks.COBBLED_PINK_LIMESTONE_WALL.get(), blockTexture(ModBlocks.COBBLED_PINK_LIMESTONE.get()));
         wallBlock((WallBlock) ModBlocks.COBBLED_TAN_LIMESTONE_WALL.get(), blockTexture(ModBlocks.COBBLED_TAN_LIMESTONE.get()));
 
+        simpleBlock(ModBlocks.MOSSY_COBBLED_DARK_LIMESTONE.get());
+        simpleBlock(ModBlocks.MOSSY_COBBLED_LIGHT_LIMESTONE.get());
+        simpleBlock(ModBlocks.MOSSY_COBBLED_PINK_LIMESTONE.get());
+        simpleBlock(ModBlocks.MOSSY_COBBLED_TAN_LIMESTONE.get());
+        slabBlock((SlabBlock) ModBlocks.MOSSY_COBBLED_DARK_LIMESTONE_SLAB.get(), blockTexture(ModBlocks.MOSSY_COBBLED_DARK_LIMESTONE.get()),
+                blockTexture(ModBlocks.MOSSY_COBBLED_DARK_LIMESTONE.get()));
+        slabBlock((SlabBlock) ModBlocks.MOSSY_COBBLED_LIGHT_LIMESTONE_SLAB.get(), blockTexture(ModBlocks.MOSSY_COBBLED_LIGHT_LIMESTONE.get()),
+                blockTexture(ModBlocks.MOSSY_COBBLED_LIGHT_LIMESTONE.get()));
+        slabBlock((SlabBlock) ModBlocks.MOSSY_COBBLED_PINK_LIMESTONE_SLAB.get(), blockTexture(ModBlocks.MOSSY_COBBLED_PINK_LIMESTONE.get()),
+                blockTexture(ModBlocks.MOSSY_COBBLED_PINK_LIMESTONE.get()));
+        slabBlock((SlabBlock) ModBlocks.MOSSY_COBBLED_TAN_LIMESTONE_SLAB.get(), blockTexture(ModBlocks.MOSSY_COBBLED_TAN_LIMESTONE.get()),
+                blockTexture(ModBlocks.MOSSY_COBBLED_TAN_LIMESTONE.get()));
+        stairsBlock((StairBlock) ModBlocks.MOSSY_COBBLED_DARK_LIMESTONE_STAIRS.get(), blockTexture(ModBlocks.MOSSY_COBBLED_DARK_LIMESTONE.get()));
+        stairsBlock((StairBlock) ModBlocks.MOSSY_COBBLED_LIGHT_LIMESTONE_STAIRS.get(), blockTexture(ModBlocks.MOSSY_COBBLED_LIGHT_LIMESTONE.get()));
+        stairsBlock((StairBlock) ModBlocks.MOSSY_COBBLED_PINK_LIMESTONE_STAIRS.get(), blockTexture(ModBlocks.MOSSY_COBBLED_PINK_LIMESTONE.get()));
+        stairsBlock((StairBlock) ModBlocks.MOSSY_COBBLED_TAN_LIMESTONE_STAIRS.get(), blockTexture(ModBlocks.MOSSY_COBBLED_TAN_LIMESTONE.get()));
+        wallBlock((WallBlock) ModBlocks.MOSSY_COBBLED_DARK_LIMESTONE_WALL.get(), blockTexture(ModBlocks.MOSSY_COBBLED_DARK_LIMESTONE.get()));
+        wallBlock((WallBlock) ModBlocks.MOSSY_COBBLED_LIGHT_LIMESTONE_WALL.get(), blockTexture(ModBlocks.MOSSY_COBBLED_LIGHT_LIMESTONE.get()));
+        wallBlock((WallBlock) ModBlocks.MOSSY_COBBLED_PINK_LIMESTONE_WALL.get(), blockTexture(ModBlocks.MOSSY_COBBLED_PINK_LIMESTONE.get()));
+        wallBlock((WallBlock) ModBlocks.MOSSY_COBBLED_TAN_LIMESTONE_WALL.get(), blockTexture(ModBlocks.MOSSY_COBBLED_TAN_LIMESTONE.get()));
+
         simpleBlock(ModBlocks.DARK_LIMESTONE_BRICKS.get());
         simpleBlock(ModBlocks.LIGHT_LIMESTONE_BRICKS.get());
         simpleBlock(ModBlocks.PINK_LIMESTONE_BRICKS.get());

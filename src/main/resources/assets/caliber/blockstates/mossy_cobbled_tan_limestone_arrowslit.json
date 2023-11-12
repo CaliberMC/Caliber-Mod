@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "caliber:block/mossy_cobbled_tan_limestone_arrowslit"
+    },
+    "facing=east": {
+      "model": "caliber:block/mossy_cobbled_tan_limestone_arrowslit",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "caliber:block/mossy_cobbled_tan_limestone_arrowslit",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "caliber:block/mossy_cobbled_tan_limestone_arrowslit",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "caliber:block/arch",
+  "textures": {
+    "side": "caliber:block/mossy_cobbled_light_limestone_64",
+    "bottom": "caliber:block/mossy_cobbled_light_limestone_64",
+    "top": "caliber:block/mossy_cobbled_light_limestone_64",
+    "particle:": "caliber:block/mossy_cobbled_light_limestone"
+  }
+}
