@@ -1,0 +1,32 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:redstone",
+    "minecraft:redstone_block",
+    "minecraft:redstone_lamp",
+    "minecraft:redstone_torch",
+    "minecraft:repeater",
+    "minecraft:comparator",
+    "minecraft:lever",
+    "minecraft:tripwire_hook",
+    "minecraft:string",
+    "minecraft:daylight_detector",
+    "minecraft:observer",
+    "minecraft:dispenser",
+    "minecraft:dropper",
+    "minecraft:hopper",
+    "minecraft:note_block",
+    "minecraft:jukebox",
+    "minecraft:target",
+    "minecraft:piston",
+    "minecraft:sticky_piston",
+    "minecraft:slime_ball",
+    "minecraft:slime_block",
+    "minecraft:activator_rail",
+    "minecraft:detector_rail",
+    "minecraft:powered_rail",
+    "minecraft:rail",
+    "minecraft:tnt",
+    "minecraft:command_block"
+  ]
+}

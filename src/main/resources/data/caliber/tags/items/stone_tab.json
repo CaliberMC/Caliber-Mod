@@ -1,7 +1,15 @@
 {
   "replace": false,
   "values": [
+    "minecraft:bedrock",
+    "minecraft:deepslate",
+    "minecraft:blackstone",
+    "minecraft:gilded_blackstone",
+    "minecraft:basalt",
+    "minecraft:andesite",
+    "minecraft:diorite",
     "caliber:dark_limestone",
+    "minecraft:stone",
     "caliber:light_limestone",
     "caliber:pink_limestone",
     "caliber:tan_limestone",
@@ -9,6 +17,7 @@
     "caliber:brown_granite",
     "caliber:gray_granite",
     "caliber:pink_granite",
+    "minecraft:granite",
     "caliber:white_granite",
     "caliber:black_marble",
     "caliber:gray_marble",

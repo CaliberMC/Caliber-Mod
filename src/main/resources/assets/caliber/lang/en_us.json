@@ -11,7 +11,7 @@
     "itemGroup.stone": "Stone",
     "itemGroup.cobble_brick": "Cobble & Brick",
     "itemGroup.planks_beams": "Planks & Beams",
-    "itemGroup.roofs": "Roofing",
+    "itemGroup.roofing": "Roofing",
 
     "itemGroup.plaster_stucco": "Plaster & Stucco",
     "itemGroup.half_timbered_walls": "Half-Timbered Walls",
@@ -32,7 +32,7 @@
     "itemGroup.logs": "Logs",
     "itemGroup.leaves": "Leaves",
 
-    "itemGroup.flowers": "Flowers",
+    "itemGroup.flowers_plants": "Flowers & Plants",
     "itemGroup.crops": "Crops",
     "itemGroup.crafting": "Crafting, Etc",
     "itemGroup.tools_weapons": "Tools & Weapons",

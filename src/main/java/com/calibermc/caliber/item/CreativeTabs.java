@@ -19,6 +19,8 @@ import net.minecraft.world.item.*;
 import net.minecraft.world.item.enchantment.EnchantmentCategory;
 import net.minecraft.world.level.block.*;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.tags.ITag;
+import net.minecraftforge.registries.tags.ITagManager;
 
 import javax.annotation.Nullable;
 import java.lang.reflect.Field;
@@ -60,99 +62,100 @@ public class CreativeTabs {
             CreativeTabs.addGroupSafe(mainTab.getId(), mainTab);
         }
         new ModifiedTab("cobble_brick", () -> new ItemStack(ModBlocks.COBBLED_DARK_LIMESTONE.get())) {
-
-            @Override
-            public boolean keyIsCorrect(Item item, ResourceLocation key) {
-                boolean b = ModBlockFamilies.getAllFamilies().anyMatch(p -> p.getBaseBlock() == Block.byItem(item));
-
-                if ((key.getPath().startsWith("cobbled")
-                        || key.getPath().contains("cobblestone")
-                        || key.getPath().contains("brick")
-                        || key.getPath().startsWith("cut")
-                        || key.getPath().startsWith("chiseled")
-                        || key.getPath().startsWith("smooth")
-                        || key.getPath().startsWith("polished")
-
-                )) {
-                    return b;
-                }
-                return false;
-            }
-        };
-        new ModifiedTab("planks_beams", () -> new ItemStack(Blocks.OAK_PLANKS)) {
-
-            @Override
-            public boolean keyIsCorrect(Item item, ResourceLocation key) {
-                return key.getPath().endsWith("_planks");
-            }
-        };
-        new ModifiedTab("roofs", () -> new ItemStack(Blocks.AIR)) {
             @Override
             public void fillItemList(NonNullList<ItemStack> pItems) {
-                for(Item item : ModifiedTab.getItems()) {
-                    if (Block.byItem(item) instanceof CraftingTableBlock || Block.byItem(item) instanceof FurnaceBlock) {
+                ITagManager<Item> tags = ForgeRegistries.ITEMS.tags();
+                if (tags != null) {
+                    for (Item item : tags.getTag(ModTags.Items.cobbleBricksTab)) {
                         pItems.add(new ItemStack(item));
                     }
                 }
             }
         };
-        new ModifiedTab("plaster_stucco", () -> new ItemStack(Blocks.AIR)) {
-
-        };
-
-        new ModifiedTab("half_timbered_walls", () -> new ItemStack(Blocks.AIR)) {
-
-        };
-
-        new ModifiedTab("tiles_flooring", () -> new ItemStack(Blocks.AIR)) {
-
-        };
-        new ModifiedTab("glass_windows", () -> new ItemStack(Blocks.GLASS)) {
+        new ModifiedTab("planks_beams", () -> new ItemStack(Blocks.OAK_PLANKS)) {
 
             @Override
-            public boolean keyIsCorrect(Item item, ResourceLocation key) {
-                return Block.byItem(item) instanceof AbstractGlassBlock;
+            public void fillItemList(NonNullList<ItemStack> pItems) {
+                ITagManager<Item> tags = ForgeRegistries.ITEMS.tags();
+                if (tags != null) {
+                    for (Item item : tags.getTag(ModTags.Items.planksBeamsTab)) {
+                        pItems.add(new ItemStack(item));
+                    }
+                }
             }
         };
-        new ModifiedTab("lighting", () -> new ItemStack(Blocks.CANDLE)) {
-            ;
+        new ModifiedTab("roofing", () -> new ItemStack(Blocks.COBBLED_DEEPSLATE_STAIRS)) {
             @Override
-            public boolean keyIsCorrect(Item item, ResourceLocation key) {
-                return key.getPath().contains("torch")
-                        || key.getPath().contains("candle")
-                        || key.getPath().contains("lantern")
-                        || key.getPath().contains("lamp")
-                        || key.getPath().equals("glowstone")
-                        || key.getPath().contains("sea_lantern")
-                        || key.getPath().contains("jack_o_lantern")
-                        || key.getPath().contains("campfire")
-                        ;
+            public void fillItemList(NonNullList<ItemStack> pItems) {
+                ITagManager<Item> tags = ForgeRegistries.ITEMS.tags();
+                if (tags != null) {
+                    for (Item item : tags.getTag(ModTags.Items.roofingTab)) {
+                        pItems.add(new ItemStack(item));
+                    }
+                }
+            }
+        };
+        new ModifiedTab("plaster_stucco", () -> new ItemStack(Blocks.WHITE_CONCRETE)) {
+            @Override
+            public void fillItemList(NonNullList<ItemStack> pItems) {
+                ITagManager<Item> tags = ForgeRegistries.ITEMS.tags();
+                if (tags != null) {
+                    for (Item item : tags.getTag(ModTags.Items.plasterStuccoTab)) {
+                        pItems.add(new ItemStack(item));
+                    }
+                }
+            }
+        };
+        new ModifiedTab("half_timbered_walls", () -> new ItemStack(Blocks.AIR)) {
+            @Override
+            public void fillItemList(NonNullList<ItemStack> pItems) {
+                ITagManager<Item> tags = ForgeRegistries.ITEMS.tags();
+                if (tags != null) {
+                    for (Item item : tags.getTag(ModTags.Items.halfTimberedWallTab)) {
+                        pItems.add(new ItemStack(item));
+                    }
+                }
+            }
+        };
+        new ModifiedTab("tiles_flooring", () -> new ItemStack(Blocks.BROWN_GLAZED_TERRACOTTA)) {
+            @Override
+            public void fillItemList(NonNullList<ItemStack> pItems) {
+                ITagManager<Item> tags = ForgeRegistries.ITEMS.tags();
+                if (tags != null) {
+                    for (Item item : tags.getTag(ModTags.Items.tilesFlooringTab)) {
+                        pItems.add(new ItemStack(item));
+                    }
+                }
+            }
+        };
+        new ModifiedTab("glass_windows", () -> new ItemStack(Blocks.GLASS)) {
+            @Override
+            public void fillItemList(NonNullList<ItemStack> pItems) {
+                ITagManager<Item> tags = ForgeRegistries.ITEMS.tags();
+                if (tags != null) {
+                    for (Item item : tags.getTag(ModTags.Items.glassWindowsTab)) {
+                        pItems.add(new ItemStack(item));
+                    }
+                }
+            }
+        };
+        new ModifiedTab("lighting", () -> new ItemStack(Blocks.LANTERN)) {
+            @Override
+            public void fillItemList(NonNullList<ItemStack> pItems) {
+                ITagManager<Item> tags = ForgeRegistries.ITEMS.tags();
+                if (tags != null) {
+                    for (Item item : tags.getTag(ModTags.Items.lightingTab)) {
+                        pItems.add(new ItemStack(item));
+                    }
+                }
             }
         };
         new ModifiedTab("crafting", () -> new ItemStack(Items.CRAFTING_TABLE)) {
             @Override
             public void fillItemList(NonNullList<ItemStack> pItems) {
-                for(Item item : ModifiedTab.getItems()) {
-                    if (Block.byItem(item) instanceof CraftingTableBlock
-                            || Block.byItem(item) instanceof FurnaceBlock
-                            || Block.byItem(item) instanceof BarrelBlock
-                            || Block.byItem(item) instanceof LecternBlock
-                            || Block.byItem(item) instanceof CartographyTableBlock
-                            || Block.byItem(item) instanceof ComposterBlock
-                            || Block.byItem(item) instanceof FletchingTableBlock
-                            || Block.byItem(item) instanceof SmithingTableBlock
-                            || Block.byItem(item) instanceof LoomBlock
-                            || Block.byItem(item) instanceof GrindstoneBlock
-                            || Block.byItem(item) instanceof BlastFurnaceBlock
-                            || Block.byItem(item) instanceof SmokerBlock
-                            || Block.byItem(item) instanceof StonecutterBlock
-                            || Block.byItem(item) instanceof AnvilBlock
-                            || Block.byItem(item) instanceof EnchantmentTableBlock
-                            || Block.byItem(item) instanceof BrewingStandBlock
-                            || Block.byItem(item) instanceof CauldronBlock
-                            || Block.byItem(item) instanceof BeehiveBlock
-                            || Block.byItem(item) instanceof BellBlock)
-                    {
+                ITagManager<Item> tags = ForgeRegistries.ITEMS.tags();
+                if (tags != null) {
+                    for (Item item : tags.getTag(ModTags.Items.craftingTab)) {
                         pItems.add(new ItemStack(item));
                     }
                 }
@@ -160,177 +163,196 @@ public class CreativeTabs {
         };
         new ModifiedTab("stone", () -> new ItemStack(Blocks.STONE)) {
             @Override
-            public boolean keyIsCorrect(Item item, ResourceLocation key) {
-                boolean b = ModBlockFamilies.getAllFamilies().anyMatch(p -> p.getBaseBlock() == Block.byItem(item));
-
-                if ((key.getPath().equals("black_granite")
-                        || key.getPath().equals("brown_granite")
-                        || key.getPath().equals("gray_granite")
-                        || key.getPath().equals("pink_granite")
-                        || key.getPath().equals("granite")
-                        || key.getPath().equals("white_granite")
-
-                        || key.getPath().equals("dark_limestone")
-                        || key.getPath().equals("light_limestone")
-                        || key.getPath().equals("stone")
-                        || key.getPath().equals("pink_limestone")
-                        || key.getPath().equals("tan_limestone")
-
-                        || key.getPath().equals("black_marble")
-                        || key.getPath().equals("gray_marble")
-                        || key.getPath().equals("pink_marble")
-                        || key.getPath().equals("red_marble")
-                        || key.getPath().equals("white_marble")
-
-                        || key.getPath().equals("brown_sandstone")
-                        || key.getPath().equals("orange_sandstone")
-                        || key.getPath().equals("red_sandstone")
-                        || key.getPath().equals("sandstone")
-                )) {
-                    return b;
+            public void fillItemList(NonNullList<ItemStack> pItems) {
+                ITagManager<Item> tags = ForgeRegistries.ITEMS.tags();
+                if (tags != null) {
+                    for (Item item : tags.getTag(ModTags.Items.stoneTab)) {
+                        pItems.add(new ItemStack(item));
+                    }
                 }
-                return false;
             }
         };
         new ModifiedTab("sand_gravel", () -> new ItemStack(Blocks.SAND)) {
-
             @Override
-            public boolean keyIsCorrect(Item item, ResourceLocation key) {
-                return key.getPath().endsWith("sand") || key.getPath().endsWith("gravel");
+            public void fillItemList(NonNullList<ItemStack> pItems) {
+                ITagManager<Item> tags = ForgeRegistries.ITEMS.tags();
+                if (tags != null) {
+                    for (Item item : tags.getTag(ModTags.Items.sandGravelTab)) {
+                        pItems.add(new ItemStack(item));
+                    }
+                }
             }
         };
         new ModifiedTab("grass_dirt", () -> new ItemStack(Blocks.GRASS_BLOCK)) {
-
             @Override
-            public boolean keyIsCorrect(Item item, ResourceLocation key) {
-                return key.getPath().endsWith("grass_block") || key.getPath().contains("dirt");
+            public void fillItemList(NonNullList<ItemStack> pItems) {
+                ITagManager<Item> tags = ForgeRegistries.ITEMS.tags();
+                if (tags != null) {
+                    for (Item item : tags.getTag(ModTags.Items.grassDirtTab)) {
+                        pItems.add(new ItemStack(item));
+                    }
+                }
             }
         };
         new ModifiedTab("metals_ores", () -> new ItemStack(Blocks.GOLD_ORE)) {
             @Override
             public void fillItemList(NonNullList<ItemStack> pItems) {
-                for(Item item : ModifiedTab.getItems()) {
-                    if (Block.byItem(item) instanceof OreBlock
-                            ) {
+                ITagManager<Item> tags = ForgeRegistries.ITEMS.tags();
+                if (tags != null) {
+                    for (Item item : tags.getTag(ModTags.Items.metalsOresTab)) {
                         pItems.add(new ItemStack(item));
                     }
                 }
             }
+//            @Override
+//            public void fillItemList(NonNullList<ItemStack> pItems) {
+//                for(Item item : ModifiedTab.getItems()) {
+//                    if (Block.byItem(item) instanceof OreBlock
+//                            ) {
+//                        pItems.add(new ItemStack(item));
+//                    }
+//                }
+//            }
 
         };
         new ModifiedTab("logs", () -> new ItemStack(Blocks.OAK_LOG)) {
-
+            @Override
+            public void fillItemList(NonNullList<ItemStack> pItems) {
+                ITagManager<Item> tags = ForgeRegistries.ITEMS.tags();
+                if (tags != null) {
+                    for (Item item : tags.getTag(ModTags.Items.logsTab)) {
+                        pItems.add(new ItemStack(item));
+                    }
+                }
+            }
             @Override
             public boolean keyIsCorrect(Item item, ResourceLocation key) {
                 return key.getPath().endsWith("_log");
             }
         };
         new ModifiedTab("leaves", () -> new ItemStack(Blocks.ACACIA_LEAVES)) {
-
             @Override
-            public boolean keyIsCorrect(Item item, ResourceLocation key) {
-                return Block.byItem(item) instanceof LeavesBlock;
+            public void fillItemList(NonNullList<ItemStack> pItems) {
+                ITagManager<Item> tags = ForgeRegistries.ITEMS.tags();
+                if (tags != null) {
+                    for (Item item : tags.getTag(ModTags.Items.leavesTab)) {
+                        pItems.add(new ItemStack(item));
+                    }
+                }
             }
         };
-        new ModifiedTab("flowers", () -> new ItemStack(Blocks.AZURE_BLUET)) {
-
+        new ModifiedTab("flowers_plants", () -> new ItemStack(Blocks.POPPY)) {
+            @Override
+            public void fillItemList(NonNullList<ItemStack> pItems) {
+                ITagManager<Item> tags = ForgeRegistries.ITEMS.tags();
+                if (tags != null) {
+                    for (Item item : tags.getTag(ModTags.Items.flowersPlantsTab)) {
+                        pItems.add(new ItemStack(item));
+                    }
+                }
+            }
             @Override
             public boolean keyIsCorrect(Item item, ResourceLocation key) {
                 return Block.byItem(item) instanceof FlowerBlock;
             }
         };
         new ModifiedTab("crops", () -> new ItemStack(Blocks.WHEAT)) {
-
             @Override
-            public boolean keyIsCorrect(Item item, ResourceLocation key) {
-                return Block.byItem(item) instanceof CropBlock;
+            public void fillItemList(NonNullList<ItemStack> pItems) {
+                ITagManager<Item> tags = ForgeRegistries.ITEMS.tags();
+                if (tags != null) {
+                    for (Item item : tags.getTag(ModTags.Items.cropsTab)) {
+                        pItems.add(new ItemStack(item));
+                    }
+                }
             }
         };
         new ModifiedTab("decor", () -> new ItemStack(Blocks.BLUE_BANNER)) {
             @Override
             public void fillItemList(NonNullList<ItemStack> pItems) {
-                for(Item item : ModifiedTab.getItems()) {
-                    if (Block.byItem(item) instanceof CarpetBlock
-                            || Block.byItem(item) instanceof BannerBlock
-                            || Block.byItem(item) instanceof WallBannerBlock
-                            // TODO: ADD PAINTINGS & ITEM FRAMES & MIRROR
-
-                            || Block.byItem(item) instanceof FlowerPotBlock
-                            || Block.byItem(item) instanceof SkullBlock
-                            || Block.byItem(item) instanceof BarrelBlock
-                            || Block.byItem(item) instanceof LecternBlock
-                            || Block.byItem(item) instanceof BellBlock) {
+                ITagManager<Item> tags = ForgeRegistries.ITEMS.tags();
+                if (tags != null) {
+                    for (Item item : tags.getTag(ModTags.Items.decorTab)) {
                         pItems.add(new ItemStack(item));
                     }
                 }
             }
-
         };
         new ModifiedTab("furniture", () -> new ItemStack(Blocks.BROWN_BED)) {
             @Override
             public void fillItemList(NonNullList<ItemStack> pItems) {
-                for(Item item : ModifiedTab.getItems()) {
-                    if (Block.byItem(item) instanceof BedBlock
-                    ) {
+                ITagManager<Item> tags = ForgeRegistries.ITEMS.tags();
+                if (tags != null) {
+                    for (Item item : tags.getTag(ModTags.Items.furnitureTab)) {
                         pItems.add(new ItemStack(item));
                     }
                 }
             }
-
-
         };
         new ModifiedTab("storage", () -> new ItemStack(Blocks.CHEST)) {
             @Override
-            public boolean keyIsCorrect(Item item, ResourceLocation key) {
-                return key.getPath().contains("storage")
-                        || key.getPath().endsWith("chest")
-                        || key.getPath().endsWith("barrel")
-                        || key.getPath().endsWith("shulker_box")
-                        || key.getPath().endsWith("hopper")
-                        || key.getPath().endsWith("dispenser")
-                        || key.getPath().endsWith("dropper");
+            public void fillItemList(NonNullList<ItemStack> pItems) {
+                ITagManager<Item> tags = ForgeRegistries.ITEMS.tags();
+                if (tags != null) {
+                    for (Item item : tags.getTag(ModTags.Items.storageTab)) {
+                        pItems.add(new ItemStack(item));
+                    }
+                }
             }
-
         };
         new ModifiedTab("redstone", () -> new ItemStack(Items.REDSTONE)) {
             @Override
             public void fillItemList(NonNullList<ItemStack> pItems) {
-                for(Item item : ModifiedTab.getItems()) {
-                    item.fillItemCategory(TAB_REDSTONE, pItems);
+                ITagManager<Item> tags = ForgeRegistries.ITEMS.tags();
+                if (tags != null) {
+                    for (Item item : tags.getTag(ModTags.Items.redstoneTab)) {
+                        pItems.add(new ItemStack(item));
+                    }
                 }
             }
         };
         new ModifiedTab("food", () -> new ItemStack(Items.APPLE)) {
             @Override
             public void fillItemList(NonNullList<ItemStack> pItems) {
-                for(Item item : ModifiedTab.getItems()) {
-                    item.fillItemCategory(TAB_FOOD, pItems);
+                ITagManager<Item> tags = ForgeRegistries.ITEMS.tags();
+                if (tags != null) {
+                    for (Item item : tags.getTag(ModTags.Items.foodTab)) {
+                        pItems.add(new ItemStack(item));
+                    }
                 }
             }
         };
         new ModifiedTab("tools_weapons", () -> new ItemStack(Items.IRON_SWORD)) {
             @Override
             public void fillItemList(NonNullList<ItemStack> pItems) {
-                for(Item item : ForgeRegistries.ITEMS) {
-                    if (!(item instanceof ArmorItem || item instanceof EnchantedBookItem)) {
-                        item.fillItemCategory(TAB_COMBAT, pItems);
-                        item.fillItemCategory(TAB_TOOLS, pItems);
+                ITagManager<Item> tags = ForgeRegistries.ITEMS.tags();
+                if (tags != null) {
+                    for (Item item : tags.getTag(ModTags.Items.toolsWeaponsTab)) {
+                        pItems.add(new ItemStack(item));
                     }
                 }
             }
+//            @Override
+//            public void fillItemList(NonNullList<ItemStack> pItems) {
+//                for(Item item : ForgeRegistries.ITEMS) {
+//                    if (!(item instanceof ArmorItem || item instanceof EnchantedBookItem)) {
+//                        item.fillItemCategory(TAB_COMBAT, pItems);
+//                        item.fillItemCategory(TAB_TOOLS, pItems);
+//                    }
+//                }
+//            }
         };
         new ModifiedTab("armor", () -> new ItemStack(Items.IRON_CHESTPLATE)) {
             @Override
             public void fillItemList(NonNullList<ItemStack> pItems) {
-                for(Item item : ModifiedTab.getItems()) {
-                    if (item instanceof ArmorItem
-                            || item instanceof HorseArmorItem) {
+                ITagManager<Item> tags = ForgeRegistries.ITEMS.tags();
+                if (tags != null) {
+                    for (Item item : tags.getTag(ModTags.Items.armorTab)) {
                         pItems.add(new ItemStack(item));
                     }
                 }
             }
         };
-
 
         // copy mc tabs
         if (removeMCTabs) {
@@ -338,17 +360,7 @@ public class CreativeTabs {
             new ReplicaTab(CreativeModeTab.TAB_MISC);
         }
 
-        // example with mc families
-//        new ModifiedTab("example", () -> new ItemStack(Items.CRAFTING_TABLE)) {
-//            @Override
-//            public void fillItemList(NonNullList<ItemStack> pItems) {
-//                for (Block value : BlockFamilies.ACACIA_PLANKS.getVariants().values()) {
-//                    pItems.add(new ItemStack(value));
-//                }
-//            }
-//        };
-
-        // adding other mods tabs
+        // add other mods tabs
         List<CreativeModeTab> tabs = Lists.newArrayList(TABS);
         tabs.removeAll(getVanillaGroups());
         for (CreativeModeTab modTab : tabs) {
@@ -412,36 +424,6 @@ public class CreativeTabs {
             return true;
         }
 
-        public boolean tabTag(TagKey tag) {
-            return tag.equals(ModTags.Items.armorTab)
-                    || tag.equals(ModTags.Items.brewingTab)
-                    || tag.equals(ModTags.Items.cobbleBricksTab)
-                    || tag.equals(ModTags.Items.craftingTab)
-                    || tag.equals(ModTags.Items.cropsTab)
-                    || tag.equals(ModTags.Items.decorTab)
-                    || tag.equals(ModTags.Items.flowersTab)
-                    || tag.equals(ModTags.Items.foodTab)
-                    || tag.equals(ModTags.Items.furnitureTab)
-                    || tag.equals(ModTags.Items.glassWindowsTab)
-                    || tag.equals(ModTags.Items.grassDirtTab)
-                    || tag.equals(ModTags.Items.halfTimberedWallTab)
-                    || tag.equals(ModTags.Items.leavesTab)
-                    || tag.equals(ModTags.Items.lightingTab)
-                    || tag.equals(ModTags.Items.logsTab)
-                    || tag.equals(ModTags.Items.metalsOresTab)
-                    || tag.equals(ModTags.Items.miscTab)
-                    || tag.equals(ModTags.Items.planksBeamsTab)
-                    || tag.equals(ModTags.Items.plasterStuccoTab)
-                    || tag.equals(ModTags.Items.redstoneTab)
-                    || tag.equals(ModTags.Items.sandGravelTab)
-                    || tag.equals(ModTags.Items.stoneTab)
-                    || tag.equals(ModTags.Items.storageTab)
-                    || tag.equals(ModTags.Items.tilesFlooringTab)
-                    || tag.equals(ModTags.Items.toolsWeaponsTab);
-
-        }
-
-
         // Orignal
         @Override
         public void fillItemList(NonNullList<ItemStack> pItems) {
@@ -452,18 +434,6 @@ public class CreativeTabs {
                 }
             }
         }
-
-        // via Tags
-//        @Override
-//        public void fillItemList(NonNullList<ItemStack> pItems) {
-//            for(Item item : ModifiedTab.getItems()) {
-//                ModTags tag = ForgeRegistries.ITEMS.getKey(item).getNamespace().equals("caliber") ? ModTags.Items.class;
-//                ResourceLocation key = ForgeRegistries.ITEMS.getKey(item);
-//                if (key != null && tabTag(tag)) {
-//                    pItems.add(new ItemStack(item));
-//                }
-//            }
-//        }
 
             // Sorted or Not Sorted via Config
 //        private static List<Item> getItems() {

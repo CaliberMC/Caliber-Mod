@@ -51,7 +51,7 @@ public class ModConfiguredFeatures {
 
     public static final List<OreConfiguration.TargetBlockState> OVERWORLD_DARK_LIMESTONE_ORE = List.of(
             OreConfiguration.target(OreFeatures.NATURAL_STONE, ModBlocks.DARK_LIMESTONE.get().defaultBlockState()));
-    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> DARK_LIMESTONE_ORE = FeatureUtils.register("black_granite_ore",
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> DARK_LIMESTONE_ORE = FeatureUtils.register("dark_limestone_ore",
             Feature.ORE, new OreConfiguration(OVERWORLD_DARK_LIMESTONE_ORE, 64));
     public static final List<OreConfiguration.TargetBlockState> OVERWORLD_LIGHT_LIMESTONE_ORE = List.of(
             OreConfiguration.target(OreFeatures.NATURAL_STONE, ModBlocks.LIGHT_LIMESTONE.get().defaultBlockState()));

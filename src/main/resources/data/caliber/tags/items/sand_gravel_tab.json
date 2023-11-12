@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "caliber:white_sand",
+    "minecraft:sand",
+    "caliber:orange_sand",
+    "minecraft:red_sand",
+    "caliber:brown_sand",
+    "caliber:black_sand",
+    "minecraft:soul_sand",
+    "minecraft:gravel"
+  ]
+}

@@ -32,7 +32,7 @@ public class ModTags {
         public static final TagKey<Item> craftingTab = tag("crafting_tab");
         public static final TagKey<Item> cropsTab = tag("crops_tab");
         public static final TagKey<Item> decorTab = tag("decor_tab");
-        public static final TagKey<Item> flowersTab = tag("flowers_tab");
+        public static final TagKey<Item> flowersPlantsTab = tag("flowers_plants_tab");
         public static final TagKey<Item> foodTab = tag("food_tab");
         public static final TagKey<Item> furnitureTab = tag("furniture_tab");
         public static final TagKey<Item> glassWindowsTab = tag("glass_windows_tab");
@@ -46,6 +46,7 @@ public class ModTags {
         public static final TagKey<Item> planksBeamsTab = tag("planks_beams_tab");
         public static final TagKey<Item> plasterStuccoTab = tag("plaster_stucco_tab");
         public static final TagKey<Item> redstoneTab = tag("redstone_tab");
+        public static final TagKey<Item> roofingTab = tag("roofing_tab");
         public static final TagKey<Item> sandGravelTab = tag("sand_gravel_tab");
         public static final TagKey<Item> stoneTab = tag("stone_tab");
         public static final TagKey<Item> storageTab = tag("storage_tab");
