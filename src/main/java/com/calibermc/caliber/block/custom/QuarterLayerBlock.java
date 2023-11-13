@@ -36,6 +36,7 @@ public class QuarterLayerBlock extends Block implements SimpleWaterloggedBlock {
     public static final EnumProperty<QuarterShape> TYPE = ModBlockStateProperties.QUARTER_SHAPE;
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
+
     public static final Map<Direction, VoxelShape> TOP_SHAPE = Maps.newEnumMap(ImmutableMap.of(
             Direction.NORTH, Block.box(0, 8, 8, 16, 16, 16),
             Direction.SOUTH, Block.box(0, 8, 0, 16, 16, 8),

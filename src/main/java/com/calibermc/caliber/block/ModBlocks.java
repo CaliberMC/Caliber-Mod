@@ -1269,6 +1269,8 @@ public class ModBlocks {
             () -> new SlabLayerBlock(BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> LIGHT_LIMESTONE_BRICK_SLAB = registerBlock("light_limestone_brick_slab",
             () -> new SlabLayerBlock(BlockProps.LIMESTONE_BRICK.get()));
+    public static final RegistryObject<Block> LIMESTONE_BRICK_SLAB = registerBlock("limestone_brick_slab",
+            () -> new SlabLayerBlock(BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> PINK_LIMESTONE_BRICK_SLAB = registerBlock("pink_limestone_brick_slab",
             () -> new SlabLayerBlock(BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> TAN_LIMESTONE_BRICK_SLAB = registerBlock("tan_limestone_brick_slab",
@@ -1462,6 +1464,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> MOSSY_DARK_LIMESTONE_BRICK_SLAB = registerBlock("mossy_dark_limestone_brick_slab",
             () -> new SlabLayerBlock(BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> MOSSY_LIGHT_LIMESTONE_BRICK_SLAB = registerBlock("mossy_light_limestone_brick_slab",
+            () -> new SlabLayerBlock(BlockProps.LIMESTONE_BRICK.get()));
+    public static final RegistryObject<Block> MOSSY_LIMESTONE_BRICK_SLAB = registerBlock("mossy_limestone_brick_slab",
             () -> new SlabLayerBlock(BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> MOSSY_PINK_LIMESTONE_BRICK_SLAB = registerBlock("mossy_pink_limestone_brick_slab",
             () -> new SlabLayerBlock(BlockProps.LIMESTONE_BRICK.get()));

@@ -37,7 +37,6 @@ public class VerticalSlabLayerBlock extends Block implements SimpleWaterloggedBl
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
     public static final EnumProperty<VerticalSlabShape> TYPE = ModBlockStateProperties.VERTICAL_SLAB_SHAPE;
 
-
     public static final Map<Direction, VoxelShape> SHAPE = Maps.newEnumMap(ImmutableMap.of(
             Direction.NORTH, Block.box(0, 0, 8, 16, 16, 16),
             Direction.SOUTH, Block.box(0, 0, 0, 16, 16, 8),
