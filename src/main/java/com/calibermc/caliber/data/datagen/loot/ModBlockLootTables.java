@@ -1227,11 +1227,26 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.SMOOTH_RED_SANDSTONE_WINDOW_HALF.get());
         this.dropSelf(ModBlocks.SMOOTH_SANDSTONE_WINDOW_HALF.get());
 
-        // -- SAND
+        // -- TERRAIN
         this.dropSelf(ModBlocks.BLACK_SAND.get());
         this.dropSelf(ModBlocks.BROWN_SAND.get());
         this.dropSelf(ModBlocks.ORANGE_SAND.get());
         this.dropSelf(ModBlocks.WHITE_SAND.get());
+        this.dropSelf(ModBlocks.BLACK_SAND_LAYER.get());
+        this.dropSelf(ModBlocks.BROWN_SAND_LAYER.get());
+        this.dropSelf(ModBlocks.ORANGE_SAND_LAYER.get());
+        this.dropSelf(ModBlocks.RED_SAND_LAYER.get());
+        this.dropSelf(ModBlocks.SAND_LAYER.get());
+        this.dropSelf(ModBlocks.WHITE_SAND_LAYER.get());
+
+        this.dropSelf(ModBlocks.COARSE_DIRT_LAYER.get());
+        this.dropSelf(ModBlocks.DIRT_LAYER.get());
+        this.dropSelf(ModBlocks.CLAY_LAYER.get());
+        this.dropSelf(ModBlocks.GRAVEL_LAYER.get());
+        this.dropSelf(ModBlocks.GRASS_LAYER.get());
+        this.dropSelf(ModBlocks.PODZOL_LAYER.get());
+        this.dropSelf(ModBlocks.CRIMSON_NYLIUM_LAYER.get());
+        this.dropSelf(ModBlocks.WARPED_NYLIUM_LAYER.get());
 
         // -- WOOD PLANKS
         this.dropSelf(ModBlocks.ACACIA_BALUSTRADE.get());

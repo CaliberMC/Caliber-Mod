@@ -2365,16 +2365,47 @@ public class ModBlocks {
             () -> new HalfWindowBlock(BlockProps.SMOOTH_SANDSTONE.get()));
 
      // -- TERRAIN
-     public static final RegistryObject<Block> BLACK_SAND = registerBlock("black_sand",
-             () -> new SandBlock(0, BlockProps.SAND.get()));
+
+    public static final RegistryObject<Block> BLACK_SAND = registerBlock("black_sand",
+             () -> new SandBlock(2, BlockProps.SAND.get()));
     public static final RegistryObject<Block> BROWN_SAND = registerBlock("brown_sand",
-            () -> new SandBlock(0, BlockProps.SAND.get()));
+            () -> new SandBlock(2, BlockProps.SAND.get()));
     public static final RegistryObject<Block> ORANGE_SAND = registerBlock("orange_sand",
-            () -> new SandBlock(0, BlockProps.SAND.get()));
+            () -> new SandBlock(2, BlockProps.SAND.get()));
     public static final RegistryObject<Block> WHITE_SAND = registerBlock("white_sand",
-            () -> new SandBlock(0, BlockProps.SAND.get()));
-//    public static final RegistryObject<Block> GRASS_LAYER = registerBlock("grass_layer",
-//            () -> new TerrainLayerBlock(BlockProps.GRASS.get()));
+            () -> new SandBlock(2, BlockProps.SAND.get()));
+    public static final RegistryObject<Block> BLACK_SAND_LAYER = registerBlock("black_sand_layer",
+            () -> new FallingLayerBlock(BlockProps.SAND.get()));
+    public static final RegistryObject<Block> BROWN_SAND_LAYER = registerBlock("brown_sand_layer",
+            () -> new FallingLayerBlock(BlockProps.SAND.get()));
+    public static final RegistryObject<Block> ORANGE_SAND_LAYER = registerBlock("orange_sand_layer",
+            () -> new FallingLayerBlock(BlockProps.SAND.get()));
+    public static final RegistryObject<Block> RED_SAND_LAYER = registerBlock("red_sand_layer",
+            () -> new FallingLayerBlock(BlockProps.SAND.get()));
+    public static final RegistryObject<Block> SAND_LAYER = registerBlock("sand_layer",
+            () -> new FallingLayerBlock(BlockProps.SAND.get()));
+    public static final RegistryObject<Block> WHITE_SAND_LAYER = registerBlock("white_sand_layer",
+            () -> new FallingLayerBlock(BlockProps.SAND.get()));
+
+    public static final RegistryObject<Block> COARSE_DIRT_LAYER = registerBlock("coarse_dirt_layer",
+            () -> new TerrainLayerBlock(BlockProps.DIRT.get()));
+    public static final RegistryObject<Block> CLAY_LAYER = registerBlock("clay_layer",
+            () -> new TerrainLayerBlock(BlockProps.DIRT.get()));
+    public static final RegistryObject<Block> CRIMSON_NYLIUM_LAYER = registerBlock("crimson_nylium_layer",
+            () -> new TerrainLayerBlock(BlockProps.NYLIUM.get()));
+    public static final RegistryObject<Block> WARPED_NYLIUM_LAYER = registerBlock("warped_nylium_layer",
+            () -> new TerrainLayerBlock(BlockProps.NYLIUM.get()));
+    public static final RegistryObject<Block> DIRT_LAYER = registerBlock("dirt_layer",
+            () -> new TerrainLayerBlock(BlockProps.DIRT.get()));
+    public static final RegistryObject<Block> GRASS_LAYER = registerBlock("grass_layer",
+            () -> new TerrainLayerBlock(BlockProps.GRASS.get()));
+    public static final RegistryObject<Block> GRAVEL_LAYER = registerBlock("gravel_layer",
+            () -> new FallingLayerBlock(BlockProps.GRAVEL.get()));
+    public static final RegistryObject<Block> PODZOL_LAYER = registerBlock("podzol_layer",
+            () -> new TerrainLayerBlock(BlockProps.DIRT.get()));
+//    public static final RegistryObject<Block> MYCELIUM_LAYER = registerBlock("mycelium_layer",
+//            () -> new TerrainLayerBlock(BlockProps.DIRT.get()));
+
 
     // WOOD BLOCKS
     public static final RegistryObject<Block> ACACIA_BALUSTRADE = registerBlock("acacia_balustrade",

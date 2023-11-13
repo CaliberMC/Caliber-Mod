@@ -1,0 +1,9 @@
+{
+  "parent": "caliber:block/slab_layer_3",
+  "textures": {
+    "side": "minecraft:block/crimson_nylium",
+    "bottom": "minecraft:block/crimson_nylium",
+    "top": "minecraft:block/crimson_nylium"
+  }
+}
+

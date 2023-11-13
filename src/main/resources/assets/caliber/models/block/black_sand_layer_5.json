@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/slab_layer_5",
+  "textures": {
+    "side": "caliber:block/black_sand",
+    "bottom": "caliber:block/black_sand",
+    "top": "caliber:block/black_sand"
+  }
+}

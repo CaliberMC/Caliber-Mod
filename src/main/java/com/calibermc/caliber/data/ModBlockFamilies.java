@@ -1832,6 +1832,48 @@ public class ModBlockFamilies {
             .button(Blocks.SPRUCE_BUTTON)
             .sign(Blocks.SPRUCE_SIGN, Blocks.SPRUCE_WALL_SIGN)
             .getFamily();
+    public static final ModBlockFamily BLACK_SAND = familyBuilder(ModBlocks.BLACK_SAND.get())
+            .layer(ModBlocks.BLACK_SAND_LAYER.get())
+            .getFamily();
+    public static final ModBlockFamily BROWN_SAND = familyBuilder(ModBlocks.BROWN_SAND.get())
+            .layer(ModBlocks.BROWN_SAND_LAYER.get())
+            .getFamily();
+    public static final ModBlockFamily ORANGE_SAND = familyBuilder(ModBlocks.ORANGE_SAND.get())
+            .layer(ModBlocks.ORANGE_SAND_LAYER.get())
+            .getFamily();
+    public static final ModBlockFamily RED_SAND = familyBuilder(Blocks.RED_SAND)
+            .layer(ModBlocks.RED_SAND_LAYER.get())
+            .getFamily();
+    public static final ModBlockFamily SAND = familyBuilder(Blocks.SAND)
+            .layer(ModBlocks.SAND_LAYER.get())
+            .getFamily();
+    public static final ModBlockFamily WHITE_SAND = familyBuilder(ModBlocks.WHITE_SAND.get())
+            .layer(ModBlocks.WHITE_SAND_LAYER.get())
+            .getFamily();
+    public static final ModBlockFamily CLAY = familyBuilder(Blocks.CLAY)
+            .layer(ModBlocks.CLAY_LAYER.get())
+            .getFamily();
+    public static final ModBlockFamily COARSE_DIRT = familyBuilder(Blocks.COARSE_DIRT)
+            .layer(ModBlocks.COARSE_DIRT_LAYER.get())
+            .getFamily();
+    public static final ModBlockFamily DIRT = familyBuilder(Blocks.DIRT)
+            .layer(ModBlocks.DIRT_LAYER.get())
+            .getFamily();
+    public static final ModBlockFamily GRASS_BLOCK = familyBuilder(Blocks.GRASS_BLOCK)
+            .layer(ModBlocks.GRASS_LAYER.get())
+            .getFamily();
+    public static final ModBlockFamily GRAVEL = familyBuilder(Blocks.GRAVEL)
+            .layer(ModBlocks.GRAVEL_LAYER.get())
+            .getFamily();
+    public static final ModBlockFamily PODZOL = familyBuilder(Blocks.PODZOL)
+            .layer(ModBlocks.PODZOL_LAYER.get())
+            .getFamily();
+    public static final ModBlockFamily CRIMSON_NYLIUM = familyBuilder(Blocks.CRIMSON_NYLIUM)
+            .layer(ModBlocks.CRIMSON_NYLIUM_LAYER.get())
+            .getFamily();
+    public static final ModBlockFamily WARPED_NYLIUM = familyBuilder(Blocks.WARPED_NYLIUM)
+            .layer(ModBlocks.WARPED_NYLIUM_LAYER.get())
+            .getFamily();
 
     private static ModBlockFamily.Builder familyBuilder(Block pBaseBlock) {
         ModBlockFamily.Builder modBlockFamily$builder = new ModBlockFamily.Builder(pBaseBlock);
