@@ -1,7 +1,7 @@
 package com.calibermc.caliber.block.custom;
 
+import com.calibermc.caliber.block.shapes.SlabLayerShape;
 import com.calibermc.caliber.block.shapes.VerticalSlabShape;
-import com.calibermc.caliber.util.ModBlockStateProperties;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Maps;
 import net.minecraft.core.BlockPos;
@@ -19,12 +19,13 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
-import net.minecraft.world.level.block.state.properties.EnumProperty;
+import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.level.pathfinder.PathComputationType;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
 import javax.annotation.Nullable;
@@ -35,96 +36,140 @@ public class VerticalSlabLayerBlock extends Block implements SimpleWaterloggedBl
 
     public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
-    public static final EnumProperty<VerticalSlabShape> TYPE = ModBlockStateProperties.VERTICAL_SLAB_SHAPE;
+    public static final IntegerProperty LAYERS = BlockStateProperties.LAYERS;
+    public final int layerCount = 8;
 
-    public static final Map<Direction, VoxelShape> SHAPE = Maps.newEnumMap(ImmutableMap.of(
-            Direction.NORTH, Block.box(0, 0, 8, 16, 16, 16),
-            Direction.SOUTH, Block.box(0, 0, 0, 16, 16, 8),
-            Direction.EAST, Block.box(0, 0, 0, 8, 16, 16),
-            Direction.WEST, Block.box(8, 0, 0, 16, 16, 16)));
+    public static final VoxelShape[] SHAPE_NORTH = new VoxelShape[]{Shapes.empty(),
+            Block.box(0.0D, 0.0D, 14.0D, 16.0D, 16.0D, 16.0D),
+            Block.box(0.0D, 0.0D, 12.0D, 16.0D, 16.0D, 16.0D),
+            Block.box(0.0D, 0.0D, 10.0D, 16.0D, 16.0D, 16.0D),
+            Block.box(0.0D, 0.0D, 8.0D, 16.0D, 16.0D, 16.0D),
+            Block.box(0.0D, 0.0D, 6.0D, 16.0D, 16.0D, 16.0D),
+            Block.box(0.0D, 0.0D, 4.0D, 16.0D, 16.0D, 16.0D),
+            Block.box(0.0D, 0.0D, 2.0D, 16.0D, 16.0D, 16.0D),
+            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D)};
 
-    public static final VoxelShape DOUBLE = Block.box(0, 0, 0, 16, 16, 16);
+    public static final VoxelShape[] SHAPE_EAST = new VoxelShape[]{Shapes.empty(),
+            Block.box(0.0D, 0.0D, 0.0D, 2.0D, 16.0D, 16.0D),
+            Block.box(0.0D, 0.0D, 0.0D, 4.0D, 16.0D, 16.0D),
+            Block.box(0.0D, 0.0D, 0.0D, 6.0D, 16.0D, 16.0D),
+            Block.box(0.0D, 0.0D, 0.0D, 8.0D, 16.0D, 16.0D),
+            Block.box(0.0D, 0.0D, 0.0D, 10.0D, 16.0D, 16.0D),
+            Block.box(0.0D, 0.0D, 0.0D, 12.0D, 16.0D, 16.0D),
+            Block.box(0.0D, 0.0D, 0.0D, 14.0D, 16.0D, 16.0D),
+            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D)};
+
+    public static final VoxelShape[] SHAPE_SOUTH = new VoxelShape[]{Shapes.empty(),
+            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 2.0D),
+            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 4.0D),
+            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 6.0D),
+            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 8.0D),
+            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 10.0D),
+            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 12.0D),
+            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 14.0D),
+            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D)};
+
+    public static final VoxelShape[] SHAPE_WEST = new VoxelShape[]{Shapes.empty(),
+            Block.box(14.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D),
+            Block.box(12.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D),
+            Block.box(10.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D),
+            Block.box(8.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D),
+            Block.box(6.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D),
+            Block.box(4.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D),
+            Block.box(2.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D),
+            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D)};
 
     public VerticalSlabLayerBlock(Properties properties) {
         super(properties);
         this.registerDefaultState(this.stateDefinition.any()
+                .setValue(LAYERS, 4)
                 .setValue(FACING, Direction.NORTH)
-                .setValue(TYPE, VerticalSlabShape.SINGLE)
                 .setValue(WATERLOGGED, Boolean.FALSE));
+
     }
 
     @Override
     public boolean useShapeForLightOcclusion(BlockState pState) {
-        return true;
+        return pState.getValue(LAYERS) != 8;
+//        return true;
     }
 
     @Override
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> pBuilder) {
-        pBuilder.add(FACING, TYPE, WATERLOGGED);
+        pBuilder.add(FACING, LAYERS, WATERLOGGED);
     }
 
     @Override
     public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
-        VerticalSlabShape verticalSlabShape = pState.getValue(TYPE);
-        return switch (verticalSlabShape) {
-            case DOUBLE -> DOUBLE;
-            default -> SHAPE.get(pState.getValue(FACING));
-        };
+        Direction direction = pState.getValue(FACING);
+        switch (direction) {
+            case EAST:
+                return SHAPE_EAST[pState.getValue(LAYERS)];
+            case SOUTH:
+                return SHAPE_SOUTH[pState.getValue(LAYERS)];
+            case WEST:
+                return SHAPE_WEST[pState.getValue(LAYERS)];
+            default:
+                return SHAPE_NORTH[pState.getValue(LAYERS)];
+        }
     }
 
-
-    @Override
     @Nullable
+    @Override
     public BlockState getStateForPlacement(BlockPlaceContext pContext) {
         BlockPos blockpos = pContext.getClickedPos();
         BlockState blockstate = pContext.getLevel().getBlockState(blockpos);
+        FluidState fluidstate = pContext.getLevel().getFluidState(blockpos);
         if (blockstate.is(this)) {
-            return blockstate.setValue(TYPE, VerticalSlabShape.DOUBLE).setValue(WATERLOGGED, Boolean.FALSE);
+            int i = blockstate.getValue(LAYERS);
+            int newCount = Math.min(layerCount, i + 1);
+            return blockstate.setValue(LAYERS, Integer.valueOf(newCount)).
+                    setValue(WATERLOGGED, Boolean.valueOf((newCount < layerCount) && fluidstate.is(FluidTags.WATER)));
         } else {
-            FluidState fluidstate = pContext.getLevel().getFluidState(blockpos);
-            BlockState blockstate1 = this.defaultBlockState().setValue(FACING, pContext.getHorizontalDirection().getOpposite())
-                    .setValue(TYPE, VerticalSlabShape.SINGLE).setValue(WATERLOGGED, fluidstate.getType() == Fluids.WATER);
-            Direction direction = pContext.getClickedFace();
-            return direction != Direction.DOWN && (direction == Direction.UP ||
-                    !(pContext.getClickLocation().y - (double)blockpos.getY() > 0.5D)) ? blockstate1 :
-                    blockstate1.setValue(FACING, pContext.getHorizontalDirection().getOpposite()).setValue(TYPE, VerticalSlabShape.SINGLE);
+            return this.defaultBlockState().setValue(LAYERS, 1).setValue(FACING, pContext.getHorizontalDirection()
+                    .getOpposite()).setValue(WATERLOGGED, Boolean.valueOf(fluidstate.getType() == Fluids.WATER));
         }
     }
 
-    @Override
-    public boolean canBeReplaced(BlockState pState, BlockPlaceContext pUseContext) {
-        ItemStack itemstack = pUseContext.getItemInHand();
-        VerticalSlabShape verticalSlabShape = pState.getValue(TYPE);
-        if (verticalSlabShape != VerticalSlabShape.DOUBLE && itemstack.is(this.asItem())) {
-            if (pUseContext.replacingClickedOnBlock()) {
-                boolean flag = pUseContext.getClickLocation().y - (double)pUseContext.getClickedPos().getY() > 0.5D;
-                Direction direction = pUseContext.getClickedFace();
-                if (verticalSlabShape == VerticalSlabShape.SINGLE) {
-                    return direction == Direction.UP || flag && direction.getAxis().isHorizontal();
-                } else {
-                    return direction == Direction.DOWN || !flag && direction.getAxis().isHorizontal();
-                }
-            } else {
-                return true;
-            }
-        } else {
-            return false;
+//    @Override
+//    @Nullable
+//    public BlockState getStateForPlacement(BlockPlaceContext pContext) {
+//        BlockPos blockpos = pContext.getClickedPos();
+//        BlockState blockstate = pContext.getLevel().getBlockState(blockpos);
+//        if (blockstate.is(this)) {
+//            return blockstate.setValue(TYPE, VerticalSlabShape.DOUBLE).setValue(WATERLOGGED, Boolean.FALSE);
+//        } else {
+//            FluidState fluidstate = pContext.getLevel().getFluidState(blockpos);
+//            BlockState blockstate1 = this.defaultBlockState().setValue(FACING, pContext.getHorizontalDirection().getOpposite())
+//                    .setValue(TYPE, VerticalSlabShape.SINGLE).setValue(WATERLOGGED, fluidstate.getType() == Fluids.WATER);
+//            Direction direction = pContext.getClickedFace();
+//            return direction != Direction.DOWN && (direction == Direction.UP ||
+//                    !(pContext.getClickLocation().y - (double)blockpos.getY() > 0.5D)) ? blockstate1 :
+//                    blockstate1.setValue(FACING, pContext.getHorizontalDirection().getOpposite()).setValue(TYPE, VerticalSlabShape.SINGLE);
+//        }
+//    }
+
+        @Override
+        public boolean canBeReplaced(BlockState state, BlockPlaceContext pContext) {
+            int i = state.getValue(LAYERS);
+            return (pContext.getItemInHand().getItem() == this.asItem() && i < layerCount) && pContext.replacingClickedOnBlock();
         }
+
+    @Override
+    public FluidState getFluidState(BlockState state) {
+        return state.getValue(WATERLOGGED) ? Fluids.WATER.getSource(false) : super.getFluidState(state);
     }
 
     @Override
-    public FluidState getFluidState(BlockState pState) {
-        return pState.getValue(WATERLOGGED) ? Fluids.WATER.getSource(false) : super.getFluidState(pState);
+    public boolean placeLiquid(LevelAccessor world, BlockPos pos, BlockState state, FluidState fluid) {
+        return (state.getValue(LAYERS) < layerCount) ? SimpleWaterloggedBlock.super.placeLiquid(world, pos, state, fluid)
+                : false;
     }
 
     @Override
-    public boolean placeLiquid(LevelAccessor pLevel, BlockPos pPos, BlockState pState, FluidState pFluidState) {
-        return pState.getValue(TYPE) != VerticalSlabShape.DOUBLE && SimpleWaterloggedBlock.super.placeLiquid(pLevel, pPos, pState, pFluidState);
-    }
-
-    @Override
-    public boolean canPlaceLiquid(BlockGetter pLevel, BlockPos pPos, BlockState pState, Fluid pFluid) {
-        return pState.getValue(TYPE) != VerticalSlabShape.DOUBLE && SimpleWaterloggedBlock.super.canPlaceLiquid(pLevel, pPos, pState, pFluid);
+    public boolean canPlaceLiquid(BlockGetter world, BlockPos pos, BlockState state, Fluid fluid) {
+        return (state.getValue(LAYERS) < layerCount) ? SimpleWaterloggedBlock.super.canPlaceLiquid(world, pos, state, fluid)
+                : false;
     }
 
     @Override

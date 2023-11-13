@@ -223,17 +223,17 @@ public class ModBlocks {
     public static final RegistryObject<Block> WHITE_GRANITE_SLAB = registerBlock("white_granite_slab",
             () -> new SlabLayerBlock(BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> BLACK_GRANITE_SLAB_VERTICAL = registerBlock("black_granite_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.GRANITE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> BROWN_GRANITE_SLAB_VERTICAL = registerBlock("brown_granite_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.GRANITE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> GRAY_GRANITE_SLAB_VERTICAL = registerBlock("gray_granite_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.GRANITE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> PINK_GRANITE_SLAB_VERTICAL = registerBlock("pink_granite_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.GRANITE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> RED_GRANITE_SLAB_VERTICAL = registerBlock("red_granite_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.GRANITE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> WHITE_GRANITE_SLAB_VERTICAL = registerBlock("white_granite_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.GRANITE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> BLACK_GRANITE_STAIRS = registerBlock("black_granite_stairs",
             () -> new StairBlock(() -> ModBlocks.BLACK_GRANITE.get().defaultBlockState(), BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> BROWN_GRANITE_STAIRS = registerBlock("brown_granite_stairs",
@@ -459,17 +459,17 @@ public class ModBlocks {
     public static final RegistryObject<Block> POLISHED_WHITE_GRANITE_SLAB = registerBlock("polished_white_granite_slab",
             () -> new SlabLayerBlock(BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> POLISHED_BLACK_GRANITE_SLAB_VERTICAL = registerBlock("polished_black_granite_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.GRANITE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> POLISHED_BROWN_GRANITE_SLAB_VERTICAL = registerBlock("polished_brown_granite_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.GRANITE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> POLISHED_GRAY_GRANITE_SLAB_VERTICAL = registerBlock("polished_gray_granite_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.GRANITE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> POLISHED_PINK_GRANITE_SLAB_VERTICAL = registerBlock("polished_pink_granite_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.GRANITE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> POLISHED_RED_GRANITE_SLAB_VERTICAL = registerBlock("polished_red_granite_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.GRANITE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> POLISHED_WHITE_GRANITE_SLAB_VERTICAL = registerBlock("polished_white_granite_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.GRANITE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> POLISHED_BLACK_GRANITE_STAIRS = registerBlock("polished_black_granite_stairs",
             () -> new StairBlock(() -> ModBlocks.POLISHED_BLACK_GRANITE.get().defaultBlockState(), BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> POLISHED_BROWN_GRANITE_STAIRS = registerBlock("polished_brown_granite_stairs",
@@ -684,15 +684,15 @@ public class ModBlocks {
     public static final RegistryObject<Block> TAN_LIMESTONE_SLAB = registerBlock("tan_limestone_slab",
             () -> new SlabLayerBlock(BlockProps.LIMESTONE.get()));
     public static final RegistryObject<Block> DARK_LIMESTONE_SLAB_VERTICAL = registerBlock("dark_limestone_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.LIMESTONE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.LIMESTONE.get()));
     public static final RegistryObject<Block> LIGHT_LIMESTONE_SLAB_VERTICAL = registerBlock("light_limestone_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.LIMESTONE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.LIMESTONE.get()));
     public static final RegistryObject<Block> LIMESTONE_SLAB_VERTICAL = registerBlock("limestone_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.LIMESTONE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.LIMESTONE.get()));
     public static final RegistryObject<Block> PINK_LIMESTONE_SLAB_VERTICAL = registerBlock("pink_limestone_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.LIMESTONE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.LIMESTONE.get()));
     public static final RegistryObject<Block> TAN_LIMESTONE_SLAB_VERTICAL = registerBlock("tan_limestone_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.LIMESTONE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.LIMESTONE.get()));
     public static final RegistryObject<Block> DARK_LIMESTONE_STAIRS = registerBlock("dark_limestone_stairs",
             () -> new StairBlock(() -> ModBlocks.DARK_LIMESTONE.get().defaultBlockState(), BlockProps.LIMESTONE.get()));
     public static final RegistryObject<Block> LIGHT_LIMESTONE_STAIRS = registerBlock("light_limestone_stairs",
@@ -883,15 +883,15 @@ public class ModBlocks {
     public static final RegistryObject<Block> COBBLED_TAN_LIMESTONE_SLAB = registerBlock("cobbled_tan_limestone_slab",
             () -> new SlabLayerBlock(BlockProps.COBBLESTONE.get()));
     public static final RegistryObject<Block> COBBLED_DARK_LIMESTONE_SLAB_VERTICAL = registerBlock("cobbled_dark_limestone_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.COBBLESTONE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.COBBLESTONE.get()));
     public static final RegistryObject<Block> COBBLED_LIGHT_LIMESTONE_SLAB_VERTICAL = registerBlock("cobbled_light_limestone_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.COBBLESTONE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.COBBLESTONE.get()));
     public static final RegistryObject<Block> COBBLED_LIMESTONE_SLAB_VERTICAL = registerBlock("cobbled_limestone_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.COBBLESTONE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.COBBLESTONE.get()));
     public static final RegistryObject<Block> COBBLED_PINK_LIMESTONE_SLAB_VERTICAL = registerBlock("cobbled_pink_limestone_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.COBBLESTONE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.COBBLESTONE.get()));
     public static final RegistryObject<Block> COBBLED_TAN_LIMESTONE_SLAB_VERTICAL = registerBlock("cobbled_tan_limestone_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.COBBLESTONE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.COBBLESTONE.get()));
     public static final RegistryObject<Block> COBBLED_DARK_LIMESTONE_STAIRS = registerBlock("cobbled_dark_limestone_stairs",
             () -> new StairBlock(() -> ModBlocks.COBBLED_DARK_LIMESTONE.get().defaultBlockState(), BlockProps.COBBLESTONE.get()));
     public static final RegistryObject<Block> COBBLED_LIGHT_LIMESTONE_STAIRS = registerBlock("cobbled_light_limestone_stairs",
@@ -1079,15 +1079,15 @@ public class ModBlocks {
     public static final RegistryObject<Block> MOSSY_COBBLED_TAN_LIMESTONE_SLAB = registerBlock("mossy_cobbled_tan_limestone_slab",
             () -> new SlabLayerBlock(BlockProps.COBBLESTONE.get()));
     public static final RegistryObject<Block> MOSSY_COBBLED_DARK_LIMESTONE_SLAB_VERTICAL = registerBlock("mossy_cobbled_dark_limestone_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.COBBLESTONE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.COBBLESTONE.get()));
     public static final RegistryObject<Block> MOSSY_COBBLED_LIGHT_LIMESTONE_SLAB_VERTICAL = registerBlock("mossy_cobbled_light_limestone_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.COBBLESTONE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.COBBLESTONE.get()));
     public static final RegistryObject<Block> MOSSY_COBBLED_LIMESTONE_SLAB_VERTICAL = registerBlock("mossy_cobbled_limestone_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.COBBLESTONE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.COBBLESTONE.get()));
     public static final RegistryObject<Block> MOSSY_COBBLED_PINK_LIMESTONE_SLAB_VERTICAL = registerBlock("mossy_cobbled_pink_limestone_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.COBBLESTONE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.COBBLESTONE.get()));
     public static final RegistryObject<Block> MOSSY_COBBLED_TAN_LIMESTONE_SLAB_VERTICAL = registerBlock("mossy_cobbled_tan_limestone_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.COBBLESTONE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.COBBLESTONE.get()));
     public static final RegistryObject<Block> MOSSY_COBBLED_DARK_LIMESTONE_STAIRS = registerBlock("mossy_cobbled_dark_limestone_stairs",
             () -> new StairBlock(() -> ModBlocks.MOSSY_COBBLED_DARK_LIMESTONE.get().defaultBlockState(), BlockProps.COBBLESTONE.get()));
     public static final RegistryObject<Block> MOSSY_COBBLED_LIGHT_LIMESTONE_STAIRS = registerBlock("mossy_cobbled_light_limestone_stairs",
@@ -1276,15 +1276,15 @@ public class ModBlocks {
     public static final RegistryObject<Block> TAN_LIMESTONE_BRICK_SLAB = registerBlock("tan_limestone_brick_slab",
             () -> new SlabLayerBlock(BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> DARK_LIMESTONE_BRICK_SLAB_VERTICAL = registerBlock("dark_limestone_brick_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.LIMESTONE_BRICK.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> LIGHT_LIMESTONE_BRICK_SLAB_VERTICAL = registerBlock("light_limestone_brick_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.LIMESTONE_BRICK.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> LIMESTONE_BRICK_SLAB_VERTICAL = registerBlock("limestone_brick_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.LIMESTONE_BRICK.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> PINK_LIMESTONE_BRICK_SLAB_VERTICAL = registerBlock("pink_limestone_brick_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.LIMESTONE_BRICK.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> TAN_LIMESTONE_BRICK_SLAB_VERTICAL = registerBlock("tan_limestone_brick_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.LIMESTONE_BRICK.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> DARK_LIMESTONE_BRICK_STAIRS = registerBlock("dark_limestone_brick_stairs",
             () -> new StairBlock(() -> ModBlocks.DARK_LIMESTONE_BRICKS.get().defaultBlockState(), BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> LIGHT_LIMESTONE_BRICK_STAIRS = registerBlock("light_limestone_brick_stairs",
@@ -1472,15 +1472,15 @@ public class ModBlocks {
     public static final RegistryObject<Block> MOSSY_TAN_LIMESTONE_BRICK_SLAB = registerBlock("mossy_tan_limestone_brick_slab",
             () -> new SlabLayerBlock(BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> MOSSY_DARK_LIMESTONE_BRICK_SLAB_VERTICAL = registerBlock("mossy_dark_limestone_brick_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.LIMESTONE_BRICK.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> MOSSY_LIGHT_LIMESTONE_BRICK_SLAB_VERTICAL = registerBlock("mossy_light_limestone_brick_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.LIMESTONE_BRICK.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> MOSSY_LIMESTONE_BRICK_SLAB_VERTICAL = registerBlock("mossy_limestone_brick_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.LIMESTONE_BRICK.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> MOSSY_PINK_LIMESTONE_BRICK_SLAB_VERTICAL = registerBlock("mossy_pink_limestone_brick_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.LIMESTONE_BRICK.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> MOSSY_TAN_LIMESTONE_BRICK_SLAB_VERTICAL = registerBlock("mossy_tan_limestone_brick_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.LIMESTONE_BRICK.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> MOSSY_DARK_LIMESTONE_BRICK_STAIRS = registerBlock("mossy_dark_limestone_brick_stairs",
             () -> new StairBlock(() -> ModBlocks.MOSSY_DARK_LIMESTONE_BRICKS.get().defaultBlockState(), BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> MOSSY_LIGHT_LIMESTONE_BRICK_STAIRS = registerBlock("mossy_light_limestone_brick_stairs",
@@ -1712,15 +1712,15 @@ public class ModBlocks {
     public static final RegistryObject<Block> WHITE_MARBLE_SLAB = registerBlock("white_marble_slab",
             () -> new SlabLayerBlock(BlockProps.MARBLE.get()));
     public static final RegistryObject<Block> BLACK_MARBLE_SLAB_VERTICAL = registerBlock("black_marble_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.MARBLE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.MARBLE.get()));
     public static final RegistryObject<Block> GRAY_MARBLE_SLAB_VERTICAL = registerBlock("gray_marble_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.MARBLE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.MARBLE.get()));
     public static final RegistryObject<Block> PINK_MARBLE_SLAB_VERTICAL = registerBlock("pink_marble_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.MARBLE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.MARBLE.get()));
     public static final RegistryObject<Block> RED_MARBLE_SLAB_VERTICAL = registerBlock("red_marble_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.MARBLE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.MARBLE.get()));
     public static final RegistryObject<Block> WHITE_MARBLE_SLAB_VERTICAL = registerBlock("white_marble_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.MARBLE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.MARBLE.get()));
     public static final RegistryObject<Block> BLACK_MARBLE_STAIRS = registerBlock("black_marble_stairs",
             () -> new StairBlock(() -> ModBlocks.BLACK_MARBLE.get().defaultBlockState(), BlockProps.MARBLE.get()));
     public static final RegistryObject<Block> GRAY_MARBLE_STAIRS = registerBlock("gray_marble_stairs",
@@ -1915,15 +1915,15 @@ public class ModBlocks {
     public static final RegistryObject<Block> POLISHED_WHITE_MARBLE_SLAB = registerBlock("polished_white_marble_slab",
             () -> new SlabLayerBlock(BlockProps.MARBLE.get()));
     public static final RegistryObject<Block> POLISHED_BLACK_MARBLE_SLAB_VERTICAL = registerBlock("polished_black_marble_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.MARBLE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.MARBLE.get()));
     public static final RegistryObject<Block> POLISHED_GRAY_MARBLE_SLAB_VERTICAL = registerBlock("polished_gray_marble_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.MARBLE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.MARBLE.get()));
     public static final RegistryObject<Block> POLISHED_PINK_MARBLE_SLAB_VERTICAL = registerBlock("polished_pink_marble_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.MARBLE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.MARBLE.get()));
     public static final RegistryObject<Block> POLISHED_RED_MARBLE_SLAB_VERTICAL = registerBlock("polished_red_marble_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.MARBLE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.MARBLE.get()));
     public static final RegistryObject<Block> POLISHED_WHITE_MARBLE_SLAB_VERTICAL = registerBlock("polished_white_marble_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.MARBLE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.MARBLE.get()));
     public static final RegistryObject<Block> POLISHED_BLACK_MARBLE_STAIRS = registerBlock("polished_black_marble_stairs",
             () -> new StairBlock(() -> ModBlocks.POLISHED_BLACK_MARBLE.get().defaultBlockState(), BlockProps.MARBLE.get()));
     public static final RegistryObject<Block> POLISHED_GRAY_MARBLE_STAIRS = registerBlock("polished_gray_marble_stairs",
@@ -2060,13 +2060,13 @@ public class ModBlocks {
     public static final RegistryObject<Block> SANDSTONE_SLAB = registerBlock("sandstone_slab",
             () -> new SlabLayerBlock(BlockProps.SANDSTONE.get()));
     public static final RegistryObject<Block> BROWN_SANDSTONE_SLAB_VERTICAL = registerBlock("brown_sandstone_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.SANDSTONE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.SANDSTONE.get()));
     public static final RegistryObject<Block> ORANGE_SANDSTONE_SLAB_VERTICAL = registerBlock("orange_sandstone_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.SANDSTONE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.SANDSTONE.get()));
     public static final RegistryObject<Block> RED_SANDSTONE_SLAB_VERTICAL = registerBlock("red_sandstone_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.SANDSTONE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.SANDSTONE.get()));
     public static final RegistryObject<Block> SANDSTONE_SLAB_VERTICAL = registerBlock("sandstone_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.SANDSTONE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.SANDSTONE.get()));
     public static final RegistryObject<Block> BROWN_SANDSTONE_STAIRS = registerBlock("brown_sandstone_stairs",
             () -> new StairBlock(() -> ModBlocks.BROWN_SANDSTONE.get().defaultBlockState(), BlockProps.SANDSTONE.get()));
     public static final RegistryObject<Block> ORANGE_SANDSTONE_STAIRS = registerBlock("orange_sandstone_stairs",
@@ -2193,13 +2193,13 @@ public class ModBlocks {
     public static final RegistryObject<Block> CUT_SANDSTONE_SLAB = registerBlock("cut_sandstone_slab",
             () -> new SlabLayerBlock(BlockProps.SANDSTONE.get()));
     public static final RegistryObject<Block> CUT_BROWN_SANDSTONE_SLAB_VERTICAL = registerBlock("cut_brown_sandstone_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.SANDSTONE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.SANDSTONE.get()));
     public static final RegistryObject<Block> CUT_ORANGE_SANDSTONE_SLAB_VERTICAL = registerBlock("cut_orange_sandstone_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.SANDSTONE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.SANDSTONE.get()));
     public static final RegistryObject<Block> CUT_RED_SANDSTONE_SLAB_VERTICAL = registerBlock("cut_red_sandstone_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.SANDSTONE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.SANDSTONE.get()));
     public static final RegistryObject<Block> CUT_SANDSTONE_SLAB_VERTICAL = registerBlock("cut_sandstone_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.SANDSTONE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.SANDSTONE.get()));
     public static final RegistryObject<Block> CUT_BROWN_SANDSTONE_STAIRS = registerBlock("cut_brown_sandstone_stairs",
             () -> new StairBlock(() -> ModBlocks.CUT_BROWN_SANDSTONE.get().defaultBlockState(), BlockProps.SANDSTONE.get()));
     public static final RegistryObject<Block> CUT_ORANGE_SANDSTONE_STAIRS = registerBlock("cut_orange_sandstone_stairs",
@@ -2328,13 +2328,13 @@ public class ModBlocks {
     public static final RegistryObject<Block> SMOOTH_SANDSTONE_SLAB = registerBlock("smooth_sandstone_slab",
             () -> new SlabLayerBlock(BlockProps.SANDSTONE.get()));
     public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_SLAB_VERTICAL = registerBlock("smooth_brown_sandstone_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.SMOOTH_SANDSTONE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.SMOOTH_SANDSTONE.get()));
     public static final RegistryObject<Block> SMOOTH_ORANGE_SANDSTONE_SLAB_VERTICAL = registerBlock("smooth_orange_sandstone_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.SMOOTH_SANDSTONE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.SMOOTH_SANDSTONE.get()));
     public static final RegistryObject<Block> SMOOTH_RED_SANDSTONE_SLAB_VERTICAL = registerBlock("smooth_red_sandstone_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.SMOOTH_SANDSTONE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.SMOOTH_SANDSTONE.get()));
     public static final RegistryObject<Block> SMOOTH_SANDSTONE_SLAB_VERTICAL = registerBlock("smooth_sandstone_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.SMOOTH_SANDSTONE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.SMOOTH_SANDSTONE.get()));
     public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_STAIRS = registerBlock("smooth_brown_sandstone_stairs",
             () -> new StairBlock(() -> ModBlocks.SMOOTH_BROWN_SANDSTONE.get().defaultBlockState(), BlockProps.SMOOTH_SANDSTONE.get()));
     public static final RegistryObject<Block> SMOOTH_ORANGE_SANDSTONE_STAIRS = registerBlock("smooth_orange_sandstone_stairs",
@@ -2486,17 +2486,17 @@ public class ModBlocks {
     public static final RegistryObject<Block> SPRUCE_QUARTER_VERTICAL = registerBlock("spruce_quarter_vertical",
             () -> new VerticalQuarterBlock(BlockProps.PLANK.get()));
     public static final RegistryObject<Block> ACACIA_SLAB_VERTICAL = registerBlock("acacia_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.PLANK.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.PLANK.get()));
     public static final RegistryObject<Block> BIRCH_SLAB_VERTICAL = registerBlock("birch_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.PLANK.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.PLANK.get()));
     public static final RegistryObject<Block> DARK_OAK_SLAB_VERTICAL = registerBlock("dark_oak_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.PLANK.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.PLANK.get()));
     public static final RegistryObject<Block> JUNGLE_SLAB_VERTICAL = registerBlock("jungle_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.PLANK.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.PLANK.get()));
     public static final RegistryObject<Block> OAK_SLAB_VERTICAL = registerBlock("oak_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.PLANK.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.PLANK.get()));
     public static final RegistryObject<Block> SPRUCE_SLAB_VERTICAL = registerBlock("spruce_slab_vertical",
-            () -> new VerticalSlabBlock(BlockProps.PLANK.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.PLANK.get()));
     public static final RegistryObject<Block> ACACIA_WALL = registerBlock("acacia_wall",
             () -> new WallBlock(BlockProps.PLANK.get()));
     public static final RegistryObject<Block> BIRCH_WALL = registerBlock("birch_wall",
