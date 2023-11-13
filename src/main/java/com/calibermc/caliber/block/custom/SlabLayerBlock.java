@@ -24,10 +24,12 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 import javax.annotation.Nullable;
 
 public class SlabLayerBlock extends Block implements SimpleWaterloggedBlock {
+
     public static final EnumProperty<SlabLayerShape> TYPE = ModBlockStateProperties.SLAB_LAYER_SHAPE;
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
     public static final IntegerProperty LAYERS = BlockStateProperties.LAYERS;
     public final int layerCount = 8;
+
     public static final VoxelShape[] SHAPE_BY_LAYER = new VoxelShape[]{Shapes.empty(),
             Block.box(0.0D, 0.0D, 0.0D, 16.0D, 2.0D, 16.0D),
             Block.box(0.0D, 0.0D, 0.0D, 16.0D, 4.0D, 16.0D),
@@ -37,6 +39,7 @@ public class SlabLayerBlock extends Block implements SimpleWaterloggedBlock {
             Block.box(0.0D, 0.0D, 0.0D, 16.0D, 12.0D, 16.0D),
             Block.box(0.0D, 0.0D, 0.0D, 16.0D, 14.0D, 16.0D),
             Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D)};
+
     public static final VoxelShape[] SHAPE_BY_LAYER_TOP = new VoxelShape[]{Shapes.empty(),
             Block.box(0.0D, 14.0D, 0.0D, 16.0D, 16.0D, 16.0D),
             Block.box(0.0D, 12.0D, 0.0D, 16.0D, 16.0D, 16.0D),
@@ -50,14 +53,15 @@ public class SlabLayerBlock extends Block implements SimpleWaterloggedBlock {
     public SlabLayerBlock(Properties properties) {
         super(properties);
         this.registerDefaultState(this.stateDefinition.any() // ? this.defaultBlockState()
-                .setValue(LAYERS, 1)
+                .setValue(LAYERS, 4)
                 .setValue(TYPE, SlabLayerShape.BOTTOM)
                 .setValue (WATERLOGGED, Boolean.FALSE));
     }
 
     @Override
     public boolean useShapeForLightOcclusion(BlockState pState) {
-        return true;
+        return pState.getValue(LAYERS) != 8;
+//        return true;
     }
 
     @Override
@@ -100,7 +104,7 @@ public class SlabLayerBlock extends Block implements SimpleWaterloggedBlock {
                     setValue(WATERLOGGED, Boolean.valueOf((newCount < layerCount) && fluidstate.is(FluidTags.WATER)));
         }
         else {
-            BlockState blockstate1 = this.defaultBlockState().setValue(TYPE, SlabLayerShape.BOTTOM).setValue(WATERLOGGED, Boolean.valueOf(fluidstate.getType() == Fluids.WATER));
+            BlockState blockstate1 = this.defaultBlockState().setValue(LAYERS, 1).setValue(TYPE, SlabLayerShape.BOTTOM).setValue(WATERLOGGED, Boolean.valueOf(fluidstate.getType() == Fluids.WATER));
             Direction direction = pContext.getClickedFace();
 //            return this.defaultBlockState().setValue(WATERLOGGED, Boolean.valueOf(fluidstate.is(FluidTags.WATER)));
             return direction != Direction.DOWN && (direction == Direction.UP || !(pContext.getClickLocation().y - (double)blockpos.getY() > 0.5D)) ?

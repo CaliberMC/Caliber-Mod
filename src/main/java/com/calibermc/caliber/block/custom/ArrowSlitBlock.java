@@ -92,7 +92,10 @@ public class ArrowSlitBlock extends HorizontalDirectionalBlock implements Simple
     @Override
     @Nullable
     public BlockState getStateForPlacement(BlockPlaceContext pContext) {
-        return this.defaultBlockState().setValue(FACING, pContext.getHorizontalDirection().getOpposite());
+        BlockPos blockpos = pContext.getClickedPos();
+        FluidState fluidstate = pContext.getLevel().getFluidState(blockpos);
+        return this.defaultBlockState().setValue(FACING, pContext.getHorizontalDirection()
+                .getOpposite()).setValue(WATERLOGGED, Boolean.valueOf(fluidstate.getType() == Fluids.WATER));
 
     }
 
