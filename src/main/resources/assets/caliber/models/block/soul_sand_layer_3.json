@@ -1,0 +1,9 @@
+{
+  "parent": "caliber:block/slab_layer_3",
+  "textures": {
+    "side": "minecraft:block/soul_sand",
+    "bottom": "minecraft:block/soul_sand",
+    "top": "minecraft:block/soul_sand"
+  }
+}
+

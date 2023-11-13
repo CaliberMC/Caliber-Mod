@@ -1,0 +1,9 @@
+{
+  "parent": "caliber:block/slab_layer_3",
+  "textures": {
+    "side": "minecraft:block/farmland",
+    "bottom": "minecraft:block/farmland",
+    "top": "minecraft:block/farmland"
+  }
+}
+

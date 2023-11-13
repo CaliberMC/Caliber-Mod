@@ -1237,14 +1237,19 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.ORANGE_SAND_LAYER.get());
         this.dropSelf(ModBlocks.RED_SAND_LAYER.get());
         this.dropSelf(ModBlocks.SAND_LAYER.get());
+        this.dropSelf(ModBlocks.SOUL_SAND_LAYER.get());
         this.dropSelf(ModBlocks.WHITE_SAND_LAYER.get());
 
+        this.dropSelf(ModBlocks.CLAY_LAYER.get());
         this.dropSelf(ModBlocks.COARSE_DIRT_LAYER.get());
         this.dropSelf(ModBlocks.DIRT_LAYER.get());
-        this.dropSelf(ModBlocks.CLAY_LAYER.get());
+//        this.dropSelf(ModBlocks.FARMLAND_LAYER.get());
         this.dropSelf(ModBlocks.GRAVEL_LAYER.get());
         this.dropSelf(ModBlocks.GRASS_LAYER.get());
+        this.dropSelf(ModBlocks.MYCELIUM_LAYER.get());
         this.dropSelf(ModBlocks.PODZOL_LAYER.get());
+        this.dropSelf(ModBlocks.ROOTED_DIRT_LAYER.get());
+        this.dropSelf(ModBlocks.SOUL_SOIL_LAYER.get());
         this.dropSelf(ModBlocks.CRIMSON_NYLIUM_LAYER.get());
         this.dropSelf(ModBlocks.WARPED_NYLIUM_LAYER.get());
 

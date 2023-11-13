@@ -2382,30 +2382,37 @@ public class ModBlocks {
             () -> new FallingLayerBlock(BlockProps.SAND.get()));
     public static final RegistryObject<Block> RED_SAND_LAYER = registerBlock("red_sand_layer",
             () -> new FallingLayerBlock(BlockProps.SAND.get()));
+    public static final RegistryObject<Block> SOUL_SAND_LAYER = registerBlock("soul_sand_layer",
+            () -> new SoulSandLayerBlock(BlockProps.SOUL_SAND.get()));
     public static final RegistryObject<Block> SAND_LAYER = registerBlock("sand_layer",
             () -> new FallingLayerBlock(BlockProps.SAND.get()));
     public static final RegistryObject<Block> WHITE_SAND_LAYER = registerBlock("white_sand_layer",
             () -> new FallingLayerBlock(BlockProps.SAND.get()));
 
-    public static final RegistryObject<Block> COARSE_DIRT_LAYER = registerBlock("coarse_dirt_layer",
-            () -> new TerrainLayerBlock(BlockProps.DIRT.get()));
     public static final RegistryObject<Block> CLAY_LAYER = registerBlock("clay_layer",
             () -> new TerrainLayerBlock(BlockProps.DIRT.get()));
-    public static final RegistryObject<Block> CRIMSON_NYLIUM_LAYER = registerBlock("crimson_nylium_layer",
-            () -> new TerrainLayerBlock(BlockProps.NYLIUM.get()));
-    public static final RegistryObject<Block> WARPED_NYLIUM_LAYER = registerBlock("warped_nylium_layer",
-            () -> new TerrainLayerBlock(BlockProps.NYLIUM.get()));
+    public static final RegistryObject<Block> COARSE_DIRT_LAYER = registerBlock("coarse_dirt_layer",
+            () -> new TerrainLayerBlock(BlockProps.DIRT.get()));
     public static final RegistryObject<Block> DIRT_LAYER = registerBlock("dirt_layer",
             () -> new TerrainLayerBlock(BlockProps.DIRT.get()));
+//    public static final RegistryObject<Block> FARMLAND_LAYER = registerBlock("farmland_layer",
+//            () -> new FarmLayerBlock(BlockProps.FARMLAND.get()));
     public static final RegistryObject<Block> GRASS_LAYER = registerBlock("grass_layer",
-            () -> new TerrainLayerBlock(BlockProps.GRASS.get()));
+            () -> new GrassLayerBlock(BlockProps.GRASS.get()));
     public static final RegistryObject<Block> GRAVEL_LAYER = registerBlock("gravel_layer",
             () -> new FallingLayerBlock(BlockProps.GRAVEL.get()));
+    public static final RegistryObject<Block> MYCELIUM_LAYER = registerBlock("mycelium_layer",
+            () -> new MyceliumLayerBlock(BlockProps.DIRT.get()));
     public static final RegistryObject<Block> PODZOL_LAYER = registerBlock("podzol_layer",
             () -> new TerrainLayerBlock(BlockProps.DIRT.get()));
-//    public static final RegistryObject<Block> MYCELIUM_LAYER = registerBlock("mycelium_layer",
-//            () -> new TerrainLayerBlock(BlockProps.DIRT.get()));
-
+    public static final RegistryObject<Block> ROOTED_DIRT_LAYER = registerBlock("rooted_dirt_layer",
+            () -> new TerrainLayerBlock(BlockProps.DIRT.get()));
+    public static final RegistryObject<Block> SOUL_SOIL_LAYER = registerBlock("soul_soil_layer",
+            () -> new TerrainLayerBlock(BlockProps.SOUL_SOIL.get()));
+    public static final RegistryObject<Block> CRIMSON_NYLIUM_LAYER = registerBlock("crimson_nylium_layer",
+        () -> new NyliumLayerBlock(BlockProps.CRIMSON_NYLIUM.get()));
+    public static final RegistryObject<Block> WARPED_NYLIUM_LAYER = registerBlock("warped_nylium_layer",
+            () -> new NyliumLayerBlock(BlockProps.WARPED_NYLIUM.get()));
 
     // WOOD BLOCKS
     public static final RegistryObject<Block> ACACIA_BALUSTRADE = registerBlock("acacia_balustrade",

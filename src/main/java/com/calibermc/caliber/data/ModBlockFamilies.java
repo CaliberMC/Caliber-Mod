@@ -1847,6 +1847,9 @@ public class ModBlockFamilies {
     public static final ModBlockFamily SAND = familyBuilder(Blocks.SAND)
             .layer(ModBlocks.SAND_LAYER.get())
             .getFamily();
+    public static final ModBlockFamily SOUL_SAND = familyBuilder(Blocks.SOUL_SAND)
+            .layer(ModBlocks.SOUL_SAND_LAYER.get())
+            .getFamily();
     public static final ModBlockFamily WHITE_SAND = familyBuilder(ModBlocks.WHITE_SAND.get())
             .layer(ModBlocks.WHITE_SAND_LAYER.get())
             .getFamily();
@@ -1859,14 +1862,26 @@ public class ModBlockFamilies {
     public static final ModBlockFamily DIRT = familyBuilder(Blocks.DIRT)
             .layer(ModBlocks.DIRT_LAYER.get())
             .getFamily();
+    public static final ModBlockFamily FARMLAND = familyBuilder(Blocks.FARMLAND)
+//            .layer(ModBlocks.FARMLAND_LAYER.get())
+            .getFamily();
     public static final ModBlockFamily GRASS_BLOCK = familyBuilder(Blocks.GRASS_BLOCK)
             .layer(ModBlocks.GRASS_LAYER.get())
             .getFamily();
     public static final ModBlockFamily GRAVEL = familyBuilder(Blocks.GRAVEL)
             .layer(ModBlocks.GRAVEL_LAYER.get())
             .getFamily();
+    public static final ModBlockFamily MYCELIUM = familyBuilder(Blocks.MYCELIUM)
+            .layer(ModBlocks.MYCELIUM_LAYER.get())
+            .getFamily();
     public static final ModBlockFamily PODZOL = familyBuilder(Blocks.PODZOL)
             .layer(ModBlocks.PODZOL_LAYER.get())
+            .getFamily();
+    public static final ModBlockFamily ROOTED_DIRT = familyBuilder(Blocks.ROOTED_DIRT)
+            .layer(ModBlocks.ROOTED_DIRT_LAYER.get())
+            .getFamily();
+    public static final ModBlockFamily SOUL_SOIL = familyBuilder(Blocks.SOUL_SOIL)
+            .layer(ModBlocks.SOUL_SOIL_LAYER.get())
             .getFamily();
     public static final ModBlockFamily CRIMSON_NYLIUM = familyBuilder(Blocks.CRIMSON_NYLIUM)
             .layer(ModBlocks.CRIMSON_NYLIUM_LAYER.get())

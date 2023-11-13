@@ -44,6 +44,9 @@ public class FallingLayerBlock extends FallingBlock implements SimpleWaterlogged
                 .setValue(LAYERS, 1)
                 .setValue(WATERLOGGED, Boolean.FALSE));
     }
+//    public int getDustColor(BlockState pState, BlockGetter pReader, BlockPos pPos) {
+//        return -8356741;
+//    }
 
     @Override
     public boolean useShapeForLightOcclusion(BlockState pState) {

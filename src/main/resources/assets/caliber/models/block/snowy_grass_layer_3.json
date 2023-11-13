@@ -1,0 +1,9 @@
+{
+  "parent": "caliber:block/slab_layer_3",
+  "textures": {
+    "side": "minecraft:block/grass_block_snow",
+    "bottom": "minecraft:block/dirt",
+    "top": "minecraft:block/grass_block_top"
+  }
+}
+
