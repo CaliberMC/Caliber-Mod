@@ -23,6 +23,10 @@
     "caliber:gray_marble",
     "caliber:pink_marble",
     "caliber:red_marble",
-    "caliber:white_marble"
+    "caliber:white_marble",
+    "caliber:brown_sandstone",
+    "caliber:orange_sandstone",
+    "minecraft:red_sandstone",
+    "minecraft:sandstone"
   ]
 }

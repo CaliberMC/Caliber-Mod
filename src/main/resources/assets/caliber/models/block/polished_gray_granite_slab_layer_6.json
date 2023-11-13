@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/slab_layer_6",
+  "textures": {
+    "side": "caliber:block/polished_gray_granite",
+    "bottom": "caliber:block/polished_gray_granite",
+    "top": "caliber:block/polished_gray_granite"
+  }
+}

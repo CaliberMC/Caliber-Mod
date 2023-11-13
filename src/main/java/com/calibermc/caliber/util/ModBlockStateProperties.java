@@ -13,6 +13,7 @@ public class ModBlockStateProperties {
     public static final EnumProperty<EighthShape> EIGHTH_SHAPE = EnumProperty.create("type", EighthShape.class);
     public static final EnumProperty<HalfArchShape> HALF_ARCH_SHAPE = EnumProperty.create("type", HalfArchShape.class);
     public static final EnumProperty<QuarterShape> QUARTER_SHAPE = EnumProperty.create("type", QuarterShape.class);
+    public static final EnumProperty<SlabLayerShape> SLAB_LAYER_SHAPE = EnumProperty.create("type", SlabLayerShape.class);
     public static final EnumProperty<VerticalCornerSlabShape> VERTICAL_CORNER_SLAB_SHAPE = EnumProperty.create("type", VerticalCornerSlabShape.class);
     public static final EnumProperty<VerticalQuarterShape> VERTICAL_QUARTER_SHAPE = EnumProperty.create("type", VerticalQuarterShape.class);
     public static final EnumProperty<VerticalSlabShape> VERTICAL_SLAB_SHAPE = EnumProperty.create("type", VerticalSlabShape.class);

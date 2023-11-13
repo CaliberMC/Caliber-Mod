@@ -1,27 +1,18 @@
 package com.calibermc.caliber.item;
 
 
-import com.calibermc.caliber.data.ModBlockFamilies;
 import com.calibermc.caliber.block.ModBlocks;
 import com.calibermc.caliber.config.CaliberClientConfigs;
-
 import com.calibermc.caliber.util.ModTags;
 import com.google.common.collect.Lists;
 import net.minecraft.core.NonNullList;
-import net.minecraft.core.Registry;
-import net.minecraft.data.BlockFamilies;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.tags.TagKey;
-import net.minecraft.util.datafix.fixes.EntityPaintingItemFrameDirectionFix;
-import net.minecraft.world.entity.decoration.Painting;
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.enchantment.EnchantmentCategory;
 import net.minecraft.world.level.block.*;
 import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.tags.ITag;
 import net.minecraftforge.registries.tags.ITagManager;
-
 import javax.annotation.Nullable;
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
