@@ -13,7 +13,7 @@
       "model": "caliber:block/cobbled_light_limestone_corner_layer_4"
     },
     "facing=north,type=right,layers=5": {
-      "model": "minecraft:block/cobbled_light_limestone"
+      "model": "caliber:block/cobbled_light_limestone"
     },
     "facing=north,type=left,layers=1": {
       "model": "caliber:block/cobbled_light_limestone_corner_layer_1",
@@ -32,7 +32,7 @@
       "y": 270
     },
     "facing=north,type=left,layers=5": {
-      "model": "minecraft:block/cobbled_light_limestone",
+      "model": "caliber:block/cobbled_light_limestone",
       "y": 270
     },
     "facing=east,type=right,layers=1": {
@@ -52,7 +52,7 @@
       "y": 90
     },
     "facing=east,type=right,layers=5": {
-      "model": "minecraft:block/cobbled_light_limestone",
+      "model": "caliber:block/cobbled_light_limestone",
       "y": 90
     },
     "facing=east,type=left,layers=1": {
@@ -68,7 +68,7 @@
       "model": "caliber:block/cobbled_light_limestone_corner_layer_4"
     },
     "facing=east,type=left,layers=5": {
-      "model": "minecraft:block/cobbled_light_limestone"
+      "model": "caliber:block/cobbled_light_limestone"
     },
     "facing=south,type=right,layers=1": {
       "model": "caliber:block/cobbled_light_limestone_corner_layer_1",
@@ -87,7 +87,7 @@
       "y": 180
     },
     "facing=south,type=right,layers=5": {
-      "model": "minecraft:block/cobbled_light_limestone",
+      "model": "caliber:block/cobbled_light_limestone",
       "y": 180
     },
     "facing=south,type=left,layers=1": {
@@ -107,7 +107,7 @@
       "y": 90
     },
     "facing=south,type=left,layers=5": {
-      "model": "minecraft:block/cobbled_light_limestone",
+      "model": "caliber:block/cobbled_light_limestone",
       "y": 90
     },
     "facing=west,type=right,layers=1": {
@@ -127,7 +127,7 @@
       "y": 270
     },
     "facing=west,type=right,layers=5": {
-      "model": "minecraft:block/cobbled_light_limestone",
+      "model": "caliber:block/cobbled_light_limestone",
       "y": 270
     },
     "facing=west,type=left,layers=1": {
@@ -147,7 +147,7 @@
       "y": 180
     },
     "facing=west,type=left,layers=5": {
-      "model": "minecraft:block/cobbled_light_limestone",
+      "model": "caliber:block/cobbled_light_limestone",
       "y": 180
     }
   }
