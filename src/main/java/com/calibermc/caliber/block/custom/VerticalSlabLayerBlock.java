@@ -131,29 +131,11 @@ public class VerticalSlabLayerBlock extends Block implements SimpleWaterloggedBl
         }
     }
 
-//    @Override
-//    @Nullable
-//    public BlockState getStateForPlacement(BlockPlaceContext pContext) {
-//        BlockPos blockpos = pContext.getClickedPos();
-//        BlockState blockstate = pContext.getLevel().getBlockState(blockpos);
-//        if (blockstate.is(this)) {
-//            return blockstate.setValue(TYPE, VerticalSlabShape.DOUBLE).setValue(WATERLOGGED, Boolean.FALSE);
-//        } else {
-//            FluidState fluidstate = pContext.getLevel().getFluidState(blockpos);
-//            BlockState blockstate1 = this.defaultBlockState().setValue(FACING, pContext.getHorizontalDirection().getOpposite())
-//                    .setValue(TYPE, VerticalSlabShape.SINGLE).setValue(WATERLOGGED, fluidstate.getType() == Fluids.WATER);
-//            Direction direction = pContext.getClickedFace();
-//            return direction != Direction.DOWN && (direction == Direction.UP ||
-//                    !(pContext.getClickLocation().y - (double)blockpos.getY() > 0.5D)) ? blockstate1 :
-//                    blockstate1.setValue(FACING, pContext.getHorizontalDirection().getOpposite()).setValue(TYPE, VerticalSlabShape.SINGLE);
-//        }
-//    }
-
-        @Override
-        public boolean canBeReplaced(BlockState state, BlockPlaceContext pContext) {
-            int i = state.getValue(LAYERS);
-            return (pContext.getItemInHand().getItem() == this.asItem() && i < layerCount) && pContext.replacingClickedOnBlock();
-        }
+    @Override
+    public boolean canBeReplaced(BlockState state, BlockPlaceContext pContext) {
+        int i = state.getValue(LAYERS);
+        return (pContext.getItemInHand().getItem() == this.asItem() && i < layerCount) && pContext.replacingClickedOnBlock();
+    }
 
     @Override
     public FluidState getFluidState(BlockState state) {
@@ -162,14 +144,12 @@ public class VerticalSlabLayerBlock extends Block implements SimpleWaterloggedBl
 
     @Override
     public boolean placeLiquid(LevelAccessor world, BlockPos pos, BlockState state, FluidState fluid) {
-        return (state.getValue(LAYERS) < layerCount) ? SimpleWaterloggedBlock.super.placeLiquid(world, pos, state, fluid)
-                : false;
+        return state.getValue(LAYERS) < layerCount && SimpleWaterloggedBlock.super.placeLiquid(world, pos, state, fluid);
     }
 
     @Override
     public boolean canPlaceLiquid(BlockGetter world, BlockPos pos, BlockState state, Fluid fluid) {
-        return (state.getValue(LAYERS) < layerCount) ? SimpleWaterloggedBlock.super.canPlaceLiquid(world, pos, state, fluid)
-                : false;
+        return state.getValue(LAYERS) < layerCount && SimpleWaterloggedBlock.super.canPlaceLiquid(world, pos, state, fluid);
     }
 
     @Override

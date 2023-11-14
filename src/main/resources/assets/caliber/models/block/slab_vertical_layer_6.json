@@ -1,6 +1,9 @@
 {
 	"credit": "Made by Charm8er for CaliberMC",
 	"parent": "caliber:block/layer_block",
+	"textures": {
+		"particle": "#side"
+	},
 	"elements": [
 		{
 			"from": [0, 0, 4],

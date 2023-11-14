@@ -15,10 +15,10 @@
       "y": 270
     },
     "facing=north,type=double_right": {
-      "model": "caliber:block/acacia_corner"
+      "model": "caliber:block/acacia_corner_layer_3"
     },
     "facing=north,type=double_left": {
-      "model": "caliber:block/acacia_corner",
+      "model": "caliber:block/acacia_corner_layer_3",
       "y": 270
     },
     "facing=east,type=right": {
@@ -36,11 +36,11 @@
       "model": "caliber:block/acacia_corner_slab_top"
     },
     "facing=east,type=double_right": {
-      "model": "caliber:block/acacia_corner",
+      "model": "caliber:block/acacia_corner_layer_3",
       "y": 90
     },
     "facing=east,type=double_left": {
-      "model": "caliber:block/acacia_corner"
+      "model": "caliber:block/acacia_corner_layer_3"
     },
     "facing=south,type=right": {
       "model": "caliber:block/acacia_corner_slab",
@@ -59,11 +59,11 @@
       "x": 90
     },
     "facing=south,type=double_right": {
-      "model": "caliber:block/acacia_corner",
+      "model": "caliber:block/acacia_corner_layer_3",
       "y": 180
     },
     "facing=south,type=double_left": {
-      "model": "caliber:block/acacia_corner",
+      "model": "caliber:block/acacia_corner_layer_3",
       "y": 90
     },
     "facing=west,type=right": {
@@ -83,11 +83,11 @@
       "y": 180
     },
     "facing=west,type=double_right": {
-      "model": "caliber:block/acacia_corner",
+      "model": "caliber:block/acacia_corner_layer_3",
       "y": 270
     },
     "facing=west,type=double_left": {
-      "model": "caliber:block/acacia_corner",
+      "model": "caliber:block/acacia_corner_layer_3",
       "y": 180
     }
   }

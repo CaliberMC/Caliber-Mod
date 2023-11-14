@@ -15,7 +15,7 @@
       "y": 270
     },
     "facing=north,type=double_right": {
-      "model": "caliber:block/mossy_tan_limestone_brick_corner"
+      "model": "caliber:block/mossy_tan_limestone_brick_corner_layer_3"
     },
     "facing=north,type=double_left": {
       "model": "caliber:block/mossy_tan_limestone_brick_corner",

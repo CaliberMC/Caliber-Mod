@@ -15,7 +15,7 @@
       "y": 270
     },
     "facing=north,type=double_right": {
-      "model": "caliber:block/smooth_orange_sandstone_corner"
+      "model": "caliber:block/smooth_orange_sandstone_corner_layer_3"
     },
     "facing=north,type=double_left": {
       "model": "caliber:block/smooth_orange_sandstone_corner",

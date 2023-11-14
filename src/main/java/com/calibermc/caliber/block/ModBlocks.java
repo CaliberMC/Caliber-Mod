@@ -139,17 +139,17 @@ public class ModBlocks {
     public static final RegistryObject<Block> WHITE_GRANITE_CAPITAL = registerBlock("white_granite_capital",
             () -> new CapitalBlock(BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> BLACK_GRANITE_CORNER = registerBlock("black_granite_corner",
-            () -> new CornerBlock(BlockProps.GRANITE.get()));
+            () -> new CornerLayerBlock(BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> BROWN_GRANITE_CORNER = registerBlock("brown_granite_corner",
-            () -> new CornerBlock(BlockProps.GRANITE.get()));
+            () -> new CornerLayerBlock(BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> GRAY_GRANITE_CORNER = registerBlock("gray_granite_corner",
-            () -> new CornerBlock(BlockProps.GRANITE.get()));
+            () -> new CornerLayerBlock(BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> PINK_GRANITE_CORNER = registerBlock("pink_granite_corner",
-            () -> new CornerBlock(BlockProps.GRANITE.get()));
+            () -> new CornerLayerBlock(BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> RED_GRANITE_CORNER = registerBlock("red_granite_corner",
-            () -> new CornerBlock(BlockProps.GRANITE.get()));
+            () -> new CornerLayerBlock(BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> WHITE_GRANITE_CORNER = registerBlock("white_granite_corner",
-            () -> new CornerBlock(BlockProps.GRANITE.get()));
+            () -> new CornerLayerBlock(BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> BLACK_GRANITE_CORNER_SLAB = registerBlock("black_granite_corner_slab",
             () -> new CornerSlabBlock(BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> BROWN_GRANITE_CORNER_SLAB = registerBlock("brown_granite_corner_slab",
@@ -375,17 +375,17 @@ public class ModBlocks {
     public static final RegistryObject<Block> POLISHED_WHITE_GRANITE_CAPITAL = registerBlock("polished_white_granite_capital",
             () -> new CapitalBlock(BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> POLISHED_BLACK_GRANITE_CORNER = registerBlock("polished_black_granite_corner",
-            () -> new CornerBlock(BlockProps.GRANITE.get()));
+            () -> new CornerLayerBlock(BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> POLISHED_BROWN_GRANITE_CORNER = registerBlock("polished_brown_granite_corner",
-            () -> new CornerBlock(BlockProps.GRANITE.get()));
+            () -> new CornerLayerBlock(BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> POLISHED_GRAY_GRANITE_CORNER = registerBlock("polished_gray_granite_corner",
-            () -> new CornerBlock(BlockProps.GRANITE.get()));
+            () -> new CornerLayerBlock(BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> POLISHED_PINK_GRANITE_CORNER = registerBlock("polished_pink_granite_corner",
-            () -> new CornerBlock(BlockProps.GRANITE.get()));
+            () -> new CornerLayerBlock(BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> POLISHED_RED_GRANITE_CORNER = registerBlock("polished_red_granite_corner",
-            () -> new CornerBlock(BlockProps.GRANITE.get()));
+            () -> new CornerLayerBlock(BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> POLISHED_WHITE_GRANITE_CORNER = registerBlock("polished_white_granite_corner",
-            () -> new CornerBlock(BlockProps.GRANITE.get()));
+            () -> new CornerLayerBlock(BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> POLISHED_BLACK_GRANITE_CORNER_SLAB = registerBlock("polished_black_granite_corner_slab",
             () -> new CornerSlabBlock(BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> POLISHED_BROWN_GRANITE_CORNER_SLAB = registerBlock("polished_brown_granite_corner_slab",
@@ -606,15 +606,15 @@ public class ModBlocks {
     public static final RegistryObject<Block> TAN_LIMESTONE_CAPITAL = registerBlock("tan_limestone_capital",
             () -> new CapitalBlock(BlockProps.LIMESTONE.get()));
     public static final RegistryObject<Block> DARK_LIMESTONE_CORNER = registerBlock("dark_limestone_corner",
-            () -> new CornerBlock(BlockProps.LIMESTONE.get()));
+            () -> new CornerLayerBlock(BlockProps.LIMESTONE.get()));
     public static final RegistryObject<Block> LIGHT_LIMESTONE_CORNER = registerBlock("light_limestone_corner",
-            () -> new CornerBlock(BlockProps.LIMESTONE.get()));
+            () -> new CornerLayerBlock(BlockProps.LIMESTONE.get()));
     public static final RegistryObject<Block> LIMESTONE_CORNER = registerBlock("limestone_corner",
-            () -> new CornerBlock(BlockProps.LIMESTONE.get()));
+            () -> new CornerLayerBlock(BlockProps.LIMESTONE.get()));
     public static final RegistryObject<Block> PINK_LIMESTONE_CORNER = registerBlock("pink_limestone_corner",
-            () -> new CornerBlock(BlockProps.LIMESTONE.get()));
+            () -> new CornerLayerBlock(BlockProps.LIMESTONE.get()));
     public static final RegistryObject<Block> TAN_LIMESTONE_CORNER = registerBlock("tan_limestone_corner",
-            () -> new CornerBlock(BlockProps.LIMESTONE.get()));
+            () -> new CornerLayerBlock(BlockProps.LIMESTONE.get()));
     public static final RegistryObject<Block> DARK_LIMESTONE_CORNER_SLAB = registerBlock("dark_limestone_corner_slab",
             () -> new CornerSlabBlock(BlockProps.LIMESTONE.get()));
     public static final RegistryObject<Block> LIGHT_LIMESTONE_CORNER_SLAB = registerBlock("light_limestone_corner_slab",
@@ -813,15 +813,15 @@ public class ModBlocks {
     public static final RegistryObject<Block> COBBLED_TAN_LIMESTONE_CAPITAL = registerBlock("cobbled_tan_limestone_capital",
             () -> new CapitalBlock(BlockProps.COBBLESTONE.get()));
     public static final RegistryObject<Block> COBBLED_DARK_LIMESTONE_CORNER = registerBlock("cobbled_dark_limestone_corner",
-            () -> new CornerBlock(BlockProps.COBBLESTONE.get()));
+            () -> new CornerLayerBlock(BlockProps.COBBLESTONE.get()));
     public static final RegistryObject<Block> COBBLED_LIGHT_LIMESTONE_CORNER = registerBlock("cobbled_light_limestone_corner",
-            () -> new CornerBlock(BlockProps.COBBLESTONE.get()));
+            () -> new CornerLayerBlock(BlockProps.COBBLESTONE.get()));
     public static final RegistryObject<Block> COBBLED_LIMESTONE_CORNER = registerBlock("cobbled_limestone_corner",
-            () -> new CornerBlock(BlockProps.COBBLESTONE.get()));
+            () -> new CornerLayerBlock(BlockProps.COBBLESTONE.get()));
     public static final RegistryObject<Block> COBBLED_PINK_LIMESTONE_CORNER = registerBlock("cobbled_pink_limestone_corner",
-            () -> new CornerBlock(BlockProps.COBBLESTONE.get()));
+            () -> new CornerLayerBlock(BlockProps.COBBLESTONE.get()));
     public static final RegistryObject<Block> COBBLED_TAN_LIMESTONE_CORNER = registerBlock("cobbled_tan_limestone_corner",
-            () -> new CornerBlock(BlockProps.COBBLESTONE.get()));
+            () -> new CornerLayerBlock(BlockProps.COBBLESTONE.get()));
     public static final RegistryObject<Block> COBBLED_DARK_LIMESTONE_CORNER_SLAB = registerBlock("cobbled_dark_limestone_corner_slab",
             () -> new CornerSlabBlock(BlockProps.COBBLESTONE.get()));
     public static final RegistryObject<Block> COBBLED_LIGHT_LIMESTONE_CORNER_SLAB = registerBlock("cobbled_light_limestone_corner_slab",
@@ -1009,15 +1009,15 @@ public class ModBlocks {
     public static final RegistryObject<Block> MOSSY_COBBLED_TAN_LIMESTONE_CAPITAL = registerBlock("mossy_cobbled_tan_limestone_capital",
             () -> new CapitalBlock(BlockProps.COBBLESTONE.get()));
     public static final RegistryObject<Block> MOSSY_COBBLED_DARK_LIMESTONE_CORNER = registerBlock("mossy_cobbled_dark_limestone_corner",
-            () -> new CornerBlock(BlockProps.COBBLESTONE.get()));
+            () -> new CornerLayerBlock(BlockProps.COBBLESTONE.get()));
     public static final RegistryObject<Block> MOSSY_COBBLED_LIGHT_LIMESTONE_CORNER = registerBlock("mossy_cobbled_light_limestone_corner",
-            () -> new CornerBlock(BlockProps.COBBLESTONE.get()));
+            () -> new CornerLayerBlock(BlockProps.COBBLESTONE.get()));
     public static final RegistryObject<Block> MOSSY_COBBLED_LIMESTONE_CORNER = registerBlock("mossy_cobbled_limestone_corner",
-            () -> new CornerBlock(BlockProps.COBBLESTONE.get()));
+            () -> new CornerLayerBlock(BlockProps.COBBLESTONE.get()));
     public static final RegistryObject<Block> MOSSY_COBBLED_PINK_LIMESTONE_CORNER = registerBlock("mossy_cobbled_pink_limestone_corner",
-            () -> new CornerBlock(BlockProps.COBBLESTONE.get()));
+            () -> new CornerLayerBlock(BlockProps.COBBLESTONE.get()));
     public static final RegistryObject<Block> MOSSY_COBBLED_TAN_LIMESTONE_CORNER = registerBlock("mossy_cobbled_tan_limestone_corner",
-            () -> new CornerBlock(BlockProps.COBBLESTONE.get()));
+            () -> new CornerLayerBlock(BlockProps.COBBLESTONE.get()));
     public static final RegistryObject<Block> MOSSY_COBBLED_DARK_LIMESTONE_CORNER_SLAB = registerBlock("mossy_cobbled_dark_limestone_corner_slab",
             () -> new CornerSlabBlock(BlockProps.COBBLESTONE.get()));
     public static final RegistryObject<Block> MOSSY_COBBLED_LIGHT_LIMESTONE_CORNER_SLAB = registerBlock("mossy_cobbled_light_limestone_corner_slab",
@@ -1206,15 +1206,15 @@ public class ModBlocks {
     public static final RegistryObject<Block> TAN_LIMESTONE_BRICK_CAPITAL = registerBlock("tan_limestone_brick_capital",
             () -> new CapitalBlock(BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> DARK_LIMESTONE_BRICK_CORNER = registerBlock("dark_limestone_brick_corner",
-            () -> new CornerBlock(BlockProps.LIMESTONE_BRICK.get()));
+            () -> new CornerLayerBlock(BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> LIGHT_LIMESTONE_BRICK_CORNER = registerBlock("light_limestone_brick_corner",
-            () -> new CornerBlock(BlockProps.LIMESTONE_BRICK.get()));
+            () -> new CornerLayerBlock(BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> LIMESTONE_BRICK_CORNER = registerBlock("limestone_brick_corner",
-            () -> new CornerBlock(BlockProps.LIMESTONE_BRICK.get()));
+            () -> new CornerLayerBlock(BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> PINK_LIMESTONE_BRICK_CORNER = registerBlock("pink_limestone_brick_corner",
-            () -> new CornerBlock(BlockProps.LIMESTONE_BRICK.get()));
+            () -> new CornerLayerBlock(BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> TAN_LIMESTONE_BRICK_CORNER = registerBlock("tan_limestone_brick_corner",
-            () -> new CornerBlock(BlockProps.LIMESTONE_BRICK.get()));
+            () -> new CornerLayerBlock(BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> DARK_LIMESTONE_BRICK_CORNER_SLAB = registerBlock("dark_limestone_brick_corner_slab",
             () -> new CornerSlabBlock(BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> LIGHT_LIMESTONE_BRICK_CORNER_SLAB = registerBlock("light_limestone_brick_corner_slab",
@@ -1402,15 +1402,15 @@ public class ModBlocks {
     public static final RegistryObject<Block> MOSSY_TAN_LIMESTONE_BRICK_CAPITAL = registerBlock("mossy_tan_limestone_brick_capital",
             () -> new CapitalBlock(BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> MOSSY_DARK_LIMESTONE_BRICK_CORNER = registerBlock("mossy_dark_limestone_brick_corner",
-            () -> new CornerBlock(BlockProps.LIMESTONE_BRICK.get()));
+            () -> new CornerLayerBlock(BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> MOSSY_LIGHT_LIMESTONE_BRICK_CORNER = registerBlock("mossy_light_limestone_brick_corner",
-            () -> new CornerBlock(BlockProps.LIMESTONE_BRICK.get()));
+            () -> new CornerLayerBlock(BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> MOSSY_LIMESTONE_BRICK_CORNER = registerBlock("mossy_limestone_brick_corner",
-            () -> new CornerBlock(BlockProps.LIMESTONE_BRICK.get()));
+            () -> new CornerLayerBlock(BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> MOSSY_PINK_LIMESTONE_BRICK_CORNER = registerBlock("mossy_pink_limestone_brick_corner",
-            () -> new CornerBlock(BlockProps.LIMESTONE_BRICK.get()));
+            () -> new CornerLayerBlock(BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> MOSSY_TAN_LIMESTONE_BRICK_CORNER = registerBlock("mossy_tan_limestone_brick_corner",
-            () -> new CornerBlock(BlockProps.LIMESTONE_BRICK.get()));
+            () -> new CornerLayerBlock(BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> MOSSY_DARK_LIMESTONE_BRICK_CORNER_SLAB = registerBlock("mossy_dark_limestone_brick_corner_slab",
             () -> new CornerSlabBlock(BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> MOSSY_LIGHT_LIMESTONE_BRICK_CORNER_SLAB = registerBlock("mossy_light_limestone_brick_corner_slab",
@@ -1642,15 +1642,15 @@ public class ModBlocks {
     public static final RegistryObject<Block> WHITE_MARBLE_CAPITAL = registerBlock("white_marble_capital",
             () -> new CapitalBlock(BlockProps.MARBLE.get()));
     public static final RegistryObject<Block> BLACK_MARBLE_CORNER = registerBlock("black_marble_corner",
-            () -> new CornerBlock(BlockProps.MARBLE.get()));
+            () -> new CornerLayerBlock(BlockProps.MARBLE.get()));
     public static final RegistryObject<Block> GRAY_MARBLE_CORNER = registerBlock("gray_marble_corner",
-            () -> new CornerBlock(BlockProps.MARBLE.get()));
+            () -> new CornerLayerBlock(BlockProps.MARBLE.get()));
     public static final RegistryObject<Block> PINK_MARBLE_CORNER = registerBlock("pink_marble_corner",
-            () -> new CornerBlock(BlockProps.MARBLE.get()));
+            () -> new CornerLayerBlock(BlockProps.MARBLE.get()));
     public static final RegistryObject<Block> RED_MARBLE_CORNER = registerBlock("red_marble_corner",
-            () -> new CornerBlock(BlockProps.MARBLE.get()));
+            () -> new CornerLayerBlock(BlockProps.MARBLE.get()));
     public static final RegistryObject<Block> WHITE_MARBLE_CORNER = registerBlock("white_marble_corner",
-            () -> new CornerBlock(BlockProps.MARBLE.get()));
+            () -> new CornerLayerBlock(BlockProps.MARBLE.get()));
     public static final RegistryObject<Block> BLACK_MARBLE_CORNER_SLAB = registerBlock("black_marble_corner_slab",
             () -> new CornerSlabBlock(BlockProps.MARBLE.get()));
     public static final RegistryObject<Block> GRAY_MARBLE_CORNER_SLAB = registerBlock("gray_marble_corner_slab",
@@ -1845,15 +1845,15 @@ public class ModBlocks {
     public static final RegistryObject<Block> POLISHED_WHITE_MARBLE_CAPITAL = registerBlock("polished_white_marble_capital",
             () -> new CapitalBlock(BlockProps.MARBLE.get()));
     public static final RegistryObject<Block> POLISHED_BLACK_MARBLE_CORNER = registerBlock("polished_black_marble_corner",
-            () -> new CornerBlock(BlockProps.MARBLE.get()));
+            () -> new CornerLayerBlock(BlockProps.MARBLE.get()));
     public static final RegistryObject<Block> POLISHED_GRAY_MARBLE_CORNER = registerBlock("polished_gray_marble_corner",
-            () -> new CornerBlock(BlockProps.MARBLE.get()));
+            () -> new CornerLayerBlock(BlockProps.MARBLE.get()));
     public static final RegistryObject<Block> POLISHED_PINK_MARBLE_CORNER = registerBlock("polished_pink_marble_corner",
-            () -> new CornerBlock(BlockProps.MARBLE.get()));
+            () -> new CornerLayerBlock(BlockProps.MARBLE.get()));
     public static final RegistryObject<Block> POLISHED_RED_MARBLE_CORNER = registerBlock("polished_red_marble_corner",
-            () -> new CornerBlock(BlockProps.MARBLE.get()));
+            () -> new CornerLayerBlock(BlockProps.MARBLE.get()));
     public static final RegistryObject<Block> POLISHED_WHITE_MARBLE_CORNER = registerBlock("polished_white_marble_corner",
-            () -> new CornerBlock(BlockProps.MARBLE.get()));
+            () -> new CornerLayerBlock(BlockProps.MARBLE.get()));
     public static final RegistryObject<Block> POLISHED_BLACK_MARBLE_CORNER_SLAB = registerBlock("polished_black_marble_corner_slab",
             () -> new CornerSlabBlock(BlockProps.MARBLE.get()));
     public static final RegistryObject<Block> POLISHED_GRAY_MARBLE_CORNER_SLAB = registerBlock("polished_gray_marble_corner_slab",
@@ -2004,13 +2004,13 @@ public class ModBlocks {
     public static final RegistryObject<Block> SANDSTONE_CAPITAL = registerBlock("sandstone_capital",
             () -> new CapitalBlock(BlockProps.SANDSTONE.get()));
     public static final RegistryObject<Block> BROWN_SANDSTONE_CORNER = registerBlock("brown_sandstone_corner",
-            () -> new CornerBlock(BlockProps.SANDSTONE.get()));
+            () -> new CornerLayerBlock(BlockProps.SANDSTONE.get()));
     public static final RegistryObject<Block> ORANGE_SANDSTONE_CORNER = registerBlock("orange_sandstone_corner",
-            () -> new CornerBlock(BlockProps.SANDSTONE.get()));
+            () -> new CornerLayerBlock(BlockProps.SANDSTONE.get()));
     public static final RegistryObject<Block> RED_SANDSTONE_CORNER = registerBlock("red_sandstone_corner",
-            () -> new CornerBlock(BlockProps.SANDSTONE.get()));
+            () -> new CornerLayerBlock(BlockProps.SANDSTONE.get()));
     public static final RegistryObject<Block> SANDSTONE_CORNER = registerBlock("sandstone_corner",
-            () -> new CornerBlock(BlockProps.SANDSTONE.get()));
+            () -> new CornerLayerBlock(BlockProps.SANDSTONE.get()));
     public static final RegistryObject<Block> BROWN_SANDSTONE_CORNER_SLAB = registerBlock("brown_sandstone_corner_slab",
             () -> new CornerSlabBlock(BlockProps.SANDSTONE.get()));
     public static final RegistryObject<Block> ORANGE_SANDSTONE_CORNER_SLAB = registerBlock("orange_sandstone_corner_slab",
@@ -2137,13 +2137,13 @@ public class ModBlocks {
     public static final RegistryObject<Block> CUT_SANDSTONE_CAPITAL = registerBlock("cut_sandstone_capital",
             () -> new CapitalBlock(BlockProps.SANDSTONE.get()));
     public static final RegistryObject<Block> CUT_BROWN_SANDSTONE_CORNER = registerBlock("cut_brown_sandstone_corner",
-            () -> new CornerBlock(BlockProps.SANDSTONE.get()));
+            () -> new CornerLayerBlock(BlockProps.SANDSTONE.get()));
     public static final RegistryObject<Block> CUT_ORANGE_SANDSTONE_CORNER = registerBlock("cut_orange_sandstone_corner",
-            () -> new CornerBlock(BlockProps.SANDSTONE.get()));
+            () -> new CornerLayerBlock(BlockProps.SANDSTONE.get()));
     public static final RegistryObject<Block> CUT_RED_SANDSTONE_CORNER = registerBlock("cut_red_sandstone_corner",
-            () -> new CornerBlock(BlockProps.SANDSTONE.get()));
+            () -> new CornerLayerBlock(BlockProps.SANDSTONE.get()));
     public static final RegistryObject<Block> CUT_SANDSTONE_CORNER = registerBlock("cut_sandstone_corner",
-            () -> new CornerBlock(BlockProps.SANDSTONE.get()));
+            () -> new CornerLayerBlock(BlockProps.SANDSTONE.get()));
     public static final RegistryObject<Block> CUT_BROWN_SANDSTONE_CORNER_SLAB = registerBlock("cut_brown_sandstone_corner_slab",
             () -> new CornerSlabBlock(BlockProps.SANDSTONE.get()));
     public static final RegistryObject<Block> CUT_ORANGE_SANDSTONE_CORNER_SLAB = registerBlock("cut_orange_sandstone_corner_slab",
@@ -2272,13 +2272,13 @@ public class ModBlocks {
     public static final RegistryObject<Block> SMOOTH_SANDSTONE_CAPITAL = registerBlock("smooth_sandstone_capital",
             () -> new CapitalBlock(BlockProps.SMOOTH_SANDSTONE.get()));
     public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_CORNER = registerBlock("smooth_brown_sandstone_corner",
-            () -> new CornerBlock(BlockProps.SMOOTH_SANDSTONE.get()));
+            () -> new CornerLayerBlock(BlockProps.SMOOTH_SANDSTONE.get()));
     public static final RegistryObject<Block> SMOOTH_ORANGE_SANDSTONE_CORNER = registerBlock("smooth_orange_sandstone_corner",
-            () -> new CornerBlock(BlockProps.SMOOTH_SANDSTONE.get()));
+            () -> new CornerLayerBlock(BlockProps.SMOOTH_SANDSTONE.get()));
     public static final RegistryObject<Block> SMOOTH_RED_SANDSTONE_CORNER = registerBlock("smooth_red_sandstone_corner",
-            () -> new CornerBlock(BlockProps.SMOOTH_SANDSTONE.get()));
+            () -> new CornerLayerBlock(BlockProps.SMOOTH_SANDSTONE.get()));
     public static final RegistryObject<Block> SMOOTH_SANDSTONE_CORNER = registerBlock("smooth_sandstone_corner",
-            () -> new CornerBlock(BlockProps.SMOOTH_SANDSTONE.get()));
+            () -> new CornerLayerBlock(BlockProps.SMOOTH_SANDSTONE.get()));
     public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_CORNER_SLAB = registerBlock("smooth_brown_sandstone_corner_slab",
             () -> new CornerSlabBlock(BlockProps.SMOOTH_SANDSTONE.get()));
     public static final RegistryObject<Block> SMOOTH_ORANGE_SANDSTONE_CORNER_SLAB = registerBlock("smooth_orange_sandstone_corner_slab",
@@ -2440,17 +2440,17 @@ public class ModBlocks {
     public static final RegistryObject<Block> SPRUCE_CAPITAL = registerBlock("spruce_capital",
             () -> new CapitalBlock(BlockProps.PLANK.get()));
     public static final RegistryObject<Block> ACACIA_CORNER = registerBlock("acacia_corner",
-            () -> new CornerBlock(BlockProps.PLANK.get()));
+            () -> new CornerLayerBlock(BlockProps.PLANK.get()));
     public static final RegistryObject<Block> BIRCH_CORNER = registerBlock("birch_corner",
-            () -> new CornerBlock(BlockProps.PLANK.get()));
+            () -> new CornerLayerBlock(BlockProps.PLANK.get()));
     public static final RegistryObject<Block> DARK_OAK_CORNER = registerBlock("dark_oak_corner",
-            () -> new CornerBlock(BlockProps.PLANK.get()));
+            () -> new CornerLayerBlock(BlockProps.PLANK.get()));
     public static final RegistryObject<Block> JUNGLE_CORNER = registerBlock("jungle_corner",
-            () -> new CornerBlock(BlockProps.PLANK.get()));
+            () -> new CornerLayerBlock(BlockProps.PLANK.get()));
     public static final RegistryObject<Block> OAK_CORNER = registerBlock("oak_corner",
-            () -> new CornerBlock(BlockProps.PLANK.get()));
+            () -> new CornerLayerBlock(BlockProps.PLANK.get()));
     public static final RegistryObject<Block> SPRUCE_CORNER = registerBlock("spruce_corner",
-            () -> new CornerBlock(BlockProps.PLANK.get()));
+            () -> new CornerLayerBlock(BlockProps.PLANK.get()));
     public static final RegistryObject<Block> ACACIA_CORNER_SLAB = registerBlock("acacia_corner_slab",
             () -> new CornerSlabBlock(BlockProps.PLANK.get()));
     public static final RegistryObject<Block> BIRCH_CORNER_SLAB = registerBlock("birch_corner_slab",
