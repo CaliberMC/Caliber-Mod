@@ -8,7 +8,6 @@ public enum QuarterShape implements StringRepresentable {
     BOTTOM ("bottom"),
     DOUBLE ("double");
 
-
     private final String name;
 
     QuarterShape(String pName) {

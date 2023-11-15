@@ -71,7 +71,7 @@ public class CornerLayerBlock extends Block implements SimpleWaterloggedBlock {
 
     @Override
     public boolean useShapeForLightOcclusion(BlockState pState) {
-        return true;
+        return pState.getValue(LAYERS) < 5;
     }
 
     @Override

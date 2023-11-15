@@ -1,48 +1,123 @@
 {
   "variants": {
-    "facing=north,type=bottom": {
-      "model": "caliber:block/polished_pink_granite_quarter"
+    "facing=north,type=bottom,layers=1": {
+      "model": "caliber:block/polished_pink_granite_quarter_layer_1"
     },
-    "facing=north,type=top": {
-      "model": "caliber:block/polished_pink_granite_quarter_top"
+    "facing=north,type=bottom,layers=2": {
+      "model": "caliber:block/polished_pink_granite_quarter_layer_2"
     },
-    "facing=north,type=double": {
-      "model": "caliber:block/polished_pink_granite_slab_vertical"
+    "facing=north,type=bottom,layers=3": {
+      "model": "caliber:block/polished_pink_granite_quarter_layer_3"
     },
-    "facing=east,type=bottom": {
-      "model": "caliber:block/polished_pink_granite_quarter",
+    "facing=north,type=bottom,layers=4": {
+      "model": "caliber:block/polished_pink_granite"
+    },
+    "facing=north,type=top,layers=1": {
+      "model": "caliber:block/polished_pink_granite_quarter_top_layer_1"
+    },
+    "facing=north,type=top,layers=2": {
+      "model": "caliber:block/polished_pink_granite_quarter_top_layer_2"
+    },
+    "facing=north,type=top,layers=3": {
+      "model": "caliber:block/polished_pink_granite_quarter_top_layer_3"
+    },
+    "facing=north,type=top,layers=4": {
+      "model": "caliber:block/polished_pink_granite"
+    },
+    "facing=east,type=bottom,layers=1": {
+      "model": "caliber:block/polished_pink_granite_quarter_layer_1",
       "y": 90
     },
-    "facing=east,type=top": {
-      "model": "caliber:block/polished_pink_granite_quarter_top",
+    "facing=east,type=bottom,layers=2": {
+      "model": "caliber:block/polished_pink_granite_quarter_layer_2",
       "y": 90
     },
-    "facing=east,type=double": {
-      "model": "caliber:block/polished_pink_granite_slab_vertical",
+    "facing=east,type=bottom,layers=3": {
+      "model": "caliber:block/polished_pink_granite_quarter_layer_3",
       "y": 90
     },
-    "facing=south,type=bottom": {
-      "model": "caliber:block/polished_pink_granite_quarter",
+    "facing=east,type=bottom,layers=4": {
+      "model": "caliber:block/polished_pink_granite",
+      "y": 90
+    },
+    "facing=east,type=top,layers=1": {
+      "model": "caliber:block/polished_pink_granite_quarter_top_layer_1",
+      "y": 90
+    },
+    "facing=east,type=top,layers=2": {
+      "model": "caliber:block/polished_pink_granite_quarter_top_layer_2",
+      "y": 90
+    },
+    "facing=east,type=top,layers=3": {
+      "model": "caliber:block/polished_pink_granite_quarter_top_layer_3",
+      "y": 90
+    },
+    "facing=east,type=top,layers=4": {
+      "model": "caliber:block/polished_pink_granite",
+      "y": 90
+    },
+    "facing=south,type=bottom,layers=1": {
+      "model": "caliber:block/polished_pink_granite_quarter_layer_1",
       "y": 180
     },
-    "facing=south,type=top": {
-      "model": "caliber:block/polished_pink_granite_quarter_top",
+    "facing=south,type=bottom,layers=2": {
+      "model": "caliber:block/polished_pink_granite_quarter_layer_2",
       "y": 180
     },
-    "facing=south,type=double": {
-      "model": "caliber:block/polished_pink_granite_slab_vertical",
+    "facing=south,type=bottom,layers=3": {
+      "model": "caliber:block/polished_pink_granite_quarter_layer_3",
       "y": 180
     },
-    "facing=west,type=bottom": {
-      "model": "caliber:block/polished_pink_granite_quarter",
+    "facing=south,type=bottom,layers=4": {
+      "model": "caliber:block/polished_pink_granite",
+      "y": 180
+    },
+    "facing=south,type=top,layers=1": {
+      "model": "caliber:block/polished_pink_granite_quarter_top_layer_1",
+      "y": 180
+    },
+    "facing=south,type=top,layers=2": {
+      "model": "caliber:block/polished_pink_granite_quarter_top_layer_2",
+      "y": 180
+    },
+    "facing=south,type=top,layers=3": {
+      "model": "caliber:block/polished_pink_granite_quarter_top_layer_3",
+      "y": 180
+    },
+    "facing=south,type=top,layers=4": {
+      "model": "caliber:block/polished_pink_granite",
+      "y": 180
+    },
+    "facing=west,type=bottom,layers=1": {
+      "model": "caliber:block/polished_pink_granite_quarter_layer_1",
       "y": 270
     },
-    "facing=west,type=top": {
-      "model": "caliber:block/polished_pink_granite_quarter_top",
+    "facing=west,type=bottom,layers=2": {
+      "model": "caliber:block/polished_pink_granite_quarter_layer_2",
       "y": 270
     },
-    "facing=west,type=double": {
-      "model": "caliber:block/polished_pink_granite_slab_vertical",
+    "facing=west,type=bottom,layers=3": {
+      "model": "caliber:block/polished_pink_granite_quarter_layer_3",
+      "y": 270
+    },
+    "facing=west,type=bottom,layers=4": {
+      "model": "caliber:block/polished_pink_granite",
+      "y": 270
+    },
+    "facing=west,type=top,layers=1": {
+      "model": "caliber:block/polished_pink_granite_quarter_top_layer_1",
+      "y": 270
+    },
+    "facing=west,type=top,layers=2": {
+      "model": "caliber:block/polished_pink_granite_quarter_top_layer_2",
+      "y": 270
+    },
+    "facing=west,type=top,layers=3": {
+      "model": "caliber:block/polished_pink_granite_quarter_top_layer_3",
+      "y": 270
+    },
+    "facing=west,type=top,layers=4": {
+      "model": "caliber:block/polished_pink_granite",
       "y": 270
     }
   }

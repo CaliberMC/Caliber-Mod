@@ -90,7 +90,7 @@ public class VerticalSlabLayerBlock extends Block implements SimpleWaterloggedBl
 
     @Override
     public boolean useShapeForLightOcclusion(BlockState pState) {
-        return pState.getValue(LAYERS) != 8;
+        return pState.getValue(LAYERS) < 8;
 //        return true;
     }
 

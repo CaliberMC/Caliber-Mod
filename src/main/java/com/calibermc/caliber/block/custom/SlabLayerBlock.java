@@ -60,7 +60,7 @@ public class SlabLayerBlock extends Block implements SimpleWaterloggedBlock {
 
     @Override
     public boolean useShapeForLightOcclusion(BlockState pState) {
-        return pState.getValue(LAYERS) != 8;
+        return pState.getValue(LAYERS) < 8;
 //        return true;
     }
 
@@ -97,6 +97,7 @@ public class SlabLayerBlock extends Block implements SimpleWaterloggedBlock {
         BlockPos blockpos = pContext.getClickedPos();
         BlockState blockstate = pContext.getLevel().getBlockState(blockpos);
         FluidState fluidstate = pContext.getLevel().getFluidState(blockpos);
+        Direction clickedFace = pContext.getClickedFace();
         if (blockstate.is(this)) {
             int i = blockstate.getValue(LAYERS);
             int newCount = Math.min(layerCount, i + 1);
@@ -105,9 +106,7 @@ public class SlabLayerBlock extends Block implements SimpleWaterloggedBlock {
         }
         else {
             BlockState blockstate1 = this.defaultBlockState().setValue(LAYERS, 1).setValue(TYPE, SlabLayerShape.BOTTOM).setValue(WATERLOGGED, Boolean.valueOf(fluidstate.getType() == Fluids.WATER));
-            Direction direction = pContext.getClickedFace();
-//            return this.defaultBlockState().setValue(WATERLOGGED, Boolean.valueOf(fluidstate.is(FluidTags.WATER)));
-            return direction != Direction.DOWN && (direction == Direction.UP || !(pContext.getClickLocation().y - (double)blockpos.getY() > 0.5D)) ?
+            return clickedFace != Direction.DOWN && (clickedFace == Direction.UP || !(pContext.getClickLocation().y - (double)blockpos.getY() > 0.5D)) ?
                     blockstate1 : blockstate1.setValue(TYPE, SlabLayerShape.TOP);
         }
     }

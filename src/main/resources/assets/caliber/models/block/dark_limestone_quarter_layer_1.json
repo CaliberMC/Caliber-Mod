@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/quarter_layer_1",
+  "textures": {
+    "side": "caliber:block/dark_limestone",
+    "bottom": "caliber:block/dark_limestone",
+    "top": "caliber:block/dark_limestone"
+  }
+}

@@ -1,0 +1,100 @@
+0.0.2
+- Initial Alpha Release
+- This mod is in the early development phase
+
+0.0.3
+- not released
+
+0.0.4
+- not released
+
+0.0.5
+- Added World Gen for Natural Stones
+- Added all variations of Natural Stone Vertical Slab, Quarter, Vertical Quarter and Eighth Blocks.
+- Added Loot Tables for all existing blocks
+- Lots of code optimizations
+- Bug Fixes
+
+0.0.6
+- Bug Fix: Adjusted rotation of Vertical Quarters
+
+0.0.7
+- Added Corner Block
+- Added all except cobble and sandstone Corner Blocks (will be included in the next update)
+
+0.0.8
+- Added all Natural Stone Variants of Arrow Slit Block, Balustrade Block, Capital Block and Window Block -Added All current custom blocks to Red Sandstone & Sandstone
+- Fixed Textures on Custom Sandstone blocks
+- Added translations and loot for all current blocks
+
+0.0.9
+- Added all Natural Stone variants of CornerSlab and VerticalCornerSlab.
+
+0.0.10
+- Added Arch Blocks!
+- Added all Natural Stone variants of Arch Block
+- Added new dynamic shape for Window Blocks
+- Added all missing loot tables
+- Bug Fix: Fixed rotation of all blocks in GUI display
+- Bug Fix: Added missing Tan Limestone Brick blockstate
+- Bug Fix: Sand Blocks now function like sand
+- Bug Fix: Adjusted ArrowSlit Blocks hitboxes and outlines
+- Cleaned up a bunch of code!
+
+0.0.11
+- Added Block Picker GUI
+- Added Custom Creative Inventory
+- Added Reach Adjustment Key
+- dded Block/BlockState Copy Key
+- Bugfix: Added missing Limestone Wall
+
+0.0.12
+- Added tags for all existing blocks
+- Bugfix: fixed server sync issue with Block Picker
+- Bugfix: config not working for enabling custom creative inventory
+- Bugfix: added all missing model files, corrected blockstates, fixed textures
+- Bugfix: added new enums to fix missing blockstate errors in console
+
+0.0.13
+- Added HalfWindow Shape
+- Added all shape variants for all vanilla wood planks
+- Bugfix: waterlogged blocks now function properly
+
+0.0.14
+- Bugfix: Copy Block key now only works in Creative Mode
+
+0.0.15
+- Added all block variants of Cut Sandstone and Smooth Sandstone
+- Block Picker overhaul allowing for shift+click, right click and dropping blocks onto GUI to remove
+
+0.0.16
+- Added all existing block variants of HalfWindow
+- Added all Mossy Stone Brick variants
+- Added all Mossy Cobbled Limestone variants
+
+0.0.17
+- Added all Mossy Cobbled Limestone variants (were missing from last update)
+- Added Mod Compat to all Creative Tabs via Tags (modders can now add their blocks to CaliberMod Tabs)
+- Lots of code cleanup
+- Bugfix: adjusted particle textures for all Arch Block variants
+
+0.0.18 (in progress)
+- Added Dirt (Coarse, Dirt, Rooted) Layers (experimental)
+- Added Grass Block Layers (experimental)
+- Added Gravel Layers (experimental)
+- Added Podzol Layers (experimental)
+- Added Mycelium Layers (experimental)
+- Added Nylium (Crimson, Warped) Layers (experimental)
+- Added Sand (Black, Brown, Orange, Red, Soul, Tan, White) Layers (experimental)
+- Added 3 Modes for Layered Blocks (Slab, Detail, Combo[default])
+    - Slab Mode: Only slab thickness blocks will be placed when placing layered blocks
+    - Detail Mode: Only layered blocks will be placed when placing layered blocks
+    - Combo Mode: Both slab thickness and layered blocks can be placed when placing layered blocks.  Use the keybind (h) to place layered blocks.
+- Added Conquest like BlockState behaviour to Corner Blocks while holding keybind (h) in combo mode
+- Added Conquest like BlockState behaviour to Quarter Blocks while holding keybind (h) in combo mode
+- Added Conquest like BlockState behaviour to Vertical Quarter Blocks while holding keybind (h) in combo mode
+- Added Conquest like BlockState behaviour to Slab Blocks while holding keybind (h) in combo mode
+- Added Conquest like BlockState behaviour to Vertical Slab Blocks while holding keybind (h) in combo mode
+- Added layermode command to change behaviour of all Layered Blocks (calibermod.layermode)
+- Added ptime command to change time of day for the client side only (calibermod.ptime)
+- Added pweather command to change weather for the client side only (calibermod.pweather)
