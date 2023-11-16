@@ -10,6 +10,9 @@
       "model": "caliber:block/light_limestone_quarter_layer_3"
     },
     "facing=north,type=bottom,layers=4": {
+      "model": "caliber:block/light_limestone_quarter_layer_4"
+    },
+    "facing=north,type=bottom,layers=5": {
       "model": "caliber:block/light_limestone"
     },
     "facing=north,type=top,layers=1": {
@@ -22,6 +25,9 @@
       "model": "caliber:block/light_limestone_quarter_top_layer_3"
     },
     "facing=north,type=top,layers=4": {
+      "model": "caliber:block/light_limestone_quarter_top_layer_4"
+    },
+    "facing=north,type=top,layers=5": {
       "model": "caliber:block/light_limestone"
     },
     "facing=east,type=bottom,layers=1": {
@@ -37,6 +43,10 @@
       "y": 90
     },
     "facing=east,type=bottom,layers=4": {
+      "model": "caliber:block/light_limestone_quarter_layer_4",
+      "y": 90
+    },
+    "facing=east,type=bottom,layers=5": {
       "model": "caliber:block/light_limestone",
       "y": 90
     },
@@ -53,6 +63,10 @@
       "y": 90
     },
     "facing=east,type=top,layers=4": {
+      "model": "caliber:block/light_limestone_quarter_top_layer_4",
+      "y": 90
+    },
+    "facing=east,type=top,layers=5": {
       "model": "caliber:block/light_limestone",
       "y": 90
     },
@@ -69,6 +83,10 @@
       "y": 180
     },
     "facing=south,type=bottom,layers=4": {
+      "model": "caliber:block/light_limestone_quarter_layer_4",
+      "y": 180
+    },
+    "facing=south,type=bottom,layers=5": {
       "model": "caliber:block/light_limestone",
       "y": 180
     },
@@ -85,6 +103,10 @@
       "y": 180
     },
     "facing=south,type=top,layers=4": {
+      "model": "caliber:block/light_limestone_quarter_top_layer_4",
+      "y": 180
+    },
+    "facing=south,type=top,layers=5": {
       "model": "caliber:block/light_limestone",
       "y": 180
     },
@@ -101,6 +123,10 @@
       "y": 270
     },
     "facing=west,type=bottom,layers=4": {
+      "model": "caliber:block/light_limestone_quarter_layer_4",
+      "y": 270
+    },
+    "facing=west,type=bottom,layers=5": {
       "model": "caliber:block/light_limestone",
       "y": 270
     },
@@ -117,6 +143,10 @@
       "y": 270
     },
     "facing=west,type=top,layers=4": {
+      "model": "caliber:block/light_limestone_quarter_top_layer_4",
+      "y": 270
+    },
+    "facing=west,type=top,layers=5": {
       "model": "caliber:block/light_limestone",
       "y": 270
     }

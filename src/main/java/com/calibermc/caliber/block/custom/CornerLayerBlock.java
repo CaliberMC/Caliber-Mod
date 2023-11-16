@@ -32,7 +32,7 @@ public class CornerLayerBlock extends Block implements SimpleWaterloggedBlock {
     public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
     public static final EnumProperty<CornerShape> TYPE = ModBlockStateProperties.CORNER_SHAPE;
-    public static final IntegerProperty LAYERS = ModBlockStateProperties.CORNER_LAYERS;
+    public static final IntegerProperty LAYERS = ModBlockStateProperties.FIVE_LAYERS;
     public final int layerCount = 5;
     
     public static final VoxelShape[] LEFT_NORTH_RIGHT_WEST = new VoxelShape[]{Shapes.empty(),

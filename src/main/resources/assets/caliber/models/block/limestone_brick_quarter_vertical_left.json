@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/quarter_vertical_left",
-  "textures": {
-    "side": "minecraft:block/stone_bricks",
-    "bottom": "minecraft:block/stone_bricks",
-    "top": "minecraft:block/stone_bricks"
-  }
-}

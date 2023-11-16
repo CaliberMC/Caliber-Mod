@@ -3,19 +3,18 @@
 	"parent": "caliber:block/layer_block",
 	"textures": {
 		"particle": "#side"
-	  },
+	},
 	"elements": [
 		{
-			"from": [0, 0, 4],
-			"to": [16, 12, 16],
-			"color": 4,
+			"from": [0, 0, 8],
+			"to": [16, 8, 16],
 			"faces": {
-				"north": {"uv": [0, 0, 16, 12], "texture": "#side"},
-				"east": {"uv": [0, 0, 12, 12], "texture": "#side", "cullface": "east"},
-				"south": {"uv": [0, 0, 16, 12], "texture": "#side", "cullface": "south"},
-				"west": {"uv": [0, 0, 12, 12], "texture": "#side", "cullface": "west"},
-				"up": {"uv": [0, 0, 16, 12], "texture": "#top"},
-				"down": {"uv": [0, 0, 16, 12], "texture": "#bottom", "cullface": "down"}
+				"north": {"uv": [0, 0, 16, 8], "texture": "#side"},
+				"east": {"uv": [0, 0, 8, 8], "texture": "#side", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 8], "texture": "#side", "cullface": "south"},
+				"west": {"uv": [0, 0, 8, 8], "texture": "#side", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 8], "texture": "#top"},
+				"down": {"uv": [0, 0, 16, 8], "texture": "#bottom", "cullface": "down"}
 			}
 		}
 	]

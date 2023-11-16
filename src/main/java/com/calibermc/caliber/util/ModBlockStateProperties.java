@@ -19,13 +19,12 @@ public class ModBlockStateProperties {
     public static final EnumProperty<SlabLayerShape> SLAB_LAYER_SHAPE = EnumProperty.create("type", SlabLayerShape.class);
     public static final EnumProperty<VerticalCornerSlabShape> VERTICAL_CORNER_SLAB_SHAPE = EnumProperty.create("type", VerticalCornerSlabShape.class);
     public static final EnumProperty<VerticalQuarterShape> VERTICAL_QUARTER_SHAPE = EnumProperty.create("type", VerticalQuarterShape.class);
+    public static final EnumProperty<VerticalQuarterLayerShape> VERTICAL_QUARTER_LAYER_SHAPE = EnumProperty.create("type", VerticalQuarterLayerShape.class);
     public static final EnumProperty<VerticalSlabShape> VERTICAL_SLAB_SHAPE = EnumProperty.create("type", VerticalSlabShape.class);
     public static final EnumProperty<WindowShape> WINDOW_SHAPE = EnumProperty.create("type", WindowShape.class);
 
+    public static final IntegerProperty FIVE_LAYERS = IntegerProperty.create("layers", 1, 5);
 
-
-    public static final IntegerProperty CORNER_LAYERS = IntegerProperty.create("layers", 1, 5);
-    public static final IntegerProperty QUARTER_LAYERS = IntegerProperty.create("layers", 1, 4);
     public static boolean isSide(Direction direction) {
         return direction == Direction.NORTH || direction == Direction.EAST || direction == Direction.SOUTH || direction == Direction.WEST;
     }
