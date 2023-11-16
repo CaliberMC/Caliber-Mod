@@ -1333,6 +1333,18 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.OAK_WINDOW_HALF.get());
         this.dropSelf(ModBlocks.SPRUCE_WINDOW_HALF.get());
 
+
+        this.dropSelf(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_CROSS.get());
+        this.dropSelf(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_DOWN.get());
+        this.dropSelf(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_UP.get());
+        this.dropSelf(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_LEFT.get());
+        this.dropSelf(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_RIGHT.get());
+        this.dropSelf(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_HORIZONTAL_1.get());
+        this.dropSelf(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_HORIZONTAL_2.get());
+        this.dropSelf(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_VERTICAL_1.get());
+        this.dropSelf(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_VERTICAL_2.get());
+
+
     }
 
     @Override

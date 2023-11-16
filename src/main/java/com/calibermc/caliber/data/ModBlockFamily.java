@@ -231,6 +231,44 @@ public class ModBlockFamily {
             this.family.variants.put(ModBlockFamily.Variant.WINDOW_HALF, pWindow_HalfBlock);
             return this;
         }
+        
+        /* TUDOR BLOCKS */
+        public ModBlockFamily.Builder cross(Block pCross) {
+            this.family.variants.put(ModBlockFamily.Variant.CROSS, pCross);
+            return this;
+        }
+        public ModBlockFamily.Builder down(Block pDown) {
+            this.family.variants.put(ModBlockFamily.Variant.DOWN, pDown);
+            return this;
+        }
+        public ModBlockFamily.Builder up(Block pUp) {
+            this.family.variants.put(ModBlockFamily.Variant.UP, pUp);
+            return this;
+        }
+        public ModBlockFamily.Builder left(Block pLeft) {
+            this.family.variants.put(ModBlockFamily.Variant.LEFT, pLeft);
+            return this;
+        }
+        public ModBlockFamily.Builder right(Block pRight) {
+            this.family.variants.put(ModBlockFamily.Variant.RIGHT, pRight);
+            return this;
+        }
+        public ModBlockFamily.Builder horizontal_1(Block pHorizontal_1) {
+            this.family.variants.put(ModBlockFamily.Variant.HORIZONTAL_1, pHorizontal_1);
+            return this;
+        }
+        public ModBlockFamily.Builder horizontal_2(Block pHorizontal_2) {
+            this.family.variants.put(ModBlockFamily.Variant.HORIZONTAL_2, pHorizontal_2);
+            return this;
+        }
+        public ModBlockFamily.Builder vertical_1(Block pVertical_1) {
+            this.family.variants.put(ModBlockFamily.Variant.VERTICAL_1, pVertical_1);
+            return this;
+        }
+        public ModBlockFamily.Builder vertical_2(Block pVertical_2) {
+            this.family.variants.put(ModBlockFamily.Variant.VERTICAL_2, pVertical_2);
+            return this;
+        }
 
         public ModBlockFamily.Builder dontGenerateModel() {
             this.family.generateModel = false;
@@ -254,6 +292,7 @@ public class ModBlockFamily {
     }
 
     public static enum Variant {
+        /* MAIN VARIANTS */
         ARCH("arch"),
         ARCH_HALF("arch_half"),
         ARCH_LARGE("arch_large"),
@@ -288,7 +327,18 @@ public class ModBlockFamily {
         WALL("wall"),
         WALL_SIGN("wall_sign"),
         WINDOW("window"),
-        WINDOW_HALF("window_half");
+        WINDOW_HALF("window_half"),
+
+        /* TUDOR BLOCKS */
+        CROSS("cross"),
+        DOWN("down"),
+        UP("up"),
+        LEFT("left"),
+        RIGHT("right"),
+        HORIZONTAL_1("horizontal_1"),
+        HORIZONTAL_2("horizontal_2"),
+        VERTICAL_1("vertical_1"),
+        VERTICAL_2("vertical_2");
 
         private final String name;
 

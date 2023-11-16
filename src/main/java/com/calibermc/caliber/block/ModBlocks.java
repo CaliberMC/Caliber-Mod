@@ -2,6 +2,7 @@ package com.calibermc.caliber.block;
 
 import com.calibermc.caliber.Caliber;
 import com.calibermc.caliber.block.custom.*;
+import com.calibermc.caliber.block.custom.DirectionalBlock;
 import com.calibermc.caliber.block.properties.BlockProps;
 import com.calibermc.caliber.item.CreativeTabs;
 import com.calibermc.caliber.item.ModItems;
@@ -2572,6 +2573,29 @@ public class ModBlocks {
     public static final RegistryObject<Block> SPRUCE_WINDOW_HALF = registerBlock("spruce_window_half",
             () -> new HalfWindowBlock(BlockProps.PLANK.get()));
 
+    // TUDOR BLOCKS
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_CROSS = registerBlock("tudor_dark_oak_beige_plaster_cross",
+            () -> new DirectionalBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_DOWN = registerBlock("tudor_dark_oak_beige_plaster_down",
+            () -> new DirectionalBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_UP = registerBlock("tudor_dark_oak_beige_plaster_up",
+            () -> new DirectionalBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_LEFT = registerBlock("tudor_dark_oak_beige_plaster_left",
+            () -> new DirectionalBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_RIGHT = registerBlock("tudor_dark_oak_beige_plaster_right",
+            () -> new DirectionalBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_HORIZONTAL_1 = registerBlock("tudor_dark_oak_beige_plaster_horizontal_1",
+            () -> new DirectionalBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_HORIZONTAL_2 = registerBlock("tudor_dark_oak_beige_plaster_horizontal_2",
+            () -> new DirectionalBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_VERTICAL_1 = registerBlock("tudor_dark_oak_beige_plaster_vertical_1",
+            () -> new DirectionalBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_VERTICAL_2 = registerBlock("tudor_dark_oak_beige_plaster_vertical_2",
+            () -> new DirectionalBlock(BlockProps.PLANK.get()));
+
+    
+    
+    
     public static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn); //CreativeTabs.CALIBER_TAB

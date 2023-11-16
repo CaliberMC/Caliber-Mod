@@ -1347,5 +1347,17 @@
     "block.caliber.dark_oak_window_half": "Dark Oak Half Window",
     "block.caliber.jungle_window_half": "Jungle Half Window",
     "block.caliber.oak_window_half": "Oak Half Window",
-    "block.caliber.spruce_window_half": "Spruce Half Window"
+    "block.caliber.spruce_window_half": "Spruce Half Window",
+
+    "block.caliber.tudor_dark_oak_beige_plaster_cross": "Dark Oak & Beige Plaster Tudor Cross",
+    "block.caliber.tudor_dark_oak_beige_plaster_down": "Dark Oak & Beige Plaster Tudor Down",
+    "block.caliber.tudor_dark_oak_beige_plaster_up": "Dark Oak & Beige Plaster Tudor Up",
+    "block.caliber.tudor_dark_oak_beige_plaster_left": "Dark Oak & Beige Plaster Tudor Left",
+    "block.caliber.tudor_dark_oak_beige_plaster_right": "Dark Oak & Beige Plaster Tudor Right",
+    "block.caliber.tudor_dark_oak_beige_plaster_horizontal_1": "Dark Oak & Beige Plaster Tudor Horizontal 1",
+    "block.caliber.tudor_dark_oak_beige_plaster_horizontal_2": "Dark Oak & Beige Plaster Tudor Horizontal 2",
+    "block.caliber.tudor_dark_oak_beige_plaster_vertical_1": "Dark Oak & Beige Plaster Tudor Vertical 1",
+    "block.caliber.tudor_dark_oak_beige_plaster_vertical_2": "Dark Oak & Beige Plaster Tudor Vertical 2"
+
+
 }

@@ -1890,6 +1890,19 @@ public class ModBlockFamilies {
             .layer(ModBlocks.WARPED_NYLIUM_LAYER.get())
             .getFamily();
 
+    /* TUDOR BLOCKS */
+    public static final ModBlockFamily TUDOR_DARK_OAK_BEIGE_PLASTER = familyBuilder(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_CROSS.get())
+            .down(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_DOWN.get())
+            .up(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_UP.get())
+            .left(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_LEFT.get())
+            .right(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_RIGHT.get())
+            .horizontal_1(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_HORIZONTAL_1.get())
+            .horizontal_2(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_HORIZONTAL_2.get())
+            .vertical_1(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_VERTICAL_1.get())
+            .vertical_2(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_VERTICAL_2.get())
+            .getFamily();
+
+
     private static ModBlockFamily.Builder familyBuilder(Block pBaseBlock) {
         ModBlockFamily.Builder modBlockFamily$builder = new ModBlockFamily.Builder(pBaseBlock);
         ModBlockFamily modBlockFamily = MAP.put(pBaseBlock, modBlockFamily$builder.getFamily());

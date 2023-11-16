@@ -195,6 +195,15 @@ public class ModBlockStateProvider extends BlockStateProvider {
         wallBlock((WallBlock) ModBlocks.OAK_WALL.get(), blockTexture(Blocks.OAK_PLANKS));
         wallBlock((WallBlock) ModBlocks.SPRUCE_WALL.get(), blockTexture(Blocks.SPRUCE_PLANKS));
 
+        simpleBlock(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_CROSS.get());
+        simpleBlock(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_DOWN.get());
+        simpleBlock(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_UP.get());
+        simpleBlock(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_LEFT.get());
+        simpleBlock(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_RIGHT.get());
+        simpleBlock(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_HORIZONTAL_1.get());
+        simpleBlock(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_HORIZONTAL_2.get());
+        simpleBlock(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_VERTICAL_1.get());
+        simpleBlock(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_VERTICAL_2.get());
 
 
 
