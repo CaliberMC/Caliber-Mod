@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "caliber:tan_limestone_brick_arrowslit"
+    },
+    {
+      "item": "minecraft:moss_block"
+    }
+  ],
+  "result": {
+    "item": "caliber:mossy_tan_limestone_brick_arrowslit"
+  }
+}

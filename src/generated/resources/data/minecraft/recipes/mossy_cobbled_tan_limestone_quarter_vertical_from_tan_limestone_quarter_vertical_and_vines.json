@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "caliber:tan_limestone_quarter_vertical"
+    },
+    {
+      "item": "minecraft:vine"
+    }
+  ],
+  "result": {
+    "item": "caliber:mossy_cobbled_tan_limestone_quarter_vertical"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:mossy_pink_limestone_brick_corner_slab_from_pink_limestone_brick_corner_slab_and_moss"
+    ]
+  },
+  "criteria": {
+    "has_pink_limestone_brick_corner_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caliber:pink_limestone_brick_corner_slab"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:mossy_pink_limestone_brick_corner_slab_from_pink_limestone_brick_corner_slab_and_moss"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_pink_limestone_brick_corner_slab",
+      "has_the_recipe"
+    ]
+  ]
+}

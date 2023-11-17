@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:mossy_cobbled_light_limestone_capital_from_light_limestone_capital_and_moss"
+    ]
+  },
+  "criteria": {
+    "has_light_limestone_capital": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caliber:light_limestone_capital"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:mossy_cobbled_light_limestone_capital_from_light_limestone_capital_and_moss"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_light_limestone_capital",
+      "has_the_recipe"
+    ]
+  ]
+}
