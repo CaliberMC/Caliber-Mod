@@ -195,17 +195,78 @@ public class ModBlockStateProvider extends BlockStateProvider {
         wallBlock((WallBlock) ModBlocks.OAK_WALL.get(), blockTexture(Blocks.OAK_PLANKS));
         wallBlock((WallBlock) ModBlocks.SPRUCE_WALL.get(), blockTexture(Blocks.SPRUCE_PLANKS));
 
-        simpleBlock(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_CROSS.get());
-        simpleBlock(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_DOWN.get());
-        simpleBlock(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_UP.get());
-        simpleBlock(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_LEFT.get());
-        simpleBlock(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_RIGHT.get());
-        simpleBlock(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_HORIZONTAL_1.get());
-        simpleBlock(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_HORIZONTAL_2.get());
-        simpleBlock(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_VERTICAL_1.get());
-        simpleBlock(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_VERTICAL_2.get());
+        /* Plaster */
+        simpleBlock(ModBlocks.BEIGE_PLASTER.get());
+        simpleBlock(ModBlocks.BROWN_PLASTER.get());
+        simpleBlock(ModBlocks.OCHRE_PLASTER.get());
+        simpleBlock(ModBlocks.TAN_PLASTER.get());
+        simpleBlock(ModBlocks.WHITE_PLASTER.get());
+        simpleBlock(ModBlocks.BEIGE_PLASTER_POWDER.get());
+        simpleBlock(ModBlocks.BROWN_PLASTER_POWDER.get());
+        simpleBlock(ModBlocks.OCHRE_PLASTER_POWDER.get());
+        simpleBlock(ModBlocks.TAN_PLASTER_POWDER.get());
+        simpleBlock(ModBlocks.WHITE_PLASTER_POWDER.get());
 
+        /* Tudor */
+        simpleBlock(ModBlocks.TUDOR_ACACIA_BEIGE_PLASTER_CROSS.get(), models().cubeBottomTop("tudor_acacia_beige_plaster_cross", modLoc("block/tudor_acacia_beige_plaster_cross"), blockTexture(Blocks.ACACIA_PLANKS), blockTexture(Blocks.ACACIA_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_ACACIA_BEIGE_PLASTER_DOWN.get(), models().cubeBottomTop("tudor_acacia_beige_plaster_down", modLoc("block/tudor_acacia_beige_plaster_down"), blockTexture(Blocks.ACACIA_PLANKS), blockTexture(Blocks.ACACIA_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_ACACIA_BEIGE_PLASTER_UP.get(), models().cubeBottomTop("tudor_acacia_beige_plaster_up", modLoc("block/tudor_acacia_beige_plaster_up"), blockTexture(Blocks.ACACIA_PLANKS), blockTexture(Blocks.ACACIA_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_ACACIA_BEIGE_PLASTER_LEFT.get(), models().cubeBottomTop("tudor_acacia_beige_plaster_left", modLoc("block/tudor_acacia_beige_plaster_left"), blockTexture(Blocks.ACACIA_PLANKS), blockTexture(Blocks.ACACIA_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_ACACIA_BEIGE_PLASTER_RIGHT.get(), models().cubeBottomTop("tudor_acacia_beige_plaster_right", modLoc("block/tudor_acacia_beige_plaster_right"), blockTexture(Blocks.ACACIA_PLANKS), blockTexture(Blocks.ACACIA_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_ACACIA_BEIGE_PLASTER_HORIZONTAL_1.get(), models().cubeBottomTop("tudor_acacia_beige_plaster_horizontal_1", modLoc("block/tudor_acacia_beige_plaster_horizontal_1"), blockTexture(Blocks.ACACIA_PLANKS), blockTexture(Blocks.ACACIA_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_ACACIA_BEIGE_PLASTER_HORIZONTAL_2.get(), models().cubeBottomTop("tudor_acacia_beige_plaster_horizontal_2", modLoc("block/tudor_acacia_beige_plaster_horizontal_2"), blockTexture(Blocks.ACACIA_PLANKS), blockTexture(Blocks.ACACIA_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_ACACIA_BEIGE_PLASTER_VERTICAL_1.get(), models().cubeBottomTop("tudor_acacia_beige_plaster_vertical_1", modLoc("block/tudor_acacia_beige_plaster_vertical_1"), blockTexture(Blocks.ACACIA_PLANKS), blockTexture(Blocks.ACACIA_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_ACACIA_BEIGE_PLASTER_VERTICAL_2.get(), models().cubeBottomTop("tudor_acacia_beige_plaster_vertical_2", modLoc("block/tudor_acacia_beige_plaster_vertical_2"), blockTexture(Blocks.ACACIA_PLANKS), blockTexture(Blocks.ACACIA_PLANKS)));
 
+        simpleBlock(ModBlocks.TUDOR_BIRCH_BEIGE_PLASTER_CROSS.get(), models().cubeBottomTop("tudor_birch_beige_plaster_cross", modLoc("block/tudor_birch_beige_plaster_cross"), blockTexture(Blocks.BIRCH_PLANKS), blockTexture(Blocks.BIRCH_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_BIRCH_BEIGE_PLASTER_DOWN.get(), models().cubeBottomTop("tudor_birch_beige_plaster_down", modLoc("block/tudor_birch_beige_plaster_down"), blockTexture(Blocks.BIRCH_PLANKS), blockTexture(Blocks.BIRCH_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_BIRCH_BEIGE_PLASTER_UP.get(), models().cubeBottomTop("tudor_birch_beige_plaster_up", modLoc("block/tudor_birch_beige_plaster_up"), blockTexture(Blocks.BIRCH_PLANKS), blockTexture(Blocks.BIRCH_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_BIRCH_BEIGE_PLASTER_LEFT.get(), models().cubeBottomTop("tudor_birch_beige_plaster_left", modLoc("block/tudor_birch_beige_plaster_left"), blockTexture(Blocks.BIRCH_PLANKS), blockTexture(Blocks.BIRCH_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_BIRCH_BEIGE_PLASTER_RIGHT.get(), models().cubeBottomTop("tudor_birch_beige_plaster_right", modLoc("block/tudor_birch_beige_plaster_right"), blockTexture(Blocks.BIRCH_PLANKS), blockTexture(Blocks.BIRCH_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_BIRCH_BEIGE_PLASTER_HORIZONTAL_1.get(), models().cubeBottomTop("tudor_birch_beige_plaster_horizontal_1", modLoc("block/tudor_birch_beige_plaster_horizontal_1"), blockTexture(Blocks.BIRCH_PLANKS), blockTexture(Blocks.BIRCH_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_BIRCH_BEIGE_PLASTER_HORIZONTAL_2.get(), models().cubeBottomTop("tudor_birch_beige_plaster_horizontal_2", modLoc("block/tudor_birch_beige_plaster_horizontal_2"), blockTexture(Blocks.BIRCH_PLANKS), blockTexture(Blocks.BIRCH_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_BIRCH_BEIGE_PLASTER_VERTICAL_1.get(), models().cubeBottomTop("tudor_birch_beige_plaster_vertical_1", modLoc("block/tudor_birch_beige_plaster_vertical_1"), blockTexture(Blocks.BIRCH_PLANKS), blockTexture(Blocks.BIRCH_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_BIRCH_BEIGE_PLASTER_VERTICAL_2.get(), models().cubeBottomTop("tudor_birch_beige_plaster_vertical_2", modLoc("block/tudor_birch_beige_plaster_vertical_2"), blockTexture(Blocks.BIRCH_PLANKS), blockTexture(Blocks.BIRCH_PLANKS)));
+        
+        simpleBlock(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_CROSS.get(), models().cubeBottomTop("tudor_dark_oak_beige_plaster_cross", modLoc("block/tudor_dark_oak_beige_plaster_cross"), blockTexture(Blocks.DARK_OAK_PLANKS), blockTexture(Blocks.DARK_OAK_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_DOWN.get(), models().cubeBottomTop("tudor_dark_oak_beige_plaster_down", modLoc("block/tudor_dark_oak_beige_plaster_down"), blockTexture(Blocks.DARK_OAK_PLANKS), blockTexture(Blocks.DARK_OAK_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_UP.get(), models().cubeBottomTop("tudor_dark_oak_beige_plaster_up", modLoc("block/tudor_dark_oak_beige_plaster_up"), blockTexture(Blocks.DARK_OAK_PLANKS), blockTexture(Blocks.DARK_OAK_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_LEFT.get(), models().cubeBottomTop("tudor_dark_oak_beige_plaster_left", modLoc("block/tudor_dark_oak_beige_plaster_left"), blockTexture(Blocks.DARK_OAK_PLANKS), blockTexture(Blocks.DARK_OAK_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_RIGHT.get(), models().cubeBottomTop("tudor_dark_oak_beige_plaster_right", modLoc("block/tudor_dark_oak_beige_plaster_right"), blockTexture(Blocks.DARK_OAK_PLANKS), blockTexture(Blocks.DARK_OAK_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_HORIZONTAL_1.get(), models().cubeBottomTop("tudor_dark_oak_beige_plaster_horizontal_1", modLoc("block/tudor_dark_oak_beige_plaster_horizontal_1"), blockTexture(Blocks.DARK_OAK_PLANKS), blockTexture(Blocks.DARK_OAK_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_HORIZONTAL_2.get(), models().cubeBottomTop("tudor_dark_oak_beige_plaster_horizontal_2", modLoc("block/tudor_dark_oak_beige_plaster_horizontal_2"), blockTexture(Blocks.DARK_OAK_PLANKS), blockTexture(Blocks.DARK_OAK_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_VERTICAL_1.get(), models().cubeBottomTop("tudor_dark_oak_beige_plaster_vertical_1", modLoc("block/tudor_dark_oak_beige_plaster_vertical_1"), blockTexture(Blocks.DARK_OAK_PLANKS), blockTexture(Blocks.DARK_OAK_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_VERTICAL_2.get(), models().cubeBottomTop("tudor_dark_oak_beige_plaster_vertical_2", modLoc("block/tudor_dark_oak_beige_plaster_vertical_2"), blockTexture(Blocks.DARK_OAK_PLANKS), blockTexture(Blocks.DARK_OAK_PLANKS)));
+
+        simpleBlock(ModBlocks.TUDOR_JUNGLE_BEIGE_PLASTER_CROSS.get(), models().cubeBottomTop("tudor_jungle_beige_plaster_cross", modLoc("block/tudor_jungle_beige_plaster_cross"), blockTexture(Blocks.JUNGLE_PLANKS), blockTexture(Blocks.JUNGLE_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_JUNGLE_BEIGE_PLASTER_DOWN.get(), models().cubeBottomTop("tudor_jungle_beige_plaster_down", modLoc("block/tudor_jungle_beige_plaster_down"), blockTexture(Blocks.JUNGLE_PLANKS), blockTexture(Blocks.JUNGLE_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_JUNGLE_BEIGE_PLASTER_UP.get(), models().cubeBottomTop("tudor_jungle_beige_plaster_up", modLoc("block/tudor_jungle_beige_plaster_up"), blockTexture(Blocks.JUNGLE_PLANKS), blockTexture(Blocks.JUNGLE_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_JUNGLE_BEIGE_PLASTER_LEFT.get(), models().cubeBottomTop("tudor_jungle_beige_plaster_left", modLoc("block/tudor_jungle_beige_plaster_left"), blockTexture(Blocks.JUNGLE_PLANKS), blockTexture(Blocks.JUNGLE_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_JUNGLE_BEIGE_PLASTER_RIGHT.get(), models().cubeBottomTop("tudor_jungle_beige_plaster_right", modLoc("block/tudor_jungle_beige_plaster_right"), blockTexture(Blocks.JUNGLE_PLANKS), blockTexture(Blocks.JUNGLE_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_JUNGLE_BEIGE_PLASTER_HORIZONTAL_1.get(), models().cubeBottomTop("tudor_jungle_beige_plaster_horizontal_1", modLoc("block/tudor_jungle_beige_plaster_horizontal_1"), blockTexture(Blocks.JUNGLE_PLANKS), blockTexture(Blocks.JUNGLE_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_JUNGLE_BEIGE_PLASTER_HORIZONTAL_2.get(), models().cubeBottomTop("tudor_jungle_beige_plaster_horizontal_2", modLoc("block/tudor_jungle_beige_plaster_horizontal_2"), blockTexture(Blocks.JUNGLE_PLANKS), blockTexture(Blocks.JUNGLE_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_JUNGLE_BEIGE_PLASTER_VERTICAL_1.get(), models().cubeBottomTop("tudor_jungle_beige_plaster_vertical_1", modLoc("block/tudor_jungle_beige_plaster_vertical_1"), blockTexture(Blocks.JUNGLE_PLANKS), blockTexture(Blocks.JUNGLE_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_JUNGLE_BEIGE_PLASTER_VERTICAL_2.get(), models().cubeBottomTop("tudor_jungle_beige_plaster_vertical_2", modLoc("block/tudor_jungle_beige_plaster_vertical_2"), blockTexture(Blocks.JUNGLE_PLANKS), blockTexture(Blocks.JUNGLE_PLANKS)));
+        
+        simpleBlock(ModBlocks.TUDOR_OAK_BEIGE_PLASTER_CROSS.get(), models().cubeBottomTop("tudor_oak_beige_plaster_cross", modLoc("block/tudor_oak_beige_plaster_cross"), blockTexture(Blocks.OAK_PLANKS), blockTexture(Blocks.OAK_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_OAK_BEIGE_PLASTER_DOWN.get(), models().cubeBottomTop("tudor_oak_beige_plaster_down", modLoc("block/tudor_oak_beige_plaster_down"), blockTexture(Blocks.OAK_PLANKS), blockTexture(Blocks.OAK_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_OAK_BEIGE_PLASTER_UP.get(), models().cubeBottomTop("tudor_oak_beige_plaster_up", modLoc("block/tudor_oak_beige_plaster_up"), blockTexture(Blocks.OAK_PLANKS), blockTexture(Blocks.OAK_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_OAK_BEIGE_PLASTER_LEFT.get(), models().cubeBottomTop("tudor_oak_beige_plaster_left", modLoc("block/tudor_oak_beige_plaster_left"), blockTexture(Blocks.OAK_PLANKS), blockTexture(Blocks.OAK_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_OAK_BEIGE_PLASTER_RIGHT.get(), models().cubeBottomTop("tudor_oak_beige_plaster_right", modLoc("block/tudor_oak_beige_plaster_right"), blockTexture(Blocks.OAK_PLANKS), blockTexture(Blocks.OAK_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_OAK_BEIGE_PLASTER_HORIZONTAL_1.get(), models().cubeBottomTop("tudor_oak_beige_plaster_horizontal_1", modLoc("block/tudor_oak_beige_plaster_horizontal_1"), blockTexture(Blocks.OAK_PLANKS), blockTexture(Blocks.OAK_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_OAK_BEIGE_PLASTER_HORIZONTAL_2.get(), models().cubeBottomTop("tudor_oak_beige_plaster_horizontal_2", modLoc("block/tudor_oak_beige_plaster_horizontal_2"), blockTexture(Blocks.OAK_PLANKS), blockTexture(Blocks.OAK_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_OAK_BEIGE_PLASTER_VERTICAL_1.get(), models().cubeBottomTop("tudor_oak_beige_plaster_vertical_1", modLoc("block/tudor_oak_beige_plaster_vertical_1"), blockTexture(Blocks.OAK_PLANKS), blockTexture(Blocks.OAK_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_OAK_BEIGE_PLASTER_VERTICAL_2.get(), models().cubeBottomTop("tudor_oak_beige_plaster_vertical_2", modLoc("block/tudor_oak_beige_plaster_vertical_2"), blockTexture(Blocks.OAK_PLANKS), blockTexture(Blocks.OAK_PLANKS)));
+
+        simpleBlock(ModBlocks.TUDOR_SPRUCE_BEIGE_PLASTER_CROSS.get(), models().cubeBottomTop("tudor_spruce_beige_plaster_cross", modLoc("block/tudor_spruce_beige_plaster_cross"), blockTexture(Blocks.SPRUCE_PLANKS), blockTexture(Blocks.SPRUCE_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_SPRUCE_BEIGE_PLASTER_DOWN.get(), models().cubeBottomTop("tudor_spruce_beige_plaster_down", modLoc("block/tudor_spruce_beige_plaster_down"), blockTexture(Blocks.SPRUCE_PLANKS), blockTexture(Blocks.SPRUCE_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_SPRUCE_BEIGE_PLASTER_UP.get(), models().cubeBottomTop("tudor_spruce_beige_plaster_up", modLoc("block/tudor_spruce_beige_plaster_up"), blockTexture(Blocks.SPRUCE_PLANKS), blockTexture(Blocks.SPRUCE_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_SPRUCE_BEIGE_PLASTER_LEFT.get(), models().cubeBottomTop("tudor_spruce_beige_plaster_left", modLoc("block/tudor_spruce_beige_plaster_left"), blockTexture(Blocks.SPRUCE_PLANKS), blockTexture(Blocks.SPRUCE_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_SPRUCE_BEIGE_PLASTER_RIGHT.get(), models().cubeBottomTop("tudor_spruce_beige_plaster_right", modLoc("block/tudor_spruce_beige_plaster_right"), blockTexture(Blocks.SPRUCE_PLANKS), blockTexture(Blocks.SPRUCE_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_SPRUCE_BEIGE_PLASTER_HORIZONTAL_1.get(), models().cubeBottomTop("tudor_spruce_beige_plaster_horizontal_1", modLoc("block/tudor_spruce_beige_plaster_horizontal_1"), blockTexture(Blocks.SPRUCE_PLANKS), blockTexture(Blocks.SPRUCE_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_SPRUCE_BEIGE_PLASTER_HORIZONTAL_2.get(), models().cubeBottomTop("tudor_spruce_beige_plaster_horizontal_2", modLoc("block/tudor_spruce_beige_plaster_horizontal_2"), blockTexture(Blocks.SPRUCE_PLANKS), blockTexture(Blocks.SPRUCE_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_SPRUCE_BEIGE_PLASTER_VERTICAL_1.get(), models().cubeBottomTop("tudor_spruce_beige_plaster_vertical_1", modLoc("block/tudor_spruce_beige_plaster_vertical_1"), blockTexture(Blocks.SPRUCE_PLANKS), blockTexture(Blocks.SPRUCE_PLANKS)));
+        simpleBlock(ModBlocks.TUDOR_SPRUCE_BEIGE_PLASTER_VERTICAL_2.get(), models().cubeBottomTop("tudor_spruce_beige_plaster_vertical_2", modLoc("block/tudor_spruce_beige_plaster_vertical_2"), blockTexture(Blocks.SPRUCE_PLANKS), blockTexture(Blocks.SPRUCE_PLANKS)));
 
     }
 }

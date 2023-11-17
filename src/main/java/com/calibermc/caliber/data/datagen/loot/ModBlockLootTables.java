@@ -1333,7 +1333,35 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.OAK_WINDOW_HALF.get());
         this.dropSelf(ModBlocks.SPRUCE_WINDOW_HALF.get());
 
+        this.dropSelf(ModBlocks.BEIGE_PLASTER.get());
+        this.dropSelf(ModBlocks.BROWN_PLASTER.get());
+        this.dropSelf(ModBlocks.OCHRE_PLASTER.get());
+        this.dropSelf(ModBlocks.TAN_PLASTER.get());
+        this.dropSelf(ModBlocks.WHITE_PLASTER.get());
+        this.dropSelf(ModBlocks.BEIGE_PLASTER_POWDER.get());
+        this.dropSelf(ModBlocks.BROWN_PLASTER_POWDER.get());
+        this.dropSelf(ModBlocks.OCHRE_PLASTER_POWDER.get());
+        this.dropSelf(ModBlocks.TAN_PLASTER_POWDER.get());
+        this.dropSelf(ModBlocks.WHITE_PLASTER_POWDER.get());
 
+        this.dropSelf(ModBlocks.TUDOR_ACACIA_BEIGE_PLASTER_CROSS.get());
+        this.dropSelf(ModBlocks.TUDOR_ACACIA_BEIGE_PLASTER_DOWN.get());
+        this.dropSelf(ModBlocks.TUDOR_ACACIA_BEIGE_PLASTER_UP.get());
+        this.dropSelf(ModBlocks.TUDOR_ACACIA_BEIGE_PLASTER_LEFT.get());
+        this.dropSelf(ModBlocks.TUDOR_ACACIA_BEIGE_PLASTER_RIGHT.get());
+        this.dropSelf(ModBlocks.TUDOR_ACACIA_BEIGE_PLASTER_HORIZONTAL_1.get());
+        this.dropSelf(ModBlocks.TUDOR_ACACIA_BEIGE_PLASTER_HORIZONTAL_2.get());
+        this.dropSelf(ModBlocks.TUDOR_ACACIA_BEIGE_PLASTER_VERTICAL_1.get());
+        this.dropSelf(ModBlocks.TUDOR_ACACIA_BEIGE_PLASTER_VERTICAL_2.get());
+        this.dropSelf(ModBlocks.TUDOR_BIRCH_BEIGE_PLASTER_CROSS.get());
+        this.dropSelf(ModBlocks.TUDOR_BIRCH_BEIGE_PLASTER_DOWN.get());
+        this.dropSelf(ModBlocks.TUDOR_BIRCH_BEIGE_PLASTER_UP.get());
+        this.dropSelf(ModBlocks.TUDOR_BIRCH_BEIGE_PLASTER_LEFT.get());
+        this.dropSelf(ModBlocks.TUDOR_BIRCH_BEIGE_PLASTER_RIGHT.get());
+        this.dropSelf(ModBlocks.TUDOR_BIRCH_BEIGE_PLASTER_HORIZONTAL_1.get());
+        this.dropSelf(ModBlocks.TUDOR_BIRCH_BEIGE_PLASTER_HORIZONTAL_2.get());
+        this.dropSelf(ModBlocks.TUDOR_BIRCH_BEIGE_PLASTER_VERTICAL_1.get());
+        this.dropSelf(ModBlocks.TUDOR_BIRCH_BEIGE_PLASTER_VERTICAL_2.get());
         this.dropSelf(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_CROSS.get());
         this.dropSelf(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_DOWN.get());
         this.dropSelf(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_UP.get());
@@ -1343,6 +1371,33 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_HORIZONTAL_2.get());
         this.dropSelf(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_VERTICAL_1.get());
         this.dropSelf(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_VERTICAL_2.get());
+        this.dropSelf(ModBlocks.TUDOR_JUNGLE_BEIGE_PLASTER_CROSS.get());
+        this.dropSelf(ModBlocks.TUDOR_JUNGLE_BEIGE_PLASTER_DOWN.get());
+        this.dropSelf(ModBlocks.TUDOR_JUNGLE_BEIGE_PLASTER_UP.get());
+        this.dropSelf(ModBlocks.TUDOR_JUNGLE_BEIGE_PLASTER_LEFT.get());
+        this.dropSelf(ModBlocks.TUDOR_JUNGLE_BEIGE_PLASTER_RIGHT.get());
+        this.dropSelf(ModBlocks.TUDOR_JUNGLE_BEIGE_PLASTER_HORIZONTAL_1.get());
+        this.dropSelf(ModBlocks.TUDOR_JUNGLE_BEIGE_PLASTER_HORIZONTAL_2.get());
+        this.dropSelf(ModBlocks.TUDOR_JUNGLE_BEIGE_PLASTER_VERTICAL_1.get());
+        this.dropSelf(ModBlocks.TUDOR_JUNGLE_BEIGE_PLASTER_VERTICAL_2.get());
+        this.dropSelf(ModBlocks.TUDOR_OAK_BEIGE_PLASTER_CROSS.get());
+        this.dropSelf(ModBlocks.TUDOR_OAK_BEIGE_PLASTER_DOWN.get());
+        this.dropSelf(ModBlocks.TUDOR_OAK_BEIGE_PLASTER_UP.get());
+        this.dropSelf(ModBlocks.TUDOR_OAK_BEIGE_PLASTER_LEFT.get());
+        this.dropSelf(ModBlocks.TUDOR_OAK_BEIGE_PLASTER_RIGHT.get());
+        this.dropSelf(ModBlocks.TUDOR_OAK_BEIGE_PLASTER_HORIZONTAL_1.get());
+        this.dropSelf(ModBlocks.TUDOR_OAK_BEIGE_PLASTER_HORIZONTAL_2.get());
+        this.dropSelf(ModBlocks.TUDOR_OAK_BEIGE_PLASTER_VERTICAL_1.get());
+        this.dropSelf(ModBlocks.TUDOR_OAK_BEIGE_PLASTER_VERTICAL_2.get());
+        this.dropSelf(ModBlocks.TUDOR_SPRUCE_BEIGE_PLASTER_CROSS.get());
+        this.dropSelf(ModBlocks.TUDOR_SPRUCE_BEIGE_PLASTER_DOWN.get());
+        this.dropSelf(ModBlocks.TUDOR_SPRUCE_BEIGE_PLASTER_UP.get());
+        this.dropSelf(ModBlocks.TUDOR_SPRUCE_BEIGE_PLASTER_LEFT.get());
+        this.dropSelf(ModBlocks.TUDOR_SPRUCE_BEIGE_PLASTER_RIGHT.get());
+        this.dropSelf(ModBlocks.TUDOR_SPRUCE_BEIGE_PLASTER_HORIZONTAL_1.get());
+        this.dropSelf(ModBlocks.TUDOR_SPRUCE_BEIGE_PLASTER_HORIZONTAL_2.get());
+        this.dropSelf(ModBlocks.TUDOR_SPRUCE_BEIGE_PLASTER_VERTICAL_1.get());
+        this.dropSelf(ModBlocks.TUDOR_SPRUCE_BEIGE_PLASTER_VERTICAL_2.get());
 
 
     }

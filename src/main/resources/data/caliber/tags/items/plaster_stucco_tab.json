@@ -1,6 +1,16 @@
 {
   "replace": false,
   "values": [
+    "caliber:beige_plaster",
+    "caliber:brown_plaster",
+    "caliber:ochre_plaster",
+    "caliber:tan_plaster",
+    "caliber:white_plaster",
+    "caliber:beige_plaster_powder",
+    "caliber:brown_plaster_powder",
+    "caliber:ochre_plaster_powder",
+    "caliber:tan_plaster_powder",
+    "caliber:white_plaster_powder",
     "minecraft:white_concrete",
     "minecraft:light_gray_concrete",
     "minecraft:gray_concrete",

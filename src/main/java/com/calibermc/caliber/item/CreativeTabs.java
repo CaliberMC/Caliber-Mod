@@ -97,7 +97,7 @@ public class CreativeTabs {
                 }
             }
         };
-        new ModifiedTab("half_timbered_walls", () -> new ItemStack(Blocks.AIR)) {
+        new ModifiedTab("half_timbered_walls", () -> new ItemStack(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_CROSS.get())) {
             @Override
             public void fillItemList(NonNullList<ItemStack> pItems) {
                 ITagManager<Item> tags = ForgeRegistries.ITEMS.tags();

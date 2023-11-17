@@ -1,4 +1,4 @@
-package com.calibermc.caliber.data.datagen;
+package com.calibermc.caliber.data.datagen.recipes;
 
 import com.calibermc.caliber.block.ModBlocks;
 import net.minecraft.advancements.critereon.ItemPredicate;
@@ -12,9 +12,9 @@ import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
 import java.util.function.Consumer;
 
-public class ModRecipeProviderWood extends RecipeProvider implements IConditionBuilder {
+public class WoodRecipeProvider extends RecipeProvider implements IConditionBuilder {
 
-    public ModRecipeProviderWood(DataGenerator pGenerator) {
+    public WoodRecipeProvider(DataGenerator pGenerator) {
         super(pGenerator);
     }
     

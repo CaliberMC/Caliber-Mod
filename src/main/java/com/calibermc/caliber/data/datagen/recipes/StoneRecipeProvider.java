@@ -1,4 +1,4 @@
-package com.calibermc.caliber.data.datagen;
+package com.calibermc.caliber.data.datagen.recipes;
 
 import com.calibermc.caliber.block.ModBlocks;
 import com.calibermc.caliber.item.ModItems;
@@ -11,9 +11,9 @@ import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
 import java.util.function.Consumer;
 
-public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder {
+public class StoneRecipeProvider extends RecipeProvider implements IConditionBuilder {
 
-    public ModRecipeProvider(DataGenerator pGenerator) {
+    public StoneRecipeProvider(DataGenerator pGenerator) {
         super(pGenerator);
     }
     

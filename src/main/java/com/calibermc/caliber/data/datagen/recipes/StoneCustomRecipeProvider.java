@@ -1,19 +1,19 @@
-package com.calibermc.caliber.data.datagen;
+package com.calibermc.caliber.data.datagen.recipes;
 
 import com.calibermc.caliber.block.ModBlocks;
-import com.calibermc.caliber.item.ModItems;
 import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
 import java.util.function.Consumer;
 
-public class ModRecipeProvider2 extends RecipeProvider implements IConditionBuilder {
+public class StoneCustomRecipeProvider extends RecipeProvider implements IConditionBuilder {
 
-    public ModRecipeProvider2(DataGenerator pGenerator) {
+    public StoneCustomRecipeProvider(DataGenerator pGenerator) {
         super(pGenerator);
     }
     
@@ -663,6 +663,7 @@ public class ModRecipeProvider2 extends RecipeProvider implements IConditionBuil
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.TAN_LIMESTONE_BRICKS.get()), ModBlocks.TAN_LIMESTONE_BRICK_WINDOW_HALF.get(), 2).unlockedBy("has_tan_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE_BRICKS.get()).build())).save(pFinishedRecipeConsumer, "tan_limestone_brick_window_half_from_tan_limestone_bricks_stonecutting");
         
+
         /* COBBLED LIMESTONE BLOCKS */
         /* Cobbled Limestone Arches */
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.COBBLED_DARK_LIMESTONE.get()), ModBlocks.COBBLED_DARK_LIMESTONE_ARCH.get(), 2).unlockedBy("has_dark_limestone",
@@ -808,6 +809,7 @@ public class ModRecipeProvider2 extends RecipeProvider implements IConditionBuil
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "cobbled_pink_limestone_window_half_from_cobbled_pink_limestone_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.COBBLED_TAN_LIMESTONE.get()), ModBlocks.COBBLED_TAN_LIMESTONE_WINDOW_HALF.get(), 2).unlockedBy("has_tan_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "cobbled_tan_limestone_window_half_from_cobbled_tan_limestone_stonecutting");
+
 
         /* MARBLE BLOCKS */
         /* Marble Arches */

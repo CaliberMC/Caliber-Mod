@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
-    "caliber:tudor_dark_oak_beige_plaster_cross"
+    "caliber:tudor_acacia_beige_plaster_cross",
+    "caliber:tudor_birch_beige_plaster_cross",
+    "caliber:tudor_dark_oak_beige_plaster_cross",
+    "caliber:tudor_jungle_beige_plaster_cross",
+    "caliber:tudor_oak_beige_plaster_cross",
+    "caliber:tudor_spruce_beige_plaster_cross"
   ]
 }
