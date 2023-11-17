@@ -1,10 +1,7 @@
 package com.calibermc.caliber.data.datagen;
 
 import com.calibermc.caliber.Caliber;
-import com.calibermc.caliber.data.datagen.recipes.MiscRecipeProvider;
-import com.calibermc.caliber.data.datagen.recipes.MossyBlockRecipeProvider;
-import com.calibermc.caliber.data.datagen.recipes.StoneRecipeProvider;
-import com.calibermc.caliber.data.datagen.recipes.StoneCustomRecipeProvider;
+import com.calibermc.caliber.data.datagen.recipes.*;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -22,6 +19,7 @@ public class DataGenerators {
         generator.addProvider(new StoneCustomRecipeProvider(generator));
         generator.addProvider(new MossyBlockRecipeProvider(generator));
         generator.addProvider(new MiscRecipeProvider(generator));
+        generator.addProvider(new TudorBlockRecipeProvider(generator));
 //        generator.addProvider(new ModRecipeProviderWood(generator));
         generator.addProvider(new ModLootTableProvider(generator));
         generator.addProvider(new ModBlockStateProvider(generator, existingFileHelper));
