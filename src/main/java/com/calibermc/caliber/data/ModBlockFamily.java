@@ -10,7 +10,7 @@ import java.util.Optional;
 
 public class ModBlockFamily {
     private final Block baseBlock;
-    final Map<ModBlockFamily.Variant, Block> variants = Maps.newHashMap();
+    final Map<Variant, Block> variants = Maps.newHashMap();
     boolean generateModel = true; //default to true
     boolean generateRecipe = true; //default to true
     @Nullable
@@ -26,11 +26,11 @@ public class ModBlockFamily {
         return this.baseBlock;
     }
 
-    public Map<ModBlockFamily.Variant, Block> getVariants() {
+    public Map<Variant, Block> getVariants() {
         return this.variants;
     }
 
-    public Block get(ModBlockFamily.Variant pVariant) {
+    public Block get(Variant pVariant) {
         return this.variants.get(pVariant);
     }
 
@@ -61,231 +61,231 @@ public class ModBlockFamily {
             return this.family;
         }
 
-        public ModBlockFamily.Builder arch(Block pArchBlock) {
-            this.family.variants.put(ModBlockFamily.Variant.ARCH, pArchBlock);
+        public Builder arch(Block pArchBlock) {
+            this.family.variants.put(Variant.ARCH, pArchBlock);
             return this;
         }
 
-        public ModBlockFamily.Builder arch_half(Block pArch_HalfBlock) {
-            this.family.variants.put(ModBlockFamily.Variant.ARCH_HALF, pArch_HalfBlock);
+        public Builder arch_half(Block pArch_HalfBlock) {
+            this.family.variants.put(Variant.ARCH_HALF, pArch_HalfBlock);
             return this;
         }
 
-        public ModBlockFamily.Builder arch_large(Block pArch_LargeBlock) {
-            this.family.variants.put(ModBlockFamily.Variant.ARCH_LARGE, pArch_LargeBlock);
+        public Builder arch_large(Block pArch_LargeBlock) {
+            this.family.variants.put(Variant.ARCH_LARGE, pArch_LargeBlock);
             return this;
         }
 
-        public ModBlockFamily.Builder arch_large_half(Block pArch_Large_HalfBlock) {
-            this.family.variants.put(ModBlockFamily.Variant.ARCH_LARGE_HALF, pArch_Large_HalfBlock);
+        public Builder arch_large_half(Block pArch_Large_HalfBlock) {
+            this.family.variants.put(Variant.ARCH_LARGE_HALF, pArch_Large_HalfBlock);
             return this;
         }
 
-        public ModBlockFamily.Builder arch_small(Block pArch_SmallBlock) {
-            this.family.variants.put(ModBlockFamily.Variant.ARCH_SMALL, pArch_SmallBlock);
+        public Builder arch_small(Block pArch_SmallBlock) {
+            this.family.variants.put(Variant.ARCH_SMALL, pArch_SmallBlock);
             return this;
         }
 
-        public ModBlockFamily.Builder arch_small_half(Block pArch_Small_HalfBlock) {
-            this.family.variants.put(ModBlockFamily.Variant.ARCH_SMALL_HALF, pArch_Small_HalfBlock);
+        public Builder arch_small_half(Block pArch_Small_HalfBlock) {
+            this.family.variants.put(Variant.ARCH_SMALL_HALF, pArch_Small_HalfBlock);
             return this;
         }
 
-        public ModBlockFamily.Builder arrowslit(Block pArrowslitBlock) {
-            this.family.variants.put(ModBlockFamily.Variant.ARROWSLIT, pArrowslitBlock);
+        public Builder arrowslit(Block pArrowslitBlock) {
+            this.family.variants.put(Variant.ARROWSLIT, pArrowslitBlock);
             return this;
         }
 
-        public ModBlockFamily.Builder balustrade(Block pBalustradeBlock) {
-            this.family.variants.put(ModBlockFamily.Variant.BALUSTRADE, pBalustradeBlock);
+        public Builder balustrade(Block pBalustradeBlock) {
+            this.family.variants.put(Variant.BALUSTRADE, pBalustradeBlock);
             return this;
         }
 
-        public ModBlockFamily.Builder button(Block pButtonBlock) {
-            this.family.variants.put(ModBlockFamily.Variant.BUTTON, pButtonBlock);
+        public Builder button(Block pButtonBlock) {
+            this.family.variants.put(Variant.BUTTON, pButtonBlock);
             return this;
         }
 
-        public ModBlockFamily.Builder capital(Block pCapitalBlock) {
-            this.family.variants.put(ModBlockFamily.Variant.CAPITAL, pCapitalBlock);
+        public Builder capital(Block pCapitalBlock) {
+            this.family.variants.put(Variant.CAPITAL, pCapitalBlock);
             return this;
         }
 
-        public ModBlockFamily.Builder chiseled(Block pChiseledBlock) {
-            this.family.variants.put(ModBlockFamily.Variant.CHISELED, pChiseledBlock);
+        public Builder chiseled(Block pChiseledBlock) {
+            this.family.variants.put(Variant.CHISELED, pChiseledBlock);
             return this;
         }
 
-        public ModBlockFamily.Builder cracked(Block pCrackedBlock) {
-            this.family.variants.put(ModBlockFamily.Variant.CRACKED, pCrackedBlock);
+        public Builder cracked(Block pCrackedBlock) {
+            this.family.variants.put(Variant.CRACKED, pCrackedBlock);
             return this;
         }
 
-        public ModBlockFamily.Builder column(Block pColumnBlock) {
-            this.family.variants.put(ModBlockFamily.Variant.COLUMN, pColumnBlock);
+        public Builder column(Block pColumnBlock) {
+            this.family.variants.put(Variant.COLUMN, pColumnBlock);
             return this;
         }
 
-        public ModBlockFamily.Builder corner(Block pCornerBlock) {
-            this.family.variants.put(ModBlockFamily.Variant.CORNER, pCornerBlock);
+        public Builder corner(Block pCornerBlock) {
+            this.family.variants.put(Variant.CORNER, pCornerBlock);
             return this;
         }
 
-        public ModBlockFamily.Builder corner_slab(Block pCorner_SlabBlock) {
-            this.family.variants.put(ModBlockFamily.Variant.CORNER_SLAB, pCorner_SlabBlock);
+        public Builder corner_slab(Block pCorner_SlabBlock) {
+            this.family.variants.put(Variant.CORNER_SLAB, pCorner_SlabBlock);
             return this;
         }
 
-        public ModBlockFamily.Builder corner_slab_vertical(Block pCorner_Slab_VerticalBlock) {
-            this.family.variants.put(ModBlockFamily.Variant.CORNER_SLAB_VERTICAL, pCorner_Slab_VerticalBlock);
+        public Builder corner_slab_vertical(Block pCorner_Slab_VerticalBlock) {
+            this.family.variants.put(Variant.CORNER_SLAB_VERTICAL, pCorner_Slab_VerticalBlock);
             return this;
         }
 
-        public ModBlockFamily.Builder cut(Block pCutBlock) {
-            this.family.variants.put(ModBlockFamily.Variant.CUT, pCutBlock);
+        public Builder cut(Block pCutBlock) {
+            this.family.variants.put(Variant.CUT, pCutBlock);
             return this;
         }
 
-        public ModBlockFamily.Builder door(Block pDoorBlock) {
-            this.family.variants.put(ModBlockFamily.Variant.DOOR, pDoorBlock);
+        public Builder door(Block pDoorBlock) {
+            this.family.variants.put(Variant.DOOR, pDoorBlock);
             return this;
         }
 
-        public ModBlockFamily.Builder eighth(Block pEighthBlock) {
-            this.family.variants.put(ModBlockFamily.Variant.EIGHTH, pEighthBlock);
+        public Builder eighth(Block pEighthBlock) {
+            this.family.variants.put(Variant.EIGHTH, pEighthBlock);
             return this;
         }
 
-        public ModBlockFamily.Builder fence(Block pFenceBlock) {
-            this.family.variants.put(ModBlockFamily.Variant.FENCE, pFenceBlock);
+        public Builder fence(Block pFenceBlock) {
+            this.family.variants.put(Variant.FENCE, pFenceBlock);
             return this;
         }
 
-        public ModBlockFamily.Builder fenceGate(Block pFenceGateBlock) {
-            this.family.variants.put(ModBlockFamily.Variant.FENCE_GATE, pFenceGateBlock);
+        public Builder fenceGate(Block pFenceGateBlock) {
+            this.family.variants.put(Variant.FENCE_GATE, pFenceGateBlock);
             return this;
         }
 
-        public ModBlockFamily.Builder layer(Block pLayerBlock) {
-            this.family.variants.put(ModBlockFamily.Variant.LAYER, pLayerBlock);
+        public Builder layer(Block pLayerBlock) {
+            this.family.variants.put(Variant.LAYER, pLayerBlock);
             return this;
         }
 
-        public ModBlockFamily.Builder quarter(Block pQuarterBlock) {
-            this.family.variants.put(ModBlockFamily.Variant.QUARTER, pQuarterBlock);
+        public Builder quarter(Block pQuarterBlock) {
+            this.family.variants.put(Variant.QUARTER, pQuarterBlock);
             return this;
         }
 
-        public ModBlockFamily.Builder quarter_vertical(Block pQuarter_VerticalBlock) {
-            this.family.variants.put(ModBlockFamily.Variant.QUARTER_VERTICAL, pQuarter_VerticalBlock);
+        public Builder quarter_vertical(Block pQuarter_VerticalBlock) {
+            this.family.variants.put(Variant.QUARTER_VERTICAL, pQuarter_VerticalBlock);
             return this;
         }
 
-        public ModBlockFamily.Builder sign(Block pSignBlock, Block pWallSignBlock) {
-            this.family.variants.put(ModBlockFamily.Variant.SIGN, pSignBlock);
-            this.family.variants.put(ModBlockFamily.Variant.WALL_SIGN, pWallSignBlock);
+        public Builder sign(Block pSignBlock, Block pWallSignBlock) {
+            this.family.variants.put(Variant.SIGN, pSignBlock);
+            this.family.variants.put(Variant.WALL_SIGN, pWallSignBlock);
             return this;
         }
 
-        public ModBlockFamily.Builder slab(Block pSlabBlock) {
-            this.family.variants.put(ModBlockFamily.Variant.SLAB, pSlabBlock);
+        public Builder slab(Block pSlabBlock) {
+            this.family.variants.put(Variant.SLAB, pSlabBlock);
             return this;
         }
 
-        public ModBlockFamily.Builder slab_vertical(Block pSlab_VerticalBlock) {
-            this.family.variants.put(ModBlockFamily.Variant.SLAB_VERTICAL, pSlab_VerticalBlock);
+        public Builder slab_vertical(Block pSlab_VerticalBlock) {
+            this.family.variants.put(Variant.SLAB_VERTICAL, pSlab_VerticalBlock);
             return this;
         }
 
-        public ModBlockFamily.Builder stairs(Block pStairsBlock) {
-            this.family.variants.put(ModBlockFamily.Variant.STAIRS, pStairsBlock);
+        public Builder stairs(Block pStairsBlock) {
+            this.family.variants.put(Variant.STAIRS, pStairsBlock);
             return this;
         }
 
-        public ModBlockFamily.Builder pressurePlate(Block pPressurePlateBlock) {
-            this.family.variants.put(ModBlockFamily.Variant.PRESSURE_PLATE, pPressurePlateBlock);
+        public Builder pressurePlate(Block pPressurePlateBlock) {
+            this.family.variants.put(Variant.PRESSURE_PLATE, pPressurePlateBlock);
             return this;
         }
 
-        public ModBlockFamily.Builder polished(Block pPolishedBlock) {
-            this.family.variants.put(ModBlockFamily.Variant.POLISHED, pPolishedBlock);
+        public Builder polished(Block pPolishedBlock) {
+            this.family.variants.put(Variant.POLISHED, pPolishedBlock);
             return this;
         }
 
-        public ModBlockFamily.Builder trapdoor(Block pTrapdoorBlock) {
-            this.family.variants.put(ModBlockFamily.Variant.TRAPDOOR, pTrapdoorBlock);
+        public Builder trapdoor(Block pTrapdoorBlock) {
+            this.family.variants.put(Variant.TRAPDOOR, pTrapdoorBlock);
             return this;
         }
 
-        public ModBlockFamily.Builder wall(Block pWallBlock) {
-            this.family.variants.put(ModBlockFamily.Variant.WALL, pWallBlock);
+        public Builder wall(Block pWallBlock) {
+            this.family.variants.put(Variant.WALL, pWallBlock);
             return this;
         }
 
-        public ModBlockFamily.Builder window(Block pWindowBlock) {
-            this.family.variants.put(ModBlockFamily.Variant.WINDOW, pWindowBlock);
+        public Builder window(Block pWindowBlock) {
+            this.family.variants.put(Variant.WINDOW, pWindowBlock);
             return this;
         }
 
-        public ModBlockFamily.Builder window_half(Block pWindow_HalfBlock) {
-            this.family.variants.put(ModBlockFamily.Variant.WINDOW_HALF, pWindow_HalfBlock);
+        public Builder window_half(Block pWindow_HalfBlock) {
+            this.family.variants.put(Variant.WINDOW_HALF, pWindow_HalfBlock);
             return this;
         }
         
         /* TUDOR BLOCKS */
-        public ModBlockFamily.Builder cross(Block pCross) {
-            this.family.variants.put(ModBlockFamily.Variant.CROSS, pCross);
+        public Builder cross(Block pCross) {
+            this.family.variants.put(Variant.CROSS, pCross);
             return this;
         }
-        public ModBlockFamily.Builder down(Block pDown) {
-            this.family.variants.put(ModBlockFamily.Variant.DOWN, pDown);
+        public Builder down(Block pDown) {
+            this.family.variants.put(Variant.DOWN, pDown);
             return this;
         }
-        public ModBlockFamily.Builder up(Block pUp) {
-            this.family.variants.put(ModBlockFamily.Variant.UP, pUp);
+        public Builder up(Block pUp) {
+            this.family.variants.put(Variant.UP, pUp);
             return this;
         }
-        public ModBlockFamily.Builder left(Block pLeft) {
-            this.family.variants.put(ModBlockFamily.Variant.LEFT, pLeft);
+        public Builder left(Block pLeft) {
+            this.family.variants.put(Variant.LEFT, pLeft);
             return this;
         }
-        public ModBlockFamily.Builder right(Block pRight) {
-            this.family.variants.put(ModBlockFamily.Variant.RIGHT, pRight);
+        public Builder right(Block pRight) {
+            this.family.variants.put(Variant.RIGHT, pRight);
             return this;
         }
-        public ModBlockFamily.Builder horizontal_1(Block pHorizontal_1) {
-            this.family.variants.put(ModBlockFamily.Variant.HORIZONTAL_1, pHorizontal_1);
+        public Builder horizontal_1(Block pHorizontal_1) {
+            this.family.variants.put(Variant.HORIZONTAL_1, pHorizontal_1);
             return this;
         }
-        public ModBlockFamily.Builder horizontal_2(Block pHorizontal_2) {
-            this.family.variants.put(ModBlockFamily.Variant.HORIZONTAL_2, pHorizontal_2);
+        public Builder horizontal_2(Block pHorizontal_2) {
+            this.family.variants.put(Variant.HORIZONTAL_2, pHorizontal_2);
             return this;
         }
-        public ModBlockFamily.Builder vertical_1(Block pVertical_1) {
-            this.family.variants.put(ModBlockFamily.Variant.VERTICAL_1, pVertical_1);
+        public Builder vertical_1(Block pVertical_1) {
+            this.family.variants.put(Variant.VERTICAL_1, pVertical_1);
             return this;
         }
-        public ModBlockFamily.Builder vertical_2(Block pVertical_2) {
-            this.family.variants.put(ModBlockFamily.Variant.VERTICAL_2, pVertical_2);
+        public Builder vertical_2(Block pVertical_2) {
+            this.family.variants.put(Variant.VERTICAL_2, pVertical_2);
             return this;
         }
 
-        public ModBlockFamily.Builder dontGenerateModel() {
+        public Builder dontGenerateModel() {
             this.family.generateModel = false;
             return this;
         }
 
-        public ModBlockFamily.Builder dontGenerateRecipe() {
+        public Builder dontGenerateRecipe() {
             this.family.generateRecipe = false;
             return this;
         }
 
-        public ModBlockFamily.Builder recipeGroupPrefix(String pRecipeGroupPrefix) {
+        public Builder recipeGroupPrefix(String pRecipeGroupPrefix) {
             this.family.recipeGroupPrefix = pRecipeGroupPrefix;
             return this;
         }
 
-        public ModBlockFamily.Builder recipeUnlockedBy(String pRecipeUnlockedBy) {
+        public Builder recipeUnlockedBy(String pRecipeUnlockedBy) {
             this.family.recipeUnlockedBy = pRecipeUnlockedBy;
             return this;
         }
