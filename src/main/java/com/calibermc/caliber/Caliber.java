@@ -52,6 +52,6 @@ public class Caliber {
 
         ModNetworking.registerMessages();
         CreativeTabs.setupCreativeTabs();
-
+        ModBlocks.printCounts();
     }
 }
