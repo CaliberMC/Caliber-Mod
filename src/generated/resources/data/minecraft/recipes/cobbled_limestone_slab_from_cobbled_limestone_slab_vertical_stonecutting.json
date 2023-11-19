@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "caliber:cobbled_limestone_slab_vertical"
   },
-  "result": "minecraft:cobblestone_slab",
+  "result": "caliber:cobbled_limestone_slab",
   "count": 1
 }

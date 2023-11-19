@@ -62,26 +62,30 @@ public class StoneRecipeProvider extends RecipeProvider implements IConditionBui
         
         /* GRANITE BLOCKS */
         /* Granite Slabs */
-        ShapedRecipeBuilder.shaped(ModBlocks.BLACK_GRANITE_SLAB.get(), 6).define('G', ModBlocks.BLACK_GRANITE.get()).pattern("GGG").unlockedBy("has_black_granite",
+        ShapedRecipeBuilder.shaped(ModBlocks.BLACK_GRANITE_SLAB.get(), 24).define('G', ModBlocks.BLACK_GRANITE.get()).pattern("GGG").unlockedBy("has_black_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BLACK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "black_granite_slab_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.BROWN_GRANITE_SLAB.get(), 6).define('G', ModBlocks.BROWN_GRANITE.get()).pattern("GGG").unlockedBy("has_brown_granite",
+        ShapedRecipeBuilder.shaped(ModBlocks.BROWN_GRANITE_SLAB.get(), 24).define('G', ModBlocks.BROWN_GRANITE.get()).pattern("GGG").unlockedBy("has_brown_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "brown_granite_slab_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.GRAY_GRANITE_SLAB.get(), 6).define('G', ModBlocks.GRAY_GRANITE.get()).pattern("GGG").unlockedBy("has_gray_granite",
+        ShapedRecipeBuilder.shaped(ModBlocks.GRAY_GRANITE_SLAB.get(), 24).define('G', ModBlocks.GRAY_GRANITE.get()).pattern("GGG").unlockedBy("has_gray_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.GRAY_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "gray_granite_slab_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.PINK_GRANITE_SLAB.get(), 6).define('G', ModBlocks.PINK_GRANITE.get()).pattern("GGG").unlockedBy("has_pink_granite",
+        ShapedRecipeBuilder.shaped(ModBlocks.PINK_GRANITE_SLAB.get(), 24).define('G', ModBlocks.PINK_GRANITE.get()).pattern("GGG").unlockedBy("has_pink_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "pink_granite_slab_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.WHITE_GRANITE_SLAB.get(), 6).define('G', ModBlocks.WHITE_GRANITE.get()).pattern("GGG").unlockedBy("has_white_granite",
+        ShapedRecipeBuilder.shaped(ModBlocks.RED_GRANITE_SLAB.get(), 24).define('G', Blocks.GRANITE).pattern("GGG").unlockedBy("has_red_granite",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.GRANITE).build())).save(pFinishedRecipeConsumer, "red_granite_slab_from_shaped");
+        ShapedRecipeBuilder.shaped(ModBlocks.WHITE_GRANITE_SLAB.get(), 24).define('G', ModBlocks.WHITE_GRANITE.get()).pattern("GGG").unlockedBy("has_white_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "white_granite_slab_from_shaped");
 
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BLACK_GRANITE.get()), ModBlocks.BLACK_GRANITE_SLAB.get(), 2).unlockedBy("has_black_granite",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BLACK_GRANITE.get()), ModBlocks.BLACK_GRANITE_SLAB.get(), 8).unlockedBy("has_black_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BLACK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "black_granite_slab_from_black_granite_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BROWN_GRANITE.get()), ModBlocks.BROWN_GRANITE_SLAB.get(), 2).unlockedBy("has_brown_granite",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BROWN_GRANITE.get()), ModBlocks.BROWN_GRANITE_SLAB.get(), 8).unlockedBy("has_brown_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "brown_granite_slab_from_brown_granite_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GRAY_GRANITE.get()), ModBlocks.GRAY_GRANITE_SLAB.get(), 2).unlockedBy("has_gray_granite",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GRAY_GRANITE.get()), ModBlocks.GRAY_GRANITE_SLAB.get(), 8).unlockedBy("has_gray_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.GRAY_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "gray_granite_slab_from_gray_granite_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_GRANITE.get()), ModBlocks.PINK_GRANITE_SLAB.get(), 2).unlockedBy("has_pink_granite",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_GRANITE.get()), ModBlocks.PINK_GRANITE_SLAB.get(), 8).unlockedBy("has_pink_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "pink_granite_slab_from_pink_granite_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WHITE_GRANITE.get()), ModBlocks.WHITE_GRANITE_SLAB.get(), 2).unlockedBy("has_white_granite",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.GRANITE), ModBlocks.RED_GRANITE_SLAB.get(), 8).unlockedBy("has_granite",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.GRANITE).build())).save(pFinishedRecipeConsumer, "red_granite_slab_from_red_granite_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WHITE_GRANITE.get()), ModBlocks.WHITE_GRANITE_SLAB.get(), 8).unlockedBy("has_white_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "white_granite_slab_from_white_granite_stonecutting");
 
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BLACK_GRANITE_SLAB_VERTICAL.get()), ModBlocks.BLACK_GRANITE_SLAB.get(), 1).unlockedBy("has_black_granite",
@@ -92,35 +96,35 @@ public class StoneRecipeProvider extends RecipeProvider implements IConditionBui
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.GRAY_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "gray_granite_slab_from_gray_granite_slab_vertical_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_GRANITE_SLAB_VERTICAL.get()), ModBlocks.PINK_GRANITE_SLAB.get(), 1).unlockedBy("has_pink_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "pink_granite_slab_from_pink_granite_slab_vertical_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.RED_GRANITE_SLAB_VERTICAL.get()), Blocks.GRANITE_SLAB, 1).unlockedBy("has_red_granite",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.RED_GRANITE_SLAB_VERTICAL.get()), ModBlocks.RED_GRANITE_SLAB.get(), 1).unlockedBy("has_red_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.GRANITE).build())).save(pFinishedRecipeConsumer, "red_granite_slab_from_red_granite_slab_vertical_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WHITE_GRANITE_SLAB_VERTICAL.get()), ModBlocks.WHITE_GRANITE_SLAB.get(), 1).unlockedBy("has_white_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "white_granite_slab_from_white_granite_slab_vertical_stonecutting");
 
 
         /* Granite Vertical Slabs */
-        ShapedRecipeBuilder.shaped(ModBlocks.BLACK_GRANITE_SLAB_VERTICAL.get(), 6).define('G', ModBlocks.BLACK_GRANITE.get()).pattern(" G ").pattern(" G ").pattern(" G ").unlockedBy("has_black_granite",
+        ShapedRecipeBuilder.shaped(ModBlocks.BLACK_GRANITE_SLAB_VERTICAL.get(), 24).define('G', ModBlocks.BLACK_GRANITE.get()).pattern(" G ").pattern(" G ").pattern(" G ").unlockedBy("has_black_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BLACK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "black_granite_slab_vertical_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.BROWN_GRANITE_SLAB_VERTICAL.get(), 6).define('G', ModBlocks.BROWN_GRANITE.get()).pattern(" G ").pattern(" G ").pattern(" G ").unlockedBy("has_brown_granite",
+        ShapedRecipeBuilder.shaped(ModBlocks.BROWN_GRANITE_SLAB_VERTICAL.get(), 24).define('G', ModBlocks.BROWN_GRANITE.get()).pattern(" G ").pattern(" G ").pattern(" G ").unlockedBy("has_brown_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "brown_granite_slab_vertical_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.GRAY_GRANITE_SLAB_VERTICAL.get(), 6).define('G', ModBlocks.GRAY_GRANITE.get()).pattern(" G ").pattern(" G ").pattern(" G ").unlockedBy("has_gray_granite",
+        ShapedRecipeBuilder.shaped(ModBlocks.GRAY_GRANITE_SLAB_VERTICAL.get(), 24).define('G', ModBlocks.GRAY_GRANITE.get()).pattern(" G ").pattern(" G ").pattern(" G ").unlockedBy("has_gray_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.GRAY_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "gray_granite_slab_vertical_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.PINK_GRANITE_SLAB_VERTICAL.get(), 6).define('G', ModBlocks.PINK_GRANITE.get()).pattern(" G ").pattern(" G ").pattern(" G ").unlockedBy("has_pink_granite",
+        ShapedRecipeBuilder.shaped(ModBlocks.PINK_GRANITE_SLAB_VERTICAL.get(), 24).define('G', ModBlocks.PINK_GRANITE.get()).pattern(" G ").pattern(" G ").pattern(" G ").unlockedBy("has_pink_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "pink_granite_slab_vertical_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.WHITE_GRANITE_SLAB_VERTICAL.get(), 6).define('G', ModBlocks.WHITE_GRANITE.get()).pattern(" G ").pattern(" G ").pattern(" G ").unlockedBy("has_white_granite",
+        ShapedRecipeBuilder.shaped(ModBlocks.WHITE_GRANITE_SLAB_VERTICAL.get(), 24).define('G', ModBlocks.WHITE_GRANITE.get()).pattern(" G ").pattern(" G ").pattern(" G ").unlockedBy("has_white_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "white_granite_slab_vertical_from_shaped");
         
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BLACK_GRANITE.get()), ModBlocks.BLACK_GRANITE_SLAB_VERTICAL.get(), 2).unlockedBy("has_black_granite",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BLACK_GRANITE.get()), ModBlocks.BLACK_GRANITE_SLAB_VERTICAL.get(), 8).unlockedBy("has_black_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BLACK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "black_granite_slab_vertical_from_black_granite_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BROWN_GRANITE.get()), ModBlocks.BROWN_GRANITE_SLAB_VERTICAL.get(), 2).unlockedBy("has_brown_granite",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BROWN_GRANITE.get()), ModBlocks.BROWN_GRANITE_SLAB_VERTICAL.get(), 8).unlockedBy("has_brown_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "brown_granite_slab_vertical_from_brown_granite_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GRAY_GRANITE.get()), ModBlocks.GRAY_GRANITE_SLAB_VERTICAL.get(), 2).unlockedBy("has_gray_granite",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GRAY_GRANITE.get()), ModBlocks.GRAY_GRANITE_SLAB_VERTICAL.get(), 8).unlockedBy("has_gray_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.GRAY_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "gray_granite_slab_vertical_from_gray_granite_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_GRANITE.get()), ModBlocks.PINK_GRANITE_SLAB_VERTICAL.get(), 2).unlockedBy("has_pink_granite",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_GRANITE.get()), ModBlocks.PINK_GRANITE_SLAB_VERTICAL.get(), 8).unlockedBy("has_pink_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "pink_granite_slab_vertical_from_pink_granite_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.GRANITE), ModBlocks.RED_GRANITE_SLAB_VERTICAL.get(), 2).unlockedBy("has_granite",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.GRANITE), ModBlocks.RED_GRANITE_SLAB_VERTICAL.get(), 8).unlockedBy("has_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.GRANITE).build())).save(pFinishedRecipeConsumer, "red_granite_slab_vertical_from_granite_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WHITE_GRANITE.get()), ModBlocks.WHITE_GRANITE_SLAB_VERTICAL.get(), 2).unlockedBy("has_white_granite",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WHITE_GRANITE.get()), ModBlocks.WHITE_GRANITE_SLAB_VERTICAL.get(), 8).unlockedBy("has_white_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "white_granite_slab_vertical_from_white_granite_stonecutting");
 
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BLACK_GRANITE_SLAB.get()), ModBlocks.BLACK_GRANITE_SLAB_VERTICAL.get(), 1).unlockedBy("has_black_granite",
@@ -133,6 +137,8 @@ public class StoneRecipeProvider extends RecipeProvider implements IConditionBui
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "pink_granite_slab_vertical_from_pink_granite_slab_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.GRANITE_SLAB), ModBlocks.RED_GRANITE_SLAB_VERTICAL.get(), 1).unlockedBy("has_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.GRANITE).build())).save(pFinishedRecipeConsumer, "red_granite_slab_vertical_from_granite_slab_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.RED_GRANITE_SLAB.get()), ModBlocks.RED_GRANITE_SLAB_VERTICAL.get(), 1).unlockedBy("has_granite",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.GRANITE).build())).save(pFinishedRecipeConsumer, "red_granite_slab_vertical_from_red_granite_slab_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WHITE_GRANITE_SLAB.get()), ModBlocks.WHITE_GRANITE_SLAB_VERTICAL.get(), 1).unlockedBy("has_white_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "white_granite_slab_vertical_from_white_granite_slab_stonecutting");
         
@@ -208,37 +214,43 @@ public class StoneRecipeProvider extends RecipeProvider implements IConditionBui
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_white_granite_from_white_granite_stonecutting");
         
         /* Polished Granite Slabs */
-        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_BLACK_GRANITE_SLAB.get(), 6).define('G', ModBlocks.POLISHED_BLACK_GRANITE.get()).pattern("GGG").unlockedBy("has_black_granite",
+        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_BLACK_GRANITE_SLAB.get(), 24).define('G', ModBlocks.POLISHED_BLACK_GRANITE.get()).pattern("GGG").unlockedBy("has_black_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BLACK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_black_granite_slab_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_BROWN_GRANITE_SLAB.get(), 6).define('G', ModBlocks.POLISHED_BROWN_GRANITE.get()).pattern("GGG").unlockedBy("has_brown_granite",
+        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_BROWN_GRANITE_SLAB.get(), 24).define('G', ModBlocks.POLISHED_BROWN_GRANITE.get()).pattern("GGG").unlockedBy("has_brown_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_brown_granite_slab_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_GRAY_GRANITE_SLAB.get(), 6).define('G', ModBlocks.POLISHED_GRAY_GRANITE.get()).pattern("GGG").unlockedBy("has_gray_granite",
+        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_GRAY_GRANITE_SLAB.get(), 24).define('G', ModBlocks.POLISHED_GRAY_GRANITE.get()).pattern("GGG").unlockedBy("has_gray_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.GRAY_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_gray_granite_slab_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_PINK_GRANITE_SLAB.get(), 6).define('G', ModBlocks.POLISHED_PINK_GRANITE.get()).pattern("GGG").unlockedBy("has_pink_granite",
+        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_PINK_GRANITE_SLAB.get(), 24).define('G', ModBlocks.POLISHED_PINK_GRANITE.get()).pattern("GGG").unlockedBy("has_pink_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_pink_granite_slab_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_WHITE_GRANITE_SLAB.get(), 6).define('G', ModBlocks.POLISHED_WHITE_GRANITE.get()).pattern("GGG").unlockedBy("has_white_granite",
+        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_RED_GRANITE_SLAB.get(), 24).define('G', Blocks.POLISHED_GRANITE).pattern("GGG").unlockedBy("has_granite",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.GRANITE).build())).save(pFinishedRecipeConsumer, "polished_red_granite_slab_from_shaped");
+        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_WHITE_GRANITE_SLAB.get(), 24).define('G', ModBlocks.POLISHED_WHITE_GRANITE.get()).pattern("GGG").unlockedBy("has_white_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_white_granite_slab_from_shaped");
 
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_BLACK_GRANITE.get()), ModBlocks.POLISHED_BLACK_GRANITE_SLAB.get(), 2).unlockedBy("has_polished_black_granite",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_BLACK_GRANITE.get()), ModBlocks.POLISHED_BLACK_GRANITE_SLAB.get(), 8).unlockedBy("has_polished_black_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_BLACK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_black_granite_slab_from_polished_black_granite_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_BROWN_GRANITE.get()), ModBlocks.POLISHED_BROWN_GRANITE_SLAB.get(), 2).unlockedBy("has_polished_brown_granite",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_BROWN_GRANITE.get()), ModBlocks.POLISHED_BROWN_GRANITE_SLAB.get(), 8).unlockedBy("has_polished_brown_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_BROWN_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_brown_granite_slab_from_polished_brown_granite_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_GRAY_GRANITE.get()), ModBlocks.POLISHED_GRAY_GRANITE_SLAB.get(), 2).unlockedBy("has_polished_gray_granite",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_GRAY_GRANITE.get()), ModBlocks.POLISHED_GRAY_GRANITE_SLAB.get(), 8).unlockedBy("has_polished_gray_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_GRAY_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_gray_granite_slab_from_polished_gray_granite_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_PINK_GRANITE.get()), ModBlocks.POLISHED_PINK_GRANITE_SLAB.get(), 2).unlockedBy("has_polished_pink_granite",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_PINK_GRANITE.get()), ModBlocks.POLISHED_PINK_GRANITE_SLAB.get(), 8).unlockedBy("has_polished_pink_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_PINK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_pink_granite_slab_from_polished_pink_granite_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_WHITE_GRANITE.get()), ModBlocks.POLISHED_WHITE_GRANITE_SLAB.get(), 2).unlockedBy("has_polished_white_granite",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.POLISHED_GRANITE), ModBlocks.POLISHED_RED_GRANITE_SLAB.get(), 8).unlockedBy("has_polished_red_granite",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.POLISHED_GRANITE).build())).save(pFinishedRecipeConsumer, "polished_red_granite_slab_from_polished_red_granite_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_WHITE_GRANITE.get()), ModBlocks.POLISHED_WHITE_GRANITE_SLAB.get(), 8).unlockedBy("has_polished_white_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_white_granite_slab_from_polished_white_granite_stonecutting");
 
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BLACK_GRANITE.get()), ModBlocks.POLISHED_BLACK_GRANITE_SLAB.get(), 2).unlockedBy("has_black_granite",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BLACK_GRANITE.get()), ModBlocks.POLISHED_BLACK_GRANITE_SLAB.get(), 8).unlockedBy("has_black_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BLACK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_black_granite_slab_from_black_granite_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BROWN_GRANITE.get()), ModBlocks.POLISHED_BROWN_GRANITE_SLAB.get(), 2).unlockedBy("has_brown_granite",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BROWN_GRANITE.get()), ModBlocks.POLISHED_BROWN_GRANITE_SLAB.get(), 8).unlockedBy("has_brown_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_brown_granite_slab_from_brown_granite_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GRAY_GRANITE.get()), ModBlocks.POLISHED_GRAY_GRANITE_SLAB.get(), 2).unlockedBy("has_gray_granite",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GRAY_GRANITE.get()), ModBlocks.POLISHED_GRAY_GRANITE_SLAB.get(), 8).unlockedBy("has_gray_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.GRAY_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_gray_granite_slab_from_gray_granite_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_GRANITE.get()), ModBlocks.POLISHED_PINK_GRANITE_SLAB.get(), 2).unlockedBy("has_pink_granite",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_GRANITE.get()), ModBlocks.POLISHED_PINK_GRANITE_SLAB.get(), 8).unlockedBy("has_pink_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_pink_granite_slab_from_pink_granite_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WHITE_GRANITE.get()), ModBlocks.POLISHED_WHITE_GRANITE_SLAB.get(), 2).unlockedBy("has_white_granite",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.GRANITE), ModBlocks.POLISHED_RED_GRANITE_SLAB.get(), 8).unlockedBy("has_red_granite",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.GRANITE).build())).save(pFinishedRecipeConsumer, "polished_red_granite_slab_from_red_granite_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WHITE_GRANITE.get()), ModBlocks.POLISHED_WHITE_GRANITE_SLAB.get(), 8).unlockedBy("has_white_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_white_granite_slab_from_white_granite_stonecutting");
 
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_BLACK_GRANITE_SLAB_VERTICAL.get()), ModBlocks.POLISHED_BLACK_GRANITE_SLAB.get(), 1).unlockedBy("has_polished_black_granite",
@@ -249,49 +261,49 @@ public class StoneRecipeProvider extends RecipeProvider implements IConditionBui
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_GRAY_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_gray_granite_slab_from_polished_gray_granite_slab_vertical_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_PINK_GRANITE_SLAB_VERTICAL.get()), ModBlocks.POLISHED_PINK_GRANITE_SLAB.get(), 1).unlockedBy("has_polished_pink_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_PINK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_pink_granite_slab_from_polished_pink_granite_slab_vertical_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_RED_GRANITE_SLAB_VERTICAL.get()), Blocks.POLISHED_GRANITE_SLAB, 1).unlockedBy("has_polished_granite",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_RED_GRANITE_SLAB_VERTICAL.get()), ModBlocks.POLISHED_RED_GRANITE_SLAB.get(), 1).unlockedBy("has_polished_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.POLISHED_GRANITE).build())).save(pFinishedRecipeConsumer, "polished_granite_slab_from_polished_red_granite_slab_vertical_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_WHITE_GRANITE_SLAB_VERTICAL.get()), ModBlocks.POLISHED_WHITE_GRANITE_SLAB.get(), 1).unlockedBy("has_polished_white_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_white_granite_slab_from_polished_white_granite_slab_vertical_stonecutting");
 
         /* Polished Granite Vertical Slabs */
-        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_BLACK_GRANITE_SLAB_VERTICAL.get(), 6).define('G', ModBlocks.POLISHED_BLACK_GRANITE.get()).pattern(" G ").pattern(" G ").pattern(" G ").unlockedBy("has_polished_black_granite",
+        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_BLACK_GRANITE_SLAB_VERTICAL.get(), 24).define('G', ModBlocks.POLISHED_BLACK_GRANITE.get()).pattern(" G ").pattern(" G ").pattern(" G ").unlockedBy("has_polished_black_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_BLACK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_black_granite_slab_vertical_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_BROWN_GRANITE_SLAB_VERTICAL.get(), 6).define('G', ModBlocks.POLISHED_BROWN_GRANITE.get()).pattern(" G ").pattern(" G ").pattern(" G ").unlockedBy("has_polished_brown_granite",
+        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_BROWN_GRANITE_SLAB_VERTICAL.get(), 24).define('G', ModBlocks.POLISHED_BROWN_GRANITE.get()).pattern(" G ").pattern(" G ").pattern(" G ").unlockedBy("has_polished_brown_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_BROWN_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_brown_granite_slab_vertical_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_GRAY_GRANITE_SLAB_VERTICAL.get(), 6).define('G', ModBlocks.POLISHED_GRAY_GRANITE.get()).pattern(" G ").pattern(" G ").pattern(" G ").unlockedBy("has_polished_gray_granite",
+        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_GRAY_GRANITE_SLAB_VERTICAL.get(), 24).define('G', ModBlocks.POLISHED_GRAY_GRANITE.get()).pattern(" G ").pattern(" G ").pattern(" G ").unlockedBy("has_polished_gray_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_GRAY_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_gray_granite_slab_vertical_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_PINK_GRANITE_SLAB_VERTICAL.get(), 6).define('G', ModBlocks.POLISHED_PINK_GRANITE.get()).pattern(" G ").pattern(" G ").pattern(" G ").unlockedBy("has_polished_pink_granite",
+        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_PINK_GRANITE_SLAB_VERTICAL.get(), 24).define('G', ModBlocks.POLISHED_PINK_GRANITE.get()).pattern(" G ").pattern(" G ").pattern(" G ").unlockedBy("has_polished_pink_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_PINK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_pink_granite_slab_vertical_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_RED_GRANITE_SLAB_VERTICAL.get(), 6).define('G', Blocks.POLISHED_GRANITE).pattern(" G ").pattern(" G ").pattern(" G ").unlockedBy("has_polished_red_granite",
+        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_RED_GRANITE_SLAB_VERTICAL.get(), 24).define('G', Blocks.POLISHED_GRANITE).pattern(" G ").pattern(" G ").pattern(" G ").unlockedBy("has_polished_red_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.POLISHED_GRANITE).build())).save(pFinishedRecipeConsumer, "polished_red_granite_slab_vertical_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_WHITE_GRANITE_SLAB_VERTICAL.get(), 6).define('G', ModBlocks.POLISHED_WHITE_GRANITE.get()).pattern(" G ").pattern(" G ").pattern(" G ").unlockedBy("has_polished_white_granite",
+        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_WHITE_GRANITE_SLAB_VERTICAL.get(), 24).define('G', ModBlocks.POLISHED_WHITE_GRANITE.get()).pattern(" G ").pattern(" G ").pattern(" G ").unlockedBy("has_polished_white_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_white_granite_slab_vertical_from_shaped");
 
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_BLACK_GRANITE.get()), ModBlocks.POLISHED_BLACK_GRANITE_SLAB_VERTICAL.get(), 2).unlockedBy("has_polished_black_granite",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_BLACK_GRANITE.get()), ModBlocks.POLISHED_BLACK_GRANITE_SLAB_VERTICAL.get(), 8).unlockedBy("has_polished_black_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_BLACK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_black_granite_slab_vertical_from_polished_black_granite_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_BROWN_GRANITE.get()), ModBlocks.POLISHED_BROWN_GRANITE_SLAB_VERTICAL.get(), 2).unlockedBy("has_polished_brown_granite",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_BROWN_GRANITE.get()), ModBlocks.POLISHED_BROWN_GRANITE_SLAB_VERTICAL.get(), 8).unlockedBy("has_polished_brown_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_BROWN_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_brown_granite_slab_vertical_from_polished_brown_granite_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_GRAY_GRANITE.get()), ModBlocks.POLISHED_GRAY_GRANITE_SLAB_VERTICAL.get(), 2).unlockedBy("has_polished_gray_granite",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_GRAY_GRANITE.get()), ModBlocks.POLISHED_GRAY_GRANITE_SLAB_VERTICAL.get(), 8).unlockedBy("has_polished_gray_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_GRAY_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_gray_granite_slab_vertical_from_polished_gray_granite_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_PINK_GRANITE.get()), ModBlocks.POLISHED_PINK_GRANITE_SLAB_VERTICAL.get(), 2).unlockedBy("has_polished_pink_granite",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_PINK_GRANITE.get()), ModBlocks.POLISHED_PINK_GRANITE_SLAB_VERTICAL.get(), 8).unlockedBy("has_polished_pink_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_PINK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_pink_granite_slab_vertical_from_polished_pink_granite_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.POLISHED_GRANITE), ModBlocks.POLISHED_RED_GRANITE_SLAB_VERTICAL.get(), 2).unlockedBy("has_polished_red_granite",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.POLISHED_GRANITE), ModBlocks.POLISHED_RED_GRANITE_SLAB_VERTICAL.get(), 8).unlockedBy("has_polished_red_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.POLISHED_GRANITE).build())).save(pFinishedRecipeConsumer, "polished_red_granite_slab_vertical_from_polished_granite_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_WHITE_GRANITE.get()), ModBlocks.POLISHED_WHITE_GRANITE_SLAB_VERTICAL.get(), 2).unlockedBy("has_polished_white_granite",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_WHITE_GRANITE.get()), ModBlocks.POLISHED_WHITE_GRANITE_SLAB_VERTICAL.get(), 8).unlockedBy("has_polished_white_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.POLISHED_WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_white_granite_slab_vertical_from_polished_white_granite_stonecutting");
 
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BLACK_GRANITE.get()), ModBlocks.POLISHED_BLACK_GRANITE_SLAB_VERTICAL.get(), 2).unlockedBy("has_black_granite",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BLACK_GRANITE.get()), ModBlocks.POLISHED_BLACK_GRANITE_SLAB_VERTICAL.get(), 8).unlockedBy("has_black_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BLACK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_black_granite_slab_vertical_from_black_granite_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BROWN_GRANITE.get()), ModBlocks.POLISHED_BROWN_GRANITE_SLAB_VERTICAL.get(), 2).unlockedBy("has_brown_granite",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BROWN_GRANITE.get()), ModBlocks.POLISHED_BROWN_GRANITE_SLAB_VERTICAL.get(), 8).unlockedBy("has_brown_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_brown_granite_slab_vertical_from_brown_granite_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GRAY_GRANITE.get()), ModBlocks.POLISHED_GRAY_GRANITE_SLAB_VERTICAL.get(), 2).unlockedBy("has_gray_granite",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GRAY_GRANITE.get()), ModBlocks.POLISHED_GRAY_GRANITE_SLAB_VERTICAL.get(), 8).unlockedBy("has_gray_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.GRAY_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_gray_granite_slab_vertical_from_gray_granite_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_GRANITE.get()), ModBlocks.POLISHED_PINK_GRANITE_SLAB_VERTICAL.get(), 2).unlockedBy("has_pink_granite",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_GRANITE.get()), ModBlocks.POLISHED_PINK_GRANITE_SLAB_VERTICAL.get(), 8).unlockedBy("has_pink_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_pink_granite_slab_vertical_from_pink_granite_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.GRANITE), ModBlocks.POLISHED_RED_GRANITE_SLAB_VERTICAL.get(), 2).unlockedBy("has_red_granite",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.GRANITE), ModBlocks.POLISHED_RED_GRANITE_SLAB_VERTICAL.get(), 8).unlockedBy("has_red_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.GRANITE).build())).save(pFinishedRecipeConsumer, "polished_red_granite_slab_vertical_from_granite_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WHITE_GRANITE.get()), ModBlocks.POLISHED_WHITE_GRANITE_SLAB_VERTICAL.get(), 2).unlockedBy("has_white_granite",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WHITE_GRANITE.get()), ModBlocks.POLISHED_WHITE_GRANITE_SLAB_VERTICAL.get(), 8).unlockedBy("has_white_granite",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_GRANITE.get()).build())).save(pFinishedRecipeConsumer, "polished_white_granite_slab_vertical_from_white_granite_stonecutting");
 
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_BLACK_GRANITE_SLAB.get()), ModBlocks.POLISHED_BLACK_GRANITE_SLAB_VERTICAL.get(), 1).unlockedBy("has_polished_black_granite",
@@ -413,46 +425,74 @@ public class StoneRecipeProvider extends RecipeProvider implements IConditionBui
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "tan_limestone_pressure_plate_from_shaped");
 
         /* Limestone Slabs */
-        ShapedRecipeBuilder.shaped(ModBlocks.DARK_LIMESTONE_SLAB.get(), 6).define('L', ModBlocks.DARK_LIMESTONE.get()).pattern("LLL").unlockedBy("has_dark_limestone",
+        ShapedRecipeBuilder.shaped(ModBlocks.DARK_LIMESTONE_SLAB.get(), 24).define('L', ModBlocks.DARK_LIMESTONE.get()).pattern("LLL").unlockedBy("has_dark_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.DARK_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "dark_limestone_slab_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.LIGHT_LIMESTONE_SLAB.get(), 6).define('L', ModBlocks.LIGHT_LIMESTONE.get()).pattern("LLL").unlockedBy("has_light_limestone",
+        ShapedRecipeBuilder.shaped(ModBlocks.LIGHT_LIMESTONE_SLAB.get(), 24).define('L', ModBlocks.LIGHT_LIMESTONE.get()).pattern("LLL").unlockedBy("has_light_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.LIGHT_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "light_limestone_slab_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.PINK_LIMESTONE_SLAB.get(), 6).define('L', ModBlocks.PINK_LIMESTONE.get()).pattern("LLL").unlockedBy("has_pink_limestone",
+        ShapedRecipeBuilder.shaped(ModBlocks.LIMESTONE_SLAB.get(), 24).define('L', Blocks.STONE).pattern("LLL").unlockedBy("has_red_limestone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.STONE).build())).save(pFinishedRecipeConsumer, "red_limestone_slab_from_shaped");
+        ShapedRecipeBuilder.shaped(ModBlocks.PINK_LIMESTONE_SLAB.get(), 24).define('L', ModBlocks.PINK_LIMESTONE.get()).pattern("LLL").unlockedBy("has_pink_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "pink_limestone_slab_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.TAN_LIMESTONE_SLAB.get(), 6).define('L', ModBlocks.TAN_LIMESTONE.get()).pattern("LLL").unlockedBy("has_tan_limestone",
+        ShapedRecipeBuilder.shaped(ModBlocks.TAN_LIMESTONE_SLAB.get(), 24).define('L', ModBlocks.TAN_LIMESTONE.get()).pattern("LLL").unlockedBy("has_tan_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "tan_limestone_slab_from_shaped");
 
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DARK_LIMESTONE.get()), ModBlocks.DARK_LIMESTONE_SLAB.get(), 2).unlockedBy("has_dark_limestone",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DARK_LIMESTONE.get()), ModBlocks.DARK_LIMESTONE_SLAB.get(), 8).unlockedBy("has_dark_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.DARK_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "dark_limestone_slab_from_dark_limestone_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.LIGHT_LIMESTONE.get()), ModBlocks.LIGHT_LIMESTONE_SLAB.get(), 2).unlockedBy("has_light_limestone",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.LIGHT_LIMESTONE.get()), ModBlocks.LIGHT_LIMESTONE_SLAB.get(), 8).unlockedBy("has_light_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.LIGHT_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "light_limestone_slab_from_light_limestone_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_LIMESTONE.get()), ModBlocks.PINK_LIMESTONE_SLAB.get(), 2).unlockedBy("has_pink_limestone",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.STONE), ModBlocks.LIMESTONE_SLAB.get(), 8).unlockedBy("has_limestone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.STONE).build())).save(pFinishedRecipeConsumer, "limestone_slab_from_limestone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_LIMESTONE.get()), ModBlocks.PINK_LIMESTONE_SLAB.get(), 8).unlockedBy("has_pink_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "pink_limestone_slab_from_pink_limestone_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.TAN_LIMESTONE.get()), ModBlocks.TAN_LIMESTONE_SLAB.get(), 2).unlockedBy("has_tan_limestone",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.TAN_LIMESTONE.get()), ModBlocks.TAN_LIMESTONE_SLAB.get(), 8).unlockedBy("has_tan_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "tan_limestone_slab_from_tan_limestone_stonecutting");
 
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DARK_LIMESTONE_SLAB_VERTICAL.get()), ModBlocks.DARK_LIMESTONE_SLAB.get(), 1).unlockedBy("has_dark_limestone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.DARK_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "dark_limestone_slab_from_dark_limestone_slab_vertical_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.LIGHT_LIMESTONE_SLAB_VERTICAL.get()), ModBlocks.LIGHT_LIMESTONE_SLAB.get(), 1).unlockedBy("has_light_limestone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.LIGHT_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "light_limestone_slab_from_light_limestone_slab_vertical_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.LIMESTONE_SLAB_VERTICAL.get()), ModBlocks.LIMESTONE_SLAB.get(), 1).unlockedBy("has_limestone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.STONE).build())).save(pFinishedRecipeConsumer, "limestone_slab_from_limestone_slab_vertical_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_LIMESTONE_SLAB_VERTICAL.get()), ModBlocks.PINK_LIMESTONE_SLAB.get(), 1).unlockedBy("has_pink_limestone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "pink_limestone_slab_from_pink_limestone_slab_vertical_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.TAN_LIMESTONE_SLAB_VERTICAL.get()), ModBlocks.TAN_LIMESTONE_SLAB.get(), 1).unlockedBy("has_tan_limestone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "tan_limestone_slab_from_tan_limestone_slab_vertical_stonecutting");
+
         /* Limestone Vertical Slabs */
-        ShapedRecipeBuilder.shaped(ModBlocks.DARK_LIMESTONE_SLAB_VERTICAL.get(), 6).define('L', ModBlocks.DARK_LIMESTONE.get()).pattern(" L ").pattern(" L ").pattern(" L ").unlockedBy("has_dark_limestone",
+        ShapedRecipeBuilder.shaped(ModBlocks.DARK_LIMESTONE_SLAB_VERTICAL.get(), 24).define('L', ModBlocks.DARK_LIMESTONE.get()).pattern(" L ").pattern(" L ").pattern(" L ").unlockedBy("has_dark_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.DARK_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "dark_limestone_slab_vertical_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.LIGHT_LIMESTONE_SLAB_VERTICAL.get(), 6).define('L', ModBlocks.LIGHT_LIMESTONE.get()).pattern(" L ").pattern(" L ").pattern(" L ").unlockedBy("has_light_limestone",
+        ShapedRecipeBuilder.shaped(ModBlocks.LIGHT_LIMESTONE_SLAB_VERTICAL.get(), 24).define('L', ModBlocks.LIGHT_LIMESTONE.get()).pattern(" L ").pattern(" L ").pattern(" L ").unlockedBy("has_light_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.LIGHT_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "light_limestone_slab_vertical_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.LIMESTONE_SLAB_VERTICAL.get(), 6).define('L', Blocks.STONE).pattern(" L ").pattern(" L ").pattern(" L ").unlockedBy("has_limestone",
+        ShapedRecipeBuilder.shaped(ModBlocks.LIMESTONE_SLAB_VERTICAL.get(), 24).define('L', Blocks.STONE).pattern(" L ").pattern(" L ").pattern(" L ").unlockedBy("has_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.STONE).build())).save(pFinishedRecipeConsumer, "limestone_slab_vertical_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.PINK_LIMESTONE_SLAB_VERTICAL.get(), 6).define('L', ModBlocks.PINK_LIMESTONE.get()).pattern(" L ").pattern(" L ").pattern(" L ").unlockedBy("has_pink_limestone",
+        ShapedRecipeBuilder.shaped(ModBlocks.PINK_LIMESTONE_SLAB_VERTICAL.get(), 24).define('L', ModBlocks.PINK_LIMESTONE.get()).pattern(" L ").pattern(" L ").pattern(" L ").unlockedBy("has_pink_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "pink_limestone_slab_vertical_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.TAN_LIMESTONE_SLAB_VERTICAL.get(), 6).define('L', ModBlocks.TAN_LIMESTONE.get()).pattern(" L ").pattern(" L ").pattern(" L ").unlockedBy("has_tan_limestone",
+        ShapedRecipeBuilder.shaped(ModBlocks.TAN_LIMESTONE_SLAB_VERTICAL.get(), 24).define('L', ModBlocks.TAN_LIMESTONE.get()).pattern(" L ").pattern(" L ").pattern(" L ").unlockedBy("has_tan_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "tan_limestone_slab_vertical_from_shaped");
 
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DARK_LIMESTONE.get()), ModBlocks.DARK_LIMESTONE_SLAB_VERTICAL.get(), 2).unlockedBy("has_dark_limestone",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DARK_LIMESTONE.get()), ModBlocks.DARK_LIMESTONE_SLAB_VERTICAL.get(), 8).unlockedBy("has_dark_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.DARK_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "dark_limestone_slab_vertical_from_dark_limestone_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.LIGHT_LIMESTONE.get()), ModBlocks.LIGHT_LIMESTONE_SLAB_VERTICAL.get(), 2).unlockedBy("has_light_limestone",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.LIGHT_LIMESTONE.get()), ModBlocks.LIGHT_LIMESTONE_SLAB_VERTICAL.get(), 8).unlockedBy("has_light_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.LIGHT_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "light_limestone_slab_vertical_from_light_limestone_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.STONE), ModBlocks.LIMESTONE_SLAB_VERTICAL.get(), 2).unlockedBy("has_limestone",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.STONE), ModBlocks.LIMESTONE_SLAB_VERTICAL.get(), 8).unlockedBy("has_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.STONE).build())).save(pFinishedRecipeConsumer, "limestone_slab_vertical_from_limestone_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_LIMESTONE.get()), ModBlocks.PINK_LIMESTONE_SLAB_VERTICAL.get(), 2).unlockedBy("has_pink_limestone",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_LIMESTONE.get()), ModBlocks.PINK_LIMESTONE_SLAB_VERTICAL.get(), 8).unlockedBy("has_pink_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "pink_limestone_slab_vertical_from_pink_limestone_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.TAN_LIMESTONE.get()), ModBlocks.TAN_LIMESTONE_SLAB_VERTICAL.get(), 2).unlockedBy("has_tan_limestone",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.TAN_LIMESTONE.get()), ModBlocks.TAN_LIMESTONE_SLAB_VERTICAL.get(), 8).unlockedBy("has_tan_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "tan_limestone_slab_vertical_from_tan_limestone_stonecutting");
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DARK_LIMESTONE_SLAB.get()), ModBlocks.DARK_LIMESTONE_SLAB_VERTICAL.get(), 1).unlockedBy("has_dark_limestone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.DARK_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "dark_limestone_slab_vertical_from_dark_limestone_slab_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.LIGHT_LIMESTONE_SLAB.get()), ModBlocks.LIGHT_LIMESTONE_SLAB_VERTICAL.get(), 1).unlockedBy("has_light_limestone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.LIGHT_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "light_limestone_slab_vertical_from_light_limestone_slab_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.STONE_SLAB), ModBlocks.LIMESTONE_SLAB_VERTICAL.get(), 1).unlockedBy("has_limestone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.STONE).build())).save(pFinishedRecipeConsumer, "limestone_slab_vertical_from_stone_slab_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.LIMESTONE_SLAB.get()), ModBlocks.LIMESTONE_SLAB_VERTICAL.get(), 1).unlockedBy("has_limestone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.STONE).build())).save(pFinishedRecipeConsumer, "limestone_slab_vertical_from_limestone_slab_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_LIMESTONE_SLAB.get()), ModBlocks.PINK_LIMESTONE_SLAB_VERTICAL.get(), 1).unlockedBy("has_pink_limestone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "pink_limestone_slab_vertical_from_pink_limestone_slab_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.TAN_LIMESTONE_SLAB.get()), ModBlocks.TAN_LIMESTONE_SLAB_VERTICAL.get(), 1).unlockedBy("has_tan_limestone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "tan_limestone_slab_vertical_from_tan_limestone_slab_stonecutting");
 
         // -- LIMESTONE STAIRS
         ShapedRecipeBuilder.shaped(ModBlocks.DARK_LIMESTONE_STAIRS.get(), 4).define('L', ModBlocks.DARK_LIMESTONE.get()).pattern("L  ").pattern("LL ").pattern("LLL").unlockedBy("has_dark_limestone",
@@ -493,87 +533,95 @@ public class StoneRecipeProvider extends RecipeProvider implements IConditionBui
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "tan_limestone_bricks_from_tan_limestone_stonecutting");
 
         // -- LIMESTONE BRICK SLAB
-        ShapedRecipeBuilder.shaped(ModBlocks.DARK_LIMESTONE_BRICK_SLAB.get(), 6).define('L', ModBlocks.DARK_LIMESTONE_BRICKS.get()).pattern("LLL").unlockedBy("has_dark_limestone_bricks",
+        ShapedRecipeBuilder.shaped(ModBlocks.DARK_LIMESTONE_BRICK_SLAB.get(), 24).define('L', ModBlocks.DARK_LIMESTONE_BRICKS.get()).pattern("LLL").unlockedBy("has_dark_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.DARK_LIMESTONE_BRICKS.get()).build())).save(pFinishedRecipeConsumer, "dark_limestone_brick_slab_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.LIGHT_LIMESTONE_BRICK_SLAB.get(), 6).define('L', ModBlocks.LIGHT_LIMESTONE_BRICKS.get()).pattern("LLL").unlockedBy("has_light_limestone_bricks",
+        ShapedRecipeBuilder.shaped(ModBlocks.LIGHT_LIMESTONE_BRICK_SLAB.get(), 24).define('L', ModBlocks.LIGHT_LIMESTONE_BRICKS.get()).pattern("LLL").unlockedBy("has_light_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.LIGHT_LIMESTONE_BRICKS.get()).build())).save(pFinishedRecipeConsumer, "light_limestone_brick_slab_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.PINK_LIMESTONE_BRICK_SLAB.get(), 6).define('L', ModBlocks.PINK_LIMESTONE_BRICKS.get()).pattern("LLL").unlockedBy("has_pink_limestone_bricks",
+        ShapedRecipeBuilder.shaped(ModBlocks.LIMESTONE_BRICK_SLAB.get(), 24).define('L', Blocks.STONE_BRICKS).pattern("LLL").unlockedBy("has_limestone_bricks",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.STONE_BRICKS).build())).save(pFinishedRecipeConsumer, "limestone_brick_slab_from_shaped");
+        ShapedRecipeBuilder.shaped(ModBlocks.PINK_LIMESTONE_BRICK_SLAB.get(), 24).define('L', ModBlocks.PINK_LIMESTONE_BRICKS.get()).pattern("LLL").unlockedBy("has_pink_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_LIMESTONE_BRICKS.get()).build())).save(pFinishedRecipeConsumer, "pink_limestone_brick_slab_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.TAN_LIMESTONE_BRICK_SLAB.get(), 6).define('L', ModBlocks.TAN_LIMESTONE_BRICKS.get()).pattern("LLL").unlockedBy("has_tan_limestone_bricks",
+        ShapedRecipeBuilder.shaped(ModBlocks.TAN_LIMESTONE_BRICK_SLAB.get(), 24).define('L', ModBlocks.TAN_LIMESTONE_BRICKS.get()).pattern("LLL").unlockedBy("has_tan_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE_BRICKS.get()).build())).save(pFinishedRecipeConsumer, "tan_limestone_brick_slab_from_shaped");
 
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DARK_LIMESTONE_BRICKS.get()), ModBlocks.DARK_LIMESTONE_BRICK_SLAB.get(), 2).unlockedBy("has_dark_limestone_bricks",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DARK_LIMESTONE_BRICKS.get()), ModBlocks.DARK_LIMESTONE_BRICK_SLAB.get(), 8).unlockedBy("has_dark_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.DARK_LIMESTONE_BRICKS.get()).build())).save(pFinishedRecipeConsumer, "dark_limestone_brick_slab_from_dark_limestone_bricks_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.LIGHT_LIMESTONE_BRICKS.get()), ModBlocks.LIGHT_LIMESTONE_BRICK_SLAB.get(), 2).unlockedBy("has_light_limestone_bricks",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.LIGHT_LIMESTONE_BRICKS.get()), ModBlocks.LIGHT_LIMESTONE_BRICK_SLAB.get(), 8).unlockedBy("has_light_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.LIGHT_LIMESTONE_BRICKS.get()).build())).save(pFinishedRecipeConsumer, "light_limestone_brick_slab_from_light_limestone_bricks_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_LIMESTONE_BRICKS.get()), ModBlocks.PINK_LIMESTONE_BRICK_SLAB.get(), 2).unlockedBy("has_pink_limestone_bricks",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.STONE_BRICKS), ModBlocks.LIMESTONE_BRICK_SLAB.get(), 8).unlockedBy("has_limestone_bricks",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.STONE_BRICKS).build())).save(pFinishedRecipeConsumer, "limestone_brick_slab_from_limestone_bricks_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_LIMESTONE_BRICKS.get()), ModBlocks.PINK_LIMESTONE_BRICK_SLAB.get(), 8).unlockedBy("has_pink_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_LIMESTONE_BRICKS.get()).build())).save(pFinishedRecipeConsumer, "pink_limestone_brick_slab_from_pink_limestone_bricks_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.TAN_LIMESTONE_BRICKS.get()), ModBlocks.TAN_LIMESTONE_BRICK_SLAB.get(), 2).unlockedBy("has_tan_limestone_bricks",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.TAN_LIMESTONE_BRICKS.get()), ModBlocks.TAN_LIMESTONE_BRICK_SLAB.get(), 8).unlockedBy("has_tan_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE_BRICKS.get()).build())).save(pFinishedRecipeConsumer, "tan_limestone_brick_slab_from_tan_limestone_bricks_stonecutting");
 
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DARK_LIMESTONE.get()), ModBlocks.DARK_LIMESTONE_BRICK_SLAB.get(), 2).unlockedBy("has_dark_limestone_bricks",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DARK_LIMESTONE.get()), ModBlocks.DARK_LIMESTONE_BRICK_SLAB.get(), 8).unlockedBy("has_dark_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.DARK_LIMESTONE_BRICKS.get()).build())).save(pFinishedRecipeConsumer, "dark_limestone_brick_slab_from_dark_limestone_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.LIGHT_LIMESTONE.get()), ModBlocks.LIGHT_LIMESTONE_BRICK_SLAB.get(), 2).unlockedBy("has_light_limestone_bricks",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.LIGHT_LIMESTONE.get()), ModBlocks.LIGHT_LIMESTONE_BRICK_SLAB.get(), 8).unlockedBy("has_light_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.LIGHT_LIMESTONE_BRICKS.get()).build())).save(pFinishedRecipeConsumer, "light_limestone_brick_slab_from_light_limestone_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_LIMESTONE.get()), ModBlocks.PINK_LIMESTONE_BRICK_SLAB.get(), 2).unlockedBy("has_pink_limestone_bricks",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.STONE), ModBlocks.LIMESTONE_BRICK_SLAB.get(), 8).unlockedBy("has_limestone_bricks",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.STONE_BRICKS).build())).save(pFinishedRecipeConsumer, "limestone_brick_slab_from_limestone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_LIMESTONE.get()), ModBlocks.PINK_LIMESTONE_BRICK_SLAB.get(), 8).unlockedBy("has_pink_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_LIMESTONE_BRICKS.get()).build())).save(pFinishedRecipeConsumer, "pink_limestone_brick_slab_from_pink_limestone_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.TAN_LIMESTONE.get()), ModBlocks.TAN_LIMESTONE_BRICK_SLAB.get(), 2).unlockedBy("has_tan_limestone_bricks",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.TAN_LIMESTONE.get()), ModBlocks.TAN_LIMESTONE_BRICK_SLAB.get(), 8).unlockedBy("has_tan_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE_BRICKS.get()).build())).save(pFinishedRecipeConsumer, "tan_limestone_brick_slab_from_tan_limestone_stonecutting");
         
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DARK_LIMESTONE_BRICK_SLAB_VERTICAL.get()), ModBlocks.DARK_LIMESTONE_BRICK_SLAB.get(), 2).unlockedBy("has_dark_limestone_bricks",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DARK_LIMESTONE_BRICK_SLAB_VERTICAL.get()), ModBlocks.DARK_LIMESTONE_BRICK_SLAB.get(), 1).unlockedBy("has_dark_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.DARK_LIMESTONE_BRICKS.get()).build())).save(pFinishedRecipeConsumer, "dark_limestone_brick_slab_from_dark_limestone_brick_slab_vertical_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.LIGHT_LIMESTONE_BRICK_SLAB_VERTICAL.get()), ModBlocks.LIGHT_LIMESTONE_BRICK_SLAB.get(), 2).unlockedBy("has_light_limestone_bricks",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.LIGHT_LIMESTONE_BRICK_SLAB_VERTICAL.get()), ModBlocks.LIGHT_LIMESTONE_BRICK_SLAB.get(), 1).unlockedBy("has_light_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.LIGHT_LIMESTONE_BRICKS.get()).build())).save(pFinishedRecipeConsumer, "light_limestone_brick_slab_from_light_limestone_brick_slab_vertical_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.LIMESTONE_BRICK_SLAB_VERTICAL.get()), Blocks.STONE_BRICK_SLAB, 2).unlockedBy("has_light_limestone_bricks",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.LIMESTONE_BRICK_SLAB_VERTICAL.get()), ModBlocks.LIMESTONE_BRICK_SLAB.get(), 1).unlockedBy("has_light_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.STONE_BRICKS).build())).save(pFinishedRecipeConsumer, "limestone_brick_slab_from_limestone_brick_slab_vertical_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_LIMESTONE_BRICK_SLAB_VERTICAL.get()), ModBlocks.PINK_LIMESTONE_BRICK_SLAB.get(), 2).unlockedBy("has_pink_limestone_bricks",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_LIMESTONE_BRICK_SLAB_VERTICAL.get()), ModBlocks.PINK_LIMESTONE_BRICK_SLAB.get(), 1).unlockedBy("has_pink_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_LIMESTONE_BRICKS.get()).build())).save(pFinishedRecipeConsumer, "pink_limestone_brick_slab_from_pink_limestone_brick_slab_vertical_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.TAN_LIMESTONE_BRICK_SLAB_VERTICAL.get()), ModBlocks.TAN_LIMESTONE_BRICK_SLAB.get(), 2).unlockedBy("has_tan_limestone_bricks",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.TAN_LIMESTONE_BRICK_SLAB_VERTICAL.get()), ModBlocks.TAN_LIMESTONE_BRICK_SLAB.get(), 1).unlockedBy("has_tan_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE_BRICKS.get()).build())).save(pFinishedRecipeConsumer, "tan_limestone_brick_slab_from_tan_limestone_brick_slab_vertical_stonecutting");
 
         /* Limestone Brick Vertical Slabs */
-        ShapedRecipeBuilder.shaped(ModBlocks.DARK_LIMESTONE_BRICK_SLAB_VERTICAL.get(), 6).define('L', ModBlocks.DARK_LIMESTONE_BRICKS.get()).pattern(" L ").pattern(" L ").pattern(" L ").unlockedBy("has_dark_limestone_bricks",
+        ShapedRecipeBuilder.shaped(ModBlocks.DARK_LIMESTONE_BRICK_SLAB_VERTICAL.get(), 24).define('L', ModBlocks.DARK_LIMESTONE_BRICKS.get()).pattern(" L ").pattern(" L ").pattern(" L ").unlockedBy("has_dark_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.DARK_LIMESTONE_BRICKS.get()).build())).save(pFinishedRecipeConsumer, "dark_limestone_brick_slab_vertical_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.LIGHT_LIMESTONE_BRICK_SLAB_VERTICAL.get(), 6).define('L', ModBlocks.LIGHT_LIMESTONE_BRICKS.get()).pattern(" L ").pattern(" L ").pattern(" L ").unlockedBy("has_light_limestone_bricks",
+        ShapedRecipeBuilder.shaped(ModBlocks.LIGHT_LIMESTONE_BRICK_SLAB_VERTICAL.get(), 24).define('L', ModBlocks.LIGHT_LIMESTONE_BRICKS.get()).pattern(" L ").pattern(" L ").pattern(" L ").unlockedBy("has_light_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.LIGHT_LIMESTONE_BRICKS.get()).build())).save(pFinishedRecipeConsumer, "light_limestone_brick_slab_vertical_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.LIMESTONE_BRICK_SLAB_VERTICAL.get(), 6).define('L', Blocks.STONE_BRICKS).pattern(" L ").pattern(" L ").pattern(" L ").unlockedBy("has_limestone_bricks",
+        ShapedRecipeBuilder.shaped(ModBlocks.LIMESTONE_BRICK_SLAB_VERTICAL.get(), 24).define('L', Blocks.STONE_BRICKS).pattern(" L ").pattern(" L ").pattern(" L ").unlockedBy("has_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.STONE_BRICKS).build())).save(pFinishedRecipeConsumer, "limestone_brick_slab_vertical_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.PINK_LIMESTONE_BRICK_SLAB_VERTICAL.get(), 6).define('L', ModBlocks.PINK_LIMESTONE_BRICKS.get()).pattern(" L ").pattern(" L ").pattern(" L ").unlockedBy("has_pink_limestone_bricks",
+        ShapedRecipeBuilder.shaped(ModBlocks.PINK_LIMESTONE_BRICK_SLAB_VERTICAL.get(), 24).define('L', ModBlocks.PINK_LIMESTONE_BRICKS.get()).pattern(" L ").pattern(" L ").pattern(" L ").unlockedBy("has_pink_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_LIMESTONE_BRICKS.get()).build())).save(pFinishedRecipeConsumer, "pink_limestone_brick_slab_vertical_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.TAN_LIMESTONE_BRICK_SLAB_VERTICAL.get(), 6).define('L', ModBlocks.TAN_LIMESTONE_BRICKS.get()).pattern(" L ").pattern(" L ").pattern(" L ").unlockedBy("has_tan_limestone_bricks",
+        ShapedRecipeBuilder.shaped(ModBlocks.TAN_LIMESTONE_BRICK_SLAB_VERTICAL.get(), 24).define('L', ModBlocks.TAN_LIMESTONE_BRICKS.get()).pattern(" L ").pattern(" L ").pattern(" L ").unlockedBy("has_tan_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE_BRICKS.get()).build())).save(pFinishedRecipeConsumer, "tan_limestone_brick_slab_vertical_from_shaped");
 
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DARK_LIMESTONE_BRICKS.get()), ModBlocks.DARK_LIMESTONE_BRICK_SLAB_VERTICAL.get(), 2).unlockedBy("has_dark_limestone_bricks",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DARK_LIMESTONE_BRICKS.get()), ModBlocks.DARK_LIMESTONE_BRICK_SLAB_VERTICAL.get(), 8).unlockedBy("has_dark_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.DARK_LIMESTONE_BRICKS.get()).build())).save(pFinishedRecipeConsumer, "dark_limestone_brick_slab_vertical_from_dark_limestone_bricks_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.LIGHT_LIMESTONE_BRICKS.get()), ModBlocks.LIGHT_LIMESTONE_BRICK_SLAB_VERTICAL.get(), 2).unlockedBy("has_light_limestone_bricks",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.LIGHT_LIMESTONE_BRICKS.get()), ModBlocks.LIGHT_LIMESTONE_BRICK_SLAB_VERTICAL.get(), 8).unlockedBy("has_light_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.LIGHT_LIMESTONE_BRICKS.get()).build())).save(pFinishedRecipeConsumer, "light_limestone_brick_slab_vertical_from_light_limestone_bricks_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.STONE_BRICKS), ModBlocks.LIMESTONE_BRICK_SLAB_VERTICAL.get(), 2).unlockedBy("has_limestone_bricks",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.STONE_BRICKS), ModBlocks.LIMESTONE_BRICK_SLAB_VERTICAL.get(), 8).unlockedBy("has_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.STONE_BRICKS).build())).save(pFinishedRecipeConsumer, "limestone_brick_slab_vertical_from_limestone_bricks_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_LIMESTONE_BRICKS.get()), ModBlocks.PINK_LIMESTONE_BRICK_SLAB_VERTICAL.get(), 2).unlockedBy("has_pink_limestone_bricks",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_LIMESTONE_BRICKS.get()), ModBlocks.PINK_LIMESTONE_BRICK_SLAB_VERTICAL.get(), 8).unlockedBy("has_pink_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_LIMESTONE_BRICKS.get()).build())).save(pFinishedRecipeConsumer, "pink_limestone_brick_slab_vertical_from_pink_limestone_bricks_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.TAN_LIMESTONE_BRICKS.get()), ModBlocks.TAN_LIMESTONE_BRICK_SLAB_VERTICAL.get(), 2).unlockedBy("has_tan_limestone_bricks",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.TAN_LIMESTONE_BRICKS.get()), ModBlocks.TAN_LIMESTONE_BRICK_SLAB_VERTICAL.get(), 8).unlockedBy("has_tan_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE_BRICKS.get()).build())).save(pFinishedRecipeConsumer, "tan_limestone_brick_slab_vertical_from_tan_limestone_bricks_stonecutting");
 
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DARK_LIMESTONE.get()), ModBlocks.DARK_LIMESTONE_BRICK_SLAB_VERTICAL.get(), 2).unlockedBy("has_dark_limestone_bricks",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DARK_LIMESTONE.get()), ModBlocks.DARK_LIMESTONE_BRICK_SLAB_VERTICAL.get(), 8).unlockedBy("has_dark_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.DARK_LIMESTONE_BRICKS.get()).build())).save(pFinishedRecipeConsumer, "dark_limestone_brick_slab_vertical_from_dark_limestone_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.LIGHT_LIMESTONE.get()), ModBlocks.LIGHT_LIMESTONE_BRICK_SLAB_VERTICAL.get(), 2).unlockedBy("has_light_limestone_bricks",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.LIGHT_LIMESTONE.get()), ModBlocks.LIGHT_LIMESTONE_BRICK_SLAB_VERTICAL.get(), 8).unlockedBy("has_light_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.LIGHT_LIMESTONE_BRICKS.get()).build())).save(pFinishedRecipeConsumer, "light_limestone_brick_slab_vertical_from_light_limestone_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.STONE), ModBlocks.LIMESTONE_BRICK_SLAB_VERTICAL.get(), 2).unlockedBy("has_limestone_bricks",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.STONE), ModBlocks.LIMESTONE_BRICK_SLAB_VERTICAL.get(), 8).unlockedBy("has_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.STONE_BRICKS).build())).save(pFinishedRecipeConsumer, "limestone_brick_slab_vertical_from_limestone_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_LIMESTONE.get()), ModBlocks.PINK_LIMESTONE_BRICK_SLAB_VERTICAL.get(), 2).unlockedBy("has_pink_limestone_bricks",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_LIMESTONE.get()), ModBlocks.PINK_LIMESTONE_BRICK_SLAB_VERTICAL.get(), 8).unlockedBy("has_pink_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_LIMESTONE_BRICKS.get()).build())).save(pFinishedRecipeConsumer, "pink_limestone_brick_slab_vertical_from_pink_limestone_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.TAN_LIMESTONE.get()), ModBlocks.TAN_LIMESTONE_BRICK_SLAB_VERTICAL.get(), 2).unlockedBy("has_tan_limestone_bricks",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.TAN_LIMESTONE.get()), ModBlocks.TAN_LIMESTONE_BRICK_SLAB_VERTICAL.get(), 8).unlockedBy("has_tan_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE_BRICKS.get()).build())).save(pFinishedRecipeConsumer, "tan_limestone_brick_slab_vertical_from_tan_limestone_stonecutting");
 
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DARK_LIMESTONE_BRICK_SLAB.get()), ModBlocks.DARK_LIMESTONE_BRICK_SLAB_VERTICAL.get(), 2).unlockedBy("has_dark_limestone_bricks",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DARK_LIMESTONE_BRICK_SLAB.get()), ModBlocks.DARK_LIMESTONE_BRICK_SLAB_VERTICAL.get(), 1).unlockedBy("has_dark_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.DARK_LIMESTONE_BRICKS.get()).build())).save(pFinishedRecipeConsumer, "dark_limestone_brick_slab_vertical_from_dark_limestone_brick_slab_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.LIGHT_LIMESTONE_BRICK_SLAB.get()), ModBlocks.LIGHT_LIMESTONE_BRICK_SLAB_VERTICAL.get(), 2).unlockedBy("has_light_limestone_bricks",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.LIGHT_LIMESTONE_BRICK_SLAB.get()), ModBlocks.LIGHT_LIMESTONE_BRICK_SLAB_VERTICAL.get(), 1).unlockedBy("has_light_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.LIGHT_LIMESTONE_BRICKS.get()).build())).save(pFinishedRecipeConsumer, "light_limestone_brick_slab_vertical_from_light_limestone_brick_slab_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.STONE_SLAB), ModBlocks.LIMESTONE_BRICK_SLAB_VERTICAL.get(), 2).unlockedBy("has_limestone_bricks",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.STONE_SLAB), ModBlocks.LIMESTONE_BRICK_SLAB_VERTICAL.get(), 1).unlockedBy("has_limestone_bricks",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.STONE_BRICKS).build())).save(pFinishedRecipeConsumer, "limestone_brick_slab_vertical_from_stone_brick_slab_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.LIMESTONE_BRICK_SLAB.get()), ModBlocks.LIMESTONE_BRICK_SLAB_VERTICAL.get(), 1).unlockedBy("has_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.STONE_BRICKS).build())).save(pFinishedRecipeConsumer, "limestone_brick_slab_vertical_from_limestone_brick_slab_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_LIMESTONE_BRICK_SLAB.get()), ModBlocks.PINK_LIMESTONE_BRICK_SLAB_VERTICAL.get(), 2).unlockedBy("has_pink_limestone_bricks",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_LIMESTONE_BRICK_SLAB.get()), ModBlocks.PINK_LIMESTONE_BRICK_SLAB_VERTICAL.get(), 1).unlockedBy("has_pink_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_LIMESTONE_BRICKS.get()).build())).save(pFinishedRecipeConsumer, "pink_limestone_brick_slab_vertical_from_pink_limestone_brick_slab_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.TAN_LIMESTONE_BRICK_SLAB.get()), ModBlocks.TAN_LIMESTONE_BRICK_SLAB_VERTICAL.get(), 2).unlockedBy("has_tan_limestone_bricks",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.TAN_LIMESTONE_BRICK_SLAB.get()), ModBlocks.TAN_LIMESTONE_BRICK_SLAB_VERTICAL.get(), 1).unlockedBy("has_tan_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE_BRICKS.get()).build())).save(pFinishedRecipeConsumer, "tan_limestone_brick_slab_vertical_from_tan_limestone_brick_slab_stonecutting");
 
         // -- LIMESTONE BRICK STAIRS
@@ -634,29 +682,33 @@ public class StoneRecipeProvider extends RecipeProvider implements IConditionBui
         
         /* COBBLED LIMESTONE BLOCKS */
         /* Cobbled Limestone Slabs */
-        ShapedRecipeBuilder.shaped(ModBlocks.COBBLED_DARK_LIMESTONE_SLAB.get(), 6).define('L', ModBlocks.COBBLED_DARK_LIMESTONE.get()).pattern("LLL").unlockedBy("has_dark_limestone",
+        ShapedRecipeBuilder.shaped(ModBlocks.COBBLED_DARK_LIMESTONE_SLAB.get(), 24).define('L', ModBlocks.COBBLED_DARK_LIMESTONE.get()).pattern("LLL").unlockedBy("has_dark_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.DARK_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "cobbled_dark_limestone_slab_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.COBBLED_LIGHT_LIMESTONE_SLAB.get(), 6).define('L', ModBlocks.COBBLED_LIGHT_LIMESTONE.get()).pattern("LLL").unlockedBy("has_light_limestone",
+        ShapedRecipeBuilder.shaped(ModBlocks.COBBLED_LIGHT_LIMESTONE_SLAB.get(), 24).define('L', ModBlocks.COBBLED_LIGHT_LIMESTONE.get()).pattern("LLL").unlockedBy("has_light_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.LIGHT_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "cobbled_light_limestone_slab_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.COBBLED_PINK_LIMESTONE_SLAB.get(), 6).define('L', ModBlocks.COBBLED_PINK_LIMESTONE.get()).pattern("LLL").unlockedBy("has_pink_limestone",
+        ShapedRecipeBuilder.shaped(ModBlocks.COBBLED_LIMESTONE_SLAB.get(), 24).define('L', Blocks.COBBLESTONE).pattern("LLL").unlockedBy("has_limestone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.STONE).build())).save(pFinishedRecipeConsumer, "cobbled_limestone_slab_from_shaped");
+        ShapedRecipeBuilder.shaped(ModBlocks.COBBLED_PINK_LIMESTONE_SLAB.get(), 24).define('L', ModBlocks.COBBLED_PINK_LIMESTONE.get()).pattern("LLL").unlockedBy("has_pink_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "cobbled_pink_limestone_slab_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.COBBLED_TAN_LIMESTONE_SLAB.get(), 6).define('L', ModBlocks.COBBLED_TAN_LIMESTONE.get()).pattern("LLL").unlockedBy("has_tan_limestone",
+        ShapedRecipeBuilder.shaped(ModBlocks.COBBLED_TAN_LIMESTONE_SLAB.get(), 24).define('L', ModBlocks.COBBLED_TAN_LIMESTONE.get()).pattern("LLL").unlockedBy("has_tan_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "cobbled_tan_limestone_slab_from_shaped");
 
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.COBBLED_DARK_LIMESTONE.get()), ModBlocks.COBBLED_DARK_LIMESTONE_SLAB.get(), 2).unlockedBy("has_dark_limestone",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.COBBLED_DARK_LIMESTONE.get()), ModBlocks.COBBLED_DARK_LIMESTONE_SLAB.get(), 8).unlockedBy("has_dark_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.DARK_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "cobbled_dark_limestone_slab_from_cobbled_dark_limestone_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.COBBLED_LIGHT_LIMESTONE.get()), ModBlocks.COBBLED_LIGHT_LIMESTONE_SLAB.get(), 2).unlockedBy("has_light_limestone",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.COBBLED_LIGHT_LIMESTONE.get()), ModBlocks.COBBLED_LIGHT_LIMESTONE_SLAB.get(), 8).unlockedBy("has_light_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.LIGHT_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "cobbled_light_limestone_slab_from_cobbled_light_limestone_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.COBBLED_PINK_LIMESTONE.get()), ModBlocks.COBBLED_PINK_LIMESTONE_SLAB.get(), 2).unlockedBy("has_pink_limestone",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.COBBLESTONE), ModBlocks.COBBLED_LIMESTONE_SLAB.get(), 8).unlockedBy("has_limestone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.STONE).build())).save(pFinishedRecipeConsumer, "cobbled_limestone_slab_from_cobbled_limestone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.COBBLED_PINK_LIMESTONE.get()), ModBlocks.COBBLED_PINK_LIMESTONE_SLAB.get(), 8).unlockedBy("has_pink_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "cobbled_pink_limestone_slab_from_cobbled_pink_limestone_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.COBBLED_TAN_LIMESTONE.get()), ModBlocks.COBBLED_TAN_LIMESTONE_SLAB.get(), 2).unlockedBy("has_tan_limestone",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.COBBLED_TAN_LIMESTONE.get()), ModBlocks.COBBLED_TAN_LIMESTONE_SLAB.get(), 8).unlockedBy("has_tan_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "cobbled_tan_limestone_slab_from_cobbled_tan_limestone_stonecutting");
 
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.COBBLED_DARK_LIMESTONE_SLAB_VERTICAL.get()), ModBlocks.COBBLED_DARK_LIMESTONE_SLAB.get(), 1).unlockedBy("has_dark_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.DARK_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "cobbled_dark_limestone_slab_from_cobbled_dark_limestone_slab_vertical_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.COBBLED_LIGHT_LIMESTONE_SLAB_VERTICAL.get()), ModBlocks.COBBLED_LIGHT_LIMESTONE_SLAB.get(), 1).unlockedBy("has_light_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.LIGHT_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "cobbled_light_limestone_slab_from_cobbled_light_limestone_slab_vertical_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.COBBLED_LIMESTONE_SLAB_VERTICAL.get()), Blocks.COBBLESTONE_SLAB, 1).unlockedBy("has_limestone",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.COBBLED_LIMESTONE_SLAB_VERTICAL.get()), ModBlocks.COBBLED_LIMESTONE_SLAB.get(), 1).unlockedBy("has_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.LIGHT_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "cobbled_limestone_slab_from_cobbled_limestone_slab_vertical_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.COBBLED_PINK_LIMESTONE_SLAB_VERTICAL.get()), ModBlocks.COBBLED_PINK_LIMESTONE_SLAB.get(), 1).unlockedBy("has_pink_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "cobbled_pink_limestone_slab_from_cobbled_pink_limestone_slab_vertical_stonecutting");
@@ -664,26 +716,26 @@ public class StoneRecipeProvider extends RecipeProvider implements IConditionBui
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "cobbled_tan_limestone_slab_from_cobbled_tan_limestone_slab_vertical_stonecutting");
 
         /* Cobbled Limestone Vertical Slabs */
-        ShapedRecipeBuilder.shaped(ModBlocks.COBBLED_DARK_LIMESTONE_SLAB_VERTICAL.get(), 6).define('L', ModBlocks.COBBLED_DARK_LIMESTONE.get()).pattern(" L ").pattern(" L ").pattern(" L ").unlockedBy("has_dark_limestone",
+        ShapedRecipeBuilder.shaped(ModBlocks.COBBLED_DARK_LIMESTONE_SLAB_VERTICAL.get(), 24).define('L', ModBlocks.COBBLED_DARK_LIMESTONE.get()).pattern(" L ").pattern(" L ").pattern(" L ").unlockedBy("has_dark_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.DARK_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "cobbled_dark_limestone_slab_vertical_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.COBBLED_LIGHT_LIMESTONE_SLAB_VERTICAL.get(), 6).define('L', ModBlocks.COBBLED_LIGHT_LIMESTONE.get()).pattern(" L ").pattern(" L ").pattern(" L ").unlockedBy("has_light_limestone",
+        ShapedRecipeBuilder.shaped(ModBlocks.COBBLED_LIGHT_LIMESTONE_SLAB_VERTICAL.get(), 24).define('L', ModBlocks.COBBLED_LIGHT_LIMESTONE.get()).pattern(" L ").pattern(" L ").pattern(" L ").unlockedBy("has_light_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.LIGHT_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "cobbled_light_limestone_slab_vertical_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.COBBLED_LIMESTONE_SLAB_VERTICAL.get(), 6).define('L', ModBlocks.COBBLED_LIGHT_LIMESTONE.get()).pattern(" L ").pattern(" L ").pattern(" L ").unlockedBy("has_light_limestone",
+        ShapedRecipeBuilder.shaped(ModBlocks.COBBLED_LIMESTONE_SLAB_VERTICAL.get(), 24).define('L', ModBlocks.COBBLED_LIGHT_LIMESTONE.get()).pattern(" L ").pattern(" L ").pattern(" L ").unlockedBy("has_light_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.STONE).build())).save(pFinishedRecipeConsumer, "cobbled_limestone_slab_vertical_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.COBBLED_PINK_LIMESTONE_SLAB_VERTICAL.get(), 6).define('L', ModBlocks.COBBLED_PINK_LIMESTONE.get()).pattern(" L ").pattern(" L ").pattern(" L ").unlockedBy("has_pink_limestone",
+        ShapedRecipeBuilder.shaped(ModBlocks.COBBLED_PINK_LIMESTONE_SLAB_VERTICAL.get(), 24).define('L', ModBlocks.COBBLED_PINK_LIMESTONE.get()).pattern(" L ").pattern(" L ").pattern(" L ").unlockedBy("has_pink_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "cobbled_pink_limestone_slab_vertical_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.COBBLED_TAN_LIMESTONE_SLAB_VERTICAL.get(), 6).define('L', ModBlocks.COBBLED_TAN_LIMESTONE.get()).pattern(" L ").pattern(" L ").pattern(" L ").unlockedBy("has_tan_limestone",
+        ShapedRecipeBuilder.shaped(ModBlocks.COBBLED_TAN_LIMESTONE_SLAB_VERTICAL.get(), 24).define('L', ModBlocks.COBBLED_TAN_LIMESTONE.get()).pattern(" L ").pattern(" L ").pattern(" L ").unlockedBy("has_tan_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "cobbled_tan_limestone_slab_vertical_from_shaped");
 
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.COBBLED_DARK_LIMESTONE.get()), ModBlocks.COBBLED_DARK_LIMESTONE_SLAB_VERTICAL.get(), 2).unlockedBy("has_dark_limestone",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.COBBLED_DARK_LIMESTONE.get()), ModBlocks.COBBLED_DARK_LIMESTONE_SLAB_VERTICAL.get(), 8).unlockedBy("has_dark_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.DARK_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "cobbled_dark_limestone_slab_vertical_from_cobbled_dark_limestone_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.COBBLED_LIGHT_LIMESTONE.get()), ModBlocks.COBBLED_LIGHT_LIMESTONE_SLAB_VERTICAL.get(), 2).unlockedBy("has_light_limestone",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.COBBLED_LIGHT_LIMESTONE.get()), ModBlocks.COBBLED_LIGHT_LIMESTONE_SLAB_VERTICAL.get(), 8).unlockedBy("has_light_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.LIGHT_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "cobbled_light_limestone_slab_vertical_from_cobbled_light_limestone_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.COBBLESTONE), ModBlocks.COBBLED_LIMESTONE_SLAB_VERTICAL.get(), 2).unlockedBy("has_limestone",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.COBBLESTONE), ModBlocks.COBBLED_LIMESTONE_SLAB_VERTICAL.get(), 8).unlockedBy("has_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.STONE).build())).save(pFinishedRecipeConsumer, "cobbled_limestone_slab_vertical_from_cobbled_limestone_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.COBBLED_PINK_LIMESTONE.get()), ModBlocks.COBBLED_PINK_LIMESTONE_SLAB_VERTICAL.get(), 2).unlockedBy("has_pink_limestone",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.COBBLED_PINK_LIMESTONE.get()), ModBlocks.COBBLED_PINK_LIMESTONE_SLAB_VERTICAL.get(), 8).unlockedBy("has_pink_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "cobbled_pink_limestone_slab_vertical_from_cobbled_pink_limestone_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.COBBLED_TAN_LIMESTONE.get()), ModBlocks.COBBLED_TAN_LIMESTONE_SLAB_VERTICAL.get(), 2).unlockedBy("has_tan_limestone",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.COBBLED_TAN_LIMESTONE.get()), ModBlocks.COBBLED_TAN_LIMESTONE_SLAB_VERTICAL.get(), 8).unlockedBy("has_tan_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "cobbled_tan_limestone_slab_vertical_from_cobbled_tan_limestone_stonecutting");
 
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.COBBLED_DARK_LIMESTONE_SLAB.get()), ModBlocks.COBBLED_DARK_LIMESTONE_SLAB_VERTICAL.get(), 1).unlockedBy("has_dark_limestone",
@@ -691,6 +743,8 @@ public class StoneRecipeProvider extends RecipeProvider implements IConditionBui
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.COBBLED_LIGHT_LIMESTONE_SLAB.get()), ModBlocks.COBBLED_LIGHT_LIMESTONE_SLAB_VERTICAL.get(), 1).unlockedBy("has_light_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.LIGHT_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "cobbled_light_limestone_slab_vertical_from_cobbled_light_limestone_slab_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.COBBLESTONE_SLAB), ModBlocks.COBBLED_LIMESTONE_SLAB_VERTICAL.get(), 1).unlockedBy("has_limestone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.STONE).build())).save(pFinishedRecipeConsumer, "cobbled_limestone_slab_vertical_from_cobblestone_slab_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.COBBLED_LIMESTONE_SLAB.get()), ModBlocks.COBBLED_LIMESTONE_SLAB_VERTICAL.get(), 1).unlockedBy("has_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.STONE).build())).save(pFinishedRecipeConsumer, "cobbled_limestone_slab_vertical_from_cobbled_limestone_slab_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.COBBLED_PINK_LIMESTONE_SLAB.get()), ModBlocks.COBBLED_PINK_LIMESTONE_SLAB_VERTICAL.get(), 1).unlockedBy("has_pink_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "cobbled_pink_limestone_slab_vertical_from_cobbled_pink_limestone_slab_stonecutting");
@@ -766,46 +820,73 @@ public class StoneRecipeProvider extends RecipeProvider implements IConditionBui
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_tan_limestone_from_smelting");
 
         // -- SMOOTH LIMESTONE SLAB
-        ShapedRecipeBuilder.shaped(ModBlocks.SMOOTH_DARK_LIMESTONE_SLAB.get(), 6).define('L', ModBlocks.SMOOTH_DARK_LIMESTONE.get()).pattern("LLL").unlockedBy("has_dark_limestone",
+        ShapedRecipeBuilder.shaped(ModBlocks.SMOOTH_DARK_LIMESTONE_SLAB.get(), 24).define('L', ModBlocks.SMOOTH_DARK_LIMESTONE.get()).pattern("LLL").unlockedBy("has_dark_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.DARK_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_dark_limestone_slab_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.SMOOTH_LIGHT_LIMESTONE_SLAB.get(), 6).define('L', ModBlocks.SMOOTH_LIGHT_LIMESTONE.get()).pattern("LLL").unlockedBy("has_light_limestone",
+        ShapedRecipeBuilder.shaped(ModBlocks.SMOOTH_LIGHT_LIMESTONE_SLAB.get(), 24).define('L', ModBlocks.SMOOTH_LIGHT_LIMESTONE.get()).pattern("LLL").unlockedBy("has_light_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.LIGHT_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_light_limestone_slab_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.SMOOTH_PINK_LIMESTONE_SLAB.get(), 6).define('L', ModBlocks.SMOOTH_PINK_LIMESTONE.get()).pattern("LLL").unlockedBy("has_pink_limestone",
+        ShapedRecipeBuilder.shaped(ModBlocks.SMOOTH_LIMESTONE_SLAB.get(), 24).define('L', Blocks.SMOOTH_STONE).pattern("LLL").unlockedBy("has_limestone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.STONE).build())).save(pFinishedRecipeConsumer, "smooth_limestone_slab_from_shaped");
+        ShapedRecipeBuilder.shaped(ModBlocks.SMOOTH_PINK_LIMESTONE_SLAB.get(), 24).define('L', ModBlocks.SMOOTH_PINK_LIMESTONE.get()).pattern("LLL").unlockedBy("has_pink_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_pink_limestone_slab_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.SMOOTH_TAN_LIMESTONE_SLAB.get(), 6).define('L', ModBlocks.SMOOTH_TAN_LIMESTONE.get()).pattern("LLL").unlockedBy("has_tan_limestone",
+        ShapedRecipeBuilder.shaped(ModBlocks.SMOOTH_TAN_LIMESTONE_SLAB.get(), 24).define('L', ModBlocks.SMOOTH_TAN_LIMESTONE.get()).pattern("LLL").unlockedBy("has_tan_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_tan_limestone_slab_from_shaped");
 
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_DARK_LIMESTONE.get()), ModBlocks.SMOOTH_DARK_LIMESTONE_SLAB.get(), 2).unlockedBy("has_dark_limestone",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_DARK_LIMESTONE.get()), ModBlocks.SMOOTH_DARK_LIMESTONE_SLAB.get(), 8).unlockedBy("has_dark_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.DARK_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_dark_limestone_slab_from_smooth_dark_limestone_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_LIGHT_LIMESTONE.get()), ModBlocks.SMOOTH_LIGHT_LIMESTONE_SLAB.get(), 2).unlockedBy("has_light_limestone",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_LIGHT_LIMESTONE.get()), ModBlocks.SMOOTH_LIGHT_LIMESTONE_SLAB.get(), 8).unlockedBy("has_light_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.LIGHT_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_light_limestone_slab_from_smooth_light_limestone_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_PINK_LIMESTONE.get()), ModBlocks.SMOOTH_PINK_LIMESTONE_SLAB.get(), 2).unlockedBy("has_pink_limestone",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_STONE), ModBlocks.SMOOTH_LIMESTONE_SLAB.get(), 8).unlockedBy("has_limestone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.STONE).build())).save(pFinishedRecipeConsumer, "smooth_limestone_slab_from_smooth_limestone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_PINK_LIMESTONE.get()), ModBlocks.SMOOTH_PINK_LIMESTONE_SLAB.get(), 8).unlockedBy("has_pink_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_pink_limestone_slab_from_smooth_pink_limestone_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_TAN_LIMESTONE.get()), ModBlocks.SMOOTH_TAN_LIMESTONE_SLAB.get(), 2).unlockedBy("has_tan_limestone",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_TAN_LIMESTONE.get()), ModBlocks.SMOOTH_TAN_LIMESTONE_SLAB.get(), 8).unlockedBy("has_tan_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_tan_limestone_slab_from_smooth_tan_limestone_stonecutting");
+
+//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_DARK_LIMESTONE_SLAB_VERTICAL.get()), ModBlocks.SMOOTH_DARK_LIMESTONE_SLAB.get(), 8).unlockedBy("has_dark_limestone",
+//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.DARK_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_dark_limestone_slab_vertical_from_smooth_dark_limestone_stonecutting");
+//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_LIGHT_LIMESTONE_SLAB_VERTICAL.get()), ModBlocks.SMOOTH_LIGHT_LIMESTONE_SLAB.get(), 8).unlockedBy("has_light_limestone",
+//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.LIGHT_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_light_limestone_slab_vertical_from_smooth_light_limestone_stonecutting");
+//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_LIMESTONE_SLAB_VERTICAL.get()), ModBlocks.SMOOTH_LIMESTONE_SLAB.get(), 8).unlockedBy("has_limestone",
+//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.STONE).build())).save(pFinishedRecipeConsumer, "smooth_limestone_slab_from_smooth_limestone_vertical_stonecutting");
+//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_PINK_LIMESTONE_SLAB_VERTICAL.get()), ModBlocks.SMOOTH_PINK_LIMESTONE_SLAB.get(), 8).unlockedBy("has_pink_limestone",
+//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_pink_limestone_slab_vertical_from_smooth_pink_limestone_stonecutting");
+//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_TAN_LIMESTONE_SLAB_VERTICAL.get()), ModBlocks.SMOOTH_TAN_LIMESTONE_SLAB.get(), 8).unlockedBy("has_tan_limestone",
+//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_tan_limestone_slab_vertical_from_smooth_tan_limestone_stonecutting");
+//
+//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_DARK_LIMESTONE.get()), ModBlocks.SMOOTH_DARK_LIMESTONE_SLAB_VERTICAL.get(), 8).unlockedBy("has_dark_limestone",
+//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.DARK_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_dark_limestone_slab_from_smooth_dark_limestone_slab_vertical_stonecutting");
+//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_LIGHT_LIMESTONE.get()), ModBlocks.SMOOTH_LIGHT_LIMESTONE_SLAB_VERTICAL.get(), 8).unlockedBy("has_light_limestone",
+//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.LIGHT_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_light_limestone_slab_from_smooth_light_limestone_slab_vertica_stonecutting");
+//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_LIMESTONE_SLAB.get()), ModBlocks.SMOOTH_LIMESTONE_SLAB_VERTICAL.get(), 8).unlockedBy("has_limestone",
+//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.STONE).build())).save(pFinishedRecipeConsumer, "smooth_limestone_slab_from_smooth_limestone_slab_vertica_stonecutting");
+//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_PINK_LIMESTONE.get()), ModBlocks.SMOOTH_PINK_LIMESTONE_SLAB_VERTICAL.get(), 8).unlockedBy("has_pink_limestone",
+//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_pink_limestone_slab_from_smooth_pink_limestone_slab_vertica_stonecutting");
+//        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_TAN_LIMESTONE.get()), ModBlocks.SMOOTH_TAN_LIMESTONE_SLAB_VERTICAL.get(), 8).unlockedBy("has_tan_limestone",
+//                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_tan_limestone_slab_from_smooth_tan_limestone_slab_vertica_stonecutting");
+        
 
         /* MARBLE BLOCKS */
         /* Marble Slabs */
-        ShapedRecipeBuilder.shaped(ModBlocks.BLACK_MARBLE_SLAB.get(), 6).define('M', ModBlocks.BLACK_MARBLE.get()).pattern("MMM").unlockedBy("has_black_marble",
+        ShapedRecipeBuilder.shaped(ModBlocks.BLACK_MARBLE_SLAB.get(), 24).define('M', ModBlocks.BLACK_MARBLE.get()).pattern("MMM").unlockedBy("has_black_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BLACK_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "black_marble_slab_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.GRAY_MARBLE_SLAB.get(), 6).define('M', ModBlocks.GRAY_MARBLE.get()).pattern("MMM").unlockedBy("has_gray_marble",
+        ShapedRecipeBuilder.shaped(ModBlocks.GRAY_MARBLE_SLAB.get(), 24).define('M', ModBlocks.GRAY_MARBLE.get()).pattern("MMM").unlockedBy("has_gray_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.GRAY_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "gray_marble_slab_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.PINK_MARBLE_SLAB.get(), 6).define('M', ModBlocks.PINK_MARBLE.get()).pattern("MMM").unlockedBy("has_pink_marble",
+        ShapedRecipeBuilder.shaped(ModBlocks.PINK_MARBLE_SLAB.get(), 24).define('M', ModBlocks.PINK_MARBLE.get()).pattern("MMM").unlockedBy("has_pink_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "pink_marble_slab_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.RED_MARBLE_SLAB.get(), 6).define('M', ModBlocks.RED_MARBLE.get()).pattern("MMM").unlockedBy("has_red_marble",
+        ShapedRecipeBuilder.shaped(ModBlocks.RED_MARBLE_SLAB.get(), 24).define('M', ModBlocks.RED_MARBLE.get()).pattern("MMM").unlockedBy("has_red_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.RED_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "red_marble_slab_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.WHITE_MARBLE_SLAB.get(), 6).define('M', ModBlocks.WHITE_MARBLE.get()).pattern("MMM").unlockedBy("has_white_marble",
+        ShapedRecipeBuilder.shaped(ModBlocks.WHITE_MARBLE_SLAB.get(), 24).define('M', ModBlocks.WHITE_MARBLE.get()).pattern("MMM").unlockedBy("has_white_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "white_marble_slab_from_shaped");
 
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BLACK_MARBLE.get()), ModBlocks.BLACK_MARBLE_SLAB.get(), 2).unlockedBy("has_black_marble",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BLACK_MARBLE.get()), ModBlocks.BLACK_MARBLE_SLAB.get(), 8).unlockedBy("has_black_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BLACK_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "black_marble_slab_from_black_marble_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GRAY_MARBLE.get()), ModBlocks.GRAY_MARBLE_SLAB.get(), 2).unlockedBy("has_gray_marble",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GRAY_MARBLE.get()), ModBlocks.GRAY_MARBLE_SLAB.get(), 8).unlockedBy("has_gray_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.GRAY_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "gray_marble_slab_from_gray_marble_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_MARBLE.get()), ModBlocks.PINK_MARBLE_SLAB.get(), 2).unlockedBy("has_pink_marble",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_MARBLE.get()), ModBlocks.PINK_MARBLE_SLAB.get(), 8).unlockedBy("has_pink_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "pink_marble_slab_from_pink_marble_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.RED_MARBLE.get()), ModBlocks.RED_MARBLE_SLAB.get(), 2).unlockedBy("has_red_marble",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.RED_MARBLE.get()), ModBlocks.RED_MARBLE_SLAB.get(), 8).unlockedBy("has_red_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.RED_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "red_marble_slab_from_red_marble_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WHITE_MARBLE.get()), ModBlocks.WHITE_MARBLE_SLAB.get(), 2).unlockedBy("has_white_marble",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WHITE_MARBLE.get()), ModBlocks.WHITE_MARBLE_SLAB.get(), 8).unlockedBy("has_white_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "white_marble_slab_from_white_marble_stonecutting");
 
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BLACK_MARBLE_SLAB_VERTICAL.get()), ModBlocks.BLACK_MARBLE_SLAB.get(), 1).unlockedBy("has_black_marble",
@@ -820,26 +901,26 @@ public class StoneRecipeProvider extends RecipeProvider implements IConditionBui
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "white_marble_slab_from_white_slab_vertical_marble_stonecutting");
         
         /* Marble Vertical Slabs */
-        ShapedRecipeBuilder.shaped(ModBlocks.BLACK_MARBLE_SLAB_VERTICAL.get(), 6).define('M', ModBlocks.BLACK_MARBLE.get()).pattern(" M ").pattern(" M ").pattern(" M ").unlockedBy("has_black_marble",
+        ShapedRecipeBuilder.shaped(ModBlocks.BLACK_MARBLE_SLAB_VERTICAL.get(), 24).define('M', ModBlocks.BLACK_MARBLE.get()).pattern(" M ").pattern(" M ").pattern(" M ").unlockedBy("has_black_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BLACK_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "black_marble_slab_vertical_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.GRAY_MARBLE_SLAB_VERTICAL.get(), 6).define('M', ModBlocks.GRAY_MARBLE.get()).pattern(" M ").pattern(" M ").pattern(" M ").unlockedBy("has_gray_marble",
+        ShapedRecipeBuilder.shaped(ModBlocks.GRAY_MARBLE_SLAB_VERTICAL.get(), 24).define('M', ModBlocks.GRAY_MARBLE.get()).pattern(" M ").pattern(" M ").pattern(" M ").unlockedBy("has_gray_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.GRAY_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "gray_marble_slab_vertical_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.PINK_MARBLE_SLAB_VERTICAL.get(), 6).define('M', ModBlocks.PINK_MARBLE.get()).pattern(" M ").pattern(" M ").pattern(" M ").unlockedBy("has_pink_marble",
+        ShapedRecipeBuilder.shaped(ModBlocks.PINK_MARBLE_SLAB_VERTICAL.get(), 24).define('M', ModBlocks.PINK_MARBLE.get()).pattern(" M ").pattern(" M ").pattern(" M ").unlockedBy("has_pink_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "pink_marble_slab_vertical_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.RED_MARBLE_SLAB_VERTICAL.get(), 6).define('M', ModBlocks.RED_MARBLE.get()).pattern(" M ").pattern(" M ").pattern(" M ").unlockedBy("has_red_marble",
+        ShapedRecipeBuilder.shaped(ModBlocks.RED_MARBLE_SLAB_VERTICAL.get(), 24).define('M', ModBlocks.RED_MARBLE.get()).pattern(" M ").pattern(" M ").pattern(" M ").unlockedBy("has_red_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.RED_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "red_marble_slab_vertical_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.WHITE_MARBLE_SLAB_VERTICAL.get(), 6).define('M', ModBlocks.WHITE_MARBLE.get()).pattern(" M ").pattern(" M ").pattern(" M ").unlockedBy("has_white_marble",
+        ShapedRecipeBuilder.shaped(ModBlocks.WHITE_MARBLE_SLAB_VERTICAL.get(), 24).define('M', ModBlocks.WHITE_MARBLE.get()).pattern(" M ").pattern(" M ").pattern(" M ").unlockedBy("has_white_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "white_marble_slab_vertical_from_shaped");
 
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BLACK_MARBLE.get()), ModBlocks.BLACK_MARBLE_SLAB_VERTICAL.get(), 2).unlockedBy("has_black_marble",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BLACK_MARBLE.get()), ModBlocks.BLACK_MARBLE_SLAB_VERTICAL.get(), 8).unlockedBy("has_black_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BLACK_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "black_marble_slab_vertical_from_black_marble_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GRAY_MARBLE.get()), ModBlocks.GRAY_MARBLE_SLAB_VERTICAL.get(), 2).unlockedBy("has_gray_marble",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GRAY_MARBLE.get()), ModBlocks.GRAY_MARBLE_SLAB_VERTICAL.get(), 8).unlockedBy("has_gray_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.GRAY_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "gray_marble_slab_vertical_from_gray_marble_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_MARBLE.get()), ModBlocks.PINK_MARBLE_SLAB_VERTICAL.get(), 2).unlockedBy("has_pink_marble",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PINK_MARBLE.get()), ModBlocks.PINK_MARBLE_SLAB_VERTICAL.get(), 8).unlockedBy("has_pink_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "pink_marble_slab_vertical_from_pink_marble_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.RED_MARBLE.get()), ModBlocks.RED_MARBLE_SLAB_VERTICAL.get(), 2).unlockedBy("has_red_marble",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.RED_MARBLE.get()), ModBlocks.RED_MARBLE_SLAB_VERTICAL.get(), 8).unlockedBy("has_red_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.RED_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "red_marble_slab_vertical_from_red_marble_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WHITE_MARBLE.get()), ModBlocks.WHITE_MARBLE_SLAB_VERTICAL.get(), 2).unlockedBy("has_white_marble",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WHITE_MARBLE.get()), ModBlocks.WHITE_MARBLE_SLAB_VERTICAL.get(), 8).unlockedBy("has_white_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "white_marble_slab_vertical_from_white_marble_stonecutting");
 
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BLACK_MARBLE_SLAB.get()), ModBlocks.BLACK_MARBLE_SLAB_VERTICAL.get(), 1).unlockedBy("has_black_marble",
@@ -877,93 +958,93 @@ public class StoneRecipeProvider extends RecipeProvider implements IConditionBui
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_white_marble_from_white_marble_stonecutting");
         
         /* Polished Marble Slabs */
-        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_BLACK_MARBLE_SLAB.get(), 6).define('M', ModBlocks.POLISHED_BLACK_MARBLE.get()).pattern("MMM").unlockedBy("has_black_marble",
+        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_BLACK_MARBLE_SLAB.get(), 24).define('M', ModBlocks.POLISHED_BLACK_MARBLE.get()).pattern("MMM").unlockedBy("has_black_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BLACK_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_black_marble_slab_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_GRAY_MARBLE_SLAB.get(), 6).define('M', ModBlocks.POLISHED_GRAY_MARBLE.get()).pattern("MMM").unlockedBy("has_gray_marble",
+        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_GRAY_MARBLE_SLAB.get(), 24).define('M', ModBlocks.POLISHED_GRAY_MARBLE.get()).pattern("MMM").unlockedBy("has_gray_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.GRAY_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_gray_marble_slab_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_PINK_MARBLE_SLAB.get(), 6).define('M', ModBlocks.POLISHED_PINK_MARBLE.get()).pattern("MMM").unlockedBy("has_pink_marble",
+        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_PINK_MARBLE_SLAB.get(), 24).define('M', ModBlocks.POLISHED_PINK_MARBLE.get()).pattern("MMM").unlockedBy("has_pink_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_pink_marble_slab_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_RED_MARBLE_SLAB.get(), 6).define('M', ModBlocks.POLISHED_RED_MARBLE.get()).pattern("MMM").unlockedBy("has_red_marble",
+        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_RED_MARBLE_SLAB.get(), 24).define('M', ModBlocks.POLISHED_RED_MARBLE.get()).pattern("MMM").unlockedBy("has_red_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.RED_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_red_marble_slab_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_WHITE_MARBLE_SLAB.get(), 6).define('M', ModBlocks.POLISHED_WHITE_MARBLE.get()).pattern("MMM").unlockedBy("has_white_marble",
+        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_WHITE_MARBLE_SLAB.get(), 24).define('M', ModBlocks.POLISHED_WHITE_MARBLE.get()).pattern("MMM").unlockedBy("has_white_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_white_marble_slab_from_shaped");
 
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_BLACK_MARBLE.get()), ModBlocks.POLISHED_BLACK_MARBLE_SLAB.get(), 2).unlockedBy("has_black_marble",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_BLACK_MARBLE.get()), ModBlocks.POLISHED_BLACK_MARBLE_SLAB.get(), 8).unlockedBy("has_black_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BLACK_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_black_marble_slab_from_polished_black_marble_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_GRAY_MARBLE.get()), ModBlocks.POLISHED_GRAY_MARBLE_SLAB.get(), 2).unlockedBy("has_gray_marble",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_GRAY_MARBLE.get()), ModBlocks.POLISHED_GRAY_MARBLE_SLAB.get(), 8).unlockedBy("has_gray_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.GRAY_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_gray_marble_slab_from_polished_gray_marble_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_PINK_MARBLE.get()), ModBlocks.POLISHED_PINK_MARBLE_SLAB.get(), 2).unlockedBy("has_pink_marble",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_PINK_MARBLE.get()), ModBlocks.POLISHED_PINK_MARBLE_SLAB.get(), 8).unlockedBy("has_pink_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_pink_marble_slab_from_polished_pink_marble_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_RED_MARBLE.get()), ModBlocks.POLISHED_RED_MARBLE_SLAB.get(), 2).unlockedBy("has_red_marble",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_RED_MARBLE.get()), ModBlocks.POLISHED_RED_MARBLE_SLAB.get(), 8).unlockedBy("has_red_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.RED_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_red_marble_slab_from_polished_red_marble_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_WHITE_MARBLE.get()), ModBlocks.POLISHED_WHITE_MARBLE_SLAB.get(), 2).unlockedBy("has_white_marble",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_WHITE_MARBLE.get()), ModBlocks.POLISHED_WHITE_MARBLE_SLAB.get(), 8).unlockedBy("has_white_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_white_marble_slab_from_polished_white_marble_stonecutting");
 
-        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.BLACK_MARBLE.get())), ModBlocks.POLISHED_BLACK_MARBLE_SLAB.get(), 2).unlockedBy("has_black_marble",
+        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.BLACK_MARBLE.get())), ModBlocks.POLISHED_BLACK_MARBLE_SLAB.get(), 8).unlockedBy("has_black_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BLACK_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_black_marble_slab_from_black_marble_stonecutting");
-        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.GRAY_MARBLE.get())), ModBlocks.POLISHED_GRAY_MARBLE_SLAB.get(), 2).unlockedBy("has_gray_marble",
+        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.GRAY_MARBLE.get())), ModBlocks.POLISHED_GRAY_MARBLE_SLAB.get(), 8).unlockedBy("has_gray_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.GRAY_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_gray_marble_slab_from_gray_marble_stonecutting");
-        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.PINK_MARBLE.get())), ModBlocks.POLISHED_PINK_MARBLE_SLAB.get(), 2).unlockedBy("has_pink_marble",
+        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.PINK_MARBLE.get())), ModBlocks.POLISHED_PINK_MARBLE_SLAB.get(), 8).unlockedBy("has_pink_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_pink_marble_slab_from_pink_marble_stonecutting");
-        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.RED_MARBLE.get())), ModBlocks.POLISHED_RED_MARBLE_SLAB.get(), 2).unlockedBy("has_red_marble",
+        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.RED_MARBLE.get())), ModBlocks.POLISHED_RED_MARBLE_SLAB.get(), 8).unlockedBy("has_red_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.RED_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_red_marble_slab_from_red_marble_stonecutting");
-        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.WHITE_MARBLE.get())), ModBlocks.POLISHED_WHITE_MARBLE_SLAB.get(), 2).unlockedBy("has_white_marble",
+        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.WHITE_MARBLE.get())), ModBlocks.POLISHED_WHITE_MARBLE_SLAB.get(), 8).unlockedBy("has_white_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_white_marble_slab_from_white_marble_stonecutting");
 
-        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.POLISHED_BLACK_MARBLE_SLAB_VERTICAL.get())), ModBlocks.POLISHED_BLACK_MARBLE_SLAB.get(), 2).unlockedBy("has_black_marble",
+        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.POLISHED_BLACK_MARBLE_SLAB_VERTICAL.get())), ModBlocks.POLISHED_BLACK_MARBLE_SLAB.get(), 1).unlockedBy("has_black_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BLACK_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_black_marble_slab_from_polished_black_marble_slab_vertical_stonecutting");
-        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.POLISHED_GRAY_MARBLE_SLAB_VERTICAL.get())), ModBlocks.POLISHED_GRAY_MARBLE_SLAB.get(), 2).unlockedBy("has_gray_marble",
+        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.POLISHED_GRAY_MARBLE_SLAB_VERTICAL.get())), ModBlocks.POLISHED_GRAY_MARBLE_SLAB.get(), 1).unlockedBy("has_gray_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.GRAY_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_gray_marble_slab_from_polished_gray_marble_slab_vertical_stonecutting");
-        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.POLISHED_PINK_MARBLE_SLAB_VERTICAL.get())), ModBlocks.POLISHED_PINK_MARBLE_SLAB.get(), 2).unlockedBy("has_pink_marble",
+        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.POLISHED_PINK_MARBLE_SLAB_VERTICAL.get())), ModBlocks.POLISHED_PINK_MARBLE_SLAB.get(), 1).unlockedBy("has_pink_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_pink_marble_slab_from_polished_pink_marble_slab_vertical_stonecutting");
-        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.POLISHED_RED_MARBLE_SLAB_VERTICAL.get())), ModBlocks.POLISHED_RED_MARBLE_SLAB.get(), 2).unlockedBy("has_red_marble",
+        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.POLISHED_RED_MARBLE_SLAB_VERTICAL.get())), ModBlocks.POLISHED_RED_MARBLE_SLAB.get(), 1).unlockedBy("has_red_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.RED_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_red_marble_slab_from_polished_red_marble_slab_vertical_stonecutting");
-        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.POLISHED_WHITE_MARBLE_SLAB_VERTICAL.get())), ModBlocks.POLISHED_WHITE_MARBLE_SLAB.get(), 2).unlockedBy("has_white_marble",
+        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.POLISHED_WHITE_MARBLE_SLAB_VERTICAL.get())), ModBlocks.POLISHED_WHITE_MARBLE_SLAB.get(), 1).unlockedBy("has_white_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_white_marble_slab_from_polished_white_marble_slab_vertical_stonecutting");
 
         /* Polished Marble Vertical Slabs */
-        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_BLACK_MARBLE_SLAB_VERTICAL.get(), 6).define('M', ModBlocks.POLISHED_BLACK_MARBLE.get()).pattern(" M ").pattern(" M ").pattern(" M ").unlockedBy("has_black_marble",
+        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_BLACK_MARBLE_SLAB_VERTICAL.get(), 24).define('M', ModBlocks.POLISHED_BLACK_MARBLE.get()).pattern(" M ").pattern(" M ").pattern(" M ").unlockedBy("has_black_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BLACK_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_black_marble_slab_vertical_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_GRAY_MARBLE_SLAB_VERTICAL.get(), 6).define('M', ModBlocks.POLISHED_GRAY_MARBLE.get()).pattern(" M ").pattern(" M ").pattern(" M ").unlockedBy("has_gray_marble",
+        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_GRAY_MARBLE_SLAB_VERTICAL.get(), 24).define('M', ModBlocks.POLISHED_GRAY_MARBLE.get()).pattern(" M ").pattern(" M ").pattern(" M ").unlockedBy("has_gray_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.GRAY_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_gray_marble_slab_vertical_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_PINK_MARBLE_SLAB_VERTICAL.get(), 6).define('M', ModBlocks.POLISHED_PINK_MARBLE.get()).pattern(" M ").pattern(" M ").pattern(" M ").unlockedBy("has_pink_marble",
+        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_PINK_MARBLE_SLAB_VERTICAL.get(), 24).define('M', ModBlocks.POLISHED_PINK_MARBLE.get()).pattern(" M ").pattern(" M ").pattern(" M ").unlockedBy("has_pink_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_pink_marble_slab_vertical_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_RED_MARBLE_SLAB_VERTICAL.get(), 6).define('M', ModBlocks.POLISHED_RED_MARBLE.get()).pattern(" M ").pattern(" M ").pattern(" M ").unlockedBy("has_red_marble",
+        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_RED_MARBLE_SLAB_VERTICAL.get(), 24).define('M', ModBlocks.POLISHED_RED_MARBLE.get()).pattern(" M ").pattern(" M ").pattern(" M ").unlockedBy("has_red_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.RED_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_red_marble_slab_vertical_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_WHITE_MARBLE_SLAB_VERTICAL.get(), 6).define('M', ModBlocks.POLISHED_WHITE_MARBLE.get()).pattern(" M ").pattern(" M ").pattern(" M ").unlockedBy("has_white_marble",
+        ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_WHITE_MARBLE_SLAB_VERTICAL.get(), 24).define('M', ModBlocks.POLISHED_WHITE_MARBLE.get()).pattern(" M ").pattern(" M ").pattern(" M ").unlockedBy("has_white_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_white_marble_slab_vertical_from_shaped");
 
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_BLACK_MARBLE.get()), ModBlocks.POLISHED_BLACK_MARBLE_SLAB_VERTICAL.get(), 2).unlockedBy("has_black_marble",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_BLACK_MARBLE.get()), ModBlocks.POLISHED_BLACK_MARBLE_SLAB_VERTICAL.get(), 8).unlockedBy("has_black_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BLACK_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_black_marble_slab_vertical_from_polished_black_marble_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_GRAY_MARBLE.get()), ModBlocks.POLISHED_GRAY_MARBLE_SLAB_VERTICAL.get(), 2).unlockedBy("has_gray_marble",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_GRAY_MARBLE.get()), ModBlocks.POLISHED_GRAY_MARBLE_SLAB_VERTICAL.get(), 8).unlockedBy("has_gray_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.GRAY_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_gray_marble_slab_vertical_from_polished_gray_marble_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_PINK_MARBLE.get()), ModBlocks.POLISHED_PINK_MARBLE_SLAB_VERTICAL.get(), 2).unlockedBy("has_pink_marble",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_PINK_MARBLE.get()), ModBlocks.POLISHED_PINK_MARBLE_SLAB_VERTICAL.get(), 8).unlockedBy("has_pink_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_pink_marble_slab_vertical_from_polished_pink_marble_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_RED_MARBLE.get()), ModBlocks.POLISHED_RED_MARBLE_SLAB_VERTICAL.get(), 2).unlockedBy("has_red_marble",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_RED_MARBLE.get()), ModBlocks.POLISHED_RED_MARBLE_SLAB_VERTICAL.get(), 8).unlockedBy("has_red_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.RED_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_red_marble_slab_vertical_from_polished_red_marble_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_WHITE_MARBLE.get()), ModBlocks.POLISHED_WHITE_MARBLE_SLAB_VERTICAL.get(), 2).unlockedBy("has_white_marble",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_WHITE_MARBLE.get()), ModBlocks.POLISHED_WHITE_MARBLE_SLAB_VERTICAL.get(), 8).unlockedBy("has_white_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_white_marble_slab_vertical_from_polished_white_marble_stonecutting");
 
-        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.BLACK_MARBLE.get())), ModBlocks.POLISHED_BLACK_MARBLE_SLAB_VERTICAL.get(), 2).unlockedBy("has_black_marble",
+        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.BLACK_MARBLE.get())), ModBlocks.POLISHED_BLACK_MARBLE_SLAB_VERTICAL.get(), 8).unlockedBy("has_black_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BLACK_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_black_marble_slab_vertical_from_black_marble_stonecutting");
-        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.GRAY_MARBLE.get())), ModBlocks.POLISHED_GRAY_MARBLE_SLAB_VERTICAL.get(), 2).unlockedBy("has_gray_marble",
+        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.GRAY_MARBLE.get())), ModBlocks.POLISHED_GRAY_MARBLE_SLAB_VERTICAL.get(), 8).unlockedBy("has_gray_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.GRAY_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_gray_marble_slab_vertical_from_gray_marble_stonecutting");
-        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.PINK_MARBLE.get())), ModBlocks.POLISHED_PINK_MARBLE_SLAB_VERTICAL.get(), 2).unlockedBy("has_pink_marble",
+        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.PINK_MARBLE.get())), ModBlocks.POLISHED_PINK_MARBLE_SLAB_VERTICAL.get(), 8).unlockedBy("has_pink_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_pink_marble_slab_vertical_from_pink_marble_stonecutting");
-        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.RED_MARBLE.get())), ModBlocks.POLISHED_RED_MARBLE_SLAB_VERTICAL.get(), 2).unlockedBy("has_red_marble",
+        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.RED_MARBLE.get())), ModBlocks.POLISHED_RED_MARBLE_SLAB_VERTICAL.get(), 8).unlockedBy("has_red_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.RED_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_red_marble_slab_vertical_from_red_marble_stonecutting");
-        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.WHITE_MARBLE.get())), ModBlocks.POLISHED_WHITE_MARBLE_SLAB_VERTICAL.get(), 2).unlockedBy("has_white_marble",
+        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.WHITE_MARBLE.get())), ModBlocks.POLISHED_WHITE_MARBLE_SLAB_VERTICAL.get(), 8).unlockedBy("has_white_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_white_marble_slab_vertical_from_white_marble_stonecutting");
 
-        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.POLISHED_BLACK_MARBLE_SLAB.get())), ModBlocks.POLISHED_BLACK_MARBLE_SLAB_VERTICAL.get(), 2).unlockedBy("has_black_marble",
+        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.POLISHED_BLACK_MARBLE_SLAB.get())), ModBlocks.POLISHED_BLACK_MARBLE_SLAB_VERTICAL.get(), 1).unlockedBy("has_black_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BLACK_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_black_marble_slab_vertical_from_polished_black_marble_slab_stonecutting");
-        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.POLISHED_GRAY_MARBLE_SLAB.get())), ModBlocks.POLISHED_GRAY_MARBLE_SLAB_VERTICAL.get(), 2).unlockedBy("has_gray_marble",
+        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.POLISHED_GRAY_MARBLE_SLAB.get())), ModBlocks.POLISHED_GRAY_MARBLE_SLAB_VERTICAL.get(), 1).unlockedBy("has_gray_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.GRAY_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_gray_marble_slab_vertical_from_polished_gray_marble_slab_stonecutting");
-        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.POLISHED_PINK_MARBLE_SLAB.get())), ModBlocks.POLISHED_PINK_MARBLE_SLAB_VERTICAL.get(), 2).unlockedBy("has_pink_marble",
+        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.POLISHED_PINK_MARBLE_SLAB.get())), ModBlocks.POLISHED_PINK_MARBLE_SLAB_VERTICAL.get(), 1).unlockedBy("has_pink_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_pink_marble_slab_vertical_from_polished_pink_marble_slab_stonecutting");
-        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.POLISHED_RED_MARBLE_SLAB.get())), ModBlocks.POLISHED_RED_MARBLE_SLAB_VERTICAL.get(), 2).unlockedBy("has_red_marble",
+        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.POLISHED_RED_MARBLE_SLAB.get())), ModBlocks.POLISHED_RED_MARBLE_SLAB_VERTICAL.get(), 1).unlockedBy("has_red_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.RED_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_red_marble_slab_vertical_from_polished_red_marble_slab_stonecutting");
-        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.POLISHED_WHITE_MARBLE_SLAB.get())), ModBlocks.POLISHED_WHITE_MARBLE_SLAB_VERTICAL.get(), 2).unlockedBy("has_white_marble",
+        SingleItemRecipeBuilder.stonecutting((Ingredient.of(ModBlocks.POLISHED_WHITE_MARBLE_SLAB.get())), ModBlocks.POLISHED_WHITE_MARBLE_SLAB_VERTICAL.get(), 1).unlockedBy("has_white_marble",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_MARBLE.get()).build())).save(pFinishedRecipeConsumer, "polished_white_marble_slab_vertical_from_polished_white_marble_slab_stonecutting");
 
         // -- POLISHED MARBLE STAIRS
@@ -1047,38 +1128,54 @@ public class StoneRecipeProvider extends RecipeProvider implements IConditionBui
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "orange_sandstone_slab_from_shaped");
         
         /* Sandstone Slabs */
-        ShapedRecipeBuilder.shaped(ModBlocks.BROWN_SANDSTONE_SLAB.get(), 6).define('S', ModBlocks.BROWN_SANDSTONE.get()).pattern("SSS").unlockedBy("has_brown_sandstone",
+        ShapedRecipeBuilder.shaped(ModBlocks.BROWN_SANDSTONE_SLAB.get(), 24).define('S', ModBlocks.BROWN_SANDSTONE.get()).pattern("SSS").unlockedBy("has_brown_sandstone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "brown_sandstone_slab_from_brown_sandstone_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.ORANGE_SANDSTONE_SLAB.get(), 6).define('S', ModBlocks.ORANGE_SANDSTONE.get()).pattern("SSS").unlockedBy("has_orange_sandstone",
+        ShapedRecipeBuilder.shaped(ModBlocks.ORANGE_SANDSTONE_SLAB.get(), 24).define('S', ModBlocks.ORANGE_SANDSTONE.get()).pattern("SSS").unlockedBy("has_orange_sandstone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "orange_sandstone_slab_from_orange_sandstone_shaped");
+        ShapedRecipeBuilder.shaped(ModBlocks.RED_SANDSTONE_SLAB.get(), 24).define('S', Blocks.RED_SANDSTONE).pattern("SSS").unlockedBy("has_red_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "red_sandstone_slab_from_red_sandstone_shaped");
+        ShapedRecipeBuilder.shaped(ModBlocks.SANDSTONE_SLAB.get(), 24).define('S', Blocks.SANDSTONE).pattern("SSS").unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "sandstone_slab_from_sandstone_shaped");
         
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BROWN_SANDSTONE.get()), ModBlocks.BROWN_SANDSTONE_SLAB.get(), 2).unlockedBy("has_brown_sandstone",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BROWN_SANDSTONE.get()), ModBlocks.BROWN_SANDSTONE_SLAB.get(), 8).unlockedBy("has_brown_sandstone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "brown_sandstone_slab_from_brown_sandstone_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.ORANGE_SANDSTONE.get()), ModBlocks.ORANGE_SANDSTONE_SLAB.get(), 2).unlockedBy("has_orange_sandstone",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.ORANGE_SANDSTONE.get()), ModBlocks.ORANGE_SANDSTONE_SLAB.get(), 8).unlockedBy("has_orange_sandstone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "orange_sandstone_slab_from_orange_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.RED_SANDSTONE), ModBlocks.RED_SANDSTONE_SLAB.get(), 8).unlockedBy("has_red_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "red_sandstone_slab_from_red_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SANDSTONE), ModBlocks.SANDSTONE_SLAB.get(), 8).unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "sandstone_slab_from_sandstone_stonecutting");
 
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BROWN_SANDSTONE_SLAB_VERTICAL.get()), ModBlocks.BROWN_SANDSTONE_SLAB.get(), 1).unlockedBy("has_brown_sandstone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "brown_sandstone_slab_from_brown_sandstone_slab_vertical_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.ORANGE_SANDSTONE_SLAB_VERTICAL.get()), ModBlocks.ORANGE_SANDSTONE_SLAB.get(), 1).unlockedBy("has_orange_sandstone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "orange_sandstone_slab_from_orange_sandstone_slab_vertical_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.RED_SANDSTONE_SLAB_VERTICAL.get()), ModBlocks.RED_SANDSTONE_SLAB.get(), 1).unlockedBy("has_red_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "mod_red_sandstone_slab_from_red_sandstone_slab_vertical_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SANDSTONE_SLAB_VERTICAL.get()), ModBlocks.SANDSTONE_SLAB.get(), 1).unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "mod_sandstone_slab_from_sandstone_slab_vertical_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.RED_SANDSTONE_SLAB_VERTICAL.get()), Blocks.RED_SANDSTONE_SLAB, 1).unlockedBy("has_red_sandstone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "red_sandstone_slab_from_red_sandstone_slab_vertical_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SANDSTONE_SLAB_VERTICAL.get()), Blocks.SANDSTONE_SLAB, 1).unlockedBy("has_sandstone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "sandstone_slab_from_sandstone_slab_vertical_stonecutting");
 
         /* Sandstone Vertical Slabs */
-        ShapedRecipeBuilder.shaped(ModBlocks.BROWN_SANDSTONE_SLAB_VERTICAL.get(), 6).define('S', ModBlocks.BROWN_SANDSTONE.get()).pattern(" S ").pattern(" S ").pattern(" S ").unlockedBy("has_brown_sandstone",
+        ShapedRecipeBuilder.shaped(ModBlocks.BROWN_SANDSTONE_SLAB_VERTICAL.get(), 24).define('S', ModBlocks.BROWN_SANDSTONE.get()).pattern(" S ").pattern(" S ").pattern(" S ").unlockedBy("has_brown_sandstone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "brown_sandstone_slab_vertical_from_brown_sandstone_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.ORANGE_SANDSTONE_SLAB_VERTICAL.get(), 6).define('S', ModBlocks.ORANGE_SANDSTONE.get()).pattern(" S ").pattern(" S ").pattern(" S ").unlockedBy("has_orange_sandstone",
+        ShapedRecipeBuilder.shaped(ModBlocks.ORANGE_SANDSTONE_SLAB_VERTICAL.get(), 24).define('S', ModBlocks.ORANGE_SANDSTONE.get()).pattern(" S ").pattern(" S ").pattern(" S ").unlockedBy("has_orange_sandstone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "orange_sandstone_slab_vertical_from_orange_sandstone_shaped");
-
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BROWN_SANDSTONE.get()), ModBlocks.BROWN_SANDSTONE_SLAB_VERTICAL.get(), 2).unlockedBy("has_brown_sandstone",
+        ShapedRecipeBuilder.shaped(ModBlocks.RED_SANDSTONE_SLAB_VERTICAL.get(), 24).define('S', Blocks.RED_SANDSTONE).pattern(" S ").pattern(" S ").pattern(" S ").unlockedBy("has_red_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "red_sandstone_slab_vertical_from_red_sandstone_shaped");
+        ShapedRecipeBuilder.shaped(ModBlocks.SANDSTONE_SLAB_VERTICAL.get(), 24).define('S', Blocks.SANDSTONE).pattern(" S ").pattern(" S ").pattern(" S ").unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "sandstone_slab_vertical_from_sandstone_shaped");
+        
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BROWN_SANDSTONE.get()), ModBlocks.BROWN_SANDSTONE_SLAB_VERTICAL.get(), 8).unlockedBy("has_brown_sandstone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "brown_sandstone_slab_vertical_from_brown_sandstone_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.ORANGE_SANDSTONE.get()), ModBlocks.ORANGE_SANDSTONE_SLAB_VERTICAL.get(), 2).unlockedBy("has_orange_sandstone",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.ORANGE_SANDSTONE.get()), ModBlocks.ORANGE_SANDSTONE_SLAB_VERTICAL.get(), 8).unlockedBy("has_orange_sandstone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "orange_sandstone_slab_vertical_from_orange_sandstone_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.RED_SANDSTONE), ModBlocks.RED_SANDSTONE_SLAB_VERTICAL.get(), 2).unlockedBy("has_red_sandstone",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.RED_SANDSTONE), ModBlocks.RED_SANDSTONE_SLAB_VERTICAL.get(), 8).unlockedBy("has_red_sandstone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "red_sandstone_slab_vertical_from_red_sandstone_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SANDSTONE), ModBlocks.SANDSTONE_SLAB_VERTICAL.get(), 2).unlockedBy("has_sandstone",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SANDSTONE), ModBlocks.SANDSTONE_SLAB_VERTICAL.get(), 8).unlockedBy("has_sandstone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "sandstone_slab_vertical_from_sandstone_stonecutting");
 
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BROWN_SANDSTONE_SLAB.get()), ModBlocks.BROWN_SANDSTONE_SLAB_VERTICAL.get(), 1).unlockedBy("has_brown_sandstone",
@@ -1086,8 +1183,12 @@ public class StoneRecipeProvider extends RecipeProvider implements IConditionBui
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.ORANGE_SANDSTONE_SLAB.get()), ModBlocks.ORANGE_SANDSTONE_SLAB_VERTICAL.get(), 1).unlockedBy("has_orange_sandstone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "orange_sandstone_slab_vertical_from_orange_sandstone_slab_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.RED_SANDSTONE_SLAB), ModBlocks.RED_SANDSTONE_SLAB_VERTICAL.get(), 1).unlockedBy("has_red_sandstone",
-                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "red_sandstone_slab_vertical_from_red_sandstone_slab_stonecutting");
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "mod_red_sandstone_slab_vertical_from_red_sandstone_slab_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SANDSTONE_SLAB), ModBlocks.SANDSTONE_SLAB_VERTICAL.get(), 1).unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "mod_sandstone_slab_vertical_from_sandstone_slab_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.RED_SANDSTONE_SLAB.get()), ModBlocks.RED_SANDSTONE_SLAB_VERTICAL.get(), 1).unlockedBy("has_red_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "red_sandstone_slab_vertical_from_red_sandstone_slab_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SANDSTONE_SLAB.get()), ModBlocks.SANDSTONE_SLAB_VERTICAL.get(), 1).unlockedBy("has_sandstone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "sandstone_slab_vertical_from_sandstone_slab_stonecutting");
 
         // -- SANDSTONE STAIRS
@@ -1124,25 +1225,41 @@ public class StoneRecipeProvider extends RecipeProvider implements IConditionBui
         stonecutterResultFromBase(pFinishedRecipeConsumer, ModBlocks.CUT_ORANGE_SANDSTONE.get(), ModBlocks.ORANGE_SANDSTONE.get());
 
         /* Cut Sandstone Slabs */
-        ShapedRecipeBuilder.shaped(ModBlocks.CUT_BROWN_SANDSTONE_SLAB.get(), 6).define('S', ModBlocks.CUT_BROWN_SANDSTONE.get()).pattern("SSS").unlockedBy("has_brown_sandstone",
+        ShapedRecipeBuilder.shaped(ModBlocks.CUT_BROWN_SANDSTONE_SLAB.get(), 24).define('S', ModBlocks.CUT_BROWN_SANDSTONE.get()).pattern("SSS").unlockedBy("has_brown_sandstone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_brown_sandstone_slab_from_cut_brown_sandstone_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.CUT_ORANGE_SANDSTONE_SLAB.get(), 6).define('S', ModBlocks.CUT_ORANGE_SANDSTONE.get()).pattern("SSS").unlockedBy("has_orange_sandstone",
+        ShapedRecipeBuilder.shaped(ModBlocks.CUT_ORANGE_SANDSTONE_SLAB.get(), 24).define('S', ModBlocks.CUT_ORANGE_SANDSTONE.get()).pattern("SSS").unlockedBy("has_orange_sandstone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_orange_sandstone_slab_from_cut_orange_sandstone_shaped");
-
-        ShapedRecipeBuilder.shaped(ModBlocks.CUT_BROWN_SANDSTONE_SLAB.get(), 6).define('S', ModBlocks.BROWN_SANDSTONE.get()).pattern("SSS").unlockedBy("has_brown_sandstone",
+        ShapedRecipeBuilder.shaped(ModBlocks.CUT_RED_SANDSTONE_SLAB.get(), 24).define('S', Blocks.CUT_RED_SANDSTONE).pattern("SSS").unlockedBy("has_red_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_red_sandstone_slab_from_cut_red_sandstone_shaped");
+        ShapedRecipeBuilder.shaped(ModBlocks.CUT_SANDSTONE_SLAB.get(), 24).define('S', Blocks.CUT_SANDSTONE).pattern("SSS").unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_sandstone_slab_from_cut_sandstone_shaped");
+        
+        ShapedRecipeBuilder.shaped(ModBlocks.CUT_BROWN_SANDSTONE_SLAB.get(), 24).define('S', ModBlocks.BROWN_SANDSTONE.get()).pattern("SSS").unlockedBy("has_brown_sandstone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_brown_sandstone_slab_from_brown_sandstone_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.CUT_ORANGE_SANDSTONE_SLAB.get(), 6).define('S', ModBlocks.ORANGE_SANDSTONE.get()).pattern("SSS").unlockedBy("has_orange_sandstone",
+        ShapedRecipeBuilder.shaped(ModBlocks.CUT_ORANGE_SANDSTONE_SLAB.get(), 24).define('S', ModBlocks.ORANGE_SANDSTONE.get()).pattern("SSS").unlockedBy("has_orange_sandstone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_orange_sandstone_slab_from_orange_sandstone_shaped");
+        ShapedRecipeBuilder.shaped(ModBlocks.CUT_BROWN_SANDSTONE_SLAB.get(), 24).define('S', Blocks.RED_SANDSTONE).pattern("SSS").unlockedBy("has_brown_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_red_sandstone_slab_from_red_sandstone_shaped");
+        ShapedRecipeBuilder.shaped(ModBlocks.CUT_SANDSTONE_SLAB.get(), 24).define('S', Blocks.SANDSTONE).pattern("SSS").unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_sandstone_slab_from_sandstone_shaped");
 
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_BROWN_SANDSTONE.get()), ModBlocks.CUT_BROWN_SANDSTONE_SLAB.get(), 2).unlockedBy("has_brown_sandstone",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_BROWN_SANDSTONE.get()), ModBlocks.CUT_BROWN_SANDSTONE_SLAB.get(), 8).unlockedBy("has_brown_sandstone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_brown_sandstone_slab_from_cut_brown_sandstone_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_ORANGE_SANDSTONE.get()), ModBlocks.CUT_ORANGE_SANDSTONE_SLAB.get(), 2).unlockedBy("has_orange_sandstone",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CUT_ORANGE_SANDSTONE.get()), ModBlocks.CUT_ORANGE_SANDSTONE_SLAB.get(), 8).unlockedBy("has_orange_sandstone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_orange_sandstone_slab_from_cut_orange_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_RED_SANDSTONE), ModBlocks.CUT_RED_SANDSTONE_SLAB.get(), 8).unlockedBy("has_red_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_red_sandstone_slab_from_cut_red_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.CUT_SANDSTONE), ModBlocks.CUT_SANDSTONE_SLAB.get(), 8).unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_sandstone_slab_from_cut_sandstone_stonecutting");
 
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BROWN_SANDSTONE.get()), ModBlocks.CUT_BROWN_SANDSTONE_SLAB.get(), 2).unlockedBy("has_brown_sandstone",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BROWN_SANDSTONE.get()), ModBlocks.CUT_BROWN_SANDSTONE_SLAB.get(), 8).unlockedBy("has_brown_sandstone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_brown_sandstone_slab_from_brown_sandstone_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.ORANGE_SANDSTONE.get()), ModBlocks.CUT_ORANGE_SANDSTONE_SLAB.get(), 2).unlockedBy("has_orange_sandstone",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.ORANGE_SANDSTONE.get()), ModBlocks.CUT_ORANGE_SANDSTONE_SLAB.get(), 8).unlockedBy("has_orange_sandstone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_orange_sandstone_slab_from_orange_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.RED_SANDSTONE), ModBlocks.CUT_RED_SANDSTONE_SLAB.get(), 8).unlockedBy("has_red_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_red_sandstone_slab_from_red_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SANDSTONE), ModBlocks.CUT_SANDSTONE_SLAB.get(), 8).unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_sandstone_slab_from_sandstone_stonecutting");
         
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BROWN_SANDSTONE_SLAB_VERTICAL.get()), ModBlocks.CUT_BROWN_SANDSTONE_SLAB.get(), 1).unlockedBy("has_brown_sandstone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "cut_brown_sandstone_slab_from_brown_sandstone_slab_vertical_stonecutting");
@@ -1152,6 +1269,10 @@ public class StoneRecipeProvider extends RecipeProvider implements IConditionBui
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_red_sandstone_slab_from_red_sandstone_slab_vertical_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SANDSTONE_SLAB_VERTICAL.get()), Blocks.CUT_SANDSTONE_SLAB, 1).unlockedBy("has_sandstone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "cut_sandstone_slab_from_sandstone_slab_vertical_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.RED_SANDSTONE_SLAB_VERTICAL.get()), ModBlocks.CUT_RED_SANDSTONE_SLAB.get(), 1).unlockedBy("has_red_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "mod_cut_red_sandstone_slab_from_red_sandstone_slab_vertical_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SANDSTONE_SLAB_VERTICAL.get()), ModBlocks.CUT_SANDSTONE_SLAB.get(), 1).unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "mod_cut_sandstone_slab_from_sandstone_slab_vertical_stonecutting");
 
         /* Cut Sandstone Vertical Slabs */
 //        ShapedRecipeBuilder.shaped(ModBlocks.CUT_BROWN_SANDSTONE_SLAB_VERTICAL.get(), 6).define('S', ModBlocks.CUT_BROWN_SANDSTONE.get()).pattern(" S ").pattern(" S ").pattern(" S ").unlockedBy("has_brown_sandstone",
@@ -1206,15 +1327,23 @@ public class StoneRecipeProvider extends RecipeProvider implements IConditionBui
 
 
         /* Smooth Sandstone Slabs */
-        ShapedRecipeBuilder.shaped(ModBlocks.SMOOTH_BROWN_SANDSTONE_SLAB.get(), 6).define('S', ModBlocks.SMOOTH_BROWN_SANDSTONE.get()).pattern("SSS").unlockedBy("has_brown_sandstone",
+        ShapedRecipeBuilder.shaped(ModBlocks.SMOOTH_BROWN_SANDSTONE_SLAB.get(), 24).define('S', ModBlocks.SMOOTH_BROWN_SANDSTONE.get()).pattern("SSS").unlockedBy("has_brown_sandstone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_brown_sandstone_slab_from_shaped");
-        ShapedRecipeBuilder.shaped(ModBlocks.SMOOTH_ORANGE_SANDSTONE_SLAB.get(), 6).define('S', ModBlocks.SMOOTH_ORANGE_SANDSTONE.get()).pattern("SSS").unlockedBy("has_orange_sandstone",
+        ShapedRecipeBuilder.shaped(ModBlocks.SMOOTH_ORANGE_SANDSTONE_SLAB.get(), 24).define('S', ModBlocks.SMOOTH_ORANGE_SANDSTONE.get()).pattern("SSS").unlockedBy("has_orange_sandstone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_orange_sandstone_slab_from_shaped");
+        ShapedRecipeBuilder.shaped(ModBlocks.SMOOTH_RED_SANDSTONE_SLAB.get(), 24).define('S', Blocks.SMOOTH_RED_SANDSTONE).pattern("SSS").unlockedBy("has_red_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_red_sandstone_slab_from_shaped");
+        ShapedRecipeBuilder.shaped(ModBlocks.SMOOTH_SANDSTONE_SLAB.get(), 24).define('S', Blocks.SMOOTH_SANDSTONE).pattern("SSS").unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_sandstone_slab_from_shaped");
 
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_BROWN_SANDSTONE.get()), ModBlocks.SMOOTH_BROWN_SANDSTONE_SLAB.get(), 2).unlockedBy("has_brown_sandstone",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_BROWN_SANDSTONE.get()), ModBlocks.SMOOTH_BROWN_SANDSTONE_SLAB.get(), 8).unlockedBy("has_brown_sandstone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_brown_sandstone_slab_from_smooth_brown_sandstone_stonecutting");
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_ORANGE_SANDSTONE.get()), ModBlocks.SMOOTH_ORANGE_SANDSTONE_SLAB.get(), 2).unlockedBy("has_orange_sandstone",
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_ORANGE_SANDSTONE.get()), ModBlocks.SMOOTH_ORANGE_SANDSTONE_SLAB.get(), 8).unlockedBy("has_orange_sandstone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.ORANGE_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_orange_sandstone_slab_from_smooth_orange_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_RED_SANDSTONE), ModBlocks.SMOOTH_RED_SANDSTONE_SLAB.get(), 8).unlockedBy("has_red_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.RED_SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_red_sandstone_slab_from_smooth_red_sandstone_stonecutting");
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.SMOOTH_SANDSTONE), ModBlocks.SMOOTH_SANDSTONE_SLAB.get(), 8).unlockedBy("has_sandstone",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SANDSTONE).build())).save(pFinishedRecipeConsumer, "smooth_sandstone_slab_from_smooth_sandstone_stonecutting");
 
 //        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SMOOTH_BROWN_SANDSTONE_SLAB_VERTICAL.get()), ModBlocks.SMOOTH_BROWN_SANDSTONE_SLAB.get(), 2).unlockedBy("has_brown_sandstone",
 //                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BROWN_SANDSTONE.get()).build())).save(pFinishedRecipeConsumer, "smooth_brown_sandstone_slab_from_smooth_brown_sandstone_slab_vertical_stonecutting");

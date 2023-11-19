@@ -80,7 +80,7 @@
 
 0.0.18 (in progress)
 - Current Mod Block Count is at 1,387
-- Added all wood plank variants of Half-Timbered Plaster in Beige, Brown, Ochre, Tan and White)
+- Added all wood plank variants of Half-Timbered Plaster in Beige, Brown, Ochre, Tan and White
 - Added Dirt (Coarse, Dirt, Rooted) Layers (experimental)
 - Added Grass Block Layers (experimental)
 - Added Gravel Layers (experimental)
@@ -100,3 +100,5 @@
 - Added layermode command to change behaviour of all Layered Blocks (calibermod.layermode)
 - Added ptime command to change time of day for the client side only (calibermod.ptime)
 - Added pweather command to change weather for the client side only (calibermod.pweather)
+- Adjusted recipes for new layered versions of blocks
+- Bugfix: fixed Grass Layer texture

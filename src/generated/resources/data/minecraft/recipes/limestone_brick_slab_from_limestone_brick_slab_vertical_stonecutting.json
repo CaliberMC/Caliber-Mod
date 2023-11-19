@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "caliber:limestone_brick_slab_vertical"
   },
-  "result": "minecraft:stone_brick_slab",
-  "count": 2
+  "result": "caliber:limestone_brick_slab",
+  "count": 1
 }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:red_sandstone"
+    }
+  },
+  "result": {
+    "item": "caliber:red_sandstone_slab_vertical",
+    "count": 24
+  }
+}

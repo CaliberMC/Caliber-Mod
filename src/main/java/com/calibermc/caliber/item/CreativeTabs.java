@@ -86,7 +86,7 @@ public class CreativeTabs {
                 }
             }
         };
-        new ModifiedTab("plaster_stucco", () -> new ItemStack(Blocks.WHITE_CONCRETE)) {
+        new ModifiedTab("plaster_stucco", () -> new ItemStack(ModBlocks.BEIGE_PLASTER.get())) {
             @Override
             public void fillItemList(NonNullList<ItemStack> pItems) {
                 ITagManager<Item> tags = ForgeRegistries.ITEMS.tags();

@@ -1,9 +1,10 @@
 {
+  "parent": "caliber:block/layer_block",
   "textures": {
     "side": "minecraft:block/grass_block_side",
     "bottom": "minecraft:block/dirt",
     "top": "minecraft:block/grass_block_top",
-    "particle": "#side",
+    "particle": "#bottom",
     "overlay": "minecraft:block/grass_block_side_overlay"
   },
   "elements": [
@@ -16,15 +17,6 @@
         "south": { "uv": [ 0, 14, 16, 16 ], "texture": "#side", "cullface": "south" },
         "west":  { "uv": [ 0, 14, 16, 16 ], "texture": "#side", "cullface": "west" },
         "east":  { "uv": [ 0, 14, 16, 16 ], "texture": "#side", "cullface": "east" }
-      }
-    },
-    {   "from": [ 0, 0, 0 ],
-      "to": [ 16, 2, 16 ],
-      "faces": {
-        "north": { "uv": [ 0, 14, 16, 16 ], "texture": "#overlay", "tintindex": 0, "cullface": "north" },
-        "south": { "uv": [ 0, 14, 16, 16 ], "texture": "#overlay", "tintindex": 0, "cullface": "south" },
-        "west":  { "uv": [ 0, 14, 16, 16 ], "texture": "#overlay", "tintindex": 0, "cullface": "west" },
-        "east":  { "uv": [ 0, 14, 16, 16 ], "texture": "#overlay", "tintindex": 0, "cullface": "east" }
       }
     }
   ]
