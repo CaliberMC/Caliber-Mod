@@ -22,7 +22,7 @@
       "model": "caliber:block/grass_layer_7"
     },
     "snowy=false,layers=8": {
-      "model": "minecraft:block/grass_block"
+      "model": "caliber:block/grass_layer_block"
     },
     "snowy=true,layers=1": {
       "model": "caliber:block/snowy_grass_layer_1"
