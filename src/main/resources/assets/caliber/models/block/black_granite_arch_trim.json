@@ -1,0 +1,9 @@
+{
+  "parent": "caliber:block/arch_trim",
+  "textures": {
+    "side": "caliber:block/black_granite",
+    "bottom": "caliber:block/black_granite",
+    "top": "caliber:block/black_granite",
+    "particle": "caliber:block/black_granite"
+  }
+}

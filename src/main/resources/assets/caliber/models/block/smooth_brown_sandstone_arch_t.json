@@ -1,9 +1,9 @@
 {
   "parent": "caliber:block/arch_t",
   "textures": {
-    "side": "caliber:block/brown_sandstone_top_64",
-    "bottom": "caliber:block/brown_sandstone_top_64",
-    "top": "caliber:block/brown_sandstone_top_64",
+    "side": "caliber:block/brown_sandstone_top",
+    "bottom": "caliber:block/brown_sandstone_top",
+    "top": "caliber:block/brown_sandstone_top",
     "particle": "caliber:block/brown_sandstone_top"
   }
 }

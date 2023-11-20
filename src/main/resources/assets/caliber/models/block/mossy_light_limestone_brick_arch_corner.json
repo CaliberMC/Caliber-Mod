@@ -1,9 +1,9 @@
 {
   "parent": "caliber:block/arch_corner",
   "textures": {
-    "side": "caliber:block/mossy_light_limestone_bricks_64",
-    "bottom": "caliber:block/mossy_light_limestone_bricks_64",
-    "top": "caliber:block/mossy_light_limestone_bricks_64",
+    "side": "caliber:block/mossy_light_limestone_bricks",
+    "bottom": "caliber:block/mossy_light_limestone_bricks",
+    "top": "caliber:block/mossy_light_limestone_bricks",
     "particle": "caliber:block/mossy_light_limestone_bricks"
   }
 }

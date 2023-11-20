@@ -1,9 +1,9 @@
 {
   "parent": "caliber:block/arch_cross",
   "textures": {
-    "side": "caliber:block/pink_limestone_bricks_64",
-    "bottom": "caliber:block/pink_limestone_bricks_64",
-    "top": "caliber:block/pink_limestone_bricks_64",
+    "side": "caliber:block/pink_limestone_bricks",
+    "bottom": "caliber:block/pink_limestone_bricks",
+    "top": "caliber:block/pink_limestone_bricks",
     "particle": "caliber:block/pink_limestone_bricks"
   }
 }

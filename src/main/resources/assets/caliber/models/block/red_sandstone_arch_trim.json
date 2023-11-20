@@ -1,0 +1,9 @@
+{
+  "parent": "caliber:block/arch_trim",
+  "textures": {
+    "side": "caliber:block/red_sandstone",
+    "bottom": "caliber:block/red_sandstone_bottom",
+    "top": "caliber:block/red_sandstone_top",
+    "particle": "minecraft:block/red_sandstone"
+  }
+}

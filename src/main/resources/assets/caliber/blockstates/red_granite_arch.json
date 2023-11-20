@@ -1,94 +1,105 @@
 {
   "variants": {
-    "facing=north,type=straight": {
+    "facing=north,type=straight,trim=false": {
       "model": "caliber:block/red_granite_arch"
+    },
+    "facing=north,type=straight,trim=true": {
+      "model": "caliber:block/red_granite_arch_trim"
     },
     "facing=north,type=cross": {
       "model": "caliber:block/red_granite_arch_cross"
     },
     "facing=north,type=corner_left": {
-      "model": "caliber:block/red_granite_arch_corner",
-      "y": 0
+      "model": "caliber:block/red_granite_arch_corner"
     },
     "facing=north,type=corner_right": {
       "model": "caliber:block/red_granite_arch_corner",
-      "y": 90
+      "y": 90, "uvlock": true
     },
     "facing=north,type=left_t": {
-      "model": "caliber:block/red_granite_arch_t",
-      "y": 0
+      "model": "caliber:block/red_granite_arch_t"
     },
     "facing=north,type=right_t": {
       "model": "caliber:block/red_granite_arch_t",
-      "y": 180
+      "y": 180, "uvlock": true
     },
-    "facing=east,type=straight": {
+    "facing=east,type=straight,trim=false": {
       "model": "caliber:block/red_granite_arch",
-      "y": 90
+      "y": 90, "uvlock": true
+    },
+    "facing=east,type=straight,trim=true": {
+      "model": "caliber:block/red_granite_arch_trim",
+      "y": 90, "uvlock": true
     },
     "facing=east,type=cross": {
       "model": "caliber:block/red_granite_arch_cross",
-      "y": 90
+      "y": 90, "uvlock": true
     },
     "facing=east,type=corner_left": {
       "model": "caliber:block/red_granite_arch_corner",
-      "y": 90
+      "y": 90, "uvlock": true
     },
     "facing=east,type=corner_right": {
       "model": "caliber:block/red_granite_arch_corner",
-      "y": 180
+      "y": 180, "uvlock": true
     },
     "facing=east,type=left_t": {
       "model": "caliber:block/red_granite_arch_t",
-      "y": 90
+      "y": 90, "uvlock": true
     },
     "facing=east,type=right_t": {
       "model": "caliber:block/red_granite_arch_t",
-      "y": 270
-    },    
-    "facing=south,type=straight": {
+      "y": 270, "uvlock": true
+    },
+    "facing=south,type=straight,trim=false": {
       "model": "caliber:block/red_granite_arch",
-      "y": 180
+      "y": 180, "uvlock": true
+    },
+    "facing=south,type=straight,trim=true": {
+      "model": "caliber:block/red_granite_arch_trim",
+      "y": 180, "uvlock": true
     },
     "facing=south,type=cross": {
       "model": "caliber:block/red_granite_arch_cross",
-      "y": 180
+      "y": 180, "uvlock": true
     },
     "facing=south,type=corner_left": {
       "model": "caliber:block/red_granite_arch_corner",
-      "y": 180
+      "y": 180, "uvlock": true
     },
     "facing=south,type=corner_right": {
       "model": "caliber:block/red_granite_arch_corner",
-      "y": 270
+      "y": 270, "uvlock": true
     },
     "facing=south,type=left_t": {
       "model": "caliber:block/red_granite_arch_t",
-      "y": 180
+      "y": 180, "uvlock": true
     },
     "facing=south,type=right_t": {
-      "model": "caliber:block/red_granite_arch_t",
-      "y": 0
+      "model": "caliber:block/red_granite_arch_t"
     },
-    "facing=west,type=straight": {
+    "facing=west,type=straight,trim=false": {
       "model": "caliber:block/red_granite_arch",
-      "y": 270
+      "y": 270, "uvlock": true
+    },
+    "facing=west,type=straight,trim=true": {
+      "model": "caliber:block/red_granite_arch_trim",
+      "y": 270, "uvlock": true
     },
     "facing=west,type=cross": {
       "model": "caliber:block/red_granite_arch_cross",
-      "y": 270
+      "y": 270, "uvlock": true
     },
     "facing=west,type=corner_left": {
       "model": "caliber:block/red_granite_arch_corner",
-      "y": 270
+      "y": 270, "uvlock": true
     },
     "facing=west,type=corner_right": {
-      "model": "caliber:block/red_granite_arch_corner",
-      "y": 0
+      "model": "caliber:block/red_granite_arch_corner"
     },
     "facing=west,type=left_t": {
       "model": "caliber:block/red_granite_arch_t",
-      "y": 270
+      "y": 270, "uvlock": true
     },
     "facing=west,type=right_t": {
       "model": "caliber:block/red_granite_arch_t",

@@ -1,9 +1,9 @@
 {
   "parent": "caliber:block/arch_cross",
   "textures": {
-    "side": "caliber:block/gray_granite_64",
-    "bottom": "caliber:block/gray_granite_64",
-    "top": "caliber:block/gray_granite_64",
+    "side": "caliber:block/gray_granite",
+    "bottom": "caliber:block/gray_granite",
+    "top": "caliber:block/gray_granite",
     "particle": "caliber:block/gray_granite"
   }
 }

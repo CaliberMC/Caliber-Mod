@@ -1,0 +1,9 @@
+{
+  "parent": "caliber:block/arch_trim",
+  "textures": {
+    "side": "caliber:block/light_limestone",
+    "bottom": "caliber:block/light_limestone",
+    "top": "caliber:block/light_limestone",
+    "particle": "caliber:block/light_limestone"
+  }
+}

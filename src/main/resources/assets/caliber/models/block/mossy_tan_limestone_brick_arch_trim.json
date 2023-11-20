@@ -1,0 +1,9 @@
+{
+  "parent": "caliber:block/arch_trim",
+  "textures": {
+    "side": "caliber:block/mossy_tan_limestone_bricks",
+    "bottom": "caliber:block/mossy_tan_limestone_bricks",
+    "top": "caliber:block/mossy_tan_limestone_bricks",
+    "particle": "caliber:block/mossy_tan_limestone_bricks"
+  }
+}

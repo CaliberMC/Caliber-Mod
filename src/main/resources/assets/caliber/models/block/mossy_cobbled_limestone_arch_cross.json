@@ -1,9 +1,9 @@
 {
   "parent": "caliber:block/arch_cross",
   "textures": {
-    "side": "caliber:block/mossy_cobblestone_64",
-    "bottom": "caliber:block/mossy_cobblestone_64",
-    "top": "caliber:block/mossy_cobblestone_64",
+    "side": "caliber:block/mossy_cobblestone",
+    "bottom": "caliber:block/mossy_cobblestone",
+    "top": "caliber:block/mossy_cobblestone",
     "particle": "minecraft:block/mossy_cobblestone"
   }
 }

@@ -1,9 +1,9 @@
 {
   "parent": "caliber:block/arch_t",
   "textures": {
-    "side": "caliber:block/pink_marble_64",
-    "bottom": "caliber:block/pink_marble_64",
-    "top": "caliber:block/pink_marble_64",
+    "side": "caliber:block/pink_marble",
+    "bottom": "caliber:block/pink_marble",
+    "top": "caliber:block/pink_marble",
     "particle": "caliber:block/pink_marble"
   }
 }

@@ -1,9 +1,9 @@
 {
   "parent": "caliber:block/arch_corner",
   "textures": {
-    "side": "caliber:block/polished_granite_64",
-    "bottom": "caliber:block/polished_granite_64",
-    "top": "caliber:block/polished_granite_64",
+    "side": "caliber:block/polished_granite",
+    "bottom": "caliber:block/polished_granite",
+    "top": "caliber:block/polished_granite",
     "particle": "minecraft:block/polished_granite"
   }
 }

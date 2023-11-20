@@ -1,9 +1,9 @@
 {
   "parent": "caliber:block/arch_t",
   "textures": {
-    "side": "caliber:block/stone_64",
-    "bottom": "caliber:block/stone_64",
-    "top": "caliber:block/stone_64",
+    "side": "caliber:block/stone",
+    "bottom": "caliber:block/stone",
+    "top": "caliber:block/stone",
     "particle": "minecraft:block/stone"
   }
 }

@@ -1,0 +1,9 @@
+{
+  "parent": "caliber:block/arch_trim",
+  "textures": {
+    "side": "caliber:block/granite",
+    "bottom": "caliber:block/granite",
+    "top": "caliber:block/granite",
+    "particle": "minecraft:block/granite"
+  }
+}

@@ -80,6 +80,8 @@
 
 0.0.18 (in progress)
 - Current Mod Block Count is at 1,387
+- Added new trimmed BlockState for Arch Blocks to prevent most texture issues
+- Added all existing stone variants of Large Arches (2m)
 - Added all wood plank variants of Half-Timbered Plaster in Beige, Brown, Ochre, Tan and White
 - Added Dirt (Coarse, Dirt, Rooted) Layers (experimental)
 - Added Grass Block Layers (experimental)

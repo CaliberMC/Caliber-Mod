@@ -1,9 +1,9 @@
 {
   "parent": "caliber:block/arch_corner",
   "textures": {
-    "side": "caliber:block/tan_limestone_bricks_64",
-    "bottom": "caliber:block/tan_limestone_bricks_64",
-    "top": "caliber:block/tan_limestone_bricks_64",
+    "side": "caliber:block/tan_limestone_bricks",
+    "bottom": "caliber:block/tan_limestone_bricks",
+    "top": "caliber:block/tan_limestone_bricks",
     "particle": "caliber:block/tan_limestone_bricks"
   }
 }

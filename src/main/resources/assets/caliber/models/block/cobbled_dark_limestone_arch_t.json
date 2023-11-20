@@ -1,9 +1,9 @@
 {
   "parent": "caliber:block/arch_t",
   "textures": {
-    "side": "caliber:block/cobbled_dark_limestone_64",
-    "bottom": "caliber:block/cobbled_dark_limestone_64",
-    "top": "caliber:block/cobbled_dark_limestone_64",
+    "side": "caliber:block/cobbled_dark_limestone",
+    "bottom": "caliber:block/cobbled_dark_limestone",
+    "top": "caliber:block/cobbled_dark_limestone",
     "particle": "caliber:block/cobbled_dark_limestone"
   }
 }
