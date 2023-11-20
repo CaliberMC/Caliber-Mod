@@ -97,8 +97,11 @@
 - Added Layers to Vertical Slab Blocks
 - Added ptime command to change time of day for the client side only (calibermod.ptime)
 - Added pweather command to change weather for the client side only (calibermod.pweather)
+  all commands perfaced with a "p" are client side only should only be used when playing on a server. Requires LuckPerms for permissions.
 - Adjusted recipes for new layered versions of blocks
 - Bugfix: fixed Grass Layer texture
+- Bugfix: fixed Corner Slab hitboxes
+- Bugfix: fixed pressure plate tags
 
 0.0.19 (in progress)
 - Added 3 Modes for Layered Blocks (Slab, Detail, Combo[default])
@@ -107,3 +110,4 @@
     - Combo Mode: Both slab thickness and layered blocks can be placed when placing layered blocks.  Use the keybind (h) to place layered blocks.
 - Added keybind (m) to enable Conquest like BlockState behaviour for Corner Blocks, Quarter Blocks, Vertical Quarter Blocks, Slab Blocks, Slab Blocks with the LAYERS property, otherwise they will function like the original slab thickness blocks.
 - Added layermode command to change behaviour of all Layered Blocks (calibermod.layermode)
+- Removed unused texture files
