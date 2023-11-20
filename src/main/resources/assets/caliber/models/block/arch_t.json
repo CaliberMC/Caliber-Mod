@@ -2,7 +2,7 @@
 	"credit": "Made by Charm8er for CaliberMC",
 	"ambientocclusion": false,
 	"textures": {
-		"particle": "side"
+		"particle": "#side"
 	},
 	"elements": [
 		{

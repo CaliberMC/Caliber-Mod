@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "caliber:block/cobbled_light_limestone_arch_half"
+    },
+    "facing=east": {
+      "model": "caliber:block/cobbled_light_limestone_arch_half",
+      "y": 90, "uvlock": true
+    },
+    "facing=south": {
+      "model": "caliber:block/cobbled_light_limestone_arch_half",
+      "y": 180, "uvlock": true
+    },
+    "facing=west": {
+      "model": "caliber:block/cobbled_light_limestone_arch_half",
+      "y": 270, "uvlock": true
+    }
+  }
+}

@@ -11,6 +11,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.SimpleWaterloggedBlock;
@@ -37,8 +38,6 @@ public class HalfArchBlock extends Block implements SimpleWaterloggedBlock {
 
     public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
-    public static final EnumProperty<HalfArchShape> TYPE = ModBlockStateProperties.HALF_ARCH_SHAPE;
-
 
     public static final Map<Direction, VoxelShape> SHAPE = Maps.newEnumMap(ImmutableMap.of(
             NORTH, Block.box(0, 8, 8, 16, 16, 16),
@@ -46,13 +45,10 @@ public class HalfArchBlock extends Block implements SimpleWaterloggedBlock {
             EAST, Block.box(0, 8, 0, 8, 16, 16),
             WEST, Block.box(8, 8, 0, 16, 16, 16)));
 
-    public static final VoxelShape DOUBLE = Block.box(0, 0, 0, 16, 16, 16);
-
     public HalfArchBlock(Properties properties) {
         super(properties);
         this.registerDefaultState(this.stateDefinition.any()
                 .setValue(FACING, NORTH)
-                .setValue(TYPE, HalfArchShape.SINGLE)
                 .setValue(WATERLOGGED, Boolean.FALSE));
     }
 
@@ -63,39 +59,35 @@ public class HalfArchBlock extends Block implements SimpleWaterloggedBlock {
 
     @Override
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> pBuilder) {
-        pBuilder.add(FACING, TYPE, WATERLOGGED);
+        pBuilder.add(FACING, WATERLOGGED);
     }
 
     @Override
     public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
-        HalfArchShape halfArchShape = pState.getValue(TYPE);
-        return switch (halfArchShape) {
-            case DOUBLE -> DOUBLE;
-            default -> SHAPE.get(pState.getValue(FACING));
-        };
+        return SHAPE.get(pState.getValue(FACING));
     }
+
+
 
     @Override
     @Nullable
     public BlockState getStateForPlacement(BlockPlaceContext pContext) {
+        BlockState blockstate = this.defaultBlockState();
+        FluidState fluidstate = pContext.getLevel().getFluidState(pContext.getClickedPos());
+        LevelReader levelreader = pContext.getLevel();
         BlockPos blockpos = pContext.getClickedPos();
-        BlockState blockstate = pContext.getLevel().getBlockState(blockpos);
-        if (blockstate.is(this)) {
-            return blockstate.setValue(TYPE, HalfArchShape.DOUBLE).setValue(WATERLOGGED, Boolean.FALSE);
-        } else {
-            FluidState fluidstate = pContext.getLevel().getFluidState(blockpos);
-            BlockState blockstate1 = this.defaultBlockState().setValue(FACING, pContext.getHorizontalDirection().getOpposite())
-                    .setValue(TYPE, HalfArchShape.SINGLE).setValue(WATERLOGGED, fluidstate.getType() == Fluids.WATER);
-            Direction direction = pContext.getClickedFace();
-            return blockstate1.setValue(FACING, direction).setValue(TYPE, HalfArchShape.SINGLE);
-        }
-    }
+        Direction[] adirection = pContext.getNearestLookingDirections();
 
-    @Override
-    public boolean canBeReplaced(BlockState pState, BlockPlaceContext pUseContext) {
-        ItemStack itemstack = pUseContext.getItemInHand();
-        HalfArchShape halfArchShape = pState.getValue(TYPE);
-        return halfArchShape != HalfArchShape.DOUBLE && itemstack.is(this.asItem());
+        for(Direction direction : adirection) {
+            if (direction.getAxis().isHorizontal()) {
+                Direction direction1 = direction.getOpposite();
+                blockstate = blockstate.setValue(FACING, direction1);
+                if (blockstate.canSurvive(levelreader, blockpos)) {
+                    return blockstate.setValue(WATERLOGGED, Boolean.valueOf(fluidstate.getType() == Fluids.WATER));
+                }
+            }
+        }
+        return null;
     }
 
     @Override

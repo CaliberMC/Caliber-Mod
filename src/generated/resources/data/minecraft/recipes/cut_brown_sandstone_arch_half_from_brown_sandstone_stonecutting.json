@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "caliber:brown_sandstone"
+  },
+  "result": "caliber:cut_brown_sandstone_arch_half",
+  "count": 2
+}

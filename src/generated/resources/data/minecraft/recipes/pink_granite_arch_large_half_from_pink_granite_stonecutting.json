@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "caliber:pink_granite"
+  },
+  "result": "caliber:pink_granite_arch_large_half",
+  "count": 2
+}
