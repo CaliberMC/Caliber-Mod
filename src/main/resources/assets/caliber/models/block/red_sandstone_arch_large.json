@@ -1,0 +1,9 @@
+{
+  "parent": "caliber:block/arch_large",
+  "textures": {
+    "side": "minecraft:block/red_sandstone",
+    "bottom": "minecraft:block/red_sandstone_bottom",
+    "top": "minecraft:block/red_sandstone_top",
+    "particle": "minecraft:block/red_sandstone"
+  }
+}

@@ -1,9 +1,9 @@
 {
   "parent": "caliber:block/arch_cross",
   "textures": {
-    "side": "caliber:block/red_sandstone",
-    "bottom": "caliber:block/red_sandstone_bottom",
-    "top": "caliber:block/red_sandstone_top",
+    "side": "minecraft:block/red_sandstone",
+    "bottom": "minecraft:block/red_sandstone_bottom",
+    "top": "minecraft:block/red_sandstone_top",
     "particle": "minecraft:block/red_sandstone"
   }
 }

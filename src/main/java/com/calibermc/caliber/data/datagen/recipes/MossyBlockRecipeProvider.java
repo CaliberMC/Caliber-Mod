@@ -61,6 +61,28 @@ public class MossyBlockRecipeProvider extends RecipeProvider implements IConditi
         ShapelessRecipeBuilder.shapeless(ModBlocks.MOSSY_TAN_LIMESTONE_BRICK_ARCH.get(), 1).requires(ModBlocks.TAN_LIMESTONE_BRICK_ARCH.get()).requires(Items.MOSS_BLOCK).unlockedBy("has_tan_limestone_brick_arch",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE_BRICK_ARCH.get()).build())).save(pFinishedRecipeConsumer, "mossy_tan_limestone_brick_arch_from_tan_limestone_brick_arch_and_moss");
 
+        /* Large Mossy Limestone Brick Arches */
+        ShapelessRecipeBuilder.shapeless(ModBlocks.MOSSY_DARK_LIMESTONE_BRICK_ARCH_LARGE.get(), 1).requires(ModBlocks.DARK_LIMESTONE_BRICK_ARCH_LARGE.get()).requires(Items.VINE).unlockedBy("has_dark_limestone_brick_arch_large",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.DARK_LIMESTONE_BRICK_ARCH_LARGE.get()).build())).save(pFinishedRecipeConsumer, "mossy_dark_limestone_brick_arch_large_from_dark_limestone_brick_arch_large_and_vines");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.MOSSY_DARK_LIMESTONE_BRICK_ARCH_LARGE.get(), 1).requires(ModBlocks.DARK_LIMESTONE_BRICK_ARCH_LARGE.get()).requires(Items.MOSS_BLOCK).unlockedBy("has_dark_limestone_brick_arch_large",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.DARK_LIMESTONE_BRICK_ARCH_LARGE.get()).build())).save(pFinishedRecipeConsumer, "mossy_dark_limestone_brick_arch_large_from_dark_limestone_brick_arch_large_and_moss");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.MOSSY_LIGHT_LIMESTONE_BRICK_ARCH_LARGE.get(), 1).requires(ModBlocks.LIGHT_LIMESTONE_BRICK_ARCH_LARGE.get()).requires(Items.VINE).unlockedBy("has_light_limestone_brick_arch_large",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.LIGHT_LIMESTONE_BRICK_ARCH_LARGE.get()).build())).save(pFinishedRecipeConsumer, "mossy_light_limestone_brick_arch_large_from_light_limestone_brick_arch_large_and_vines");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.MOSSY_LIGHT_LIMESTONE_BRICK_ARCH_LARGE.get(), 1).requires(ModBlocks.LIGHT_LIMESTONE_BRICK_ARCH_LARGE.get()).requires(Items.MOSS_BLOCK).unlockedBy("has_light_limestone_brick_arch_large",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.LIGHT_LIMESTONE_BRICK_ARCH_LARGE.get()).build())).save(pFinishedRecipeConsumer, "mossy_light_limestone_brick_arch_large_from_light_limestone_brick_arch_large_and_moss");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.MOSSY_LIMESTONE_BRICK_ARCH_LARGE.get(), 1).requires(ModBlocks.LIGHT_LIMESTONE_BRICK_ARCH_LARGE.get()).requires(Items.VINE).unlockedBy("has_limestone_brick_arch_large",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.LIGHT_LIMESTONE_BRICK_ARCH_LARGE.get()).build())).save(pFinishedRecipeConsumer, "mossy_limestone_brick_arch_large_from_limestone_brick_arch_large_and_vines");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.MOSSY_LIMESTONE_BRICK_ARCH_LARGE.get(), 1).requires(ModBlocks.LIGHT_LIMESTONE_BRICK_ARCH_LARGE.get()).requires(Items.MOSS_BLOCK).unlockedBy("has_limestone_brick_arch_large",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.LIGHT_LIMESTONE_BRICK_ARCH_LARGE.get()).build())).save(pFinishedRecipeConsumer, "mossy_limestone_brick_arch_large_from_limestone_brick_arch_large_and_moss");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.MOSSY_PINK_LIMESTONE_BRICK_ARCH_LARGE.get(), 1).requires(ModBlocks.PINK_LIMESTONE_BRICK_ARCH_LARGE.get()).requires(Items.VINE).unlockedBy("has_pink_limestone_brick_arch_large",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_LIMESTONE_BRICK_ARCH_LARGE.get()).build())).save(pFinishedRecipeConsumer, "mossy_pink_limestone_brick_arch_large_from_pink_limestone_brick_arch_large_and_vines");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.MOSSY_PINK_LIMESTONE_BRICK_ARCH_LARGE.get(), 1).requires(ModBlocks.PINK_LIMESTONE_BRICK_ARCH_LARGE.get()).requires(Items.MOSS_BLOCK).unlockedBy("has_pink_limestone_brick_arch_large",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_LIMESTONE_BRICK_ARCH_LARGE.get()).build())).save(pFinishedRecipeConsumer, "mossy_pink_limestone_brick_arch_large_from_pink_limestone_brick_arch_large_and_moss");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.MOSSY_TAN_LIMESTONE_BRICK_ARCH_LARGE.get(), 1).requires(ModBlocks.TAN_LIMESTONE_BRICK_ARCH_LARGE.get()).requires(Items.VINE).unlockedBy("has_tan_limestone_brick_arch_large",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE_BRICK_ARCH_LARGE.get()).build())).save(pFinishedRecipeConsumer, "mossy_tan_limestone_brick_arch_large_from_tan_limestone_brick_arch_large_and_vines");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.MOSSY_TAN_LIMESTONE_BRICK_ARCH_LARGE.get(), 1).requires(ModBlocks.TAN_LIMESTONE_BRICK_ARCH_LARGE.get()).requires(Items.MOSS_BLOCK).unlockedBy("has_tan_limestone_brick_arch_large",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE_BRICK_ARCH_LARGE.get()).build())).save(pFinishedRecipeConsumer, "mossy_tan_limestone_brick_arch_large_from_tan_limestone_brick_arch_large_and_moss");
+
         /* Mossy Limestone Brick Arrowslits */
         ShapelessRecipeBuilder.shapeless(ModBlocks.MOSSY_DARK_LIMESTONE_BRICK_ARROWSLIT.get(), 1).requires(ModBlocks.DARK_LIMESTONE_BRICK_ARROWSLIT.get()).requires(Items.VINE).unlockedBy("has_dark_limestone_brick_arrowslit",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.DARK_LIMESTONE_BRICK_ARROWSLIT.get()).build())).save(pFinishedRecipeConsumer, "mossy_dark_limestone_brick_arrowslit_from_dark_limestone_brick_arrowslit_and_vines");
@@ -398,6 +420,28 @@ public class MossyBlockRecipeProvider extends RecipeProvider implements IConditi
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE_ARCH.get()).build())).save(pFinishedRecipeConsumer, "mossy_cobbled_tan_limestone_arch_from_tan_limestone_arch_and_vines");
         ShapelessRecipeBuilder.shapeless(ModBlocks.MOSSY_COBBLED_TAN_LIMESTONE_ARCH.get(), 1).requires(ModBlocks.TAN_LIMESTONE_ARCH.get()).requires(Items.MOSS_BLOCK).unlockedBy("has_tan_limestone_arch",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE_ARCH.get()).build())).save(pFinishedRecipeConsumer, "mossy_cobbled_tan_limestone_arch_from_tan_limestone_arch_and_moss");
+
+        /* Large Mossy Cobbled Limestone Brick Arches */
+        ShapelessRecipeBuilder.shapeless(ModBlocks.MOSSY_COBBLED_DARK_LIMESTONE_ARCH_LARGE.get(), 1).requires(ModBlocks.DARK_LIMESTONE_ARCH_LARGE.get()).requires(Items.VINE).unlockedBy("has_dark_limestone_arch_large",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.DARK_LIMESTONE_ARCH_LARGE.get()).build())).save(pFinishedRecipeConsumer, "mossy_cobbled_dark_limestone_arch_large_from_dark_limestone_arch_large_and_vines");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.MOSSY_COBBLED_DARK_LIMESTONE_ARCH_LARGE.get(), 1).requires(ModBlocks.DARK_LIMESTONE_ARCH_LARGE.get()).requires(Items.MOSS_BLOCK).unlockedBy("has_dark_limestone_arch_large",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.DARK_LIMESTONE_ARCH_LARGE.get()).build())).save(pFinishedRecipeConsumer, "mossy_cobbled_dark_limestone_arch_large_from_dark_limestone_arch_large_and_moss");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.MOSSY_COBBLED_LIGHT_LIMESTONE_ARCH_LARGE.get(), 1).requires(ModBlocks.LIGHT_LIMESTONE_ARCH_LARGE.get()).requires(Items.VINE).unlockedBy("has_light_limestone_arch_large",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.LIGHT_LIMESTONE_ARCH_LARGE.get()).build())).save(pFinishedRecipeConsumer, "mossy_cobbled_light_limestone_arch_large_from_light_limestone_arch_large_and_vines");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.MOSSY_COBBLED_LIGHT_LIMESTONE_ARCH_LARGE.get(), 1).requires(ModBlocks.LIGHT_LIMESTONE_ARCH_LARGE.get()).requires(Items.MOSS_BLOCK).unlockedBy("has_light_limestone_arch_large",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.LIGHT_LIMESTONE_ARCH_LARGE.get()).build())).save(pFinishedRecipeConsumer, "mossy_cobbled_light_limestone_arch_large_from_light_limestone_arch_large_and_moss");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.MOSSY_COBBLED_LIMESTONE_ARCH_LARGE.get(), 1).requires(ModBlocks.LIGHT_LIMESTONE_ARCH_LARGE.get()).requires(Items.VINE).unlockedBy("has_limestone_arch_large",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.LIGHT_LIMESTONE_ARCH_LARGE.get()).build())).save(pFinishedRecipeConsumer, "mossy_cobbled_limestone_arch_large_from_limestone_arch_large_and_vines");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.MOSSY_COBBLED_LIMESTONE_ARCH_LARGE.get(), 1).requires(ModBlocks.LIGHT_LIMESTONE_ARCH_LARGE.get()).requires(Items.MOSS_BLOCK).unlockedBy("has_limestone_arch_large",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.LIGHT_LIMESTONE_ARCH_LARGE.get()).build())).save(pFinishedRecipeConsumer, "mossy_cobbled_limestone_arch_large_from_limestone_arch_large_and_moss");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.MOSSY_COBBLED_PINK_LIMESTONE_ARCH_LARGE.get(), 1).requires(ModBlocks.PINK_LIMESTONE_ARCH_LARGE.get()).requires(Items.VINE).unlockedBy("has_pink_limestone_arch_large",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_LIMESTONE_ARCH_LARGE.get()).build())).save(pFinishedRecipeConsumer, "mossy_cobbled_pink_limestone_arch_large_from_pink_limestone_arch_large_and_vines");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.MOSSY_COBBLED_PINK_LIMESTONE_ARCH_LARGE.get(), 1).requires(ModBlocks.PINK_LIMESTONE_ARCH_LARGE.get()).requires(Items.MOSS_BLOCK).unlockedBy("has_pink_limestone_arch_large",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.PINK_LIMESTONE_ARCH_LARGE.get()).build())).save(pFinishedRecipeConsumer, "mossy_cobbled_pink_limestone_arch_large_from_pink_limestone_arch_large_and_moss");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.MOSSY_COBBLED_TAN_LIMESTONE_ARCH_LARGE.get(), 1).requires(ModBlocks.TAN_LIMESTONE_ARCH_LARGE.get()).requires(Items.VINE).unlockedBy("has_tan_limestone_arch_large",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE_ARCH_LARGE.get()).build())).save(pFinishedRecipeConsumer, "mossy_cobbled_tan_limestone_arch_large_from_tan_limestone_arch_large_and_vines");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.MOSSY_COBBLED_TAN_LIMESTONE_ARCH_LARGE.get(), 1).requires(ModBlocks.TAN_LIMESTONE_ARCH_LARGE.get()).requires(Items.MOSS_BLOCK).unlockedBy("has_tan_limestone_arch_large",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE_ARCH_LARGE.get()).build())).save(pFinishedRecipeConsumer, "mossy_cobbled_tan_limestone_arch_large_from_tan_limestone_arch_large_and_moss");
 
         /* Mossy_Cobbled Limestone Brick Arrowslits */
         ShapelessRecipeBuilder.shapeless(ModBlocks.MOSSY_COBBLED_DARK_LIMESTONE_ARROWSLIT.get(), 1).requires(ModBlocks.DARK_LIMESTONE_ARROWSLIT.get()).requires(Items.VINE).unlockedBy("has_dark_limestone_arrowslit",

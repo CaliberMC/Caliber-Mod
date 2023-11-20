@@ -1,0 +1,9 @@
+{
+  "parent": "caliber:block/arch_large",
+  "textures": {
+    "side": "caliber:block/polished_black_granite",
+    "bottom": "caliber:block/polished_black_granite",
+    "top": "caliber:block/polished_black_granite",
+    "particle": "caliber:block/polished_black_granite"
+  }
+}

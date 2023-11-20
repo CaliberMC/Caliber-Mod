@@ -80,30 +80,30 @@ public class ModBlocks {
 //            () -> new ArchHalfBlock(BlockProps.GRANITE.get()));
 //    public static final RegistryObject<Block> WHITE_GRANITE_ARCH_HALF = registerBlock("white_granite_arch_half",
 //            () -> new ArchHalfBlock(BlockProps.GRANITE.get()));
-//    public static final RegistryObject<Block> BLACK_GRANITE_ARCH_LARGE = registerBlock("black_granite_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.GRANITE.get()));
-//    public static final RegistryObject<Block> BROWN_GRANITE_ARCH_LARGE = registerBlock("brown_granite_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.GRANITE.get()));
-//    public static final RegistryObject<Block> GRAY_GRANITE_ARCH_LARGE = registerBlock("gray_granite_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.GRANITE.get()));
-//    public static final RegistryObject<Block> PINK_GRANITE_ARCH_LARGE = registerBlock("pink_granite_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.GRANITE.get()));
-//    public static final RegistryObject<Block> RED_GRANITE_ARCH_LARGE = registerBlock("red_granite_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.GRANITE.get()));
-//    public static final RegistryObject<Block> WHITE_GRANITE_ARCH_LARGE = registerBlock("white_granite_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.GRANITE.get()));
+    public static final RegistryObject<Block> BLACK_GRANITE_ARCH_LARGE = registerBlock("black_granite_arch_large",
+            () -> new LargeArchBlock(BlockProps.GRANITE.get()));
+    public static final RegistryObject<Block> BROWN_GRANITE_ARCH_LARGE = registerBlock("brown_granite_arch_large",
+            () -> new LargeArchBlock(BlockProps.GRANITE.get()));
+    public static final RegistryObject<Block> GRAY_GRANITE_ARCH_LARGE = registerBlock("gray_granite_arch_large",
+            () -> new LargeArchBlock(BlockProps.GRANITE.get()));
+    public static final RegistryObject<Block> PINK_GRANITE_ARCH_LARGE = registerBlock("pink_granite_arch_large",
+            () -> new LargeArchBlock(BlockProps.GRANITE.get()));
+    public static final RegistryObject<Block> RED_GRANITE_ARCH_LARGE = registerBlock("red_granite_arch_large",
+            () -> new LargeArchBlock(BlockProps.GRANITE.get()));
+    public static final RegistryObject<Block> WHITE_GRANITE_ARCH_LARGE = registerBlock("white_granite_arch_large",
+            () -> new LargeArchBlock(BlockProps.GRANITE.get()));
 //    public static final RegistryObject<Block> BLACK_GRANITE_ARCH_LARGE_HALF = registerBlock("black_granite_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.GRANITE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.GRANITE.get()));
 //    public static final RegistryObject<Block> BROWN_GRANITE_ARCH_LARGE_HALF = registerBlock("brown_granite_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.GRANITE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.GRANITE.get()));
 //    public static final RegistryObject<Block> GRAY_GRANITE_ARCH_LARGE_HALF = registerBlock("gray_granite_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.GRANITE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.GRANITE.get()));
 //    public static final RegistryObject<Block> PINK_GRANITE_ARCH_LARGE_HALF = registerBlock("pink_granite_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.GRANITE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.GRANITE.get()));
 //    public static final RegistryObject<Block> RED_GRANITE_ARCH_LARGE_HALF = registerBlock("red_granite_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.GRANITE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.GRANITE.get()));
 //    public static final RegistryObject<Block> WHITE_GRANITE_ARCH_LARGE_HALF = registerBlock("white_granite_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.GRANITE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> BLACK_GRANITE_ARROWSLIT = registerBlock("black_granite_arrowslit",
             () -> new ArrowSlitBlock(BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> BROWN_GRANITE_ARROWSLIT = registerBlock("brown_granite_arrowslit",
@@ -316,30 +316,30 @@ public class ModBlocks {
 //            () -> new ArchHalfBlock(BlockProps.GRANITE.get()));
 //    public static final RegistryObject<Block> POLISHED_WHITE_GRANITE_ARCH_HALF = registerBlock("polished_white_granite_arch_half",
 //            () -> new ArchHalfBlock(BlockProps.GRANITE.get()));
-//    public static final RegistryObject<Block> POLISHED_BLACK_GRANITE_ARCH_LARGE = registerBlock("polished_black_granite_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.GRANITE.get()));
-//    public static final RegistryObject<Block> POLISHED_BROWN_GRANITE_ARCH_LARGE = registerBlock("polished_brown_granite_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.GRANITE.get()));
-//    public static final RegistryObject<Block> POLISHED_GRAY_GRANITE_ARCH_LARGE = registerBlock("polished_gray_granite_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.GRANITE.get()));
-//    public static final RegistryObject<Block> POLISHED_PINK_GRANITE_ARCH_LARGE = registerBlock("polished_pink_granite_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.GRANITE.get()));
-//    public static final RegistryObject<Block> POLISHED_RED_GRANITE_ARCH_LARGE = registerBlock("polished_red_granite_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.GRANITE.get()));
-//    public static final RegistryObject<Block> POLISHED_WHITE_GRANITE_ARCH_LARGE = registerBlock("polished_white_granite_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.GRANITE.get()));
+    public static final RegistryObject<Block> POLISHED_BLACK_GRANITE_ARCH_LARGE = registerBlock("polished_black_granite_arch_large",
+            () -> new LargeArchBlock(BlockProps.GRANITE.get()));
+    public static final RegistryObject<Block> POLISHED_BROWN_GRANITE_ARCH_LARGE = registerBlock("polished_brown_granite_arch_large",
+            () -> new LargeArchBlock(BlockProps.GRANITE.get()));
+    public static final RegistryObject<Block> POLISHED_GRAY_GRANITE_ARCH_LARGE = registerBlock("polished_gray_granite_arch_large",
+            () -> new LargeArchBlock(BlockProps.GRANITE.get()));
+    public static final RegistryObject<Block> POLISHED_PINK_GRANITE_ARCH_LARGE = registerBlock("polished_pink_granite_arch_large",
+            () -> new LargeArchBlock(BlockProps.GRANITE.get()));
+    public static final RegistryObject<Block> POLISHED_RED_GRANITE_ARCH_LARGE = registerBlock("polished_red_granite_arch_large",
+            () -> new LargeArchBlock(BlockProps.GRANITE.get()));
+    public static final RegistryObject<Block> POLISHED_WHITE_GRANITE_ARCH_LARGE = registerBlock("polished_white_granite_arch_large",
+            () -> new LargeArchBlock(BlockProps.GRANITE.get()));
 //    public static final RegistryObject<Block> POLISHED_BLACK_GRANITE_ARCH_LARGE_HALF = registerBlock("polished_black_granite_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.GRANITE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.GRANITE.get()));
 //    public static final RegistryObject<Block> POLISHED_BROWN_GRANITE_ARCH_LARGE_HALF = registerBlock("polished_brown_granite_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.GRANITE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.GRANITE.get()));
 //    public static final RegistryObject<Block> POLISHED_GRAY_GRANITE_ARCH_LARGE_HALF = registerBlock("polished_gray_granite_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.GRANITE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.GRANITE.get()));
 //    public static final RegistryObject<Block> POLISHED_PINK_GRANITE_ARCH_LARGE_HALF = registerBlock("polished_pink_granite_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.GRANITE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.GRANITE.get()));
 //    public static final RegistryObject<Block> POLISHED_RED_GRANITE_ARCH_LARGE_HALF = registerBlock("polished_red_granite_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.GRANITE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.GRANITE.get()));
 //    public static final RegistryObject<Block> POLISHED_WHITE_GRANITE_ARCH_LARGE_HALF = registerBlock("polished_white_granite_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.GRANITE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> POLISHED_BLACK_GRANITE_ARROWSLIT = registerBlock("polished_black_granite_arrowslit",
             () -> new ArrowSlitBlock(BlockProps.GRANITE.get()));
     public static final RegistryObject<Block> POLISHED_BROWN_GRANITE_ARROWSLIT = registerBlock("polished_brown_granite_arrowslit",
@@ -549,26 +549,26 @@ public class ModBlocks {
 //            () -> new ArchHalfBlock(BlockProps.LIMESTONE.get()));
 //    public static final RegistryObject<Block> TAN_LIMESTONE_ARCH_HALF = registerBlock("tan_limestone_arch_half",
 //            () -> new ArchHalfBlock(BlockProps.LIMESTONE.get()));
-//    public static final RegistryObject<Block> DARK_LIMESTONE_ARCH_LARGE = registerBlock("dark_limestone_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.LIMESTONE.get()));
-//    public static final RegistryObject<Block> LIGHT_LIMESTONE_ARCH_LARGE = registerBlock("light_limestone_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.LIMESTONE.get()));
-//    public static final RegistryObject<Block> LIMESTONE_ARCH_LARGE = registerBlock("limestone_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.LIMESTONE.get()));
-//    public static final RegistryObject<Block> PINK_LIMESTONE_ARCH_LARGE = registerBlock("pink_limestone_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.LIMESTONE.get()));
-//    public static final RegistryObject<Block> TAN_LIMESTONE_ARCH_LARGE = registerBlock("tan_limestone_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.LIMESTONE.get()));
+    public static final RegistryObject<Block> DARK_LIMESTONE_ARCH_LARGE = registerBlock("dark_limestone_arch_large",
+            () -> new LargeArchBlock(BlockProps.LIMESTONE.get()));
+    public static final RegistryObject<Block> LIGHT_LIMESTONE_ARCH_LARGE = registerBlock("light_limestone_arch_large",
+            () -> new LargeArchBlock(BlockProps.LIMESTONE.get()));
+    public static final RegistryObject<Block> LIMESTONE_ARCH_LARGE = registerBlock("limestone_arch_large",
+            () -> new LargeArchBlock(BlockProps.LIMESTONE.get()));
+    public static final RegistryObject<Block> PINK_LIMESTONE_ARCH_LARGE = registerBlock("pink_limestone_arch_large",
+            () -> new LargeArchBlock(BlockProps.LIMESTONE.get()));
+    public static final RegistryObject<Block> TAN_LIMESTONE_ARCH_LARGE = registerBlock("tan_limestone_arch_large",
+            () -> new LargeArchBlock(BlockProps.LIMESTONE.get()));
 //    public static final RegistryObject<Block> DARK_LIMESTONE_ARCH_LARGE_HALF = registerBlock("dark_limestone_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.LIMESTONE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.LIMESTONE.get()));
 //    public static final RegistryObject<Block> LIGHT_LIMESTONE_ARCH_LARGE_HALF = registerBlock("light_limestone_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.LIMESTONE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.LIMESTONE.get()));
 //    public static final RegistryObject<Block> LIMESTONE_ARCH_LARGE_HALF = registerBlock("limestone_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.LIMESTONE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.LIMESTONE.get()));
 //    public static final RegistryObject<Block> PINK_LIMESTONE_ARCH_LARGE_HALF = registerBlock("pink_limestone_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.LIMESTONE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.LIMESTONE.get()));
 //    public static final RegistryObject<Block> TAN_LIMESTONE_ARCH_LARGE_HALF = registerBlock("tan_limestone_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.LIMESTONE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.LIMESTONE.get()));
     public static final RegistryObject<Block> DARK_LIMESTONE_ARROWSLIT = registerBlock("dark_limestone_arrowslit",
             () -> new ArrowSlitBlock(BlockProps.LIMESTONE.get()));
     public static final RegistryObject<Block> LIGHT_LIMESTONE_ARROWSLIT = registerBlock("light_limestone_arrowslit",
@@ -764,26 +764,26 @@ public class ModBlocks {
 //            () -> new ArchHalfBlock(BlockProps.COBBLESTONE.get()));
 //    public static final RegistryObject<Block> COBBLED_TAN_LIMESTONE_ARCH_HALF = registerBlock("cobbled_tan_limestone_arch_half",
 //            () -> new ArchHalfBlock(BlockProps.COBBLESTONE.get()));
-//    public static final RegistryObject<Block> COBBLED_DARK_LIMESTONE_ARCH_LARGE = registerBlock("cobbled_dark_limestone_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.COBBLESTONE.get()));
-//    public static final RegistryObject<Block> COBBLED_LIGHT_LIMESTONE_ARCH_LARGE = registerBlock("cobbled_light_limestone_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.COBBLESTONE.get()));
-//    public static final RegistryObject<Block> COBBLED_LIMESTONE_ARCH_LARGE = registerBlock("cobbled_limestone_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.COBBLESTONE.get()));
-//    public static final RegistryObject<Block> COBBLED_PINK_LIMESTONE_ARCH_LARGE = registerBlock("cobbled_pink_limestone_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.COBBLESTONE.get()));
-//    public static final RegistryObject<Block> COBBLED_TAN_LIMESTONE_ARCH_LARGE = registerBlock("cobbled_tan_limestone_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.COBBLESTONE.get()));
+    public static final RegistryObject<Block> COBBLED_DARK_LIMESTONE_ARCH_LARGE = registerBlock("cobbled_dark_limestone_arch_large",
+            () -> new LargeArchBlock(BlockProps.COBBLESTONE.get()));
+    public static final RegistryObject<Block> COBBLED_LIGHT_LIMESTONE_ARCH_LARGE = registerBlock("cobbled_light_limestone_arch_large",
+            () -> new LargeArchBlock(BlockProps.COBBLESTONE.get()));
+    public static final RegistryObject<Block> COBBLED_LIMESTONE_ARCH_LARGE = registerBlock("cobbled_limestone_arch_large",
+            () -> new LargeArchBlock(BlockProps.COBBLESTONE.get()));
+    public static final RegistryObject<Block> COBBLED_PINK_LIMESTONE_ARCH_LARGE = registerBlock("cobbled_pink_limestone_arch_large",
+            () -> new LargeArchBlock(BlockProps.COBBLESTONE.get()));
+    public static final RegistryObject<Block> COBBLED_TAN_LIMESTONE_ARCH_LARGE = registerBlock("cobbled_tan_limestone_arch_large",
+            () -> new LargeArchBlock(BlockProps.COBBLESTONE.get()));
 //    public static final RegistryObject<Block> COBBLED_DARK_LIMESTONE_ARCH_LARGE_HALF = registerBlock("cobbled_dark_limestone_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.COBBLESTONE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.COBBLESTONE.get()));
 //    public static final RegistryObject<Block> COBBLED_LIGHT_LIMESTONE_ARCH_LARGE_HALF = registerBlock("cobbled_light_limestone_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.COBBLESTONE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.COBBLESTONE.get()));
 //    public static final RegistryObject<Block> COBBLED_LIMESTONE_ARCH_LARGE_HALF = registerBlock("cobbled_limestone_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.COBBLESTONE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.COBBLESTONE.get()));
 //    public static final RegistryObject<Block> COBBLED_PINK_LIMESTONE_ARCH_LARGE_HALF = registerBlock("cobbled_pink_limestone_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.COBBLESTONE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.COBBLESTONE.get()));
 //    public static final RegistryObject<Block> COBBLED_TAN_LIMESTONE_ARCH_LARGE_HALF = registerBlock("cobbled_tan_limestone_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.COBBLESTONE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.COBBLESTONE.get()));
     public static final RegistryObject<Block> COBBLED_DARK_LIMESTONE_ARROWSLIT = registerBlock("cobbled_dark_limestone_arrowslit",
             () -> new ArrowSlitBlock(BlockProps.COBBLESTONE.get()));
     public static final RegistryObject<Block> COBBLED_LIGHT_LIMESTONE_ARROWSLIT = registerBlock("cobbled_light_limestone_arrowslit",
@@ -960,26 +960,26 @@ public class ModBlocks {
 //            () -> new ArchHalfBlock(BlockProps.COBBLESTONE.get()));
 //    public static final RegistryObject<Block> MOSSY_COBBLED_TAN_LIMESTONE_ARCH_HALF = registerBlock("mossy_cobbled_tan_limestone_arch_half",
 //            () -> new ArchHalfBlock(BlockProps.COBBLESTONE.get()));
-//    public static final RegistryObject<Block> MOSSY_COBBLED_DARK_LIMESTONE_ARCH_LARGE = registerBlock("mossy_cobbled_dark_limestone_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.COBBLESTONE.get()));
-//    public static final RegistryObject<Block> MOSSY_COBBLED_LIGHT_LIMESTONE_ARCH_LARGE = registerBlock("mossy_cobbled_light_limestone_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.COBBLESTONE.get()));
-//    public static final RegistryObject<Block> MOSSY_COBBLED_LIMESTONE_ARCH_LARGE = registerBlock("mossy_cobbled_limestone_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.COBBLESTONE.get()));
-//    public static final RegistryObject<Block> MOSSY_COBBLED_PINK_LIMESTONE_ARCH_LARGE = registerBlock("mossy_cobbled_pink_limestone_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.COBBLESTONE.get()));
-//    public static final RegistryObject<Block> MOSSY_COBBLED_TAN_LIMESTONE_ARCH_LARGE = registerBlock("mossy_cobbled_tan_limestone_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.COBBLESTONE.get()));
+    public static final RegistryObject<Block> MOSSY_COBBLED_DARK_LIMESTONE_ARCH_LARGE = registerBlock("mossy_cobbled_dark_limestone_arch_large",
+            () -> new LargeArchBlock(BlockProps.COBBLESTONE.get()));
+    public static final RegistryObject<Block> MOSSY_COBBLED_LIGHT_LIMESTONE_ARCH_LARGE = registerBlock("mossy_cobbled_light_limestone_arch_large",
+            () -> new LargeArchBlock(BlockProps.COBBLESTONE.get()));
+    public static final RegistryObject<Block> MOSSY_COBBLED_LIMESTONE_ARCH_LARGE = registerBlock("mossy_cobbled_limestone_arch_large",
+            () -> new LargeArchBlock(BlockProps.COBBLESTONE.get()));
+    public static final RegistryObject<Block> MOSSY_COBBLED_PINK_LIMESTONE_ARCH_LARGE = registerBlock("mossy_cobbled_pink_limestone_arch_large",
+            () -> new LargeArchBlock(BlockProps.COBBLESTONE.get()));
+    public static final RegistryObject<Block> MOSSY_COBBLED_TAN_LIMESTONE_ARCH_LARGE = registerBlock("mossy_cobbled_tan_limestone_arch_large",
+            () -> new LargeArchBlock(BlockProps.COBBLESTONE.get()));
 //    public static final RegistryObject<Block> MOSSY_COBBLED_DARK_LIMESTONE_ARCH_LARGE_HALF = registerBlock("mossy_cobbled_dark_limestone_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.COBBLESTONE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.COBBLESTONE.get()));
 //    public static final RegistryObject<Block> MOSSY_COBBLED_LIGHT_LIMESTONE_ARCH_LARGE_HALF = registerBlock("mossy_cobbled_light_limestone_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.COBBLESTONE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.COBBLESTONE.get()));
 //    public static final RegistryObject<Block> MOSSY_COBBLED_LIMESTONE_ARCH_LARGE_HALF = registerBlock("mossy_cobbled_limestone_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.COBBLESTONE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.COBBLESTONE.get()));
 //    public static final RegistryObject<Block> MOSSY_COBBLED_PINK_LIMESTONE_ARCH_LARGE_HALF = registerBlock("mossy_cobbled_pink_limestone_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.COBBLESTONE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.COBBLESTONE.get()));
 //    public static final RegistryObject<Block> MOSSY_COBBLED_TAN_LIMESTONE_ARCH_LARGE_HALF = registerBlock("mossy_cobbled_tan_limestone_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.COBBLESTONE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.COBBLESTONE.get()));
     public static final RegistryObject<Block> MOSSY_COBBLED_DARK_LIMESTONE_ARROWSLIT = registerBlock("mossy_cobbled_dark_limestone_arrowslit",
             () -> new ArrowSlitBlock(BlockProps.COBBLESTONE.get()));
     public static final RegistryObject<Block> MOSSY_COBBLED_LIGHT_LIMESTONE_ARROWSLIT = registerBlock("mossy_cobbled_light_limestone_arrowslit",
@@ -1157,26 +1157,26 @@ public class ModBlocks {
 //            () -> new ArchHalfBlock(BlockProps.LIMESTONE_BRICK.get()));
 //    public static final RegistryObject<Block> TAN_LIMESTONE_BRICK_ARCH_HALF = registerBlock("tan_limestone_brick_arch_half",
 //            () -> new ArchHalfBlock(BlockProps.LIMESTONE_BRICK.get()));
-//    public static final RegistryObject<Block> DARK_LIMESTONE_BRICK_ARCH_LARGE = registerBlock("dark_limestone_brick_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.LIMESTONE_BRICK.get()));
-//    public static final RegistryObject<Block> LIGHT_LIMESTONE_BRICK_ARCH_LARGE = registerBlock("light_limestone_brick_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.LIMESTONE_BRICK.get()));
-//    public static final RegistryObject<Block> LIMESTONE_BRICK_ARCH_LARGE = registerBlock("limestone_brick_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.LIMESTONE_BRICK.get()));
-//    public static final RegistryObject<Block> PINK_LIMESTONE_BRICK_ARCH_LARGE = registerBlock("pink_limestone_brick_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.LIMESTONE_BRICK.get()));
-//    public static final RegistryObject<Block> TAN_LIMESTONE_BRICK_ARCH_LARGE = registerBlock("tan_limestone_brick_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.LIMESTONE_BRICK.get()));
+    public static final RegistryObject<Block> DARK_LIMESTONE_BRICK_ARCH_LARGE = registerBlock("dark_limestone_brick_arch_large",
+            () -> new LargeArchBlock(BlockProps.LIMESTONE_BRICK.get()));
+    public static final RegistryObject<Block> LIGHT_LIMESTONE_BRICK_ARCH_LARGE = registerBlock("light_limestone_brick_arch_large",
+            () -> new LargeArchBlock(BlockProps.LIMESTONE_BRICK.get()));
+    public static final RegistryObject<Block> LIMESTONE_BRICK_ARCH_LARGE = registerBlock("limestone_brick_arch_large",
+            () -> new LargeArchBlock(BlockProps.LIMESTONE_BRICK.get()));
+    public static final RegistryObject<Block> PINK_LIMESTONE_BRICK_ARCH_LARGE = registerBlock("pink_limestone_brick_arch_large",
+            () -> new LargeArchBlock(BlockProps.LIMESTONE_BRICK.get()));
+    public static final RegistryObject<Block> TAN_LIMESTONE_BRICK_ARCH_LARGE = registerBlock("tan_limestone_brick_arch_large",
+            () -> new LargeArchBlock(BlockProps.LIMESTONE_BRICK.get()));
 //    public static final RegistryObject<Block> DARK_LIMESTONE_BRICK_ARCH_LARGE_HALF = registerBlock("dark_limestone_brick_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.LIMESTONE_BRICK.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.LIMESTONE_BRICK.get()));
 //    public static final RegistryObject<Block> LIGHT_LIMESTONE_BRICK_ARCH_LARGE_HALF = registerBlock("light_limestone_brick_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.LIMESTONE_BRICK.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.LIMESTONE_BRICK.get()));
 //    public static final RegistryObject<Block> LIMESTONE_BRICK_ARCH_LARGE_HALF = registerBlock("limestone_brick_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.LIMESTONE_BRICK.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.LIMESTONE_BRICK.get()));
 //    public static final RegistryObject<Block> PINK_LIMESTONE_BRICK_ARCH_LARGE_HALF = registerBlock("pink_limestone_brick_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.LIMESTONE_BRICK.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.LIMESTONE_BRICK.get()));
 //    public static final RegistryObject<Block> TAN_LIMESTONE_BRICK_ARCH_LARGE_HALF = registerBlock("tan_limestone_brick_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.LIMESTONE_BRICK.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> DARK_LIMESTONE_BRICK_ARROWSLIT = registerBlock("dark_limestone_brick_arrowslit",
             () -> new ArrowSlitBlock(BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> LIGHT_LIMESTONE_BRICK_ARROWSLIT = registerBlock("light_limestone_brick_arrowslit",
@@ -1353,26 +1353,26 @@ public class ModBlocks {
 //            () -> new ArchHalfBlock(BlockProps.LIMESTONE_BRICK.get()));
 //    public static final RegistryObject<Block> MOSSY_TAN_LIMESTONE_BRICK_ARCH_HALF = registerBlock("mossy_tan_limestone_brick_arch_half",
 //            () -> new ArchHalfBlock(BlockProps.LIMESTONE_BRICK.get()));
-//    public static final RegistryObject<Block> MOSSY_DARK_LIMESTONE_BRICK_ARCH_LARGE = registerBlock("mossy_dark_limestone_brick_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.LIMESTONE_BRICK.get()));
-//    public static final RegistryObject<Block> MOSSY_LIGHT_LIMESTONE_BRICK_ARCH_LARGE = registerBlock("mossy_light_limestone_brick_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.LIMESTONE_BRICK.get()));
-//    public static final RegistryObject<Block> MOSSY_LIMESTONE_BRICK_ARCH_LARGE = registerBlock("mossy_limestone_brick_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.LIMESTONE_BRICK.get()));
-//    public static final RegistryObject<Block> MOSSY_PINK_LIMESTONE_BRICK_ARCH_LARGE = registerBlock("mossy_pink_limestone_brick_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.LIMESTONE_BRICK.get()));
-//    public static final RegistryObject<Block> MOSSY_TAN_LIMESTONE_BRICK_ARCH_LARGE = registerBlock("mossy_tan_limestone_brick_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.LIMESTONE_BRICK.get()));
+    public static final RegistryObject<Block> MOSSY_DARK_LIMESTONE_BRICK_ARCH_LARGE = registerBlock("mossy_dark_limestone_brick_arch_large",
+            () -> new LargeArchBlock(BlockProps.LIMESTONE_BRICK.get()));
+    public static final RegistryObject<Block> MOSSY_LIGHT_LIMESTONE_BRICK_ARCH_LARGE = registerBlock("mossy_light_limestone_brick_arch_large",
+            () -> new LargeArchBlock(BlockProps.LIMESTONE_BRICK.get()));
+    public static final RegistryObject<Block> MOSSY_LIMESTONE_BRICK_ARCH_LARGE = registerBlock("mossy_limestone_brick_arch_large",
+            () -> new LargeArchBlock(BlockProps.LIMESTONE_BRICK.get()));
+    public static final RegistryObject<Block> MOSSY_PINK_LIMESTONE_BRICK_ARCH_LARGE = registerBlock("mossy_pink_limestone_brick_arch_large",
+            () -> new LargeArchBlock(BlockProps.LIMESTONE_BRICK.get()));
+    public static final RegistryObject<Block> MOSSY_TAN_LIMESTONE_BRICK_ARCH_LARGE = registerBlock("mossy_tan_limestone_brick_arch_large",
+            () -> new LargeArchBlock(BlockProps.LIMESTONE_BRICK.get()));
 //    public static final RegistryObject<Block> MOSSY_DARK_LIMESTONE_BRICK_ARCH_LARGE_HALF = registerBlock("mossy_dark_limestone_brick_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.LIMESTONE_BRICK.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.LIMESTONE_BRICK.get()));
 //    public static final RegistryObject<Block> MOSSY_LIGHT_LIMESTONE_BRICK_ARCH_LARGE_HALF = registerBlock("mossy_light_limestone_brick_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.LIMESTONE_BRICK.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.LIMESTONE_BRICK.get()));
 //    public static final RegistryObject<Block> MOSSY_LIMESTONE_BRICK_ARCH_LARGE_HALF = registerBlock("mossy_limestone_brick_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.LIMESTONE_BRICK.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.LIMESTONE_BRICK.get()));
 //    public static final RegistryObject<Block> MOSSY_PINK_LIMESTONE_BRICK_ARCH_LARGE_HALF = registerBlock("mossy_pink_limestone_brick_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.LIMESTONE_BRICK.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.LIMESTONE_BRICK.get()));
 //    public static final RegistryObject<Block> MOSSY_TAN_LIMESTONE_BRICK_ARCH_LARGE_HALF = registerBlock("mossy_tan_limestone_brick_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.LIMESTONE_BRICK.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> MOSSY_DARK_LIMESTONE_BRICK_ARROWSLIT = registerBlock("mossy_dark_limestone_brick_arrowslit",
             () -> new ArrowSlitBlock(BlockProps.LIMESTONE_BRICK.get()));
     public static final RegistryObject<Block> MOSSY_LIGHT_LIMESTONE_BRICK_ARROWSLIT = registerBlock("mossy_light_limestone_brick_arrowslit",
@@ -1593,26 +1593,26 @@ public class ModBlocks {
 //            () -> new ArchHalfBlock(BlockProps.MARBLE.get()));
 //    public static final RegistryObject<Block> WHITE_MARBLE_ARCH_HALF = registerBlock("white_marble_arch_half",
 //            () -> new ArchHalfBlock(BlockProps.MARBLE.get()));
-//    public static final RegistryObject<Block> BLACK_MARBLE_ARCH_LARGE = registerBlock("black_marble_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.MARBLE.get()));
-//    public static final RegistryObject<Block> GRAY_MARBLE_ARCH_LARGE = registerBlock("gray_marble_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.MARBLE.get()));
-//    public static final RegistryObject<Block> PINK_MARBLE_ARCH_LARGE = registerBlock("pink_marble_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.MARBLE.get()));
-//    public static final RegistryObject<Block> RED_MARBLE_ARCH_LARGE = registerBlock("red_marble_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.MARBLE.get()));
-//    public static final RegistryObject<Block> WHITE_MARBLE_ARCH_LARGE = registerBlock("white_marble_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.MARBLE.get()));
+    public static final RegistryObject<Block> BLACK_MARBLE_ARCH_LARGE = registerBlock("black_marble_arch_large",
+            () -> new LargeArchBlock(BlockProps.MARBLE.get()));
+    public static final RegistryObject<Block> GRAY_MARBLE_ARCH_LARGE = registerBlock("gray_marble_arch_large",
+            () -> new LargeArchBlock(BlockProps.MARBLE.get()));
+    public static final RegistryObject<Block> PINK_MARBLE_ARCH_LARGE = registerBlock("pink_marble_arch_large",
+            () -> new LargeArchBlock(BlockProps.MARBLE.get()));
+    public static final RegistryObject<Block> RED_MARBLE_ARCH_LARGE = registerBlock("red_marble_arch_large",
+            () -> new LargeArchBlock(BlockProps.MARBLE.get()));
+    public static final RegistryObject<Block> WHITE_MARBLE_ARCH_LARGE = registerBlock("white_marble_arch_large",
+            () -> new LargeArchBlock(BlockProps.MARBLE.get()));
 //    public static final RegistryObject<Block> BLACK_MARBLE_ARCH_LARGE_HALF = registerBlock("black_marble_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.MARBLE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.MARBLE.get()));
 //    public static final RegistryObject<Block> GRAY_MARBLE_ARCH_LARGE_HALF = registerBlock("gray_marble_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.MARBLE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.MARBLE.get()));
 //    public static final RegistryObject<Block> PINK_MARBLE_ARCH_LARGE_HALF = registerBlock("pink_marble_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.MARBLE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.MARBLE.get()));
 //    public static final RegistryObject<Block> RED_MARBLE_ARCH_LARGE_HALF = registerBlock("red_marble_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.MARBLE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.MARBLE.get()));
 //    public static final RegistryObject<Block> WHITE_MARBLE_ARCH_LARGE_HALF = registerBlock("white_marble_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.MARBLE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.MARBLE.get()));
     public static final RegistryObject<Block> BLACK_MARBLE_ARROWSLIT = registerBlock("black_marble_arrowslit",
             () -> new ArrowSlitBlock(BlockProps.MARBLE.get()));
     public static final RegistryObject<Block> GRAY_MARBLE_ARROWSLIT = registerBlock("gray_marble_arrowslit",
@@ -1796,26 +1796,26 @@ public class ModBlocks {
 //            () -> new ArchHalfBlock(BlockProps.MARBLE.get()));
 //    public static final RegistryObject<Block> POLISHED_WHITE_MARBLE_ARCH_HALF = registerBlock("polished_white_marble_arch_half",
 //            () -> new ArchHalfBlock(BlockProps.MARBLE.get()));
-//    public static final RegistryObject<Block> POLISHED_BLACK_MARBLE_ARCH_LARGE = registerBlock("polished_black_marble_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.MARBLE.get()));
-//    public static final RegistryObject<Block> POLISHED_GRAY_MARBLE_ARCH_LARGE = registerBlock("polished_gray_marble_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.MARBLE.get()));
-//    public static final RegistryObject<Block> POLISHED_PINK_MARBLE_ARCH_LARGE = registerBlock("polished_pink_marble_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.MARBLE.get()));
-//    public static final RegistryObject<Block> POLISHED_RED_MARBLE_ARCH_LARGE = registerBlock("polished_red_marble_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.MARBLE.get()));
-//    public static final RegistryObject<Block> POLISHED_WHITE_MARBLE_ARCH_LARGE = registerBlock("polished_white_marble_arch_large",
-//            () -> new ArchLargeBlock(BlockProps.MARBLE.get()));
+    public static final RegistryObject<Block> POLISHED_BLACK_MARBLE_ARCH_LARGE = registerBlock("polished_black_marble_arch_large",
+            () -> new LargeArchBlock(BlockProps.MARBLE.get()));
+    public static final RegistryObject<Block> POLISHED_GRAY_MARBLE_ARCH_LARGE = registerBlock("polished_gray_marble_arch_large",
+            () -> new LargeArchBlock(BlockProps.MARBLE.get()));
+    public static final RegistryObject<Block> POLISHED_PINK_MARBLE_ARCH_LARGE = registerBlock("polished_pink_marble_arch_large",
+            () -> new LargeArchBlock(BlockProps.MARBLE.get()));
+    public static final RegistryObject<Block> POLISHED_RED_MARBLE_ARCH_LARGE = registerBlock("polished_red_marble_arch_large",
+            () -> new LargeArchBlock(BlockProps.MARBLE.get()));
+    public static final RegistryObject<Block> POLISHED_WHITE_MARBLE_ARCH_LARGE = registerBlock("polished_white_marble_arch_large",
+            () -> new LargeArchBlock(BlockProps.MARBLE.get()));
 //    public static final RegistryObject<Block> POLISHED_BLACK_MARBLE_ARCH_LARGE_HALF = registerBlock("polished_black_marble_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.MARBLE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.MARBLE.get()));
 //    public static final RegistryObject<Block> POLISHED_GRAY_MARBLE_ARCH_LARGE_HALF = registerBlock("polished_gray_marble_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.MARBLE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.MARBLE.get()));
 //    public static final RegistryObject<Block> POLISHED_PINK_MARBLE_ARCH_LARGE_HALF = registerBlock("polished_pink_marble_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.MARBLE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.MARBLE.get()));
 //    public static final RegistryObject<Block> POLISHED_RED_MARBLE_ARCH_LARGE_HALF = registerBlock("polished_red_marble_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.MARBLE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.MARBLE.get()));
 //    public static final RegistryObject<Block> POLISHED_WHITE_MARBLE_ARCH_LARGE_HALF = registerBlock("polished_white_marble_arch_large_half",
-//            () -> new ArchLargeHalfBlock(BlockProps.MARBLE.get()));
+//            () -> new LargeArchHalfBlock(BlockProps.MARBLE.get()));
     public static final RegistryObject<Block> POLISHED_BLACK_MARBLE_ARROWSLIT = registerBlock("polished_black_marble_arrowslit",
             () -> new ArrowSlitBlock(BlockProps.MARBLE.get()));
     public static final RegistryObject<Block> POLISHED_GRAY_MARBLE_ARROWSLIT = registerBlock("polished_gray_marble_arrowslit",
@@ -1981,6 +1981,30 @@ public class ModBlocks {
             () -> new ArchBlock(BlockProps.SANDSTONE.get()));
     public static final RegistryObject<Block> SANDSTONE_ARCH = registerBlock("sandstone_arch",
             () -> new ArchBlock(BlockProps.SANDSTONE.get()));
+//    public static final RegistryObject<Block> BROWN_SANDSTONE_ARCH_HALF = registerBlock("brown_sandstone_arch_half",
+//            () -> new HalfArchBlock(BlockProps.SANDSTONE.get()));
+//    public static final RegistryObject<Block> ORANGE_SANDSTONE_ARCH_HALF = registerBlock("orange_sandstone_arch_half",
+//            () -> new HalfArchBlock(BlockProps.SANDSTONE.get()));
+//    public static final RegistryObject<Block> RED_SANDSTONE_ARCH_HALF = registerBlock("red_sandstone_arch_half",
+//            () -> new HalfArchBlock(BlockProps.SANDSTONE.get()));
+//    public static final RegistryObject<Block> SANDSTONE_ARCH_HALF = registerBlock("sandstone_arch_half",
+//            () -> new HalfArchBlock(BlockProps.SANDSTONE.get()));
+    public static final RegistryObject<Block> BROWN_SANDSTONE_ARCH_LARGE = registerBlock("brown_sandstone_arch_large",
+            () -> new LargeArchBlock(BlockProps.SANDSTONE.get()));
+    public static final RegistryObject<Block> ORANGE_SANDSTONE_ARCH_LARGE = registerBlock("orange_sandstone_arch_large",
+            () -> new LargeArchBlock(BlockProps.SANDSTONE.get()));
+    public static final RegistryObject<Block> RED_SANDSTONE_ARCH_LARGE = registerBlock("red_sandstone_arch_large",
+            () -> new LargeArchBlock(BlockProps.SANDSTONE.get()));
+    public static final RegistryObject<Block> SANDSTONE_ARCH_LARGE = registerBlock("sandstone_arch_large",
+            () -> new LargeArchBlock(BlockProps.SANDSTONE.get()));
+//    public static final RegistryObject<Block> BROWN_SANDSTONE_ARCH_LARGE_HALF = registerBlock("brown_sandstone_arch_large_half",
+//            () -> new HalfLargeArchBlock(BlockProps.SANDSTONE.get()));
+//    public static final RegistryObject<Block> ORANGE_SANDSTONE_ARCH_LARGE_HALF = registerBlock("orange_sandstone_arch_large_half",
+//            () -> new HalfLargeArchBlock(BlockProps.SANDSTONE.get()));
+//    public static final RegistryObject<Block> RED_SANDSTONE_ARCH_LARGE_HALF = registerBlock("red_sandstone_arch_large_half",
+//            () -> new HalfLargeArchBlock(BlockProps.SANDSTONE.get()));
+//    public static final RegistryObject<Block> SANDSTONE_ARCH_LARGE_HALF = registerBlock("sandstone_arch_large_half",
+//            () -> new HalfLargeArchBlock(BlockProps.SANDSTONE.get()));
     public static final RegistryObject<Block> BROWN_SANDSTONE_ARROWSLIT = registerBlock("brown_sandstone_arrowslit",
             () -> new ArrowSlitBlock(BlockProps.SANDSTONE.get()));
     public static final RegistryObject<Block> ORANGE_SANDSTONE_ARROWSLIT = registerBlock("orange_sandstone_arrowslit",
@@ -2114,6 +2138,30 @@ public class ModBlocks {
             () -> new ArchBlock(BlockProps.SANDSTONE.get()));
     public static final RegistryObject<Block> CUT_SANDSTONE_ARCH = registerBlock("cut_sandstone_arch",
             () -> new ArchBlock(BlockProps.SANDSTONE.get()));
+//    public static final RegistryObject<Block> CUT_BROWN_SANDSTONE_ARCH_HALF = registerBlock("cut_brown_sandstone_arch_half",
+//            () -> new HalfArchBlock(BlockProps.SANDSTONE.get()));
+//    public static final RegistryObject<Block> CUT_ORANGE_SANDSTONE_ARCH_HALF = registerBlock("cut_orange_sandstone_arch_half",
+//            () -> new HalfArchBlock(BlockProps.SANDSTONE.get()));
+//    public static final RegistryObject<Block> CUT_RED_SANDSTONE_ARCH_HALF = registerBlock("cut_red_sandstone_arch_half",
+//            () -> new HalfArchBlock(BlockProps.SANDSTONE.get()));
+//    public static final RegistryObject<Block> CUT_SANDSTONE_ARCH_HALF = registerBlock("cut_sandstone_arch_half",
+//            () -> new HalfArchBlock(BlockProps.SANDSTONE.get()));
+    public static final RegistryObject<Block> CUT_BROWN_SANDSTONE_ARCH_LARGE = registerBlock("cut_brown_sandstone_arch_large",
+            () -> new LargeArchBlock(BlockProps.SANDSTONE.get()));
+    public static final RegistryObject<Block> CUT_ORANGE_SANDSTONE_ARCH_LARGE = registerBlock("cut_orange_sandstone_arch_large",
+            () -> new LargeArchBlock(BlockProps.SANDSTONE.get()));
+    public static final RegistryObject<Block> CUT_RED_SANDSTONE_ARCH_LARGE = registerBlock("cut_red_sandstone_arch_large",
+            () -> new LargeArchBlock(BlockProps.SANDSTONE.get()));
+    public static final RegistryObject<Block> CUT_SANDSTONE_ARCH_LARGE = registerBlock("cut_sandstone_arch_large",
+            () -> new LargeArchBlock(BlockProps.SANDSTONE.get()));
+//    public static final RegistryObject<Block> CUT_BROWN_SANDSTONE_ARCH_LARGE_HALF = registerBlock("cut_brown_sandstone_arch_large_half",
+//            () -> new HalfLargeArchBlock(BlockProps.SANDSTONE.get()));
+//    public static final RegistryObject<Block> CUT_ORANGE_SANDSTONE_ARCH_LARGE_HALF = registerBlock("cut_orange_sandstone_arch_large_half",
+//            () -> new HalfLargeArchBlock(BlockProps.SANDSTONE.get()));
+//    public static final RegistryObject<Block> CUT_RED_SANDSTONE_ARCH_LARGE_HALF = registerBlock("cut_red_sandstone_arch_large_half",
+//            () -> new HalfLargeArchBlock(BlockProps.SANDSTONE.get()));
+//    public static final RegistryObject<Block> CUT_SANDSTONE_ARCH_LARGE_HALF = registerBlock("cut_sandstone_arch_large_half",
+//            () -> new HalfLargeArchBlock(BlockProps.SANDSTONE.get()));
     public static final RegistryObject<Block> CUT_BROWN_SANDSTONE_ARROWSLIT = registerBlock("cut_brown_sandstone_arrowslit",
             () -> new ArrowSlitBlock(BlockProps.SANDSTONE.get()));
     public static final RegistryObject<Block> CUT_ORANGE_SANDSTONE_ARROWSLIT = registerBlock("cut_orange_sandstone_arrowslit",
@@ -2249,6 +2297,30 @@ public class ModBlocks {
             () -> new ArchBlock(BlockProps.SMOOTH_SANDSTONE.get()));
     public static final RegistryObject<Block> SMOOTH_SANDSTONE_ARCH = registerBlock("smooth_sandstone_arch",
             () -> new ArchBlock(BlockProps.SMOOTH_SANDSTONE.get()));
+//    public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_HALF = registerBlock("smooth_brown_sandstone_arch_half",
+//            () -> new HalfArchBlock(BlockProps.SMOOTH_SANDSTONE.get()));
+//    public static final RegistryObject<Block> SMOOTH_ORANGE_SANDSTONE_ARCH_HALF = registerBlock("smooth_orange_sandstone_arch_half",
+//            () -> new HalfArchBlock(BlockProps.SMOOTH_SANDSTONE.get()));
+//    public static final RegistryObject<Block> SMOOTH_RED_SANDSTONE_ARCH_HALF = registerBlock("smooth_red_sandstone_arch_half",
+//            () -> new HalfArchBlock(BlockProps.SMOOTH_SANDSTONE.get()));
+//    public static final RegistryObject<Block> SMOOTH_SANDSTONE_ARCH_HALF = registerBlock("smooth_sandstone_arch_half",
+//            () -> new HalfArchBlock(BlockProps.SMOOTH_SANDSTONE.get()));
+public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = registerBlock("smooth_brown_sandstone_arch_large",
+        () -> new LargeArchBlock(BlockProps.SMOOTH_SANDSTONE.get()));
+    public static final RegistryObject<Block> SMOOTH_ORANGE_SANDSTONE_ARCH_LARGE = registerBlock("smooth_orange_sandstone_arch_large",
+            () -> new LargeArchBlock(BlockProps.SMOOTH_SANDSTONE.get()));
+    public static final RegistryObject<Block> SMOOTH_RED_SANDSTONE_ARCH_LARGE = registerBlock("smooth_red_sandstone_arch_large",
+            () -> new LargeArchBlock(BlockProps.SMOOTH_SANDSTONE.get()));
+    public static final RegistryObject<Block> SMOOTH_SANDSTONE_ARCH_LARGE = registerBlock("smooth_sandstone_arch_large",
+            () -> new LargeArchBlock(BlockProps.SMOOTH_SANDSTONE.get()));
+    //    public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE_HALF = registerBlock("smooth_brown_sandstone_arch_large_half",
+//            () -> new HalfLargeArchBlock(BlockProps.SMOOTH_SANDSTONE.get()));
+//    public static final RegistryObject<Block> SMOOTH_ORANGE_SANDSTONE_ARCH_LARGE_HALF = registerBlock("smooth_orange_sandstone_arch_large_half",
+//            () -> new HalfLargeArchBlock(BlockProps.SMOOTH_SANDSTONE.get()));
+//    public static final RegistryObject<Block> SMOOTH_RED_SANDSTONE_ARCH_LARGE_HALF = registerBlock("smooth_red_sandstone_arch_large_half",
+//            () -> new HalfLargeArchBlock(BlockProps.SMOOTH_SANDSTONE.get()));
+//    public static final RegistryObject<Block> SMOOTH_SANDSTONE_ARCH_LARGE_HALF = registerBlock("smooth_sandstone_arch_large_half",
+//            () -> new HalfLargeArchBlock(BlockProps.SMOOTH_SANDSTONE.get()));
     public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARROWSLIT = registerBlock("smooth_brown_sandstone_arrowslit",
             () -> new ArrowSlitBlock(BlockProps.SMOOTH_SANDSTONE.get()));
     public static final RegistryObject<Block> SMOOTH_ORANGE_SANDSTONE_ARROWSLIT = registerBlock("smooth_orange_sandstone_arrowslit",

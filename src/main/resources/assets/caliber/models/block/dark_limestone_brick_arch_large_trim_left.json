@@ -1,0 +1,9 @@
+{
+  "parent": "caliber:block/arch_large_trim_left",
+  "textures": {
+    "side": "caliber:block/dark_limestone_bricks",
+    "bottom": "caliber:block/dark_limestone_bricks",
+    "top": "caliber:block/dark_limestone_bricks",
+    "particle": "caliber:block/dark_limestone_bricks"
+  }
+}

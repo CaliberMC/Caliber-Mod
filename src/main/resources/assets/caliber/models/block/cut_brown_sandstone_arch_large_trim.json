@@ -1,0 +1,9 @@
+{
+  "parent": "caliber:block/arch_large_trim",
+  "textures": {
+    "side": "caliber:block/cut_brown_sandstone",
+    "bottom": "caliber:block/brown_sandstone_top",
+    "top": "caliber:block/brown_sandstone_top",
+    "particle": "caliber:block/cut_brown_sandstone"
+  }
+}

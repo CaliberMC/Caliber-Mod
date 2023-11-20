@@ -1,0 +1,65 @@
+{
+  "variants": {
+    "facing=north,type=left,trim=false": {
+      "model": "caliber:block/mossy_pink_limestone_brick_arch_large",
+      "y": 180, "uvlock": true
+    },
+    "facing=north,type=left,trim=true": {
+      "model": "caliber:block/mossy_pink_limestone_brick_arch_large_trim_left",
+      "uvlock": true
+    },
+    "facing=east,type=left,trim=false": {
+      "model": "caliber:block/mossy_pink_limestone_brick_arch_large",
+      "y": 270, "uvlock": true
+    },
+    "facing=east,type=left,trim=true": {
+      "model": "caliber:block/mossy_pink_limestone_brick_arch_large_trim_left",
+      "y": 90, "uvlock": true
+    },
+    "facing=south,type=left,trim=false": {
+      "model": "caliber:block/mossy_pink_limestone_brick_arch_large"
+    },
+    "facing=south,type=left,trim=true": {
+      "model": "caliber:block/mossy_pink_limestone_brick_arch_large_trim_left",
+      "y": 180, "uvlock": true
+    },
+    "facing=west,type=left,trim=false": {
+      "model": "caliber:block/mossy_pink_limestone_brick_arch_large",
+      "y": 90, "uvlock": true
+    },
+    "facing=west,type=left,trim=true": {
+      "model": "caliber:block/mossy_pink_limestone_brick_arch_large_trim_left",
+      "y": 270, "uvlock": true
+    },
+    "facing=north,type=right,trim=false": {
+      "model": "caliber:block/mossy_pink_limestone_brick_arch_large"
+    },
+    "facing=north,type=right,trim=true": {
+      "model": "caliber:block/mossy_pink_limestone_brick_arch_large_trim"
+    },
+    "facing=east,type=right,trim=false": {
+      "model": "caliber:block/mossy_pink_limestone_brick_arch_large",
+      "y": 90, "uvlock": true
+    },
+    "facing=east,type=right,trim=true": {
+      "model": "caliber:block/mossy_pink_limestone_brick_arch_large_trim",
+      "y": 90, "uvlock": true
+    },
+    "facing=south,type=right,trim=false": {
+      "model": "caliber:block/mossy_pink_limestone_brick_arch_large",
+      "y": 180, "uvlock": true
+    },
+    "facing=south,type=right,trim=true": {
+      "model": "caliber:block/mossy_pink_limestone_brick_arch_large_trim",
+      "y": 180, "uvlock": true
+    },
+    "facing=west,type=right,trim=false": {
+      "model": "caliber:block/mossy_pink_limestone_brick_arch_large",
+      "y": 270, "uvlock": true
+    },
+    "facing=west,type=right,trim=true": {
+      "model": "caliber:block/mossy_pink_limestone_brick_arch_large_trim",
+      "y": 270, "uvlock": true
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "caliber:block/arch_large_trim",
+  "textures": {
+    "side": "caliber:block/mossy_cobblestone",
+    "bottom": "caliber:block/mossy_cobblestone",
+    "top": "caliber:block/mossy_cobblestone",
+    "particle": "minecraft:block/mossy_cobblestone"
+  }
+}

@@ -2,6 +2,7 @@ package com.calibermc.caliber.util;
 
 import com.calibermc.caliber.block.shapes.*;
 import net.minecraft.core.Direction;
+import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 
@@ -25,6 +26,7 @@ public class ModBlockStateProperties {
     public static final EnumProperty<WindowShape> WINDOW_SHAPE = EnumProperty.create("type", WindowShape.class);
 
     public static final IntegerProperty FIVE_LAYERS = IntegerProperty.create("layers", 1, 5);
+    public static final BooleanProperty TRIM = BooleanProperty.create("trim");
 
     public static boolean isSide(Direction direction) {
         return direction == Direction.NORTH || direction == Direction.EAST || direction == Direction.SOUTH || direction == Direction.WEST;

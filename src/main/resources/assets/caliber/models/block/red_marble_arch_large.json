@@ -1,0 +1,9 @@
+{
+  "parent": "caliber:block/arch_large",
+  "textures": {
+    "side": "caliber:block/red_marble",
+    "bottom": "caliber:block/red_marble",
+    "top": "caliber:block/red_marble",
+    "particle": "caliber:block/red_marble"
+  }
+}

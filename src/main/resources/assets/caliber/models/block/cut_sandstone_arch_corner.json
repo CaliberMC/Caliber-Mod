@@ -1,9 +1,9 @@
 {
   "parent": "caliber:block/arch_corner",
   "textures": {
-    "side": "caliber:block/cut_sandstone",
-    "bottom": "caliber:block/sandstone_top",
-    "top": "caliber:block/sandstone_top",
+    "side": "minecraft:block/cut_sandstone",
+    "bottom": "minecraft:block/sandstone_top",
+    "top": "minecraft:block/sandstone_top",
     "particle": "minecraft:block/cut_sandstone"
   }
 }

@@ -1,0 +1,9 @@
+{
+  "parent": "caliber:block/arch_large",
+  "textures": {
+    "side": "minecraft:block/cobblestone",
+    "bottom": "minecraft:block/cobblestone",
+    "top": "minecraft:block/cobblestone",
+    "particle": "minecraft:block/cobblestone"
+  }
+}

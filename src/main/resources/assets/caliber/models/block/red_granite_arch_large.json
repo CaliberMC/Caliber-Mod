@@ -1,0 +1,9 @@
+{
+  "parent": "caliber:block/arch_large",
+  "textures": {
+    "side": "minecraft:block/granite",
+    "bottom": "minecraft:block/granite",
+    "top": "minecraft:block/granite",
+    "particle": "minecraft:block/granite"
+  }
+}
