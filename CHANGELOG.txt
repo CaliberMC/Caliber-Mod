@@ -105,9 +105,5 @@
     - Slab Mode: Only slab thickness blocks will be placed when placing layered blocks
     - Detail Mode: Only layered blocks will be placed when placing layered blocks
     - Combo Mode: Both slab thickness and layered blocks can be placed when placing layered blocks.  Use the keybind (h) to place layered blocks.
-- Added Conquest like BlockState behaviour to Corner Blocks while holding keybind (h) in combo mode
-- Added Conquest like BlockState behaviour to Quarter Blocks while holding keybind (h) in combo mode
-- Added Conquest like BlockState behaviour to Vertical Quarter Blocks while holding keybind (h) in combo mode
-- Added Conquest like BlockState behaviour to Slab Blocks while holding keybind (h) in combo mode
-- Added Conquest like BlockState behaviour to Vertical Slab Blocks while holding keybind (h) in combo mode
+- Added keybind (m) to enable Conquest like BlockState behaviour for Corner Blocks, Quarter Blocks, Vertical Quarter Blocks, Slab Blocks, Slab Blocks with the LAYERS property, otherwise they will function like the original slab thickness blocks.
 - Added layermode command to change behaviour of all Layered Blocks (calibermod.layermode)
