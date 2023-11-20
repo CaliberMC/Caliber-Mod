@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    " G ",
+    " G "
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:polished_deepslate"
+    }
+  },
+  "result": {
+    "item": "caliber:polished_deepslate_slab_vertical",
+    "count": 24
+  }
+}

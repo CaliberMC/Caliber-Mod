@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:deepslate_bricks"
+  },
+  "result": "caliber:deepslate_brick_quarter_vertical",
+  "count": 5
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    " G ",
+    " G "
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:deepslate_bricks"
+    }
+  },
+  "result": {
+    "item": "caliber:deepslate_brick_slab_vertical",
+    "count": 24
+  }
+}

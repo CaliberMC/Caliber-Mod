@@ -43,7 +43,190 @@ public class ModBlocks {
     //TODO: ADD STEEL STUFF
 
     // STONE BLOCKS
+    /* DEEPSLATE */
+    public static final RegistryObject<Block> DEEPSLATE_ARCH = registerBlock("deepslate_arch",
+            () -> new ArchBlock(BlockProps.DEEPSLATE.get()));
+    public static final RegistryObject<Block> DEEPSLATE_ARCH_HALF = registerBlock("deepslate_arch_half",
+            () -> new HalfArchBlock(BlockProps.DEEPSLATE.get()));
+    public static final RegistryObject<Block> DEEPSLATE_ARCH_LARGE = registerBlock("deepslate_arch_large",
+            () -> new LargeArchBlock(BlockProps.DEEPSLATE.get()));
+    public static final RegistryObject<Block> DEEPSLATE_ARCH_LARGE_HALF = registerBlock("deepslate_arch_large_half",
+            () -> new LargeHalfArchBlock(BlockProps.DEEPSLATE.get()));
+    public static final RegistryObject<Block> DEEPSLATE_ARROWSLIT = registerBlock("deepslate_arrowslit",
+            () -> new ArrowSlitBlock(BlockProps.DEEPSLATE.get()));
+    public static final RegistryObject<Block> DEEPSLATE_BALUSTRADE = registerBlock("deepslate_balustrade",
+            () -> new BalustradeBlock(BlockProps.DEEPSLATE.get()));
+    public static final RegistryObject<Block> DEEPSLATE_CAPITAL = registerBlock("deepslate_capital",
+            () -> new CapitalBlock(BlockProps.DEEPSLATE.get()));
+    public static final RegistryObject<Block> DEEPSLATE_CORNER = registerBlock("deepslate_corner",
+            () -> new CornerLayerBlock(BlockProps.DEEPSLATE.get()));
+    public static final RegistryObject<Block> DEEPSLATE_CORNER_SLAB = registerBlock("deepslate_corner_slab",
+            () -> new CornerSlabBlock(BlockProps.DEEPSLATE.get()));
+    public static final RegistryObject<Block> DEEPSLATE_CORNER_SLAB_VERTICAL = registerBlock("deepslate_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(BlockProps.DEEPSLATE.get()));
+    public static final RegistryObject<Block> DEEPSLATE_EIGHTH = registerBlock("deepslate_eighth",
+            () -> new EighthBlock(BlockProps.DEEPSLATE.get()));
+    public static final RegistryObject<Block> DEEPSLATE_QUARTER = registerBlock("deepslate_quarter",
+            () -> new QuarterLayerBlock(BlockProps.DEEPSLATE.get()));
+    public static final RegistryObject<Block> DEEPSLATE_QUARTER_VERTICAL = registerBlock("deepslate_quarter_vertical",
+            () -> new VerticalQuarterLayerBlock(BlockProps.DEEPSLATE.get()));
+    public static final RegistryObject<Block> DEEPSLATE_SLAB = registerBlock("deepslate_slab",
+            () -> new SlabLayerBlock(BlockProps.DEEPSLATE.get()));
+    public static final RegistryObject<Block> DEEPSLATE_SLAB_VERTICAL = registerBlock("deepslate_slab_vertical",
+            () -> new VerticalSlabLayerBlock(BlockProps.DEEPSLATE.get()));
+    public static final RegistryObject<Block> DEEPSLATE_STAIRS = registerBlock("deepslate_stairs",
+            () -> new StairBlock(Blocks.DEEPSLATE::defaultBlockState, BlockProps.DEEPSLATE.get()));
+    public static final RegistryObject<Block> DEEPSLATE_WALL = registerBlock("deepslate_wall",
+            () -> new WallBlock(BlockProps.DEEPSLATE.get()));
+    public static final RegistryObject<Block> DEEPSLATE_WINDOW = registerBlock("deepslate_window",
+            () -> new WindowBlock(BlockProps.DEEPSLATE.get()));
+    public static final RegistryObject<Block> DEEPSLATE_WINDOW_HALF = registerBlock("deepslate_window_half",
+            () -> new HalfWindowBlock(BlockProps.DEEPSLATE.get()));
 
+    /* DEEPSLATE BRICK*/
+    public static final RegistryObject<Block> DEEPSLATE_BRICK_ARCH = registerBlock("deepslate_brick_arch",
+            () -> new ArchBlock(BlockProps.DEEPSLATE_BRICK.get()));
+    public static final RegistryObject<Block> DEEPSLATE_BRICK_ARCH_HALF = registerBlock("deepslate_brick_arch_half",
+            () -> new HalfArchBlock(BlockProps.DEEPSLATE_BRICK.get()));
+    public static final RegistryObject<Block> DEEPSLATE_BRICK_ARCH_LARGE = registerBlock("deepslate_brick_arch_large",
+            () -> new LargeArchBlock(BlockProps.DEEPSLATE_BRICK.get()));
+    public static final RegistryObject<Block> DEEPSLATE_BRICK_ARCH_LARGE_HALF = registerBlock("deepslate_brick_arch_large_half",
+            () -> new LargeHalfArchBlock(BlockProps.DEEPSLATE_BRICK.get()));
+    public static final RegistryObject<Block> DEEPSLATE_BRICK_ARROWSLIT = registerBlock("deepslate_brick_arrowslit",
+            () -> new ArrowSlitBlock(BlockProps.DEEPSLATE_BRICK.get()));
+    public static final RegistryObject<Block> DEEPSLATE_BRICK_BALUSTRADE = registerBlock("deepslate_brick_balustrade",
+            () -> new BalustradeBlock(BlockProps.DEEPSLATE_BRICK.get()));
+    public static final RegistryObject<Block> DEEPSLATE_BRICK_CAPITAL = registerBlock("deepslate_brick_capital",
+            () -> new CapitalBlock(BlockProps.DEEPSLATE_BRICK.get()));
+    public static final RegistryObject<Block> DEEPSLATE_BRICK_CORNER = registerBlock("deepslate_brick_corner",
+            () -> new CornerLayerBlock(BlockProps.DEEPSLATE_BRICK.get()));
+    public static final RegistryObject<Block> DEEPSLATE_BRICK_CORNER_SLAB = registerBlock("deepslate_brick_corner_slab",
+            () -> new CornerSlabBlock(BlockProps.DEEPSLATE_BRICK.get()));
+    public static final RegistryObject<Block> DEEPSLATE_BRICK_CORNER_SLAB_VERTICAL = registerBlock("deepslate_brick_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(BlockProps.DEEPSLATE_BRICK.get()));
+    public static final RegistryObject<Block> DEEPSLATE_BRICK_EIGHTH = registerBlock("deepslate_brick_eighth",
+            () -> new EighthBlock(BlockProps.DEEPSLATE_BRICK.get()));
+    public static final RegistryObject<Block> DEEPSLATE_BRICK_QUARTER = registerBlock("deepslate_brick_quarter",
+            () -> new QuarterLayerBlock(BlockProps.DEEPSLATE_BRICK.get()));
+    public static final RegistryObject<Block> DEEPSLATE_BRICK_QUARTER_VERTICAL = registerBlock("deepslate_brick_quarter_vertical",
+            () -> new VerticalQuarterLayerBlock(BlockProps.DEEPSLATE_BRICK.get()));
+    public static final RegistryObject<Block> DEEPSLATE_BRICK_SLAB = registerBlock("deepslate_brick_slab",
+            () -> new SlabLayerBlock(BlockProps.DEEPSLATE_BRICK.get()));
+    public static final RegistryObject<Block> DEEPSLATE_BRICK_SLAB_VERTICAL = registerBlock("deepslate_brick_slab_vertical",
+            () -> new VerticalSlabLayerBlock(BlockProps.DEEPSLATE_BRICK.get()));
+    public static final RegistryObject<Block> DEEPSLATE_BRICK_WINDOW = registerBlock("deepslate_brick_window",
+            () -> new WindowBlock(BlockProps.DEEPSLATE_BRICK.get()));
+    public static final RegistryObject<Block> DEEPSLATE_BRICK_WINDOW_HALF = registerBlock("deepslate_brick_window_half",
+            () -> new HalfWindowBlock(BlockProps.DEEPSLATE_BRICK.get()));
+
+    /* DEEPSLATE TILES*/
+    public static final RegistryObject<Block> DEEPSLATE_TILE_ARCH = registerBlock("deepslate_tile_arch",
+            () -> new ArchBlock(BlockProps.DEEPSLATE_TILES.get()));
+    public static final RegistryObject<Block> DEEPSLATE_TILE_ARCH_HALF = registerBlock("deepslate_tile_arch_half",
+            () -> new HalfArchBlock(BlockProps.DEEPSLATE_TILES.get()));
+    public static final RegistryObject<Block> DEEPSLATE_TILE_ARCH_LARGE = registerBlock("deepslate_tile_arch_large",
+            () -> new LargeArchBlock(BlockProps.DEEPSLATE_TILES.get()));
+    public static final RegistryObject<Block> DEEPSLATE_TILE_ARCH_LARGE_HALF = registerBlock("deepslate_tile_arch_large_half",
+            () -> new LargeHalfArchBlock(BlockProps.DEEPSLATE_TILES.get()));
+    public static final RegistryObject<Block> DEEPSLATE_TILE_ARROWSLIT = registerBlock("deepslate_tile_arrowslit",
+            () -> new ArrowSlitBlock(BlockProps.DEEPSLATE_TILES.get()));
+    public static final RegistryObject<Block> DEEPSLATE_TILE_BALUSTRADE = registerBlock("deepslate_tile_balustrade",
+            () -> new BalustradeBlock(BlockProps.DEEPSLATE_TILES.get()));
+    public static final RegistryObject<Block> DEEPSLATE_TILE_CAPITAL = registerBlock("deepslate_tile_capital",
+            () -> new CapitalBlock(BlockProps.DEEPSLATE_TILES.get()));
+    public static final RegistryObject<Block> DEEPSLATE_TILE_CORNER = registerBlock("deepslate_tile_corner",
+            () -> new CornerLayerBlock(BlockProps.DEEPSLATE_TILES.get()));
+    public static final RegistryObject<Block> DEEPSLATE_TILE_CORNER_SLAB = registerBlock("deepslate_tile_corner_slab",
+            () -> new CornerSlabBlock(BlockProps.DEEPSLATE_TILES.get()));
+    public static final RegistryObject<Block> DEEPSLATE_TILE_CORNER_SLAB_VERTICAL = registerBlock("deepslate_tile_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(BlockProps.DEEPSLATE_TILES.get()));
+    public static final RegistryObject<Block> DEEPSLATE_TILE_EIGHTH = registerBlock("deepslate_tile_eighth",
+            () -> new EighthBlock(BlockProps.DEEPSLATE_TILES.get()));
+    public static final RegistryObject<Block> DEEPSLATE_TILE_QUARTER = registerBlock("deepslate_tile_quarter",
+            () -> new QuarterLayerBlock(BlockProps.DEEPSLATE_TILES.get()));
+    public static final RegistryObject<Block> DEEPSLATE_TILE_QUARTER_VERTICAL = registerBlock("deepslate_tile_quarter_vertical",
+            () -> new VerticalQuarterLayerBlock(BlockProps.DEEPSLATE_TILES.get()));
+    public static final RegistryObject<Block> DEEPSLATE_TILE_SLAB = registerBlock("deepslate_tile_slab",
+            () -> new SlabLayerBlock(BlockProps.DEEPSLATE_TILES.get()));
+    public static final RegistryObject<Block> DEEPSLATE_TILE_SLAB_VERTICAL = registerBlock("deepslate_tile_slab_vertical",
+            () -> new VerticalSlabLayerBlock(BlockProps.DEEPSLATE_TILES.get()));
+    public static final RegistryObject<Block> DEEPSLATE_TILE_WINDOW = registerBlock("deepslate_tile_window",
+            () -> new WindowBlock(BlockProps.DEEPSLATE_TILES.get()));
+    public static final RegistryObject<Block> DEEPSLATE_TILE_WINDOW_HALF = registerBlock("deepslate_tile_window_half",
+            () -> new HalfWindowBlock(BlockProps.DEEPSLATE_TILES.get()));
+
+    /* COBBLED DEEPSLATE */
+    public static final RegistryObject<Block> COBBLED_DEEPSLATE_ARCH = registerBlock("cobbled_deepslate_arch",
+            () -> new ArchBlock(BlockProps.COBBLED_DEEPSLATE.get()));
+    public static final RegistryObject<Block> COBBLED_DEEPSLATE_ARCH_HALF = registerBlock("cobbled_deepslate_arch_half",
+            () -> new HalfArchBlock(BlockProps.COBBLED_DEEPSLATE.get()));
+    public static final RegistryObject<Block> COBBLED_DEEPSLATE_ARCH_LARGE = registerBlock("cobbled_deepslate_arch_large",
+            () -> new LargeArchBlock(BlockProps.COBBLED_DEEPSLATE.get()));
+    public static final RegistryObject<Block> COBBLED_DEEPSLATE_ARCH_LARGE_HALF = registerBlock("cobbled_deepslate_arch_large_half",
+            () -> new LargeHalfArchBlock(BlockProps.COBBLED_DEEPSLATE.get()));
+    public static final RegistryObject<Block> COBBLED_DEEPSLATE_ARROWSLIT = registerBlock("cobbled_deepslate_arrowslit",
+            () -> new ArrowSlitBlock(BlockProps.COBBLED_DEEPSLATE.get()));
+    public static final RegistryObject<Block> COBBLED_DEEPSLATE_BALUSTRADE = registerBlock("cobbled_deepslate_balustrade",
+            () -> new BalustradeBlock(BlockProps.COBBLED_DEEPSLATE.get()));
+    public static final RegistryObject<Block> COBBLED_DEEPSLATE_CAPITAL = registerBlock("cobbled_deepslate_capital",
+            () -> new CapitalBlock(BlockProps.COBBLED_DEEPSLATE.get()));
+    public static final RegistryObject<Block> COBBLED_DEEPSLATE_CORNER = registerBlock("cobbled_deepslate_corner",
+            () -> new CornerLayerBlock(BlockProps.COBBLED_DEEPSLATE.get()));
+    public static final RegistryObject<Block> COBBLED_DEEPSLATE_CORNER_SLAB = registerBlock("cobbled_deepslate_corner_slab",
+            () -> new CornerSlabBlock(BlockProps.COBBLED_DEEPSLATE.get()));
+    public static final RegistryObject<Block> COBBLED_DEEPSLATE_CORNER_SLAB_VERTICAL = registerBlock("cobbled_deepslate_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(BlockProps.COBBLED_DEEPSLATE.get()));
+    public static final RegistryObject<Block> COBBLED_DEEPSLATE_EIGHTH = registerBlock("cobbled_deepslate_eighth",
+            () -> new EighthBlock(BlockProps.COBBLED_DEEPSLATE.get()));
+    public static final RegistryObject<Block> COBBLED_DEEPSLATE_QUARTER = registerBlock("cobbled_deepslate_quarter",
+            () -> new QuarterLayerBlock(BlockProps.COBBLED_DEEPSLATE.get()));
+    public static final RegistryObject<Block> COBBLED_DEEPSLATE_QUARTER_VERTICAL = registerBlock("cobbled_deepslate_quarter_vertical",
+            () -> new VerticalQuarterLayerBlock(BlockProps.COBBLED_DEEPSLATE.get()));
+    public static final RegistryObject<Block> COBBLED_DEEPSLATE_SLAB = registerBlock("cobbled_deepslate_slab",
+            () -> new SlabLayerBlock(BlockProps.COBBLED_DEEPSLATE.get()));
+    public static final RegistryObject<Block> COBBLED_DEEPSLATE_SLAB_VERTICAL = registerBlock("cobbled_deepslate_slab_vertical",
+            () -> new VerticalSlabLayerBlock(BlockProps.COBBLED_DEEPSLATE.get()));
+    public static final RegistryObject<Block> COBBLED_DEEPSLATE_WINDOW = registerBlock("cobbled_deepslate_window",
+            () -> new WindowBlock(BlockProps.COBBLED_DEEPSLATE.get()));
+    public static final RegistryObject<Block> COBBLED_DEEPSLATE_WINDOW_HALF = registerBlock("cobbled_deepslate_window_half",
+            () -> new HalfWindowBlock(BlockProps.COBBLED_DEEPSLATE.get()));
+
+    /* POLISHED DEEPSLATE */
+    public static final RegistryObject<Block> POLISHED_DEEPSLATE_ARCH = registerBlock("polished_deepslate_arch",
+            () -> new ArchBlock(BlockProps.POLISHED_DEEPSLATE.get()));
+    public static final RegistryObject<Block> POLISHED_DEEPSLATE_ARCH_HALF = registerBlock("polished_deepslate_arch_half",
+            () -> new HalfArchBlock(BlockProps.POLISHED_DEEPSLATE.get()));
+    public static final RegistryObject<Block> POLISHED_DEEPSLATE_ARCH_LARGE = registerBlock("polished_deepslate_arch_large",
+            () -> new LargeArchBlock(BlockProps.POLISHED_DEEPSLATE.get()));
+    public static final RegistryObject<Block> POLISHED_DEEPSLATE_ARCH_LARGE_HALF = registerBlock("polished_deepslate_arch_large_half",
+            () -> new LargeHalfArchBlock(BlockProps.POLISHED_DEEPSLATE.get()));
+    public static final RegistryObject<Block> POLISHED_DEEPSLATE_ARROWSLIT = registerBlock("polished_deepslate_arrowslit",
+            () -> new ArrowSlitBlock(BlockProps.POLISHED_DEEPSLATE.get()));
+    public static final RegistryObject<Block> POLISHED_DEEPSLATE_BALUSTRADE = registerBlock("polished_deepslate_balustrade",
+            () -> new BalustradeBlock(BlockProps.POLISHED_DEEPSLATE.get()));
+    public static final RegistryObject<Block> POLISHED_DEEPSLATE_CAPITAL = registerBlock("polished_deepslate_capital",
+            () -> new CapitalBlock(BlockProps.POLISHED_DEEPSLATE.get()));
+    public static final RegistryObject<Block> POLISHED_DEEPSLATE_CORNER = registerBlock("polished_deepslate_corner",
+            () -> new CornerLayerBlock(BlockProps.POLISHED_DEEPSLATE.get()));
+    public static final RegistryObject<Block> POLISHED_DEEPSLATE_CORNER_SLAB = registerBlock("polished_deepslate_corner_slab",
+            () -> new CornerSlabBlock(BlockProps.POLISHED_DEEPSLATE.get()));
+    public static final RegistryObject<Block> POLISHED_DEEPSLATE_CORNER_SLAB_VERTICAL = registerBlock("polished_deepslate_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(BlockProps.POLISHED_DEEPSLATE.get()));
+    public static final RegistryObject<Block> POLISHED_DEEPSLATE_EIGHTH = registerBlock("polished_deepslate_eighth",
+            () -> new EighthBlock(BlockProps.POLISHED_DEEPSLATE.get()));
+    public static final RegistryObject<Block> POLISHED_DEEPSLATE_QUARTER = registerBlock("polished_deepslate_quarter",
+            () -> new QuarterLayerBlock(BlockProps.POLISHED_DEEPSLATE.get()));
+    public static final RegistryObject<Block> POLISHED_DEEPSLATE_QUARTER_VERTICAL = registerBlock("polished_deepslate_quarter_vertical",
+            () -> new VerticalQuarterLayerBlock(BlockProps.POLISHED_DEEPSLATE.get()));
+    public static final RegistryObject<Block> POLISHED_DEEPSLATE_SLAB = registerBlock("polished_deepslate_slab",
+            () -> new SlabLayerBlock(BlockProps.POLISHED_DEEPSLATE.get()));
+    public static final RegistryObject<Block> POLISHED_DEEPSLATE_SLAB_VERTICAL = registerBlock("polished_deepslate_slab_vertical",
+            () -> new VerticalSlabLayerBlock(BlockProps.POLISHED_DEEPSLATE.get()));
+    public static final RegistryObject<Block> POLISHED_DEEPSLATE_WINDOW = registerBlock("polished_deepslate_window",
+            () -> new WindowBlock(BlockProps.POLISHED_DEEPSLATE.get()));
+    public static final RegistryObject<Block> POLISHED_DEEPSLATE_WINDOW_HALF = registerBlock("polished_deepslate_window_half",
+            () -> new HalfWindowBlock(BlockProps.POLISHED_DEEPSLATE.get()));
+    
     // -- GRANITE
     public static final RegistryObject<Block> BLACK_GRANITE = registerBlock("black_granite",
             () -> new Block(BlockProps.GRANITE.get()));

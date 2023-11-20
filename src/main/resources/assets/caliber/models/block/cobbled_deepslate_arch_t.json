@@ -1,0 +1,9 @@
+{
+  "parent": "caliber:block/arch_t",
+  "textures": {
+    "side": "minecraft:block/cobbled_deepslate",
+    "bottom": "minecraft:block/cobbled_deepslate",
+    "top": "minecraft:block/cobbled_deepslate",
+    "particle": "minecraft:block/cobbled_deepslate"
+  }
+}

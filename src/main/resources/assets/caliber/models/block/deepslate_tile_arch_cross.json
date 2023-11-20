@@ -1,0 +1,9 @@
+{
+  "parent": "caliber:block/arch_cross",
+  "textures": {
+    "side": "minecraft:block/deepslate_tiles",
+    "bottom": "minecraft:block/deepslate_tiles",
+    "top": "minecraft:block/deepslate_tiles",
+    "particle": "minecraft:block/deepslate_tiles"
+  }
+}

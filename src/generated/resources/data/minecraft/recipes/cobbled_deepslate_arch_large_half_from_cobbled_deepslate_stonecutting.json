@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:cobbled_deepslate"
+  },
+  "result": "caliber:cobbled_deepslate_arch_large_half",
+  "count": 2
+}

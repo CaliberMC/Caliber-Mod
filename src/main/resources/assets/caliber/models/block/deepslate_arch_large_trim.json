@@ -1,0 +1,9 @@
+{
+  "parent": "caliber:block/arch_large_trim",
+  "textures": {
+    "side": "minecraft:block/deepslate",
+    "bottom": "minecraft:block/deepslate",
+    "top": "minecraft:block/deepslate",
+    "particle": "minecraft:block/deepslate"
+  }
+}

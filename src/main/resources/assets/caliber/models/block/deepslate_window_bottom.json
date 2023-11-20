@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/window_bottom",
+  "textures": {
+    "side": "minecraft:block/deepslate",
+    "bottom": "minecraft:block/deepslate",
+    "top": "minecraft:block/deepslate"
+  }
+}

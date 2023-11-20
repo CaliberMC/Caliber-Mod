@@ -9,6 +9,10 @@ import net.minecraft.world.level.material.MaterialColor;
 public enum BlockProps {
     COBBLESTONE(BlockBehaviour.Properties.of(Material.STONE).strength(2.0f, 6.0F).sound(SoundType.STONE).requiresCorrectToolForDrops()),
     CLAY(BlockBehaviour.Properties.of(Material.CLAY).strength(0.6f).sound(SoundType.GRAVEL)),
+    DEEPSLATE(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE).sound(SoundType.DEEPSLATE).requiresCorrectToolForDrops()),
+    DEEPSLATE_BRICK(BlockBehaviour.Properties.copy(Blocks.COBBLED_DEEPSLATE).sound(SoundType.DEEPSLATE_BRICKS).requiresCorrectToolForDrops()),
+    DEEPSLATE_TILES(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_TILES).sound(SoundType.DEEPSLATE_TILES).requiresCorrectToolForDrops()),
+    COBBLED_DEEPSLATE(BlockBehaviour.Properties.copy(Blocks.COBBLED_DEEPSLATE).sound(SoundType.DEEPSLATE).requiresCorrectToolForDrops()),
     DEEPSLATE_SILVER_ORE(BlockBehaviour.Properties.of(Material.METAL).strength(4f).sound(SoundType.METAL).requiresCorrectToolForDrops()),
     DEEPSLATE_TIN_ORE(BlockBehaviour.Properties.of(Material.METAL).strength(4f).sound(SoundType.METAL).requiresCorrectToolForDrops()),
     DIRT(BlockBehaviour.Properties.of(Material.DIRT, MaterialColor.DIRT).strength(0.5f).sound(SoundType.GRAVEL)),
@@ -26,6 +30,7 @@ public enum BlockProps {
     PLASTER(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).sound(SoundType.TUFF).requiresCorrectToolForDrops()),
     PLASTER_POWDER(BlockBehaviour.Properties.of(Material.SAND).strength(0.5f).sound(SoundType.SAND)),
     PODZOL(BlockBehaviour.Properties.copy(Blocks.PODZOL)),
+    POLISHED_DEEPSLATE(BlockBehaviour.Properties.copy(Blocks.COBBLED_DEEPSLATE).sound(SoundType.POLISHED_DEEPSLATE).requiresCorrectToolForDrops()),
     RAW_SILVER(BlockBehaviour.Properties.of(Material.METAL).strength(2f).sound(SoundType.METAL).requiresCorrectToolForDrops()),
     RAW_TIN(BlockBehaviour.Properties.of(Material.METAL).strength(2f).sound(SoundType.METAL).requiresCorrectToolForDrops()),
     SAND(BlockBehaviour.Properties.of(Material.SAND).strength(0.5f).sound(SoundType.SAND).requiresCorrectToolForDrops()),
