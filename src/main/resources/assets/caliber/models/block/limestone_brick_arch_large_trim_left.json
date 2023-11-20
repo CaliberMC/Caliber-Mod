@@ -1,0 +1,9 @@
+{
+  "parent": "caliber:block/arch_large_trim_left",
+  "textures": {
+    "side": "minecraft:block/stone_bricks",
+    "bottom": "minecraft:block/stone_bricks",
+    "top": "minecraft:block/stone_bricks",
+    "particle": "minecraft:block/stone_bricks"
+  }
+}
