@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "caliber:cobbled_light_limestone"
+  },
+  "result": "caliber:cobbled_light_limestone_pillar",
+  "count": 5
+}

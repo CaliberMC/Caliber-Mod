@@ -13,6 +13,26 @@ public class ModTags {
 
 
     public static class Blocks {
+        /* Block Type Tags */
+        public static final TagKey<Block> arches = tag("arches");
+        public static final TagKey<Block> arrowslits = tag("arrowslits");
+        public static final TagKey<Block> balustrades = tag("balustrades");
+        public static final TagKey<Block> capitals = tag("capitals");
+//        public static final TagKey<Block> columns = tag("columns");
+//        public static final TagKey<Block> cornices = tag("cornices");
+        public static final TagKey<Block> corners = tag("corners");
+        public static final TagKey<Block> eighths = tag("eights");
+        public static final TagKey<Block> halfArches = tag("half_arches");
+        public static final TagKey<Block> halfLargeArches= tag("half_large_arches");
+        public static final TagKey<Block> halfWindows = tag("half_windows");
+        public static final TagKey<Block> largeArches = tag("large_arches");
+        public static final TagKey<Block> pillars = tag("pillars");
+        public static final TagKey<Block> quarters = tag("quarters");
+        public static final TagKey<Block> verticalCornerSlabs = tag("vertical_corner_slabs");
+        public static final TagKey<Block> verticalQuarters = tag("vertical_quarters");
+        public static final TagKey<Block> verticalSlabs = tag("vertical_slabs");
+        public static final TagKey<Block> windows = tag("windows");
+
 
 
         private static TagKey<Block> tag(String name) {

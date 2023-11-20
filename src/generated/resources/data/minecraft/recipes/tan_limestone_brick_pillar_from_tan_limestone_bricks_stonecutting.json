@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "caliber:tan_limestone_bricks"
+  },
+  "result": "caliber:tan_limestone_brick_pillar",
+  "count": 5
+}
