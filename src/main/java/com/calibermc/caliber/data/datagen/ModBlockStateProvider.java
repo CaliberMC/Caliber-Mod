@@ -198,12 +198,24 @@ public class ModBlockStateProvider extends BlockStateProvider {
         wallBlock((WallBlock) ModBlocks.OAK_WALL.get(), blockTexture(Blocks.OAK_PLANKS));
         wallBlock((WallBlock) ModBlocks.SPRUCE_WALL.get(), blockTexture(Blocks.SPRUCE_PLANKS));
 
-        /* Plaster */
+        /* PLASTER */
         simpleBlock(ModBlocks.BEIGE_PLASTER.get());
         simpleBlock(ModBlocks.BROWN_PLASTER.get());
         simpleBlock(ModBlocks.OCHRE_PLASTER.get());
         simpleBlock(ModBlocks.TAN_PLASTER.get());
         simpleBlock(ModBlocks.WHITE_PLASTER.get());
+        stairsBlock((StairBlock) ModBlocks.BEIGE_PLASTER_STAIRS.get(), blockTexture(ModBlocks.BEIGE_PLASTER.get()));
+        stairsBlock((StairBlock) ModBlocks.BROWN_PLASTER_STAIRS.get(), blockTexture(ModBlocks.BROWN_PLASTER.get()));
+        stairsBlock((StairBlock) ModBlocks.OCHRE_PLASTER_STAIRS.get(), blockTexture(ModBlocks.OCHRE_PLASTER.get()));
+        stairsBlock((StairBlock) ModBlocks.TAN_PLASTER_STAIRS.get(), blockTexture(ModBlocks.TAN_PLASTER.get()));
+        stairsBlock((StairBlock) ModBlocks.WHITE_PLASTER_STAIRS.get(), blockTexture(ModBlocks.WHITE_PLASTER.get()));
+        wallBlock((WallBlock) ModBlocks.BEIGE_PLASTER_WALL.get(), blockTexture(ModBlocks.BEIGE_PLASTER.get()));
+        wallBlock((WallBlock) ModBlocks.BROWN_PLASTER_WALL.get(), blockTexture(ModBlocks.BROWN_PLASTER.get()));
+        wallBlock((WallBlock) ModBlocks.OCHRE_PLASTER_WALL.get(), blockTexture(ModBlocks.OCHRE_PLASTER.get()));
+        wallBlock((WallBlock) ModBlocks.TAN_PLASTER_WALL.get(), blockTexture(ModBlocks.TAN_PLASTER.get()));
+        wallBlock((WallBlock) ModBlocks.WHITE_PLASTER_WALL.get(), blockTexture(ModBlocks.WHITE_PLASTER.get()));
+
+        /* Plaster Powder */
         simpleBlock(ModBlocks.BEIGE_PLASTER_POWDER.get());
         simpleBlock(ModBlocks.BROWN_PLASTER_POWDER.get());
         simpleBlock(ModBlocks.OCHRE_PLASTER_POWDER.get());

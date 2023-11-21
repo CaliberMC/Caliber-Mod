@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "caliber:beige_plaster"
+  },
+  "result": "caliber:beige_plaster_capital",
+  "count": 2
+}

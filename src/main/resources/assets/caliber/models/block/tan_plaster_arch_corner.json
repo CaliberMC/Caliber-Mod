@@ -1,0 +1,9 @@
+{
+  "parent": "caliber:block/arch_corner",
+  "textures": {
+    "side": "caliber:block/tan_plaster",
+    "bottom": "caliber:block/tan_plaster",
+    "top": "caliber:block/tan_plaster",
+    "particle": "caliber:block/tan_plaster"
+  }
+}

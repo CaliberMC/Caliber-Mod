@@ -104,13 +104,18 @@
 - Bugfix: fixed pressure plate tags
 
 0.0.19 (in progress)
-- Current Mod Block Count is at 1,721
+- Current Mod Block Count is at 1,821
 - Added Hammer Item for cycling blockstate conditions
 - Added 2 Modes for Layered Blocks (Slab Mode & Layer Mode)
     - Slab Mode: Only slab thickness blocks will be placed when placing layered blocks. Use the keybind (m) to place layered blocks.
     - Layer Mode: Only layered blocks will be placed when placing layered blocks. Use the keybind (m) to place slab thickness blocks.
 - Added keybind (m) to enable Conquest like BlockState behaviour for Corner Blocks, Quarter Blocks, Vertical Quarter Blocks, Slab Blocks, Slab Blocks with the LAYERS property, otherwise they will function like the original slab thickness blocks.
 - Added buildmode command to change behaviour of all Layered Blocks (calibermod.buildmode)
+- Added all variants of Beige Plaster
+- Added all variants of Brown Plaster
+- Added all variants of Ochre Plaster
+- Added all variants of Tan Plaster
+- Added all variants of White Plaster
 - Added all variants of Deepslate
 - Added all variants of Deepslate Bricks
 - Added all variants of Deepslate Tiles

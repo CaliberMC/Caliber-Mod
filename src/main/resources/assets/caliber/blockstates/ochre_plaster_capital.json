@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "caliber:block/ochre_plaster_capital"
+    },
+    "type=top": {
+      "model": "caliber:block/ochre_plaster_capital_top"
+    }
+  }
+}

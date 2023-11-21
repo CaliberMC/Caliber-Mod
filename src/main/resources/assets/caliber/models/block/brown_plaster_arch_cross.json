@@ -1,0 +1,9 @@
+{
+  "parent": "caliber:block/arch_cross",
+  "textures": {
+    "side": "caliber:block/brown_plaster",
+    "bottom": "caliber:block/brown_plaster",
+    "top": "caliber:block/brown_plaster",
+    "particle": "caliber:block/brown_plaster"
+  }
+}

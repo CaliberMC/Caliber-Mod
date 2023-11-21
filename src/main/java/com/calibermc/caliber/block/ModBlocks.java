@@ -2979,7 +2979,208 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
             () -> new Block(BlockProps.PLASTER.get()));
     public static final RegistryObject<Block> WHITE_PLASTER = registerBlock("white_plaster",
             () -> new Block(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BEIGE_PLASTER_ARCH = registerBlock("beige_plaster_arch",
+            () -> new ArchBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BROWN_PLASTER_ARCH = registerBlock("brown_plaster_arch",
+            () -> new ArchBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> OCHRE_PLASTER_ARCH = registerBlock("ochre_plaster_arch",
+            () -> new ArchBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> TAN_PLASTER_ARCH = registerBlock("tan_plaster_arch",
+            () -> new ArchBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> WHITE_PLASTER_ARCH = registerBlock("white_plaster_arch",
+            () -> new ArchBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BEIGE_PLASTER_ARCH_HALF = registerBlock("beige_plaster_arch_half",
+            () -> new HalfArchBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BROWN_PLASTER_ARCH_HALF = registerBlock("brown_plaster_arch_half",
+            () -> new HalfArchBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> OCHRE_PLASTER_ARCH_HALF = registerBlock("ochre_plaster_arch_half",
+            () -> new HalfArchBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> TAN_PLASTER_ARCH_HALF = registerBlock("tan_plaster_arch_half",
+            () -> new HalfArchBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> WHITE_PLASTER_ARCH_HALF = registerBlock("white_plaster_arch_half",
+            () -> new HalfArchBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BEIGE_PLASTER_ARCH_LARGE = registerBlock("beige_plaster_arch_large",
+            () -> new LargeArchBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BROWN_PLASTER_ARCH_LARGE = registerBlock("brown_plaster_arch_large",
+            () -> new LargeArchBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> OCHRE_PLASTER_ARCH_LARGE = registerBlock("ochre_plaster_arch_large",
+            () -> new LargeArchBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> TAN_PLASTER_ARCH_LARGE = registerBlock("tan_plaster_arch_large",
+            () -> new LargeArchBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> WHITE_PLASTER_ARCH_LARGE = registerBlock("white_plaster_arch_large",
+            () -> new LargeArchBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BEIGE_PLASTER_ARCH_LARGE_HALF = registerBlock("beige_plaster_arch_large_half",
+            () -> new LargeHalfArchBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BROWN_PLASTER_ARCH_LARGE_HALF = registerBlock("brown_plaster_arch_large_half",
+            () -> new LargeHalfArchBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> OCHRE_PLASTER_ARCH_LARGE_HALF = registerBlock("ochre_plaster_arch_large_half",
+            () -> new LargeHalfArchBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> TAN_PLASTER_ARCH_LARGE_HALF = registerBlock("tan_plaster_arch_large_half",
+            () -> new LargeHalfArchBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> WHITE_PLASTER_ARCH_LARGE_HALF = registerBlock("white_plaster_arch_large_half",
+            () -> new LargeHalfArchBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BEIGE_PLASTER_ARROWSLIT = registerBlock("beige_plaster_arrowslit",
+            () -> new ArrowSlitBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BROWN_PLASTER_ARROWSLIT = registerBlock("brown_plaster_arrowslit",
+            () -> new ArrowSlitBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> OCHRE_PLASTER_ARROWSLIT = registerBlock("ochre_plaster_arrowslit",
+            () -> new ArrowSlitBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> TAN_PLASTER_ARROWSLIT = registerBlock("tan_plaster_arrowslit",
+            () -> new ArrowSlitBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> WHITE_PLASTER_ARROWSLIT = registerBlock("white_plaster_arrowslit",
+            () -> new ArrowSlitBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BEIGE_PLASTER_BALUSTRADE = registerBlock("beige_plaster_balustrade",
+            () -> new BalustradeBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BROWN_PLASTER_BALUSTRADE = registerBlock("brown_plaster_balustrade",
+            () -> new BalustradeBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> OCHRE_PLASTER_BALUSTRADE = registerBlock("ochre_plaster_balustrade",
+            () -> new BalustradeBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> TAN_PLASTER_BALUSTRADE = registerBlock("tan_plaster_balustrade",
+            () -> new BalustradeBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> WHITE_PLASTER_BALUSTRADE = registerBlock("white_plaster_balustrade",
+            () -> new BalustradeBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BEIGE_PLASTER_CAPITAL = registerBlock("beige_plaster_capital",
+            () -> new CapitalBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BROWN_PLASTER_CAPITAL = registerBlock("brown_plaster_capital",
+            () -> new CapitalBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> OCHRE_PLASTER_CAPITAL = registerBlock("ochre_plaster_capital",
+            () -> new CapitalBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> TAN_PLASTER_CAPITAL = registerBlock("tan_plaster_capital",
+            () -> new CapitalBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> WHITE_PLASTER_CAPITAL = registerBlock("white_plaster_capital",
+            () -> new CapitalBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BEIGE_PLASTER_CORNER = registerBlock("beige_plaster_corner",
+            () -> new CornerLayerBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BROWN_PLASTER_CORNER = registerBlock("brown_plaster_corner",
+            () -> new CornerLayerBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> OCHRE_PLASTER_CORNER = registerBlock("ochre_plaster_corner",
+            () -> new CornerLayerBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> TAN_PLASTER_CORNER = registerBlock("tan_plaster_corner",
+            () -> new CornerLayerBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> WHITE_PLASTER_CORNER = registerBlock("white_plaster_corner",
+            () -> new CornerLayerBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BEIGE_PLASTER_CORNER_SLAB = registerBlock("beige_plaster_corner_slab",
+            () -> new CornerSlabBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BROWN_PLASTER_CORNER_SLAB = registerBlock("brown_plaster_corner_slab",
+            () -> new CornerSlabBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> OCHRE_PLASTER_CORNER_SLAB = registerBlock("ochre_plaster_corner_slab",
+            () -> new CornerSlabBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> TAN_PLASTER_CORNER_SLAB = registerBlock("tan_plaster_corner_slab",
+            () -> new CornerSlabBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> WHITE_PLASTER_CORNER_SLAB = registerBlock("white_plaster_corner_slab",
+            () -> new CornerSlabBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BEIGE_PLASTER_CORNER_SLAB_VERTICAL = registerBlock("beige_plaster_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BROWN_PLASTER_CORNER_SLAB_VERTICAL = registerBlock("brown_plaster_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> OCHRE_PLASTER_CORNER_SLAB_VERTICAL = registerBlock("ochre_plaster_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> TAN_PLASTER_CORNER_SLAB_VERTICAL = registerBlock("tan_plaster_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> WHITE_PLASTER_CORNER_SLAB_VERTICAL = registerBlock("white_plaster_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BEIGE_PLASTER_EIGHTH = registerBlock("beige_plaster_eighth",
+            () -> new EighthBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BROWN_PLASTER_EIGHTH = registerBlock("brown_plaster_eighth",
+            () -> new EighthBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> OCHRE_PLASTER_EIGHTH = registerBlock("ochre_plaster_eighth",
+            () -> new EighthBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> TAN_PLASTER_EIGHTH = registerBlock("tan_plaster_eighth",
+            () -> new EighthBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> WHITE_PLASTER_EIGHTH = registerBlock("white_plaster_eighth",
+            () -> new EighthBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BEIGE_PLASTER_PILLAR = registerBlock("beige_plaster_pillar",
+            () -> new PillarLayerBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BROWN_PLASTER_PILLAR = registerBlock("brown_plaster_pillar",
+            () -> new PillarLayerBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> OCHRE_PLASTER_PILLAR = registerBlock("ochre_plaster_pillar",
+            () -> new PillarLayerBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> TAN_PLASTER_PILLAR = registerBlock("tan_plaster_pillar",
+            () -> new PillarLayerBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> WHITE_PLASTER_PILLAR = registerBlock("white_plaster_pillar",
+            () -> new PillarLayerBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BEIGE_PLASTER_QUARTER = registerBlock("beige_plaster_quarter",
+            () -> new QuarterLayerBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BROWN_PLASTER_QUARTER = registerBlock("brown_plaster_quarter",
+            () -> new QuarterLayerBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> OCHRE_PLASTER_QUARTER = registerBlock("ochre_plaster_quarter",
+            () -> new QuarterLayerBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> TAN_PLASTER_QUARTER = registerBlock("tan_plaster_quarter",
+            () -> new QuarterLayerBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> WHITE_PLASTER_QUARTER = registerBlock("white_plaster_quarter",
+            () -> new QuarterLayerBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BEIGE_PLASTER_QUARTER_VERTICAL = registerBlock("beige_plaster_quarter_vertical",
+            () -> new VerticalQuarterLayerBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BROWN_PLASTER_QUARTER_VERTICAL = registerBlock("brown_plaster_quarter_vertical",
+            () -> new VerticalQuarterLayerBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> OCHRE_PLASTER_QUARTER_VERTICAL = registerBlock("ochre_plaster_quarter_vertical",
+            () -> new VerticalQuarterLayerBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> TAN_PLASTER_QUARTER_VERTICAL = registerBlock("tan_plaster_quarter_vertical",
+            () -> new VerticalQuarterLayerBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> WHITE_PLASTER_QUARTER_VERTICAL = registerBlock("white_plaster_quarter_vertical",
+            () -> new VerticalQuarterLayerBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BEIGE_PLASTER_SLAB = registerBlock("beige_plaster_slab",
+            () -> new SlabLayerBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BROWN_PLASTER_SLAB = registerBlock("brown_plaster_slab",
+            () -> new SlabLayerBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> OCHRE_PLASTER_SLAB = registerBlock("ochre_plaster_slab",
+            () -> new SlabLayerBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> TAN_PLASTER_SLAB = registerBlock("tan_plaster_slab",
+            () -> new SlabLayerBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> WHITE_PLASTER_SLAB = registerBlock("white_plaster_slab",
+            () -> new SlabLayerBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BEIGE_PLASTER_SLAB_VERTICAL = registerBlock("beige_plaster_slab_vertical",
+            () -> new VerticalSlabLayerBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BROWN_PLASTER_SLAB_VERTICAL = registerBlock("brown_plaster_slab_vertical",
+            () -> new VerticalSlabLayerBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> OCHRE_PLASTER_SLAB_VERTICAL = registerBlock("ochre_plaster_slab_vertical",
+            () -> new VerticalSlabLayerBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> TAN_PLASTER_SLAB_VERTICAL = registerBlock("tan_plaster_slab_vertical",
+            () -> new VerticalSlabLayerBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> WHITE_PLASTER_SLAB_VERTICAL = registerBlock("white_plaster_slab_vertical",
+            () -> new VerticalSlabLayerBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BEIGE_PLASTER_STAIRS = registerBlock("beige_plaster_stairs",
+            () -> new StairBlock(() -> ModBlocks.BEIGE_PLASTER.get().defaultBlockState(), BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BROWN_PLASTER_STAIRS = registerBlock("brown_plaster_stairs",
+            () -> new StairBlock(() -> ModBlocks.BROWN_PLASTER.get().defaultBlockState(), BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> OCHRE_PLASTER_STAIRS = registerBlock("ochre_plaster_stairs",
+            () -> new StairBlock(() -> ModBlocks.OCHRE_PLASTER.get().defaultBlockState(), BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> TAN_PLASTER_STAIRS = registerBlock("tan_plaster_stairs",
+            () -> new StairBlock(() -> ModBlocks.TAN_PLASTER.get().defaultBlockState(), BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> WHITE_PLASTER_STAIRS = registerBlock("white_plaster_stairs",
+            () -> new StairBlock(() -> ModBlocks.WHITE_PLASTER.get().defaultBlockState(), BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BEIGE_PLASTER_WALL = registerBlock("beige_plaster_wall",
+            () -> new WallBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BROWN_PLASTER_WALL = registerBlock("brown_plaster_wall",
+            () -> new WallBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> OCHRE_PLASTER_WALL = registerBlock("ochre_plaster_wall",
+            () -> new WallBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> TAN_PLASTER_WALL = registerBlock("tan_plaster_wall",
+            () -> new WallBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> WHITE_PLASTER_WALL = registerBlock("white_plaster_wall",
+            () -> new WallBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BEIGE_PLASTER_WINDOW = registerBlock("beige_plaster_window",
+            () -> new WindowBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BROWN_PLASTER_WINDOW = registerBlock("brown_plaster_window",
+            () -> new WindowBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> OCHRE_PLASTER_WINDOW = registerBlock("ochre_plaster_window",
+            () -> new WindowBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> TAN_PLASTER_WINDOW = registerBlock("tan_plaster_window",
+            () -> new WindowBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> WHITE_PLASTER_WINDOW = registerBlock("white_plaster_window",
+            () -> new WindowBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BEIGE_PLASTER_WINDOW_HALF = registerBlock("beige_plaster_window_half",
+            () -> new HalfWindowBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> BROWN_PLASTER_WINDOW_HALF = registerBlock("brown_plaster_window_half",
+            () -> new HalfWindowBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> OCHRE_PLASTER_WINDOW_HALF = registerBlock("ochre_plaster_window_half",
+            () -> new HalfWindowBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> TAN_PLASTER_WINDOW_HALF = registerBlock("tan_plaster_window_half",
+            () -> new HalfWindowBlock(BlockProps.PLASTER.get()));
+    public static final RegistryObject<Block> WHITE_PLASTER_WINDOW_HALF = registerBlock("white_plaster_window_half",
+            () -> new HalfWindowBlock(BlockProps.PLASTER.get()));
 
+    /* Plaster Powder */
     public static final RegistryObject<ConcretePowderBlock> BEIGE_PLASTER_POWDER = registerBlock("beige_plaster_powder",
             () -> new ConcretePowderBlock(ModBlocks.BEIGE_PLASTER.get(), BlockProps.PLASTER_POWDER.get()));
     public static final RegistryObject<ConcretePowderBlock> BROWN_PLASTER_POWDER = registerBlock("brown_plaster_powder",

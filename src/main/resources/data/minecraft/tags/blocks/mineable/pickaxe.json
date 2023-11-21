@@ -48,8 +48,6 @@
     "caliber:deepslate_brick_quarter_vertical",
     "caliber:deepslate_brick_slab",
     "caliber:deepslate_brick_slab_vertical",
-    "caliber:deepslate_brick_stairs",
-    "caliber:deepslate_brick_wall",
     "caliber:deepslate_brick_window",
     "caliber:deepslate_brick_window_half",
 
@@ -69,8 +67,6 @@
     "caliber:deepslate_tile_quarter_vertical",
     "caliber:deepslate_tile_slab",
     "caliber:deepslate_tile_slab_vertical",
-    "caliber:deepslate_tile_stairs",
-    "caliber:deepslate_tile_wall",
     "caliber:deepslate_tile_window",
     "caliber:deepslate_tile_window_half",
 
@@ -90,8 +86,6 @@
     "caliber:cobbled_deepslate_quarter_vertical",
     "caliber:cobbled_deepslate_slab",
     "caliber:cobbled_deepslate_slab_vertical",
-    "caliber:cobbled_deepslate_stairs",
-    "caliber:cobbled_deepslate_wall",
     "caliber:cobbled_deepslate_window",
     "caliber:cobbled_deepslate_window_half",
 
@@ -111,8 +105,6 @@
     "caliber:polished_deepslate_quarter_vertical",
     "caliber:polished_deepslate_slab",
     "caliber:polished_deepslate_slab_vertical",
-    "caliber:polished_deepslate_stairs",
-    "caliber:polished_deepslate_wall",
     "caliber:polished_deepslate_window",
     "caliber:polished_deepslate_window_half",
 
