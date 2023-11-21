@@ -46,6 +46,7 @@ public class ModTags {
     }
 
     public static class Items {
+        /* Creative Tab Tags */
         public static final TagKey<Item> armorTab = tag("armor_tab");
         public static final TagKey<Item> brewingTab = tag("brewing_tab");
         public static final TagKey<Item> cobbleBricksTab = tag( "cobble_bricks_tab");

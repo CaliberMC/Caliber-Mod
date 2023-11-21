@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "caliber:deepslate_wall",
     "caliber:black_granite_wall",
     "caliber:brown_granite_wall",
     "caliber:gray_granite_wall",

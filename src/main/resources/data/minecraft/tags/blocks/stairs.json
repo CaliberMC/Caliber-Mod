@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "caliber:deepslate_stairs",
     "caliber:black_granite_stairs",
     "caliber:brown_granite_stairs",
     "caliber:gray_granite_stairs",
