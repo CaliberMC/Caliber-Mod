@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "caliber:tudor_birch_white_plaster_horizontal_2"
+  },
+  "result": "caliber:tudor_birch_white_plaster_quarter_vertical_horizontal_2",
+  "count": 4
+}

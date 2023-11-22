@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:tudor_dark_oak_beige_plaster_slab_vertical_cross_from_tudor_dark_oak_beige_plaster_cross_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has tudor_dark_oak_beige_plaster_cross": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caliber:tudor_dark_oak_beige_plaster_cross"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:tudor_dark_oak_beige_plaster_slab_vertical_cross_from_tudor_dark_oak_beige_plaster_cross_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has tudor_dark_oak_beige_plaster_cross",
+      "has_the_recipe"
+    ]
+  ]
+}

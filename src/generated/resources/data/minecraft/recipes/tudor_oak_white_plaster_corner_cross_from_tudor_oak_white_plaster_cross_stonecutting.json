@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "caliber:tudor_oak_white_plaster_cross"
+  },
+  "result": "caliber:tudor_oak_white_plaster_corner_cross",
+  "count": 2
+}

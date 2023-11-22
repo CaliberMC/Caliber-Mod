@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:tudor_oak_brown_plaster_down_from_oak_planks_brown_plaster"
+    ]
+  },
+  "criteria": {
+    "has_brown_plaster": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caliber:brown_plaster"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:tudor_oak_brown_plaster_down_from_oak_planks_brown_plaster"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_brown_plaster",
+      "has_the_recipe"
+    ]
+  ]
+}

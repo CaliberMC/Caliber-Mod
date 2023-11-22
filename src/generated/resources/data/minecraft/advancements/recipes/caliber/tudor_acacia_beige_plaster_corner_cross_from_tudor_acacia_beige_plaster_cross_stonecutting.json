@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:tudor_acacia_beige_plaster_corner_cross_from_tudor_acacia_beige_plaster_cross_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has tudor_acacia_beige_plaster_cross": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caliber:tudor_acacia_beige_plaster_cross"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:tudor_acacia_beige_plaster_corner_cross_from_tudor_acacia_beige_plaster_cross_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has tudor_acacia_beige_plaster_cross",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -3193,7 +3193,7 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
             () -> new ConcretePowderBlock(ModBlocks.WHITE_PLASTER.get(), BlockProps.PLASTER_POWDER.get()));
 
     // TUDOR BLOCKS
-    /* Beige Plaster Half-Timbered Blocks */
+    /* Acacia Beige Plaster Half-Timbered Blocks */
     public static final RegistryObject<Block> TUDOR_ACACIA_BEIGE_PLASTER_CROSS = registerBlock("tudor_acacia_beige_plaster_cross",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
     public static final RegistryObject<Block> TUDOR_ACACIA_BEIGE_PLASTER_DOWN = registerBlock("tudor_acacia_beige_plaster_down",
@@ -3213,6 +3213,67 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
     public static final RegistryObject<Block> TUDOR_ACACIA_BEIGE_PLASTER_VERTICAL_2 = registerBlock("tudor_acacia_beige_plaster_vertical_2",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
 
+    /* Acacia Beige Plaster Half-Timbered Corners */
+    public static final RegistryObject<Block> TUDOR_ACACIA_BEIGE_PLASTER_CORNER_CROSS = registerBlock("tudor_acacia_beige_plaster_corner_cross",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BEIGE_PLASTER_CORNER_DOWN = registerBlock("tudor_acacia_beige_plaster_corner_down",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BEIGE_PLASTER_CORNER_UP = registerBlock("tudor_acacia_beige_plaster_corner_up",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BEIGE_PLASTER_CORNER_LEFT = registerBlock("tudor_acacia_beige_plaster_corner_left",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BEIGE_PLASTER_CORNER_RIGHT = registerBlock("tudor_acacia_beige_plaster_corner_right",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BEIGE_PLASTER_CORNER_HORIZONTAL_1 = registerBlock("tudor_acacia_beige_plaster_corner_horizontal_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BEIGE_PLASTER_CORNER_HORIZONTAL_2 = registerBlock("tudor_acacia_beige_plaster_corner_horizontal_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BEIGE_PLASTER_CORNER_VERTICAL_1 = registerBlock("tudor_acacia_beige_plaster_corner_vertical_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BEIGE_PLASTER_CORNER_VERTICAL_2 = registerBlock("tudor_acacia_beige_plaster_corner_vertical_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Acacia Beige Plaster Half-Timbered Vertical Quarters */
+    public static final RegistryObject<Block> TUDOR_ACACIA_BEIGE_PLASTER_QUARTER_VERTICAL_CROSS = registerBlock("tudor_acacia_beige_plaster_quarter_vertical_cross",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BEIGE_PLASTER_QUARTER_VERTICAL_DOWN = registerBlock("tudor_acacia_beige_plaster_quarter_vertical_down",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BEIGE_PLASTER_QUARTER_VERTICAL_UP = registerBlock("tudor_acacia_beige_plaster_quarter_vertical_up",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BEIGE_PLASTER_QUARTER_VERTICAL_LEFT = registerBlock("tudor_acacia_beige_plaster_quarter_vertical_left",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BEIGE_PLASTER_QUARTER_VERTICAL_RIGHT = registerBlock("tudor_acacia_beige_plaster_quarter_vertical_right",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BEIGE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_acacia_beige_plaster_quarter_vertical_horizontal_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BEIGE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_acacia_beige_plaster_quarter_vertical_horizontal_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BEIGE_PLASTER_QUARTER_VERTICAL_VERTICAL_1 = registerBlock("tudor_acacia_beige_plaster_quarter_vertical_vertical_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BEIGE_PLASTER_QUARTER_VERTICAL_VERTICAL_2 = registerBlock("tudor_acacia_beige_plaster_quarter_vertical_vertical_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Acacia Beige Plaster Half-Timbered Vertical Slabs */
+    public static final RegistryObject<Block> TUDOR_ACACIA_BEIGE_PLASTER_SLAB_VERTICAL_CROSS = registerBlock("tudor_acacia_beige_plaster_slab_vertical_cross",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BEIGE_PLASTER_SLAB_VERTICAL_DOWN = registerBlock("tudor_acacia_beige_plaster_slab_vertical_down",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BEIGE_PLASTER_SLAB_VERTICAL_UP = registerBlock("tudor_acacia_beige_plaster_slab_vertical_up",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BEIGE_PLASTER_SLAB_VERTICAL_LEFT = registerBlock("tudor_acacia_beige_plaster_slab_vertical_left",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BEIGE_PLASTER_SLAB_VERTICAL_RIGHT = registerBlock("tudor_acacia_beige_plaster_slab_vertical_right",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BEIGE_PLASTER_SLAB_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_acacia_beige_plaster_slab_vertical_horizontal_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BEIGE_PLASTER_SLAB_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_acacia_beige_plaster_slab_vertical_horizontal_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BEIGE_PLASTER_SLAB_VERTICAL_VERTICAL_1 = registerBlock("tudor_acacia_beige_plaster_slab_vertical_vertical_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BEIGE_PLASTER_SLAB_VERTICAL_VERTICAL_2 = registerBlock("tudor_acacia_beige_plaster_slab_vertical_vertical_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    
+    /* Birch Beige Plaster Half-Timbered Blocks */
     public static final RegistryObject<Block> TUDOR_BIRCH_BEIGE_PLASTER_CROSS = registerBlock("tudor_birch_beige_plaster_cross",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
     public static final RegistryObject<Block> TUDOR_BIRCH_BEIGE_PLASTER_DOWN = registerBlock("tudor_birch_beige_plaster_down",
@@ -3231,7 +3292,68 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
     public static final RegistryObject<Block> TUDOR_BIRCH_BEIGE_PLASTER_VERTICAL_2 = registerBlock("tudor_birch_beige_plaster_vertical_2",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
-    
+
+    /* Birch Beige Plaster Half-Timbered Corners */
+    public static final RegistryObject<Block> TUDOR_BIRCH_BEIGE_PLASTER_CORNER_CROSS = registerBlock("tudor_birch_beige_plaster_corner_cross",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BEIGE_PLASTER_CORNER_DOWN = registerBlock("tudor_birch_beige_plaster_corner_down",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BEIGE_PLASTER_CORNER_UP = registerBlock("tudor_birch_beige_plaster_corner_up",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BEIGE_PLASTER_CORNER_LEFT = registerBlock("tudor_birch_beige_plaster_corner_left",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BEIGE_PLASTER_CORNER_RIGHT = registerBlock("tudor_birch_beige_plaster_corner_right",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BEIGE_PLASTER_CORNER_HORIZONTAL_1 = registerBlock("tudor_birch_beige_plaster_corner_horizontal_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BEIGE_PLASTER_CORNER_HORIZONTAL_2 = registerBlock("tudor_birch_beige_plaster_corner_horizontal_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BEIGE_PLASTER_CORNER_VERTICAL_1 = registerBlock("tudor_birch_beige_plaster_corner_vertical_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BEIGE_PLASTER_CORNER_VERTICAL_2 = registerBlock("tudor_birch_beige_plaster_corner_vertical_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Birch Beige Plaster Half-Timbered Vertical Quarters */
+    public static final RegistryObject<Block> TUDOR_BIRCH_BEIGE_PLASTER_QUARTER_VERTICAL_CROSS = registerBlock("tudor_birch_beige_plaster_quarter_vertical_cross",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BEIGE_PLASTER_QUARTER_VERTICAL_DOWN = registerBlock("tudor_birch_beige_plaster_quarter_vertical_down",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BEIGE_PLASTER_QUARTER_VERTICAL_UP = registerBlock("tudor_birch_beige_plaster_quarter_vertical_up",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BEIGE_PLASTER_QUARTER_VERTICAL_LEFT = registerBlock("tudor_birch_beige_plaster_quarter_vertical_left",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BEIGE_PLASTER_QUARTER_VERTICAL_RIGHT = registerBlock("tudor_birch_beige_plaster_quarter_vertical_right",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BEIGE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_birch_beige_plaster_quarter_vertical_horizontal_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BEIGE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_birch_beige_plaster_quarter_vertical_horizontal_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BEIGE_PLASTER_QUARTER_VERTICAL_VERTICAL_1 = registerBlock("tudor_birch_beige_plaster_quarter_vertical_vertical_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BEIGE_PLASTER_QUARTER_VERTICAL_VERTICAL_2 = registerBlock("tudor_birch_beige_plaster_quarter_vertical_vertical_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Birch Beige Plaster Half-Timbered Vertical Slabs */
+    public static final RegistryObject<Block> TUDOR_BIRCH_BEIGE_PLASTER_SLAB_VERTICAL_CROSS = registerBlock("tudor_birch_beige_plaster_slab_vertical_cross",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BEIGE_PLASTER_SLAB_VERTICAL_DOWN = registerBlock("tudor_birch_beige_plaster_slab_vertical_down",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BEIGE_PLASTER_SLAB_VERTICAL_UP = registerBlock("tudor_birch_beige_plaster_slab_vertical_up",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BEIGE_PLASTER_SLAB_VERTICAL_LEFT = registerBlock("tudor_birch_beige_plaster_slab_vertical_left",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BEIGE_PLASTER_SLAB_VERTICAL_RIGHT = registerBlock("tudor_birch_beige_plaster_slab_vertical_right",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BEIGE_PLASTER_SLAB_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_birch_beige_plaster_slab_vertical_horizontal_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BEIGE_PLASTER_SLAB_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_birch_beige_plaster_slab_vertical_horizontal_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BEIGE_PLASTER_SLAB_VERTICAL_VERTICAL_1 = registerBlock("tudor_birch_beige_plaster_slab_vertical_vertical_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BEIGE_PLASTER_SLAB_VERTICAL_VERTICAL_2 = registerBlock("tudor_birch_beige_plaster_slab_vertical_vertical_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Dark Oak Beige Plaster Half-Timbered Blocks */
     public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_CROSS = registerBlock("tudor_dark_oak_beige_plaster_cross",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
     public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_DOWN = registerBlock("tudor_dark_oak_beige_plaster_down",
@@ -3251,6 +3373,67 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
     public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_VERTICAL_2 = registerBlock("tudor_dark_oak_beige_plaster_vertical_2",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
 
+    /* Dark Oak Beige Plaster Half-Timbered Corners */
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_CORNER_CROSS = registerBlock("tudor_dark_oak_beige_plaster_corner_cross",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_CORNER_DOWN = registerBlock("tudor_dark_oak_beige_plaster_corner_down",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_CORNER_UP = registerBlock("tudor_dark_oak_beige_plaster_corner_up",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_CORNER_LEFT = registerBlock("tudor_dark_oak_beige_plaster_corner_left",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_CORNER_RIGHT = registerBlock("tudor_dark_oak_beige_plaster_corner_right",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_CORNER_HORIZONTAL_1 = registerBlock("tudor_dark_oak_beige_plaster_corner_horizontal_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_CORNER_HORIZONTAL_2 = registerBlock("tudor_dark_oak_beige_plaster_corner_horizontal_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_CORNER_VERTICAL_1 = registerBlock("tudor_dark_oak_beige_plaster_corner_vertical_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_CORNER_VERTICAL_2 = registerBlock("tudor_dark_oak_beige_plaster_corner_vertical_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Dark Oak Beige Plaster Half-Timbered Vertical Quarters */
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_QUARTER_VERTICAL_CROSS = registerBlock("tudor_dark_oak_beige_plaster_quarter_vertical_cross",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_QUARTER_VERTICAL_DOWN = registerBlock("tudor_dark_oak_beige_plaster_quarter_vertical_down",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_QUARTER_VERTICAL_UP = registerBlock("tudor_dark_oak_beige_plaster_quarter_vertical_up",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_QUARTER_VERTICAL_LEFT = registerBlock("tudor_dark_oak_beige_plaster_quarter_vertical_left",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_QUARTER_VERTICAL_RIGHT = registerBlock("tudor_dark_oak_beige_plaster_quarter_vertical_right",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_dark_oak_beige_plaster_quarter_vertical_horizontal_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_dark_oak_beige_plaster_quarter_vertical_horizontal_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_QUARTER_VERTICAL_VERTICAL_1 = registerBlock("tudor_dark_oak_beige_plaster_quarter_vertical_vertical_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_QUARTER_VERTICAL_VERTICAL_2 = registerBlock("tudor_dark_oak_beige_plaster_quarter_vertical_vertical_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Dark Oak Beige Plaster Half-Timbered Vertical Slabs */
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_SLAB_VERTICAL_CROSS = registerBlock("tudor_dark_oak_beige_plaster_slab_vertical_cross",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_SLAB_VERTICAL_DOWN = registerBlock("tudor_dark_oak_beige_plaster_slab_vertical_down",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_SLAB_VERTICAL_UP = registerBlock("tudor_dark_oak_beige_plaster_slab_vertical_up",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_SLAB_VERTICAL_LEFT = registerBlock("tudor_dark_oak_beige_plaster_slab_vertical_left",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_SLAB_VERTICAL_RIGHT = registerBlock("tudor_dark_oak_beige_plaster_slab_vertical_right",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_SLAB_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_dark_oak_beige_plaster_slab_vertical_horizontal_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_SLAB_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_dark_oak_beige_plaster_slab_vertical_horizontal_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_SLAB_VERTICAL_VERTICAL_1 = registerBlock("tudor_dark_oak_beige_plaster_slab_vertical_vertical_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BEIGE_PLASTER_SLAB_VERTICAL_VERTICAL_2 = registerBlock("tudor_dark_oak_beige_plaster_slab_vertical_vertical_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Jungle Beige Plaster Half-Timbered Blocks */
     public static final RegistryObject<Block> TUDOR_JUNGLE_BEIGE_PLASTER_CROSS = registerBlock("tudor_jungle_beige_plaster_cross",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
     public static final RegistryObject<Block> TUDOR_JUNGLE_BEIGE_PLASTER_DOWN = registerBlock("tudor_jungle_beige_plaster_down",
@@ -3270,6 +3453,67 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
     public static final RegistryObject<Block> TUDOR_JUNGLE_BEIGE_PLASTER_VERTICAL_2 = registerBlock("tudor_jungle_beige_plaster_vertical_2",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
 
+    /* Jungle Beige Plaster Half-Timbered Corners */
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BEIGE_PLASTER_CORNER_CROSS = registerBlock("tudor_jungle_beige_plaster_corner_cross",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BEIGE_PLASTER_CORNER_DOWN = registerBlock("tudor_jungle_beige_plaster_corner_down",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BEIGE_PLASTER_CORNER_UP = registerBlock("tudor_jungle_beige_plaster_corner_up",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BEIGE_PLASTER_CORNER_LEFT = registerBlock("tudor_jungle_beige_plaster_corner_left",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BEIGE_PLASTER_CORNER_RIGHT = registerBlock("tudor_jungle_beige_plaster_corner_right",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BEIGE_PLASTER_CORNER_HORIZONTAL_1 = registerBlock("tudor_jungle_beige_plaster_corner_horizontal_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BEIGE_PLASTER_CORNER_HORIZONTAL_2 = registerBlock("tudor_jungle_beige_plaster_corner_horizontal_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BEIGE_PLASTER_CORNER_VERTICAL_1 = registerBlock("tudor_jungle_beige_plaster_corner_vertical_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BEIGE_PLASTER_CORNER_VERTICAL_2 = registerBlock("tudor_jungle_beige_plaster_corner_vertical_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Jungle Beige Plaster Half-Timbered Vertical Quarters */
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BEIGE_PLASTER_QUARTER_VERTICAL_CROSS = registerBlock("tudor_jungle_beige_plaster_quarter_vertical_cross",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BEIGE_PLASTER_QUARTER_VERTICAL_DOWN = registerBlock("tudor_jungle_beige_plaster_quarter_vertical_down",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BEIGE_PLASTER_QUARTER_VERTICAL_UP = registerBlock("tudor_jungle_beige_plaster_quarter_vertical_up",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BEIGE_PLASTER_QUARTER_VERTICAL_LEFT = registerBlock("tudor_jungle_beige_plaster_quarter_vertical_left",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BEIGE_PLASTER_QUARTER_VERTICAL_RIGHT = registerBlock("tudor_jungle_beige_plaster_quarter_vertical_right",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BEIGE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_jungle_beige_plaster_quarter_vertical_horizontal_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BEIGE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_jungle_beige_plaster_quarter_vertical_horizontal_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BEIGE_PLASTER_QUARTER_VERTICAL_VERTICAL_1 = registerBlock("tudor_jungle_beige_plaster_quarter_vertical_vertical_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BEIGE_PLASTER_QUARTER_VERTICAL_VERTICAL_2 = registerBlock("tudor_jungle_beige_plaster_quarter_vertical_vertical_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Jungle Beige Plaster Half-Timbered Vertical Slabs */
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BEIGE_PLASTER_SLAB_VERTICAL_CROSS = registerBlock("tudor_jungle_beige_plaster_slab_vertical_cross",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BEIGE_PLASTER_SLAB_VERTICAL_DOWN = registerBlock("tudor_jungle_beige_plaster_slab_vertical_down",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BEIGE_PLASTER_SLAB_VERTICAL_UP = registerBlock("tudor_jungle_beige_plaster_slab_vertical_up",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BEIGE_PLASTER_SLAB_VERTICAL_LEFT = registerBlock("tudor_jungle_beige_plaster_slab_vertical_left",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BEIGE_PLASTER_SLAB_VERTICAL_RIGHT = registerBlock("tudor_jungle_beige_plaster_slab_vertical_right",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BEIGE_PLASTER_SLAB_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_jungle_beige_plaster_slab_vertical_horizontal_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BEIGE_PLASTER_SLAB_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_jungle_beige_plaster_slab_vertical_horizontal_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BEIGE_PLASTER_SLAB_VERTICAL_VERTICAL_1 = registerBlock("tudor_jungle_beige_plaster_slab_vertical_vertical_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BEIGE_PLASTER_SLAB_VERTICAL_VERTICAL_2 = registerBlock("tudor_jungle_beige_plaster_slab_vertical_vertical_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Oak Beige Plaster Half-Timbered Blocks */
     public static final RegistryObject<Block> TUDOR_OAK_BEIGE_PLASTER_CROSS = registerBlock("tudor_oak_beige_plaster_cross",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
     public static final RegistryObject<Block> TUDOR_OAK_BEIGE_PLASTER_DOWN = registerBlock("tudor_oak_beige_plaster_down",
@@ -3289,6 +3533,67 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
     public static final RegistryObject<Block> TUDOR_OAK_BEIGE_PLASTER_VERTICAL_2 = registerBlock("tudor_oak_beige_plaster_vertical_2",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
 
+    /* Oak Beige Plaster Half-Timbered Corners */
+    public static final RegistryObject<Block> TUDOR_OAK_BEIGE_PLASTER_CORNER_CROSS = registerBlock("tudor_oak_beige_plaster_corner_cross",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BEIGE_PLASTER_CORNER_DOWN = registerBlock("tudor_oak_beige_plaster_corner_down",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BEIGE_PLASTER_CORNER_UP = registerBlock("tudor_oak_beige_plaster_corner_up",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BEIGE_PLASTER_CORNER_LEFT = registerBlock("tudor_oak_beige_plaster_corner_left",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BEIGE_PLASTER_CORNER_RIGHT = registerBlock("tudor_oak_beige_plaster_corner_right",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BEIGE_PLASTER_CORNER_HORIZONTAL_1 = registerBlock("tudor_oak_beige_plaster_corner_horizontal_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BEIGE_PLASTER_CORNER_HORIZONTAL_2 = registerBlock("tudor_oak_beige_plaster_corner_horizontal_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BEIGE_PLASTER_CORNER_VERTICAL_1 = registerBlock("tudor_oak_beige_plaster_corner_vertical_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BEIGE_PLASTER_CORNER_VERTICAL_2 = registerBlock("tudor_oak_beige_plaster_corner_vertical_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Oak Beige Plaster Half-Timbered Vertical Quarters */
+    public static final RegistryObject<Block> TUDOR_OAK_BEIGE_PLASTER_QUARTER_VERTICAL_CROSS = registerBlock("tudor_oak_beige_plaster_quarter_vertical_cross",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BEIGE_PLASTER_QUARTER_VERTICAL_DOWN = registerBlock("tudor_oak_beige_plaster_quarter_vertical_down",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BEIGE_PLASTER_QUARTER_VERTICAL_UP = registerBlock("tudor_oak_beige_plaster_quarter_vertical_up",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BEIGE_PLASTER_QUARTER_VERTICAL_LEFT = registerBlock("tudor_oak_beige_plaster_quarter_vertical_left",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BEIGE_PLASTER_QUARTER_VERTICAL_RIGHT = registerBlock("tudor_oak_beige_plaster_quarter_vertical_right",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BEIGE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_oak_beige_plaster_quarter_vertical_horizontal_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BEIGE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_oak_beige_plaster_quarter_vertical_horizontal_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BEIGE_PLASTER_QUARTER_VERTICAL_VERTICAL_1 = registerBlock("tudor_oak_beige_plaster_quarter_vertical_vertical_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BEIGE_PLASTER_QUARTER_VERTICAL_VERTICAL_2 = registerBlock("tudor_oak_beige_plaster_quarter_vertical_vertical_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Oak Beige Plaster Half-Timbered Vertical Slabs */
+    public static final RegistryObject<Block> TUDOR_OAK_BEIGE_PLASTER_SLAB_VERTICAL_CROSS = registerBlock("tudor_oak_beige_plaster_slab_vertical_cross",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BEIGE_PLASTER_SLAB_VERTICAL_DOWN = registerBlock("tudor_oak_beige_plaster_slab_vertical_down",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BEIGE_PLASTER_SLAB_VERTICAL_UP = registerBlock("tudor_oak_beige_plaster_slab_vertical_up",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BEIGE_PLASTER_SLAB_VERTICAL_LEFT = registerBlock("tudor_oak_beige_plaster_slab_vertical_left",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BEIGE_PLASTER_SLAB_VERTICAL_RIGHT = registerBlock("tudor_oak_beige_plaster_slab_vertical_right",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BEIGE_PLASTER_SLAB_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_oak_beige_plaster_slab_vertical_horizontal_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BEIGE_PLASTER_SLAB_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_oak_beige_plaster_slab_vertical_horizontal_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BEIGE_PLASTER_SLAB_VERTICAL_VERTICAL_1 = registerBlock("tudor_oak_beige_plaster_slab_vertical_vertical_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BEIGE_PLASTER_SLAB_VERTICAL_VERTICAL_2 = registerBlock("tudor_oak_beige_plaster_slab_vertical_vertical_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Spruce Beige Plaster Half-Timbered Blocks */
     public static final RegistryObject<Block> TUDOR_SPRUCE_BEIGE_PLASTER_CROSS = registerBlock("tudor_spruce_beige_plaster_cross",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
     public static final RegistryObject<Block> TUDOR_SPRUCE_BEIGE_PLASTER_DOWN = registerBlock("tudor_spruce_beige_plaster_down",
@@ -3308,7 +3613,68 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
     public static final RegistryObject<Block> TUDOR_SPRUCE_BEIGE_PLASTER_VERTICAL_2 = registerBlock("tudor_spruce_beige_plaster_vertical_2",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
 
+    /* Spruce Beige Plaster Half-Timbered Corners */
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BEIGE_PLASTER_CORNER_CROSS = registerBlock("tudor_spruce_beige_plaster_corner_cross",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BEIGE_PLASTER_CORNER_DOWN = registerBlock("tudor_spruce_beige_plaster_corner_down",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BEIGE_PLASTER_CORNER_UP = registerBlock("tudor_spruce_beige_plaster_corner_up",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BEIGE_PLASTER_CORNER_LEFT = registerBlock("tudor_spruce_beige_plaster_corner_left",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BEIGE_PLASTER_CORNER_RIGHT = registerBlock("tudor_spruce_beige_plaster_corner_right",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BEIGE_PLASTER_CORNER_HORIZONTAL_1 = registerBlock("tudor_spruce_beige_plaster_corner_horizontal_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BEIGE_PLASTER_CORNER_HORIZONTAL_2 = registerBlock("tudor_spruce_beige_plaster_corner_horizontal_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BEIGE_PLASTER_CORNER_VERTICAL_1 = registerBlock("tudor_spruce_beige_plaster_corner_vertical_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BEIGE_PLASTER_CORNER_VERTICAL_2 = registerBlock("tudor_spruce_beige_plaster_corner_vertical_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Spruce Beige Plaster Half-Timbered Vertical Quarters */
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BEIGE_PLASTER_QUARTER_VERTICAL_CROSS = registerBlock("tudor_spruce_beige_plaster_quarter_vertical_cross",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BEIGE_PLASTER_QUARTER_VERTICAL_DOWN = registerBlock("tudor_spruce_beige_plaster_quarter_vertical_down",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BEIGE_PLASTER_QUARTER_VERTICAL_UP = registerBlock("tudor_spruce_beige_plaster_quarter_vertical_up",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BEIGE_PLASTER_QUARTER_VERTICAL_LEFT = registerBlock("tudor_spruce_beige_plaster_quarter_vertical_left",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BEIGE_PLASTER_QUARTER_VERTICAL_RIGHT = registerBlock("tudor_spruce_beige_plaster_quarter_vertical_right",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BEIGE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_spruce_beige_plaster_quarter_vertical_horizontal_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BEIGE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_spruce_beige_plaster_quarter_vertical_horizontal_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BEIGE_PLASTER_QUARTER_VERTICAL_VERTICAL_1 = registerBlock("tudor_spruce_beige_plaster_quarter_vertical_vertical_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BEIGE_PLASTER_QUARTER_VERTICAL_VERTICAL_2 = registerBlock("tudor_spruce_beige_plaster_quarter_vertical_vertical_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Spruce Beige Plaster Half-Timbered Vertical Slabs */
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BEIGE_PLASTER_SLAB_VERTICAL_CROSS = registerBlock("tudor_spruce_beige_plaster_slab_vertical_cross",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BEIGE_PLASTER_SLAB_VERTICAL_DOWN = registerBlock("tudor_spruce_beige_plaster_slab_vertical_down",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BEIGE_PLASTER_SLAB_VERTICAL_UP = registerBlock("tudor_spruce_beige_plaster_slab_vertical_up",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BEIGE_PLASTER_SLAB_VERTICAL_LEFT = registerBlock("tudor_spruce_beige_plaster_slab_vertical_left",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BEIGE_PLASTER_SLAB_VERTICAL_RIGHT = registerBlock("tudor_spruce_beige_plaster_slab_vertical_right",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BEIGE_PLASTER_SLAB_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_spruce_beige_plaster_slab_vertical_horizontal_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BEIGE_PLASTER_SLAB_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_spruce_beige_plaster_slab_vertical_horizontal_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BEIGE_PLASTER_SLAB_VERTICAL_VERTICAL_1 = registerBlock("tudor_spruce_beige_plaster_slab_vertical_vertical_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BEIGE_PLASTER_SLAB_VERTICAL_VERTICAL_2 = registerBlock("tudor_spruce_beige_plaster_slab_vertical_vertical_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+
     /* Brown Plaster Half-Timbered Blocks */
+    /* Acacia Brown Plaster Half-Timbered Blocks */
     public static final RegistryObject<Block> TUDOR_ACACIA_BROWN_PLASTER_CROSS = registerBlock("tudor_acacia_brown_plaster_cross",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
     public static final RegistryObject<Block> TUDOR_ACACIA_BROWN_PLASTER_DOWN = registerBlock("tudor_acacia_brown_plaster_down",
@@ -3328,6 +3694,67 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
     public static final RegistryObject<Block> TUDOR_ACACIA_BROWN_PLASTER_VERTICAL_2 = registerBlock("tudor_acacia_brown_plaster_vertical_2",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
 
+    /* Acacia Brown Plaster Half-Timbered Corners */
+    public static final RegistryObject<Block> TUDOR_ACACIA_BROWN_PLASTER_CORNER_CROSS = registerBlock("tudor_acacia_brown_plaster_corner_cross",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BROWN_PLASTER_CORNER_DOWN = registerBlock("tudor_acacia_brown_plaster_corner_down",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BROWN_PLASTER_CORNER_UP = registerBlock("tudor_acacia_brown_plaster_corner_up",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BROWN_PLASTER_CORNER_LEFT = registerBlock("tudor_acacia_brown_plaster_corner_left",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BROWN_PLASTER_CORNER_RIGHT = registerBlock("tudor_acacia_brown_plaster_corner_right",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BROWN_PLASTER_CORNER_HORIZONTAL_1 = registerBlock("tudor_acacia_brown_plaster_corner_horizontal_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BROWN_PLASTER_CORNER_HORIZONTAL_2 = registerBlock("tudor_acacia_brown_plaster_corner_horizontal_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BROWN_PLASTER_CORNER_VERTICAL_1 = registerBlock("tudor_acacia_brown_plaster_corner_vertical_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BROWN_PLASTER_CORNER_VERTICAL_2 = registerBlock("tudor_acacia_brown_plaster_corner_vertical_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Acacia Brown Plaster Half-Timbered Vertical Quarters */
+    public static final RegistryObject<Block> TUDOR_ACACIA_BROWN_PLASTER_QUARTER_VERTICAL_CROSS = registerBlock("tudor_acacia_brown_plaster_quarter_vertical_cross",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BROWN_PLASTER_QUARTER_VERTICAL_DOWN = registerBlock("tudor_acacia_brown_plaster_quarter_vertical_down",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BROWN_PLASTER_QUARTER_VERTICAL_UP = registerBlock("tudor_acacia_brown_plaster_quarter_vertical_up",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BROWN_PLASTER_QUARTER_VERTICAL_LEFT = registerBlock("tudor_acacia_brown_plaster_quarter_vertical_left",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BROWN_PLASTER_QUARTER_VERTICAL_RIGHT = registerBlock("tudor_acacia_brown_plaster_quarter_vertical_right",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BROWN_PLASTER_QUARTER_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_acacia_brown_plaster_quarter_vertical_horizontal_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BROWN_PLASTER_QUARTER_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_acacia_brown_plaster_quarter_vertical_horizontal_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BROWN_PLASTER_QUARTER_VERTICAL_VERTICAL_1 = registerBlock("tudor_acacia_brown_plaster_quarter_vertical_vertical_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BROWN_PLASTER_QUARTER_VERTICAL_VERTICAL_2 = registerBlock("tudor_acacia_brown_plaster_quarter_vertical_vertical_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Acacia Brown Plaster Half-Timbered Vertical Slabs */
+    public static final RegistryObject<Block> TUDOR_ACACIA_BROWN_PLASTER_SLAB_VERTICAL_CROSS = registerBlock("tudor_acacia_brown_plaster_slab_vertical_cross",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BROWN_PLASTER_SLAB_VERTICAL_DOWN = registerBlock("tudor_acacia_brown_plaster_slab_vertical_down",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BROWN_PLASTER_SLAB_VERTICAL_UP = registerBlock("tudor_acacia_brown_plaster_slab_vertical_up",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BROWN_PLASTER_SLAB_VERTICAL_LEFT = registerBlock("tudor_acacia_brown_plaster_slab_vertical_left",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BROWN_PLASTER_SLAB_VERTICAL_RIGHT = registerBlock("tudor_acacia_brown_plaster_slab_vertical_right",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BROWN_PLASTER_SLAB_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_acacia_brown_plaster_slab_vertical_horizontal_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BROWN_PLASTER_SLAB_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_acacia_brown_plaster_slab_vertical_horizontal_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BROWN_PLASTER_SLAB_VERTICAL_VERTICAL_1 = registerBlock("tudor_acacia_brown_plaster_slab_vertical_vertical_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_BROWN_PLASTER_SLAB_VERTICAL_VERTICAL_2 = registerBlock("tudor_acacia_brown_plaster_slab_vertical_vertical_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Birch Brown Plaster Half-Timbered Blocks */
     public static final RegistryObject<Block> TUDOR_BIRCH_BROWN_PLASTER_CROSS = registerBlock("tudor_birch_brown_plaster_cross",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
     public static final RegistryObject<Block> TUDOR_BIRCH_BROWN_PLASTER_DOWN = registerBlock("tudor_birch_brown_plaster_down",
@@ -3347,6 +3774,67 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
     public static final RegistryObject<Block> TUDOR_BIRCH_BROWN_PLASTER_VERTICAL_2 = registerBlock("tudor_birch_brown_plaster_vertical_2",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
 
+    /* Birch Brown Plaster Half-Timbered Corners */
+    public static final RegistryObject<Block> TUDOR_BIRCH_BROWN_PLASTER_CORNER_CROSS = registerBlock("tudor_birch_brown_plaster_corner_cross",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BROWN_PLASTER_CORNER_DOWN = registerBlock("tudor_birch_brown_plaster_corner_down",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BROWN_PLASTER_CORNER_UP = registerBlock("tudor_birch_brown_plaster_corner_up",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BROWN_PLASTER_CORNER_LEFT = registerBlock("tudor_birch_brown_plaster_corner_left",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BROWN_PLASTER_CORNER_RIGHT = registerBlock("tudor_birch_brown_plaster_corner_right",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BROWN_PLASTER_CORNER_HORIZONTAL_1 = registerBlock("tudor_birch_brown_plaster_corner_horizontal_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BROWN_PLASTER_CORNER_HORIZONTAL_2 = registerBlock("tudor_birch_brown_plaster_corner_horizontal_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BROWN_PLASTER_CORNER_VERTICAL_1 = registerBlock("tudor_birch_brown_plaster_corner_vertical_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BROWN_PLASTER_CORNER_VERTICAL_2 = registerBlock("tudor_birch_brown_plaster_corner_vertical_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Birch Brown Plaster Half-Timbered Vertical Quarters */
+    public static final RegistryObject<Block> TUDOR_BIRCH_BROWN_PLASTER_QUARTER_VERTICAL_CROSS = registerBlock("tudor_birch_brown_plaster_quarter_vertical_cross",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BROWN_PLASTER_QUARTER_VERTICAL_DOWN = registerBlock("tudor_birch_brown_plaster_quarter_vertical_down",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BROWN_PLASTER_QUARTER_VERTICAL_UP = registerBlock("tudor_birch_brown_plaster_quarter_vertical_up",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BROWN_PLASTER_QUARTER_VERTICAL_LEFT = registerBlock("tudor_birch_brown_plaster_quarter_vertical_left",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BROWN_PLASTER_QUARTER_VERTICAL_RIGHT = registerBlock("tudor_birch_brown_plaster_quarter_vertical_right",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BROWN_PLASTER_QUARTER_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_birch_brown_plaster_quarter_vertical_horizontal_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BROWN_PLASTER_QUARTER_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_birch_brown_plaster_quarter_vertical_horizontal_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BROWN_PLASTER_QUARTER_VERTICAL_VERTICAL_1 = registerBlock("tudor_birch_brown_plaster_quarter_vertical_vertical_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BROWN_PLASTER_QUARTER_VERTICAL_VERTICAL_2 = registerBlock("tudor_birch_brown_plaster_quarter_vertical_vertical_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Birch Brown Plaster Half-Timbered Vertical Slabs */
+    public static final RegistryObject<Block> TUDOR_BIRCH_BROWN_PLASTER_SLAB_VERTICAL_CROSS = registerBlock("tudor_birch_brown_plaster_slab_vertical_cross",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BROWN_PLASTER_SLAB_VERTICAL_DOWN = registerBlock("tudor_birch_brown_plaster_slab_vertical_down",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BROWN_PLASTER_SLAB_VERTICAL_UP = registerBlock("tudor_birch_brown_plaster_slab_vertical_up",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BROWN_PLASTER_SLAB_VERTICAL_LEFT = registerBlock("tudor_birch_brown_plaster_slab_vertical_left",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BROWN_PLASTER_SLAB_VERTICAL_RIGHT = registerBlock("tudor_birch_brown_plaster_slab_vertical_right",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BROWN_PLASTER_SLAB_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_birch_brown_plaster_slab_vertical_horizontal_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BROWN_PLASTER_SLAB_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_birch_brown_plaster_slab_vertical_horizontal_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BROWN_PLASTER_SLAB_VERTICAL_VERTICAL_1 = registerBlock("tudor_birch_brown_plaster_slab_vertical_vertical_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_BROWN_PLASTER_SLAB_VERTICAL_VERTICAL_2 = registerBlock("tudor_birch_brown_plaster_slab_vertical_vertical_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Dark Oak Brown Plaster Half-Timbered Blocks */
     public static final RegistryObject<Block> TUDOR_DARK_OAK_BROWN_PLASTER_CROSS = registerBlock("tudor_dark_oak_brown_plaster_cross",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
     public static final RegistryObject<Block> TUDOR_DARK_OAK_BROWN_PLASTER_DOWN = registerBlock("tudor_dark_oak_brown_plaster_down",
@@ -3366,6 +3854,67 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
     public static final RegistryObject<Block> TUDOR_DARK_OAK_BROWN_PLASTER_VERTICAL_2 = registerBlock("tudor_dark_oak_brown_plaster_vertical_2",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
 
+    /* Dark Oak Brown Plaster Half-Timbered Corners */
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BROWN_PLASTER_CORNER_CROSS = registerBlock("tudor_dark_oak_brown_plaster_corner_cross",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BROWN_PLASTER_CORNER_DOWN = registerBlock("tudor_dark_oak_brown_plaster_corner_down",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BROWN_PLASTER_CORNER_UP = registerBlock("tudor_dark_oak_brown_plaster_corner_up",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BROWN_PLASTER_CORNER_LEFT = registerBlock("tudor_dark_oak_brown_plaster_corner_left",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BROWN_PLASTER_CORNER_RIGHT = registerBlock("tudor_dark_oak_brown_plaster_corner_right",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BROWN_PLASTER_CORNER_HORIZONTAL_1 = registerBlock("tudor_dark_oak_brown_plaster_corner_horizontal_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BROWN_PLASTER_CORNER_HORIZONTAL_2 = registerBlock("tudor_dark_oak_brown_plaster_corner_horizontal_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BROWN_PLASTER_CORNER_VERTICAL_1 = registerBlock("tudor_dark_oak_brown_plaster_corner_vertical_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BROWN_PLASTER_CORNER_VERTICAL_2 = registerBlock("tudor_dark_oak_brown_plaster_corner_vertical_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Dark Oak Brown Plaster Half-Timbered Vertical Quarters */
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BROWN_PLASTER_QUARTER_VERTICAL_CROSS = registerBlock("tudor_dark_oak_brown_plaster_quarter_vertical_cross",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BROWN_PLASTER_QUARTER_VERTICAL_DOWN = registerBlock("tudor_dark_oak_brown_plaster_quarter_vertical_down",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BROWN_PLASTER_QUARTER_VERTICAL_UP = registerBlock("tudor_dark_oak_brown_plaster_quarter_vertical_up",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BROWN_PLASTER_QUARTER_VERTICAL_LEFT = registerBlock("tudor_dark_oak_brown_plaster_quarter_vertical_left",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BROWN_PLASTER_QUARTER_VERTICAL_RIGHT = registerBlock("tudor_dark_oak_brown_plaster_quarter_vertical_right",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BROWN_PLASTER_QUARTER_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_dark_oak_brown_plaster_quarter_vertical_horizontal_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BROWN_PLASTER_QUARTER_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_dark_oak_brown_plaster_quarter_vertical_horizontal_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BROWN_PLASTER_QUARTER_VERTICAL_VERTICAL_1 = registerBlock("tudor_dark_oak_brown_plaster_quarter_vertical_vertical_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BROWN_PLASTER_QUARTER_VERTICAL_VERTICAL_2 = registerBlock("tudor_dark_oak_brown_plaster_quarter_vertical_vertical_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Dark Oak Brown Plaster Half-Timbered Vertical Slabs */
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BROWN_PLASTER_SLAB_VERTICAL_CROSS = registerBlock("tudor_dark_oak_brown_plaster_slab_vertical_cross",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BROWN_PLASTER_SLAB_VERTICAL_DOWN = registerBlock("tudor_dark_oak_brown_plaster_slab_vertical_down",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BROWN_PLASTER_SLAB_VERTICAL_UP = registerBlock("tudor_dark_oak_brown_plaster_slab_vertical_up",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BROWN_PLASTER_SLAB_VERTICAL_LEFT = registerBlock("tudor_dark_oak_brown_plaster_slab_vertical_left",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BROWN_PLASTER_SLAB_VERTICAL_RIGHT = registerBlock("tudor_dark_oak_brown_plaster_slab_vertical_right",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BROWN_PLASTER_SLAB_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_dark_oak_brown_plaster_slab_vertical_horizontal_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BROWN_PLASTER_SLAB_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_dark_oak_brown_plaster_slab_vertical_horizontal_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BROWN_PLASTER_SLAB_VERTICAL_VERTICAL_1 = registerBlock("tudor_dark_oak_brown_plaster_slab_vertical_vertical_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_BROWN_PLASTER_SLAB_VERTICAL_VERTICAL_2 = registerBlock("tudor_dark_oak_brown_plaster_slab_vertical_vertical_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Jungle Brown Plaster Half-Timbered Blocks */
     public static final RegistryObject<Block> TUDOR_JUNGLE_BROWN_PLASTER_CROSS = registerBlock("tudor_jungle_brown_plaster_cross",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
     public static final RegistryObject<Block> TUDOR_JUNGLE_BROWN_PLASTER_DOWN = registerBlock("tudor_jungle_brown_plaster_down",
@@ -3385,6 +3934,67 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
     public static final RegistryObject<Block> TUDOR_JUNGLE_BROWN_PLASTER_VERTICAL_2 = registerBlock("tudor_jungle_brown_plaster_vertical_2",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
 
+    /* Jungle Brown Plaster Half-Timbered Corners */
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BROWN_PLASTER_CORNER_CROSS = registerBlock("tudor_jungle_brown_plaster_corner_cross",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BROWN_PLASTER_CORNER_DOWN = registerBlock("tudor_jungle_brown_plaster_corner_down",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BROWN_PLASTER_CORNER_UP = registerBlock("tudor_jungle_brown_plaster_corner_up",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BROWN_PLASTER_CORNER_LEFT = registerBlock("tudor_jungle_brown_plaster_corner_left",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BROWN_PLASTER_CORNER_RIGHT = registerBlock("tudor_jungle_brown_plaster_corner_right",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BROWN_PLASTER_CORNER_HORIZONTAL_1 = registerBlock("tudor_jungle_brown_plaster_corner_horizontal_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BROWN_PLASTER_CORNER_HORIZONTAL_2 = registerBlock("tudor_jungle_brown_plaster_corner_horizontal_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BROWN_PLASTER_CORNER_VERTICAL_1 = registerBlock("tudor_jungle_brown_plaster_corner_vertical_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BROWN_PLASTER_CORNER_VERTICAL_2 = registerBlock("tudor_jungle_brown_plaster_corner_vertical_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Jungle Brown Plaster Half-Timbered Vertical Quarters */
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BROWN_PLASTER_QUARTER_VERTICAL_CROSS = registerBlock("tudor_jungle_brown_plaster_quarter_vertical_cross",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BROWN_PLASTER_QUARTER_VERTICAL_DOWN = registerBlock("tudor_jungle_brown_plaster_quarter_vertical_down",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BROWN_PLASTER_QUARTER_VERTICAL_UP = registerBlock("tudor_jungle_brown_plaster_quarter_vertical_up",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BROWN_PLASTER_QUARTER_VERTICAL_LEFT = registerBlock("tudor_jungle_brown_plaster_quarter_vertical_left",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BROWN_PLASTER_QUARTER_VERTICAL_RIGHT = registerBlock("tudor_jungle_brown_plaster_quarter_vertical_right",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BROWN_PLASTER_QUARTER_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_jungle_brown_plaster_quarter_vertical_horizontal_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BROWN_PLASTER_QUARTER_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_jungle_brown_plaster_quarter_vertical_horizontal_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BROWN_PLASTER_QUARTER_VERTICAL_VERTICAL_1 = registerBlock("tudor_jungle_brown_plaster_quarter_vertical_vertical_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BROWN_PLASTER_QUARTER_VERTICAL_VERTICAL_2 = registerBlock("tudor_jungle_brown_plaster_quarter_vertical_vertical_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Jungle Brown Plaster Half-Timbered Vertical Slabs */
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BROWN_PLASTER_SLAB_VERTICAL_CROSS = registerBlock("tudor_jungle_brown_plaster_slab_vertical_cross",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BROWN_PLASTER_SLAB_VERTICAL_DOWN = registerBlock("tudor_jungle_brown_plaster_slab_vertical_down",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BROWN_PLASTER_SLAB_VERTICAL_UP = registerBlock("tudor_jungle_brown_plaster_slab_vertical_up",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BROWN_PLASTER_SLAB_VERTICAL_LEFT = registerBlock("tudor_jungle_brown_plaster_slab_vertical_left",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BROWN_PLASTER_SLAB_VERTICAL_RIGHT = registerBlock("tudor_jungle_brown_plaster_slab_vertical_right",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BROWN_PLASTER_SLAB_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_jungle_brown_plaster_slab_vertical_horizontal_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BROWN_PLASTER_SLAB_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_jungle_brown_plaster_slab_vertical_horizontal_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BROWN_PLASTER_SLAB_VERTICAL_VERTICAL_1 = registerBlock("tudor_jungle_brown_plaster_slab_vertical_vertical_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_BROWN_PLASTER_SLAB_VERTICAL_VERTICAL_2 = registerBlock("tudor_jungle_brown_plaster_slab_vertical_vertical_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Oak Brown Plaster Half-Timbered Blocks */
     public static final RegistryObject<Block> TUDOR_OAK_BROWN_PLASTER_CROSS = registerBlock("tudor_oak_brown_plaster_cross",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
     public static final RegistryObject<Block> TUDOR_OAK_BROWN_PLASTER_DOWN = registerBlock("tudor_oak_brown_plaster_down",
@@ -3404,6 +4014,67 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
     public static final RegistryObject<Block> TUDOR_OAK_BROWN_PLASTER_VERTICAL_2 = registerBlock("tudor_oak_brown_plaster_vertical_2",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
 
+    /* Oak Brown Plaster Half-Timbered Corners */
+    public static final RegistryObject<Block> TUDOR_OAK_BROWN_PLASTER_CORNER_CROSS = registerBlock("tudor_oak_brown_plaster_corner_cross",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BROWN_PLASTER_CORNER_DOWN = registerBlock("tudor_oak_brown_plaster_corner_down",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BROWN_PLASTER_CORNER_UP = registerBlock("tudor_oak_brown_plaster_corner_up",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BROWN_PLASTER_CORNER_LEFT = registerBlock("tudor_oak_brown_plaster_corner_left",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BROWN_PLASTER_CORNER_RIGHT = registerBlock("tudor_oak_brown_plaster_corner_right",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BROWN_PLASTER_CORNER_HORIZONTAL_1 = registerBlock("tudor_oak_brown_plaster_corner_horizontal_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BROWN_PLASTER_CORNER_HORIZONTAL_2 = registerBlock("tudor_oak_brown_plaster_corner_horizontal_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BROWN_PLASTER_CORNER_VERTICAL_1 = registerBlock("tudor_oak_brown_plaster_corner_vertical_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BROWN_PLASTER_CORNER_VERTICAL_2 = registerBlock("tudor_oak_brown_plaster_corner_vertical_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Oak Brown Plaster Half-Timbered Vertical Quarters */
+    public static final RegistryObject<Block> TUDOR_OAK_BROWN_PLASTER_QUARTER_VERTICAL_CROSS = registerBlock("tudor_oak_brown_plaster_quarter_vertical_cross",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BROWN_PLASTER_QUARTER_VERTICAL_DOWN = registerBlock("tudor_oak_brown_plaster_quarter_vertical_down",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BROWN_PLASTER_QUARTER_VERTICAL_UP = registerBlock("tudor_oak_brown_plaster_quarter_vertical_up",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BROWN_PLASTER_QUARTER_VERTICAL_LEFT = registerBlock("tudor_oak_brown_plaster_quarter_vertical_left",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BROWN_PLASTER_QUARTER_VERTICAL_RIGHT = registerBlock("tudor_oak_brown_plaster_quarter_vertical_right",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BROWN_PLASTER_QUARTER_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_oak_brown_plaster_quarter_vertical_horizontal_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BROWN_PLASTER_QUARTER_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_oak_brown_plaster_quarter_vertical_horizontal_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BROWN_PLASTER_QUARTER_VERTICAL_VERTICAL_1 = registerBlock("tudor_oak_brown_plaster_quarter_vertical_vertical_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BROWN_PLASTER_QUARTER_VERTICAL_VERTICAL_2 = registerBlock("tudor_oak_brown_plaster_quarter_vertical_vertical_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Oak Brown Plaster Half-Timbered Vertical Slabs */
+    public static final RegistryObject<Block> TUDOR_OAK_BROWN_PLASTER_SLAB_VERTICAL_CROSS = registerBlock("tudor_oak_brown_plaster_slab_vertical_cross",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BROWN_PLASTER_SLAB_VERTICAL_DOWN = registerBlock("tudor_oak_brown_plaster_slab_vertical_down",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BROWN_PLASTER_SLAB_VERTICAL_UP = registerBlock("tudor_oak_brown_plaster_slab_vertical_up",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BROWN_PLASTER_SLAB_VERTICAL_LEFT = registerBlock("tudor_oak_brown_plaster_slab_vertical_left",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BROWN_PLASTER_SLAB_VERTICAL_RIGHT = registerBlock("tudor_oak_brown_plaster_slab_vertical_right",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BROWN_PLASTER_SLAB_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_oak_brown_plaster_slab_vertical_horizontal_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BROWN_PLASTER_SLAB_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_oak_brown_plaster_slab_vertical_horizontal_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BROWN_PLASTER_SLAB_VERTICAL_VERTICAL_1 = registerBlock("tudor_oak_brown_plaster_slab_vertical_vertical_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_BROWN_PLASTER_SLAB_VERTICAL_VERTICAL_2 = registerBlock("tudor_oak_brown_plaster_slab_vertical_vertical_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Spruce Brown Plaster Half-Timbered Blocks */
     public static final RegistryObject<Block> TUDOR_SPRUCE_BROWN_PLASTER_CROSS = registerBlock("tudor_spruce_brown_plaster_cross",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
     public static final RegistryObject<Block> TUDOR_SPRUCE_BROWN_PLASTER_DOWN = registerBlock("tudor_spruce_brown_plaster_down",
@@ -3423,7 +4094,68 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
     public static final RegistryObject<Block> TUDOR_SPRUCE_BROWN_PLASTER_VERTICAL_2 = registerBlock("tudor_spruce_brown_plaster_vertical_2",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
 
+    /* Spruce Brown Plaster Half-Timbered Corners */
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BROWN_PLASTER_CORNER_CROSS = registerBlock("tudor_spruce_brown_plaster_corner_cross",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BROWN_PLASTER_CORNER_DOWN = registerBlock("tudor_spruce_brown_plaster_corner_down",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BROWN_PLASTER_CORNER_UP = registerBlock("tudor_spruce_brown_plaster_corner_up",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BROWN_PLASTER_CORNER_LEFT = registerBlock("tudor_spruce_brown_plaster_corner_left",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BROWN_PLASTER_CORNER_RIGHT = registerBlock("tudor_spruce_brown_plaster_corner_right",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BROWN_PLASTER_CORNER_HORIZONTAL_1 = registerBlock("tudor_spruce_brown_plaster_corner_horizontal_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BROWN_PLASTER_CORNER_HORIZONTAL_2 = registerBlock("tudor_spruce_brown_plaster_corner_horizontal_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BROWN_PLASTER_CORNER_VERTICAL_1 = registerBlock("tudor_spruce_brown_plaster_corner_vertical_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BROWN_PLASTER_CORNER_VERTICAL_2 = registerBlock("tudor_spruce_brown_plaster_corner_vertical_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Spruce Brown Plaster Half-Timbered Vertical Quarters */
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BROWN_PLASTER_QUARTER_VERTICAL_CROSS = registerBlock("tudor_spruce_brown_plaster_quarter_vertical_cross",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BROWN_PLASTER_QUARTER_VERTICAL_DOWN = registerBlock("tudor_spruce_brown_plaster_quarter_vertical_down",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BROWN_PLASTER_QUARTER_VERTICAL_UP = registerBlock("tudor_spruce_brown_plaster_quarter_vertical_up",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BROWN_PLASTER_QUARTER_VERTICAL_LEFT = registerBlock("tudor_spruce_brown_plaster_quarter_vertical_left",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BROWN_PLASTER_QUARTER_VERTICAL_RIGHT = registerBlock("tudor_spruce_brown_plaster_quarter_vertical_right",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BROWN_PLASTER_QUARTER_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_spruce_brown_plaster_quarter_vertical_horizontal_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BROWN_PLASTER_QUARTER_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_spruce_brown_plaster_quarter_vertical_horizontal_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BROWN_PLASTER_QUARTER_VERTICAL_VERTICAL_1 = registerBlock("tudor_spruce_brown_plaster_quarter_vertical_vertical_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BROWN_PLASTER_QUARTER_VERTICAL_VERTICAL_2 = registerBlock("tudor_spruce_brown_plaster_quarter_vertical_vertical_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Spruce Brown Plaster Half-Timbered Vertical Slabs */
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BROWN_PLASTER_SLAB_VERTICAL_CROSS = registerBlock("tudor_spruce_brown_plaster_slab_vertical_cross",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BROWN_PLASTER_SLAB_VERTICAL_DOWN = registerBlock("tudor_spruce_brown_plaster_slab_vertical_down",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BROWN_PLASTER_SLAB_VERTICAL_UP = registerBlock("tudor_spruce_brown_plaster_slab_vertical_up",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BROWN_PLASTER_SLAB_VERTICAL_LEFT = registerBlock("tudor_spruce_brown_plaster_slab_vertical_left",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BROWN_PLASTER_SLAB_VERTICAL_RIGHT = registerBlock("tudor_spruce_brown_plaster_slab_vertical_right",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BROWN_PLASTER_SLAB_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_spruce_brown_plaster_slab_vertical_horizontal_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BROWN_PLASTER_SLAB_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_spruce_brown_plaster_slab_vertical_horizontal_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BROWN_PLASTER_SLAB_VERTICAL_VERTICAL_1 = registerBlock("tudor_spruce_brown_plaster_slab_vertical_vertical_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_BROWN_PLASTER_SLAB_VERTICAL_VERTICAL_2 = registerBlock("tudor_spruce_brown_plaster_slab_vertical_vertical_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+
     /* Ochre Plaster Half-Timbered Blocks */
+    /* Acacia Ochre Plaster Half-Timbered Blocks */
     public static final RegistryObject<Block> TUDOR_ACACIA_OCHRE_PLASTER_CROSS = registerBlock("tudor_acacia_ochre_plaster_cross",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
     public static final RegistryObject<Block> TUDOR_ACACIA_OCHRE_PLASTER_DOWN = registerBlock("tudor_acacia_ochre_plaster_down",
@@ -3443,6 +4175,67 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
     public static final RegistryObject<Block> TUDOR_ACACIA_OCHRE_PLASTER_VERTICAL_2 = registerBlock("tudor_acacia_ochre_plaster_vertical_2",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
 
+    /* Acacia Ochre Plaster Half-Timbered Corners */
+    public static final RegistryObject<Block> TUDOR_ACACIA_OCHRE_PLASTER_CORNER_CROSS = registerBlock("tudor_acacia_ochre_plaster_corner_cross",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_OCHRE_PLASTER_CORNER_DOWN = registerBlock("tudor_acacia_ochre_plaster_corner_down",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_OCHRE_PLASTER_CORNER_UP = registerBlock("tudor_acacia_ochre_plaster_corner_up",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_OCHRE_PLASTER_CORNER_LEFT = registerBlock("tudor_acacia_ochre_plaster_corner_left",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_OCHRE_PLASTER_CORNER_RIGHT = registerBlock("tudor_acacia_ochre_plaster_corner_right",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_OCHRE_PLASTER_CORNER_HORIZONTAL_1 = registerBlock("tudor_acacia_ochre_plaster_corner_horizontal_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_OCHRE_PLASTER_CORNER_HORIZONTAL_2 = registerBlock("tudor_acacia_ochre_plaster_corner_horizontal_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_OCHRE_PLASTER_CORNER_VERTICAL_1 = registerBlock("tudor_acacia_ochre_plaster_corner_vertical_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_OCHRE_PLASTER_CORNER_VERTICAL_2 = registerBlock("tudor_acacia_ochre_plaster_corner_vertical_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Acacia Ochre Plaster Half-Timbered Vertical Quarters */
+    public static final RegistryObject<Block> TUDOR_ACACIA_OCHRE_PLASTER_QUARTER_VERTICAL_CROSS = registerBlock("tudor_acacia_ochre_plaster_quarter_vertical_cross",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_OCHRE_PLASTER_QUARTER_VERTICAL_DOWN = registerBlock("tudor_acacia_ochre_plaster_quarter_vertical_down",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_OCHRE_PLASTER_QUARTER_VERTICAL_UP = registerBlock("tudor_acacia_ochre_plaster_quarter_vertical_up",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_OCHRE_PLASTER_QUARTER_VERTICAL_LEFT = registerBlock("tudor_acacia_ochre_plaster_quarter_vertical_left",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_OCHRE_PLASTER_QUARTER_VERTICAL_RIGHT = registerBlock("tudor_acacia_ochre_plaster_quarter_vertical_right",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_OCHRE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_acacia_ochre_plaster_quarter_vertical_horizontal_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_OCHRE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_acacia_ochre_plaster_quarter_vertical_horizontal_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_OCHRE_PLASTER_QUARTER_VERTICAL_VERTICAL_1 = registerBlock("tudor_acacia_ochre_plaster_quarter_vertical_vertical_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_OCHRE_PLASTER_QUARTER_VERTICAL_VERTICAL_2 = registerBlock("tudor_acacia_ochre_plaster_quarter_vertical_vertical_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Acacia Ochre Plaster Half-Timbered Vertical Slabs */
+    public static final RegistryObject<Block> TUDOR_ACACIA_OCHRE_PLASTER_SLAB_VERTICAL_CROSS = registerBlock("tudor_acacia_ochre_plaster_slab_vertical_cross",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_OCHRE_PLASTER_SLAB_VERTICAL_DOWN = registerBlock("tudor_acacia_ochre_plaster_slab_vertical_down",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_OCHRE_PLASTER_SLAB_VERTICAL_UP = registerBlock("tudor_acacia_ochre_plaster_slab_vertical_up",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_OCHRE_PLASTER_SLAB_VERTICAL_LEFT = registerBlock("tudor_acacia_ochre_plaster_slab_vertical_left",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_OCHRE_PLASTER_SLAB_VERTICAL_RIGHT = registerBlock("tudor_acacia_ochre_plaster_slab_vertical_right",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_OCHRE_PLASTER_SLAB_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_acacia_ochre_plaster_slab_vertical_horizontal_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_OCHRE_PLASTER_SLAB_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_acacia_ochre_plaster_slab_vertical_horizontal_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_OCHRE_PLASTER_SLAB_VERTICAL_VERTICAL_1 = registerBlock("tudor_acacia_ochre_plaster_slab_vertical_vertical_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_OCHRE_PLASTER_SLAB_VERTICAL_VERTICAL_2 = registerBlock("tudor_acacia_ochre_plaster_slab_vertical_vertical_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Birch Ochre Plaster Half-Timbered Blocks */
     public static final RegistryObject<Block> TUDOR_BIRCH_OCHRE_PLASTER_CROSS = registerBlock("tudor_birch_ochre_plaster_cross",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
     public static final RegistryObject<Block> TUDOR_BIRCH_OCHRE_PLASTER_DOWN = registerBlock("tudor_birch_ochre_plaster_down",
@@ -3462,6 +4255,67 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
     public static final RegistryObject<Block> TUDOR_BIRCH_OCHRE_PLASTER_VERTICAL_2 = registerBlock("tudor_birch_ochre_plaster_vertical_2",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
 
+    /* Birch Ochre Plaster Half-Timbered Corners */
+    public static final RegistryObject<Block> TUDOR_BIRCH_OCHRE_PLASTER_CORNER_CROSS = registerBlock("tudor_birch_ochre_plaster_corner_cross",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_OCHRE_PLASTER_CORNER_DOWN = registerBlock("tudor_birch_ochre_plaster_corner_down",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_OCHRE_PLASTER_CORNER_UP = registerBlock("tudor_birch_ochre_plaster_corner_up",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_OCHRE_PLASTER_CORNER_LEFT = registerBlock("tudor_birch_ochre_plaster_corner_left",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_OCHRE_PLASTER_CORNER_RIGHT = registerBlock("tudor_birch_ochre_plaster_corner_right",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_OCHRE_PLASTER_CORNER_HORIZONTAL_1 = registerBlock("tudor_birch_ochre_plaster_corner_horizontal_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_OCHRE_PLASTER_CORNER_HORIZONTAL_2 = registerBlock("tudor_birch_ochre_plaster_corner_horizontal_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_OCHRE_PLASTER_CORNER_VERTICAL_1 = registerBlock("tudor_birch_ochre_plaster_corner_vertical_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_OCHRE_PLASTER_CORNER_VERTICAL_2 = registerBlock("tudor_birch_ochre_plaster_corner_vertical_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Birch Ochre Plaster Half-Timbered Vertical Quarters */
+    public static final RegistryObject<Block> TUDOR_BIRCH_OCHRE_PLASTER_QUARTER_VERTICAL_CROSS = registerBlock("tudor_birch_ochre_plaster_quarter_vertical_cross",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_OCHRE_PLASTER_QUARTER_VERTICAL_DOWN = registerBlock("tudor_birch_ochre_plaster_quarter_vertical_down",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_OCHRE_PLASTER_QUARTER_VERTICAL_UP = registerBlock("tudor_birch_ochre_plaster_quarter_vertical_up",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_OCHRE_PLASTER_QUARTER_VERTICAL_LEFT = registerBlock("tudor_birch_ochre_plaster_quarter_vertical_left",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_OCHRE_PLASTER_QUARTER_VERTICAL_RIGHT = registerBlock("tudor_birch_ochre_plaster_quarter_vertical_right",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_OCHRE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_birch_ochre_plaster_quarter_vertical_horizontal_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_OCHRE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_birch_ochre_plaster_quarter_vertical_horizontal_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_OCHRE_PLASTER_QUARTER_VERTICAL_VERTICAL_1 = registerBlock("tudor_birch_ochre_plaster_quarter_vertical_vertical_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_OCHRE_PLASTER_QUARTER_VERTICAL_VERTICAL_2 = registerBlock("tudor_birch_ochre_plaster_quarter_vertical_vertical_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Birch Ochre Plaster Half-Timbered Vertical Slabs */
+    public static final RegistryObject<Block> TUDOR_BIRCH_OCHRE_PLASTER_SLAB_VERTICAL_CROSS = registerBlock("tudor_birch_ochre_plaster_slab_vertical_cross",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_OCHRE_PLASTER_SLAB_VERTICAL_DOWN = registerBlock("tudor_birch_ochre_plaster_slab_vertical_down",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_OCHRE_PLASTER_SLAB_VERTICAL_UP = registerBlock("tudor_birch_ochre_plaster_slab_vertical_up",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_OCHRE_PLASTER_SLAB_VERTICAL_LEFT = registerBlock("tudor_birch_ochre_plaster_slab_vertical_left",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_OCHRE_PLASTER_SLAB_VERTICAL_RIGHT = registerBlock("tudor_birch_ochre_plaster_slab_vertical_right",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_OCHRE_PLASTER_SLAB_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_birch_ochre_plaster_slab_vertical_horizontal_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_OCHRE_PLASTER_SLAB_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_birch_ochre_plaster_slab_vertical_horizontal_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_OCHRE_PLASTER_SLAB_VERTICAL_VERTICAL_1 = registerBlock("tudor_birch_ochre_plaster_slab_vertical_vertical_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_OCHRE_PLASTER_SLAB_VERTICAL_VERTICAL_2 = registerBlock("tudor_birch_ochre_plaster_slab_vertical_vertical_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Dark Oak Ochre Plaster Half-Timbered Blocks */
     public static final RegistryObject<Block> TUDOR_DARK_OAK_OCHRE_PLASTER_CROSS = registerBlock("tudor_dark_oak_ochre_plaster_cross",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
     public static final RegistryObject<Block> TUDOR_DARK_OAK_OCHRE_PLASTER_DOWN = registerBlock("tudor_dark_oak_ochre_plaster_down",
@@ -3481,6 +4335,67 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
     public static final RegistryObject<Block> TUDOR_DARK_OAK_OCHRE_PLASTER_VERTICAL_2 = registerBlock("tudor_dark_oak_ochre_plaster_vertical_2",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
 
+    /* Dark Oak Ochre Plaster Half-Timbered Corners */
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_OCHRE_PLASTER_CORNER_CROSS = registerBlock("tudor_dark_oak_ochre_plaster_corner_cross",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_OCHRE_PLASTER_CORNER_DOWN = registerBlock("tudor_dark_oak_ochre_plaster_corner_down",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_OCHRE_PLASTER_CORNER_UP = registerBlock("tudor_dark_oak_ochre_plaster_corner_up",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_OCHRE_PLASTER_CORNER_LEFT = registerBlock("tudor_dark_oak_ochre_plaster_corner_left",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_OCHRE_PLASTER_CORNER_RIGHT = registerBlock("tudor_dark_oak_ochre_plaster_corner_right",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_OCHRE_PLASTER_CORNER_HORIZONTAL_1 = registerBlock("tudor_dark_oak_ochre_plaster_corner_horizontal_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_OCHRE_PLASTER_CORNER_HORIZONTAL_2 = registerBlock("tudor_dark_oak_ochre_plaster_corner_horizontal_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_OCHRE_PLASTER_CORNER_VERTICAL_1 = registerBlock("tudor_dark_oak_ochre_plaster_corner_vertical_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_OCHRE_PLASTER_CORNER_VERTICAL_2 = registerBlock("tudor_dark_oak_ochre_plaster_corner_vertical_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Dark Oak Ochre Plaster Half-Timbered Vertical Quarters */
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_OCHRE_PLASTER_QUARTER_VERTICAL_CROSS = registerBlock("tudor_dark_oak_ochre_plaster_quarter_vertical_cross",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_OCHRE_PLASTER_QUARTER_VERTICAL_DOWN = registerBlock("tudor_dark_oak_ochre_plaster_quarter_vertical_down",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_OCHRE_PLASTER_QUARTER_VERTICAL_UP = registerBlock("tudor_dark_oak_ochre_plaster_quarter_vertical_up",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_OCHRE_PLASTER_QUARTER_VERTICAL_LEFT = registerBlock("tudor_dark_oak_ochre_plaster_quarter_vertical_left",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_OCHRE_PLASTER_QUARTER_VERTICAL_RIGHT = registerBlock("tudor_dark_oak_ochre_plaster_quarter_vertical_right",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_OCHRE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_dark_oak_ochre_plaster_quarter_vertical_horizontal_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_OCHRE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_dark_oak_ochre_plaster_quarter_vertical_horizontal_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_OCHRE_PLASTER_QUARTER_VERTICAL_VERTICAL_1 = registerBlock("tudor_dark_oak_ochre_plaster_quarter_vertical_vertical_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_OCHRE_PLASTER_QUARTER_VERTICAL_VERTICAL_2 = registerBlock("tudor_dark_oak_ochre_plaster_quarter_vertical_vertical_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Dark Oak Ochre Plaster Half-Timbered Vertical Slabs */
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_OCHRE_PLASTER_SLAB_VERTICAL_CROSS = registerBlock("tudor_dark_oak_ochre_plaster_slab_vertical_cross",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_OCHRE_PLASTER_SLAB_VERTICAL_DOWN = registerBlock("tudor_dark_oak_ochre_plaster_slab_vertical_down",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_OCHRE_PLASTER_SLAB_VERTICAL_UP = registerBlock("tudor_dark_oak_ochre_plaster_slab_vertical_up",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_OCHRE_PLASTER_SLAB_VERTICAL_LEFT = registerBlock("tudor_dark_oak_ochre_plaster_slab_vertical_left",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_OCHRE_PLASTER_SLAB_VERTICAL_RIGHT = registerBlock("tudor_dark_oak_ochre_plaster_slab_vertical_right",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_OCHRE_PLASTER_SLAB_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_dark_oak_ochre_plaster_slab_vertical_horizontal_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_OCHRE_PLASTER_SLAB_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_dark_oak_ochre_plaster_slab_vertical_horizontal_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_OCHRE_PLASTER_SLAB_VERTICAL_VERTICAL_1 = registerBlock("tudor_dark_oak_ochre_plaster_slab_vertical_vertical_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_OCHRE_PLASTER_SLAB_VERTICAL_VERTICAL_2 = registerBlock("tudor_dark_oak_ochre_plaster_slab_vertical_vertical_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Jungle Ochre Plaster Half-Timbered Blocks */
     public static final RegistryObject<Block> TUDOR_JUNGLE_OCHRE_PLASTER_CROSS = registerBlock("tudor_jungle_ochre_plaster_cross",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
     public static final RegistryObject<Block> TUDOR_JUNGLE_OCHRE_PLASTER_DOWN = registerBlock("tudor_jungle_ochre_plaster_down",
@@ -3500,6 +4415,67 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
     public static final RegistryObject<Block> TUDOR_JUNGLE_OCHRE_PLASTER_VERTICAL_2 = registerBlock("tudor_jungle_ochre_plaster_vertical_2",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
 
+    /* Jungle Ochre Plaster Half-Timbered Corners */
+    public static final RegistryObject<Block> TUDOR_JUNGLE_OCHRE_PLASTER_CORNER_CROSS = registerBlock("tudor_jungle_ochre_plaster_corner_cross",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_OCHRE_PLASTER_CORNER_DOWN = registerBlock("tudor_jungle_ochre_plaster_corner_down",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_OCHRE_PLASTER_CORNER_UP = registerBlock("tudor_jungle_ochre_plaster_corner_up",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_OCHRE_PLASTER_CORNER_LEFT = registerBlock("tudor_jungle_ochre_plaster_corner_left",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_OCHRE_PLASTER_CORNER_RIGHT = registerBlock("tudor_jungle_ochre_plaster_corner_right",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_OCHRE_PLASTER_CORNER_HORIZONTAL_1 = registerBlock("tudor_jungle_ochre_plaster_corner_horizontal_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_OCHRE_PLASTER_CORNER_HORIZONTAL_2 = registerBlock("tudor_jungle_ochre_plaster_corner_horizontal_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_OCHRE_PLASTER_CORNER_VERTICAL_1 = registerBlock("tudor_jungle_ochre_plaster_corner_vertical_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_OCHRE_PLASTER_CORNER_VERTICAL_2 = registerBlock("tudor_jungle_ochre_plaster_corner_vertical_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Jungle Ochre Plaster Half-Timbered Vertical Quarters */
+    public static final RegistryObject<Block> TUDOR_JUNGLE_OCHRE_PLASTER_QUARTER_VERTICAL_CROSS = registerBlock("tudor_jungle_ochre_plaster_quarter_vertical_cross",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_OCHRE_PLASTER_QUARTER_VERTICAL_DOWN = registerBlock("tudor_jungle_ochre_plaster_quarter_vertical_down",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_OCHRE_PLASTER_QUARTER_VERTICAL_UP = registerBlock("tudor_jungle_ochre_plaster_quarter_vertical_up",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_OCHRE_PLASTER_QUARTER_VERTICAL_LEFT = registerBlock("tudor_jungle_ochre_plaster_quarter_vertical_left",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_OCHRE_PLASTER_QUARTER_VERTICAL_RIGHT = registerBlock("tudor_jungle_ochre_plaster_quarter_vertical_right",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_OCHRE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_jungle_ochre_plaster_quarter_vertical_horizontal_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_OCHRE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_jungle_ochre_plaster_quarter_vertical_horizontal_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_OCHRE_PLASTER_QUARTER_VERTICAL_VERTICAL_1 = registerBlock("tudor_jungle_ochre_plaster_quarter_vertical_vertical_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_OCHRE_PLASTER_QUARTER_VERTICAL_VERTICAL_2 = registerBlock("tudor_jungle_ochre_plaster_quarter_vertical_vertical_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Jungle Ochre Plaster Half-Timbered Vertical Slabs */
+    public static final RegistryObject<Block> TUDOR_JUNGLE_OCHRE_PLASTER_SLAB_VERTICAL_CROSS = registerBlock("tudor_jungle_ochre_plaster_slab_vertical_cross",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_OCHRE_PLASTER_SLAB_VERTICAL_DOWN = registerBlock("tudor_jungle_ochre_plaster_slab_vertical_down",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_OCHRE_PLASTER_SLAB_VERTICAL_UP = registerBlock("tudor_jungle_ochre_plaster_slab_vertical_up",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_OCHRE_PLASTER_SLAB_VERTICAL_LEFT = registerBlock("tudor_jungle_ochre_plaster_slab_vertical_left",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_OCHRE_PLASTER_SLAB_VERTICAL_RIGHT = registerBlock("tudor_jungle_ochre_plaster_slab_vertical_right",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_OCHRE_PLASTER_SLAB_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_jungle_ochre_plaster_slab_vertical_horizontal_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_OCHRE_PLASTER_SLAB_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_jungle_ochre_plaster_slab_vertical_horizontal_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_OCHRE_PLASTER_SLAB_VERTICAL_VERTICAL_1 = registerBlock("tudor_jungle_ochre_plaster_slab_vertical_vertical_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_OCHRE_PLASTER_SLAB_VERTICAL_VERTICAL_2 = registerBlock("tudor_jungle_ochre_plaster_slab_vertical_vertical_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Oak Ochre Plaster Half-Timbered Blocks */
     public static final RegistryObject<Block> TUDOR_OAK_OCHRE_PLASTER_CROSS = registerBlock("tudor_oak_ochre_plaster_cross",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
     public static final RegistryObject<Block> TUDOR_OAK_OCHRE_PLASTER_DOWN = registerBlock("tudor_oak_ochre_plaster_down",
@@ -3519,6 +4495,67 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
     public static final RegistryObject<Block> TUDOR_OAK_OCHRE_PLASTER_VERTICAL_2 = registerBlock("tudor_oak_ochre_plaster_vertical_2",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
 
+    /* Oak Ochre Plaster Half-Timbered Corners */
+    public static final RegistryObject<Block> TUDOR_OAK_OCHRE_PLASTER_CORNER_CROSS = registerBlock("tudor_oak_ochre_plaster_corner_cross",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_OCHRE_PLASTER_CORNER_DOWN = registerBlock("tudor_oak_ochre_plaster_corner_down",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_OCHRE_PLASTER_CORNER_UP = registerBlock("tudor_oak_ochre_plaster_corner_up",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_OCHRE_PLASTER_CORNER_LEFT = registerBlock("tudor_oak_ochre_plaster_corner_left",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_OCHRE_PLASTER_CORNER_RIGHT = registerBlock("tudor_oak_ochre_plaster_corner_right",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_OCHRE_PLASTER_CORNER_HORIZONTAL_1 = registerBlock("tudor_oak_ochre_plaster_corner_horizontal_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_OCHRE_PLASTER_CORNER_HORIZONTAL_2 = registerBlock("tudor_oak_ochre_plaster_corner_horizontal_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_OCHRE_PLASTER_CORNER_VERTICAL_1 = registerBlock("tudor_oak_ochre_plaster_corner_vertical_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_OCHRE_PLASTER_CORNER_VERTICAL_2 = registerBlock("tudor_oak_ochre_plaster_corner_vertical_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Oak Ochre Plaster Half-Timbered Vertical Quarters */
+    public static final RegistryObject<Block> TUDOR_OAK_OCHRE_PLASTER_QUARTER_VERTICAL_CROSS = registerBlock("tudor_oak_ochre_plaster_quarter_vertical_cross",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_OCHRE_PLASTER_QUARTER_VERTICAL_DOWN = registerBlock("tudor_oak_ochre_plaster_quarter_vertical_down",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_OCHRE_PLASTER_QUARTER_VERTICAL_UP = registerBlock("tudor_oak_ochre_plaster_quarter_vertical_up",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_OCHRE_PLASTER_QUARTER_VERTICAL_LEFT = registerBlock("tudor_oak_ochre_plaster_quarter_vertical_left",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_OCHRE_PLASTER_QUARTER_VERTICAL_RIGHT = registerBlock("tudor_oak_ochre_plaster_quarter_vertical_right",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_OCHRE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_oak_ochre_plaster_quarter_vertical_horizontal_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_OCHRE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_oak_ochre_plaster_quarter_vertical_horizontal_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_OCHRE_PLASTER_QUARTER_VERTICAL_VERTICAL_1 = registerBlock("tudor_oak_ochre_plaster_quarter_vertical_vertical_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_OCHRE_PLASTER_QUARTER_VERTICAL_VERTICAL_2 = registerBlock("tudor_oak_ochre_plaster_quarter_vertical_vertical_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Oak Ochre Plaster Half-Timbered Vertical Slabs */
+    public static final RegistryObject<Block> TUDOR_OAK_OCHRE_PLASTER_SLAB_VERTICAL_CROSS = registerBlock("tudor_oak_ochre_plaster_slab_vertical_cross",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_OCHRE_PLASTER_SLAB_VERTICAL_DOWN = registerBlock("tudor_oak_ochre_plaster_slab_vertical_down",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_OCHRE_PLASTER_SLAB_VERTICAL_UP = registerBlock("tudor_oak_ochre_plaster_slab_vertical_up",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_OCHRE_PLASTER_SLAB_VERTICAL_LEFT = registerBlock("tudor_oak_ochre_plaster_slab_vertical_left",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_OCHRE_PLASTER_SLAB_VERTICAL_RIGHT = registerBlock("tudor_oak_ochre_plaster_slab_vertical_right",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_OCHRE_PLASTER_SLAB_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_oak_ochre_plaster_slab_vertical_horizontal_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_OCHRE_PLASTER_SLAB_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_oak_ochre_plaster_slab_vertical_horizontal_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_OCHRE_PLASTER_SLAB_VERTICAL_VERTICAL_1 = registerBlock("tudor_oak_ochre_plaster_slab_vertical_vertical_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_OCHRE_PLASTER_SLAB_VERTICAL_VERTICAL_2 = registerBlock("tudor_oak_ochre_plaster_slab_vertical_vertical_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Spruce Ochre Plaster Half-Timbered Blocks */
     public static final RegistryObject<Block> TUDOR_SPRUCE_OCHRE_PLASTER_CROSS = registerBlock("tudor_spruce_ochre_plaster_cross",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
     public static final RegistryObject<Block> TUDOR_SPRUCE_OCHRE_PLASTER_DOWN = registerBlock("tudor_spruce_ochre_plaster_down",
@@ -3538,7 +4575,68 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
     public static final RegistryObject<Block> TUDOR_SPRUCE_OCHRE_PLASTER_VERTICAL_2 = registerBlock("tudor_spruce_ochre_plaster_vertical_2",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
 
+    /* Spruce Ochre Plaster Half-Timbered Corners */
+    public static final RegistryObject<Block> TUDOR_SPRUCE_OCHRE_PLASTER_CORNER_CROSS = registerBlock("tudor_spruce_ochre_plaster_corner_cross",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_OCHRE_PLASTER_CORNER_DOWN = registerBlock("tudor_spruce_ochre_plaster_corner_down",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_OCHRE_PLASTER_CORNER_UP = registerBlock("tudor_spruce_ochre_plaster_corner_up",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_OCHRE_PLASTER_CORNER_LEFT = registerBlock("tudor_spruce_ochre_plaster_corner_left",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_OCHRE_PLASTER_CORNER_RIGHT = registerBlock("tudor_spruce_ochre_plaster_corner_right",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_OCHRE_PLASTER_CORNER_HORIZONTAL_1 = registerBlock("tudor_spruce_ochre_plaster_corner_horizontal_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_OCHRE_PLASTER_CORNER_HORIZONTAL_2 = registerBlock("tudor_spruce_ochre_plaster_corner_horizontal_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_OCHRE_PLASTER_CORNER_VERTICAL_1 = registerBlock("tudor_spruce_ochre_plaster_corner_vertical_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_OCHRE_PLASTER_CORNER_VERTICAL_2 = registerBlock("tudor_spruce_ochre_plaster_corner_vertical_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Spruce Ochre Plaster Half-Timbered Vertical Quarters */
+    public static final RegistryObject<Block> TUDOR_SPRUCE_OCHRE_PLASTER_QUARTER_VERTICAL_CROSS = registerBlock("tudor_spruce_ochre_plaster_quarter_vertical_cross",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_OCHRE_PLASTER_QUARTER_VERTICAL_DOWN = registerBlock("tudor_spruce_ochre_plaster_quarter_vertical_down",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_OCHRE_PLASTER_QUARTER_VERTICAL_UP = registerBlock("tudor_spruce_ochre_plaster_quarter_vertical_up",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_OCHRE_PLASTER_QUARTER_VERTICAL_LEFT = registerBlock("tudor_spruce_ochre_plaster_quarter_vertical_left",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_OCHRE_PLASTER_QUARTER_VERTICAL_RIGHT = registerBlock("tudor_spruce_ochre_plaster_quarter_vertical_right",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_OCHRE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_spruce_ochre_plaster_quarter_vertical_horizontal_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_OCHRE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_spruce_ochre_plaster_quarter_vertical_horizontal_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_OCHRE_PLASTER_QUARTER_VERTICAL_VERTICAL_1 = registerBlock("tudor_spruce_ochre_plaster_quarter_vertical_vertical_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_OCHRE_PLASTER_QUARTER_VERTICAL_VERTICAL_2 = registerBlock("tudor_spruce_ochre_plaster_quarter_vertical_vertical_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Spruce Ochre Plaster Half-Timbered Vertical Slabs */
+    public static final RegistryObject<Block> TUDOR_SPRUCE_OCHRE_PLASTER_SLAB_VERTICAL_CROSS = registerBlock("tudor_spruce_ochre_plaster_slab_vertical_cross",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_OCHRE_PLASTER_SLAB_VERTICAL_DOWN = registerBlock("tudor_spruce_ochre_plaster_slab_vertical_down",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_OCHRE_PLASTER_SLAB_VERTICAL_UP = registerBlock("tudor_spruce_ochre_plaster_slab_vertical_up",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_OCHRE_PLASTER_SLAB_VERTICAL_LEFT = registerBlock("tudor_spruce_ochre_plaster_slab_vertical_left",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_OCHRE_PLASTER_SLAB_VERTICAL_RIGHT = registerBlock("tudor_spruce_ochre_plaster_slab_vertical_right",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_OCHRE_PLASTER_SLAB_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_spruce_ochre_plaster_slab_vertical_horizontal_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_OCHRE_PLASTER_SLAB_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_spruce_ochre_plaster_slab_vertical_horizontal_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_OCHRE_PLASTER_SLAB_VERTICAL_VERTICAL_1 = registerBlock("tudor_spruce_ochre_plaster_slab_vertical_vertical_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_OCHRE_PLASTER_SLAB_VERTICAL_VERTICAL_2 = registerBlock("tudor_spruce_ochre_plaster_slab_vertical_vertical_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+
     /* Tan Plaster Half-Timbered Blocks */
+    /* Acacia Tan Plaster Half-Timbered Blocks */
     public static final RegistryObject<Block> TUDOR_ACACIA_TAN_PLASTER_CROSS = registerBlock("tudor_acacia_tan_plaster_cross",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
     public static final RegistryObject<Block> TUDOR_ACACIA_TAN_PLASTER_DOWN = registerBlock("tudor_acacia_tan_plaster_down",
@@ -3558,6 +4656,67 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
     public static final RegistryObject<Block> TUDOR_ACACIA_TAN_PLASTER_VERTICAL_2 = registerBlock("tudor_acacia_tan_plaster_vertical_2",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
 
+    /* Acacia Tan Plaster Half-Timbered Corners */
+    public static final RegistryObject<Block> TUDOR_ACACIA_TAN_PLASTER_CORNER_CROSS = registerBlock("tudor_acacia_tan_plaster_corner_cross",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_TAN_PLASTER_CORNER_DOWN = registerBlock("tudor_acacia_tan_plaster_corner_down",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_TAN_PLASTER_CORNER_UP = registerBlock("tudor_acacia_tan_plaster_corner_up",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_TAN_PLASTER_CORNER_LEFT = registerBlock("tudor_acacia_tan_plaster_corner_left",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_TAN_PLASTER_CORNER_RIGHT = registerBlock("tudor_acacia_tan_plaster_corner_right",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_TAN_PLASTER_CORNER_HORIZONTAL_1 = registerBlock("tudor_acacia_tan_plaster_corner_horizontal_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_TAN_PLASTER_CORNER_HORIZONTAL_2 = registerBlock("tudor_acacia_tan_plaster_corner_horizontal_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_TAN_PLASTER_CORNER_VERTICAL_1 = registerBlock("tudor_acacia_tan_plaster_corner_vertical_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_TAN_PLASTER_CORNER_VERTICAL_2 = registerBlock("tudor_acacia_tan_plaster_corner_vertical_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Acacia Tan Plaster Half-Timbered Vertical Quarters */
+    public static final RegistryObject<Block> TUDOR_ACACIA_TAN_PLASTER_QUARTER_VERTICAL_CROSS = registerBlock("tudor_acacia_tan_plaster_quarter_vertical_cross",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_TAN_PLASTER_QUARTER_VERTICAL_DOWN = registerBlock("tudor_acacia_tan_plaster_quarter_vertical_down",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_TAN_PLASTER_QUARTER_VERTICAL_UP = registerBlock("tudor_acacia_tan_plaster_quarter_vertical_up",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_TAN_PLASTER_QUARTER_VERTICAL_LEFT = registerBlock("tudor_acacia_tan_plaster_quarter_vertical_left",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_TAN_PLASTER_QUARTER_VERTICAL_RIGHT = registerBlock("tudor_acacia_tan_plaster_quarter_vertical_right",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_TAN_PLASTER_QUARTER_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_acacia_tan_plaster_quarter_vertical_horizontal_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_TAN_PLASTER_QUARTER_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_acacia_tan_plaster_quarter_vertical_horizontal_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_TAN_PLASTER_QUARTER_VERTICAL_VERTICAL_1 = registerBlock("tudor_acacia_tan_plaster_quarter_vertical_vertical_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_TAN_PLASTER_QUARTER_VERTICAL_VERTICAL_2 = registerBlock("tudor_acacia_tan_plaster_quarter_vertical_vertical_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Acacia Tan Plaster Half-Timbered Vertical Slabs */
+    public static final RegistryObject<Block> TUDOR_ACACIA_TAN_PLASTER_SLAB_VERTICAL_CROSS = registerBlock("tudor_acacia_tan_plaster_slab_vertical_cross",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_TAN_PLASTER_SLAB_VERTICAL_DOWN = registerBlock("tudor_acacia_tan_plaster_slab_vertical_down",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_TAN_PLASTER_SLAB_VERTICAL_UP = registerBlock("tudor_acacia_tan_plaster_slab_vertical_up",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_TAN_PLASTER_SLAB_VERTICAL_LEFT = registerBlock("tudor_acacia_tan_plaster_slab_vertical_left",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_TAN_PLASTER_SLAB_VERTICAL_RIGHT = registerBlock("tudor_acacia_tan_plaster_slab_vertical_right",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_TAN_PLASTER_SLAB_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_acacia_tan_plaster_slab_vertical_horizontal_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_TAN_PLASTER_SLAB_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_acacia_tan_plaster_slab_vertical_horizontal_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_TAN_PLASTER_SLAB_VERTICAL_VERTICAL_1 = registerBlock("tudor_acacia_tan_plaster_slab_vertical_vertical_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_TAN_PLASTER_SLAB_VERTICAL_VERTICAL_2 = registerBlock("tudor_acacia_tan_plaster_slab_vertical_vertical_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Birch Tan Plaster Half-Timbered Blocks */
     public static final RegistryObject<Block> TUDOR_BIRCH_TAN_PLASTER_CROSS = registerBlock("tudor_birch_tan_plaster_cross",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
     public static final RegistryObject<Block> TUDOR_BIRCH_TAN_PLASTER_DOWN = registerBlock("tudor_birch_tan_plaster_down",
@@ -3577,6 +4736,67 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
     public static final RegistryObject<Block> TUDOR_BIRCH_TAN_PLASTER_VERTICAL_2 = registerBlock("tudor_birch_tan_plaster_vertical_2",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
 
+    /* Birch Tan Plaster Half-Timbered Corners */
+    public static final RegistryObject<Block> TUDOR_BIRCH_TAN_PLASTER_CORNER_CROSS = registerBlock("tudor_birch_tan_plaster_corner_cross",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_TAN_PLASTER_CORNER_DOWN = registerBlock("tudor_birch_tan_plaster_corner_down",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_TAN_PLASTER_CORNER_UP = registerBlock("tudor_birch_tan_plaster_corner_up",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_TAN_PLASTER_CORNER_LEFT = registerBlock("tudor_birch_tan_plaster_corner_left",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_TAN_PLASTER_CORNER_RIGHT = registerBlock("tudor_birch_tan_plaster_corner_right",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_TAN_PLASTER_CORNER_HORIZONTAL_1 = registerBlock("tudor_birch_tan_plaster_corner_horizontal_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_TAN_PLASTER_CORNER_HORIZONTAL_2 = registerBlock("tudor_birch_tan_plaster_corner_horizontal_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_TAN_PLASTER_CORNER_VERTICAL_1 = registerBlock("tudor_birch_tan_plaster_corner_vertical_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_TAN_PLASTER_CORNER_VERTICAL_2 = registerBlock("tudor_birch_tan_plaster_corner_vertical_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Birch Tan Plaster Half-Timbered Vertical Quarters */
+    public static final RegistryObject<Block> TUDOR_BIRCH_TAN_PLASTER_QUARTER_VERTICAL_CROSS = registerBlock("tudor_birch_tan_plaster_quarter_vertical_cross",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_TAN_PLASTER_QUARTER_VERTICAL_DOWN = registerBlock("tudor_birch_tan_plaster_quarter_vertical_down",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_TAN_PLASTER_QUARTER_VERTICAL_UP = registerBlock("tudor_birch_tan_plaster_quarter_vertical_up",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_TAN_PLASTER_QUARTER_VERTICAL_LEFT = registerBlock("tudor_birch_tan_plaster_quarter_vertical_left",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_TAN_PLASTER_QUARTER_VERTICAL_RIGHT = registerBlock("tudor_birch_tan_plaster_quarter_vertical_right",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_TAN_PLASTER_QUARTER_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_birch_tan_plaster_quarter_vertical_horizontal_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_TAN_PLASTER_QUARTER_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_birch_tan_plaster_quarter_vertical_horizontal_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_TAN_PLASTER_QUARTER_VERTICAL_VERTICAL_1 = registerBlock("tudor_birch_tan_plaster_quarter_vertical_vertical_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_TAN_PLASTER_QUARTER_VERTICAL_VERTICAL_2 = registerBlock("tudor_birch_tan_plaster_quarter_vertical_vertical_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Birch Tan Plaster Half-Timbered Vertical Slabs */
+    public static final RegistryObject<Block> TUDOR_BIRCH_TAN_PLASTER_SLAB_VERTICAL_CROSS = registerBlock("tudor_birch_tan_plaster_slab_vertical_cross",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_TAN_PLASTER_SLAB_VERTICAL_DOWN = registerBlock("tudor_birch_tan_plaster_slab_vertical_down",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_TAN_PLASTER_SLAB_VERTICAL_UP = registerBlock("tudor_birch_tan_plaster_slab_vertical_up",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_TAN_PLASTER_SLAB_VERTICAL_LEFT = registerBlock("tudor_birch_tan_plaster_slab_vertical_left",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_TAN_PLASTER_SLAB_VERTICAL_RIGHT = registerBlock("tudor_birch_tan_plaster_slab_vertical_right",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_TAN_PLASTER_SLAB_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_birch_tan_plaster_slab_vertical_horizontal_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_TAN_PLASTER_SLAB_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_birch_tan_plaster_slab_vertical_horizontal_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_TAN_PLASTER_SLAB_VERTICAL_VERTICAL_1 = registerBlock("tudor_birch_tan_plaster_slab_vertical_vertical_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_TAN_PLASTER_SLAB_VERTICAL_VERTICAL_2 = registerBlock("tudor_birch_tan_plaster_slab_vertical_vertical_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Dark Oak Tan Plaster Half-Timbered Blocks */
     public static final RegistryObject<Block> TUDOR_DARK_OAK_TAN_PLASTER_CROSS = registerBlock("tudor_dark_oak_tan_plaster_cross",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
     public static final RegistryObject<Block> TUDOR_DARK_OAK_TAN_PLASTER_DOWN = registerBlock("tudor_dark_oak_tan_plaster_down",
@@ -3596,6 +4816,67 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
     public static final RegistryObject<Block> TUDOR_DARK_OAK_TAN_PLASTER_VERTICAL_2 = registerBlock("tudor_dark_oak_tan_plaster_vertical_2",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
 
+    /* Dark Oak Tan Plaster Half-Timbered Corners */
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_TAN_PLASTER_CORNER_CROSS = registerBlock("tudor_dark_oak_tan_plaster_corner_cross",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_TAN_PLASTER_CORNER_DOWN = registerBlock("tudor_dark_oak_tan_plaster_corner_down",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_TAN_PLASTER_CORNER_UP = registerBlock("tudor_dark_oak_tan_plaster_corner_up",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_TAN_PLASTER_CORNER_LEFT = registerBlock("tudor_dark_oak_tan_plaster_corner_left",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_TAN_PLASTER_CORNER_RIGHT = registerBlock("tudor_dark_oak_tan_plaster_corner_right",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_TAN_PLASTER_CORNER_HORIZONTAL_1 = registerBlock("tudor_dark_oak_tan_plaster_corner_horizontal_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_TAN_PLASTER_CORNER_HORIZONTAL_2 = registerBlock("tudor_dark_oak_tan_plaster_corner_horizontal_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_TAN_PLASTER_CORNER_VERTICAL_1 = registerBlock("tudor_dark_oak_tan_plaster_corner_vertical_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_TAN_PLASTER_CORNER_VERTICAL_2 = registerBlock("tudor_dark_oak_tan_plaster_corner_vertical_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Dark Oak Tan Plaster Half-Timbered Vertical Quarters */
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_TAN_PLASTER_QUARTER_VERTICAL_CROSS = registerBlock("tudor_dark_oak_tan_plaster_quarter_vertical_cross",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_TAN_PLASTER_QUARTER_VERTICAL_DOWN = registerBlock("tudor_dark_oak_tan_plaster_quarter_vertical_down",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_TAN_PLASTER_QUARTER_VERTICAL_UP = registerBlock("tudor_dark_oak_tan_plaster_quarter_vertical_up",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_TAN_PLASTER_QUARTER_VERTICAL_LEFT = registerBlock("tudor_dark_oak_tan_plaster_quarter_vertical_left",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_TAN_PLASTER_QUARTER_VERTICAL_RIGHT = registerBlock("tudor_dark_oak_tan_plaster_quarter_vertical_right",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_TAN_PLASTER_QUARTER_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_dark_oak_tan_plaster_quarter_vertical_horizontal_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_TAN_PLASTER_QUARTER_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_dark_oak_tan_plaster_quarter_vertical_horizontal_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_TAN_PLASTER_QUARTER_VERTICAL_VERTICAL_1 = registerBlock("tudor_dark_oak_tan_plaster_quarter_vertical_vertical_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_TAN_PLASTER_QUARTER_VERTICAL_VERTICAL_2 = registerBlock("tudor_dark_oak_tan_plaster_quarter_vertical_vertical_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Dark Oak Tan Plaster Half-Timbered Vertical Slabs */
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_TAN_PLASTER_SLAB_VERTICAL_CROSS = registerBlock("tudor_dark_oak_tan_plaster_slab_vertical_cross",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_TAN_PLASTER_SLAB_VERTICAL_DOWN = registerBlock("tudor_dark_oak_tan_plaster_slab_vertical_down",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_TAN_PLASTER_SLAB_VERTICAL_UP = registerBlock("tudor_dark_oak_tan_plaster_slab_vertical_up",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_TAN_PLASTER_SLAB_VERTICAL_LEFT = registerBlock("tudor_dark_oak_tan_plaster_slab_vertical_left",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_TAN_PLASTER_SLAB_VERTICAL_RIGHT = registerBlock("tudor_dark_oak_tan_plaster_slab_vertical_right",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_TAN_PLASTER_SLAB_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_dark_oak_tan_plaster_slab_vertical_horizontal_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_TAN_PLASTER_SLAB_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_dark_oak_tan_plaster_slab_vertical_horizontal_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_TAN_PLASTER_SLAB_VERTICAL_VERTICAL_1 = registerBlock("tudor_dark_oak_tan_plaster_slab_vertical_vertical_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_TAN_PLASTER_SLAB_VERTICAL_VERTICAL_2 = registerBlock("tudor_dark_oak_tan_plaster_slab_vertical_vertical_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Jungle Tan Plaster Half-Timbered Blocks */
     public static final RegistryObject<Block> TUDOR_JUNGLE_TAN_PLASTER_CROSS = registerBlock("tudor_jungle_tan_plaster_cross",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
     public static final RegistryObject<Block> TUDOR_JUNGLE_TAN_PLASTER_DOWN = registerBlock("tudor_jungle_tan_plaster_down",
@@ -3615,6 +4896,67 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
     public static final RegistryObject<Block> TUDOR_JUNGLE_TAN_PLASTER_VERTICAL_2 = registerBlock("tudor_jungle_tan_plaster_vertical_2",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
 
+    /* Jungle Tan Plaster Half-Timbered Corners */
+    public static final RegistryObject<Block> TUDOR_JUNGLE_TAN_PLASTER_CORNER_CROSS = registerBlock("tudor_jungle_tan_plaster_corner_cross",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_TAN_PLASTER_CORNER_DOWN = registerBlock("tudor_jungle_tan_plaster_corner_down",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_TAN_PLASTER_CORNER_UP = registerBlock("tudor_jungle_tan_plaster_corner_up",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_TAN_PLASTER_CORNER_LEFT = registerBlock("tudor_jungle_tan_plaster_corner_left",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_TAN_PLASTER_CORNER_RIGHT = registerBlock("tudor_jungle_tan_plaster_corner_right",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_TAN_PLASTER_CORNER_HORIZONTAL_1 = registerBlock("tudor_jungle_tan_plaster_corner_horizontal_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_TAN_PLASTER_CORNER_HORIZONTAL_2 = registerBlock("tudor_jungle_tan_plaster_corner_horizontal_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_TAN_PLASTER_CORNER_VERTICAL_1 = registerBlock("tudor_jungle_tan_plaster_corner_vertical_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_TAN_PLASTER_CORNER_VERTICAL_2 = registerBlock("tudor_jungle_tan_plaster_corner_vertical_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Jungle Tan Plaster Half-Timbered Vertical Quarters */
+    public static final RegistryObject<Block> TUDOR_JUNGLE_TAN_PLASTER_QUARTER_VERTICAL_CROSS = registerBlock("tudor_jungle_tan_plaster_quarter_vertical_cross",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_TAN_PLASTER_QUARTER_VERTICAL_DOWN = registerBlock("tudor_jungle_tan_plaster_quarter_vertical_down",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_TAN_PLASTER_QUARTER_VERTICAL_UP = registerBlock("tudor_jungle_tan_plaster_quarter_vertical_up",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_TAN_PLASTER_QUARTER_VERTICAL_LEFT = registerBlock("tudor_jungle_tan_plaster_quarter_vertical_left",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_TAN_PLASTER_QUARTER_VERTICAL_RIGHT = registerBlock("tudor_jungle_tan_plaster_quarter_vertical_right",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_TAN_PLASTER_QUARTER_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_jungle_tan_plaster_quarter_vertical_horizontal_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_TAN_PLASTER_QUARTER_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_jungle_tan_plaster_quarter_vertical_horizontal_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_TAN_PLASTER_QUARTER_VERTICAL_VERTICAL_1 = registerBlock("tudor_jungle_tan_plaster_quarter_vertical_vertical_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_TAN_PLASTER_QUARTER_VERTICAL_VERTICAL_2 = registerBlock("tudor_jungle_tan_plaster_quarter_vertical_vertical_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Jungle Tan Plaster Half-Timbered Vertical Slabs */
+    public static final RegistryObject<Block> TUDOR_JUNGLE_TAN_PLASTER_SLAB_VERTICAL_CROSS = registerBlock("tudor_jungle_tan_plaster_slab_vertical_cross",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_TAN_PLASTER_SLAB_VERTICAL_DOWN = registerBlock("tudor_jungle_tan_plaster_slab_vertical_down",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_TAN_PLASTER_SLAB_VERTICAL_UP = registerBlock("tudor_jungle_tan_plaster_slab_vertical_up",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_TAN_PLASTER_SLAB_VERTICAL_LEFT = registerBlock("tudor_jungle_tan_plaster_slab_vertical_left",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_TAN_PLASTER_SLAB_VERTICAL_RIGHT = registerBlock("tudor_jungle_tan_plaster_slab_vertical_right",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_TAN_PLASTER_SLAB_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_jungle_tan_plaster_slab_vertical_horizontal_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_TAN_PLASTER_SLAB_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_jungle_tan_plaster_slab_vertical_horizontal_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_TAN_PLASTER_SLAB_VERTICAL_VERTICAL_1 = registerBlock("tudor_jungle_tan_plaster_slab_vertical_vertical_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_TAN_PLASTER_SLAB_VERTICAL_VERTICAL_2 = registerBlock("tudor_jungle_tan_plaster_slab_vertical_vertical_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Oak Tan Plaster Half-Timbered Blocks */
     public static final RegistryObject<Block> TUDOR_OAK_TAN_PLASTER_CROSS = registerBlock("tudor_oak_tan_plaster_cross",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
     public static final RegistryObject<Block> TUDOR_OAK_TAN_PLASTER_DOWN = registerBlock("tudor_oak_tan_plaster_down",
@@ -3634,6 +4976,67 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
     public static final RegistryObject<Block> TUDOR_OAK_TAN_PLASTER_VERTICAL_2 = registerBlock("tudor_oak_tan_plaster_vertical_2",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
 
+    /* Oak Tan Plaster Half-Timbered Corners */
+    public static final RegistryObject<Block> TUDOR_OAK_TAN_PLASTER_CORNER_CROSS = registerBlock("tudor_oak_tan_plaster_corner_cross",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_TAN_PLASTER_CORNER_DOWN = registerBlock("tudor_oak_tan_plaster_corner_down",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_TAN_PLASTER_CORNER_UP = registerBlock("tudor_oak_tan_plaster_corner_up",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_TAN_PLASTER_CORNER_LEFT = registerBlock("tudor_oak_tan_plaster_corner_left",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_TAN_PLASTER_CORNER_RIGHT = registerBlock("tudor_oak_tan_plaster_corner_right",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_TAN_PLASTER_CORNER_HORIZONTAL_1 = registerBlock("tudor_oak_tan_plaster_corner_horizontal_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_TAN_PLASTER_CORNER_HORIZONTAL_2 = registerBlock("tudor_oak_tan_plaster_corner_horizontal_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_TAN_PLASTER_CORNER_VERTICAL_1 = registerBlock("tudor_oak_tan_plaster_corner_vertical_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_TAN_PLASTER_CORNER_VERTICAL_2 = registerBlock("tudor_oak_tan_plaster_corner_vertical_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Oak Tan Plaster Half-Timbered Vertical Quarters */
+    public static final RegistryObject<Block> TUDOR_OAK_TAN_PLASTER_QUARTER_VERTICAL_CROSS = registerBlock("tudor_oak_tan_plaster_quarter_vertical_cross",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_TAN_PLASTER_QUARTER_VERTICAL_DOWN = registerBlock("tudor_oak_tan_plaster_quarter_vertical_down",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_TAN_PLASTER_QUARTER_VERTICAL_UP = registerBlock("tudor_oak_tan_plaster_quarter_vertical_up",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_TAN_PLASTER_QUARTER_VERTICAL_LEFT = registerBlock("tudor_oak_tan_plaster_quarter_vertical_left",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_TAN_PLASTER_QUARTER_VERTICAL_RIGHT = registerBlock("tudor_oak_tan_plaster_quarter_vertical_right",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_TAN_PLASTER_QUARTER_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_oak_tan_plaster_quarter_vertical_horizontal_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_TAN_PLASTER_QUARTER_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_oak_tan_plaster_quarter_vertical_horizontal_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_TAN_PLASTER_QUARTER_VERTICAL_VERTICAL_1 = registerBlock("tudor_oak_tan_plaster_quarter_vertical_vertical_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_TAN_PLASTER_QUARTER_VERTICAL_VERTICAL_2 = registerBlock("tudor_oak_tan_plaster_quarter_vertical_vertical_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Oak Tan Plaster Half-Timbered Vertical Slabs */
+    public static final RegistryObject<Block> TUDOR_OAK_TAN_PLASTER_SLAB_VERTICAL_CROSS = registerBlock("tudor_oak_tan_plaster_slab_vertical_cross",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_TAN_PLASTER_SLAB_VERTICAL_DOWN = registerBlock("tudor_oak_tan_plaster_slab_vertical_down",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_TAN_PLASTER_SLAB_VERTICAL_UP = registerBlock("tudor_oak_tan_plaster_slab_vertical_up",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_TAN_PLASTER_SLAB_VERTICAL_LEFT = registerBlock("tudor_oak_tan_plaster_slab_vertical_left",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_TAN_PLASTER_SLAB_VERTICAL_RIGHT = registerBlock("tudor_oak_tan_plaster_slab_vertical_right",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_TAN_PLASTER_SLAB_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_oak_tan_plaster_slab_vertical_horizontal_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_TAN_PLASTER_SLAB_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_oak_tan_plaster_slab_vertical_horizontal_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_TAN_PLASTER_SLAB_VERTICAL_VERTICAL_1 = registerBlock("tudor_oak_tan_plaster_slab_vertical_vertical_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_TAN_PLASTER_SLAB_VERTICAL_VERTICAL_2 = registerBlock("tudor_oak_tan_plaster_slab_vertical_vertical_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Spruce Tan Plaster Half-Timbered Blocks */
     public static final RegistryObject<Block> TUDOR_SPRUCE_TAN_PLASTER_CROSS = registerBlock("tudor_spruce_tan_plaster_cross",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
     public static final RegistryObject<Block> TUDOR_SPRUCE_TAN_PLASTER_DOWN = registerBlock("tudor_spruce_tan_plaster_down",
@@ -3653,7 +5056,68 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
     public static final RegistryObject<Block> TUDOR_SPRUCE_TAN_PLASTER_VERTICAL_2 = registerBlock("tudor_spruce_tan_plaster_vertical_2",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
 
+    /* Spruce Tan Plaster Half-Timbered Corners */
+    public static final RegistryObject<Block> TUDOR_SPRUCE_TAN_PLASTER_CORNER_CROSS = registerBlock("tudor_spruce_tan_plaster_corner_cross",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_TAN_PLASTER_CORNER_DOWN = registerBlock("tudor_spruce_tan_plaster_corner_down",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_TAN_PLASTER_CORNER_UP = registerBlock("tudor_spruce_tan_plaster_corner_up",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_TAN_PLASTER_CORNER_LEFT = registerBlock("tudor_spruce_tan_plaster_corner_left",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_TAN_PLASTER_CORNER_RIGHT = registerBlock("tudor_spruce_tan_plaster_corner_right",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_TAN_PLASTER_CORNER_HORIZONTAL_1 = registerBlock("tudor_spruce_tan_plaster_corner_horizontal_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_TAN_PLASTER_CORNER_HORIZONTAL_2 = registerBlock("tudor_spruce_tan_plaster_corner_horizontal_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_TAN_PLASTER_CORNER_VERTICAL_1 = registerBlock("tudor_spruce_tan_plaster_corner_vertical_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_TAN_PLASTER_CORNER_VERTICAL_2 = registerBlock("tudor_spruce_tan_plaster_corner_vertical_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Spruce Tan Plaster Half-Timbered Vertical Quarters */
+    public static final RegistryObject<Block> TUDOR_SPRUCE_TAN_PLASTER_QUARTER_VERTICAL_CROSS = registerBlock("tudor_spruce_tan_plaster_quarter_vertical_cross",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_TAN_PLASTER_QUARTER_VERTICAL_DOWN = registerBlock("tudor_spruce_tan_plaster_quarter_vertical_down",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_TAN_PLASTER_QUARTER_VERTICAL_UP = registerBlock("tudor_spruce_tan_plaster_quarter_vertical_up",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_TAN_PLASTER_QUARTER_VERTICAL_LEFT = registerBlock("tudor_spruce_tan_plaster_quarter_vertical_left",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_TAN_PLASTER_QUARTER_VERTICAL_RIGHT = registerBlock("tudor_spruce_tan_plaster_quarter_vertical_right",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_TAN_PLASTER_QUARTER_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_spruce_tan_plaster_quarter_vertical_horizontal_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_TAN_PLASTER_QUARTER_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_spruce_tan_plaster_quarter_vertical_horizontal_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_TAN_PLASTER_QUARTER_VERTICAL_VERTICAL_1 = registerBlock("tudor_spruce_tan_plaster_quarter_vertical_vertical_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_TAN_PLASTER_QUARTER_VERTICAL_VERTICAL_2 = registerBlock("tudor_spruce_tan_plaster_quarter_vertical_vertical_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Spruce Tan Plaster Half-Timbered Vertical Slabs */
+    public static final RegistryObject<Block> TUDOR_SPRUCE_TAN_PLASTER_SLAB_VERTICAL_CROSS = registerBlock("tudor_spruce_tan_plaster_slab_vertical_cross",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_TAN_PLASTER_SLAB_VERTICAL_DOWN = registerBlock("tudor_spruce_tan_plaster_slab_vertical_down",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_TAN_PLASTER_SLAB_VERTICAL_UP = registerBlock("tudor_spruce_tan_plaster_slab_vertical_up",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_TAN_PLASTER_SLAB_VERTICAL_LEFT = registerBlock("tudor_spruce_tan_plaster_slab_vertical_left",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_TAN_PLASTER_SLAB_VERTICAL_RIGHT = registerBlock("tudor_spruce_tan_plaster_slab_vertical_right",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_TAN_PLASTER_SLAB_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_spruce_tan_plaster_slab_vertical_horizontal_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_TAN_PLASTER_SLAB_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_spruce_tan_plaster_slab_vertical_horizontal_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_TAN_PLASTER_SLAB_VERTICAL_VERTICAL_1 = registerBlock("tudor_spruce_tan_plaster_slab_vertical_vertical_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_TAN_PLASTER_SLAB_VERTICAL_VERTICAL_2 = registerBlock("tudor_spruce_tan_plaster_slab_vertical_vertical_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+
     /* White Plaster Half-Timbered Blocks */
+    /* Acacia White Plaster Half-Timbered Blocks */
     public static final RegistryObject<Block> TUDOR_ACACIA_WHITE_PLASTER_CROSS = registerBlock("tudor_acacia_white_plaster_cross",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
     public static final RegistryObject<Block> TUDOR_ACACIA_WHITE_PLASTER_DOWN = registerBlock("tudor_acacia_white_plaster_down",
@@ -3673,6 +5137,67 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
     public static final RegistryObject<Block> TUDOR_ACACIA_WHITE_PLASTER_VERTICAL_2 = registerBlock("tudor_acacia_white_plaster_vertical_2",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
 
+    /* Acacia White Plaster Half-Timbered Corners */
+    public static final RegistryObject<Block> TUDOR_ACACIA_WHITE_PLASTER_CORNER_CROSS = registerBlock("tudor_acacia_white_plaster_corner_cross",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_WHITE_PLASTER_CORNER_DOWN = registerBlock("tudor_acacia_white_plaster_corner_down",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_WHITE_PLASTER_CORNER_UP = registerBlock("tudor_acacia_white_plaster_corner_up",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_WHITE_PLASTER_CORNER_LEFT = registerBlock("tudor_acacia_white_plaster_corner_left",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_WHITE_PLASTER_CORNER_RIGHT = registerBlock("tudor_acacia_white_plaster_corner_right",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_WHITE_PLASTER_CORNER_HORIZONTAL_1 = registerBlock("tudor_acacia_white_plaster_corner_horizontal_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_WHITE_PLASTER_CORNER_HORIZONTAL_2 = registerBlock("tudor_acacia_white_plaster_corner_horizontal_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_WHITE_PLASTER_CORNER_VERTICAL_1 = registerBlock("tudor_acacia_white_plaster_corner_vertical_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_WHITE_PLASTER_CORNER_VERTICAL_2 = registerBlock("tudor_acacia_white_plaster_corner_vertical_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Acacia White Plaster Half-Timbered Vertical Quarters */
+    public static final RegistryObject<Block> TUDOR_ACACIA_WHITE_PLASTER_QUARTER_VERTICAL_CROSS = registerBlock("tudor_acacia_white_plaster_quarter_vertical_cross",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_WHITE_PLASTER_QUARTER_VERTICAL_DOWN = registerBlock("tudor_acacia_white_plaster_quarter_vertical_down",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_WHITE_PLASTER_QUARTER_VERTICAL_UP = registerBlock("tudor_acacia_white_plaster_quarter_vertical_up",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_WHITE_PLASTER_QUARTER_VERTICAL_LEFT = registerBlock("tudor_acacia_white_plaster_quarter_vertical_left",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_WHITE_PLASTER_QUARTER_VERTICAL_RIGHT = registerBlock("tudor_acacia_white_plaster_quarter_vertical_right",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_WHITE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_acacia_white_plaster_quarter_vertical_horizontal_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_WHITE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_acacia_white_plaster_quarter_vertical_horizontal_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_WHITE_PLASTER_QUARTER_VERTICAL_VERTICAL_1 = registerBlock("tudor_acacia_white_plaster_quarter_vertical_vertical_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_WHITE_PLASTER_QUARTER_VERTICAL_VERTICAL_2 = registerBlock("tudor_acacia_white_plaster_quarter_vertical_vertical_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Acacia White Plaster Half-Timbered Vertical Slabs */
+    public static final RegistryObject<Block> TUDOR_ACACIA_WHITE_PLASTER_SLAB_VERTICAL_CROSS = registerBlock("tudor_acacia_white_plaster_slab_vertical_cross",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_WHITE_PLASTER_SLAB_VERTICAL_DOWN = registerBlock("tudor_acacia_white_plaster_slab_vertical_down",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_WHITE_PLASTER_SLAB_VERTICAL_UP = registerBlock("tudor_acacia_white_plaster_slab_vertical_up",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_WHITE_PLASTER_SLAB_VERTICAL_LEFT = registerBlock("tudor_acacia_white_plaster_slab_vertical_left",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_WHITE_PLASTER_SLAB_VERTICAL_RIGHT = registerBlock("tudor_acacia_white_plaster_slab_vertical_right",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_WHITE_PLASTER_SLAB_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_acacia_white_plaster_slab_vertical_horizontal_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_WHITE_PLASTER_SLAB_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_acacia_white_plaster_slab_vertical_horizontal_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_WHITE_PLASTER_SLAB_VERTICAL_VERTICAL_1 = registerBlock("tudor_acacia_white_plaster_slab_vertical_vertical_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_ACACIA_WHITE_PLASTER_SLAB_VERTICAL_VERTICAL_2 = registerBlock("tudor_acacia_white_plaster_slab_vertical_vertical_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Birch White Plaster Half-Timbered Blocks */
     public static final RegistryObject<Block> TUDOR_BIRCH_WHITE_PLASTER_CROSS = registerBlock("tudor_birch_white_plaster_cross",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
     public static final RegistryObject<Block> TUDOR_BIRCH_WHITE_PLASTER_DOWN = registerBlock("tudor_birch_white_plaster_down",
@@ -3692,6 +5217,67 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
     public static final RegistryObject<Block> TUDOR_BIRCH_WHITE_PLASTER_VERTICAL_2 = registerBlock("tudor_birch_white_plaster_vertical_2",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
 
+    /* Birch White Plaster Half-Timbered Corners */
+    public static final RegistryObject<Block> TUDOR_BIRCH_WHITE_PLASTER_CORNER_CROSS = registerBlock("tudor_birch_white_plaster_corner_cross",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_WHITE_PLASTER_CORNER_DOWN = registerBlock("tudor_birch_white_plaster_corner_down",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_WHITE_PLASTER_CORNER_UP = registerBlock("tudor_birch_white_plaster_corner_up",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_WHITE_PLASTER_CORNER_LEFT = registerBlock("tudor_birch_white_plaster_corner_left",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_WHITE_PLASTER_CORNER_RIGHT = registerBlock("tudor_birch_white_plaster_corner_right",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_WHITE_PLASTER_CORNER_HORIZONTAL_1 = registerBlock("tudor_birch_white_plaster_corner_horizontal_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_WHITE_PLASTER_CORNER_HORIZONTAL_2 = registerBlock("tudor_birch_white_plaster_corner_horizontal_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_WHITE_PLASTER_CORNER_VERTICAL_1 = registerBlock("tudor_birch_white_plaster_corner_vertical_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_WHITE_PLASTER_CORNER_VERTICAL_2 = registerBlock("tudor_birch_white_plaster_corner_vertical_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Birch White Plaster Half-Timbered Vertical Quarters */
+    public static final RegistryObject<Block> TUDOR_BIRCH_WHITE_PLASTER_QUARTER_VERTICAL_CROSS = registerBlock("tudor_birch_white_plaster_quarter_vertical_cross",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_WHITE_PLASTER_QUARTER_VERTICAL_DOWN = registerBlock("tudor_birch_white_plaster_quarter_vertical_down",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_WHITE_PLASTER_QUARTER_VERTICAL_UP = registerBlock("tudor_birch_white_plaster_quarter_vertical_up",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_WHITE_PLASTER_QUARTER_VERTICAL_LEFT = registerBlock("tudor_birch_white_plaster_quarter_vertical_left",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_WHITE_PLASTER_QUARTER_VERTICAL_RIGHT = registerBlock("tudor_birch_white_plaster_quarter_vertical_right",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_WHITE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_birch_white_plaster_quarter_vertical_horizontal_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_WHITE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_birch_white_plaster_quarter_vertical_horizontal_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_WHITE_PLASTER_QUARTER_VERTICAL_VERTICAL_1 = registerBlock("tudor_birch_white_plaster_quarter_vertical_vertical_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_WHITE_PLASTER_QUARTER_VERTICAL_VERTICAL_2 = registerBlock("tudor_birch_white_plaster_quarter_vertical_vertical_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Birch White Plaster Half-Timbered Vertical Slabs */
+    public static final RegistryObject<Block> TUDOR_BIRCH_WHITE_PLASTER_SLAB_VERTICAL_CROSS = registerBlock("tudor_birch_white_plaster_slab_vertical_cross",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_WHITE_PLASTER_SLAB_VERTICAL_DOWN = registerBlock("tudor_birch_white_plaster_slab_vertical_down",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_WHITE_PLASTER_SLAB_VERTICAL_UP = registerBlock("tudor_birch_white_plaster_slab_vertical_up",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_WHITE_PLASTER_SLAB_VERTICAL_LEFT = registerBlock("tudor_birch_white_plaster_slab_vertical_left",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_WHITE_PLASTER_SLAB_VERTICAL_RIGHT = registerBlock("tudor_birch_white_plaster_slab_vertical_right",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_WHITE_PLASTER_SLAB_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_birch_white_plaster_slab_vertical_horizontal_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_WHITE_PLASTER_SLAB_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_birch_white_plaster_slab_vertical_horizontal_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_WHITE_PLASTER_SLAB_VERTICAL_VERTICAL_1 = registerBlock("tudor_birch_white_plaster_slab_vertical_vertical_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_BIRCH_WHITE_PLASTER_SLAB_VERTICAL_VERTICAL_2 = registerBlock("tudor_birch_white_plaster_slab_vertical_vertical_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Dark Oak White Plaster Half-Timbered Blocks */
     public static final RegistryObject<Block> TUDOR_DARK_OAK_WHITE_PLASTER_CROSS = registerBlock("tudor_dark_oak_white_plaster_cross",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
     public static final RegistryObject<Block> TUDOR_DARK_OAK_WHITE_PLASTER_DOWN = registerBlock("tudor_dark_oak_white_plaster_down",
@@ -3711,6 +5297,67 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
     public static final RegistryObject<Block> TUDOR_DARK_OAK_WHITE_PLASTER_VERTICAL_2 = registerBlock("tudor_dark_oak_white_plaster_vertical_2",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
 
+    /* Dark Oak White Plaster Half-Timbered Corners */
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_WHITE_PLASTER_CORNER_CROSS = registerBlock("tudor_dark_oak_white_plaster_corner_cross",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_WHITE_PLASTER_CORNER_DOWN = registerBlock("tudor_dark_oak_white_plaster_corner_down",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_WHITE_PLASTER_CORNER_UP = registerBlock("tudor_dark_oak_white_plaster_corner_up",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_WHITE_PLASTER_CORNER_LEFT = registerBlock("tudor_dark_oak_white_plaster_corner_left",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_WHITE_PLASTER_CORNER_RIGHT = registerBlock("tudor_dark_oak_white_plaster_corner_right",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_WHITE_PLASTER_CORNER_HORIZONTAL_1 = registerBlock("tudor_dark_oak_white_plaster_corner_horizontal_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_WHITE_PLASTER_CORNER_HORIZONTAL_2 = registerBlock("tudor_dark_oak_white_plaster_corner_horizontal_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_WHITE_PLASTER_CORNER_VERTICAL_1 = registerBlock("tudor_dark_oak_white_plaster_corner_vertical_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_WHITE_PLASTER_CORNER_VERTICAL_2 = registerBlock("tudor_dark_oak_white_plaster_corner_vertical_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Dark Oak White Plaster Half-Timbered Vertical Quarters */
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_WHITE_PLASTER_QUARTER_VERTICAL_CROSS = registerBlock("tudor_dark_oak_white_plaster_quarter_vertical_cross",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_WHITE_PLASTER_QUARTER_VERTICAL_DOWN = registerBlock("tudor_dark_oak_white_plaster_quarter_vertical_down",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_WHITE_PLASTER_QUARTER_VERTICAL_UP = registerBlock("tudor_dark_oak_white_plaster_quarter_vertical_up",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_WHITE_PLASTER_QUARTER_VERTICAL_LEFT = registerBlock("tudor_dark_oak_white_plaster_quarter_vertical_left",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_WHITE_PLASTER_QUARTER_VERTICAL_RIGHT = registerBlock("tudor_dark_oak_white_plaster_quarter_vertical_right",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_WHITE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_dark_oak_white_plaster_quarter_vertical_horizontal_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_WHITE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_dark_oak_white_plaster_quarter_vertical_horizontal_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_WHITE_PLASTER_QUARTER_VERTICAL_VERTICAL_1 = registerBlock("tudor_dark_oak_white_plaster_quarter_vertical_vertical_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_WHITE_PLASTER_QUARTER_VERTICAL_VERTICAL_2 = registerBlock("tudor_dark_oak_white_plaster_quarter_vertical_vertical_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Dark Oak White Plaster Half-Timbered Vertical Slabs */
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_WHITE_PLASTER_SLAB_VERTICAL_CROSS = registerBlock("tudor_dark_oak_white_plaster_slab_vertical_cross",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_WHITE_PLASTER_SLAB_VERTICAL_DOWN = registerBlock("tudor_dark_oak_white_plaster_slab_vertical_down",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_WHITE_PLASTER_SLAB_VERTICAL_UP = registerBlock("tudor_dark_oak_white_plaster_slab_vertical_up",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_WHITE_PLASTER_SLAB_VERTICAL_LEFT = registerBlock("tudor_dark_oak_white_plaster_slab_vertical_left",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_WHITE_PLASTER_SLAB_VERTICAL_RIGHT = registerBlock("tudor_dark_oak_white_plaster_slab_vertical_right",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_WHITE_PLASTER_SLAB_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_dark_oak_white_plaster_slab_vertical_horizontal_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_WHITE_PLASTER_SLAB_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_dark_oak_white_plaster_slab_vertical_horizontal_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_WHITE_PLASTER_SLAB_VERTICAL_VERTICAL_1 = registerBlock("tudor_dark_oak_white_plaster_slab_vertical_vertical_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_DARK_OAK_WHITE_PLASTER_SLAB_VERTICAL_VERTICAL_2 = registerBlock("tudor_dark_oak_white_plaster_slab_vertical_vertical_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Jungle White Plaster Half-Timbered Blocks */
     public static final RegistryObject<Block> TUDOR_JUNGLE_WHITE_PLASTER_CROSS = registerBlock("tudor_jungle_white_plaster_cross",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
     public static final RegistryObject<Block> TUDOR_JUNGLE_WHITE_PLASTER_DOWN = registerBlock("tudor_jungle_white_plaster_down",
@@ -3730,6 +5377,67 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
     public static final RegistryObject<Block> TUDOR_JUNGLE_WHITE_PLASTER_VERTICAL_2 = registerBlock("tudor_jungle_white_plaster_vertical_2",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
 
+    /* Jungle White Plaster Half-Timbered Corners */
+    public static final RegistryObject<Block> TUDOR_JUNGLE_WHITE_PLASTER_CORNER_CROSS = registerBlock("tudor_jungle_white_plaster_corner_cross",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_WHITE_PLASTER_CORNER_DOWN = registerBlock("tudor_jungle_white_plaster_corner_down",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_WHITE_PLASTER_CORNER_UP = registerBlock("tudor_jungle_white_plaster_corner_up",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_WHITE_PLASTER_CORNER_LEFT = registerBlock("tudor_jungle_white_plaster_corner_left",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_WHITE_PLASTER_CORNER_RIGHT = registerBlock("tudor_jungle_white_plaster_corner_right",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_WHITE_PLASTER_CORNER_HORIZONTAL_1 = registerBlock("tudor_jungle_white_plaster_corner_horizontal_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_WHITE_PLASTER_CORNER_HORIZONTAL_2 = registerBlock("tudor_jungle_white_plaster_corner_horizontal_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_WHITE_PLASTER_CORNER_VERTICAL_1 = registerBlock("tudor_jungle_white_plaster_corner_vertical_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_WHITE_PLASTER_CORNER_VERTICAL_2 = registerBlock("tudor_jungle_white_plaster_corner_vertical_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Jungle White Plaster Half-Timbered Vertical Quarters */
+    public static final RegistryObject<Block> TUDOR_JUNGLE_WHITE_PLASTER_QUARTER_VERTICAL_CROSS = registerBlock("tudor_jungle_white_plaster_quarter_vertical_cross",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_WHITE_PLASTER_QUARTER_VERTICAL_DOWN = registerBlock("tudor_jungle_white_plaster_quarter_vertical_down",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_WHITE_PLASTER_QUARTER_VERTICAL_UP = registerBlock("tudor_jungle_white_plaster_quarter_vertical_up",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_WHITE_PLASTER_QUARTER_VERTICAL_LEFT = registerBlock("tudor_jungle_white_plaster_quarter_vertical_left",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_WHITE_PLASTER_QUARTER_VERTICAL_RIGHT = registerBlock("tudor_jungle_white_plaster_quarter_vertical_right",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_WHITE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_jungle_white_plaster_quarter_vertical_horizontal_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_WHITE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_jungle_white_plaster_quarter_vertical_horizontal_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_WHITE_PLASTER_QUARTER_VERTICAL_VERTICAL_1 = registerBlock("tudor_jungle_white_plaster_quarter_vertical_vertical_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_WHITE_PLASTER_QUARTER_VERTICAL_VERTICAL_2 = registerBlock("tudor_jungle_white_plaster_quarter_vertical_vertical_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Jungle White Plaster Half-Timbered Vertical Slabs */
+    public static final RegistryObject<Block> TUDOR_JUNGLE_WHITE_PLASTER_SLAB_VERTICAL_CROSS = registerBlock("tudor_jungle_white_plaster_slab_vertical_cross",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_WHITE_PLASTER_SLAB_VERTICAL_DOWN = registerBlock("tudor_jungle_white_plaster_slab_vertical_down",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_WHITE_PLASTER_SLAB_VERTICAL_UP = registerBlock("tudor_jungle_white_plaster_slab_vertical_up",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_WHITE_PLASTER_SLAB_VERTICAL_LEFT = registerBlock("tudor_jungle_white_plaster_slab_vertical_left",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_WHITE_PLASTER_SLAB_VERTICAL_RIGHT = registerBlock("tudor_jungle_white_plaster_slab_vertical_right",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_WHITE_PLASTER_SLAB_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_jungle_white_plaster_slab_vertical_horizontal_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_WHITE_PLASTER_SLAB_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_jungle_white_plaster_slab_vertical_horizontal_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_WHITE_PLASTER_SLAB_VERTICAL_VERTICAL_1 = registerBlock("tudor_jungle_white_plaster_slab_vertical_vertical_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_JUNGLE_WHITE_PLASTER_SLAB_VERTICAL_VERTICAL_2 = registerBlock("tudor_jungle_white_plaster_slab_vertical_vertical_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Oak White Plaster Half-Timbered Blocks */
     public static final RegistryObject<Block> TUDOR_OAK_WHITE_PLASTER_CROSS = registerBlock("tudor_oak_white_plaster_cross",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
     public static final RegistryObject<Block> TUDOR_OAK_WHITE_PLASTER_DOWN = registerBlock("tudor_oak_white_plaster_down",
@@ -3749,6 +5457,67 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
     public static final RegistryObject<Block> TUDOR_OAK_WHITE_PLASTER_VERTICAL_2 = registerBlock("tudor_oak_white_plaster_vertical_2",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
 
+    /* Oak White Plaster Half-Timbered Corners */
+    public static final RegistryObject<Block> TUDOR_OAK_WHITE_PLASTER_CORNER_CROSS = registerBlock("tudor_oak_white_plaster_corner_cross",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_WHITE_PLASTER_CORNER_DOWN = registerBlock("tudor_oak_white_plaster_corner_down",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_WHITE_PLASTER_CORNER_UP = registerBlock("tudor_oak_white_plaster_corner_up",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_WHITE_PLASTER_CORNER_LEFT = registerBlock("tudor_oak_white_plaster_corner_left",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_WHITE_PLASTER_CORNER_RIGHT = registerBlock("tudor_oak_white_plaster_corner_right",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_WHITE_PLASTER_CORNER_HORIZONTAL_1 = registerBlock("tudor_oak_white_plaster_corner_horizontal_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_WHITE_PLASTER_CORNER_HORIZONTAL_2 = registerBlock("tudor_oak_white_plaster_corner_horizontal_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_WHITE_PLASTER_CORNER_VERTICAL_1 = registerBlock("tudor_oak_white_plaster_corner_vertical_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_WHITE_PLASTER_CORNER_VERTICAL_2 = registerBlock("tudor_oak_white_plaster_corner_vertical_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Oak White Plaster Half-Timbered Vertical Quarters */
+    public static final RegistryObject<Block> TUDOR_OAK_WHITE_PLASTER_QUARTER_VERTICAL_CROSS = registerBlock("tudor_oak_white_plaster_quarter_vertical_cross",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_WHITE_PLASTER_QUARTER_VERTICAL_DOWN = registerBlock("tudor_oak_white_plaster_quarter_vertical_down",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_WHITE_PLASTER_QUARTER_VERTICAL_UP = registerBlock("tudor_oak_white_plaster_quarter_vertical_up",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_WHITE_PLASTER_QUARTER_VERTICAL_LEFT = registerBlock("tudor_oak_white_plaster_quarter_vertical_left",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_WHITE_PLASTER_QUARTER_VERTICAL_RIGHT = registerBlock("tudor_oak_white_plaster_quarter_vertical_right",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_WHITE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_oak_white_plaster_quarter_vertical_horizontal_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_WHITE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_oak_white_plaster_quarter_vertical_horizontal_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_WHITE_PLASTER_QUARTER_VERTICAL_VERTICAL_1 = registerBlock("tudor_oak_white_plaster_quarter_vertical_vertical_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_WHITE_PLASTER_QUARTER_VERTICAL_VERTICAL_2 = registerBlock("tudor_oak_white_plaster_quarter_vertical_vertical_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Oak White Plaster Half-Timbered Vertical Slabs */
+    public static final RegistryObject<Block> TUDOR_OAK_WHITE_PLASTER_SLAB_VERTICAL_CROSS = registerBlock("tudor_oak_white_plaster_slab_vertical_cross",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_WHITE_PLASTER_SLAB_VERTICAL_DOWN = registerBlock("tudor_oak_white_plaster_slab_vertical_down",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_WHITE_PLASTER_SLAB_VERTICAL_UP = registerBlock("tudor_oak_white_plaster_slab_vertical_up",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_WHITE_PLASTER_SLAB_VERTICAL_LEFT = registerBlock("tudor_oak_white_plaster_slab_vertical_left",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_WHITE_PLASTER_SLAB_VERTICAL_RIGHT = registerBlock("tudor_oak_white_plaster_slab_vertical_right",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_WHITE_PLASTER_SLAB_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_oak_white_plaster_slab_vertical_horizontal_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_WHITE_PLASTER_SLAB_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_oak_white_plaster_slab_vertical_horizontal_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_WHITE_PLASTER_SLAB_VERTICAL_VERTICAL_1 = registerBlock("tudor_oak_white_plaster_slab_vertical_vertical_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_OAK_WHITE_PLASTER_SLAB_VERTICAL_VERTICAL_2 = registerBlock("tudor_oak_white_plaster_slab_vertical_vertical_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Spruce White Plaster Half-Timbered Blocks */
     public static final RegistryObject<Block> TUDOR_SPRUCE_WHITE_PLASTER_CROSS = registerBlock("tudor_spruce_white_plaster_cross",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
     public static final RegistryObject<Block> TUDOR_SPRUCE_WHITE_PLASTER_DOWN = registerBlock("tudor_spruce_white_plaster_down",
@@ -3767,6 +5536,66 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
     public static final RegistryObject<Block> TUDOR_SPRUCE_WHITE_PLASTER_VERTICAL_2 = registerBlock("tudor_spruce_white_plaster_vertical_2",
             () -> new DirectionalBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Spruce White Plaster Half-Timbered Corners */
+    public static final RegistryObject<Block> TUDOR_SPRUCE_WHITE_PLASTER_CORNER_CROSS = registerBlock("tudor_spruce_white_plaster_corner_cross",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_WHITE_PLASTER_CORNER_DOWN = registerBlock("tudor_spruce_white_plaster_corner_down",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_WHITE_PLASTER_CORNER_UP = registerBlock("tudor_spruce_white_plaster_corner_up",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_WHITE_PLASTER_CORNER_LEFT = registerBlock("tudor_spruce_white_plaster_corner_left",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_WHITE_PLASTER_CORNER_RIGHT = registerBlock("tudor_spruce_white_plaster_corner_right",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_WHITE_PLASTER_CORNER_HORIZONTAL_1 = registerBlock("tudor_spruce_white_plaster_corner_horizontal_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_WHITE_PLASTER_CORNER_HORIZONTAL_2 = registerBlock("tudor_spruce_white_plaster_corner_horizontal_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_WHITE_PLASTER_CORNER_VERTICAL_1 = registerBlock("tudor_spruce_white_plaster_corner_vertical_1",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_WHITE_PLASTER_CORNER_VERTICAL_2 = registerBlock("tudor_spruce_white_plaster_corner_vertical_2",
+            () -> new CornerBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Spruce White Plaster Half-Timbered Vertical Quarters */
+    public static final RegistryObject<Block> TUDOR_SPRUCE_WHITE_PLASTER_QUARTER_VERTICAL_CROSS = registerBlock("tudor_spruce_white_plaster_quarter_vertical_cross",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_WHITE_PLASTER_QUARTER_VERTICAL_DOWN = registerBlock("tudor_spruce_white_plaster_quarter_vertical_down",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_WHITE_PLASTER_QUARTER_VERTICAL_UP = registerBlock("tudor_spruce_white_plaster_quarter_vertical_up",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_WHITE_PLASTER_QUARTER_VERTICAL_LEFT = registerBlock("tudor_spruce_white_plaster_quarter_vertical_left",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_WHITE_PLASTER_QUARTER_VERTICAL_RIGHT = registerBlock("tudor_spruce_white_plaster_quarter_vertical_right",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_WHITE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_spruce_white_plaster_quarter_vertical_horizontal_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_WHITE_PLASTER_QUARTER_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_spruce_white_plaster_quarter_vertical_horizontal_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_WHITE_PLASTER_QUARTER_VERTICAL_VERTICAL_1 = registerBlock("tudor_spruce_white_plaster_quarter_vertical_vertical_1",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_WHITE_PLASTER_QUARTER_VERTICAL_VERTICAL_2 = registerBlock("tudor_spruce_white_plaster_quarter_vertical_vertical_2",
+            () -> new VerticalQuarterBlock(BlockProps.HALF_TIMBERED.get()));
+
+    /* Spruce White Plaster Half-Timbered Vertical Slabs */
+    public static final RegistryObject<Block> TUDOR_SPRUCE_WHITE_PLASTER_SLAB_VERTICAL_CROSS = registerBlock("tudor_spruce_white_plaster_slab_vertical_cross",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_WHITE_PLASTER_SLAB_VERTICAL_DOWN = registerBlock("tudor_spruce_white_plaster_slab_vertical_down",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_WHITE_PLASTER_SLAB_VERTICAL_UP = registerBlock("tudor_spruce_white_plaster_slab_vertical_up",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_WHITE_PLASTER_SLAB_VERTICAL_LEFT = registerBlock("tudor_spruce_white_plaster_slab_vertical_left",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_WHITE_PLASTER_SLAB_VERTICAL_RIGHT = registerBlock("tudor_spruce_white_plaster_slab_vertical_right",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_WHITE_PLASTER_SLAB_VERTICAL_HORIZONTAL_1 = registerBlock("tudor_spruce_white_plaster_slab_vertical_horizontal_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_WHITE_PLASTER_SLAB_VERTICAL_HORIZONTAL_2 = registerBlock("tudor_spruce_white_plaster_slab_vertical_horizontal_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_WHITE_PLASTER_SLAB_VERTICAL_VERTICAL_1 = registerBlock("tudor_spruce_white_plaster_slab_vertical_vertical_1",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
+    public static final RegistryObject<Block> TUDOR_SPRUCE_WHITE_PLASTER_SLAB_VERTICAL_VERTICAL_2 = registerBlock("tudor_spruce_white_plaster_slab_vertical_vertical_2",
+            () -> new VerticalSlabBlock(BlockProps.HALF_TIMBERED.get()));
 
     public static void printCounts() {
         System.out.println("Caliber Blocks Registered: " + blockCount);

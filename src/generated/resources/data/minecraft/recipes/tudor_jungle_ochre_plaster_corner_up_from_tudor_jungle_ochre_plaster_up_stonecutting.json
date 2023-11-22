@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "caliber:tudor_jungle_ochre_plaster_up"
+  },
+  "result": "caliber:tudor_jungle_ochre_plaster_corner_up",
+  "count": 2
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "caliber:tudor_birch_ochre_plaster_right"
+  },
+  "result": "caliber:tudor_birch_ochre_plaster_slab_vertical_right",
+  "count": 2
+}

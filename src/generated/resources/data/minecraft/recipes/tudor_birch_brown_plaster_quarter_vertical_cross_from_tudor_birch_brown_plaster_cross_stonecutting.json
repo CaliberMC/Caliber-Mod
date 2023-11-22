@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "caliber:tudor_birch_brown_plaster_cross"
+  },
+  "result": "caliber:tudor_birch_brown_plaster_quarter_vertical_cross",
+  "count": 4
+}

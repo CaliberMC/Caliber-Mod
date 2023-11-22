@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "caliber:tudor_jungle_brown_plaster_left"
+  },
+  "result": "caliber:tudor_jungle_brown_plaster_corner_left",
+  "count": 2
+}

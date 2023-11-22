@@ -20,6 +20,7 @@ public class DataGenerators {
         generator.addProvider(new MossyBlockRecipeProvider(generator));
         generator.addProvider(new MiscRecipeProvider(generator));
         generator.addProvider(new TudorBlockRecipeProvider(generator));
+        generator.addProvider(new Tudor2BlockRecipeProvider(generator));
         generator.addProvider(new VanillaCustomRecipeProvider(generator));
 //        generator.addProvider(new ModRecipeProviderWood(generator));
         generator.addProvider(new ModLootTableProvider(generator));

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "caliber:tudor_acacia_white_plaster_vertical_1"
+  },
+  "result": "caliber:tudor_acacia_white_plaster_slab_vertical_vertical_1",
+  "count": 2
+}

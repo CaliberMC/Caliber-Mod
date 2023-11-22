@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:tudor_dark_oak_tan_plaster_up_from_dark_oak_planks_tan_plaster"
+    ]
+  },
+  "criteria": {
+    "has_tan_plaster": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caliber:tan_plaster"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:tudor_dark_oak_tan_plaster_up_from_dark_oak_planks_tan_plaster"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_tan_plaster",
+      "has_the_recipe"
+    ]
+  ]
+}

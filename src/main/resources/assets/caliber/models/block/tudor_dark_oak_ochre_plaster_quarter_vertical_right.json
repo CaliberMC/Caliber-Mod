@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/quarter_vertical",
+  "textures": {
+    "side": "caliber:block/tudor_dark_oak_ochre_plaster_right",
+    "bottom": "minecraft:block/dark_oak_planks",
+    "top": "minecraft:block/dark_oak_planks"
+  }
+}

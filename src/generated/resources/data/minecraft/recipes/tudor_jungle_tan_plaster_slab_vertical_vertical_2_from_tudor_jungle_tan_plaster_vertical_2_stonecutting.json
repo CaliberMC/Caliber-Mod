@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "caliber:tudor_jungle_tan_plaster_vertical_2"
+  },
+  "result": "caliber:tudor_jungle_tan_plaster_slab_vertical_vertical_2",
+  "count": 2
+}
