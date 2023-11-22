@@ -124,6 +124,7 @@
 - Added all variants of Polished Deepslate
 - Added all block variants of Pillar Block
 - Removed unused texture files
+- Updated Silver and Tin Textures
 
 0.0.20 (in progress)
 - Added 2 Modes for Layered Blocks (Slab Mode & Layer Mode)
