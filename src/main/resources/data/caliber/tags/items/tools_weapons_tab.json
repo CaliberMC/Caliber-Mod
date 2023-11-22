@@ -48,6 +48,7 @@
     "minecraft:shears",
     "minecraft:carrot_on_a_stick",
     "minecraft:lead",
-    "minecraft:name_tag"
+    "minecraft:name_tag",
+    "caliber:hammer"
   ]
 }
