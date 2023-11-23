@@ -14,38 +14,51 @@ import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.player.Player;
 
+import static net.minecraft.server.commands.TimeCommand.setTime;
+
 public class CaliberCommands {
 
     public static void register(CommandDispatcher<CommandSourceStack> dispatcher) {
         dispatcher.register(Commands.literal("ptime")
                 .requires((sourceStack) -> sourceStack.getEntity() instanceof Player && sourceStack.hasPermission(2))
-                .then(Commands.literal("server").executes((context) -> setServerVal(context.getSource(), false)))
-                .then(Commands.argument("tickable", BoolArgumentType.bool())
+                .then(Commands.literal("server").executes((context) -> {
+                    return setServerVal(context.getSource(), false);
+                }))
                         .then(Commands.literal("set")
-                                .then(Commands.literal("day").executes((context) ->
-                                        setTime(context.getSource(), 1000, BoolArgumentType.getBool(context, "tickable"))))
-                                .then(Commands.literal("noon").executes((context) ->
-                                        setTime(context.getSource(), 6000, BoolArgumentType.getBool(context, "tickable"))))
-                                .then(Commands.literal("night").executes((context) ->
-                                        setTime(context.getSource(), 13000, BoolArgumentType.getBool(context, "tickable"))))
-                                .then(Commands.literal("midnight").executes((context) ->
-                                        setTime(context.getSource(), 18000, BoolArgumentType.getBool(context, "tickable"))))
+                                .then(Commands.literal("sunrise").executes((context) -> {
+                                    return setTime(context.getSource(), 0, false);
+                                }))
+                                .then(Commands.literal("day").executes((context) -> {
+                                    return setTime(context.getSource(), 1000, false);
+                                }))
+                                .then(Commands.literal("morning").executes((context) -> {
+                                    return setTime(context.getSource(), 2000, false);
+                                }))
+                                .then(Commands.literal("noon").executes((context) -> {
+                                    return setTime(context.getSource(), 6000, false);
+                                }))
+                                .then(Commands.literal("afternoon").executes((context) -> {
+                                    return setTime(context.getSource(), 9000, false);
+                                }))
+                                .then(Commands.literal("sunset").executes((context) -> {
+                                    return setTime(context.getSource(), 12000, false);
+                                }))
+                                .then(Commands.literal("night").executes((context) -> {
+                                    return setTime(context.getSource(), 13000, false);
+                                }))
+                                .then(Commands.literal("midnight").executes((context) -> {
+                                    return setTime(context.getSource(), 18000, false);
+                                }))
                                 .then(Commands.argument("time", TimeArgument.time()).executes((context) ->
                                         setTime(context.getSource(), IntegerArgumentType.getInteger(context, "time"),
-                                                BoolArgumentType.getBool(context, "tickable"))))
-                        ).then(Commands.literal("add").then(Commands.argument("time", TimeArgument.time()).executes((context) ->
-                                addTime(context.getSource(), IntegerArgumentType.getInteger(context, "time"),
-                                        BoolArgumentType.getBool(context, "tickable")))))
-                        .then(Commands.literal("query")
-                                .then(Commands.literal("daytime").executes((context) -> queryTime(context.getSource(), false)))
-                                .then(Commands.literal("day").executes((context) -> queryTime(context.getSource(), true))))
-                ));
+                                                false))))
+                        
+                );
         dispatcher.register(Commands.literal("pweather").requires((context) -> context.hasPermission(2))
                 .then(Commands.literal("server").executes((context) -> setServerVal(context.getSource(), true)))
                 .then(Commands.literal("clear").executes((context) -> setRain(context.getSource(), false)))
                 .then(Commands.literal("rain").executes((context) -> setRain(context.getSource(), true)))
         );
-
 
         dispatcher.register(Commands.literal("buildmode").requires((context) -> context.hasPermission(2))
                 .then(Commands.literal("slab").executes((context) -> setBlockStateMode(context.getSource(), 0)))

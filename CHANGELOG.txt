@@ -127,8 +127,11 @@
 - Updated Silver and Tin Textures
 
 0.0.20 (in progress)
+- Added sounds for Hammer Item
+- Added buildmode command to change behaviour of all Layered Blocks (caliber.buildmode)
 - Added 2 Modes for Layered Blocks (Slab Mode & Layer Mode)
     - Slab Mode: Only slab thickness blocks will be placed when placing layered blocks. Use the keybind (m) to place layered blocks.
     - Layer Mode: Only layered blocks will be placed when placing layered blocks. Use the keybind (m) to place slab thickness blocks.
-- Added keybind (m) to enable Conquest like BlockState behaviour for Corner Blocks, Quarter Blocks, Vertical Quarter Blocks, Slab Blocks, Slab Blocks with the LAYERS property, otherwise they will function like the original slab thickness blocks.
-- Added buildmode command to change behaviour of all Layered Blocks (caliber.buildmode)
+- Added Nails Item to use with Hammer Item for cycling blockstate conditions in survival mode
+    - Creative: left click to change property and right click to cycle states
+    - Survival: sneak+right click to change blockstate property and right click to cycle states (1 nail per interaction will be consumed)

@@ -7,6 +7,8 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.ChatType;
 import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
@@ -43,13 +45,11 @@ public class Hammer extends Item {
             // Check if the player has nails before interacting
             if (!hasNails(serverPlayer)) {
                 serverPlayer.sendMessage(new TranslatableComponent("message.caliber.no_nails"), ChatType.GAME_INFO, Util.NIL_UUID);
+                level.playSound(null, currentPos, SoundEvents.SHIELD_BLOCK, SoundSource.BLOCKS, 1.0F, 1.0F);
                 return InteractionResult.FAIL;
             }
 
-            // Store the original block state
             BlockState originalState = level.getBlockState(currentPos);
-
-            // Perform the interaction logic
             InteractionResult result = performInteraction(pContext, serverPlayer, level, currentPos);
 
             // Check if the block state has changed after the interaction
@@ -68,9 +68,12 @@ public class Hammer extends Item {
     private InteractionResult performInteraction(UseOnContext pContext, ServerPlayer serverPlayer, Level level, BlockPos currentPos) {
         if (serverPlayer.isShiftKeyDown()) {
             ModEventBus.hammerInteraction(pContext.getItemInHand().getOrCreateTag(), serverPlayer, level.getBlockState(currentPos), level, currentPos, false);
+            level.playSound(null, currentPos, SoundEvents.CHEST_LOCKED, SoundSource.BLOCKS, 1.0F, 1.0F);
             return InteractionResult.sidedSuccess(level.isClientSide);
         }
         ModEventBus.hammerInteraction(pContext.getItemInHand().getOrCreateTag(), serverPlayer, level.getBlockState(currentPos), level, currentPos, true);
+        level.playSound(null, currentPos, SoundEvents.TRIDENT_HIT, SoundSource.BLOCKS, 1.0F, 1.0F);
+
         return InteractionResult.sidedSuccess(level.isClientSide);
     }
 
@@ -97,14 +100,14 @@ public class Hammer extends Item {
 
         for (ItemStack itemStack : player.getInventory().items) {
             if (itemStack.getItem().equals(nailItem)) {
-                itemStack.shrink(1); // Decrease the count by one
+                itemStack.shrink(1);
                 if (itemStack.isEmpty()) {
-                    player.getInventory().removeItem(itemStack); // Remove the stack if it's empty
+                    player.getInventory().removeItem(itemStack);
                 }
-                break; // Stop after consuming one nail
+                break;
             }
         }
-
+//        player.inventoryMenu.broadcastChanges();
     }
 
     public void resetLastInteractedBlock() {
