@@ -31,6 +31,8 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 import javax.annotation.Nullable;
 import java.util.Map;
 
+import static com.calibermc.caliber.util.ModBlockStateProperties.isSide;
+
 
 public class VerticalSlabLayerBlock extends Block implements SimpleWaterloggedBlock {
 
@@ -131,10 +133,21 @@ public class VerticalSlabLayerBlock extends Block implements SimpleWaterloggedBl
         }
     }
 
+//    @Override
+//    public boolean canBeReplaced(BlockState state, BlockPlaceContext pContext) {
+//        int i = state.getValue(LAYERS);
+//        return (pContext.getItemInHand().getItem() == this.asItem() && i < layerCount) && pContext.replacingClickedOnBlock();
+//    }
+
     @Override
     public boolean canBeReplaced(BlockState state, BlockPlaceContext pContext) {
-        int i = state.getValue(LAYERS);
-        return (pContext.getItemInHand().getItem() == this.asItem() && i < layerCount) && pContext.replacingClickedOnBlock();
+        int currentLayers = state.getValue(LAYERS);
+        if (pContext.getItemInHand().getItem() == this.asItem()) {
+            Direction clickedFace = pContext.getClickedFace();
+            // Allow replacement if it's a side click and not at max layers
+            return isSide(clickedFace) && currentLayers < layerCount;
+        }
+        return false;
     }
 
     @Override

@@ -2,10 +2,13 @@ package com.calibermc.caliber.event;
 
 import com.calibermc.caliber.Caliber;
 
+import com.calibermc.caliber.block.custom.CornerLayerBlock;
+import com.calibermc.caliber.block.custom.QuarterLayerBlock;
 import com.calibermc.caliber.block.custom.SlabLayerBlock;
 import com.calibermc.caliber.block.custom.VerticalSlabLayerBlock;
 import com.calibermc.caliber.command.CaliberCommands;
 import com.calibermc.caliber.config.CaliberCommonConfigs;
+import com.calibermc.caliber.util.ModBlockStateProperties;
 import com.calibermc.caliber.util.player.IPlayerExtended;
 import net.minecraft.Util;
 import net.minecraft.core.BlockPos;
@@ -39,25 +42,20 @@ public class ModEventBus {
     public static void preventRightClick(PlayerInteractEvent.RightClickBlock event) {
         if (event.getPlayer() instanceof IPlayerExtended ex && event.getHand() == InteractionHand.MAIN_HAND) {
             BlockState state = event.getWorld().getBlockState(event.getPos());
-            if (event.getPlayer().getItemInHand(event.getHand()).is(state.getBlock().asItem())
-                    && state.hasProperty(BlockStateProperties.LAYERS)) {
+            if (event.getPlayer().getItemInHand(event.getHand()).is(state.getBlock().asItem()) && state.hasProperty(BlockStateProperties.LAYERS) && !state.hasProperty(ModBlockStateProperties.FIVE_LAYERS)) {
                 boolean slab = CaliberCommonConfigs.MODE_BLOCKSTATE.get() == 0;
                 if (ex.caliber$additionalPressed()) {
-                    slab = !slab;
-                }
-
-                if (slab) {
-                    if (state.getValue(BlockStateProperties.LAYERS) == 3 || state.getValue(BlockStateProperties.LAYERS) == 4) {
-                        int slabVal = 5;
-                        if (state.getBlock() instanceof SlabLayerBlock || state.getBlock() instanceof VerticalSlabLayerBlock) {
-                            slabVal = 8;
-                        }
-                        state = state.setValue(BlockStateProperties.LAYERS, slabVal);
-                        event.getWorld().setBlock(event.getPos(), state, 18);
-                        SoundType soundtype = state.getSoundType(event.getWorld(), event.getPos(), event.getPlayer());
-                        event.getWorld().playSound(event.getPlayer(), event.getPos(), soundtype.getPlaceSound(), SoundSource.BLOCKS, (soundtype.getVolume() + 1.0F) / 2.0F, soundtype.getPitch() * 0.8F);
-                        event.setCanceled(true);
+                    slab = !slab;                 }
+                if (slab && state.getValue(BlockStateProperties.LAYERS) == 4) {
+                    int slabVal = 5;
+                    if (state.getBlock() instanceof SlabLayerBlock || state.getBlock() instanceof VerticalSlabLayerBlock) {
+                        slabVal = 8;
                     }
+                    state = state.setValue(BlockStateProperties.LAYERS, slabVal);
+                    event.getWorld().setBlock(event.getPos(), state, 18);
+                    SoundType soundtype = state.getSoundType(event.getWorld(), event.getPos(), event.getPlayer());
+                    event.getWorld().playSound(event.getPlayer(), event.getPos(), soundtype.getPlaceSound(), SoundSource.BLOCKS, (soundtype.getVolume() + 1.0F) / 2.0F, soundtype.getPitch() * 0.8F);
+                    event.setCanceled(true);
                 }
             }
         }
@@ -67,18 +65,16 @@ public class ModEventBus {
     public static void placeBlock(BlockEvent.EntityPlaceEvent event) {
         if (event.getEntity() instanceof IPlayerExtended ex) {
             BlockState state = event.getPlacedBlock();
-            if (state.hasProperty(BlockStateProperties.LAYERS) && event.getEntity() instanceof ServerPlayer) {
+            if ((state.hasProperty(BlockStateProperties.LAYERS) || state.hasProperty(ModBlockStateProperties.FIVE_LAYERS)) && event.getEntity() instanceof ServerPlayer) {
                 boolean slab = CaliberCommonConfigs.MODE_BLOCKSTATE.get() == 0;
                 if (ex.caliber$additionalPressed()) {
-                    slab = !slab;
-                }
-
+                    slab = !slab;                 }
                 if (slab) {
                     int slabVal = 3;
                     if (state.getBlock() instanceof SlabLayerBlock || state.getBlock() instanceof VerticalSlabLayerBlock) {
-                        slabVal = 4;
-                    }
-                    state = state.setValue(BlockStateProperties.LAYERS, slabVal);
+                        slabVal = 4;                     }
+                        state = state.setValue(state.hasProperty(ModBlockStateProperties.FIVE_LAYERS) ?
+                                ModBlockStateProperties.FIVE_LAYERS : BlockStateProperties.LAYERS, slabVal);
                 }
                 event.getWorld().setBlock(event.getBlockSnapshot().getPos(), state, 18);
             }
