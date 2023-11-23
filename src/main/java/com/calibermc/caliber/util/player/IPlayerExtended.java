@@ -1,6 +1,14 @@
 package com.calibermc.caliber.util.player;
 
+import net.minecraft.nbt.CompoundTag;
+
 public interface IPlayerExtended {
+
+    CompoundTag caliber$getTag();
+
+    boolean caliber$additionalPressed();
+
+    void caliber$pressAdditional(boolean pressed);
 
     void caliber$setDayTime(long dayTime, boolean shouldTick);
 

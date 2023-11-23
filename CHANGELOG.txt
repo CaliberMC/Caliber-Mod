@@ -131,4 +131,4 @@
     - Slab Mode: Only slab thickness blocks will be placed when placing layered blocks. Use the keybind (m) to place layered blocks.
     - Layer Mode: Only layered blocks will be placed when placing layered blocks. Use the keybind (m) to place slab thickness blocks.
 - Added keybind (m) to enable Conquest like BlockState behaviour for Corner Blocks, Quarter Blocks, Vertical Quarter Blocks, Slab Blocks, Slab Blocks with the LAYERS property, otherwise they will function like the original slab thickness blocks.
-- Added buildmode command to change behaviour of all Layered Blocks (calibermod.buildmode)
+- Added buildmode command to change behaviour of all Layered Blocks (caliber.buildmode)

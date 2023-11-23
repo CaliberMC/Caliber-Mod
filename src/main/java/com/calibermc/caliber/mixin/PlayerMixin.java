@@ -4,6 +4,7 @@ import com.calibermc.caliber.networking.ClientSetRaining;
 import com.calibermc.caliber.networking.ClientSetTime;
 import com.calibermc.caliber.networking.ModNetworking;
 import com.calibermc.caliber.util.player.IPlayerExtended;
+import net.minecraft.nbt.CompoundTag;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.util.Mth;
 import net.minecraft.world.entity.player.Player;
@@ -14,6 +15,8 @@ import org.spongepowered.asm.mixin.Unique;
 @Mixin(Player.class)
 public class PlayerMixin implements IPlayerExtended {
 
+    @Unique private boolean caliber$additionalPressed;
+
     @Unique private boolean caliber$shouldTick;
     @Unique private boolean caliber$playerDayTime;
     @Unique private long caliber$dayTime;
@@ -22,8 +25,24 @@ public class PlayerMixin implements IPlayerExtended {
     @Unique private boolean caliber$isRaining;
 
     @Unique private float caliber$oRainLevel;
-
     @Unique private float caliber$rainLevel;
+
+    @Unique private final CompoundTag caliber$tag = new CompoundTag();
+
+    @Override
+    public CompoundTag caliber$getTag() {
+        return this.caliber$tag;
+    }
+
+    @Override
+    public boolean caliber$additionalPressed() {
+        return this.caliber$additionalPressed;
+    }
+
+    @Override
+    public void caliber$pressAdditional(boolean pressed) {
+        this.caliber$additionalPressed = pressed;
+    }
 
     @Override
     public void caliber$setDayTime(long dayTime, boolean shouldTick) {

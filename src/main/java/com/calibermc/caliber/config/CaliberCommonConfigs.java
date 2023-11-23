@@ -33,10 +33,12 @@ public class CaliberCommonConfigs {
     public static final ForgeConfigSpec.ConfigValue<Integer> MARBLE_GEN_MIN;
     public static final ForgeConfigSpec.ConfigValue<Integer> MARBLE_GEN_MAX;
 
-
+    public static final ForgeConfigSpec.IntValue MODE_BLOCKSTATE;
 
     static {
         BUILDER.push("Configs for Caliber Mod");
+
+        MODE_BLOCKSTATE = BUILDER.comment("Change mode for use additional blockstates").translation("config.caliber.mode_blockstates").defineInRange("mode_blockstates", 1, 0, 1);
 
         // Ore Generation
         WORLD_GEN_ORES = BUILDER.comment("Generate new stone types and ore in the world?").translation("config.caliber.world_gen_ores").define("world_gen_ores", true);

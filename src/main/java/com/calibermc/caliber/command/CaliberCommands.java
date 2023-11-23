@@ -1,5 +1,6 @@
 package com.calibermc.caliber.command;
 
+import com.calibermc.caliber.config.CaliberCommonConfigs;
 import com.calibermc.caliber.util.player.IPlayerExtended;
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.arguments.BoolArgumentType;
@@ -44,6 +45,18 @@ public class CaliberCommands {
                 .then(Commands.literal("clear").executes((context) -> setRain(context.getSource(), false)))
                 .then(Commands.literal("rain").executes((context) -> setRain(context.getSource(), true)))
         );
+
+
+        dispatcher.register(Commands.literal("buildmode").requires((context) -> context.hasPermission(2))
+                .then(Commands.literal("slab").executes((context) -> setBlockStateMode(context.getSource(), 0)))
+                .then(Commands.literal("layer").executes((context) -> setBlockStateMode(context.getSource(), 1)))
+        );
+    }
+
+    private static int setBlockStateMode(CommandSourceStack pSource, int mode) {
+        CaliberCommonConfigs.MODE_BLOCKSTATE.set(mode);
+        pSource.sendSuccess(new TextComponent("Set %s mode".formatted(mode == 0 ? "slab" : "layer")), true);
+        return 0;
     }
 
     private static int setServerVal(CommandSourceStack pSource, boolean weather) throws CommandSyntaxException {
