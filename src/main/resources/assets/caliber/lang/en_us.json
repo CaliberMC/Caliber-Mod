@@ -7,6 +7,8 @@
     "caliber.key.adjust_reach": "Adjust Reach Distance",
     "screen.caliber.block_picker": "Block Picker",
 
+    "message.caliber.no_nails": "You're out of nails",
+
     "itemGroup.caliber": "Caliber Mod",
     "itemGroup.stone": "Stone",
     "itemGroup.cobble_brick": "Cobble & Brick",
@@ -43,6 +45,7 @@
     "item.caliber.tin_nugget": "Tin Nugget",
     "item.caliber.raw_tin": "Raw Tin",
     "item.caliber.hammer": "Hammer",
+    "item.caliber.nails": "Nails",
 
     "block.caliber.tin_block": "Tin Block",
     "block.caliber.tin_ore": "Tin Ore",
@@ -2728,5 +2731,4 @@
     "block.caliber.tudor_spruce_white_plaster_slab_vertical_horizontal_2": "Spruce & White Plaster Vertical Slab Tudor Horizontal 2",
     "block.caliber.tudor_spruce_white_plaster_slab_vertical_vertical_1": "Spruce & White Plaster Vertical Slab Tudor Vertical 1",
     "block.caliber.tudor_spruce_white_plaster_slab_vertical_vertical_2": "Spruce & White Plaster Vertical Slab Tudor Vertical 2"
-    
 }

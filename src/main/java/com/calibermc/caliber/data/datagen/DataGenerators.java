@@ -22,6 +22,8 @@ public class DataGenerators {
         generator.addProvider(new TudorBlockRecipeProvider(generator));
         generator.addProvider(new Tudor2BlockRecipeProvider(generator));
         generator.addProvider(new VanillaCustomRecipeProvider(generator));
+        generator.addProvider(new OresGemsRecipeProvider(generator));
+        generator.addProvider(new ItemRecipeProvider(generator));
 //        generator.addProvider(new ModRecipeProviderWood(generator));
         generator.addProvider(new ModLootTableProvider(generator));
         generator.addProvider(new ModBlockStateProvider(generator, existingFileHelper));
