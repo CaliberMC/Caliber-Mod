@@ -85,7 +85,6 @@ public class ModEventBus {
         }
     }
 
-
     public static void hammerInteraction(CompoundTag tag, ServerPlayer pPlayer, BlockState pStateClicked, LevelAccessor pAccessor, BlockPos pPos, boolean pShouldCycleState) {
         Block block = pStateClicked.getBlock();
         Collection<Property<?>> collection = block.getStateDefinition().getProperties();
@@ -113,7 +112,6 @@ public class ModEventBus {
 
         }
     }
-
 
     private static <T extends Comparable<T>> BlockState cycleState(BlockState pState, Property<T> pProperty, boolean pBackwards) {
         return pState.setValue(pProperty, nextProperty(pProperty.getPossibleValues(), pState.getValue(pProperty), pBackwards));

@@ -18,6 +18,8 @@ import net.minecraft.world.level.block.state.BlockState;
 
 public class Hammer extends Item {
 
+    private BlockPos lastInteractedBlock = null;
+
     public Hammer(Properties pProperties) {
         super(pProperties);
     }
@@ -35,27 +37,43 @@ public class Hammer extends Item {
     public InteractionResult useOn(UseOnContext pContext) {
         Level level = pContext.getLevel();
         Player player = pContext.getPlayer();
+        BlockPos currentPos = pContext.getClickedPos();
+
         if (player instanceof ServerPlayer serverPlayer) {
-                // Check if the player has nails in their inventory
-                if (hasNails(serverPlayer)) {
-                    // Consume a nail
-                    consumeNail(serverPlayer);
-                } else {
-                    // If the player does not have nails, prevent the action
-                    serverPlayer.sendMessage(new TranslatableComponent("message.caliber.no_nails"), ChatType.GAME_INFO, Util.NIL_UUID);
-                    return InteractionResult.FAIL;
-                }
-
-            if (serverPlayer.isShiftKeyDown()) {
-                ModEventBus.hammerInteraction(pContext.getItemInHand().getOrCreateTag(), serverPlayer, level.getBlockState(pContext.getClickedPos()), level, pContext.getClickedPos(), false);
-                return InteractionResult.sidedSuccess(level.isClientSide);
+            // Check if the player has nails before interacting
+            if (!hasNails(serverPlayer)) {
+                serverPlayer.sendMessage(new TranslatableComponent("message.caliber.no_nails"), ChatType.GAME_INFO, Util.NIL_UUID);
+                return InteractionResult.FAIL;
             }
-            ModEventBus.hammerInteraction(pContext.getItemInHand().getOrCreateTag(), serverPlayer, level.getBlockState(pContext.getClickedPos()), level, pContext.getClickedPos(), true);
 
-            return InteractionResult.sidedSuccess(level.isClientSide);
+            // Store the original block state
+            BlockState originalState = level.getBlockState(currentPos);
+
+            // Perform the interaction logic
+            InteractionResult result = performInteraction(pContext, serverPlayer, level, currentPos);
+
+            // Check if the block state has changed after the interaction
+            BlockState newState = level.getBlockState(currentPos);
+            if (!newState.equals(originalState) && (lastInteractedBlock == null || !lastInteractedBlock.equals(currentPos))) {
+                // Block state has changed, consume a nail and update last interacted block
+                consumeNail(serverPlayer);
+                lastInteractedBlock = currentPos;
+            }
+
+            return result;
         }
         return InteractionResult.FAIL;
     }
+
+    private InteractionResult performInteraction(UseOnContext pContext, ServerPlayer serverPlayer, Level level, BlockPos currentPos) {
+        if (serverPlayer.isShiftKeyDown()) {
+            ModEventBus.hammerInteraction(pContext.getItemInHand().getOrCreateTag(), serverPlayer, level.getBlockState(currentPos), level, currentPos, false);
+            return InteractionResult.sidedSuccess(level.isClientSide);
+        }
+        ModEventBus.hammerInteraction(pContext.getItemInHand().getOrCreateTag(), serverPlayer, level.getBlockState(currentPos), level, currentPos, true);
+        return InteractionResult.sidedSuccess(level.isClientSide);
+    }
+
 
     private boolean hasNails(ServerPlayer player) {
         Item nail = ModItems.NAILS.get();
@@ -87,5 +105,9 @@ public class Hammer extends Item {
             }
         }
 
+    }
+
+    public void resetLastInteractedBlock() {
+        lastInteractedBlock = null;
     }
 }
