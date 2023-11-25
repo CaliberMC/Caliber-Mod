@@ -19,6 +19,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionHand;
+import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
@@ -57,26 +58,6 @@ public class ModEventBus {
                     event.getWorld().playSound(event.getPlayer(), event.getPos(), soundtype.getPlaceSound(), SoundSource.BLOCKS, (soundtype.getVolume() + 1.0F) / 2.0F, soundtype.getPitch() * 0.8F);
                     event.setCanceled(true);
                 }
-            }
-        }
-    }
-
-    @SubscribeEvent
-    public static void placeBlock(BlockEvent.EntityPlaceEvent event) {
-        if (event.getEntity() instanceof IPlayerExtended ex) {
-            BlockState state = event.getPlacedBlock();
-            if ((state.hasProperty(BlockStateProperties.LAYERS) || state.hasProperty(ModBlockStateProperties.FIVE_LAYERS)) && event.getEntity() instanceof ServerPlayer) {
-                boolean slab = CaliberCommonConfigs.MODE_BLOCKSTATE.get() == 0;
-                if (ex.caliber$additionalPressed()) {
-                    slab = !slab;                 }
-                if (slab) {
-                    int slabVal = 3;
-                    if (state.getBlock() instanceof SlabLayerBlock || state.getBlock() instanceof VerticalSlabLayerBlock) {
-                        slabVal = 4;                     }
-                        state = state.setValue(state.hasProperty(ModBlockStateProperties.FIVE_LAYERS) ?
-                                ModBlockStateProperties.FIVE_LAYERS : BlockStateProperties.LAYERS, slabVal);
-                }
-                event.getWorld().setBlock(event.getBlockSnapshot().getPos(), state, 18);
             }
         }
     }

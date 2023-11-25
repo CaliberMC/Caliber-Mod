@@ -8,6 +8,7 @@
     "ClientLevelDataMixin"
   ],
   "mixins": [
+    "BlockItemMixin",
     "LevelMixin",
     "PlayerMixin"
   ],
