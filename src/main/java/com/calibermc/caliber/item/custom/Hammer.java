@@ -80,6 +80,9 @@ public class Hammer extends Item {
 
     private boolean hasNails(ServerPlayer player) {
         Item nail = ModItems.NAILS.get();
+        if (player.isCreative() || player.isShiftKeyDown()) {
+            return true;
+        }
         // Check main inventory
         for (ItemStack itemStack : player.getInventory().items) {
             if (itemStack.getItem().equals(nail)) {
