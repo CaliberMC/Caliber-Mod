@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/corner_layer_1",
+  "parent": "caliber:block/templates/corner_layer_1",
   "textures": {
     "side": "caliber:block/polished_gray_granite",
     "bottom": "caliber:block/polished_gray_granite",

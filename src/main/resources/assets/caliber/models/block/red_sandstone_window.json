@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/window",
+  "parent": "caliber:block/templates/window",
   "textures": {
     "side": "minecraft:block/red_sandstone",
     "bottom": "minecraft:block/red_sandstone_bottom",

@@ -1,34 +1,45 @@
 {
   "variants": {
-    "facing=north,type=straight,trim=false": {
+    "facing=north,type=straight,trim=none": {
       "model": "caliber:block/cut_red_sandstone_arch"
     },
-    "facing=north,type=straight,trim=true": {
+    "facing=north,type=straight,trim=front": {
       "model": "caliber:block/cut_red_sandstone_arch_trim"
+    },
+    "facing=north,type=straight,trim=both": {
+      "model": "caliber:block/cut_red_sandstone_arch_trim_2"
     },
     "facing=north,type=cross": {
       "model": "caliber:block/cut_red_sandstone_arch_cross"
     },
     "facing=north,type=corner_left": {
-      "model": "caliber:block/cut_red_sandstone_arch_corner"
+      "model": "caliber:block/cut_red_sandstone_arch_corner",
+      "y": 270, "uvlock": true
     },
     "facing=north,type=corner_right": {
-      "model": "caliber:block/cut_red_sandstone_arch_corner",
-      "y": 90, "uvlock": true
+      "model": "caliber:block/cut_red_sandstone_arch_corner"
     },
     "facing=north,type=left_t": {
-      "model": "caliber:block/cut_red_sandstone_arch_t"
+      "model": "caliber:block/cut_red_sandstone_arch_t",
+      "y": 90, "uvlock": true
     },
     "facing=north,type=right_t": {
       "model": "caliber:block/cut_red_sandstone_arch_t",
-      "y": 180, "uvlock": true
+      "y": 270, "uvlock": true
     },
-    "facing=east,type=straight,trim=false": {
+    "facing=north,type=t": {
+      "model": "caliber:block/cut_red_sandstone_arch_t"
+    },
+    "facing=east,type=straight,trim=none": {
       "model": "caliber:block/cut_red_sandstone_arch",
       "y": 90, "uvlock": true
     },
-    "facing=east,type=straight,trim=true": {
+    "facing=east,type=straight,trim=front": {
       "model": "caliber:block/cut_red_sandstone_arch_trim",
+      "y": 90, "uvlock": true
+    },
+    "facing=east,type=straight,trim=both": {
+      "model": "caliber:block/cut_red_sandstone_arch_trim_2",
       "y": 90, "uvlock": true
     },
     "facing=east,type=cross": {
@@ -36,27 +47,33 @@
       "y": 90, "uvlock": true
     },
     "facing=east,type=corner_left": {
-      "model": "caliber:block/cut_red_sandstone_arch_corner",
-      "y": 90, "uvlock": true
+      "model": "caliber:block/cut_red_sandstone_arch_corner"
     },
     "facing=east,type=corner_right": {
       "model": "caliber:block/cut_red_sandstone_arch_corner",
-      "y": 180, "uvlock": true
+      "y": 90, "uvlock": true
     },
     "facing=east,type=left_t": {
       "model": "caliber:block/cut_red_sandstone_arch_t",
-      "y": 90, "uvlock": true
+      "y": 180, "uvlock": true
     },
     "facing=east,type=right_t": {
-      "model": "caliber:block/cut_red_sandstone_arch_t",
-      "y": 270, "uvlock": true
+      "model": "caliber:block/cut_red_sandstone_arch_t"
     },
-    "facing=south,type=straight,trim=false": {
+    "facing=east,type=t": {
+      "model": "caliber:block/cut_red_sandstone_arch_t",
+      "y": 90, "uvlock": true
+    },
+    "facing=south,type=straight,trim=none": {
       "model": "caliber:block/cut_red_sandstone_arch",
       "y": 180, "uvlock": true
     },
-    "facing=south,type=straight,trim=true": {
+    "facing=south,type=straight,trim=front": {
       "model": "caliber:block/cut_red_sandstone_arch_trim",
+      "y": 180, "uvlock": true
+    },
+    "facing=south,type=straight,trim=both": {
+      "model": "caliber:block/cut_red_sandstone_arch_trim_2",
       "y": 180, "uvlock": true
     },
     "facing=south,type=cross": {
@@ -65,25 +82,34 @@
     },
     "facing=south,type=corner_left": {
       "model": "caliber:block/cut_red_sandstone_arch_corner",
-      "y": 180, "uvlock": true
+      "y": 90, "uvlock": true
     },
     "facing=south,type=corner_right": {
       "model": "caliber:block/cut_red_sandstone_arch_corner",
-      "y": 270, "uvlock": true
+      "y": 180, "uvlock": true
     },
     "facing=south,type=left_t": {
       "model": "caliber:block/cut_red_sandstone_arch_t",
-      "y": 180, "uvlock": true
+      "y": 270, "uvlock": true
     },
     "facing=south,type=right_t": {
-      "model": "caliber:block/cut_red_sandstone_arch_t"
+      "model": "caliber:block/cut_red_sandstone_arch_t",
+      "y": 90, "uvlock": true
     },
-    "facing=west,type=straight,trim=false": {
+    "facing=south,type=t": {
+      "model": "caliber:block/cut_red_sandstone_arch_t",
+      "y": 180, "uvlock": true
+    },
+    "facing=west,type=straight,trim=none": {
       "model": "caliber:block/cut_red_sandstone_arch",
       "y": 270, "uvlock": true
     },
-    "facing=west,type=straight,trim=true": {
+    "facing=west,type=straight,trim=front": {
       "model": "caliber:block/cut_red_sandstone_arch_trim",
+      "y": 270, "uvlock": true
+    },
+    "facing=west,type=straight,trim=both": {
+      "model": "caliber:block/cut_red_sandstone_arch_trim_2",
       "y": 270, "uvlock": true
     },
     "facing=west,type=cross": {
@@ -92,18 +118,22 @@
     },
     "facing=west,type=corner_left": {
       "model": "caliber:block/cut_red_sandstone_arch_corner",
-      "y": 270, "uvlock": true
+      "y": 180, "uvlock": true
     },
     "facing=west,type=corner_right": {
-      "model": "caliber:block/cut_red_sandstone_arch_corner"
+      "model": "caliber:block/cut_red_sandstone_arch_corner",
+      "y": 270, "uvlock": true
     },
     "facing=west,type=left_t": {
-      "model": "caliber:block/cut_red_sandstone_arch_t",
-      "y": 270, "uvlock": true
+      "model": "caliber:block/cut_red_sandstone_arch_t"
     },
     "facing=west,type=right_t": {
       "model": "caliber:block/cut_red_sandstone_arch_t",
-      "y": 90
+      "y": 180, "uvlock": true
+    },
+    "facing=west,type=t": {
+      "model": "caliber:block/cut_red_sandstone_arch_t",
+      "y": 270, "uvlock": true
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/arch_large_half_left",
+  "parent": "caliber:block/templates/arch_large_half_left",
   "textures": {
     "side": "minecraft:block/deepslate",
     "bottom": "minecraft:block/deepslate",

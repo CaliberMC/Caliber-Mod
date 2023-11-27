@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/capital",
+  "parent": "caliber:block/templates/capital",
   "textures": {
     "side": "minecraft:block/mossy_stone_bricks",
     "bottom": "minecraft:block/mossy_stone_bricks",

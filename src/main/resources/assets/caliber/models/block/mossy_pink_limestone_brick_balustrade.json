@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/balustrade",
+  "parent": "caliber:block/templates/balustrade",
   "textures": {
     "side": "caliber:block/mossy_pink_limestone_bricks",
     "bottom": "caliber:block/mossy_pink_limestone_bricks",

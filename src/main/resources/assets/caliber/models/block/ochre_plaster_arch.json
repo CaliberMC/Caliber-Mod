@@ -1,9 +1,8 @@
 {
-  "parent": "caliber:block/arch",
+  "parent": "caliber:block/templates/arch",
   "textures": {
     "side": "caliber:block/ochre_plaster",
     "bottom": "caliber:block/ochre_plaster",
-    "top": "caliber:block/ochre_plaster",
-    "particle": "caliber:block/ochre_plaster"
+    "top": "caliber:block/ochre_plaster"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/balustrade_connected",
+  "parent": "caliber:block/templates/balustrade_connected",
   "textures": {
     "side": "caliber:block/cut_brown_sandstone",
     "bottom": "caliber:block/cut_brown_sandstone",

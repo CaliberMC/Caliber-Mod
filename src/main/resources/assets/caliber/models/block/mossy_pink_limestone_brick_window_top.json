@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/window_top",
+  "parent": "caliber:block/templates/window_top",
   "textures": {
     "side": "caliber:block/mossy_pink_limestone_bricks",
     "bottom": "caliber:block/mossy_pink_limestone_bricks",

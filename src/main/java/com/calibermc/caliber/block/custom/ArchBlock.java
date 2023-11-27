@@ -1,6 +1,8 @@
 package com.calibermc.caliber.block.custom;
 
 import com.calibermc.caliber.block.shapes.ArchShape;
+import com.calibermc.caliber.block.shapes.trim.ArchTrim;
+import com.calibermc.caliber.block.shapes.trim.LargeArchTrim;
 import com.calibermc.caliber.util.ModBlockStateProperties;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -16,6 +18,7 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
+import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.material.Fluids;
@@ -31,14 +34,15 @@ public class ArchBlock extends HorizontalDirectionalBlock implements SimpleWater
 
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
     public static final EnumProperty<ArchShape> TYPE = ModBlockStateProperties.ARCH_SHAPE;
-    public static final BooleanProperty TRIM = ModBlockStateProperties.TRIM;
+//    public static final IntegerProperty TRIM = ModBlockStateProperties.ARCH_TRIM;
+public static final EnumProperty<ArchTrim> TRIM = ModBlockStateProperties.ARCH_TRIM;
 
     public static final VoxelShape SHAPE = Block.box(0, 8, 0, 16, 16, 16);
 
     public ArchBlock(Properties properties) {
         super(properties);
-        this.registerDefaultState(this.stateDefinition.any() // ? this.defaultBlockState()
-                .setValue(TRIM, Boolean.FALSE)
+        this.registerDefaultState(this.defaultBlockState() // this.stateDefinition.any()
+                .setValue(TRIM, ArchTrim.BOTH)
                 .setValue(FACING, NORTH)
                 .setValue(TYPE, ArchShape.STRAIGHT)
                 .setValue(WATERLOGGED, Boolean.FALSE));
@@ -64,12 +68,10 @@ public class ArchBlock extends HorizontalDirectionalBlock implements SimpleWater
     public BlockState getStateForPlacement(BlockPlaceContext pContext) {
         BlockPos blockpos = pContext.getClickedPos();
         FluidState fluidstate = pContext.getLevel().getFluidState(blockpos);
-        BlockState blockstate1 = this.defaultBlockState().setValue(FACING, pContext.getHorizontalDirection().getOpposite())
-                .setValue(TRIM, Boolean.FALSE).setValue(WATERLOGGED, fluidstate.getType() == Fluids.WATER);
+        BlockState blockstate1 = this.defaultBlockState().setValue(FACING, pContext.getHorizontalDirection()) //.getOpposite()
+                .setValue(WATERLOGGED, fluidstate.getType() == Fluids.WATER);
 
-//        return blockstate1.setValue(TYPE, ArchShape.STRAIGHT).setValue(WATERLOGGED, Boolean.FALSE);
-
-        return blockstate1.setValue(TRIM, Boolean.TRUE).setValue(TYPE, getArchShape(blockstate1, pContext.getLevel(), blockpos));
+        return blockstate1.setValue(TYPE, getArchShape(blockstate1, pContext.getLevel(), blockpos));
     }
 
     /**
@@ -80,18 +82,16 @@ public class ArchBlock extends HorizontalDirectionalBlock implements SimpleWater
      */
     @Override
     public BlockState updateShape(BlockState pState, Direction pFacing, BlockState pFacingState, LevelAccessor pLevel, BlockPos pCurrentPos, BlockPos pFacingPos) {
-        boolean frontIsAir = isAir(pLevel.getBlockState(pCurrentPos.relative(pState.getValue(FACING))));
         if (pState.getValue(WATERLOGGED)) {
             pLevel.scheduleTick(pCurrentPos, Fluids.WATER, Fluids.WATER.getTickDelay(pLevel));
         }
-        if (frontIsAir) {
-            pState = pState.setValue(TRIM, Boolean.TRUE);
-        } else {
-            pState = pState.setValue(TRIM, Boolean.FALSE);
-        }
 
         if (pFacing.getAxis().isHorizontal()) {
+            // Set the TYPE value based on the ArchShape
             pState = pState.setValue(TYPE, getArchShape(pState, pLevel, pCurrentPos));
+
+            // Set the TRIM value
+            pState = pState.setValue(TRIM, getTrim(pState, pLevel, pCurrentPos));
         } else {
             pState = super.updateShape(pState, pFacing, pFacingState, pLevel, pCurrentPos, pFacingPos);
         }
@@ -99,42 +99,64 @@ public class ArchBlock extends HorizontalDirectionalBlock implements SimpleWater
         return pState;
     }
 
-
     private static ArchShape getArchShape(BlockState pState, BlockGetter pLevel, BlockPos pPos) {
-        Direction direction = pState.getValue(FACING);
-        Direction opposite = direction.getOpposite();
-        boolean front = isArch(pLevel.getBlockState(pPos.relative(direction)));
+        Direction facing = pState.getValue(FACING);
+        Direction opposite = facing.getOpposite();
+        boolean front = isArch(pLevel.getBlockState(pPos.relative(facing)));
         boolean back = isArch(pLevel.getBlockState(pPos.relative(opposite)));
-        boolean left = isArch(pLevel.getBlockState(pPos.relative(direction.getCounterClockWise())));
-        boolean right = isArch(pLevel.getBlockState(pPos.relative(direction.getClockWise())));
+        boolean left = isArch(pLevel.getBlockState(pPos.relative(facing.getCounterClockWise())));
+        boolean right = isArch(pLevel.getBlockState(pPos.relative(facing.getClockWise())));
 
         // Check for corner (left)
         if ((left && front && !right && !back) || (right && back && !left && !front)) {
             return ArchShape.CORNER_LEFT;
         }
-
         // Check for corner (right)
         if ((right && front && !left && !back) || (left && back && !right && !front)) {
             return ArchShape.CORNER_RIGHT;
         }
-
+        // Check for 3-way intersection (forward)
+        if (back && left && right && !front) {
+            return ArchShape.T;
+        }
         // Check for 3-way intersection (left)
         if (left && front && back && !right) {
             return ArchShape.LEFT_T;
         }
-
         // Check for 3-way intersection (right)
         if (right && front && back && !left) {
             return ArchShape.RIGHT_T;
         }
-
         // Check for 4-way intersection
         if (right && left && front && back) {
             return ArchShape.CROSS;
         }
-
         return ArchShape.STRAIGHT;
     }
+
+    private ArchTrim getTrim(BlockState pState, BlockGetter pLevel, BlockPos pPos) {
+        Direction facing = pState.getValue(FACING);
+        Direction opposite = facing.getOpposite();
+        boolean airInFront = isAir(pLevel.getBlockState(pPos.relative(facing)));
+        boolean airInBack = isAir(pLevel.getBlockState(pPos.relative(opposite)));
+
+        // Check for blocks on both sides (front and back)
+        if (!airInFront && !airInBack) {
+            return ArchTrim.NONE;
+        }
+        // Check for no blocks on either side (front and back)
+        if (airInFront && airInBack) {
+            return ArchTrim.BOTH;
+        }
+        // Check for block only in back
+        if (!airInFront && airInBack) {
+            return ArchTrim.FRONT;
+        }
+
+        return ArchTrim.BOTH;
+    }
+
+
 
     public static boolean isArch(BlockState pState) {
         return pState.getBlock() instanceof ArchBlock;

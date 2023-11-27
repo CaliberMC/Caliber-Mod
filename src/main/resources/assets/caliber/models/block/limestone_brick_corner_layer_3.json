@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/corner_layer_3",
+  "parent": "caliber:block/templates/corner_layer_3",
   "textures": {
     "side": "minecraft:block/stone_bricks",
     "bottom": "minecraft:block/stone_bricks",

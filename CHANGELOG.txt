@@ -126,7 +126,7 @@
 - Removed unused texture files
 - Updated Silver and Tin Textures
 
-0.0.20 (in progress)
+0.0.20
 - Added sounds for Hammer Item
 - Added buildmode command to change behaviour of all Layered Blocks (caliber.buildmode)
 - Added 2 Modes for Layered Blocks (Slab Mode & Layer Mode)
@@ -135,3 +135,13 @@
 - Added Nails Item to use with Hammer Item for cycling blockstate conditions in survival mode
     - Creative: left click to change property and right click to cycle states
     - Survival: sneak+right click to change blockstate property and right click to cycle states (1 nail per interaction will be consumed)
+
+0.0.21 (in progress)
+- Improved performance of slab/layer buildmodes
+- Reworked ArchBlock and LargeArchBlock blockstates, models, textures, hitboxes
+- Added corner blockstates for LargeArchBlock
+- Bugfix: fixed lighting issues with ArchBlock and LargeArchBlock
+- Bugfix: fixed ArchBlock T placement/update logic
+- Bugfix: fixed crash when using Hammer Item on layered blocks
+- Bugfix: fixed "out of nails" message when using Hammer in Creative Mode.
+

@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/arch_large_half",
+  "parent": "caliber:block/templates/arch_large_half",
   "textures": {
     "side": "caliber:block/polished_brown_granite",
     "bottom": "caliber:block/polished_brown_granite",

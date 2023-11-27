@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/quarter_vertical_layer_4",
+  "parent": "caliber:block/templates/quarter_vertical_layer_4",
   "textures": {
     "side": "minecraft:block/birch_planks",
     "bottom": "minecraft:block/birch_planks",

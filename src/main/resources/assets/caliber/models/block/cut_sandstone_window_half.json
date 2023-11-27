@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/window_half",
+  "parent": "caliber:block/templates/window_half",
   "textures": {
     "side": "minecraft:block/cut_sandstone",
     "bottom": "minecraft:block/cut_sandstone",

@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/pillar_layer_4",
+  "parent": "caliber:block/templates/pillar_layer_4",
   "textures": {
     "side": "minecraft:block/cut_red_sandstone",
     "bottom": "minecraft:block/red_sandstone_top",

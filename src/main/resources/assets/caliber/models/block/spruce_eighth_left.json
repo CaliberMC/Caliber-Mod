@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/eighth_left",
+  "parent": "caliber:block/templates/eighth_left",
   "textures": {
     "side": "minecraft:block/spruce_planks",
     "bottom": "minecraft:block/spruce_planks",

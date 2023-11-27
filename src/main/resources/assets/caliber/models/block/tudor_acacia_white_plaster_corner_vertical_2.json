@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/corner",
+  "parent": "caliber:block/templates/corner",
   "textures": {
     "side": "caliber:block/tudor_acacia_white_plaster_vertical_2",
     "bottom": "minecraft:block/acacia_planks",

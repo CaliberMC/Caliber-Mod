@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/slab_vertical_layer_2",
+  "parent": "caliber:block/templates/slab_vertical_layer_2",
   "textures": {
     "side": "minecraft:block/dark_oak_planks",
     "bottom": "minecraft:block/dark_oak_planks",

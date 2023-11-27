@@ -1,9 +1,8 @@
 {
-  "parent": "caliber:block/arch_large_trim",
+  "parent": "caliber:block/templates/arch_large_trim",
   "textures": {
     "side": "caliber:block/brown_sandstone",
     "bottom": "caliber:block/brown_sandstone_bottom",
-    "top": "caliber:block/brown_sandstone_top",
-    "particle": "caliber:block/brown_sandstone"
+    "top": "caliber:block/brown_sandstone_top"
   }
 }

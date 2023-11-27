@@ -6,8 +6,9 @@ import org.jetbrains.annotations.NotNull;
 public enum ArchShape implements StringRepresentable {
     CORNER_RIGHT("corner_right"),
     CORNER_LEFT("corner_left"),
-    RIGHT_T("right_t"),
     LEFT_T("left_t"),
+    RIGHT_T("right_t"),
+    T("t"),
     CROSS("cross"),
     STRAIGHT("straight");
 

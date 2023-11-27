@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/quarter_vertical_left",
+  "parent": "caliber:block/templates/quarter_vertical_left",
   "textures": {
     "side": "caliber:block/tudor_dark_oak_tan_plaster_up",
     "bottom": "minecraft:block/dark_oak_planks",

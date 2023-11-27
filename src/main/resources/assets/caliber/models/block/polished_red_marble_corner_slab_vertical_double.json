@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/stair",
+  "parent": "caliber:block/templates/stair",
   "textures": {
     "side": "caliber:block/polished_red_marble",
     "bottom": "caliber:block/polished_red_marble",

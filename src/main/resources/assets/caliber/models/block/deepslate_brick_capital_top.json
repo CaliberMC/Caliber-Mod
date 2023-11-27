@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/capital_top",
+  "parent": "caliber:block/templates/capital_top",
   "textures": {
     "side": "minecraft:block/deepslate_bricks",
     "bottom": "minecraft:block/deepslate_bricks",

@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/corner_layer_4",
+  "parent": "caliber:block/templates/corner_layer_4",
   "textures": {
     "side": "caliber:block/dark_limestone_bricks",
     "bottom": "caliber:block/dark_limestone_bricks",

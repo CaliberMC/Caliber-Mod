@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/slab_layer_5",
+  "parent": "caliber:block/templates/slab_layer_5",
   "textures": {
     "side": "minecraft:block/coarse_dirt",
     "bottom": "minecraft:block/coarse_dirt",

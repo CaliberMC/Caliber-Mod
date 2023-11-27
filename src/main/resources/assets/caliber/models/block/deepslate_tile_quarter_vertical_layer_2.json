@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/quarter_vertical_layer_2",
+  "parent": "caliber:block/templates/quarter_vertical_layer_2",
   "textures": {
     "side": "minecraft:block/deepslate_tiles",
     "bottom": "minecraft:block/deepslate_tiles",

@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/capital",
+  "parent": "caliber:block/templates/capital",
   "textures": {
     "side": "minecraft:block/red_sandstone_top",
     "bottom": "minecraft:block/red_sandstone_top",

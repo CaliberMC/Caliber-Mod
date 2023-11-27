@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/window_half_bottom",
+  "parent": "caliber:block/templates/window_half_bottom",
   "textures": {
     "side": "minecraft:block/spruce_planks",
     "bottom": "minecraft:block/spruce_planks",

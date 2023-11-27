@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/quarter_layer_1",
+  "parent": "caliber:block/templates/quarter_layer_1",
   "textures": {
     "side": "minecraft:block/mossy_stone_bricks",
     "bottom": "minecraft:block/mossy_stone_bricks",

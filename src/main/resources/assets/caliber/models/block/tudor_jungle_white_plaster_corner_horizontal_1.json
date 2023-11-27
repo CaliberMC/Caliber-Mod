@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/corner",
+  "parent": "caliber:block/templates/corner",
   "textures": {
     "side": "caliber:block/tudor_jungle_white_plaster_horizontal_1",
     "bottom": "minecraft:block/jungle_planks",

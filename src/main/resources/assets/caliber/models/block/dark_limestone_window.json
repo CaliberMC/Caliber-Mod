@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/window",
+  "parent": "caliber:block/templates/window",
   "textures": {
     "side": "caliber:block/dark_limestone",
     "bottom": "caliber:block/dark_limestone",

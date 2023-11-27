@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/window",
+  "parent": "caliber:block/templates/window",
   "textures": {
     "side": "minecraft:block/polished_deepslate",
     "bottom": "minecraft:block/polished_deepslate",

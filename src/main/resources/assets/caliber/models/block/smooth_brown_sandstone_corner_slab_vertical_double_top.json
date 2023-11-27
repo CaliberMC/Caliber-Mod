@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/stair_top",
+  "parent": "caliber:block/templates/stair_top",
   "textures": {
     "side": "caliber:block/brown_sandstone_top",
     "bottom": "caliber:block/brown_sandstone_top",

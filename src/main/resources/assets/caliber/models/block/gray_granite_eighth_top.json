@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/eighth_top",
+  "parent": "caliber:block/templates/eighth_top",
   "textures": {
     "side": "caliber:block/gray_granite",
     "bottom": "caliber:block/gray_granite",

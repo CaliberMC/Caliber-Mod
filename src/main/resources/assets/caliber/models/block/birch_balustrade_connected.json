@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/balustrade_connected",
+  "parent": "caliber:block/templates/balustrade_connected",
   "textures": {
     "side": "minecraft:block/birch_planks",
     "bottom": "minecraft:block/birch_planks",

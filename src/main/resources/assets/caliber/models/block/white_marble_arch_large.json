@@ -1,9 +1,8 @@
 {
-  "parent": "caliber:block/arch_large",
+  "parent": "caliber:block/templates/arch_large",
   "textures": {
     "side": "caliber:block/white_marble",
     "bottom": "caliber:block/white_marble",
-    "top": "caliber:block/white_marble",
-    "particle": "caliber:block/white_marble"
+    "top": "caliber:block/white_marble"
   }
 }

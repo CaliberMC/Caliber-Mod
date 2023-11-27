@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/slab_vertical_layer_5",
+  "parent": "caliber:block/templates/slab_vertical_layer_5",
   "textures": {
     "side": "minecraft:block/deepslate",
     "bottom": "minecraft:block/deepslate",

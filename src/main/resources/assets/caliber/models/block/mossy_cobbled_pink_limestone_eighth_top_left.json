@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/eighth_top_left",
+  "parent": "caliber:block/templates/eighth_top_left",
   "textures": {
     "side": "caliber:block/mossy_cobbled_pink_limestone",
     "bottom": "caliber:block/mossy_cobbled_pink_limestone",

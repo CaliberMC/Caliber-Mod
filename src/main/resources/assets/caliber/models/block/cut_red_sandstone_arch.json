@@ -1,9 +1,8 @@
 {
-  "parent": "caliber:block/arch",
+  "parent": "caliber:block/templates/arch",
   "textures": {
     "side": "minecraft:block/cut_red_sandstone",
     "bottom": "minecraft:block/red_sandstone_top",
-    "top": "minecraft:block/red_sandstone_top",
-    "particle": "minecraft:block/cut_red_sandstone"
+    "top": "minecraft:block/red_sandstone_top"
   }
 }

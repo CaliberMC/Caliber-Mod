@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/corner_slab",
+  "parent": "caliber:block/templates/corner_slab",
   "textures": {
     "side": "minecraft:block/sandstone_top",
     "bottom": "minecraft:block/sandstone_top",

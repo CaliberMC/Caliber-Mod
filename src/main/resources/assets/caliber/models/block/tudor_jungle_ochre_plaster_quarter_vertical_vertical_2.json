@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/quarter_vertical",
+  "parent": "caliber:block/templates/quarter_vertical",
   "textures": {
     "side": "caliber:block/tudor_jungle_ochre_plaster_vertical_2",
     "bottom": "minecraft:block/jungle_planks",

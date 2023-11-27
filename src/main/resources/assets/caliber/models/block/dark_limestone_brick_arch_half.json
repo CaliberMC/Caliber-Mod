@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/arch_half",
+  "parent": "caliber:block/templates/arch_half",
   "textures": {
     "side": "caliber:block/dark_limestone_bricks",
     "bottom": "caliber:block/dark_limestone_bricks",

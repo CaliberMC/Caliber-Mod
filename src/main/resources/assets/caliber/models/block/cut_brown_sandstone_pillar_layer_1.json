@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/pillar_layer_1",
+  "parent": "caliber:block/templates/pillar_layer_1",
   "textures": {
     "side": "caliber:block/cut_brown_sandstone",
     "bottom": "caliber:block/brown_sandstone_top",

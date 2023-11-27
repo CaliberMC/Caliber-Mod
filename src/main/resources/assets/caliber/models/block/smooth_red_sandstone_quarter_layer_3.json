@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/quarter_layer_3",
+  "parent": "caliber:block/templates/quarter_layer_3",
   "textures": {
     "side": "minecraft:block/red_sandstone_top",
     "bottom": "minecraft:block/red_sandstone_top",

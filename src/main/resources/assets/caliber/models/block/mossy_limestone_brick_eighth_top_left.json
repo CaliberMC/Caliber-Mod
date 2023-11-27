@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/eighth_top_left",
+  "parent": "caliber:block/templates/eighth_top_left",
   "textures": {
     "side": "minecraft:block/mossy_stone_bricks",
     "bottom": "minecraft:block/mossy_stone_bricks",

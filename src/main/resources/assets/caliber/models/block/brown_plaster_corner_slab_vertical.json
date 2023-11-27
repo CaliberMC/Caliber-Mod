@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/corner_slab_vertical",
+  "parent": "caliber:block/templates/corner_slab_vertical",
   "textures": {
     "side": "caliber:block/brown_plaster",
     "bottom": "caliber:block/brown_plaster",

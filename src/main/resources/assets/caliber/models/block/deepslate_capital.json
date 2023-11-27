@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/capital",
+  "parent": "caliber:block/templates/capital",
   "textures": {
     "side": "minecraft:block/deepslate",
     "bottom": "minecraft:block/deepslate",

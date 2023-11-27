@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/corner_layer_4",
+  "parent": "caliber:block/templates/corner_layer_4",
   "textures": {
     "side": "minecraft:block/cut_sandstone",
     "bottom": "minecraft:block/sandstone_top",

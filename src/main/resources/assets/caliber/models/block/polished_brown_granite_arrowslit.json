@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/arrowslit",
+  "parent": "caliber:block/templates/arrowslit",
   "textures": {
     "side": "caliber:block/polished_brown_granite",
     "bottom": "caliber:block/polished_brown_granite",

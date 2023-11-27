@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/balustrade_connected",
+  "parent": "caliber:block/templates/balustrade_connected",
   "textures": {
     "side": "minecraft:block/red_sandstone_top",
     "bottom": "minecraft:block/red_sandstone_top",

@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/slab_layer_1",
+  "parent": "caliber:block/templates/slab_layer_1",
   "textures": {
     "side": "caliber:block/cobbled_pink_limestone",
     "bottom": "caliber:block/cobbled_pink_limestone",

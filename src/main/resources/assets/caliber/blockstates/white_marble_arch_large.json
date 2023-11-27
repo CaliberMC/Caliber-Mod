@@ -1,65 +1,126 @@
 {
   "variants": {
-    "facing=north,type=left,trim=false": {
-      "model": "caliber:block/white_marble_arch_large",
-      "y": 180, "uvlock": true
-    },
-    "facing=north,type=left,trim=true": {
-      "model": "caliber:block/white_marble_arch_large_trim_left",
-      "uvlock": true
-    },
-    "facing=east,type=left,trim=false": {
-      "model": "caliber:block/white_marble_arch_large",
-      "y": 270, "uvlock": true
-    },
-    "facing=east,type=left,trim=true": {
-      "model": "caliber:block/white_marble_arch_large_trim_left",
-      "y": 90, "uvlock": true
-    },
-    "facing=south,type=left,trim=false": {
+    "facing=north,type=straight,trim=none": {
       "model": "caliber:block/white_marble_arch_large"
     },
-    "facing=south,type=left,trim=true": {
-      "model": "caliber:block/white_marble_arch_large_trim_left",
-      "y": 180, "uvlock": true
+    "facing=north,type=straight,trim=left": {
+      "model": "caliber:block/white_marble_arch_large_trim_left"
     },
-    "facing=west,type=left,trim=false": {
-      "model": "caliber:block/white_marble_arch_large",
-      "y": 90, "uvlock": true
+    "facing=north,type=straight,trim=right": {
+      "model": "caliber:block/white_marble_arch_large_trim_right"
     },
-    "facing=west,type=left,trim=true": {
-      "model": "caliber:block/white_marble_arch_large_trim_left",
-      "y": 270, "uvlock": true
-    },
-    "facing=north,type=right,trim=false": {
-      "model": "caliber:block/white_marble_arch_large"
-    },
-    "facing=north,type=right,trim=true": {
+    "facing=north,type=straight,trim=both": {
       "model": "caliber:block/white_marble_arch_large_trim"
     },
-    "facing=east,type=right,trim=false": {
+    "facing=north,type=corner_left": {
+      "model": "caliber:block/white_marble_arch_large_corner_inner",
+      "y": 270, "uvlock": true
+    },
+    "facing=north,type=corner_right": {
+      "model": "caliber:block/white_marble_arch_large_corner_inner"
+    },
+    "facing=north,type=corner_outer_left": {
+      "model": "caliber:block/white_marble_arch_large_corner_outer",
+      "y": 270, "uvlock": true
+    },
+    "facing=north,type=corner_outer_right": {
+      "model": "caliber:block/white_marble_arch_large_corner_outer"
+    },
+    "facing=east,type=straight,trim=none": {
       "model": "caliber:block/white_marble_arch_large",
       "y": 90, "uvlock": true
     },
-    "facing=east,type=right,trim=true": {
+    "facing=east,type=straight,trim=left": {
+      "model": "caliber:block/white_marble_arch_large_trim_left",
+      "y": 90, "uvlock": true
+    },
+    "facing=east,type=straight,trim=right": {
+      "model": "caliber:block/white_marble_arch_large_trim_right",
+      "y": 90, "uvlock": true
+    },
+    "facing=east,type=straight,trim=both": {
       "model": "caliber:block/white_marble_arch_large_trim",
       "y": 90, "uvlock": true
     },
-    "facing=south,type=right,trim=false": {
+    "facing=east,type=corner_left": {
+      "model": "caliber:block/white_marble_arch_large_corner_inner"
+    },
+    "facing=east,type=corner_right": {
+      "model": "caliber:block/white_marble_arch_large_corner_inner",
+      "y": 90, "uvlock": true
+    },
+    "facing=east,type=corner_outer_left": {
+      "model": "caliber:block/white_marble_arch_large_corner_outer"
+    },
+    "facing=east,type=corner_outer_right": {
+      "model": "caliber:block/white_marble_arch_large_corner_outer",
+      "y": 90, "uvlock": true
+    },
+    "facing=south,type=straight,trim=none": {
       "model": "caliber:block/white_marble_arch_large",
       "y": 180, "uvlock": true
     },
-    "facing=south,type=right,trim=true": {
+    "facing=south,type=straight,trim=left": {
+      "model": "caliber:block/white_marble_arch_large_trim_left",
+      "y": 180, "uvlock": true
+    },
+    "facing=south,type=straight,trim=right": {
+      "model": "caliber:block/white_marble_arch_large_trim_right",
+      "y": 180, "uvlock": true
+    },
+    "facing=south,type=straight,trim=both": {
       "model": "caliber:block/white_marble_arch_large_trim",
       "y": 180, "uvlock": true
     },
-    "facing=west,type=right,trim=false": {
+    "facing=south,type=corner_left": {
+      "model": "caliber:block/white_marble_arch_large_corner_inner",
+      "y": 90, "uvlock": true
+    },
+    "facing=south,type=corner_right": {
+      "model": "caliber:block/white_marble_arch_large_corner_inner",
+      "y": 180, "uvlock": true
+    },
+    "facing=south,type=corner_outer_left": {
+      "model": "caliber:block/white_marble_arch_large_corner_outer",
+      "y": 90, "uvlock": true
+    },
+    "facing=south,type=corner_outer_right": {
+      "model": "caliber:block/white_marble_arch_large_corner_outer",
+      "y": 180, "uvlock": true
+    },
+    "facing=west,type=straight,trim=none": {
       "model": "caliber:block/white_marble_arch_large",
       "y": 270, "uvlock": true
     },
-    "facing=west,type=right,trim=true": {
+    "facing=west,type=straight,trim=left": {
+      "model": "caliber:block/white_marble_arch_large_trim_left",
+      "y": 270, "uvlock": true
+    },
+    "facing=west,type=straight,trim=right": {
+      "model": "caliber:block/white_marble_arch_large_trim_right",
+      "y": 270, "uvlock": true
+    },
+    "facing=west,type=straight,trim=both": {
       "model": "caliber:block/white_marble_arch_large_trim",
+      "y": 270, "uvlock": true
+    },
+    "facing=west,type=corner_left": {
+      "model": "caliber:block/white_marble_arch_large_corner_inner",
+      "y": 180, "uvlock": true
+    },
+    "facing=west,type=corner_right": {
+      "model": "caliber:block/white_marble_arch_large_corner_inner",
+      "y": 270, "uvlock": true
+    },
+    "facing=west,type=corner_outer_left": {
+      "model": "caliber:block/white_marble_arch_large_corner_outer",
+      "y": 180, "uvlock": true
+    },
+    "facing=west,type=corner_outer_right": {
+      "model": "caliber:block/white_marble_arch_large_corner_outer",
       "y": 270, "uvlock": true
     }
   }
 }
+    
+    

@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/slab_layer_7",
+  "parent": "caliber:block/templates/slab_layer_7",
   "textures": {
     "side": "minecraft:block/soul_soil",
     "bottom": "minecraft:block/soul_soil",

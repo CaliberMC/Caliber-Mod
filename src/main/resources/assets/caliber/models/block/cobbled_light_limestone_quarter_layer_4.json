@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/quarter_layer_4",
+  "parent": "caliber:block/templates/quarter_layer_4",
   "textures": {
     "side": "caliber:block/cobbled_light_limestone",
     "bottom": "caliber:block/cobbled_light_limestone",

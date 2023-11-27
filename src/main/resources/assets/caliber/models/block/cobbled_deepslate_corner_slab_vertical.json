@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/corner_slab_vertical",
+  "parent": "caliber:block/templates/corner_slab_vertical",
   "textures": {
     "side": "minecraft:block/cobbled_deepslate",
     "bottom": "minecraft:block/cobbled_deepslate",

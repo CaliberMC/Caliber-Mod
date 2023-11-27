@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/arch_trim",
+  "parent": "caliber:block/templates/arch_trim",
   "textures": {
     "side": "minecraft:block/polished_deepslate",
     "bottom": "minecraft:block/polished_deepslate",

@@ -1,9 +1,8 @@
 {
-  "parent": "caliber:block/arch_large",
+  "parent": "caliber:block/templates/arch_large",
   "textures": {
     "side": "caliber:block/pink_granite",
     "bottom": "caliber:block/pink_granite",
-    "top": "caliber:block/pink_granite",
-    "particle": "caliber:block/pink_granite"
+    "top": "caliber:block/pink_granite"
   }
 }

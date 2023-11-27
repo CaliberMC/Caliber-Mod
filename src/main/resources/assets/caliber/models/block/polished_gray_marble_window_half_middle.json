@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/window_half_middle",
+  "parent": "caliber:block/templates/window_half_middle",
   "textures": {
     "side": "caliber:block/polished_gray_marble",
     "bottom": "caliber:block/polished_gray_marble",
