@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "caliber:smooth_tan_limestone"
+  },
+  "result": "caliber:smooth_tan_limestone_quarter_vertical",
+  "count": 5
+}

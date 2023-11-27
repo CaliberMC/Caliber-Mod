@@ -148,7 +148,17 @@ public class ModBlockStateProvider extends BlockStateProvider {
         simpleBlock(ModBlocks.SMOOTH_LIGHT_LIMESTONE.get());
         simpleBlock(ModBlocks.SMOOTH_PINK_LIMESTONE.get());
         simpleBlock(ModBlocks.SMOOTH_TAN_LIMESTONE.get());
-
+        stairsBlock((StairBlock) ModBlocks.SMOOTH_DARK_LIMESTONE_STAIRS.get(), blockTexture(ModBlocks.SMOOTH_DARK_LIMESTONE.get()));
+        stairsBlock((StairBlock) ModBlocks.SMOOTH_LIGHT_LIMESTONE_STAIRS.get(), blockTexture(ModBlocks.SMOOTH_LIGHT_LIMESTONE.get()));
+        stairsBlock((StairBlock) ModBlocks.SMOOTH_LIMESTONE_STAIRS.get(), blockTexture(Blocks.SMOOTH_STONE));
+        stairsBlock((StairBlock) ModBlocks.SMOOTH_PINK_LIMESTONE_STAIRS.get(), blockTexture(ModBlocks.SMOOTH_PINK_LIMESTONE.get()));
+        stairsBlock((StairBlock) ModBlocks.SMOOTH_TAN_LIMESTONE_STAIRS.get(), blockTexture(ModBlocks.SMOOTH_TAN_LIMESTONE.get()));
+        wallBlock((WallBlock) ModBlocks.SMOOTH_DARK_LIMESTONE_WALL.get(), blockTexture(ModBlocks.SMOOTH_DARK_LIMESTONE.get()));
+        wallBlock((WallBlock) ModBlocks.SMOOTH_LIGHT_LIMESTONE_WALL.get(), blockTexture(ModBlocks.SMOOTH_LIGHT_LIMESTONE.get()));
+        wallBlock((WallBlock) ModBlocks.SMOOTH_LIMESTONE_WALL.get(), blockTexture(Blocks.SMOOTH_STONE));
+        wallBlock((WallBlock) ModBlocks.SMOOTH_PINK_LIMESTONE_WALL.get(), blockTexture(ModBlocks.SMOOTH_PINK_LIMESTONE.get()));
+        wallBlock((WallBlock) ModBlocks.SMOOTH_TAN_LIMESTONE_WALL.get(), blockTexture(ModBlocks.SMOOTH_TAN_LIMESTONE.get()));
+        
         simpleBlock(ModBlocks.BLACK_MARBLE.get());
         simpleBlock(ModBlocks.GRAY_MARBLE.get());
         simpleBlock(ModBlocks.PINK_MARBLE.get());

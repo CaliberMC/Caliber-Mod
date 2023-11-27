@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "caliber:smooth_pink_limestone"
+  },
+  "result": "caliber:smooth_pink_limestone_window",
+  "count": 2
+}

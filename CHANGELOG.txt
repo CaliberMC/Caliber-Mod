@@ -136,7 +136,7 @@
     - Creative: left click to change property and right click to cycle states
     - Survival: sneak+right click to change blockstate property and right click to cycle states (1 nail per interaction will be consumed)
 
-0.0.21 (in progress)
+0.0.21
 - Improved performance of slab/layer buildmodes
 - Reworked ArchBlock and LargeArchBlock blockstates, models, textures, hitboxes
 - Added corner blockstates for LargeArchBlock
@@ -145,3 +145,7 @@
 - Bugfix: fixed crash when using Hammer Item on layered blocks
 - Bugfix: fixed "out of nails" message when using Hammer in Creative Mode.
 
+0.0.22 (in progress)
+- Added a total of 0 new blocks!
+- Current Mod Block Count is at 2,726
+- Added all variants of Smooth Dark Limestone, Smooth Light Limestone, Smooth Limestone, Smooth Pink Limesotne & Smooth Tan Limestone

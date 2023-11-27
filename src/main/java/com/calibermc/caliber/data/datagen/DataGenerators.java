@@ -16,7 +16,8 @@ public class DataGenerators {
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
 
         generator.addProvider(new StoneRecipeProvider(generator));
-        generator.addProvider(new StoneCustomRecipeProvider(generator));
+        generator.addProvider(new GraniteMarbleCustomRecipeProvider(generator));
+        generator.addProvider(new LimestoneSandstoneCustomRecipeProvider(generator));
         generator.addProvider(new MossyBlockRecipeProvider(generator));
         generator.addProvider(new MiscRecipeProvider(generator));
         generator.addProvider(new TudorBlockRecipeProvider(generator));

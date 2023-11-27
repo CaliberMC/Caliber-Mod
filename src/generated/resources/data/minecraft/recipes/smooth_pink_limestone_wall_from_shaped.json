@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "item": "caliber:smooth_pink_limestone"
+    }
+  },
+  "result": {
+    "item": "caliber:smooth_pink_limestone_wall",
+    "count": 6
+  }
+}
