@@ -38,8 +38,10 @@ public class ModBlocks {
             () -> new Block(BlockProps.RAW_SILVER.get()));
     public static final RegistryObject<Block> DEEPSLATE_SILVER_ORE = registerBlock("deepslate_silver_ore",
             () -> new OreBlock(BlockProps.DEEPSLATE_SILVER_ORE.get()));
-    
-    //TODO: ADD BRONZE STUFF
+
+    public static final RegistryObject<Block> BRONZE_BLOCK = registerBlock("bronze_block",
+            () -> new Block(BlockProps.BRONZE_BLOCK.get()));
+
     //TODO: ADD STEEL STUFF
 
     // STONE BLOCKS

@@ -34,6 +34,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAW_SILVER = ITEMS.register("raw_silver",
             () -> new Item(new Item.Properties().tab(CreativeTabs.CALIBER_TAB)));
+
+    public static final RegistryObject<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot",
+            () -> new Item(new Item.Properties().tab(CreativeTabs.CALIBER_TAB)));
     
 
 

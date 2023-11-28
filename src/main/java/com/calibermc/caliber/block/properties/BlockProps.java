@@ -10,6 +10,7 @@ public enum BlockProps {
     ANDESITE(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6.0F).sound(SoundType.STONE).requiresCorrectToolForDrops()),
     BASALT(BlockBehaviour.Properties.copy(Blocks.BASALT)),
     BLACKSTONE(BlockBehaviour.Properties.copy(Blocks.BLACKSTONE)),
+    BRONZE_BLOCK(BlockBehaviour.Properties.of(Material.METAL).strength(5f).sound(SoundType.METAL).requiresCorrectToolForDrops()),
     COBBLESTONE(BlockBehaviour.Properties.of(Material.STONE).strength(2.0f, 6.0F).sound(SoundType.STONE).requiresCorrectToolForDrops()),
     CLAY(BlockBehaviour.Properties.of(Material.CLAY).strength(0.6f).sound(SoundType.GRAVEL)),
     DEEPSLATE(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE).sound(SoundType.DEEPSLATE).requiresCorrectToolForDrops()),

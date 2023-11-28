@@ -43,6 +43,9 @@
     "item.caliber.hammer": "Hammer",
     "item.caliber.nails": "Nails",
 
+    "block.caliber.bronze_block": "Bronze Block",
+    "item.caliber.bronze_ingot": "Bronze Ingot",
+
     "block.caliber.tin_block": "Tin Block",
     "block.caliber.tin_ore": "Tin Ore",
     "block.caliber.raw_tin_block": "Raw Tin Block",

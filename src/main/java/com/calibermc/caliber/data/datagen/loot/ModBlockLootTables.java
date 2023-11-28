@@ -11,6 +11,8 @@ public class ModBlockLootTables extends BlockLoot {
     protected void addTables() {
 
         // -- ORES
+        this.dropSelf(ModBlocks.BRONZE_BLOCK.get());
+
         add(ModBlocks.TIN_ORE.get(), (Block) ->
                 createOreDrop(ModBlocks.TIN_ORE.get(), ModItems.RAW_TIN.get()));
         add(ModBlocks.DEEPSLATE_TIN_ORE.get(), (Block) ->
