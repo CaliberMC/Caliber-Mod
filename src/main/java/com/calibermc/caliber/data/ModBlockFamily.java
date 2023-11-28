@@ -237,43 +237,43 @@ public class ModBlockFamily {
             return this;
         }
         
-        /* TUDOR BLOCKS */
-        public Builder cross(Block pCross) {
-            this.family.variants.put(Variant.CROSS, pCross);
-            return this;
-        }
-        public Builder down(Block pDown) {
-            this.family.variants.put(Variant.DOWN, pDown);
-            return this;
-        }
-        public Builder up(Block pUp) {
-            this.family.variants.put(Variant.UP, pUp);
-            return this;
-        }
-        public Builder left(Block pLeft) {
-            this.family.variants.put(Variant.LEFT, pLeft);
-            return this;
-        }
-        public Builder right(Block pRight) {
-            this.family.variants.put(Variant.RIGHT, pRight);
-            return this;
-        }
-        public Builder horizontal_1(Block pHorizontal_1) {
-            this.family.variants.put(Variant.HORIZONTAL_1, pHorizontal_1);
-            return this;
-        }
-        public Builder horizontal_2(Block pHorizontal_2) {
-            this.family.variants.put(Variant.HORIZONTAL_2, pHorizontal_2);
-            return this;
-        }
-        public Builder vertical_1(Block pVertical_1) {
-            this.family.variants.put(Variant.VERTICAL_1, pVertical_1);
-            return this;
-        }
-        public Builder vertical_2(Block pVertical_2) {
-            this.family.variants.put(Variant.VERTICAL_2, pVertical_2);
-            return this;
-        }
+//        /* TUDOR BLOCKS */
+//        public Builder cross(Block pCross) {
+//            this.family.variants.put(Variant.CROSS, pCross);
+//            return this;
+//        }
+//        public Builder down(Block pDown) {
+//            this.family.variants.put(Variant.DOWN, pDown);
+//            return this;
+//        }
+//        public Builder up(Block pUp) {
+//            this.family.variants.put(Variant.UP, pUp);
+//            return this;
+//        }
+//        public Builder left(Block pLeft) {
+//            this.family.variants.put(Variant.LEFT, pLeft);
+//            return this;
+//        }
+//        public Builder right(Block pRight) {
+//            this.family.variants.put(Variant.RIGHT, pRight);
+//            return this;
+//        }
+//        public Builder horizontal_1(Block pHorizontal_1) {
+//            this.family.variants.put(Variant.HORIZONTAL_1, pHorizontal_1);
+//            return this;
+//        }
+//        public Builder horizontal_2(Block pHorizontal_2) {
+//            this.family.variants.put(Variant.HORIZONTAL_2, pHorizontal_2);
+//            return this;
+//        }
+//        public Builder vertical_1(Block pVertical_1) {
+//            this.family.variants.put(Variant.VERTICAL_1, pVertical_1);
+//            return this;
+//        }
+//        public Builder vertical_2(Block pVertical_2) {
+//            this.family.variants.put(Variant.VERTICAL_2, pVertical_2);
+//            return this;
+//        }
 
         public Builder dontGenerateModel() {
             this.family.generateModel = false;

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "caliber:block/quartz_arrowslit"
+    },
+    "facing=east": {
+      "model": "caliber:block/quartz_arrowslit",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "caliber:block/quartz_arrowslit",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "caliber:block/quartz_arrowslit",
+      "y": 270
+    }
+  }
+}

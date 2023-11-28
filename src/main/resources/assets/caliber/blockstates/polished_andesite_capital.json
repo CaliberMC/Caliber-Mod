@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "caliber:block/polished_andesite_capital"
+    },
+    "type=top": {
+      "model": "caliber:block/polished_andesite_capital_top"
+    }
+  }
+}

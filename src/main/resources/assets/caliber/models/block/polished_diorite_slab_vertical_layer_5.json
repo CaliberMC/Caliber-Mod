@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/templates/slab_vertical_layer_5",
+  "textures": {
+    "side": "minecraft:block/polished_diorite",
+    "bottom": "minecraft:block/polished_diorite",
+    "top": "minecraft:block/polished_diorite"
+  }
+}

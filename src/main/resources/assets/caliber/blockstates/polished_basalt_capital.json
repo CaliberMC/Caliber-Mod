@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "caliber:block/polished_basalt_capital"
+    },
+    "type=top": {
+      "model": "caliber:block/polished_basalt_capital_top"
+    }
+  }
+}

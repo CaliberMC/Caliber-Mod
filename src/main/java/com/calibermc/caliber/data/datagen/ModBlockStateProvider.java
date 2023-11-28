@@ -23,6 +23,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
         simpleBlock(ModBlocks.SILVER_ORE.get());
         simpleBlock(ModBlocks.DEEPSLATE_SILVER_ORE.get());
 
+        wallBlock((WallBlock) ModBlocks.POLISHED_ANDESITE_WALL.get(), blockTexture(Blocks.POLISHED_ANDESITE));
+
+        wallBlock((WallBlock) ModBlocks.POLISHED_DIORITE_WALL.get(), blockTexture(Blocks.POLISHED_DIORITE));
+
         stairsBlock((StairBlock) ModBlocks.DEEPSLATE_STAIRS.get(), blockTexture(Blocks.DEEPSLATE));
         wallBlock((WallBlock) ModBlocks.DEEPSLATE_WALL.get(), blockTexture(Blocks.DEEPSLATE));
 

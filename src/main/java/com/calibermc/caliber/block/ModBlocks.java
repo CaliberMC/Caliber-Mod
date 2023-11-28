@@ -43,7 +43,367 @@ public class ModBlocks {
     //TODO: ADD STEEL STUFF
 
     // STONE BLOCKS
-    /* DEEPSLATE */
+    /* Andesite */
+    public static final RegistryObject<Block> ANDESITE_ARCH = registerBlock("andesite_arch",
+            () -> new ArchBlock(BlockProps.ANDESITE.get()));
+    public static final RegistryObject<Block> ANDESITE_ARCH_HALF = registerBlock("andesite_arch_half",
+            () -> new HalfArchBlock(BlockProps.ANDESITE.get()));
+    public static final RegistryObject<Block> ANDESITE_ARCH_LARGE = registerBlock("andesite_arch_large",
+            () -> new LargeArchBlock(BlockProps.ANDESITE.get()));
+    public static final RegistryObject<Block> ANDESITE_ARCH_LARGE_HALF = registerBlock("andesite_arch_large_half",
+            () -> new LargeHalfArchBlock(BlockProps.ANDESITE.get()));
+    public static final RegistryObject<Block> ANDESITE_ARROWSLIT = registerBlock("andesite_arrowslit",
+            () -> new ArrowSlitBlock(BlockProps.ANDESITE.get()));
+    public static final RegistryObject<Block> ANDESITE_BALUSTRADE = registerBlock("andesite_balustrade",
+            () -> new BalustradeBlock(BlockProps.ANDESITE.get()));
+    public static final RegistryObject<Block> ANDESITE_CAPITAL = registerBlock("andesite_capital",
+            () -> new CapitalBlock(BlockProps.ANDESITE.get()));
+    public static final RegistryObject<Block> ANDESITE_CORNER = registerBlock("andesite_corner",
+            () -> new CornerLayerBlock(BlockProps.ANDESITE.get()));
+    public static final RegistryObject<Block> ANDESITE_CORNER_SLAB = registerBlock("andesite_corner_slab",
+            () -> new CornerSlabBlock(BlockProps.ANDESITE.get()));
+    public static final RegistryObject<Block> ANDESITE_CORNER_SLAB_VERTICAL = registerBlock("andesite_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(BlockProps.ANDESITE.get()));
+    public static final RegistryObject<Block> ANDESITE_EIGHTH = registerBlock("andesite_eighth",
+            () -> new EighthBlock(BlockProps.ANDESITE.get()));
+    public static final RegistryObject<Block> ANDESITE_PILLAR = registerBlock("andesite_pillar",
+            () -> new PillarLayerBlock(BlockProps.ANDESITE.get()));
+    public static final RegistryObject<Block> ANDESITE_QUARTER = registerBlock("andesite_quarter",
+            () -> new QuarterLayerBlock(BlockProps.ANDESITE.get()));
+    public static final RegistryObject<Block> ANDESITE_QUARTER_VERTICAL = registerBlock("andesite_quarter_vertical",
+            () -> new VerticalQuarterLayerBlock(BlockProps.ANDESITE.get()));
+    public static final RegistryObject<Block> ANDESITE_SLAB = registerBlock("andesite_slab",
+            () -> new SlabLayerBlock(BlockProps.ANDESITE.get()));
+    public static final RegistryObject<Block> ANDESITE_SLAB_VERTICAL = registerBlock("andesite_slab_vertical",
+            () -> new VerticalSlabLayerBlock(BlockProps.ANDESITE.get()));
+    public static final RegistryObject<Block> ANDESITE_WINDOW = registerBlock("andesite_window",
+            () -> new WindowBlock(BlockProps.ANDESITE.get()));
+    public static final RegistryObject<Block> ANDESITE_WINDOW_HALF = registerBlock("andesite_window_half",
+            () -> new HalfWindowBlock(BlockProps.ANDESITE.get()));
+
+    /* Polished Andesite */
+    public static final RegistryObject<Block> POLISHED_ANDESITE_ARCH = registerBlock("polished_andesite_arch",
+            () -> new ArchBlock(BlockProps.POLISHED_ANDESITE.get()));
+    public static final RegistryObject<Block> POLISHED_ANDESITE_ARCH_HALF = registerBlock("polished_andesite_arch_half",
+            () -> new HalfArchBlock(BlockProps.POLISHED_ANDESITE.get()));
+    public static final RegistryObject<Block> POLISHED_ANDESITE_ARCH_LARGE = registerBlock("polished_andesite_arch_large",
+            () -> new LargeArchBlock(BlockProps.POLISHED_ANDESITE.get()));
+    public static final RegistryObject<Block> POLISHED_ANDESITE_ARCH_LARGE_HALF = registerBlock("polished_andesite_arch_large_half",
+            () -> new LargeHalfArchBlock(BlockProps.POLISHED_ANDESITE.get()));
+    public static final RegistryObject<Block> POLISHED_ANDESITE_ARROWSLIT = registerBlock("polished_andesite_arrowslit",
+            () -> new ArrowSlitBlock(BlockProps.POLISHED_ANDESITE.get()));
+    public static final RegistryObject<Block> POLISHED_ANDESITE_BALUSTRADE = registerBlock("polished_andesite_balustrade",
+            () -> new BalustradeBlock(BlockProps.POLISHED_ANDESITE.get()));
+    public static final RegistryObject<Block> POLISHED_ANDESITE_CAPITAL = registerBlock("polished_andesite_capital",
+            () -> new CapitalBlock(BlockProps.POLISHED_ANDESITE.get()));
+    public static final RegistryObject<Block> POLISHED_ANDESITE_CORNER = registerBlock("polished_andesite_corner",
+            () -> new CornerLayerBlock(BlockProps.POLISHED_ANDESITE.get()));
+    public static final RegistryObject<Block> POLISHED_ANDESITE_CORNER_SLAB = registerBlock("polished_andesite_corner_slab",
+            () -> new CornerSlabBlock(BlockProps.POLISHED_ANDESITE.get()));
+    public static final RegistryObject<Block> POLISHED_ANDESITE_CORNER_SLAB_VERTICAL = registerBlock("polished_andesite_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(BlockProps.POLISHED_ANDESITE.get()));
+    public static final RegistryObject<Block> POLISHED_ANDESITE_EIGHTH = registerBlock("polished_andesite_eighth",
+            () -> new EighthBlock(BlockProps.POLISHED_ANDESITE.get()));
+    public static final RegistryObject<Block> POLISHED_ANDESITE_PILLAR = registerBlock("polished_andesite_pillar",
+            () -> new PillarLayerBlock(BlockProps.POLISHED_ANDESITE.get()));
+    public static final RegistryObject<Block> POLISHED_ANDESITE_QUARTER = registerBlock("polished_andesite_quarter",
+            () -> new QuarterLayerBlock(BlockProps.POLISHED_ANDESITE.get()));
+    public static final RegistryObject<Block> POLISHED_ANDESITE_QUARTER_VERTICAL = registerBlock("polished_andesite_quarter_vertical",
+            () -> new VerticalQuarterLayerBlock(BlockProps.POLISHED_ANDESITE.get()));
+    public static final RegistryObject<Block> POLISHED_ANDESITE_SLAB = registerBlock("polished_andesite_slab",
+            () -> new SlabLayerBlock(BlockProps.POLISHED_ANDESITE.get()));
+    public static final RegistryObject<Block> POLISHED_ANDESITE_SLAB_VERTICAL = registerBlock("polished_andesite_slab_vertical",
+            () -> new VerticalSlabLayerBlock(BlockProps.POLISHED_ANDESITE.get()));
+    public static final RegistryObject<Block> POLISHED_ANDESITE_WALL = registerBlock("polished_andesite_wall",
+            () -> new WallBlock(BlockProps.POLISHED_ANDESITE.get()));
+    public static final RegistryObject<Block> POLISHED_ANDESITE_WINDOW = registerBlock("polished_andesite_window",
+            () -> new WindowBlock(BlockProps.POLISHED_ANDESITE.get()));
+    public static final RegistryObject<Block> POLISHED_ANDESITE_WINDOW_HALF = registerBlock("polished_andesite_window_half",
+            () -> new HalfWindowBlock(BlockProps.POLISHED_ANDESITE.get()));
+
+    /* Basalt */
+    public static final RegistryObject<Block> BASALT_ARCH = registerBlock("basalt_arch",
+            () -> new ArchBlock(BlockProps.BASALT.get()));
+    public static final RegistryObject<Block> BASALT_ARCH_HALF = registerBlock("basalt_arch_half",
+            () -> new HalfArchBlock(BlockProps.BASALT.get()));
+    public static final RegistryObject<Block> BASALT_ARCH_LARGE = registerBlock("basalt_arch_large",
+            () -> new LargeArchBlock(BlockProps.BASALT.get()));
+    public static final RegistryObject<Block> BASALT_ARCH_LARGE_HALF = registerBlock("basalt_arch_large_half",
+            () -> new LargeHalfArchBlock(BlockProps.BASALT.get()));
+    public static final RegistryObject<Block> BASALT_ARROWSLIT = registerBlock("basalt_arrowslit",
+            () -> new ArrowSlitBlock(BlockProps.BASALT.get()));
+    public static final RegistryObject<Block> BASALT_BALUSTRADE = registerBlock("basalt_balustrade",
+            () -> new BalustradeBlock(BlockProps.BASALT.get()));
+    public static final RegistryObject<Block> BASALT_CAPITAL = registerBlock("basalt_capital",
+            () -> new CapitalBlock(BlockProps.BASALT.get()));
+    public static final RegistryObject<Block> BASALT_CORNER = registerBlock("basalt_corner",
+            () -> new CornerLayerBlock(BlockProps.BASALT.get()));
+    public static final RegistryObject<Block> BASALT_CORNER_SLAB = registerBlock("basalt_corner_slab",
+            () -> new CornerSlabBlock(BlockProps.BASALT.get()));
+    public static final RegistryObject<Block> BASALT_CORNER_SLAB_VERTICAL = registerBlock("basalt_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(BlockProps.BASALT.get()));
+    public static final RegistryObject<Block> BASALT_EIGHTH = registerBlock("basalt_eighth",
+            () -> new EighthBlock(BlockProps.BASALT.get()));
+    public static final RegistryObject<Block> BASALT_PILLAR = registerBlock("basalt_pillar",
+            () -> new PillarLayerBlock(BlockProps.BASALT.get()));
+    public static final RegistryObject<Block> BASALT_QUARTER = registerBlock("basalt_quarter",
+            () -> new QuarterLayerBlock(BlockProps.BASALT.get()));
+    public static final RegistryObject<Block> BASALT_QUARTER_VERTICAL = registerBlock("basalt_quarter_vertical",
+            () -> new VerticalQuarterLayerBlock(BlockProps.BASALT.get()));
+    public static final RegistryObject<Block> BASALT_SLAB = registerBlock("basalt_slab",
+            () -> new SlabLayerBlock(BlockProps.BASALT.get()));
+    public static final RegistryObject<Block> BASALT_SLAB_VERTICAL = registerBlock("basalt_slab_vertical",
+            () -> new VerticalSlabLayerBlock(BlockProps.BASALT.get()));
+    public static final RegistryObject<Block> BASALT_STAIRS = registerBlock("basalt_stairs",
+            () -> new StairBlock(Blocks.BASALT::defaultBlockState, BlockProps.BASALT.get()));
+    public static final RegistryObject<Block> BASALT_WALL = registerBlock("basalt_wall",
+            () -> new WallBlock(BlockProps.BASALT.get()));
+    public static final RegistryObject<Block> BASALT_WINDOW = registerBlock("basalt_window",
+            () -> new WindowBlock(BlockProps.BASALT.get()));
+    public static final RegistryObject<Block> BASALT_WINDOW_HALF = registerBlock("basalt_window_half",
+            () -> new HalfWindowBlock(BlockProps.BASALT.get()));
+
+    /* Smooth Basalt */
+    public static final RegistryObject<Block> SMOOTH_BASALT_ARCH = registerBlock("smooth_basalt_arch",
+            () -> new ArchBlock(BlockProps.SMOOTH_BASALT.get()));
+    public static final RegistryObject<Block> SMOOTH_BASALT_ARCH_HALF = registerBlock("smooth_basalt_arch_half",
+            () -> new HalfArchBlock(BlockProps.SMOOTH_BASALT.get()));
+    public static final RegistryObject<Block> SMOOTH_BASALT_ARCH_LARGE = registerBlock("smooth_basalt_arch_large",
+            () -> new LargeArchBlock(BlockProps.SMOOTH_BASALT.get()));
+    public static final RegistryObject<Block> SMOOTH_BASALT_ARCH_LARGE_HALF = registerBlock("smooth_basalt_arch_large_half",
+            () -> new LargeHalfArchBlock(BlockProps.SMOOTH_BASALT.get()));
+    public static final RegistryObject<Block> SMOOTH_BASALT_ARROWSLIT = registerBlock("smooth_basalt_arrowslit",
+            () -> new ArrowSlitBlock(BlockProps.SMOOTH_BASALT.get()));
+    public static final RegistryObject<Block> SMOOTH_BASALT_BALUSTRADE = registerBlock("smooth_basalt_balustrade",
+            () -> new BalustradeBlock(BlockProps.SMOOTH_BASALT.get()));
+    public static final RegistryObject<Block> SMOOTH_BASALT_CAPITAL = registerBlock("smooth_basalt_capital",
+            () -> new CapitalBlock(BlockProps.SMOOTH_BASALT.get()));
+    public static final RegistryObject<Block> SMOOTH_BASALT_CORNER = registerBlock("smooth_basalt_corner",
+            () -> new CornerLayerBlock(BlockProps.SMOOTH_BASALT.get()));
+    public static final RegistryObject<Block> SMOOTH_BASALT_CORNER_SLAB = registerBlock("smooth_basalt_corner_slab",
+            () -> new CornerSlabBlock(BlockProps.SMOOTH_BASALT.get()));
+    public static final RegistryObject<Block> SMOOTH_BASALT_CORNER_SLAB_VERTICAL = registerBlock("smooth_basalt_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(BlockProps.SMOOTH_BASALT.get()));
+    public static final RegistryObject<Block> SMOOTH_BASALT_EIGHTH = registerBlock("smooth_basalt_eighth",
+            () -> new EighthBlock(BlockProps.SMOOTH_BASALT.get()));
+    public static final RegistryObject<Block> SMOOTH_BASALT_PILLAR = registerBlock("smooth_basalt_pillar",
+            () -> new PillarLayerBlock(BlockProps.SMOOTH_BASALT.get()));
+    public static final RegistryObject<Block> SMOOTH_BASALT_QUARTER = registerBlock("smooth_basalt_quarter",
+            () -> new QuarterLayerBlock(BlockProps.SMOOTH_BASALT.get()));
+    public static final RegistryObject<Block> SMOOTH_BASALT_QUARTER_VERTICAL = registerBlock("smooth_basalt_quarter_vertical",
+            () -> new VerticalQuarterLayerBlock(BlockProps.SMOOTH_BASALT.get()));
+    public static final RegistryObject<Block> SMOOTH_BASALT_SLAB = registerBlock("smooth_basalt_slab",
+            () -> new SlabLayerBlock(BlockProps.SMOOTH_BASALT.get()));
+    public static final RegistryObject<Block> SMOOTH_BASALT_SLAB_VERTICAL = registerBlock("smooth_basalt_slab_vertical",
+            () -> new VerticalSlabLayerBlock(BlockProps.SMOOTH_BASALT.get()));
+    public static final RegistryObject<Block> SMOOTH_BASALT_STAIRS = registerBlock("smooth_basalt_stairs",
+            () -> new StairBlock(Blocks.SMOOTH_BASALT::defaultBlockState, BlockProps.SMOOTH_BASALT.get()));
+    public static final RegistryObject<Block> SMOOTH_BASALT_WALL = registerBlock("smooth_basalt_wall",
+            () -> new WallBlock(BlockProps.SMOOTH_BASALT.get()));
+    public static final RegistryObject<Block> SMOOTH_BASALT_WINDOW = registerBlock("smooth_basalt_window",
+            () -> new WindowBlock(BlockProps.SMOOTH_BASALT.get()));
+    public static final RegistryObject<Block> SMOOTH_BASALT_WINDOW_HALF = registerBlock("smooth_basalt_window_half",
+            () -> new HalfWindowBlock(BlockProps.SMOOTH_BASALT.get()));
+
+    /* Polished Basalt */
+    public static final RegistryObject<Block> POLISHED_BASALT_ARCH = registerBlock("polished_basalt_arch",
+            () -> new ArchBlock(BlockProps.POLISHED_BASALT.get()));
+    public static final RegistryObject<Block> POLISHED_BASALT_ARCH_HALF = registerBlock("polished_basalt_arch_half",
+            () -> new HalfArchBlock(BlockProps.POLISHED_BASALT.get()));
+    public static final RegistryObject<Block> POLISHED_BASALT_ARCH_LARGE = registerBlock("polished_basalt_arch_large",
+            () -> new LargeArchBlock(BlockProps.POLISHED_BASALT.get()));
+    public static final RegistryObject<Block> POLISHED_BASALT_ARCH_LARGE_HALF = registerBlock("polished_basalt_arch_large_half",
+            () -> new LargeHalfArchBlock(BlockProps.POLISHED_BASALT.get()));
+    public static final RegistryObject<Block> POLISHED_BASALT_ARROWSLIT = registerBlock("polished_basalt_arrowslit",
+            () -> new ArrowSlitBlock(BlockProps.POLISHED_BASALT.get()));
+    public static final RegistryObject<Block> POLISHED_BASALT_BALUSTRADE = registerBlock("polished_basalt_balustrade",
+            () -> new BalustradeBlock(BlockProps.POLISHED_BASALT.get()));
+    public static final RegistryObject<Block> POLISHED_BASALT_CAPITAL = registerBlock("polished_basalt_capital",
+            () -> new CapitalBlock(BlockProps.POLISHED_BASALT.get()));
+    public static final RegistryObject<Block> POLISHED_BASALT_CORNER = registerBlock("polished_basalt_corner",
+            () -> new CornerLayerBlock(BlockProps.POLISHED_BASALT.get()));
+    public static final RegistryObject<Block> POLISHED_BASALT_CORNER_SLAB = registerBlock("polished_basalt_corner_slab",
+            () -> new CornerSlabBlock(BlockProps.POLISHED_BASALT.get()));
+    public static final RegistryObject<Block> POLISHED_BASALT_CORNER_SLAB_VERTICAL = registerBlock("polished_basalt_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(BlockProps.POLISHED_BASALT.get()));
+    public static final RegistryObject<Block> POLISHED_BASALT_EIGHTH = registerBlock("polished_basalt_eighth",
+            () -> new EighthBlock(BlockProps.POLISHED_BASALT.get()));
+    public static final RegistryObject<Block> POLISHED_BASALT_PILLAR = registerBlock("polished_basalt_pillar",
+            () -> new PillarLayerBlock(BlockProps.POLISHED_BASALT.get()));
+    public static final RegistryObject<Block> POLISHED_BASALT_QUARTER = registerBlock("polished_basalt_quarter",
+            () -> new QuarterLayerBlock(BlockProps.POLISHED_BASALT.get()));
+    public static final RegistryObject<Block> POLISHED_BASALT_QUARTER_VERTICAL = registerBlock("polished_basalt_quarter_vertical",
+            () -> new VerticalQuarterLayerBlock(BlockProps.POLISHED_BASALT.get()));
+    public static final RegistryObject<Block> POLISHED_BASALT_SLAB = registerBlock("polished_basalt_slab",
+            () -> new SlabLayerBlock(BlockProps.POLISHED_BASALT.get()));
+    public static final RegistryObject<Block> POLISHED_BASALT_SLAB_VERTICAL = registerBlock("polished_basalt_slab_vertical",
+            () -> new VerticalSlabLayerBlock(BlockProps.POLISHED_BASALT.get()));
+    public static final RegistryObject<Block> POLISHED_BASALT_STAIRS = registerBlock("polished_basalt_stairs",
+            () -> new StairBlock(Blocks.POLISHED_BASALT::defaultBlockState, BlockProps.POLISHED_BASALT.get()));
+    public static final RegistryObject<Block> POLISHED_BASALT_WALL = registerBlock("polished_basalt_wall",
+            () -> new WallBlock(BlockProps.POLISHED_BASALT.get()));
+    public static final RegistryObject<Block> POLISHED_BASALT_WINDOW = registerBlock("polished_basalt_window",
+            () -> new WindowBlock(BlockProps.POLISHED_BASALT.get()));
+    public static final RegistryObject<Block> POLISHED_BASALT_WINDOW_HALF = registerBlock("polished_basalt_window_half",
+            () -> new HalfWindowBlock(BlockProps.POLISHED_BASALT.get()));
+
+    /* Blackstone */
+    public static final RegistryObject<Block> BLACKSTONE_ARCH = registerBlock("blackstone_arch",
+            () -> new ArchBlock(BlockProps.BLACKSTONE.get()));
+    public static final RegistryObject<Block> BLACKSTONE_ARCH_HALF = registerBlock("blackstone_arch_half",
+            () -> new HalfArchBlock(BlockProps.BLACKSTONE.get()));
+    public static final RegistryObject<Block> BLACKSTONE_ARCH_LARGE = registerBlock("blackstone_arch_large",
+            () -> new LargeArchBlock(BlockProps.BLACKSTONE.get()));
+    public static final RegistryObject<Block> BLACKSTONE_ARCH_LARGE_HALF = registerBlock("blackstone_arch_large_half",
+            () -> new LargeHalfArchBlock(BlockProps.BLACKSTONE.get()));
+    public static final RegistryObject<Block> BLACKSTONE_ARROWSLIT = registerBlock("blackstone_arrowslit",
+            () -> new ArrowSlitBlock(BlockProps.BLACKSTONE.get()));
+    public static final RegistryObject<Block> BLACKSTONE_BALUSTRADE = registerBlock("blackstone_balustrade",
+            () -> new BalustradeBlock(BlockProps.BLACKSTONE.get()));
+    public static final RegistryObject<Block> BLACKSTONE_CAPITAL = registerBlock("blackstone_capital",
+            () -> new CapitalBlock(BlockProps.BLACKSTONE.get()));
+    public static final RegistryObject<Block> BLACKSTONE_CORNER = registerBlock("blackstone_corner",
+            () -> new CornerLayerBlock(BlockProps.BLACKSTONE.get()));
+    public static final RegistryObject<Block> BLACKSTONE_CORNER_SLAB = registerBlock("blackstone_corner_slab",
+            () -> new CornerSlabBlock(BlockProps.BLACKSTONE.get()));
+    public static final RegistryObject<Block> BLACKSTONE_CORNER_SLAB_VERTICAL = registerBlock("blackstone_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(BlockProps.BLACKSTONE.get()));
+    public static final RegistryObject<Block> BLACKSTONE_EIGHTH = registerBlock("blackstone_eighth",
+            () -> new EighthBlock(BlockProps.BLACKSTONE.get()));
+    public static final RegistryObject<Block> BLACKSTONE_PILLAR = registerBlock("blackstone_pillar",
+            () -> new PillarLayerBlock(BlockProps.BLACKSTONE.get()));
+    public static final RegistryObject<Block> BLACKSTONE_QUARTER = registerBlock("blackstone_quarter",
+            () -> new QuarterLayerBlock(BlockProps.BLACKSTONE.get()));
+    public static final RegistryObject<Block> BLACKSTONE_QUARTER_VERTICAL = registerBlock("blackstone_quarter_vertical",
+            () -> new VerticalQuarterLayerBlock(BlockProps.BLACKSTONE.get()));
+    public static final RegistryObject<Block> BLACKSTONE_SLAB = registerBlock("blackstone_slab",
+            () -> new SlabLayerBlock(BlockProps.BLACKSTONE.get()));
+    public static final RegistryObject<Block> BLACKSTONE_SLAB_VERTICAL = registerBlock("blackstone_slab_vertical",
+            () -> new VerticalSlabLayerBlock(BlockProps.BLACKSTONE.get()));
+    public static final RegistryObject<Block> BLACKSTONE_WINDOW = registerBlock("blackstone_window",
+            () -> new WindowBlock(BlockProps.BLACKSTONE.get()));
+    public static final RegistryObject<Block> BLACKSTONE_WINDOW_HALF = registerBlock("blackstone_window_half",
+            () -> new HalfWindowBlock(BlockProps.BLACKSTONE.get()));
+
+    /* Gilded Blackstone */
+    public static final RegistryObject<Block> GILDED_BLACKSTONE_ARCH = registerBlock("gilded_blackstone_arch",
+            () -> new ArchBlock(BlockProps.GILDED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> GILDED_BLACKSTONE_ARCH_HALF = registerBlock("gilded_blackstone_arch_half",
+            () -> new HalfArchBlock(BlockProps.GILDED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> GILDED_BLACKSTONE_ARCH_LARGE = registerBlock("gilded_blackstone_arch_large",
+            () -> new LargeArchBlock(BlockProps.GILDED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> GILDED_BLACKSTONE_ARCH_LARGE_HALF = registerBlock("gilded_blackstone_arch_large_half",
+            () -> new LargeHalfArchBlock(BlockProps.GILDED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> GILDED_BLACKSTONE_ARROWSLIT = registerBlock("gilded_blackstone_arrowslit",
+            () -> new ArrowSlitBlock(BlockProps.GILDED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> GILDED_BLACKSTONE_BALUSTRADE = registerBlock("gilded_blackstone_balustrade",
+            () -> new BalustradeBlock(BlockProps.GILDED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> GILDED_BLACKSTONE_CAPITAL = registerBlock("gilded_blackstone_capital",
+            () -> new CapitalBlock(BlockProps.GILDED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> GILDED_BLACKSTONE_CORNER = registerBlock("gilded_blackstone_corner",
+            () -> new CornerLayerBlock(BlockProps.GILDED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> GILDED_BLACKSTONE_CORNER_SLAB = registerBlock("gilded_blackstone_corner_slab",
+            () -> new CornerSlabBlock(BlockProps.GILDED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> GILDED_BLACKSTONE_CORNER_SLAB_VERTICAL = registerBlock("gilded_blackstone_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(BlockProps.GILDED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> GILDED_BLACKSTONE_EIGHTH = registerBlock("gilded_blackstone_eighth",
+            () -> new EighthBlock(BlockProps.GILDED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> GILDED_BLACKSTONE_PILLAR = registerBlock("gilded_blackstone_pillar",
+            () -> new PillarLayerBlock(BlockProps.GILDED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> GILDED_BLACKSTONE_QUARTER = registerBlock("gilded_blackstone_quarter",
+            () -> new QuarterLayerBlock(BlockProps.GILDED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> GILDED_BLACKSTONE_QUARTER_VERTICAL = registerBlock("gilded_blackstone_quarter_vertical",
+            () -> new VerticalQuarterLayerBlock(BlockProps.GILDED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> GILDED_BLACKSTONE_SLAB = registerBlock("gilded_blackstone_slab",
+            () -> new SlabLayerBlock(BlockProps.GILDED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> GILDED_BLACKSTONE_SLAB_VERTICAL = registerBlock("gilded_blackstone_slab_vertical",
+            () -> new VerticalSlabLayerBlock(BlockProps.GILDED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> GILDED_BLACKSTONE_STAIRS = registerBlock("gilded_blackstone_stairs",
+            () -> new StairBlock(Blocks.GILDED_BLACKSTONE::defaultBlockState, BlockProps.GILDED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> GILDED_BLACKSTONE_WALL = registerBlock("gilded_blackstone_wall",
+            () -> new WallBlock(BlockProps.GILDED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> GILDED_BLACKSTONE_WINDOW = registerBlock("gilded_blackstone_window",
+            () -> new WindowBlock(BlockProps.GILDED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> GILDED_BLACKSTONE_WINDOW_HALF = registerBlock("gilded_blackstone_window_half",
+            () -> new HalfWindowBlock(BlockProps.GILDED_BLACKSTONE.get()));
+
+    /* Polished Blackstone */
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_ARCH = registerBlock("polished_blackstone_arch",
+            () -> new ArchBlock(BlockProps.POLISHED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_ARCH_HALF = registerBlock("polished_blackstone_arch_half",
+            () -> new HalfArchBlock(BlockProps.POLISHED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_ARCH_LARGE = registerBlock("polished_blackstone_arch_large",
+            () -> new LargeArchBlock(BlockProps.POLISHED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_ARCH_LARGE_HALF = registerBlock("polished_blackstone_arch_large_half",
+            () -> new LargeHalfArchBlock(BlockProps.POLISHED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_ARROWSLIT = registerBlock("polished_blackstone_arrowslit",
+            () -> new ArrowSlitBlock(BlockProps.POLISHED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_BALUSTRADE = registerBlock("polished_blackstone_balustrade",
+            () -> new BalustradeBlock(BlockProps.POLISHED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_CAPITAL = registerBlock("polished_blackstone_capital",
+            () -> new CapitalBlock(BlockProps.POLISHED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_CORNER = registerBlock("polished_blackstone_corner",
+            () -> new CornerLayerBlock(BlockProps.POLISHED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_CORNER_SLAB = registerBlock("polished_blackstone_corner_slab",
+            () -> new CornerSlabBlock(BlockProps.POLISHED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_CORNER_SLAB_VERTICAL = registerBlock("polished_blackstone_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(BlockProps.POLISHED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_EIGHTH = registerBlock("polished_blackstone_eighth",
+            () -> new EighthBlock(BlockProps.POLISHED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_PILLAR = registerBlock("polished_blackstone_pillar",
+            () -> new PillarLayerBlock(BlockProps.POLISHED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_QUARTER = registerBlock("polished_blackstone_quarter",
+            () -> new QuarterLayerBlock(BlockProps.POLISHED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_QUARTER_VERTICAL = registerBlock("polished_blackstone_quarter_vertical",
+            () -> new VerticalQuarterLayerBlock(BlockProps.POLISHED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_SLAB = registerBlock("polished_blackstone_slab",
+            () -> new SlabLayerBlock(BlockProps.POLISHED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_SLAB_VERTICAL = registerBlock("polished_blackstone_slab_vertical",
+            () -> new VerticalSlabLayerBlock(BlockProps.POLISHED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_WINDOW = registerBlock("polished_blackstone_window",
+            () -> new WindowBlock(BlockProps.POLISHED_BLACKSTONE.get()));
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_WINDOW_HALF = registerBlock("polished_blackstone_window_half",
+            () -> new HalfWindowBlock(BlockProps.POLISHED_BLACKSTONE.get()));
+
+    /* Polished_Blackstone_Brick */
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_BRICK_ARCH = registerBlock("polished_blackstone_brick_arch",
+            () -> new ArchBlock(BlockProps.POLISHED_BLACKSTONE_BRICK.get()));
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_BRICK_ARCH_HALF = registerBlock("polished_blackstone_brick_arch_half",
+            () -> new HalfArchBlock(BlockProps.POLISHED_BLACKSTONE_BRICK.get()));
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_BRICK_ARCH_LARGE = registerBlock("polished_blackstone_brick_arch_large",
+            () -> new LargeArchBlock(BlockProps.POLISHED_BLACKSTONE_BRICK.get()));
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_BRICK_ARCH_LARGE_HALF = registerBlock("polished_blackstone_brick_arch_large_half",
+            () -> new LargeHalfArchBlock(BlockProps.POLISHED_BLACKSTONE_BRICK.get()));
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_BRICK_ARROWSLIT = registerBlock("polished_blackstone_brick_arrowslit",
+            () -> new ArrowSlitBlock(BlockProps.POLISHED_BLACKSTONE_BRICK.get()));
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_BRICK_BALUSTRADE = registerBlock("polished_blackstone_brick_balustrade",
+            () -> new BalustradeBlock(BlockProps.POLISHED_BLACKSTONE_BRICK.get()));
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_BRICK_CAPITAL = registerBlock("polished_blackstone_brick_capital",
+            () -> new CapitalBlock(BlockProps.POLISHED_BLACKSTONE_BRICK.get()));
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_BRICK_CORNER = registerBlock("polished_blackstone_brick_corner",
+            () -> new CornerLayerBlock(BlockProps.POLISHED_BLACKSTONE_BRICK.get()));
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_BRICK_CORNER_SLAB = registerBlock("polished_blackstone_brick_corner_slab",
+            () -> new CornerSlabBlock(BlockProps.POLISHED_BLACKSTONE_BRICK.get()));
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_BRICK_CORNER_SLAB_VERTICAL = registerBlock("polished_blackstone_brick_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(BlockProps.POLISHED_BLACKSTONE_BRICK.get()));
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_BRICK_EIGHTH = registerBlock("polished_blackstone_brick_eighth",
+            () -> new EighthBlock(BlockProps.POLISHED_BLACKSTONE_BRICK.get()));
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_BRICK_PILLAR = registerBlock("polished_blackstone_brick_pillar",
+            () -> new PillarLayerBlock(BlockProps.POLISHED_BLACKSTONE_BRICK.get()));
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_BRICK_QUARTER = registerBlock("polished_blackstone_brick_quarter",
+            () -> new QuarterLayerBlock(BlockProps.POLISHED_BLACKSTONE_BRICK.get()));
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_BRICK_QUARTER_VERTICAL = registerBlock("polished_blackstone_brick_quarter_vertical",
+            () -> new VerticalQuarterLayerBlock(BlockProps.POLISHED_BLACKSTONE_BRICK.get()));
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_BRICK_SLAB = registerBlock("polished_blackstone_brick_slab",
+            () -> new SlabLayerBlock(BlockProps.POLISHED_BLACKSTONE_BRICK.get()));
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_BRICK_SLAB_VERTICAL = registerBlock("polished_blackstone_brick_slab_vertical",
+            () -> new VerticalSlabLayerBlock(BlockProps.POLISHED_BLACKSTONE_BRICK.get()));
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_BRICK_WINDOW = registerBlock("polished_blackstone_brick_window",
+            () -> new WindowBlock(BlockProps.POLISHED_BLACKSTONE_BRICK.get()));
+    public static final RegistryObject<Block> POLISHED_BLACKSTONE_BRICK_WINDOW_HALF = registerBlock("polished_blackstone_brick_window_half",
+            () -> new HalfWindowBlock(BlockProps.POLISHED_BLACKSTONE_BRICK.get()));
+    
+    /* Deepslate */
     public static final RegistryObject<Block> DEEPSLATE_ARCH = registerBlock("deepslate_arch",
             () -> new ArchBlock(BlockProps.DEEPSLATE.get()));
     public static final RegistryObject<Block> DEEPSLATE_ARCH_HALF = registerBlock("deepslate_arch_half",
@@ -85,7 +445,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> DEEPSLATE_WINDOW_HALF = registerBlock("deepslate_window_half",
             () -> new HalfWindowBlock(BlockProps.DEEPSLATE.get()));
 
-    /* DEEPSLATE BRICK*/
+    /* Deepslate Bricks*/
     public static final RegistryObject<Block> DEEPSLATE_BRICK_ARCH = registerBlock("deepslate_brick_arch",
             () -> new ArchBlock(BlockProps.DEEPSLATE_BRICK.get()));
     public static final RegistryObject<Block> DEEPSLATE_BRICK_ARCH_HALF = registerBlock("deepslate_brick_arch_half",
@@ -123,7 +483,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> DEEPSLATE_BRICK_WINDOW_HALF = registerBlock("deepslate_brick_window_half",
             () -> new HalfWindowBlock(BlockProps.DEEPSLATE_BRICK.get()));
 
-    /* DEEPSLATE TILES*/
+    /* Deepslate Tiles*/
     public static final RegistryObject<Block> DEEPSLATE_TILE_ARCH = registerBlock("deepslate_tile_arch",
             () -> new ArchBlock(BlockProps.DEEPSLATE_TILES.get()));
     public static final RegistryObject<Block> DEEPSLATE_TILE_ARCH_HALF = registerBlock("deepslate_tile_arch_half",
@@ -161,7 +521,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> DEEPSLATE_TILE_WINDOW_HALF = registerBlock("deepslate_tile_window_half",
             () -> new HalfWindowBlock(BlockProps.DEEPSLATE_TILES.get()));
 
-    /* COBBLED DEEPSLATE */
+    /* Cobbled Deepslate */
     public static final RegistryObject<Block> COBBLED_DEEPSLATE_ARCH = registerBlock("cobbled_deepslate_arch",
             () -> new ArchBlock(BlockProps.COBBLED_DEEPSLATE.get()));
     public static final RegistryObject<Block> COBBLED_DEEPSLATE_ARCH_HALF = registerBlock("cobbled_deepslate_arch_half",
@@ -199,7 +559,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> COBBLED_DEEPSLATE_WINDOW_HALF = registerBlock("cobbled_deepslate_window_half",
             () -> new HalfWindowBlock(BlockProps.COBBLED_DEEPSLATE.get()));
 
-    /* POLISHED DEEPSLATE */
+    /* Polished Deepslate */
     public static final RegistryObject<Block> POLISHED_DEEPSLATE_ARCH = registerBlock("polished_deepslate_arch",
             () -> new ArchBlock(BlockProps.POLISHED_DEEPSLATE.get()));
     public static final RegistryObject<Block> POLISHED_DEEPSLATE_ARCH_HALF = registerBlock("polished_deepslate_arch_half",
@@ -236,6 +596,84 @@ public class ModBlocks {
             () -> new WindowBlock(BlockProps.POLISHED_DEEPSLATE.get()));
     public static final RegistryObject<Block> POLISHED_DEEPSLATE_WINDOW_HALF = registerBlock("polished_deepslate_window_half",
             () -> new HalfWindowBlock(BlockProps.POLISHED_DEEPSLATE.get()));
+
+    /* Diorite */
+    public static final RegistryObject<Block> DIORITE_ARCH = registerBlock("diorite_arch",
+            () -> new ArchBlock(BlockProps.DIORITE.get()));
+    public static final RegistryObject<Block> DIORITE_ARCH_HALF = registerBlock("diorite_arch_half",
+            () -> new HalfArchBlock(BlockProps.DIORITE.get()));
+    public static final RegistryObject<Block> DIORITE_ARCH_LARGE = registerBlock("diorite_arch_large",
+            () -> new LargeArchBlock(BlockProps.DIORITE.get()));
+    public static final RegistryObject<Block> DIORITE_ARCH_LARGE_HALF = registerBlock("diorite_arch_large_half",
+            () -> new LargeHalfArchBlock(BlockProps.DIORITE.get()));
+    public static final RegistryObject<Block> DIORITE_ARROWSLIT = registerBlock("diorite_arrowslit",
+            () -> new ArrowSlitBlock(BlockProps.DIORITE.get()));
+    public static final RegistryObject<Block> DIORITE_BALUSTRADE = registerBlock("diorite_balustrade",
+            () -> new BalustradeBlock(BlockProps.DIORITE.get()));
+    public static final RegistryObject<Block> DIORITE_CAPITAL = registerBlock("diorite_capital",
+            () -> new CapitalBlock(BlockProps.DIORITE.get()));
+    public static final RegistryObject<Block> DIORITE_CORNER = registerBlock("diorite_corner",
+            () -> new CornerLayerBlock(BlockProps.DIORITE.get()));
+    public static final RegistryObject<Block> DIORITE_CORNER_SLAB = registerBlock("diorite_corner_slab",
+            () -> new CornerSlabBlock(BlockProps.DIORITE.get()));
+    public static final RegistryObject<Block> DIORITE_CORNER_SLAB_VERTICAL = registerBlock("diorite_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(BlockProps.DIORITE.get()));
+    public static final RegistryObject<Block> DIORITE_EIGHTH = registerBlock("diorite_eighth",
+            () -> new EighthBlock(BlockProps.DIORITE.get()));
+    public static final RegistryObject<Block> DIORITE_PILLAR = registerBlock("diorite_pillar",
+            () -> new PillarLayerBlock(BlockProps.DIORITE.get()));
+    public static final RegistryObject<Block> DIORITE_QUARTER = registerBlock("diorite_quarter",
+            () -> new QuarterLayerBlock(BlockProps.DIORITE.get()));
+    public static final RegistryObject<Block> DIORITE_QUARTER_VERTICAL = registerBlock("diorite_quarter_vertical",
+            () -> new VerticalQuarterLayerBlock(BlockProps.DIORITE.get()));
+    public static final RegistryObject<Block> DIORITE_SLAB = registerBlock("diorite_slab",
+            () -> new SlabLayerBlock(BlockProps.DIORITE.get()));
+    public static final RegistryObject<Block> DIORITE_SLAB_VERTICAL = registerBlock("diorite_slab_vertical",
+            () -> new VerticalSlabLayerBlock(BlockProps.DIORITE.get()));
+    public static final RegistryObject<Block> DIORITE_WINDOW = registerBlock("diorite_window",
+            () -> new WindowBlock(BlockProps.DIORITE.get()));
+    public static final RegistryObject<Block> DIORITE_WINDOW_HALF = registerBlock("diorite_window_half",
+            () -> new HalfWindowBlock(BlockProps.DIORITE.get()));
+
+    /* Polished Diorite */
+    public static final RegistryObject<Block> POLISHED_DIORITE_ARCH = registerBlock("polished_diorite_arch",
+            () -> new ArchBlock(BlockProps.POLISHED_DIORITE.get()));
+    public static final RegistryObject<Block> POLISHED_DIORITE_ARCH_HALF = registerBlock("polished_diorite_arch_half",
+            () -> new HalfArchBlock(BlockProps.POLISHED_DIORITE.get()));
+    public static final RegistryObject<Block> POLISHED_DIORITE_ARCH_LARGE = registerBlock("polished_diorite_arch_large",
+            () -> new LargeArchBlock(BlockProps.POLISHED_DIORITE.get()));
+    public static final RegistryObject<Block> POLISHED_DIORITE_ARCH_LARGE_HALF = registerBlock("polished_diorite_arch_large_half",
+            () -> new LargeHalfArchBlock(BlockProps.POLISHED_DIORITE.get()));
+    public static final RegistryObject<Block> POLISHED_DIORITE_ARROWSLIT = registerBlock("polished_diorite_arrowslit",
+            () -> new ArrowSlitBlock(BlockProps.POLISHED_DIORITE.get()));
+    public static final RegistryObject<Block> POLISHED_DIORITE_BALUSTRADE = registerBlock("polished_diorite_balustrade",
+            () -> new BalustradeBlock(BlockProps.POLISHED_DIORITE.get()));
+    public static final RegistryObject<Block> POLISHED_DIORITE_CAPITAL = registerBlock("polished_diorite_capital",
+            () -> new CapitalBlock(BlockProps.POLISHED_DIORITE.get()));
+    public static final RegistryObject<Block> POLISHED_DIORITE_CORNER = registerBlock("polished_diorite_corner",
+            () -> new CornerLayerBlock(BlockProps.POLISHED_DIORITE.get()));
+    public static final RegistryObject<Block> POLISHED_DIORITE_CORNER_SLAB = registerBlock("polished_diorite_corner_slab",
+            () -> new CornerSlabBlock(BlockProps.POLISHED_DIORITE.get()));
+    public static final RegistryObject<Block> POLISHED_DIORITE_CORNER_SLAB_VERTICAL = registerBlock("polished_diorite_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(BlockProps.POLISHED_DIORITE.get()));
+    public static final RegistryObject<Block> POLISHED_DIORITE_EIGHTH = registerBlock("polished_diorite_eighth",
+            () -> new EighthBlock(BlockProps.POLISHED_DIORITE.get()));
+    public static final RegistryObject<Block> POLISHED_DIORITE_PILLAR = registerBlock("polished_diorite_pillar",
+            () -> new PillarLayerBlock(BlockProps.POLISHED_DIORITE.get()));
+    public static final RegistryObject<Block> POLISHED_DIORITE_QUARTER = registerBlock("polished_diorite_quarter",
+            () -> new QuarterLayerBlock(BlockProps.POLISHED_DIORITE.get()));
+    public static final RegistryObject<Block> POLISHED_DIORITE_QUARTER_VERTICAL = registerBlock("polished_diorite_quarter_vertical",
+            () -> new VerticalQuarterLayerBlock(BlockProps.POLISHED_DIORITE.get()));
+    public static final RegistryObject<Block> POLISHED_DIORITE_SLAB = registerBlock("polished_diorite_slab",
+            () -> new SlabLayerBlock(BlockProps.POLISHED_DIORITE.get()));
+    public static final RegistryObject<Block> POLISHED_DIORITE_SLAB_VERTICAL = registerBlock("polished_diorite_slab_vertical",
+            () -> new VerticalSlabLayerBlock(BlockProps.POLISHED_DIORITE.get()));
+    public static final RegistryObject<Block> POLISHED_DIORITE_WALL = registerBlock("polished_diorite_wall",
+            () -> new WallBlock(BlockProps.POLISHED_DIORITE.get()));
+    public static final RegistryObject<Block> POLISHED_DIORITE_WINDOW = registerBlock("polished_diorite_window",
+            () -> new WindowBlock(BlockProps.POLISHED_DIORITE.get()));
+    public static final RegistryObject<Block> POLISHED_DIORITE_WINDOW_HALF = registerBlock("polished_diorite_window_half",
+            () -> new HalfWindowBlock(BlockProps.POLISHED_DIORITE.get()));
     
     // -- GRANITE
     public static final RegistryObject<Block> BLACK_GRANITE = registerBlock("black_granite",
@@ -1809,213 +2247,213 @@ public class ModBlocks {
 
     // -- LIMESTONE -- SMOOTH
     public static final RegistryObject<Block> SMOOTH_DARK_LIMESTONE = registerBlock("smooth_dark_limestone",
-            () -> new Block(BlockProps.LIMESTONE.get()));
+            () -> new Block(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIGHT_LIMESTONE = registerBlock("smooth_light_limestone",
-            () -> new Block(BlockProps.LIMESTONE.get()));
+            () -> new Block(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_PINK_LIMESTONE = registerBlock("smooth_pink_limestone",
-            () -> new Block(BlockProps.LIMESTONE.get()));
+            () -> new Block(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_TAN_LIMESTONE = registerBlock("smooth_tan_limestone",
-            () -> new Block(BlockProps.LIMESTONE.get()));
+            () -> new Block(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_DARK_LIMESTONE_ARCH = registerBlock("smooth_dark_limestone_arch",
-            () -> new ArchBlock(BlockProps.LIMESTONE.get()));
+            () -> new ArchBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIGHT_LIMESTONE_ARCH = registerBlock("smooth_light_limestone_arch",
-            () -> new ArchBlock(BlockProps.LIMESTONE.get()));
+            () -> new ArchBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIMESTONE_ARCH = registerBlock("smooth_limestone_arch",
-            () -> new ArchBlock(BlockProps.LIMESTONE.get()));
+            () -> new ArchBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_PINK_LIMESTONE_ARCH = registerBlock("smooth_pink_limestone_arch",
-            () -> new ArchBlock(BlockProps.LIMESTONE.get()));
+            () -> new ArchBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_TAN_LIMESTONE_ARCH = registerBlock("smooth_tan_limestone_arch",
-            () -> new ArchBlock(BlockProps.LIMESTONE.get()));
+            () -> new ArchBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_DARK_LIMESTONE_ARCH_HALF = registerBlock("smooth_dark_limestone_arch_half",
-            () -> new HalfArchBlock(BlockProps.LIMESTONE.get()));
+            () -> new HalfArchBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIGHT_LIMESTONE_ARCH_HALF = registerBlock("smooth_light_limestone_arch_half",
-            () -> new HalfArchBlock(BlockProps.LIMESTONE.get()));
+            () -> new HalfArchBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIMESTONE_ARCH_HALF = registerBlock("smooth_limestone_arch_half",
-            () -> new HalfArchBlock(BlockProps.LIMESTONE.get()));
+            () -> new HalfArchBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_PINK_LIMESTONE_ARCH_HALF = registerBlock("smooth_pink_limestone_arch_half",
-            () -> new HalfArchBlock(BlockProps.LIMESTONE.get()));
+            () -> new HalfArchBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_TAN_LIMESTONE_ARCH_HALF = registerBlock("smooth_tan_limestone_arch_half",
-            () -> new HalfArchBlock(BlockProps.LIMESTONE.get()));
+            () -> new HalfArchBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_DARK_LIMESTONE_ARCH_LARGE = registerBlock("smooth_dark_limestone_arch_large",
-            () -> new LargeArchBlock(BlockProps.LIMESTONE.get()));
+            () -> new LargeArchBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIGHT_LIMESTONE_ARCH_LARGE = registerBlock("smooth_light_limestone_arch_large",
-            () -> new LargeArchBlock(BlockProps.LIMESTONE.get()));
+            () -> new LargeArchBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIMESTONE_ARCH_LARGE = registerBlock("smooth_limestone_arch_large",
-            () -> new LargeArchBlock(BlockProps.LIMESTONE.get()));
+            () -> new LargeArchBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_PINK_LIMESTONE_ARCH_LARGE = registerBlock("smooth_pink_limestone_arch_large",
-            () -> new LargeArchBlock(BlockProps.LIMESTONE.get()));
+            () -> new LargeArchBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_TAN_LIMESTONE_ARCH_LARGE = registerBlock("smooth_tan_limestone_arch_large",
-            () -> new LargeArchBlock(BlockProps.LIMESTONE.get()));
+            () -> new LargeArchBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_DARK_LIMESTONE_ARCH_LARGE_HALF = registerBlock("smooth_dark_limestone_arch_large_half",
-            () -> new LargeHalfArchBlock(BlockProps.LIMESTONE.get()));
+            () -> new LargeHalfArchBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIGHT_LIMESTONE_ARCH_LARGE_HALF = registerBlock("smooth_light_limestone_arch_large_half",
-            () -> new LargeHalfArchBlock(BlockProps.LIMESTONE.get()));
+            () -> new LargeHalfArchBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIMESTONE_ARCH_LARGE_HALF = registerBlock("smooth_limestone_arch_large_half",
-            () -> new LargeHalfArchBlock(BlockProps.LIMESTONE.get()));
+            () -> new LargeHalfArchBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_PINK_LIMESTONE_ARCH_LARGE_HALF = registerBlock("smooth_pink_limestone_arch_large_half",
-            () -> new LargeHalfArchBlock(BlockProps.LIMESTONE.get()));
+            () -> new LargeHalfArchBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_TAN_LIMESTONE_ARCH_LARGE_HALF = registerBlock("smooth_tan_limestone_arch_large_half",
-            () -> new LargeHalfArchBlock(BlockProps.LIMESTONE.get()));
+            () -> new LargeHalfArchBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_DARK_LIMESTONE_ARROWSLIT = registerBlock("smooth_dark_limestone_arrowslit",
-            () -> new ArrowSlitBlock(BlockProps.LIMESTONE.get()));
+            () -> new ArrowSlitBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIGHT_LIMESTONE_ARROWSLIT = registerBlock("smooth_light_limestone_arrowslit",
-            () -> new ArrowSlitBlock(BlockProps.LIMESTONE.get()));
+            () -> new ArrowSlitBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIMESTONE_ARROWSLIT = registerBlock("smooth_limestone_arrowslit",
-            () -> new ArrowSlitBlock(BlockProps.LIMESTONE.get()));
+            () -> new ArrowSlitBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_PINK_LIMESTONE_ARROWSLIT = registerBlock("smooth_pink_limestone_arrowslit",
-            () -> new ArrowSlitBlock(BlockProps.LIMESTONE.get()));
+            () -> new ArrowSlitBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_TAN_LIMESTONE_ARROWSLIT = registerBlock("smooth_tan_limestone_arrowslit",
-            () -> new ArrowSlitBlock(BlockProps.LIMESTONE.get()));
+            () -> new ArrowSlitBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_DARK_LIMESTONE_BALUSTRADE = registerBlock("smooth_dark_limestone_balustrade",
-            () -> new BalustradeBlock(BlockProps.LIMESTONE.get()));
+            () -> new BalustradeBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIGHT_LIMESTONE_BALUSTRADE = registerBlock("smooth_light_limestone_balustrade",
-            () -> new BalustradeBlock(BlockProps.LIMESTONE.get()));
+            () -> new BalustradeBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIMESTONE_BALUSTRADE = registerBlock("smooth_limestone_balustrade",
-            () -> new BalustradeBlock(BlockProps.LIMESTONE.get()));
+            () -> new BalustradeBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_PINK_LIMESTONE_BALUSTRADE = registerBlock("smooth_pink_limestone_balustrade",
-            () -> new BalustradeBlock(BlockProps.LIMESTONE.get()));
+            () -> new BalustradeBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_TAN_LIMESTONE_BALUSTRADE = registerBlock("smooth_tan_limestone_balustrade",
-            () -> new BalustradeBlock(BlockProps.LIMESTONE.get()));
+            () -> new BalustradeBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_DARK_LIMESTONE_CAPITAL = registerBlock("smooth_dark_limestone_capital",
-            () -> new CapitalBlock(BlockProps.LIMESTONE.get()));
+            () -> new CapitalBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIGHT_LIMESTONE_CAPITAL = registerBlock("smooth_light_limestone_capital",
-            () -> new CapitalBlock(BlockProps.LIMESTONE.get()));
+            () -> new CapitalBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIMESTONE_CAPITAL = registerBlock("smooth_limestone_capital",
-            () -> new CapitalBlock(BlockProps.LIMESTONE.get()));
+            () -> new CapitalBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_PINK_LIMESTONE_CAPITAL = registerBlock("smooth_pink_limestone_capital",
-            () -> new CapitalBlock(BlockProps.LIMESTONE.get()));
+            () -> new CapitalBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_TAN_LIMESTONE_CAPITAL = registerBlock("smooth_tan_limestone_capital",
-            () -> new CapitalBlock(BlockProps.LIMESTONE.get()));
+            () -> new CapitalBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_DARK_LIMESTONE_CORNER = registerBlock("smooth_dark_limestone_corner",
-            () -> new CornerLayerBlock(BlockProps.LIMESTONE.get()));
+            () -> new CornerLayerBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIGHT_LIMESTONE_CORNER = registerBlock("smooth_light_limestone_corner",
-            () -> new CornerLayerBlock(BlockProps.LIMESTONE.get()));
+            () -> new CornerLayerBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIMESTONE_CORNER = registerBlock("smooth_limestone_corner",
-            () -> new CornerLayerBlock(BlockProps.LIMESTONE.get()));
+            () -> new CornerLayerBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_PINK_LIMESTONE_CORNER = registerBlock("smooth_pink_limestone_corner",
-            () -> new CornerLayerBlock(BlockProps.LIMESTONE.get()));
+            () -> new CornerLayerBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_TAN_LIMESTONE_CORNER = registerBlock("smooth_tan_limestone_corner",
-            () -> new CornerLayerBlock(BlockProps.LIMESTONE.get()));
+            () -> new CornerLayerBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_DARK_LIMESTONE_CORNER_SLAB = registerBlock("smooth_dark_limestone_corner_slab",
-            () -> new CornerSlabBlock(BlockProps.LIMESTONE.get()));
+            () -> new CornerSlabBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIGHT_LIMESTONE_CORNER_SLAB = registerBlock("smooth_light_limestone_corner_slab",
-            () -> new CornerSlabBlock(BlockProps.LIMESTONE.get()));
+            () -> new CornerSlabBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIMESTONE_CORNER_SLAB = registerBlock("smooth_limestone_corner_slab",
-            () -> new CornerSlabBlock(BlockProps.LIMESTONE.get()));
+            () -> new CornerSlabBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_PINK_LIMESTONE_CORNER_SLAB = registerBlock("smooth_pink_limestone_corner_slab",
-            () -> new CornerSlabBlock(BlockProps.LIMESTONE.get()));
+            () -> new CornerSlabBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_TAN_LIMESTONE_CORNER_SLAB = registerBlock("smooth_tan_limestone_corner_slab",
-            () -> new CornerSlabBlock(BlockProps.LIMESTONE.get()));
+            () -> new CornerSlabBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_DARK_LIMESTONE_CORNER_SLAB_VERTICAL = registerBlock("smooth_dark_limestone_corner_slab_vertical",
-            () -> new VerticalCornerSlabBlock(BlockProps.LIMESTONE.get()));
+            () -> new VerticalCornerSlabBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIGHT_LIMESTONE_CORNER_SLAB_VERTICAL = registerBlock("smooth_light_limestone_corner_slab_vertical",
-            () -> new VerticalCornerSlabBlock(BlockProps.LIMESTONE.get()));
+            () -> new VerticalCornerSlabBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIMESTONE_CORNER_SLAB_VERTICAL = registerBlock("smooth_limestone_corner_slab_vertical",
-            () -> new VerticalCornerSlabBlock(BlockProps.LIMESTONE.get()));
+            () -> new VerticalCornerSlabBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_PINK_LIMESTONE_CORNER_SLAB_VERTICAL = registerBlock("smooth_pink_limestone_corner_slab_vertical",
-            () -> new VerticalCornerSlabBlock(BlockProps.LIMESTONE.get()));
+            () -> new VerticalCornerSlabBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_TAN_LIMESTONE_CORNER_SLAB_VERTICAL = registerBlock("smooth_tan_limestone_corner_slab_vertical",
-            () -> new VerticalCornerSlabBlock(BlockProps.LIMESTONE.get()));
+            () -> new VerticalCornerSlabBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_DARK_LIMESTONE_EIGHTH = registerBlock("smooth_dark_limestone_eighth",
-            () -> new EighthBlock(BlockProps.LIMESTONE.get()));
+            () -> new EighthBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIGHT_LIMESTONE_EIGHTH = registerBlock("smooth_light_limestone_eighth",
-            () -> new EighthBlock(BlockProps.LIMESTONE.get()));
+            () -> new EighthBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIMESTONE_EIGHTH = registerBlock("smooth_limestone_eighth",
-            () -> new EighthBlock(BlockProps.LIMESTONE.get()));
+            () -> new EighthBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_PINK_LIMESTONE_EIGHTH = registerBlock("smooth_pink_limestone_eighth",
-            () -> new EighthBlock(BlockProps.LIMESTONE.get()));
+            () -> new EighthBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_TAN_LIMESTONE_EIGHTH = registerBlock("smooth_tan_limestone_eighth",
-            () -> new EighthBlock(BlockProps.LIMESTONE.get()));
+            () -> new EighthBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_DARK_LIMESTONE_PILLAR = registerBlock("smooth_dark_limestone_pillar",
-            () -> new PillarLayerBlock(BlockProps.LIMESTONE.get()));
+            () -> new PillarLayerBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIGHT_LIMESTONE_PILLAR = registerBlock("smooth_light_limestone_pillar",
-            () -> new PillarLayerBlock(BlockProps.LIMESTONE.get()));
+            () -> new PillarLayerBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIMESTONE_PILLAR = registerBlock("smooth_limestone_pillar",
-            () -> new PillarLayerBlock(BlockProps.LIMESTONE.get()));
+            () -> new PillarLayerBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_PINK_LIMESTONE_PILLAR = registerBlock("smooth_pink_limestone_pillar",
-            () -> new PillarLayerBlock(BlockProps.LIMESTONE.get()));
+            () -> new PillarLayerBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_TAN_LIMESTONE_PILLAR = registerBlock("smooth_tan_limestone_pillar",
-            () -> new PillarLayerBlock(BlockProps.LIMESTONE.get()));
+            () -> new PillarLayerBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_DARK_LIMESTONE_QUARTER = registerBlock("smooth_dark_limestone_quarter",
-            () -> new QuarterLayerBlock(BlockProps.LIMESTONE.get()));
+            () -> new QuarterLayerBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIGHT_LIMESTONE_QUARTER = registerBlock("smooth_light_limestone_quarter",
-            () -> new QuarterLayerBlock(BlockProps.LIMESTONE.get()));
+            () -> new QuarterLayerBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIMESTONE_QUARTER = registerBlock("smooth_limestone_quarter",
-            () -> new QuarterLayerBlock(BlockProps.LIMESTONE.get()));
+            () -> new QuarterLayerBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_PINK_LIMESTONE_QUARTER = registerBlock("smooth_pink_limestone_quarter",
-            () -> new QuarterLayerBlock(BlockProps.LIMESTONE.get()));
+            () -> new QuarterLayerBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_TAN_LIMESTONE_QUARTER = registerBlock("smooth_tan_limestone_quarter",
-            () -> new QuarterLayerBlock(BlockProps.LIMESTONE.get()));
+            () -> new QuarterLayerBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_DARK_LIMESTONE_QUARTER_VERTICAL = registerBlock("smooth_dark_limestone_quarter_vertical",
-            () -> new VerticalQuarterLayerBlock(BlockProps.LIMESTONE.get()));
+            () -> new VerticalQuarterLayerBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIGHT_LIMESTONE_QUARTER_VERTICAL = registerBlock("smooth_light_limestone_quarter_vertical",
-            () -> new VerticalQuarterLayerBlock(BlockProps.LIMESTONE.get()));
+            () -> new VerticalQuarterLayerBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIMESTONE_QUARTER_VERTICAL = registerBlock("smooth_limestone_quarter_vertical",
-            () -> new VerticalQuarterLayerBlock(BlockProps.LIMESTONE.get()));
+            () -> new VerticalQuarterLayerBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_PINK_LIMESTONE_QUARTER_VERTICAL = registerBlock("smooth_pink_limestone_quarter_vertical",
-            () -> new VerticalQuarterLayerBlock(BlockProps.LIMESTONE.get()));
+            () -> new VerticalQuarterLayerBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_TAN_LIMESTONE_QUARTER_VERTICAL = registerBlock("smooth_tan_limestone_quarter_vertical",
-            () -> new VerticalQuarterLayerBlock(BlockProps.LIMESTONE.get()));
+            () -> new VerticalQuarterLayerBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_DARK_LIMESTONE_SLAB = registerBlock("smooth_dark_limestone_slab",
-            () -> new SlabLayerBlock(BlockProps.LIMESTONE.get()));
+            () -> new SlabLayerBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIGHT_LIMESTONE_SLAB = registerBlock("smooth_light_limestone_slab",
-            () -> new SlabLayerBlock(BlockProps.LIMESTONE.get()));
+            () -> new SlabLayerBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIMESTONE_SLAB = registerBlock("smooth_limestone_slab",
-            () -> new SlabLayerBlock(BlockProps.LIMESTONE.get()));
+            () -> new SlabLayerBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_PINK_LIMESTONE_SLAB = registerBlock("smooth_pink_limestone_slab",
-            () -> new SlabLayerBlock(BlockProps.LIMESTONE.get()));
+            () -> new SlabLayerBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_TAN_LIMESTONE_SLAB = registerBlock("smooth_tan_limestone_slab",
-            () -> new SlabLayerBlock(BlockProps.LIMESTONE.get()));
+            () -> new SlabLayerBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_DARK_LIMESTONE_SLAB_VERTICAL = registerBlock("smooth_dark_limestone_slab_vertical",
-            () -> new VerticalSlabLayerBlock(BlockProps.LIMESTONE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIGHT_LIMESTONE_SLAB_VERTICAL = registerBlock("smooth_light_limestone_slab_vertical",
-            () -> new VerticalSlabLayerBlock(BlockProps.LIMESTONE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIMESTONE_SLAB_VERTICAL = registerBlock("smooth_limestone_slab_vertical",
-            () -> new VerticalSlabLayerBlock(BlockProps.LIMESTONE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_PINK_LIMESTONE_SLAB_VERTICAL = registerBlock("smooth_pink_limestone_slab_vertical",
-            () -> new VerticalSlabLayerBlock(BlockProps.LIMESTONE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_TAN_LIMESTONE_SLAB_VERTICAL = registerBlock("smooth_tan_limestone_slab_vertical",
-            () -> new VerticalSlabLayerBlock(BlockProps.LIMESTONE.get()));
+            () -> new VerticalSlabLayerBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_DARK_LIMESTONE_STAIRS = registerBlock("smooth_dark_limestone_stairs",
-            () -> new StairBlock(() -> ModBlocks.SMOOTH_DARK_LIMESTONE.get().defaultBlockState(), BlockProps.LIMESTONE.get()));
+            () -> new StairBlock(() -> ModBlocks.SMOOTH_DARK_LIMESTONE.get().defaultBlockState(), BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIGHT_LIMESTONE_STAIRS = registerBlock("smooth_light_limestone_stairs",
-            () -> new StairBlock(() -> ModBlocks.SMOOTH_LIGHT_LIMESTONE.get().defaultBlockState(), BlockProps.LIMESTONE.get()));
+            () -> new StairBlock(() -> ModBlocks.SMOOTH_LIGHT_LIMESTONE.get().defaultBlockState(), BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIMESTONE_STAIRS = registerBlock("smooth_limestone_stairs",
-            () -> new StairBlock(() -> Blocks.SMOOTH_STONE.defaultBlockState(), BlockProps.LIMESTONE.get()));
+            () -> new StairBlock(() -> Blocks.SMOOTH_STONE.defaultBlockState(), BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_PINK_LIMESTONE_STAIRS = registerBlock("smooth_pink_limestone_stairs",
-            () -> new StairBlock(() -> ModBlocks.SMOOTH_PINK_LIMESTONE.get().defaultBlockState(), BlockProps.LIMESTONE.get()));
+            () -> new StairBlock(() -> ModBlocks.SMOOTH_PINK_LIMESTONE.get().defaultBlockState(), BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_TAN_LIMESTONE_STAIRS = registerBlock("smooth_tan_limestone_stairs",
-            () -> new StairBlock(() -> ModBlocks.SMOOTH_TAN_LIMESTONE.get().defaultBlockState(), BlockProps.LIMESTONE.get()));
+            () -> new StairBlock(() -> ModBlocks.SMOOTH_TAN_LIMESTONE.get().defaultBlockState(), BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_DARK_LIMESTONE_WALL = registerBlock("smooth_dark_limestone_wall",
-            () -> new WallBlock(BlockProps.LIMESTONE.get()));
+            () -> new WallBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIGHT_LIMESTONE_WALL = registerBlock("smooth_light_limestone_wall",
-            () -> new WallBlock(BlockProps.LIMESTONE.get()));
+            () -> new WallBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIMESTONE_WALL = registerBlock("smooth_limestone_wall",
-            () -> new WallBlock(BlockProps.LIMESTONE.get()));
+            () -> new WallBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_PINK_LIMESTONE_WALL = registerBlock("smooth_pink_limestone_wall",
-            () -> new WallBlock(BlockProps.LIMESTONE.get()));
+            () -> new WallBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_TAN_LIMESTONE_WALL = registerBlock("smooth_tan_limestone_wall",
-            () -> new WallBlock(BlockProps.LIMESTONE.get()));
+            () -> new WallBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_DARK_LIMESTONE_WINDOW = registerBlock("smooth_dark_limestone_window",
-            () -> new WindowBlock(BlockProps.LIMESTONE.get()));
+            () -> new WindowBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIGHT_LIMESTONE_WINDOW = registerBlock("smooth_light_limestone_window",
-            () -> new WindowBlock(BlockProps.LIMESTONE.get()));
+            () -> new WindowBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIMESTONE_WINDOW = registerBlock("smooth_limestone_window",
-            () -> new WindowBlock(BlockProps.LIMESTONE.get()));
+            () -> new WindowBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_PINK_LIMESTONE_WINDOW = registerBlock("smooth_pink_limestone_window",
-            () -> new WindowBlock(BlockProps.LIMESTONE.get()));
+            () -> new WindowBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_TAN_LIMESTONE_WINDOW = registerBlock("smooth_tan_limestone_window",
-            () -> new WindowBlock(BlockProps.LIMESTONE.get()));
+            () -> new WindowBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_DARK_LIMESTONE_WINDOW_HALF = registerBlock("smooth_dark_limestone_window_half",
-            () -> new HalfWindowBlock(BlockProps.LIMESTONE.get()));
+            () -> new HalfWindowBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIGHT_LIMESTONE_WINDOW_HALF = registerBlock("smooth_light_limestone_window_half",
-            () -> new HalfWindowBlock(BlockProps.LIMESTONE.get()));
+            () -> new HalfWindowBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_LIMESTONE_WINDOW_HALF = registerBlock("smooth_limestone_window_half",
-            () -> new HalfWindowBlock(BlockProps.LIMESTONE.get()));
+            () -> new HalfWindowBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_PINK_LIMESTONE_WINDOW_HALF = registerBlock("smooth_pink_limestone_window_half",
-            () -> new HalfWindowBlock(BlockProps.LIMESTONE.get()));
+            () -> new HalfWindowBlock(BlockProps.SMOOTH_LIMESTONE.get()));
     public static final RegistryObject<Block> SMOOTH_TAN_LIMESTONE_WINDOW_HALF = registerBlock("smooth_tan_limestone_window_half",
-            () -> new HalfWindowBlock(BlockProps.LIMESTONE.get()));
+            () -> new HalfWindowBlock(BlockProps.SMOOTH_LIMESTONE.get()));
 
 
     // -- MARBLE
@@ -2442,6 +2880,86 @@ public class ModBlocks {
             () -> new HalfWindowBlock(BlockProps.MARBLE.get()));
     public static final RegistryObject<Block> POLISHED_WHITE_MARBLE_WINDOW_HALF = registerBlock("polished_white_marble_window_half",
             () -> new HalfWindowBlock(BlockProps.MARBLE.get()));
+
+    /* Quartz */
+    public static final RegistryObject<Block> QUARTZ_ARCH = registerBlock("quartz_arch",
+            () -> new ArchBlock(BlockProps.QUARTZ.get()));
+    public static final RegistryObject<Block> QUARTZ_ARCH_HALF = registerBlock("quartz_arch_half",
+            () -> new HalfArchBlock(BlockProps.QUARTZ.get()));
+    public static final RegistryObject<Block> QUARTZ_ARCH_LARGE = registerBlock("quartz_arch_large",
+            () -> new LargeArchBlock(BlockProps.QUARTZ.get()));
+    public static final RegistryObject<Block> QUARTZ_ARCH_LARGE_HALF = registerBlock("quartz_arch_large_half",
+            () -> new LargeHalfArchBlock(BlockProps.QUARTZ.get()));
+    public static final RegistryObject<Block> QUARTZ_ARROWSLIT = registerBlock("quartz_arrowslit",
+            () -> new ArrowSlitBlock(BlockProps.QUARTZ.get()));
+    public static final RegistryObject<Block> QUARTZ_BALUSTRADE = registerBlock("quartz_balustrade",
+            () -> new BalustradeBlock(BlockProps.QUARTZ.get()));
+    public static final RegistryObject<Block> QUARTZ_CAPITAL = registerBlock("quartz_capital",
+            () -> new CapitalBlock(BlockProps.QUARTZ.get()));
+    public static final RegistryObject<Block> QUARTZ_CORNER = registerBlock("quartz_corner",
+            () -> new CornerLayerBlock(BlockProps.QUARTZ.get()));
+    public static final RegistryObject<Block> QUARTZ_CORNER_SLAB = registerBlock("quartz_corner_slab",
+            () -> new CornerSlabBlock(BlockProps.QUARTZ.get()));
+    public static final RegistryObject<Block> QUARTZ_CORNER_SLAB_VERTICAL = registerBlock("quartz_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(BlockProps.QUARTZ.get()));
+    public static final RegistryObject<Block> QUARTZ_EIGHTH = registerBlock("quartz_eighth",
+            () -> new EighthBlock(BlockProps.QUARTZ.get()));
+    public static final RegistryObject<Block> QUARTZ_PILLAR = registerBlock("quartz_pillar",
+            () -> new PillarLayerBlock(BlockProps.QUARTZ.get()));
+    public static final RegistryObject<Block> QUARTZ_QUARTER = registerBlock("quartz_quarter",
+            () -> new QuarterLayerBlock(BlockProps.QUARTZ.get()));
+    public static final RegistryObject<Block> QUARTZ_QUARTER_VERTICAL = registerBlock("quartz_quarter_vertical",
+            () -> new VerticalQuarterLayerBlock(BlockProps.QUARTZ.get()));
+    public static final RegistryObject<Block> QUARTZ_SLAB = registerBlock("quartz_slab",
+            () -> new SlabLayerBlock(BlockProps.QUARTZ.get()));
+    public static final RegistryObject<Block> QUARTZ_SLAB_VERTICAL = registerBlock("quartz_slab_vertical",
+            () -> new VerticalSlabLayerBlock(BlockProps.QUARTZ.get()));
+    public static final RegistryObject<Block> QUARTZ_WALL = registerBlock("quartz_wall",
+            () -> new WallBlock(BlockProps.QUARTZ.get()));
+    public static final RegistryObject<Block> QUARTZ_WINDOW = registerBlock("quartz_window",
+            () -> new WindowBlock(BlockProps.QUARTZ.get()));
+    public static final RegistryObject<Block> QUARTZ_WINDOW_HALF = registerBlock("quartz_window_half",
+            () -> new HalfWindowBlock(BlockProps.QUARTZ.get()));
+
+    /* Smooth Quartz */
+    public static final RegistryObject<Block> SMOOTH_QUARTZ_ARCH = registerBlock("smooth_quartz_arch",
+            () -> new ArchBlock(BlockProps.SMOOTH_QUARTZ.get()));
+    public static final RegistryObject<Block> SMOOTH_QUARTZ_ARCH_HALF = registerBlock("smooth_quartz_arch_half",
+            () -> new HalfArchBlock(BlockProps.SMOOTH_QUARTZ.get()));
+    public static final RegistryObject<Block> SMOOTH_QUARTZ_ARCH_LARGE = registerBlock("smooth_quartz_arch_large",
+            () -> new LargeArchBlock(BlockProps.SMOOTH_QUARTZ.get()));
+    public static final RegistryObject<Block> SMOOTH_QUARTZ_ARCH_LARGE_HALF = registerBlock("smooth_quartz_arch_large_half",
+            () -> new LargeHalfArchBlock(BlockProps.SMOOTH_QUARTZ.get()));
+    public static final RegistryObject<Block> SMOOTH_QUARTZ_ARROWSLIT = registerBlock("smooth_quartz_arrowslit",
+            () -> new ArrowSlitBlock(BlockProps.SMOOTH_QUARTZ.get()));
+    public static final RegistryObject<Block> SMOOTH_QUARTZ_BALUSTRADE = registerBlock("smooth_quartz_balustrade",
+            () -> new BalustradeBlock(BlockProps.SMOOTH_QUARTZ.get()));
+    public static final RegistryObject<Block> SMOOTH_QUARTZ_CAPITAL = registerBlock("smooth_quartz_capital",
+            () -> new CapitalBlock(BlockProps.SMOOTH_QUARTZ.get()));
+    public static final RegistryObject<Block> SMOOTH_QUARTZ_CORNER = registerBlock("smooth_quartz_corner",
+            () -> new CornerLayerBlock(BlockProps.SMOOTH_QUARTZ.get()));
+    public static final RegistryObject<Block> SMOOTH_QUARTZ_CORNER_SLAB = registerBlock("smooth_quartz_corner_slab",
+            () -> new CornerSlabBlock(BlockProps.SMOOTH_QUARTZ.get()));
+    public static final RegistryObject<Block> SMOOTH_QUARTZ_CORNER_SLAB_VERTICAL = registerBlock("smooth_quartz_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(BlockProps.SMOOTH_QUARTZ.get()));
+    public static final RegistryObject<Block> SMOOTH_QUARTZ_EIGHTH = registerBlock("smooth_quartz_eighth",
+            () -> new EighthBlock(BlockProps.SMOOTH_QUARTZ.get()));
+    public static final RegistryObject<Block> SMOOTH_QUARTZ_PILLAR = registerBlock("smooth_quartz_pillar",
+            () -> new PillarLayerBlock(BlockProps.SMOOTH_QUARTZ.get()));
+    public static final RegistryObject<Block> SMOOTH_QUARTZ_QUARTER = registerBlock("smooth_quartz_quarter",
+            () -> new QuarterLayerBlock(BlockProps.SMOOTH_QUARTZ.get()));
+    public static final RegistryObject<Block> SMOOTH_QUARTZ_QUARTER_VERTICAL = registerBlock("smooth_quartz_quarter_vertical",
+            () -> new VerticalQuarterLayerBlock(BlockProps.SMOOTH_QUARTZ.get()));
+    public static final RegistryObject<Block> SMOOTH_QUARTZ_SLAB = registerBlock("smooth_quartz_slab",
+            () -> new SlabLayerBlock(BlockProps.SMOOTH_QUARTZ.get()));
+    public static final RegistryObject<Block> SMOOTH_QUARTZ_SLAB_VERTICAL = registerBlock("smooth_quartz_slab_vertical",
+            () -> new VerticalSlabLayerBlock(BlockProps.SMOOTH_QUARTZ.get()));
+    public static final RegistryObject<Block> SMOOTH_QUARTZ_WALL = registerBlock("smooth_quartz_wall",
+            () -> new WallBlock(BlockProps.SMOOTH_QUARTZ.get()));
+    public static final RegistryObject<Block> SMOOTH_QUARTZ_WINDOW = registerBlock("smooth_quartz_window",
+            () -> new WindowBlock(BlockProps.SMOOTH_QUARTZ.get()));
+    public static final RegistryObject<Block> SMOOTH_QUARTZ_WINDOW_HALF = registerBlock("smooth_quartz_window_half",
+            () -> new HalfWindowBlock(BlockProps.SMOOTH_QUARTZ.get()));
 
 
     // -- SANDSTONE
@@ -2964,7 +3482,7 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
             () -> new FallingLayerBlock(BlockProps.SAND.get()));
 
     public static final RegistryObject<Block> CLAY_LAYER = registerBlock("clay_layer",
-            () -> new TerrainLayerBlock(BlockProps.DIRT.get()));
+            () -> new TerrainLayerBlock(BlockProps.CLAY.get()));
     public static final RegistryObject<Block> COARSE_DIRT_LAYER = registerBlock("coarse_dirt_layer",
             () -> new TerrainLayerBlock(BlockProps.DIRT.get()));
     public static final RegistryObject<Block> DIRT_LAYER = registerBlock("dirt_layer",
@@ -2976,9 +3494,9 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
     public static final RegistryObject<Block> GRAVEL_LAYER = registerBlock("gravel_layer",
             () -> new FallingLayerBlock(BlockProps.GRAVEL.get()));
     public static final RegistryObject<Block> MYCELIUM_LAYER = registerBlock("mycelium_layer",
-            () -> new MyceliumLayerBlock(BlockProps.DIRT.get()));
+            () -> new MyceliumLayerBlock(BlockProps.MYCELIUM.get()));
     public static final RegistryObject<Block> PODZOL_LAYER = registerBlock("podzol_layer",
-            () -> new TerrainLayerBlock(BlockProps.DIRT.get()));
+            () -> new TerrainLayerBlock(BlockProps.PODZOL.get()));
     public static final RegistryObject<Block> ROOTED_DIRT_LAYER = registerBlock("rooted_dirt_layer",
             () -> new TerrainLayerBlock(BlockProps.DIRT.get()));
     public static final RegistryObject<Block> SOUL_SOIL_LAYER = registerBlock("soul_soil_layer",

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "caliber:block/polished_diorite_capital"
+    },
+    "type=top": {
+      "model": "caliber:block/polished_diorite_capital_top"
+    }
+  }
+}

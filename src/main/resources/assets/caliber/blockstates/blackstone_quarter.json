@@ -1,0 +1,154 @@
+{
+  "variants": {
+    "facing=north,type=bottom,layers=1": {
+      "model": "caliber:block/blackstone_quarter_layer_1"
+    },
+    "facing=north,type=bottom,layers=2": {
+      "model": "caliber:block/blackstone_quarter_layer_2"
+    },
+    "facing=north,type=bottom,layers=3": {
+      "model": "caliber:block/blackstone_quarter_layer_3"
+    },
+    "facing=north,type=bottom,layers=4": {
+      "model": "caliber:block/blackstone_quarter_layer_4"
+    },
+    "facing=north,type=bottom,layers=5": {
+      "model": "minecraft:block/blackstone"
+    },
+    "facing=north,type=top,layers=1": {
+      "model": "caliber:block/blackstone_quarter_top_layer_1"
+    },
+    "facing=north,type=top,layers=2": {
+      "model": "caliber:block/blackstone_quarter_top_layer_2"
+    },
+    "facing=north,type=top,layers=3": {
+      "model": "caliber:block/blackstone_quarter_top_layer_3"
+    },
+    "facing=north,type=top,layers=4": {
+      "model": "caliber:block/blackstone_quarter_top_layer_4"
+    },
+    "facing=north,type=top,layers=5": {
+      "model": "minecraft:block/blackstone"
+    },
+    "facing=east,type=bottom,layers=1": {
+      "model": "caliber:block/blackstone_quarter_layer_1",
+      "y": 90
+    },
+    "facing=east,type=bottom,layers=2": {
+      "model": "caliber:block/blackstone_quarter_layer_2",
+      "y": 90
+    },
+    "facing=east,type=bottom,layers=3": {
+      "model": "caliber:block/blackstone_quarter_layer_3",
+      "y": 90
+    },
+    "facing=east,type=bottom,layers=4": {
+      "model": "caliber:block/blackstone_quarter_layer_4",
+      "y": 90
+    },
+    "facing=east,type=bottom,layers=5": {
+      "model": "minecraft:block/blackstone",
+      "y": 90
+    },
+    "facing=east,type=top,layers=1": {
+      "model": "caliber:block/blackstone_quarter_top_layer_1",
+      "y": 90
+    },
+    "facing=east,type=top,layers=2": {
+      "model": "caliber:block/blackstone_quarter_top_layer_2",
+      "y": 90
+    },
+    "facing=east,type=top,layers=3": {
+      "model": "caliber:block/blackstone_quarter_top_layer_3",
+      "y": 90
+    },
+    "facing=east,type=top,layers=4": {
+      "model": "caliber:block/blackstone_quarter_top_layer_4",
+      "y": 90
+    },
+    "facing=east,type=top,layers=5": {
+      "model": "minecraft:block/blackstone",
+      "y": 90
+    },
+    "facing=south,type=bottom,layers=1": {
+      "model": "caliber:block/blackstone_quarter_layer_1",
+      "y": 180
+    },
+    "facing=south,type=bottom,layers=2": {
+      "model": "caliber:block/blackstone_quarter_layer_2",
+      "y": 180
+    },
+    "facing=south,type=bottom,layers=3": {
+      "model": "caliber:block/blackstone_quarter_layer_3",
+      "y": 180
+    },
+    "facing=south,type=bottom,layers=4": {
+      "model": "caliber:block/blackstone_quarter_layer_4",
+      "y": 180
+    },
+    "facing=south,type=bottom,layers=5": {
+      "model": "minecraft:block/blackstone",
+      "y": 180
+    },
+    "facing=south,type=top,layers=1": {
+      "model": "caliber:block/blackstone_quarter_top_layer_1",
+      "y": 180
+    },
+    "facing=south,type=top,layers=2": {
+      "model": "caliber:block/blackstone_quarter_top_layer_2",
+      "y": 180
+    },
+    "facing=south,type=top,layers=3": {
+      "model": "caliber:block/blackstone_quarter_top_layer_3",
+      "y": 180
+    },
+    "facing=south,type=top,layers=4": {
+      "model": "caliber:block/blackstone_quarter_top_layer_4",
+      "y": 180
+    },
+    "facing=south,type=top,layers=5": {
+      "model": "minecraft:block/blackstone",
+      "y": 180
+    },
+    "facing=west,type=bottom,layers=1": {
+      "model": "caliber:block/blackstone_quarter_layer_1",
+      "y": 270
+    },
+    "facing=west,type=bottom,layers=2": {
+      "model": "caliber:block/blackstone_quarter_layer_2",
+      "y": 270
+    },
+    "facing=west,type=bottom,layers=3": {
+      "model": "caliber:block/blackstone_quarter_layer_3",
+      "y": 270
+    },
+    "facing=west,type=bottom,layers=4": {
+      "model": "caliber:block/blackstone_quarter_layer_4",
+      "y": 270
+    },
+    "facing=west,type=bottom,layers=5": {
+      "model": "minecraft:block/blackstone",
+      "y": 270
+    },
+    "facing=west,type=top,layers=1": {
+      "model": "caliber:block/blackstone_quarter_top_layer_1",
+      "y": 270
+    },
+    "facing=west,type=top,layers=2": {
+      "model": "caliber:block/blackstone_quarter_top_layer_2",
+      "y": 270
+    },
+    "facing=west,type=top,layers=3": {
+      "model": "caliber:block/blackstone_quarter_top_layer_3",
+      "y": 270
+    },
+    "facing=west,type=top,layers=4": {
+      "model": "caliber:block/blackstone_quarter_top_layer_4",
+      "y": 270
+    },
+    "facing=west,type=top,layers=5": {
+      "model": "minecraft:block/blackstone",
+      "y": 270
+    }
+  }
+}
