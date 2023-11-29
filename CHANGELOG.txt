@@ -145,7 +145,7 @@
 - Bugfix: fixed crash when using Hammer Item on layered blocks
 - Bugfix: fixed "out of nails" message when using Hammer in Creative Mode.
 
-0.0.22 (in progress)
+0.0.22
 - Added a total of 341 new blocks!
 - Current Mod Block Count is at 2,972
 - Added all variants of Andesite and Polished Andesite
@@ -154,3 +154,12 @@
 - Added all variants of Diorite and Polished Diorite
 - Added all variants of Quartz and Smooth Quartz
 - Added all variants of Smooth Dark Limestone, Smooth Light Limestone, Smooth Limestone, Smooth Pink Limesotne & Smooth Tan Limestone
+
+- 0.0.23
+- Updated Blackstone textures
+- Added Bronze Block and Bronze Ingots
+- Bugfix: fixed crash when placing blocks too close to the player in quick succession.
+- Bugfix: fixed QuarterLayerBlock hitboxes and textures
+- Bugfix: fixed Polished Blackstone Bricks and Polished Blackstone QuarterLayerBlock models (top models were placing on bottom)
+
+-0.0.24 (in progress)
