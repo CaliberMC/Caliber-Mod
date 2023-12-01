@@ -156,6 +156,7 @@
 - Added all variants of Smooth Dark Limestone, Smooth Light Limestone, Smooth Limestone, Smooth Pink Limesotne & Smooth Tan Limestone
 
 - 0.0.23
+- Updated Block Picker GUI textures
 - Updated Blackstone textures
 - Added Bronze Block and Bronze Ingots
 - Bugfix: fixed crash when placing blocks too close to the player in quick succession.
