@@ -35,59 +35,61 @@ public class QuarterLayerBlock extends Block implements SimpleWaterloggedBlock {
     public final int layerCount = 5;
 
     public static final VoxelShape[] NORTH_BOTTOM = new VoxelShape[]{Shapes.empty(),
-            Block.box(0, 0, 0, 16, 2, 2),
-            Block.box(0, 0, 0, 16, 4, 4),
-            Block.box(0, 0, 0, 16, 8, 8),
-            Block.box(0, 0, 0, 16, 12, 12),
-            Block.box(0, 0, 0, 16, 16, 16)};
-    public static final VoxelShape[] EAST_BOTTOM = new VoxelShape[]{Shapes.empty(),
-            Block.box(14, 0, 0, 16, 2, 16),
-            Block.box(12, 0, 0, 16, 4, 16),
-            Block.box(8, 0, 0, 16, 8, 16),
-            Block.box(4, 0, 0, 16, 12, 16),
-            Block.box(0, 0, 0, 16, 16, 16)};
-    public static final VoxelShape[] SOUTH_BOTTOM = new VoxelShape[]{Shapes.empty(),
             Block.box(0, 0, 14, 16, 2, 16),
             Block.box(0, 0, 12, 16, 4, 16),
             Block.box(0, 0, 8, 16, 8, 16),
             Block.box(0, 0, 4, 16, 12, 16),
             Block.box(0, 0, 0, 16, 16, 16)};
-    public static final VoxelShape[] WEST_BOTTOM = new VoxelShape[]{Shapes.empty(),
+    public static final VoxelShape[] EAST_BOTTOM = new VoxelShape[]{Shapes.empty(),
             Block.box(0, 0, 0, 2, 2, 16),
             Block.box(0, 0, 0, 4, 4, 16),
             Block.box(0, 0, 0, 8, 8, 16),
             Block.box(0, 0, 0, 12, 12, 16),
             Block.box(0, 0, 0, 16, 16, 16)};
+    public static final VoxelShape[] SOUTH_BOTTOM = new VoxelShape[]{Shapes.empty(),
+            Block.box(0, 0, 0, 16, 2, 2),
+            Block.box(0, 0, 0, 16, 4, 4),
+            Block.box(0, 0, 0, 16, 8, 8),
+            Block.box(0, 0, 0, 16, 12, 12),
+            Block.box(0, 0, 0, 16, 16, 16)};
+    public static final VoxelShape[] WEST_BOTTOM = new VoxelShape[]{Shapes.empty(),
+            Block.box(14, 0, 0, 16, 2, 16),
+            Block.box(12, 0, 0, 16, 4, 16),
+            Block.box(8, 0, 0, 16, 8, 16),
+            Block.box(4, 0, 0, 16, 12, 16),
+            Block.box(0, 0, 0, 16, 16, 16)};
+
 
     public static final VoxelShape[] NORTH_TOP = new VoxelShape[]{Shapes.empty(),
-            Block.box(0, 14, 14, 16, 16, 16),
-            Block.box(0, 12, 0, 16, 16, 4),
-            Block.box(0, 8, 0, 16, 16, 8),
-            Block.box(0, 4, 0, 16, 16, 12),
-            Block.box(0, 0, 0, 16, 16, 16)};
-    public static final VoxelShape[] EAST_TOP = new VoxelShape[]{Shapes.empty(),
-            Block.box(14, 14, 0, 16, 16, 16),
-            Block.box(12, 12, 0, 16, 16, 16),
-            Block.box(8, 8, 0, 16, 16, 16),
-            Block.box(4, 4, 0, 16, 16, 16),
-            Block.box(0, 0, 0, 16, 16, 16)};
-    public static final VoxelShape[] SOUTH_TOP = new VoxelShape[]{Shapes.empty(),
             Block.box(0, 14, 14, 16, 16, 16),
             Block.box(0, 12, 12, 16, 16, 16),
             Block.box(0, 8, 8, 16, 16, 16),
             Block.box(0, 4, 4, 16, 16, 16),
             Block.box(0, 0, 0, 16, 16, 16)};
-    public static final VoxelShape[] WEST_TOP = new VoxelShape[]{Shapes.empty(),
+    public static final VoxelShape[] EAST_TOP = new VoxelShape[]{Shapes.empty(),
             Block.box(0, 14, 0, 2, 16, 16),
             Block.box(0, 12, 0, 4, 16, 16),
             Block.box(0, 8, 0, 8, 16, 16),
             Block.box(0, 4, 0, 12, 16, 16),
             Block.box(0, 0, 0, 16, 16, 16)};
+    public static final VoxelShape[] SOUTH_TOP = new VoxelShape[]{Shapes.empty(),
+            Block.box(0, 14, 14, 16, 16, 16),
+            Block.box(0, 12, 0, 16, 16, 4),
+            Block.box(0, 8, 0, 16, 16, 8),
+            Block.box(0, 4, 0, 16, 16, 12),
+            Block.box(0, 0, 0, 16, 16, 16)};
+    public static final VoxelShape[] WEST_TOP = new VoxelShape[]{Shapes.empty(),
+            Block.box(14, 14, 0, 16, 16, 16),
+            Block.box(12, 12, 0, 16, 16, 16),
+            Block.box(8, 8, 0, 16, 16, 16),
+            Block.box(4, 4, 0, 16, 16, 16),
+            Block.box(0, 0, 0, 16, 16, 16)};
+
 
     public QuarterLayerBlock(Properties properties) {
         super(properties);
         this.registerDefaultState(this.stateDefinition.any() // ? this.defaultBlockState()
-                .setValue(LAYERS, 2)
+                .setValue(LAYERS, 3)
                 .setValue(FACING, Direction.NORTH)
                 .setValue(TYPE, QuarterLayerShape.BOTTOM)
                 .setValue(WATERLOGGED, Boolean.FALSE));
@@ -136,10 +138,10 @@ public class QuarterLayerBlock extends Block implements SimpleWaterloggedBlock {
             return blockstate.setValue(LAYERS, Integer.valueOf(newCount)).
                     setValue(WATERLOGGED, Boolean.valueOf((newCount < layerCount) && fluidstate.is(FluidTags.WATER)));
         } else {
-            BlockState blockstate1 = this.defaultBlockState().setValue(FACING, pContext.getHorizontalDirection())
+            BlockState blockstate1 = this.defaultBlockState().setValue(FACING, pContext.getHorizontalDirection().getOpposite())
                     .setValue(LAYERS, 1).setValue(TYPE, QuarterLayerShape.BOTTOM).setValue(WATERLOGGED, fluidstate.getType() == Fluids.WATER);
             return clickedFace != Direction.DOWN && (clickedFace == Direction.UP || !(pContext.getClickLocation().y - (double)blockpos.getY() > 0.5D)) ?
-                    blockstate1 : blockstate1.setValue(FACING, pContext.getHorizontalDirection()).setValue(TYPE, QuarterLayerShape.TOP);
+                    blockstate1 : blockstate1.setValue(FACING, pContext.getHorizontalDirection().getOpposite()).setValue(TYPE, QuarterLayerShape.TOP);
         }
     }
 
