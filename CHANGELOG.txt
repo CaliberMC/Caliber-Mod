@@ -164,5 +164,14 @@
 - Bugfix: fixed Polished Blackstone Bricks and Polished Blackstone QuarterLayerBlock models (top models were placing on bottom)
 
 -0.0.24 (in progress)
-
+- Added a total of 341 new blocks!
+- Current Mod Block Count is at 2,972
+- Added Woodcutter (for cutting wood blocks into various new shapes)
+- Added Kiln (for alloying metals)
+- Updated COPY BLOCK keybind to CTRL + Middle Mouse Button
+- Added 12 new wood beam variant shapes.
+- Added all vanilla wood variants of new beam shapes.
+- Added all current Woodcutting recipes
+- Added all current Kiln recipes
+Bugfix: adjusted inventory logic for Slab Buildmode.  When placing slab thickness blocks the correct inventory amounts will be consumed.
 Bugfix: fixed double eighth blocks not placing correctly

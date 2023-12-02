@@ -134,7 +134,7 @@ public class BlockPickerScreen extends Screen implements MenuAccess<BlockPickerM
                 double distance = x1 * x1 + y1 * y1;
                 float twoRad = RADIUS * RADIUS;
                 double f = (twoRad - distance) / twoRad;
-                float zoomingVal = 0.5F; //default 1
+                float zoomingVal = 1;
                 if (f > 0) {
                     scale += Math.max((f * f) * zoomingVal, 0);
                 }

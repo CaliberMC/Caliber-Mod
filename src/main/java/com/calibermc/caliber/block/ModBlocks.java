@@ -3,12 +3,17 @@ package com.calibermc.caliber.block;
 import com.calibermc.caliber.Caliber;
 import com.calibermc.caliber.block.custom.*;
 import com.calibermc.caliber.block.custom.DirectionalBlock;
+import com.calibermc.caliber.block.custom.KilnBlock;
+import com.calibermc.caliber.block.custom.WoodcutterBlock;
 import com.calibermc.caliber.block.properties.BlockProps;
 import com.calibermc.caliber.item.CreativeTabs;
 import com.calibermc.caliber.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockStateProperties;
+import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -19,6 +24,13 @@ import java.util.function.Supplier;
 public class ModBlocks {
     private static int blockCount = 0;
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Caliber.MOD_ID);
+
+    public static final RegistryObject<Block> WOODCUTTER = registerBlock("woodcutter",
+            () -> new WoodcutterBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion().requiresCorrectToolForDrops().strength(3.5F)));
+
+    public static final RegistryObject<Block> KILN = registerBlock("kiln",
+            () -> new KilnBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops()
+                    .strength(3.5F).lightLevel((bs) -> bs.getValue(BlockStateProperties.LIT) ? 13 : 0)));
     
     // METAL BLOCKS
     public static final RegistryObject<Block> TIN_BLOCK = registerBlock("tin_block",

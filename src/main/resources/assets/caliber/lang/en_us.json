@@ -3,6 +3,7 @@
     "caliber.key.block_picker_screen": "Block Picker",
     "caliber.key.copy_block": "Copy BlockState",
     "caliber.key.adjust_reach": "Adjust Reach Distance",
+    "caliber.key.allow_additional": "Layer/Slab Modifier",
     "screen.caliber.block_picker": "Block Picker",
 
     "message.caliber.no_nails": "You're out of nails",
@@ -42,6 +43,12 @@
     "item.caliber.raw_tin": "Raw Tin",
     "item.caliber.hammer": "Hammer",
     "item.caliber.nails": "Nails",
+
+    "container.caliber.kiln": "Kiln",
+    "block.caliber.kiln": "Kiln",
+
+    "container.caliber.woodcutter": "Woodcutter",
+    "block.caliber.woodcutter": "Woodcutter",
 
     "block.caliber.bronze_block": "Bronze Block",
     "item.caliber.bronze_ingot": "Bronze Ingot",

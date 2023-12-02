@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "caliber:block/kiln_top",
+    "front": "caliber:block/kiln_front_on",
+    "side": "caliber:block/kiln_side"
+  }
+}

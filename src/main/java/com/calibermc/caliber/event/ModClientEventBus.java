@@ -2,8 +2,11 @@ package com.calibermc.caliber.event;
 
 
 import com.calibermc.caliber.Caliber;
+import com.calibermc.caliber.block.ModBlocks;
 import com.calibermc.caliber.client.AdjustReachOverlay;
 import com.calibermc.caliber.client.BlockPickerScreen;
+import com.calibermc.caliber.client.inventory.KilnScreen;
+import com.calibermc.caliber.client.inventory.WoodcutterScreen;
 import com.calibermc.caliber.networking.ModNetworking;
 import com.calibermc.caliber.networking.ServerOpenBlockPickerMenu;
 import com.calibermc.caliber.networking.ServerPressAdditionalKey;
@@ -12,6 +15,8 @@ import com.calibermc.caliber.world.inventory.ModMenuTypes;
 import net.minecraft.client.KeyMapping;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.screens.MenuScreens;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.core.BlockPos;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.world.InteractionHand;
@@ -60,14 +65,18 @@ public class ModClientEventBus {
 
     @SubscribeEvent
     public static void clientSetup(final FMLClientSetupEvent event) {
-        // register key V
         ClientRegistry.registerKeyBinding(BLOCK_PICKER);
         ClientRegistry.registerKeyBinding(ADJUST_REACH);
         ClientRegistry.registerKeyBinding(COPY_BLOCK);
         ClientRegistry.registerKeyBinding(ALLOW_ADDITIONAL);
         MenuScreens.register(ModMenuTypes.BLOCK_TYPE.get(), BlockPickerScreen::new);
+        MenuScreens.register(ModMenuTypes.WOODCUTTER.get(), WoodcutterScreen::new);
+        MenuScreens.register(ModMenuTypes.KILN.get(), KilnScreen::new);
 
         OverlayRegistry.registerOverlayAbove(ForgeIngameGui.HELMET_ELEMENT, "%s Adjust Distance".formatted(MOD_ID), new AdjustReachOverlay());
+
+        // Block Render Types
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.WOODCUTTER.get(), RenderType.cutout());
     }
 
     @SubscribeEvent
@@ -77,6 +86,21 @@ public class ModClientEventBus {
 
     @Mod.EventBusSubscriber(modid = MOD_ID, value = Dist.CLIENT)
     public static class Client {
+
+        /**
+         * LEFT_CONTROL + MIDDLE CLICK instead of or in addition to the keybind.
+         */
+        @SubscribeEvent
+        public static void mouseInput(final InputEvent.RawMouseEvent event) {
+            Minecraft mc = Minecraft.getInstance();
+            if (mc.player == null || mc.screen != null) return;
+            if (event.getButton() == GLFW.GLFW_MOUSE_BUTTON_MIDDLE && event.getModifiers() == GLFW.GLFW_MOD_CONTROL) {
+                if (mc.hitResult != null && mc.hitResult.getType() == HitResult.Type.BLOCK && mc.player.isCreative()) {
+                    onPickBlock(mc.hitResult, mc.player, mc.level);
+                    event.setCanceled(true);
+                }
+            }
+        }
 
         @SubscribeEvent
         public static void keyInput(final InputEvent.KeyInputEvent event) {
