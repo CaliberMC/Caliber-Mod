@@ -19,6 +19,8 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionHand;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.block.Block;
@@ -50,7 +52,9 @@ public class ModEventBus {
                 if (slab && state.getValue(BlockStateProperties.LAYERS) == 4) {
                     int slabVal = 5;
                     if (state.getBlock() instanceof SlabLayerBlock || state.getBlock() instanceof VerticalSlabLayerBlock) {
+                        ItemStack stack = event.getPlayer().getItemInHand(event.getHand());
                         slabVal = 8;
+                        stack.shrink(4);
                     }
                     state = state.setValue(BlockStateProperties.LAYERS, slabVal);
                     event.getWorld().setBlock(event.getPos(), state, 18);
@@ -61,6 +65,7 @@ public class ModEventBus {
             }
         }
     }
+
 
     public static void hammerInteraction(CompoundTag tag, ServerPlayer pPlayer, BlockState pStateClicked, LevelAccessor pAccessor, BlockPos pPos, boolean pShouldCycleState) {
         Block block = pStateClicked.getBlock();
