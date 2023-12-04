@@ -163,12 +163,13 @@
 - Bugfix: fixed QuarterLayerBlock hitboxes and textures
 - Bugfix: fixed Polished Blackstone Bricks and Polished Blackstone QuarterLayerBlock models (top models were placing on bottom)
 
--0.0.24 (in progress)
+- 0.0.24
 - Added a total of 261 new blocks!
 - Current Mod Block Count is at 3,233
 - Added Woodcutter (for cutting wood blocks into various new shapes)
 - Added Kiln (for alloying metals)
-- Updated add extra COPY BLOCK keybind (CTRL + Middle Mouse Button)
+- Added recipes for Woodcutter and Kiln
+- Updated COPY BLOCK keybind to also include (CTRL + Middle Mouse Button), you can continue to use the old keybind if you wish.
 - Added DoorFrameBlock and 3 new variant states
 - Added DoorFrameLintelBlock and 4 new variant states
 - Added BeamPostsBlock and 3 new variant states
@@ -178,6 +179,15 @@
 - Added Stripped Acacia, Stripped Birch, Stripped Dark Oak, Stripped Jungle, Stripped Oak and Stripped Spruce beams, door frames, posts and lintels
 - Added all variants of Stained Acacia, Stained Birch, Stained Dark Oak, Stained Jungle, Stained Oak, Stained Spruce
 - Added all current Woodcutting recipes
+- Added missing shaped recipes
+- Added new tags and updated existing tags
+- Updated stonecutter texture
+- Updated Acacia, Birch, Jungle and Oak textures to better match the mod theme
+- Bugfix: adjusted inventory logic for Slab Buildmode.  When placing slab thickness blocks the correct inventory amounts will be consumed.
+- Bugfix: fixed double eighth blocks not placing correctly
+
+- 0.0.25 (in progress)
+- Added a total of # new blocks!
+- Current Mod Block Count is at #
+- Added all variants of Stained Acacia Planks, Stained Birch Planks, Stained Dark Oak Planks, Stained Jungle Planks, Stained Oak Planks and Stained Spruce Planks
 - Added all current Kiln recipes
-Bugfix: adjusted inventory logic for Slab Buildmode.  When placing slab thickness blocks the correct inventory amounts will be consumed.
-Bugfix: fixed double eighth blocks not placing correctly

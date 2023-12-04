@@ -34,10 +34,10 @@ public class MiscRecipeProvider extends RecipeProvider implements IConditionBuil
 
         /* CRAFTING */
         /* Crafting Tables */
-//        ShapedRecipeBuilder.shaped(ModBlocks.WOODCUTTER.get(), 1).define('I', Items.IRON_INGOT).define('W', (ItemLike) tags.getTag(ModTags.Blocks.planks)).pattern(" I ").pattern("PPP").unlockedBy("has_iron_ingot",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Items.IRON_INGOT).build())).save(pFinishedRecipeConsumer, "woodcutter_from_shaped_iron_ingot_planks");
-//        ShapedRecipeBuilder.shaped(ModBlocks.KILN.get(), 1).define('I', Items.IRON_INGOT).define('X', Blocks.BLAST_FURNACE).define('#', smoothStoneIngredient).pattern("III").pattern("IXI").pattern("###").unlockedBy("has_blast_furnace",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.BLAST_FURNACE).build())).save(pFinishedRecipeConsumer, "kiln_from_shaped_iron_ingots_blast_furnace_smooth_stone_variant");
+        ShapedRecipeBuilder.shaped(ModBlocks.WOODCUTTER.get(), 1).define('I', Items.IRON_INGOT).define('S', Blocks.STONE).pattern(" I ").pattern("SSS").unlockedBy("has_iron_ingot",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Items.IRON_INGOT).build())).save(pFinishedRecipeConsumer, "woodcutter_from_shaped_iron_ingot_stone");
+        ShapedRecipeBuilder.shaped(ModBlocks.KILN.get(), 1).define('I', Items.IRON_INGOT).define('X', Blocks.BLAST_FURNACE).define('#', Blocks.SMOOTH_STONE).pattern("III").pattern("IXI").pattern("###").unlockedBy("has_blast_furnace",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.BLAST_FURNACE).build())).save(pFinishedRecipeConsumer, "kiln_from_shaped_iron_ingots_blast_furnace_smooth_stone_variant");
 
         /* PLASTER */
         /* Plaster Powder */
