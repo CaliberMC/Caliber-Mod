@@ -50,7 +50,7 @@ public class ModRecipeBuilder implements RecipeBuilder {
     }
     // ---------------------------------------------------------
 
-    public static ModRecipeBuilder alloying(Ingredient pIngredient, Ingredient pSecondIngredient, ItemLike pResult, float pExperience, int pCookingTime, SimpleCookingSerializer<?> pSerializer) {
+    public static ModRecipeBuilder alloying(Ingredient pIngredient, Ingredient pSecondIngredient, ItemLike pResult, float pExperience, int pCookingTime) {
         return new ModRecipeBuilder(pResult, pIngredient, pSecondIngredient, pExperience, pCookingTime);
     }
 

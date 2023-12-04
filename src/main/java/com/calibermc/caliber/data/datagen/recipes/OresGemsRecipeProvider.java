@@ -29,8 +29,8 @@ public class OresGemsRecipeProvider extends RecipeProvider implements ICondition
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.TIN_INGOT.get()).build())).save(pFinishedRecipeConsumer, "bronze_block_from_shaped_ingots");
         ShapedRecipeBuilder.shaped(ModItems.BRONZE_INGOT.get(), 9).define('C', Items.COPPER_INGOT).define('T', ModItems.TIN_INGOT.get()).pattern("CTC").pattern("CTC").pattern("CTC").unlockedBy("has_copper_ingot",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.TIN_INGOT.get()).build())).save(pFinishedRecipeConsumer, "bronze_ingot_from_shaped_copper_ingots_tin_ingots");
-//        ModRecipeBuilder.alloying(Ingredient.of(Items.COPPER_INGOT), Ingredient.of(ModItems.TIN_INGOT.get()), ModItems.BRONZE_INGOT.get(), 0.35F, 200, (SimpleCookingSerializer<?>) ModRecipeSerializers.ALLOYING_TYPE).unlockedBy("has_tin_ingot",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.TIN_INGOT.get()).build())).save(pFinishedRecipeConsumer, "bronze_ingot_from_smelting_ingots");
+       ModRecipeBuilder.alloying(Ingredient.of(Items.COPPER_INGOT), Ingredient.of(ModItems.TIN_INGOT.get()), ModItems.BRONZE_INGOT.get(), 0.35F, 200).unlockedBy("has_tin_ingot",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.TIN_INGOT.get()).build())).save(pFinishedRecipeConsumer, "bronze_ingot_from_alloying_ingots");
 
 
         /* METAL BLOCKS/ITEMS */
