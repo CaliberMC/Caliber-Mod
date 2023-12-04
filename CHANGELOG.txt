@@ -189,5 +189,6 @@
 - 0.0.25 (in progress)
 - Added a total of # new blocks!
 - Current Mod Block Count is at #
+- Added the new wood variants to the Planks & Beams tab
 - Added all variants of Stained Acacia Planks, Stained Birch Planks, Stained Dark Oak Planks, Stained Jungle Planks, Stained Oak Planks and Stained Spruce Planks
 - Added all current Kiln recipes
