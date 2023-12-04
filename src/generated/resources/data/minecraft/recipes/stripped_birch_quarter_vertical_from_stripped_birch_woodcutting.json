@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "minecraft:stripped_birch_wood"
+  },
+  "result": "caliber:stripped_birch_quarter_vertical",
+  "count": 5
+}

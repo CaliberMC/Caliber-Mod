@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "minecraft:spruce_wood"
+  },
+  "result": "minecraft:spruce_stairs",
+  "count": 1
+}

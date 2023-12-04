@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "caliber:stained_birch_wood"
+    }
+  },
+  "result": {
+    "item": "caliber:stained_birch_wall",
+    "count": 6
+  }
+}

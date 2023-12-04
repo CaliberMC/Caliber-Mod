@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "minecraft:stripped_acacia_wood"
+  },
+  "result": "caliber:stripped_acacia_beam_vertical",
+  "count": 9
+}

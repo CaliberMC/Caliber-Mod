@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "caliber:stripped_acacia_door_frame",
+    "caliber:stripped_birch_door_frame",
+    "caliber:stripped_dark_oak_door_frame",
+    "caliber:stripped_jungle_door_frame",
+    "caliber:stripped_oak_door_frame",
+    "caliber:stripped_spruce_door_frame",
+    "caliber:stained_acacia_door_frame",
+    "caliber:stained_birch_door_frame",
+    "caliber:stained_dark_oak_door_frame",
+    "caliber:stained_jungle_door_frame",
+    "caliber:stained_oak_door_frame",
+    "caliber:stained_spruce_door_frame"
+  ]
+}

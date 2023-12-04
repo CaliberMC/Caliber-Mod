@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "caliber:stripped_acacia_beam_posts",
+    "caliber:stripped_birch_beam_posts",
+    "caliber:stripped_dark_oak_beam_posts",
+    "caliber:stripped_jungle_beam_posts",
+    "caliber:stripped_oak_beam_posts",
+    "caliber:stripped_spruce_beam_posts",
+    "caliber:stained_acacia_beam_posts",
+    "caliber:stained_birch_beam_posts",
+    "caliber:stained_dark_oak_beam_posts",
+    "caliber:stained_jungle_beam_posts",
+    "caliber:stained_oak_beam_posts",
+    "caliber:stained_spruce_beam_posts"
+  ]
+}

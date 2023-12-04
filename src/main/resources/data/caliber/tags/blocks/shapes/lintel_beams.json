@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "caliber:stripped_acacia_beam_lintel",
+    "caliber:stripped_birch_beam_lintel",
+    "caliber:stripped_dark_oak_beam_lintel",
+    "caliber:stripped_jungle_beam_lintel",
+    "caliber:stripped_oak_beam_lintel",
+    "caliber:stripped_spruce_beam_lintel",
+    "caliber:stained_acacia_beam_lintel",
+    "caliber:stained_birch_beam_lintel",
+    "caliber:stained_dark_oak_beam_lintel",
+    "caliber:stained_jungle_beam_lintel",
+    "caliber:stained_oak_beam_lintel",
+    "caliber:stained_spruce_beam_lintel"
+  ]
+}

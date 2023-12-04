@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "caliber:stained_jungle_wood"
+  },
+  "result": "caliber:stained_jungle_door_frame",
+  "count": 16
+}

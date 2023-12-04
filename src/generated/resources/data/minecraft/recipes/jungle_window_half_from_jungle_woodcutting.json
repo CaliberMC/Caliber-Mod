@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "minecraft:jungle_planks"
+  },
+  "result": "caliber:jungle_window_half",
+  "count": 4
+}

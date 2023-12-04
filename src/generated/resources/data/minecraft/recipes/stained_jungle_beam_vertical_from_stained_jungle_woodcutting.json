@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "caliber:stained_jungle_wood"
+  },
+  "result": "caliber:stained_jungle_beam_vertical",
+  "count": 9
+}

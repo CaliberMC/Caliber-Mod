@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "minecraft:stripped_jungle_wood"
+  },
+  "result": "caliber:stripped_jungle_corner_slab",
+  "count": 4
+}

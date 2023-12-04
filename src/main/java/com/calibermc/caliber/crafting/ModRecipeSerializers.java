@@ -1,6 +1,7 @@
 package com.calibermc.caliber.crafting;
 
 import com.calibermc.caliber.Caliber;
+import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -8,7 +9,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-public class ModRecipeSerializers {
+public class ModRecipeSerializers<T extends AbstractCookingRecipe> {
 
     public static final DeferredRegister<RecipeSerializer<?>> RECIPE_SERIALIZERS = DeferredRegister.create(ForgeRegistries.RECIPE_SERIALIZERS, Caliber.MOD_ID);
 

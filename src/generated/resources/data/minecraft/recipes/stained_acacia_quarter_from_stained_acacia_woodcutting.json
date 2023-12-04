@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "caliber:stained_acacia_wood"
+  },
+  "result": "caliber:stained_acacia_quarter",
+  "count": 5
+}

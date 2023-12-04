@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "minecraft:acacia_wood"
+  },
+  "result": "caliber:acacia_wall",
+  "count": 1
+}

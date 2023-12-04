@@ -1,14 +1,26 @@
 package com.calibermc.caliber.data.datagen.recipes;
 
 import com.calibermc.caliber.block.ModBlocks;
+import com.calibermc.caliber.util.ModTags;
 import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.recipes.*;
+import net.minecraft.tags.TagKey;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
+
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.tags.ITagManager;
 
 import java.util.function.Consumer;
+
+import static com.calibermc.caliber.util.ModTags.Blocks.smoothStone;
 
 public class MiscRecipeProvider extends RecipeProvider implements IConditionBuilder {
 
@@ -18,6 +30,14 @@ public class MiscRecipeProvider extends RecipeProvider implements IConditionBuil
     
     @Override
     protected void buildCraftingRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
+//        Ingredient smoothStoneIngredient = Ingredient.of(ModTags.Blocks.smoothStone);
+
+        /* CRAFTING */
+        /* Crafting Tables */
+//        ShapedRecipeBuilder.shaped(ModBlocks.WOODCUTTER.get(), 1).define('I', Items.IRON_INGOT).define('W', (ItemLike) tags.getTag(ModTags.Blocks.planks)).pattern(" I ").pattern("PPP").unlockedBy("has_iron_ingot",
+//                inventoryTrigger(ItemPredicate.Builder.item().of(Items.IRON_INGOT).build())).save(pFinishedRecipeConsumer, "woodcutter_from_shaped_iron_ingot_planks");
+//        ShapedRecipeBuilder.shaped(ModBlocks.KILN.get(), 1).define('I', Items.IRON_INGOT).define('X', Blocks.BLAST_FURNACE).define('#', smoothStoneIngredient).pattern("III").pattern("IXI").pattern("###").unlockedBy("has_blast_furnace",
+//                inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.BLAST_FURNACE).build())).save(pFinishedRecipeConsumer, "kiln_from_shaped_iron_ingots_blast_furnace_smooth_stone_variant");
 
         /* PLASTER */
         /* Plaster Powder */

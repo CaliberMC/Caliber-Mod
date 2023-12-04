@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "minecraft:oak_planks"
+  },
+  "result": "caliber:oak_quarter",
+  "count": 5
+}

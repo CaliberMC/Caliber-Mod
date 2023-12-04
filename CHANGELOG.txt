@@ -164,7 +164,7 @@
 - Bugfix: fixed Polished Blackstone Bricks and Polished Blackstone QuarterLayerBlock models (top models were placing on bottom)
 
 -0.0.24 (in progress)
-- Added a total of # new blocks!
+- Added a total of 261 new blocks!
 - Current Mod Block Count is at 3,233
 - Added Woodcutter (for cutting wood blocks into various new shapes)
 - Added Kiln (for alloying metals)

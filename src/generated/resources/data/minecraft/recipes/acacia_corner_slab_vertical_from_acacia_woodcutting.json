@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "minecraft:acacia_planks"
+  },
+  "result": "caliber:acacia_corner_slab_vertical",
+  "count": 4
+}

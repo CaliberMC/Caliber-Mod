@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "caliber:stained_oak_wood"
+  },
+  "result": "caliber:stained_oak_quarter",
+  "count": 5
+}

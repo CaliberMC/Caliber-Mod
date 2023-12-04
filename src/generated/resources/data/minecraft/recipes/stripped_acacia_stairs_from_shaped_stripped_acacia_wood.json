@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "W  ",
+    "WW ",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:stripped_acacia_wood"
+    }
+  },
+  "result": {
+    "item": "caliber:stripped_acacia_stairs",
+    "count": 4
+  }
+}
