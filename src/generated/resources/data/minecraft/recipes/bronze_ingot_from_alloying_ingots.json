@@ -1,0 +1,12 @@
+{
+  "type": "caliber:alloying",
+  "ingredient": {
+    "item": "minecraft:copper_ingot"
+  },
+  "second_ingredient": {
+    "item": "caliber:tin_ingot"
+  },
+  "result": "caliber:bronze_ingot",
+  "experience": 0.35,
+  "cookingtime": 200
+}
