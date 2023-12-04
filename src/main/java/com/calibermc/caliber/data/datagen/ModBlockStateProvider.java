@@ -213,6 +213,36 @@ public class ModBlockStateProvider extends BlockStateProvider {
         wallBlock((WallBlock) ModBlocks.JUNGLE_WALL.get(), blockTexture(Blocks.JUNGLE_PLANKS));
         wallBlock((WallBlock) ModBlocks.OAK_WALL.get(), blockTexture(Blocks.OAK_PLANKS));
         wallBlock((WallBlock) ModBlocks.SPRUCE_WALL.get(), blockTexture(Blocks.SPRUCE_PLANKS));
+        wallBlock((WallBlock) ModBlocks.STRIPPED_ACACIA_WALL.get(), blockTexture(Blocks.STRIPPED_ACACIA_LOG));
+        wallBlock((WallBlock) ModBlocks.STRIPPED_BIRCH_WALL.get(), blockTexture(Blocks.STRIPPED_BIRCH_LOG));
+        wallBlock((WallBlock) ModBlocks.STRIPPED_DARK_OAK_WALL.get(), blockTexture(Blocks.STRIPPED_DARK_OAK_LOG));
+        wallBlock((WallBlock) ModBlocks.STRIPPED_JUNGLE_WALL.get(), blockTexture(Blocks.STRIPPED_JUNGLE_LOG));
+        wallBlock((WallBlock) ModBlocks.STRIPPED_OAK_WALL.get(), blockTexture(Blocks.STRIPPED_OAK_LOG));
+        wallBlock((WallBlock) ModBlocks.STRIPPED_SPRUCE_WALL.get(), blockTexture(Blocks.STRIPPED_SPRUCE_LOG));
+        stairsBlock((StairBlock) ModBlocks.STRIPPED_ACACIA_STAIRS.get(), blockTexture(Blocks.STRIPPED_ACACIA_LOG));
+        stairsBlock((StairBlock) ModBlocks.STRIPPED_BIRCH_STAIRS.get(), blockTexture(Blocks.STRIPPED_BIRCH_LOG));
+        stairsBlock((StairBlock) ModBlocks.STRIPPED_DARK_OAK_STAIRS.get(), blockTexture(Blocks.STRIPPED_DARK_OAK_LOG));
+        stairsBlock((StairBlock) ModBlocks.STRIPPED_JUNGLE_STAIRS.get(), blockTexture(Blocks.STRIPPED_JUNGLE_LOG));
+        stairsBlock((StairBlock) ModBlocks.STRIPPED_OAK_STAIRS.get(), blockTexture(Blocks.STRIPPED_OAK_LOG));
+        stairsBlock((StairBlock) ModBlocks.STRIPPED_SPRUCE_STAIRS.get(), blockTexture(Blocks.STRIPPED_SPRUCE_LOG));
+        simpleBlock(ModBlocks.STAINED_ACACIA_WOOD.get());
+        simpleBlock(ModBlocks.STAINED_BIRCH_WOOD.get());
+        simpleBlock(ModBlocks.STAINED_DARK_OAK_WOOD.get());
+        simpleBlock(ModBlocks.STAINED_JUNGLE_WOOD.get());
+        simpleBlock(ModBlocks.STAINED_OAK_WOOD.get());
+        simpleBlock(ModBlocks.STAINED_SPRUCE_WOOD.get());
+        wallBlock((WallBlock) ModBlocks.STAINED_ACACIA_WALL.get(), blockTexture(ModBlocks.STAINED_ACACIA_WOOD.get()));
+        wallBlock((WallBlock) ModBlocks.STAINED_BIRCH_WALL.get(), blockTexture(ModBlocks.STAINED_BIRCH_WOOD.get()));
+        wallBlock((WallBlock) ModBlocks.STAINED_DARK_OAK_WALL.get(), blockTexture(ModBlocks.STAINED_DARK_OAK_WOOD.get()));
+        wallBlock((WallBlock) ModBlocks.STAINED_JUNGLE_WALL.get(), blockTexture(ModBlocks.STAINED_JUNGLE_WOOD.get()));
+        wallBlock((WallBlock) ModBlocks.STAINED_OAK_WALL.get(), blockTexture(ModBlocks.STAINED_OAK_WOOD.get()));
+        wallBlock((WallBlock) ModBlocks.STAINED_SPRUCE_WALL.get(), blockTexture(ModBlocks.STAINED_SPRUCE_WOOD.get()));
+        stairsBlock((StairBlock) ModBlocks.STAINED_ACACIA_STAIRS.get(), blockTexture(ModBlocks.STAINED_ACACIA_WOOD.get()));
+        stairsBlock((StairBlock) ModBlocks.STAINED_BIRCH_STAIRS.get(), blockTexture(ModBlocks.STAINED_BIRCH_WOOD.get()));
+        stairsBlock((StairBlock) ModBlocks.STAINED_DARK_OAK_STAIRS.get(), blockTexture(ModBlocks.STAINED_DARK_OAK_WOOD.get()));
+        stairsBlock((StairBlock) ModBlocks.STAINED_JUNGLE_STAIRS.get(), blockTexture(ModBlocks.STAINED_JUNGLE_WOOD.get()));
+        stairsBlock((StairBlock) ModBlocks.STAINED_OAK_STAIRS.get(), blockTexture(ModBlocks.STAINED_OAK_WOOD.get()));
+        stairsBlock((StairBlock) ModBlocks.STAINED_SPRUCE_STAIRS.get(), blockTexture(ModBlocks.STAINED_SPRUCE_WOOD.get()));
 
         /* PLASTER */
         simpleBlock(ModBlocks.BEIGE_PLASTER.get());

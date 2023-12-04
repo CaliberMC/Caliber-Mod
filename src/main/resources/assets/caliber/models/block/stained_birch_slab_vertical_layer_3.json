@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/templates/slab_vertical_layer_3",
+  "textures": {
+    "side": "caliber:block/stained_birch_wood",
+    "bottom": "caliber:block/stained_birch_wood",
+    "top": "caliber:block/stained_birch_wood"
+  }
+}

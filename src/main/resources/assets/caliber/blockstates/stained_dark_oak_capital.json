@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "caliber:block/stained_dark_oak_capital"
+    },
+    "type=top": {
+      "model": "caliber:block/stained_dark_oak_capital_top"
+    }
+  }
+}

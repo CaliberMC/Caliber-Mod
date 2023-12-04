@@ -1,0 +1,109 @@
+{
+  "variants": {
+    "facing=north,beam=1": {
+      "model": "caliber:block/stripped_spruce_beam_vertical_1"
+    },
+    "facing=north,beam=2": {
+      "model": "caliber:block/stripped_spruce_beam_vertical_2"
+    },
+    "facing=north,beam=3": {
+      "model": "caliber:block/stripped_spruce_beam_vertical_3"
+    },
+    "facing=north,beam=4": {
+      "model": "caliber:block/stripped_spruce_beam_vertical_4"
+    },
+    "facing=north,beam=5": {
+      "model": "caliber:block/stripped_spruce_beam_vertical_5"
+    },
+    "facing=north,beam=6": {
+      "model": "caliber:block/stripped_spruce_beam_vertical_6"
+    },
+    "facing=north,beam=7": {
+      "model": "caliber:block/stripped_spruce_beam_vertical_7"
+    },
+    "facing=east,beam=1": {
+      "model": "caliber:block/stripped_spruce_beam_vertical_1",
+      "y": 90
+    },
+    "facing=east,beam=2": {
+      "model": "caliber:block/stripped_spruce_beam_vertical_2",
+      "y": 90
+    },
+    "facing=east,beam=3": {
+      "model": "caliber:block/stripped_spruce_beam_vertical_3",
+      "y": 90
+    },
+    "facing=east,beam=4": {
+      "model": "caliber:block/stripped_spruce_beam_vertical_4",
+      "y": 90
+    },
+    "facing=east,beam=5": {
+      "model": "caliber:block/stripped_spruce_beam_vertical_5",
+      "y": 90
+    },
+    "facing=east,beam=6": {
+      "model": "caliber:block/stripped_spruce_beam_vertical_6",
+      "y": 90
+    },
+    "facing=east,beam=7": {
+      "model": "caliber:block/stripped_spruce_beam_vertical_7",
+      "y": 90
+    },
+    "facing=south,beam=1": {
+      "model": "caliber:block/stripped_spruce_beam_vertical_1",
+      "y": 180
+    },
+    "facing=south,beam=2": {
+      "model": "caliber:block/stripped_spruce_beam_vertical_2",
+      "y": 180
+    },
+    "facing=south,beam=3": {
+      "model": "caliber:block/stripped_spruce_beam_vertical_3",
+      "y": 180
+    },
+    "facing=south,beam=4": {
+      "model": "caliber:block/stripped_spruce_beam_vertical_4",
+      "y": 180
+    },
+    "facing=south,beam=5": {
+      "model": "caliber:block/stripped_spruce_beam_vertical_5",
+      "y": 180
+    },
+    "facing=south,beam=6": {
+      "model": "caliber:block/stripped_spruce_beam_vertical_6",
+      "y": 180
+    },
+    "facing=south,beam=7": {
+      "model": "caliber:block/stripped_spruce_beam_vertical_7",
+      "y": 180
+    },
+    "facing=west,beam=1": {
+      "model": "caliber:block/stripped_spruce_beam_vertical_1",
+      "y": 270
+    },
+    "facing=west,beam=2": {
+      "model": "caliber:block/stripped_spruce_beam_vertical_2",
+      "y": 270
+    },
+    "facing=west,beam=3": {
+      "model": "caliber:block/stripped_spruce_beam_vertical_3",
+      "y": 270
+    },
+    "facing=west,beam=4": {
+      "model": "caliber:block/stripped_spruce_beam_vertical_4",
+      "y": 270
+    },
+    "facing=west,beam=5": {
+      "model": "caliber:block/stripped_spruce_beam_vertical_5",
+      "y": 270
+    },
+    "facing=west,beam=6": {
+      "model": "caliber:block/stripped_spruce_beam_vertical_6",
+      "y": 270
+    },
+    "facing=west,beam=7": {
+      "model": "caliber:block/stripped_spruce_beam_vertical_7",
+      "y": 270
+    }
+  }
+}

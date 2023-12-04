@@ -1,0 +1,7 @@
+{
+  "parent": "caliber:block/templates/beam_horizontal_5",
+  "textures": {
+    "side": "caliber:block/stained_dark_oak_wood",
+    "end": "caliber:block/stained_dark_oak_wood"
+  }
+}

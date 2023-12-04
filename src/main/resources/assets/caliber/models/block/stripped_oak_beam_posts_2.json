@@ -1,0 +1,7 @@
+{
+  "parent": "caliber:block/templates/beam_posts_2",
+  "textures": {
+    "side": "minecraft:block/stripped_oak_log",
+    "end": "minecraft:block/stripped_oak_log"
+  }
+}

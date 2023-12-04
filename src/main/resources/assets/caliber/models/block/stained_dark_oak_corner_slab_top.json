@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/templates/corner_slab_top",
+  "textures": {
+    "side": "caliber:block/stained_dark_oak_wood",
+    "bottom": "caliber:block/stained_dark_oak_wood",
+    "top": "caliber:block/stained_dark_oak_wood"
+  }
+}

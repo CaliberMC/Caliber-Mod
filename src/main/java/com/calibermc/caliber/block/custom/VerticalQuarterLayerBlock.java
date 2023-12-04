@@ -1,7 +1,7 @@
 package com.calibermc.caliber.block.custom;
 
 import com.calibermc.caliber.block.shapes.CornerShape;
-import com.calibermc.caliber.block.shapes.VerticalQuarterLayerShape;
+import com.calibermc.caliber.block.shapes.LeftRightShape;
 import com.calibermc.caliber.util.ModBlockStateProperties;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Maps;
@@ -37,7 +37,7 @@ public class VerticalQuarterLayerBlock extends Block implements SimpleWaterlogge
 
     public static final IntegerProperty LAYERS = ModBlockStateProperties.FIVE_LAYERS;
     public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
-    public static final EnumProperty<VerticalQuarterLayerShape> TYPE = ModBlockStateProperties.VERTICAL_QUARTER_LAYER_SHAPE;
+    public static final EnumProperty<LeftRightShape> TYPE = ModBlockStateProperties.LEFT_RIGHT_SHAPE;
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
     public final int layerCount = 5;
 
@@ -69,9 +69,9 @@ public class VerticalQuarterLayerBlock extends Block implements SimpleWaterlogge
     public VerticalQuarterLayerBlock(Properties properties) {
         super(properties);
         this.registerDefaultState(this.stateDefinition.any() // ? this.defaultBlockState()
-                .setValue(LAYERS, 3)
+                .setValue(LAYERS, 1)
                 .setValue(FACING, NORTH)
-                .setValue(TYPE, VerticalQuarterLayerShape.RIGHT)
+                .setValue(TYPE, LeftRightShape.RIGHT)
                 .setValue(WATERLOGGED, Boolean.FALSE));
     }
 
@@ -87,7 +87,7 @@ public class VerticalQuarterLayerBlock extends Block implements SimpleWaterlogge
 
     @Override
     public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
-    VerticalQuarterLayerShape verticalQuarterShape = pState.getValue(TYPE);
+    LeftRightShape verticalQuarterShape = pState.getValue(TYPE);
     Direction direction = pState.getValue(FACING);
 
         switch (verticalQuarterShape) {
@@ -132,15 +132,15 @@ public class VerticalQuarterLayerBlock extends Block implements SimpleWaterlogge
                     .setValue(WATERLOGGED, Boolean.valueOf(fluidstate.getType() == Fluids.WATER));
 
             if (direction == Direction.NORTH && hitX < 0.5) {
-                return blockstate1.setValue(TYPE, VerticalQuarterLayerShape.RIGHT).setValue(LAYERS, 1);
+                return blockstate1.setValue(TYPE, LeftRightShape.RIGHT).setValue(LAYERS, 1);
             } else if (direction == Direction.SOUTH && hitX > 0.5) {
-                return blockstate1.setValue(TYPE, VerticalQuarterLayerShape.RIGHT).setValue(LAYERS, 1);
+                return blockstate1.setValue(TYPE, LeftRightShape.RIGHT).setValue(LAYERS, 1);
             } else if (direction == Direction.EAST && hitZ < 0.5) {
-                return blockstate1.setValue(TYPE, VerticalQuarterLayerShape.RIGHT).setValue(LAYERS, 1);
+                return blockstate1.setValue(TYPE, LeftRightShape.RIGHT).setValue(LAYERS, 1);
             } else if (direction == Direction.WEST && hitZ > 0.5) {
-                return blockstate1.setValue(TYPE, VerticalQuarterLayerShape.RIGHT).setValue(LAYERS, 1);
+                return blockstate1.setValue(TYPE, LeftRightShape.RIGHT).setValue(LAYERS, 1);
             } else {
-                return blockstate1.setValue(TYPE, VerticalQuarterLayerShape.LEFT).setValue(LAYERS, 1);
+                return blockstate1.setValue(TYPE, LeftRightShape.LEFT).setValue(LAYERS, 1);
             }
         }
     }

@@ -4,7 +4,6 @@ import com.calibermc.caliber.block.shapes.*;
 import com.calibermc.caliber.block.shapes.trim.ArchTrim;
 import com.calibermc.caliber.block.shapes.trim.LargeArchTrim;
 import net.minecraft.core.Direction;
-import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 
@@ -22,6 +21,7 @@ public class ModBlockStateProperties {
     public static final EnumProperty<QuarterShape> QUARTER_SHAPE = EnumProperty.create("type", QuarterShape.class);
     public static final EnumProperty<QuarterLayerShape> QUARTER_LAYER_SHAPE = EnumProperty.create("type", QuarterLayerShape.class);
     public static final EnumProperty<SlabLayerShape> SLAB_LAYER_SHAPE = EnumProperty.create("type", SlabLayerShape.class);
+    public static final EnumProperty<TopBottomShape> TOP_BOTTOM_SHAPE = EnumProperty.create("type", TopBottomShape.class);
     public static final EnumProperty<VerticalCornerSlabShape> VERTICAL_CORNER_SLAB_SHAPE = EnumProperty.create("type", VerticalCornerSlabShape.class);
     public static final EnumProperty<VerticalQuarterShape> VERTICAL_QUARTER_SHAPE = EnumProperty.create("type", VerticalQuarterShape.class);
     public static final EnumProperty<VerticalQuarterLayerShape> VERTICAL_QUARTER_LAYER_SHAPE = EnumProperty.create("type", VerticalQuarterLayerShape.class);
@@ -29,8 +29,10 @@ public class ModBlockStateProperties {
     public static final EnumProperty<WindowShape> WINDOW_SHAPE = EnumProperty.create("type", WindowShape.class);
 
     public static final IntegerProperty FIVE_LAYERS = IntegerProperty.create("layers", 1, 5);
-    public static final IntegerProperty VERTICAL_BEAM_SHAPE = IntegerProperty.create("beam", 1, 5);
-    public static final IntegerProperty HORIZONTAL_BEAM_SHAPE = IntegerProperty.create("beam", 1, 4);
+    public static final IntegerProperty VERTICAL_BEAM_SHAPE = IntegerProperty.create("beam", 1, 7);
+    public static final IntegerProperty HORIZONTAL_BEAM_SHAPE = IntegerProperty.create("beam", 1, 6);
+    public static final IntegerProperty LINTEL_SHAPE = IntegerProperty.create("beam", 1, 4);
+    public static final IntegerProperty FRAME_SHAPE = IntegerProperty.create("beam", 1, 3);
     public static final EnumProperty<ArchTrim> ARCH_TRIM = EnumProperty.create("trim", ArchTrim.class);
     public static final EnumProperty<LargeArchTrim> LARGE_ARCH_TRIM = EnumProperty.create("trim", LargeArchTrim.class);
 

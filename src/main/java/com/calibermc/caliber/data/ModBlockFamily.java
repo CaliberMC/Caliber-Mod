@@ -101,6 +101,26 @@ public class ModBlockFamily {
             return this;
         }
 
+        public Builder beam_horizontal(Block pHorizontalBeamBlock) {
+            this.family.variants.put(Variant.BEAM_HORIZONTAL, pHorizontalBeamBlock);
+            return this;
+        }
+
+        public Builder beam_lintel(Block pLintelBeamBlock) {
+            this.family.variants.put(Variant.BEAM_LINTEL, pLintelBeamBlock);
+            return this;
+        }
+
+        public Builder beam_posts(Block pBeamPostsBlock) {
+            this.family.variants.put(Variant.BEAM_POSTS, pBeamPostsBlock);
+            return this;
+        }
+
+        public Builder beam_vertical(Block pVerticalBeamBlock) {
+            this.family.variants.put(Variant.BEAM_VERTICAL, pVerticalBeamBlock);
+            return this;
+        }
+
         public Builder button(Block pButtonBlock) {
             this.family.variants.put(Variant.BUTTON, pButtonBlock);
             return this;
@@ -148,6 +168,16 @@ public class ModBlockFamily {
 
         public Builder door(Block pDoorBlock) {
             this.family.variants.put(Variant.DOOR, pDoorBlock);
+            return this;
+        }
+
+        public Builder door_frame(Block pDoorFrameBlock) {
+            this.family.variants.put(Variant.DOOR_FRAME, pDoorFrameBlock);
+            return this;
+        }
+
+        public Builder door_frame_lintel(Block pDoorFrameLintelBlock) {
+            this.family.variants.put(Variant.DOOR_FRAME_LINTEL, pDoorFrameLintelBlock);
             return this;
         }
 
@@ -236,44 +266,6 @@ public class ModBlockFamily {
             this.family.variants.put(Variant.WINDOW_HALF, pWindow_HalfBlock);
             return this;
         }
-        
-//        /* TUDOR BLOCKS */
-//        public Builder cross(Block pCross) {
-//            this.family.variants.put(Variant.CROSS, pCross);
-//            return this;
-//        }
-//        public Builder down(Block pDown) {
-//            this.family.variants.put(Variant.DOWN, pDown);
-//            return this;
-//        }
-//        public Builder up(Block pUp) {
-//            this.family.variants.put(Variant.UP, pUp);
-//            return this;
-//        }
-//        public Builder left(Block pLeft) {
-//            this.family.variants.put(Variant.LEFT, pLeft);
-//            return this;
-//        }
-//        public Builder right(Block pRight) {
-//            this.family.variants.put(Variant.RIGHT, pRight);
-//            return this;
-//        }
-//        public Builder horizontal_1(Block pHorizontal_1) {
-//            this.family.variants.put(Variant.HORIZONTAL_1, pHorizontal_1);
-//            return this;
-//        }
-//        public Builder horizontal_2(Block pHorizontal_2) {
-//            this.family.variants.put(Variant.HORIZONTAL_2, pHorizontal_2);
-//            return this;
-//        }
-//        public Builder vertical_1(Block pVertical_1) {
-//            this.family.variants.put(Variant.VERTICAL_1, pVertical_1);
-//            return this;
-//        }
-//        public Builder vertical_2(Block pVertical_2) {
-//            this.family.variants.put(Variant.VERTICAL_2, pVertical_2);
-//            return this;
-//        }
 
         public Builder dontGenerateModel() {
             this.family.generateModel = false;
@@ -306,6 +298,10 @@ public class ModBlockFamily {
         ARCH_SMALL_HALF("arch_small_half"),
         ARROWSLIT("arrowslit"),
         BALUSTRADE("balustrade"),
+        BEAM_HORIZONTAL("beam_horizontal"),
+        BEAM_LINTEL("beam_lintel"),
+        BEAM_POSTS("beam_posts"),
+        BEAM_VERTICAL("beam_vertical"),
         BUTTON("button"),
         CAPITAL("capital"),
         CHISELED("chiseled"),
@@ -316,6 +312,8 @@ public class ModBlockFamily {
         CORNER_SLAB_VERTICAL("corner_slab_vertical"),
         CUT("cut"),
         DOOR("door"),
+        DOOR_FRAME("door_frame"),
+        DOOR_FRAME_LINTEL("door_frame_lintel"),
         EIGHTH("eighth"),
         FENCE("fence"),
         FENCE_GATE("fence_gate"),

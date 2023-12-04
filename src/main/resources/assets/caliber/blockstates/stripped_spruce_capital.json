@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "caliber:block/stripped_spruce_capital"
+    },
+    "type=top": {
+      "model": "caliber:block/stripped_spruce_capital_top"
+    }
+  }
+}

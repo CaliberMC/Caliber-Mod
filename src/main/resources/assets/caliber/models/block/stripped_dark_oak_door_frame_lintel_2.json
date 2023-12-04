@@ -1,0 +1,7 @@
+{
+  "parent": "caliber:block/templates/door_frame_lintel_2",
+  "textures": {
+    "side": "minecraft:block/stripped_dark_oak_log",
+    "end": "minecraft:block/stripped_dark_oak_log"
+  }
+}

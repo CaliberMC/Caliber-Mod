@@ -3,8 +3,9 @@ package com.calibermc.caliber.block;
 import com.calibermc.caliber.Caliber;
 import com.calibermc.caliber.block.custom.*;
 import com.calibermc.caliber.block.custom.DirectionalBlock;
-import com.calibermc.caliber.block.custom.KilnBlock;
-import com.calibermc.caliber.block.custom.WoodcutterBlock;
+import com.calibermc.caliber.block.custom.entity.KilnBlock;
+import com.calibermc.caliber.block.custom.entity.WoodcutterBlock;
+import com.calibermc.caliber.block.custom.terrain.*;
 import com.calibermc.caliber.block.properties.BlockProps;
 import com.calibermc.caliber.item.CreativeTabs;
 import com.calibermc.caliber.item.ModItems;
@@ -3521,6 +3522,529 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
             () -> new NyliumLayerBlock(BlockProps.WARPED_NYLIUM.get()));
 
     // WOOD BLOCKS
+
+    
+    /* Stripped Wood */
+    public static final RegistryObject<Block> STRIPPED_ACACIA_BALUSTRADE = registerBlock("stripped_acacia_balustrade",
+            () -> new BalustradeBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_BIRCH_BALUSTRADE = registerBlock("stripped_birch_balustrade",
+            () -> new BalustradeBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_DARK_OAK_BALUSTRADE = registerBlock("stripped_dark_oak_balustrade",
+            () -> new BalustradeBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_JUNGLE_BALUSTRADE = registerBlock("stripped_jungle_balustrade",
+            () -> new BalustradeBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_OAK_BALUSTRADE = registerBlock("stripped_oak_balustrade",
+            () -> new BalustradeBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_SPRUCE_BALUSTRADE = registerBlock("stripped_spruce_balustrade",
+            () -> new BalustradeBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_ACACIA_BEAM_HORIZONTAL = registerBlock("stripped_acacia_beam_horizontal",
+            () -> new HorizontalBeamBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_BIRCH_BEAM_HORIZONTAL = registerBlock("stripped_birch_beam_horizontal",
+            () -> new HorizontalBeamBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_DARK_OAK_BEAM_HORIZONTAL = registerBlock("stripped_dark_oak_beam_horizontal",
+            () -> new HorizontalBeamBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_JUNGLE_BEAM_HORIZONTAL = registerBlock("stripped_jungle_beam_horizontal",
+            () -> new HorizontalBeamBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_OAK_BEAM_HORIZONTAL = registerBlock("stripped_oak_beam_horizontal",
+            () -> new HorizontalBeamBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_SPRUCE_BEAM_HORIZONTAL = registerBlock("stripped_spruce_beam_horizontal",
+            () -> new HorizontalBeamBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_ACACIA_BEAM_LINTEL = registerBlock("stripped_acacia_beam_lintel",
+            () -> new BeamLintelBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_BIRCH_BEAM_LINTEL = registerBlock("stripped_birch_beam_lintel",
+            () -> new BeamLintelBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_DARK_OAK_BEAM_LINTEL = registerBlock("stripped_dark_oak_beam_lintel",
+            () -> new BeamLintelBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_JUNGLE_BEAM_LINTEL = registerBlock("stripped_jungle_beam_lintel",
+            () -> new BeamLintelBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_OAK_BEAM_LINTEL = registerBlock("stripped_oak_beam_lintel",
+            () -> new BeamLintelBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_SPRUCE_BEAM_LINTEL = registerBlock("stripped_spruce_beam_lintel",
+            () -> new BeamLintelBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_ACACIA_BEAM_POSTS = registerBlock("stripped_acacia_beam_posts",
+            () -> new BeamPostsBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_BIRCH_BEAM_POSTS = registerBlock("stripped_birch_beam_posts",
+            () -> new BeamPostsBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_DARK_OAK_BEAM_POSTS = registerBlock("stripped_dark_oak_beam_posts",
+            () -> new BeamPostsBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_JUNGLE_BEAM_POSTS = registerBlock("stripped_jungle_beam_posts",
+            () -> new BeamPostsBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_OAK_BEAM_POSTS = registerBlock("stripped_oak_beam_posts",
+            () -> new BeamPostsBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_SPRUCE_BEAM_POSTS = registerBlock("stripped_spruce_beam_posts",
+            () -> new BeamPostsBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_ACACIA_BEAM_VERTICAL = registerBlock("stripped_acacia_beam_vertical",
+            () -> new VerticalBeamBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_BIRCH_BEAM_VERTICAL = registerBlock("stripped_birch_beam_vertical",
+            () -> new VerticalBeamBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_DARK_OAK_BEAM_VERTICAL = registerBlock("stripped_dark_oak_beam_vertical",
+            () -> new VerticalBeamBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_JUNGLE_BEAM_VERTICAL = registerBlock("stripped_jungle_beam_vertical",
+            () -> new VerticalBeamBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_OAK_BEAM_VERTICAL = registerBlock("stripped_oak_beam_vertical",
+            () -> new VerticalBeamBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_SPRUCE_BEAM_VERTICAL = registerBlock("stripped_spruce_beam_vertical",
+            () -> new VerticalBeamBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_ACACIA_CAPITAL = registerBlock("stripped_acacia_capital",
+            () -> new CapitalBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_BIRCH_CAPITAL = registerBlock("stripped_birch_capital",
+            () -> new CapitalBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_DARK_OAK_CAPITAL = registerBlock("stripped_dark_oak_capital",
+            () -> new CapitalBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_JUNGLE_CAPITAL = registerBlock("stripped_jungle_capital",
+            () -> new CapitalBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_OAK_CAPITAL = registerBlock("stripped_oak_capital",
+            () -> new CapitalBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_SPRUCE_CAPITAL = registerBlock("stripped_spruce_capital",
+            () -> new CapitalBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_ACACIA_CORNER = registerBlock("stripped_acacia_corner",
+            () -> new CornerLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_BIRCH_CORNER = registerBlock("stripped_birch_corner",
+            () -> new CornerLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_DARK_OAK_CORNER = registerBlock("stripped_dark_oak_corner",
+            () -> new CornerLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_JUNGLE_CORNER = registerBlock("stripped_jungle_corner",
+            () -> new CornerLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_OAK_CORNER = registerBlock("stripped_oak_corner",
+            () -> new CornerLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_SPRUCE_CORNER = registerBlock("stripped_spruce_corner",
+            () -> new CornerLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_ACACIA_CORNER_SLAB = registerBlock("stripped_acacia_corner_slab",
+            () -> new CornerSlabBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_BIRCH_CORNER_SLAB = registerBlock("stripped_birch_corner_slab",
+            () -> new CornerSlabBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_DARK_OAK_CORNER_SLAB = registerBlock("stripped_dark_oak_corner_slab",
+            () -> new CornerSlabBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_JUNGLE_CORNER_SLAB = registerBlock("stripped_jungle_corner_slab",
+            () -> new CornerSlabBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_OAK_CORNER_SLAB = registerBlock("stripped_oak_corner_slab",
+            () -> new CornerSlabBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_SPRUCE_CORNER_SLAB = registerBlock("stripped_spruce_corner_slab",
+            () -> new CornerSlabBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_ACACIA_CORNER_SLAB_VERTICAL = registerBlock("stripped_acacia_corner_slab_vertical",
+        () -> new VerticalCornerSlabBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_BIRCH_CORNER_SLAB_VERTICAL = registerBlock("stripped_birch_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_DARK_OAK_CORNER_SLAB_VERTICAL = registerBlock("stripped_dark_oak_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_JUNGLE_CORNER_SLAB_VERTICAL = registerBlock("stripped_jungle_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_OAK_CORNER_SLAB_VERTICAL = registerBlock("stripped_oak_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_SPRUCE_CORNER_SLAB_VERTICAL = registerBlock("stripped_spruce_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_ACACIA_DOOR_FRAME = registerBlock("stripped_acacia_door_frame",
+            () -> new DoorFrameBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_BIRCH_DOOR_FRAME = registerBlock("stripped_birch_door_frame",
+            () -> new DoorFrameBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_DARK_OAK_DOOR_FRAME = registerBlock("stripped_dark_oak_door_frame",
+            () -> new DoorFrameBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_JUNGLE_DOOR_FRAME = registerBlock("stripped_jungle_door_frame",
+            () -> new DoorFrameBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_OAK_DOOR_FRAME = registerBlock("stripped_oak_door_frame",
+            () -> new DoorFrameBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_SPRUCE_DOOR_FRAME = registerBlock("stripped_spruce_door_frame",
+            () -> new DoorFrameBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_ACACIA_DOOR_FRAME_LINTEL = registerBlock("stripped_acacia_door_frame_lintel",
+            () -> new DoorFrameLintelBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_BIRCH_DOOR_FRAME_LINTEL = registerBlock("stripped_birch_door_frame_lintel",
+            () -> new DoorFrameLintelBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_DARK_OAK_DOOR_FRAME_LINTEL = registerBlock("stripped_dark_oak_door_frame_lintel",
+            () -> new DoorFrameLintelBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_JUNGLE_DOOR_FRAME_LINTEL = registerBlock("stripped_jungle_door_frame_lintel",
+            () -> new DoorFrameLintelBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_OAK_DOOR_FRAME_LINTEL = registerBlock("stripped_oak_door_frame_lintel",
+            () -> new DoorFrameLintelBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_SPRUCE_DOOR_FRAME_LINTEL = registerBlock("stripped_spruce_door_frame_lintel",
+            () -> new DoorFrameLintelBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_ACACIA_EIGHTH = registerBlock("stripped_acacia_eighth",
+            () -> new EighthBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_BIRCH_EIGHTH = registerBlock("stripped_birch_eighth",
+            () -> new EighthBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_DARK_OAK_EIGHTH = registerBlock("stripped_dark_oak_eighth",
+            () -> new EighthBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_JUNGLE_EIGHTH = registerBlock("stripped_jungle_eighth",
+            () -> new EighthBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_OAK_EIGHTH = registerBlock("stripped_oak_eighth",
+            () -> new EighthBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_SPRUCE_EIGHTH = registerBlock("stripped_spruce_eighth",
+            () -> new EighthBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_ACACIA_PILLAR = registerBlock("stripped_acacia_pillar",
+            () -> new PillarLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_BIRCH_PILLAR = registerBlock("stripped_birch_pillar",
+            () -> new PillarLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_DARK_OAK_PILLAR = registerBlock("stripped_dark_oak_pillar",
+            () -> new PillarLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_JUNGLE_PILLAR = registerBlock("stripped_jungle_pillar",
+            () -> new PillarLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_OAK_PILLAR = registerBlock("stripped_oak_pillar",
+            () -> new PillarLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_SPRUCE_PILLAR = registerBlock("stripped_spruce_pillar",
+            () -> new PillarLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_ACACIA_QUARTER = registerBlock("stripped_acacia_quarter",
+            () -> new QuarterLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_BIRCH_QUARTER = registerBlock("stripped_birch_quarter",
+            () -> new QuarterLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_DARK_OAK_QUARTER = registerBlock("stripped_dark_oak_quarter",
+            () -> new QuarterLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_JUNGLE_QUARTER = registerBlock("stripped_jungle_quarter",
+            () -> new QuarterLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_OAK_QUARTER = registerBlock("stripped_oak_quarter",
+            () -> new QuarterLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_SPRUCE_QUARTER = registerBlock("stripped_spruce_quarter",
+            () -> new QuarterLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_ACACIA_QUARTER_VERTICAL = registerBlock("stripped_acacia_quarter_vertical",
+            () -> new VerticalQuarterLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_BIRCH_QUARTER_VERTICAL = registerBlock("stripped_birch_quarter_vertical",
+            () -> new VerticalQuarterLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_DARK_OAK_QUARTER_VERTICAL = registerBlock("stripped_dark_oak_quarter_vertical",
+            () -> new VerticalQuarterLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_JUNGLE_QUARTER_VERTICAL = registerBlock("stripped_jungle_quarter_vertical",
+            () -> new VerticalQuarterLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_OAK_QUARTER_VERTICAL = registerBlock("stripped_oak_quarter_vertical",
+            () -> new VerticalQuarterLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_SPRUCE_QUARTER_VERTICAL = registerBlock("stripped_spruce_quarter_vertical",
+            () -> new VerticalQuarterLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_ACACIA_SLAB = registerBlock("stripped_acacia_slab",
+            () -> new SlabLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_BIRCH_SLAB = registerBlock("stripped_birch_slab",
+            () -> new SlabLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_DARK_OAK_SLAB = registerBlock("stripped_dark_oak_slab",
+            () -> new SlabLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_JUNGLE_SLAB = registerBlock("stripped_jungle_slab",
+            () -> new SlabLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_OAK_SLAB = registerBlock("stripped_oak_slab",
+            () -> new SlabLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_SPRUCE_SLAB = registerBlock("stripped_spruce_slab",
+            () -> new SlabLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_ACACIA_SLAB_VERTICAL = registerBlock("stripped_acacia_slab_vertical",
+            () -> new VerticalSlabLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_BIRCH_SLAB_VERTICAL = registerBlock("stripped_birch_slab_vertical",
+            () -> new VerticalSlabLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_DARK_OAK_SLAB_VERTICAL = registerBlock("stripped_dark_oak_slab_vertical",
+            () -> new VerticalSlabLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_JUNGLE_SLAB_VERTICAL = registerBlock("stripped_jungle_slab_vertical",
+            () -> new VerticalSlabLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_OAK_SLAB_VERTICAL = registerBlock("stripped_oak_slab_vertical",
+            () -> new VerticalSlabLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_SPRUCE_SLAB_VERTICAL = registerBlock("stripped_spruce_slab_vertical",
+            () -> new VerticalSlabLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_ACACIA_STAIRS = registerBlock("stripped_acacia_stairs",
+        () -> new StairBlock(Blocks.STRIPPED_ACACIA_WOOD::defaultBlockState, BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_BIRCH_STAIRS = registerBlock("stripped_birch_stairs",
+            () -> new StairBlock(Blocks.STRIPPED_BIRCH_WOOD::defaultBlockState, BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_DARK_OAK_STAIRS = registerBlock("stripped_dark_oak_stairs",
+            () -> new StairBlock(Blocks.STRIPPED_DARK_OAK_WOOD::defaultBlockState, BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_JUNGLE_STAIRS = registerBlock("stripped_jungle_stairs",
+            () -> new StairBlock(Blocks.STRIPPED_JUNGLE_WOOD::defaultBlockState, BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_OAK_STAIRS = registerBlock("stripped_oak_stairs",
+            () -> new StairBlock(Blocks.STRIPPED_OAK_WOOD::defaultBlockState, BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_SPRUCE_STAIRS = registerBlock("stripped_spruce_stairs",
+            () -> new StairBlock(Blocks.STRIPPED_SPRUCE_WOOD::defaultBlockState, BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_ACACIA_WALL = registerBlock("stripped_acacia_wall",
+            () -> new WallBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_BIRCH_WALL = registerBlock("stripped_birch_wall",
+            () -> new WallBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_DARK_OAK_WALL = registerBlock("stripped_dark_oak_wall",
+            () -> new WallBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_JUNGLE_WALL = registerBlock("stripped_jungle_wall",
+            () -> new WallBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_OAK_WALL = registerBlock("stripped_oak_wall",
+            () -> new WallBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_SPRUCE_WALL = registerBlock("stripped_spruce_wall",
+            () -> new WallBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_ACACIA_WINDOW = registerBlock("stripped_acacia_window",
+            () -> new WindowBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_BIRCH_WINDOW = registerBlock("stripped_birch_window",
+            () -> new WindowBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_DARK_OAK_WINDOW = registerBlock("stripped_dark_oak_window",
+            () -> new WindowBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_JUNGLE_WINDOW = registerBlock("stripped_jungle_window",
+            () -> new WindowBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_OAK_WINDOW = registerBlock("stripped_oak_window",
+            () -> new WindowBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_SPRUCE_WINDOW = registerBlock("stripped_spruce_window",
+            () -> new WindowBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_ACACIA_WINDOW_HALF = registerBlock("stripped_acacia_window_half",
+            () -> new HalfWindowBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_BIRCH_WINDOW_HALF = registerBlock("stripped_birch_window_half",
+            () -> new HalfWindowBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_DARK_OAK_WINDOW_HALF = registerBlock("stripped_dark_oak_window_half",
+            () -> new HalfWindowBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_JUNGLE_WINDOW_HALF = registerBlock("stripped_jungle_window_half",
+            () -> new HalfWindowBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_OAK_WINDOW_HALF = registerBlock("stripped_oak_window_half",
+            () -> new HalfWindowBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STRIPPED_SPRUCE_WINDOW_HALF = registerBlock("stripped_spruce_window_half",
+            () -> new HalfWindowBlock(BlockProps.PLANK.get()));
+
+    /* Stained Wood */
+    public static final RegistryObject<Block> STAINED_ACACIA_WOOD = registerBlock("stained_acacia_wood",
+            () -> new Block(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_BIRCH_WOOD = registerBlock("stained_birch_wood",
+            () -> new Block(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_DARK_OAK_WOOD = registerBlock("stained_dark_oak_wood",
+            () -> new Block(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_JUNGLE_WOOD = registerBlock("stained_jungle_wood",
+            () -> new Block(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_OAK_WOOD = registerBlock("stained_oak_wood",
+            () -> new Block(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_SPRUCE_WOOD = registerBlock("stained_spruce_wood",
+            () -> new Block(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_ACACIA_BALUSTRADE = registerBlock("stained_acacia_balustrade",
+            () -> new BalustradeBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_BIRCH_BALUSTRADE = registerBlock("stained_birch_balustrade",
+            () -> new BalustradeBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_DARK_OAK_BALUSTRADE = registerBlock("stained_dark_oak_balustrade",
+            () -> new BalustradeBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_JUNGLE_BALUSTRADE = registerBlock("stained_jungle_balustrade",
+            () -> new BalustradeBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_OAK_BALUSTRADE = registerBlock("stained_oak_balustrade",
+            () -> new BalustradeBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_SPRUCE_BALUSTRADE = registerBlock("stained_spruce_balustrade",
+            () -> new BalustradeBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_ACACIA_BEAM_HORIZONTAL = registerBlock("stained_acacia_beam_horizontal",
+            () -> new HorizontalBeamBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_BIRCH_BEAM_HORIZONTAL = registerBlock("stained_birch_beam_horizontal",
+            () -> new HorizontalBeamBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_DARK_OAK_BEAM_HORIZONTAL = registerBlock("stained_dark_oak_beam_horizontal",
+            () -> new HorizontalBeamBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_JUNGLE_BEAM_HORIZONTAL = registerBlock("stained_jungle_beam_horizontal",
+            () -> new HorizontalBeamBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_OAK_BEAM_HORIZONTAL = registerBlock("stained_oak_beam_horizontal",
+            () -> new HorizontalBeamBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_SPRUCE_BEAM_HORIZONTAL = registerBlock("stained_spruce_beam_horizontal",
+            () -> new HorizontalBeamBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_ACACIA_BEAM_LINTEL = registerBlock("stained_acacia_beam_lintel",
+            () -> new BeamLintelBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_BIRCH_BEAM_LINTEL = registerBlock("stained_birch_beam_lintel",
+            () -> new BeamLintelBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_DARK_OAK_BEAM_LINTEL = registerBlock("stained_dark_oak_beam_lintel",
+            () -> new BeamLintelBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_JUNGLE_BEAM_LINTEL = registerBlock("stained_jungle_beam_lintel",
+            () -> new BeamLintelBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_OAK_BEAM_LINTEL = registerBlock("stained_oak_beam_lintel",
+            () -> new BeamLintelBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_SPRUCE_BEAM_LINTEL = registerBlock("stained_spruce_beam_lintel",
+            () -> new BeamLintelBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_ACACIA_BEAM_POSTS = registerBlock("stained_acacia_beam_posts",
+            () -> new BeamPostsBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_BIRCH_BEAM_POSTS = registerBlock("stained_birch_beam_posts",
+            () -> new BeamPostsBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_DARK_OAK_BEAM_POSTS = registerBlock("stained_dark_oak_beam_posts",
+            () -> new BeamPostsBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_JUNGLE_BEAM_POSTS = registerBlock("stained_jungle_beam_posts",
+            () -> new BeamPostsBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_OAK_BEAM_POSTS = registerBlock("stained_oak_beam_posts",
+            () -> new BeamPostsBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_SPRUCE_BEAM_POSTS = registerBlock("stained_spruce_beam_posts",
+            () -> new BeamPostsBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_ACACIA_BEAM_VERTICAL = registerBlock("stained_acacia_beam_vertical",
+            () -> new VerticalBeamBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_BIRCH_BEAM_VERTICAL = registerBlock("stained_birch_beam_vertical",
+            () -> new VerticalBeamBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_DARK_OAK_BEAM_VERTICAL = registerBlock("stained_dark_oak_beam_vertical",
+            () -> new VerticalBeamBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_JUNGLE_BEAM_VERTICAL = registerBlock("stained_jungle_beam_vertical",
+            () -> new VerticalBeamBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_OAK_BEAM_VERTICAL = registerBlock("stained_oak_beam_vertical",
+            () -> new VerticalBeamBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_SPRUCE_BEAM_VERTICAL = registerBlock("stained_spruce_beam_vertical",
+            () -> new VerticalBeamBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_ACACIA_CAPITAL = registerBlock("stained_acacia_capital",
+            () -> new CapitalBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_BIRCH_CAPITAL = registerBlock("stained_birch_capital",
+            () -> new CapitalBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_DARK_OAK_CAPITAL = registerBlock("stained_dark_oak_capital",
+            () -> new CapitalBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_JUNGLE_CAPITAL = registerBlock("stained_jungle_capital",
+            () -> new CapitalBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_OAK_CAPITAL = registerBlock("stained_oak_capital",
+            () -> new CapitalBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_SPRUCE_CAPITAL = registerBlock("stained_spruce_capital",
+            () -> new CapitalBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_ACACIA_CORNER = registerBlock("stained_acacia_corner",
+            () -> new CornerLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_BIRCH_CORNER = registerBlock("stained_birch_corner",
+            () -> new CornerLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_DARK_OAK_CORNER = registerBlock("stained_dark_oak_corner",
+            () -> new CornerLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_JUNGLE_CORNER = registerBlock("stained_jungle_corner",
+            () -> new CornerLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_OAK_CORNER = registerBlock("stained_oak_corner",
+            () -> new CornerLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_SPRUCE_CORNER = registerBlock("stained_spruce_corner",
+            () -> new CornerLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_ACACIA_CORNER_SLAB = registerBlock("stained_acacia_corner_slab",
+            () -> new CornerSlabBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_BIRCH_CORNER_SLAB = registerBlock("stained_birch_corner_slab",
+            () -> new CornerSlabBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_DARK_OAK_CORNER_SLAB = registerBlock("stained_dark_oak_corner_slab",
+            () -> new CornerSlabBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_JUNGLE_CORNER_SLAB = registerBlock("stained_jungle_corner_slab",
+            () -> new CornerSlabBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_OAK_CORNER_SLAB = registerBlock("stained_oak_corner_slab",
+            () -> new CornerSlabBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_SPRUCE_CORNER_SLAB = registerBlock("stained_spruce_corner_slab",
+            () -> new CornerSlabBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_ACACIA_CORNER_SLAB_VERTICAL = registerBlock("stained_acacia_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_BIRCH_CORNER_SLAB_VERTICAL = registerBlock("stained_birch_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_DARK_OAK_CORNER_SLAB_VERTICAL = registerBlock("stained_dark_oak_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_JUNGLE_CORNER_SLAB_VERTICAL = registerBlock("stained_jungle_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_OAK_CORNER_SLAB_VERTICAL = registerBlock("stained_oak_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_SPRUCE_CORNER_SLAB_VERTICAL = registerBlock("stained_spruce_corner_slab_vertical",
+            () -> new VerticalCornerSlabBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_ACACIA_DOOR_FRAME = registerBlock("stained_acacia_door_frame",
+            () -> new DoorFrameBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_BIRCH_DOOR_FRAME = registerBlock("stained_birch_door_frame",
+            () -> new DoorFrameBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_DARK_OAK_DOOR_FRAME = registerBlock("stained_dark_oak_door_frame",
+            () -> new DoorFrameBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_JUNGLE_DOOR_FRAME = registerBlock("stained_jungle_door_frame",
+            () -> new DoorFrameBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_OAK_DOOR_FRAME = registerBlock("stained_oak_door_frame",
+            () -> new DoorFrameBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_SPRUCE_DOOR_FRAME = registerBlock("stained_spruce_door_frame",
+            () -> new DoorFrameBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_ACACIA_DOOR_FRAME_LINTEL = registerBlock("stained_acacia_door_frame_lintel",
+            () -> new DoorFrameLintelBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_BIRCH_DOOR_FRAME_LINTEL = registerBlock("stained_birch_door_frame_lintel",
+            () -> new DoorFrameLintelBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_DARK_OAK_DOOR_FRAME_LINTEL = registerBlock("stained_dark_oak_door_frame_lintel",
+            () -> new DoorFrameLintelBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_JUNGLE_DOOR_FRAME_LINTEL = registerBlock("stained_jungle_door_frame_lintel",
+            () -> new DoorFrameLintelBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_OAK_DOOR_FRAME_LINTEL = registerBlock("stained_oak_door_frame_lintel",
+            () -> new DoorFrameLintelBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_SPRUCE_DOOR_FRAME_LINTEL = registerBlock("stained_spruce_door_frame_lintel",
+            () -> new DoorFrameLintelBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_ACACIA_EIGHTH = registerBlock("stained_acacia_eighth",
+            () -> new EighthBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_BIRCH_EIGHTH = registerBlock("stained_birch_eighth",
+            () -> new EighthBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_DARK_OAK_EIGHTH = registerBlock("stained_dark_oak_eighth",
+            () -> new EighthBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_JUNGLE_EIGHTH = registerBlock("stained_jungle_eighth",
+            () -> new EighthBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_OAK_EIGHTH = registerBlock("stained_oak_eighth",
+            () -> new EighthBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_SPRUCE_EIGHTH = registerBlock("stained_spruce_eighth",
+            () -> new EighthBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_ACACIA_PILLAR = registerBlock("stained_acacia_pillar",
+            () -> new PillarLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_BIRCH_PILLAR = registerBlock("stained_birch_pillar",
+            () -> new PillarLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_DARK_OAK_PILLAR = registerBlock("stained_dark_oak_pillar",
+            () -> new PillarLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_JUNGLE_PILLAR = registerBlock("stained_jungle_pillar",
+            () -> new PillarLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_OAK_PILLAR = registerBlock("stained_oak_pillar",
+            () -> new PillarLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_SPRUCE_PILLAR = registerBlock("stained_spruce_pillar",
+            () -> new PillarLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_ACACIA_QUARTER = registerBlock("stained_acacia_quarter",
+            () -> new QuarterLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_BIRCH_QUARTER = registerBlock("stained_birch_quarter",
+            () -> new QuarterLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_DARK_OAK_QUARTER = registerBlock("stained_dark_oak_quarter",
+            () -> new QuarterLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_JUNGLE_QUARTER = registerBlock("stained_jungle_quarter",
+            () -> new QuarterLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_OAK_QUARTER = registerBlock("stained_oak_quarter",
+            () -> new QuarterLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_SPRUCE_QUARTER = registerBlock("stained_spruce_quarter",
+            () -> new QuarterLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_ACACIA_QUARTER_VERTICAL = registerBlock("stained_acacia_quarter_vertical",
+            () -> new VerticalQuarterLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_BIRCH_QUARTER_VERTICAL = registerBlock("stained_birch_quarter_vertical",
+            () -> new VerticalQuarterLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_DARK_OAK_QUARTER_VERTICAL = registerBlock("stained_dark_oak_quarter_vertical",
+            () -> new VerticalQuarterLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_JUNGLE_QUARTER_VERTICAL = registerBlock("stained_jungle_quarter_vertical",
+            () -> new VerticalQuarterLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_OAK_QUARTER_VERTICAL = registerBlock("stained_oak_quarter_vertical",
+            () -> new VerticalQuarterLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_SPRUCE_QUARTER_VERTICAL = registerBlock("stained_spruce_quarter_vertical",
+            () -> new VerticalQuarterLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_ACACIA_SLAB = registerBlock("stained_acacia_slab",
+            () -> new SlabLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_BIRCH_SLAB = registerBlock("stained_birch_slab",
+            () -> new SlabLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_DARK_OAK_SLAB = registerBlock("stained_dark_oak_slab",
+            () -> new SlabLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_JUNGLE_SLAB = registerBlock("stained_jungle_slab",
+            () -> new SlabLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_OAK_SLAB = registerBlock("stained_oak_slab",
+            () -> new SlabLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_SPRUCE_SLAB = registerBlock("stained_spruce_slab",
+            () -> new SlabLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_ACACIA_SLAB_VERTICAL = registerBlock("stained_acacia_slab_vertical",
+            () -> new VerticalSlabLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_BIRCH_SLAB_VERTICAL = registerBlock("stained_birch_slab_vertical",
+            () -> new VerticalSlabLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_DARK_OAK_SLAB_VERTICAL = registerBlock("stained_dark_oak_slab_vertical",
+            () -> new VerticalSlabLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_JUNGLE_SLAB_VERTICAL = registerBlock("stained_jungle_slab_vertical",
+            () -> new VerticalSlabLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_OAK_SLAB_VERTICAL = registerBlock("stained_oak_slab_vertical",
+            () -> new VerticalSlabLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_SPRUCE_SLAB_VERTICAL = registerBlock("stained_spruce_slab_vertical",
+            () -> new VerticalSlabLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_ACACIA_STAIRS = registerBlock("stained_acacia_stairs",
+            () -> new StairBlock(() -> ModBlocks.STAINED_ACACIA_WOOD.get().defaultBlockState(), BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_BIRCH_STAIRS = registerBlock("stained_birch_stairs",
+            () -> new StairBlock(() -> ModBlocks.STAINED_BIRCH_WOOD.get().defaultBlockState(), BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_DARK_OAK_STAIRS = registerBlock("stained_dark_oak_stairs",
+            () -> new StairBlock(() -> ModBlocks.STAINED_DARK_OAK_WOOD.get().defaultBlockState(), BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_JUNGLE_STAIRS = registerBlock("stained_jungle_stairs",
+            () -> new StairBlock(() -> ModBlocks.STAINED_JUNGLE_WOOD.get().defaultBlockState(), BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_OAK_STAIRS = registerBlock("stained_oak_stairs",
+            () -> new StairBlock(() -> ModBlocks.STAINED_OAK_WOOD.get().defaultBlockState(), BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_SPRUCE_STAIRS = registerBlock("stained_spruce_stairs",
+            () -> new StairBlock(() -> ModBlocks.STAINED_SPRUCE_WOOD.get().defaultBlockState(), BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_ACACIA_WALL = registerBlock("stained_acacia_wall",
+            () -> new WallBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_BIRCH_WALL = registerBlock("stained_birch_wall",
+            () -> new WallBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_DARK_OAK_WALL = registerBlock("stained_dark_oak_wall",
+            () -> new WallBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_JUNGLE_WALL = registerBlock("stained_jungle_wall",
+            () -> new WallBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_OAK_WALL = registerBlock("stained_oak_wall",
+            () -> new WallBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_SPRUCE_WALL = registerBlock("stained_spruce_wall",
+            () -> new WallBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_ACACIA_WINDOW = registerBlock("stained_acacia_window",
+            () -> new WindowBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_BIRCH_WINDOW = registerBlock("stained_birch_window",
+            () -> new WindowBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_DARK_OAK_WINDOW = registerBlock("stained_dark_oak_window",
+            () -> new WindowBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_JUNGLE_WINDOW = registerBlock("stained_jungle_window",
+            () -> new WindowBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_OAK_WINDOW = registerBlock("stained_oak_window",
+            () -> new WindowBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_SPRUCE_WINDOW = registerBlock("stained_spruce_window",
+            () -> new WindowBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_ACACIA_WINDOW_HALF = registerBlock("stained_acacia_window_half",
+            () -> new HalfWindowBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_BIRCH_WINDOW_HALF = registerBlock("stained_birch_window_half",
+            () -> new HalfWindowBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_DARK_OAK_WINDOW_HALF = registerBlock("stained_dark_oak_window_half",
+            () -> new HalfWindowBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_JUNGLE_WINDOW_HALF = registerBlock("stained_jungle_window_half",
+            () -> new HalfWindowBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_OAK_WINDOW_HALF = registerBlock("stained_oak_window_half",
+            () -> new HalfWindowBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> STAINED_SPRUCE_WINDOW_HALF = registerBlock("stained_spruce_window_half",
+            () -> new HalfWindowBlock(BlockProps.PLANK.get()));
+
+    /* Planks */
     public static final RegistryObject<Block> ACACIA_BALUSTRADE = registerBlock("acacia_balustrade",
             () -> new BalustradeBlock(BlockProps.PLANK.get()));
     public static final RegistryObject<Block> BIRCH_BALUSTRADE = registerBlock("birch_balustrade",
@@ -3569,18 +4093,6 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
             () -> new CornerSlabBlock(BlockProps.PLANK.get()));
     public static final RegistryObject<Block> SPRUCE_CORNER_SLAB = registerBlock("spruce_corner_slab",
             () -> new CornerSlabBlock(BlockProps.PLANK.get()));
-    public static final RegistryObject<Block> ACACIA_SLAB = registerBlock("acacia_slab",
-            () -> new SlabLayerBlock(BlockProps.PLANK.get()));
-    public static final RegistryObject<Block> BIRCH_SLAB = registerBlock("birch_slab",
-            () -> new SlabLayerBlock(BlockProps.PLANK.get()));
-    public static final RegistryObject<Block> DARK_OAK_SLAB = registerBlock("dark_oak_slab",
-            () -> new SlabLayerBlock(BlockProps.PLANK.get()));
-    public static final RegistryObject<Block> JUNGLE_SLAB = registerBlock("jungle_slab",
-            () -> new SlabLayerBlock(BlockProps.PLANK.get()));
-    public static final RegistryObject<Block> OAK_SLAB = registerBlock("oak_slab",
-            () -> new SlabLayerBlock(BlockProps.PLANK.get()));
-    public static final RegistryObject<Block> SPRUCE_SLAB = registerBlock("spruce_slab",
-            () -> new SlabLayerBlock(BlockProps.PLANK.get()));
     public static final RegistryObject<Block> ACACIA_CORNER_SLAB_VERTICAL = registerBlock("acacia_corner_slab_vertical",
             () -> new VerticalCornerSlabBlock(BlockProps.PLANK.get()));
     public static final RegistryObject<Block> BIRCH_CORNER_SLAB_VERTICAL = registerBlock("birch_corner_slab_vertical",
@@ -3641,6 +4153,18 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
             () -> new VerticalQuarterLayerBlock(BlockProps.PLANK.get()));
     public static final RegistryObject<Block> SPRUCE_QUARTER_VERTICAL = registerBlock("spruce_quarter_vertical",
             () -> new VerticalQuarterLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> ACACIA_SLAB = registerBlock("acacia_slab",
+            () -> new SlabLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> BIRCH_SLAB = registerBlock("birch_slab",
+            () -> new SlabLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> DARK_OAK_SLAB = registerBlock("dark_oak_slab",
+            () -> new SlabLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> JUNGLE_SLAB = registerBlock("jungle_slab",
+            () -> new SlabLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> OAK_SLAB = registerBlock("oak_slab",
+            () -> new SlabLayerBlock(BlockProps.PLANK.get()));
+    public static final RegistryObject<Block> SPRUCE_SLAB = registerBlock("spruce_slab",
+            () -> new SlabLayerBlock(BlockProps.PLANK.get()));
     public static final RegistryObject<Block> ACACIA_SLAB_VERTICAL = registerBlock("acacia_slab_vertical",
             () -> new VerticalSlabLayerBlock(BlockProps.PLANK.get()));
     public static final RegistryObject<Block> BIRCH_SLAB_VERTICAL = registerBlock("birch_slab_vertical",
