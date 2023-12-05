@@ -4,6 +4,7 @@ import com.calibermc.caliber.Caliber;
 import com.calibermc.caliber.block.custom.*;
 import com.calibermc.caliber.block.custom.terrain.*;
 import com.calibermc.caliber.item.ModItems;
+import com.calibermc.caliber.item.custom.Hammer;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.resources.ResourceLocation;
@@ -82,32 +83,19 @@ public class ModItemModelProvider extends ItemModelProvider {
                 .filter(itemRegistryObject -> {
                     // Check if the item's registry name is in the Caliber.MOD_ID namespace
                     ResourceLocation registryName = itemRegistryObject.getId();
-                    boolean isCaliberNamespace = registryName != null && Caliber.MOD_ID.equals(registryName.getNamespace());
+                    boolean isModItem = registryName != null && Caliber.MOD_ID.equals(registryName.getNamespace());
 
-                    // Check if the item is exactly an instance of Item.class, not a subclass
-                    boolean isBaseItemClass = itemRegistryObject.get().getClass() == Item.class;
+                    // Check if the item is exactly an instance of Item.class or Hammer.class
+                    Class<?> itemClass = itemRegistryObject.get().getClass();
+                    boolean isBaseOrHammerItemClass = itemClass == Item.class || itemClass == Hammer.class;
 
-                    return isCaliberNamespace && isBaseItemClass;
+                    return isModItem && isBaseOrHammerItemClass;
                 })
                 .forEach(itemRegistryObject -> {
                     // Use the RegistryObject<Item> here
                     simpleItem(itemRegistryObject);
                 });
     }
-
-//    private void itemModels() {
-//        // Register Item Models
-//        ForgeRegistries.ITEMS.getValues().stream()
-//                .filter(item -> item.getRegistryName() != null && item.getRegistryName().getNamespace().equals(Caliber.MOD_ID))
-//                .forEach(item -> {
-////                    String itemName = item.getRegistryName().getPath();
-//                    item = ForgeRegistries.ITEMS.getValue(item.getRegistryName());
-//                    simpleItem(item);
-//                });
-//
-//        simpleItem(ModItems.SILVER_INGOT);
-//    }
-
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(),
