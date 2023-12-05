@@ -3,6 +3,7 @@ package com.calibermc.caliber.data.datagen;
 import com.calibermc.caliber.Caliber;
 import com.calibermc.caliber.data.datagen.recipes.*;
 import net.minecraft.data.DataGenerator;
+import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -15,20 +16,24 @@ public class DataGenerators {
         DataGenerator generator = event.getGenerator();
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
 
+        // BlockStates, Loot and Models
+        generator.addProvider(new ModBlockStateProvider(generator, existingFileHelper));
+        generator.addProvider(new ModLootTableProvider(generator));
+        generator.addProvider(new ModItemModelProvider(generator, existingFileHelper));
+
+
+
+        // Recipes
         generator.addProvider(new StoneRecipeProvider(generator));
-        generator.addProvider(new GraniteMarbleCustomRecipeProvider(generator));
-        generator.addProvider(new LimestoneSandstoneCustomRecipeProvider(generator));
+        generator.addProvider(new WoodRecipeProvider(generator));
         generator.addProvider(new MossyBlockRecipeProvider(generator));
+        generator.addProvider(new PreciousMaterialsRecipeProvider(generator));
+
         generator.addProvider(new MiscRecipeProvider(generator));
         generator.addProvider(new TudorBlockRecipeProvider(generator));
-        generator.addProvider(new Tudor2BlockRecipeProvider(generator));
-        generator.addProvider(new VanillaCustomRecipeProvider(generator));
-        generator.addProvider(new OresGemsRecipeProvider(generator));
+
         generator.addProvider(new ItemRecipeProvider(generator));
-        generator.addProvider(new WoodRecipeProvider(generator));
-//        generator.addProvider(new ModRecipeProviderWood(generator));
-        generator.addProvider(new ModLootTableProvider(generator));
-        generator.addProvider(new ModBlockStateProvider(generator, existingFileHelper));
-//        generator.addProvider(new ItemModelProvider(generator, existingFileHelper));
+
+
     }
 }

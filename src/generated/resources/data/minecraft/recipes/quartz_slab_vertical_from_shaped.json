@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    " G ",
+    " G "
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:quartz_block"
+    }
+  },
+  "result": {
+    "item": "caliber:quartz_slab_vertical",
+    "count": 24
+  }
+}

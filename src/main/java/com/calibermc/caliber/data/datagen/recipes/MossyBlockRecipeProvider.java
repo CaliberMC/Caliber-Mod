@@ -19,8 +19,11 @@ public class MossyBlockRecipeProvider extends RecipeProvider implements IConditi
     
     @Override
     protected void buildCraftingRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
+        mossyLimestoneBrickRecipes(pFinishedRecipeConsumer);
+        mossyCobbledLimestoneRecipes(pFinishedRecipeConsumer);
+    }
 
-        /* MOSSY LIMESTONE BRICK BLOCKS */
+    private void mossyLimestoneBrickRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
         /* Mossy Limestone Bricks */
         ShapelessRecipeBuilder.shapeless(ModBlocks.MOSSY_DARK_LIMESTONE_BRICKS.get(), 1).requires(ModBlocks.DARK_LIMESTONE_BRICKS.get()).requires(Items.VINE).unlockedBy("has_dark_limestone_bricks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.DARK_LIMESTONE_BRICKS.get()).build())).save(pFinishedRecipeConsumer, "mossy_dark_limestone_bricks_from_dark_limestone_bricks_and_vines");
@@ -378,9 +381,9 @@ public class MossyBlockRecipeProvider extends RecipeProvider implements IConditi
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE_BRICK_WINDOW_HALF.get()).build())).save(pFinishedRecipeConsumer, "mossy_tan_limestone_brick_window_half_from_tan_limestone_brick_window_half_and_vines");
         ShapelessRecipeBuilder.shapeless(ModBlocks.MOSSY_TAN_LIMESTONE_BRICK_WINDOW_HALF.get(), 1).requires(ModBlocks.TAN_LIMESTONE_BRICK_WINDOW_HALF.get()).requires(Items.MOSS_BLOCK).unlockedBy("has_tan_limestone_brick_window_half",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE_BRICK_WINDOW_HALF.get()).build())).save(pFinishedRecipeConsumer, "mossy_tan_limestone_brick_window_half_from_tan_limestone_brick_window_half_and_moss");
+    }
 
-
-        /* MOSSY LIMESTONE BRICK BLOCKS */
+    private void mossyCobbledLimestoneRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
         /* Mossy Limestone Bricks */
         ShapelessRecipeBuilder.shapeless(ModBlocks.MOSSY_COBBLED_DARK_LIMESTONE.get(), 1).requires(ModBlocks.DARK_LIMESTONE.get()).requires(Items.VINE).unlockedBy("has_dark_limestone",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.DARK_LIMESTONE.get()).build())).save(pFinishedRecipeConsumer, "mossy_cobbled_dark_limestone_from_dark_limestone_and_vines");
@@ -738,7 +741,6 @@ public class MossyBlockRecipeProvider extends RecipeProvider implements IConditi
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE_WINDOW_HALF.get()).build())).save(pFinishedRecipeConsumer, "mossy_cobbled_tan_limestone_window_half_from_tan_limestone_window_half_and_vines");
         ShapelessRecipeBuilder.shapeless(ModBlocks.MOSSY_COBBLED_TAN_LIMESTONE_WINDOW_HALF.get(), 1).requires(ModBlocks.TAN_LIMESTONE_WINDOW_HALF.get()).requires(Items.MOSS_BLOCK).unlockedBy("has_tan_limestone_window_half",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.TAN_LIMESTONE_WINDOW_HALF.get()).build())).save(pFinishedRecipeConsumer, "mossy_cobbled_tan_limestone_window_half_from_tan_limestone_window_half_and_moss");
-
     }
 
 }

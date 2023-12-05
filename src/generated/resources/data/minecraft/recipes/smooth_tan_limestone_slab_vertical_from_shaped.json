@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " L ",
+    " L ",
+    " L "
+  ],
+  "key": {
+    "L": {
+      "item": "caliber:smooth_tan_limestone"
+    }
+  },
+  "result": {
+    "item": "caliber:smooth_tan_limestone_slab_vertical",
+    "count": 24
+  }
+}

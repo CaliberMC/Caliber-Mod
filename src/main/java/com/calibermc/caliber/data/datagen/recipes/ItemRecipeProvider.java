@@ -19,20 +19,33 @@ public class ItemRecipeProvider extends RecipeProvider implements IConditionBuil
     
     @Override
     protected void buildCraftingRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
+        armorRecipes(pFinishedRecipeConsumer);
+        consumableRecipes(pFinishedRecipeConsumer);
+        toolRecipes(pFinishedRecipeConsumer);
+        weaponRecipes(pFinishedRecipeConsumer);
+    }
 
-        /* Tools */
-        ShapedRecipeBuilder.shaped(ModItems.HAMMER.get(), 1).define('L', Items.LEATHER).define('S', Items.STICK).define('I', Items.IRON_INGOT).pattern(" L ").pattern(" S ").pattern("II ").unlockedBy("has_iron_ingot",
-                inventoryTrigger(ItemPredicate.Builder.item().of(Items.IRON_INGOT).build())).save(pFinishedRecipeConsumer, "hammer_from_shaped_iron_ingot_stick_leather");
+    private void armorRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
+        /* Armor */
 
+    }
+
+    private void consumableRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
         /* Consumables */
         ShapedRecipeBuilder.shaped(ModItems.NAILS.get(), 10).define('I', Items.IRON_INGOT).pattern(" I ").pattern(" I ").unlockedBy("has_iron_ingot",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Items.IRON_INGOT).build())).save(pFinishedRecipeConsumer, "nails_from_shaped_iron_ingots");
-
-        /* Weapons */
-
-        /* Armor */
-
-
     }
+
+    private void toolRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
+        /* Tools */
+        ShapedRecipeBuilder.shaped(ModItems.HAMMER.get(), 1).define('L', Items.LEATHER).define('S', Items.STICK).define('I', Items.IRON_INGOT).pattern(" L ").pattern(" S ").pattern("II ").unlockedBy("has_iron_ingot",
+                inventoryTrigger(ItemPredicate.Builder.item().of(Items.IRON_INGOT).build())).save(pFinishedRecipeConsumer, "hammer_from_shaped_iron_ingot_stick_leather");
+    }
+
+    private void weaponRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
+        /* Weapons */
+    }
+
+
 
 }

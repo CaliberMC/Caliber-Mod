@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "caliber:brown_sandstone"
+    }
+  },
+  "result": {
+    "item": "caliber:cut_brown_sandstone_slab_vertical",
+    "count": 6
+  }
+}

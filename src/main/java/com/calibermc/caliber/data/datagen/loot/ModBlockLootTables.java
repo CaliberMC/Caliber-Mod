@@ -4,16 +4,36 @@ import com.calibermc.caliber.block.ModBlocks;
 import com.calibermc.caliber.item.ModItems;
 import net.minecraft.data.loot.BlockLoot;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.registries.RegistryObject;
 
 public class ModBlockLootTables extends BlockLoot {
     @Override
     protected void addTables() {
+        craftingTables();
+        metalsAndOres();
+        andesiteBlocks();
+        basaltBlocks();
+        blackstoneBlocks();
+        deepslateBlocks();
+        dioriteBlocks();
+        graniteBlocks();
+        limestoneBlocks();
+        marbleBlocks();
+        quartzBlocks();
+        sandstoneBlocks();
+        terrainBlocks();
+        woodBlocks();
+        plasterBlocks();
+        tudorBlocks();
+    }
 
+    private void craftingTables() {
         this.dropSelf(ModBlocks.KILN.get());
         this.dropSelf(ModBlocks.WOODCUTTER.get());
+    }
 
-        // -- ORES
+    private void metalsAndOres() {
         this.dropSelf(ModBlocks.BRONZE_BLOCK.get());
 
         add(ModBlocks.TIN_ORE.get(), (Block) ->
@@ -29,8 +49,9 @@ public class ModBlockLootTables extends BlockLoot {
                 createOreDrop(ModBlocks.DEEPSLATE_SILVER_ORE.get(), ModItems.RAW_SILVER.get()));
         this.dropSelf(ModBlocks.SILVER_BLOCK.get());
         this.dropSelf(ModBlocks.RAW_SILVER_BLOCK.get());
+    }
 
-        // -- ANDESITE
+    private void andesiteBlocks() {
         this.dropSelf(ModBlocks.ANDESITE_ARCH.get());
         this.dropSelf(ModBlocks.ANDESITE_ARCH_HALF.get());
         this.dropSelf(ModBlocks.ANDESITE_ARCH_LARGE.get());
@@ -69,8 +90,9 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.POLISHED_ANDESITE_WALL.get());
         this.dropSelf(ModBlocks.POLISHED_ANDESITE_WINDOW.get());
         this.dropSelf(ModBlocks.POLISHED_ANDESITE_WINDOW_HALF.get());
+    }
 
-        // -- BASALT
+    private void basaltBlocks() {
         this.dropSelf(ModBlocks.BASALT_ARCH.get());
         this.dropSelf(ModBlocks.BASALT_ARCH_HALF.get());
         this.dropSelf(ModBlocks.BASALT_ARCH_LARGE.get());
@@ -133,8 +155,9 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.POLISHED_BASALT_WALL.get());
         this.dropSelf(ModBlocks.POLISHED_BASALT_WINDOW.get());
         this.dropSelf(ModBlocks.POLISHED_BASALT_WINDOW_HALF.get());
-        
-        // -- BLACKSTONE
+    }
+
+    private void blackstoneBlocks() {
         this.dropSelf(ModBlocks.BLACKSTONE_ARCH.get());
         this.dropSelf(ModBlocks.BLACKSTONE_ARCH_HALF.get());
         this.dropSelf(ModBlocks.BLACKSTONE_ARCH_LARGE.get());
@@ -212,8 +235,9 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.POLISHED_BLACKSTONE_BRICK_SLAB_VERTICAL.get());
         this.dropSelf(ModBlocks.POLISHED_BLACKSTONE_BRICK_WINDOW.get());
         this.dropSelf(ModBlocks.POLISHED_BLACKSTONE_BRICK_WINDOW_HALF.get());
+    }
 
-        // -- DEEPSLATE
+    private void deepslateBlocks() {
         this.dropSelf(ModBlocks.DEEPSLATE_ARCH.get());
         this.dropSelf(ModBlocks.DEEPSLATE_ARCH_HALF.get());
         this.dropSelf(ModBlocks.DEEPSLATE_ARCH_LARGE.get());
@@ -310,8 +334,9 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.POLISHED_DEEPSLATE_SLAB_VERTICAL.get());
         this.dropSelf(ModBlocks.POLISHED_DEEPSLATE_WINDOW.get());
         this.dropSelf(ModBlocks.POLISHED_DEEPSLATE_WINDOW_HALF.get());
+    }
 
-        // -- DIORITE
+    private void dioriteBlocks() {
         this.dropSelf(ModBlocks.DIORITE_ARCH.get());
         this.dropSelf(ModBlocks.DIORITE_ARCH_HALF.get());
         this.dropSelf(ModBlocks.DIORITE_ARCH_LARGE.get());
@@ -350,8 +375,9 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.POLISHED_DIORITE_WALL.get());
         this.dropSelf(ModBlocks.POLISHED_DIORITE_WINDOW.get());
         this.dropSelf(ModBlocks.POLISHED_DIORITE_WINDOW_HALF.get());
-        
-        // -- GRANITE
+    }
+
+    private void graniteBlocks() {
         this.dropSelf(ModBlocks.BLACK_GRANITE.get());
         this.dropSelf(ModBlocks.BROWN_GRANITE.get());
         this.dropSelf(ModBlocks.GRAY_GRANITE.get());
@@ -403,7 +429,7 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.BROWN_GRANITE_CORNER.get());
         this.dropSelf(ModBlocks.GRAY_GRANITE_CORNER.get());
         this.dropSelf(ModBlocks.PINK_GRANITE_CORNER.get());
-        this.dropSelf(ModBlocks.RED_GRANITE_CORNER.get());        
+        this.dropSelf(ModBlocks.RED_GRANITE_CORNER.get());
         this.dropSelf(ModBlocks.WHITE_GRANITE_CORNER.get());
         this.dropSelf(ModBlocks.BLACK_GRANITE_CORNER_SLAB.get());
         this.dropSelf(ModBlocks.BROWN_GRANITE_CORNER_SLAB.get());
@@ -475,7 +501,7 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.PINK_GRANITE_WINDOW_HALF.get());
         this.dropSelf(ModBlocks.RED_GRANITE_WINDOW_HALF.get());
         this.dropSelf(ModBlocks.WHITE_GRANITE_WINDOW_HALF.get());
-        
+
         this.dropSelf(ModBlocks.POLISHED_BLACK_GRANITE.get());
         this.dropSelf(ModBlocks.POLISHED_BROWN_GRANITE.get());
         this.dropSelf(ModBlocks.POLISHED_GRAY_GRANITE.get());
@@ -600,8 +626,9 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.POLISHED_PINK_GRANITE_WINDOW_HALF.get());
         this.dropSelf(ModBlocks.POLISHED_RED_GRANITE_WINDOW_HALF.get());
         this.dropSelf(ModBlocks.POLISHED_WHITE_GRANITE_WINDOW_HALF.get());
-        
-        // -- LIMESTONE
+    }
+
+    private void limestoneBlocks() {
         this.add(ModBlocks.DARK_LIMESTONE.get(), (block) ->
                 createSingleItemTableWithSilkTouch(ModBlocks.DARK_LIMESTONE.get(), ModBlocks.COBBLED_DARK_LIMESTONE.get()));
         this.add(ModBlocks.LIGHT_LIMESTONE.get(), (block) ->
@@ -1244,7 +1271,9 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.SMOOTH_LIMESTONE_WINDOW_HALF.get());
         this.dropSelf(ModBlocks.SMOOTH_PINK_LIMESTONE_WINDOW_HALF.get());
         this.dropSelf(ModBlocks.SMOOTH_TAN_LIMESTONE_WINDOW_HALF.get());
+    }
 
+    private void marbleBlocks() {
         // -- MARBLE
         this.dropSelf(ModBlocks.BLACK_MARBLE.get());
         this.dropSelf(ModBlocks.GRAY_MARBLE.get());
@@ -1457,7 +1486,9 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.POLISHED_PINK_MARBLE_WINDOW_HALF.get());
         this.dropSelf(ModBlocks.POLISHED_RED_MARBLE_WINDOW_HALF.get());
         this.dropSelf(ModBlocks.POLISHED_WHITE_MARBLE_WINDOW_HALF.get());
+    }
 
+    private void quartzBlocks() {
         // -- QUARTZ
         this.dropSelf(ModBlocks.QUARTZ_ARCH.get());
         this.dropSelf(ModBlocks.QUARTZ_ARCH_HALF.get());
@@ -1498,8 +1529,9 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.SMOOTH_QUARTZ_WALL.get());
         this.dropSelf(ModBlocks.SMOOTH_QUARTZ_WINDOW.get());
         this.dropSelf(ModBlocks.SMOOTH_QUARTZ_WINDOW_HALF.get());
+    }
 
-        // -- SANDSTONE
+    private void sandstoneBlocks() {
         this.dropSelf(ModBlocks.BROWN_SANDSTONE.get());
         this.dropSelf(ModBlocks.ORANGE_SANDSTONE.get());
         this.dropSelf(ModBlocks.BROWN_SANDSTONE_ARCH.get());
@@ -1578,7 +1610,7 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.ORANGE_SANDSTONE_WINDOW_HALF.get());
         this.dropSelf(ModBlocks.RED_SANDSTONE_WINDOW_HALF.get());
         this.dropSelf(ModBlocks.SANDSTONE_WINDOW_HALF.get());
-        
+
         this.dropSelf(ModBlocks.CHISELED_BROWN_SANDSTONE.get());
         this.dropSelf(ModBlocks.CHISELED_ORANGE_SANDSTONE.get());
 
@@ -1729,8 +1761,6 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.SMOOTH_SANDSTONE_SLAB.get());
         this.dropSelf(ModBlocks.SMOOTH_BROWN_SANDSTONE_STAIRS.get());
         this.dropSelf(ModBlocks.SMOOTH_ORANGE_SANDSTONE_STAIRS.get());
-//        this.dropSelf(ModBlocks.SMOOTH_RED_SANDSTONE_STAIRS.get()); // Minecraft?
-//        this.dropSelf(ModBlocks.SMOOTH_SANDSTONE_STAIRS.get());
         this.dropSelf(ModBlocks.SMOOTH_BROWN_SANDSTONE_SLAB_VERTICAL.get());
         this.dropSelf(ModBlocks.SMOOTH_ORANGE_SANDSTONE_SLAB_VERTICAL.get());
         this.dropSelf(ModBlocks.SMOOTH_RED_SANDSTONE_SLAB_VERTICAL.get());
@@ -1747,8 +1777,9 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.SMOOTH_ORANGE_SANDSTONE_WINDOW_HALF.get());
         this.dropSelf(ModBlocks.SMOOTH_RED_SANDSTONE_WINDOW_HALF.get());
         this.dropSelf(ModBlocks.SMOOTH_SANDSTONE_WINDOW_HALF.get());
+    }
 
-        // -- TERRAIN
+    private void terrainBlocks() {
         this.dropSelf(ModBlocks.BLACK_SAND.get());
         this.dropSelf(ModBlocks.BROWN_SAND.get());
         this.dropSelf(ModBlocks.ORANGE_SAND.get());
@@ -1773,7 +1804,9 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.SOUL_SOIL_LAYER.get());
         this.dropSelf(ModBlocks.CRIMSON_NYLIUM_LAYER.get());
         this.dropSelf(ModBlocks.WARPED_NYLIUM_LAYER.get());
-        
+    }
+
+    private void woodBlocks() {
         // -- STRIPPED WOOD
         this.dropSelf(ModBlocks.STRIPPED_ACACIA_BALUSTRADE.get());
         this.dropSelf(ModBlocks.STRIPPED_BIRCH_BALUSTRADE.get());
@@ -1901,7 +1934,7 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.STRIPPED_JUNGLE_WINDOW_HALF.get());
         this.dropSelf(ModBlocks.STRIPPED_OAK_WINDOW_HALF.get());
         this.dropSelf(ModBlocks.STRIPPED_SPRUCE_WINDOW_HALF.get());
-        
+
         // -- STAINED WOOD
         this.dropSelf(ModBlocks.STAINED_ACACIA_WOOD.get());
         this.dropSelf(ModBlocks.STAINED_BIRCH_WOOD.get());
@@ -2035,7 +2068,7 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.STAINED_JUNGLE_WINDOW_HALF.get());
         this.dropSelf(ModBlocks.STAINED_OAK_WINDOW_HALF.get());
         this.dropSelf(ModBlocks.STAINED_SPRUCE_WINDOW_HALF.get());
-        
+
         // -- WOOD PLANKS
         this.dropSelf(ModBlocks.ACACIA_BALUSTRADE.get());
         this.dropSelf(ModBlocks.BIRCH_BALUSTRADE.get());
@@ -2121,7 +2154,9 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.JUNGLE_WINDOW_HALF.get());
         this.dropSelf(ModBlocks.OAK_WINDOW_HALF.get());
         this.dropSelf(ModBlocks.SPRUCE_WINDOW_HALF.get());
+    }
 
+    private void plasterBlocks() {
         this.dropSelf(ModBlocks.BEIGE_PLASTER.get());
         this.dropSelf(ModBlocks.BROWN_PLASTER.get());
         this.dropSelf(ModBlocks.OCHRE_PLASTER.get());
@@ -2233,7 +2268,9 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.OCHRE_PLASTER_POWDER.get());
         this.dropSelf(ModBlocks.TAN_PLASTER_POWDER.get());
         this.dropSelf(ModBlocks.WHITE_PLASTER_POWDER.get());
+    }
 
+    private void tudorBlocks() {
         this.dropSelf(ModBlocks.TUDOR_ACACIA_BEIGE_PLASTER_CROSS.get());
         this.dropSelf(ModBlocks.TUDOR_ACACIA_BEIGE_PLASTER_DOWN.get());
         this.dropSelf(ModBlocks.TUDOR_ACACIA_BEIGE_PLASTER_UP.get());

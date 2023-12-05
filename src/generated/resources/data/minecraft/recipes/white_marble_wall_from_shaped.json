@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "caliber:white_marble"
+    }
+  },
+  "result": {
+    "item": "caliber:white_marble_wall",
+    "count": 6
+  }
+}

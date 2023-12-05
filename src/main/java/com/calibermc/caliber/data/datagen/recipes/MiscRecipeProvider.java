@@ -30,16 +30,21 @@ public class MiscRecipeProvider extends RecipeProvider implements IConditionBuil
     
     @Override
     protected void buildCraftingRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
-//        Ingredient smoothStoneIngredient = Ingredient.of(ModTags.Blocks.smoothStone);
+        craftingTableRecipes(pFinishedRecipeConsumer);
+        plasterRecipes(pFinishedRecipeConsumer);
 
-        /* CRAFTING */
+    }
+
+
+    private void craftingTableRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
         /* Crafting Tables */
-        ShapedRecipeBuilder.shaped(ModBlocks.WOODCUTTER.get(), 1).define('I', Items.IRON_INGOT).define('S', Blocks.STONE).pattern(" I ").pattern("SSS").unlockedBy("has_iron_ingot",
+        ShapedRecipeBuilder.shaped(ModBlocks.WOODCUTTER.get(), 1).define('I', Items.IRON_INGOT).define('S', Blocks.SMOOTH_STONE).pattern(" I ").pattern("SSS").unlockedBy("has_iron_ingot",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Items.IRON_INGOT).build())).save(pFinishedRecipeConsumer, "woodcutter_from_shaped_iron_ingot_stone");
         ShapedRecipeBuilder.shaped(ModBlocks.KILN.get(), 1).define('I', Items.IRON_INGOT).define('X', Blocks.BLAST_FURNACE).define('#', Blocks.SMOOTH_STONE).pattern("III").pattern("IXI").pattern("###").unlockedBy("has_blast_furnace",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.BLAST_FURNACE).build())).save(pFinishedRecipeConsumer, "kiln_from_shaped_iron_ingots_blast_furnace_smooth_stone_variant");
+    }
 
-        /* PLASTER */
+    private void plasterRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
         /* Plaster Powder */
         ShapelessRecipeBuilder.shapeless(ModBlocks.BEIGE_PLASTER_POWDER.get(), 9).requires(Items.SAND, 3).requires(Items.CLAY_BALL, 4).requires(Items.BROWN_DYE).requires(Items.WHITE_DYE).unlockedBy("has_clay",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Items.CLAY_BALL).build())).save(pFinishedRecipeConsumer, "beige_plaster_powder_from_clay_sand_brown_dye_white_dye");
@@ -149,7 +154,6 @@ public class MiscRecipeProvider extends RecipeProvider implements IConditionBuil
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.WHITE_PLASTER.get()).build())).save(pFinishedRecipeConsumer, "white_plaster_capital_from_white_plaster_stonecutting");
 
         /* Plaster Corners */
-        // TODO: ADD SHAPED RECIPE FOR CORNERS
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BEIGE_PLASTER.get()), ModBlocks.BEIGE_PLASTER_CORNER.get(), 5).unlockedBy("has_beige_plaster",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BEIGE_PLASTER.get()).build())).save(pFinishedRecipeConsumer, "beige_plaster_corner_from_beige_plaster_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BROWN_PLASTER.get()), ModBlocks.BROWN_PLASTER_CORNER.get(), 5).unlockedBy("has_brown_plaster",

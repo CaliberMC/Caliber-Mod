@@ -192,3 +192,4 @@
 - Added the new wood variants to the Planks & Beams tab
 - Added all variants of Stained Acacia Planks, Stained Birch Planks, Stained Dark Oak Planks, Stained Jungle Planks, Stained Oak Planks and Stained Spruce Planks
 - Added all current Kiln recipes
+- Bugfix: fixed major bug preventing startup of dedicated servers on last update 0.0.24

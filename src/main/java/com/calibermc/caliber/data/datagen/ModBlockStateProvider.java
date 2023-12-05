@@ -3,6 +3,7 @@ package com.calibermc.caliber.data.datagen;
 import com.calibermc.caliber.Caliber;
 import com.calibermc.caliber.block.ModBlocks;
 import net.minecraft.data.DataGenerator;
+import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.world.level.block.*;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -13,8 +14,32 @@ public class ModBlockStateProvider extends BlockStateProvider {
     }
     @Override
     protected void registerStatesAndModels() {
-        simpleBlock(ModBlocks.BRONZE_BLOCK.get());
+        terrainBlocks();
+        vanillaMissingBlocks();
+        metalBlocks();
+        stoneBlocks();
+        woodBlocks();
+        plasterBlocks();
+        tudorBlocks();
+    }
 
+    private void terrainBlocks() {
+        simpleBlock(ModBlocks.BLACK_SAND.get());
+        simpleBlock(ModBlocks.BROWN_SAND.get());
+        simpleBlock(ModBlocks.ORANGE_SAND.get());
+        simpleBlock(ModBlocks.WHITE_SAND.get());    // Maybe way to make item models?
+//        simpleBlockItem(ModBlocks.BLACK_SAND.get(), itemModels().withExistingParent("black_sand", "caliber:block/black_sand"));
+    }
+
+    private void vanillaMissingBlocks() {
+        wallBlock((WallBlock) ModBlocks.POLISHED_ANDESITE_WALL.get(), blockTexture(Blocks.POLISHED_ANDESITE));
+        wallBlock((WallBlock) ModBlocks.POLISHED_DIORITE_WALL.get(), blockTexture(Blocks.POLISHED_DIORITE));
+        stairsBlock((StairBlock) ModBlocks.DEEPSLATE_STAIRS.get(), blockTexture(Blocks.DEEPSLATE));
+        wallBlock((WallBlock) ModBlocks.DEEPSLATE_WALL.get(), blockTexture(Blocks.DEEPSLATE));
+    }
+
+    private void metalBlocks() {
+        simpleBlock(ModBlocks.BRONZE_BLOCK.get());
         simpleBlock(ModBlocks.TIN_BLOCK.get());
         simpleBlock(ModBlocks.RAW_TIN_BLOCK.get());
         simpleBlock(ModBlocks.TIN_ORE.get());
@@ -24,14 +49,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
         simpleBlock(ModBlocks.RAW_SILVER_BLOCK.get());
         simpleBlock(ModBlocks.SILVER_ORE.get());
         simpleBlock(ModBlocks.DEEPSLATE_SILVER_ORE.get());
+    }
 
-        wallBlock((WallBlock) ModBlocks.POLISHED_ANDESITE_WALL.get(), blockTexture(Blocks.POLISHED_ANDESITE));
-
-        wallBlock((WallBlock) ModBlocks.POLISHED_DIORITE_WALL.get(), blockTexture(Blocks.POLISHED_DIORITE));
-
-        stairsBlock((StairBlock) ModBlocks.DEEPSLATE_STAIRS.get(), blockTexture(Blocks.DEEPSLATE));
-        wallBlock((WallBlock) ModBlocks.DEEPSLATE_WALL.get(), blockTexture(Blocks.DEEPSLATE));
-
+    private void stoneBlocks() {
         simpleBlock(ModBlocks.BLACK_GRANITE.get());
         simpleBlock(ModBlocks.BROWN_GRANITE.get());
         simpleBlock(ModBlocks.PINK_GRANITE.get());
@@ -78,14 +98,14 @@ public class ModBlockStateProvider extends BlockStateProvider {
         wallBlock((WallBlock) ModBlocks.LIMESTONE_WALL.get(), blockTexture(Blocks.STONE));
         wallBlock((WallBlock) ModBlocks.PINK_LIMESTONE_WALL.get(), blockTexture(ModBlocks.PINK_LIMESTONE.get()));
         wallBlock((WallBlock) ModBlocks.TAN_LIMESTONE_WALL.get(), blockTexture(ModBlocks.TAN_LIMESTONE.get()));
-        buttonBlock((ButtonBlock)ModBlocks.DARK_LIMESTONE_BUTTON.get(), blockTexture(ModBlocks.DARK_LIMESTONE.get()));
-        buttonBlock((ButtonBlock)ModBlocks.LIGHT_LIMESTONE_BUTTON.get(), blockTexture(ModBlocks.LIGHT_LIMESTONE.get()));
-        buttonBlock((ButtonBlock)ModBlocks.PINK_LIMESTONE_BUTTON.get(), blockTexture(ModBlocks.PINK_LIMESTONE.get()));
-        buttonBlock((ButtonBlock)ModBlocks.TAN_LIMESTONE_BUTTON.get(), blockTexture(ModBlocks.TAN_LIMESTONE.get()));
-        pressurePlateBlock((PressurePlateBlock)ModBlocks.DARK_LIMESTONE_PRESSURE_PLATE.get(), blockTexture(ModBlocks.DARK_LIMESTONE.get()));
-        pressurePlateBlock((PressurePlateBlock)ModBlocks.LIGHT_LIMESTONE_PRESSURE_PLATE.get(), blockTexture(ModBlocks.LIGHT_LIMESTONE.get()));
-        pressurePlateBlock((PressurePlateBlock)ModBlocks.PINK_LIMESTONE_PRESSURE_PLATE.get(), blockTexture(ModBlocks.PINK_LIMESTONE.get()));
-        pressurePlateBlock((PressurePlateBlock)ModBlocks.TAN_LIMESTONE_PRESSURE_PLATE.get(), blockTexture(ModBlocks.TAN_LIMESTONE.get()));
+        buttonBlock((ButtonBlock) ModBlocks.DARK_LIMESTONE_BUTTON.get(), blockTexture(ModBlocks.DARK_LIMESTONE.get()));
+        buttonBlock((ButtonBlock) ModBlocks.LIGHT_LIMESTONE_BUTTON.get(), blockTexture(ModBlocks.LIGHT_LIMESTONE.get()));
+        buttonBlock((ButtonBlock) ModBlocks.PINK_LIMESTONE_BUTTON.get(), blockTexture(ModBlocks.PINK_LIMESTONE.get()));
+        buttonBlock((ButtonBlock) ModBlocks.TAN_LIMESTONE_BUTTON.get(), blockTexture(ModBlocks.TAN_LIMESTONE.get()));
+        pressurePlateBlock((PressurePlateBlock) ModBlocks.DARK_LIMESTONE_PRESSURE_PLATE.get(), blockTexture(ModBlocks.DARK_LIMESTONE.get()));
+        pressurePlateBlock((PressurePlateBlock) ModBlocks.LIGHT_LIMESTONE_PRESSURE_PLATE.get(), blockTexture(ModBlocks.LIGHT_LIMESTONE.get()));
+        pressurePlateBlock((PressurePlateBlock) ModBlocks.PINK_LIMESTONE_PRESSURE_PLATE.get(), blockTexture(ModBlocks.PINK_LIMESTONE.get()));
+        pressurePlateBlock((PressurePlateBlock) ModBlocks.TAN_LIMESTONE_PRESSURE_PLATE.get(), blockTexture(ModBlocks.TAN_LIMESTONE.get()));
 
         simpleBlock(ModBlocks.COBBLED_DARK_LIMESTONE.get());
         simpleBlock(ModBlocks.COBBLED_LIGHT_LIMESTONE.get());
@@ -139,7 +159,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
         wallBlock((WallBlock) ModBlocks.MOSSY_PINK_LIMESTONE_BRICK_WALL.get(), blockTexture(ModBlocks.MOSSY_PINK_LIMESTONE_BRICKS.get()));
         wallBlock((WallBlock) ModBlocks.MOSSY_TAN_LIMESTONE_BRICK_WALL.get(), blockTexture(ModBlocks.MOSSY_TAN_LIMESTONE_BRICKS.get()));
 
-
         simpleBlock(ModBlocks.CRACKED_DARK_LIMESTONE_BRICKS.get());
         simpleBlock(ModBlocks.CRACKED_LIGHT_LIMESTONE_BRICKS.get());
         simpleBlock(ModBlocks.CRACKED_PINK_LIMESTONE_BRICKS.get());
@@ -164,7 +183,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         wallBlock((WallBlock) ModBlocks.SMOOTH_LIMESTONE_WALL.get(), blockTexture(Blocks.SMOOTH_STONE));
         wallBlock((WallBlock) ModBlocks.SMOOTH_PINK_LIMESTONE_WALL.get(), blockTexture(ModBlocks.SMOOTH_PINK_LIMESTONE.get()));
         wallBlock((WallBlock) ModBlocks.SMOOTH_TAN_LIMESTONE_WALL.get(), blockTexture(ModBlocks.SMOOTH_TAN_LIMESTONE.get()));
-        
+
         simpleBlock(ModBlocks.BLACK_MARBLE.get());
         simpleBlock(ModBlocks.GRAY_MARBLE.get());
         simpleBlock(ModBlocks.PINK_MARBLE.get());
@@ -201,12 +220,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
         simpleBlock(ModBlocks.SMOOTH_ORANGE_SANDSTONE.get());
         wallBlock((WallBlock) ModBlocks.BROWN_SANDSTONE_WALL.get(), blockTexture(ModBlocks.BROWN_SANDSTONE.get()));
         wallBlock((WallBlock) ModBlocks.ORANGE_SANDSTONE_WALL.get(), blockTexture(ModBlocks.ORANGE_SANDSTONE.get()));
+    }
 
-        simpleBlock(ModBlocks.BLACK_SAND.get());
-        simpleBlock(ModBlocks.BROWN_SAND.get());
-        simpleBlock(ModBlocks.ORANGE_SAND.get());
-        simpleBlock(ModBlocks.WHITE_SAND.get());
-
+    private void woodBlocks() {
         wallBlock((WallBlock) ModBlocks.ACACIA_WALL.get(), blockTexture(Blocks.ACACIA_PLANKS));
         wallBlock((WallBlock) ModBlocks.BIRCH_WALL.get(), blockTexture(Blocks.BIRCH_PLANKS));
         wallBlock((WallBlock) ModBlocks.DARK_OAK_WALL.get(), blockTexture(Blocks.DARK_OAK_PLANKS));
@@ -243,8 +259,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
         stairsBlock((StairBlock) ModBlocks.STAINED_JUNGLE_STAIRS.get(), blockTexture(ModBlocks.STAINED_JUNGLE_WOOD.get()));
         stairsBlock((StairBlock) ModBlocks.STAINED_OAK_STAIRS.get(), blockTexture(ModBlocks.STAINED_OAK_WOOD.get()));
         stairsBlock((StairBlock) ModBlocks.STAINED_SPRUCE_STAIRS.get(), blockTexture(ModBlocks.STAINED_SPRUCE_WOOD.get()));
+    }
 
-        /* PLASTER */
+    private void plasterBlocks() {
+        /* Plaster */
         simpleBlock(ModBlocks.BEIGE_PLASTER.get());
         simpleBlock(ModBlocks.BROWN_PLASTER.get());
         simpleBlock(ModBlocks.OCHRE_PLASTER.get());
@@ -267,8 +285,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
         simpleBlock(ModBlocks.OCHRE_PLASTER_POWDER.get());
         simpleBlock(ModBlocks.TAN_PLASTER_POWDER.get());
         simpleBlock(ModBlocks.WHITE_PLASTER_POWDER.get());
+    }
 
-        /* TUDOR BLOCKS */
+    private void tudorBlocks() {
         /* Beige Plaster - Half-Timbered */
         simpleBlock(ModBlocks.TUDOR_ACACIA_BEIGE_PLASTER_CROSS.get(), models().cubeBottomTop("tudor_acacia_beige_plaster_cross", modLoc("block/tudor_acacia_beige_plaster_cross"), blockTexture(Blocks.ACACIA_PLANKS), blockTexture(Blocks.ACACIA_PLANKS)));
         simpleBlock(ModBlocks.TUDOR_ACACIA_BEIGE_PLASTER_DOWN.get(), models().cubeBottomTop("tudor_acacia_beige_plaster_down", modLoc("block/tudor_acacia_beige_plaster_down"), blockTexture(Blocks.ACACIA_PLANKS), blockTexture(Blocks.ACACIA_PLANKS)));

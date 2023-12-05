@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:smooth_basalt"
+    }
+  },
+  "result": {
+    "item": "caliber:smooth_basalt_wall",
+    "count": 6
+  }
+}

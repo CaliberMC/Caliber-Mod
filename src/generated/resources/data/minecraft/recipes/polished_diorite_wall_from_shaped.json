@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:polished_diorite"
+    }
+  },
+  "result": {
+    "item": "caliber:polished_diorite_wall",
+    "count": 6
+  }
+}

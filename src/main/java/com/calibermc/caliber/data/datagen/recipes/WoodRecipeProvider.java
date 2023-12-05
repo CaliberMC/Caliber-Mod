@@ -7,7 +7,6 @@ import net.minecraft.data.DataGenerator;
 import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.data.recipes.ShapedRecipeBuilder;
-import net.minecraft.data.recipes.SingleItemRecipeBuilder;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
@@ -22,8 +21,14 @@ public class WoodRecipeProvider extends RecipeProvider implements IConditionBuil
     
     @Override
     protected void buildCraftingRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
-        
-        /* WOOD PLANK BLOCKS */
+        planksRecipes(pFinishedRecipeConsumer);
+        stainedPlanksRecipes(pFinishedRecipeConsumer);
+        strippedWoodRecipes(pFinishedRecipeConsumer);
+        stainedWoodRecipes(pFinishedRecipeConsumer);
+    }
+
+
+    private void planksRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
         /* Wood Planks Balustrades */
         ModRecipeBuilder.woodcutting(Ingredient.of(Blocks.ACACIA_PLANKS), ModBlocks.ACACIA_BALUSTRADE.get(), 2).unlockedBy("has_acacia_planks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.ACACIA_PLANKS).build())).save(pFinishedRecipeConsumer, "acacia_balustrade_from_acacia_woodcutting");
@@ -79,7 +84,7 @@ public class WoodRecipeProvider extends RecipeProvider implements IConditionBuil
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.OAK_PLANKS).build())).save(pFinishedRecipeConsumer, "oak_corner_slab_from_oak_woodcutting");
         ModRecipeBuilder.woodcutting(Ingredient.of(Blocks.SPRUCE_PLANKS), ModBlocks.SPRUCE_CORNER_SLAB.get(), 4).unlockedBy("has_spruce_planks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SPRUCE_PLANKS).build())).save(pFinishedRecipeConsumer, "spruce_corner_slab_from_spruce_woodcutting");
-        
+
         /* Wood Planks Vertical Corner Slabs */
         ModRecipeBuilder.woodcutting(Ingredient.of(Blocks.ACACIA_PLANKS), ModBlocks.ACACIA_CORNER_SLAB_VERTICAL.get(), 4).unlockedBy("has_acacia_planks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.ACACIA_PLANKS).build())).save(pFinishedRecipeConsumer, "acacia_corner_slab_vertical_from_acacia_woodcutting");
@@ -107,7 +112,7 @@ public class WoodRecipeProvider extends RecipeProvider implements IConditionBuil
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.OAK_PLANKS).build())).save(pFinishedRecipeConsumer, "oak_eighth_from_oak_woodcutting");
         ModRecipeBuilder.woodcutting(Ingredient.of(Blocks.SPRUCE_PLANKS), ModBlocks.SPRUCE_EIGHTH.get(), 8).unlockedBy("has_spruce_planks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SPRUCE_PLANKS).build())).save(pFinishedRecipeConsumer, "spruce_eighth_from_spruce_woodcutting");
-        
+
         /* Wood Planks Pillars */
         ModRecipeBuilder.woodcutting(Ingredient.of(Blocks.ACACIA_PLANKS), ModBlocks.ACACIA_PILLAR.get(), 5).unlockedBy("has_acacia_planks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.ACACIA_PLANKS).build())).save(pFinishedRecipeConsumer, "acacia_pillar_from_acacia_woodcutting");
@@ -149,7 +154,7 @@ public class WoodRecipeProvider extends RecipeProvider implements IConditionBuil
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.OAK_PLANKS).build())).save(pFinishedRecipeConsumer, "oak_quarter_vertical_from_oak_woodcutting");
         ModRecipeBuilder.woodcutting(Ingredient.of(Blocks.SPRUCE_PLANKS), ModBlocks.SPRUCE_QUARTER_VERTICAL.get(), 5).unlockedBy("has_spruce_planks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SPRUCE_PLANKS).build())).save(pFinishedRecipeConsumer, "spruce_quarter_vertical_from_spruce_woodcutting");
-        
+
         /* Wood Planks Slabs */
         ModRecipeBuilder.woodcutting(Ingredient.of(Blocks.ACACIA_PLANKS), ModBlocks.ACACIA_SLAB.get(), 8).unlockedBy("has_acacia_planks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.ACACIA_PLANKS).build())).save(pFinishedRecipeConsumer, "acacia_slab_from_acacia_woodcutting");
@@ -163,7 +168,7 @@ public class WoodRecipeProvider extends RecipeProvider implements IConditionBuil
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.OAK_PLANKS).build())).save(pFinishedRecipeConsumer, "oak_slab_from_oak_woodcutting");
         ModRecipeBuilder.woodcutting(Ingredient.of(Blocks.SPRUCE_PLANKS), ModBlocks.SPRUCE_SLAB.get(), 8).unlockedBy("has_spruce_planks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SPRUCE_PLANKS).build())).save(pFinishedRecipeConsumer, "spruce_slab_from_spruce_woodcutting");
-        
+
         /* Wood Planks Slab Verticals */
         ModRecipeBuilder.woodcutting(Ingredient.of(Blocks.ACACIA_PLANKS), ModBlocks.ACACIA_SLAB_VERTICAL.get(), 8).unlockedBy("has_acacia_planks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.ACACIA_PLANKS).build())).save(pFinishedRecipeConsumer, "acacia_slab_vertical_from_acacia_woodcutting");
@@ -177,7 +182,7 @@ public class WoodRecipeProvider extends RecipeProvider implements IConditionBuil
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.OAK_PLANKS).build())).save(pFinishedRecipeConsumer, "oak_slab_vertical_from_oak_woodcutting");
         ModRecipeBuilder.woodcutting(Ingredient.of(Blocks.SPRUCE_PLANKS), ModBlocks.SPRUCE_SLAB_VERTICAL.get(), 8).unlockedBy("has_spruce_planks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SPRUCE_PLANKS).build())).save(pFinishedRecipeConsumer, "spruce_slab_vertical_from_spruce_woodcutting");
-        
+
         /*Wood Planks Stairs */
         ModRecipeBuilder.woodcutting(Ingredient.of(Blocks.ACACIA_WOOD), Blocks.ACACIA_STAIRS, 1).unlockedBy("has_acacia_wood",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.ACACIA_WOOD).build())).save(pFinishedRecipeConsumer, "acacia_stairs_from_acacia_woodcutting");
@@ -191,7 +196,7 @@ public class WoodRecipeProvider extends RecipeProvider implements IConditionBuil
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.OAK_WOOD).build())).save(pFinishedRecipeConsumer, "oak_stairs_from_oak_woodcutting");
         ModRecipeBuilder.woodcutting(Ingredient.of(Blocks.SPRUCE_WOOD), Blocks.SPRUCE_STAIRS, 1).unlockedBy("has_spruce_wood",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SPRUCE_WOOD).build())).save(pFinishedRecipeConsumer, "spruce_stairs_from_spruce_woodcutting");
-        
+
         /* Wood Planks Walls */
         ModRecipeBuilder.woodcutting(Ingredient.of(Blocks.ACACIA_WOOD), ModBlocks.ACACIA_WALL.get(), 1).unlockedBy("has_acacia_planks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.ACACIA_WOOD).build())).save(pFinishedRecipeConsumer, "acacia_wall_from_acacia_woodcutting");
@@ -205,7 +210,7 @@ public class WoodRecipeProvider extends RecipeProvider implements IConditionBuil
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.OAK_WOOD).build())).save(pFinishedRecipeConsumer, "oak_wall_from_oak_woodcutting");
         ModRecipeBuilder.woodcutting(Ingredient.of(Blocks.SPRUCE_WOOD), ModBlocks.SPRUCE_WALL.get(), 1).unlockedBy("has_spruce_planks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SPRUCE_WOOD).build())).save(pFinishedRecipeConsumer, "spruce_wall_from_spruce_woodcutting");
-        
+
         /* Wood Planks Windows */
         ModRecipeBuilder.woodcutting(Ingredient.of(Blocks.ACACIA_PLANKS), ModBlocks.ACACIA_WINDOW.get(), 2).unlockedBy("has_acacia_planks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.ACACIA_PLANKS).build())).save(pFinishedRecipeConsumer, "acacia_window_from_acacia_woodcutting");
@@ -233,8 +238,10 @@ public class WoodRecipeProvider extends RecipeProvider implements IConditionBuil
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.OAK_PLANKS).build())).save(pFinishedRecipeConsumer, "oak_window_half_from_oak_woodcutting");
         ModRecipeBuilder.woodcutting(Ingredient.of(Blocks.SPRUCE_PLANKS), ModBlocks.SPRUCE_WINDOW_HALF.get(), 4).unlockedBy("has_spruce_planks",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SPRUCE_PLANKS).build())).save(pFinishedRecipeConsumer, "spruce_window_half_from_spruce_woodcutting");
+    }
 
-        /* STAINED WOOD PLANK BLOCKS */
+        private void stainedPlanksRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
+            /* STAINED WOOD PLANK BLOCKS */
 //        /* Stained Wood Planks Balustrades */
 //        ModRecipeBuilder.woodcutting(Ingredient.of(Modblocks.STAINED_ACACIA_PLANKS.get()), Modblocks.STAINED_ACACIA_PLANKS_BALUSTRADE.get(), 2).unlockedBy("has_stained_acacia_planks",
 //                inventoryTrigger(ItemPredicate.Builder.item().of(Modblocks.STAINED_ACACIA_PLANKS.get()).build())).save(pFinishedRecipeConsumer, "stained_acacia_planks_balustrade_from_stained_acacia_planks_woodcutting");
@@ -444,8 +451,9 @@ public class WoodRecipeProvider extends RecipeProvider implements IConditionBuil
 //                inventoryTrigger(ItemPredicate.Builder.item().of(Modblocks.STAINED_OAK_PLANKS.get()).build())).save(pFinishedRecipeConsumer, "stained_oak_window_half_from_stained_oak_woodcutting");
 //        ModRecipeBuilder.woodcutting(Ingredient.of(Modblocks.STAINED_SPRUCE_PLANKS.get()), Modblocks.STAINED_SPRUCE_PLANKS_WINDOW_HALF.get(), 4).unlockedBy("has_stained_spruce_planks",
 //                inventoryTrigger(ItemPredicate.Builder.item().of(Modblocks.STAINED_SPRUCE_PLANKS.get()).build())).save(pFinishedRecipeConsumer, "stained_spruce_window_half_from_stained_spruce_woodcutting");
+    }
 
-        /* STRIPPED WOOD BLOCKS */
+    private void strippedWoodRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
         /* Stripped Wood Balustrades */
         ModRecipeBuilder.woodcutting(Ingredient.of(Blocks.STRIPPED_ACACIA_WOOD), ModBlocks.STRIPPED_ACACIA_BALUSTRADE.get(), 2).unlockedBy("has_stripped_acacia_wood",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.STRIPPED_ACACIA_WOOD).build())).save(pFinishedRecipeConsumer, "stripped_acacia_balustrade_from_stripped_acacia_woodcutting");
@@ -765,8 +773,9 @@ public class WoodRecipeProvider extends RecipeProvider implements IConditionBuil
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.STRIPPED_OAK_WOOD).build())).save(pFinishedRecipeConsumer, "stripped_oak_window_half_from_stripped_oak_woodcutting");
         ModRecipeBuilder.woodcutting(Ingredient.of(Blocks.STRIPPED_SPRUCE_WOOD), ModBlocks.STRIPPED_SPRUCE_WINDOW_HALF.get(), 4).unlockedBy("has_stripped_spruce_wood",
                 inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.STRIPPED_SPRUCE_WOOD).build())).save(pFinishedRecipeConsumer, "stripped_spruce_window_half_from_stripped_spruce_woodcutting");
+    }
 
-        /* STAINED WOOD BLOCKS */
+    private void stainedWoodRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
         /* Stained Wood Balustrades */
         ModRecipeBuilder.woodcutting(Ingredient.of(ModBlocks.STAINED_ACACIA_WOOD.get()), ModBlocks.STAINED_ACACIA_BALUSTRADE.get(), 2).unlockedBy("has_stained_acacia_wood",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.STAINED_ACACIA_WOOD.get()).build())).save(pFinishedRecipeConsumer, "stained_acacia_balustrade_from_stained_acacia_woodcutting");
@@ -1087,7 +1096,6 @@ public class WoodRecipeProvider extends RecipeProvider implements IConditionBuil
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.STAINED_OAK_WOOD.get()).build())).save(pFinishedRecipeConsumer, "stained_oak_window_half_from_stained_oak_woodcutting");
         ModRecipeBuilder.woodcutting(Ingredient.of(ModBlocks.STAINED_SPRUCE_WOOD.get()), ModBlocks.STAINED_SPRUCE_WINDOW_HALF.get(), 4).unlockedBy("has_stained_spruce_wood",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.STAINED_SPRUCE_WOOD.get()).build())).save(pFinishedRecipeConsumer, "stained_spruce_window_half_from_stained_spruce_woodcutting");
-        
     }
 
 }

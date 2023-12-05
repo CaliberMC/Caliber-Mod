@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:polished_andesite"
+    }
+  },
+  "result": {
+    "item": "caliber:polished_andesite_wall",
+    "count": 6
+  }
+}

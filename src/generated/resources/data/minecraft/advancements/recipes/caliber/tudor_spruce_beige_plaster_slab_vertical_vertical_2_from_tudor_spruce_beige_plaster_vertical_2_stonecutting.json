@@ -6,13 +6,13 @@
     ]
   },
   "criteria": {
-    "has tudor_spruce_white_plaster_vertical_2": {
+    "has tudor_spruce_beige_plaster_vertical_2": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "caliber:tudor_spruce_white_plaster_vertical_2"
+              "caliber:tudor_spruce_beige_plaster_vertical_2"
             ]
           }
         ]
@@ -27,7 +27,7 @@
   },
   "requirements": [
     [
-      "has tudor_spruce_white_plaster_vertical_2",
+      "has tudor_spruce_beige_plaster_vertical_2",
       "has_the_recipe"
     ]
   ]

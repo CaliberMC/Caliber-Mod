@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "G  ",
+    "GG ",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "caliber:red_marble"
+    }
+  },
+  "result": {
+    "item": "caliber:red_marble_stairs",
+    "count": 4
+  }
+}

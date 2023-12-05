@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:smooth_quartz"
+    }
+  },
+  "result": {
+    "item": "caliber:smooth_quartz_wall",
+    "count": 6
+  }
+}

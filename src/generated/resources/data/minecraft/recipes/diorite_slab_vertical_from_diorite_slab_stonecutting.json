@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "caliber:diorite_slab"
+  },
+  "result": "caliber:diorite_slab_vertical",
+  "count": 1
+}
