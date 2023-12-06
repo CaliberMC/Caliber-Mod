@@ -66,28 +66,18 @@ public class ModBlockFamily {
             return this;
         }
 
-        public Builder arch_half(Block pArch_HalfBlock) {
-            this.family.variants.put(Variant.ARCH_HALF, pArch_HalfBlock);
+        public Builder arch_half(Block pHalfArchBlock) {
+            this.family.variants.put(Variant.ARCH_HALF, pHalfArchBlock);
             return this;
         }
 
-        public Builder arch_large(Block pArch_LargeBlock) {
-            this.family.variants.put(Variant.ARCH_LARGE, pArch_LargeBlock);
+        public Builder arch_large(Block pLargeArchBlock) {
+            this.family.variants.put(Variant.ARCH_LARGE,  pLargeArchBlock);
             return this;
         }
 
-        public Builder arch_large_half(Block pArch_Large_HalfBlock) {
-            this.family.variants.put(Variant.ARCH_LARGE_HALF, pArch_Large_HalfBlock);
-            return this;
-        }
-
-        public Builder arch_small(Block pArch_SmallBlock) {
-            this.family.variants.put(Variant.ARCH_SMALL, pArch_SmallBlock);
-            return this;
-        }
-
-        public Builder arch_small_half(Block pArch_Small_HalfBlock) {
-            this.family.variants.put(Variant.ARCH_SMALL_HALF, pArch_Small_HalfBlock);
+        public Builder arch_large_half(Block pHalfLargeArchBlock) {
+            this.family.variants.put(Variant.ARCH_LARGE_HALF, pHalfLargeArchBlock);
             return this;
         }
 
@@ -156,8 +146,8 @@ public class ModBlockFamily {
             return this;
         }
 
-        public Builder corner_slab_vertical(Block pCorner_Slab_VerticalBlock) {
-            this.family.variants.put(Variant.CORNER_SLAB_VERTICAL, pCorner_Slab_VerticalBlock);
+        public Builder corner_slab_vertical(Block pVerticalCornerSlabBlock) {
+            this.family.variants.put(Variant.CORNER_SLAB_VERTICAL, pVerticalCornerSlabBlock);
             return this;
         }
 
@@ -211,8 +201,8 @@ public class ModBlockFamily {
             return this;
         }
 
-        public Builder quarter_vertical(Block pQuarter_VerticalBlock) {
-            this.family.variants.put(Variant.QUARTER_VERTICAL, pQuarter_VerticalBlock);
+        public Builder quarter_vertical(Block pVerticalQuarterBlock) {
+            this.family.variants.put(Variant.QUARTER_VERTICAL, pVerticalQuarterBlock);
             return this;
         }
 
@@ -227,8 +217,8 @@ public class ModBlockFamily {
             return this;
         }
 
-        public Builder slab_vertical(Block pSlab_VerticalBlock) {
-            this.family.variants.put(Variant.SLAB_VERTICAL, pSlab_VerticalBlock);
+        public Builder slab_vertical(Block pVerticalSlabBlock) {
+            this.family.variants.put(Variant.SLAB_VERTICAL, pVerticalSlabBlock);
             return this;
         }
 
@@ -262,8 +252,8 @@ public class ModBlockFamily {
             return this;
         }
 
-        public Builder window_half(Block pWindow_HalfBlock) {
-            this.family.variants.put(Variant.WINDOW_HALF, pWindow_HalfBlock);
+        public Builder window_half(Block pHalfWindowBlock) {
+            this.family.variants.put(Variant.WINDOW_HALF, pHalfWindowBlock);
             return this;
         }
 
@@ -294,8 +284,6 @@ public class ModBlockFamily {
         ARCH_HALF("arch_half"),
         ARCH_LARGE("arch_large"),
         ARCH_LARGE_HALF("arch_large_half"),
-        ARCH_SMALL("arch_small"),
-        ARCH_SMALL_HALF("arch_small_half"),
         ARROWSLIT("arrowslit"),
         BALUSTRADE("balustrade"),
         BEAM_HORIZONTAL("beam_horizontal"),
