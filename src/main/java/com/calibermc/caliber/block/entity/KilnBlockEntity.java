@@ -86,7 +86,7 @@ public class KilnBlockEntity extends BaseContainerBlockEntity implements Worldly
     LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.UP, Direction.DOWN, Direction.NORTH);
 
     public KilnBlockEntity(BlockPos pPos, BlockState pBlockState) {
-        this(ModBlockEntities.KILN.get(), pPos, pBlockState, ModRecipeSerializers.ALLOYING_TYPE);
+        this(ModBlockEntities.KILN.get(), pPos, pBlockState, ModRecipeSerializers.ALLOYING_TYPE.get());
     }
 
     protected KilnBlockEntity(BlockEntityType<?> pType, BlockPos pPos, BlockState pBlockState, RecipeType<? extends KilnRecipe> pRecipeType) {

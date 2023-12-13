@@ -19,7 +19,7 @@ public class KilnRecipe extends AbstractCookingRecipe {
     protected final Ingredient secondIngredient;
 
     public KilnRecipe(ResourceLocation pId, String pGroup, Ingredient pIngredient, Ingredient pSecondIngredient, ItemStack pResult, float pExperience, int pCookingTime) {
-        super(ModRecipeSerializers.ALLOYING_TYPE, pId, pGroup, pIngredient, pResult, pExperience, pCookingTime);
+        super(ModRecipeSerializers.ALLOYING_TYPE.get(), pId, pGroup, pIngredient, pResult, pExperience, pCookingTime);
         this.secondIngredient = pSecondIngredient;
     }
 

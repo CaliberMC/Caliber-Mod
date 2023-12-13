@@ -21,8 +21,6 @@ import java.util.List;
 
 public class WoodcutterMenu extends AbstractContainerMenu {
 
-   public static final RecipeBookCategories MAIN_CATEGORY = RecipeBookCategories.create("woodcutter", ModBlocks.KILN.get().asItem().getDefaultInstance());
-
    private final Level level;
    private final ContainerLevelAccess access;
    long lastSoundTime;
@@ -138,7 +136,7 @@ public class WoodcutterMenu extends AbstractContainerMenu {
          this.selectedRecipeIndex.set(-1);
          this.resultSlot.set(ItemStack.EMPTY);
          if (!itemstack.isEmpty()) {
-            this.recipes = this.level.getRecipeManager().getRecipesFor(ModRecipeSerializers.WOODCUTTING_TYPE, pInventory, this.level);
+            this.recipes = this.level.getRecipeManager().getRecipesFor(ModRecipeSerializers.WOODCUTTING_TYPE.get(), pInventory, this.level);
          }
       }
 
@@ -186,7 +184,7 @@ public class WoodcutterMenu extends AbstractContainerMenu {
             if (!this.moveItemStackTo(itemstack1, 2, 38, false)) {
                return ItemStack.EMPTY;
             }
-         } else if (this.level.getRecipeManager().getRecipeFor(ModRecipeSerializers.WOODCUTTING_TYPE, new SimpleContainer(itemstack1), this.level).isPresent()) {
+         } else if (this.level.getRecipeManager().getRecipeFor(ModRecipeSerializers.WOODCUTTING_TYPE.get(), new SimpleContainer(itemstack1), this.level).isPresent()) {
             if (!this.moveItemStackTo(itemstack1, 0, 1, false)) {
                return ItemStack.EMPTY;
             }

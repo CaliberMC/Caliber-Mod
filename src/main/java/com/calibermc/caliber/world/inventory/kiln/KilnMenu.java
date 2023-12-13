@@ -1,11 +1,10 @@
 package com.calibermc.caliber.world.inventory.kiln;
 
-import com.calibermc.caliber.block.ModBlocks;
+import com.calibermc.caliber.Caliber;
 import com.calibermc.caliber.block.entity.KilnBlockEntity;
 import com.calibermc.caliber.crafting.KilnRecipe;
 import com.calibermc.caliber.crafting.ModRecipeSerializers;
 import com.calibermc.caliber.world.inventory.ModMenuTypes;
-import net.minecraft.client.RecipeBookCategories;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.Container;
 import net.minecraft.world.SimpleContainer;
@@ -23,10 +22,6 @@ import net.minecraftforge.event.ForgeEventFactory;
 
 public class KilnMenu extends RecipeBookMenu<Container> {
 
-    public static final RecipeBookType BOOK_TYPE = RecipeBookType.create("kiln");
-    public static final RecipeBookCategories KILN_SEARCH_CATEGORY = RecipeBookCategories.create("kiln_search", Items.COMPASS.getDefaultInstance());
-    public static final RecipeBookCategories MAIN_CATEGORY = RecipeBookCategories.create("kiln_main", ModBlocks.KILN.get().asItem().getDefaultInstance());
-
     protected final Level level;
     private final Container container;
     private final ContainerData data;
@@ -34,11 +29,11 @@ public class KilnMenu extends RecipeBookMenu<Container> {
     private final RecipeBookType recipeBookType;
 
     public KilnMenu(int pContainerId, Inventory pPlayerInventory) {
-        this(ModMenuTypes.KILN.get(), ModRecipeSerializers.ALLOYING_TYPE, BOOK_TYPE, pContainerId, pPlayerInventory);
+        this(ModMenuTypes.KILN.get(), ModRecipeSerializers.ALLOYING_TYPE.get(), Caliber.KLIN_BOOK_TYPE, pContainerId, pPlayerInventory);
     }
 
     public KilnMenu(int pContainerId, Inventory pPlayerInventory, Container pFurnaceContainer, ContainerData pFurnaceData) {
-        this(ModMenuTypes.KILN.get(), ModRecipeSerializers.ALLOYING_TYPE, BOOK_TYPE, pContainerId, pPlayerInventory, pFurnaceContainer, pFurnaceData);
+        this(ModMenuTypes.KILN.get(), ModRecipeSerializers.ALLOYING_TYPE.get(), Caliber.KLIN_BOOK_TYPE, pContainerId, pPlayerInventory, pFurnaceContainer, pFurnaceData);
     }
 
     protected KilnMenu(MenuType<?> pMenuType, RecipeType<? extends KilnRecipe> pRecipeType, RecipeBookType pRecipeBookType, int pContainerId, Inventory pPlayerInventory) {
@@ -139,7 +134,7 @@ public class KilnMenu extends RecipeBookMenu<Container> {
             ItemStack itemstack1 = slot.getItem();
             itemstack = itemstack1.copy();
             if (pIndex == 3) {
-                if (!this.moveItemStackTo(itemstack1, 3, 39, true)) {
+                if (!this.moveItemStackTo(itemstack1, 4, 40, true)) {
                     return ItemStack.EMPTY;
                 }
 
@@ -153,14 +148,14 @@ public class KilnMenu extends RecipeBookMenu<Container> {
                     if (!this.moveItemStackTo(itemstack1, 2, 3, false)) {
                         return ItemStack.EMPTY;
                     }
-                } else if (pIndex >= 3 && pIndex < 30) {
-                    if (!this.moveItemStackTo(itemstack1, 30, 39, false)) {
+                } else if (pIndex >= 4 && pIndex < 31) {
+                    if (!this.moveItemStackTo(itemstack1, 31, 40, false)) {
                         return ItemStack.EMPTY;
                     }
-                } else if (pIndex >= 30 && pIndex < 39 && !this.moveItemStackTo(itemstack1, 3, 30, false)) {
+                } else if (pIndex >= 31 && pIndex < 40 && !this.moveItemStackTo(itemstack1, 4, 31, false)) {
                     return ItemStack.EMPTY;
                 }
-            } else if (!this.moveItemStackTo(itemstack1, 3, 39, false)) {
+            } else if (!this.moveItemStackTo(itemstack1, 4, 40, false)) {
                 return ItemStack.EMPTY;
             }
 

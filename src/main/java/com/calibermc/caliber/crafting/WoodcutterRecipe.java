@@ -18,7 +18,7 @@ import net.minecraftforge.registries.ForgeRegistryEntry;
 public class WoodcutterRecipe extends SingleItemRecipe {
 
     public WoodcutterRecipe(ResourceLocation pId, String pGroup, Ingredient pIngredient, ItemStack pResult) {
-        super(ModRecipeSerializers.WOODCUTTING_TYPE, ModRecipeSerializers.WOODCUTTING.get(), pId, pGroup, pIngredient, pResult);
+        super(ModRecipeSerializers.WOODCUTTING_TYPE.get(), ModRecipeSerializers.WOODCUTTING.get(), pId, pGroup, pIngredient, pResult);
     }
 
     @Override
