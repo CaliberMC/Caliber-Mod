@@ -9,12 +9,7 @@ import com.calibermc.caliber.item.CreativeTabs;
 import com.calibermc.caliber.item.ModItems;
 import com.calibermc.caliber.networking.ModNetworking;
 import com.calibermc.caliber.world.inventory.ModMenuTypes;
-import com.calibermc.caliber.world.inventory.kiln.KilnMenu;
-import com.calibermc.caliber.world.inventory.woodcutter.WoodcutterMenu;
-import com.google.common.collect.ImmutableList;
-import net.minecraft.client.RecipeBookCategories;
-import net.minecraft.world.item.crafting.RecipeType;
-import net.minecraftforge.client.RecipeBookRegistry;
+import net.minecraft.world.inventory.RecipeBookType;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
@@ -29,6 +24,7 @@ import org.apache.logging.log4j.Logger;
 @Mod(Caliber.MOD_ID)
 public class Caliber {
     public static final String MOD_ID = "caliber";
+    public static final RecipeBookType KILN_BOOK_TYPE = RecipeBookType.create("kiln");
 
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
@@ -58,26 +54,6 @@ public class Caliber {
         // some preinit code
         LOGGER.info("Loading Caliber Mod");
 //        LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
-
-        ModRecipeSerializers.WOODCUTTING_TYPE = RecipeType.register("caliber:woodcutting");
-        ModRecipeSerializers.ALLOYING_TYPE = RecipeType.register("caliber:alloying");
-
-        RecipeBookRegistry.addCategoriesFinder(ModRecipeSerializers.WOODCUTTING_TYPE, (r) -> WoodcutterMenu.MAIN_CATEGORY);
-
-        // Recipe book for kiln
-
-        // finder of alloying type recipes for main category
-        RecipeBookRegistry.addCategoriesFinder(ModRecipeSerializers.ALLOYING_TYPE, (r) -> KilnMenu.MAIN_CATEGORY);
-
-        // furnace categories *remove if no need
-        ImmutableList<RecipeBookCategories> furnaceCategories = ImmutableList.of(RecipeBookCategories.FURNACE_FOOD, RecipeBookCategories.FURNACE_BLOCKS, RecipeBookCategories.FURNACE_MISC);
-        ImmutableList.Builder<RecipeBookCategories> categories = ImmutableList.<RecipeBookCategories>builder().add(KilnMenu.MAIN_CATEGORY).addAll(furnaceCategories);
-
-        // finder all categories that works with kiln
-        RecipeBookRegistry.addAggregateCategories(KilnMenu.KILN_SEARCH_CATEGORY, categories.build());
-
-        RecipeBookRegistry.addCategoriesToType(KilnMenu.BOOK_TYPE,
-                ImmutableList.<RecipeBookCategories>builder().add(KilnMenu.KILN_SEARCH_CATEGORY, KilnMenu.MAIN_CATEGORY).addAll(furnaceCategories).build());
 
         ModNetworking.registerMessages();
         CreativeTabs.setupCreativeTabs();

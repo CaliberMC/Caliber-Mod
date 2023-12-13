@@ -29,11 +29,11 @@ public class KilnMenu extends RecipeBookMenu<Container> {
     private final RecipeBookType recipeBookType;
 
     public KilnMenu(int pContainerId, Inventory pPlayerInventory) {
-        this(ModMenuTypes.KILN.get(), ModRecipeSerializers.ALLOYING_TYPE.get(), Caliber.KLIN_BOOK_TYPE, pContainerId, pPlayerInventory);
+        this(ModMenuTypes.KILN.get(), ModRecipeSerializers.ALLOYING_TYPE.get(), Caliber.KILN_BOOK_TYPE, pContainerId, pPlayerInventory);
     }
 
     public KilnMenu(int pContainerId, Inventory pPlayerInventory, Container pFurnaceContainer, ContainerData pFurnaceData) {
-        this(ModMenuTypes.KILN.get(), ModRecipeSerializers.ALLOYING_TYPE.get(), Caliber.KLIN_BOOK_TYPE, pContainerId, pPlayerInventory, pFurnaceContainer, pFurnaceData);
+        this(ModMenuTypes.KILN.get(), ModRecipeSerializers.ALLOYING_TYPE.get(), Caliber.KILN_BOOK_TYPE, pContainerId, pPlayerInventory, pFurnaceContainer, pFurnaceData);
     }
 
     protected KilnMenu(MenuType<?> pMenuType, RecipeType<? extends KilnRecipe> pRecipeType, RecipeBookType pRecipeBookType, int pContainerId, Inventory pPlayerInventory) {
