@@ -190,6 +190,9 @@
 - Bugfix: fixed major bug preventing startup of dedicated servers on last update 0.0.24
 
 - 0.0.26 (in progress)
+- Added Bronze Armor and Tools
+
+- 0.0.27 (up next)
 - Added a total of # new blocks!
 - Current Mod Block Count is at #
 - Added the new wood variants to the Planks & Beams tab

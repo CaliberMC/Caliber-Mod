@@ -2,13 +2,14 @@ package com.calibermc.caliber.data.datagen;
 
 import com.calibermc.caliber.Caliber;
 import com.calibermc.caliber.block.custom.*;
+import com.calibermc.caliber.block.custom.entity.WoodcutterBlock;
 import com.calibermc.caliber.block.custom.terrain.*;
 import com.calibermc.caliber.item.ModItems;
 import com.calibermc.caliber.item.custom.Hammer;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.WallBlock;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
@@ -83,19 +84,51 @@ public class ModItemModelProvider extends ItemModelProvider {
                 .filter(itemRegistryObject -> {
                     // Check if the item's registry name is in the Caliber.MOD_ID namespace
                     ResourceLocation registryName = itemRegistryObject.getId();
-                    boolean isModItem = registryName != null && Caliber.MOD_ID.equals(registryName.getNamespace());
-
-                    // Check if the item is exactly an instance of Item.class or Hammer.class
-                    Class<?> itemClass = itemRegistryObject.get().getClass();
-                    boolean isBaseOrHammerItemClass = itemClass == Item.class || itemClass == Hammer.class;
-
-                    return isModItem && isBaseOrHammerItemClass;
+                    return registryName != null && Caliber.MOD_ID.equals(registryName.getNamespace());
                 })
                 .forEach(itemRegistryObject -> {
-                    // Use the RegistryObject<Item> here
-                    simpleItem(itemRegistryObject);
+                    // Determine if the item is a tool
+                    Item item = itemRegistryObject.get();
+                    boolean isToolItem = item instanceof Hammer ||
+                            item instanceof SwordItem ||
+                            item instanceof PickaxeItem ||
+                            item instanceof ShovelItem ||
+                            item instanceof AxeItem ||
+                            item instanceof HoeItem;
+
+                    // Use handheldItem for tools
+                    if (isToolItem) {
+                        handheldItem(itemRegistryObject);
+                    }
+                    // Use simpleItem for items that are exactly instances of Item.class or ArmorItem.class
+                    else if (item.getClass() == Item.class || item.getClass() == ArmorItem.class) {
+                        simpleItem(itemRegistryObject);
+                    }
                 });
     }
+
+
+
+
+//    private void itemModels() {
+//        // Register Item Models
+//        ModItems.ITEMS.getEntries().stream()
+//                .filter(itemRegistryObject -> {
+//                    // Check if the item's registry name is in the Caliber.MOD_ID namespace
+//                    ResourceLocation registryName = itemRegistryObject.getId();
+//                    boolean isModItem = registryName != null && Caliber.MOD_ID.equals(registryName.getNamespace());
+//
+//                    // Check if the item is exactly an instance of Item.class or Hammer.class
+//                    Class<?> itemClass = itemRegistryObject.get().getClass();
+//                    boolean isBaseOrHammerItemClass = itemClass == Item.class || itemClass == Hammer.class;
+//
+//                    return isModItem && isBaseOrHammerItemClass;
+//                })
+//                .forEach(itemRegistryObject -> {
+//                    // Use the RegistryObject<Item> here
+//                    simpleItem(itemRegistryObject);
+//                });
+//    }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(),

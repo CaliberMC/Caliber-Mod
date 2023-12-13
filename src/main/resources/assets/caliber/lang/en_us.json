@@ -52,6 +52,15 @@
 
     "block.caliber.bronze_block": "Bronze Block",
     "item.caliber.bronze_ingot": "Bronze Ingot",
+    "item.caliber.bronze_helmet": "Bronze Helmet",
+    "item.caliber.bronze_chestplate": "Bronze Chestplate",
+    "item.caliber.bronze_leggings": "Bronze Leggings",
+    "item.caliber.bronze_boots": "Bronze Boots",
+    "item.caliber.bronze_sword": "Bronze Sword",
+    "item.caliber.bronze_pickaxe": "Bronze Pickaxe",
+    "item.caliber.bronze_axe": "Bronze Axe",
+    "item.caliber.bronze_shovel": "Bronze Shovel",
+    "item.caliber.bronze_hoe": "Bronze Hoe",
 
     "block.caliber.tin_block": "Tin Block",
     "block.caliber.tin_ore": "Tin Ore",
