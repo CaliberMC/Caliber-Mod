@@ -11,7 +11,7 @@ Create fantastically detailed castles and landscapes with all of the new blocks 
 a kind world!
 
 ## Special Thanks
-ChappiePie - Advance Coding Help
+ChappiePie - Advanced Coding Help
 
 ## License
 Caliber Mod is licensed under MIT, see [LICENSE](./LICENSE).
