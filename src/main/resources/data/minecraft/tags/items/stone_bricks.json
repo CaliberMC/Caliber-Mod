@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "caliber:dark_limestone_bricks",
+    "caliber:light_limestone_bricks",
+    "caliber:pink_limestone_bricks",
+    "caliber:tan_limestone_bricks"
+  ]
+}

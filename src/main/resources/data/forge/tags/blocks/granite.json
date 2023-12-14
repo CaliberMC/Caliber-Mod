@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:granite",
+    "caliber:black_granite",
+    "caliber:brown_granite",
+    "caliber:gray_granite",
+    "caliber:pink_granite",
+    "caliber:white_granite"
+  ]
+}

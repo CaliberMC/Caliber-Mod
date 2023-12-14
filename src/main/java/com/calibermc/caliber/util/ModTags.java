@@ -47,10 +47,9 @@ public class ModTags {
         public static final TagKey<Block> planks = tag("materials/planks");
         public static final TagKey<Block> smoothStone = tag("materials/smooth_stone");
 
-
-
-
-
+        /* Forge Block Tags */
+        public static final TagKey<Block> GRANITE = forgeTag("granite");
+        public static final TagKey<Block> MARBLE = forgeTag("marble");
 
         private static TagKey<Block> tag(String name) {
             return BlockTags.create(new ResourceLocation(Caliber.MOD_ID, name));
@@ -89,6 +88,9 @@ public class ModTags {
         public static final TagKey<Item> storageTab = tag("creative_tabs/storage_tab");
         public static final TagKey<Item> tilesFlooringTab = tag("creative_tabs/tiles_flooring_tab");
         public static final TagKey<Item> toolsWeaponsTab = tag("creative_tabs/tools_weapons_tab");
+
+        /* Forge Item Tags */
+        public static final TagKey<Item> BRONZE_INGOTS = forgeTag("ingots/bronze_ingot");
 
         private static TagKey<Item> tag(String name) {
             return ItemTags.create(new ResourceLocation(Caliber.MOD_ID, name));

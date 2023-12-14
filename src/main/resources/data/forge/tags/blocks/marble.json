@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "caliber:black_marble",
+    "caliber:gray_marble",
+    "caliber:pink_marble",
+    "caliber:red_marble",
+    "caliber:white_marble"
+  ]
+}

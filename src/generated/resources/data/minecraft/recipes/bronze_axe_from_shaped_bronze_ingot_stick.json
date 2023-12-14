@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "II ",
+    "I# ",
+    " # "
+  ],
+  "key": {
+    "I": {
+      "item": "caliber:bronze_ingot"
+    },
+    "#": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "caliber:bronze_axe"
+  }
+}

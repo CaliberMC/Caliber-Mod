@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "caliber:bronze_block",
+    "caliber:tin_block",
+    "caliber:raw_tin_block",
+    "caliber:silver_block",
+    "caliber:raw_silver_block"
+  ]
+}
