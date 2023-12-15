@@ -1,0 +1,53 @@
+{
+  "variants": {
+    "facing=east,shape=straight,half=bottom":  { "model": "caliber:block/acacia_shingle_roof_45" },
+    "facing=west,shape=straight,half=bottom":  { "model": "caliber:block/acacia_shingle_roof_45", "y": 180 },
+    "facing=south,shape=straight,half=bottom": { "model": "caliber:block/acacia_shingle_roof_45", "y": 90 },
+    "facing=north,shape=straight,half=bottom": { "model": "caliber:block/acacia_shingle_roof_45", "y": 270 },
+
+    "facing=east,shape=outer_right,half=bottom":  { "model": "caliber:block/acacia_shingle_roof_45_outer" },
+    "facing=west,shape=outer_right,half=bottom":  { "model": "caliber:block/acacia_shingle_roof_45_outer", "y": 180 },
+    "facing=south,shape=outer_right,half=bottom": { "model": "caliber:block/acacia_shingle_roof_45_outer", "y": 90 },
+    "facing=north,shape=outer_right,half=bottom": { "model": "caliber:block/acacia_shingle_roof_45_outer", "y": 270 },
+
+    "facing=east,shape=outer_left,half=bottom":  { "model": "caliber:block/acacia_shingle_roof_45_outer", "y": 270 },
+    "facing=west,shape=outer_left,half=bottom":  { "model": "caliber:block/acacia_shingle_roof_45_outer", "y": 90 },
+    "facing=south,shape=outer_left,half=bottom": { "model": "caliber:block/acacia_shingle_roof_45_outer" },
+    "facing=north,shape=outer_left,half=bottom": { "model": "caliber:block/acacia_shingle_roof_45_outer", "y": 180 },
+
+    "facing=east,shape=inner_right,half=bottom":  { "model": "caliber:block/acacia_shingle_roof_45_inner" },
+    "facing=west,shape=inner_right,half=bottom":  { "model": "caliber:block/acacia_shingle_roof_45_inner", "y": 180 },
+    "facing=south,shape=inner_right,half=bottom": { "model": "caliber:block/acacia_shingle_roof_45_inner", "y": 90 },
+    "facing=north,shape=inner_right,half=bottom": { "model": "caliber:block/acacia_shingle_roof_45_inner", "y": 270 },
+
+    "facing=east,shape=inner_left,half=bottom":  { "model": "caliber:block/acacia_shingle_roof_45_inner", "y": 270 },
+    "facing=west,shape=inner_left,half=bottom":  { "model": "caliber:block/acacia_shingle_roof_45_inner", "y": 90 },
+    "facing=south,shape=inner_left,half=bottom": { "model": "caliber:block/acacia_shingle_roof_45_inner" },
+    "facing=north,shape=inner_left,half=bottom": { "model": "caliber:block/acacia_shingle_roof_45_inner", "y": 180 },
+
+    "facing=east,shape=straight,half=top":  { "model": "caliber:block/acacia_shingle_roof_45", "x": 180 },
+    "facing=west,shape=straight,half=top":  { "model": "caliber:block/acacia_shingle_roof_45", "x": 180, "y": 180 },
+    "facing=south,shape=straight,half=top": { "model": "caliber:block/acacia_shingle_roof_45", "x": 180, "y": 90 },
+    "facing=north,shape=straight,half=top": { "model": "caliber:block/acacia_shingle_roof_45", "x": 180, "y": 270 },
+
+    "facing=east,shape=outer_right,half=top":  { "model": "caliber:block/acacia_shingle_roof_45_outer", "x": 180, "y": 90 },
+    "facing=west,shape=outer_right,half=top":  { "model": "caliber:block/acacia_shingle_roof_45_outer", "x": 180, "y": 270 },
+    "facing=south,shape=outer_right,half=top": { "model": "caliber:block/acacia_shingle_roof_45_outer", "x": 180, "y": 180 },
+    "facing=north,shape=outer_right,half=top": { "model": "caliber:block/acacia_shingle_roof_45_outer", "x": 180, "y": 0 },
+
+    "facing=east,shape=outer_left,half=top":  { "model": "caliber:block/acacia_shingle_roof_45_outer", "x": 180, "y": 0 },
+    "facing=west,shape=outer_left,half=top":  { "model": "caliber:block/acacia_shingle_roof_45_outer", "x": 180, "y": 180 },
+    "facing=south,shape=outer_left,half=top": { "model": "caliber:block/acacia_shingle_roof_45_outer", "x": 180, "y": 90 },
+    "facing=north,shape=outer_left,half=top": { "model": "caliber:block/acacia_shingle_roof_45_outer", "x": 180, "y": 270 },
+
+    "facing=east,shape=inner_right,half=top":  { "model": "caliber:block/acacia_shingle_roof_45_inner", "x": 180, "y": 90 },
+    "facing=west,shape=inner_right,half=top":  { "model": "caliber:block/acacia_shingle_roof_45_inner", "x": 180, "y": 270 },
+    "facing=south,shape=inner_right,half=top": { "model": "caliber:block/acacia_shingle_roof_45_inner", "x": 180, "y": 180 },
+    "facing=north,shape=inner_right,half=top": { "model": "caliber:block/acacia_shingle_roof_45_inner", "x": 180, "y": 0 },
+
+    "facing=east,shape=inner_left,half=top":  { "model": "caliber:block/acacia_shingle_roof_45_inner", "x": 180, "y": 0 },
+    "facing=west,shape=inner_left,half=top":  { "model": "caliber:block/acacia_shingle_roof_45_inner", "x": 180, "y": 180 },
+    "facing=south,shape=inner_left,half=top": { "model": "caliber:block/acacia_shingle_roof_45_inner", "x": 180, "y": 90 },
+    "facing=north,shape=inner_left,half=top": { "model": "caliber:block/acacia_shingle_roof_45_inner", "x": 180, "y": 270 }
+  }
+}

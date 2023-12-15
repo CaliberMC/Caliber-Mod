@@ -4214,6 +4214,10 @@ public static final RegistryObject<Block> SMOOTH_BROWN_SANDSTONE_ARCH_LARGE = re
     public static final RegistryObject<Block> SPRUCE_WINDOW_HALF = registerBlock("spruce_window_half",
             () -> new HalfWindowBlock(BlockProps.PLANK.get()));
 
+    /* ROOFS */
+    public static final RegistryObject<Block> ACACIA_SHINGLE_ROOF_45 = registerBlock("acacia_shingle_roof_45",
+            () -> new Roof45Block(Blocks.ACACIA_PLANKS::defaultBlockState, BlockProps.PLANK.get()));
+
     // PLASTER BLOCKS
     public static final RegistryObject<Block> BEIGE_PLASTER = registerBlock("beige_plaster",
             () -> new Block(BlockProps.PLASTER.get()));

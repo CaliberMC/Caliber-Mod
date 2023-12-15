@@ -191,6 +191,13 @@
 
 - 0.0.26 (in progress)
 - Added Bronze Armor and Tools
+- Added more tags for mod compatibility
+- Added all variants of 45 degree roofs
+- Added all variants of 26 degree roofs
+- Added all variants of 67 degree roofs
+- Added all variants of roof tops
+- Added all variants of
+- Added all variants of soffits
 
 - 0.0.27 (up next)
 - Added a total of # new blocks!
