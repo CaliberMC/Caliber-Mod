@@ -3,6 +3,7 @@ package com.calibermc.caliber.event;
 
 import com.calibermc.caliber.Caliber;
 import com.calibermc.caliber.block.ModBlocks;
+import com.calibermc.caliber.block.properties.BlockRenderLayers;
 import com.calibermc.caliber.client.AdjustReachOverlay;
 import com.calibermc.caliber.client.BlockPickerScreen;
 import com.calibermc.caliber.client.inventory.KilnScreen;
@@ -85,12 +86,11 @@ public class ModClientEventBus {
         KILN_MAIN_CATEGORY = RecipeBookCategories.create("kiln_main", ModBlocks.KILN.get().asItem().getDefaultInstance());
         WOODCUTTER_MAIN_CATEGORY = RecipeBookCategories.create("woodcutter", ModBlocks.WOODCUTTER.get().asItem().getDefaultInstance());
 
-        // Block Render Types
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.WOODCUTTER.get(), RenderType.cutout());
+        // Set Block Render Types
+        BlockRenderLayers.set();
 
+        // finder of woodcutting type recipes for main category
         RecipeBookRegistry.addCategoriesFinder(ModRecipeSerializers.WOODCUTTING_TYPE.get(), (r) -> WOODCUTTER_MAIN_CATEGORY);
-
-        // Recipe book for kiln
 
         // finder of alloying type recipes for main category
         RecipeBookRegistry.addCategoriesFinder(ModRecipeSerializers.ALLOYING_TYPE.get(), (r) -> KILN_MAIN_CATEGORY);

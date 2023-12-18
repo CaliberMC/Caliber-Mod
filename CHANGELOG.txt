@@ -193,15 +193,14 @@
 - Added Bronze Armor and Tools
 - Added more tags for mod compatibility
 - Added all variants of 45 degree roofs
-- Added all variants of 26 degree roofs
+- Added all variants of 22 degree roofs
 - Added all variants of 67 degree roofs
-- Added all variants of roof tops
-- Added all variants of
-- Added all variants of soffits
+- Added all variants of roof peaks
 
 - 0.0.27 (up next)
 - Added a total of # new blocks!
 - Current Mod Block Count is at #
+- Added all variants of soffits?
 - Added the new wood variants to the Planks & Beams tab
 - Added all variants of Stained Acacia Planks, Stained Birch Planks, Stained Dark Oak Planks, Stained Jungle Planks, Stained Oak Planks and Stained Spruce Planks
 - Added all current Kiln recipes
