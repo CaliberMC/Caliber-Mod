@@ -1,7 +1,7 @@
 {
   "type": "caliber:woodcutting",
   "ingredient": {
-    "item": "caliber:stained_acacia_wood"
+    "item": "caliber:stained_acacia"
   },
   "result": "caliber:stained_acacia_slab",
   "count": 8

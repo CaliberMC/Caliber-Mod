@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/templates/window_top",
+  "textures": {
+    "side": "caliber:block/white_marble",
+    "top": "caliber:block/white_marble",
+    "bottom": "caliber:block/white_marble"
+  }
+}

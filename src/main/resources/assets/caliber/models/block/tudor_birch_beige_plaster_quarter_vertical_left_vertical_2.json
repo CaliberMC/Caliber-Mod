@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/quarter_vertical_left",
-  "textures": {
-    "side": "caliber:block/tudor_birch_beige_plaster_vertical_2",
-    "bottom": "minecraft:block/birch_planks",
-    "top": "minecraft:block/birch_planks"
-  }
-}

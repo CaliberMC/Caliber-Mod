@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "caliber:block/mossy_cobbled_dark_limestone_arch_half"
+    },
+    "facing=south": {
+      "model": "caliber:block/mossy_cobbled_dark_limestone_arch_half",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west": {
+      "model": "caliber:block/mossy_cobbled_dark_limestone_arch_half",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=east": {
+      "model": "caliber:block/mossy_cobbled_dark_limestone_arch_half",
+      "y": 90,
+      "uvlock": true
+    }
+  }
+}

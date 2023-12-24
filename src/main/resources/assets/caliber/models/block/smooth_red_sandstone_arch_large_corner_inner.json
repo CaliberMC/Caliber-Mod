@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/arch_large_corner_inner",
-  "textures": {
-    "side": "minecraft:block/cut_red_sandstone",
-    "bottom": "minecraft:block/red_sandstone_top",
-    "top": "minecraft:block/cut_red_sandstone"
-  }
-}

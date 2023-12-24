@@ -1,7 +1,7 @@
 {
   "type": "caliber:woodcutting",
   "ingredient": {
-    "item": "caliber:stained_oak_wood"
+    "item": "caliber:stained_oak"
   },
   "result": "caliber:stained_oak_balustrade",
   "count": 2

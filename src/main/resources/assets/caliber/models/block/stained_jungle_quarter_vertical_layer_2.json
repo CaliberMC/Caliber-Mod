@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/quarter_vertical_layer_2",
-  "textures": {
-    "side": "caliber:block/stained_jungle_wood",
-    "bottom": "caliber:block/stained_jungle_wood",
-    "top": "caliber:block/stained_jungle_wood"
-  }
-}

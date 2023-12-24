@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,type=single": {
+      "model": "caliber:block/tudor_oak_ochre_plaster_slab_vertical_cross"
+    },
+    "facing=south,type=single": {
+      "model": "caliber:block/tudor_oak_ochre_plaster_slab_vertical_cross",
+      "y": 180
+    },
+    "facing=west,type=single": {
+      "model": "caliber:block/tudor_oak_ochre_plaster_slab_vertical_cross",
+      "y": 270
+    },
+    "facing=east,type=single": {
+      "model": "caliber:block/tudor_oak_ochre_plaster_slab_vertical_cross",
+      "y": 90
+    },
+    "facing=north,type=double": {
+      "model": "caliber:block/tudor_oak_ochre_plaster_cross"
+    },
+    "facing=south,type=double": {
+      "model": "caliber:block/tudor_oak_ochre_plaster_cross",
+      "y": 180
+    },
+    "facing=west,type=double": {
+      "model": "caliber:block/tudor_oak_ochre_plaster_cross",
+      "y": 270
+    },
+    "facing=east,type=double": {
+      "model": "caliber:block/tudor_oak_ochre_plaster_cross",
+      "y": 90
+    }
+  }
+}

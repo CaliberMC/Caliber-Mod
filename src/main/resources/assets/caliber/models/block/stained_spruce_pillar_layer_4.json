@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/pillar_layer_4",
-  "textures": {
-    "side": "caliber:block/stained_spruce_wood",
-    "bottom": "caliber:block/stained_spruce_wood",
-    "top": "caliber:block/stained_spruce_wood"
-  }
-}

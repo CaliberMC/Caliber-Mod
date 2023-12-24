@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/templates/slab_vertical_layer_2",
+  "textures": {
+    "side": "caliber:block/black_marble",
+    "top": "caliber:block/black_marble",
+    "bottom": "caliber:block/black_marble"
+  }
+}

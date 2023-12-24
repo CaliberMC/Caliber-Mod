@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/templates/slab_vertical_layer_3",
+  "textures": {
+    "side": "minecraft:block/birch_planks",
+    "top": "minecraft:block/birch_planks",
+    "bottom": "minecraft:block/birch_planks"
+  }
+}

@@ -1,7 +1,8 @@
 package com.calibermc.caliber.block.custom;
 
+import com.calibermc.caliber.block.shapes.RoofPeakShape;
 import com.calibermc.caliber.block.shapes.RoofShape;
-import com.calibermc.caliber.block.shapes.RoofTopShape;
+import com.calibermc.caliber.block.shapes.RoofPeakShape;
 import com.calibermc.caliber.util.ModBlockStateProperties;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -32,7 +33,7 @@ public class RoofTopBlock extends HorizontalDirectionalBlock implements SimpleWa
 
     public static final EnumProperty<Half> HALF = BlockStateProperties.HALF;
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
-    public static final EnumProperty<RoofTopShape> TYPE = ModBlockStateProperties.INTERSECTION_SHAPE;
+    public static final EnumProperty<RoofPeakShape> TYPE = ModBlockStateProperties.INTERSECTION_SHAPE;
 
     protected static final VoxelShape BOTTOM_SHAPE = Block.box(0, 0, 0, 16, 8, 16);
     protected static final VoxelShape TOP_SHAPE = Block.box(0, .01, 0, 16, 16, 16);
@@ -42,7 +43,7 @@ public class RoofTopBlock extends HorizontalDirectionalBlock implements SimpleWa
         this.registerDefaultState(this.defaultBlockState() // this.stateDefinition.any()
 //                .setValue(PITCH, RoofPitch.PITCH_45)
                 .setValue(FACING, Direction.NORTH)
-                .setValue(TYPE, RoofTopShape.STRAIGHT)
+                .setValue(TYPE, RoofPeakShape.STRAIGHT)
                 .setValue(HALF, Half.BOTTOM)
                 .setValue(WATERLOGGED, Boolean.FALSE));
     }
@@ -102,7 +103,7 @@ public class RoofTopBlock extends HorizontalDirectionalBlock implements SimpleWa
                     .setValue(WATERLOGGED, fluidstate.getType() == Fluids.WATER);
 
             // Determine RoofShape based on surrounding blocks
-            RoofTopShape roofShape = getRoofShape(blockstate1, level, blockpos);
+            RoofPeakShape roofShape = getRoofShape(blockstate1, level, blockpos);
             blockstate1 = blockstate1.setValue(TYPE, roofShape);
 
             return blockstate1;
@@ -156,7 +157,7 @@ public class RoofTopBlock extends HorizontalDirectionalBlock implements SimpleWa
     }
 
 
-    private static RoofTopShape getRoofShape(BlockState pState, BlockGetter pLevel, BlockPos pPos) {
+    private static RoofPeakShape getRoofShape(BlockState pState, BlockGetter pLevel, BlockPos pPos) {
         Direction facing = pState.getValue(FACING);
         Direction opposite = facing.getOpposite();
         boolean front = isRoof(pLevel.getBlockState(pPos.relative(facing)));
@@ -171,46 +172,46 @@ public class RoofTopBlock extends HorizontalDirectionalBlock implements SimpleWa
 
         // Check for peak cap
         if (!front && !back && !left && !right) {
-            return RoofTopShape.CAP;
+            return RoofPeakShape.CAP;
         }
         // Check for corner (left)
         if ((left && front && !right && !back) || (right && back && !left && !front)) {
-            return RoofTopShape.CORNER_LEFT;
+            return RoofPeakShape.CORNER_LEFT;
         }
         // Check for corner (right)
         if ((right && front && !left && !back) || (left && back && !right && !front)) {
-            return RoofTopShape.CORNER_RIGHT;
+            return RoofPeakShape.CORNER_RIGHT;
         }
         // Check for 3-way intersection (forward)
         if (back && left && right && !front) {
-            return RoofTopShape.FACING_T;
+            return RoofPeakShape.FACING_T;
         }
         // Check for 3-way intersection (backward)
         if (front && left && right && !back) {
-            return RoofTopShape.OPPOSITE_T;
+            return RoofPeakShape.OPPOSITE_T;
         }
         // Check for 3-way intersection (left)
         if (left && front && back && !right) {
-            return RoofTopShape.LEFT_T;
+            return RoofPeakShape.LEFT_T;
         }
         // Check for 3-way intersection (right)
         if (right && front && back && !left) {
-            return RoofTopShape.RIGHT_T;
+            return RoofPeakShape.RIGHT_T;
         }
         // Check for 4-way intersection
         if (right && left && front && back) {
-            return RoofTopShape.CROSS;
+            return RoofPeakShape.CROSS;
         }
         // Check for roof end hip
         if ((downFrontRight || downFrontLeft || downBackRight || downBackLeft)) {
             if (front && !back && !left && !right) {
-                return RoofTopShape.END_FACING;
+                return RoofPeakShape.END_FACING;
             }
             if (!front && back && !left && !right) {
-                return RoofTopShape.END_OPPOSITE;
+                return RoofPeakShape.END_OPPOSITE;
             }
         }
-        return RoofTopShape.STRAIGHT;
+        return RoofPeakShape.STRAIGHT;
     }
 
 //    private static RoofPitch getRoofPitch(BlockState pState, BlockGetter pLevel, BlockPos pPos) {

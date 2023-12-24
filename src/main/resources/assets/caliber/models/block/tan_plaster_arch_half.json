@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/arch_half",
-  "textures": {
-    "side": "caliber:block/tan_plaster",
-    "bottom": "caliber:block/tan_plaster",
-    "top": "caliber:block/tan_plaster"
-  }
-}

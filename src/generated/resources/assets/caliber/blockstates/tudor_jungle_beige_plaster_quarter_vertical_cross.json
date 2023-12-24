@@ -1,0 +1,49 @@
+{
+  "variants": {
+    "facing=north,type=left": {
+      "model": "caliber:block/tudor_jungle_beige_plaster_quarter_vertical_cross"
+    },
+    "facing=south,type=left": {
+      "model": "caliber:block/tudor_jungle_beige_plaster_quarter_vertical_cross",
+      "y": 180
+    },
+    "facing=west,type=left": {
+      "model": "caliber:block/tudor_jungle_beige_plaster_quarter_vertical_cross",
+      "y": 270
+    },
+    "facing=east,type=left": {
+      "model": "caliber:block/tudor_jungle_beige_plaster_quarter_vertical_cross",
+      "y": 90
+    },
+    "facing=north,type=right": {
+      "model": "caliber:block/tudor_jungle_beige_plaster_quarter_vertical_cross"
+    },
+    "facing=south,type=right": {
+      "model": "caliber:block/tudor_jungle_beige_plaster_quarter_vertical_cross",
+      "y": 180
+    },
+    "facing=west,type=right": {
+      "model": "caliber:block/tudor_jungle_beige_plaster_quarter_vertical_cross",
+      "y": 270
+    },
+    "facing=east,type=right": {
+      "model": "caliber:block/tudor_jungle_beige_plaster_quarter_vertical_cross",
+      "y": 90
+    },
+    "facing=north,type=double": {
+      "model": "caliber:block/tudor_jungle_beige_plaster_quarter_vertical_cross"
+    },
+    "facing=south,type=double": {
+      "model": "caliber:block/tudor_jungle_beige_plaster_quarter_vertical_cross",
+      "y": 180
+    },
+    "facing=west,type=double": {
+      "model": "caliber:block/tudor_jungle_beige_plaster_quarter_vertical_cross",
+      "y": 270
+    },
+    "facing=east,type=double": {
+      "model": "caliber:block/tudor_jungle_beige_plaster_quarter_vertical_cross",
+      "y": 90
+    }
+  }
+}

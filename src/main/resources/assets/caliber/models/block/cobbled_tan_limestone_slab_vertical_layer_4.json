@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/slab_vertical_layer_4",
-  "textures": {
-    "side": "caliber:block/cobbled_tan_limestone",
-    "bottom": "caliber:block/cobbled_tan_limestone",
-    "top": "caliber:block/cobbled_tan_limestone"
-  }
-}

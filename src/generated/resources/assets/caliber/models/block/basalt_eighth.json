@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/templates/eighth",
+  "textures": {
+    "side": "minecraft:block/basalt_top",
+    "top": "minecraft:block/basalt_top",
+    "bottom": "minecraft:block/basalt_top"
+  }
+}

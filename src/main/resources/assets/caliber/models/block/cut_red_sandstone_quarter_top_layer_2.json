@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/quarter_top_layer_2",
-  "textures": {
-    "side": "minecraft:block/cut_red_sandstone",
-    "bottom": "minecraft:block/red_sandstone_top",
-    "top": "minecraft:block/red_sandstone_top"
-  }
-}

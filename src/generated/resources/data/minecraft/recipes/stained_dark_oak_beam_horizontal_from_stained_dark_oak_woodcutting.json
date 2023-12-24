@@ -1,7 +1,7 @@
 {
   "type": "caliber:woodcutting",
   "ingredient": {
-    "item": "caliber:stained_dark_oak_wood"
+    "item": "caliber:stained_dark_oak"
   },
   "result": "caliber:stained_dark_oak_beam_horizontal",
   "count": 9

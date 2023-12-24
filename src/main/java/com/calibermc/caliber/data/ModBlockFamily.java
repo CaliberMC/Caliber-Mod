@@ -1,7 +1,11 @@
 package com.calibermc.caliber.data;
 
+import com.calibermc.caliber.block.management.BlockManager;
+import com.calibermc.caliber.data.datagen.ModBlockStateProvider;
 import com.google.common.collect.Maps;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
+import net.minecraftforge.registries.RegistryObject;
 import org.apache.commons.lang3.StringUtils;
 
 import javax.annotation.Nullable;
@@ -59,6 +63,14 @@ public class ModBlockFamily {
 
         public ModBlockFamily getFamily() {
             return this.family;
+        }
+
+
+        public Builder fromManager(BlockManager manager) {
+            for (Map.Entry<BlockManager.BlockAdditional, RegistryObject<Block>> e : manager.getBlocks().entrySet()) {
+                this.family.variants.put(e.getKey().variant, e.getValue().get());
+            }
+            return this;
         }
 
         public Builder arch(Block pArchBlock) {
@@ -206,6 +218,26 @@ public class ModBlockFamily {
             return this;
         }
 
+        public Builder roof_22(Block pRoof22Block) {
+            this.family.variants.put(Variant.ROOF_22, pRoof22Block);
+            return this;
+        }
+
+        public Builder roof_45(Block pRoof45Block) {
+            this.family.variants.put(Variant.ROOF_45, pRoof45Block);
+            return this;
+        }
+
+        public Builder roof_67(Block pRoof67Block) {
+            this.family.variants.put(Variant.ROOF_67, pRoof67Block);
+            return this;
+        }
+
+        public Builder roof_peak(Block pRoofPeakBlock) {
+            this.family.variants.put(Variant.ROOF_PEAK, pRoofPeakBlock);
+            return this;
+        }
+
         public Builder sign(Block pSignBlock, Block pWallSignBlock) {
             this.family.variants.put(Variant.SIGN, pSignBlock);
             this.family.variants.put(Variant.WALL_SIGN, pWallSignBlock);
@@ -279,6 +311,8 @@ public class ModBlockFamily {
     }
 
     public static enum Variant {
+        BASE(""),
+
         /* MAIN VARIANTS */
         ARCH("arch"),
         ARCH_HALF("arch_half"),
@@ -309,6 +343,10 @@ public class ModBlockFamily {
         PILLAR("pillar"),
         QUARTER("quarter"),
         QUARTER_VERTICAL("quarter_vertical"),
+        ROOF_22("roof_22"),
+        ROOF_45("roof_45"),
+        ROOF_67("roof_67"),
+        ROOF_PEAK("roof_peak"),
         SIGN("sign"),
         SLAB("slab"),
         SLAB_VERTICAL("slab_vertical"),
@@ -340,6 +378,10 @@ public class ModBlockFamily {
 
         public String getName() {
             return this.name;
+        }
+
+        public ResourceLocation getRegistryName(ModBlockStateProvider block) {
+            return new ResourceLocation("caliber", this.name);
         }
     }
 }

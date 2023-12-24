@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/templates/corner_slab_vertical_top_left",
+  "textures": {
+    "side": "caliber:block/ochre_plaster",
+    "top": "caliber:block/ochre_plaster",
+    "bottom": "caliber:block/ochre_plaster"
+  }
+}

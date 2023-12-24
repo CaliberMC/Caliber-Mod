@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "caliber:block/smooth_basalt_arrowslit"
+    },
+    "facing=south": {
+      "model": "caliber:block/smooth_basalt_arrowslit",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "caliber:block/smooth_basalt_arrowslit",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "caliber:block/smooth_basalt_arrowslit",
+      "y": 90
+    }
+  }
+}

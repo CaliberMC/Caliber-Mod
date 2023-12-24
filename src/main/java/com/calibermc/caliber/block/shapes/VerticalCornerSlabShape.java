@@ -7,9 +7,7 @@ public enum VerticalCornerSlabShape implements StringRepresentable {
     RIGHT ("right"),
     LEFT ("left"),
     TOP_LEFT ("top_left"),
-    TOP_RIGHT ("top_right"),
-    DOUBLE_TOP ("double_top"),
-    DOUBLE ("double");
+    TOP_RIGHT ("top_right");
 
 
     private final String name;

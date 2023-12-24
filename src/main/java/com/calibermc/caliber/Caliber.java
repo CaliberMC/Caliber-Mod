@@ -27,7 +27,7 @@ public class Caliber {
     public static final RecipeBookType KILN_BOOK_TYPE = RecipeBookType.create("kiln");
 
     // Directly reference a log4j logger.
-    private static final Logger LOGGER = LogManager.getLogger();
+    public static final Logger LOGGER = LogManager.getLogger();
 
     public Caliber() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();

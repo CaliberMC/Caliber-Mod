@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/slab_vertical_layer_3",
-  "textures": {
-    "side": "minecraft:block/stripped_oak_log",
-    "bottom": "minecraft:block/stripped_oak_log",
-    "top": "minecraft:block/stripped_oak_log"
-  }
-}

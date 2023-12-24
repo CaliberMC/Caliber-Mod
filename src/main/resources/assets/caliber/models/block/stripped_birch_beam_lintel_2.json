@@ -1,7 +1,0 @@
-{
-  "parent": "caliber:block/templates/beam_lintel_2",
-  "textures": {
-    "side": "minecraft:block/stripped_birch_log",
-    "end": "minecraft:block/stripped_birch_log"
-  }
-}

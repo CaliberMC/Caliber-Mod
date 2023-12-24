@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/quarter_top_layer_4",
-  "textures": {
-    "side": "caliber:block/pink_limestone",
-    "bottom": "caliber:block/pink_limestone",
-    "top": "caliber:block/pink_limestone"
-  }
-}

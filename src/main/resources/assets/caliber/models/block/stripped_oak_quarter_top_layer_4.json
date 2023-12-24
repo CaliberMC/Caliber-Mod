@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/quarter_top_layer_4",
-  "textures": {
-    "side": "minecraft:block/stripped_oak_log",
-    "bottom": "minecraft:block/stripped_oak_log",
-    "top": "minecraft:block/stripped_oak_log"
-  }
-}

@@ -56,6 +56,7 @@ public enum BlockProps {
     SMOOTH_LIMESTONE(BlockBehaviour.Properties.of(Material.STONE).strength(2.0f, 6.0F).sound(SoundType.STONE).requiresCorrectToolForDrops()),
     SMOOTH_QUARTZ(BlockBehaviour.Properties.of(Material.STONE).strength(2.0f, 6.0F).sound(SoundType.STONE).requiresCorrectToolForDrops()),
     SMOOTH_SANDSTONE(BlockBehaviour.Properties.of(Material.STONE).strength(2.0f, 6.0F).sound(SoundType.STONE).requiresCorrectToolForDrops()),
+    THATCH(BlockBehaviour.Properties.of(Material.GRASS).strength(0.5f).sound(SoundType.GRASS)),
     TIN_BLOCK(BlockBehaviour.Properties.of(Material.METAL).strength(5f).sound(SoundType.METAL).requiresCorrectToolForDrops()),
     TIN_ORE(BlockBehaviour.Properties.of(Material.METAL).strength(4f).sound(SoundType.METAL).requiresCorrectToolForDrops()),
     WARPED_NYLIUM(BlockBehaviour.Properties.copy(Blocks.WARPED_NYLIUM)),

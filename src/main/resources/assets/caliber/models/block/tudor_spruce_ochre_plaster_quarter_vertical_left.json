@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/quarter_vertical",
-  "textures": {
-    "side": "caliber:block/tudor_spruce_ochre_plaster_left",
-    "bottom": "minecraft:block/spruce_planks",
-    "top": "minecraft:block/spruce_planks"
-  }
-}

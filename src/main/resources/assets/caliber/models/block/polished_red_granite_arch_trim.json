@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/arch_trim",
-  "textures": {
-    "side": "minecraft:block/polished_granite",
-    "bottom": "minecraft:block/polished_granite",
-    "top": "minecraft:block/polished_granite"
-  }
-}

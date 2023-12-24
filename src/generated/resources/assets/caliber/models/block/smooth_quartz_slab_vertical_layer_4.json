@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/templates/slab_vertical_layer_4",
+  "textures": {
+    "side": "minecraft:block/quartz_block_bottom",
+    "top": "minecraft:block/quartz_block_bottom",
+    "bottom": "minecraft:block/quartz_block_bottom"
+  }
+}

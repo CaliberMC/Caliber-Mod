@@ -1,7 +1,7 @@
 {
   "type": "caliber:woodcutting",
   "ingredient": {
-    "item": "caliber:stained_spruce_wood"
+    "item": "caliber:stained_spruce"
   },
   "result": "caliber:stained_spruce_capital",
   "count": 2

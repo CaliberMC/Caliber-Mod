@@ -1,7 +1,7 @@
 {
   "type": "caliber:woodcutting",
   "ingredient": {
-    "item": "caliber:stained_jungle_wood"
+    "item": "caliber:stained_jungle"
   },
   "result": "caliber:stained_jungle_capital",
   "count": 2

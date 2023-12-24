@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/templates/quarter_top_layer_2",
+  "textures": {
+    "side": "caliber:block/slate_tile",
+    "top": "caliber:block/slate_tile",
+    "bottom": "caliber:block/slate_tile"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "caliber:block/cut_orange_sandstone_capital_top"
+    },
+    "type=bottom": {
+      "model": "caliber:block/cut_orange_sandstone_capital"
+    }
+  }
+}

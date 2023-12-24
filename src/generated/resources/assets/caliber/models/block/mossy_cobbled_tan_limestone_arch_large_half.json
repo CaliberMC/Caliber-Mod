@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/templates/arch_large_half",
+  "textures": {
+    "side": "caliber:block/mossy_cobbled_tan_limestone",
+    "top": "caliber:block/mossy_cobbled_tan_limestone",
+    "bottom": "caliber:block/mossy_cobbled_tan_limestone"
+  }
+}

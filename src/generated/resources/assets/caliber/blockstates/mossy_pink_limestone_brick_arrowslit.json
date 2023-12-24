@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "caliber:block/mossy_pink_limestone_brick_arrowslit"
+    },
+    "facing=south": {
+      "model": "caliber:block/mossy_pink_limestone_brick_arrowslit",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "caliber:block/mossy_pink_limestone_brick_arrowslit",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "caliber:block/mossy_pink_limestone_brick_arrowslit",
+      "y": 90
+    }
+  }
+}

@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/window_top",
-  "textures": {
-    "side": "minecraft:block/polished_diorite",
-    "bottom": "minecraft:block/polished_diorite",
-    "top": "minecraft:block/polished_diorite"
-  }
-}

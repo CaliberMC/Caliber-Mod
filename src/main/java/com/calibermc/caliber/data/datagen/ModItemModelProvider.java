@@ -4,12 +4,15 @@ import com.calibermc.caliber.Caliber;
 import com.calibermc.caliber.block.custom.*;
 import com.calibermc.caliber.block.custom.entity.WoodcutterBlock;
 import com.calibermc.caliber.block.custom.terrain.*;
+import com.calibermc.caliber.block.management.BlockManager;
+import com.calibermc.caliber.data.ModBlockFamily;
 import com.calibermc.caliber.item.ModItems;
 import com.calibermc.caliber.item.custom.Hammer;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.WallBlock;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
@@ -17,6 +20,7 @@ import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+import java.util.Map;
 import java.util.function.Consumer;
 
 public class ModItemModelProvider extends ItemModelProvider {
@@ -33,9 +37,53 @@ public class ModItemModelProvider extends ItemModelProvider {
 
 
     private void blockItemModels() {
+        // register item models with help of block manager, also can be used for generating block models if change
+        for (BlockManager blockManager : BlockManager.BLOCK_MANAGERS) {
+            for (Map.Entry<BlockManager.BlockAdditional, RegistryObject<Block>> e : blockManager.getBlocks().entrySet()) {
+                ModBlockFamily.Variant variant = e.getKey().variant;
+                String blockName = e.getValue().getId().getPath();
+                String parentName = blockName;
+
+                if (variant.equals(ModBlockFamily.Variant.CORNER)
+                        || variant.equals(ModBlockFamily.Variant.PILLAR)
+                        || variant.equals(ModBlockFamily.Variant.QUARTER)
+                        || variant.equals(ModBlockFamily.Variant.QUARTER_VERTICAL)) {
+                    parentName += "_layer_3";
+                }
+
+                if (variant.equals(ModBlockFamily.Variant.SLAB) || variant.equals(ModBlockFamily.Variant.SLAB_VERTICAL)) {
+                    parentName += "_layer_4";
+                }
+
+                if (variant.equals(ModBlockFamily.Variant.LAYER)
+                        || variant.equals(ModBlockFamily.Variant.BEAM_LINTEL)
+                        || variant.equals(ModBlockFamily.Variant.DOOR_FRAME_LINTEL)
+                        || variant.equals(ModBlockFamily.Variant.BEAM_POSTS)
+                        || variant.equals(ModBlockFamily.Variant.DOOR_FRAME)
+                        || variant.equals(ModBlockFamily.Variant.BEAM_HORIZONTAL)) {
+                    parentName += "_1";
+                }
+
+                if (variant.equals(ModBlockFamily.Variant.BEAM_VERTICAL)) {
+                    parentName += "_3";
+                }
+
+                if (variant.equals(ModBlockFamily.Variant.WALL)) {
+                    parentName += "_inventory";
+                }
+
+                if (variant.equals(ModBlockFamily.Variant.ROOF_22)) {
+                    parentName += "_top";
+                }
+
+                withExistingParent(blockName, modLoc("block/" + parentName));
+            }
+        }
+
         // Register Block Item Models
         ForgeRegistries.BLOCKS.getValues().stream()
-                .filter(block -> block.getRegistryName() != null && block.getRegistryName().getNamespace().equals(Caliber.MOD_ID))
+                .filter(block -> BlockManager.ALL_BLOCKS.stream().map(RegistryObject::get).noneMatch(b -> b.equals(block))
+                        && block.getRegistryName() != null && block.getRegistryName().getNamespace().equals(Caliber.MOD_ID))
                 .forEach(block -> {
                     String blockName = block.getRegistryName().getPath();
                     String parentName = blockName;
@@ -74,7 +122,15 @@ public class ModItemModelProvider extends ItemModelProvider {
                         parentName += "_inventory";
                     }
 
-                    withExistingParent(blockName, modLoc("block/" + parentName));
+                    if (block instanceof Roof22Block) {
+                        parentName += "_top";
+                    }
+
+                    try {
+                        withExistingParent(blockName, modLoc("block/" + parentName));
+                    } catch (Exception ex) {
+                        ex.printStackTrace();
+                    }
                 });
     }
 

@@ -1,0 +1,148 @@
+{
+  "variants": {
+    "facing=north,type=corner_left": {
+      "model": "caliber:block/polished_blackstone_arch_large_corner_inner",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=south,type=corner_left": {
+      "model": "caliber:block/polished_blackstone_arch_large_corner_inner",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=west,type=corner_left": {
+      "model": "caliber:block/polished_blackstone_arch_large_corner_inner",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=east,type=corner_left": {
+      "model": "caliber:block/polished_blackstone_arch_large_corner_inner"
+    },
+    "facing=north,type=corner_right": {
+      "model": "caliber:block/polished_blackstone_arch_large_corner_inner"
+    },
+    "facing=south,type=corner_right": {
+      "model": "caliber:block/polished_blackstone_arch_large_corner_inner",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west,type=corner_right": {
+      "model": "caliber:block/polished_blackstone_arch_large_corner_inner",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=east,type=corner_right": {
+      "model": "caliber:block/polished_blackstone_arch_large_corner_inner",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=north,type=corner_outer_left": {
+      "model": "caliber:block/polished_blackstone_arch_large_corner_outer",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=south,type=corner_outer_left": {
+      "model": "caliber:block/polished_blackstone_arch_large_corner_outer",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=west,type=corner_outer_left": {
+      "model": "caliber:block/polished_blackstone_arch_large_corner_outer",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=east,type=corner_outer_left": {
+      "model": "caliber:block/polished_blackstone_arch_large_corner_outer"
+    },
+    "facing=north,type=corner_outer_right": {
+      "model": "caliber:block/polished_blackstone_arch_large_corner_outer"
+    },
+    "facing=south,type=corner_outer_right": {
+      "model": "caliber:block/polished_blackstone_arch_large_corner_outer",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west,type=corner_outer_right": {
+      "model": "caliber:block/polished_blackstone_arch_large_corner_outer",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=east,type=corner_outer_right": {
+      "model": "caliber:block/polished_blackstone_arch_large_corner_outer",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=north,trim=left,type=straight": {
+      "model": "caliber:block/polished_blackstone_arch_large_trim"
+    },
+    "facing=south,trim=left,type=straight": {
+      "model": "caliber:block/polished_blackstone_arch_large_trim_right",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west,trim=left,type=straight": {
+      "model": "caliber:block/polished_blackstone_arch_large_trim_right",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=east,trim=left,type=straight": {
+      "model": "caliber:block/polished_blackstone_arch_large_trim_right",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=north,trim=right,type=straight": {
+      "model": "caliber:block/polished_blackstone_arch_large_trim_left"
+    },
+    "facing=south,trim=right,type=straight": {
+      "model": "caliber:block/polished_blackstone_arch_large_trim_left",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west,trim=right,type=straight": {
+      "model": "caliber:block/polished_blackstone_arch_large_trim_left",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=east,trim=right,type=straight": {
+      "model": "caliber:block/polished_blackstone_arch_large_trim_left",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=north,trim=both,type=straight": {
+      "model": "caliber:block/polished_blackstone_arch_large_trim"
+    },
+    "facing=south,trim=both,type=straight": {
+      "model": "caliber:block/polished_blackstone_arch_large_trim",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west,trim=both,type=straight": {
+      "model": "caliber:block/polished_blackstone_arch_large_trim",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=east,trim=both,type=straight": {
+      "model": "caliber:block/polished_blackstone_arch_large_trim",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=north,trim=none,type=straight": {
+      "model": "caliber:block/polished_blackstone_arch_large"
+    },
+    "facing=south,trim=none,type=straight": {
+      "model": "caliber:block/polished_blackstone_arch_large",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west,trim=none,type=straight": {
+      "model": "caliber:block/polished_blackstone_arch_large",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=east,trim=none,type=straight": {
+      "model": "caliber:block/polished_blackstone_arch_large",
+      "y": 90,
+      "uvlock": true
+    }
+  }
+}

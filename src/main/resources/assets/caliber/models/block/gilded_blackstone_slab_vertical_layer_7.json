@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/slab_vertical_layer_7",
-  "textures": {
-    "side": "minecraft:block/gilded_blackstone",
-    "bottom": "minecraft:block/gilded_blackstone",
-    "top": "minecraft:block/gilded_blackstone"
-  }
-}

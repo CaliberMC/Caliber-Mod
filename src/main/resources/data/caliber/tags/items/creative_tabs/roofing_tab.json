@@ -1,6 +1,37 @@
 {
   "replace": false,
   "values": [
-    ""
+    "caliber:acacia_shingle_roof_22",
+    "caliber:birch_shingle_roof_22",
+    "caliber:dark_oak_shingle_roof_22",
+    "caliber:jungle_shingle_roof_22",
+    "caliber:oak_shingle_roof_22",
+    "caliber:spruce_shingle_roof_22",
+    "caliber:acacia_shingle_roof_45",
+    "caliber:birch_shingle_roof_45",
+    "caliber:dark_oak_shingle_roof_45",
+    "caliber:jungle_shingle_roof_45",
+    "caliber:oak_shingle_roof_45",
+    "caliber:spruce_shingle_roof_45",
+    "caliber:acacia_shingle_roof_67",
+    "caliber:birch_shingle_roof_67",
+    "caliber:dark_oak_shingle_roof_67",
+    "caliber:jungle_shingle_roof_67",
+    "caliber:oak_shingle_roof_67",
+    "caliber:spruce_shingle_roof_67",
+    "caliber:acacia_shingle_roof_peak",
+    "caliber:birch_shingle_roof_peak",
+    "caliber:dark_oak_shingle_roof_peak",
+    "caliber:jungle_shingle_roof_peak",
+    "caliber:oak_shingle_roof_peak",
+    "caliber:spruce_shingle_roof_peak",
+    "caliber:slate_tile_roof_22",
+    "caliber:slate_tile_roof_45",
+    "caliber:slate_tile_roof_67",
+    "caliber:slate_tile_roof_peak",
+    "caliber:thatch_roof_22",
+    "caliber:thatch_roof_45",
+    "caliber:thatch_roof_67",
+    "caliber:thatch_roof_peak"
   ]
 }

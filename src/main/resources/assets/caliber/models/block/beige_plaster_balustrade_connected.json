@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/balustrade_connected",
-  "textures": {
-    "side": "caliber:block/beige_plaster",
-    "bottom": "caliber:block/beige_plaster",
-    "top": "caliber:block/beige_plaster"
-  }
-}

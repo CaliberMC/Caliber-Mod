@@ -190,17 +190,26 @@
 - Bugfix: fixed major bug preventing startup of dedicated servers on last update 0.0.24
 
 - 0.0.26 (in progress)
-- Added Bronze Armor and Tools
+- Major Code Optimization (Removed over 10k lines of code and prevented another 30k+ by implementing a new system for registering blocks and generating data/assets.
+This should allow for faster updates and easier maintenance of the mod going forward)
+Added Bronze Armor and Tools
+- Added a total of 134 new blocks!
+- Current Mod Block Count is at 3,367
 - Added more tags for mod compatibility
+- Added Thatch
+- Added Slate Tile
+- Added 6 types of Wood Shingles
 - Added all variants of 45 degree roofs
 - Added all variants of 22 degree roofs
 - Added all variants of 67 degree roofs
 - Added all variants of roof peaks
 
 - 0.0.27 (up next)
-- Added a total of # new blocks!
-- Current Mod Block Count is at #
+- Added a total of 92 new blocks!
+- Current Mod Block Count is at 3,325
+- Removed Buildify Features from Caliber-Mod to add greater mod compatibility for Block Picker feature, added as a dependency/library for Caliber-Mod
 - Added all variants of soffits?
 - Added the new wood variants to the Planks & Beams tab
 - Added all variants of Stained Acacia Planks, Stained Birch Planks, Stained Dark Oak Planks, Stained Jungle Planks, Stained Oak Planks and Stained Spruce Planks
 - Added all current Kiln recipes
+

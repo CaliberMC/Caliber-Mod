@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/corner_layer_3",
-  "textures": {
-    "side": "minecraft:block/polished_granite",
-    "bottom": "minecraft:block/polished_granite",
-    "top": "minecraft:block/polished_granite"
-  }
-}

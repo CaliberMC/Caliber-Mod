@@ -87,12 +87,6 @@ public class CornerSlabBlock extends Block implements SimpleWaterloggedBlock {
     public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
         CornerSlabShape cornerSlabShape = pState.getValue(TYPE);
         switch (cornerSlabShape) {
-            case DOUBLE_LEFT -> {
-                return CornerBlock.LEFT_SHAPE.get(pState.getValue(FACING));
-            }
-            case DOUBLE_RIGHT -> {
-                return CornerBlock.RIGHT_SHAPE.get(pState.getValue(FACING));
-            }
             case TOP_LEFT -> {
                 return TOP_LEFT_SHAPE.get(pState.getValue(FACING));
             }
@@ -117,55 +111,31 @@ public class CornerSlabBlock extends Block implements SimpleWaterloggedBlock {
         double hitX = pContext.getClickLocation().x - (double) blockpos.getX();
         double hitZ = pContext.getClickLocation().z - (double) blockpos.getZ();
         Direction direction = pContext.getHorizontalDirection().getOpposite();
+        FluidState fluidstate = pContext.getLevel().getFluidState(blockpos);
+        BlockState blockstate1 = this.defaultBlockState().setValue(FACING, pContext.getHorizontalDirection().getOpposite())
+                .setValue(WATERLOGGED, fluidstate.getType() == Fluids.WATER);
 
-        if (blockstate.is(this)) {
-            if (blockstate.getValue(TYPE) == CornerSlabShape.RIGHT || blockstate.getValue(TYPE) == CornerSlabShape.TOP_RIGHT) {
-                return blockstate.setValue(TYPE, CornerSlabShape.DOUBLE_RIGHT).setValue(WATERLOGGED, Boolean.FALSE);
-            } else if (blockstate.getValue(TYPE) == CornerSlabShape.LEFT || blockstate.getValue(TYPE) == CornerSlabShape.TOP_LEFT) {
-                return blockstate.setValue(TYPE, CornerSlabShape.DOUBLE_LEFT).setValue(WATERLOGGED, Boolean.FALSE);
-            }
+        if ((direction == NORTH && hitX < 0.5 || direction == EAST && hitZ < 0.5) && hitY < 0.5) {
+            return blockstate1.setValue(TYPE, CornerSlabShape.RIGHT);
+        } else if ((direction == NORTH && hitX > 0.5 || direction == EAST && hitZ > 0.5) && hitY < 0.5) {
+            return blockstate1.setValue(TYPE, CornerSlabShape.LEFT);
+        } else if ((direction == SOUTH && hitX > 0.5 || direction == WEST && hitZ > 0.5) && hitY < 0.5) {
+            return blockstate1.setValue(TYPE, CornerSlabShape.RIGHT);
+        } else if ((direction == SOUTH && hitX < 0.5 || direction == WEST && hitZ < 0.5) && hitY < 0.5) {
+            return blockstate1.setValue(TYPE, CornerSlabShape.LEFT);
+        } else if ((direction == NORTH && hitX < 0.5 || direction == EAST && hitZ < 0.5) && hitY > 0.5) {
+            return blockstate1.setValue(TYPE, CornerSlabShape.TOP_RIGHT);
+        } else if ((direction == NORTH && hitX > 0.5 || direction == EAST && hitZ > 0.5) && hitY > 0.5) {
+            return blockstate1.setValue(TYPE, CornerSlabShape.TOP_LEFT);
+        } else if ((direction == SOUTH && hitX > 0.5 || direction == WEST && hitZ > 0.5) && hitY > 0.5) {
+            return blockstate1.setValue(TYPE, CornerSlabShape.TOP_RIGHT);
+        } else if ((direction == SOUTH && hitX < 0.5 || direction == WEST && hitZ < 0.5) && hitY > 0.5) {
+            return blockstate1.setValue(TYPE, CornerSlabShape.TOP_LEFT);
         } else {
-            FluidState fluidstate = pContext.getLevel().getFluidState(blockpos);
-            BlockState blockstate1 = this.defaultBlockState().setValue(FACING, pContext.getHorizontalDirection().getOpposite())
-                    .setValue(WATERLOGGED, fluidstate.getType() == Fluids.WATER);
-
-            if ((direction == NORTH && hitX < 0.5 || direction == EAST && hitZ < 0.5) && hitY < 0.5) {
-                return blockstate1.setValue(TYPE, CornerSlabShape.RIGHT);
-            } else if ((direction == NORTH && hitX > 0.5 || direction == EAST && hitZ > 0.5) && hitY < 0.5) {
-                return blockstate1.setValue(TYPE, CornerSlabShape.LEFT);
-            } else if ((direction == SOUTH && hitX > 0.5 || direction == WEST && hitZ > 0.5) && hitY < 0.5) {
-                return blockstate1.setValue(TYPE, CornerSlabShape.RIGHT);
-            } else if ((direction == SOUTH && hitX < 0.5 || direction == WEST && hitZ < 0.5) && hitY < 0.5) {
-                return blockstate1.setValue(TYPE, CornerSlabShape.LEFT);
-            } else if ((direction == NORTH && hitX < 0.5 || direction == EAST && hitZ < 0.5) && hitY > 0.5) {
-                return blockstate1.setValue(TYPE, CornerSlabShape.TOP_RIGHT);
-            } else if ((direction == NORTH && hitX > 0.5 || direction == EAST && hitZ > 0.5) && hitY > 0.5) {
-                return blockstate1.setValue(TYPE, CornerSlabShape.TOP_LEFT);
-            } else if ((direction == SOUTH && hitX > 0.5 || direction == WEST && hitZ > 0.5) && hitY > 0.5) {
-                return blockstate1.setValue(TYPE, CornerSlabShape.TOP_RIGHT);
-            } else if ((direction == SOUTH && hitX < 0.5 || direction == WEST && hitZ < 0.5) && hitY > 0.5) {
-                return blockstate1.setValue(TYPE, CornerSlabShape.TOP_LEFT);
-            } else {
-                return blockstate1.setValue(TYPE, CornerSlabShape.RIGHT);
-            }
-        }
-        return blockstate;
-    }
-
-    @Override
-    public boolean canBeReplaced(BlockState pState, BlockPlaceContext pUseContext) {
-        ItemStack itemstack = pUseContext.getItemInHand();
-        CornerSlabShape cornerSlabShape = pState.getValue(TYPE);
-        if ((cornerSlabShape == CornerSlabShape.LEFT ||
-                cornerSlabShape == CornerSlabShape.RIGHT ||
-                cornerSlabShape == CornerSlabShape.TOP_LEFT ||
-                cornerSlabShape == CornerSlabShape.TOP_RIGHT) &&
-                itemstack.is(this.asItem())) {
-            return true;
-        } else {
-            return false;
+            return blockstate1.setValue(TYPE, CornerSlabShape.RIGHT);
         }
     }
+
 
     @Override
     public FluidState getFluidState(BlockState pState) {

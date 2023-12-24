@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/arch_large_corner_outer",
-  "textures": {
-    "side": "minecraft:block/gilded_blackstone",
-    "bottom": "minecraft:block/gilded_blackstone",
-    "top": "minecraft:block/gilded_blackstone"
-  }
-}

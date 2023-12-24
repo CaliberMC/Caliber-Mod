@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/arch_large_corner_inner",
-  "textures": {
-    "side": "caliber:block/brown_sandstone",
-    "bottom": "caliber:block/brown_sandstone_bottom",
-    "top": "caliber:block/brown_sandstone_top"
-  }
-}

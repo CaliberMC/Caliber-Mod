@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/eighth_top_left",
-  "textures": {
-    "side": "minecraft:block/dark_oak_planks",
-    "bottom": "minecraft:block/dark_oak_planks",
-    "top": "minecraft:block/dark_oak_planks"
-  }
-}

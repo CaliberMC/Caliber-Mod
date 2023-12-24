@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/outer_stairs",
-  "textures": {
-    "side": "caliber:block/cut_orange_sandstone",
-    "bottom": "caliber:block/cut_orange_sandstone",
-    "top": "caliber:block/cut_orange_sandstone"
-  }
-}

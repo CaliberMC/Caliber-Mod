@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/arch_trim",
-  "textures": {
-    "side": "minecraft:block/mossy_stone_bricks",
-    "bottom": "minecraft:block/mossy_stone_bricks",
-    "top": "minecraft:block/mossy_stone_bricks"
-  }
-}

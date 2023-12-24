@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/templates/balustrade_connected",
+  "textures": {
+    "side": "caliber:block/mossy_cobbled_light_limestone",
+    "top": "caliber:block/mossy_cobbled_light_limestone",
+    "bottom": "caliber:block/mossy_cobbled_light_limestone"
+  }
+}

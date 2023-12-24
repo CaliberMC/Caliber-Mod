@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/window_half_top",
-  "textures": {
-    "side": "minecraft:block/andesite",
-    "bottom": "minecraft:block/andesite",
-    "top": "minecraft:block/andesite"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/eighth_top",
-  "textures": {
-    "side": "caliber:block/stained_jungle_wood",
-    "bottom": "caliber:block/stained_jungle_wood",
-    "top": "caliber:block/stained_jungle_wood"
-  }
-}

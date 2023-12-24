@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/window_top",
-  "textures": {
-    "side": "caliber:block/ochre_plaster",
-    "bottom": "caliber:block/ochre_plaster",
-    "top": "caliber:block/ochre_plaster"
-  }
-}

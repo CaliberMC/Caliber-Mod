@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/arch_large_half_left",
-  "textures": {
-    "side": "minecraft:block/granite",
-    "bottom": "minecraft:block/granite",
-    "top": "minecraft:block/granite"
-  }
-}

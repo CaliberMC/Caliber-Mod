@@ -3,6 +3,7 @@ package com.calibermc.caliber.item;
 
 import com.calibermc.caliber.block.ModBlocks;
 import com.calibermc.caliber.config.CaliberClientConfigs;
+import com.calibermc.caliber.data.ModBlockFamily;
 import com.calibermc.caliber.util.ModTags;
 import com.google.common.collect.Lists;
 import net.minecraft.core.NonNullList;
@@ -27,7 +28,7 @@ public class CreativeTabs {
     public static final CreativeModeTab CALIBER_TAB = new CreativeModeTab("caliber") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModBlocks.POLISHED_PINK_MARBLE.get());
+            return new ItemStack(ModBlocks.POLISHED_PINK_MARBLE.baseBlock());
         }
     };
 
@@ -52,7 +53,7 @@ public class CreativeTabs {
         for (CreativeModeTab mainTab : MAIN_TABS) {
             CreativeTabs.addGroupSafe(mainTab.getId(), mainTab);
         }
-        new ModifiedTab("cobble_brick", () -> new ItemStack(ModBlocks.COBBLED_DARK_LIMESTONE.get())) {
+        new ModifiedTab("cobble_brick", () -> new ItemStack(ModBlocks.COBBLED_DARK_LIMESTONE.baseBlock())) {
             @Override
             public void fillItemList(NonNullList<ItemStack> pItems) {
                 ITagManager<Item> tags = ForgeRegistries.ITEMS.tags();
@@ -75,7 +76,7 @@ public class CreativeTabs {
                 }
             }
         };
-        new ModifiedTab("roofing", () -> new ItemStack(Blocks.COBBLED_DEEPSLATE_STAIRS)) {
+        new ModifiedTab("roofing", () -> new ItemStack(ModBlocks.ACACIA_SHINGLES.get(ModBlockFamily.Variant.ROOF_45))) {
             @Override
             public void fillItemList(NonNullList<ItemStack> pItems) {
                 ITagManager<Item> tags = ForgeRegistries.ITEMS.tags();
@@ -86,7 +87,7 @@ public class CreativeTabs {
                 }
             }
         };
-        new ModifiedTab("plaster_stucco", () -> new ItemStack(ModBlocks.BEIGE_PLASTER.get())) {
+        new ModifiedTab("plaster_stucco", () -> new ItemStack(ModBlocks.BEIGE_PLASTER.baseBlock())) {
             @Override
             public void fillItemList(NonNullList<ItemStack> pItems) {
                 ITagManager<Item> tags = ForgeRegistries.ITEMS.tags();
@@ -97,7 +98,7 @@ public class CreativeTabs {
                 }
             }
         };
-        new ModifiedTab("half_timbered_walls", () -> new ItemStack(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER_CROSS.get())) {
+        new ModifiedTab("half_timbered_walls", () -> new ItemStack(ModBlocks.TUDOR_DARK_OAK_BEIGE_PLASTER.get(ModBlockFamily.Variant.CROSS))) {
             @Override
             public void fillItemList(NonNullList<ItemStack> pItems) {
                 ITagManager<Item> tags = ForgeRegistries.ITEMS.tags();

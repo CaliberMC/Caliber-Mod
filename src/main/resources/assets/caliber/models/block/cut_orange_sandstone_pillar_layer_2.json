@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/pillar_layer_2",
-  "textures": {
-    "side": "caliber:block/cut_orange_sandstone",
-    "bottom": "caliber:block/orange_sandstone_top",
-    "top": "caliber:block/orange_sandstone_top"
-  }
-}

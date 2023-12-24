@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/arch_large_corner_inner",
-  "textures": {
-    "side": "minecraft:block/quartz_block_side",
-    "bottom": "minecraft:block/quartz_block_top",
-    "top": "minecraft:block/quartz_block_top"
-  }
-}
