@@ -18,7 +18,7 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 apply plugin: 'org.spongepowered.mixin'
 
-version = '0.0.27-1.18.2'
+version = '0.0.28-1.18.2'
 group = 'com.calibermc.caliber' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'caliber'
 

@@ -204,7 +204,7 @@ Added Bronze Armor and Tools
 - Added all variants of 67 degree roofs
 - Added all variants of roof peaks
 
-- 0.0.27 (in progress)
+- 0.0.27
 - Added a total of 214 new blocks!
 - Current Mod Block Count is at 3,581
 - Renamed Stained Woods to Stained Stripped Woods to account for Stained Planks and better fit naming conventions
@@ -217,7 +217,7 @@ Added Bronze Armor and Tools
 - All missing recipes will be added asap
 
 
-- 0.0.28 (up next)
+- 0.0.28 (in progress)
 - Removed Buildify Features from Caliber-Mod to add greater mod compatibility for Block Picker feature, added as a dependency/library for Caliber-Mod
 
 
