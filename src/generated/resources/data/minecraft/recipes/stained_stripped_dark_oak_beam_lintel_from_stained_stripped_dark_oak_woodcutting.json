@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "caliber:stained_stripped_dark_oak"
+  },
+  "result": "caliber:stained_stripped_dark_oak_beam_lintel",
+  "count": 16
+}

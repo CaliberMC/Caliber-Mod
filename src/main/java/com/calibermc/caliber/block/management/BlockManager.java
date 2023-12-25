@@ -11,6 +11,7 @@ import net.minecraft.data.loot.BlockLoot;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.WoodType;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.*;
@@ -122,6 +123,7 @@ public class BlockManager {
                     case ARROWSLIT -> builder.addVariant(variant, () -> new ArrowSlitBlock(properties), (b) -> b.stateGen(CaliberBlockHelper.ARROWSLIT.apply(blockSupplier)));
                     case BALUSTRADE -> builder.addVariant(variant, () -> new BalustradeBlock(properties), (b) -> b.stateGen(CaliberBlockHelper.BALUSTRADE.apply(blockSupplier)));
                     case BUTTON -> builder.addVariant(variant, () -> new StoneButtonBlock(properties), (b) -> b.stateGen(CaliberBlockHelper.BUTTON.apply(blockSupplier)));
+//                    case BUTTON -> builder.addVariant(variant, () -> new WoodButtonBlock(properties), (b) -> b.stateGen(CaliberBlockHelper.WOOD_BUTTON.apply(blockSupplier)));
                     case BEAM_HORIZONTAL -> builder.addVariant(variant, () -> new HorizontalBeamBlock(properties), (b) -> b.stateGen(CaliberBlockHelper.BEAM_HORIZONTAL.apply(blockSupplier)));
                     case BEAM_LINTEL -> builder.addVariant(variant, () -> new BeamLintelBlock(properties), (b) -> b.stateGen(CaliberBlockHelper.BEAM_LINTEL.apply(blockSupplier)));
                     case BEAM_POSTS -> builder.addVariant(variant, () -> new BeamPostsBlock(properties), (b) -> b.stateGen(CaliberBlockHelper.BEAM_POSTS.apply(blockSupplier)));
@@ -130,9 +132,12 @@ public class BlockManager {
                     case CORNER -> builder.addVariant(variant, () -> new CornerLayerBlock(properties), (b) -> b.stateGen(CaliberBlockHelper.CORNER.apply(blockSupplier)));
                     case CORNER_SLAB -> builder.addVariant(variant, () -> new CornerSlabBlock(properties), (b) -> b.stateGen(CaliberBlockHelper.CORNER_SLAB.apply(blockSupplier)));
                     case CORNER_SLAB_VERTICAL -> builder.addVariant(variant, () -> new VerticalCornerSlabBlock(properties), (b) -> b.stateGen(CaliberBlockHelper.CORNER_SLAB_VERTICAL.apply(blockSupplier)));
+//                    case DOOR -> builder.addVariant(variant, () -> new DoorBlock(properties), (b) -> b.stateGen(CaliberBlockHelper.DOOR.apply(blockSupplier)));
                     case DOOR_FRAME -> builder.addVariant(variant, () -> new DoorFrameBlock(properties), (b) -> b.stateGen(CaliberBlockHelper.DOOR_FRAME.apply(blockSupplier)));
                     case DOOR_FRAME_LINTEL -> builder.addVariant(variant, () -> new DoorFrameLintelBlock(properties), (b) -> b.stateGen(CaliberBlockHelper.DOOR_FRAME_LINTEL.apply(blockSupplier)));
                     case EIGHTH -> builder.addVariant(variant, () -> new EighthBlock(properties), (b) -> b.stateGen(CaliberBlockHelper.EIGHTH.apply(blockSupplier)));
+                    case FENCE -> builder.addVariant(variant, () -> new FenceBlock(properties), (b) -> b.stateGen(CaliberBlockHelper.FENCE.apply(blockSupplier)));
+                    case FENCE_GATE -> builder.addVariant(variant, () -> new FenceGateBlock(properties), (b) -> b.stateGen(CaliberBlockHelper.FENCE_GATE.apply(blockSupplier)));
                     case PILLAR -> builder.addVariant(variant, () -> new PillarLayerBlock(properties), (b) -> b.stateGen(CaliberBlockHelper.PILLAR.apply(blockSupplier)));
                     case PRESSURE_PLATE -> builder.addVariant(variant, () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, properties), (b) -> b.stateGen(CaliberBlockHelper.PRESSURE_PLATE.apply(blockSupplier)));
                     case QUARTER -> builder.addVariant(variant, () -> new QuarterLayerBlock(properties), (b) -> b.stateGen(CaliberBlockHelper.QUARTER.apply(blockSupplier)));
@@ -141,10 +146,13 @@ public class BlockManager {
                     case ROOF_45 -> builder.addVariant(variant, () -> new Roof45Block(properties), (b) -> b.stateGen(CaliberBlockHelper.ROOF_45.apply(blockSupplier)));
                     case ROOF_67 -> builder.addVariant(variant, () -> new Roof67Block(properties), (b) -> b.stateGen(CaliberBlockHelper.ROOF_67.apply(blockSupplier)));
                     case ROOF_PEAK -> builder.addVariant(variant, () -> new RoofPeakBlock(properties), (b) -> b.stateGen(CaliberBlockHelper.ROOF_PEAK.apply(blockSupplier)));
+//                    case SIGN -> builder.addVariant(variant, () -> new StandingSignBlock(properties, WoodType.OAK), new WallSignBlock(properties, WoodType.OAK), (b) -> b.stateGen(CaliberBlockHelper.SIGN.apply(blockSupplier)));
                     case SLAB -> builder.addVariant(variant, () -> new SlabLayerBlock(properties), (b) -> b.stateGen(CaliberBlockHelper.SLAB.apply(blockSupplier)));
                     case SLAB_VERTICAL -> builder.addVariant(variant, () -> new VerticalSlabLayerBlock(properties), (b) -> b.stateGen(CaliberBlockHelper.SLAB_VERTICAL.apply(blockSupplier)));
                     case STAIRS -> builder.addVariant(variant, () -> new StairBlock(() -> blockSupplier.get().defaultBlockState(), properties), (b) -> b.stateGen(CaliberBlockHelper.STAIRS.apply(blockSupplier)));
+//                    case TRAPDOOR -> builder.addVariant(variant, () -> new TrapDoorBlock(properties), (b) -> b.stateGen(TRAP_DOOR.apply(blockSupplier)));
                     case WALL -> builder.addVariant(variant, () -> new WallBlock(properties), (b) -> b.stateGen(CaliberBlockHelper.WALL.apply(blockSupplier)));
+//                    case WALL_SIGN -> builder.addVariant(variant, () -> new WallSignBlock(properties, WoodType.OAK), (b) -> b.stateGen(CaliberBlockHelper.SIGN.apply(blockSupplier)));
                     case WINDOW -> builder.addVariant(variant, () -> new WindowBlock(properties), (b) -> b.stateGen(CaliberBlockHelper.WINDOW.apply("window", blockSupplier)));
                     case WINDOW_HALF -> builder.addVariant(variant, () -> new HalfWindowBlock(properties), (b) -> b.stateGen(CaliberBlockHelper.WINDOW_HALF.apply("window_half", blockSupplier)));
                 }

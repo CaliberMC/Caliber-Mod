@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "ingredient": {
-    "item": "caliber:stained_jungle"
-  },
-  "result": "caliber:stained_jungle_beam_posts",
-  "count": 16
-}

@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "caliber:stained_stripped_birch"
+  },
+  "result": "caliber:stained_stripped_birch_eighth",
+  "count": 8
+}

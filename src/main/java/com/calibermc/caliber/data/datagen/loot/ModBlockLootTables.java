@@ -21,6 +21,7 @@ public class ModBlockLootTables extends BlockLoot {
         metalsAndOres();
         terrainBlocks();
         plasterBlocks();
+        stainedPlanks();
 
         for (BlockManager blockManager : BlockManager.BLOCK_MANAGERS) {
             for (Map.Entry<BlockManager.BlockAdditional, RegistryObject<Block>> e : blockManager.getBlocks().entrySet()) {
@@ -89,6 +90,57 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.OCHRE_PLASTER_POWDER.get());
         this.dropSelf(ModBlocks.TAN_PLASTER_POWDER.get());
         this.dropSelf(ModBlocks.WHITE_PLASTER_POWDER.get());
+    }
+
+    private void stainedPlanks() {
+        this.dropSelf(ModBlocks.STAINED_ACACIA_BUTTON.get());
+        this.dropSelf(ModBlocks.STAINED_ACACIA_DOOR.get());
+//        this.dropSelf(ModBlocks.STAINED_ACACIA_FENCE.get());
+//        this.dropSelf(ModBlocks.STAINED_ACACIA_FENCE_GATE.get());
+//        this.dropSelf(ModBlocks.STAINED_ACACIA_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.STAINED_ACACIA_SIGN.get());
+        this.dropSelf(ModBlocks.STAINED_ACACIA_TRAPDOOR.get());
+        this.dropSelf(ModBlocks.STAINED_ACACIA_WALL_SIGN.get());
+        this.dropSelf(ModBlocks.STAINED_BIRCH_BUTTON.get());
+        this.dropSelf(ModBlocks.STAINED_BIRCH_DOOR.get());
+//        this.dropSelf(ModBlocks.STAINED_BIRCH_FENCE.get());
+//        this.dropSelf(ModBlocks.STAINED_BIRCH_FENCE_GATE.get());
+//        this.dropSelf(ModBlocks.STAINED_BIRCH_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.STAINED_BIRCH_SIGN.get());
+        this.dropSelf(ModBlocks.STAINED_BIRCH_TRAPDOOR.get());
+        this.dropSelf(ModBlocks.STAINED_BIRCH_WALL_SIGN.get());
+        this.dropSelf(ModBlocks.STAINED_DARK_OAK_BUTTON.get());
+        this.dropSelf(ModBlocks.STAINED_DARK_OAK_DOOR.get());
+//        this.dropSelf(ModBlocks.STAINED_DARK_OAK_FENCE.get());
+//        this.dropSelf(ModBlocks.STAINED_DARK_OAK_FENCE_GATE.get());
+//        this.dropSelf(ModBlocks.STAINED_DARK_OAK_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.STAINED_DARK_OAK_SIGN.get());
+        this.dropSelf(ModBlocks.STAINED_DARK_OAK_TRAPDOOR.get());
+        this.dropSelf(ModBlocks.STAINED_DARK_OAK_WALL_SIGN.get());
+        this.dropSelf(ModBlocks.STAINED_JUNGLE_BUTTON.get());
+        this.dropSelf(ModBlocks.STAINED_JUNGLE_DOOR.get());
+//        this.dropSelf(ModBlocks.STAINED_JUNGLE_FENCE.get());
+//        this.dropSelf(ModBlocks.STAINED_JUNGLE_FENCE_GATE.get());
+//        this.dropSelf(ModBlocks.STAINED_JUNGLE_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.STAINED_JUNGLE_SIGN.get());
+        this.dropSelf(ModBlocks.STAINED_JUNGLE_TRAPDOOR.get());
+        this.dropSelf(ModBlocks.STAINED_JUNGLE_WALL_SIGN.get());
+        this.dropSelf(ModBlocks.STAINED_OAK_BUTTON.get());
+        this.dropSelf(ModBlocks.STAINED_OAK_DOOR.get());
+//        this.dropSelf(ModBlocks.STAINED_OAK_FENCE.get());
+//        this.dropSelf(ModBlocks.STAINED_OAK_FENCE_GATE.get());
+//        this.dropSelf(ModBlocks.STAINED_OAK_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.STAINED_OAK_SIGN.get());
+        this.dropSelf(ModBlocks.STAINED_OAK_TRAPDOOR.get());
+        this.dropSelf(ModBlocks.STAINED_OAK_WALL_SIGN.get());
+        this.dropSelf(ModBlocks.STAINED_SPRUCE_BUTTON.get());
+        this.dropSelf(ModBlocks.STAINED_SPRUCE_DOOR.get());
+//        this.dropSelf(ModBlocks.STAINED_SPRUCE_FENCE.get());
+//        this.dropSelf(ModBlocks.STAINED_SPRUCE_FENCE_GATE.get());
+//        this.dropSelf(ModBlocks.STAINED_SPRUCE_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.STAINED_SPRUCE_SIGN.get());
+        this.dropSelf(ModBlocks.STAINED_SPRUCE_TRAPDOOR.get());
+        this.dropSelf(ModBlocks.STAINED_SPRUCE_WALL_SIGN.get());
     }
 
     @Override

@@ -33,6 +33,7 @@ public enum BlockProps {
     MYCELIUM(BlockBehaviour.Properties.copy(Blocks.MYCELIUM)),
     CRIMSON_NYLIUM(BlockBehaviour.Properties.copy(Blocks.CRIMSON_NYLIUM)),
     PLANK(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0f, 3.0F).sound(SoundType.WOOD)),
+    PLANK_NO_OC(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0f, 3.0F).sound(SoundType.WOOD).noOcclusion()),
     PLASTER(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).sound(SoundType.TUFF).requiresCorrectToolForDrops()),
     PLASTER_POWDER(BlockBehaviour.Properties.of(Material.SAND).strength(0.5f).sound(SoundType.SAND)),
     PODZOL(BlockBehaviour.Properties.copy(Blocks.PODZOL)),

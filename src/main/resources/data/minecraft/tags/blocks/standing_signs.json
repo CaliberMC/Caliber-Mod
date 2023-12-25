@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "caliber:stained_oak_sign",
+    "caliber:stained_spruce_sign",
+    "caliber:stained_birch_sign",
+    "caliber:stained_acacia_sign",
+    "caliber:stained_jungle_sign",
+    "caliber:stained_dark_oak_sign"
+  ]
+}

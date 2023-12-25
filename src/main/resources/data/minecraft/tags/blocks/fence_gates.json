@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "caliber:stained_oak_fence_gate",
+    "caliber:stained_acacia_fence_gate",
+    "caliber:stained_dark_oak_fence_gate",
+    "caliber:stained_spruce_fence_gate",
+    "caliber:stained_birch_fence_gate",
+    "caliber:stained_jungle_fence_gate"
+  ]
+}

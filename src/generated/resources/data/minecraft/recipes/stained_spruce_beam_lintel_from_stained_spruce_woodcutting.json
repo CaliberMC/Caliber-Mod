@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "ingredient": {
-    "item": "caliber:stained_spruce"
-  },
-  "result": "caliber:stained_spruce_beam_lintel",
-  "count": 16
-}

@@ -4,6 +4,7 @@ import com.calibermc.caliber.block.ModBlocks;
 import com.google.common.collect.Maps;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.ForgeRegistries;
 
 import java.util.Map;
@@ -136,6 +137,8 @@ public class ModBlockFamilies {
             .getFamily();
     public static final ModBlockFamily LIMESTONE = familyBuilder(Blocks.STONE)
             .fromManager(ModBlocks.LIMESTONE)
+            .button(Blocks.STONE_BUTTON)
+            .pressurePlate(Blocks.STONE_PRESSURE_PLATE)
             .stairs(Blocks.STONE_STAIRS)
             .getFamily();
     public static final ModBlockFamily PINK_LIMESTONE = familyBuilder(ModBlocks.PINK_LIMESTONE.baseBlock())
@@ -386,6 +389,24 @@ public class ModBlockFamilies {
     public static final ModBlockFamily SPRUCE_SHINGLES = familyBuilder(ModBlocks.SPRUCE_SHINGLES.baseBlock())
             .fromManager(ModBlocks.SPRUCE_SHINGLES)
             .getFamily();
+    public static final ModBlockFamily STAINED_ACACIA_SHINGLES = familyBuilder(ModBlocks.STAINED_ACACIA_SHINGLES.baseBlock())
+            .fromManager(ModBlocks.STAINED_ACACIA_SHINGLES)
+            .getFamily();
+    public static final ModBlockFamily STAINED_BIRCH_SHINGLES = familyBuilder(ModBlocks.STAINED_BIRCH_SHINGLES.baseBlock())
+            .fromManager(ModBlocks.STAINED_BIRCH_SHINGLES)
+            .getFamily();
+    public static final ModBlockFamily STAINED_DARK_OAK_SHINGLES = familyBuilder(ModBlocks.STAINED_DARK_OAK_SHINGLES.baseBlock())
+            .fromManager(ModBlocks.STAINED_DARK_OAK_SHINGLES)
+            .getFamily();
+    public static final ModBlockFamily STAINED_JUNGLE_SHINGLES = familyBuilder(ModBlocks.STAINED_JUNGLE_SHINGLES.baseBlock())
+            .fromManager(ModBlocks.STAINED_JUNGLE_SHINGLES)
+            .getFamily();
+    public static final ModBlockFamily STAINED_OAK_SHINGLES = familyBuilder(ModBlocks.STAINED_OAK_SHINGLES.baseBlock())
+            .fromManager(ModBlocks.STAINED_OAK_SHINGLES)
+            .getFamily();
+    public static final ModBlockFamily STAINED_SPRUCE_SHINGLES = familyBuilder(ModBlocks.STAINED_SPRUCE_SHINGLES.baseBlock())
+            .fromManager(ModBlocks.STAINED_SPRUCE_SHINGLES)
+            .getFamily();
     public static final ModBlockFamily THATCH = familyBuilder(ModBlocks.THATCH.baseBlock())
             .fromManager(ModBlocks.THATCH)
             .getFamily();
@@ -485,25 +506,86 @@ public class ModBlockFamilies {
             .getFamily();
 
     /* Stained Wood  */
-    public static final ModBlockFamily STAINED_ACACIA_WOOD = familyBuilder(ModBlocks.STAINED_ACACIA.baseBlock())
-            .fromManager(ModBlocks.STAINED_ACACIA)
+    public static final ModBlockFamily STAINED_STRIPPED_ACACIA_WOOD = familyBuilder(ModBlocks.STAINED_STRIPPED_ACACIA.baseBlock())
+            .fromManager(ModBlocks.STAINED_STRIPPED_ACACIA)
             .getFamily();
-    public static final ModBlockFamily STAINED_BIRCH_WOOD = familyBuilder(ModBlocks.STAINED_BIRCH.baseBlock())
-            .fromManager(ModBlocks.STAINED_BIRCH)
+    public static final ModBlockFamily STAINED_STRIPPED_BIRCH_WOOD = familyBuilder(ModBlocks.STAINED_STRIPPED_BIRCH.baseBlock())
+            .fromManager(ModBlocks.STAINED_STRIPPED_BIRCH)
             .getFamily();
-    public static final ModBlockFamily STAINED_DARK_OAK_WOOD = familyBuilder(ModBlocks.STAINED_DARK_OAK.baseBlock())
-            .fromManager(ModBlocks.STAINED_DARK_OAK)
+    public static final ModBlockFamily STAINED_STRIPPED_DARK_OAK_WOOD = familyBuilder(ModBlocks.STAINED_STRIPPED_DARK_OAK.baseBlock())
+            .fromManager(ModBlocks.STAINED_STRIPPED_DARK_OAK)
             .getFamily();
-    public static final ModBlockFamily STAINED_JUNGLE_WOOD = familyBuilder(ModBlocks.STAINED_JUNGLE.baseBlock())
-            .fromManager(ModBlocks.STAINED_JUNGLE)
+    public static final ModBlockFamily STAINED_STRIPPED_JUNGLE_WOOD = familyBuilder(ModBlocks.STAINED_STRIPPED_JUNGLE.baseBlock())
+            .fromManager(ModBlocks.STAINED_STRIPPED_JUNGLE)
             .getFamily();
-    public static final ModBlockFamily STAINED_OAK_WOOD = familyBuilder(ModBlocks.STAINED_OAK.baseBlock())
-            .fromManager(ModBlocks.STAINED_OAK)
+    public static final ModBlockFamily STAINED_STRIPPED_OAK_WOOD = familyBuilder(ModBlocks.STAINED_STRIPPED_OAK.baseBlock())
+            .fromManager(ModBlocks.STAINED_STRIPPED_OAK)
             .getFamily();
-    public static final ModBlockFamily STAINED_SPRUCE_WOOD = familyBuilder(ModBlocks.STAINED_SPRUCE.baseBlock())
-            .fromManager(ModBlocks.STAINED_SPRUCE)
+    public static final ModBlockFamily STAINED_STRIPPED_SPRUCE_WOOD = familyBuilder(ModBlocks.STAINED_STRIPPED_SPRUCE.baseBlock())
+            .fromManager(ModBlocks.STAINED_STRIPPED_SPRUCE)
             .getFamily();
 
+    /* Stained Wood Planks */
+    public static final ModBlockFamily STAINED_ACACIA_PLANKS = familyBuilder(ModBlocks.STAINED_ACACIA.baseBlock())
+            .fromManager(ModBlocks.STAINED_ACACIA)
+            .button(ModBlocks.STAINED_ACACIA_BUTTON.get())
+            .door(ModBlocks.STAINED_ACACIA_DOOR.get())
+//            .fence(ModBlocks.STAINED_ACACIA_FENCE.get())
+//            .fenceGate(ModBlocks.STAINED_ACACIA_FENCE_GATE.get())
+//            .pressurePlate(ModBlocks.STAINED_ACACIA_PRESSURE_PLATE.get())
+            .sign(ModBlocks.STAINED_ACACIA_SIGN.get(), ModBlocks.STAINED_ACACIA_WALL_SIGN.get())
+            .trapdoor(ModBlocks.STAINED_ACACIA_TRAPDOOR.get())
+            .getFamily();
+    public static final ModBlockFamily STAINED_BIRCH_PLANKS = familyBuilder(ModBlocks.STAINED_BIRCH.baseBlock())
+            .fromManager(ModBlocks.STAINED_BIRCH)
+            .button(ModBlocks.STAINED_BIRCH_BUTTON.get())
+            .door(ModBlocks.STAINED_BIRCH_DOOR.get())
+//            .fence(ModBlocks.STAINED_BIRCH_FENCE.get())
+//            .fenceGate(ModBlocks.STAINED_BIRCH_FENCE_GATE.get())
+//            .pressurePlate(ModBlocks.STAINED_BIRCH_PRESSURE_PLATE.get())
+            .sign(ModBlocks.STAINED_BIRCH_SIGN.get(), ModBlocks.STAINED_BIRCH_WALL_SIGN.get())
+            .trapdoor(ModBlocks.STAINED_BIRCH_TRAPDOOR.get())
+            .getFamily();
+    public static final ModBlockFamily STAINED_DARK_OAK_PLANKS = familyBuilder(ModBlocks.STAINED_DARK_OAK.baseBlock())
+            .fromManager(ModBlocks.STAINED_DARK_OAK)
+            .button(ModBlocks.STAINED_DARK_OAK_BUTTON.get())
+            .door(ModBlocks.STAINED_DARK_OAK_DOOR.get())
+//            .fence(ModBlocks.STAINED_DARK_OAK_FENCE.get())
+//            .fenceGate(ModBlocks.STAINED_DARK_OAK_FENCE_GATE.get())
+//            .pressurePlate(ModBlocks.STAINED_DARK_OAK_PRESSURE_PLATE.get())
+            .sign(ModBlocks.STAINED_DARK_OAK_SIGN.get(), ModBlocks.STAINED_DARK_OAK_WALL_SIGN.get())
+            .trapdoor(ModBlocks.STAINED_DARK_OAK_TRAPDOOR.get())
+            .getFamily();
+    public static final ModBlockFamily STAINED_JUNGLE_PLANKS = familyBuilder(ModBlocks.STAINED_JUNGLE.baseBlock())
+            .fromManager(ModBlocks.STAINED_JUNGLE)
+//            .button(ModBlocks.STAINED_JUNGLE_BUTTON.get())
+            .door(ModBlocks.STAINED_JUNGLE_DOOR.get())
+//            .fence(ModBlocks.STAINED_JUNGLE_FENCE.get())
+//            .fenceGate(ModBlocks.STAINED_JUNGLE_FENCE_GATE.get())
+//            .pressurePlate(ModBlocks.STAINED_JUNGLE_PRESSURE_PLATE.get())
+            .sign(ModBlocks.STAINED_JUNGLE_SIGN.get(), ModBlocks.STAINED_JUNGLE_WALL_SIGN.get())
+            .trapdoor(ModBlocks.STAINED_JUNGLE_TRAPDOOR.get())
+            .getFamily();
+    public static final ModBlockFamily STAINED_OAK_PLANKS = familyBuilder(ModBlocks.STAINED_OAK.baseBlock())
+            .fromManager(ModBlocks.STAINED_OAK)
+//            .button(ModBlocks.STAINED_OAK_BUTTON.get())
+            .door(ModBlocks.STAINED_OAK_DOOR.get())
+//            .fence(ModBlocks.STAINED_OAK_FENCE.get())
+//            .fenceGate(ModBlocks.STAINED_OAK_FENCE_GATE.get())
+//            .pressurePlate(ModBlocks.STAINED_OAK_PRESSURE_PLATE.get())
+            .sign(ModBlocks.STAINED_OAK_SIGN.get(), ModBlocks.STAINED_OAK_WALL_SIGN.get())
+            .trapdoor(ModBlocks.STAINED_OAK_TRAPDOOR.get())
+            .getFamily();
+    public static final ModBlockFamily STAINED_SPRUCE_PLANKS = familyBuilder(ModBlocks.STAINED_SPRUCE.baseBlock())
+            .fromManager(ModBlocks.STAINED_SPRUCE)
+//            .button(ModBlocks.STAINED_SPRUCE_BUTTON.get())
+            .door(ModBlocks.STAINED_SPRUCE_DOOR.get())
+//            .fence(ModBlocks.STAINED_SPRUCE_FENCE.get())
+//            .fenceGate(ModBlocks.STAINED_SPRUCE_FENCE_GATE.get())
+//            .pressurePlate(ModBlocks.STAINED_SPRUCE_PRESSURE_PLATE.get())
+            .sign(ModBlocks.STAINED_SPRUCE_SIGN.get(), ModBlocks.STAINED_SPRUCE_WALL_SIGN.get())
+            .trapdoor(ModBlocks.STAINED_SPRUCE_TRAPDOOR.get())
+            .getFamily();
 
     public static final ModBlockFamily BLACK_SAND = familyBuilder(ModBlocks.BLACK_SAND.get())
             .layer(ModBlocks.BLACK_SAND_LAYER.get())

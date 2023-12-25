@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "caliber:stained_oak_door",
+    "caliber:stained_spruce_door",
+    "caliber:stained_birch_door",
+    "caliber:stained_jungle_door",
+    "caliber:stained_acacia_door",
+    "caliber:stained_dark_oak_door"
+  ]
+}

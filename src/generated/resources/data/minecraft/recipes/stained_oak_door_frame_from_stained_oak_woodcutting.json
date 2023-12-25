@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "ingredient": {
-    "item": "caliber:stained_oak"
-  },
-  "result": "caliber:stained_oak_door_frame",
-  "count": 16
-}

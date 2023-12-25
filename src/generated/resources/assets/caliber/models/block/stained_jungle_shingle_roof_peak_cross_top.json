@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/templates/roof_peak_cross_top",
+  "textures": {
+    "side": "caliber:block/stained_jungle_shingle",
+    "top": "caliber:block/stained_jungle_shingle",
+    "bottom": "caliber:block/stained_jungle_shingle"
+  }
+}

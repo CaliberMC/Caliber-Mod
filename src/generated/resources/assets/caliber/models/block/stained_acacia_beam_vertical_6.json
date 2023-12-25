@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/beam_vertical_6",
-  "textures": {
-    "side": "caliber:block/stained_acacia",
-    "top": "caliber:block/stained_acacia",
-    "bottom": "caliber:block/stained_acacia"
-  }
-}

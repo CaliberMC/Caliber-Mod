@@ -12,8 +12,7 @@ import net.minecraft.data.DataGenerator;
 import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.WallBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -44,6 +43,10 @@ public class ModItemModelProvider extends ItemModelProvider {
                 String blockName = e.getValue().getId().getPath();
                 String parentName = blockName;
 
+                if (variant.equals(ModBlockFamily.Variant.DOOR)) {
+                    return;
+                }
+
                 if (variant.equals(ModBlockFamily.Variant.CORNER)
                         || variant.equals(ModBlockFamily.Variant.PILLAR)
                         || variant.equals(ModBlockFamily.Variant.QUARTER)
@@ -68,8 +71,16 @@ public class ModItemModelProvider extends ItemModelProvider {
                     parentName += "_3";
                 }
 
-                if (variant.equals(ModBlockFamily.Variant.WALL)) {
+//                if (variant.equals(ModBlockFamily.Variant.FENCE) || variant.equals(ModBlockFamily.Variant.WALL)) {
+//                    parentName += "_inventory";
+//                }
+
+                if (variant.equals(ModBlockFamily.Variant.BUTTON) || variant.equals(ModBlockFamily.Variant.FENCE) || variant.equals(ModBlockFamily.Variant.WALL)) {
                     parentName += "_inventory";
+                }
+
+                if (variant.equals(ModBlockFamily.Variant.TRAPDOOR)) {
+                    parentName += "_bottom";
                 }
 
                 if (variant.equals(ModBlockFamily.Variant.ROOF_22)) {
@@ -87,6 +98,13 @@ public class ModItemModelProvider extends ItemModelProvider {
                 .forEach(block -> {
                     String blockName = block.getRegistryName().getPath();
                     String parentName = blockName;
+
+//                    if (block instanceof DoorBlock) {
+////                        parentName = "minecraft:item/generated";
+//                        return withExistingParent(block.getRegistryName().getPath(),
+//                                new ResourceLocation("item/generated")).texture("layer0",
+//                                new ResourceLocation(Caliber.MOD_ID,"item/" + parentName));
+//                    }
 
                     if (block instanceof CornerLayerBlock
                             || block instanceof PillarLayerBlock
@@ -118,8 +136,16 @@ public class ModItemModelProvider extends ItemModelProvider {
                         parentName += "_3";
                     }
 
-                    if (block instanceof WallBlock) {
+//                    if (block instanceof FenceBlock || block instanceof WallBlock) {
+//                        parentName += "_inventory";
+//                    }
+
+                    if (block instanceof ButtonBlock || block instanceof FenceBlock || block instanceof WallBlock) {
                         parentName += "_inventory";
+                    }
+
+                    if (block instanceof TrapDoorBlock) {
+                        parentName += "_bottom";
                     }
 
                     if (block instanceof Roof22Block) {
@@ -127,7 +153,12 @@ public class ModItemModelProvider extends ItemModelProvider {
                     }
 
                     try {
-                        withExistingParent(blockName, modLoc("block/" + parentName));
+                        if (block instanceof DoorBlock || block instanceof StandingSignBlock) {
+                            withExistingParent(blockName, new ResourceLocation("item/generated")).texture("layer0", new ResourceLocation(Caliber.MOD_ID,"item/" + parentName));
+                        }
+                        else {
+                            withExistingParent(blockName, modLoc("block/" + parentName));
+                        }
                     } catch (Exception ex) {
                         ex.printStackTrace();
                     }
@@ -145,7 +176,7 @@ public class ModItemModelProvider extends ItemModelProvider {
                 .forEach(itemRegistryObject -> {
                     // Determine if the item is a tool
                     Item item = itemRegistryObject.get();
-                    boolean isToolItem = item instanceof Hammer ||
+                    boolean genItem = item instanceof Hammer ||
                             item instanceof SwordItem ||
                             item instanceof PickaxeItem ||
                             item instanceof ShovelItem ||
@@ -153,38 +184,16 @@ public class ModItemModelProvider extends ItemModelProvider {
                             item instanceof HoeItem;
 
                     // Use handheldItem for tools
-                    if (isToolItem) {
+                    if (genItem) {
                         handheldItem(itemRegistryObject);
                     }
                     // Use simpleItem for items that are exactly instances of Item.class or ArmorItem.class
-                    else if (item.getClass() == Item.class || item.getClass() == ArmorItem.class) {
+                    else if (item.getClass() == Item.class || item.getClass() == ArmorItem.class  || item.getClass() == SignItem.class) {
                         simpleItem(itemRegistryObject);
                     }
                 });
     }
 
-
-
-
-//    private void itemModels() {
-//        // Register Item Models
-//        ModItems.ITEMS.getEntries().stream()
-//                .filter(itemRegistryObject -> {
-//                    // Check if the item's registry name is in the Caliber.MOD_ID namespace
-//                    ResourceLocation registryName = itemRegistryObject.getId();
-//                    boolean isModItem = registryName != null && Caliber.MOD_ID.equals(registryName.getNamespace());
-//
-//                    // Check if the item is exactly an instance of Item.class or Hammer.class
-//                    Class<?> itemClass = itemRegistryObject.get().getClass();
-//                    boolean isBaseOrHammerItemClass = itemClass == Item.class || itemClass == Hammer.class;
-//
-//                    return isModItem && isBaseOrHammerItemClass;
-//                })
-//                .forEach(itemRegistryObject -> {
-//                    // Use the RegistryObject<Item> here
-//                    simpleItem(itemRegistryObject);
-//                });
-//    }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(),

@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/templates/roof_67_inner",
+  "textures": {
+    "side": "caliber:block/stained_dark_oak_shingle",
+    "top": "caliber:block/stained_dark_oak_shingle",
+    "bottom": "caliber:block/stained_dark_oak_shingle"
+  }
+}

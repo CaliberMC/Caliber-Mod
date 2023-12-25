@@ -7,6 +7,7 @@ import com.calibermc.caliber.block.ModBlocks;
 import com.calibermc.caliber.block.shapes.*;
 import com.calibermc.caliber.block.shapes.trim.ArchTrim;
 import com.calibermc.caliber.block.shapes.trim.LargeArchTrim;
+import com.calibermc.caliber.data.ModBlockFamily;
 import net.minecraft.core.Direction;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.resources.ResourceLocation;
@@ -15,6 +16,7 @@ import net.minecraft.world.level.block.state.properties.Half;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.Map;
@@ -37,6 +39,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         terrainBlocks();
         metalBlocks();
         plasterBlocks();
+        stainedPlanks();
         for (BlockManager blockManager : BlockManager.BLOCK_MANAGERS) {
             for (Map.Entry<BlockManager.BlockAdditional, RegistryObject<Block>> e : blockManager.getBlocks().entrySet()) {
                 try {
@@ -75,6 +78,63 @@ public class ModBlockStateProvider extends BlockStateProvider {
         simpleBlock(ModBlocks.OCHRE_PLASTER_POWDER.get());
         simpleBlock(ModBlocks.TAN_PLASTER_POWDER.get());
         simpleBlock(ModBlocks.WHITE_PLASTER_POWDER.get());
+    }
+
+    private void stainedPlanks(){
+//        models().buttonInventory("stained_acacia_button", blockTexture(ModBlocks.STAINED_ACACIA_BUTTON.get()));
+//        models().buttonInventory("stained_birch_button", blockTexture(ModBlocks.STAINED_BIRCH_BUTTON.get()));
+//        models().buttonInventory("stained_dark_oak_button", blockTexture(ModBlocks.STAINED_DARK_OAK_BUTTON.get()));
+//        models().buttonInventory("stained_jungle_button", blockTexture(ModBlocks.STAINED_JUNGLE_BUTTON.get()));
+//        models().buttonInventory("stained_oak_button", blockTexture(ModBlocks.STAINED_OAK_BUTTON.get()));
+//        models().buttonInventory("stained_spruce_button", blockTexture(ModBlocks.STAINED_SPRUCE_BUTTON.get()));
+        models().buttonInventory("stained_acacia_button_inventory", blockTexture(ModBlocks.STAINED_ACACIA.baseBlock()));
+        models().buttonInventory("stained_birch_button_inventory", blockTexture(ModBlocks.STAINED_BIRCH.baseBlock()));
+        models().buttonInventory("stained_dark_oak_button_inventory", blockTexture(ModBlocks.STAINED_DARK_OAK.baseBlock()));
+        models().buttonInventory("stained_jungle_button_inventory", blockTexture(ModBlocks.STAINED_JUNGLE.baseBlock()));
+        models().buttonInventory("stained_oak_button_inventory", blockTexture(ModBlocks.STAINED_OAK.baseBlock()));
+        models().buttonInventory("stained_spruce_button_inventory", blockTexture(ModBlocks.STAINED_SPRUCE.baseBlock()));
+        buttonBlock((WoodButtonBlock) ModBlocks.STAINED_ACACIA_BUTTON.get(), modLoc("block/stained_acacia"));
+        buttonBlock((WoodButtonBlock) ModBlocks.STAINED_BIRCH_BUTTON.get(), modLoc("block/stained_birch"));
+        buttonBlock((WoodButtonBlock) ModBlocks.STAINED_DARK_OAK_BUTTON.get(), modLoc("block/stained_dark_oak"));
+        buttonBlock((WoodButtonBlock) ModBlocks.STAINED_JUNGLE_BUTTON.get(), modLoc("block/stained_jungle"));
+        buttonBlock((WoodButtonBlock) ModBlocks.STAINED_OAK_BUTTON.get(), modLoc("block/stained_oak"));
+        buttonBlock((WoodButtonBlock) ModBlocks.STAINED_SPRUCE_BUTTON.get(), modLoc("block/stained_spruce"));
+        doorBlock((DoorBlock) ModBlocks.STAINED_ACACIA_DOOR.get(), modLoc("block/stained_acacia_door_bottom"), modLoc("block/stained_acacia_door_top"));
+        doorBlock((DoorBlock) ModBlocks.STAINED_BIRCH_DOOR.get(), modLoc("block/stained_birch_door_bottom"), modLoc("block/stained_birch_door_top"));
+        doorBlock((DoorBlock) ModBlocks.STAINED_DARK_OAK_DOOR.get(), modLoc("block/stained_dark_oak_door_bottom"), modLoc("block/stained_dark_oak_door_top"));
+        doorBlock((DoorBlock) ModBlocks.STAINED_JUNGLE_DOOR.get(), modLoc("block/stained_jungle_door_bottom"), modLoc("block/stained_jungle_door_top"));
+        doorBlock((DoorBlock) ModBlocks.STAINED_OAK_DOOR.get(), modLoc("block/stained_oak_door_bottom"), modLoc("block/stained_oak_door_top"));
+        doorBlock((DoorBlock) ModBlocks.STAINED_SPRUCE_DOOR.get(), modLoc("block/stained_spruce_door_bottom"), modLoc("block/stained_spruce_door_top"));
+//        fenceBlock((FenceBlock) ModBlocks.STAINED_ACACIA_FENCE.get(), modLoc("block/stained_acacia"));
+//        fenceBlock((FenceBlock) ModBlocks.STAINED_BIRCH_FENCE.get(), modLoc("block/stained_birch"));
+//        fenceBlock((FenceBlock) ModBlocks.STAINED_DARK_OAK_FENCE.get(), modLoc("block/stained_dark_oak"));
+//        fenceBlock((FenceBlock) ModBlocks.STAINED_JUNGLE_FENCE.get(), modLoc("block/stained_jungle"));
+//        fenceBlock((FenceBlock) ModBlocks.STAINED_OAK_FENCE.get(), modLoc("block/stained_oak"));
+//        fenceBlock((FenceBlock) ModBlocks.STAINED_SPRUCE_FENCE.get(), modLoc("block/stained_spruce"));
+//        fenceGateBlock((FenceGateBlock) ModBlocks.STAINED_ACACIA_FENCE_GATE.get(), modLoc("block/stained_acacia"));
+//        fenceGateBlock((FenceGateBlock) ModBlocks.STAINED_BIRCH_FENCE_GATE.get(), modLoc("block/stained_birch"));
+//        fenceGateBlock((FenceGateBlock) ModBlocks.STAINED_DARK_OAK_FENCE_GATE.get(), modLoc("block/stained_dark_oak"));
+//        fenceGateBlock((FenceGateBlock) ModBlocks.STAINED_JUNGLE_FENCE_GATE.get(), modLoc("block/stained_jungle"));
+//        fenceGateBlock((FenceGateBlock) ModBlocks.STAINED_OAK_FENCE_GATE.get(), modLoc("block/stained_oak"));
+//        fenceGateBlock((FenceGateBlock) ModBlocks.STAINED_SPRUCE_FENCE_GATE.get(), modLoc("block/stained_spruce"));
+//        pressurePlateBlock((PressurePlateBlock) ModBlocks.STAINED_ACACIA_PRESSURE_PLATE.get(), modLoc("block/stained_acacia"));
+//        pressurePlateBlock((PressurePlateBlock) ModBlocks.STAINED_BIRCH_PRESSURE_PLATE.get(), modLoc("block/stained_birch"));
+//        pressurePlateBlock((PressurePlateBlock) ModBlocks.STAINED_DARK_OAK_PRESSURE_PLATE.get(), modLoc("block/stained_dark_oak"));
+//        pressurePlateBlock((PressurePlateBlock) ModBlocks.STAINED_JUNGLE_PRESSURE_PLATE.get(), modLoc("block/stained_jungle"));
+//        pressurePlateBlock((PressurePlateBlock) ModBlocks.STAINED_OAK_PRESSURE_PLATE.get(), modLoc("block/stained_oak"));
+//        pressurePlateBlock((PressurePlateBlock) ModBlocks.STAINED_SPRUCE_PRESSURE_PLATE.get(), modLoc("block/stained_spruce"));
+        signBlock((StandingSignBlock)ModBlocks.STAINED_ACACIA_SIGN.get(), (WallSignBlock) ModBlocks.STAINED_ACACIA_WALL_SIGN.get(), modLoc("block/stained_acacia"));
+        signBlock((StandingSignBlock)ModBlocks.STAINED_BIRCH_SIGN.get(), (WallSignBlock) ModBlocks.STAINED_BIRCH_WALL_SIGN.get(), modLoc("block/stained_birch"));
+        signBlock((StandingSignBlock)ModBlocks.STAINED_DARK_OAK_SIGN.get(), (WallSignBlock) ModBlocks.STAINED_DARK_OAK_WALL_SIGN.get(), modLoc("block/stained_dark_oak"));
+        signBlock((StandingSignBlock)ModBlocks.STAINED_JUNGLE_SIGN.get(), (WallSignBlock) ModBlocks.STAINED_JUNGLE_WALL_SIGN.get(), modLoc("block/stained_jungle"));
+        signBlock((StandingSignBlock)ModBlocks.STAINED_OAK_SIGN.get(), (WallSignBlock) ModBlocks.STAINED_OAK_WALL_SIGN.get(), modLoc("block/stained_oak"));
+        signBlock((StandingSignBlock)ModBlocks.STAINED_SPRUCE_SIGN.get(), (WallSignBlock) ModBlocks.STAINED_SPRUCE_WALL_SIGN.get(), modLoc("block/stained_spruce"));
+        trapdoorBlock((TrapDoorBlock) ModBlocks.STAINED_ACACIA_TRAPDOOR.get(), modLoc("block/stained_acacia_trapdoor"), true);
+        trapdoorBlock((TrapDoorBlock) ModBlocks.STAINED_BIRCH_TRAPDOOR.get(), modLoc("block/stained_birch_trapdoor"), true);
+        trapdoorBlock((TrapDoorBlock) ModBlocks.STAINED_DARK_OAK_TRAPDOOR.get(), modLoc("block/stained_dark_oak_trapdoor"), true);
+        trapdoorBlock((TrapDoorBlock) ModBlocks.STAINED_JUNGLE_TRAPDOOR.get(), modLoc("block/stained_jungle_trapdoor"), true);
+        trapdoorBlock((TrapDoorBlock) ModBlocks.STAINED_OAK_TRAPDOOR.get(), modLoc("block/stained_oak_trapdoor"), true);
+        trapdoorBlock((TrapDoorBlock) ModBlocks.STAINED_SPRUCE_TRAPDOOR.get(), modLoc("block/stained_spruce_trapdoor"), true);
     }
 
 

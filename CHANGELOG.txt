@@ -204,12 +204,20 @@ Added Bronze Armor and Tools
 - Added all variants of 67 degree roofs
 - Added all variants of roof peaks
 
-- 0.0.27 (in progress
-- Added a total of # new blocks!
-- Current Mod Block Count is at #
-- Removed Buildify Features from Caliber-Mod to add greater mod compatibility for Block Picker feature, added as a dependency/library for Caliber-Mod
-- Added all variants of soffits?
+- 0.0.27 (in progress)
+- Added a total of 214 new blocks!
+- Current Mod Block Count is at 3,581
+- Renamed Stained Woods to Stained Stripped Woods to account for Stained Planks and better fit naming conventions
 - Added the new wood variants to the Planks & Beams tab
+- Experimenting with Plank and Shingle Textures in this update, please provide feedback on github or the discord server.
 - Added all variants of Stained Acacia Planks, Stained Birch Planks, Stained Dark Oak Planks, Stained Jungle Planks, Stained Oak Planks and Stained Spruce Planks
+- Added all stained variants of all Shingle Roofs
+- There is a known bug with shadows/occlusion on the 67 degree roof blocks, this will be fixed asap.
 - Added all current Kiln recipes
+- All missing recipes will be added asap
+
+
+- 0.0.28 (up next)
+- Removed Buildify Features from Caliber-Mod to add greater mod compatibility for Block Picker feature, added as a dependency/library for Caliber-Mod
+
 

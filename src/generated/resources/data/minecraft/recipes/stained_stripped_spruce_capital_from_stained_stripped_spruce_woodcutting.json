@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "caliber:stained_stripped_spruce"
+  },
+  "result": "caliber:stained_stripped_spruce_capital",
+  "count": 2
+}

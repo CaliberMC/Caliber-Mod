@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "caliber:stained_oak_pressure_plate",
+    "caliber:stained_spruce_pressure_plate",
+    "caliber:stained_birch_pressure_plate",
+    "caliber:stained_jungle_pressure_plate",
+    "caliber:stained_acacia_pressure_plate",
+    "caliber:stained_dark_oak_pressure_plate"
+  ]
+}

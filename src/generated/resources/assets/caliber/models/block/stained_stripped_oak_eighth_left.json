@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/templates/eighth_left",
+  "textures": {
+    "side": "caliber:block/stained_stripped_oak",
+    "top": "caliber:block/stained_stripped_oak",
+    "bottom": "caliber:block/stained_stripped_oak"
+  }
+}

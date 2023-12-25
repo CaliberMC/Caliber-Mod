@@ -11,6 +11,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
+import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ConfiguredModel;
 import net.minecraftforge.client.model.generators.ModelBuilder;
 import net.minecraftforge.client.model.generators.ModelFile;
@@ -33,6 +34,12 @@ public class CaliberBlockHelper {
 
     public static final List<Variant> WOOD_VARIANTS = Lists.newArrayList(Variant.BEAM_HORIZONTAL, Variant.BEAM_LINTEL,
             Variant.BEAM_POSTS, Variant.BEAM_VERTICAL, Variant.DOOR_FRAME, Variant.DOOR_FRAME_LINTEL);
+
+    public static final List<Variant> VANILLA_WOOD_VARIANTS = Lists.newArrayList(Variant.FENCE, Variant.FENCE_GATE, Variant.PRESSURE_PLATE);
+
+    // full list
+//    public static final List<Variant> VANILLA_WOOD_VARIANTS = Lists.newArrayList(Variant.BUTTON, Variant.DOOR, Variant.TRAPDOOR,
+//            Variant.FENCE_GATE, Variant.FENCE, Variant.PRESSURE_PLATE, Variant.SIGN, Variant.WALL_SIGN);
 
     public static final List<Variant> STONE_VARIANTS = Lists.newArrayList(Variant.ARCH, Variant.ARCH_HALF, Variant.ARCH_LARGE,
             Variant.ARCH_LARGE_HALF, Variant.ARROWSLIT);
@@ -96,8 +103,20 @@ public class CaliberBlockHelper {
             CaliberBlockHelper.<VerticalBeamBlock>fixBlockTex(textureFrom, b, provider, (block, side, top, bottom, tex) ->
                     provider.beamVerticalBlock(block, tex), provider::beamVerticalBlock);
 
+//    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> BUTTON = (textureFrom) -> (b, provider) ->
+//            provider.buttonBlock((StoneButtonBlock) b.get(), provider.blockTexture(BlockManager.getMainBy(b, textureFrom)));
+
+    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> WOOD_BUTTON = (textureFrom) -> (b, provider) ->
+            provider.buttonBlock((WoodButtonBlock) b.get(), provider.blockTexture(BlockManager.getMainBy(b, textureFrom)));
+
     public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> BUTTON = (textureFrom) -> (b, provider) ->
-            provider.buttonBlock((StoneButtonBlock) b.get(), provider.blockTexture(BlockManager.getMainBy(b, textureFrom)));
+            CaliberBlockHelper.<StoneButtonBlock>fixBlockTex(textureFrom, b, provider, (block, side, top, bottom, tex) -> {
+                provider.buttonBlock(block, top);
+                provider.models().buttonInventory(provider.name(block) + "_inventory", top);
+            }, (block, texture) -> {
+                provider.buttonBlock(block, texture);
+                provider.models().buttonInventory(provider.name(block) + "_inventory", texture);
+            });
 
     public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> CAPITAL = (textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<CapitalBlock>fixBlockTex(textureFrom, b, provider, (block, side, top, bottom, tex) ->
@@ -114,6 +133,13 @@ public class CaliberBlockHelper {
             CaliberBlockHelper.<VerticalCornerSlabBlock>fixBlockTex(textureFrom, b, provider, (block, side, top, bottom, tex) ->
                     provider.cornerSlabVerticalBlock(block, top, top, top), provider::cornerSlabVerticalBlock);
 
+//    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> DOOR = (textureFrom) -> (b, provider) ->
+//            provider.doorBlock((DoorBlock) b.get(), provider.blockTexture(BlockManager.getMainBy(b, textureFrom + "_bottom")), provider.blockTexture(BlockManager.getMainBy(b, textureFrom)));
+
+//    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> DOOR = (textureFrom) -> (b, provider) ->
+//            CaliberBlockHelper.<DoorBlock>fixBlockTex(textureFrom, b, provider, (block, side, top, bottom, tex) ->
+//                    provider.doorBlock(block, tex + "_door", bottom, top), provider::doorBlock);
+
     public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> DOOR_FRAME = (textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<DoorFrameBlock>fixBlockTex(textureFrom, b, provider, (block, side, top, bottom, tex) ->
                     provider.doorFrameBlock(block, tex), provider::doorFrameBlock);
@@ -126,12 +152,32 @@ public class CaliberBlockHelper {
             CaliberBlockHelper.<EighthBlock>fixBlockTex(textureFrom, b, provider, (block, side, top, bottom, tex) ->
                     provider.eighthBlock(block, top, top, top), provider::eighthBlock);
 
+//    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> FENCE = (textureFrom) -> (b, provider) ->
+//            provider.fenceBlock((FenceBlock) b.get(), provider.blockTexture(BlockManager.getMainBy(b, textureFrom)));
+
+    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> FENCE = (textureFrom) -> (b, provider) ->
+            CaliberBlockHelper.<FenceBlock>fixBlockTex(textureFrom, b, provider, (block, side, top, bottom, tex) -> {
+                provider.fenceBlock(block, top);
+                provider.models().fenceInventory(provider.name(block) + "_inventory", top);
+            }, (block, texture) -> {
+                provider.fenceBlock(block, texture);
+                provider.models().fenceInventory(provider.name(block) + "_inventory", texture);
+            });
+
+    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> FENCE_GATE = (textureFrom) -> (b, provider) ->
+            provider.fenceGateBlock((FenceGateBlock) b.get(), provider.blockTexture(BlockManager.getMainBy(b, textureFrom)));
+
     public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> PILLAR = (textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<PillarLayerBlock>fixBlockTex(textureFrom, b, provider, provider::pillarLayerBlock, provider::pillarLayerBlock);
 
     public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> PRESSURE_PLATE = (textureFrom) -> (b, provider) ->
             provider.pressurePlateBlock((PressurePlateBlock) b.get(), provider.blockTexture(BlockManager.getMainBy(b, textureFrom)));
 
+//    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> SIGN = (textureFrom) -> (b, provider) ->
+//            provider.signBlock((StandingSignBlock) b.get(), (WallSignBlock) b.get(), provider.blockTexture(BlockManager.getMainBy(b, textureFrom)));
+
+//    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> TRAP_DOOR = (textureFrom) -> (b, provider) ->
+//            provider.trapdoorBlock((TrapDoorBlock) b.get(), provider.blockTexture(BlockManager.getMainBy(b, textureFrom)), true);
 
     public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> QUARTER = (textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<QuarterLayerBlock>fixBlockTex(textureFrom, b, provider, provider::quarterLayerBlock, provider::quarterLayerBlock);

@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "ingredient": {
-    "item": "caliber:stained_birch"
-  },
-  "result": "caliber:stained_birch_beam_posts",
-  "count": 16
-}

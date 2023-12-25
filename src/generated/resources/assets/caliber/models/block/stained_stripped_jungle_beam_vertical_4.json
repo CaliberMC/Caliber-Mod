@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/templates/beam_vertical_4",
+  "textures": {
+    "side": "caliber:block/stained_stripped_jungle",
+    "top": "caliber:block/stained_stripped_jungle",
+    "bottom": "caliber:block/stained_stripped_jungle"
+  }
+}

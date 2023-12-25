@@ -3,6 +3,7 @@ package com.calibermc.caliber.event;
 
 import com.calibermc.caliber.Caliber;
 import com.calibermc.caliber.block.ModBlocks;
+import com.calibermc.caliber.block.entity.ModBlockEntities;
 import com.calibermc.caliber.block.properties.BlockRenderLayers;
 import com.calibermc.caliber.client.AdjustReachOverlay;
 import com.calibermc.caliber.client.BlockPickerScreen;
@@ -21,6 +22,8 @@ import net.minecraft.client.RecipeBookCategories;
 import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.blockentity.BlockEntityRenderers;
+import net.minecraft.client.renderer.blockentity.SignRenderer;
 import net.minecraft.core.BlockPos;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.world.InteractionHand;
@@ -60,6 +63,7 @@ public class ModClientEventBus {
 
     public static RecipeBookCategories KILN_SEARCH_CATEGORY, KILN_MAIN_CATEGORY, WOODCUTTER_MAIN_CATEGORY;
 
+
     @SubscribeEvent
     public static void registerArmorRenderers(final EntityRenderersEvent.AddLayers event) {
 
@@ -79,6 +83,8 @@ public class ModClientEventBus {
         MenuScreens.register(ModMenuTypes.BLOCK_TYPE.get(), BlockPickerScreen::new);
         MenuScreens.register(ModMenuTypes.WOODCUTTER.get(), WoodcutterScreen::new);
         MenuScreens.register(ModMenuTypes.KILN.get(), KilnScreen::new);
+
+        BlockEntityRenderers.register(ModBlockEntities.SIGN_BLOCK_ENTITIES.get(), SignRenderer::new);
 
         OverlayRegistry.registerOverlayAbove(ForgeIngameGui.HELMET_ELEMENT, "%s Adjust Distance".formatted(MOD_ID), new AdjustReachOverlay());
 
