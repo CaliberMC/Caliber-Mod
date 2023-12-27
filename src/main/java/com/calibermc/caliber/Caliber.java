@@ -8,9 +8,8 @@ import com.calibermc.caliber.crafting.ModRecipeSerializers;
 import com.calibermc.caliber.item.CreativeTabs;
 import com.calibermc.caliber.item.ModItems;
 import com.calibermc.caliber.networking.ModNetworking;
+import com.calibermc.caliber.util.compat.BuildifyBlockPicker;
 import com.calibermc.caliber.world.inventory.ModMenuTypes;
-import net.minecraft.client.renderer.blockentity.BlockEntityRenderers;
-import net.minecraft.client.renderer.blockentity.SignRenderer;
 import net.minecraft.world.inventory.RecipeBookType;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -60,5 +59,6 @@ public class Caliber {
         ModNetworking.registerMessages();
         CreativeTabs.setupCreativeTabs();
         ModBlocks.printCounts();
+        BuildifyBlockPicker.init();
     }
 }

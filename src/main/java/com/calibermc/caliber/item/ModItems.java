@@ -2,7 +2,6 @@ package com.calibermc.caliber.item;
 
 import com.calibermc.caliber.Caliber;
 import com.calibermc.caliber.block.ModBlocks;
-import com.calibermc.caliber.item.custom.Hammer;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -13,12 +12,6 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, Caliber.MOD_ID);
-
-    public static final RegistryObject<Hammer> HAMMER = ITEMS.register("hammer",
-            () -> new Hammer(new Item.Properties().tab(CreativeTabs.CALIBER_TAB)));
-
-    public static final RegistryObject<Item> NAILS = ITEMS.register("nails",
-            () -> new Item(new Item.Properties().tab(CreativeTabs.CALIBER_TAB)));
 
     public static final RegistryObject<Item> GRASS_STEMS = ITEMS.register("grass_stems",
             () -> new Item(new Item.Properties().tab(CreativeTabs.CALIBER_TAB)));

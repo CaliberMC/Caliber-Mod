@@ -7,11 +7,11 @@
     "caliber:stripped_jungle_beam_horizontal",
     "caliber:stripped_oak_beam_horizontal",
     "caliber:stripped_spruce_beam_horizontal",
-    "caliber:stained_acacia_beam_horizontal",
-    "caliber:stained_birch_beam_horizontal",
-    "caliber:stained_dark_oak_beam_horizontal",
-    "caliber:stained_jungle_beam_horizontal",
-    "caliber:stained_oak_beam_horizontal",
-    "caliber:stained_spruce_beam_horizontal"
+    "caliber:stained_stripped_acacia_beam_horizontal",
+    "caliber:stained_stripped_birch_beam_horizontal",
+    "caliber:stained_stripped_dark_oak_beam_horizontal",
+    "caliber:stained_stripped_jungle_beam_horizontal",
+    "caliber:stained_stripped_oak_beam_horizontal",
+    "caliber:stained_stripped_spruce_beam_horizontal"
   ]
 }

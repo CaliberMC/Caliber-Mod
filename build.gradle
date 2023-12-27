@@ -130,6 +130,10 @@ repositories {
         name = "ModMaven"
         url = "https://modmaven.dev"
     }
+    maven {
+        name = "Repsy"
+        url = "https://repo.repsy.io/mvn/chappie"
+    }
 }
 
 dependencies {
@@ -138,6 +142,8 @@ dependencies {
     // The userdev artifact is a special name and will get all sorts of transformations applied to it.
     minecraft 'net.minecraftforge:forge:1.18.2-40.2.0'
     annotationProcessor "org.spongepowered:mixin:0.8.5:processor"
+
+    implementation fg.deobf("calibermc:buildify:0.1.0-1.18.2b")
 //    compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api") // Adds JEI API as a compile dependency
 //    runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}") // Adds the full JEI mod as a runtime dependency
 //     implementation fg.deobf("com.tterrag.registrate:Registrate:MC${mc_version}-${registrate_version}") // Adds registrate as a dependency

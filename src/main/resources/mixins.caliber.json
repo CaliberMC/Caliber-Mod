@@ -5,12 +5,10 @@
   "compatibilityLevel": "JAVA_17",
   "minVersion": "0.8",
   "client": [
-    "ClientLevelDataMixin"
   ],
   "mixins": [
-    "BlockItemMixin",
-    "LevelMixin",
-    "PlayerMixin"
+    "BlockItemMixin"
+
   ],
   "injectors": {
     "defaultRequire": 1

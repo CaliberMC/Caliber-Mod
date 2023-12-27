@@ -1,15 +1,13 @@
 package com.calibermc.caliber.data.datagen;
 
+import com.calibermc.buildify.item.custom.Hammer;
 import com.calibermc.caliber.Caliber;
 import com.calibermc.caliber.block.custom.*;
-import com.calibermc.caliber.block.custom.entity.WoodcutterBlock;
 import com.calibermc.caliber.block.custom.terrain.*;
 import com.calibermc.caliber.block.management.BlockManager;
 import com.calibermc.caliber.data.ModBlockFamily;
 import com.calibermc.caliber.item.ModItems;
-import com.calibermc.caliber.item.custom.Hammer;
 import net.minecraft.data.DataGenerator;
-import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.*;
@@ -20,7 +18,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.Map;
-import java.util.function.Consumer;
 
 public class ModItemModelProvider extends ItemModelProvider {
     public ModItemModelProvider(DataGenerator generator, ExistingFileHelper existingFileHelper) {

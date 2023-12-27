@@ -14,7 +14,6 @@ public class ModMenuTypes {
 
     public static final DeferredRegister<MenuType<?>> CONTAINERS = DeferredRegister.create(ForgeRegistries.CONTAINERS, Caliber.MOD_ID);
 
-    public static final RegistryObject<MenuType<BlockPickerMenu>> BLOCK_TYPE = register("block_type", BlockPickerMenu::new);
     public static final RegistryObject<MenuType<WoodcutterMenu>> WOODCUTTER = register("woodcutter", WoodcutterMenu::new);
     public static final RegistryObject<MenuType<KilnMenu>> KILN = register("kiln", KilnMenu::new);
 

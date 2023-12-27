@@ -4,11 +4,8 @@ import com.calibermc.caliber.block.custom.SlabLayerBlock;
 import com.calibermc.caliber.block.custom.VerticalSlabLayerBlock;
 import com.calibermc.caliber.config.CaliberCommonConfigs;
 import com.calibermc.caliber.util.ModBlockStateProperties;
-import com.calibermc.caliber.util.player.IPlayerExtended;
-import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.world.entity.player.Player;
+import com.calibermc.buildify.util.player.IPlayerExtended;
 import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
@@ -28,7 +25,7 @@ public class BlockItemMixin {
             BlockState state = cir.getReturnValue();
             if (state != null && (state.hasProperty(BlockStateProperties.LAYERS) || state.hasProperty(ModBlockStateProperties.FIVE_LAYERS))) {
                 boolean slab = CaliberCommonConfigs.MODE_BLOCKSTATE.get() == 0;
-                if (ex.caliber$additionalPressed()) {
+                if (ex.buildify$additionalPressed()) {
                     slab = !slab;
                 }
                 if (slab) {
@@ -50,3 +47,4 @@ public class BlockItemMixin {
         }
     }
 }
+

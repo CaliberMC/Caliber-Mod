@@ -7,11 +7,11 @@
     "caliber:stripped_jungle_door_frame_lintel",
     "caliber:stripped_oak_door_frame_lintel",
     "caliber:stripped_spruce_door_frame_lintel",
-    "caliber:stained_acacia_door_frame_lintel",
-    "caliber:stained_birch_door_frame_lintel",
-    "caliber:stained_dark_oak_door_frame_lintel",
-    "caliber:stained_jungle_door_frame_lintel",
-    "caliber:stained_oak_door_frame_lintel",
-    "caliber:stained_spruce_door_frame_lintel"
+    "caliber:stained_stripped_acacia_door_frame_lintel",
+    "caliber:stained_stripped_birch_door_frame_lintel",
+    "caliber:stained_stripped_dark_oak_door_frame_lintel",
+    "caliber:stained_stripped_jungle_door_frame_lintel",
+    "caliber:stained_stripped_oak_door_frame_lintel",
+    "caliber:stained_stripped_spruce_door_frame_lintel"
   ]
 }
