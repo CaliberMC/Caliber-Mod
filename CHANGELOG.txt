@@ -218,6 +218,7 @@ Added Bronze Armor and Tools
 
 
 - 0.0.28 (in progress)
+- Added Bronze Armor and Tools to the Creative Inventory Tabs
 - Removed Buildify Features from Caliber-Mod to add greater mod compatibility for Block Picker feature, added as a dependency/library for Caliber-Mod
 
 
