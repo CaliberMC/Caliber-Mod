@@ -217,7 +217,7 @@ Added Bronze Armor and Tools
 - All missing recipes will be added asap
 
 
-- 0.0.28 (in progress)
+- 0.0.28
 - Added a total of 42 new blocks!
 - Current Mod Block Count is at 3,623
 - Added Bronze Armor and Tools to the Creative Inventory Tabs
@@ -227,7 +227,8 @@ Added Bronze Armor and Tools
 - Added Stained Planks Recipes
 - Added Roofing Recipes
 
-- 0.0.29 (up next)
+- 0.0.29 (in progress)
+- BugFix: fixed grass_stems not dropping from grass
 - Removed Buildify Features from Caliber-Mod to add greater mod compatibility for Block Picker feature, added as a dependency/library for Caliber-Mod
 
 

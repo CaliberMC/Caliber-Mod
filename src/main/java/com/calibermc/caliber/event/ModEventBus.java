@@ -47,15 +47,6 @@ public class ModEventBus {
 
 
     @SubscribeEvent
-    public static void registerModifierSerializers(@Nonnull final RegistryEvent.Register<GlobalLootModifierSerializer<?>> event) {
-        event.getRegistry().registerAll(
-                new GrassStemsFromGrassModifier.Serializer().setRegistryName
-                        (new ResourceLocation(Caliber.MOD_ID, "grass_stems_from_grass"))
-        );
-    }
-
-
-    @SubscribeEvent
     public static void preventRightClick(PlayerInteractEvent.RightClickBlock event) {
         if (event.getPlayer() instanceof IPlayerExtended ex && event.getHand() == InteractionHand.MAIN_HAND) {
             BlockState state = event.getWorld().getBlockState(event.getPos());
