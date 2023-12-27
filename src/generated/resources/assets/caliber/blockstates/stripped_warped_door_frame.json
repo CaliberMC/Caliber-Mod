@@ -1,0 +1,49 @@
+{
+  "variants": {
+    "beam=1,facing=north": {
+      "model": "caliber:block/stripped_warped_door_frame_1"
+    },
+    "beam=2,facing=north": {
+      "model": "caliber:block/stripped_warped_door_frame_2"
+    },
+    "beam=3,facing=north": {
+      "model": "caliber:block/stripped_warped_door_frame_3"
+    },
+    "beam=1,facing=south": {
+      "model": "caliber:block/stripped_warped_door_frame_1",
+      "y": 180
+    },
+    "beam=2,facing=south": {
+      "model": "caliber:block/stripped_warped_door_frame_2",
+      "y": 180
+    },
+    "beam=3,facing=south": {
+      "model": "caliber:block/stripped_warped_door_frame_3",
+      "y": 180
+    },
+    "beam=1,facing=west": {
+      "model": "caliber:block/stripped_warped_door_frame_1",
+      "y": 270
+    },
+    "beam=2,facing=west": {
+      "model": "caliber:block/stripped_warped_door_frame_2",
+      "y": 270
+    },
+    "beam=3,facing=west": {
+      "model": "caliber:block/stripped_warped_door_frame_3",
+      "y": 270
+    },
+    "beam=1,facing=east": {
+      "model": "caliber:block/stripped_warped_door_frame_1",
+      "y": 90
+    },
+    "beam=2,facing=east": {
+      "model": "caliber:block/stripped_warped_door_frame_2",
+      "y": 90
+    },
+    "beam=3,facing=east": {
+      "model": "caliber:block/stripped_warped_door_frame_3",
+      "y": 90
+    }
+  }
+}

@@ -20,6 +20,9 @@ public class ModItems {
     public static final RegistryObject<Item> NAILS = ITEMS.register("nails",
             () -> new Item(new Item.Properties().tab(CreativeTabs.CALIBER_TAB)));
 
+    public static final RegistryObject<Item> GRASS_STEMS = ITEMS.register("grass_stems",
+            () -> new Item(new Item.Properties().tab(CreativeTabs.CALIBER_TAB)));
+
 
     public static final RegistryObject<Item> TIN_INGOT = ITEMS.register("tin_ingot",
             () -> new Item(new Item.Properties().tab(CreativeTabs.CALIBER_TAB)));
@@ -67,6 +70,10 @@ public class ModItems {
     public static final RegistryObject<Item> BRONZE_BOOTS = ITEMS.register("bronze_boots",
             () -> new ArmorItem(ModArmorMaterials.BRONZE, EquipmentSlot.FEET,
                     new Item.Properties().tab(CreativeTabs.CALIBER_TAB)));
+
+
+
+
 
     public static final RegistryObject<Item> STAINED_ACACIA_SIGN = ITEMS.register("stained_acacia_sign",
             () -> new SignItem(new Item.Properties().tab(CreativeTabs.CALIBER_TAB).stacksTo(16), ModBlocks.STAINED_ACACIA_SIGN.get(), ModBlocks.STAINED_ACACIA_WALL_SIGN.get()));

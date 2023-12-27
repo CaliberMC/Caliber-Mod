@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "caliber:thatch"
+  },
+  "result": "caliber:thatch_corner_slab_vertical",
+  "count": 4
+}

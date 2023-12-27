@@ -34,6 +34,7 @@ public class BlockManager {
 
     private final ImmutableMap<BlockAdditional, RegistryObject<Block>> blocks;
 
+    // TODO: Setup planks, wood, stem, hypae types
     BlockManager(String name, List<BlockAdditional> directions) {
         ImmutableMap.Builder<BlockAdditional, RegistryObject<Block>> builder = ImmutableMap.builder();
         for (BlockAdditional e : directions) {

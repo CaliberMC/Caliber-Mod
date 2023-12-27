@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "W  ",
+    "WW ",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:stripped_crimson_hyphae"
+    }
+  },
+  "result": {
+    "item": "caliber:stripped_crimson_stairs",
+    "count": 4
+  }
+}

@@ -331,6 +331,10 @@ public class ModBlocks {
             BlockProps.PLANK.get(), () -> Blocks.STRIPPED_OAK_WOOD, FINISHED_WOOD_VARIANTS);
     public static final BlockManager STRIPPED_SPRUCE = BlockManager.register("stripped_spruce",
             BlockProps.PLANK.get(), () -> Blocks.STRIPPED_SPRUCE_WOOD, FINISHED_WOOD_VARIANTS);
+    public static final BlockManager STRIPPED_CRIMSON = BlockManager.register("stripped_crimson",
+            BlockProps.PLANK.get(), () -> Blocks.STRIPPED_CRIMSON_HYPHAE, FINISHED_WOOD_VARIANTS);
+    public static final BlockManager STRIPPED_WARPED = BlockManager.register("stripped_warped",
+            BlockProps.PLANK.get(), () -> Blocks.STRIPPED_WARPED_HYPHAE, FINISHED_WOOD_VARIANTS);
 
     /* Stained Wood */
     public static final BlockManager STAINED_STRIPPED_ACACIA = BlockManager.register("stained_stripped_acacia",

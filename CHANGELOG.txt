@@ -218,7 +218,16 @@ Added Bronze Armor and Tools
 
 
 - 0.0.28 (in progress)
+- Added a total of 42 new blocks!
+- Current Mod Block Count is at 3,623
 - Added Bronze Armor and Tools to the Creative Inventory Tabs
+- Added Stripped Crimson and Stripped Warped Beams, Door Frames, Posts and Lintels and other variants
+- Added Grass Stems that drop from breaking Grass (used to craft Thatch)
+- Added Stained Wood Recipes
+- Added Stained Planks Recipes
+- Added Roofing Recipes
+
+- 0.0.29 (up next)
 - Removed Buildify Features from Caliber-Mod to add greater mod compatibility for Block Picker feature, added as a dependency/library for Caliber-Mod
 
 

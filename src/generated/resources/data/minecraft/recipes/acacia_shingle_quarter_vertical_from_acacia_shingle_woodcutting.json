@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "caliber:acacia_shingle"
+  },
+  "result": "caliber:acacia_shingle_quarter_vertical",
+  "count": 5
+}

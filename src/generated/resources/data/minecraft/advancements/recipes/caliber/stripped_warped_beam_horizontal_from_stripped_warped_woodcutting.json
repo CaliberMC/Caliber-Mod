@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:stripped_warped_beam_horizontal_from_stripped_warped_woodcutting"
+    ]
+  },
+  "criteria": {
+    "has_stripped_warped_hyphae": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stripped_warped_hyphae"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:stripped_warped_beam_horizontal_from_stripped_warped_woodcutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_warped_hyphae",
+      "has_the_recipe"
+    ]
+  ]
+}

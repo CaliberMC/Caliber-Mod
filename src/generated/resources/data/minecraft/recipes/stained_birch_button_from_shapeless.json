@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "caliber:stained_birch"
+    }
+  ],
+  "result": {
+    "item": "caliber:stained_birch_button"
+  }
+}

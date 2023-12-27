@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "caliber:oak_shingle"
+  },
+  "result": "caliber:oak_shingle_corner",
+  "count": 5
+}

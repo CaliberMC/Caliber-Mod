@@ -6,7 +6,7 @@
     ]
   },
   "criteria": {
-    "has_stained_oak_wood": {
+    "has_stained_oak": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -27,7 +27,7 @@
   },
   "requirements": [
     [
-      "has_stained_oak_wood",
+      "has_stained_oak",
       "has_the_recipe"
     ]
   ]

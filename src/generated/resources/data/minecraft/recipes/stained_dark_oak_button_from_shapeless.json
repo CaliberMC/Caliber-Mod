@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "caliber:stained_dark_oak"
+    }
+  ],
+  "result": {
+    "item": "caliber:stained_dark_oak_button"
+  }
+}

@@ -504,6 +504,12 @@ public class ModBlockFamilies {
     public static final ModBlockFamily STRIPPED_SPRUCE_WOOD = familyBuilder(Blocks.STRIPPED_SPRUCE_WOOD)
             .fromManager(ModBlocks.STRIPPED_SPRUCE)
             .getFamily();
+    public static final ModBlockFamily STRIPPED_CRIMSON_HYPHAE = familyBuilder(Blocks.STRIPPED_CRIMSON_HYPHAE)
+            .fromManager(ModBlocks.STRIPPED_CRIMSON)
+            .getFamily();
+    public static final ModBlockFamily STRIPPED_WARPED_HYPHAE = familyBuilder(Blocks.STRIPPED_WARPED_HYPHAE)
+            .fromManager(ModBlocks.STRIPPED_WARPED)
+            .getFamily();
 
     /* Stained Wood  */
     public static final ModBlockFamily STAINED_STRIPPED_ACACIA_WOOD = familyBuilder(ModBlocks.STAINED_STRIPPED_ACACIA.baseBlock())

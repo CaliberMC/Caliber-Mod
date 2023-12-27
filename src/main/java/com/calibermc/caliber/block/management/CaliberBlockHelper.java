@@ -351,6 +351,9 @@ public class CaliberBlockHelper {
         if (tex.getPath().contains("_wood")) {
             tex = new ResourceLocation(tex.getNamespace(), tex.getPath().replace("_wood", "_log"));
         }
+        if (tex.getPath().contains("_hyphae")) {
+            tex = new ResourceLocation(tex.getNamespace(), tex.getPath().replace("_hyphae", "_stem"));
+        }
         if (tex.getPath().equals("block/basalt") || tex.getPath().equals("block/polished_basalt")
                 || tex.getPath().contains("quartz")) {
             ResourceLocation side = new ResourceLocation(tex.getNamespace(), tex.getPath() + "_side");

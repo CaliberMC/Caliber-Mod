@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WW"
+  ],
+  "key": {
+    "W": {
+      "item": "caliber:stained_acacia"
+    }
+  },
+  "result": {
+    "item": "caliber:stained_acacia_pressure_plate"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "minecraft:stripped_crimson_hyphae"
+  },
+  "result": "caliber:stripped_crimson_wall",
+  "count": 1
+}

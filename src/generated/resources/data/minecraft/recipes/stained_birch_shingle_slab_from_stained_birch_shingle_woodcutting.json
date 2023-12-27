@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "caliber:stained_birch_shingle"
+  },
+  "result": "caliber:stained_birch_shingle_slab",
+  "count": 8
+}

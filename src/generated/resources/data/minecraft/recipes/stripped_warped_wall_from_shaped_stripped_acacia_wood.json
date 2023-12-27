@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:stripped_warped_hyphae"
+    }
+  },
+  "result": {
+    "item": "caliber:stripped_warped_wall",
+    "count": 6
+  }
+}

@@ -8,6 +8,7 @@ import com.calibermc.caliber.block.custom.SlabLayerBlock;
 import com.calibermc.caliber.block.custom.VerticalSlabLayerBlock;
 import com.calibermc.caliber.command.CaliberCommands;
 import com.calibermc.caliber.config.CaliberCommonConfigs;
+import com.calibermc.caliber.event.loot.GrassStemsFromGrassModifier;
 import com.calibermc.caliber.util.ModBlockStateProperties;
 import com.calibermc.caliber.util.player.IPlayerExtended;
 import net.minecraft.Util;
@@ -28,18 +29,31 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.Property;
+import net.minecraftforge.common.loot.GlobalLootModifierSerializer;
 import net.minecraftforge.event.RegisterCommandsEvent;
+import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.event.world.BlockEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.ForgeRegistries;
 
+import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 import java.util.Collection;
 
 @Mod.EventBusSubscriber(modid = Caliber.MOD_ID)
 public class ModEventBus {
+
+
+    @SubscribeEvent
+    public static void registerModifierSerializers(@Nonnull final RegistryEvent.Register<GlobalLootModifierSerializer<?>> event) {
+        event.getRegistry().registerAll(
+                new GrassStemsFromGrassModifier.Serializer().setRegistryName
+                        (new ResourceLocation(Caliber.MOD_ID, "grass_stems_from_grass"))
+        );
+    }
+
 
     @SubscribeEvent
     public static void preventRightClick(PlayerInteractEvent.RightClickBlock event) {

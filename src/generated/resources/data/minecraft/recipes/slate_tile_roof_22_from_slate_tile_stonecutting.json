@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "caliber:slate_tile"
+  },
+  "result": "caliber:slate_tile_roof_22",
+  "count": 2
+}

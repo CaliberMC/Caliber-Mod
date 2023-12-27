@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WWW",
+    " # "
+  ],
+  "key": {
+    "W": {
+      "item": "caliber:stained_jungle"
+    },
+    "#": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "caliber:stained_jungle_sign",
+    "count": 3
+  }
+}

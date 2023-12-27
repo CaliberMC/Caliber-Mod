@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "caliber:jungle_shingle"
+  },
+  "result": "caliber:jungle_shingle_corner",
+  "count": 5
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:stripped_crimson_stairs_from_stripped_crimson_woodcutting"
+    ]
+  },
+  "criteria": {
+    "has_stripped_crimson_hyphae": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stripped_crimson_hyphae"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:stripped_crimson_stairs_from_stripped_crimson_woodcutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_crimson_hyphae",
+      "has_the_recipe"
+    ]
+  ]
+}
