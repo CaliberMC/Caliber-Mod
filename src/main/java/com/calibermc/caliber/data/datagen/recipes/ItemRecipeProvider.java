@@ -40,14 +40,10 @@ public class ItemRecipeProvider extends RecipeProvider implements IConditionBuil
 
     private void consumableRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
         /* Consumables */
-//        ShapedRecipeBuilder.shaped(ModItems.NAILS.get(), 10).define('I', Items.IRON_INGOT).pattern(" I ").pattern(" I ").unlockedBy("has_iron_ingot",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Items.IRON_INGOT).build())).save(pFinishedRecipeConsumer, "nails_from_shaped_iron_ingots");
     }
 
     private void toolRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
         /* Tools */
-//        ShapedRecipeBuilder.shaped(ModItems.HAMMER.get(), 1).define('L', Items.LEATHER).define('S', Items.STICK).define('I', Items.IRON_INGOT).pattern(" L ").pattern(" S ").pattern("II ").unlockedBy("has_iron_ingot",
-//                inventoryTrigger(ItemPredicate.Builder.item().of(Items.IRON_INGOT).build())).save(pFinishedRecipeConsumer, "hammer_from_shaped_iron_ingot_stick_leather");
         ShapedRecipeBuilder.shaped(ModItems.BRONZE_AXE.get(), 1).define('I', ModItems.BRONZE_INGOT.get()).define('#', Items.STICK).pattern("II ").pattern("I# ").pattern(" # ").unlockedBy("has_bronze_ingot",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.BRONZE_INGOT.get()).build())).save(pFinishedRecipeConsumer, "bronze_axe_from_shaped_bronze_ingot_stick");
         ShapedRecipeBuilder.shaped(ModItems.BRONZE_HOE.get(), 1).define('I', ModItems.BRONZE_INGOT.get()).define('#', Items.STICK).pattern("II ").pattern(" # ").pattern(" # ").unlockedBy("has_bronze_ingot",

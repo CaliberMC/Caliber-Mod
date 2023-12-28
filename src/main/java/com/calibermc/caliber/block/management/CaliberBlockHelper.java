@@ -106,8 +106,8 @@ public class CaliberBlockHelper {
 //    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> BUTTON = (textureFrom) -> (b, provider) ->
 //            provider.buttonBlock((StoneButtonBlock) b.get(), provider.blockTexture(BlockManager.getMainBy(b, textureFrom)));
 
-    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> WOOD_BUTTON = (textureFrom) -> (b, provider) ->
-            provider.buttonBlock((WoodButtonBlock) b.get(), provider.blockTexture(BlockManager.getMainBy(b, textureFrom)));
+//    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> WOOD_BUTTON = (textureFrom) -> (b, provider) ->
+//            provider.buttonBlock((WoodButtonBlock) b.get(), provider.blockTexture(BlockManager.getMainBy(b, textureFrom)));
 
     public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> BUTTON = (textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<StoneButtonBlock>fixBlockTex(textureFrom, b, provider, (block, side, top, bottom, tex) -> {
@@ -387,13 +387,11 @@ public class CaliberBlockHelper {
 
     @FunctionalInterface
     interface BlockGenLayerWithSides<T extends Block> {
-
         void data(T block, ResourceLocation side, ResourceLocation top, ResourceLocation bottom, ResourceLocation baseBlock);
     }
 
     @FunctionalInterface
     interface BlockGenWithBaseBlock<T extends Block> {
-
         void data(T block, ResourceLocation baseBlock);
     }
 }

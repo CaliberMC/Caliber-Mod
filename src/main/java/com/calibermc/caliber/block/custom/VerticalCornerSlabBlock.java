@@ -7,7 +7,6 @@ import com.google.common.collect.Maps;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.tags.FluidTags;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.LevelAccessor;
@@ -30,7 +29,6 @@ import javax.annotation.Nullable;
 import java.util.Map;
 
 import static net.minecraft.core.Direction.*;
-
 
 public class VerticalCornerSlabBlock extends Block implements SimpleWaterloggedBlock {
 

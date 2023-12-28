@@ -80,7 +80,7 @@ public class ModItemModelProvider extends ItemModelProvider {
                     parentName += "_bottom";
                 }
 
-                if (variant.equals(ModBlockFamily.Variant.ROOF_22)) {
+                if (variant.equals(ModBlockFamily.Variant.ROOF_67)) {
                     parentName += "_top";
                 }
 
@@ -145,7 +145,7 @@ public class ModItemModelProvider extends ItemModelProvider {
                         parentName += "_bottom";
                     }
 
-                    if (block instanceof Roof22Block) {
+                    if (block instanceof Roof67Block) {
                         parentName += "_top";
                     }
 

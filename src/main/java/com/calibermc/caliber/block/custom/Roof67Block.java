@@ -15,7 +15,6 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.SimpleWaterloggedBlock;
-import net.minecraft.world.level.block.SlabBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.*;
@@ -27,18 +26,12 @@ import net.minecraft.world.phys.shapes.BooleanOp;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
-import org.jetbrains.annotations.NotNull;
 
 import javax.annotation.Nullable;
 import java.util.Map;
-import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-import static com.calibermc.caliber.block.custom.DirectionalBlock.SHAPE;
 import static com.calibermc.caliber.util.ModBlockStateProperties.isSide;
-import static net.minecraft.core.Direction.*;
-import static net.minecraft.core.Direction.WEST;
-
 
 public class Roof67Block extends Block implements SimpleWaterloggedBlock {
 
@@ -49,7 +42,7 @@ public class Roof67Block extends Block implements SimpleWaterloggedBlock {
 
     public Roof67Block(Properties properties) {
         super(properties);
-        this.registerDefaultState(this.defaultBlockState()
+        this.registerDefaultState(this.stateDefinition.any()
                 .setValue(FACING, Direction.NORTH)
                 .setValue(TYPE, RoofShape.STRAIGHT)
                 .setValue(HALF, Half.TOP)
@@ -58,7 +51,7 @@ public class Roof67Block extends Block implements SimpleWaterloggedBlock {
 
     @Override
     public boolean useShapeForLightOcclusion(BlockState pState) {
-        return false;
+        return true;
     }
 
     @Override
@@ -67,96 +60,96 @@ public class Roof67Block extends Block implements SimpleWaterloggedBlock {
     }
 
     public static final Map<Direction, VoxelShape> TOP_OUTER_LEFT_SHAPE = Maps.newEnumMap(ImmutableMap.of(
-            Direction.NORTH, Block.box(8, 1, 8, 16, 15, 16),
-            Direction.SOUTH, Block.box(0, 1, 0, 8, 15, 8),
-            Direction.EAST, Block.box(0, 1, 8, 8, 15, 16),
-            Direction.WEST, Block.box(8, 1, 0, 16, 15, 8)));
+            Direction.NORTH, Block.box(8, 0.01, 8, 16, 16, 16),
+            Direction.SOUTH, Block.box(0, 0.01, 0, 8, 16, 8),
+            Direction.EAST, Block.box(0, 0.01, 8, 8, 16, 16),
+            Direction.WEST, Block.box(8, 0.01, 0, 16, 16, 8)));
 
     public static final Map<Direction, VoxelShape> TOP_OUTER_RIGHT_SHAPE = Maps.newEnumMap(ImmutableMap.of(
-            Direction.NORTH, Block.box(0, 1, 8, 8, 15, 16),
-            Direction.SOUTH, Block.box(8, 1, 0, 16, 15, 8),
-            Direction.EAST, Block.box(0, 1, 0, 8, 15, 8),
-            Direction.WEST, Block.box(8, 1, 8, 16, 15, 16)));
+            Direction.NORTH, Block.box(0, 0.01, 8, 8, 16, 16),
+            Direction.SOUTH, Block.box(8, 0.01, 0, 16, 16, 8),
+            Direction.EAST, Block.box(0, 0.01, 0, 8, 16, 8),
+            Direction.WEST, Block.box(8, 0.01, 8, 16, 16, 16)));
 
     public static final Map<Direction, VoxelShape> TOP_INNER_LEFT_SHAPE = Maps.newEnumMap(ImmutableMap.of(
-            Direction.EAST, Shapes.join(Block.box(0, 1, 8, 16, 15, 16), Block.box(0, 1, 0, 8, 15, 8), BooleanOp.OR),
-            Direction.NORTH, Shapes.join(Block.box(8, 1, 0, 16, 15, 16), Block.box(0, 1, 8, 8, 15, 16), BooleanOp.OR),
-            Direction.WEST, Shapes.join(Block.box(0, 1, 0, 16, 15, 8), Block.box(8, 1, 8, 16, 15, 16), BooleanOp.OR),
-            Direction.SOUTH, Shapes.join(Block.box(0, 1, 0, 7, 15, 16), Block.box(8, 1, 0, 16, 15, 8), BooleanOp.OR)));
+            Direction.EAST, Shapes.join(Block.box(0, 0.01, 8, 16, 16, 16), Block.box(0, 0, 0, 8, 16, 8), BooleanOp.OR),
+            Direction.NORTH, Shapes.join(Block.box(8, 0.01, 0, 16, 16, 16), Block.box(0, 0, 8, 8, 16, 16), BooleanOp.OR),
+            Direction.WEST, Shapes.join(Block.box(0, 0.01, 0, 16, 16, 8), Block.box(8, 0, 8, 16, 16, 16), BooleanOp.OR),
+            Direction.SOUTH, Shapes.join(Block.box(0, 0.01, 0, 8, 16, 16), Block.box(8, 0, 0, 16, 16, 8), BooleanOp.OR)));
 
     public static final Map<Direction, VoxelShape> TOP_INNER_RIGHT_SHAPE = Maps.newEnumMap(ImmutableMap.of(
-            Direction.WEST, Shapes.join(Block.box(8, 1, 0, 16, 15, 16), Block.box(0, 1, 8, 8, 15, 16), BooleanOp.OR),
-            Direction.SOUTH, Shapes.join(Block.box(0, 1, 0, 16, 15, 8), Block.box(8, 1, 8, 16, 15, 16), BooleanOp.OR),
-            Direction.NORTH, Shapes.join(Block.box(0, 1, 8, 16, 15, 16), Block.box(0, 1, 0, 8, 15, 8), BooleanOp.OR),
-            Direction.EAST, Shapes.join(Block.box(0, 1, 0, 7, 15, 16), Block.box(8, 1, 0, 16, 15, 8), BooleanOp.OR)));
+            Direction.WEST, Shapes.join(Block.box(8, 0.01, 0, 16, 16, 16), Block.box(0, 0, 8, 8, 16, 16), BooleanOp.OR),
+            Direction.SOUTH, Shapes.join(Block.box(0, 0.01, 0, 16, 16, 8), Block.box(8, 0, 8, 16, 16, 16), BooleanOp.OR),
+            Direction.NORTH, Shapes.join(Block.box(0, 0.01, 8, 16, 16, 16), Block.box(0, 0, 0, 8, 16, 8), BooleanOp.OR),
+            Direction.EAST, Shapes.join(Block.box(0, 0.01, 0, 8, 16, 16), Block.box(8, 0, 0, 16, 16, 8), BooleanOp.OR)));
 
     public static final Map<Direction, VoxelShape> TOP_STRAIGHT_SHAPE = Maps.newEnumMap(ImmutableMap.of(
-            Direction.NORTH, Block.box(0, 1, 8, 16, 15, 16),
-            Direction.SOUTH, Block.box(0, 1, 0, 16, 15, 8),
-            Direction.EAST, Block.box(0, 1, 0, 8, 15, 16),
-            Direction.WEST, Block.box(8, 1, 0, 16, 15, 16)));
+            Direction.NORTH, Block.box(0, 0.01, 8, 16, 16, 16),
+            Direction.SOUTH, Block.box(0, 0.01, 0, 16, 16, 8),
+            Direction.EAST, Block.box(0, 0.01, 0, 8, 16, 16),
+            Direction.WEST, Block.box(8, 0.01, 0, 16, 16, 16)));
 
     public static final Map<Direction, VoxelShape> BOTTOM_STRAIGHT_SHAPE = Maps.newEnumMap(ImmutableMap.of(
-            Direction.NORTH, Shapes.join(Block.box(0, 1, 8, 16, 15, 16), Block.box(0, 1, 0, 16, 7, 8), BooleanOp.OR),
-            Direction.SOUTH, Shapes.join(Block.box(0, 1, 0, 16, 15, 8), Block.box(0, 1, 8, 16, 7, 16), BooleanOp.OR),
-            Direction.EAST, Shapes.join(Block.box(0, 1, 0, 8, 15, 16), Block.box(8, 1, 0, 16, 7, 16), BooleanOp.OR),
-            Direction.WEST, Shapes.join(Block.box(8, 1, 0, 16, 15, 16), Block.box(0, 1, 0, 8, 7, 16), BooleanOp.OR)));
+            Direction.NORTH, Shapes.join(Block.box(0, 0, 8, 16, 16, 16), Block.box(0, 0, 0, 16, 8, 8), BooleanOp.OR),
+            Direction.SOUTH, Shapes.join(Block.box(0, 0, 0, 16, 16, 8), Block.box(0, 0, 8, 16, 8, 16), BooleanOp.OR),
+            Direction.EAST, Shapes.join(Block.box(0, 0, 0, 8, 16, 16), Block.box(8, 0, 0, 16, 8, 16), BooleanOp.OR),
+            Direction.WEST, Shapes.join(Block.box(8, 0, 0, 16, 16, 16), Block.box(0, 0, 0, 8, 8, 16), BooleanOp.OR)));
 
     public static final Map<Direction, VoxelShape> BOTTOM_OUTER_LEFT_SHAPE = Maps.newEnumMap(ImmutableMap.of(
-            Direction.SOUTH, Shapes.join(Block.box(0, 1, 0, 16, 7, 16), Block.box(0, 9, 0, 8, 15, 8), BooleanOp.OR),
-            Direction.NORTH, Shapes.join(Block.box(0, 1, 0, 16, 7, 16), Block.box(8, 9, 8, 16, 15, 16), BooleanOp.OR),
-            Direction.WEST, Shapes.join(Block.box(0, 1, 0, 16, 7, 16), Block.box(8, 9, 0, 16, 15, 8), BooleanOp.OR),
-            Direction.EAST, Shapes.join(Block.box(0, 1, 0, 16, 7, 16), Block.box(0, 9, 8, 8, 15, 16), BooleanOp.OR)));
+            Direction.SOUTH, Shapes.join(Block.box(0, 0, 0, 16, 8, 16), Block.box(0, 8, 0, 8, 16, 8), BooleanOp.OR),
+            Direction.NORTH, Shapes.join(Block.box(0, 0, 0, 16, 8, 16), Block.box(8, 8, 8, 16, 16, 16), BooleanOp.OR),
+            Direction.WEST, Shapes.join(Block.box(0, 0, 0, 16, 8, 16), Block.box(8, 8, 0, 16, 16, 8), BooleanOp.OR),
+            Direction.EAST, Shapes.join(Block.box(0, 0, 0, 16, 8, 16), Block.box(0, 8, 8, 8, 16, 16), BooleanOp.OR)));
 
     public static final Map<Direction, VoxelShape> BOTTOM_OUTER_RIGHT_SHAPE = Maps.newEnumMap(ImmutableMap.of(
-            Direction.EAST, Shapes.join(Block.box(0, 1, 0, 16, 7, 16), Block.box(0, 9, 0, 8, 15, 8), BooleanOp.OR),
-            Direction.WEST, Shapes.join(Block.box(0, 1, 0, 16, 7, 16), Block.box(8, 9, 8, 16, 15, 16), BooleanOp.OR),
-            Direction.SOUTH, Shapes.join(Block.box(0, 1, 0, 16, 7, 16), Block.box(8, 9, 0, 16, 15, 8), BooleanOp.OR),
-            Direction.NORTH, Shapes.join(Block.box(0, 1, 0, 16, 7, 16), Block.box(0, 9, 8, 8, 15, 16), BooleanOp.OR)));
+            Direction.EAST, Shapes.join(Block.box(0, 0, 0, 16, 8, 16), Block.box(0, 8, 0, 8, 16, 8), BooleanOp.OR),
+            Direction.WEST, Shapes.join(Block.box(0, 0, 0, 16, 8, 16), Block.box(8, 8, 8, 16, 16, 16), BooleanOp.OR),
+            Direction.SOUTH, Shapes.join(Block.box(0, 0, 0, 16, 8, 16), Block.box(8, 8, 0, 16, 16, 8), BooleanOp.OR),
+            Direction.NORTH, Shapes.join(Block.box(0, 0, 0, 16, 8, 16), Block.box(0, 8, 8, 8, 16, 16), BooleanOp.OR)));
 
     public static final Map<Direction, VoxelShape> BOTTOM_INNER_LEFT_SHAPE = Maps.newEnumMap(ImmutableMap.of(
             Direction.SOUTH, Stream.of(
-                    Block.box(0, 1, 0, 16, 7, 16),
-                    Block.box(0, 9, 0, 8, 15, 16),
-                    Block.box(8, 9, 0, 16, 15, 8)
-            ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get(),
+                    Block.box(0, 0, 0, 16, 8, 16),
+                    Block.box(0, 8, 0, 8, 16, 16),
+                    Block.box(8, 8, 0, 16, 16, 8)
+            ).reduce((v0, v2) -> Shapes.join(v0, v2, BooleanOp.OR)).get(),
             Direction.NORTH, Stream.of(
-                    Block.box(0, 1, 0, 16, 7, 16),
-                    Block.box(8, 9, 0, 16, 15, 16),
-                    Block.box(0, 9, 8, 8, 15, 16)
-            ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get(),
+                    Block.box(0, 0, 0, 16, 8, 16),
+                    Block.box(8, 8, 0, 16, 16, 16),
+                    Block.box(0, 8, 8, 8, 16, 16)
+            ).reduce((v0, v2) -> Shapes.join(v0, v2, BooleanOp.OR)).get(),
             Direction.WEST, Stream.of(
-                    Block.box(0, 1, 0, 16, 7, 16),
-                    Block.box(0, 9, 0, 16, 15, 8),
-                    Block.box(8, 9, 8, 16, 15, 16)
-            ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get(),
+                    Block.box(0, 0, 0, 16, 8, 16),
+                    Block.box(0, 8, 0, 16, 16, 8),
+                    Block.box(8, 8, 8, 16, 16, 16)
+            ).reduce((v0, v2) -> Shapes.join(v0, v2, BooleanOp.OR)).get(),
             Direction.EAST, Stream.of(
-                    Block.box(0, 1, 0, 16, 7, 16),
-                    Block.box(0, 9, 8, 16, 15, 16),
-                    Block.box(0, 9, 0, 8, 15, 8)
-            ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get()));
+                    Block.box(0, 0, 0, 16, 8, 16),
+                    Block.box(0, 8, 8, 16, 16, 16),
+                    Block.box(0, 8, 0, 8, 16, 8)
+            ).reduce((v0, v2) -> Shapes.join(v0, v2, BooleanOp.OR)).get()));
 
     public static final Map<Direction, VoxelShape> BOTTOM_INNER_RIGHT_SHAPE = Maps.newEnumMap(ImmutableMap.of(
             Direction.EAST, Stream.of(
-                    Block.box(0, 1, 0, 16, 7, 16),
-                    Block.box(0, 7, 0, 8, 15, 16),
-                    Block.box(8, 7, 0, 16, 15, 8)
-            ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get(),
+                    Block.box(0, 0, 0, 16, 8, 16),
+                    Block.box(0, 8, 0, 8, 16, 16),
+                    Block.box(8, 8, 0, 16, 16, 8)
+            ).reduce((v0, v2) -> Shapes.join(v0, v2, BooleanOp.OR)).get(),
             Direction.WEST, Stream.of(
-                    Block.box(0, 1, 0, 16, 7, 16),
-                    Block.box(8, 7, 0, 16, 15, 16),
-                    Block.box(0, 7, 8, 8, 15, 16)
-            ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get(),
+                    Block.box(0, 0, 0, 16, 8, 16),
+                    Block.box(8, 8, 0, 16, 16, 16),
+                    Block.box(0, 8, 8, 8, 16, 16)
+            ).reduce((v0, v2) -> Shapes.join(v0, v2, BooleanOp.OR)).get(),
             Direction.SOUTH, Stream.of(
-                    Block.box(0, 1, 0, 16, 7, 16),
-                    Block.box(0, 7, 0, 16, 15, 8),
-                    Block.box(8, 7, 8, 16, 15, 16)
-            ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get(),
+                    Block.box(0, 0, 0, 16, 8, 16),
+                    Block.box(0, 8, 0, 16, 16, 8),
+                    Block.box(8, 8, 8, 16, 16, 16)
+            ).reduce((v0, v2) -> Shapes.join(v0, v2, BooleanOp.OR)).get(),
             Direction.NORTH, Stream.of(
-                    Block.box(0, 1, 0, 16, 7, 16),
-                    Block.box(0, 7, 8, 16, 15, 16),
-                    Block.box(0, 7, 0, 8, 15, 8)
-            ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get()));
+                    Block.box(0, 0, 0, 16, 8, 16),
+                    Block.box(0, 8, 8, 16, 16, 16),
+                    Block.box(0, 8, 0, 8, 16, 8)
+            ).reduce((v0, v2) -> Shapes.join(v0, v2, BooleanOp.OR)).get()));
 
     @Override
     public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
@@ -183,198 +176,6 @@ public class Roof67Block extends Block implements SimpleWaterloggedBlock {
 
         }
     }
-
-
-//-----------------------------------------------------------------------------------------------------------------------//
-//    protected static final VoxelShape BOTTOM_AABB = Block.box(0.0D, 0.0D, 0.0D, 16.0D, 8.0D, 16.0D);
-//    protected static final VoxelShape TOP_AABB = Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D);
-//    protected static final VoxelShape OCTET_NNN = Block.box(8.0D, 8.0D, 8.0D, 16.0D, 16.0D, 16.0D); // was OCTET_PPP
-//    protected static final VoxelShape OCTET_NNP = Block.box(8.0D, 8.0D, 0.0D, 16.0D, 16.0D, 8.0D);  // was OCTET_PPN
-//    protected static final VoxelShape OCTET_NPN = Block.box(0.0D, 0.0D, 0.0D, 8.0D, 8.0D, 8.0D);    // was OCTET_NNN
-//    protected static final VoxelShape OCTET_NPP = Block.box(0.0D, 0.0D, 8.0D, 8.0D, 8.0D, 16.0D);   // was OCTET_NNP
-//    protected static final VoxelShape OCTET_PNN = Block.box(8.0D, 0.0D, 8.0D, 16.0D, 8.0D, 16.0D);  // was OCTET_PNP
-//    protected static final VoxelShape OCTET_PNP = Block.box(8.0D, 0.0D, 0.0D, 16.0D, 8.0D, 8.0D);   // was OCTET_PNN
-//    protected static final VoxelShape OCTET_PPN = Block.box(0.0D, 8.0D, 0.0D, 8.0D, 16.0D, 8.0D);   // was OCTET_NPN
-//    protected static final VoxelShape OCTET_PPP = Block.box(0.0D, 8.0D, 8.0D, 8.0D, 16.0D, 16.0D);  // was OCTET_NPP
-//    protected static final VoxelShape[] BOTTOM_SHAPES = makeShapes(BOTTOM_AABB, OCTET_NPN, OCTET_PPN, OCTET_NPP, OCTET_PPP);
-//    protected static final VoxelShape[] TOP_SHAPES = makeShapes(BOTTOM_AABB, OCTET_NPN, OCTET_PPN, OCTET_NPP, OCTET_PPP);
-//    private static final int[] SHAPE_BY_STATE = new int[]{12, 5, 3, 10, 14, 13, 7, 11, 13, 7, 11, 14, 8, 4, 1, 2, 4, 1, 2, 8};
-//
-//    private static VoxelShape[] makeShapes(VoxelShape pSlabShape, VoxelShape pNwCorner, VoxelShape pNeCorner, VoxelShape pSwCorner, VoxelShape pSeCorner) {
-//        return IntStream.range(0, 16).mapToObj((p_56945_) -> makeStairShape(p_56945_, pSlabShape, pNwCorner, pNeCorner, pSwCorner, pSeCorner)).toArray(VoxelShape[]::new);
-//    }
-//
-//    /**
-//     * Combines the shapes according to the mode set in the bitfield
-//     */
-//    private static VoxelShape makeStairShape(int pBitfield, VoxelShape pSlabShape, VoxelShape pNwCorner, VoxelShape pNeCorner, VoxelShape pSwCorner, VoxelShape pSeCorner) {
-//        VoxelShape voxelshape = pSlabShape;
-//        if ((pBitfield & 1) != 0) {
-//            voxelshape = Shapes.or(pSlabShape, pNwCorner);
-//        }
-//
-//        if ((pBitfield & 2) != 0) {
-//            voxelshape = Shapes.or(voxelshape, pNeCorner);
-//        }
-//
-//        if ((pBitfield & 4) != 0) {
-//            voxelshape = Shapes.or(voxelshape, pSwCorner);
-//        }
-//
-//        if ((pBitfield & 8) != 0) {
-//            voxelshape = Shapes.or(voxelshape, pSeCorner);
-//        }
-//
-//        return voxelshape;
-//    }
-//
-//    public @NotNull VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
-//        return (pState.getValue(HALF) == Half.TOP ? TOP_SHAPES : BOTTOM_SHAPES)[SHAPE_BY_STATE[this.getShapeIndex(pState)]];
-//    }
-//
-//    private int getShapeIndex(@NotNull BlockState pState) {
-//        return pState.getValue(TYPE).ordinal() * 4 + pState.getValue(FACING).getOpposite().get2DDataValue();
-//    }
-//------------------------------
-//    @Override
-//    public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
-//        RoofShape roofShape = pState.getValue(TYPE);
-//        Half half = pState.getValue(HALF);
-//        if (FACING.equals(SOUTH)) {
-//            switch (roofShape) {
-//                case STRAIGHT -> {
-//                    return switch (half) {
-//                        case TOP -> SOUTH;
-//                        case BOTTOM -> BOTTOM_SHAPE;
-//                    };
-//                }
-//                case OUTER_LEFT -> {
-//                    return switch (half) {
-//                        case TOP -> OUTER_SOUTH;
-//                        case BOTTOM -> BOTTOM_SHAPE;
-//                    };
-//                }
-//                case OUTER_RIGHT -> {
-//                    return switch (half) {
-//                        case TOP -> OUTER_WEST;
-//                        case BOTTOM -> BOTTOM_SHAPE;
-//                    };
-//                }
-//                case INNER_LEFT -> {
-//                    return switch (half) {
-//                        case TOP -> INNER_SOUTH;
-//                        case BOTTOM -> BOTTOM_SHAPE;
-//                    };
-//                }
-//                case INNER_RIGHT -> {
-//                    return switch (half) {
-//                        case TOP -> INNER_EAST;
-//                        case BOTTOM -> BOTTOM_SHAPE;
-//                    };
-//                }
-//            }
-//        } else if (FACING.equals(EAST)) {
-//            switch (roofShape) {
-//                case STRAIGHT -> {
-//                    return switch (half) {
-//                        case TOP -> EAST;
-//                        case BOTTOM -> BOTTOM_SHAPE;
-//                    };
-//                }
-//                case OUTER_LEFT -> {
-//                    return switch (half) {
-//                        case TOP -> OUTER_EAST;
-//                        case BOTTOM -> BOTTOM_SHAPE;
-//                    };
-//                }
-//                case OUTER_RIGHT -> {
-//                    return switch (half) {
-//                        case TOP -> OUTER_SOUTH;
-//                        case BOTTOM -> BOTTOM_SHAPE;
-//                    };
-//                }
-//                case INNER_LEFT -> {
-//                    return switch (half) {
-//                        case TOP -> INNER_NORTH;
-//                        case BOTTOM -> BOTTOM_SHAPE;
-//                    };
-//                }
-//                case INNER_RIGHT -> {
-//                    return switch (half) {
-//                        case TOP -> INNER_SOUTH;
-//                        case BOTTOM -> BOTTOM_SHAPE;
-//                    };
-//                }
-//            }
-//        } else if (FACING.equals(WEST)) {
-//            switch (roofShape) {
-//                case STRAIGHT -> {
-//                    return switch (half) {
-//                        case TOP -> WEST;
-//                        case BOTTOM ->BOTTOM_SHAPE;
-//                    };
-//                }
-//                case OUTER_LEFT -> {
-//                    return switch (half) {
-//                        case TOP -> OUTER_WEST;
-//                        case BOTTOM -> BOTTOM_SHAPE;
-//                    };
-//                }
-//                case OUTER_RIGHT -> {
-//                    return switch (half) {
-//                        case TOP -> OUTER_NORTH;
-//                        case BOTTOM -> BOTTOM_SHAPE;
-//                    };
-//                }
-//                case INNER_LEFT -> {
-//                    return switch (half) {
-//                        case TOP -> INNER_EAST;
-//                        case BOTTOM -> BOTTOM_SHAPE;
-//                    };
-//                }
-//                case INNER_RIGHT -> {
-//                    return switch (half) {
-//                        case TOP -> INNER_WEST;
-//                        case BOTTOM -> BOTTOM_SHAPE;
-//                    };
-//                }
-//            }
-//        } else if (FACING.equals(NORTH)) {
-//            switch (roofShape) {
-//                case STRAIGHT -> {
-//                    return switch (half) {
-//                        case TOP -> NORTH;
-//                        case BOTTOM -> BOTTOM_SHAPE;
-//                    };
-//                }
-//                case OUTER_LEFT -> {
-//                    return switch (half) {
-//                        case TOP -> OUTER_NORTH;
-//                        case BOTTOM -> BOTTOM_SHAPE;
-//                    };
-//                }
-//                case OUTER_RIGHT -> {
-//                    return switch (half) {
-//                        case TOP -> OUTER_EAST;
-//                        case BOTTOM -> BOTTOM_SHAPE;
-//                    };
-//                }
-//                case INNER_LEFT -> {
-//                    return switch (half) {
-//                        case TOP -> INNER_WEST;
-//                        case BOTTOM -> BOTTOM_SHAPE;
-//                    };
-//                }
-//                case INNER_RIGHT -> {
-//                    return switch (half) {
-//                        case TOP -> INNER_NORTH;
-//                        case BOTTOM -> BOTTOM_SHAPE;
-//                    };
-//                }
-//            }
-//        }
-//        return NORTH;
-//    }
 
     @Override
     @Nullable

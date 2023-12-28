@@ -119,7 +119,7 @@ public class HalfWindowBlock extends HorizontalDirectionalBlock implements Simpl
 
     public HalfWindowBlock(Properties properties) {
         super(properties);
-        this.registerDefaultState(this.stateDefinition.any() // ? this.defaultBlockState()
+        this.registerDefaultState(this.stateDefinition.any()
                 .setValue(FACING, NORTH)
                 .setValue(TYPE, WindowShape.FULL_BLOCK)
                 .setValue(WATERLOGGED, Boolean.FALSE));
@@ -188,8 +188,6 @@ public class HalfWindowBlock extends HorizontalDirectionalBlock implements Simpl
         } else {
             return pState.setValue(TYPE, WindowShape.FULL_BLOCK);
         }
-
-//        return super.updateShape(pState, pFacing, pFacingState, pLevel, pCurrentPos, pFacingPos);
     }
 
     @Override

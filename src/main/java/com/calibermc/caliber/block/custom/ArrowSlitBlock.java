@@ -69,7 +69,7 @@ public class ArrowSlitBlock extends HorizontalDirectionalBlock implements Simple
 
     public ArrowSlitBlock(Properties properties) {
         super(properties);
-        this.registerDefaultState(this.stateDefinition.any() // ? this.defaultBlockState()
+        this.registerDefaultState(this.stateDefinition.any()
                 .setValue(FACING, NORTH)
                 .setValue(WATERLOGGED, Boolean.FALSE));
     }

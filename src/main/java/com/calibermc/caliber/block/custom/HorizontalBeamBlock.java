@@ -129,7 +129,7 @@ public class HorizontalBeamBlock extends Block implements SimpleWaterloggedBlock
 
     public HorizontalBeamBlock(Properties properties) {
         super(properties);
-        this.registerDefaultState(this.defaultBlockState()
+        this.registerDefaultState(this.stateDefinition.any()
                 .setValue(BEAM, 1)
                 .setValue(TYPE, TopBottomShape.BOTTOM)
                 .setValue(FACING, Direction.NORTH)

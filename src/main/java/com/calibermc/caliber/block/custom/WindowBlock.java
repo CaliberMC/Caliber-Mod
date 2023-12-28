@@ -119,7 +119,7 @@ public class WindowBlock extends HorizontalDirectionalBlock implements SimpleWat
 
     public WindowBlock(Properties properties) {
         super(properties);
-        this.registerDefaultState(this.stateDefinition.any() // ? this.defaultBlockState()
+        this.registerDefaultState(this.stateDefinition.any()
                 .setValue(FACING, NORTH)
                 .setValue(TYPE, WindowShape.FULL_BLOCK)
                 .setValue(WATERLOGGED, Boolean.FALSE));
@@ -159,29 +159,12 @@ public class WindowBlock extends HorizontalDirectionalBlock implements SimpleWat
     @Nullable
     public BlockState getStateForPlacement(BlockPlaceContext pContext) {
         BlockPos blockpos = pContext.getClickedPos();
-//        BlockState below = pContext.getLevel().getBlockState(blockpos.below());
-//        BlockState above = pContext.getLevel().getBlockState(blockpos.above());
+
         FluidState fluidstate = pContext.getLevel().getFluidState(blockpos);
         BlockState blockstate1 = this.defaultBlockState().setValue(FACING, pContext.getHorizontalDirection().getOpposite())
                 .setValue(WATERLOGGED, fluidstate.getType() == Fluids.WATER);
 
-        // If the block below is a window and the block above is not a window, this block is a top window.
-//        if (below.getBlock() == this && above.getBlock() != this) {
-//            return blockstate1.setValue(TYPE, WindowShape.TOP)
-//                    .setValue(WATERLOGGED, Boolean.valueOf(false));
-//            // If both the block below and the block above are windows, this block is a middle window.
-//        } else if (below.getBlock() == this && above.getBlock() == this) {
-//            return blockstate1.setValue(TYPE, WindowShape.MIDDLE)
-//                    .setValue(WATERLOGGED, Boolean.valueOf(false));
-//            // If the block below is not a window and the block above is a window, this block is a bottom window.
-//        } else if (below.getBlock() != this && above.getBlock() == this) {
-//            return blockstate1.setValue(TYPE, WindowShape.BOTTOM)
-//                    .setValue(WATERLOGGED, Boolean.valueOf(false));
-//            // By default, place as a whole window.
-//        } else {
-//            return blockstate1.setValue(TYPE, WindowShape.FULL_BLOCK)
-//                    .setValue(WATERLOGGED, Boolean.valueOf(false));
-//        }
+
         return blockstate1.setValue(TYPE, WindowShape.FULL_BLOCK)
                 .setValue(WATERLOGGED, Boolean.FALSE);
     }
@@ -207,8 +190,6 @@ public class WindowBlock extends HorizontalDirectionalBlock implements SimpleWat
         } else {
             return pState.setValue(TYPE, WindowShape.FULL_BLOCK);
         }
-
-//        return super.updateShape(pState, pFacing, pFacingState, pLevel, pCurrentPos, pFacingPos);
     }
 
     @Override

@@ -2,7 +2,6 @@ package com.calibermc.caliber.block.custom;
 
 import com.calibermc.caliber.block.shapes.ArchShape;
 import com.calibermc.caliber.block.shapes.trim.ArchTrim;
-import com.calibermc.caliber.block.shapes.trim.LargeArchTrim;
 import com.calibermc.caliber.util.ModBlockStateProperties;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -18,7 +17,6 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
-import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.material.Fluids;
@@ -34,14 +32,13 @@ public class ArchBlock extends HorizontalDirectionalBlock implements SimpleWater
 
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
     public static final EnumProperty<ArchShape> TYPE = ModBlockStateProperties.ARCH_SHAPE;
-//    public static final IntegerProperty TRIM = ModBlockStateProperties.ARCH_TRIM;
-public static final EnumProperty<ArchTrim> TRIM = ModBlockStateProperties.ARCH_TRIM;
+    public static final EnumProperty<ArchTrim> TRIM = ModBlockStateProperties.ARCH_TRIM;
 
     public static final VoxelShape SHAPE = Block.box(0, 8, 0, 16, 16, 16);
 
     public ArchBlock(Properties properties) {
         super(properties);
-        this.registerDefaultState(this.defaultBlockState() // this.stateDefinition.any()
+        this.registerDefaultState(this.stateDefinition.any()
                 .setValue(TRIM, ArchTrim.BOTH)
                 .setValue(FACING, NORTH)
                 .setValue(TYPE, ArchShape.STRAIGHT)

@@ -471,9 +471,9 @@ public class ModBlocks {
             BlockProps.PLANK_NO_OC.get(), CaliberBlockHelper.modifyList(ROOF_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
 
     public static final BlockManager THATCH = BlockManager.register("thatch",
-            BlockProps.GRASS.get(), CaliberBlockHelper.modifyList(ROOF_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+            BlockProps.GRASS.get().noOcclusion(), CaliberBlockHelper.modifyList(ROOF_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
     public static final BlockManager SLATE_TILE = BlockManager.register("slate_tile",
-            BlockProps.DEEPSLATE.get(), CaliberBlockHelper.modifyList(ROOF_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+            BlockProps.DEEPSLATE.get().noOcclusion(), CaliberBlockHelper.modifyList(ROOF_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
 //    public static final BlockManager CLAY_TILE = BlockManager.register("clay_tile",
 //            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(ROOF_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
 

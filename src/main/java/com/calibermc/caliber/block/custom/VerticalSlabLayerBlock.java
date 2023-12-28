@@ -1,13 +1,8 @@
 package com.calibermc.caliber.block.custom;
 
-import com.calibermc.caliber.block.shapes.SlabLayerShape;
-import com.calibermc.caliber.block.shapes.VerticalSlabShape;
-import com.google.common.collect.ImmutableMap;
-import com.google.common.collect.Maps;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.tags.FluidTags;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.LevelAccessor;
@@ -29,10 +24,9 @@ import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
 import javax.annotation.Nullable;
-import java.util.Map;
+
 
 import static com.calibermc.caliber.util.ModBlockStateProperties.isSide;
-
 
 public class VerticalSlabLayerBlock extends Block implements SimpleWaterloggedBlock {
 
@@ -42,44 +36,44 @@ public class VerticalSlabLayerBlock extends Block implements SimpleWaterloggedBl
     public final int layerCount = 8;
 
     public static final VoxelShape[] SHAPE_NORTH = new VoxelShape[]{Shapes.empty(),
-            Block.box(0.0D, 0.0D, 14.0D, 16.0D, 16.0D, 16.0D),
-            Block.box(0.0D, 0.0D, 12.0D, 16.0D, 16.0D, 16.0D),
-            Block.box(0.0D, 0.0D, 10.0D, 16.0D, 16.0D, 16.0D),
-            Block.box(0.0D, 0.0D, 8.0D, 16.0D, 16.0D, 16.0D),
-            Block.box(0.0D, 0.0D, 6.0D, 16.0D, 16.0D, 16.0D),
-            Block.box(0.0D, 0.0D, 4.0D, 16.0D, 16.0D, 16.0D),
-            Block.box(0.0D, 0.0D, 2.0D, 16.0D, 16.0D, 16.0D),
-            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D)};
+            Block.box(0, 0, 14, 16, 16, 16),
+            Block.box(0, 0, 12, 16, 16, 16),
+            Block.box(0, 0, 10, 16, 16, 16),
+            Block.box(0, 0, 8, 16, 16, 16),
+            Block.box(0, 0, 6, 16, 16, 16),
+            Block.box(0, 0, 4, 16, 16, 16),
+            Block.box(0, 0, 2, 16, 16, 16),
+            Block.box(0, 0, 0, 16, 16, 16)};
 
     public static final VoxelShape[] SHAPE_EAST = new VoxelShape[]{Shapes.empty(),
-            Block.box(0.0D, 0.0D, 0.0D, 2.0D, 16.0D, 16.0D),
-            Block.box(0.0D, 0.0D, 0.0D, 4.0D, 16.0D, 16.0D),
-            Block.box(0.0D, 0.0D, 0.0D, 6.0D, 16.0D, 16.0D),
-            Block.box(0.0D, 0.0D, 0.0D, 8.0D, 16.0D, 16.0D),
-            Block.box(0.0D, 0.0D, 0.0D, 10.0D, 16.0D, 16.0D),
-            Block.box(0.0D, 0.0D, 0.0D, 12.0D, 16.0D, 16.0D),
-            Block.box(0.0D, 0.0D, 0.0D, 14.0D, 16.0D, 16.0D),
-            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D)};
+            Block.box(0, 0, 0, 2, 16, 16),
+            Block.box(0, 0, 0, 4, 16, 16),
+            Block.box(0, 0, 0, 6, 16, 16),
+            Block.box(0, 0, 0, 8, 16, 16),
+            Block.box(0, 0, 0, 10, 16, 16),
+            Block.box(0, 0, 0, 12, 16, 16),
+            Block.box(0, 0, 0, 14, 16, 16),
+            Block.box(0, 0, 0, 16, 16, 16)};
 
     public static final VoxelShape[] SHAPE_SOUTH = new VoxelShape[]{Shapes.empty(),
-            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 2.0D),
-            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 4.0D),
-            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 6.0D),
-            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 8.0D),
-            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 10.0D),
-            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 12.0D),
-            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 14.0D),
-            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D)};
+            Block.box(0, 0, 0, 16, 16, 2),
+            Block.box(0, 0, 0, 16, 16, 4),
+            Block.box(0, 0, 0, 16, 16, 6),
+            Block.box(0, 0, 0, 16, 16, 8),
+            Block.box(0, 0, 0, 16, 16, 10),
+            Block.box(0, 0, 0, 16, 16, 12),
+            Block.box(0, 0, 0, 16, 16, 14),
+            Block.box(0, 0, 0, 16, 16, 16)};
 
     public static final VoxelShape[] SHAPE_WEST = new VoxelShape[]{Shapes.empty(),
-            Block.box(14.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D),
-            Block.box(12.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D),
-            Block.box(10.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D),
-            Block.box(8.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D),
-            Block.box(6.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D),
-            Block.box(4.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D),
-            Block.box(2.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D),
-            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D)};
+            Block.box(14, 0, 0, 16, 16, 16),
+            Block.box(12, 0, 0, 16, 16, 16),
+            Block.box(10, 0, 0, 16, 16, 16),
+            Block.box(8, 0, 0, 16, 16, 16),
+            Block.box(6, 0, 0, 16, 16, 16),
+            Block.box(4, 0, 0, 16, 16, 16),
+            Block.box(2, 0, 0, 16, 16, 16),
+            Block.box(0, 0, 0, 16, 16, 16)};
 
     public VerticalSlabLayerBlock(Properties properties) {
         super(properties);
@@ -133,11 +127,6 @@ public class VerticalSlabLayerBlock extends Block implements SimpleWaterloggedBl
         }
     }
 
-//    @Override
-//    public boolean canBeReplaced(BlockState state, BlockPlaceContext pContext) {
-//        int i = state.getValue(LAYERS);
-//        return (pContext.getItemInHand().getItem() == this.asItem() && i < layerCount) && pContext.replacingClickedOnBlock();
-//    }
 
     @Override
     public boolean canBeReplaced(BlockState state, BlockPlaceContext pContext) {

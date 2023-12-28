@@ -227,8 +227,14 @@ Added Bronze Armor and Tools
 - Added Stained Planks Recipes
 - Added Roofing Recipes
 
-- 0.0.29 (in progress)
+- 0.0.29
 - BugFix: fixed grass_stems not dropping from grass
 - Removed Buildify Features from Caliber-Mod to add greater mod compatibility for Block Picker feature, added as a dependency/library for Caliber-Mod
 
+-0.0.30 (in progress)
+- Lots of code cleanup
+- Bugfix: fixed crash when Pillar Blocks reach 5 layers and were clicked again
+- Bugfix: fixed hitbox not matching blockstate for E and S facing Vertical Quarter Blocks
+- Bugfix: fixed visual glitch with Arrowslit Blocks
+-
 

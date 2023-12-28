@@ -88,7 +88,7 @@ public class QuarterLayerBlock extends Block implements SimpleWaterloggedBlock {
 
     public QuarterLayerBlock(Properties properties) {
         super(properties);
-        this.registerDefaultState(this.stateDefinition.any() // ? this.defaultBlockState()
+        this.registerDefaultState(this.stateDefinition.any()
                 .setValue(LAYERS, 3)
                 .setValue(FACING, Direction.NORTH)
                 .setValue(TYPE, QuarterLayerShape.BOTTOM)

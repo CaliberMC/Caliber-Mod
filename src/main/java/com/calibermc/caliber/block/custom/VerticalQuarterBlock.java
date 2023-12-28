@@ -50,7 +50,7 @@ public class VerticalQuarterBlock extends Block implements SimpleWaterloggedBloc
 
     public VerticalQuarterBlock(Properties properties) {
         super(properties);
-        this.registerDefaultState(this.stateDefinition.any() // ? this.defaultBlockState()
+        this.registerDefaultState(this.stateDefinition.any()
                 .setValue(FACING, NORTH)
                 .setValue(TYPE, VerticalQuarterShape.RIGHT)
                 .setValue(WATERLOGGED, Boolean.FALSE));

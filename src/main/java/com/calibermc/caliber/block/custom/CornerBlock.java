@@ -34,7 +34,6 @@ import java.util.Map;
 import static net.minecraft.core.Direction.*;
 import static net.minecraft.core.Direction.WEST;
 
-
 public class CornerBlock extends Block implements SimpleWaterloggedBlock {
 
     public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;

@@ -34,7 +34,7 @@ public class CapitalBlock  extends Block implements SimpleWaterloggedBlock {
 
     public CapitalBlock(Properties properties) {
         super(properties);
-        this.registerDefaultState(this.stateDefinition.any() // ? this.defaultBlockState()
+        this.registerDefaultState(this.stateDefinition.any()
                 .setValue(TYPE, CapitalShape.BOTTOM)
                 .setValue(WATERLOGGED, Boolean.FALSE));
     }

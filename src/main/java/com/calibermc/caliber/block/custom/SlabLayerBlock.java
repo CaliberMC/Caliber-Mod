@@ -31,28 +31,28 @@ public class SlabLayerBlock extends Block implements SimpleWaterloggedBlock {
     public final int layerCount = 8;
 
     public static final VoxelShape[] SHAPE_BY_LAYER = new VoxelShape[]{Shapes.empty(),
-            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 2.0D, 16.0D),
-            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 4.0D, 16.0D),
-            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 6.0D, 16.0D),
-            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 8.0D, 16.0D),
-            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 10.0D, 16.0D),
-            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 12.0D, 16.0D),
-            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 14.0D, 16.0D),
-            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D)};
+            Block.box(0, 0, 0, 16, 2, 16),
+            Block.box(0, 0, 0, 16, 4, 16),
+            Block.box(0, 0, 0, 16, 6, 16),
+            Block.box(0, 0, 0, 16, 8, 16),
+            Block.box(0, 0, 0, 16, 10, 16),
+            Block.box(0, 0, 0, 16, 12, 16),
+            Block.box(0, 0, 0, 16, 14, 16),
+            Block.box(0, 0, 0, 16, 16, 16)};
 
     public static final VoxelShape[] SHAPE_BY_LAYER_TOP = new VoxelShape[]{Shapes.empty(),
-            Block.box(0.0D, 14.0D, 0.0D, 16.0D, 16.0D, 16.0D),
-            Block.box(0.0D, 12.0D, 0.0D, 16.0D, 16.0D, 16.0D),
-            Block.box(0.0D, 10.0D, 0.0D, 16.0D, 16.0D, 16.0D),
-            Block.box(0.0D, 8.0D, 0.0D, 16.0D, 16.0D, 16.0D),
-            Block.box(0.0D, 6.0D, 0.0D, 16.0D, 16.0D, 16.0D),
-            Block.box(0.0D, 4.0D, 0.0D, 16.0D, 16.0D, 16.0D),
-            Block.box(0.0D, 2.0D, 0.0D, 16.0D, 16.0D, 16.0D),
-            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D),};
+            Block.box(0, 14, 0, 16, 16, 16),
+            Block.box(0, 12, 0, 16, 16, 16),
+            Block.box(0, 10, 0, 16, 16, 16),
+            Block.box(0, 8, 0, 16, 16, 16),
+            Block.box(0, 6, 0, 16, 16, 16),
+            Block.box(0, 4, 0, 16, 16, 16),
+            Block.box(0, 2, 0, 16, 16, 16),
+            Block.box(0, 0, 0, 16, 16, 16),};
 
     public SlabLayerBlock(Properties properties) {
         super(properties);
-        this.registerDefaultState(this.stateDefinition.any() // ? this.defaultBlockState()
+        this.registerDefaultState(this.stateDefinition.any()
                 .setValue(LAYERS, 4)
                 .setValue(TYPE, SlabLayerShape.BOTTOM)
                 .setValue (WATERLOGGED, Boolean.FALSE));

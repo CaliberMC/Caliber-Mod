@@ -1,10 +1,7 @@
 package com.calibermc.caliber.block.custom;
 
-import com.calibermc.caliber.block.shapes.*;
 import com.calibermc.caliber.block.shapes.RoofShape;
 import com.calibermc.caliber.util.ModBlockStateProperties;
-import com.google.common.collect.ImmutableMap;
-import com.google.common.collect.Maps;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.tags.FluidTags;
@@ -28,8 +25,6 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 
 import javax.annotation.Nullable;
 
-
-
 public class Roof22Block extends Block implements SimpleWaterloggedBlock {
 
     public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
@@ -41,7 +36,7 @@ public class Roof22Block extends Block implements SimpleWaterloggedBlock {
     protected static final VoxelShape TOP_SHAPE = Block.box(0, .01, 0, 16, 16, 16);
     public Roof22Block(Properties properties) {
         super(properties);
-        this.registerDefaultState(this.defaultBlockState()
+        this.registerDefaultState(this.stateDefinition.any()
                 .setValue(FACING, Direction.NORTH)
                 .setValue(TYPE, RoofShape.STRAIGHT)
                 .setValue(HALF, Half.BOTTOM) 

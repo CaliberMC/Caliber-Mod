@@ -18,17 +18,11 @@ import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.level.pathfinder.PathComputationType;
-import net.minecraft.world.phys.shapes.BooleanOp;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
 import javax.annotation.Nullable;
-
-import java.util.stream.Stream;
-
-import static com.calibermc.caliber.util.ModBlockStateProperties.isSide;
-
 
 public class BeamLintelBlock extends Block implements SimpleWaterloggedBlock {
 

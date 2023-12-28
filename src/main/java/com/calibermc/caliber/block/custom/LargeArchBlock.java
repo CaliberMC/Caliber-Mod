@@ -1,8 +1,6 @@
 package com.calibermc.caliber.block.custom;
 
 import com.calibermc.caliber.block.shapes.*;
-import com.calibermc.caliber.block.shapes.LeftRightShape;
-import com.calibermc.caliber.block.shapes.trim.ArchTrim;
 import com.calibermc.caliber.block.shapes.trim.LargeArchTrim;
 import com.calibermc.caliber.util.ModBlockStateProperties;
 import com.google.common.collect.ImmutableMap;
@@ -10,10 +8,8 @@ import com.google.common.collect.Maps;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.tags.FluidTags;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockState;
@@ -27,13 +23,11 @@ import net.minecraft.world.phys.shapes.BooleanOp;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
-import org.jetbrains.annotations.NotNull;
 
 import javax.annotation.Nullable;
 import java.util.Map;
 import java.util.stream.Stream;
 
-import static com.calibermc.caliber.block.shapes.LeftRightShape.*;
 import static net.minecraft.core.Direction.*;
 
 public class LargeArchBlock extends HorizontalDirectionalBlock implements SimpleWaterloggedBlock {

@@ -7,7 +7,6 @@ import com.google.common.collect.Maps;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.tags.FluidTags;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.LevelAccessor;
@@ -65,7 +64,7 @@ public class EighthBlock extends Block implements SimpleWaterloggedBlock {
 
     public EighthBlock(Properties properties) {
         super(properties);
-        this.registerDefaultState(this.stateDefinition.any() // ? this.defaultBlockState()
+        this.registerDefaultState(this.stateDefinition.any()
                 .setValue(FACING, NORTH)
                 .setValue(TYPE, EighthShape.RIGHT)
                 .setValue(WATERLOGGED, Boolean.FALSE));
@@ -85,7 +84,7 @@ public class EighthBlock extends Block implements SimpleWaterloggedBlock {
     public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
         EighthShape eighthShape = pState.getValue(TYPE);
         switch (eighthShape) {
-            case TOP_RIGHT -> { // TOP
+            case TOP_RIGHT -> {
                 return TOP_RIGHT_SHAPE.get(pState.getValue(FACING));
             }
             case TOP_LEFT -> {
@@ -96,8 +95,6 @@ public class EighthBlock extends Block implements SimpleWaterloggedBlock {
             }
             default -> {
                 return RIGHT_SHAPE.get(pState.getValue(FACING));
-
-                // TODO: MAKE ADDITIONAL STATES FOR SLABS, VERT SLABS, CORNERS AND FULL BLOCKS
             }
         }
     }

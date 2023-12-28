@@ -1,154 +1,154 @@
 {
   "variants": {
     "facing=north,half=top,type=straight": {
-      "model": "caliber:block/stained_birch_shingle_roof_22",
+      "model": "caliber:block/stained_birch_shingle_roof_22_top",
       "y": 270
     },
     "facing=south,half=top,type=straight": {
-      "model": "caliber:block/stained_birch_shingle_roof_22",
+      "model": "caliber:block/stained_birch_shingle_roof_22_top",
       "y": 90
     },
     "facing=west,half=top,type=straight": {
-      "model": "caliber:block/stained_birch_shingle_roof_22",
+      "model": "caliber:block/stained_birch_shingle_roof_22_top",
       "y": 180
     },
     "facing=east,half=top,type=straight": {
-      "model": "caliber:block/stained_birch_shingle_roof_22"
+      "model": "caliber:block/stained_birch_shingle_roof_22_top"
     },
     "facing=north,half=bottom,type=straight": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_top",
+      "model": "caliber:block/stained_birch_shingle_roof_22",
       "y": 270
     },
     "facing=south,half=bottom,type=straight": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_top",
+      "model": "caliber:block/stained_birch_shingle_roof_22",
       "y": 90
     },
     "facing=west,half=bottom,type=straight": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_top",
+      "model": "caliber:block/stained_birch_shingle_roof_22",
       "y": 180
     },
     "facing=east,half=bottom,type=straight": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_top"
+      "model": "caliber:block/stained_birch_shingle_roof_22"
     },
     "facing=north,half=top,type=outer_left": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_outer",
+      "model": "caliber:block/stained_birch_shingle_roof_22_top_outer",
       "y": 180
     },
     "facing=south,half=top,type=outer_left": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_outer"
+      "model": "caliber:block/stained_birch_shingle_roof_22_top_outer"
     },
     "facing=west,half=top,type=outer_left": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_outer",
+      "model": "caliber:block/stained_birch_shingle_roof_22_top_outer",
       "y": 90
     },
     "facing=east,half=top,type=outer_left": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_outer",
+      "model": "caliber:block/stained_birch_shingle_roof_22_top_outer",
       "y": 270
     },
     "facing=north,half=bottom,type=outer_left": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_top_outer",
+      "model": "caliber:block/stained_birch_shingle_roof_22_outer",
       "y": 180
     },
     "facing=south,half=bottom,type=outer_left": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_top_outer"
+      "model": "caliber:block/stained_birch_shingle_roof_22_outer"
     },
     "facing=west,half=bottom,type=outer_left": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_top_outer",
+      "model": "caliber:block/stained_birch_shingle_roof_22_outer",
       "y": 90
     },
     "facing=east,half=bottom,type=outer_left": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_top_outer",
+      "model": "caliber:block/stained_birch_shingle_roof_22_outer",
       "y": 270
     },
     "facing=north,half=top,type=outer_right": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_outer",
+      "model": "caliber:block/stained_birch_shingle_roof_22_top_outer",
       "y": 270
     },
     "facing=south,half=top,type=outer_right": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_outer",
+      "model": "caliber:block/stained_birch_shingle_roof_22_top_outer",
       "y": 90
     },
     "facing=west,half=top,type=outer_right": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_outer",
+      "model": "caliber:block/stained_birch_shingle_roof_22_top_outer",
       "y": 180
     },
     "facing=east,half=top,type=outer_right": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_outer"
+      "model": "caliber:block/stained_birch_shingle_roof_22_top_outer"
     },
     "facing=north,half=bottom,type=outer_right": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_top_outer",
+      "model": "caliber:block/stained_birch_shingle_roof_22_outer",
       "y": 270
     },
     "facing=south,half=bottom,type=outer_right": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_top_outer",
+      "model": "caliber:block/stained_birch_shingle_roof_22_outer",
       "y": 90
     },
     "facing=west,half=bottom,type=outer_right": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_top_outer",
+      "model": "caliber:block/stained_birch_shingle_roof_22_outer",
       "y": 180
     },
     "facing=east,half=bottom,type=outer_right": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_top_outer"
+      "model": "caliber:block/stained_birch_shingle_roof_22_outer"
     },
     "facing=north,half=top,type=inner_left": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_inner",
+      "model": "caliber:block/stained_birch_shingle_roof_22_top_inner",
       "y": 180
     },
     "facing=south,half=top,type=inner_left": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_inner"
+      "model": "caliber:block/stained_birch_shingle_roof_22_top_inner"
     },
     "facing=west,half=top,type=inner_left": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_inner",
+      "model": "caliber:block/stained_birch_shingle_roof_22_top_inner",
       "y": 90
     },
     "facing=east,half=top,type=inner_left": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_inner",
+      "model": "caliber:block/stained_birch_shingle_roof_22_top_inner",
       "y": 270
     },
     "facing=north,half=bottom,type=inner_left": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_top_inner",
+      "model": "caliber:block/stained_birch_shingle_roof_22_inner",
       "y": 180
     },
     "facing=south,half=bottom,type=inner_left": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_top_inner"
+      "model": "caliber:block/stained_birch_shingle_roof_22_inner"
     },
     "facing=west,half=bottom,type=inner_left": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_top_inner",
+      "model": "caliber:block/stained_birch_shingle_roof_22_inner",
       "y": 90
     },
     "facing=east,half=bottom,type=inner_left": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_top_inner",
+      "model": "caliber:block/stained_birch_shingle_roof_22_inner",
       "y": 270
     },
     "facing=north,half=top,type=inner_right": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_inner",
+      "model": "caliber:block/stained_birch_shingle_roof_22_top_inner",
       "y": 270
     },
     "facing=south,half=top,type=inner_right": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_inner",
+      "model": "caliber:block/stained_birch_shingle_roof_22_top_inner",
       "y": 90
     },
     "facing=west,half=top,type=inner_right": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_inner",
+      "model": "caliber:block/stained_birch_shingle_roof_22_top_inner",
       "y": 180
     },
     "facing=east,half=top,type=inner_right": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_inner"
+      "model": "caliber:block/stained_birch_shingle_roof_22_top_inner"
     },
     "facing=north,half=bottom,type=inner_right": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_top_inner",
+      "model": "caliber:block/stained_birch_shingle_roof_22_inner",
       "y": 270
     },
     "facing=south,half=bottom,type=inner_right": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_top_inner",
+      "model": "caliber:block/stained_birch_shingle_roof_22_inner",
       "y": 90
     },
     "facing=west,half=bottom,type=inner_right": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_top_inner",
+      "model": "caliber:block/stained_birch_shingle_roof_22_inner",
       "y": 180
     },
     "facing=east,half=bottom,type=inner_right": {
-      "model": "caliber:block/stained_birch_shingle_roof_22_top_inner"
+      "model": "caliber:block/stained_birch_shingle_roof_22_inner"
     }
   }
 }

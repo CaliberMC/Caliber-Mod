@@ -29,7 +29,6 @@ import javax.annotation.Nullable;
 
 import static com.calibermc.caliber.util.ModBlockStateProperties.isSide;
 
-
 public class DoorFrameBlock extends Block implements SimpleWaterloggedBlock {
 
     public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;

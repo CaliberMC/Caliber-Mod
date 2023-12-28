@@ -1,14 +1,10 @@
 package com.calibermc.caliber.block.custom;
 
-import com.calibermc.caliber.block.shapes.CornerShape;
 import com.calibermc.caliber.block.shapes.LeftRightShape;
 import com.calibermc.caliber.util.ModBlockStateProperties;
-import com.google.common.collect.ImmutableMap;
-import com.google.common.collect.Maps;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.tags.FluidTags;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.LevelAccessor;
@@ -22,13 +18,11 @@ import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.level.pathfinder.PathComputationType;
-import net.minecraft.world.phys.shapes.BooleanOp;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
 import javax.annotation.Nullable;
-import java.util.Map;
 
 import static com.calibermc.caliber.util.ModBlockStateProperties.isSide;
 import static net.minecraft.core.Direction.*;
@@ -46,29 +40,29 @@ public class VerticalQuarterLayerBlock extends Block implements SimpleWaterlogge
             Block.box(12, 0, 12, 16, 16, 16),
             Block.box(8, 0, 8, 16, 16, 16),
             Block.box(4, 0, 4, 16, 16, 16),
-            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D)};
+            Block.box(0, 0, 0, 16, 16, 16)};
     public static final VoxelShape[] LEFT_EAST_RIGHT_NORTH = new VoxelShape[]{Shapes.empty(),
             Block.box(0, 0, 14, 2, 16, 16),
             Block.box(0, 0, 12, 4, 16, 16),
             Block.box(0, 0, 8, 8, 16, 16),
             Block.box(0, 0, 4, 12, 16, 16),
-            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D)};
+            Block.box(0, 0, 0, 16, 16, 16)};
     public static final VoxelShape[] LEFT_SOUTH_RIGHT_EAST = new VoxelShape[]{Shapes.empty(),
             Block.box(0, 0, 0, 2, 16, 2),
             Block.box(0, 0, 0, 4, 16, 4),
             Block.box(0, 0, 0, 8, 16, 8),
-            Block.box(0, 0, 4, 12, 16, 16),
-            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D)};
+            Block.box(0, 0, 0, 12, 16, 12),
+            Block.box(0, 0, 0, 16, 16, 16)};
     public static final VoxelShape[] LEFT_WEST_RIGHT_SOUTH = new VoxelShape[]{Shapes.empty(),
             Block.box(14, 0, 0, 16, 16, 2),
             Block.box(12, 0, 0, 16, 16, 4),
             Block.box(8, 0, 0, 16, 16, 8),
             Block.box(4, 0, 0, 16, 16, 12),
-            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D)};
+            Block.box(0, 0, 0, 16, 16, 16)};
 
     public VerticalQuarterLayerBlock(Properties properties) {
         super(properties);
-        this.registerDefaultState(this.stateDefinition.any() // ? this.defaultBlockState()
+        this.registerDefaultState(this.stateDefinition.any()
                 .setValue(LAYERS, 1)
                 .setValue(FACING, NORTH)
                 .setValue(TYPE, LeftRightShape.RIGHT)

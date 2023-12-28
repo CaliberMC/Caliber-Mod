@@ -29,7 +29,6 @@ import javax.annotation.Nullable;
 public class RoofPeakBlock extends HorizontalDirectionalBlock implements SimpleWaterloggedBlock {
 
 //    public static final EnumProperty<RoofPitch> PITCH = ModBlockStateProperties.ROOF_PITCH;
-
     public static final EnumProperty<Half> HALF = BlockStateProperties.HALF;
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
     public static final EnumProperty<RoofPeakShape> TYPE = ModBlockStateProperties.INTERSECTION_SHAPE;
@@ -39,7 +38,7 @@ public class RoofPeakBlock extends HorizontalDirectionalBlock implements SimpleW
 
     public RoofPeakBlock(Properties properties) {
         super(properties);
-        this.registerDefaultState(this.defaultBlockState() // this.stateDefinition.any()
+        this.registerDefaultState(this.stateDefinition.any()
 //                .setValue(PITCH, RoofPitch.PITCH_45)
                 .setValue(FACING, Direction.NORTH)
                 .setValue(TYPE, RoofPeakShape.STRAIGHT)

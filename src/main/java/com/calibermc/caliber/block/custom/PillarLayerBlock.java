@@ -33,7 +33,7 @@ public class PillarLayerBlock extends Block implements SimpleWaterloggedBlock {
     public static final EnumProperty<SlabLayerShape> TYPE = ModBlockStateProperties.SLAB_LAYER_SHAPE;
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
     public static final IntegerProperty LAYERS = ModBlockStateProperties.FIVE_LAYERS;
-    public final int layerCount = 8;
+    public final int layerCount = 5;
 
     public static final VoxelShape[] SHAPE_BY_LAYER = new VoxelShape[]{Shapes.empty(),
             Block.box(7, 0, 7, 9, 16, 9),
@@ -82,9 +82,11 @@ public class PillarLayerBlock extends Block implements SimpleWaterloggedBlock {
         BlockPos blockpos = pContext.getClickedPos();
         BlockState blockstate = pContext.getLevel().getBlockState(blockpos);
         FluidState fluidstate = pContext.getLevel().getFluidState(blockpos);
-        if (blockstate.is(this)) {
+        Direction clickedFace = pContext.getClickedFace();
+        if (blockstate.is(this) && clickedFace != Direction.UP && clickedFace != Direction.DOWN) {
             int i = blockstate.getValue(LAYERS);
             int newCount = Math.min(layerCount, i + 1);
+
             return blockstate.setValue(LAYERS, Integer.valueOf(newCount)).
                     setValue(WATERLOGGED, Boolean.valueOf((newCount < layerCount) && fluidstate.is(FluidTags.WATER)));
         }

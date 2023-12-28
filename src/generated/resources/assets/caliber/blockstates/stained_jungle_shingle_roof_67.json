@@ -1,154 +1,154 @@
 {
   "variants": {
     "facing=north,half=top,type=straight": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67",
+      "model": "caliber:block/stained_jungle_shingle_roof_67_top",
       "y": 270
     },
     "facing=south,half=top,type=straight": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67",
+      "model": "caliber:block/stained_jungle_shingle_roof_67_top",
       "y": 90
     },
     "facing=west,half=top,type=straight": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67",
+      "model": "caliber:block/stained_jungle_shingle_roof_67_top",
       "y": 180
     },
     "facing=east,half=top,type=straight": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67"
+      "model": "caliber:block/stained_jungle_shingle_roof_67_top"
     },
     "facing=north,half=bottom,type=straight": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_top",
+      "model": "caliber:block/stained_jungle_shingle_roof_67",
       "y": 270
     },
     "facing=south,half=bottom,type=straight": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_top",
+      "model": "caliber:block/stained_jungle_shingle_roof_67",
       "y": 90
     },
     "facing=west,half=bottom,type=straight": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_top",
+      "model": "caliber:block/stained_jungle_shingle_roof_67",
       "y": 180
     },
     "facing=east,half=bottom,type=straight": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_top"
+      "model": "caliber:block/stained_jungle_shingle_roof_67"
     },
     "facing=north,half=top,type=outer_left": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_outer",
+      "model": "caliber:block/stained_jungle_shingle_roof_67_top_outer",
       "y": 180
     },
     "facing=south,half=top,type=outer_left": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_outer"
+      "model": "caliber:block/stained_jungle_shingle_roof_67_top_outer"
     },
     "facing=west,half=top,type=outer_left": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_outer",
+      "model": "caliber:block/stained_jungle_shingle_roof_67_top_outer",
       "y": 90
     },
     "facing=east,half=top,type=outer_left": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_outer",
+      "model": "caliber:block/stained_jungle_shingle_roof_67_top_outer",
       "y": 270
     },
     "facing=north,half=bottom,type=outer_left": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_top_outer",
+      "model": "caliber:block/stained_jungle_shingle_roof_67_outer",
       "y": 180
     },
     "facing=south,half=bottom,type=outer_left": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_top_outer"
+      "model": "caliber:block/stained_jungle_shingle_roof_67_outer"
     },
     "facing=west,half=bottom,type=outer_left": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_top_outer",
+      "model": "caliber:block/stained_jungle_shingle_roof_67_outer",
       "y": 90
     },
     "facing=east,half=bottom,type=outer_left": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_top_outer",
+      "model": "caliber:block/stained_jungle_shingle_roof_67_outer",
       "y": 270
     },
     "facing=north,half=top,type=outer_right": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_outer",
+      "model": "caliber:block/stained_jungle_shingle_roof_67_top_outer",
       "y": 270
     },
     "facing=south,half=top,type=outer_right": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_outer",
+      "model": "caliber:block/stained_jungle_shingle_roof_67_top_outer",
       "y": 90
     },
     "facing=west,half=top,type=outer_right": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_outer",
+      "model": "caliber:block/stained_jungle_shingle_roof_67_top_outer",
       "y": 180
     },
     "facing=east,half=top,type=outer_right": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_outer"
+      "model": "caliber:block/stained_jungle_shingle_roof_67_top_outer"
     },
     "facing=north,half=bottom,type=outer_right": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_top_outer",
+      "model": "caliber:block/stained_jungle_shingle_roof_67_outer",
       "y": 270
     },
     "facing=south,half=bottom,type=outer_right": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_top_outer",
+      "model": "caliber:block/stained_jungle_shingle_roof_67_outer",
       "y": 90
     },
     "facing=west,half=bottom,type=outer_right": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_top_outer",
+      "model": "caliber:block/stained_jungle_shingle_roof_67_outer",
       "y": 180
     },
     "facing=east,half=bottom,type=outer_right": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_top_outer"
+      "model": "caliber:block/stained_jungle_shingle_roof_67_outer"
     },
     "facing=north,half=top,type=inner_left": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_inner",
+      "model": "caliber:block/stained_jungle_shingle_roof_67_top_inner",
       "y": 180
     },
     "facing=south,half=top,type=inner_left": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_inner"
+      "model": "caliber:block/stained_jungle_shingle_roof_67_top_inner"
     },
     "facing=west,half=top,type=inner_left": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_inner",
+      "model": "caliber:block/stained_jungle_shingle_roof_67_top_inner",
       "y": 90
     },
     "facing=east,half=top,type=inner_left": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_inner",
+      "model": "caliber:block/stained_jungle_shingle_roof_67_top_inner",
       "y": 270
     },
     "facing=north,half=bottom,type=inner_left": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_top_inner",
+      "model": "caliber:block/stained_jungle_shingle_roof_67_inner",
       "y": 180
     },
     "facing=south,half=bottom,type=inner_left": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_top_inner"
+      "model": "caliber:block/stained_jungle_shingle_roof_67_inner"
     },
     "facing=west,half=bottom,type=inner_left": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_top_inner",
+      "model": "caliber:block/stained_jungle_shingle_roof_67_inner",
       "y": 90
     },
     "facing=east,half=bottom,type=inner_left": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_top_inner",
+      "model": "caliber:block/stained_jungle_shingle_roof_67_inner",
       "y": 270
     },
     "facing=north,half=top,type=inner_right": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_inner",
+      "model": "caliber:block/stained_jungle_shingle_roof_67_top_inner",
       "y": 270
     },
     "facing=south,half=top,type=inner_right": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_inner",
+      "model": "caliber:block/stained_jungle_shingle_roof_67_top_inner",
       "y": 90
     },
     "facing=west,half=top,type=inner_right": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_inner",
+      "model": "caliber:block/stained_jungle_shingle_roof_67_top_inner",
       "y": 180
     },
     "facing=east,half=top,type=inner_right": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_inner"
+      "model": "caliber:block/stained_jungle_shingle_roof_67_top_inner"
     },
     "facing=north,half=bottom,type=inner_right": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_top_inner",
+      "model": "caliber:block/stained_jungle_shingle_roof_67_inner",
       "y": 270
     },
     "facing=south,half=bottom,type=inner_right": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_top_inner",
+      "model": "caliber:block/stained_jungle_shingle_roof_67_inner",
       "y": 90
     },
     "facing=west,half=bottom,type=inner_right": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_top_inner",
+      "model": "caliber:block/stained_jungle_shingle_roof_67_inner",
       "y": 180
     },
     "facing=east,half=bottom,type=inner_right": {
-      "model": "caliber:block/stained_jungle_shingle_roof_67_top_inner"
+      "model": "caliber:block/stained_jungle_shingle_roof_67_inner"
     }
   }
 }

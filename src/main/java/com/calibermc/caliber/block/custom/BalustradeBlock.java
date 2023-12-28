@@ -85,7 +85,7 @@ public class BalustradeBlock extends Block implements SimpleWaterloggedBlock {
 
     public BalustradeBlock(Properties properties) {
         super(properties);
-        this.registerDefaultState(this.defaultBlockState() // ? this.stateDefinition.any()
+        this.registerDefaultState(this.stateDefinition.any()
                 .setValue(FACING, NORTH)
                 .setValue(TYPE, BalustradeShape.SINGLE)
                 .setValue(WATERLOGGED, Boolean.FALSE));
