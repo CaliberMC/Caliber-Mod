@@ -240,6 +240,7 @@ Added Bronze Armor and Tools
 - Bugfix: fixed crash when placing another Vertical Quarter Tudor Block on top of an existing one
 - Bugfix: fixed hitbox not matching blockstate for E and S facing Vertical Quarter Blocks
 - Bugfix: fixed Tudor Block Vertical Quarter models appearing as Vertical Slabs
+- Bugfix: fixed placement issue with N facing Lintel Blocks appearing Top on Bottom and Bottom on Top.
 - Bugfix: fixed visual glitch with Arrowslit Blocks
 - Bugfix: fixed occulsion/shadows on 67 degree roof blocks (this is experimental and may be reworked in the future)
 
