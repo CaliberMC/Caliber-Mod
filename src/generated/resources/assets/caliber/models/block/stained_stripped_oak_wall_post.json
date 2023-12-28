@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_wall_post",
   "textures": {
-    "wall": "caliber:block/stained_stripped_oak"
+    "wall": "caliber:block/stained_stripped_oak_wood"
   }
 }

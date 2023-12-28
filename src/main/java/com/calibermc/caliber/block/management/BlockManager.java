@@ -36,16 +36,30 @@ public class BlockManager {
     private final String name;
     private final ImmutableMap<BlockAdditional, RegistryObject<Block>> blocks;
 
-    // TODO: Setup planks, wood, stem, hypae types
     BlockManager(String name, List<BlockAdditional> directions) {
         ImmutableMap.Builder<BlockAdditional, RegistryObject<Block>> builder = ImmutableMap.builder();
         for (BlockAdditional e : directions) {
-            if (e.variant != ModBlockFamily.Variant.BASE) {
-                builder.put(e, registerBlock("%s_%s".formatted(name, e.variant.name().toLowerCase()), e.blockSupplier));
+            String modifiedName;
+
+            if (name.contains("bricks")) {
+                modifiedName = name.replace("_bricks", "_brick");
+            } else if (name.contains("planks")) {
+                modifiedName = name.replace("_planks", "");
+            } else if (name.contains("wood")) {
+                modifiedName = name.replace("_wood", "");
+            } else if (name.contains("shingles")) {
+                modifiedName = name.replace("_shingles", "_shingle");
             } else {
-                builder.put(e, registerBlock(name + (name.endsWith("brick") ? "s" : "") , e.blockSupplier));
+                modifiedName = name;
+            }
+
+            if (e.variant != ModBlockFamily.Variant.BASE) {
+                builder.put(e, registerBlock("%s_%s".formatted(modifiedName, e.variant.name().toLowerCase()), e.blockSupplier));
+            } else {
+                builder.put(e, registerBlock(name , e.blockSupplier));
             }
         }
+
         this.blocks = builder.build();
         this.name = name;
         ALL_BLOCKS.addAll(this.blocks.values());

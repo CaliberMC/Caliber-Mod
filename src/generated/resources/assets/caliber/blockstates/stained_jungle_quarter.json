@@ -61,18 +61,18 @@
       "y": 90
     },
     "facing=north,layers=5,type=top": {
-      "model": "caliber:block/stained_jungle"
+      "model": "caliber:block/stained_jungle_planks"
     },
     "facing=south,layers=5,type=top": {
-      "model": "caliber:block/stained_jungle",
+      "model": "caliber:block/stained_jungle_planks",
       "y": 180
     },
     "facing=west,layers=5,type=top": {
-      "model": "caliber:block/stained_jungle",
+      "model": "caliber:block/stained_jungle_planks",
       "y": 270
     },
     "facing=east,layers=5,type=top": {
-      "model": "caliber:block/stained_jungle",
+      "model": "caliber:block/stained_jungle_planks",
       "y": 90
     },
     "facing=north,layers=1,type=bottom": {
@@ -136,18 +136,18 @@
       "y": 90
     },
     "facing=north,layers=5,type=bottom": {
-      "model": "caliber:block/stained_jungle"
+      "model": "caliber:block/stained_jungle_planks"
     },
     "facing=south,layers=5,type=bottom": {
-      "model": "caliber:block/stained_jungle",
+      "model": "caliber:block/stained_jungle_planks",
       "y": 180
     },
     "facing=west,layers=5,type=bottom": {
-      "model": "caliber:block/stained_jungle",
+      "model": "caliber:block/stained_jungle_planks",
       "y": 270
     },
     "facing=east,layers=5,type=bottom": {
-      "model": "caliber:block/stained_jungle",
+      "model": "caliber:block/stained_jungle_planks",
       "y": 90
     }
   }

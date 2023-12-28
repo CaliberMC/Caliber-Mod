@@ -1,8 +1,8 @@
 {
   "parent": "caliber:block/templates/roof_peak_cap_top",
   "textures": {
-    "side": "caliber:block/spruce_shingle",
-    "top": "caliber:block/spruce_shingle",
-    "bottom": "caliber:block/spruce_shingle"
+    "side": "caliber:block/spruce_shingles",
+    "top": "caliber:block/spruce_shingles",
+    "bottom": "caliber:block/spruce_shingles"
   }
 }

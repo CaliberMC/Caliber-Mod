@@ -1,7 +1,7 @@
 {
   "type": "caliber:woodcutting",
   "ingredient": {
-    "item": "caliber:stained_jungle_shingle"
+    "item": "caliber:stained_jungle_shingles"
   },
   "result": "caliber:stained_jungle_shingle_pillar",
   "count": 5

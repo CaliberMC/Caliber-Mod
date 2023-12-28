@@ -1,7 +1,7 @@
 {
   "type": "caliber:woodcutting",
   "ingredient": {
-    "item": "caliber:dark_oak_shingle"
+    "item": "caliber:dark_oak_shingles"
   },
   "result": "caliber:dark_oak_shingle_corner_slab_vertical",
   "count": 4

@@ -1,7 +1,7 @@
 {
   "type": "caliber:woodcutting",
   "ingredient": {
-    "item": "caliber:stained_acacia"
+    "item": "caliber:stained_acacia_planks"
   },
   "result": "caliber:stained_acacia_balustrade",
   "count": 2

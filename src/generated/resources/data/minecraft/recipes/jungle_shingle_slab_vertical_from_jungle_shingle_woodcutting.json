@@ -1,7 +1,7 @@
 {
   "type": "caliber:woodcutting",
   "ingredient": {
-    "item": "caliber:jungle_shingle"
+    "item": "caliber:jungle_shingles"
   },
   "result": "caliber:jungle_shingle_slab_vertical",
   "count": 8

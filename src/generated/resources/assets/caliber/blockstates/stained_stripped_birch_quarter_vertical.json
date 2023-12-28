@@ -61,16 +61,16 @@
       "y": 90
     },
     "facing=north,layers=5,type=right": {
-      "model": "caliber:block/stained_stripped_birch"
+      "model": "caliber:block/stained_stripped_birch_wood"
     },
     "facing=south,layers=5,type=right": {
-      "model": "caliber:block/stained_stripped_birch"
+      "model": "caliber:block/stained_stripped_birch_wood"
     },
     "facing=west,layers=5,type=right": {
-      "model": "caliber:block/stained_stripped_birch"
+      "model": "caliber:block/stained_stripped_birch_wood"
     },
     "facing=east,layers=5,type=right": {
-      "model": "caliber:block/stained_stripped_birch",
+      "model": "caliber:block/stained_stripped_birch_wood",
       "y": 90
     },
     "facing=north,layers=1,type=left": {
@@ -134,17 +134,17 @@
       "model": "caliber:block/stained_stripped_birch_quarter_vertical_layer_4"
     },
     "facing=north,layers=5,type=left": {
-      "model": "caliber:block/stained_stripped_birch",
+      "model": "caliber:block/stained_stripped_birch_wood",
       "y": 270
     },
     "facing=south,layers=5,type=left": {
-      "model": "caliber:block/stained_stripped_birch"
+      "model": "caliber:block/stained_stripped_birch_wood"
     },
     "facing=west,layers=5,type=left": {
-      "model": "caliber:block/stained_stripped_birch"
+      "model": "caliber:block/stained_stripped_birch_wood"
     },
     "facing=east,layers=5,type=left": {
-      "model": "caliber:block/stained_stripped_birch"
+      "model": "caliber:block/stained_stripped_birch_wood"
     }
   }
 }

@@ -127,18 +127,18 @@
       "uvlock": true
     },
     "facing=north,layers=8": {
-      "model": "caliber:block/dark_oak_shingle"
+      "model": "caliber:block/dark_oak_shingles"
     },
     "facing=south,layers=8": {
-      "model": "caliber:block/dark_oak_shingle",
+      "model": "caliber:block/dark_oak_shingles",
       "y": 180,
       "uvlock": true
     },
     "facing=west,layers=8": {
-      "model": "caliber:block/dark_oak_shingle"
+      "model": "caliber:block/dark_oak_shingles"
     },
     "facing=east,layers=8": {
-      "model": "caliber:block/dark_oak_shingle",
+      "model": "caliber:block/dark_oak_shingles",
       "y": 90,
       "uvlock": true
     }

@@ -1,7 +1,7 @@
 {
   "type": "caliber:woodcutting",
   "ingredient": {
-    "item": "caliber:acacia_shingle"
+    "item": "caliber:acacia_shingles"
   },
   "result": "caliber:acacia_shingle_corner",
   "count": 5

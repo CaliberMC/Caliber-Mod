@@ -36,7 +36,7 @@
       "uvlock": true
     },
     "layers=8,type=top": {
-      "model": "caliber:block/stained_birch_shingle"
+      "model": "caliber:block/stained_birch_shingles"
     },
     "layers=1,type=bottom": {
       "model": "caliber:block/stained_birch_shingle_slab_layer_1"
@@ -60,7 +60,7 @@
       "model": "caliber:block/stained_birch_shingle_slab_layer_7"
     },
     "layers=8,type=bottom": {
-      "model": "caliber:block/stained_birch_shingle"
+      "model": "caliber:block/stained_birch_shingles"
     }
   }
 }

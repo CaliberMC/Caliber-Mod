@@ -6,13 +6,13 @@
     ]
   },
   "criteria": {
-    "has_stained_jungle": {
+    "has_stained_jungle_wood": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "caliber:stained_jungle"
+              "caliber:stained_jungle_planks"
             ]
           }
         ]
@@ -27,7 +27,7 @@
   },
   "requirements": [
     [
-      "has_stained_jungle",
+      "has_stained_jungle_wood",
       "has_the_recipe"
     ]
   ]

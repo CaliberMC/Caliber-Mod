@@ -1,7 +1,7 @@
 {
   "type": "caliber:woodcutting",
   "ingredient": {
-    "item": "caliber:stained_oak"
+    "item": "caliber:stained_oak_planks"
   },
   "result": "caliber:stained_oak_window",
   "count": 2

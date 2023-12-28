@@ -1,7 +1,7 @@
 {
   "type": "caliber:woodcutting",
   "ingredient": {
-    "item": "caliber:spruce_shingle"
+    "item": "caliber:spruce_shingles"
   },
   "result": "caliber:spruce_shingle_quarter",
   "count": 5

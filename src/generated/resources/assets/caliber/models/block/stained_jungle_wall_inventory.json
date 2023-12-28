@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/wall_inventory",
   "textures": {
-    "wall": "caliber:block/stained_jungle"
+    "wall": "caliber:block/stained_jungle_planks"
   }
 }

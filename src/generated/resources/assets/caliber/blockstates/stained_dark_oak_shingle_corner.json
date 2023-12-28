@@ -73,22 +73,22 @@
       "model": "caliber:block/stained_dark_oak_shingle_corner_layer_4"
     },
     "facing=north,layers=5,type=left": {
-      "model": "caliber:block/stained_dark_oak_shingle",
+      "model": "caliber:block/stained_dark_oak_shingles",
       "y": 270,
       "uvlock": true
     },
     "facing=south,layers=5,type=left": {
-      "model": "caliber:block/stained_dark_oak_shingle",
+      "model": "caliber:block/stained_dark_oak_shingles",
       "y": 90,
       "uvlock": true
     },
     "facing=west,layers=5,type=left": {
-      "model": "caliber:block/stained_dark_oak_shingle",
+      "model": "caliber:block/stained_dark_oak_shingles",
       "y": 180,
       "uvlock": true
     },
     "facing=east,layers=5,type=left": {
-      "model": "caliber:block/stained_dark_oak_shingle"
+      "model": "caliber:block/stained_dark_oak_shingles"
     },
     "facing=north,layers=1,type=right": {
       "model": "caliber:block/stained_dark_oak_shingle_corner_layer_1"
@@ -163,20 +163,20 @@
       "uvlock": true
     },
     "facing=north,layers=5,type=right": {
-      "model": "caliber:block/stained_dark_oak_shingle"
+      "model": "caliber:block/stained_dark_oak_shingles"
     },
     "facing=south,layers=5,type=right": {
-      "model": "caliber:block/stained_dark_oak_shingle",
+      "model": "caliber:block/stained_dark_oak_shingles",
       "y": 180,
       "uvlock": true
     },
     "facing=west,layers=5,type=right": {
-      "model": "caliber:block/stained_dark_oak_shingle",
+      "model": "caliber:block/stained_dark_oak_shingles",
       "y": 270,
       "uvlock": true
     },
     "facing=east,layers=5,type=right": {
-      "model": "caliber:block/stained_dark_oak_shingle",
+      "model": "caliber:block/stained_dark_oak_shingles",
       "y": 90,
       "uvlock": true
     }

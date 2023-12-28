@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "caliber:stained_birch"
+      "item": "caliber:stained_birch_planks"
     }
   ],
   "result": {

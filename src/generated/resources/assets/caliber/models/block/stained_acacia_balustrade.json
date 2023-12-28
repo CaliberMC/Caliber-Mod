@@ -1,8 +1,8 @@
 {
   "parent": "caliber:block/templates/balustrade",
   "textures": {
-    "side": "caliber:block/stained_acacia",
-    "top": "caliber:block/stained_acacia",
-    "bottom": "caliber:block/stained_acacia"
+    "side": "caliber:block/stained_acacia_planks",
+    "top": "caliber:block/stained_acacia_planks",
+    "bottom": "caliber:block/stained_acacia_planks"
   }
 }

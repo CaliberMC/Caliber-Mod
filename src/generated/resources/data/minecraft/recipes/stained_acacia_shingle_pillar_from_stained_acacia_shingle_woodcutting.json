@@ -1,7 +1,7 @@
 {
   "type": "caliber:woodcutting",
   "ingredient": {
-    "item": "caliber:stained_acacia_shingle"
+    "item": "caliber:stained_acacia_shingles"
   },
   "result": "caliber:stained_acacia_shingle_pillar",
   "count": 5

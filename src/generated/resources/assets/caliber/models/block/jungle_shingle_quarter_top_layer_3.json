@@ -1,8 +1,8 @@
 {
   "parent": "caliber:block/templates/quarter_top_layer_3",
   "textures": {
-    "side": "caliber:block/jungle_shingle",
-    "top": "caliber:block/jungle_shingle",
-    "bottom": "caliber:block/jungle_shingle"
+    "side": "caliber:block/jungle_shingles",
+    "top": "caliber:block/jungle_shingles",
+    "bottom": "caliber:block/jungle_shingles"
   }
 }

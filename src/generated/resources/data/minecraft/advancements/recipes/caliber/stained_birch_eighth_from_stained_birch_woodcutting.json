@@ -6,13 +6,13 @@
     ]
   },
   "criteria": {
-    "has_stained_birch": {
+    "has_stained_birch_wood": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "caliber:stained_birch"
+              "caliber:stained_birch_planks"
             ]
           }
         ]
@@ -27,7 +27,7 @@
   },
   "requirements": [
     [
-      "has_stained_birch",
+      "has_stained_birch_wood",
       "has_the_recipe"
     ]
   ]

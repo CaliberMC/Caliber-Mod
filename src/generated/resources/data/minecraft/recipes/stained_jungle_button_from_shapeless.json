@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "caliber:stained_jungle"
+      "item": "caliber:stained_jungle_planks"
     }
   ],
   "result": {

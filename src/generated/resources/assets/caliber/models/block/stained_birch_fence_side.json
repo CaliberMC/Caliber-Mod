@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/fence_side",
   "textures": {
-    "texture": "caliber:block/stained_birch"
+    "texture": "caliber:block/stained_birch_planks"
   }
 }

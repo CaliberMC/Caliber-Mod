@@ -127,18 +127,18 @@
       "uvlock": true
     },
     "facing=north,layers=8": {
-      "model": "caliber:block/stained_acacia"
+      "model": "caliber:block/stained_acacia_planks"
     },
     "facing=south,layers=8": {
-      "model": "caliber:block/stained_acacia",
+      "model": "caliber:block/stained_acacia_planks",
       "y": 180,
       "uvlock": true
     },
     "facing=west,layers=8": {
-      "model": "caliber:block/stained_acacia"
+      "model": "caliber:block/stained_acacia_planks"
     },
     "facing=east,layers=8": {
-      "model": "caliber:block/stained_acacia",
+      "model": "caliber:block/stained_acacia_planks",
       "y": 90,
       "uvlock": true
     }

@@ -61,16 +61,16 @@
       "y": 90
     },
     "facing=north,layers=5,type=right": {
-      "model": "caliber:block/jungle_shingle"
+      "model": "caliber:block/jungle_shingles"
     },
     "facing=south,layers=5,type=right": {
-      "model": "caliber:block/jungle_shingle"
+      "model": "caliber:block/jungle_shingles"
     },
     "facing=west,layers=5,type=right": {
-      "model": "caliber:block/jungle_shingle"
+      "model": "caliber:block/jungle_shingles"
     },
     "facing=east,layers=5,type=right": {
-      "model": "caliber:block/jungle_shingle",
+      "model": "caliber:block/jungle_shingles",
       "y": 90
     },
     "facing=north,layers=1,type=left": {
@@ -134,17 +134,17 @@
       "model": "caliber:block/jungle_shingle_quarter_vertical_layer_4"
     },
     "facing=north,layers=5,type=left": {
-      "model": "caliber:block/jungle_shingle",
+      "model": "caliber:block/jungle_shingles",
       "y": 270
     },
     "facing=south,layers=5,type=left": {
-      "model": "caliber:block/jungle_shingle"
+      "model": "caliber:block/jungle_shingles"
     },
     "facing=west,layers=5,type=left": {
-      "model": "caliber:block/jungle_shingle"
+      "model": "caliber:block/jungle_shingles"
     },
     "facing=east,layers=5,type=left": {
-      "model": "caliber:block/jungle_shingle"
+      "model": "caliber:block/jungle_shingles"
     }
   }
 }

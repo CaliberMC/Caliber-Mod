@@ -1,7 +1,7 @@
 {
   "type": "caliber:woodcutting",
   "ingredient": {
-    "item": "caliber:stained_stripped_jungle"
+    "item": "caliber:stained_stripped_jungle_wood"
   },
   "result": "caliber:stained_stripped_jungle_quarter",
   "count": 5

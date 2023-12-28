@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/pressure_plate_down",
   "textures": {
-    "texture": "caliber:block/stained_spruce"
+    "texture": "caliber:block/stained_spruce_planks"
   }
 }

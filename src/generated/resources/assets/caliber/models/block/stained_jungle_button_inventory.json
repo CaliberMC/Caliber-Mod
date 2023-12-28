@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/button_inventory",
   "textures": {
-    "texture": "caliber:block/stained_jungle"
+    "texture": "caliber:block/stained_jungle_planks"
   }
 }

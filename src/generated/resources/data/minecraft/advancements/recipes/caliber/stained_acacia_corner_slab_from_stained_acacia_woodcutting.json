@@ -6,13 +6,13 @@
     ]
   },
   "criteria": {
-    "has_stained_acacia": {
+    "has_stained_acacia_wood": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "caliber:stained_acacia"
+              "caliber:stained_acacia_planks"
             ]
           }
         ]
@@ -27,7 +27,7 @@
   },
   "requirements": [
     [
-      "has_stained_acacia",
+      "has_stained_acacia_wood",
       "has_the_recipe"
     ]
   ]

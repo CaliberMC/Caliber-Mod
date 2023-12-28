@@ -36,7 +36,7 @@
       "uvlock": true
     },
     "layers=8,type=top": {
-      "model": "caliber:block/acacia_shingle"
+      "model": "caliber:block/acacia_shingles"
     },
     "layers=1,type=bottom": {
       "model": "caliber:block/acacia_shingle_slab_layer_1"
@@ -60,7 +60,7 @@
       "model": "caliber:block/acacia_shingle_slab_layer_7"
     },
     "layers=8,type=bottom": {
-      "model": "caliber:block/acacia_shingle"
+      "model": "caliber:block/acacia_shingles"
     }
   }
 }

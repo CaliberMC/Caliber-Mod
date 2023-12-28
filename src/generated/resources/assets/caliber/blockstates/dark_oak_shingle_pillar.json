@@ -13,7 +13,7 @@
       "model": "caliber:block/dark_oak_shingle_pillar_layer_4"
     },
     "layers=5": {
-      "model": "caliber:block/dark_oak_shingle"
+      "model": "caliber:block/dark_oak_shingles"
     }
   }
 }

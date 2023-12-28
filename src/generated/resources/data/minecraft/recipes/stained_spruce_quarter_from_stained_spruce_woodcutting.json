@@ -1,7 +1,7 @@
 {
   "type": "caliber:woodcutting",
   "ingredient": {
-    "item": "caliber:stained_spruce"
+    "item": "caliber:stained_spruce_planks"
   },
   "result": "caliber:stained_spruce_quarter",
   "count": 5

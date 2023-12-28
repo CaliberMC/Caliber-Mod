@@ -1,7 +1,7 @@
 {
   "type": "caliber:woodcutting",
   "ingredient": {
-    "item": "caliber:stained_birch_shingle"
+    "item": "caliber:stained_birch_shingles"
   },
   "result": "caliber:stained_birch_shingle_roof_67",
   "count": 2

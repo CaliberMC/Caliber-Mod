@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "caliber:stained_acacia"
+      "item": "caliber:stained_acacia_planks"
     }
   ],
   "result": {

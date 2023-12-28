@@ -233,6 +233,8 @@ Added Bronze Armor and Tools
 
 -0.0.30 (in progress)
 - Lots of code cleanup
+- Updated Stained Plank textures
+- Updated Naming Conventions for Stained Planks and Stained Stripped Wood and Shingle base blocks (this might break existing use of these blocks in the world, sorry)
 - Bugfix: fixed crash when placing modded Stair Blocks
 - Bugfix: fixed crash when Pillar Blocks reach 5 layers and were clicked again
 - Bugfix: fixed crash when placing another Vertical Quarter Tudor Block on top of an existing one

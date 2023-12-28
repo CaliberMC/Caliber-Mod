@@ -1,7 +1,7 @@
 {
   "type": "caliber:woodcutting",
   "ingredient": {
-    "item": "caliber:stained_stripped_birch"
+    "item": "caliber:stained_stripped_birch_wood"
   },
   "result": "caliber:stained_stripped_birch_corner_slab_vertical",
   "count": 4

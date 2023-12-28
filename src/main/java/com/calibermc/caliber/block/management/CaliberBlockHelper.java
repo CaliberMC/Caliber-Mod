@@ -340,12 +340,21 @@ public class CaliberBlockHelper {
     @SuppressWarnings("unchecked")
     public static <T extends Block> void fixBlockTex(Supplier<Block> textureFrom, RegistryObject<Block> b, ModBlockStateProvider provider, BlockGenLayerWithSides<T> genWithSides, BlockGenWithBaseBlock<T> gen) {
         ResourceLocation tex = provider.blockTexture(BlockManager.getMainBy(b, textureFrom));
-        if (tex.getPath().contains("_wood")) {
+        if (tex.getPath().contains("_wood") && !tex.getPath().contains("stained")) {
             tex = new ResourceLocation(tex.getNamespace(), tex.getPath().replace("_wood", "_log"));
         }
         if (tex.getPath().contains("_hyphae")) {
             tex = new ResourceLocation(tex.getNamespace(), tex.getPath().replace("_hyphae", "_stem"));
         }
+//        if ((tex.getPath().endsWith("_acacia") || tex.getPath().endsWith("_birch") || tex.getPath().endsWith("_dark_oak")
+//                || tex.getPath().endsWith("_jungle") || tex.getPath().endsWith("_oak") || tex.getPath().endsWith("_spruce"))) {
+//            if (tex.getPath().contains("stripped")) {
+//                tex = new ResourceLocation(tex.getNamespace(), tex.getPath() + "_wood");
+//            } else {
+//                tex = new ResourceLocation(tex.getNamespace(), tex.getPath() + "_planks");
+//            }
+//        }
+
         if (tex.getPath().equals("block/basalt") || tex.getPath().equals("block/polished_basalt")
                 || tex.getPath().contains("quartz")) {
             ResourceLocation side = new ResourceLocation(tex.getNamespace(), tex.getPath() + "_side");

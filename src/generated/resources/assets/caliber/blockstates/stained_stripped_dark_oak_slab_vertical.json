@@ -127,18 +127,18 @@
       "uvlock": true
     },
     "facing=north,layers=8": {
-      "model": "caliber:block/stained_stripped_dark_oak"
+      "model": "caliber:block/stained_stripped_dark_oak_wood"
     },
     "facing=south,layers=8": {
-      "model": "caliber:block/stained_stripped_dark_oak",
+      "model": "caliber:block/stained_stripped_dark_oak_wood",
       "y": 180,
       "uvlock": true
     },
     "facing=west,layers=8": {
-      "model": "caliber:block/stained_stripped_dark_oak"
+      "model": "caliber:block/stained_stripped_dark_oak_wood"
     },
     "facing=east,layers=8": {
-      "model": "caliber:block/stained_stripped_dark_oak",
+      "model": "caliber:block/stained_stripped_dark_oak_wood",
       "y": 90,
       "uvlock": true
     }

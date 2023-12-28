@@ -1,7 +1,7 @@
 {
   "type": "caliber:woodcutting",
   "ingredient": {
-    "item": "caliber:oak_shingle"
+    "item": "caliber:oak_shingles"
   },
   "result": "caliber:oak_shingle_stairs",
   "count": 1
