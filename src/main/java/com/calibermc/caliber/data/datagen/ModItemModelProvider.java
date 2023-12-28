@@ -40,10 +40,6 @@ public class ModItemModelProvider extends ItemModelProvider {
                 String blockName = e.getValue().getId().getPath();
                 String parentName = blockName;
 
-                if (variant.equals(ModBlockFamily.Variant.DOOR)) {
-                    return;
-                }
-
                 if (variant.equals(ModBlockFamily.Variant.CORNER)
                         || variant.equals(ModBlockFamily.Variant.PILLAR)
                         || variant.equals(ModBlockFamily.Variant.QUARTER)
@@ -68,20 +64,15 @@ public class ModItemModelProvider extends ItemModelProvider {
                     parentName += "_3";
                 }
 
-//                if (variant.equals(ModBlockFamily.Variant.FENCE) || variant.equals(ModBlockFamily.Variant.WALL)) {
-//                    parentName += "_inventory";
-//                }
-
-                if (variant.equals(ModBlockFamily.Variant.BUTTON) || variant.equals(ModBlockFamily.Variant.FENCE) || variant.equals(ModBlockFamily.Variant.WALL)) {
+                if (variant.equals(ModBlockFamily.Variant.BUTTON)
+                        || variant.equals(ModBlockFamily.Variant.FENCE)
+                        || variant.equals(ModBlockFamily.Variant.WALL)
+                        || variant.equals(ModBlockFamily.Variant.ROOF_67)) {
                     parentName += "_inventory";
                 }
 
                 if (variant.equals(ModBlockFamily.Variant.TRAPDOOR)) {
                     parentName += "_bottom";
-                }
-
-                if (variant.equals(ModBlockFamily.Variant.ROOF_67)) {
-                    parentName += "_top";
                 }
 
                 withExistingParent(blockName, modLoc("block/" + parentName));
@@ -90,18 +81,15 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         // Register Block Item Models
         ForgeRegistries.BLOCKS.getValues().stream()
-                .filter(block -> BlockManager.ALL_BLOCKS.stream().map(RegistryObject::get).noneMatch(b -> b.equals(block))
-                        && block.getRegistryName() != null && block.getRegistryName().getNamespace().equals(Caliber.MOD_ID))
+                .filter(block ->
+                        BlockManager.ALL_BLOCKS.stream().map(RegistryObject::get).noneMatch(b -> b.equals(block))
+                                && block.getRegistryName() != null
+                                && block.getRegistryName().getNamespace().equals(Caliber.MOD_ID)
+                                && !(block instanceof WallSignBlock)) // Exclude WallSignBlock instances
                 .forEach(block -> {
                     String blockName = block.getRegistryName().getPath();
                     String parentName = blockName;
 
-//                    if (block instanceof DoorBlock) {
-////                        parentName = "minecraft:item/generated";
-//                        return withExistingParent(block.getRegistryName().getPath(),
-//                                new ResourceLocation("item/generated")).texture("layer0",
-//                                new ResourceLocation(Caliber.MOD_ID,"item/" + parentName));
-//                    }
 
                     if (block instanceof CornerLayerBlock
                             || block instanceof PillarLayerBlock
@@ -133,11 +121,11 @@ public class ModItemModelProvider extends ItemModelProvider {
                         parentName += "_3";
                     }
 
-//                    if (block instanceof FenceBlock || block instanceof WallBlock) {
-//                        parentName += "_inventory";
-//                    }
 
-                    if (block instanceof ButtonBlock || block instanceof FenceBlock || block instanceof WallBlock) {
+                    if (block instanceof ButtonBlock
+                            || block instanceof FenceBlock
+                            || block instanceof WallBlock
+                            || block instanceof Roof67Block) {
                         parentName += "_inventory";
                     }
 
@@ -145,13 +133,10 @@ public class ModItemModelProvider extends ItemModelProvider {
                         parentName += "_bottom";
                     }
 
-                    if (block instanceof Roof67Block) {
-                        parentName += "_top";
-                    }
-
                     try {
                         if (block instanceof DoorBlock || block instanceof StandingSignBlock) {
-                            withExistingParent(blockName, new ResourceLocation("item/generated")).texture("layer0", new ResourceLocation(Caliber.MOD_ID,"item/" + parentName));
+                            withExistingParent(blockName, new ResourceLocation("item/generated"))
+                                    .texture("layer0", new ResourceLocation(Caliber.MOD_ID,"item/" + parentName));
                         }
                         else {
                             withExistingParent(blockName, modLoc("block/" + parentName));

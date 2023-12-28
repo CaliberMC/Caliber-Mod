@@ -2087,6 +2087,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
                 roof_67_top_inner = models().withExistingParent(name(block) + "_top_inner", modLoc("block/templates/roof_67_top_inner"))
                         .texture("side", side)
                         .texture("top", top)
+                        .texture("bottom", bottom),
+                roof_67_inventory = models().withExistingParent(name(block) + "_inventory", modLoc("block/templates/inv/roof_67_top_inventory"))
+                        .texture("side", side)
+                        .texture("top", top)
                         .texture("bottom", bottom);
 
         getVariantBuilder(block)

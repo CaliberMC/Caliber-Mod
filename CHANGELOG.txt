@@ -236,5 +236,5 @@ Added Bronze Armor and Tools
 - Bugfix: fixed crash when Pillar Blocks reach 5 layers and were clicked again
 - Bugfix: fixed hitbox not matching blockstate for E and S facing Vertical Quarter Blocks
 - Bugfix: fixed visual glitch with Arrowslit Blocks
--
+- Bugfix: fixed occulsion/shadows on 67 degree roof blocks (this is experimental and may be reworked in the future)
 

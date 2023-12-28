@@ -1,0 +1,12 @@
+# Blender 4.0.2 MTL File: 'roof_67_variants.blend'
+# www.blender.org
+
+newmtl m_95b0e88a-ad57-8f60-1f62-0ff995b9468e
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd #side
