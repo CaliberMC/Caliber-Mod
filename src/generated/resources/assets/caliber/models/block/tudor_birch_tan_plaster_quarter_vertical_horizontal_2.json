@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/slab_vertical",
+  "parent": "caliber:block/templates/quarter_vertical",
   "textures": {
     "side": "caliber:block/tudor_birch_tan_plaster_horizontal_2",
     "bottom": "minecraft:block/birch_planks",

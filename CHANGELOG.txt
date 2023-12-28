@@ -233,8 +233,11 @@ Added Bronze Armor and Tools
 
 -0.0.30 (in progress)
 - Lots of code cleanup
+- Bugfix: fixed crash when placing modded Stair Blocks
 - Bugfix: fixed crash when Pillar Blocks reach 5 layers and were clicked again
+- Bugfix: fixed crash when placing another Vertical Quarter Tudor Block on top of an existing one
 - Bugfix: fixed hitbox not matching blockstate for E and S facing Vertical Quarter Blocks
+- Bugfix: fixed Tudor Block Vertical Quarter models appearing as Vertical Slabs
 - Bugfix: fixed visual glitch with Arrowslit Blocks
 - Bugfix: fixed occulsion/shadows on 67 degree roof blocks (this is experimental and may be reworked in the future)
 

@@ -27,10 +27,11 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 import javax.annotation.Nullable;
 import java.util.Map;
 
+import static com.calibermc.caliber.util.ModBlockStateProperties.isSide;
 import static net.minecraft.core.Direction.*;
 import static net.minecraft.core.Direction.WEST;
 
-public class VerticalQuarterBlock extends Block implements SimpleWaterloggedBlock {
+public class VerticalQuarterBlock extends HorizontalDirectionalBlock implements SimpleWaterloggedBlock {
 
     public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
     public static final EnumProperty<VerticalQuarterShape> TYPE = ModBlockStateProperties.VERTICAL_QUARTER_SHAPE;
@@ -124,9 +125,10 @@ public class VerticalQuarterBlock extends Block implements SimpleWaterloggedBloc
     @Override
     public boolean canBeReplaced(BlockState pState, BlockPlaceContext pUseContext) {
         ItemStack itemstack = pUseContext.getItemInHand();
+        Direction clickedFace = pUseContext.getClickedFace();
         VerticalQuarterShape verticalQuarterShape = pState.getValue(TYPE);
         if (verticalQuarterShape != VerticalQuarterShape.DOUBLE && itemstack.is(this.asItem())) {
-            return true;
+            return isSide(clickedFace);
         } else {
             return false;
         }

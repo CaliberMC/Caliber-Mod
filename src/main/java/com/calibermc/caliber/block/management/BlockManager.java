@@ -11,6 +11,7 @@ import net.minecraft.data.loot.BlockLoot;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.WoodType;
 import net.minecraftforge.registries.RegistryObject;
 
@@ -32,6 +33,7 @@ public class BlockManager {
     public static final List<RegistryObject<Block>> ALL_BLOCKS = new ArrayList<>();
     public static final List<BlockManager> BLOCK_MANAGERS = new ArrayList<>();
 
+    private final String name;
     private final ImmutableMap<BlockAdditional, RegistryObject<Block>> blocks;
 
     // TODO: Setup planks, wood, stem, hypae types
@@ -45,6 +47,7 @@ public class BlockManager {
             }
         }
         this.blocks = builder.build();
+        this.name = name;
         ALL_BLOCKS.addAll(this.blocks.values());
         BLOCK_MANAGERS.add(this);
     }
@@ -114,6 +117,9 @@ public class BlockManager {
     }
 
     private static void addDefaultVariants(Builder builder, BlockBehaviour.Properties properties, Supplier<Block> blockSupplier, Collection<ModBlockFamily.Variant> variants) {
+        Supplier<BlockState> baseBlockState = () -> BlockManager.BLOCK_MANAGERS.stream().filter(blockManager ->
+                blockManager.name.equals(builder.name)).findFirst().map(blockManager ->
+                blockManager.baseBlock().defaultBlockState()).orElseThrow();
         for (ModBlockFamily.Variant variant : variants) {
             if (variant != ModBlockFamily.Variant.BASE) {
                 switch (variant) {
@@ -150,7 +156,7 @@ public class BlockManager {
 //                    case SIGN -> builder.addVariant(variant, () -> new StandingSignBlock(properties, WoodType.OAK), new WallSignBlock(properties, WoodType.OAK), (b) -> b.stateGen(CaliberBlockHelper.SIGN.apply(blockSupplier)));
                     case SLAB -> builder.addVariant(variant, () -> new SlabLayerBlock(properties), (b) -> b.stateGen(CaliberBlockHelper.SLAB.apply(blockSupplier)));
                     case SLAB_VERTICAL -> builder.addVariant(variant, () -> new VerticalSlabLayerBlock(properties), (b) -> b.stateGen(CaliberBlockHelper.SLAB_VERTICAL.apply(blockSupplier)));
-                    case STAIRS -> builder.addVariant(variant, () -> new StairBlock(() -> blockSupplier.get().defaultBlockState(), properties), (b) -> b.stateGen(CaliberBlockHelper.STAIRS.apply(blockSupplier)));
+                    case STAIRS -> builder.addVariant(variant, () -> new StairBlock(baseBlockState, properties), (b) -> b.stateGen(CaliberBlockHelper.STAIRS.apply(blockSupplier)));
 //                    case TRAPDOOR -> builder.addVariant(variant, () -> new TrapDoorBlock(properties), (b) -> b.stateGen(TRAP_DOOR.apply(blockSupplier)));
                     case WALL -> builder.addVariant(variant, () -> new WallBlock(properties), (b) -> b.stateGen(CaliberBlockHelper.WALL.apply(blockSupplier)));
 //                    case WALL_SIGN -> builder.addVariant(variant, () -> new WallSignBlock(properties, WoodType.OAK), (b) -> b.stateGen(CaliberBlockHelper.SIGN.apply(blockSupplier)));

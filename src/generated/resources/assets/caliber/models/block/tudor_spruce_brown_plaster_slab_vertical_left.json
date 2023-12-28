@@ -1,7 +1,7 @@
 {
   "parent": "caliber:block/templates/slab_vertical",
   "textures": {
-    "side": "minecraft:block/spruce_planks",
+    "side": "caliber:block/tudor_spruce_brown_plaster_left",
     "bottom": "minecraft:block/spruce_planks",
     "top": "minecraft:block/spruce_planks"
   }

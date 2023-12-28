@@ -1,18 +1,18 @@
 {
   "variants": {
     "facing=north,type=left": {
-      "model": "caliber:block/tudor_acacia_tan_plaster_quarter_vertical_left"
+      "model": "caliber:block/tudor_acacia_tan_plaster_quarter_vertical_left_left"
     },
     "facing=south,type=left": {
-      "model": "caliber:block/tudor_acacia_tan_plaster_quarter_vertical_left",
+      "model": "caliber:block/tudor_acacia_tan_plaster_quarter_vertical_left_left",
       "y": 180
     },
     "facing=west,type=left": {
-      "model": "caliber:block/tudor_acacia_tan_plaster_quarter_vertical_left",
+      "model": "caliber:block/tudor_acacia_tan_plaster_quarter_vertical_left_left",
       "y": 270
     },
     "facing=east,type=left": {
-      "model": "caliber:block/tudor_acacia_tan_plaster_quarter_vertical_left",
+      "model": "caliber:block/tudor_acacia_tan_plaster_quarter_vertical_left_left",
       "y": 90
     },
     "facing=north,type=right": {
@@ -31,18 +31,18 @@
       "y": 90
     },
     "facing=north,type=double": {
-      "model": "caliber:block/tudor_acacia_tan_plaster_quarter_vertical_left"
+      "model": "caliber:block/tudor_acacia_tan_plaster_slab_vertical_left"
     },
     "facing=south,type=double": {
-      "model": "caliber:block/tudor_acacia_tan_plaster_quarter_vertical_left",
+      "model": "caliber:block/tudor_acacia_tan_plaster_slab_vertical_left",
       "y": 180
     },
     "facing=west,type=double": {
-      "model": "caliber:block/tudor_acacia_tan_plaster_quarter_vertical_left",
+      "model": "caliber:block/tudor_acacia_tan_plaster_slab_vertical_left",
       "y": 270
     },
     "facing=east,type=double": {
-      "model": "caliber:block/tudor_acacia_tan_plaster_quarter_vertical_left",
+      "model": "caliber:block/tudor_acacia_tan_plaster_slab_vertical_left",
       "y": 90
     }
   }

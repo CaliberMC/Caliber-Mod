@@ -1,7 +1,7 @@
 {
   "parent": "caliber:block/templates/slab_vertical",
   "textures": {
-    "side": "minecraft:block/acacia_planks",
+    "side": "caliber:block/tudor_acacia_beige_plaster_horizontal_2",
     "bottom": "minecraft:block/acacia_planks",
     "top": "minecraft:block/acacia_planks"
   }

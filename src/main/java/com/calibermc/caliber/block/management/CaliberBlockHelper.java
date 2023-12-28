@@ -230,7 +230,6 @@ public class CaliberBlockHelper {
     public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> TUDOR = (textureFrom) -> (b, provider) -> {
         ResourceLocation registryName = b.getId();
         if (registryName != null) {
-            ModelFile file;
             String name = registryName.getPath();
             ResourceLocation resourceFrom = provider.blockTexture(BlockManager.getMainBy(b, textureFrom));
             if (resourceFrom.getPath().contains("_wood")) {
@@ -238,7 +237,7 @@ public class CaliberBlockHelper {
             }
             if (name.contains("_corner")) {
                 name = name.replace("_corner", "");
-                file = provider.models().withExistingParent(registryName.getPath(), provider.modLoc("block/templates/corner"))
+                ModelFile file = provider.models().withExistingParent(registryName.getPath(), provider.modLoc("block/templates/corner"))
                         .texture("side", provider.modLoc("block/%s".formatted(name)))
                         .texture("bottom", resourceFrom)
                         .texture("top", resourceFrom);
@@ -262,10 +261,6 @@ public class CaliberBlockHelper {
                 }, BlockStateProperties.WATERLOGGED);
             } else if (name.contains("_quarter_vertical")) {
                 name = name.replace("_quarter_vertical", "");
-                file = provider.models().withExistingParent(registryName.getPath(), provider.modLoc("block/templates/quarter_vertical"))
-                        .texture("side", provider.modLoc("block/%s".formatted(name)))
-                        .texture("bottom", resourceFrom)
-                        .texture("top", resourceFrom);
                 final String finalName = name;
                 ResourceLocation finalResourceFrom = resourceFrom;
                 provider.getVariantBuilder(b.get()).forAllStatesExcept(state -> {
@@ -279,31 +274,25 @@ public class CaliberBlockHelper {
                     } else if (facing == Direction.WEST) {
                         y = 270;
                     }
-
-                    if (shape == VerticalQuarterShape.LEFT) {
-                        return ConfiguredModel.builder().modelFile(provider.models().withExistingParent(registryName.getPath(), provider.modLoc("block/templates/quarter_vertical_left"))
-                                        .texture("side", provider.modLoc("block/%s".formatted(finalName)))
-                                        .texture("bottom", finalResourceFrom)
-                                        .texture("top", finalResourceFrom))
-                                .rotationY(y).build();
-                    }
                     if (shape == VerticalQuarterShape.DOUBLE) {
-                        return ConfiguredModel.builder().modelFile(provider.models().withExistingParent(registryName.getPath(), provider.modLoc("block/templates/slab_vertical"))
+                        return ConfiguredModel.builder().modelFile(provider.models().withExistingParent(registryName.getPath().replace("_quarter_vertical", "_slab_vertical"), provider.modLoc("block/templates/slab_vertical"))
                                         .texture("side", provider.modLoc("block/%s".formatted(finalName)))
                                         .texture("bottom", finalResourceFrom)
                                         .texture("top", finalResourceFrom))
                                 .rotationY(y).build();
                     }
 
-                    return ConfiguredModel.builder().modelFile(file).rotationY(y).build();
+                    return ConfiguredModel.builder().modelFile(provider.models().withExistingParent(registryName.getPath() + (shape == VerticalQuarterShape.LEFT ? "_left" : ""), provider.modLoc("block/templates/quarter_vertical%s".formatted(shape == VerticalQuarterShape.LEFT ? "_left" : "")))
+                            .texture("side", provider.modLoc("block/%s".formatted(finalName)))
+                            .texture("bottom", finalResourceFrom)
+                            .texture("top", finalResourceFrom)).rotationY(y).build();
                 }, BlockStateProperties.WATERLOGGED);
 
             } else if (name.contains("_slab_vertical")) {
                 name = name.replace("_slab_vertical", "");
-                file = textures(provider.models().withExistingParent(registryName.getPath(),
-                        provider.modLoc("block/templates/slab_vertical")), resourceFrom);
+
                 final String finalName = name;
-                ResourceLocation finalResourceFrom1 = resourceFrom;
+                ResourceLocation finalResourceFrom = resourceFrom;
                 provider.getVariantBuilder(b.get()).forAllStatesExcept(state -> {
                     Direction facing = state.getValue(BlockStateProperties.HORIZONTAL_FACING);
                     VerticalSlabShape shape = state.getValue(ModBlockStateProperties.VERTICAL_SLAB_SHAPE);
@@ -317,15 +306,18 @@ public class CaliberBlockHelper {
                     }
 
                     if (shape == VerticalSlabShape.DOUBLE) {
-                        return ConfiguredModel.builder().modelFile(provider.models().cubeBottomTop(finalName, provider.modLoc("block/%s".formatted(finalName)), finalResourceFrom1, finalResourceFrom1))
+                        return ConfiguredModel.builder().modelFile(provider.models().cubeBottomTop(finalName,
+                                provider.modLoc("block/%s".formatted(finalName)), finalResourceFrom, finalResourceFrom)).rotationY(y).build();
+                    } else {
+                        return ConfiguredModel.builder().modelFile(provider.models().withExistingParent(registryName.getPath(), provider.modLoc("block/templates/slab_vertical"))
+                                        .texture("side", provider.modLoc("block/%s".formatted(finalName)))
+                                        .texture("bottom", finalResourceFrom)
+                                        .texture("top", finalResourceFrom))
                                 .rotationY(y).build();
                     }
-
-                    return ConfiguredModel.builder().modelFile(file).rotationY(y).build();
                 }, BlockStateProperties.WATERLOGGED);
             } else {
-                file = provider.models().cubeBottomTop(registryName.getPath(), provider.modLoc("block/%s".formatted(name)), resourceFrom, resourceFrom);
-                provider.simpleBlock(b.get(), file);
+                provider.simpleBlock(b.get(), provider.models().cubeBottomTop(registryName.getPath(), provider.modLoc("block/%s".formatted(name)), resourceFrom, resourceFrom));
             }
         }
     };
