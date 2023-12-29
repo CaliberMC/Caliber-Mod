@@ -305,6 +305,19 @@ public class MiscRecipeProvider extends RecipeProvider implements IConditionBuil
         ModRecipeBuilder.woodcutting(Ingredient.of(ModBlocks.STAINED_SPRUCE_BOARDS.baseBlock()), ModBlocks.STAINED_SPRUCE_SHINGLES.get(ModBlockFamily.Variant.ROOF_22), 2).unlockedBy("has_stained_spruce_shingles",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.STAINED_SPRUCE_BOARDS.baseBlock()).build())).save(pFinishedRecipeConsumer, "stained_spruce_shingle_roof_22_from_stained_spruce_shingle_woodcutting");
 
+        ShapelessRecipeBuilder.shapeless(ModBlocks.STAINED_ACACIA_SHINGLES.get(ModBlockFamily.Variant.ROOF_22), 1).requires(ModBlocks.ACACIA_SHINGLES.get(ModBlockFamily.Variant.ROOF_22)).requires(ModItems.RESIN.get()).unlockedBy("has_stained_acacia_shingles",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.STAINED_ACACIA_BOARDS.baseBlock()).build())).save(pFinishedRecipeConsumer, "stained_acacia_shingle_roof_22_from_acacia_shingle_and_resin_shapeless");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.STAINED_BIRCH_SHINGLES.get(ModBlockFamily.Variant.ROOF_22), 1).requires(ModBlocks.BIRCH_SHINGLES.get(ModBlockFamily.Variant.ROOF_22)).requires(ModItems.RESIN.get()).unlockedBy("has_stained_birch_shingles",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.STAINED_BIRCH_BOARDS.baseBlock()).build())).save(pFinishedRecipeConsumer, "stained_birch_shingle_roof_22_from_birch_shingle_and_resin_shapeless");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.STAINED_DARK_OAK_SHINGLES.get(ModBlockFamily.Variant.ROOF_22), 1).requires(ModBlocks.DARK_OAK_SHINGLES.get(ModBlockFamily.Variant.ROOF_22)).requires(ModItems.RESIN.get()).unlockedBy("has_stained_dark_oak_shingles",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.STAINED_DARK_OAK_BOARDS.baseBlock()).build())).save(pFinishedRecipeConsumer, "stained_dark_oak_shingle_roof_22_from_dark_oak_shingle_and_resin_shapeless");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.STAINED_JUNGLE_SHINGLES.get(ModBlockFamily.Variant.ROOF_22), 1).requires(ModBlocks.JUNGLE_SHINGLES.get(ModBlockFamily.Variant.ROOF_22)).requires(ModItems.RESIN.get()).unlockedBy("has_stained_jungle_shingles",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.STAINED_JUNGLE_BOARDS.baseBlock()).build())).save(pFinishedRecipeConsumer, "stained_jungle_shingle_roof_22_from_jungle_shingle_and_resin_shapeless");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.STAINED_OAK_SHINGLES.get(ModBlockFamily.Variant.ROOF_22), 1).requires(ModBlocks.OAK_SHINGLES.get(ModBlockFamily.Variant.ROOF_22)).requires(ModItems.RESIN.get()).unlockedBy("has_stained_oak_shingles",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.STAINED_OAK_BOARDS.baseBlock()).build())).save(pFinishedRecipeConsumer, "stained_oak_shingle_roof_22_from_oak_shingle_and_resin_shapeless");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.STAINED_SPRUCE_SHINGLES.get(ModBlockFamily.Variant.ROOF_22), 1).requires(ModBlocks.SPRUCE_SHINGLES.get(ModBlockFamily.Variant.ROOF_22)).requires(ModItems.RESIN.get()).unlockedBy("has_stained_spruce_shingles",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.STAINED_SPRUCE_BOARDS.baseBlock()).build())).save(pFinishedRecipeConsumer, "stained_spruce_shingle_roof_22_from_spruce_shingle_and_resin_shapeless");
+        
         ModRecipeBuilder.woodcutting(Ingredient.of(ModBlocks.THATCH.baseBlock()), ModBlocks.THATCH.get(ModBlockFamily.Variant.ROOF_22), 2).unlockedBy("has_thatch",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.THATCH.baseBlock()).build())).save(pFinishedRecipeConsumer, "thatch_roof_22_from_thatch_woodcutting");
 
@@ -342,6 +355,19 @@ public class MiscRecipeProvider extends RecipeProvider implements IConditionBuil
         ModRecipeBuilder.woodcutting(Ingredient.of(ModBlocks.STAINED_SPRUCE_BOARDS.baseBlock()), ModBlocks.STAINED_SPRUCE_SHINGLES.get(ModBlockFamily.Variant.ROOF_45), 2).unlockedBy("has_stained_spruce_shingles",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.STAINED_SPRUCE_BOARDS.baseBlock()).build())).save(pFinishedRecipeConsumer, "stained_spruce_shingle_roof_45_from_stained_spruce_shingle_woodcutting");
 
+        ShapelessRecipeBuilder.shapeless(ModBlocks.STAINED_ACACIA_SHINGLES.get(ModBlockFamily.Variant.ROOF_45), 1).requires(ModBlocks.ACACIA_SHINGLES.get(ModBlockFamily.Variant.ROOF_45)).requires(ModItems.RESIN.get()).unlockedBy("has_stained_acacia_shingles",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.STAINED_ACACIA_BOARDS.baseBlock()).build())).save(pFinishedRecipeConsumer, "stained_acacia_shingle_roof_45_from_acacia_shingle_and_resin_shapeless");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.STAINED_BIRCH_SHINGLES.get(ModBlockFamily.Variant.ROOF_45), 1).requires(ModBlocks.BIRCH_SHINGLES.get(ModBlockFamily.Variant.ROOF_45)).requires(ModItems.RESIN.get()).unlockedBy("has_stained_birch_shingles",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.STAINED_BIRCH_BOARDS.baseBlock()).build())).save(pFinishedRecipeConsumer, "stained_birch_shingle_roof_45_from_birch_shingle_and_resin_shapeless");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.STAINED_DARK_OAK_SHINGLES.get(ModBlockFamily.Variant.ROOF_45), 1).requires(ModBlocks.DARK_OAK_SHINGLES.get(ModBlockFamily.Variant.ROOF_45)).requires(ModItems.RESIN.get()).unlockedBy("has_stained_dark_oak_shingles",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.STAINED_DARK_OAK_BOARDS.baseBlock()).build())).save(pFinishedRecipeConsumer, "stained_dark_oak_shingle_roof_45_from_dark_oak_shingle_and_resin_shapeless");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.STAINED_JUNGLE_SHINGLES.get(ModBlockFamily.Variant.ROOF_45), 1).requires(ModBlocks.JUNGLE_SHINGLES.get(ModBlockFamily.Variant.ROOF_45)).requires(ModItems.RESIN.get()).unlockedBy("has_stained_jungle_shingles",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.STAINED_JUNGLE_BOARDS.baseBlock()).build())).save(pFinishedRecipeConsumer, "stained_jungle_shingle_roof_45_from_jungle_shingle_and_resin_shapeless");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.STAINED_OAK_SHINGLES.get(ModBlockFamily.Variant.ROOF_45), 1).requires(ModBlocks.OAK_SHINGLES.get(ModBlockFamily.Variant.ROOF_45)).requires(ModItems.RESIN.get()).unlockedBy("has_stained_oak_shingles",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.STAINED_OAK_BOARDS.baseBlock()).build())).save(pFinishedRecipeConsumer, "stained_oak_shingle_roof_45_from_oak_shingle_and_resin_shapeless");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.STAINED_SPRUCE_SHINGLES.get(ModBlockFamily.Variant.ROOF_45), 1).requires(ModBlocks.SPRUCE_SHINGLES.get(ModBlockFamily.Variant.ROOF_45)).requires(ModItems.RESIN.get()).unlockedBy("has_stained_spruce_shingles",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.STAINED_SPRUCE_BOARDS.baseBlock()).build())).save(pFinishedRecipeConsumer, "stained_spruce_shingle_roof_45_from_spruce_shingle_and_resin_shapeless");
+        
         ModRecipeBuilder.woodcutting(Ingredient.of(ModBlocks.THATCH.baseBlock()), ModBlocks.THATCH.get(ModBlockFamily.Variant.ROOF_45), 2).unlockedBy("has_thatch",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.THATCH.baseBlock()).build())).save(pFinishedRecipeConsumer, "thatch_roof_45_from_thatch_woodcutting");
 
@@ -379,6 +405,19 @@ public class MiscRecipeProvider extends RecipeProvider implements IConditionBuil
         ModRecipeBuilder.woodcutting(Ingredient.of(ModBlocks.STAINED_SPRUCE_BOARDS.baseBlock()), ModBlocks.STAINED_SPRUCE_SHINGLES.get(ModBlockFamily.Variant.ROOF_67), 2).unlockedBy("has_stained_spruce_shingles",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.STAINED_SPRUCE_BOARDS.baseBlock()).build())).save(pFinishedRecipeConsumer, "stained_spruce_shingle_roof_67_from_stained_spruce_shingle_woodcutting");
 
+        ShapelessRecipeBuilder.shapeless(ModBlocks.STAINED_ACACIA_SHINGLES.get(ModBlockFamily.Variant.ROOF_67), 1).requires(ModBlocks.ACACIA_SHINGLES.get(ModBlockFamily.Variant.ROOF_67)).requires(ModItems.RESIN.get()).unlockedBy("has_stained_acacia_shingles",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.STAINED_ACACIA_BOARDS.baseBlock()).build())).save(pFinishedRecipeConsumer, "stained_acacia_shingle_roof_67_from_acacia_shingle_and_resin_shapeless");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.STAINED_BIRCH_SHINGLES.get(ModBlockFamily.Variant.ROOF_67), 1).requires(ModBlocks.BIRCH_SHINGLES.get(ModBlockFamily.Variant.ROOF_67)).requires(ModItems.RESIN.get()).unlockedBy("has_stained_birch_shingles",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.STAINED_BIRCH_BOARDS.baseBlock()).build())).save(pFinishedRecipeConsumer, "stained_birch_shingle_roof_67_from_birch_shingle_and_resin_shapeless");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.STAINED_DARK_OAK_SHINGLES.get(ModBlockFamily.Variant.ROOF_67), 1).requires(ModBlocks.DARK_OAK_SHINGLES.get(ModBlockFamily.Variant.ROOF_67)).requires(ModItems.RESIN.get()).unlockedBy("has_stained_dark_oak_shingles",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.STAINED_DARK_OAK_BOARDS.baseBlock()).build())).save(pFinishedRecipeConsumer, "stained_dark_oak_shingle_roof_67_from_dark_oak_shingle_and_resin_shapeless");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.STAINED_JUNGLE_SHINGLES.get(ModBlockFamily.Variant.ROOF_67), 1).requires(ModBlocks.JUNGLE_SHINGLES.get(ModBlockFamily.Variant.ROOF_67)).requires(ModItems.RESIN.get()).unlockedBy("has_stained_jungle_shingles",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.STAINED_JUNGLE_BOARDS.baseBlock()).build())).save(pFinishedRecipeConsumer, "stained_jungle_shingle_roof_67_from_jungle_shingle_and_resin_shapeless");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.STAINED_OAK_SHINGLES.get(ModBlockFamily.Variant.ROOF_67), 1).requires(ModBlocks.OAK_SHINGLES.get(ModBlockFamily.Variant.ROOF_67)).requires(ModItems.RESIN.get()).unlockedBy("has_stained_oak_shingles",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.STAINED_OAK_BOARDS.baseBlock()).build())).save(pFinishedRecipeConsumer, "stained_oak_shingle_roof_67_from_oak_shingle_and_resin_shapeless");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.STAINED_SPRUCE_SHINGLES.get(ModBlockFamily.Variant.ROOF_67), 1).requires(ModBlocks.SPRUCE_SHINGLES.get(ModBlockFamily.Variant.ROOF_67)).requires(ModItems.RESIN.get()).unlockedBy("has_stained_spruce_shingles",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.STAINED_SPRUCE_BOARDS.baseBlock()).build())).save(pFinishedRecipeConsumer, "stained_spruce_shingle_roof_67_from_spruce_shingle_and_resin_shapeless");
+        
         ModRecipeBuilder.woodcutting(Ingredient.of(ModBlocks.THATCH.baseBlock()), ModBlocks.THATCH.get(ModBlockFamily.Variant.ROOF_67), 2).unlockedBy("has_thatch",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.THATCH.baseBlock()).build())).save(pFinishedRecipeConsumer, "thatch_roof_67_from_thatch_woodcutting");
 
@@ -416,6 +455,19 @@ public class MiscRecipeProvider extends RecipeProvider implements IConditionBuil
         ModRecipeBuilder.woodcutting(Ingredient.of(ModBlocks.STAINED_SPRUCE_BOARDS.baseBlock()), ModBlocks.STAINED_SPRUCE_SHINGLES.get(ModBlockFamily.Variant.ROOF_PEAK), 2).unlockedBy("has_stained_spruce_shingles",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.STAINED_SPRUCE_BOARDS.baseBlock()).build())).save(pFinishedRecipeConsumer, "stained_spruce_shingle_roof_peak_from_stained_spruce_shingle_woodcutting");
 
+        ShapelessRecipeBuilder.shapeless(ModBlocks.STAINED_ACACIA_SHINGLES.get(ModBlockFamily.Variant.ROOF_PEAK), 1).requires(ModBlocks.ACACIA_SHINGLES.get(ModBlockFamily.Variant.ROOF_PEAK)).requires(ModItems.RESIN.get()).unlockedBy("has_stained_acacia_shingles",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.STAINED_ACACIA_BOARDS.baseBlock()).build())).save(pFinishedRecipeConsumer, "stained_acacia_shingle_roof_peak_from_acacia_shingle_and_resin_shapeless");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.STAINED_BIRCH_SHINGLES.get(ModBlockFamily.Variant.ROOF_PEAK), 1).requires(ModBlocks.BIRCH_SHINGLES.get(ModBlockFamily.Variant.ROOF_PEAK)).requires(ModItems.RESIN.get()).unlockedBy("has_stained_birch_shingles",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.STAINED_BIRCH_BOARDS.baseBlock()).build())).save(pFinishedRecipeConsumer, "stained_birch_shingle_roof_peak_from_birch_shingle_and_resin_shapeless");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.STAINED_DARK_OAK_SHINGLES.get(ModBlockFamily.Variant.ROOF_PEAK), 1).requires(ModBlocks.DARK_OAK_SHINGLES.get(ModBlockFamily.Variant.ROOF_PEAK)).requires(ModItems.RESIN.get()).unlockedBy("has_stained_dark_oak_shingles",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.STAINED_DARK_OAK_BOARDS.baseBlock()).build())).save(pFinishedRecipeConsumer, "stained_dark_oak_shingle_roof_peak_from_dark_oak_shingle_and_resin_shapeless");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.STAINED_JUNGLE_SHINGLES.get(ModBlockFamily.Variant.ROOF_PEAK), 1).requires(ModBlocks.JUNGLE_SHINGLES.get(ModBlockFamily.Variant.ROOF_PEAK)).requires(ModItems.RESIN.get()).unlockedBy("has_stained_jungle_shingles",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.STAINED_JUNGLE_BOARDS.baseBlock()).build())).save(pFinishedRecipeConsumer, "stained_jungle_shingle_roof_peak_from_jungle_shingle_and_resin_shapeless");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.STAINED_OAK_SHINGLES.get(ModBlockFamily.Variant.ROOF_PEAK), 1).requires(ModBlocks.OAK_SHINGLES.get(ModBlockFamily.Variant.ROOF_PEAK)).requires(ModItems.RESIN.get()).unlockedBy("has_stained_oak_shingles",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.STAINED_OAK_BOARDS.baseBlock()).build())).save(pFinishedRecipeConsumer, "stained_oak_shingle_roof_peak_from_oak_shingle_and_resin_shapeless");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.STAINED_SPRUCE_SHINGLES.get(ModBlockFamily.Variant.ROOF_PEAK), 1).requires(ModBlocks.SPRUCE_SHINGLES.get(ModBlockFamily.Variant.ROOF_PEAK)).requires(ModItems.RESIN.get()).unlockedBy("has_stained_spruce_shingles",
+                inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.STAINED_SPRUCE_BOARDS.baseBlock()).build())).save(pFinishedRecipeConsumer, "stained_spruce_shingle_roof_peak_from_spruce_shingle_and_resin_shapeless");
+        
         ModRecipeBuilder.woodcutting(Ingredient.of(ModBlocks.THATCH.baseBlock()), ModBlocks.THATCH.get(ModBlockFamily.Variant.ROOF_PEAK), 2).unlockedBy("has_thatch",
                 inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.THATCH.baseBlock()).build())).save(pFinishedRecipeConsumer, "thatch_roof_peak_from_thatch_woodcutting");
 

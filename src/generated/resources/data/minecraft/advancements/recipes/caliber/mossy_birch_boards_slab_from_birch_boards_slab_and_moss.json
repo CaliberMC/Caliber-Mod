@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:mossy_birch_boards_slab_from_birch_boards_slab_and_moss"
+    ]
+  },
+  "criteria": {
+    "has_birch_boards_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caliber:birch_board_slab"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:mossy_birch_boards_slab_from_birch_boards_slab_and_moss"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_birch_boards_slab",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "entries": [
-    "caliber:grass_stems_from_grass"
+    "caliber:grass_stems_from_grass",
+    "caliber:resin_from_spruce_leaves"
   ]
 }

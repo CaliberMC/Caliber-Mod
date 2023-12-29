@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:mossy_jungle_boards_balustrade_from_jungle_boards_balustrade_and_moss"
+    ]
+  },
+  "criteria": {
+    "has_jungle_boards_balustrade": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caliber:jungle_board_balustrade"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:mossy_jungle_boards_balustrade_from_jungle_boards_balustrade_and_moss"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_jungle_boards_balustrade",
+      "has_the_recipe"
+    ]
+  ]
+}

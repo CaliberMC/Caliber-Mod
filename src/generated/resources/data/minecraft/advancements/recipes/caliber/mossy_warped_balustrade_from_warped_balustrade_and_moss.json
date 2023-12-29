@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:mossy_warped_balustrade_from_warped_balustrade_and_moss"
+    ]
+  },
+  "criteria": {
+    "has_warped_balustrade": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caliber:warped_board_balustrade"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:mossy_warped_balustrade_from_warped_balustrade_and_moss"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_warped_balustrade",
+      "has_the_recipe"
+    ]
+  ]
+}

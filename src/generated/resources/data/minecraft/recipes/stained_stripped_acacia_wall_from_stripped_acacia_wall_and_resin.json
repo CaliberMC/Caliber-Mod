@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "caliber:stripped_acacia_wall"
+    },
+    {
+      "item": "caliber:resin"
+    }
+  ],
+  "result": {
+    "item": "caliber:stained_stripped_acacia_wall"
+  }
+}

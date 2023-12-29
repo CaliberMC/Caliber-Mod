@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:mossy_crimson_window_from_crimson_window_and_moss"
+    ]
+  },
+  "criteria": {
+    "has_crimson_window": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caliber:crimson_board_window"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:mossy_crimson_window_from_crimson_window_and_moss"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_crimson_window",
+      "has_the_recipe"
+    ]
+  ]
+}

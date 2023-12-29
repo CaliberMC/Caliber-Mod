@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "caliber:stripped_spruce_slab"
+    },
+    {
+      "item": "caliber:resin"
+    }
+  ],
+  "result": {
+    "item": "caliber:stained_stripped_spruce_slab"
+  }
+}

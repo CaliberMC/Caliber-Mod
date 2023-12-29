@@ -234,15 +234,16 @@ Added Bronze Armor and Tools
 -0.0.30
 - Added a total of 645 new blocks!
 - Current Mod Block Count is at 4,268
+- Added Wood Stain for staining wood blocks
 - Added Sap as an ingredient for staining wood blocks
 - Added all variants of Acacia, Birch, Dark Oak, Jungle, Oak, Spruce, Crimson and Warped Boards
 - Added all variants of Mossy Acacia, Birch, Dark Oak, Jungle, Oak, Spruce, Crimson and Warped Planks, Boards and Shingles
 - Added Crimson and Warped Shingle Roof Variants
 - Added Crimson and Warped Plank Variants
-- Reworked Shingle variants and made them part of the Boards family (planks will have vertical textures and boards will have horizontal textures)
-- Added Mossy variants of all Shingles and Planks
+- Reworked Shingle variants and made them part of the Boards family (going forward planks will have vertical textures and boards will have horizontal textures)
+- Added Mossy variants of all Boards, Planks and Shingles
 - Added more tags for mod compatibility
-- Added all missing recipes?
+- Added all missing recipes? (Let me know if you find any missing ones)
 - Lots of code cleanup
 - Updated Stained Plank textures
 - Updated Naming Conventions for Stained Planks and Stained Stripped Wood and Shingle base blocks (this might break existing use of these blocks in the world, sorry)

@@ -16,6 +16,20 @@ public class ModItems {
     public static final RegistryObject<Item> GRASS_STEMS = ITEMS.register("grass_stems",
             () -> new Item(new Item.Properties().tab(CreativeTabs.CALIBER_TAB)));
 
+//    public static final RegistryObject<Item> SAP = ITEMS.register("sap",
+//            () -> new Item(new Item.Properties().tab(CreativeTabs.CALIBER_TAB)));
+//
+//    public static final RegistryObject<Item> SAP_BALL = ITEMS.register("sap_ball",
+//            () -> new Item(new Item.Properties().tab(CreativeTabs.CALIBER_TAB)));
+
+    public static final RegistryObject<Item> RESIN = ITEMS.register("resin",
+            () -> new Item(new Item.Properties().tab(CreativeTabs.CALIBER_TAB)));
+
+//    public static final RegistryObject<Item> WOOD_STAIN = ITEMS.register("wood_stain",
+//            () -> new Item(new Item.Properties().tab(CreativeTabs.CALIBER_TAB)));
+
+
+
 
     public static final RegistryObject<Item> TIN_INGOT = ITEMS.register("tin_ingot",
             () -> new Item(new Item.Properties().tab(CreativeTabs.CALIBER_TAB)));
@@ -63,9 +77,6 @@ public class ModItems {
     public static final RegistryObject<Item> BRONZE_BOOTS = ITEMS.register("bronze_boots",
             () -> new ArmorItem(ModArmorMaterials.BRONZE, EquipmentSlot.FEET,
                     new Item.Properties().tab(CreativeTabs.CALIBER_TAB)));
-
-
-
 
 
     public static final RegistryObject<Item> STAINED_ACACIA_SIGN = ITEMS.register("stained_acacia_sign",
