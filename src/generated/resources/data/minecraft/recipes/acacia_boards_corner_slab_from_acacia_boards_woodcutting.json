@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "caliber:acacia_boards"
+  },
+  "result": "caliber:acacia_board_corner_slab",
+  "count": 4
+}

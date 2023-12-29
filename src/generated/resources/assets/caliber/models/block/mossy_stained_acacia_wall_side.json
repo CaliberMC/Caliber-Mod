@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side",
+  "textures": {
+    "wall": "caliber:block/mossy_stained_acacia_planks"
+  }
+}

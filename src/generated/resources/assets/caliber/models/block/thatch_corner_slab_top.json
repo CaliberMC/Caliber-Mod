@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/corner_slab_top",
-  "textures": {
-    "side": "caliber:block/thatch",
-    "top": "caliber:block/thatch",
-    "bottom": "caliber:block/thatch"
-  }
-}

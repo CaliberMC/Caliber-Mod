@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "ingredient": {
-    "item": "caliber:stained_spruce_shingles"
-  },
-  "result": "caliber:stained_spruce_shingle_pillar",
-  "count": 5
-}

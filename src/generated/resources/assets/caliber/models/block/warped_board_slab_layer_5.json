@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/templates/slab_layer_5",
+  "textures": {
+    "side": "caliber:block/warped_boards",
+    "top": "caliber:block/warped_boards",
+    "bottom": "caliber:block/warped_boards"
+  }
+}

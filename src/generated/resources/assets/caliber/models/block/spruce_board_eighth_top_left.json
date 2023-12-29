@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/templates/eighth_top_left",
+  "textures": {
+    "side": "caliber:block/spruce_boards",
+    "top": "caliber:block/spruce_boards",
+    "bottom": "caliber:block/spruce_boards"
+  }
+}

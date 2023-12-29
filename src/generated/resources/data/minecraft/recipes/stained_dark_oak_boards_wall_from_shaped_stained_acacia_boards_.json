@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "caliber:stained_dark_oak_boards"
+    }
+  },
+  "result": {
+    "item": "caliber:stained_dark_oak_board_wall",
+    "count": 6
+  }
+}

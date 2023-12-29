@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/slab_layer_3",
-  "textures": {
-    "side": "caliber:block/stained_dark_oak_shingles",
-    "top": "caliber:block/stained_dark_oak_shingles",
-    "bottom": "caliber:block/stained_dark_oak_shingles"
-  }
-}

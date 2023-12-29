@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "caliber:spruce_boards"
+    }
+  },
+  "result": {
+    "item": "caliber:spruce_board_wall",
+    "count": 6
+  }
+}

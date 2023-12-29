@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "ingredient": {
-    "item": "caliber:birch_shingles"
-  },
-  "result": "caliber:birch_shingle_roof_peak",
-  "count": 2
-}

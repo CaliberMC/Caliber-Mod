@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/templates/slab_vertical_layer_2",
+  "textures": {
+    "side": "caliber:block/mossy_warped_boards",
+    "top": "caliber:block/mossy_warped_boards",
+    "bottom": "caliber:block/mossy_warped_boards"
+  }
+}

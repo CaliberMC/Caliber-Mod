@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/templates/slab_vertical_layer_7",
+  "textures": {
+    "side": "caliber:block/mossy_spruce_planks",
+    "top": "caliber:block/mossy_spruce_planks",
+    "bottom": "caliber:block/mossy_spruce_planks"
+  }
+}

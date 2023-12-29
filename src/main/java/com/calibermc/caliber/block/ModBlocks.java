@@ -71,6 +71,7 @@ public class ModBlocks {
     private static final List<ModBlockFamily.Variant> VARIANTS_WITHOUT_STAIRS_WALL = VARIANTS.stream().filter(v -> v != STAIRS && v != WALL).toList();
     private static final List<ModBlockFamily.Variant> VARIANTS_WITHOUT_WALL = VARIANTS.stream().filter(v -> v != WALL).toList();
     private static final List<ModBlockFamily.Variant> VARIANTS_WITHOUT_STAIRS = VARIANTS.stream().filter(v -> v != STAIRS).toList();
+    private static final List<ModBlockFamily.Variant> BOARD_ROOF_VARIANTS = Stream.concat(VARIANTS.stream(), ROOF_VARIANTS.stream()).distinct().filter(variant -> !STONE_VARIANTS.contains(variant)).collect(Collectors.toList());
     private static final List<ModBlockFamily.Variant> PLANK_VARIANTS = VARIANTS.stream().filter(variant -> !STONE_VARIANTS.contains(variant)).collect(Collectors.toList());
     private static final List<ModBlockFamily.Variant> MOD_PLANK_VARIANTS = Stream.concat(VARIANTS.stream(), VANILLA_WOOD_VARIANTS.stream()).distinct().filter(variant -> !STONE_VARIANTS.contains(variant)).collect(Collectors.toList());
     private static final List<ModBlockFamily.Variant> FINISHED_WOOD_VARIANTS = Stream.concat(VARIANTS.stream(), WOOD_VARIANTS.stream()).distinct().filter(variant -> !STONE_VARIANTS.contains(variant)).collect(Collectors.toList());
@@ -363,6 +364,28 @@ public class ModBlocks {
             BlockProps.PLANK.get(), () -> Blocks.OAK_PLANKS, PLANK_VARIANTS);
     public static final BlockManager SPRUCE = BlockManager.register("spruce",
             BlockProps.PLANK.get(), () -> Blocks.SPRUCE_PLANKS, PLANK_VARIANTS);
+    public static final BlockManager CRIMSON = BlockManager.register("crimson",
+            BlockProps.PLANK.get(), () -> Blocks.CRIMSON_PLANKS, PLANK_VARIANTS);
+    public static final BlockManager WARPED = BlockManager.register("warped",
+            BlockProps.PLANK.get(), () -> Blocks.WARPED_PLANKS, PLANK_VARIANTS);
+
+    public static final BlockManager MOSSY_ACACIA = BlockManager.register("mossy_acacia_planks",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager MOSSY_BIRCH = BlockManager.register("mossy_birch_planks",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager MOSSY_DARK_OAK = BlockManager.register("mossy_dark_oak_planks",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager MOSSY_JUNGLE = BlockManager.register("mossy_jungle_planks",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager MOSSY_OAK = BlockManager.register("mossy_oak_planks",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager MOSSY_SPRUCE = BlockManager.register("mossy_spruce_planks",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager MOSSY_CRIMSON = BlockManager.register("mossy_crimson_planks",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager MOSSY_WARPED = BlockManager.register("mossy_warped_planks",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+
 
     /* Stained Planks */
     public static final BlockManager STAINED_ACACIA = BlockManager.register("stained_acacia_planks",
@@ -443,37 +466,152 @@ public class ModBlocks {
     public static final RegistryObject<Block> STAINED_SPRUCE_WALL_SIGN = registerBlockWithoutBlockItem("stained_spruce_wall_sign",
             () -> new ModWallSignBlock(BlockProps.PLANK.get(), WoodType.SPRUCE));
 
-    /* Roofing */
-    public static final BlockManager ACACIA_SHINGLES = BlockManager.register("acacia_shingles",
-            BlockProps.PLANK_NO_OC.get(), CaliberBlockHelper.modifyList(ROOF_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
-    public static final BlockManager BIRCH_SHINGLES = BlockManager.register("birch_shingles",
-            BlockProps.PLANK_NO_OC.get(), CaliberBlockHelper.modifyList(ROOF_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
-    public static final BlockManager DARK_OAK_SHINGLES = BlockManager.register("dark_oak_shingles",
-            BlockProps.PLANK_NO_OC.get(), CaliberBlockHelper.modifyList(ROOF_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
-    public static final BlockManager JUNGLE_SHINGLES = BlockManager.register("jungle_shingles",
-            BlockProps.PLANK_NO_OC.get(), CaliberBlockHelper.modifyList(ROOF_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
-    public static final BlockManager OAK_SHINGLES = BlockManager.register("oak_shingles",
-            BlockProps.PLANK_NO_OC.get(), CaliberBlockHelper.modifyList(ROOF_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
-    public static final BlockManager SPRUCE_SHINGLES = BlockManager.register("spruce_shingles",
-            BlockProps.PLANK_NO_OC.get(), CaliberBlockHelper.modifyList(ROOF_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    /* Mossy Stained Planks */
+    public static final BlockManager MOSSY_STAINED_ACACIA = BlockManager.register("mossy_stained_acacia_planks",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(MOD_PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager MOSSY_STAINED_BIRCH = BlockManager.register("mossy_stained_birch_planks",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(MOD_PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager MOSSY_STAINED_DARK_OAK = BlockManager.register("mossy_stained_dark_oak_planks",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(MOD_PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager MOSSY_STAINED_JUNGLE = BlockManager.register("mossy_stained_jungle_planks",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(MOD_PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager MOSSY_STAINED_OAK = BlockManager.register("mossy_stained_oak_planks",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(MOD_PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager MOSSY_STAINED_SPRUCE = BlockManager.register("mossy_stained_spruce_planks",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(MOD_PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    
 
-    public static final BlockManager STAINED_ACACIA_SHINGLES = BlockManager.register("stained_acacia_shingles",
-            BlockProps.PLANK_NO_OC.get(), CaliberBlockHelper.modifyList(ROOF_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
-    public static final BlockManager STAINED_BIRCH_SHINGLES = BlockManager.register("stained_birch_shingles",
-            BlockProps.PLANK_NO_OC.get(), CaliberBlockHelper.modifyList(ROOF_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
-    public static final BlockManager STAINED_DARK_OAK_SHINGLES = BlockManager.register("stained_dark_oak_shingles",
-            BlockProps.PLANK_NO_OC.get(), CaliberBlockHelper.modifyList(ROOF_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
-    public static final BlockManager STAINED_JUNGLE_SHINGLES = BlockManager.register("stained_jungle_shingles",
-            BlockProps.PLANK_NO_OC.get(), CaliberBlockHelper.modifyList(ROOF_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
-    public static final BlockManager STAINED_OAK_SHINGLES = BlockManager.register("stained_oak_shingles",
-            BlockProps.PLANK_NO_OC.get(), CaliberBlockHelper.modifyList(ROOF_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
-    public static final BlockManager STAINED_SPRUCE_SHINGLES = BlockManager.register("stained_spruce_shingles",
-            BlockProps.PLANK_NO_OC.get(), CaliberBlockHelper.modifyList(ROOF_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    /* Boards & Shingles */
+    public static final BlockManager ACACIA_BOARDS = BlockManager.register("acacia_boards",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager BIRCH_BOARDS = BlockManager.register("birch_boards",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager DARK_OAK_BOARDS = BlockManager.register("dark_oak_boards",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager JUNGLE_BOARDS = BlockManager.register("jungle_boards",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager OAK_BOARDS = BlockManager.register("oak_boards",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager SPRUCE_BOARDS = BlockManager.register("spruce_boards",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager CRIMSON_BOARDS = BlockManager.register("crimson_boards",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager WARPED_BOARDS = BlockManager.register("warped_boards",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
 
+    public static final BlockManager ACACIA_SHINGLES = BlockManager.register("acacia_shingle",
+            BlockProps.PLANK_NO_OC.get(), ModBlocks.ACACIA_BOARDS::baseBlock, ROOF_VARIANTS);
+    public static final BlockManager BIRCH_SHINGLES = BlockManager.register("birch_shingle",
+            BlockProps.PLANK_NO_OC.get(), ModBlocks.BIRCH_BOARDS::baseBlock, ROOF_VARIANTS);
+    public static final BlockManager DARK_OAK_SHINGLES = BlockManager.register("dark_oak_shingle",
+            BlockProps.PLANK_NO_OC.get(), ModBlocks.DARK_OAK_BOARDS::baseBlock, ROOF_VARIANTS);
+    public static final BlockManager JUNGLE_SHINGLES = BlockManager.register("jungle_shingle",
+            BlockProps.PLANK_NO_OC.get(), ModBlocks.JUNGLE_BOARDS::baseBlock, ROOF_VARIANTS);
+    public static final BlockManager OAK_SHINGLES = BlockManager.register("oak_shingle",
+            BlockProps.PLANK_NO_OC.get(), ModBlocks.OAK_BOARDS::baseBlock, ROOF_VARIANTS);
+    public static final BlockManager SPRUCE_SHINGLES = BlockManager.register("spruce_shingle",
+            BlockProps.PLANK_NO_OC.get(), ModBlocks.SPRUCE_BOARDS::baseBlock, ROOF_VARIANTS);
+    public static final BlockManager CRIMSON_SHINGLES = BlockManager.register("crimson_shingle",
+            BlockProps.PLANK_NO_OC.get(), ModBlocks.CRIMSON_BOARDS::baseBlock, ROOF_VARIANTS);
+    public static final BlockManager WARPED_SHINGLES = BlockManager.register("warped_shingle",
+            BlockProps.PLANK_NO_OC.get(), ModBlocks.WARPED_BOARDS::baseBlock, ROOF_VARIANTS);
+
+    /* Mossy Boards & Shingles */
+    public static final BlockManager MOSSY_ACACIA_BOARDS = BlockManager.register("mossy_acacia_boards",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager MOSSY_BIRCH_BOARDS = BlockManager.register("mossy_birch_boards",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager MOSSY_DARK_OAK_BOARDS = BlockManager.register("mossy_dark_oak_boards",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager MOSSY_JUNGLE_BOARDS = BlockManager.register("mossy_jungle_boards",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager MOSSY_OAK_BOARDS = BlockManager.register("mossy_oak_boards",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager MOSSY_SPRUCE_BOARDS = BlockManager.register("mossy_spruce_boards",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager MOSSY_CRIMSON_BOARDS = BlockManager.register("mossy_crimson_boards",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager MOSSY_WARPED_BOARDS = BlockManager.register("mossy_warped_boards",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+
+    public static final BlockManager MOSSY_ACACIA_SHINGLES = BlockManager.register("mossy_acacia_shingle",
+            BlockProps.PLANK_NO_OC.get(), ModBlocks.MOSSY_ACACIA_BOARDS::baseBlock, ROOF_VARIANTS);
+    public static final BlockManager MOSSY_BIRCH_SHINGLES = BlockManager.register("mossy_birch_shingle",
+            BlockProps.PLANK_NO_OC.get(), ModBlocks.MOSSY_BIRCH_BOARDS::baseBlock, ROOF_VARIANTS);
+    public static final BlockManager MOSSY_DARK_OAK_SHINGLES = BlockManager.register("mossy_dark_oak_shingle",
+            BlockProps.PLANK_NO_OC.get(), ModBlocks.MOSSY_DARK_OAK_BOARDS::baseBlock, ROOF_VARIANTS);
+    public static final BlockManager MOSSY_JUNGLE_SHINGLES = BlockManager.register("mossy_jungle_shingle",
+            BlockProps.PLANK_NO_OC.get(), ModBlocks.MOSSY_JUNGLE_BOARDS::baseBlock, ROOF_VARIANTS);
+    public static final BlockManager MOSSY_OAK_SHINGLES = BlockManager.register("mossy_oak_shingle",
+            BlockProps.PLANK_NO_OC.get(), ModBlocks.MOSSY_OAK_BOARDS::baseBlock, ROOF_VARIANTS);
+    public static final BlockManager MOSSY_SPRUCE_SHINGLES = BlockManager.register("mossy_spruce_shingle",
+            BlockProps.PLANK_NO_OC.get(), ModBlocks.MOSSY_SPRUCE_BOARDS::baseBlock, ROOF_VARIANTS);
+    public static final BlockManager MOSSY_CRIMSON_SHINGLES = BlockManager.register("mossy_crimson_shingle",
+            BlockProps.PLANK_NO_OC.get(), ModBlocks.MOSSY_CRIMSON_BOARDS::baseBlock, ROOF_VARIANTS);
+    public static final BlockManager MOSSY_WARPED_SHINGLES = BlockManager.register("mossy_warped_shingle",
+            BlockProps.PLANK_NO_OC.get(), ModBlocks.MOSSY_WARPED_BOARDS::baseBlock, ROOF_VARIANTS);
+
+    /* Stained Boards & Shingles */
+    public static final BlockManager STAINED_ACACIA_BOARDS = BlockManager.register("stained_acacia_boards",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager STAINED_BIRCH_BOARDS = BlockManager.register("stained_birch_boards",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager STAINED_DARK_OAK_BOARDS = BlockManager.register("stained_dark_oak_boards",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager STAINED_JUNGLE_BOARDS = BlockManager.register("stained_jungle_boards",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager STAINED_OAK_BOARDS = BlockManager.register("stained_oak_boards",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager STAINED_SPRUCE_BOARDS = BlockManager.register("stained_spruce_boards",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+
+    public static final BlockManager STAINED_ACACIA_SHINGLES = BlockManager.register("stained_acacia_shingle",
+            BlockProps.PLANK_NO_OC.get(), ModBlocks.STAINED_ACACIA_BOARDS::baseBlock, ROOF_VARIANTS);
+    public static final BlockManager STAINED_BIRCH_SHINGLES = BlockManager.register("stained_birch_shingle",
+            BlockProps.PLANK_NO_OC.get(), ModBlocks.STAINED_BIRCH_BOARDS::baseBlock, ROOF_VARIANTS);
+    public static final BlockManager STAINED_DARK_OAK_SHINGLES = BlockManager.register("stained_dark_oak_shingle",
+            BlockProps.PLANK_NO_OC.get(), ModBlocks.STAINED_DARK_OAK_BOARDS::baseBlock, ROOF_VARIANTS);
+    public static final BlockManager STAINED_JUNGLE_SHINGLES = BlockManager.register("stained_jungle_shingle",
+            BlockProps.PLANK_NO_OC.get(), ModBlocks.STAINED_JUNGLE_BOARDS::baseBlock, ROOF_VARIANTS);
+    public static final BlockManager STAINED_OAK_SHINGLES = BlockManager.register("stained_oak_shingle",
+            BlockProps.PLANK_NO_OC.get(), ModBlocks.STAINED_OAK_BOARDS::baseBlock, ROOF_VARIANTS);
+    public static final BlockManager STAINED_SPRUCE_SHINGLES = BlockManager.register("stained_spruce_shingle",
+            BlockProps.PLANK_NO_OC.get(), ModBlocks.STAINED_SPRUCE_BOARDS::baseBlock, ROOF_VARIANTS);
+
+    /* Mossy Stained Boards & Shingles */
+    public static final BlockManager MOSSY_STAINED_ACACIA_BOARDS = BlockManager.register("mossy_stained_acacia_boards",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager MOSSY_STAINED_BIRCH_BOARDS = BlockManager.register("mossy_stained_birch_boards",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager MOSSY_STAINED_DARK_OAK_BOARDS = BlockManager.register("mossy_stained_dark_oak_boards",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager MOSSY_STAINED_JUNGLE_BOARDS = BlockManager.register("mossy_stained_jungle_boards",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager MOSSY_STAINED_OAK_BOARDS = BlockManager.register("mossy_stained_oak_boards",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+    public static final BlockManager MOSSY_STAINED_SPRUCE_BOARDS = BlockManager.register("mossy_stained_spruce_boards",
+            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(PLANK_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+
+    public static final BlockManager MOSSY_STAINED_ACACIA_SHINGLES = BlockManager.register("mossy_stained_acacia_shingle",
+            BlockProps.PLANK_NO_OC.get(), ModBlocks.MOSSY_STAINED_ACACIA_BOARDS::baseBlock, ROOF_VARIANTS);
+    public static final BlockManager MOSSY_STAINED_BIRCH_SHINGLES = BlockManager.register("mossy_stained_birch_shingle",
+            BlockProps.PLANK_NO_OC.get(), ModBlocks.MOSSY_STAINED_BIRCH_BOARDS::baseBlock, ROOF_VARIANTS);
+    public static final BlockManager MOSSY_STAINED_DARK_OAK_SHINGLES = BlockManager.register("mossy_stained_dark_oak_shingle",
+            BlockProps.PLANK_NO_OC.get(), ModBlocks.MOSSY_STAINED_DARK_OAK_BOARDS::baseBlock, ROOF_VARIANTS);
+    public static final BlockManager MOSSY_STAINED_JUNGLE_SHINGLES = BlockManager.register("mossy_stained_jungle_shingle",
+            BlockProps.PLANK_NO_OC.get(), ModBlocks.MOSSY_STAINED_JUNGLE_BOARDS::baseBlock, ROOF_VARIANTS);
+    public static final BlockManager MOSSY_STAINED_OAK_SHINGLES = BlockManager.register("mossy_stained_oak_shingle",
+            BlockProps.PLANK_NO_OC.get(), ModBlocks.MOSSY_STAINED_OAK_BOARDS::baseBlock, ROOF_VARIANTS);
+    public static final BlockManager MOSSY_STAINED_SPRUCE_SHINGLES = BlockManager.register("mossy_stained_spruce_shingle",
+            BlockProps.PLANK_NO_OC.get(), ModBlocks.MOSSY_STAINED_SPRUCE_BOARDS::baseBlock, ROOF_VARIANTS);
+
+    /* Other Roofing Materials */
     public static final BlockManager THATCH = BlockManager.register("thatch",
             BlockProps.GRASS.get().noOcclusion(), CaliberBlockHelper.modifyList(ROOF_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
     public static final BlockManager SLATE_TILE = BlockManager.register("slate_tile",
-            BlockProps.DEEPSLATE.get().noOcclusion(), CaliberBlockHelper.modifyList(ROOF_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+            BlockProps.DEEPSLATE.get().noOcclusion(), () -> Blocks.DEEPSLATE_TILES, ROOF_VARIANTS);
+    //    public static final BlockManager SLATE_TILE = BlockManager.register("slate_tile",
+//            BlockProps.DEEPSLATE.get().noOcclusion(), CaliberBlockHelper.modifyList(ROOF_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
 //    public static final BlockManager CLAY_TILE = BlockManager.register("clay_tile",
 //            BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(ROOF_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
 

@@ -47,8 +47,10 @@ public class BlockManager {
                 modifiedName = name.replace("_planks", "");
             } else if (name.contains("wood")) {
                 modifiedName = name.replace("_wood", "");
-            } else if (name.contains("shingles")) {
-                modifiedName = name.replace("_shingles", "_shingle");
+            } else if (name.contains("boards")) {
+                modifiedName = name.replace("boards", "board");
+//            } else if (name.contains("shingles")) {
+//                modifiedName = name.replace("_shingles", "_shingle");
             } else {
                 modifiedName = name;
             }

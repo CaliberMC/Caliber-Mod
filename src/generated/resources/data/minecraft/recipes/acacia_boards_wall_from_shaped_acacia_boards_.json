@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "caliber:acacia_boards"
+    }
+  },
+  "result": {
+    "item": "caliber:acacia_board_wall",
+    "count": 6
+  }
+}

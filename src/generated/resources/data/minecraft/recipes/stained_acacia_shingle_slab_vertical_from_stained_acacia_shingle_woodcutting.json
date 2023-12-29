@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "ingredient": {
-    "item": "caliber:stained_acacia_shingles"
-  },
-  "result": "caliber:stained_acacia_shingle_slab_vertical",
-  "count": 8
-}

@@ -231,7 +231,18 @@ Added Bronze Armor and Tools
 - BugFix: fixed grass_stems not dropping from grass
 - Removed Buildify Features from Caliber-Mod to add greater mod compatibility for Block Picker feature, added as a dependency/library for Caliber-Mod
 
--0.0.30 (in progress)
+-0.0.30
+- Added a total of 645 new blocks!
+- Current Mod Block Count is at 4,268
+- Added Sap as an ingredient for staining wood blocks
+- Added all variants of Acacia, Birch, Dark Oak, Jungle, Oak, Spruce, Crimson and Warped Boards
+- Added all variants of Mossy Acacia, Birch, Dark Oak, Jungle, Oak, Spruce, Crimson and Warped Planks, Boards and Shingles
+- Added Crimson and Warped Shingle Roof Variants
+- Added Crimson and Warped Plank Variants
+- Reworked Shingle variants and made them part of the Boards family (planks will have vertical textures and boards will have horizontal textures)
+- Added Mossy variants of all Shingles and Planks
+- Added more tags for mod compatibility
+- Added all missing recipes?
 - Lots of code cleanup
 - Updated Stained Plank textures
 - Updated Naming Conventions for Stained Planks and Stained Stripped Wood and Shingle base blocks (this might break existing use of these blocks in the world, sorry)
@@ -243,4 +254,7 @@ Added Bronze Armor and Tools
 - Bugfix: fixed placement issue with N facing Lintel Blocks appearing Top on Bottom and Bottom on Top.
 - Bugfix: fixed visual glitch with Arrowslit Blocks
 - Bugfix: fixed occulsion/shadows on 67 degree roof blocks (this is experimental and may be reworked in the future)
+
+- 0.0.31 (in progress)
+
 

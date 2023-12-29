@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:acacia_boards_stairs_from_shaped_acacia_boards_"
+    ]
+  },
+  "criteria": {
+    "has_acacia_boards_": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caliber:acacia_boards"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:acacia_boards_stairs_from_shaped_acacia_boards_"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_acacia_boards_",
+      "has_the_recipe"
+    ]
+  ]
+}

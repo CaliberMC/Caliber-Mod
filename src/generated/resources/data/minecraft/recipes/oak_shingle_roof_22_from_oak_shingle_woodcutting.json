@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "ingredient": {
-    "item": "caliber:oak_shingles"
-  },
-  "result": "caliber:oak_shingle_roof_22",
-  "count": 2
-}

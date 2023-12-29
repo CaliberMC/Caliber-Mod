@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/quarter_layer_1",
-  "textures": {
-    "side": "caliber:block/birch_shingles",
-    "top": "caliber:block/birch_shingles",
-    "bottom": "caliber:block/birch_shingles"
-  }
-}

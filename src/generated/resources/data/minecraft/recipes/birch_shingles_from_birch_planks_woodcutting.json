@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "ingredient": {
-    "item": "minecraft:birch_planks"
-  },
-  "result": "caliber:birch_shingles",
-  "count": 1
-}

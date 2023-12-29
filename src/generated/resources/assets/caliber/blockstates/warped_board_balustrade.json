@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "type=single": {
+      "model": "caliber:block/warped_board_balustrade"
+    },
+    "facing=north,type=connected": {
+      "model": "caliber:block/warped_board_balustrade_connected"
+    },
+    "facing=south,type=connected": {
+      "model": "caliber:block/warped_board_balustrade_connected",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west,type=connected": {
+      "model": "caliber:block/warped_board_balustrade_connected",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=east,type=connected": {
+      "model": "caliber:block/warped_board_balustrade_connected",
+      "y": 90,
+      "uvlock": true
+    }
+  }
+}

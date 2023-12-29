@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "caliber:slate_tile"
-  },
-  "result": "caliber:slate_tile_corner_slab_vertical",
-  "count": 4
-}

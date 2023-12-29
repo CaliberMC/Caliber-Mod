@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "caliber:warped_boards"
+    }
+  },
+  "result": {
+    "item": "caliber:warped_board_wall",
+    "count": 6
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/templates/slab_vertical_layer_2",
+  "textures": {
+    "side": "caliber:block/mossy_stained_acacia_boards",
+    "top": "caliber:block/mossy_stained_acacia_boards",
+    "bottom": "caliber:block/mossy_stained_acacia_boards"
+  }
+}

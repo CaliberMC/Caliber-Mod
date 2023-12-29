@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "caliber:dark_oak_boards"
+  },
+  "result": "caliber:dark_oak_board_eighth",
+  "count": 8
+}

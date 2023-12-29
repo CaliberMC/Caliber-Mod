@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "ingredient": {
-    "item": "caliber:stained_dark_oak_planks"
-  },
-  "result": "caliber:stained_dark_oak_shingles",
-  "count": 1
-}

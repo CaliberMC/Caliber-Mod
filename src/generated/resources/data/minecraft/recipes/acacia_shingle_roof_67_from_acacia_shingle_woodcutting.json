@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "ingredient": {
-    "item": "caliber:acacia_shingles"
-  },
-  "result": "caliber:acacia_shingle_roof_67",
-  "count": 2
-}

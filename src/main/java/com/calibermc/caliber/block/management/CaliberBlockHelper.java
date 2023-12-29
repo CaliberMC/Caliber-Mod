@@ -44,9 +44,11 @@ public class CaliberBlockHelper {
     public static final List<Variant> STONE_VARIANTS = Lists.newArrayList(Variant.ARCH, Variant.ARCH_HALF, Variant.ARCH_LARGE,
             Variant.ARCH_LARGE_HALF, Variant.ARROWSLIT);
 
-    public static final List<Variant> ROOF_VARIANTS = Lists.newArrayList(Variant.ROOF_PEAK, Variant.ROOF_22, Variant.ROOF_45,
-            Variant.ROOF_67, Variant.CORNER, Variant.CORNER_SLAB, Variant.CORNER_SLAB_VERTICAL, Variant.PILLAR, Variant.QUARTER, Variant.QUARTER_VERTICAL,
-            Variant.SLAB, Variant.SLAB_VERTICAL, Variant.STAIRS);
+    public static final List<Variant> ROOF_VARIANTS = Lists.newArrayList(Variant.ROOF_PEAK, Variant.ROOF_22, Variant.ROOF_45, Variant.ROOF_67);
+
+//    public static final List<Variant> ROOF_VARIANTS = Lists.newArrayList(Variant.ROOF_PEAK, Variant.ROOF_22, Variant.ROOF_45,
+//            Variant.ROOF_67, Variant.CORNER, Variant.CORNER_SLAB, Variant.CORNER_SLAB_VERTICAL, Variant.PILLAR, Variant.QUARTER, Variant.QUARTER_VERTICAL,
+//            Variant.SLAB, Variant.SLAB_VERTICAL, Variant.STAIRS);
 
 //    public static final List<Variant> FURNITURE_VARIANTS =
 

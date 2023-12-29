@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/pillar_layer_2",
-  "textures": {
-    "side": "caliber:block/thatch",
-    "top": "caliber:block/thatch",
-    "bottom": "caliber:block/thatch"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/slab_layer_3",
-  "textures": {
-    "side": "caliber:block/thatch",
-    "top": "caliber:block/thatch",
-    "bottom": "caliber:block/thatch"
-  }
-}

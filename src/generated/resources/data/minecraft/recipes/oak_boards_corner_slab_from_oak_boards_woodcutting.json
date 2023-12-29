@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "caliber:oak_boards"
+  },
+  "result": "caliber:oak_board_corner_slab",
+  "count": 4
+}

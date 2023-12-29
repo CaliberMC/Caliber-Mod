@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/outer_stairs",
-  "textures": {
-    "side": "caliber:block/thatch",
-    "bottom": "caliber:block/thatch",
-    "top": "caliber:block/thatch"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/slab_layer_7",
-  "textures": {
-    "side": "caliber:block/acacia_shingles",
-    "top": "caliber:block/acacia_shingles",
-    "bottom": "caliber:block/acacia_shingles"
-  }
-}
