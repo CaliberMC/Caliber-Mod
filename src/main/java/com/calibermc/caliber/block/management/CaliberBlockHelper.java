@@ -26,7 +26,71 @@ import static com.calibermc.caliber.data.ModBlockFamily.Variant.*;
 
 public class CaliberBlockHelper {
 
-    // most used variants of blocks
+    // USE THIS ONCE ALL BLOCKS ARE ADJUSTED
+//    public static final List<Variant> VARIANTS = Lists.newArrayList(Variant.BALUSTRADE, Variant.CAPITAL, Variant.CORNER,
+//            Variant.CORNER_SLAB, Variant.CORNER_SLAB_VERTICAL, Variant.EIGHTH, Variant.PILLAR, Variant.QUARTER,
+//            Variant.QUARTER_VERTICAL, Variant.SLAB, Variant.SLAB_VERTICAL, Variant.STAIRS, Variant.WALL, Variant.WINDOW, Variant.WINDOW_HALF);
+
+//    public static final List<Variant> STONE_VARIANTS = Lists.newArrayList(Variant.ARCH, Variant.ARCH_HALF, Variant.ARCH_LARGE,
+//            Variant.ARCH_LARGE_HALF, Variant.ARROWSLIT, Variant.BALUSTRADE, Variant.CAPITAL, Variant.CORNER,
+//            Variant.CORNER_SLAB, Variant.CORNER_SLAB_VERTICAL, Variant.EIGHTH, Variant.PILLAR, Variant.QUARTER,
+//            Variant.QUARTER_VERTICAL, Variant.SLAB, Variant.SLAB_VERTICAL, Variant.STAIRS, Variant.WALL, Variant.WINDOW, Variant.WINDOW_HALF);
+
+
+    public static final List<Variant> STONE_VARIANTS_WITHOUT_STAIRS = Lists.newArrayList(Variant.ARCH, Variant.ARCH_HALF, Variant.ARCH_LARGE,
+            Variant.ARCH_LARGE_HALF, Variant.ARROWSLIT, Variant.BALUSTRADE, Variant.CAPITAL, Variant.CORNER,
+            Variant.CORNER_SLAB, Variant.CORNER_SLAB_VERTICAL, Variant.EIGHTH, Variant.PILLAR, Variant.QUARTER,
+            Variant.QUARTER_VERTICAL, Variant.SLAB, Variant.SLAB_VERTICAL, Variant.WALL, Variant.WINDOW, Variant.WINDOW_HALF);
+
+    public static final List<Variant> STONE_VARIANTS_WITHOUT_STAIRS_WALL = Lists.newArrayList(Variant.ARCH, Variant.ARCH_HALF, Variant.ARCH_LARGE,
+            Variant.ARCH_LARGE_HALF, Variant.ARROWSLIT, Variant.BALUSTRADE, Variant.CAPITAL, Variant.CORNER, Variant.CORNER_SLAB,
+            Variant.CORNER_SLAB_VERTICAL, Variant.EIGHTH, Variant.PILLAR, Variant.QUARTER, Variant.QUARTER_VERTICAL,
+            Variant.SLAB, Variant.SLAB_VERTICAL, Variant.WINDOW, Variant.WINDOW_HALF);
+
+    public static final List<Variant> PLANK_VARIANTS = Lists.newArrayList(Variant.BALUSTRADE, Variant.CAPITAL, Variant.CORNER,
+            Variant.CORNER_SLAB, Variant.CORNER_SLAB_VERTICAL, Variant.EIGHTH, Variant.FENCE, Variant.FENCE_GATE, Variant.PILLAR, Variant.PRESSURE_PLATE,
+            Variant.QUARTER, Variant.QUARTER_VERTICAL, Variant.SLAB, Variant.SLAB_VERTICAL, Variant.STAIRS, Variant.WALL, Variant.WINDOW, Variant.WINDOW_HALF);
+
+    public static final List<Variant> STRIPPED_WOOD_VARIANTS = Lists.newArrayList(Variant.BALUSTRADE, Variant.BEAM_HORIZONTAL,
+            Variant.BEAM_LINTEL, Variant.BEAM_POSTS, Variant.BEAM_VERTICAL,Variant.CAPITAL, Variant.CORNER, Variant.CORNER_SLAB,
+            Variant.CORNER_SLAB_VERTICAL, Variant.DOOR_FRAME, Variant.DOOR_FRAME_LINTEL, Variant.EIGHTH, Variant.PILLAR,
+            Variant.QUARTER, Variant.QUARTER_VERTICAL, Variant.SLAB, Variant.SLAB_VERTICAL, Variant.STAIRS, Variant.WALL,
+            Variant.WINDOW, Variant.WINDOW_HALF);
+
+    public static final List<Variant> TERRACOTTA_VARIANTS = Lists.newArrayList(Variant.ARCH, Variant.ARCH_HALF,
+            Variant.ARCH_LARGE, Variant.ARCH_LARGE_HALF, Variant.ARROWSLIT, Variant.BALUSTRADE, Variant.CAPITAL,
+            Variant.CORNER, Variant.CORNER_SLAB, Variant.CORNER_SLAB_VERTICAL, Variant.EIGHTH, Variant.PILLAR,
+            Variant.QUARTER, Variant.QUARTER_VERTICAL, Variant.ROOF_PEAK, Variant.ROOF_22, Variant.ROOF_45,
+            Variant.ROOF_67, Variant.SLAB, Variant.SLAB_VERTICAL, Variant.STAIRS, Variant.WALL, Variant.WINDOW,
+            Variant.WINDOW_HALF);
+
+    public static final List<Variant> THATCH_VARIANTS = Lists.newArrayList(Variant.CAPITAL,
+            Variant.CORNER, Variant.CORNER_SLAB, Variant.CORNER_SLAB_VERTICAL, Variant.EIGHTH, Variant.PILLAR,
+            Variant.QUARTER, Variant.QUARTER_VERTICAL, Variant.ROOF_PEAK, Variant.ROOF_22, Variant.ROOF_45,
+            Variant.ROOF_67, Variant.SLAB, Variant.SLAB_VERTICAL, Variant.STAIRS, Variant.WALL, Variant.WINDOW,
+            Variant.WINDOW_HALF);
+
+    public static final List<Variant> WOOL_VARIANTS = Lists.newArrayList(Variant.CAPITAL,
+            Variant.CORNER, Variant.CORNER_SLAB, Variant.CORNER_SLAB_VERTICAL, Variant.EIGHTH, Variant.PILLAR,
+            Variant.QUARTER, Variant.QUARTER_VERTICAL, Variant.SLAB, Variant.SLAB_VERTICAL, Variant.STAIRS, Variant.WALL, Variant.WINDOW,
+            Variant.WINDOW_HALF);
+
+
+
+    public static final List<Variant> ROOF_VARIANTS = Lists.newArrayList(Variant.ROOF_PEAK, Variant.ROOF_22, Variant.ROOF_45, Variant.ROOF_67);
+
+//    public static final List<Variant> FURNITURE_VARIANTS =
+
+//    public static final List<Variant> LIGHTING_VARIANTS =
+
+//    public static final List<Variant> GLASS_VARIANTS =
+
+    public static final List<Variant> TUDOR_VARIANTS = Lists.newArrayList(CROSS, DOWN, UP, LEFT, RIGHT, HORIZONTAL_1, HORIZONTAL_2, VERTICAL_1, VERTICAL_2);
+
+
+
+
+    // REMOVE ONCE ALL BLOCKS ARE ADJUSTED
     public static final List<Variant> VARIANTS = Lists.newArrayList(Variant.ARCH, Variant.ARCH_HALF, Variant.ARCH_LARGE,
             Variant.ARCH_LARGE_HALF, Variant.ARROWSLIT, Variant.BALUSTRADE, Variant.CAPITAL, Variant.CORNER,
             Variant.CORNER_SLAB, Variant.CORNER_SLAB_VERTICAL, Variant.EIGHTH, Variant.PILLAR, Variant.QUARTER,
@@ -37,26 +101,9 @@ public class CaliberBlockHelper {
 
     public static final List<Variant> VANILLA_WOOD_VARIANTS = Lists.newArrayList(Variant.FENCE, Variant.FENCE_GATE, Variant.PRESSURE_PLATE);
 
-    // full list
-//    public static final List<Variant> VANILLA_WOOD_VARIANTS = Lists.newArrayList(Variant.BUTTON, Variant.DOOR, Variant.TRAPDOOR,
-//            Variant.FENCE_GATE, Variant.FENCE, Variant.PRESSURE_PLATE, Variant.SIGN, Variant.WALL_SIGN);
-
     public static final List<Variant> STONE_VARIANTS = Lists.newArrayList(Variant.ARCH, Variant.ARCH_HALF, Variant.ARCH_LARGE,
             Variant.ARCH_LARGE_HALF, Variant.ARROWSLIT);
 
-    public static final List<Variant> ROOF_VARIANTS = Lists.newArrayList(Variant.ROOF_PEAK, Variant.ROOF_22, Variant.ROOF_45, Variant.ROOF_67);
-
-//    public static final List<Variant> ROOF_VARIANTS = Lists.newArrayList(Variant.ROOF_PEAK, Variant.ROOF_22, Variant.ROOF_45,
-//            Variant.ROOF_67, Variant.CORNER, Variant.CORNER_SLAB, Variant.CORNER_SLAB_VERTICAL, Variant.PILLAR, Variant.QUARTER, Variant.QUARTER_VERTICAL,
-//            Variant.SLAB, Variant.SLAB_VERTICAL, Variant.STAIRS);
-
-//    public static final List<Variant> FURNITURE_VARIANTS =
-
-//    public static final List<Variant> LIGHTING_VARIANTS =
-
-//    public static final List<Variant> GLASS_VARIANTS =
-
-    public static final List<Variant> TUDOR_VARIANTS = Lists.newArrayList(CROSS, DOWN, UP, LEFT, RIGHT, HORIZONTAL_1, HORIZONTAL_2, VERTICAL_1, VERTICAL_2);
 
     public static <T> List<T> modifyList(List<T> list, Consumer<List<T>> consumer) {
         List<T> newList = new ArrayList<>(list);
@@ -358,7 +405,7 @@ public class CaliberBlockHelper {
 //        }
 
         if (tex.getPath().equals("block/basalt") || tex.getPath().equals("block/polished_basalt")
-                || tex.getPath().contains("quartz")) {
+                || (tex.getPath().contains("quartz") && !tex.getPath().contains("brick"))){
             ResourceLocation side = new ResourceLocation(tex.getNamespace(), tex.getPath() + "_side");
             ResourceLocation top = new ResourceLocation(tex.getNamespace(), tex.getPath() + "_top");
             if (tex.getPath().equals("block/smooth_quartz")) {

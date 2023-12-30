@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "caliber:block/light_gray_wool_capital_top"
+    },
+    "type=bottom": {
+      "model": "caliber:block/light_gray_wool_capital"
+    }
+  }
+}

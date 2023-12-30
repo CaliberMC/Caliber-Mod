@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/templates/slab_vertical_layer_4",
+  "textures": {
+    "side": "minecraft:block/netherite_block",
+    "top": "minecraft:block/netherite_block",
+    "bottom": "minecraft:block/netherite_block"
+  }
+}

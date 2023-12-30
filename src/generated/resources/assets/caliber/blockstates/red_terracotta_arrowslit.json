@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "caliber:block/red_terracotta_arrowslit"
+    },
+    "facing=south": {
+      "model": "caliber:block/red_terracotta_arrowslit",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "caliber:block/red_terracotta_arrowslit",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "caliber:block/red_terracotta_arrowslit",
+      "y": 90
+    }
+  }
+}

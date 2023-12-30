@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/templates/slab_vertical_layer_7",
+  "textures": {
+    "side": "minecraft:block/green_concrete",
+    "top": "minecraft:block/green_concrete",
+    "bottom": "minecraft:block/green_concrete"
+  }
+}

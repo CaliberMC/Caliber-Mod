@@ -1,0 +1,79 @@
+{
+  "variants": {
+    "facing=north,type=straight": {
+      "model": "caliber:block/light_gray_terracotta_roof_45",
+      "y": 270
+    },
+    "facing=south,type=straight": {
+      "model": "caliber:block/light_gray_terracotta_roof_45",
+      "y": 90
+    },
+    "facing=west,type=straight": {
+      "model": "caliber:block/light_gray_terracotta_roof_45",
+      "y": 180
+    },
+    "facing=east,type=straight": {
+      "model": "caliber:block/light_gray_terracotta_roof_45"
+    },
+    "facing=north,type=outer_left": {
+      "model": "caliber:block/light_gray_terracotta_roof_45_outer",
+      "y": 180
+    },
+    "facing=south,type=outer_left": {
+      "model": "caliber:block/light_gray_terracotta_roof_45_outer"
+    },
+    "facing=west,type=outer_left": {
+      "model": "caliber:block/light_gray_terracotta_roof_45_outer",
+      "y": 90
+    },
+    "facing=east,type=outer_left": {
+      "model": "caliber:block/light_gray_terracotta_roof_45_outer",
+      "y": 270
+    },
+    "facing=north,type=outer_right": {
+      "model": "caliber:block/light_gray_terracotta_roof_45_outer",
+      "y": 270
+    },
+    "facing=south,type=outer_right": {
+      "model": "caliber:block/light_gray_terracotta_roof_45_outer",
+      "y": 90
+    },
+    "facing=west,type=outer_right": {
+      "model": "caliber:block/light_gray_terracotta_roof_45_outer",
+      "y": 180
+    },
+    "facing=east,type=outer_right": {
+      "model": "caliber:block/light_gray_terracotta_roof_45_outer"
+    },
+    "facing=north,type=inner_left": {
+      "model": "caliber:block/light_gray_terracotta_roof_45_inner",
+      "y": 180
+    },
+    "facing=south,type=inner_left": {
+      "model": "caliber:block/light_gray_terracotta_roof_45_inner"
+    },
+    "facing=west,type=inner_left": {
+      "model": "caliber:block/light_gray_terracotta_roof_45_inner",
+      "y": 90
+    },
+    "facing=east,type=inner_left": {
+      "model": "caliber:block/light_gray_terracotta_roof_45_inner",
+      "y": 270
+    },
+    "facing=north,type=inner_right": {
+      "model": "caliber:block/light_gray_terracotta_roof_45_inner",
+      "y": 270
+    },
+    "facing=south,type=inner_right": {
+      "model": "caliber:block/light_gray_terracotta_roof_45_inner",
+      "y": 90
+    },
+    "facing=west,type=inner_right": {
+      "model": "caliber:block/light_gray_terracotta_roof_45_inner",
+      "y": 180
+    },
+    "facing=east,type=inner_right": {
+      "model": "caliber:block/light_gray_terracotta_roof_45_inner"
+    }
+  }
+}

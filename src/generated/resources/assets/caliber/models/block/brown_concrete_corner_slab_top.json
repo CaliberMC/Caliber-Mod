@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/templates/corner_slab_top",
+  "textures": {
+    "side": "minecraft:block/brown_concrete",
+    "top": "minecraft:block/brown_concrete",
+    "bottom": "minecraft:block/brown_concrete"
+  }
+}

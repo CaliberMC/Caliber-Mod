@@ -1,0 +1,40 @@
+{
+  "variants": {
+    "facing=north,type=right": {
+      "model": "caliber:block/white_concrete_arch_large_half"
+    },
+    "facing=south,type=right": {
+      "model": "caliber:block/white_concrete_arch_large_half",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west,type=right": {
+      "model": "caliber:block/white_concrete_arch_large_half",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=east,type=right": {
+      "model": "caliber:block/white_concrete_arch_large_half",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=north,type=left": {
+      "model": "caliber:block/white_concrete_arch_large_half_left"
+    },
+    "facing=south,type=left": {
+      "model": "caliber:block/white_concrete_arch_large_half_left",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west,type=left": {
+      "model": "caliber:block/white_concrete_arch_large_half_left",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=east,type=left": {
+      "model": "caliber:block/white_concrete_arch_large_half_left",
+      "y": 90,
+      "uvlock": true
+    }
+  }
+}

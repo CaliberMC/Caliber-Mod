@@ -73,6 +73,11 @@
     "caliber:chiseled_brown_sandstone",
     "caliber:chiseled_orange_sandstone",
     "minecraft:chiseled_red_sandstone",
-    "minecraft:chiseled_sandstone"
+    "minecraft:chiseled_sandstone",
+    "minecraft:bricks",
+    "minecraft:end_stone_bricks",
+    "minecraft:nether_bricks",
+    "minecraft:red_nether_bricks",
+    "minecraft:prismarine_bricks"
   ]
 }

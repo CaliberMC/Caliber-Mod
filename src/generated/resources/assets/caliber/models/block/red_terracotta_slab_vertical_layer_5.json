@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/templates/slab_vertical_layer_5",
+  "textures": {
+    "side": "minecraft:block/red_terracotta",
+    "top": "minecraft:block/red_terracotta",
+    "bottom": "minecraft:block/red_terracotta"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "caliber:block/red_nether_brick_capital_top"
+    },
+    "type=bottom": {
+      "model": "caliber:block/red_nether_brick_capital"
+    }
+  }
+}

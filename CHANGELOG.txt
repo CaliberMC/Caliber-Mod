@@ -257,5 +257,33 @@ Added Bronze Armor and Tools
 - Bugfix: fixed occulsion/shadows on 67 degree roof blocks (this is experimental and may be reworked in the future)
 
 - 0.0.31 (in progress)
+- Added a total of 1,251 new blocks!
+- Current Mod Block Count is at 5,519 !!!!!! (this is a huge update)
+(All Vanilla Variants for 1.18 that will be added have now been added)
+- Added all Brick variants
+- Added all Calcite variants
+- Added all Concrete variants
+- Added all Dripstone variants
+- Added all End Stone variants
+- Added all End Stone Brick variants
+- Added all Nethrite variants
+- Added all Nether Brick variants
+- Added all Red Nether Brick variants
+- Added all Obsidian variants
+- Added all Prismarine variants
+- Added all Prismarine Brick variants
+_ Added all Dark Prismarine variants
+- Added all Purpur variants
+- Added all Quartz Brick variants
+- Added all Terracotta variants
+- Added all Tuff variants
+- Added all Wool variants
+_ Added all Terracotta Roof variants
+- Double-checked all English Translations (They are all included, if you would like to contribute other languages please join the discord server)
+- BETA RELEASE IS COMING SOON!
+
+
+
+
 
 

@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/templates/arch_corner",
+  "textures": {
+    "side": "minecraft:block/lime_concrete",
+    "top": "minecraft:block/lime_concrete",
+    "bottom": "minecraft:block/lime_concrete"
+  }
+}

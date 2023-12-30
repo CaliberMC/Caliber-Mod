@@ -5,6 +5,7 @@ import com.calibermc.caliber.block.entity.ModBlockEntities;
 import com.calibermc.caliber.config.CaliberClientConfigs;
 import com.calibermc.caliber.config.CaliberCommonConfigs;
 import com.calibermc.caliber.crafting.ModRecipeSerializers;
+import com.calibermc.caliber.data.datagen.ModBlockStateProvider;
 import com.calibermc.caliber.item.CreativeTabs;
 import com.calibermc.caliber.item.ModItems;
 import com.calibermc.caliber.networking.ModNetworking;

@@ -42,7 +42,6 @@ public class CreativeTabs {
             "red_marble", "white_marble"};
     private static final String[] SANDSTONE = new String[]{"brown_sandstone", "orange_sandstone", "red_sandstone", "sandstone"};
 
-    //public static void setupCreativeTabs()
     public static void setupCreativeTabs() {
         TABS = new CreativeModeTab[CreativeModeTab.TABS.length];
         System.arraycopy(CreativeModeTab.TABS, 0, TABS, 0, CreativeModeTab.TABS.length);

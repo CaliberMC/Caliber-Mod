@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/templates/arch",
+  "textures": {
+    "side": "minecraft:block/nether_bricks",
+    "top": "minecraft:block/nether_bricks",
+    "bottom": "minecraft:block/nether_bricks"
+  }
+}
