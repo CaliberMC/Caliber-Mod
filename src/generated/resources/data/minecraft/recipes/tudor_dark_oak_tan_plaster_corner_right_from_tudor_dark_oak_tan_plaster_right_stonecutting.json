@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "caliber:tudor_dark_oak_tan_plaster_right"
-  },
-  "result": "caliber:tudor_dark_oak_tan_plaster_corner_right",
-  "count": 2
-}

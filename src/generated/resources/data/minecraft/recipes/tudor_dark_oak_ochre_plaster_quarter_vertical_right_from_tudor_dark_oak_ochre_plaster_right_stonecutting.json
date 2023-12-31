@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "caliber:tudor_dark_oak_ochre_plaster_right"
-  },
-  "result": "caliber:tudor_dark_oak_ochre_plaster_quarter_vertical_right",
-  "count": 4
-}

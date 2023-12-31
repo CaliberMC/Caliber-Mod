@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "caliber:tudor_acacia_brown_plaster_left"
-  },
-  "result": "caliber:tudor_acacia_brown_plaster_corner_left",
-  "count": 2
-}

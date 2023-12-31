@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/corner",
-  "textures": {
-    "side": "caliber:block/tudor_jungle_ochre_plaster_down",
-    "bottom": "minecraft:block/jungle_planks",
-    "top": "minecraft:block/jungle_planks"
-  }
-}

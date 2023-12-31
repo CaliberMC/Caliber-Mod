@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/slab_vertical",
-  "textures": {
-    "side": "caliber:block/tudor_oak_tan_plaster_horizontal_2",
-    "bottom": "minecraft:block/oak_planks",
-    "top": "minecraft:block/oak_planks"
-  }
-}

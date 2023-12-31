@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/slab_vertical",
-  "textures": {
-    "side": "caliber:block/tudor_jungle_ochre_plaster_right",
-    "bottom": "minecraft:block/jungle_planks",
-    "top": "minecraft:block/jungle_planks"
-  }
-}

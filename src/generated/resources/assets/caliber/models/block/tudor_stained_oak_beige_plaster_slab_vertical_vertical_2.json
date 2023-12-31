@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/templates/slab_vertical",
+  "textures": {
+    "side": "caliber:block/tudor_stained_oak_beige_plaster_vertical_2",
+    "bottom": "caliber:block/oak_boards",
+    "top": "caliber:block/oak_boards"
+  }
+}

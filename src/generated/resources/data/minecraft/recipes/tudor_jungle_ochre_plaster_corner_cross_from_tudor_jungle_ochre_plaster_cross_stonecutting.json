@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "caliber:tudor_jungle_ochre_plaster_cross"
-  },
-  "result": "caliber:tudor_jungle_ochre_plaster_corner_cross",
-  "count": 2
-}

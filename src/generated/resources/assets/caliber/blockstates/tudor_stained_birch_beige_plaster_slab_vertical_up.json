@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,type=single": {
+      "model": "caliber:block/tudor_stained_birch_beige_plaster_slab_vertical_up"
+    },
+    "facing=south,type=single": {
+      "model": "caliber:block/tudor_stained_birch_beige_plaster_slab_vertical_up",
+      "y": 180
+    },
+    "facing=west,type=single": {
+      "model": "caliber:block/tudor_stained_birch_beige_plaster_slab_vertical_up",
+      "y": 270
+    },
+    "facing=east,type=single": {
+      "model": "caliber:block/tudor_stained_birch_beige_plaster_slab_vertical_up",
+      "y": 90
+    },
+    "facing=north,type=double": {
+      "model": "caliber:block/tudor_stained_birch_beige_plaster_up"
+    },
+    "facing=south,type=double": {
+      "model": "caliber:block/tudor_stained_birch_beige_plaster_up",
+      "y": 180
+    },
+    "facing=west,type=double": {
+      "model": "caliber:block/tudor_stained_birch_beige_plaster_up",
+      "y": 270
+    },
+    "facing=east,type=double": {
+      "model": "caliber:block/tudor_stained_birch_beige_plaster_up",
+      "y": 90
+    }
+  }
+}

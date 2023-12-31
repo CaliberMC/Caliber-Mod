@@ -1330,855 +1330,6 @@ public class ModBlockFamilies {
             .slab_vertical(ModBlocks.TUDOR_SPRUCE_BEIGE_PLASTER_SLAB_VERTICAL.get(VERTICAL_2))
             .getFamily();
 
-    /* BROWN PLASTER */
-    /* Acacia Brown Plaster Half-Timbered */
-    public static final ModBlockFamily TUDOR_ACACIA_BROWN_PLASTER_CROSS = familyBuilder(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER.get(CROSS))
-            .corner(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER_CORNER.get(CROSS))
-            .quarter_vertical(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER_QUARTER_VERTICAL.get(CROSS))
-            .slab_vertical(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER_SLAB_VERTICAL.get(CROSS))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_ACACIA_BROWN_PLASTER_DOWN = familyBuilder(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER.get(DOWN))
-            .corner(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER_CORNER.get(DOWN))
-            .quarter_vertical(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER_QUARTER_VERTICAL.get(DOWN))
-            .slab_vertical(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER_SLAB_VERTICAL.get(DOWN))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_ACACIA_BROWN_PLASTER_UP = familyBuilder(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER.get(UP))
-            .corner(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER_CORNER.get(UP))
-            .quarter_vertical(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER_QUARTER_VERTICAL.get(UP))
-            .slab_vertical(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER_SLAB_VERTICAL.get(UP))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_ACACIA_BROWN_PLASTER_LEFT = familyBuilder(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER.get(LEFT))
-            .corner(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER_CORNER.get(LEFT))
-            .quarter_vertical(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER_QUARTER_VERTICAL.get(LEFT))
-            .slab_vertical(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER_SLAB_VERTICAL.get(LEFT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_ACACIA_BROWN_PLASTER_RIGHT = familyBuilder(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER.get(RIGHT))
-            .corner(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER_CORNER.get(RIGHT))
-            .quarter_vertical(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER_QUARTER_VERTICAL.get(RIGHT))
-            .slab_vertical(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER_SLAB_VERTICAL.get(RIGHT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_ACACIA_BROWN_PLASTER_HORIZONTAL_1 = familyBuilder(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER.get(HORIZONTAL_1))
-            .corner(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER_CORNER.get(HORIZONTAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_1))
-            .slab_vertical(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_ACACIA_BROWN_PLASTER_HORIZONTAL_2 = familyBuilder(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER.get(HORIZONTAL_2))
-            .corner(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER_CORNER.get(HORIZONTAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_2))
-            .slab_vertical(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_2))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_ACACIA_BROWN_PLASTER_VERTICAL_1 = familyBuilder(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER.get(VERTICAL_1))
-            .corner(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER_CORNER.get(VERTICAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER_QUARTER_VERTICAL.get(VERTICAL_1))
-            .slab_vertical(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER_SLAB_VERTICAL.get(VERTICAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_ACACIA_BROWN_PLASTER_VERTICAL_2 = familyBuilder(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER.get(VERTICAL_2))
-            .corner(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER_CORNER.get(VERTICAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER_QUARTER_VERTICAL.get(VERTICAL_2))
-            .slab_vertical(ModBlocks.TUDOR_ACACIA_BROWN_PLASTER_SLAB_VERTICAL.get(VERTICAL_2))
-            .getFamily();
-
-    /* Birch Brown Plaster Half-Timbered */
-    public static final ModBlockFamily TUDOR_BIRCH_BROWN_PLASTER_CROSS = familyBuilder(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER.get(CROSS))
-            .corner(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER_CORNER.get(CROSS))
-            .quarter_vertical(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER_QUARTER_VERTICAL.get(CROSS))
-            .slab_vertical(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER_SLAB_VERTICAL.get(CROSS))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_BIRCH_BROWN_PLASTER_DOWN = familyBuilder(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER.get(DOWN))
-            .corner(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER_CORNER.get(DOWN))
-            .quarter_vertical(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER_QUARTER_VERTICAL.get(DOWN))
-            .slab_vertical(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER_SLAB_VERTICAL.get(DOWN))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_BIRCH_BROWN_PLASTER_UP = familyBuilder(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER.get(UP))
-            .corner(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER_CORNER.get(UP))
-            .quarter_vertical(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER_QUARTER_VERTICAL.get(UP))
-            .slab_vertical(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER_SLAB_VERTICAL.get(UP))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_BIRCH_BROWN_PLASTER_LEFT = familyBuilder(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER.get(LEFT))
-            .corner(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER_CORNER.get(LEFT))
-            .quarter_vertical(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER_QUARTER_VERTICAL.get(LEFT))
-            .slab_vertical(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER_SLAB_VERTICAL.get(LEFT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_BIRCH_BROWN_PLASTER_RIGHT = familyBuilder(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER.get(RIGHT))
-            .corner(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER_CORNER.get(RIGHT))
-            .quarter_vertical(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER_QUARTER_VERTICAL.get(RIGHT))
-            .slab_vertical(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER_SLAB_VERTICAL.get(RIGHT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_BIRCH_BROWN_PLASTER_HORIZONTAL_1 = familyBuilder(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER.get(HORIZONTAL_1))
-            .corner(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER_CORNER.get(HORIZONTAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_1))
-            .slab_vertical(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_BIRCH_BROWN_PLASTER_HORIZONTAL_2 = familyBuilder(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER.get(HORIZONTAL_2))
-            .corner(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER_CORNER.get(HORIZONTAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_2))
-            .slab_vertical(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_2))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_BIRCH_BROWN_PLASTER_VERTICAL_1 = familyBuilder(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER.get(VERTICAL_1))
-            .corner(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER_CORNER.get(VERTICAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER_QUARTER_VERTICAL.get(VERTICAL_1))
-            .slab_vertical(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER_SLAB_VERTICAL.get(VERTICAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_BIRCH_BROWN_PLASTER_VERTICAL_2 = familyBuilder(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER.get(VERTICAL_2))
-            .corner(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER_CORNER.get(VERTICAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER_QUARTER_VERTICAL.get(VERTICAL_2))
-            .slab_vertical(ModBlocks.TUDOR_BIRCH_BROWN_PLASTER_SLAB_VERTICAL.get(VERTICAL_2))
-            .getFamily();
-
-    /* Dark Oak Brown Plaster Half-Timbered */
-    public static final ModBlockFamily TUDOR_DARK_OAK_BROWN_PLASTER_CROSS = familyBuilder(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER.get(CROSS))
-            .corner(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER_CORNER.get(CROSS))
-            .quarter_vertical(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER_QUARTER_VERTICAL.get(CROSS))
-            .slab_vertical(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER_SLAB_VERTICAL.get(CROSS))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_DARK_OAK_BROWN_PLASTER_DOWN = familyBuilder(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER.get(DOWN))
-            .corner(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER_CORNER.get(DOWN))
-            .quarter_vertical(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER_QUARTER_VERTICAL.get(DOWN))
-            .slab_vertical(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER_SLAB_VERTICAL.get(DOWN))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_DARK_OAK_BROWN_PLASTER_UP = familyBuilder(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER.get(UP))
-            .corner(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER_CORNER.get(UP))
-            .quarter_vertical(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER_QUARTER_VERTICAL.get(UP))
-            .slab_vertical(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER_SLAB_VERTICAL.get(UP))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_DARK_OAK_BROWN_PLASTER_LEFT = familyBuilder(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER.get(LEFT))
-            .corner(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER_CORNER.get(LEFT))
-            .quarter_vertical(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER_QUARTER_VERTICAL.get(LEFT))
-            .slab_vertical(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER_SLAB_VERTICAL.get(LEFT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_DARK_OAK_BROWN_PLASTER_RIGHT = familyBuilder(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER.get(RIGHT))
-            .corner(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER_CORNER.get(RIGHT))
-            .quarter_vertical(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER_QUARTER_VERTICAL.get(RIGHT))
-            .slab_vertical(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER_SLAB_VERTICAL.get(RIGHT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_DARK_OAK_BROWN_PLASTER_HORIZONTAL_1 = familyBuilder(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER.get(HORIZONTAL_1))
-            .corner(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER_CORNER.get(HORIZONTAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_1))
-            .slab_vertical(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_DARK_OAK_BROWN_PLASTER_HORIZONTAL_2 = familyBuilder(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER.get(HORIZONTAL_2))
-            .corner(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER_CORNER.get(HORIZONTAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_2))
-            .slab_vertical(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_2))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_DARK_OAK_BROWN_PLASTER_VERTICAL_1 = familyBuilder(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER.get(VERTICAL_1))
-            .corner(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER_CORNER.get(VERTICAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER_QUARTER_VERTICAL.get(VERTICAL_1))
-            .slab_vertical(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER_SLAB_VERTICAL.get(VERTICAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_DARK_OAK_BROWN_PLASTER_VERTICAL_2 = familyBuilder(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER.get(VERTICAL_2))
-            .corner(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER_CORNER.get(VERTICAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER_QUARTER_VERTICAL.get(VERTICAL_2))
-            .slab_vertical(ModBlocks.TUDOR_DARK_OAK_BROWN_PLASTER_SLAB_VERTICAL.get(VERTICAL_2))
-            .getFamily();
-
-    /* Jungle Brown Plaster Half-Timbered */
-    public static final ModBlockFamily TUDOR_JUNGLE_BROWN_PLASTER_CROSS = familyBuilder(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER.get(CROSS))
-            .corner(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER_CORNER.get(CROSS))
-            .quarter_vertical(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER_QUARTER_VERTICAL.get(CROSS))
-            .slab_vertical(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER_SLAB_VERTICAL.get(CROSS))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_JUNGLE_BROWN_PLASTER_DOWN = familyBuilder(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER.get(DOWN))
-            .corner(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER_CORNER.get(DOWN))
-            .quarter_vertical(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER_QUARTER_VERTICAL.get(DOWN))
-            .slab_vertical(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER_SLAB_VERTICAL.get(DOWN))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_JUNGLE_BROWN_PLASTER_UP = familyBuilder(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER.get(UP))
-            .corner(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER_CORNER.get(UP))
-            .quarter_vertical(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER_QUARTER_VERTICAL.get(UP))
-            .slab_vertical(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER_SLAB_VERTICAL.get(UP))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_JUNGLE_BROWN_PLASTER_LEFT = familyBuilder(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER.get(LEFT))
-            .corner(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER_CORNER.get(LEFT))
-            .quarter_vertical(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER_QUARTER_VERTICAL.get(LEFT))
-            .slab_vertical(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER_SLAB_VERTICAL.get(LEFT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_JUNGLE_BROWN_PLASTER_RIGHT = familyBuilder(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER.get(RIGHT))
-            .corner(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER_CORNER.get(RIGHT))
-            .quarter_vertical(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER_QUARTER_VERTICAL.get(RIGHT))
-            .slab_vertical(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER_SLAB_VERTICAL.get(RIGHT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_JUNGLE_BROWN_PLASTER_HORIZONTAL_1 = familyBuilder(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER.get(HORIZONTAL_1))
-            .corner(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER_CORNER.get(HORIZONTAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_1))
-            .slab_vertical(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_JUNGLE_BROWN_PLASTER_HORIZONTAL_2 = familyBuilder(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER.get(HORIZONTAL_2))
-            .corner(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER_CORNER.get(HORIZONTAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_2))
-            .slab_vertical(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_2))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_JUNGLE_BROWN_PLASTER_VERTICAL_1 = familyBuilder(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER.get(VERTICAL_1))
-            .corner(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER_CORNER.get(VERTICAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER_QUARTER_VERTICAL.get(VERTICAL_1))
-            .slab_vertical(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER_SLAB_VERTICAL.get(VERTICAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_JUNGLE_BROWN_PLASTER_VERTICAL_2 = familyBuilder(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER.get(VERTICAL_2))
-            .corner(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER_CORNER.get(VERTICAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER_QUARTER_VERTICAL.get(VERTICAL_2))
-            .slab_vertical(ModBlocks.TUDOR_JUNGLE_BROWN_PLASTER_SLAB_VERTICAL.get(VERTICAL_2))
-            .getFamily();
-
-    /* Oak Brown Plaster Half-Timbered */
-    public static final ModBlockFamily TUDOR_OAK_BROWN_PLASTER_CROSS = familyBuilder(ModBlocks.TUDOR_OAK_BROWN_PLASTER.get(CROSS))
-            .corner(ModBlocks.TUDOR_OAK_BROWN_PLASTER_CORNER.get(CROSS))
-            .quarter_vertical(ModBlocks.TUDOR_OAK_BROWN_PLASTER_QUARTER_VERTICAL.get(CROSS))
-            .slab_vertical(ModBlocks.TUDOR_OAK_BROWN_PLASTER_SLAB_VERTICAL.get(CROSS))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_OAK_BROWN_PLASTER_DOWN = familyBuilder(ModBlocks.TUDOR_OAK_BROWN_PLASTER.get(DOWN))
-            .corner(ModBlocks.TUDOR_OAK_BROWN_PLASTER_CORNER.get(DOWN))
-            .quarter_vertical(ModBlocks.TUDOR_OAK_BROWN_PLASTER_QUARTER_VERTICAL.get(DOWN))
-            .slab_vertical(ModBlocks.TUDOR_OAK_BROWN_PLASTER_SLAB_VERTICAL.get(DOWN))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_OAK_BROWN_PLASTER_UP = familyBuilder(ModBlocks.TUDOR_OAK_BROWN_PLASTER.get(UP))
-            .corner(ModBlocks.TUDOR_OAK_BROWN_PLASTER_CORNER.get(UP))
-            .quarter_vertical(ModBlocks.TUDOR_OAK_BROWN_PLASTER_QUARTER_VERTICAL.get(UP))
-            .slab_vertical(ModBlocks.TUDOR_OAK_BROWN_PLASTER_SLAB_VERTICAL.get(UP))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_OAK_BROWN_PLASTER_LEFT = familyBuilder(ModBlocks.TUDOR_OAK_BROWN_PLASTER.get(LEFT))
-            .corner(ModBlocks.TUDOR_OAK_BROWN_PLASTER_CORNER.get(LEFT))
-            .quarter_vertical(ModBlocks.TUDOR_OAK_BROWN_PLASTER_QUARTER_VERTICAL.get(LEFT))
-            .slab_vertical(ModBlocks.TUDOR_OAK_BROWN_PLASTER_SLAB_VERTICAL.get(LEFT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_OAK_BROWN_PLASTER_RIGHT = familyBuilder(ModBlocks.TUDOR_OAK_BROWN_PLASTER.get(RIGHT))
-            .corner(ModBlocks.TUDOR_OAK_BROWN_PLASTER_CORNER.get(RIGHT))
-            .quarter_vertical(ModBlocks.TUDOR_OAK_BROWN_PLASTER_QUARTER_VERTICAL.get(RIGHT))
-            .slab_vertical(ModBlocks.TUDOR_OAK_BROWN_PLASTER_SLAB_VERTICAL.get(RIGHT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_OAK_BROWN_PLASTER_HORIZONTAL_1 = familyBuilder(ModBlocks.TUDOR_OAK_BROWN_PLASTER.get(HORIZONTAL_1))
-            .corner(ModBlocks.TUDOR_OAK_BROWN_PLASTER_CORNER.get(HORIZONTAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_OAK_BROWN_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_1))
-            .slab_vertical(ModBlocks.TUDOR_OAK_BROWN_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_OAK_BROWN_PLASTER_HORIZONTAL_2 = familyBuilder(ModBlocks.TUDOR_OAK_BROWN_PLASTER.get(HORIZONTAL_2))
-            .corner(ModBlocks.TUDOR_OAK_BROWN_PLASTER_CORNER.get(HORIZONTAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_OAK_BROWN_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_2))
-            .slab_vertical(ModBlocks.TUDOR_OAK_BROWN_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_2))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_OAK_BROWN_PLASTER_VERTICAL_1 = familyBuilder(ModBlocks.TUDOR_OAK_BROWN_PLASTER.get(VERTICAL_1))
-            .corner(ModBlocks.TUDOR_OAK_BROWN_PLASTER_CORNER.get(VERTICAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_OAK_BROWN_PLASTER_QUARTER_VERTICAL.get(VERTICAL_1))
-            .slab_vertical(ModBlocks.TUDOR_OAK_BROWN_PLASTER_SLAB_VERTICAL.get(VERTICAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_OAK_BROWN_PLASTER_VERTICAL_2 = familyBuilder(ModBlocks.TUDOR_OAK_BROWN_PLASTER.get(VERTICAL_2))
-            .corner(ModBlocks.TUDOR_OAK_BROWN_PLASTER_CORNER.get(VERTICAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_OAK_BROWN_PLASTER_QUARTER_VERTICAL.get(VERTICAL_2))
-            .slab_vertical(ModBlocks.TUDOR_OAK_BROWN_PLASTER_SLAB_VERTICAL.get(VERTICAL_2))
-            .getFamily();
-
-    /* Spruce Brown Plaster Half-Timbered */
-    public static final ModBlockFamily TUDOR_SPRUCE_BROWN_PLASTER_CROSS = familyBuilder(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER.get(CROSS))
-            .corner(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER_CORNER.get(CROSS))
-            .quarter_vertical(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER_QUARTER_VERTICAL.get(CROSS))
-            .slab_vertical(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER_SLAB_VERTICAL.get(CROSS))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_SPRUCE_BROWN_PLASTER_DOWN = familyBuilder(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER.get(DOWN))
-            .corner(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER_CORNER.get(DOWN))
-            .quarter_vertical(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER_QUARTER_VERTICAL.get(DOWN))
-            .slab_vertical(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER_SLAB_VERTICAL.get(DOWN))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_SPRUCE_BROWN_PLASTER_UP = familyBuilder(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER.get(UP))
-            .corner(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER_CORNER.get(UP))
-            .quarter_vertical(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER_QUARTER_VERTICAL.get(UP))
-            .slab_vertical(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER_SLAB_VERTICAL.get(UP))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_SPRUCE_BROWN_PLASTER_LEFT = familyBuilder(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER.get(LEFT))
-            .corner(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER_CORNER.get(LEFT))
-            .quarter_vertical(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER_QUARTER_VERTICAL.get(LEFT))
-            .slab_vertical(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER_SLAB_VERTICAL.get(LEFT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_SPRUCE_BROWN_PLASTER_RIGHT = familyBuilder(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER.get(RIGHT))
-            .corner(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER_CORNER.get(RIGHT))
-            .quarter_vertical(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER_QUARTER_VERTICAL.get(RIGHT))
-            .slab_vertical(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER_SLAB_VERTICAL.get(RIGHT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_SPRUCE_BROWN_PLASTER_HORIZONTAL_1 = familyBuilder(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER.get(HORIZONTAL_1))
-            .corner(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER_CORNER.get(HORIZONTAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_1))
-            .slab_vertical(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_SPRUCE_BROWN_PLASTER_HORIZONTAL_2 = familyBuilder(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER.get(HORIZONTAL_2))
-            .corner(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER_CORNER.get(HORIZONTAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_2))
-            .slab_vertical(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_2))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_SPRUCE_BROWN_PLASTER_VERTICAL_1 = familyBuilder(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER.get(VERTICAL_1))
-            .corner(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER_CORNER.get(VERTICAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER_QUARTER_VERTICAL.get(VERTICAL_1))
-            .slab_vertical(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER_SLAB_VERTICAL.get(VERTICAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_SPRUCE_BROWN_PLASTER_VERTICAL_2 = familyBuilder(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER.get(VERTICAL_2))
-            .corner(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER_CORNER.get(VERTICAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER_QUARTER_VERTICAL.get(VERTICAL_2))
-            .slab_vertical(ModBlocks.TUDOR_SPRUCE_BROWN_PLASTER_SLAB_VERTICAL.get(VERTICAL_2))
-            .getFamily();
-
-    /* OCHRE PLASTER */
-    /* Acacia Ochre Plaster Half-Timbered */
-    public static final ModBlockFamily TUDOR_ACACIA_OCHRE_PLASTER_CROSS = familyBuilder(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER.get(CROSS))
-            .corner(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER_CORNER.get(CROSS))
-            .quarter_vertical(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER_QUARTER_VERTICAL.get(CROSS))
-            .slab_vertical(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER_SLAB_VERTICAL.get(CROSS))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_ACACIA_OCHRE_PLASTER_DOWN = familyBuilder(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER.get(DOWN))
-            .corner(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER_CORNER.get(DOWN))
-            .quarter_vertical(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER_QUARTER_VERTICAL.get(DOWN))
-            .slab_vertical(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER_SLAB_VERTICAL.get(DOWN))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_ACACIA_OCHRE_PLASTER_UP = familyBuilder(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER.get(UP))
-            .corner(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER_CORNER.get(UP))
-            .quarter_vertical(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER_QUARTER_VERTICAL.get(UP))
-            .slab_vertical(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER_SLAB_VERTICAL.get(UP))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_ACACIA_OCHRE_PLASTER_LEFT = familyBuilder(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER.get(LEFT))
-            .corner(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER_CORNER.get(LEFT))
-            .quarter_vertical(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER_QUARTER_VERTICAL.get(LEFT))
-            .slab_vertical(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER_SLAB_VERTICAL.get(LEFT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_ACACIA_OCHRE_PLASTER_RIGHT = familyBuilder(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER.get(RIGHT))
-            .corner(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER_CORNER.get(RIGHT))
-            .quarter_vertical(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER_QUARTER_VERTICAL.get(RIGHT))
-            .slab_vertical(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER_SLAB_VERTICAL.get(RIGHT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_ACACIA_OCHRE_PLASTER_HORIZONTAL_1 = familyBuilder(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER.get(HORIZONTAL_1))
-            .corner(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER_CORNER.get(HORIZONTAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_1))
-            .slab_vertical(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_ACACIA_OCHRE_PLASTER_HORIZONTAL_2 = familyBuilder(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER.get(HORIZONTAL_2))
-            .corner(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER_CORNER.get(HORIZONTAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_2))
-            .slab_vertical(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_2))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_ACACIA_OCHRE_PLASTER_VERTICAL_1 = familyBuilder(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER.get(VERTICAL_1))
-            .corner(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER_CORNER.get(VERTICAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_1))
-            .slab_vertical(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER_SLAB_VERTICAL.get(VERTICAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_ACACIA_OCHRE_PLASTER_VERTICAL_2 = familyBuilder(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER.get(VERTICAL_2))
-            .corner(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER_CORNER.get(VERTICAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_2))
-            .slab_vertical(ModBlocks.TUDOR_ACACIA_OCHRE_PLASTER_SLAB_VERTICAL.get(VERTICAL_2))
-            .getFamily();
-
-    /* Birch Ochre Plaster Half-Timbered */
-    public static final ModBlockFamily TUDOR_BIRCH_OCHRE_PLASTER_CROSS = familyBuilder(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER.get(CROSS))
-            .corner(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER_CORNER.get(CROSS))
-            .quarter_vertical(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER_QUARTER_VERTICAL.get(CROSS))
-            .slab_vertical(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER_SLAB_VERTICAL.get(CROSS))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_BIRCH_OCHRE_PLASTER_DOWN = familyBuilder(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER.get(DOWN))
-            .corner(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER_CORNER.get(DOWN))
-            .quarter_vertical(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER_QUARTER_VERTICAL.get(DOWN))
-            .slab_vertical(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER_SLAB_VERTICAL.get(DOWN))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_BIRCH_OCHRE_PLASTER_UP = familyBuilder(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER.get(UP))
-            .corner(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER_CORNER.get(UP))
-            .quarter_vertical(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER_QUARTER_VERTICAL.get(UP))
-            .slab_vertical(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER_SLAB_VERTICAL.get(UP))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_BIRCH_OCHRE_PLASTER_LEFT = familyBuilder(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER.get(LEFT))
-            .corner(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER_CORNER.get(LEFT))
-            .quarter_vertical(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER_QUARTER_VERTICAL.get(LEFT))
-            .slab_vertical(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER_SLAB_VERTICAL.get(LEFT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_BIRCH_OCHRE_PLASTER_RIGHT = familyBuilder(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER.get(RIGHT))
-            .corner(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER_CORNER.get(RIGHT))
-            .quarter_vertical(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER_QUARTER_VERTICAL.get(RIGHT))
-            .slab_vertical(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER_SLAB_VERTICAL.get(RIGHT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_BIRCH_OCHRE_PLASTER_HORIZONTAL_1 = familyBuilder(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER.get(HORIZONTAL_1))
-            .corner(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER_CORNER.get(HORIZONTAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_1))
-            .slab_vertical(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_BIRCH_OCHRE_PLASTER_HORIZONTAL_2 = familyBuilder(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER.get(HORIZONTAL_2))
-            .corner(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER_CORNER.get(HORIZONTAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_2))
-            .slab_vertical(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_2))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_BIRCH_OCHRE_PLASTER_VERTICAL_1 = familyBuilder(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER.get(VERTICAL_1))
-            .corner(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER_CORNER.get(VERTICAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_1))
-            .slab_vertical(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER_SLAB_VERTICAL.get(VERTICAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_BIRCH_OCHRE_PLASTER_VERTICAL_2 = familyBuilder(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER.get(VERTICAL_2))
-            .corner(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER_CORNER.get(VERTICAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_2))
-            .slab_vertical(ModBlocks.TUDOR_BIRCH_OCHRE_PLASTER_SLAB_VERTICAL.get(VERTICAL_2))
-            .getFamily();
-
-    /* Dark Oak Ochre Plaster Half-Timbered */
-    public static final ModBlockFamily TUDOR_DARK_OAK_OCHRE_PLASTER_CROSS = familyBuilder(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER.get(CROSS))
-            .corner(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER_CORNER.get(CROSS))
-            .quarter_vertical(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER_QUARTER_VERTICAL.get(CROSS))
-            .slab_vertical(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER_SLAB_VERTICAL.get(CROSS))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_DARK_OAK_OCHRE_PLASTER_DOWN = familyBuilder(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER.get(DOWN))
-            .corner(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER_CORNER.get(DOWN))
-            .quarter_vertical(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER_QUARTER_VERTICAL.get(DOWN))
-            .slab_vertical(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER_SLAB_VERTICAL.get(DOWN))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_DARK_OAK_OCHRE_PLASTER_UP = familyBuilder(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER.get(UP))
-            .corner(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER_CORNER.get(UP))
-            .quarter_vertical(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER_QUARTER_VERTICAL.get(UP))
-            .slab_vertical(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER_SLAB_VERTICAL.get(UP))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_DARK_OAK_OCHRE_PLASTER_LEFT = familyBuilder(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER.get(LEFT))
-            .corner(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER_CORNER.get(LEFT))
-            .quarter_vertical(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER_QUARTER_VERTICAL.get(LEFT))
-            .slab_vertical(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER_SLAB_VERTICAL.get(LEFT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_DARK_OAK_OCHRE_PLASTER_RIGHT = familyBuilder(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER.get(RIGHT))
-            .corner(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER_CORNER.get(RIGHT))
-            .quarter_vertical(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER_QUARTER_VERTICAL.get(RIGHT))
-            .slab_vertical(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER_SLAB_VERTICAL.get(RIGHT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_DARK_OAK_OCHRE_PLASTER_HORIZONTAL_1 = familyBuilder(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER.get(HORIZONTAL_1))
-            .corner(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER_CORNER.get(HORIZONTAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_1))
-            .slab_vertical(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_DARK_OAK_OCHRE_PLASTER_HORIZONTAL_2 = familyBuilder(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER.get(HORIZONTAL_2))
-            .corner(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER_CORNER.get(HORIZONTAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_2))
-            .slab_vertical(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_2))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_DARK_OAK_OCHRE_PLASTER_VERTICAL_1 = familyBuilder(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER.get(VERTICAL_1))
-            .corner(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER_CORNER.get(VERTICAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_1))
-            .slab_vertical(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER_SLAB_VERTICAL.get(VERTICAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_DARK_OAK_OCHRE_PLASTER_VERTICAL_2 = familyBuilder(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER.get(VERTICAL_2))
-            .corner(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER_CORNER.get(VERTICAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_2))
-            .slab_vertical(ModBlocks.TUDOR_DARK_OAK_OCHRE_PLASTER_SLAB_VERTICAL.get(VERTICAL_2))
-            .getFamily();
-
-    /* Jungle Ochre Plaster Half-Timbered */
-    public static final ModBlockFamily TUDOR_JUNGLE_OCHRE_PLASTER_CROSS = familyBuilder(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER.get(CROSS))
-            .corner(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER_CORNER.get(CROSS))
-            .quarter_vertical(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER_QUARTER_VERTICAL.get(CROSS))
-            .slab_vertical(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER_SLAB_VERTICAL.get(CROSS))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_JUNGLE_OCHRE_PLASTER_DOWN = familyBuilder(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER.get(DOWN))
-            .corner(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER_CORNER.get(DOWN))
-            .quarter_vertical(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER_QUARTER_VERTICAL.get(DOWN))
-            .slab_vertical(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER_SLAB_VERTICAL.get(DOWN))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_JUNGLE_OCHRE_PLASTER_UP = familyBuilder(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER.get(UP))
-            .corner(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER_CORNER.get(UP))
-            .quarter_vertical(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER_QUARTER_VERTICAL.get(UP))
-            .slab_vertical(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER_SLAB_VERTICAL.get(UP))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_JUNGLE_OCHRE_PLASTER_LEFT = familyBuilder(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER.get(LEFT))
-            .corner(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER_CORNER.get(LEFT))
-            .quarter_vertical(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER_QUARTER_VERTICAL.get(LEFT))
-            .slab_vertical(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER_SLAB_VERTICAL.get(LEFT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_JUNGLE_OCHRE_PLASTER_RIGHT = familyBuilder(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER.get(RIGHT))
-            .corner(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER_CORNER.get(RIGHT))
-            .quarter_vertical(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER_QUARTER_VERTICAL.get(RIGHT))
-            .slab_vertical(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER_SLAB_VERTICAL.get(RIGHT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_JUNGLE_OCHRE_PLASTER_HORIZONTAL_1 = familyBuilder(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER.get(HORIZONTAL_1))
-            .corner(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER_CORNER.get(HORIZONTAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_1))
-            .slab_vertical(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_JUNGLE_OCHRE_PLASTER_HORIZONTAL_2 = familyBuilder(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER.get(HORIZONTAL_2))
-            .corner(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER_CORNER.get(HORIZONTAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_2))
-            .slab_vertical(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_2))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_JUNGLE_OCHRE_PLASTER_VERTICAL_1 = familyBuilder(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER.get(VERTICAL_1))
-            .corner(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER_CORNER.get(VERTICAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_1))
-            .slab_vertical(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER_SLAB_VERTICAL.get(VERTICAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_JUNGLE_OCHRE_PLASTER_VERTICAL_2 = familyBuilder(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER.get(VERTICAL_2))
-            .corner(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER_CORNER.get(VERTICAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_2))
-            .slab_vertical(ModBlocks.TUDOR_JUNGLE_OCHRE_PLASTER_SLAB_VERTICAL.get(VERTICAL_2))
-            .getFamily();
-
-    /* Oak Ochre Plaster Half-Timbered */
-    public static final ModBlockFamily TUDOR_OAK_OCHRE_PLASTER_CROSS = familyBuilder(ModBlocks.TUDOR_OAK_OCHRE_PLASTER.get(CROSS))
-            .corner(ModBlocks.TUDOR_OAK_OCHRE_PLASTER_CORNER.get(CROSS))
-            .quarter_vertical(ModBlocks.TUDOR_OAK_OCHRE_PLASTER_QUARTER_VERTICAL.get(CROSS))
-            .slab_vertical(ModBlocks.TUDOR_OAK_OCHRE_PLASTER_SLAB_VERTICAL.get(CROSS))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_OAK_OCHRE_PLASTER_DOWN = familyBuilder(ModBlocks.TUDOR_OAK_OCHRE_PLASTER.get(DOWN))
-            .corner(ModBlocks.TUDOR_OAK_OCHRE_PLASTER_CORNER.get(DOWN))
-            .quarter_vertical(ModBlocks.TUDOR_OAK_OCHRE_PLASTER_QUARTER_VERTICAL.get(DOWN))
-            .slab_vertical(ModBlocks.TUDOR_OAK_OCHRE_PLASTER_SLAB_VERTICAL.get(DOWN))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_OAK_OCHRE_PLASTER_UP = familyBuilder(ModBlocks.TUDOR_OAK_OCHRE_PLASTER.get(UP))
-            .corner(ModBlocks.TUDOR_OAK_OCHRE_PLASTER_CORNER.get(UP))
-            .quarter_vertical(ModBlocks.TUDOR_OAK_OCHRE_PLASTER_QUARTER_VERTICAL.get(UP))
-            .slab_vertical(ModBlocks.TUDOR_OAK_OCHRE_PLASTER_SLAB_VERTICAL.get(UP))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_OAK_OCHRE_PLASTER_LEFT = familyBuilder(ModBlocks.TUDOR_OAK_OCHRE_PLASTER.get(LEFT))
-            .corner(ModBlocks.TUDOR_OAK_OCHRE_PLASTER_CORNER.get(LEFT))
-            .quarter_vertical(ModBlocks.TUDOR_OAK_OCHRE_PLASTER_QUARTER_VERTICAL.get(LEFT))
-            .slab_vertical(ModBlocks.TUDOR_OAK_OCHRE_PLASTER_SLAB_VERTICAL.get(LEFT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_OAK_OCHRE_PLASTER_RIGHT = familyBuilder(ModBlocks.TUDOR_OAK_OCHRE_PLASTER.get(RIGHT))
-            .corner(ModBlocks.TUDOR_OAK_OCHRE_PLASTER_CORNER.get(RIGHT))
-            .quarter_vertical(ModBlocks.TUDOR_OAK_OCHRE_PLASTER_QUARTER_VERTICAL.get(RIGHT))
-            .slab_vertical(ModBlocks.TUDOR_OAK_OCHRE_PLASTER_SLAB_VERTICAL.get(RIGHT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_OAK_OCHRE_PLASTER_HORIZONTAL_1 = familyBuilder(ModBlocks.TUDOR_OAK_OCHRE_PLASTER.get(HORIZONTAL_1))
-            .corner(ModBlocks.TUDOR_OAK_OCHRE_PLASTER_CORNER.get(HORIZONTAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_OAK_OCHRE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_1))
-            .slab_vertical(ModBlocks.TUDOR_OAK_OCHRE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_OAK_OCHRE_PLASTER_HORIZONTAL_2 = familyBuilder(ModBlocks.TUDOR_OAK_OCHRE_PLASTER.get(HORIZONTAL_2))
-            .corner(ModBlocks.TUDOR_OAK_OCHRE_PLASTER_CORNER.get(HORIZONTAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_OAK_OCHRE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_2))
-            .slab_vertical(ModBlocks.TUDOR_OAK_OCHRE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_2))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_OAK_OCHRE_PLASTER_VERTICAL_1 = familyBuilder(ModBlocks.TUDOR_OAK_OCHRE_PLASTER.get(VERTICAL_1))
-            .corner(ModBlocks.TUDOR_OAK_OCHRE_PLASTER_CORNER.get(VERTICAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_OAK_OCHRE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_1))
-            .slab_vertical(ModBlocks.TUDOR_OAK_OCHRE_PLASTER_SLAB_VERTICAL.get(VERTICAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_OAK_OCHRE_PLASTER_VERTICAL_2 = familyBuilder(ModBlocks.TUDOR_OAK_OCHRE_PLASTER.get(VERTICAL_2))
-            .corner(ModBlocks.TUDOR_OAK_OCHRE_PLASTER_CORNER.get(VERTICAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_OAK_OCHRE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_2))
-            .slab_vertical(ModBlocks.TUDOR_OAK_OCHRE_PLASTER_SLAB_VERTICAL.get(VERTICAL_2))
-            .getFamily();
-
-    /* Spruce Ochre Plaster Half-Timbered */
-    public static final ModBlockFamily TUDOR_SPRUCE_OCHRE_PLASTER_CROSS = familyBuilder(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER.get(CROSS))
-            .corner(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER_CORNER.get(CROSS))
-            .quarter_vertical(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER_QUARTER_VERTICAL.get(CROSS))
-            .slab_vertical(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER_SLAB_VERTICAL.get(CROSS))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_SPRUCE_OCHRE_PLASTER_DOWN = familyBuilder(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER.get(DOWN))
-            .corner(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER_CORNER.get(DOWN))
-            .quarter_vertical(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER_QUARTER_VERTICAL.get(DOWN))
-            .slab_vertical(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER_SLAB_VERTICAL.get(DOWN))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_SPRUCE_OCHRE_PLASTER_UP = familyBuilder(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER.get(UP))
-            .corner(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER_CORNER.get(UP))
-            .quarter_vertical(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER_QUARTER_VERTICAL.get(UP))
-            .slab_vertical(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER_SLAB_VERTICAL.get(UP))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_SPRUCE_OCHRE_PLASTER_LEFT = familyBuilder(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER.get(LEFT))
-            .corner(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER_CORNER.get(LEFT))
-            .quarter_vertical(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER_QUARTER_VERTICAL.get(LEFT))
-            .slab_vertical(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER_SLAB_VERTICAL.get(LEFT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_SPRUCE_OCHRE_PLASTER_RIGHT = familyBuilder(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER.get(RIGHT))
-            .corner(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER_CORNER.get(RIGHT))
-            .quarter_vertical(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER_QUARTER_VERTICAL.get(RIGHT))
-            .slab_vertical(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER_SLAB_VERTICAL.get(RIGHT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_SPRUCE_OCHRE_PLASTER_HORIZONTAL_1 = familyBuilder(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER.get(HORIZONTAL_1))
-            .corner(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER_CORNER.get(HORIZONTAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_1))
-            .slab_vertical(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_SPRUCE_OCHRE_PLASTER_HORIZONTAL_2 = familyBuilder(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER.get(HORIZONTAL_2))
-            .corner(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER_CORNER.get(HORIZONTAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_2))
-            .slab_vertical(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_2))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_SPRUCE_OCHRE_PLASTER_VERTICAL_1 = familyBuilder(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER.get(VERTICAL_1))
-            .corner(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER_CORNER.get(VERTICAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_1))
-            .slab_vertical(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER_SLAB_VERTICAL.get(VERTICAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_SPRUCE_OCHRE_PLASTER_VERTICAL_2 = familyBuilder(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER.get(VERTICAL_2))
-            .corner(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER_CORNER.get(VERTICAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_2))
-            .slab_vertical(ModBlocks.TUDOR_SPRUCE_OCHRE_PLASTER_SLAB_VERTICAL.get(VERTICAL_2))
-            .getFamily();
-
-    /* TAN PLASTER */
-    /* Acacia Tan Plaster Half-Timbered */
-    public static final ModBlockFamily TUDOR_ACACIA_TAN_PLASTER_CROSS = familyBuilder(ModBlocks.TUDOR_ACACIA_TAN_PLASTER.get(CROSS))
-            .corner(ModBlocks.TUDOR_ACACIA_TAN_PLASTER_CORNER.get(CROSS))
-            .quarter_vertical(ModBlocks.TUDOR_ACACIA_TAN_PLASTER_QUARTER_VERTICAL.get(CROSS))
-            .slab_vertical(ModBlocks.TUDOR_ACACIA_TAN_PLASTER_SLAB_VERTICAL.get(CROSS))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_ACACIA_TAN_PLASTER_DOWN = familyBuilder(ModBlocks.TUDOR_ACACIA_TAN_PLASTER.get(DOWN))
-            .corner(ModBlocks.TUDOR_ACACIA_TAN_PLASTER_CORNER.get(DOWN))
-            .quarter_vertical(ModBlocks.TUDOR_ACACIA_TAN_PLASTER_QUARTER_VERTICAL.get(DOWN))
-            .slab_vertical(ModBlocks.TUDOR_ACACIA_TAN_PLASTER_SLAB_VERTICAL.get(DOWN))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_ACACIA_TAN_PLASTER_UP = familyBuilder(ModBlocks.TUDOR_ACACIA_TAN_PLASTER.get(UP))
-            .corner(ModBlocks.TUDOR_ACACIA_TAN_PLASTER_CORNER.get(UP))
-            .quarter_vertical(ModBlocks.TUDOR_ACACIA_TAN_PLASTER_QUARTER_VERTICAL.get(UP))
-            .slab_vertical(ModBlocks.TUDOR_ACACIA_TAN_PLASTER_SLAB_VERTICAL.get(UP))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_ACACIA_TAN_PLASTER_LEFT = familyBuilder(ModBlocks.TUDOR_ACACIA_TAN_PLASTER.get(LEFT))
-            .corner(ModBlocks.TUDOR_ACACIA_TAN_PLASTER_CORNER.get(LEFT))
-            .quarter_vertical(ModBlocks.TUDOR_ACACIA_TAN_PLASTER_QUARTER_VERTICAL.get(LEFT))
-            .slab_vertical(ModBlocks.TUDOR_ACACIA_TAN_PLASTER_SLAB_VERTICAL.get(LEFT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_ACACIA_TAN_PLASTER_RIGHT = familyBuilder(ModBlocks.TUDOR_ACACIA_TAN_PLASTER.get(RIGHT))
-            .corner(ModBlocks.TUDOR_ACACIA_TAN_PLASTER_CORNER.get(RIGHT))
-            .quarter_vertical(ModBlocks.TUDOR_ACACIA_TAN_PLASTER_QUARTER_VERTICAL.get(RIGHT))
-            .slab_vertical(ModBlocks.TUDOR_ACACIA_TAN_PLASTER_SLAB_VERTICAL.get(RIGHT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_ACACIA_TAN_PLASTER_HORIZONTAL_1 = familyBuilder(ModBlocks.TUDOR_ACACIA_TAN_PLASTER.get(HORIZONTAL_1))
-            .corner(ModBlocks.TUDOR_ACACIA_TAN_PLASTER_CORNER.get(HORIZONTAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_ACACIA_TAN_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_1))
-            .slab_vertical(ModBlocks.TUDOR_ACACIA_TAN_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_ACACIA_TAN_PLASTER_HORIZONTAL_2 = familyBuilder(ModBlocks.TUDOR_ACACIA_TAN_PLASTER.get(HORIZONTAL_2))
-            .corner(ModBlocks.TUDOR_ACACIA_TAN_PLASTER_CORNER.get(HORIZONTAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_ACACIA_TAN_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_2))
-            .slab_vertical(ModBlocks.TUDOR_ACACIA_TAN_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_2))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_ACACIA_TAN_PLASTER_VERTICAL_1 = familyBuilder(ModBlocks.TUDOR_ACACIA_TAN_PLASTER.get(VERTICAL_1))
-            .corner(ModBlocks.TUDOR_ACACIA_TAN_PLASTER_CORNER.get(VERTICAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_ACACIA_TAN_PLASTER_QUARTER_VERTICAL.get(VERTICAL_1))
-            .slab_vertical(ModBlocks.TUDOR_ACACIA_TAN_PLASTER_SLAB_VERTICAL.get(VERTICAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_ACACIA_TAN_PLASTER_VERTICAL_2 = familyBuilder(ModBlocks.TUDOR_ACACIA_TAN_PLASTER.get(VERTICAL_2))
-            .corner(ModBlocks.TUDOR_ACACIA_TAN_PLASTER_CORNER.get(VERTICAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_ACACIA_TAN_PLASTER_QUARTER_VERTICAL.get(VERTICAL_2))
-            .slab_vertical(ModBlocks.TUDOR_ACACIA_TAN_PLASTER_SLAB_VERTICAL.get(VERTICAL_2))
-            .getFamily();
-
-    /* Birch Tan Plaster Half-Timbered */
-    public static final ModBlockFamily TUDOR_BIRCH_TAN_PLASTER_CROSS = familyBuilder(ModBlocks.TUDOR_BIRCH_TAN_PLASTER.get(CROSS))
-            .corner(ModBlocks.TUDOR_BIRCH_TAN_PLASTER_CORNER.get(CROSS))
-            .quarter_vertical(ModBlocks.TUDOR_BIRCH_TAN_PLASTER_QUARTER_VERTICAL.get(CROSS))
-            .slab_vertical(ModBlocks.TUDOR_BIRCH_TAN_PLASTER_SLAB_VERTICAL.get(CROSS))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_BIRCH_TAN_PLASTER_DOWN = familyBuilder(ModBlocks.TUDOR_BIRCH_TAN_PLASTER.get(DOWN))
-            .corner(ModBlocks.TUDOR_BIRCH_TAN_PLASTER_CORNER.get(DOWN))
-            .quarter_vertical(ModBlocks.TUDOR_BIRCH_TAN_PLASTER_QUARTER_VERTICAL.get(DOWN))
-            .slab_vertical(ModBlocks.TUDOR_BIRCH_TAN_PLASTER_SLAB_VERTICAL.get(DOWN))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_BIRCH_TAN_PLASTER_UP = familyBuilder(ModBlocks.TUDOR_BIRCH_TAN_PLASTER.get(UP))
-            .corner(ModBlocks.TUDOR_BIRCH_TAN_PLASTER_CORNER.get(UP))
-            .quarter_vertical(ModBlocks.TUDOR_BIRCH_TAN_PLASTER_QUARTER_VERTICAL.get(UP))
-            .slab_vertical(ModBlocks.TUDOR_BIRCH_TAN_PLASTER_SLAB_VERTICAL.get(UP))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_BIRCH_TAN_PLASTER_LEFT = familyBuilder(ModBlocks.TUDOR_BIRCH_TAN_PLASTER.get(LEFT))
-            .corner(ModBlocks.TUDOR_BIRCH_TAN_PLASTER_CORNER.get(LEFT))
-            .quarter_vertical(ModBlocks.TUDOR_BIRCH_TAN_PLASTER_QUARTER_VERTICAL.get(LEFT))
-            .slab_vertical(ModBlocks.TUDOR_BIRCH_TAN_PLASTER_SLAB_VERTICAL.get(LEFT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_BIRCH_TAN_PLASTER_RIGHT = familyBuilder(ModBlocks.TUDOR_BIRCH_TAN_PLASTER.get(RIGHT))
-            .corner(ModBlocks.TUDOR_BIRCH_TAN_PLASTER_CORNER.get(RIGHT))
-            .quarter_vertical(ModBlocks.TUDOR_BIRCH_TAN_PLASTER_QUARTER_VERTICAL.get(RIGHT))
-            .slab_vertical(ModBlocks.TUDOR_BIRCH_TAN_PLASTER_SLAB_VERTICAL.get(RIGHT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_BIRCH_TAN_PLASTER_HORIZONTAL_1 = familyBuilder(ModBlocks.TUDOR_BIRCH_TAN_PLASTER.get(HORIZONTAL_1))
-            .corner(ModBlocks.TUDOR_BIRCH_TAN_PLASTER_CORNER.get(HORIZONTAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_BIRCH_TAN_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_1))
-            .slab_vertical(ModBlocks.TUDOR_BIRCH_TAN_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_BIRCH_TAN_PLASTER_HORIZONTAL_2 = familyBuilder(ModBlocks.TUDOR_BIRCH_TAN_PLASTER.get(HORIZONTAL_2))
-            .corner(ModBlocks.TUDOR_BIRCH_TAN_PLASTER_CORNER.get(HORIZONTAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_BIRCH_TAN_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_2))
-            .slab_vertical(ModBlocks.TUDOR_BIRCH_TAN_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_2))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_BIRCH_TAN_PLASTER_VERTICAL_1 = familyBuilder(ModBlocks.TUDOR_BIRCH_TAN_PLASTER.get(VERTICAL_1))
-            .corner(ModBlocks.TUDOR_BIRCH_TAN_PLASTER_CORNER.get(VERTICAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_BIRCH_TAN_PLASTER_QUARTER_VERTICAL.get(VERTICAL_1))
-            .slab_vertical(ModBlocks.TUDOR_BIRCH_TAN_PLASTER_SLAB_VERTICAL.get(VERTICAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_BIRCH_TAN_PLASTER_VERTICAL_2 = familyBuilder(ModBlocks.TUDOR_BIRCH_TAN_PLASTER.get(VERTICAL_2))
-            .corner(ModBlocks.TUDOR_BIRCH_TAN_PLASTER_CORNER.get(VERTICAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_BIRCH_TAN_PLASTER_QUARTER_VERTICAL.get(VERTICAL_2))
-            .slab_vertical(ModBlocks.TUDOR_BIRCH_TAN_PLASTER_SLAB_VERTICAL.get(VERTICAL_2))
-            .getFamily();
-
-    /* Dark Oak Tan Plaster Half-Timbered */
-    public static final ModBlockFamily TUDOR_DARK_OAK_TAN_PLASTER_CROSS = familyBuilder(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER.get(CROSS))
-            .corner(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER_CORNER.get(CROSS))
-            .quarter_vertical(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER_QUARTER_VERTICAL.get(CROSS))
-            .slab_vertical(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER_SLAB_VERTICAL.get(CROSS))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_DARK_OAK_TAN_PLASTER_DOWN = familyBuilder(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER.get(DOWN))
-            .corner(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER_CORNER.get(DOWN))
-            .quarter_vertical(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER_QUARTER_VERTICAL.get(DOWN))
-            .slab_vertical(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER_SLAB_VERTICAL.get(DOWN))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_DARK_OAK_TAN_PLASTER_UP = familyBuilder(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER.get(UP))
-            .corner(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER_CORNER.get(UP))
-            .quarter_vertical(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER_QUARTER_VERTICAL.get(UP))
-            .slab_vertical(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER_SLAB_VERTICAL.get(UP))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_DARK_OAK_TAN_PLASTER_LEFT = familyBuilder(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER.get(LEFT))
-            .corner(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER_CORNER.get(LEFT))
-            .quarter_vertical(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER_QUARTER_VERTICAL.get(LEFT))
-            .slab_vertical(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER_SLAB_VERTICAL.get(LEFT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_DARK_OAK_TAN_PLASTER_RIGHT = familyBuilder(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER.get(RIGHT))
-            .corner(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER_CORNER.get(RIGHT))
-            .quarter_vertical(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER_QUARTER_VERTICAL.get(RIGHT))
-            .slab_vertical(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER_SLAB_VERTICAL.get(RIGHT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_DARK_OAK_TAN_PLASTER_HORIZONTAL_1 = familyBuilder(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER.get(HORIZONTAL_1))
-            .corner(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER_CORNER.get(HORIZONTAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_1))
-            .slab_vertical(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_DARK_OAK_TAN_PLASTER_HORIZONTAL_2 = familyBuilder(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER.get(HORIZONTAL_2))
-            .corner(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER_CORNER.get(HORIZONTAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_2))
-            .slab_vertical(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_2))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_DARK_OAK_TAN_PLASTER_VERTICAL_1 = familyBuilder(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER.get(VERTICAL_1))
-            .corner(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER_CORNER.get(VERTICAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER_QUARTER_VERTICAL.get(VERTICAL_1))
-            .slab_vertical(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER_SLAB_VERTICAL.get(VERTICAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_DARK_OAK_TAN_PLASTER_VERTICAL_2 = familyBuilder(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER.get(VERTICAL_2))
-            .corner(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER_CORNER.get(VERTICAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER_QUARTER_VERTICAL.get(VERTICAL_2))
-            .slab_vertical(ModBlocks.TUDOR_DARK_OAK_TAN_PLASTER_SLAB_VERTICAL.get(VERTICAL_2))
-            .getFamily();
-
-    /* Jungle Tan Plaster Half-Timbered */
-    public static final ModBlockFamily TUDOR_JUNGLE_TAN_PLASTER_CROSS = familyBuilder(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER.get(CROSS))
-            .corner(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER_CORNER.get(CROSS))
-            .quarter_vertical(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER_QUARTER_VERTICAL.get(CROSS))
-            .slab_vertical(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER_SLAB_VERTICAL.get(CROSS))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_JUNGLE_TAN_PLASTER_DOWN = familyBuilder(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER.get(DOWN))
-            .corner(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER_CORNER.get(DOWN))
-            .quarter_vertical(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER_QUARTER_VERTICAL.get(DOWN))
-            .slab_vertical(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER_SLAB_VERTICAL.get(DOWN))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_JUNGLE_TAN_PLASTER_UP = familyBuilder(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER.get(UP))
-            .corner(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER_CORNER.get(UP))
-            .quarter_vertical(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER_QUARTER_VERTICAL.get(UP))
-            .slab_vertical(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER_SLAB_VERTICAL.get(UP))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_JUNGLE_TAN_PLASTER_LEFT = familyBuilder(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER.get(LEFT))
-            .corner(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER_CORNER.get(LEFT))
-            .quarter_vertical(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER_QUARTER_VERTICAL.get(LEFT))
-            .slab_vertical(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER_SLAB_VERTICAL.get(LEFT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_JUNGLE_TAN_PLASTER_RIGHT = familyBuilder(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER.get(RIGHT))
-            .corner(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER_CORNER.get(RIGHT))
-            .quarter_vertical(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER_QUARTER_VERTICAL.get(RIGHT))
-            .slab_vertical(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER_SLAB_VERTICAL.get(RIGHT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_JUNGLE_TAN_PLASTER_HORIZONTAL_1 = familyBuilder(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER.get(HORIZONTAL_1))
-            .corner(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER_CORNER.get(HORIZONTAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_1))
-            .slab_vertical(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_JUNGLE_TAN_PLASTER_HORIZONTAL_2 = familyBuilder(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER.get(HORIZONTAL_2))
-            .corner(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER_CORNER.get(HORIZONTAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_2))
-            .slab_vertical(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_2))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_JUNGLE_TAN_PLASTER_VERTICAL_1 = familyBuilder(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER.get(VERTICAL_1))
-            .corner(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER_CORNER.get(VERTICAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER_QUARTER_VERTICAL.get(VERTICAL_1))
-            .slab_vertical(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER_SLAB_VERTICAL.get(VERTICAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_JUNGLE_TAN_PLASTER_VERTICAL_2 = familyBuilder(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER.get(VERTICAL_2))
-            .corner(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER_CORNER.get(VERTICAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER_QUARTER_VERTICAL.get(VERTICAL_2))
-            .slab_vertical(ModBlocks.TUDOR_JUNGLE_TAN_PLASTER_SLAB_VERTICAL.get(VERTICAL_2))
-            .getFamily();
-
-    /* Oak Tan Plaster Half-Timbered */
-    public static final ModBlockFamily TUDOR_OAK_TAN_PLASTER_CROSS = familyBuilder(ModBlocks.TUDOR_OAK_TAN_PLASTER.get(CROSS))
-            .corner(ModBlocks.TUDOR_OAK_TAN_PLASTER_CORNER.get(CROSS))
-            .quarter_vertical(ModBlocks.TUDOR_OAK_TAN_PLASTER_QUARTER_VERTICAL.get(CROSS))
-            .slab_vertical(ModBlocks.TUDOR_OAK_TAN_PLASTER_SLAB_VERTICAL.get(CROSS))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_OAK_TAN_PLASTER_DOWN = familyBuilder(ModBlocks.TUDOR_OAK_TAN_PLASTER.get(DOWN))
-            .corner(ModBlocks.TUDOR_OAK_TAN_PLASTER_CORNER.get(DOWN))
-            .quarter_vertical(ModBlocks.TUDOR_OAK_TAN_PLASTER_QUARTER_VERTICAL.get(DOWN))
-            .slab_vertical(ModBlocks.TUDOR_OAK_TAN_PLASTER_SLAB_VERTICAL.get(DOWN))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_OAK_TAN_PLASTER_UP = familyBuilder(ModBlocks.TUDOR_OAK_TAN_PLASTER.get(UP))
-            .corner(ModBlocks.TUDOR_OAK_TAN_PLASTER_CORNER.get(UP))
-            .quarter_vertical(ModBlocks.TUDOR_OAK_TAN_PLASTER_QUARTER_VERTICAL.get(UP))
-            .slab_vertical(ModBlocks.TUDOR_OAK_TAN_PLASTER_SLAB_VERTICAL.get(UP))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_OAK_TAN_PLASTER_LEFT = familyBuilder(ModBlocks.TUDOR_OAK_TAN_PLASTER.get(LEFT))
-            .corner(ModBlocks.TUDOR_OAK_TAN_PLASTER_CORNER.get(LEFT))
-            .quarter_vertical(ModBlocks.TUDOR_OAK_TAN_PLASTER_QUARTER_VERTICAL.get(LEFT))
-            .slab_vertical(ModBlocks.TUDOR_OAK_TAN_PLASTER_SLAB_VERTICAL.get(LEFT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_OAK_TAN_PLASTER_RIGHT = familyBuilder(ModBlocks.TUDOR_OAK_TAN_PLASTER.get(RIGHT))
-            .corner(ModBlocks.TUDOR_OAK_TAN_PLASTER_CORNER.get(RIGHT))
-            .quarter_vertical(ModBlocks.TUDOR_OAK_TAN_PLASTER_QUARTER_VERTICAL.get(RIGHT))
-            .slab_vertical(ModBlocks.TUDOR_OAK_TAN_PLASTER_SLAB_VERTICAL.get(RIGHT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_OAK_TAN_PLASTER_HORIZONTAL_1 = familyBuilder(ModBlocks.TUDOR_OAK_TAN_PLASTER.get(HORIZONTAL_1))
-            .corner(ModBlocks.TUDOR_OAK_TAN_PLASTER_CORNER.get(HORIZONTAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_OAK_TAN_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_1))
-            .slab_vertical(ModBlocks.TUDOR_OAK_TAN_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_OAK_TAN_PLASTER_HORIZONTAL_2 = familyBuilder(ModBlocks.TUDOR_OAK_TAN_PLASTER.get(HORIZONTAL_2))
-            .corner(ModBlocks.TUDOR_OAK_TAN_PLASTER_CORNER.get(HORIZONTAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_OAK_TAN_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_2))
-            .slab_vertical(ModBlocks.TUDOR_OAK_TAN_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_2))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_OAK_TAN_PLASTER_VERTICAL_1 = familyBuilder(ModBlocks.TUDOR_OAK_TAN_PLASTER.get(VERTICAL_1))
-            .corner(ModBlocks.TUDOR_OAK_TAN_PLASTER_CORNER.get(VERTICAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_OAK_TAN_PLASTER_QUARTER_VERTICAL.get(VERTICAL_1))
-            .slab_vertical(ModBlocks.TUDOR_OAK_TAN_PLASTER_SLAB_VERTICAL.get(VERTICAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_OAK_TAN_PLASTER_VERTICAL_2 = familyBuilder(ModBlocks.TUDOR_OAK_TAN_PLASTER.get(VERTICAL_2))
-            .corner(ModBlocks.TUDOR_OAK_TAN_PLASTER_CORNER.get(VERTICAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_OAK_TAN_PLASTER_QUARTER_VERTICAL.get(VERTICAL_2))
-            .slab_vertical(ModBlocks.TUDOR_OAK_TAN_PLASTER_SLAB_VERTICAL.get(VERTICAL_2))
-            .getFamily();
-
-    /* Spruce Tan Plaster Half-Timbered */
-    public static final ModBlockFamily TUDOR_SPRUCE_TAN_PLASTER_CROSS = familyBuilder(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER.get(CROSS))
-            .corner(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER_CORNER.get(CROSS))
-            .quarter_vertical(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER_QUARTER_VERTICAL.get(CROSS))
-            .slab_vertical(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER_SLAB_VERTICAL.get(CROSS))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_SPRUCE_TAN_PLASTER_DOWN = familyBuilder(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER.get(DOWN))
-            .corner(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER_CORNER.get(DOWN))
-            .quarter_vertical(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER_QUARTER_VERTICAL.get(DOWN))
-            .slab_vertical(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER_SLAB_VERTICAL.get(DOWN))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_SPRUCE_TAN_PLASTER_UP = familyBuilder(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER.get(UP))
-            .corner(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER_CORNER.get(UP))
-            .quarter_vertical(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER_QUARTER_VERTICAL.get(UP))
-            .slab_vertical(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER_SLAB_VERTICAL.get(UP))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_SPRUCE_TAN_PLASTER_LEFT = familyBuilder(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER.get(LEFT))
-            .corner(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER_CORNER.get(LEFT))
-            .quarter_vertical(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER_QUARTER_VERTICAL.get(LEFT))
-            .slab_vertical(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER_SLAB_VERTICAL.get(LEFT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_SPRUCE_TAN_PLASTER_RIGHT = familyBuilder(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER.get(RIGHT))
-            .corner(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER_CORNER.get(RIGHT))
-            .quarter_vertical(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER_QUARTER_VERTICAL.get(RIGHT))
-            .slab_vertical(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER_SLAB_VERTICAL.get(RIGHT))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_SPRUCE_TAN_PLASTER_HORIZONTAL_1 = familyBuilder(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER.get(HORIZONTAL_1))
-            .corner(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER_CORNER.get(HORIZONTAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_1))
-            .slab_vertical(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_SPRUCE_TAN_PLASTER_HORIZONTAL_2 = familyBuilder(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER.get(HORIZONTAL_2))
-            .corner(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER_CORNER.get(HORIZONTAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_2))
-            .slab_vertical(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_2))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_SPRUCE_TAN_PLASTER_VERTICAL_1 = familyBuilder(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER.get(VERTICAL_1))
-            .corner(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER_CORNER.get(VERTICAL_1))
-            .quarter_vertical(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER_QUARTER_VERTICAL.get(VERTICAL_1))
-            .slab_vertical(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER_SLAB_VERTICAL.get(VERTICAL_1))
-            .getFamily();
-    public static final ModBlockFamily TUDOR_SPRUCE_TAN_PLASTER_VERTICAL_2 = familyBuilder(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER.get(VERTICAL_2))
-            .corner(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER_CORNER.get(VERTICAL_2))
-            .quarter_vertical(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER_QUARTER_VERTICAL.get(VERTICAL_2))
-            .slab_vertical(ModBlocks.TUDOR_SPRUCE_TAN_PLASTER_SLAB_VERTICAL.get(VERTICAL_2))
-            .getFamily();
-
     /* WHITE PLASTER */
     /* Acacia White Plaster Half-Timbered */
     public static final ModBlockFamily TUDOR_ACACIA_WHITE_PLASTER_CROSS = familyBuilder(ModBlocks.TUDOR_ACACIA_WHITE_PLASTER.get(CROSS))
@@ -2462,6 +1613,573 @@ public class ModBlockFamilies {
             .corner(ModBlocks.TUDOR_SPRUCE_WHITE_PLASTER_CORNER.get(VERTICAL_2))
             .quarter_vertical(ModBlocks.TUDOR_SPRUCE_WHITE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_2))
             .slab_vertical(ModBlocks.TUDOR_SPRUCE_WHITE_PLASTER_SLAB_VERTICAL.get(VERTICAL_2))
+            .getFamily();
+
+    /* Acacia Beige Plaster Half-Timbered */
+    public static final ModBlockFamily TUDOR_STAINED_ACACIA_BEIGE_PLASTER_CROSS = familyBuilder(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER.get(CROSS))
+            .corner(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER_CORNER.get(CROSS))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER_QUARTER_VERTICAL.get(CROSS))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER_SLAB_VERTICAL.get(CROSS))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_ACACIA_BEIGE_PLASTER_DOWN = familyBuilder(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER.get(DOWN))
+            .corner(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER_CORNER.get(DOWN))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER_QUARTER_VERTICAL.get(DOWN))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER_SLAB_VERTICAL.get(DOWN))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_ACACIA_BEIGE_PLASTER_UP = familyBuilder(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER.get(UP))
+            .corner(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER_CORNER.get(UP))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER_QUARTER_VERTICAL.get(UP))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER_SLAB_VERTICAL.get(UP))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_ACACIA_BEIGE_PLASTER_LEFT = familyBuilder(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER.get(LEFT))
+            .corner(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER_CORNER.get(LEFT))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER_QUARTER_VERTICAL.get(LEFT))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER_SLAB_VERTICAL.get(LEFT))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_ACACIA_BEIGE_PLASTER_RIGHT = familyBuilder(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER.get(RIGHT))
+            .corner(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER_CORNER.get(RIGHT))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER_QUARTER_VERTICAL.get(RIGHT))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER_SLAB_VERTICAL.get(RIGHT))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_ACACIA_BEIGE_PLASTER_HORIZONTAL_1 = familyBuilder(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER.get(HORIZONTAL_1))
+            .corner(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER_CORNER.get(HORIZONTAL_1))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_1))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_1))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_ACACIA_BEIGE_PLASTER_HORIZONTAL_2 = familyBuilder(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER.get(HORIZONTAL_2))
+            .corner(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER_CORNER.get(HORIZONTAL_2))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_2))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_2))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_ACACIA_BEIGE_PLASTER_VERTICAL_1 = familyBuilder(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER.get(VERTICAL_1))
+            .corner(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER_CORNER.get(VERTICAL_1))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_1))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER_SLAB_VERTICAL.get(VERTICAL_1))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_ACACIA_BEIGE_PLASTER_VERTICAL_2 = familyBuilder(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER.get(VERTICAL_2))
+            .corner(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER_CORNER.get(VERTICAL_2))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_2))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_ACACIA_BEIGE_PLASTER_SLAB_VERTICAL.get(VERTICAL_2))
+            .getFamily();
+
+    /* Birch Beige Plaster Half-Timbered */
+    public static final ModBlockFamily TUDOR_STAINED_BIRCH_BEIGE_PLASTER_CROSS = familyBuilder(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER.get(CROSS))
+            .corner(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER_CORNER.get(CROSS))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER_QUARTER_VERTICAL.get(CROSS))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER_SLAB_VERTICAL.get(CROSS))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_BIRCH_BEIGE_PLASTER_DOWN = familyBuilder(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER.get(DOWN))
+            .corner(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER_CORNER.get(DOWN))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER_QUARTER_VERTICAL.get(DOWN))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER_SLAB_VERTICAL.get(DOWN))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_BIRCH_BEIGE_PLASTER_UP = familyBuilder(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER.get(UP))
+            .corner(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER_CORNER.get(UP))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER_QUARTER_VERTICAL.get(UP))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER_SLAB_VERTICAL.get(UP))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_BIRCH_BEIGE_PLASTER_LEFT = familyBuilder(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER.get(LEFT))
+            .corner(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER_CORNER.get(LEFT))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER_QUARTER_VERTICAL.get(LEFT))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER_SLAB_VERTICAL.get(LEFT))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_BIRCH_BEIGE_PLASTER_RIGHT = familyBuilder(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER.get(RIGHT))
+            .corner(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER_CORNER.get(RIGHT))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER_QUARTER_VERTICAL.get(RIGHT))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER_SLAB_VERTICAL.get(RIGHT))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_BIRCH_BEIGE_PLASTER_HORIZONTAL_1 = familyBuilder(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER.get(HORIZONTAL_1))
+            .corner(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER_CORNER.get(HORIZONTAL_1))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_1))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_1))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_BIRCH_BEIGE_PLASTER_HORIZONTAL_2 = familyBuilder(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER.get(HORIZONTAL_2))
+            .corner(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER_CORNER.get(HORIZONTAL_2))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_2))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_2))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_BIRCH_BEIGE_PLASTER_VERTICAL_1 = familyBuilder(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER.get(VERTICAL_1))
+            .corner(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER_CORNER.get(VERTICAL_1))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_1))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER_SLAB_VERTICAL.get(VERTICAL_1))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_BIRCH_BEIGE_PLASTER_VERTICAL_2 = familyBuilder(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER.get(VERTICAL_2))
+            .corner(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER_CORNER.get(VERTICAL_2))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_2))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_BIRCH_BEIGE_PLASTER_SLAB_VERTICAL.get(VERTICAL_2))
+            .getFamily();
+
+    /* Dark Oak Beige Plaster Half-Timbered */
+    public static final ModBlockFamily TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_CROSS = familyBuilder(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER.get(CROSS))
+            .corner(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_CORNER.get(CROSS))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_QUARTER_VERTICAL.get(CROSS))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_SLAB_VERTICAL.get(CROSS))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_DOWN = familyBuilder(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER.get(DOWN))
+            .corner(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_CORNER.get(DOWN))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_QUARTER_VERTICAL.get(DOWN))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_SLAB_VERTICAL.get(DOWN))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_UP = familyBuilder(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER.get(UP))
+            .corner(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_CORNER.get(UP))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_QUARTER_VERTICAL.get(UP))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_SLAB_VERTICAL.get(UP))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_LEFT = familyBuilder(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER.get(LEFT))
+            .corner(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_CORNER.get(LEFT))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_QUARTER_VERTICAL.get(LEFT))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_SLAB_VERTICAL.get(LEFT))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_RIGHT = familyBuilder(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER.get(RIGHT))
+            .corner(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_CORNER.get(RIGHT))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_QUARTER_VERTICAL.get(RIGHT))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_SLAB_VERTICAL.get(RIGHT))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_HORIZONTAL_1 = familyBuilder(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER.get(HORIZONTAL_1))
+            .corner(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_CORNER.get(HORIZONTAL_1))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_1))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_1))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_HORIZONTAL_2 = familyBuilder(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER.get(HORIZONTAL_2))
+            .corner(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_CORNER.get(HORIZONTAL_2))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_2))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_2))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_VERTICAL_1 = familyBuilder(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER.get(VERTICAL_1))
+            .corner(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_CORNER.get(VERTICAL_1))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_1))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_SLAB_VERTICAL.get(VERTICAL_1))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_VERTICAL_2 = familyBuilder(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER.get(VERTICAL_2))
+            .corner(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_CORNER.get(VERTICAL_2))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_2))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_BEIGE_PLASTER_SLAB_VERTICAL.get(VERTICAL_2))
+            .getFamily();
+
+    /* Jungle Beige Plaster Half-Timbered */
+    public static final ModBlockFamily TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_CROSS = familyBuilder(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER.get(CROSS))
+            .corner(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_CORNER.get(CROSS))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_QUARTER_VERTICAL.get(CROSS))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_SLAB_VERTICAL.get(CROSS))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_DOWN = familyBuilder(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER.get(DOWN))
+            .corner(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_CORNER.get(DOWN))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_QUARTER_VERTICAL.get(DOWN))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_SLAB_VERTICAL.get(DOWN))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_UP = familyBuilder(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER.get(UP))
+            .corner(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_CORNER.get(UP))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_QUARTER_VERTICAL.get(UP))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_SLAB_VERTICAL.get(UP))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_LEFT = familyBuilder(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER.get(LEFT))
+            .corner(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_CORNER.get(LEFT))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_QUARTER_VERTICAL.get(LEFT))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_SLAB_VERTICAL.get(LEFT))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_RIGHT = familyBuilder(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER.get(RIGHT))
+            .corner(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_CORNER.get(RIGHT))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_QUARTER_VERTICAL.get(RIGHT))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_SLAB_VERTICAL.get(RIGHT))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_HORIZONTAL_1 = familyBuilder(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER.get(HORIZONTAL_1))
+            .corner(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_CORNER.get(HORIZONTAL_1))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_1))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_1))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_HORIZONTAL_2 = familyBuilder(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER.get(HORIZONTAL_2))
+            .corner(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_CORNER.get(HORIZONTAL_2))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_2))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_2))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_VERTICAL_1 = familyBuilder(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER.get(VERTICAL_1))
+            .corner(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_CORNER.get(VERTICAL_1))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_1))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_SLAB_VERTICAL.get(VERTICAL_1))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_VERTICAL_2 = familyBuilder(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER.get(VERTICAL_2))
+            .corner(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_CORNER.get(VERTICAL_2))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_2))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_BEIGE_PLASTER_SLAB_VERTICAL.get(VERTICAL_2))
+            .getFamily();
+
+    /* Oak Beige Plaster Half-Timbered */
+    public static final ModBlockFamily TUDOR_STAINED_OAK_BEIGE_PLASTER_CROSS = familyBuilder(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER.get(CROSS))
+            .corner(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER_CORNER.get(CROSS))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER_QUARTER_VERTICAL.get(CROSS))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER_SLAB_VERTICAL.get(CROSS))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_OAK_BEIGE_PLASTER_DOWN = familyBuilder(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER.get(DOWN))
+            .corner(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER_CORNER.get(DOWN))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER_QUARTER_VERTICAL.get(DOWN))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER_SLAB_VERTICAL.get(DOWN))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_OAK_BEIGE_PLASTER_UP = familyBuilder(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER.get(UP))
+            .corner(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER_CORNER.get(UP))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER_QUARTER_VERTICAL.get(UP))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER_SLAB_VERTICAL.get(UP))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_OAK_BEIGE_PLASTER_LEFT = familyBuilder(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER.get(LEFT))
+            .corner(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER_CORNER.get(LEFT))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER_QUARTER_VERTICAL.get(LEFT))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER_SLAB_VERTICAL.get(LEFT))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_OAK_BEIGE_PLASTER_RIGHT = familyBuilder(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER.get(RIGHT))
+            .corner(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER_CORNER.get(RIGHT))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER_QUARTER_VERTICAL.get(RIGHT))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER_SLAB_VERTICAL.get(RIGHT))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_OAK_BEIGE_PLASTER_HORIZONTAL_1 = familyBuilder(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER.get(HORIZONTAL_1))
+            .corner(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER_CORNER.get(HORIZONTAL_1))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_1))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_1))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_OAK_BEIGE_PLASTER_HORIZONTAL_2 = familyBuilder(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER.get(HORIZONTAL_2))
+            .corner(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER_CORNER.get(HORIZONTAL_2))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_2))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_2))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_OAK_BEIGE_PLASTER_VERTICAL_1 = familyBuilder(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER.get(VERTICAL_1))
+            .corner(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER_CORNER.get(VERTICAL_1))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_1))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER_SLAB_VERTICAL.get(VERTICAL_1))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_OAK_BEIGE_PLASTER_VERTICAL_2 = familyBuilder(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER.get(VERTICAL_2))
+            .corner(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER_CORNER.get(VERTICAL_2))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_2))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_OAK_BEIGE_PLASTER_SLAB_VERTICAL.get(VERTICAL_2))
+            .getFamily();
+
+    /* Spruce Beige Plaster Half-Timbered */
+    public static final ModBlockFamily TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_CROSS = familyBuilder(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER.get(CROSS))
+            .corner(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_CORNER.get(CROSS))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_QUARTER_VERTICAL.get(CROSS))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_SLAB_VERTICAL.get(CROSS))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_DOWN = familyBuilder(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER.get(DOWN))
+            .corner(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_CORNER.get(DOWN))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_QUARTER_VERTICAL.get(DOWN))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_SLAB_VERTICAL.get(DOWN))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_UP = familyBuilder(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER.get(UP))
+            .corner(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_CORNER.get(UP))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_QUARTER_VERTICAL.get(UP))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_SLAB_VERTICAL.get(UP))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_LEFT = familyBuilder(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER.get(LEFT))
+            .corner(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_CORNER.get(LEFT))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_QUARTER_VERTICAL.get(LEFT))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_SLAB_VERTICAL.get(LEFT))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_RIGHT = familyBuilder(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER.get(RIGHT))
+            .corner(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_CORNER.get(RIGHT))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_QUARTER_VERTICAL.get(RIGHT))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_SLAB_VERTICAL.get(RIGHT))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_HORIZONTAL_1 = familyBuilder(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER.get(HORIZONTAL_1))
+            .corner(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_CORNER.get(HORIZONTAL_1))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_1))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_1))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_HORIZONTAL_2 = familyBuilder(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER.get(HORIZONTAL_2))
+            .corner(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_CORNER.get(HORIZONTAL_2))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_2))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_2))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_VERTICAL_1 = familyBuilder(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER.get(VERTICAL_1))
+            .corner(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_CORNER.get(VERTICAL_1))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_1))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_SLAB_VERTICAL.get(VERTICAL_1))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_VERTICAL_2 = familyBuilder(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER.get(VERTICAL_2))
+            .corner(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_CORNER.get(VERTICAL_2))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_2))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_BEIGE_PLASTER_SLAB_VERTICAL.get(VERTICAL_2))
+            .getFamily();
+
+    /* WHITE PLASTER */
+    /* Acacia White Plaster Half-Timbered */
+    public static final ModBlockFamily TUDOR_STAINED_ACACIA_WHITE_PLASTER_CROSS = familyBuilder(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER.get(CROSS))
+            .corner(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER_CORNER.get(CROSS))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER_QUARTER_VERTICAL.get(CROSS))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER_SLAB_VERTICAL.get(CROSS))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_ACACIA_WHITE_PLASTER_DOWN = familyBuilder(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER.get(DOWN))
+            .corner(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER_CORNER.get(DOWN))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER_QUARTER_VERTICAL.get(DOWN))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER_SLAB_VERTICAL.get(DOWN))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_ACACIA_WHITE_PLASTER_UP = familyBuilder(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER.get(UP))
+            .corner(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER_CORNER.get(UP))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER_QUARTER_VERTICAL.get(UP))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER_SLAB_VERTICAL.get(UP))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_ACACIA_WHITE_PLASTER_LEFT = familyBuilder(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER.get(LEFT))
+            .corner(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER_CORNER.get(LEFT))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER_QUARTER_VERTICAL.get(LEFT))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER_SLAB_VERTICAL.get(LEFT))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_ACACIA_WHITE_PLASTER_RIGHT = familyBuilder(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER.get(RIGHT))
+            .corner(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER_CORNER.get(RIGHT))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER_QUARTER_VERTICAL.get(RIGHT))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER_SLAB_VERTICAL.get(RIGHT))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_ACACIA_WHITE_PLASTER_HORIZONTAL_1 = familyBuilder(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER.get(HORIZONTAL_1))
+            .corner(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER_CORNER.get(HORIZONTAL_1))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_1))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_1))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_ACACIA_WHITE_PLASTER_HORIZONTAL_2 = familyBuilder(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER.get(HORIZONTAL_2))
+            .corner(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER_CORNER.get(HORIZONTAL_2))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_2))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_2))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_ACACIA_WHITE_PLASTER_VERTICAL_1 = familyBuilder(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER.get(VERTICAL_1))
+            .corner(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER_CORNER.get(VERTICAL_1))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_1))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER_SLAB_VERTICAL.get(VERTICAL_1))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_ACACIA_WHITE_PLASTER_VERTICAL_2 = familyBuilder(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER.get(VERTICAL_2))
+            .corner(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER_CORNER.get(VERTICAL_2))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_2))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_ACACIA_WHITE_PLASTER_SLAB_VERTICAL.get(VERTICAL_2))
+            .getFamily();
+
+    /* Birch White Plaster Half-Timbered */
+    public static final ModBlockFamily TUDOR_STAINED_BIRCH_WHITE_PLASTER_CROSS = familyBuilder(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER.get(CROSS))
+            .corner(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER_CORNER.get(CROSS))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER_QUARTER_VERTICAL.get(CROSS))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER_SLAB_VERTICAL.get(CROSS))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_BIRCH_WHITE_PLASTER_DOWN = familyBuilder(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER.get(DOWN))
+            .corner(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER_CORNER.get(DOWN))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER_QUARTER_VERTICAL.get(DOWN))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER_SLAB_VERTICAL.get(DOWN))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_BIRCH_WHITE_PLASTER_UP = familyBuilder(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER.get(UP))
+            .corner(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER_CORNER.get(UP))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER_QUARTER_VERTICAL.get(UP))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER_SLAB_VERTICAL.get(UP))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_BIRCH_WHITE_PLASTER_LEFT = familyBuilder(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER.get(LEFT))
+            .corner(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER_CORNER.get(LEFT))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER_QUARTER_VERTICAL.get(LEFT))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER_SLAB_VERTICAL.get(LEFT))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_BIRCH_WHITE_PLASTER_RIGHT = familyBuilder(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER.get(RIGHT))
+            .corner(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER_CORNER.get(RIGHT))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER_QUARTER_VERTICAL.get(RIGHT))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER_SLAB_VERTICAL.get(RIGHT))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_BIRCH_WHITE_PLASTER_HORIZONTAL_1 = familyBuilder(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER.get(HORIZONTAL_1))
+            .corner(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER_CORNER.get(HORIZONTAL_1))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_1))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_1))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_BIRCH_WHITE_PLASTER_HORIZONTAL_2 = familyBuilder(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER.get(HORIZONTAL_2))
+            .corner(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER_CORNER.get(HORIZONTAL_2))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_2))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_2))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_BIRCH_WHITE_PLASTER_VERTICAL_1 = familyBuilder(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER.get(VERTICAL_1))
+            .corner(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER_CORNER.get(VERTICAL_1))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_1))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER_SLAB_VERTICAL.get(VERTICAL_1))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_BIRCH_WHITE_PLASTER_VERTICAL_2 = familyBuilder(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER.get(VERTICAL_2))
+            .corner(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER_CORNER.get(VERTICAL_2))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_2))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_BIRCH_WHITE_PLASTER_SLAB_VERTICAL.get(VERTICAL_2))
+            .getFamily();
+
+    /* Dark Oak White Plaster Half-Timbered */
+    public static final ModBlockFamily TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_CROSS = familyBuilder(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER.get(CROSS))
+            .corner(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_CORNER.get(CROSS))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_QUARTER_VERTICAL.get(CROSS))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_SLAB_VERTICAL.get(CROSS))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_DOWN = familyBuilder(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER.get(DOWN))
+            .corner(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_CORNER.get(DOWN))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_QUARTER_VERTICAL.get(DOWN))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_SLAB_VERTICAL.get(DOWN))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_UP = familyBuilder(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER.get(UP))
+            .corner(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_CORNER.get(UP))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_QUARTER_VERTICAL.get(UP))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_SLAB_VERTICAL.get(UP))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_LEFT = familyBuilder(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER.get(LEFT))
+            .corner(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_CORNER.get(LEFT))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_QUARTER_VERTICAL.get(LEFT))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_SLAB_VERTICAL.get(LEFT))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_RIGHT = familyBuilder(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER.get(RIGHT))
+            .corner(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_CORNER.get(RIGHT))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_QUARTER_VERTICAL.get(RIGHT))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_SLAB_VERTICAL.get(RIGHT))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_HORIZONTAL_1 = familyBuilder(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER.get(HORIZONTAL_1))
+            .corner(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_CORNER.get(HORIZONTAL_1))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_1))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_1))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_HORIZONTAL_2 = familyBuilder(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER.get(HORIZONTAL_2))
+            .corner(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_CORNER.get(HORIZONTAL_2))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_2))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_2))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_VERTICAL_1 = familyBuilder(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER.get(VERTICAL_1))
+            .corner(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_CORNER.get(VERTICAL_1))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_1))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_SLAB_VERTICAL.get(VERTICAL_1))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_VERTICAL_2 = familyBuilder(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER.get(VERTICAL_2))
+            .corner(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_CORNER.get(VERTICAL_2))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_2))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_DARK_OAK_WHITE_PLASTER_SLAB_VERTICAL.get(VERTICAL_2))
+            .getFamily();
+
+    /* Jungle White Plaster Half-Timbered */
+    public static final ModBlockFamily TUDOR_STAINED_JUNGLE_WHITE_PLASTER_CROSS = familyBuilder(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER.get(CROSS))
+            .corner(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER_CORNER.get(CROSS))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER_QUARTER_VERTICAL.get(CROSS))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER_SLAB_VERTICAL.get(CROSS))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_JUNGLE_WHITE_PLASTER_DOWN = familyBuilder(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER.get(DOWN))
+            .corner(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER_CORNER.get(DOWN))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER_QUARTER_VERTICAL.get(DOWN))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER_SLAB_VERTICAL.get(DOWN))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_JUNGLE_WHITE_PLASTER_UP = familyBuilder(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER.get(UP))
+            .corner(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER_CORNER.get(UP))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER_QUARTER_VERTICAL.get(UP))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER_SLAB_VERTICAL.get(UP))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_JUNGLE_WHITE_PLASTER_LEFT = familyBuilder(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER.get(LEFT))
+            .corner(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER_CORNER.get(LEFT))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER_QUARTER_VERTICAL.get(LEFT))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER_SLAB_VERTICAL.get(LEFT))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_JUNGLE_WHITE_PLASTER_RIGHT = familyBuilder(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER.get(RIGHT))
+            .corner(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER_CORNER.get(RIGHT))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER_QUARTER_VERTICAL.get(RIGHT))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER_SLAB_VERTICAL.get(RIGHT))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_JUNGLE_WHITE_PLASTER_HORIZONTAL_1 = familyBuilder(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER.get(HORIZONTAL_1))
+            .corner(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER_CORNER.get(HORIZONTAL_1))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_1))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_1))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_JUNGLE_WHITE_PLASTER_HORIZONTAL_2 = familyBuilder(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER.get(HORIZONTAL_2))
+            .corner(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER_CORNER.get(HORIZONTAL_2))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_2))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_2))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_JUNGLE_WHITE_PLASTER_VERTICAL_1 = familyBuilder(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER.get(VERTICAL_1))
+            .corner(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER_CORNER.get(VERTICAL_1))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_1))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER_SLAB_VERTICAL.get(VERTICAL_1))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_JUNGLE_WHITE_PLASTER_VERTICAL_2 = familyBuilder(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER.get(VERTICAL_2))
+            .corner(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER_CORNER.get(VERTICAL_2))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_2))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_JUNGLE_WHITE_PLASTER_SLAB_VERTICAL.get(VERTICAL_2))
+            .getFamily();
+
+    /* Oak White Plaster Half-Timbered */
+    public static final ModBlockFamily TUDOR_STAINED_OAK_WHITE_PLASTER_CROSS = familyBuilder(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER.get(CROSS))
+            .corner(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER_CORNER.get(CROSS))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER_QUARTER_VERTICAL.get(CROSS))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER_SLAB_VERTICAL.get(CROSS))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_OAK_WHITE_PLASTER_DOWN = familyBuilder(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER.get(DOWN))
+            .corner(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER_CORNER.get(DOWN))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER_QUARTER_VERTICAL.get(DOWN))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER_SLAB_VERTICAL.get(DOWN))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_OAK_WHITE_PLASTER_UP = familyBuilder(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER.get(UP))
+            .corner(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER_CORNER.get(UP))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER_QUARTER_VERTICAL.get(UP))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER_SLAB_VERTICAL.get(UP))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_OAK_WHITE_PLASTER_LEFT = familyBuilder(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER.get(LEFT))
+            .corner(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER_CORNER.get(LEFT))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER_QUARTER_VERTICAL.get(LEFT))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER_SLAB_VERTICAL.get(LEFT))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_OAK_WHITE_PLASTER_RIGHT = familyBuilder(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER.get(RIGHT))
+            .corner(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER_CORNER.get(RIGHT))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER_QUARTER_VERTICAL.get(RIGHT))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER_SLAB_VERTICAL.get(RIGHT))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_OAK_WHITE_PLASTER_HORIZONTAL_1 = familyBuilder(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER.get(HORIZONTAL_1))
+            .corner(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER_CORNER.get(HORIZONTAL_1))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_1))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_1))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_OAK_WHITE_PLASTER_HORIZONTAL_2 = familyBuilder(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER.get(HORIZONTAL_2))
+            .corner(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER_CORNER.get(HORIZONTAL_2))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_2))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_2))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_OAK_WHITE_PLASTER_VERTICAL_1 = familyBuilder(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER.get(VERTICAL_1))
+            .corner(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER_CORNER.get(VERTICAL_1))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_1))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER_SLAB_VERTICAL.get(VERTICAL_1))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_OAK_WHITE_PLASTER_VERTICAL_2 = familyBuilder(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER.get(VERTICAL_2))
+            .corner(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER_CORNER.get(VERTICAL_2))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_2))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_OAK_WHITE_PLASTER_SLAB_VERTICAL.get(VERTICAL_2))
+            .getFamily();
+
+    /* Spruce White Plaster Half-Timbered */
+    static {
+        // TUDOR_STAINED_SPRUCE_WHITE_PLASTER_CROSS
+        familyBuilder(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER.get(CROSS))
+                .corner(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER_CORNER.get(CROSS))
+                .quarter_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER_QUARTER_VERTICAL.get(CROSS))
+                .slab_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER_SLAB_VERTICAL.get(CROSS));
+    }
+    public static final ModBlockFamily TUDOR_STAINED_SPRUCE_WHITE_PLASTER_DOWN = familyBuilder(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER.get(DOWN))
+            .corner(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER_CORNER.get(DOWN))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER_QUARTER_VERTICAL.get(DOWN))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER_SLAB_VERTICAL.get(DOWN))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_SPRUCE_WHITE_PLASTER_UP = familyBuilder(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER.get(UP))
+            .corner(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER_CORNER.get(UP))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER_QUARTER_VERTICAL.get(UP))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER_SLAB_VERTICAL.get(UP))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_SPRUCE_WHITE_PLASTER_LEFT = familyBuilder(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER.get(LEFT))
+            .corner(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER_CORNER.get(LEFT))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER_QUARTER_VERTICAL.get(LEFT))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER_SLAB_VERTICAL.get(LEFT))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_SPRUCE_WHITE_PLASTER_RIGHT = familyBuilder(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER.get(RIGHT))
+            .corner(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER_CORNER.get(RIGHT))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER_QUARTER_VERTICAL.get(RIGHT))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER_SLAB_VERTICAL.get(RIGHT))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_SPRUCE_WHITE_PLASTER_HORIZONTAL_1 = familyBuilder(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER.get(HORIZONTAL_1))
+            .corner(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER_CORNER.get(HORIZONTAL_1))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_1))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_1))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_SPRUCE_WHITE_PLASTER_HORIZONTAL_2 = familyBuilder(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER.get(HORIZONTAL_2))
+            .corner(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER_CORNER.get(HORIZONTAL_2))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER_QUARTER_VERTICAL.get(HORIZONTAL_2))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER_SLAB_VERTICAL.get(HORIZONTAL_2))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_SPRUCE_WHITE_PLASTER_VERTICAL_1 = familyBuilder(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER.get(VERTICAL_1))
+            .corner(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER_CORNER.get(VERTICAL_1))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_1))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER_SLAB_VERTICAL.get(VERTICAL_1))
+            .getFamily();
+    public static final ModBlockFamily TUDOR_STAINED_SPRUCE_WHITE_PLASTER_VERTICAL_2 = familyBuilder(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER.get(VERTICAL_2))
+            .corner(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER_CORNER.get(VERTICAL_2))
+            .quarter_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER_QUARTER_VERTICAL.get(VERTICAL_2))
+            .slab_vertical(ModBlocks.TUDOR_STAINED_SPRUCE_WHITE_PLASTER_SLAB_VERTICAL.get(VERTICAL_2))
             .getFamily();
 
     private static ModBlockFamily.Builder familyBuilder(Block pBaseBlock) {
