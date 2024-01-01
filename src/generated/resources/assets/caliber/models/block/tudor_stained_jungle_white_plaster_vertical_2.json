@@ -2,7 +2,7 @@
   "parent": "minecraft:block/cube_bottom_top",
   "textures": {
     "side": "caliber:block/tudor_stained_jungle_white_plaster_vertical_2",
-    "bottom": "caliber:block/jungle_boards",
-    "top": "caliber:block/jungle_boards"
+    "bottom": "caliber:block/stained_jungle_boards",
+    "top": "caliber:block/stained_jungle_boards"
   }
 }

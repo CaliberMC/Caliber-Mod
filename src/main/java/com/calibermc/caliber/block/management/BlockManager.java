@@ -214,9 +214,11 @@ public class BlockManager {
         public final Supplier<Block> blockSupplier;
         public BiConsumer<ModBlockLootTables, Block> lootGen = BlockLoot::dropSelf;
         public BiConsumer<RegistryObject<Block>, ModBlockStateProvider> stateGenerator = (b, provider) ->
-                CaliberBlockHelper.fixBlockTex(b, b, provider, (block, side, top, bottom, tex) ->
-                        provider.simpleBlock(b.get(), provider.models().cubeAll(provider.name(b.get()), tex)), (block, tex) ->
+                CaliberBlockHelper.fixBlockTex(b, b, provider, (block, side, bottom, top, tex) ->
+                        provider.simpleBlock(b.get(), provider.models().cubeBottomTop(provider.name(b.get()), side, bottom, top)), (block, tex) ->
                         provider.simpleBlock(b.get(), provider.models().cubeAll(provider.name(b.get()), tex)));
+//                        provider.simpleBlock(b.get(), provider.models().cubeAll(provider.name(b.get()), tex)), (block, tex) ->
+//                        provider.simpleBlock(b.get(), provider.models().cubeAll(provider.name(b.get()), tex)));
 
         public BlockAdditional(ModBlockFamily.Variant variant, Supplier<Block> blockSupplier) {
             this.variant = variant;

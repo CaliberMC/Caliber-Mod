@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "caliber:tudor_birch_beige_plaster_down"
-  },
-  "result": "caliber:tudor_birch_beige_plaster_corner_down",
-  "count": 2
-}

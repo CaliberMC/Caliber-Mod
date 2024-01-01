@@ -1,6 +1,8 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube_bottom_top",
   "textures": {
-    "all": "caliber:block/brown_sandstone"
+    "side": "caliber:block/brown_sandstone",
+    "bottom": "caliber:block/brown_sandstone_bottom",
+    "top": "caliber:block/brown_sandstone_top"
   }
 }

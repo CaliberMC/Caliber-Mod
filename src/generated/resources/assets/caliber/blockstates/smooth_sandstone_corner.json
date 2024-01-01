@@ -73,22 +73,22 @@
       "model": "caliber:block/smooth_sandstone_corner_layer_4"
     },
     "facing=north,layers=5,type=left": {
-      "model": "minecraft:block/sandstone",
+      "model": "minecraft:block/smooth_sandstone",
       "y": 270,
       "uvlock": true
     },
     "facing=south,layers=5,type=left": {
-      "model": "minecraft:block/sandstone",
+      "model": "minecraft:block/smooth_sandstone",
       "y": 90,
       "uvlock": true
     },
     "facing=west,layers=5,type=left": {
-      "model": "minecraft:block/sandstone",
+      "model": "minecraft:block/smooth_sandstone",
       "y": 180,
       "uvlock": true
     },
     "facing=east,layers=5,type=left": {
-      "model": "minecraft:block/sandstone"
+      "model": "minecraft:block/smooth_sandstone"
     },
     "facing=north,layers=1,type=right": {
       "model": "caliber:block/smooth_sandstone_corner_layer_1"
@@ -163,20 +163,20 @@
       "uvlock": true
     },
     "facing=north,layers=5,type=right": {
-      "model": "minecraft:block/sandstone"
+      "model": "minecraft:block/smooth_sandstone"
     },
     "facing=south,layers=5,type=right": {
-      "model": "minecraft:block/sandstone",
+      "model": "minecraft:block/smooth_sandstone",
       "y": 180,
       "uvlock": true
     },
     "facing=west,layers=5,type=right": {
-      "model": "minecraft:block/sandstone",
+      "model": "minecraft:block/smooth_sandstone",
       "y": 270,
       "uvlock": true
     },
     "facing=east,layers=5,type=right": {
-      "model": "minecraft:block/sandstone",
+      "model": "minecraft:block/smooth_sandstone",
       "y": 90,
       "uvlock": true
     }

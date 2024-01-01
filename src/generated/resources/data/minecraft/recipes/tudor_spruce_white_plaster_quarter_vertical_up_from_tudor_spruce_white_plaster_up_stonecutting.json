@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "caliber:tudor_spruce_white_plaster_up"
-  },
-  "result": "caliber:tudor_spruce_white_plaster_quarter_vertical_up",
-  "count": 4
-}

@@ -2,7 +2,7 @@
   "parent": "minecraft:block/cube_bottom_top",
   "textures": {
     "side": "caliber:block/tudor_stained_oak_white_plaster_horizontal_2",
-    "bottom": "caliber:block/oak_boards",
-    "top": "caliber:block/oak_boards"
+    "bottom": "caliber:block/stained_oak_boards",
+    "top": "caliber:block/stained_oak_boards"
   }
 }

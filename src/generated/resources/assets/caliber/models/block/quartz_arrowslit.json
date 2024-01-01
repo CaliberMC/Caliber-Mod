@@ -1,7 +1,7 @@
 {
   "parent": "caliber:block/templates/arrowslit",
   "textures": {
-    "side": "minecraft:block/quartz_block_top",
+    "side": "minecraft:block/quartz_block_side",
     "top": "minecraft:block/quartz_block_top",
     "bottom": "minecraft:block/quartz_block_top"
   }

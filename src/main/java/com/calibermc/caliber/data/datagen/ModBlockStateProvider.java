@@ -81,12 +81,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
     }
 
     private void stainedPlanks(){
-//        models().buttonInventory("stained_acacia_button", blockTexture(ModBlocks.STAINED_ACACIA_BUTTON.get()));
-//        models().buttonInventory("stained_birch_button", blockTexture(ModBlocks.STAINED_BIRCH_BUTTON.get()));
-//        models().buttonInventory("stained_dark_oak_button", blockTexture(ModBlocks.STAINED_DARK_OAK_BUTTON.get()));
-//        models().buttonInventory("stained_jungle_button", blockTexture(ModBlocks.STAINED_JUNGLE_BUTTON.get()));
-//        models().buttonInventory("stained_oak_button", blockTexture(ModBlocks.STAINED_OAK_BUTTON.get()));
-//        models().buttonInventory("stained_spruce_button", blockTexture(ModBlocks.STAINED_SPRUCE_BUTTON.get()));
+        
         models().buttonInventory("stained_acacia_button_inventory", blockTexture(ModBlocks.STAINED_ACACIA.baseBlock()));
         models().buttonInventory("stained_birch_button_inventory", blockTexture(ModBlocks.STAINED_BIRCH.baseBlock()));
         models().buttonInventory("stained_dark_oak_button_inventory", blockTexture(ModBlocks.STAINED_DARK_OAK.baseBlock()));
@@ -105,24 +100,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
         doorBlock((DoorBlock) ModBlocks.STAINED_JUNGLE_DOOR.get(), modLoc("block/stained_jungle_door_bottom"), modLoc("block/stained_jungle_door_top"));
         doorBlock((DoorBlock) ModBlocks.STAINED_OAK_DOOR.get(), modLoc("block/stained_oak_door_bottom"), modLoc("block/stained_oak_door_top"));
         doorBlock((DoorBlock) ModBlocks.STAINED_SPRUCE_DOOR.get(), modLoc("block/stained_spruce_door_bottom"), modLoc("block/stained_spruce_door_top"));
-//        fenceBlock((FenceBlock) ModBlocks.STAINED_ACACIA_FENCE.get(), modLoc("block/stained_acacia"));
-//        fenceBlock((FenceBlock) ModBlocks.STAINED_BIRCH_FENCE.get(), modLoc("block/stained_birch"));
-//        fenceBlock((FenceBlock) ModBlocks.STAINED_DARK_OAK_FENCE.get(), modLoc("block/stained_dark_oak"));
-//        fenceBlock((FenceBlock) ModBlocks.STAINED_JUNGLE_FENCE.get(), modLoc("block/stained_jungle"));
-//        fenceBlock((FenceBlock) ModBlocks.STAINED_OAK_FENCE.get(), modLoc("block/stained_oak"));
-//        fenceBlock((FenceBlock) ModBlocks.STAINED_SPRUCE_FENCE.get(), modLoc("block/stained_spruce"));
-//        fenceGateBlock((FenceGateBlock) ModBlocks.STAINED_ACACIA_FENCE_GATE.get(), modLoc("block/stained_acacia"));
-//        fenceGateBlock((FenceGateBlock) ModBlocks.STAINED_BIRCH_FENCE_GATE.get(), modLoc("block/stained_birch"));
-//        fenceGateBlock((FenceGateBlock) ModBlocks.STAINED_DARK_OAK_FENCE_GATE.get(), modLoc("block/stained_dark_oak"));
-//        fenceGateBlock((FenceGateBlock) ModBlocks.STAINED_JUNGLE_FENCE_GATE.get(), modLoc("block/stained_jungle"));
-//        fenceGateBlock((FenceGateBlock) ModBlocks.STAINED_OAK_FENCE_GATE.get(), modLoc("block/stained_oak"));
-//        fenceGateBlock((FenceGateBlock) ModBlocks.STAINED_SPRUCE_FENCE_GATE.get(), modLoc("block/stained_spruce"));
-//        pressurePlateBlock((PressurePlateBlock) ModBlocks.STAINED_ACACIA_PRESSURE_PLATE.get(), modLoc("block/stained_acacia"));
-//        pressurePlateBlock((PressurePlateBlock) ModBlocks.STAINED_BIRCH_PRESSURE_PLATE.get(), modLoc("block/stained_birch"));
-//        pressurePlateBlock((PressurePlateBlock) ModBlocks.STAINED_DARK_OAK_PRESSURE_PLATE.get(), modLoc("block/stained_dark_oak"));
-//        pressurePlateBlock((PressurePlateBlock) ModBlocks.STAINED_JUNGLE_PRESSURE_PLATE.get(), modLoc("block/stained_jungle"));
-//        pressurePlateBlock((PressurePlateBlock) ModBlocks.STAINED_OAK_PRESSURE_PLATE.get(), modLoc("block/stained_oak"));
-//        pressurePlateBlock((PressurePlateBlock) ModBlocks.STAINED_SPRUCE_PRESSURE_PLATE.get(), modLoc("block/stained_spruce"));
         signBlock((StandingSignBlock)ModBlocks.STAINED_ACACIA_SIGN.get(), (WallSignBlock) ModBlocks.STAINED_ACACIA_WALL_SIGN.get(), modLoc("block/stained_acacia_planks"));
         signBlock((StandingSignBlock)ModBlocks.STAINED_BIRCH_SIGN.get(), (WallSignBlock) ModBlocks.STAINED_BIRCH_WALL_SIGN.get(), modLoc("block/stained_birch_planks"));
         signBlock((StandingSignBlock)ModBlocks.STAINED_DARK_OAK_SIGN.get(), (WallSignBlock) ModBlocks.STAINED_DARK_OAK_WALL_SIGN.get(), modLoc("block/stained_dark_oak_planks"));
@@ -146,7 +123,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         archBlock(block, texture, texture, texture);
     }
 
-    public void archBlock(ArchBlock block, ResourceLocation side, ResourceLocation top, ResourceLocation bottom) {
+    public void archBlock(ArchBlock block, ResourceLocation side, ResourceLocation bottom, ResourceLocation top) {
         ModelFile archModel = models().withExistingParent(name(block), modLoc("block/templates/arch"))
                 .texture("side", side)
                 .texture("top", top)
@@ -255,7 +232,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         archHalfBlock(block, texture, texture, texture);
     }
 
-    public void archHalfBlock(HalfArchBlock block, ResourceLocation side, ResourceLocation top, ResourceLocation bottom) {
+    public void archHalfBlock(HalfArchBlock block, ResourceLocation side, ResourceLocation bottom, ResourceLocation top) {
         ModelFile arch_half = models().withExistingParent(name(block), modLoc("block/templates/arch_half"))
                 .texture("side", side)
                 .texture("top", top)
@@ -280,7 +257,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         archLargeBlock(block, texture, texture, texture);
     }
 
-    public void archLargeBlock(LargeArchBlock block, ResourceLocation side, ResourceLocation top, ResourceLocation bottom) {
+    public void archLargeBlock(LargeArchBlock block, ResourceLocation side, ResourceLocation bottom, ResourceLocation top) {
         ModelFile arch_large = models().withExistingParent(name(block), modLoc("block/templates/arch_large"))
                 .texture("side", side)
                 .texture("top", top)
@@ -381,7 +358,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         archLargeHalfBlock(block, texture, texture, texture);
     }
 
-    public void archLargeHalfBlock(LargeHalfArchBlock block, ResourceLocation side, ResourceLocation top, ResourceLocation bottom) {
+    public void archLargeHalfBlock(LargeHalfArchBlock block, ResourceLocation side, ResourceLocation bottom, ResourceLocation top) {
         ModelFile arch_large_half = models().withExistingParent(name(block), modLoc("block/templates/arch_large_half"))
                 .texture("side", side)
                 .texture("top", top)
@@ -418,7 +395,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         arrowslitBlock(block, texture, texture, texture);
     }
 
-    public void arrowslitBlock(ArrowSlitBlock block, ResourceLocation side, ResourceLocation top, ResourceLocation bottom) {
+    public void arrowslitBlock(ArrowSlitBlock block, ResourceLocation side, ResourceLocation bottom, ResourceLocation top) {
         ModelFile arrowslit = models().withExistingParent(name(block), modLoc("block/templates/arrowslit"))
                 .texture("side", side)
                 .texture("top", top)
@@ -443,7 +420,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         balustradeBlock(block, texture, texture, texture);
     }
 
-    public void balustradeBlock(BalustradeBlock block, ResourceLocation top, ResourceLocation bottom, ResourceLocation side) {
+    public void balustradeBlock(BalustradeBlock block, ResourceLocation side, ResourceLocation bottom, ResourceLocation top) {
         ModelFile balustrade = models().withExistingParent(name(block), modLoc("block/templates/balustrade"))
                 .texture("side", side)
                 .texture("top", top)
@@ -474,7 +451,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         beamLintelBlock(block, texture, texture, texture);
     }
 
-    public void beamLintelBlock(BeamLintelBlock block, ResourceLocation side, ResourceLocation top, ResourceLocation bottom) {
+    public void beamLintelBlock(BeamLintelBlock block, ResourceLocation side, ResourceLocation bottom, ResourceLocation top) {
         ModelFile beam_lintel_1 = models().withExistingParent(name(block) + "_1", modLoc("block/templates/beam_lintel_1"))
                 .texture("side", side)
                 .texture("top", top)
@@ -568,7 +545,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         beamPostsBlock(block, texture, texture, texture);
     }
 
-    public void beamPostsBlock(BeamPostsBlock block, ResourceLocation side, ResourceLocation top, ResourceLocation bottom) {
+    public void beamPostsBlock(BeamPostsBlock block, ResourceLocation side, ResourceLocation bottom, ResourceLocation top) {
         ModelFile beam_posts_1 = models().withExistingParent(name(block) + "_1", modLoc("block/templates/beam_posts_1"))
                 .texture("side", side)
                 .texture("top", top)
@@ -617,7 +594,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         beamHorizontalBlock(block, texture, texture, texture);
     }
 
-    public void beamHorizontalBlock(HorizontalBeamBlock block, ResourceLocation side, ResourceLocation top, ResourceLocation bottom) {
+    public void beamHorizontalBlock(HorizontalBeamBlock block, ResourceLocation side, ResourceLocation bottom, ResourceLocation top) {
         ModelFile beam_horizontal_1 = models().withExistingParent(name(block) + "_1", modLoc("block/templates/beam_horizontal_1"))
                 .texture("side", side)
                 .texture("top", top)
@@ -750,7 +727,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         beamVerticalBlock(block, texture, texture, texture);
     }
 
-    public void beamVerticalBlock(VerticalBeamBlock block, ResourceLocation side, ResourceLocation top, ResourceLocation bottom) {
+    public void beamVerticalBlock(VerticalBeamBlock block, ResourceLocation side, ResourceLocation bottom, ResourceLocation top) {
         ModelFile beam_vertical_1 = models().withExistingParent(name(block) + "_1", modLoc("block/templates/beam_vertical_1"))
                 .texture("side", side)
                 .texture("top", top)
@@ -847,7 +824,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         capitalBlock(block, texture, texture, texture);
     }
 
-    public void capitalBlock(CapitalBlock block, ResourceLocation side, ResourceLocation top, ResourceLocation bottom) {
+    public void capitalBlock(CapitalBlock block, ResourceLocation side, ResourceLocation bottom, ResourceLocation top) {
         ModelFile capital = models().withExistingParent(name(block), modLoc("block/templates/capital"))
                 .texture("side", side)
                 .texture("top", top)
@@ -872,7 +849,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         cornerLayerBlock(block, texture, texture, texture, texture);
     }
 
-    public void cornerLayerBlock(CornerLayerBlock block, ResourceLocation side, ResourceLocation top, ResourceLocation bottom, ResourceLocation baseBlock) {
+    public void cornerLayerBlock(CornerLayerBlock block, ResourceLocation side, ResourceLocation bottom, ResourceLocation top, ResourceLocation baseBlock) {
         ModelFile corner_layer_1 = models().withExistingParent(name(block) + "_layer_1", modLoc("block/templates/corner_layer_1"))
                 .texture("side", side)
                 .texture("top", top)
@@ -983,7 +960,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         cornerSlabBlock(block, texture, texture, texture);
     }
 
-    public void cornerSlabBlock(CornerSlabBlock block, ResourceLocation side, ResourceLocation top, ResourceLocation bottom) {
+    public void cornerSlabBlock(CornerSlabBlock block, ResourceLocation side, ResourceLocation bottom, ResourceLocation top) {
         ModelFile corner_slab = models().withExistingParent(name(block), modLoc("block/templates/corner_slab"))
                 .texture("side", side)
                 .texture("top", top)
@@ -1036,7 +1013,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         cornerSlabVerticalBlock(block, texture, texture, texture);
     }
 
-    public void cornerSlabVerticalBlock(VerticalCornerSlabBlock block, ResourceLocation side, ResourceLocation top, ResourceLocation bottom) {
+    public void cornerSlabVerticalBlock(VerticalCornerSlabBlock block, ResourceLocation side, ResourceLocation bottom, ResourceLocation top) {
         ModelFile corner_slab_vertical = models().withExistingParent(name(block), modLoc("block/templates/corner_slab_vertical"))
                 .texture("side", side)
                 .texture("top", top)
@@ -1097,7 +1074,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         doorFrameBlock(block, texture, texture, texture);
     }
 
-    public void doorFrameBlock(DoorFrameBlock block, ResourceLocation side, ResourceLocation top, ResourceLocation bottom) {
+    public void doorFrameBlock(DoorFrameBlock block, ResourceLocation side, ResourceLocation bottom, ResourceLocation top) {
         ModelFile door_frame_1 = models().withExistingParent(name(block) + "_1", modLoc("block/templates/door_frame_1"))
                 .texture("side", side)
                 .texture("top", top)
@@ -1146,7 +1123,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         doorFrameLintelBlock(block, texture, texture, texture);
     }
 
-    public void doorFrameLintelBlock(DoorFrameLintelBlock block, ResourceLocation side, ResourceLocation top, ResourceLocation bottom) {
+    public void doorFrameLintelBlock(DoorFrameLintelBlock block, ResourceLocation side, ResourceLocation bottom, ResourceLocation top) {
         ModelFile door_frame_lintel_1 = models().withExistingParent(name(block) + "_1", modLoc("block/templates/door_frame_lintel_1"))
                 .texture("side", side)
                 .texture("top", top)
@@ -1240,7 +1217,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         eighthBlock(block, texture, texture, texture);
     }
 
-    public void eighthBlock(EighthBlock block, ResourceLocation side, ResourceLocation top, ResourceLocation bottom) {
+    public void eighthBlock(EighthBlock block, ResourceLocation side, ResourceLocation bottom, ResourceLocation top) {
         ModelFile eighth = models().withExistingParent(name(block), modLoc("block/templates/eighth"))
                 .texture("side", side)
                 .texture("top", top)
@@ -1302,7 +1279,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         pillarLayerBlock(block, texture, texture, texture, texture);
     }
 
-    public void pillarLayerBlock(PillarLayerBlock block, ResourceLocation side, ResourceLocation top, ResourceLocation bottom, ResourceLocation baseBlock) {
+    public void pillarLayerBlock(PillarLayerBlock block, ResourceLocation side, ResourceLocation bottom, ResourceLocation top, ResourceLocation baseBlock) {
         ModelFile pillar_layer_1 = models().withExistingParent(name(block) + "_layer_1", modLoc("block/templates/pillar_layer_1"))
                 .texture("side", side)
                 .texture("top", top)
@@ -1333,16 +1310,16 @@ public class ModBlockStateProvider extends BlockStateProvider {
                 .partialState().with(PillarLayerBlock.LAYERS, 5)
                 .modelForState().modelFile(full_block).addModel();
     }
-    
+
     public void quarterLayerBlock(QuarterLayerBlock block) {
         quarterLayerBlock(block, blockTexture(block));
     }
-    
+
     public void quarterLayerBlock(QuarterLayerBlock block, ResourceLocation texture) {
         quarterLayerBlock(block, texture, texture, texture, texture);
     }
 
-    public void quarterLayerBlock(QuarterLayerBlock block, ResourceLocation side, ResourceLocation top, ResourceLocation bottom, ResourceLocation baseBlock) {
+    public void quarterLayerBlock(QuarterLayerBlock block, ResourceLocation side, ResourceLocation bottom, ResourceLocation top, ResourceLocation baseBlock) {
         ModelFile quarter_layer_1 = models().withExistingParent(name(block) + "_layer_1", modLoc("block/templates/quarter_layer_1"))
                 .texture("side", side)
                 .texture("top", top)
@@ -1376,7 +1353,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
                         .texture("top", top)
                         .texture("bottom", bottom),
                 full_block = this.models().getExistingFile(baseBlock);
-        
+
         getVariantBuilder(block)
                 .partialState().with(QuarterLayerBlock.FACING, Direction.NORTH).with(QuarterLayerBlock.TYPE, QuarterLayerShape.BOTTOM).with(QuarterLayerBlock.LAYERS, 1)
                 .modelForState().modelFile(quarter_layer_1).addModel()
@@ -1486,7 +1463,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
                         .texture("top", left)
                         .texture("bottom", bottom),
                 full_block = this.models().getExistingFile(baseBlock);
-        
+
         getVariantBuilder(block)
                 .partialState().with(VerticalQuarterLayerBlock.FACING, Direction.NORTH).with(VerticalQuarterLayerBlock.TYPE, LeftRightShape.RIGHT).with(VerticalQuarterLayerBlock.LAYERS, 1)
                 .modelForState().modelFile(quarter_vertical_layer_1).addModel()
@@ -1573,12 +1550,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
     public void slabLayerBlock(SlabLayerBlock block) {
         slabLayerBlock(block, blockTexture(block));
     }
-    
+
     public void slabLayerBlock(SlabLayerBlock block, ResourceLocation texture) {
         slabLayerBlock(block, texture, texture, texture, texture);
     }
 
-    public void slabLayerBlock(SlabLayerBlock block, ResourceLocation side, ResourceLocation top, ResourceLocation bottom, ResourceLocation baseBlock) {
+    public void slabLayerBlock(SlabLayerBlock block, ResourceLocation side, ResourceLocation bottom, ResourceLocation top, ResourceLocation baseBlock) {
         ModelFile slab_layer_1 = models().withExistingParent(name(block) + "_layer_1", modLoc("block/templates/slab_layer_1"))
                 .texture("side", side)
                 .texture("top", top)
@@ -1608,8 +1585,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
                         .texture("top", top)
                         .texture("bottom", bottom),
                 full_block = this.models().getExistingFile(baseBlock);
-                
-                
+
+
         getVariantBuilder(block)
                 .partialState().with(SlabLayerBlock.TYPE, SlabLayerShape.BOTTOM).with(SlabLayerBlock.LAYERS, 1)
                 .modelForState().modelFile(slab_layer_1).addModel()
@@ -1653,7 +1630,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         slabVerticalLayerBlock(block, texture, texture, texture, texture);
     }
 
-    public void slabVerticalLayerBlock(VerticalSlabLayerBlock block, ResourceLocation side, ResourceLocation top, ResourceLocation bottom, ResourceLocation baseBlock) {
+    public void slabVerticalLayerBlock(VerticalSlabLayerBlock block, ResourceLocation side, ResourceLocation bottom, ResourceLocation top, ResourceLocation baseBlock) {
         ModelFile slab_vertical_layer_1 = models().withExistingParent(name(block) + "_layer_1", modLoc("block/templates/slab_vertical_layer_1"))
                 .texture("side", side)
                 .texture("top", top)
@@ -1759,7 +1736,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         windowBlock(block, texture, texture, texture);
     }
 
-    public void windowBlock(WindowBlock block, ResourceLocation side, ResourceLocation top, ResourceLocation bottom) {
+    public void windowBlock(WindowBlock block, ResourceLocation side, ResourceLocation bottom, ResourceLocation top) {
         ModelFile window = models().withExistingParent(name(block), modLoc("block/templates/window"))
                 .texture("side", side)
                 .texture("top", top)
@@ -1820,7 +1797,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         windowHalfBlock(block, texture, texture, texture);
     }
 
-    public void windowHalfBlock(HalfWindowBlock block, ResourceLocation side, ResourceLocation top, ResourceLocation bottom) {
+    public void windowHalfBlock(HalfWindowBlock block, ResourceLocation side, ResourceLocation bottom, ResourceLocation top) {
         ModelFile window_half = models().withExistingParent(name(block), modLoc("block/templates/window_half"))
                 .texture("side", side)
                 .texture("top", top)
@@ -1876,12 +1853,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
     public void roof22Block(Roof22Block block) {
         roof22Block(block, blockTexture(block));
     }
-    
+
     public void roof22Block(Roof22Block block, ResourceLocation texture) {
         roof22Block(block, texture, texture, texture);
     }
-    
-    public void roof22Block(Roof22Block block, ResourceLocation side, ResourceLocation top, ResourceLocation bottom) {
+
+    public void roof22Block(Roof22Block block, ResourceLocation side, ResourceLocation bottom, ResourceLocation top) {
         ModelFile roof_22 = models().withExistingParent(name(block), modLoc("block/templates/roof_22"))
                 .texture("side", side)
                 .texture("top", top)
@@ -2000,7 +1977,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         roof45Block(block, texture, texture, texture);
     }
 
-    public void roof45Block(Roof45Block block, ResourceLocation side, ResourceLocation top, ResourceLocation bottom) {
+    public void roof45Block(Roof45Block block, ResourceLocation side, ResourceLocation bottom, ResourceLocation top) {
         ModelFile roof_45 = models().withExistingParent(name(block), modLoc("block/templates/roof_45"))
                 .texture("side", side)
                 .texture("top", top)
@@ -2065,7 +2042,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         roof67Block(block, texture, texture, texture);
     }
 
-    public void roof67Block(Roof67Block block, ResourceLocation side, ResourceLocation top, ResourceLocation bottom) {
+    public void roof67Block(Roof67Block block, ResourceLocation side, ResourceLocation bottom, ResourceLocation top) {
         ModelFile roof_67 = models().withExistingParent(name(block), modLoc("block/templates/roof_67"))
                 .texture("side", side)
                 .texture("top", top)
@@ -2186,7 +2163,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         roofPeakBlock(block, texture, texture, texture);
     }
 
-    public void roofPeakBlock(RoofPeakBlock block, ResourceLocation side, ResourceLocation top, ResourceLocation bottom) {
+    public void roofPeakBlock(RoofPeakBlock block, ResourceLocation side, ResourceLocation bottom, ResourceLocation top) {
         ModelFile roof_peak = models().withExistingParent(name(block), modLoc("block/templates/roof_peak"))
                 .texture("side", side)
                 .texture("top", top)

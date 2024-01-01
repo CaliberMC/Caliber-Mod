@@ -127,18 +127,18 @@
       "uvlock": true
     },
     "facing=north,layers=8": {
-      "model": "minecraft:block/sandstone"
+      "model": "minecraft:block/cut_sandstone"
     },
     "facing=south,layers=8": {
-      "model": "minecraft:block/sandstone",
+      "model": "minecraft:block/cut_sandstone",
       "y": 180,
       "uvlock": true
     },
     "facing=west,layers=8": {
-      "model": "minecraft:block/sandstone"
+      "model": "minecraft:block/cut_sandstone"
     },
     "facing=east,layers=8": {
-      "model": "minecraft:block/sandstone",
+      "model": "minecraft:block/cut_sandstone",
       "y": 90,
       "uvlock": true
     }

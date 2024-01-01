@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "caliber:tudor_birch_white_plaster_left"
-  },
-  "result": "caliber:tudor_birch_white_plaster_corner_left",
-  "count": 2
-}

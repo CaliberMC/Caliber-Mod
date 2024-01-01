@@ -2,7 +2,7 @@
   "parent": "minecraft:block/cube_bottom_top",
   "textures": {
     "side": "caliber:block/tudor_acacia_beige_plaster_vertical_2",
-    "bottom": "minecraft:block/acacia_planks",
-    "top": "minecraft:block/acacia_planks"
+    "bottom": "caliber:block/acacia_boards",
+    "top": "caliber:block/acacia_boards"
   }
 }

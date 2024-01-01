@@ -1,8 +1,8 @@
 {
   "parent": "caliber:block/templates/quarter_vertical_layer_1",
   "textures": {
-    "side": "caliber:block/orange_sandstone_top",
-    "top": "caliber:block/orange_sandstone_top",
+    "side": "caliber:block/orange_sandstone",
+    "top": "caliber:block/orange_sandstone_bottom",
     "bottom": "caliber:block/orange_sandstone_top"
   }
 }

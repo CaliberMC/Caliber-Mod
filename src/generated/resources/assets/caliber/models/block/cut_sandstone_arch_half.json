@@ -1,7 +1,7 @@
 {
   "parent": "caliber:block/templates/arch_half",
   "textures": {
-    "side": "minecraft:block/sandstone_top",
+    "side": "minecraft:block/cut_sandstone",
     "top": "minecraft:block/sandstone_top",
     "bottom": "minecraft:block/sandstone_top"
   }

@@ -2,7 +2,7 @@
   "parent": "minecraft:block/cube_bottom_top",
   "textures": {
     "side": "caliber:block/tudor_stained_birch_beige_plaster_right",
-    "bottom": "caliber:block/birch_boards",
-    "top": "caliber:block/birch_boards"
+    "bottom": "caliber:block/stained_birch_boards",
+    "top": "caliber:block/stained_birch_boards"
   }
 }

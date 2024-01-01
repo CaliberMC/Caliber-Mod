@@ -1,7 +1,7 @@
 {
   "parent": "caliber:block/templates/slab_layer_6",
   "textures": {
-    "side": "caliber:block/brown_sandstone_top",
+    "side": "caliber:block/cut_brown_sandstone",
     "top": "caliber:block/brown_sandstone_top",
     "bottom": "caliber:block/brown_sandstone_top"
   }

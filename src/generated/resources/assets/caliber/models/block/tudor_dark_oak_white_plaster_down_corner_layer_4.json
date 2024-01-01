@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/templates/corner_layer_4",
+  "textures": {
+    "side": "caliber:block/tudor_dark_oak_white_plaster_down",
+    "top": "caliber:block/dark_oak_boards",
+    "bottom": "caliber:block/dark_oak_boards"
+  }
+}

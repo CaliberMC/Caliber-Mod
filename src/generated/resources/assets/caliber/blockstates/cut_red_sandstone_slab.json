@@ -36,7 +36,7 @@
       "uvlock": true
     },
     "layers=8,type=top": {
-      "model": "minecraft:block/red_sandstone"
+      "model": "minecraft:block/cut_red_sandstone"
     },
     "layers=1,type=bottom": {
       "model": "caliber:block/cut_red_sandstone_slab_layer_1"
@@ -60,7 +60,7 @@
       "model": "caliber:block/cut_red_sandstone_slab_layer_7"
     },
     "layers=8,type=bottom": {
-      "model": "minecraft:block/red_sandstone"
+      "model": "minecraft:block/cut_red_sandstone"
     }
   }
 }

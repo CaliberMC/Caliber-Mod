@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/corner",
-  "textures": {
-    "side": "caliber:block/tudor_spruce_white_plaster_vertical_2",
-    "bottom": "minecraft:block/spruce_planks",
-    "top": "minecraft:block/spruce_planks"
-  }
-}
