@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "caliber:smooth_tan_limestone"
+    }
+  },
+  "result": {
+    "item": "caliber:smooth_tan_limestone_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "caliber:resin"
+    },
+    {
+      "item": "caliber:oak_board_slab"
+    }
+  ],
+  "result": {
+    "item": "caliber:stained_oak_board_slab"
+  }
+}

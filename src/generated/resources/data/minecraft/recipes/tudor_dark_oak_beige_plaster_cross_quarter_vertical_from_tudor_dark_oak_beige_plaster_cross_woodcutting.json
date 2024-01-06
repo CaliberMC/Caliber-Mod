@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "caliber:tudor_dark_oak_beige_plaster_cross"
+  },
+  "result": "caliber:tudor_dark_oak_beige_plaster_cross_quarter_vertical",
+  "count": 5
+}

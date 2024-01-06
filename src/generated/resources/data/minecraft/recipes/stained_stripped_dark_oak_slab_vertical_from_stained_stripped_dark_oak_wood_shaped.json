@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "caliber:stained_stripped_dark_oak_wood"
+    }
+  },
+  "result": {
+    "item": "caliber:stained_stripped_dark_oak_slab_vertical",
+    "count": 24
+  }
+}

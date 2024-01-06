@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "caliber:mossy_cobbled_light_limestone"
+    }
+  },
+  "result": {
+    "item": "caliber:mossy_cobbled_light_limestone_wall",
+    "count": 6
+  }
+}

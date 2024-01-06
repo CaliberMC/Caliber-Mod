@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "caliber:dark_limestone_bricks"
+    }
+  },
+  "result": {
+    "item": "caliber:dark_limestone_brick_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "minecraft:crimson_planks"
+  },
+  "result": "caliber:crimson_window_half",
+  "count": 2
+}

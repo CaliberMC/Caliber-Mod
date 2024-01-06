@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "caliber:jungle_boards"
+    },
+    {
+      "item": "caliber:white_plaster"
+    }
+  ],
+  "result": {
+    "item": "caliber:tudor_jungle_white_plaster_right"
+  }
+}

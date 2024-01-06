@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "caliber:stained_jungle_boards"
+    }
+  },
+  "result": {
+    "item": "caliber:stained_jungle_board_slab_vertical",
+    "count": 24
+  }
+}

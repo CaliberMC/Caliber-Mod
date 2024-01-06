@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "caliber:pink_limestone_bricks"
+    }
+  },
+  "result": {
+    "item": "caliber:pink_limestone_brick_slab_vertical",
+    "count": 24
+  }
+}

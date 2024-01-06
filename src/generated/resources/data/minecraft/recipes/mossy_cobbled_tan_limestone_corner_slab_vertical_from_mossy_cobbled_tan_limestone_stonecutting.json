@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "caliber:mossy_cobbled_tan_limestone"
+  },
+  "result": "caliber:mossy_cobbled_tan_limestone_corner_slab_vertical",
+  "count": 4
+}

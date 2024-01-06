@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:green_wool"
+    }
+  },
+  "result": {
+    "item": "caliber:green_wool_slab_vertical",
+    "count": 24
+  }
+}

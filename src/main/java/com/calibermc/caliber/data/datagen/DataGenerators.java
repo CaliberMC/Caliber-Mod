@@ -21,19 +21,10 @@ public class DataGenerators {
         generator.addProvider(new ModLootTableProvider(generator));
         generator.addProvider(new ModItemModelProvider(generator, existingFileHelper));
 
-
-
         // Recipes
-        generator.addProvider(new StoneRecipeProvider(generator));
-        generator.addProvider(new WoodRecipeProvider(generator));
-        generator.addProvider(new MossyBlockRecipeProvider(generator));
-        generator.addProvider(new PreciousMaterialsRecipeProvider(generator));
-
+        generator.addProvider(new ModRecipeProvider(generator));
         generator.addProvider(new MiscRecipeProvider(generator));
-        generator.addProvider(new TudorBlockRecipeProvider(generator));
-
         generator.addProvider(new ItemRecipeProvider(generator));
-
 
     }
 }

@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "caliber:mossy_spruce_boards"
+  },
+  "result": "caliber:mossy_spruce_shingle_roof_45",
+  "count": 2
+}

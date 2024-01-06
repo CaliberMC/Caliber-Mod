@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:smooth_basalt"
+    }
+  },
+  "result": {
+    "item": "caliber:smooth_basalt_slab_vertical",
+    "count": 24
+  }
+}

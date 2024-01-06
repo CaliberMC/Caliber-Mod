@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "caliber:brown_sandstone"
+    }
+  },
+  "result": {
+    "item": "caliber:brown_sandstone_stairs",
+    "count": 4
+  }
+}

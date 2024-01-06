@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "caliber:tudor_dark_oak_white_plaster_left_slab"
+  },
+  "result": "caliber:tudor_dark_oak_white_plaster_left_slab_vertical",
+  "count": 1
+}

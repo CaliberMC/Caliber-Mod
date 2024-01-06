@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "minecraft:acacia_planks"
+  },
+  "result": "caliber:acacia_pressure_plate",
+  "count": 1
+}

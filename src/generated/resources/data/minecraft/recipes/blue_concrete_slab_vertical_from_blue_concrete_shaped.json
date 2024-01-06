@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:blue_concrete"
+    }
+  },
+  "result": {
+    "item": "caliber:blue_concrete_slab_vertical",
+    "count": 24
+  }
+}

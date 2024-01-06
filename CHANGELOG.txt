@@ -256,9 +256,9 @@ Added Bronze Armor and Tools
 - Bugfix: fixed visual glitch with Arrowslit Blocks
 - Bugfix: fixed occulsion/shadows on 67 degree roof blocks (this is experimental and may be reworked in the future)
 
-- 0.0.31 (in progress)
-- Added a total of 1,467 new blocks!
-- Current Mod Block Count is at 5,735 !!!!!! (this is a huge update)
+- 0.0.31
+- Added a total of 1,509 new blocks!
+- Current Mod Block Count is at 5,777 !!!!!! (this is a huge update)
 (All Vanilla Variants for 1.18 that will be added have now been added)
 - Added all Brick variants
 - Added all Calcite variants
@@ -282,10 +282,15 @@ _ Added all Terracotta Roof variants
 - Added all Stained Tudor Variants
 - Removed Tudor Plaster Colors (brown, ochre, tan) that just didn't look great.
 - Added layered shapes to Tudor Blocks.
+- Re-worked Recipe Generation to be more efficient and easier to maintain (this will allow for faster updates in the future, if you find missing recipes please let me know)
 - Changed naming conventions for Tudor Blocks to match the rest of Caliber-Mod (This will break any existing Tudor Blocks in the world, sorry)
 - Double-checked all English Translations (They are all included, if you would like to contribute other languages please join the discord server)
 - Major Bugfix: fixed all block textures (blocks that had different top, bottom, sides were not generating correctly)
 - BETA RELEASE IS COMING SOON!
+
+-0.0.32 (in progress)
+-
+
 
 
 

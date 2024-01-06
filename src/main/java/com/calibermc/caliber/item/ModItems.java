@@ -10,6 +10,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
+    public static int itemCount = 0;
+
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, Caliber.MOD_ID);
 
@@ -92,8 +94,11 @@ public class ModItems {
     public static final RegistryObject<Item> STAINED_SPRUCE_SIGN = ITEMS.register("stained_spruce_sign",
             () -> new SignItem(new Item.Properties().tab(CreativeTabs.CALIBER_TAB).stacksTo(16), ModBlocks.STAINED_SPRUCE_SIGN.get(), ModBlocks.STAINED_SPRUCE_WALL_SIGN.get()));
 
-
+    public static void printItemCounts() {
+        System.out.println("Caliber Items Registered: " + itemCount);
+    }
     public static void register(IEventBus eventBus) {
+        itemCount ++;
         ITEMS.register(eventBus);
     }
 }

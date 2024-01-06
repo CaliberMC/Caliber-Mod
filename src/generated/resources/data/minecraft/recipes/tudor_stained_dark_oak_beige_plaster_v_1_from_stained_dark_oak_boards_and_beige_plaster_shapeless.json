@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "caliber:stained_dark_oak_boards"
+    },
+    {
+      "item": "caliber:beige_plaster"
+    }
+  ],
+  "result": {
+    "item": "caliber:tudor_stained_dark_oak_beige_plaster_v_1"
+  }
+}

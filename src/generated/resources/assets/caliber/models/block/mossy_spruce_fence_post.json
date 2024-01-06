@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "caliber:block/mossy_spruce_planks"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "caliber:mossy_cobbled_pink_limestone"
+    }
+  },
+  "result": {
+    "item": "caliber:mossy_cobbled_pink_limestone_slab_vertical",
+    "count": 24
+  }
+}

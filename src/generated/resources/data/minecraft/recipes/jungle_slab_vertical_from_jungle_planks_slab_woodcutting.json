@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "caliber:jungle_slab"
+  },
+  "result": "caliber:jungle_slab_vertical",
+  "count": 1
+}

@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "caliber:warped_boards"
+  },
+  "result": "caliber:warped_shingle_roof_peak",
+  "count": 2
+}

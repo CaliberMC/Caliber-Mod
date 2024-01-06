@@ -6,13 +6,13 @@
     ]
   },
   "criteria": {
-    "has_brown_sandstone": {
+    "has_smooth_brown_sandstone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "caliber:brown_sandstone"
+              "caliber:smooth_brown_sandstone"
             ]
           }
         ]
@@ -27,7 +27,7 @@
   },
   "requirements": [
     [
-      "has_brown_sandstone",
+      "has_smooth_brown_sandstone",
       "has_the_recipe"
     ]
   ]

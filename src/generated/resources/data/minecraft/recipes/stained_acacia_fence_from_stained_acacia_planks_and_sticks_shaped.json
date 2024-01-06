@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#X#",
+    "#X#"
+  ],
+  "key": {
+    "#": {
+      "item": "caliber:stained_acacia_planks"
+    },
+    "X": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "caliber:stained_acacia_fence",
+    "count": 3
+  }
+}

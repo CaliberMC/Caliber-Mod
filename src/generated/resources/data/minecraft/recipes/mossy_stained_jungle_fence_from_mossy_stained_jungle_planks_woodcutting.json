@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "caliber:mossy_stained_jungle_planks"
+  },
+  "result": "caliber:mossy_stained_jungle_fence",
+  "count": 1
+}

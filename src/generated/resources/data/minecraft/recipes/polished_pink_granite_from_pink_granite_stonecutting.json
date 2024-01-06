@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "caliber:pink_granite"
-  },
-  "result": "caliber:polished_pink_granite",
-  "count": 1
-}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "caliber:birch_boards"
+    },
+    {
+      "item": "caliber:beige_plaster"
+    }
+  ],
+  "result": {
+    "item": "caliber:tudor_birch_beige_plaster_cross"
+  }
+}

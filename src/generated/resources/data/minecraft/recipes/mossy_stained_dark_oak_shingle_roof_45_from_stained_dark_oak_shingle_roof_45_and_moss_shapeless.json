@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:moss_block"
+    },
+    {
+      "item": "caliber:stained_dark_oak_shingle_roof_45"
+    }
+  ],
+  "result": {
+    "item": "caliber:mossy_stained_dark_oak_shingle_roof_45"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "caliber:dark_limestone"
+    }
+  },
+  "result": {
+    "item": "caliber:chiseled_dark_limestone_bricks"
+  }
+}

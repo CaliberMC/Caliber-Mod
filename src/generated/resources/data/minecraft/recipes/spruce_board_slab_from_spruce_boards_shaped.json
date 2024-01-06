@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "caliber:spruce_boards"
+    }
+  },
+  "result": {
+    "item": "caliber:spruce_board_slab",
+    "count": 24
+  }
+}

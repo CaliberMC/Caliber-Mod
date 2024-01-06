@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "caliber:ochre_plaster"
+    }
+  },
+  "result": {
+    "item": "caliber:ochre_plaster_wall",
+    "count": 6
+  }
+}

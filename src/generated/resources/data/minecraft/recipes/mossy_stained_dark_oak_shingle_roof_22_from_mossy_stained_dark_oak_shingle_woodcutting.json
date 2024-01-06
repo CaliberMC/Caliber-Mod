@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "caliber:mossy_stained_dark_oak_boards"
+  },
+  "result": "caliber:mossy_stained_dark_oak_shingle_roof_22",
+  "count": 2
+}

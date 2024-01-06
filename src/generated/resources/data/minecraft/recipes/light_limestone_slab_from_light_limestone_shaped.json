@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "caliber:light_limestone"
+    }
+  },
+  "result": {
+    "item": "caliber:light_limestone_slab",
+    "count": 24
+  }
+}

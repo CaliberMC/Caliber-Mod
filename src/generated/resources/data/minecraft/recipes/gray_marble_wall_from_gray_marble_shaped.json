@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "caliber:gray_marble"
+    }
+  },
+  "result": {
+    "item": "caliber:gray_marble_wall",
+    "count": 6
+  }
+}

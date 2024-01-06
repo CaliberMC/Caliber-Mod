@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:yellow_terracotta"
+  },
+  "result": "caliber:yellow_terracotta_window",
+  "count": 2
+}

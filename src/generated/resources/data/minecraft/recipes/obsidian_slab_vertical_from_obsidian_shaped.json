@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "caliber:obsidian_slab_vertical",
+    "count": 24
+  }
+}

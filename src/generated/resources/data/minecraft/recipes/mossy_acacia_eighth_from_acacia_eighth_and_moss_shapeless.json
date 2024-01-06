@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:moss_block"
+    },
+    {
+      "item": "caliber:acacia_eighth"
+    }
+  ],
+  "result": {
+    "item": "caliber:mossy_acacia_eighth"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_side",
+  "textures": {
+    "texture": "caliber:block/mossy_jungle_planks"
+  }
+}

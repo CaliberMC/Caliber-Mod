@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "caliber:mossy_jungle_boards"
+  },
+  "result": "caliber:mossy_jungle_shingle_roof_peak",
+  "count": 2
+}

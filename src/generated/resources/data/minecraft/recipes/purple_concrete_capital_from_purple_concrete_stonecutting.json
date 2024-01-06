@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:purple_concrete"
+  },
+  "result": "caliber:purple_concrete_capital",
+  "count": 2
+}

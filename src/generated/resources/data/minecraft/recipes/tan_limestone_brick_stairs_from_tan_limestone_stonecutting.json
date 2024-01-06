@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "caliber:tan_limestone"
-  },
-  "result": "caliber:tan_limestone_brick_stairs",
-  "count": 1
-}

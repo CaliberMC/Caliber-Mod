@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:end_stone_bricks"
+  },
+  "result": "caliber:end_stone_brick_arrowslit",
+  "count": 2
+}

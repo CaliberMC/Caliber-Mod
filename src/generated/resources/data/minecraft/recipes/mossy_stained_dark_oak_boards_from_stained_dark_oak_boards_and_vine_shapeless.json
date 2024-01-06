@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:vine"
+    },
+    {
+      "item": "caliber:stained_dark_oak_boards"
+    }
+  ],
+  "result": {
+    "item": "caliber:mossy_stained_dark_oak_boards"
+  }
+}

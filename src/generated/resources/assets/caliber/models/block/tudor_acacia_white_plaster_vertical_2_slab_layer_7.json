@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/slab_layer_7",
-  "textures": {
-    "side": "caliber:block/tudor_acacia_white_plaster_vertical_2",
-    "top": "caliber:block/acacia_boards",
-    "bottom": "caliber:block/acacia_boards"
-  }
-}

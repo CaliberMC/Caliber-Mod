@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "caliber:resin"
+    },
+    {
+      "item": "caliber:acacia_board_window"
+    }
+  ],
+  "result": {
+    "item": "caliber:stained_acacia_board_window"
+  }
+}

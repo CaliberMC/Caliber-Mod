@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "caliber:spruce_boards"
+  },
+  "result": "caliber:spruce_board_pressure_plate",
+  "count": 1
+}

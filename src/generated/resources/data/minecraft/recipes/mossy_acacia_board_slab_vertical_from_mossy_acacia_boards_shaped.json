@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "caliber:mossy_acacia_boards"
+    }
+  },
+  "result": {
+    "item": "caliber:mossy_acacia_board_slab_vertical",
+    "count": 24
+  }
+}

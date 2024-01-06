@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "caliber:stained_stripped_spruce_wood"
+    }
+  },
+  "result": {
+    "item": "caliber:stained_stripped_spruce_stairs",
+    "count": 4
+  }
+}

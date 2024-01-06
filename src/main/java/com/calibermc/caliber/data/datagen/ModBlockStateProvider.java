@@ -8,6 +8,7 @@ import com.calibermc.caliber.block.shapes.*;
 import com.calibermc.caliber.block.shapes.trim.ArchTrim;
 import com.calibermc.caliber.block.shapes.trim.LargeArchTrim;
 import com.calibermc.caliber.data.ModBlockFamily;
+import com.mojang.datafixers.util.Pair;
 import net.minecraft.core.Direction;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.resources.ResourceLocation;
@@ -20,6 +21,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.Map;
+import java.util.function.Supplier;
 
 public class ModBlockStateProvider extends BlockStateProvider {
     public ModBlockStateProvider(DataGenerator gen, ExistingFileHelper exFileHelper) {
@@ -41,11 +43,17 @@ public class ModBlockStateProvider extends BlockStateProvider {
         plasterBlocks();
         stainedPlanks();
         for (BlockManager blockManager : BlockManager.BLOCK_MANAGERS) {
-            for (Map.Entry<BlockManager.BlockAdditional, RegistryObject<Block>> e : blockManager.getBlocks().entrySet()) {
-                try {
-                    e.getKey().stateGenerator.accept(e.getValue(), this);
-                } catch (Exception ex) {
-                    ex.printStackTrace();
+            BlockManager.BlockAdditional base = blockManager.getByVariant(ModBlockFamily.Variant.BASE);
+            if (base != null && !base.skipRegister) {
+                base.stateGenerator.accept(blockManager::baseBlock, this);
+            }
+            for (Map.Entry<BlockManager.BlockAdditional, Pair<ResourceLocation, Supplier<Block>>> e : blockManager.getBlocks().entrySet()) {
+                if (e.getKey().variant != ModBlockFamily.Variant.BASE) {
+                    try {
+                        e.getKey().stateGenerator.accept(e.getValue().getSecond(), this);
+                    } catch (Exception ex) {
+                        ex.printStackTrace();
+                    }
                 }
             }
         }

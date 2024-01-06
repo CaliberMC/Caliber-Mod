@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:vine"
+    },
+    {
+      "item": "caliber:crimson_window_half"
+    }
+  ],
+  "result": {
+    "item": "caliber:mossy_crimson_window_half"
+  }
+}

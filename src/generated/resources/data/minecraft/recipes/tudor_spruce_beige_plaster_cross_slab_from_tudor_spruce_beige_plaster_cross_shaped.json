@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "caliber:tudor_spruce_beige_plaster_cross"
+    }
+  },
+  "result": {
+    "item": "caliber:tudor_spruce_beige_plaster_cross_slab",
+    "count": 24
+  }
+}

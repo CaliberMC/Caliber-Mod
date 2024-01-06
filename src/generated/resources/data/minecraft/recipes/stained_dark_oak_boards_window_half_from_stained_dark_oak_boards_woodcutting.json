@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "ingredient": {
-    "item": "caliber:stained_dark_oak_boards"
-  },
-  "result": "caliber:stained_dark_oak_board_window_half",
-  "count": 4
-}

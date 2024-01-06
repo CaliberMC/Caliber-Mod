@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:lime_concrete"
+  },
+  "result": "caliber:lime_concrete_eighth",
+  "count": 8
+}

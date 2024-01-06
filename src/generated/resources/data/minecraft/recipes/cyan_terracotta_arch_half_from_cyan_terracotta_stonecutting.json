@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:cyan_terracotta"
+  },
+  "result": "caliber:cyan_terracotta_arch_half",
+  "count": 2
+}

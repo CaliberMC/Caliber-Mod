@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:vine"
+    },
+    {
+      "item": "caliber:crimson_slab_vertical"
+    }
+  ],
+  "result": {
+    "item": "caliber:mossy_crimson_slab_vertical"
+  }
+}

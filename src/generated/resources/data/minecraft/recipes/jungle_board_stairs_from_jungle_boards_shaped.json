@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "caliber:jungle_boards"
+    }
+  },
+  "result": {
+    "item": "caliber:jungle_board_stairs",
+    "count": 4
+  }
+}

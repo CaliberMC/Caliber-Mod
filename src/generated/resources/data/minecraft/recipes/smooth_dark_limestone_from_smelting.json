@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "caliber:dark_limestone"
-  },
-  "result": "caliber:smooth_dark_limestone",
-  "experience": 0.1,
-  "cookingtime": 200
-}

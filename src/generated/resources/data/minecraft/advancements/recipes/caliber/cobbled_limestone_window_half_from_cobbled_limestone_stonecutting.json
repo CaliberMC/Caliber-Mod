@@ -6,13 +6,13 @@
     ]
   },
   "criteria": {
-    "has_limestone": {
+    "has_cobbled_limestone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:stone"
+              "minecraft:cobblestone"
             ]
           }
         ]
@@ -27,7 +27,7 @@
   },
   "requirements": [
     [
-      "has_limestone",
+      "has_cobbled_limestone",
       "has_the_recipe"
     ]
   ]

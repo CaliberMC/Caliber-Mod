@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "caliber:tudor_dark_oak_beige_plaster_right"
+    }
+  },
+  "result": {
+    "item": "caliber:tudor_dark_oak_beige_plaster_right_slab",
+    "count": 24
+  }
+}

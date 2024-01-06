@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:vine"
+    },
+    {
+      "item": "caliber:warped_board_eighth"
+    }
+  ],
+  "result": {
+    "item": "caliber:mossy_warped_board_eighth"
+  }
+}

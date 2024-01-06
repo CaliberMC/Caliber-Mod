@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "caliber:gray_granite"
+    }
+  },
+  "result": {
+    "item": "caliber:gray_granite_stairs",
+    "count": 4
+  }
+}

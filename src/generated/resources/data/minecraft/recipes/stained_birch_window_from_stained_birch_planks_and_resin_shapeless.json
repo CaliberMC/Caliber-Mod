@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "caliber:resin"
+    },
+    {
+      "item": "caliber:birch_window"
+    }
+  ],
+  "result": {
+    "item": "caliber:stained_birch_window"
+  }
+}

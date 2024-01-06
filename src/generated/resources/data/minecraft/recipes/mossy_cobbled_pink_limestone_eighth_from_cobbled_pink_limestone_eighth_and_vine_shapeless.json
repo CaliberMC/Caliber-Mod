@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:vine"
+    },
+    {
+      "item": "caliber:cobbled_pink_limestone_eighth"
+    }
+  ],
+  "result": {
+    "item": "caliber:mossy_cobbled_pink_limestone_eighth"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "caliber:warped_boards"
+  },
+  "result": "caliber:warped_board_pressure_plate",
+  "count": 1
+}

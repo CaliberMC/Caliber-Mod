@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:vine"
+    },
+    {
+      "item": "caliber:oak_board_corner_slab"
+    }
+  ],
+  "result": {
+    "item": "caliber:mossy_oak_board_corner_slab"
+  }
+}

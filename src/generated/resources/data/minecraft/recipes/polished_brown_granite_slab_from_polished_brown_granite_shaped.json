@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "caliber:polished_brown_granite"
+    }
+  },
+  "result": {
+    "item": "caliber:polished_brown_granite_slab",
+    "count": 24
+  }
+}

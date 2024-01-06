@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:light_blue_terracotta"
+  },
+  "result": "caliber:light_blue_terracotta_capital",
+  "count": 2
+}

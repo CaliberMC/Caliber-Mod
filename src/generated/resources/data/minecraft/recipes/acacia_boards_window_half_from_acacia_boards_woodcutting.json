@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "ingredient": {
-    "item": "caliber:acacia_boards"
-  },
-  "result": "caliber:acacia_board_window_half",
-  "count": 4
-}

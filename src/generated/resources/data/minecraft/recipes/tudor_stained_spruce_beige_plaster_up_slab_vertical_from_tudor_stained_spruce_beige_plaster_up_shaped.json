@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "caliber:tudor_stained_spruce_beige_plaster_up"
+    }
+  },
+  "result": {
+    "item": "caliber:tudor_stained_spruce_beige_plaster_up_slab_vertical",
+    "count": 24
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:pink_concrete"
+  },
+  "result": "caliber:pink_concrete_window_half",
+  "count": 2
+}

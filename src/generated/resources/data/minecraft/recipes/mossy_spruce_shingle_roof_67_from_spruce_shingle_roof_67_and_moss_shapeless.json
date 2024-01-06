@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:moss_block"
+    },
+    {
+      "item": "caliber:spruce_shingle_roof_67"
+    }
+  ],
+  "result": {
+    "item": "caliber:mossy_spruce_shingle_roof_67"
+  }
+}

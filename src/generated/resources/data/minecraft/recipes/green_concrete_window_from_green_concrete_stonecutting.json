@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:green_concrete"
+  },
+  "result": "caliber:green_concrete_window",
+  "count": 2
+}

@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "caliber:mossy_stained_jungle_boards"
+  },
+  "result": "caliber:mossy_stained_jungle_board_corner",
+  "count": 5
+}

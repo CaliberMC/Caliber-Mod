@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "caliber:tudor_jungle_beige_plaster_cross_slab_vertical"
+  },
+  "result": "caliber:tudor_jungle_beige_plaster_cross_slab",
+  "count": 1
+}

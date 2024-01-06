@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "caliber:tudor_acacia_beige_plaster_down"
+    }
+  },
+  "result": {
+    "item": "caliber:tudor_acacia_beige_plaster_down_slab",
+    "count": 24
+  }
+}

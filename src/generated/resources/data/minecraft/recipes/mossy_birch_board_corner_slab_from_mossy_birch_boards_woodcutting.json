@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "caliber:mossy_birch_boards"
+  },
+  "result": "caliber:mossy_birch_board_corner_slab",
+  "count": 4
+}

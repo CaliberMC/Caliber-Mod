@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#X#",
+    "#X#"
+  ],
+  "key": {
+    "#": {
+      "item": "caliber:mossy_stained_jungle_planks"
+    },
+    "X": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "caliber:mossy_stained_jungle_fence",
+    "count": 3
+  }
+}

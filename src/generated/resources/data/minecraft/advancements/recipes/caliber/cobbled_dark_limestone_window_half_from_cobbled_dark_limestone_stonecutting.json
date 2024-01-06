@@ -6,13 +6,13 @@
     ]
   },
   "criteria": {
-    "has_dark_limestone": {
+    "has_cobbled_dark_limestone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "caliber:dark_limestone"
+              "caliber:cobbled_dark_limestone"
             ]
           }
         ]
@@ -27,7 +27,7 @@
   },
   "requirements": [
     [
-      "has_dark_limestone",
+      "has_cobbled_dark_limestone",
       "has_the_recipe"
     ]
   ]

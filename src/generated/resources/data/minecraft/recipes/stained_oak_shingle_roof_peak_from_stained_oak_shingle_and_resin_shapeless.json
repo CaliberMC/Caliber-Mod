@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "caliber:resin"
+    },
+    {
+      "item": "caliber:oak_shingle_roof_peak"
+    }
+  ],
+  "result": {
+    "item": "caliber:stained_oak_shingle_roof_peak"
+  }
+}

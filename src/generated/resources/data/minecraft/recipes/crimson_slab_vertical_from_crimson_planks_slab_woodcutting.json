@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "caliber:crimson_slab"
+  },
+  "result": "caliber:crimson_slab_vertical",
+  "count": 1
+}

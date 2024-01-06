@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "caliber:mossy_acacia_boards"
+  },
+  "result": "caliber:mossy_acacia_board_quarter_vertical",
+  "count": 5
+}

@@ -6,13 +6,13 @@
     ]
   },
   "criteria": {
-    "has_orange_sandstone": {
+    "has_cut_orange_sandstone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "caliber:orange_sandstone"
+              "caliber:cut_orange_sandstone"
             ]
           }
         ]
@@ -27,7 +27,7 @@
   },
   "requirements": [
     [
-      "has_orange_sandstone",
+      "has_cut_orange_sandstone",
       "has_the_recipe"
     ]
   ]

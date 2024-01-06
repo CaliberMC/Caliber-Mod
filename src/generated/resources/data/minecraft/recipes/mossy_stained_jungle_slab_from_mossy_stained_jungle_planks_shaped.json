@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "caliber:mossy_stained_jungle_planks"
+    }
+  },
+  "result": {
+    "item": "caliber:mossy_stained_jungle_slab",
+    "count": 24
+  }
+}

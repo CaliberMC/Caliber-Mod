@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stripped_acacia_wood"
+    }
+  },
+  "result": {
+    "item": "caliber:stripped_acacia_slab_vertical",
+    "count": 24
+  }
+}

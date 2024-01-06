@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "caliber:tudor_jungle_white_plaster_right"
+  },
+  "result": "caliber:tudor_jungle_white_plaster_right_corner",
+  "count": 5
+}

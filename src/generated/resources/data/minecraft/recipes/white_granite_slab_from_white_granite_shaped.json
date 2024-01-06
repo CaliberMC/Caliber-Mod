@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "caliber:white_granite"
+    }
+  },
+  "result": {
+    "item": "caliber:white_granite_slab",
+    "count": 24
+  }
+}

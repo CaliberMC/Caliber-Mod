@@ -5,7 +5,7 @@ import com.calibermc.caliber.block.entity.ModBlockEntities;
 import com.calibermc.caliber.config.CaliberClientConfigs;
 import com.calibermc.caliber.config.CaliberCommonConfigs;
 import com.calibermc.caliber.crafting.ModRecipeSerializers;
-import com.calibermc.caliber.data.datagen.ModBlockStateProvider;
+import com.calibermc.caliber.data.datagen.recipes.ModRecipeProvider;
 import com.calibermc.caliber.item.CreativeTabs;
 import com.calibermc.caliber.item.ModItems;
 import com.calibermc.caliber.networking.ModNetworking;
@@ -22,7 +22,6 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-// The value here should match an entry in the META-INF/mods.toml file
 @Mod(Caliber.MOD_ID)
 public class Caliber {
     public static final String MOD_ID = "caliber";
@@ -48,18 +47,18 @@ public class Caliber {
         ModLoadingContext.get().registerConfig(ModConfig.Type.CLIENT, CaliberClientConfigs.SPEC, "calibermod-client.toml");
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, CaliberCommonConfigs.SPEC, "calibermod-common.toml");
 
-        // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
     }
 
     private void setup(final FMLCommonSetupEvent event) {
         // some preinit code
         LOGGER.info("Loading Caliber Mod");
-//        LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
 
         ModNetworking.registerMessages();
         CreativeTabs.setupCreativeTabs();
-        ModBlocks.printCounts();
+        ModBlocks.printBlockCounts();
+        ModItems.printItemCounts();
+//        ModRecipeProvider.printRecipeCounts();
         BuildifyBlockPicker.init();
     }
 }

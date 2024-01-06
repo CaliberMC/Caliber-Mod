@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:basalt"
+    }
+  },
+  "result": {
+    "item": "caliber:basalt_slab_vertical",
+    "count": 24
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "caliber:mossy_stained_birch_planks"
+  },
+  "result": "caliber:mossy_stained_birch_capital",
+  "count": 2
+}

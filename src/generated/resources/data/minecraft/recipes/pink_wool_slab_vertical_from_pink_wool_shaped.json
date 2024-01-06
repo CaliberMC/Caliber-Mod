@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:pink_wool"
+    }
+  },
+  "result": {
+    "item": "caliber:pink_wool_slab_vertical",
+    "count": 24
+  }
+}

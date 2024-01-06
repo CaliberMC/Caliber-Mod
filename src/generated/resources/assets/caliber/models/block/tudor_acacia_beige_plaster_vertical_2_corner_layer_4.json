@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/corner_layer_4",
-  "textures": {
-    "side": "caliber:block/tudor_acacia_beige_plaster_vertical_2",
-    "top": "caliber:block/acacia_boards",
-    "bottom": "caliber:block/acacia_boards"
-  }
-}

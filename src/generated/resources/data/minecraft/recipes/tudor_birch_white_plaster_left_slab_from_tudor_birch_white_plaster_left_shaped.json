@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "caliber:tudor_birch_white_plaster_left"
+    }
+  },
+  "result": {
+    "item": "caliber:tudor_birch_white_plaster_left_slab",
+    "count": 24
+  }
+}

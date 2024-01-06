@@ -7,6 +7,7 @@ import com.calibermc.caliber.block.custom.terrain.*;
 import com.calibermc.caliber.block.management.BlockManager;
 import com.calibermc.caliber.data.ModBlockFamily;
 import com.calibermc.caliber.item.ModItems;
+import com.mojang.datafixers.util.Pair;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
@@ -18,6 +19,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.Map;
+import java.util.function.Supplier;
 
 public class ModItemModelProvider extends ItemModelProvider {
     public ModItemModelProvider(DataGenerator generator, ExistingFileHelper existingFileHelper) {
@@ -35,9 +37,9 @@ public class ModItemModelProvider extends ItemModelProvider {
     private void blockItemModels() {
         // register item models with help of block manager, also can be used for generating block models if change
         for (BlockManager blockManager : BlockManager.BLOCK_MANAGERS) {
-            for (Map.Entry<BlockManager.BlockAdditional, RegistryObject<Block>> e : blockManager.getBlocks().entrySet()) {
+            for (Map.Entry<BlockManager.BlockAdditional, Pair<ResourceLocation, Supplier<Block>>> e : blockManager.getBlocks().entrySet()) {
                 ModBlockFamily.Variant variant = e.getKey().variant;
-                String blockName = e.getValue().getId().getPath();
+                String blockName = e.getValue().getFirst().getPath();
                 String parentName = blockName;
 
                 if (variant.equals(ModBlockFamily.Variant.CORNER)
@@ -82,7 +84,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         // Register Block Item Models
         ForgeRegistries.BLOCKS.getValues().stream()
                 .filter(block ->
-                        BlockManager.ALL_BLOCKS.stream().map(RegistryObject::get).noneMatch(b -> b.equals(block))
+                        BlockManager.ALL_BLOCKS.stream().map(Supplier::get).noneMatch(b -> b.equals(block))
                                 && block.getRegistryName() != null
                                 && block.getRegistryName().getNamespace().equals(Caliber.MOD_ID)
                                 && !(block instanceof WallSignBlock)) // Exclude WallSignBlock instances

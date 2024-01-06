@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "caliber:mossy_crimson_board_slab"
+  },
+  "result": "caliber:mossy_crimson_board_slab_vertical",
+  "count": 1
+}

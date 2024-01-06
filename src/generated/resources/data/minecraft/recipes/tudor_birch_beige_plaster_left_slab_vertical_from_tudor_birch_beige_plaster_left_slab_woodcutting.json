@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "caliber:tudor_birch_beige_plaster_left_slab"
+  },
+  "result": "caliber:tudor_birch_beige_plaster_left_slab_vertical",
+  "count": 1
+}

@@ -6,13 +6,13 @@
     ]
   },
   "criteria": {
-    "has_black_marble": {
+    "has_polished_black_marble": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "caliber:black_marble"
+              "caliber:polished_black_marble"
             ]
           }
         ]
@@ -27,7 +27,7 @@
   },
   "requirements": [
     [
-      "has_black_marble",
+      "has_polished_black_marble",
       "has_the_recipe"
     ]
   ]

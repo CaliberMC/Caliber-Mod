@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "caliber:light_limestone"
-  },
-  "result": "caliber:light_limestone_brick_wall",
-  "count": 1
-}

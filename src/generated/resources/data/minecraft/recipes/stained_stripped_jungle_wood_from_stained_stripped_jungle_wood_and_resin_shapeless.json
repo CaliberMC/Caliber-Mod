@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "caliber:resin"
+    },
+    {
+      "item": "minecraft:stripped_jungle_wood"
+    }
+  ],
+  "result": {
+    "item": "caliber:stained_stripped_jungle_wood"
+  }
+}

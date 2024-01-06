@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:vine"
+    },
+    {
+      "item": "caliber:cobbled_light_limestone_balustrade"
+    }
+  ],
+  "result": {
+    "item": "caliber:mossy_cobbled_light_limestone_balustrade"
+  }
+}

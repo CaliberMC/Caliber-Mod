@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:moss_block"
+    },
+    {
+      "item": "caliber:pink_limestone_brick_pillar"
+    }
+  ],
+  "result": {
+    "item": "caliber:mossy_pink_limestone_brick_pillar"
+  }
+}

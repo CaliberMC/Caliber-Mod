@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:vine"
+    },
+    {
+      "item": "caliber:stained_acacia_board_eighth"
+    }
+  ],
+  "result": {
+    "item": "caliber:mossy_stained_acacia_board_eighth"
+  }
+}

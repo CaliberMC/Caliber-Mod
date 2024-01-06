@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:end_stone_bricks"
+    }
+  },
+  "result": {
+    "item": "caliber:end_stone_brick_slab_vertical",
+    "count": 24
+  }
+}

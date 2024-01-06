@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "caliber:resin"
+    },
+    {
+      "item": "caliber:acacia_slab_vertical"
+    }
+  ],
+  "result": {
+    "item": "caliber:stained_acacia_slab_vertical"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "caliber:thatch"
+    }
+  },
+  "result": {
+    "item": "caliber:thatch_stairs",
+    "count": 4
+  }
+}

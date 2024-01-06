@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:gray_concrete"
+  },
+  "result": "caliber:gray_concrete_capital",
+  "count": 2
+}

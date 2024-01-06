@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:smooth_sandstone"
+    }
+  },
+  "result": {
+    "item": "caliber:smooth_sandstone_slab_vertical",
+    "count": 24
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "caliber:stained_acacia_boards"
+    },
+    {
+      "item": "caliber:beige_plaster"
+    }
+  ],
+  "result": {
+    "item": "caliber:tudor_stained_acacia_beige_plaster_h_1"
+  }
+}

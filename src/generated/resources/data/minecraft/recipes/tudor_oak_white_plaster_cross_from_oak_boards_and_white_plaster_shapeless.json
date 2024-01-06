@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "caliber:oak_boards"
+    },
+    {
+      "item": "caliber:white_plaster"
+    }
+  ],
+  "result": {
+    "item": "caliber:tudor_oak_white_plaster_cross"
+  }
+}

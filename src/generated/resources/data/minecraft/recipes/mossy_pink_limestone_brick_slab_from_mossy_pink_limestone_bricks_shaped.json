@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "caliber:mossy_pink_limestone_bricks"
+    }
+  },
+  "result": {
+    "item": "caliber:mossy_pink_limestone_brick_slab",
+    "count": 24
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:pink_terracotta"
+  },
+  "result": "caliber:pink_terracotta_arch_large",
+  "count": 2
+}

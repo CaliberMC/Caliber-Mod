@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:moss_block"
+    },
+    {
+      "item": "caliber:stained_acacia_board_slab_vertical"
+    }
+  ],
+  "result": {
+    "item": "caliber:mossy_stained_acacia_board_slab_vertical"
+  }
+}

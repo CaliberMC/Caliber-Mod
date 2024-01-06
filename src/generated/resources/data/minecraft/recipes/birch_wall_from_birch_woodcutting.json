@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "ingredient": {
-    "item": "minecraft:birch_wood"
-  },
-  "result": "caliber:birch_wall",
-  "count": 1
-}

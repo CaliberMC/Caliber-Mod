@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "caliber:mossy_oak_planks"
+    }
+  },
+  "result": {
+    "item": "caliber:mossy_oak_slab_vertical",
+    "count": 24
+  }
+}

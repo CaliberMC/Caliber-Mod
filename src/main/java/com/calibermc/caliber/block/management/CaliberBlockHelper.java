@@ -1,32 +1,41 @@
 package com.calibermc.caliber.block.management;
 
 import com.calibermc.caliber.block.custom.*;
+import com.calibermc.caliber.block.shapes.CornerShape;
+import com.calibermc.caliber.block.shapes.VerticalQuarterShape;
+import com.calibermc.caliber.block.shapes.VerticalSlabShape;
+import com.calibermc.caliber.data.ModBlockFamily;
 import com.calibermc.caliber.data.datagen.ModBlockStateProvider;
+import com.calibermc.caliber.util.ModBlockStateProperties;
 import com.google.common.collect.Lists;
+import net.minecraft.core.Direction;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.*;
+import net.minecraft.world.level.block.state.properties.BlockStateProperties;
+import net.minecraftforge.client.model.generators.BlockStateProvider;
+import net.minecraftforge.client.model.generators.ConfiguredModel;
 import net.minecraftforge.client.model.generators.ModelBuilder;
-import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.client.model.generators.ModelFile;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.*;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import static com.calibermc.caliber.data.ModBlockFamily.Variant;
 import static com.calibermc.caliber.data.ModBlockFamily.Variant.*;
 
 public class CaliberBlockHelper {
 
-    // USE THIS ONCE ALL BLOCKS ARE ADJUSTED
-//    public static final List<Variant> VARIANTS = Lists.newArrayList(Variant.BALUSTRADE, Variant.CAPITAL, Variant.CORNER,
-//            Variant.CORNER_SLAB, Variant.CORNER_SLAB_VERTICAL, Variant.EIGHTH, Variant.PILLAR, Variant.QUARTER,
-//            Variant.QUARTER_VERTICAL, Variant.SLAB, Variant.SLAB_VERTICAL, Variant.STAIRS, Variant.WALL, Variant.WINDOW, Variant.WINDOW_HALF);
+    public static final List<Variant> VARIANTS = Lists.newArrayList(Variant.BALUSTRADE, Variant.CAPITAL, Variant.CORNER,
+            Variant.CORNER_SLAB, Variant.CORNER_SLAB_VERTICAL, Variant.EIGHTH, Variant.PILLAR, Variant.QUARTER,
+            Variant.QUARTER_VERTICAL, Variant.SLAB, Variant.SLAB_VERTICAL, Variant.STAIRS, Variant.WALL, Variant.WINDOW, Variant.WINDOW_HALF);
 
-//    public static final List<Variant> STONE_VARIANTS = Lists.newArrayList(Variant.ARCH, Variant.ARCH_HALF, Variant.ARCH_LARGE,
-//            Variant.ARCH_LARGE_HALF, Variant.ARROWSLIT, Variant.BALUSTRADE, Variant.CAPITAL, Variant.CORNER,
-//            Variant.CORNER_SLAB, Variant.CORNER_SLAB_VERTICAL, Variant.EIGHTH, Variant.PILLAR, Variant.QUARTER,
-//            Variant.QUARTER_VERTICAL, Variant.SLAB, Variant.SLAB_VERTICAL, Variant.STAIRS, Variant.WALL, Variant.WINDOW, Variant.WINDOW_HALF);
-
+    public static final List<Variant> STONE_VARIANTS = Lists.newArrayList(Variant.ARCH, Variant.ARCH_HALF, Variant.ARCH_LARGE,
+            Variant.ARCH_LARGE_HALF, Variant.ARROWSLIT, Variant.BALUSTRADE, Variant.CAPITAL, Variant.CORNER,
+            Variant.CORNER_SLAB, Variant.CORNER_SLAB_VERTICAL, Variant.EIGHTH, Variant.PILLAR, Variant.QUARTER,
+            Variant.QUARTER_VERTICAL, Variant.SLAB, Variant.SLAB_VERTICAL, Variant.STAIRS, Variant.WALL, Variant.WINDOW, Variant.WINDOW_HALF);
 
     public static final List<Variant> STONE_VARIANTS_WITHOUT_STAIRS = Lists.newArrayList(Variant.ARCH, Variant.ARCH_HALF, Variant.ARCH_LARGE,
             Variant.ARCH_LARGE_HALF, Variant.ARROWSLIT, Variant.BALUSTRADE, Variant.CAPITAL, Variant.CORNER,
@@ -41,6 +50,14 @@ public class CaliberBlockHelper {
     public static final List<Variant> PLANK_VARIANTS = Lists.newArrayList(Variant.BALUSTRADE, Variant.CAPITAL, Variant.CORNER,
             Variant.CORNER_SLAB, Variant.CORNER_SLAB_VERTICAL, Variant.EIGHTH, Variant.FENCE, Variant.FENCE_GATE, Variant.PILLAR, Variant.PRESSURE_PLATE,
             Variant.QUARTER, Variant.QUARTER_VERTICAL, Variant.SLAB, Variant.SLAB_VERTICAL, Variant.STAIRS, Variant.WALL, Variant.WINDOW, Variant.WINDOW_HALF);
+
+    public static final List<Variant> PLANK_VARIANTS_WITHOUT_FENCES = Lists.newArrayList(Variant.BALUSTRADE, Variant.CAPITAL, Variant.CORNER,
+            Variant.CORNER_SLAB, Variant.CORNER_SLAB_VERTICAL, Variant.EIGHTH, Variant.PILLAR, Variant.PRESSURE_PLATE,
+            Variant.QUARTER, Variant.QUARTER_VERTICAL, Variant.SLAB, Variant.SLAB_VERTICAL, Variant.STAIRS, Variant.WALL, Variant.WINDOW, Variant.WINDOW_HALF);
+
+    public static final List<Variant> PLANK_VARIANTS_WITHOUT_FENCES_STAIRS = Lists.newArrayList(Variant.BALUSTRADE, Variant.CAPITAL, Variant.CORNER,
+            Variant.CORNER_SLAB, Variant.CORNER_SLAB_VERTICAL, Variant.EIGHTH, Variant.PILLAR, Variant.PRESSURE_PLATE,
+            Variant.QUARTER, Variant.QUARTER_VERTICAL, Variant.SLAB, Variant.SLAB_VERTICAL, Variant.WALL, Variant.WINDOW, Variant.WINDOW_HALF);
 
     public static final List<Variant> STRIPPED_WOOD_VARIANTS = Lists.newArrayList(Variant.BALUSTRADE, Variant.BEAM_HORIZONTAL,
             Variant.BEAM_LINTEL, Variant.BEAM_POSTS, Variant.BEAM_VERTICAL,Variant.CAPITAL, Variant.CORNER, Variant.CORNER_SLAB,
@@ -77,25 +94,23 @@ public class CaliberBlockHelper {
 
 //    public static final List<Variant> GLASS_VARIANTS =
 
+//    public static final List<Variant> OLD_TUDOR_VARIANTS = Lists.newArrayList(CROSS, DOWN, UP, LEFT, RIGHT, HORIZONTAL_1, HORIZONTAL_2, VERTICAL_1, VERTICAL_2);
 
     // REMOVE ONCE ALL BLOCKS ARE ADJUSTED
-    public static final List<Variant> VARIANTS = Lists.newArrayList(Variant.ARCH, Variant.ARCH_HALF, Variant.ARCH_LARGE,
-            Variant.ARCH_LARGE_HALF, Variant.ARROWSLIT, Variant.BALUSTRADE, Variant.CAPITAL, Variant.CORNER,
-            Variant.CORNER_SLAB, Variant.CORNER_SLAB_VERTICAL, Variant.EIGHTH, Variant.PILLAR, Variant.QUARTER,
-            Variant.QUARTER_VERTICAL, Variant.SLAB, Variant.SLAB_VERTICAL, Variant.STAIRS, Variant.WALL, Variant.WINDOW, Variant.WINDOW_HALF);
+//    public static final List<Variant> VARIANTS = Lists.newArrayList(Variant.ARCH, Variant.ARCH_HALF, Variant.ARCH_LARGE,
+//            Variant.ARCH_LARGE_HALF, Variant.ARROWSLIT, Variant.BALUSTRADE, Variant.CAPITAL, Variant.CORNER,
+//            Variant.CORNER_SLAB, Variant.CORNER_SLAB_VERTICAL, Variant.EIGHTH, Variant.PILLAR, Variant.QUARTER,
+//            Variant.QUARTER_VERTICAL, Variant.SLAB, Variant.SLAB_VERTICAL, Variant.STAIRS, Variant.WALL, Variant.WINDOW, Variant.WINDOW_HALF);
 
-    public static final List<Variant> WOOD_VARIANTS = Lists.newArrayList(Variant.BEAM_HORIZONTAL, Variant.BEAM_LINTEL,
-            Variant.BEAM_POSTS, Variant.BEAM_VERTICAL, Variant.DOOR_FRAME, Variant.DOOR_FRAME_LINTEL);
+//    public static final List<Variant> WOOD_VARIANTS = Lists.newArrayList(Variant.BEAM_HORIZONTAL, Variant.BEAM_LINTEL,
+//            Variant.BEAM_POSTS, Variant.BEAM_VERTICAL, Variant.DOOR_FRAME, Variant.DOOR_FRAME_LINTEL);
+//
+//    public static final List<Variant> VANILLA_WOOD_VARIANTS = Lists.newArrayList(Variant.FENCE, Variant.FENCE_GATE, Variant.PRESSURE_PLATE);
 
-    public static final List<Variant> VANILLA_WOOD_VARIANTS = Lists.newArrayList(Variant.FENCE, Variant.FENCE_GATE, Variant.PRESSURE_PLATE);
-
-    public static final List<Variant> STONE_VARIANTS = Lists.newArrayList(Variant.ARCH, Variant.ARCH_HALF, Variant.ARCH_LARGE,
-            Variant.ARCH_LARGE_HALF, Variant.ARROWSLIT);
-
-    public static final List<Variant> OLD_TUDOR_VARIANTS = Lists.newArrayList(CROSS, DOWN, UP, LEFT, RIGHT, HORIZONTAL_1, HORIZONTAL_2, VERTICAL_1, VERTICAL_2);
+//    public static final List<Variant> STONE_VARIANTS = Lists.newArrayList(Variant.ARCH, Variant.ARCH_HALF, Variant.ARCH_LARGE,
+//            Variant.ARCH_LARGE_HALF, Variant.ARROWSLIT);
 
 
-    // TODO: Fix top bottom and side textures for all base blocks
     public static <T> List<T> modifyList(List<T> list, Consumer<List<T>> consumer) {
         List<T> newList = new ArrayList<>(list);
         consumer.accept(newList);
@@ -104,52 +119,51 @@ public class CaliberBlockHelper {
 
 
     // Asset & Data Generation presets
-    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> ARCH = (textureFrom) -> (b, provider) ->
+    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> ARCH = (textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<ArchBlock>fixBlockTex(textureFrom, b, provider, (block, side, bottom, top, tex) -> provider.archBlock(block, side, bottom, top), provider::archBlock);
 
-    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> ARCH_HALF = (textureFrom) -> (b, provider) ->
+    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> ARCH_HALF = (textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<HalfArchBlock>fixBlockTex(textureFrom, b, provider, (block, side, bottom, top, tex) ->
                     provider.archHalfBlock(block, side, bottom, top), provider::archHalfBlock);
-
-    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> ARCH_LARGE = (textureFrom) -> (b, provider) ->
+    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> ARCH_LARGE = (textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<LargeArchBlock>fixBlockTex(textureFrom, b, provider, (block, side, bottom, top, tex) ->
                     provider.archLargeBlock(block, side, bottom, top), provider::archLargeBlock);
 
-    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> ARCH_LARGE_HALF = (textureFrom) -> (b, provider) ->
+    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> ARCH_LARGE_HALF = (textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<LargeHalfArchBlock>fixBlockTex(textureFrom, b, provider, (block, side, bottom, top, tex) ->
                     provider.archLargeHalfBlock(block, side, bottom, top), provider::archLargeHalfBlock);
 
-    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> ARROWSLIT = (textureFrom) -> (b, provider) ->
+    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> ARROWSLIT = (textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<ArrowSlitBlock>fixBlockTex(textureFrom, b, provider, (block, side, bottom, top, tex) ->
                     provider.arrowslitBlock(block, side, bottom, top), provider::arrowslitBlock);
 
-    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> BALUSTRADE = (textureFrom) -> (b, provider) ->
+    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> BALUSTRADE = (textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<BalustradeBlock>fixBlockTex(textureFrom, b, provider, (block, side, bottom, top, tex) ->
                     provider.balustradeBlock(block, side, bottom, top), provider::balustradeBlock);
 
-    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> BEAM_LINTEL = (textureFrom) -> (b, provider) ->
+    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> BEAM_LINTEL = (textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<BeamLintelBlock>fixBlockTex(textureFrom, b, provider, (block, side, bottom, top, tex) ->
                     provider.beamLintelBlock(block, side, bottom, top), provider::beamLintelBlock);
 
-    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> BEAM_HORIZONTAL = (textureFrom) -> (b, provider) ->
+    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> BEAM_HORIZONTAL = (textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<HorizontalBeamBlock>fixBlockTex(textureFrom, b, provider, (block, side, bottom, top, tex) ->
                     provider.beamHorizontalBlock(block, tex), provider::beamHorizontalBlock);
 
-    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> BEAM_POSTS = (textureFrom) -> (b, provider) ->
+    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> BEAM_POSTS = (textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<BeamPostsBlock>fixBlockTex(textureFrom, b, provider, (block, side, bottom, top, tex) ->
                     provider.beamPostsBlock(block, tex), provider::beamPostsBlock);
 
-    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> BEAM_VERTICAL = (textureFrom) -> (b, provider) ->
+    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> BEAM_VERTICAL = (textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<VerticalBeamBlock>fixBlockTex(textureFrom, b, provider, (block, side, bottom, top, tex) ->
                     provider.beamVerticalBlock(block, tex), provider::beamVerticalBlock);
 
-//    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> BUTTON = (textureFrom) -> (b, provider) ->
+//    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> BUTTON = (textureFrom) -> (b, provider) ->
 //            provider.buttonBlock((StoneButtonBlock) b.get(), provider.blockTexture(BlockManager.getMainBy(b, textureFrom)));
 
-//    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> WOOD_BUTTON = (textureFrom) -> (b, provider) ->
+//    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> WOOD_BUTTON = (textureFrom) -> (b, provider) ->
 //            provider.buttonBlock((WoodButtonBlock) b.get(), provider.blockTexture(BlockManager.getMainBy(b, textureFrom)));
 
-    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> BUTTON = (textureFrom) -> (b, provider) ->
+    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> BUTTON = (textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<StoneButtonBlock>fixBlockTex(textureFrom, b, provider, (block, side, bottom, top, tex) -> {
                 provider.buttonBlock(block, top);
                 provider.models().buttonInventory(provider.name(block) + "_inventory", top);
@@ -158,44 +172,44 @@ public class CaliberBlockHelper {
                 provider.models().buttonInventory(provider.name(block) + "_inventory", texture);
             });
 
-    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> CAPITAL = (textureFrom) -> (b, provider) ->
+    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> CAPITAL = (textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<CapitalBlock>fixBlockTex(textureFrom, b, provider, (block, side, bottom, top, tex) ->
                     provider.capitalBlock(block, side, bottom, top), provider::capitalBlock);
 
-    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> CORNER = (textureFrom) -> (b, provider) ->
+    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> CORNER = (textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<CornerLayerBlock>fixBlockTex(textureFrom, b, provider, provider::cornerLayerBlock, provider::cornerLayerBlock);
 
-    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> CORNER_SLAB = (textureFrom) -> (b, provider) ->
+    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> CORNER_SLAB = (textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<CornerSlabBlock>fixBlockTex(textureFrom, b, provider, (block, side, bottom, top, tex) ->
                     provider.cornerSlabBlock(block, side, bottom, top), provider::cornerSlabBlock);
 
-    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> CORNER_SLAB_VERTICAL = (textureFrom) -> (b, provider) ->
+    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> CORNER_SLAB_VERTICAL = (textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<VerticalCornerSlabBlock>fixBlockTex(textureFrom, b, provider, (block, side, bottom, top, tex) ->
                     provider.cornerSlabVerticalBlock(block, side, bottom, top), provider::cornerSlabVerticalBlock);
 
-//    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> DOOR = (textureFrom) -> (b, provider) ->
+//    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> DOOR = (textureFrom) -> (b, provider) ->
 //            provider.doorBlock((DoorBlock) b.get(), provider.blockTexture(BlockManager.getMainBy(b, textureFrom + "_bottom")), provider.blockTexture(BlockManager.getMainBy(b, textureFrom)));
 
-//    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> DOOR = (textureFrom) -> (b, provider) ->
+//    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> DOOR = (textureFrom) -> (b, provider) ->
 //            CaliberBlockHelper.<DoorBlock>fixBlockTex(textureFrom, b, provider, (block, side, bottom, top, tex) ->
 //                    provider.doorBlock(block, tex + "_door", bottom, top), provider::doorBlock);
 
-    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> DOOR_FRAME = (textureFrom) -> (b, provider) ->
+    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> DOOR_FRAME = (textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<DoorFrameBlock>fixBlockTex(textureFrom, b, provider, (block, side, bottom, top, tex) ->
                     provider.doorFrameBlock(block, tex), provider::doorFrameBlock);
 
-    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> DOOR_FRAME_LINTEL = (textureFrom) -> (b, provider) ->
+    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> DOOR_FRAME_LINTEL = (textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<DoorFrameLintelBlock>fixBlockTex(textureFrom, b, provider, (block, side, bottom, top, tex) ->
                     provider.doorFrameLintelBlock(block, tex), provider::doorFrameLintelBlock);
 
-    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> EIGHTH = (textureFrom) -> (b, provider) ->
+    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> EIGHTH = (textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<EighthBlock>fixBlockTex(textureFrom, b, provider, (block, side, bottom, top, tex) ->
                     provider.eighthBlock(block, side, bottom, top), provider::eighthBlock);
 
-//    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> FENCE = (textureFrom) -> (b, provider) ->
+//    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> FENCE = (textureFrom) -> (b, provider) ->
 //            provider.fenceBlock((FenceBlock) b.get(), provider.blockTexture(BlockManager.getMainBy(b, textureFrom)));
 
-    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> FENCE = (textureFrom) -> (b, provider) ->
+    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> FENCE = (textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<FenceBlock>fixBlockTex(textureFrom, b, provider, (block, side, bottom, top, tex) -> {
                 provider.fenceBlock(block, top);
                 provider.models().fenceInventory(provider.name(block) + "_inventory", top);
@@ -204,54 +218,54 @@ public class CaliberBlockHelper {
                 provider.models().fenceInventory(provider.name(block) + "_inventory", texture);
             });
 
-    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> FENCE_GATE = (textureFrom) -> (b, provider) ->
+    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> FENCE_GATE = (textureFrom) -> (b, provider) ->
             provider.fenceGateBlock((FenceGateBlock) b.get(), provider.blockTexture(BlockManager.getMainBy(b, textureFrom)));
 
-    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> PILLAR = (textureFrom) -> (b, provider) ->
+    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> PILLAR = (textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<PillarLayerBlock>fixBlockTex(textureFrom, b, provider, provider::pillarLayerBlock, provider::pillarLayerBlock);
 
-    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> PRESSURE_PLATE = (textureFrom) -> (b, provider) ->
+    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> PRESSURE_PLATE = (textureFrom) -> (b, provider) ->
             provider.pressurePlateBlock((PressurePlateBlock) b.get(), provider.blockTexture(BlockManager.getMainBy(b, textureFrom)));
 
-//    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> SIGN = (textureFrom) -> (b, provider) ->
+//    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> SIGN = (textureFrom) -> (b, provider) ->
 //            provider.signBlock((StandingSignBlock) b.get(), (WallSignBlock) b.get(), provider.blockTexture(BlockManager.getMainBy(b, textureFrom)));
 
-//    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> TRAP_DOOR = (textureFrom) -> (b, provider) ->
+//    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> TRAP_DOOR = (textureFrom) -> (b, provider) ->
 //            provider.trapdoorBlock((TrapDoorBlock) b.get(), provider.blockTexture(BlockManager.getMainBy(b, textureFrom)), true);
 
-    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> QUARTER = (textureFrom) -> (b, provider) ->
+    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> QUARTER = (textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<QuarterLayerBlock>fixBlockTex(textureFrom, b, provider, provider::quarterLayerBlock, provider::quarterLayerBlock);
 
-    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> VERTICAL_QUARTER = (textureFrom) -> (b, provider) ->
+    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> VERTICAL_QUARTER = (textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<VerticalQuarterLayerBlock>fixBlockTex(textureFrom, b, provider, provider::quarterLayerVerticalBlock, provider::quarterLayerVerticalBlock);
 
-    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> ROOF_22 = (textureFrom) -> (b, provider) ->
+    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> ROOF_22 = (textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<Roof22Block>fixBlockTex(textureFrom, b, provider, (block, side, bottom, top, tex) ->
                     provider.roof22Block(block, tex), provider::roof22Block);
 
-    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> ROOF_45 = (textureFrom) -> (b, provider) ->
+    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> ROOF_45 = (textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<Roof45Block>fixBlockTex(textureFrom, b, provider, (block, side, bottom, top, tex) ->
                     provider.roof45Block(block, tex), provider::roof45Block);
 
-    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> ROOF_67 = (textureFrom) -> (b, provider) ->
+    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> ROOF_67 = (textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<Roof67Block>fixBlockTex(textureFrom, b, provider, (block, side, bottom, top, tex) ->
                     provider.roof67Block(block, tex), provider::roof67Block);
 
-    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> ROOF_PEAK = (textureFrom) -> (b, provider) ->
+    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> ROOF_PEAK = (textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<RoofPeakBlock>fixBlockTex(textureFrom, b, provider, (block, side, bottom, top, tex) ->
                     provider.roofPeakBlock(block, tex), provider::roofPeakBlock);
 
-    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> SLAB = (textureFrom) -> (b, provider) ->
+    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> SLAB = (textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<SlabLayerBlock>fixBlockTex(textureFrom, b, provider, provider::slabLayerBlock, provider::slabLayerBlock);
 
-    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> SLAB_VERTICAL = (textureFrom) -> (b, provider) ->
+    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> SLAB_VERTICAL = (textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<VerticalSlabLayerBlock>fixBlockTex(textureFrom, b, provider, provider::slabVerticalLayerBlock, provider::slabVerticalLayerBlock);
 
-    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> STAIRS = (textureFrom) -> (b, provider) ->
+    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> STAIRS = (textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<StairBlock>fixBlockTex(textureFrom, b, provider, (block, side, bottom, top, tex) ->
                     provider.stairsBlock(block, side, bottom, top), provider::stairsBlock);
 
-    public static final Function<Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> WALL = (textureFrom) -> (b, provider) ->
+    public static final Function<Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> WALL = (textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<WallBlock>fixBlockTex(textureFrom, b, provider, (block, side, bottom, top, tex) -> {
                 provider.wallBlock(block, top);
                 provider.models().wallInventory(provider.name(block) + "_inventory", top);
@@ -260,11 +274,11 @@ public class CaliberBlockHelper {
                 provider.models().wallInventory(provider.name(block) + "_inventory", texture);
             });
 
-    public static final BiFunction<String, Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> WINDOW = (s, textureFrom) -> (b, provider) ->
+    public static final BiFunction<String, Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> WINDOW = (s, textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<WindowBlock>fixBlockTex(textureFrom, b, provider, (block, side, bottom, top, tex) ->
                     provider.windowBlock(block, side, bottom, top), provider::windowBlock);
 
-    public static final BiFunction<String, Supplier<Block>, BiConsumer<RegistryObject<Block>, ModBlockStateProvider>> WINDOW_HALF = (s, textureFrom) -> (b, provider) ->
+    public static final BiFunction<String, Supplier<Block>, BiConsumer<Supplier<Block>, ModBlockStateProvider>> WINDOW_HALF = (s, textureFrom) -> (b, provider) ->
             CaliberBlockHelper.<HalfWindowBlock>fixBlockTex(textureFrom, b, provider, (block, side, bottom, top, tex) -> provider.windowHalfBlock(block, side, bottom, top), provider::windowHalfBlock);
 
 
@@ -283,8 +297,8 @@ public class CaliberBlockHelper {
                 .texture("top", topLoc);
     }
 
-
-    public static <T extends Block> void fixBlockTex(Supplier<Block> textureFrom, RegistryObject<Block> b, ModBlockStateProvider provider, BlockGenLayerWithSides<T> genWithSides, BlockGenWithBaseBlock<T> gen) {
+    @SuppressWarnings("unchecked")
+    public static <T extends Block> void fixBlockTex(Supplier<Block> textureFrom, Supplier<Block> b, ModBlockStateProvider provider, BlockGenLayerWithSides<T> genWithSides, BlockGenWithBaseBlock<T> gen) {
         ResourceLocation tex = provider.blockTexture(BlockManager.getMainBy(b, textureFrom));
         ResourceLocation top = tex;
         ResourceLocation side = tex;

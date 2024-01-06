@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "caliber:mossy_birch_boards"
+    }
+  },
+  "result": {
+    "item": "caliber:mossy_birch_board_pressure_plate"
+  }
+}

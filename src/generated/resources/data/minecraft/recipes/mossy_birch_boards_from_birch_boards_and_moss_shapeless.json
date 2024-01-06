@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:moss_block"
+    },
+    {
+      "item": "caliber:birch_boards"
+    }
+  ],
+  "result": {
+    "item": "caliber:mossy_birch_boards"
+  }
+}

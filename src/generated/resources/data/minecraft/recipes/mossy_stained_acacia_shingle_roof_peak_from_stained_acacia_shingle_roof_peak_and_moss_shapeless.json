@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:moss_block"
+    },
+    {
+      "item": "caliber:stained_acacia_shingle_roof_peak"
+    }
+  ],
+  "result": {
+    "item": "caliber:mossy_stained_acacia_shingle_roof_peak"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:moss_block"
+    },
+    {
+      "item": "caliber:crimson_board_quarter"
+    }
+  ],
+  "result": {
+    "item": "caliber:mossy_crimson_board_quarter"
+  }
+}

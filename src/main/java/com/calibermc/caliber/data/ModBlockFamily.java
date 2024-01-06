@@ -3,6 +3,7 @@ package com.calibermc.caliber.data;
 import com.calibermc.caliber.block.management.BlockManager;
 import com.calibermc.caliber.data.datagen.ModBlockStateProvider;
 import com.google.common.collect.Maps;
+import com.mojang.datafixers.util.Pair;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.registries.RegistryObject;
@@ -11,6 +12,7 @@ import org.apache.commons.lang3.StringUtils;
 import javax.annotation.Nullable;
 import java.util.Map;
 import java.util.Optional;
+import java.util.function.Supplier;
 
 public class ModBlockFamily {
     private final Block baseBlock;
@@ -67,8 +69,8 @@ public class ModBlockFamily {
 
 
         public Builder fromManager(BlockManager manager) {
-            for (Map.Entry<BlockManager.BlockAdditional, RegistryObject<Block>> e : manager.getBlocks().entrySet()) {
-                this.family.variants.put(e.getKey().variant, e.getValue().get());
+            for (Map.Entry<BlockManager.BlockAdditional, Pair<ResourceLocation, Supplier<Block>>> e : manager.getBlocks().entrySet()) {
+                this.family.variants.put(e.getKey().variant, e.getValue().getSecond().get());
             }
             return this;
         }

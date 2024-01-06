@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "caliber:mossy_stained_dark_oak_planks"
+  },
+  "result": "caliber:mossy_stained_dark_oak_corner_slab",
+  "count": 4
+}

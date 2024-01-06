@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "caliber:resin"
+    },
+    {
+      "item": "caliber:spruce_wall"
+    }
+  ],
+  "result": {
+    "item": "caliber:stained_spruce_wall"
+  }
+}

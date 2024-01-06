@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:moss_block"
+    },
+    {
+      "item": "caliber:warped_board_window"
+    }
+  ],
+  "result": {
+    "item": "caliber:mossy_warped_board_window"
+  }
+}

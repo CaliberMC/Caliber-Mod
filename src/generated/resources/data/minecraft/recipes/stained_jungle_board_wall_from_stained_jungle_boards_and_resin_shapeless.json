@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "caliber:resin"
+    },
+    {
+      "item": "caliber:jungle_board_wall"
+    }
+  ],
+  "result": {
+    "item": "caliber:stained_jungle_board_wall"
+  }
+}

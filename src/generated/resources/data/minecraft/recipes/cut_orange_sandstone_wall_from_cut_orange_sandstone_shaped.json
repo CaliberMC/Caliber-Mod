@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "caliber:cut_orange_sandstone"
+    }
+  },
+  "result": {
+    "item": "caliber:cut_orange_sandstone_wall",
+    "count": 6
+  }
+}

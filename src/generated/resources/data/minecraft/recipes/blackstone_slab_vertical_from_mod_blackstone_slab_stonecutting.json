@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "caliber:blackstone_slab"
-  },
-  "result": "caliber:blackstone_slab_vertical",
-  "count": 1
-}

@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "ingredient": {
-    "item": "minecraft:warped_planks"
-  },
-  "result": "caliber:warped_window_half",
-  "count": 4
-}

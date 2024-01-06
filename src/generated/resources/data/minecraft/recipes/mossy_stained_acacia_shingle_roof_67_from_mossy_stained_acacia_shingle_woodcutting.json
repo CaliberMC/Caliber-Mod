@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "ingredient": {
+    "item": "caliber:mossy_stained_acacia_boards"
+  },
+  "result": "caliber:mossy_stained_acacia_shingle_roof_67",
+  "count": 2
+}

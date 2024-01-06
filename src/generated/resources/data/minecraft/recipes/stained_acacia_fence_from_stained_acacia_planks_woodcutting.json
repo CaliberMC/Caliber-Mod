@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "caliber:stained_acacia_planks"
+  },
+  "result": "caliber:stained_acacia_fence",
+  "count": 1
+}

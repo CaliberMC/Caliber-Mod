@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "caliber:mossy_dark_limestone_bricks"
+  },
+  "result": "caliber:mossy_dark_limestone_brick_arrowslit",
+  "count": 2
+}

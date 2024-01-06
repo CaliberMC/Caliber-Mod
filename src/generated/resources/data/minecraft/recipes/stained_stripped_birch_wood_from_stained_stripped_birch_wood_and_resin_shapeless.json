@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "caliber:resin"
+    },
+    {
+      "item": "minecraft:stripped_birch_wood"
+    }
+  ],
+  "result": {
+    "item": "caliber:stained_stripped_birch_wood"
+  }
+}

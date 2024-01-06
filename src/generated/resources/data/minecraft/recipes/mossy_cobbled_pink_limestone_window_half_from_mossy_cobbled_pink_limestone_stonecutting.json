@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "caliber:mossy_cobbled_pink_limestone"
+  },
+  "result": "caliber:mossy_cobbled_pink_limestone_window_half",
+  "count": 2
+}
