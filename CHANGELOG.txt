@@ -300,7 +300,7 @@ _ Added all Terracotta Roof variants
 - Added Mossy Slate Tile Variants
 - Code Cleanup
 - Bugfix: fixed Large Arch Block GUI rotation
-- Bugfix: fixed Sandstone and Red Sandstone Block Pickers showing Black Marble Variants
+- Bugfix: fixed Sandstone, Red Sandstone, Smooth Sandstone and Quartz Block Pickers showing Black Marble Variants
 
 
 
