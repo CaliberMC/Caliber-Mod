@@ -386,7 +386,7 @@ public class ModBlockFamilies {
 
     /* Quartz */
     public static final ModBlockFamily QUARTZ = familyBuilder(Blocks.QUARTZ_BLOCK)
-            .fromManager(ModBlocks.BLACK_MARBLE)
+            .fromManager(ModBlocks.QUARTZ)
             .stairs(Blocks.QUARTZ_STAIRS)
             .getFamily();
     public static final ModBlockFamily QUARTZ_BRICKS = familyBuilder(Blocks.QUARTZ_BRICKS)
@@ -449,7 +449,7 @@ public class ModBlockFamilies {
             .stairs(Blocks.SMOOTH_RED_SANDSTONE_STAIRS)
             .getFamily();
     public static final ModBlockFamily SMOOTH_SANDSTONE = familyBuilder(Blocks.SMOOTH_SANDSTONE)
-            .fromManager(ModBlocks.BLACK_MARBLE)
+            .fromManager(ModBlocks.SMOOTH_SANDSTONE)
             .stairs(Blocks.SMOOTH_SANDSTONE_STAIRS)
             .getFamily();
     
