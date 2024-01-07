@@ -405,12 +405,12 @@ public class ModBlockFamilies {
             .fromManager(ModBlocks.ORANGE_SANDSTONE)
             .getFamily();
     public static final ModBlockFamily RED_SANDSTONE = familyBuilder(Blocks.RED_SANDSTONE)
-            .fromManager(ModBlocks.BLACK_MARBLE)
+            .fromManager(ModBlocks.RED_SANDSTONE)
             .stairs(Blocks.RED_SANDSTONE_STAIRS)
             .wall(Blocks.RED_SANDSTONE_WALL)
             .getFamily();
     public static final ModBlockFamily SANDSTONE = familyBuilder(Blocks.SANDSTONE)
-            .fromManager(ModBlocks.BLACK_MARBLE)
+            .fromManager(ModBlocks.SANDSTONE)
             .stairs(Blocks.SANDSTONE_STAIRS)
             .wall(Blocks.SANDSTONE_WALL)
             .getFamily();

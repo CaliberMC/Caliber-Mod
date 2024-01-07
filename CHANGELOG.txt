@@ -288,8 +288,19 @@ _ Added all Terracotta Roof variants
 - Major Bugfix: fixed all block textures (blocks that had different top, bottom, sides were not generating correctly)
 - BETA RELEASE IS COMING SOON!
 
--0.0.32 (in progress)
--
+-0.1.0
+- BETA RELEASE
+- While this is a beta release, it is still very much a work in progress.  The mod is stable with no known bugs at this point. There are still many blocks to add and some bugs may still exist.
+- Added finishing touches on the recipe generation system (this will ensure that now recipes are missed in future updates)
+
+-0.1.1 (in progress)
+- Added a total of 10 new blocks!
+- Current Mod Block Count is at 5,787
+- Added Mossy Thatch Variants
+- Added Mossy Slate Tile Variants
+- Code Cleanup
+- Bugfix: fixed Large Arch Block GUI rotation
+- Bugfix: fixed Sandstone and Red Sandstone Block Pickers showing Black Marble Variants
 
 
 
