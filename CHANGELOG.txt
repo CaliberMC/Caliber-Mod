@@ -298,7 +298,9 @@ _ Added all Terracotta Roof variants
 - Current Mod Block Count is at 5,787
 - Added Mossy Thatch Variants
 - Added Mossy Slate Tile Variants
-- Code Cleanup\
+- Code Cleanup
+- Bugfix: fixed texture glitches on Half Arch Blocks
+- Bugfix: fixed texture glitches on Large Half Arch Blocks
 - Bugfix: fixed texture glitch on east face of 67 degree roof blocks
 - Bugfix: fixed lighting on 67 degree roof blocks
 - Bugfix: fixed Large Arch Block GUI rotation
