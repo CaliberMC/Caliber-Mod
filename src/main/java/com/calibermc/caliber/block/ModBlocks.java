@@ -61,11 +61,6 @@ public class ModBlocks {
 
     //TODO: ADD STEEL STUFF
 
-//    private static final List<ModBlockFamily.Variant> VARIANTS_WITHOUT_STAIRS_WALL = STONE_VARIANTS_WITHOUT_STAIRS_WALL;
-//    private static final List<ModBlockFamily.Variant> VARIANTS_WITHOUT_STAIRS = VARIANTS.stream().filter(v -> v != STAIRS).toList();
-//    private static final List<ModBlockFamily.Variant> PLANK_VARIANTS = VARIANTS.stream().filter(variant -> !STONE_VARIANTS.contains(variant)).collect(Collectors.toList());
-//    private static final List<ModBlockFamily.Variant> MOD_PLANK_VARIANTS = Stream.concat(VARIANTS.stream(), VANILLA_WOOD_VARIANTS.stream()).distinct().filter(variant -> !STONE_VARIANTS.contains(variant)).collect(Collectors.toList());
-//    private static final List<ModBlockFamily.Variant> FINISHED_WOOD_VARIANTS = Stream.concat(VARIANTS.stream(), WOOD_VARIANTS.stream()).distinct().filter(variant -> !STONE_VARIANTS.contains(variant)).collect(Collectors.toList());
 
     /* Andesite */
     public static final BlockManager ANDESITE = BlockManager.register("andesite", BlockProps.ANDESITE.get(), () -> Blocks.ANDESITE, STONE_VARIANTS_WITHOUT_STAIRS_WALL);

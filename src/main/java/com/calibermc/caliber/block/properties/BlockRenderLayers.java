@@ -12,7 +12,6 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 @OnlyIn(Dist.CLIENT)
 public class BlockRenderLayers {
     public static void set() {
-//        ItemBlockRenderTypes.setRenderLayer((Block) CaliberBlockHelper.ROOF_VARIANTS, RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.WOODCUTTER.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.ACACIA_SHINGLES.get(ModBlockFamily.Variant.ROOF_22), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.ACACIA_SHINGLES.get(ModBlockFamily.Variant.ROOF_45), RenderType.cutout());
@@ -39,6 +38,31 @@ public class BlockRenderLayers {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.SPRUCE_SHINGLES.get(ModBlockFamily.Variant.ROOF_67), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.SPRUCE_SHINGLES.get(ModBlockFamily.Variant.ROOF_PEAK), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.SPRUCE_SHINGLES.get(ModBlockFamily.Variant.ROOF_PEAK), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.STAINED_ACACIA_SHINGLES.get(ModBlockFamily.Variant.ROOF_22), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.STAINED_ACACIA_SHINGLES.get(ModBlockFamily.Variant.ROOF_45), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.STAINED_ACACIA_SHINGLES.get(ModBlockFamily.Variant.ROOF_67), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.STAINED_ACACIA_SHINGLES.get(ModBlockFamily.Variant.ROOF_PEAK), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.STAINED_BIRCH_SHINGLES.get(ModBlockFamily.Variant.ROOF_22), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.STAINED_BIRCH_SHINGLES.get(ModBlockFamily.Variant.ROOF_45), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.STAINED_BIRCH_SHINGLES.get(ModBlockFamily.Variant.ROOF_67), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.STAINED_BIRCH_SHINGLES.get(ModBlockFamily.Variant.ROOF_PEAK), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.STAINED_DARK_OAK_SHINGLES.get(ModBlockFamily.Variant.ROOF_22), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.STAINED_DARK_OAK_SHINGLES.get(ModBlockFamily.Variant.ROOF_45), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.STAINED_DARK_OAK_SHINGLES.get(ModBlockFamily.Variant.ROOF_67), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.STAINED_DARK_OAK_SHINGLES.get(ModBlockFamily.Variant.ROOF_PEAK), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.STAINED_JUNGLE_SHINGLES.get(ModBlockFamily.Variant.ROOF_22), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.STAINED_JUNGLE_SHINGLES.get(ModBlockFamily.Variant.ROOF_45), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.STAINED_JUNGLE_SHINGLES.get(ModBlockFamily.Variant.ROOF_67), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.STAINED_JUNGLE_SHINGLES.get(ModBlockFamily.Variant.ROOF_PEAK), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.STAINED_OAK_SHINGLES.get(ModBlockFamily.Variant.ROOF_22), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.STAINED_OAK_SHINGLES.get(ModBlockFamily.Variant.ROOF_45), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.STAINED_OAK_SHINGLES.get(ModBlockFamily.Variant.ROOF_67), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.STAINED_OAK_SHINGLES.get(ModBlockFamily.Variant.ROOF_PEAK), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.STAINED_SPRUCE_SHINGLES.get(ModBlockFamily.Variant.ROOF_22), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.STAINED_SPRUCE_SHINGLES.get(ModBlockFamily.Variant.ROOF_45), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.STAINED_SPRUCE_SHINGLES.get(ModBlockFamily.Variant.ROOF_67), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.STAINED_SPRUCE_SHINGLES.get(ModBlockFamily.Variant.ROOF_PEAK), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.STAINED_SPRUCE_SHINGLES.get(ModBlockFamily.Variant.ROOF_PEAK), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.STAINED_ACACIA_DOOR.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.STAINED_ACACIA_TRAPDOOR.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.STAINED_BIRCH_DOOR.get(), RenderType.translucent());
