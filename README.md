@@ -15,11 +15,11 @@ However, I can assure you that the mod is fully survival friendly with world gen
 to stay on the Forge or NeoForge Mod loader for now but may add a Fabric version in the future. 1.18.2 will be completed 
 first before porting forward to all future versions.
 
-Keep in mind, this is an Alpha and not all features are currently working as intended. Upon release of new versions, 
-several features including loot tables and recipes may be missing. Features could also change. I appreciate any feedback 
-about missing textures, block behavior/blockstates not functioning properly etc. I look forward to providing a bug free 
-and highly useable survival friendly mod for everyone to use. If you have any ideas or feature suggestions please let 
-me know in the comments or on the issues/feature request page on github.
+Keep in mind, this is a Beta and not all features have been added to the mod. Upon release of new versions, 
+additional features will be added and I will do my best not to break any existing ones. Now that the mod is out of Alpha
+most features included in the mod will be here to stay. I look forward to providing a bug free and highly useable survival 
+friendly mod for everyone to use. If you have any ideas or feature suggestions please let me know in the comments or on 
+the issues/feature request page on github.
 
 Keep this mod bookmarked because it will be in development for a long time to come.
 
