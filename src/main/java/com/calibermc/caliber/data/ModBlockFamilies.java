@@ -95,6 +95,25 @@ public class ModBlockFamilies {
             .stairs(Blocks.POLISHED_DEEPSLATE_STAIRS)
             .wall(Blocks.POLISHED_DEEPSLATE_WALL)
             .getFamily();
+
+    /* Mossy Deepslate */
+//    public static final ModBlockFamily MOSSY_DEEPSLATE = familyBuilder(ModBlocks.MOSSY_DEEPSLATE.baseBlock())
+//            .fromManager(ModBlocks.MOSSY_DEEPSLATE)
+//            .getFamily();
+//    public static final ModBlockFamily MOSSY_DEEPSLATE_BRICKS = familyBuilder(ModBlocks.MOSSY_DEEPSLATE_BRICK.baseBlock())
+//            .fromManager(ModBlocks.MOSSY_DEEPSLATE_BRICK)
+//            .getFamily();
+//    public static final ModBlockFamily MOSSY_DEEPSLATE_TILES = familyBuilder(ModBlocks.MOSSY_DEEPSLATE_TILE.baseBlock())
+//            .fromManager(ModBlocks.MOSSY_DEEPSLATE_TILE)
+//            .fromManager(ModBlocks.MOSSY_SLATE_TILE)
+//            .getFamily();
+//    public static final ModBlockFamily MOSSY_COBBLED_DEEPSLATE = familyBuilder(ModBlocks.MOSSY_COBBLED_DEEPSLATE.baseBlock())
+//            .fromManager(ModBlocks.MOSSY_COBBLED_DEEPSLATE)
+//            .getFamily();
+//    public static final ModBlockFamily MOSSY_POLISHED_DEEPSLATE = familyBuilder(ModBlocks.MOSSY_POLISHED_DEEPSLATE.baseBlock())
+//            .fromManager(ModBlocks.MOSSY_POLISHED_DEEPSLATE)
+//            .getFamily();
+
     
     /* Diorite */
     public static final ModBlockFamily DIORITE = familyBuilder(Blocks.DIORITE)
@@ -809,12 +828,10 @@ public class ModBlockFamilies {
     public static final ModBlockFamily THATCH = familyBuilder(ModBlocks.THATCH.baseBlock())
             .fromManager(ModBlocks.THATCH)
             .getFamily();
-//    public static final ModBlockFamily SLATE_TILE = familyBuilder(ModBlocks.SLATE_TILE.baseBlock())
-//            .fromManager(ModBlocks.SLATE_TILE)
-//            .getFamily();
-//    public static final ModBlockFamily CLAY_TILE = familyBuilder(ModBlocks.CLAY_TILE.baseBlock())
-//            .fromManager(ModBlocks.CLAY_TILE)
-//            .getFamily();
+    public static final ModBlockFamily MOSSY_THATCH = familyBuilder(ModBlocks.MOSSY_THATCH.baseBlock())
+            .fromManager(ModBlocks.MOSSY_THATCH)
+            .getFamily();
+
 
    /* Sand */
     public static final ModBlockFamily BLACK_SAND = familyBuilder(ModBlocks.BLACK_SAND.get())

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "caliber:mossy_thatch"
+  },
+  "result": "caliber:mossy_thatch_window",
+  "count": 2
+}

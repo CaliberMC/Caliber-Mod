@@ -90,6 +90,13 @@ public class ModBlocks {
     public static final BlockManager COBBLED_DEEPSLATE = BlockManager.register("cobbled_deepslate", BlockProps.COBBLED_DEEPSLATE.get(), () -> Blocks.COBBLED_DEEPSLATE, STONE_VARIANTS_WITHOUT_STAIRS_WALL);
     public static final BlockManager POLISHED_DEEPSLATE = BlockManager.register("polished_deepslate", BlockProps.POLISHED_DEEPSLATE.get(), () -> Blocks.POLISHED_DEEPSLATE, STONE_VARIANTS_WITHOUT_STAIRS_WALL);
 
+    /* Mossy Deepslate */
+//    public static final BlockManager MOSSY_DEEPSLATE = BlockManager.register("mossy_deepslate", BlockProps.DEEPSLATE.get(), CaliberBlockHelper.modifyList(STONE_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+//    public static final BlockManager MOSSY_DEEPSLATE_BRICK = BlockManager.register("mossy_deepslate_bricks", BlockProps.DEEPSLATE_BRICK.get(), CaliberBlockHelper.modifyList(STONE_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+//    public static final BlockManager MOSSY_DEEPSLATE_TILE = BlockManager.register("mossy_deepslate_tiles", BlockProps.DEEPSLATE_TILES.get(), CaliberBlockHelper.modifyList(STONE_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+//    public static final BlockManager MOSSY_COBBLED_DEEPSLATE = BlockManager.register("mossy_cobbled_deepslate", BlockProps.COBBLED_DEEPSLATE.get(), CaliberBlockHelper.modifyList(STONE_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+//    public static final BlockManager MOSSY_POLISHED_DEEPSLATE = BlockManager.register("mossy_polished_deepslate", BlockProps.POLISHED_DEEPSLATE.get(), CaliberBlockHelper.modifyList(STONE_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+
     /* Diorite */
     public static final BlockManager DIORITE = BlockManager.register("diorite", BlockProps.DIORITE.get(), () -> Blocks.DIORITE, STONE_VARIANTS_WITHOUT_STAIRS_WALL);
     public static final BlockManager POLISHED_DIORITE = BlockManager.register("polished_diorite", BlockProps.POLISHED_DIORITE.get(), () -> Blocks.POLISHED_DIORITE, STONE_VARIANTS_WITHOUT_STAIRS);
@@ -420,8 +427,10 @@ public class ModBlocks {
     /* Other Roofing Materials */
     public static final BlockManager THATCH = BlockManager.register("thatch", BlockProps.GRASS.get().noOcclusion(), CaliberBlockHelper.modifyList(THATCH_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
     public static final BlockManager SLATE_TILE = BlockManager.register("slate_tile", BlockProps.DEEPSLATE.get().noOcclusion(), () -> Blocks.DEEPSLATE_TILES, ROOF_VARIANTS);
-//    public static final BlockManager SLATE_TILE = BlockManager.register("slate_tile", BlockProps.DEEPSLATE.get().noOcclusion(), CaliberBlockHelper.modifyList(ROOF_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
-//    public static final BlockManager CLAY_TILE = BlockManager.register("clay_tile", BlockProps.PLANK.get(), CaliberBlockHelper.modifyList(ROOF_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+
+    public static final BlockManager MOSSY_THATCH = BlockManager.register("mossy_thatch", BlockProps.GRASS.get().noOcclusion(), CaliberBlockHelper.modifyList(THATCH_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
+//    public static final BlockManager MOSSY_SLATE_TILE = BlockManager.register("mossy_slate_tile", BlockProps.DEEPSLATE.get().noOcclusion(), () -> Blocks.DEEPSLATE_TILES, ROOF_VARIANTS);
+
 
     /* Concrete */
     public static final BlockManager BLACK_CONCRETE = BlockManager.register("black_concrete", BlockProps.CONCRETE.get(), () -> Blocks.BLACK_CONCRETE, STONE_VARIANTS);

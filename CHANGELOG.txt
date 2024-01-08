@@ -294,17 +294,15 @@ _ Added all Terracotta Roof variants
 - Added finishing touches on the recipe generation system (this will ensure that now recipes are missed in future updates)
 
 -0.1.1 (in progress)
-- Added a total of 10 new blocks!
-- Current Mod Block Count is at 5,787
+- Added a total of 29 new blocks!
+- Current Mod Block Count is at 5,806
 - Added Mossy Thatch Variants
-- Added Mossy Slate Tile Variants
-- Code Cleanup
-- Bugfix: fixed trim on Large Arch Blocks
+- Bugfix: fixed trim not appearing on the correct side of block on Large Arch Blocks
 - Bugfix: fixed Large Arch Block GUI rotation
 - Bugfix: fixed texture glitches on Half Arch Blocks
 - Bugfix: fixed texture glitches on Large Half Arch Blocks
 - Bugfix: fixed texture glitch on east face of 67 degree roof blocks
-- Bugfix: fixed lighting on 67 degree roof blocks
+- Bugfix: fixed lighting/shading on 67 degree roof blocks
 - Bugfix: fixed Sandstone, Red Sandstone, Smooth Sandstone and Quartz Block Pickers showing Black Marble Variants
 
 

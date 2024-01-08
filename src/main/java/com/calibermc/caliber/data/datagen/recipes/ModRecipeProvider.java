@@ -293,10 +293,75 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         }
     }
 
+
+//    private void mossyVariantRecipes(BlockManager manager, Consumer<FinishedRecipe> finished, String name, Block baseBlock, String criterionBy, Map.Entry<BlockManager.BlockAdditional, Pair<ResourceLocation, Supplier<Block>>> e, String path, Block block) {
+//        if (name.contains("mossy") && !name.contains("tudor")) {
+//            BlockManager blockManager = BlockManager.BLOCK_MANAGERS.stream()
+//                    .filter(m -> matchesBlockManagerName(manager.getName().replace("mossy_", ""), m.getName()))
+//                    .findFirst()
+//                    .orElseGet(() -> BlockManager.BLOCK_MANAGERS.stream()
+//                            .filter(m -> matchesBlockManagerName(manager.getName().replace("mossy_", "").replace("caliber:", "minecraft:"), m.getName()))
+//                            .findFirst()
+//                            .orElseThrow(() -> new RuntimeException("No matching BlockManager found: " + manager.getName())));
+//
+//            if (blockManager.getByVariant(e.getKey().variant) != null) {
+//                ShapelessRecipeBuilder.shapeless(block, 1).requires(Items.VINE)
+//                        .requires(blockManager.get(e.getKey().variant))
+//                        .unlockedBy(criterionBy, inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build()))
+//                        .save(finished, "%s_from_%s_and_vine_shapeless".formatted(path, path.replace("mossy_", "")));
+//
+//                ShapelessRecipeBuilder.shapeless(block, 1).requires(Blocks.MOSS_BLOCK)
+//                        .requires(blockManager.get(e.getKey().variant))
+//                        .unlockedBy(criterionBy, inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build()))
+//                        .save(finished, "%s_from_%s_and_moss_shapeless".formatted(path, path.replace("mossy_", "")));
+//            }
+//        }
+//    }
+//
+//    private boolean matchesBlockManagerName(String nameToCheck, String blockManagerName) {
+//        if (nameToCheck.contains("bricks") || nameToCheck.contains("tiles")) {
+//            return blockManagerName.equals(nameToCheck);
+//        } else {
+//            return blockManagerName.equals(nameToCheck.replace("brick", "bricks").replace("tile", "tiles"));
+//        }
+//    }
+
+
+
+//    private void mossyVariantRecipes(BlockManager manager, Consumer<FinishedRecipe> finished, String name, Block baseBlock, String criterionBy, Map.Entry<BlockManager.BlockAdditional, Pair<ResourceLocation, Supplier<Block>>> e, String path, Block block) {
+//        if (name.contains("mossy") && !name.contains("tudor")) {
+//            System.out.println("Manager Name: " + manager.getName());
+//            System.out.println("List of BlockManager Names:");
+//            BlockManager.BLOCK_MANAGERS.forEach(m -> System.out.println(m.getName()));
+//            BlockManager blockManager = BlockManager.BLOCK_MANAGERS.stream()
+//                    .filter(m -> manager.getName().replace("mossy_", "").equals(m.getName()))
+//                    .findFirst()
+//                    .orElseGet(() -> BlockManager.BLOCK_MANAGERS.stream()
+//                            .filter(m -> m.getName().replace("caliber:", "minecraft:").equals(manager.getName().replace("mossy_", "")))
+//                            .findFirst()
+//                            .orElseThrow(() -> new RuntimeException("No matching BlockManager found: " + manager.getName())));
+//
+//            if (blockManager.getByVariant(e.getKey().variant) != null) {
+//                ShapelessRecipeBuilder.shapeless(block, 1).requires(Items.VINE)
+//                        .requires(blockManager.get(e.getKey().variant))
+//                        .unlockedBy(criterionBy, inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build()))
+//                        .save(finished, "%s_from_%s_and_vine_shapeless".formatted(path, path.replace("mossy_", "")));
+//
+//                ShapelessRecipeBuilder.shapeless(block, 1).requires(Blocks.MOSS_BLOCK)
+//                        .requires(blockManager.get(e.getKey().variant))
+//                        .unlockedBy(criterionBy, inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build()))
+//                        .save(finished, "%s_from_%s_and_moss_shapeless".formatted(path, path.replace("mossy_", "")));
+//            }
+//        }
+//    }
+
+
+        //ORIGINAL
     private void mossyVariantRecipes(BlockManager manager, Consumer<FinishedRecipe> finished, String name, Block baseBlock, String criterionBy, Map.Entry<BlockManager.BlockAdditional, Pair<ResourceLocation, Supplier<Block>>> e, String path, Block block) {
         if (name.contains("mossy") && !name.contains("tudor")) {
             Optional<BlockManager> optionalManager = BlockManager.BLOCK_MANAGERS.stream()
-                    .filter(m -> manager.getName().replace("mossy_", "").equals(m.getName())).findFirst();
+                    .filter(m -> manager.getName().replace("mossy_", "").equals(m.getName()))
+                    .findFirst();
 
             if (optionalManager.isPresent()) {
                 if (optionalManager.get().getByVariant(e.getKey().variant) != null) {

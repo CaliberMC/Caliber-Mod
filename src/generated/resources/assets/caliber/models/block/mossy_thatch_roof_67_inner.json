@@ -1,0 +1,8 @@
+{
+  "parent": "caliber:block/templates/roof_67_inner",
+  "textures": {
+    "side": "caliber:block/mossy_thatch",
+    "top": "caliber:block/mossy_thatch",
+    "bottom": "caliber:block/mossy_thatch"
+  }
+}

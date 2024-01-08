@@ -42,6 +42,8 @@ public class BlockManager {
 
             if (name.contains("bricks")) {
                 modifiedName = name.replace("_bricks", "_brick");
+            } else if (name.contains("tiles")) {
+                modifiedName = name.replace("_tiles", "_tile");
             } else if (name.contains("planks")) {
                 modifiedName = name.replace("_planks", "");
             } else if (name.contains("wood")) {
