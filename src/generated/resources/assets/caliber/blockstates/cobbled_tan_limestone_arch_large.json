@@ -72,38 +72,38 @@
       "y": 90,
       "uvlock": true
     },
-    "facing=north,trim=left,type=straight": {
-      "model": "caliber:block/cobbled_tan_limestone_arch_large_trim"
-    },
-    "facing=south,trim=left,type=straight": {
-      "model": "caliber:block/cobbled_tan_limestone_arch_large_trim_right",
-      "y": 180,
-      "uvlock": true
-    },
-    "facing=west,trim=left,type=straight": {
-      "model": "caliber:block/cobbled_tan_limestone_arch_large_trim_right",
-      "y": 270,
-      "uvlock": true
-    },
-    "facing=east,trim=left,type=straight": {
-      "model": "caliber:block/cobbled_tan_limestone_arch_large_trim_right",
-      "y": 90,
-      "uvlock": true
-    },
     "facing=north,trim=right,type=straight": {
-      "model": "caliber:block/cobbled_tan_limestone_arch_large_trim_left"
+      "model": "caliber:block/cobbled_tan_limestone_arch_large_trim_right"
     },
     "facing=south,trim=right,type=straight": {
-      "model": "caliber:block/cobbled_tan_limestone_arch_large_trim_left",
+      "model": "caliber:block/cobbled_tan_limestone_arch_large_trim_right",
       "y": 180,
       "uvlock": true
     },
     "facing=west,trim=right,type=straight": {
-      "model": "caliber:block/cobbled_tan_limestone_arch_large_trim_left",
+      "model": "caliber:block/cobbled_tan_limestone_arch_large_trim_right",
       "y": 270,
       "uvlock": true
     },
     "facing=east,trim=right,type=straight": {
+      "model": "caliber:block/cobbled_tan_limestone_arch_large_trim_right",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=north,trim=left,type=straight": {
+      "model": "caliber:block/cobbled_tan_limestone_arch_large_trim_left"
+    },
+    "facing=south,trim=left,type=straight": {
+      "model": "caliber:block/cobbled_tan_limestone_arch_large_trim_left",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west,trim=left,type=straight": {
+      "model": "caliber:block/cobbled_tan_limestone_arch_large_trim_left",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=east,trim=left,type=straight": {
       "model": "caliber:block/cobbled_tan_limestone_arch_large_trim_left",
       "y": 90,
       "uvlock": true

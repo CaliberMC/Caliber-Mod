@@ -4,8 +4,8 @@ import net.minecraft.util.StringRepresentable;
 import org.jetbrains.annotations.NotNull;
 
 public enum LargeArchTrim implements StringRepresentable {
-    RIGHT("left"),
-    LEFT("right"),
+    RIGHT("right"),
+    LEFT("left"),
     BOTH("both"),
     NONE("none");
 

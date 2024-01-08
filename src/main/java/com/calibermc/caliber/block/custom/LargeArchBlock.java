@@ -191,8 +191,8 @@ public class LargeArchBlock extends HorizontalDirectionalBlock implements Simple
 
     private LargeArchTrim getTrim(BlockState pState, BlockGetter pLevel, BlockPos pPos) {
         Direction facing = pState.getValue(FACING);
-        boolean airLeft = isAir(pLevel.getBlockState(pPos.relative(facing.getClockWise())));
-        boolean airRight = isAir(pLevel.getBlockState(pPos.relative(facing.getCounterClockWise())));
+        boolean airRight = isAir(pLevel.getBlockState(pPos.relative(facing.getClockWise())));
+        boolean airLeft = isAir(pLevel.getBlockState(pPos.relative(facing.getCounterClockWise())));
 
         if (pState.getValue(TYPE) == LargeArchShape.STRAIGHT) {
             if (airLeft && airRight) {

@@ -297,7 +297,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
                 .partialState().with(LargeArchBlock.FACING, Direction.NORTH).with(LargeArchBlock.TYPE, LargeArchShape.STRAIGHT).with(LargeArchBlock.TRIM, LargeArchTrim.LEFT)
                 .modelForState().modelFile(arch_large_trim_left).addModel()
                 .partialState().with(LargeArchBlock.FACING, Direction.NORTH).with(LargeArchBlock.TYPE, LargeArchShape.STRAIGHT).with(LargeArchBlock.TRIM, LargeArchTrim.RIGHT)
-                .modelForState().modelFile(arch_large_trim).addModel()
+                .modelForState().modelFile(arch_large_trim_right).addModel()
                 .partialState().with(LargeArchBlock.FACING, Direction.NORTH).with(LargeArchBlock.TYPE, LargeArchShape.STRAIGHT).with(LargeArchBlock.TRIM, LargeArchTrim.BOTH)
                 .modelForState().modelFile(arch_large_trim).addModel()
                 .partialState().with(LargeArchBlock.FACING, Direction.NORTH).with(LargeArchBlock.TYPE, LargeArchShape.CORNER_LEFT)
