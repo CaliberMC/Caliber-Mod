@@ -39,25 +39,25 @@ public class QuarterLayerBlock extends Block implements SimpleWaterloggedBlock {
             Block.box(0, 0, 12, 16, 4, 16),
             Block.box(0, 0, 8, 16, 8, 16),
             Block.box(0, 0, 4, 16, 12, 16),
-            Block.box(0, 0, 0, 16, 16, 16)};
+            Block.box(0, 0.1, 0, 16, 16, 16)};
     public static final VoxelShape[] EAST_BOTTOM = new VoxelShape[]{Shapes.empty(),
             Block.box(0, 0, 0, 2, 2, 16),
             Block.box(0, 0, 0, 4, 4, 16),
             Block.box(0, 0, 0, 8, 8, 16),
             Block.box(0, 0, 0, 12, 12, 16),
-            Block.box(0, 0, 0, 16, 16, 16)};
+            Block.box(0, 0.1, 0, 16, 16, 16)};
     public static final VoxelShape[] SOUTH_BOTTOM = new VoxelShape[]{Shapes.empty(),
             Block.box(0, 0, 0, 16, 2, 2),
             Block.box(0, 0, 0, 16, 4, 4),
             Block.box(0, 0, 0, 16, 8, 8),
             Block.box(0, 0, 0, 16, 12, 12),
-            Block.box(0, 0, 0, 16, 16, 16)};
+            Block.box(0, 0.1, 0, 16, 16, 16)};
     public static final VoxelShape[] WEST_BOTTOM = new VoxelShape[]{Shapes.empty(),
             Block.box(14, 0, 0, 16, 2, 16),
             Block.box(12, 0, 0, 16, 4, 16),
             Block.box(8, 0, 0, 16, 8, 16),
             Block.box(4, 0, 0, 16, 12, 16),
-            Block.box(0, 0, 0, 16, 16, 16)};
+            Block.box(0, 0.1, 0, 16, 16, 16)};
 
 
     public static final VoxelShape[] NORTH_TOP = new VoxelShape[]{Shapes.empty(),
@@ -65,25 +65,25 @@ public class QuarterLayerBlock extends Block implements SimpleWaterloggedBlock {
             Block.box(0, 12, 12, 16, 16, 16),
             Block.box(0, 8, 8, 16, 16, 16),
             Block.box(0, 4, 4, 16, 16, 16),
-            Block.box(0, 0, 0, 16, 16, 16)};
+            Block.box(0, 0.1, 0, 16, 16, 16)};
     public static final VoxelShape[] EAST_TOP = new VoxelShape[]{Shapes.empty(),
             Block.box(0, 14, 0, 2, 16, 16),
             Block.box(0, 12, 0, 4, 16, 16),
             Block.box(0, 8, 0, 8, 16, 16),
             Block.box(0, 4, 0, 12, 16, 16),
-            Block.box(0, 0, 0, 16, 16, 16)};
+            Block.box(0, 0.1, 0, 16, 16, 16)};
     public static final VoxelShape[] SOUTH_TOP = new VoxelShape[]{Shapes.empty(),
-            Block.box(0, 14, 14, 16, 16, 16),
+            Block.box(0, 14, 0, 16, 16, 2),
             Block.box(0, 12, 0, 16, 16, 4),
             Block.box(0, 8, 0, 16, 16, 8),
             Block.box(0, 4, 0, 16, 16, 12),
-            Block.box(0, 0, 0, 16, 16, 16)};
+            Block.box(0, 0.1, 0, 16, 16, 16)};
     public static final VoxelShape[] WEST_TOP = new VoxelShape[]{Shapes.empty(),
             Block.box(14, 14, 0, 16, 16, 16),
             Block.box(12, 12, 0, 16, 16, 16),
             Block.box(8, 8, 0, 16, 16, 16),
             Block.box(4, 4, 0, 16, 16, 16),
-            Block.box(0, 0, 0, 16, 16, 16)};
+            Block.box(0, 0.1, 0, 16, 16, 16)};
 
 
     public QuarterLayerBlock(Properties properties) {

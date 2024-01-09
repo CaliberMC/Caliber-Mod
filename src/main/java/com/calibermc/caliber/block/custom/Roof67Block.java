@@ -72,16 +72,16 @@ public class Roof67Block extends Block implements SimpleWaterloggedBlock {
             Direction.WEST, Block.box(8, 0.01, 8, 16, 16, 16)));
 
     public static final Map<Direction, VoxelShape> TOP_INNER_LEFT_SHAPE = Maps.newEnumMap(ImmutableMap.of(
-            Direction.EAST, Shapes.join(Block.box(0, 0.01, 8, 16, 16, 16), Block.box(0, 0, 0, 8, 16, 8), BooleanOp.OR),
-            Direction.NORTH, Shapes.join(Block.box(8, 0.01, 0, 16, 16, 16), Block.box(0, 0, 8, 8, 16, 16), BooleanOp.OR),
-            Direction.WEST, Shapes.join(Block.box(0, 0.01, 0, 16, 16, 8), Block.box(8, 0, 8, 16, 16, 16), BooleanOp.OR),
-            Direction.SOUTH, Shapes.join(Block.box(0, 0.01, 0, 8, 16, 16), Block.box(8, 0, 0, 16, 16, 8), BooleanOp.OR)));
+            Direction.EAST, Shapes.join(Block.box(0, 0.01, 8, 16, 16, 16), Block.box(0, 0.01, 0, 8, 16, 8), BooleanOp.OR),
+            Direction.NORTH, Shapes.join(Block.box(8, 0.01, 0, 16, 16, 16), Block.box(0, 0.01, 8, 8, 16, 16), BooleanOp.OR),
+            Direction.WEST, Shapes.join(Block.box(0, 0.01, 0, 16, 16, 8), Block.box(8, 0.01, 8, 16, 16, 16), BooleanOp.OR),
+            Direction.SOUTH, Shapes.join(Block.box(0, 0.01, 0, 8, 16, 16), Block.box(8, 0.01, 0, 16, 16, 8), BooleanOp.OR)));
 
     public static final Map<Direction, VoxelShape> TOP_INNER_RIGHT_SHAPE = Maps.newEnumMap(ImmutableMap.of(
-            Direction.WEST, Shapes.join(Block.box(8, 0.01, 0, 16, 16, 16), Block.box(0, 0, 8, 8, 16, 16), BooleanOp.OR),
-            Direction.SOUTH, Shapes.join(Block.box(0, 0.01, 0, 16, 16, 8), Block.box(8, 0, 8, 16, 16, 16), BooleanOp.OR),
-            Direction.NORTH, Shapes.join(Block.box(0, 0.01, 8, 16, 16, 16), Block.box(0, 0, 0, 8, 16, 8), BooleanOp.OR),
-            Direction.EAST, Shapes.join(Block.box(0, 0.01, 0, 8, 16, 16), Block.box(8, 0, 0, 16, 16, 8), BooleanOp.OR)));
+            Direction.WEST, Shapes.join(Block.box(8, 0.01, 0, 16, 16, 16), Block.box(0, 0.01, 8, 8, 16, 16), BooleanOp.OR),
+            Direction.SOUTH, Shapes.join(Block.box(0, 0.01, 0, 16, 16, 8), Block.box(8, 0.01, 8, 16, 16, 16), BooleanOp.OR),
+            Direction.NORTH, Shapes.join(Block.box(0, 0.01, 8, 16, 16, 16), Block.box(0, 0.01, 0, 8, 16, 8), BooleanOp.OR),
+            Direction.EAST, Shapes.join(Block.box(0, 0.01, 0, 8, 16, 16), Block.box(8, 0.01, 0, 16, 16, 8), BooleanOp.OR)));
 
     public static final Map<Direction, VoxelShape> TOP_STRAIGHT_SHAPE = Maps.newEnumMap(ImmutableMap.of(
             Direction.NORTH, Block.box(0, 0.01, 8, 16, 16, 16),
@@ -90,65 +90,65 @@ public class Roof67Block extends Block implements SimpleWaterloggedBlock {
             Direction.WEST, Block.box(8, 0.01, 0, 16, 16, 16)));
 
     public static final Map<Direction, VoxelShape> BOTTOM_STRAIGHT_SHAPE = Maps.newEnumMap(ImmutableMap.of(
-            Direction.NORTH, Shapes.join(Block.box(0, 0, 8, 16, 16, 16), Block.box(0, 0, 0, 16, 8, 8), BooleanOp.OR),
-            Direction.SOUTH, Shapes.join(Block.box(0, 0, 0, 16, 16, 8), Block.box(0, 0, 8, 16, 8, 16), BooleanOp.OR),
-            Direction.EAST, Shapes.join(Block.box(0, 0, 0, 8, 16, 16), Block.box(8, 0, 0, 16, 8, 16), BooleanOp.OR),
-            Direction.WEST, Shapes.join(Block.box(8, 0, 0, 16, 16, 16), Block.box(0, 0, 0, 8, 8, 16), BooleanOp.OR)));
+            Direction.NORTH, Shapes.join(Block.box(0, 0.01, 8, 16, 16, 16), Block.box(0, 0.01, 0, 16, 8, 8), BooleanOp.OR),
+            Direction.SOUTH, Shapes.join(Block.box(0, 0.01, 0, 16, 16, 8), Block.box(0, 0.01, 8, 16, 8, 16), BooleanOp.OR),
+            Direction.EAST, Shapes.join(Block.box(0, 0.01, 0, 8, 16, 16), Block.box(8, 0.01, 0, 16, 8, 16), BooleanOp.OR),
+            Direction.WEST, Shapes.join(Block.box(8, 0.01, 0, 16, 16, 16), Block.box(0, 0.01, 0, 8, 8, 16), BooleanOp.OR)));
 
     public static final Map<Direction, VoxelShape> BOTTOM_OUTER_LEFT_SHAPE = Maps.newEnumMap(ImmutableMap.of(
-            Direction.SOUTH, Shapes.join(Block.box(0, 0, 0, 16, 8, 16), Block.box(0, 8, 0, 8, 16, 8), BooleanOp.OR),
-            Direction.NORTH, Shapes.join(Block.box(0, 0, 0, 16, 8, 16), Block.box(8, 8, 8, 16, 16, 16), BooleanOp.OR),
-            Direction.WEST, Shapes.join(Block.box(0, 0, 0, 16, 8, 16), Block.box(8, 8, 0, 16, 16, 8), BooleanOp.OR),
-            Direction.EAST, Shapes.join(Block.box(0, 0, 0, 16, 8, 16), Block.box(0, 8, 8, 8, 16, 16), BooleanOp.OR)));
+            Direction.SOUTH, Shapes.join(Block.box(0, 0.01, 0, 16, 8, 16), Block.box(0, 8.01, 0, 8, 16, 8), BooleanOp.OR),
+            Direction.NORTH, Shapes.join(Block.box(0, 0.01, 0, 16, 8, 16), Block.box(8, 8.01, 8, 16, 16, 16), BooleanOp.OR),
+            Direction.WEST, Shapes.join(Block.box(0, 0.01, 0, 16, 8, 16), Block.box(8, 8.01, 0, 16, 16, 8), BooleanOp.OR),
+            Direction.EAST, Shapes.join(Block.box(0, 0.01, 0, 16, 8, 16), Block.box(0, 8.01, 8, 8, 16, 16), BooleanOp.OR)));
 
     public static final Map<Direction, VoxelShape> BOTTOM_OUTER_RIGHT_SHAPE = Maps.newEnumMap(ImmutableMap.of(
-            Direction.EAST, Shapes.join(Block.box(0, 0, 0, 16, 8, 16), Block.box(0, 8, 0, 8, 16, 8), BooleanOp.OR),
-            Direction.WEST, Shapes.join(Block.box(0, 0, 0, 16, 8, 16), Block.box(8, 8, 8, 16, 16, 16), BooleanOp.OR),
-            Direction.SOUTH, Shapes.join(Block.box(0, 0, 0, 16, 8, 16), Block.box(8, 8, 0, 16, 16, 8), BooleanOp.OR),
-            Direction.NORTH, Shapes.join(Block.box(0, 0, 0, 16, 8, 16), Block.box(0, 8, 8, 8, 16, 16), BooleanOp.OR)));
+            Direction.EAST, Shapes.join(Block.box(0, 0.01, 0, 16, 8, 16), Block.box(0, 8.01, 0, 8, 16, 8), BooleanOp.OR),
+            Direction.WEST, Shapes.join(Block.box(0, 0.01, 0, 16, 8, 16), Block.box(8, 8.01, 8, 16, 16, 16), BooleanOp.OR),
+            Direction.SOUTH, Shapes.join(Block.box(0, 0.01, 0, 16, 8, 16), Block.box(8, 8.01, 0, 16, 16, 8), BooleanOp.OR),
+            Direction.NORTH, Shapes.join(Block.box(0, 0.01, 0, 16, 8, 16), Block.box(0, 8.01, 8, 8, 16, 16), BooleanOp.OR)));
 
     public static final Map<Direction, VoxelShape> BOTTOM_INNER_LEFT_SHAPE = Maps.newEnumMap(ImmutableMap.of(
             Direction.SOUTH, Stream.of(
-                    Block.box(0, 0, 0, 16, 8, 16),
-                    Block.box(0, 8, 0, 8, 16, 16),
-                    Block.box(8, 8, 0, 16, 16, 8)
+                    Block.box(0, 0.01, 0, 16, 8, 16),
+                    Block.box(0, 8.01, 0, 8, 16, 16),
+                    Block.box(8, 8.01, 0, 16, 16, 8)
             ).reduce((v0, v2) -> Shapes.join(v0, v2, BooleanOp.OR)).get(),
             Direction.NORTH, Stream.of(
-                    Block.box(0, 0, 0, 16, 8, 16),
-                    Block.box(8, 8, 0, 16, 16, 16),
-                    Block.box(0, 8, 8, 8, 16, 16)
+                    Block.box(0, 0.01, 0, 16, 8, 16),
+                    Block.box(8, 8.01, 0, 16, 16, 16),
+                    Block.box(0, 8.01, 8, 8, 16, 16)
             ).reduce((v0, v2) -> Shapes.join(v0, v2, BooleanOp.OR)).get(),
             Direction.WEST, Stream.of(
-                    Block.box(0, 0, 0, 16, 8, 16),
-                    Block.box(0, 8, 0, 16, 16, 8),
-                    Block.box(8, 8, 8, 16, 16, 16)
+                    Block.box(0, 0.01, 0, 16, 8, 16),
+                    Block.box(0, 8.01, 0, 16, 16, 8),
+                    Block.box(8, 8.01, 8, 16, 16, 16)
             ).reduce((v0, v2) -> Shapes.join(v0, v2, BooleanOp.OR)).get(),
             Direction.EAST, Stream.of(
-                    Block.box(0, 0, 0, 16, 8, 16),
-                    Block.box(0, 8, 8, 16, 16, 16),
-                    Block.box(0, 8, 0, 8, 16, 8)
+                    Block.box(0, 0.01, 0, 16, 8, 16),
+                    Block.box(0, 8.01, 8, 16, 16, 16),
+                    Block.box(0, 8.01, 0, 8, 16, 8)
             ).reduce((v0, v2) -> Shapes.join(v0, v2, BooleanOp.OR)).get()));
 
     public static final Map<Direction, VoxelShape> BOTTOM_INNER_RIGHT_SHAPE = Maps.newEnumMap(ImmutableMap.of(
             Direction.EAST, Stream.of(
-                    Block.box(0, 0, 0, 16, 8, 16),
-                    Block.box(0, 8, 0, 8, 16, 16),
-                    Block.box(8, 8, 0, 16, 16, 8)
+                    Block.box(0, 0.01, 0, 16, 8, 16),
+                    Block.box(0, 8.01, 0, 8, 16, 16),
+                    Block.box(8, 8.01, 0, 16, 16, 8)
             ).reduce((v0, v2) -> Shapes.join(v0, v2, BooleanOp.OR)).get(),
             Direction.WEST, Stream.of(
-                    Block.box(0, 0, 0, 16, 8, 16),
-                    Block.box(8, 8, 0, 16, 16, 16),
-                    Block.box(0, 8, 8, 8, 16, 16)
+                    Block.box(0, 0.01, 0, 16, 8, 16),
+                    Block.box(8, 8.01, 0, 16, 16, 16),
+                    Block.box(0, 8.01, 8, 8, 16, 16)
             ).reduce((v0, v2) -> Shapes.join(v0, v2, BooleanOp.OR)).get(),
             Direction.SOUTH, Stream.of(
-                    Block.box(0, 0, 0, 16, 8, 16),
-                    Block.box(0, 8, 0, 16, 16, 8),
-                    Block.box(8, 8, 8, 16, 16, 16)
+                    Block.box(0, 0.01, 0, 16, 8, 16),
+                    Block.box(0, 8.01, 0, 16, 16, 8),
+                    Block.box(8, 8.01, 8, 16, 16, 16)
             ).reduce((v0, v2) -> Shapes.join(v0, v2, BooleanOp.OR)).get(),
             Direction.NORTH, Stream.of(
-                    Block.box(0, 0, 0, 16, 8, 16),
-                    Block.box(0, 8, 8, 16, 16, 16),
-                    Block.box(0, 8, 0, 8, 16, 8)
+                    Block.box(0, 0.01, 0, 16, 8, 16),
+                    Block.box(0, 8.01, 8, 16, 16, 16),
+                    Block.box(0, 8.01, 0, 8, 16, 8)
             ).reduce((v0, v2) -> Shapes.join(v0, v2, BooleanOp.OR)).get()));
 
     @Override

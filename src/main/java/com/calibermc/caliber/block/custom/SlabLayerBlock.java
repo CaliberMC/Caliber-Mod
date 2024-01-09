@@ -38,7 +38,7 @@ public class SlabLayerBlock extends Block implements SimpleWaterloggedBlock {
             Block.box(0, 0, 0, 16, 10, 16),
             Block.box(0, 0, 0, 16, 12, 16),
             Block.box(0, 0, 0, 16, 14, 16),
-            Block.box(0, 0, 0, 16, 16, 16)};
+            Block.box(0, 0.1, 0, 16, 16, 16)};
 
     public static final VoxelShape[] SHAPE_BY_LAYER_TOP = new VoxelShape[]{Shapes.empty(),
             Block.box(0, 14, 0, 16, 16, 16),
@@ -48,7 +48,7 @@ public class SlabLayerBlock extends Block implements SimpleWaterloggedBlock {
             Block.box(0, 6, 0, 16, 16, 16),
             Block.box(0, 4, 0, 16, 16, 16),
             Block.box(0, 2, 0, 16, 16, 16),
-            Block.box(0, 0, 0, 16, 16, 16),};
+            Block.box(0, 0.1, 0, 16, 16, 16)};
 
     public SlabLayerBlock(Properties properties) {
         super(properties);

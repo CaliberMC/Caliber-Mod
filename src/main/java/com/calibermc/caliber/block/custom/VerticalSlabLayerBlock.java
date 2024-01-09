@@ -43,7 +43,7 @@ public class VerticalSlabLayerBlock extends Block implements SimpleWaterloggedBl
             Block.box(0, 0, 6, 16, 16, 16),
             Block.box(0, 0, 4, 16, 16, 16),
             Block.box(0, 0, 2, 16, 16, 16),
-            Block.box(0, 0, 0, 16, 16, 16)};
+            Block.box(0, 0.1, 0, 16, 16, 16)};
 
     public static final VoxelShape[] SHAPE_EAST = new VoxelShape[]{Shapes.empty(),
             Block.box(0, 0, 0, 2, 16, 16),
@@ -53,7 +53,7 @@ public class VerticalSlabLayerBlock extends Block implements SimpleWaterloggedBl
             Block.box(0, 0, 0, 10, 16, 16),
             Block.box(0, 0, 0, 12, 16, 16),
             Block.box(0, 0, 0, 14, 16, 16),
-            Block.box(0, 0, 0, 16, 16, 16)};
+            Block.box(0, 0.1, 0, 16, 16, 16)};
 
     public static final VoxelShape[] SHAPE_SOUTH = new VoxelShape[]{Shapes.empty(),
             Block.box(0, 0, 0, 16, 16, 2),
@@ -63,7 +63,7 @@ public class VerticalSlabLayerBlock extends Block implements SimpleWaterloggedBl
             Block.box(0, 0, 0, 16, 16, 10),
             Block.box(0, 0, 0, 16, 16, 12),
             Block.box(0, 0, 0, 16, 16, 14),
-            Block.box(0, 0, 0, 16, 16, 16)};
+            Block.box(0, 0.1, 0, 16, 16, 16)};
 
     public static final VoxelShape[] SHAPE_WEST = new VoxelShape[]{Shapes.empty(),
             Block.box(14, 0, 0, 16, 16, 16),
@@ -73,7 +73,7 @@ public class VerticalSlabLayerBlock extends Block implements SimpleWaterloggedBl
             Block.box(6, 0, 0, 16, 16, 16),
             Block.box(4, 0, 0, 16, 16, 16),
             Block.box(2, 0, 0, 16, 16, 16),
-            Block.box(0, 0, 0, 16, 16, 16)};
+            Block.box(0, 0.1, 0, 16, 16, 16)};
 
     public VerticalSlabLayerBlock(Properties properties) {
         super(properties);

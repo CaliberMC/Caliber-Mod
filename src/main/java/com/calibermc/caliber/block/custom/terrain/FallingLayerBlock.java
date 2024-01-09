@@ -36,7 +36,7 @@ public class FallingLayerBlock extends FallingBlock implements SimpleWaterlogged
             Block.box(0.0D, 0.0D, 0.0D, 16.0D, 10.0D, 16.0D),
             Block.box(0.0D, 0.0D, 0.0D, 16.0D, 12.0D, 16.0D),
             Block.box(0.0D, 0.0D, 0.0D, 16.0D, 14.0D, 16.0D),
-            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D)};
+            Block.box(0.0D, 0.1D, 0.0D, 16.0D, 16.0D, 16.0D)};
 
     public FallingLayerBlock(Properties properties) {
         super(properties);

@@ -40,25 +40,25 @@ public class VerticalQuarterLayerBlock extends Block implements SimpleWaterlogge
             Block.box(12, 0, 12, 16, 16, 16),
             Block.box(8, 0, 8, 16, 16, 16),
             Block.box(4, 0, 4, 16, 16, 16),
-            Block.box(0, 0, 0, 16, 16, 16)};
+            Block.box(0, 0.1, 0, 16, 16, 16)};
     public static final VoxelShape[] LEFT_EAST_RIGHT_NORTH = new VoxelShape[]{Shapes.empty(),
             Block.box(0, 0, 14, 2, 16, 16),
             Block.box(0, 0, 12, 4, 16, 16),
             Block.box(0, 0, 8, 8, 16, 16),
             Block.box(0, 0, 4, 12, 16, 16),
-            Block.box(0, 0, 0, 16, 16, 16)};
+            Block.box(0, 0.1, 0, 16, 16, 16)};
     public static final VoxelShape[] LEFT_SOUTH_RIGHT_EAST = new VoxelShape[]{Shapes.empty(),
             Block.box(0, 0, 0, 2, 16, 2),
             Block.box(0, 0, 0, 4, 16, 4),
             Block.box(0, 0, 0, 8, 16, 8),
             Block.box(0, 0, 0, 12, 16, 12),
-            Block.box(0, 0, 0, 16, 16, 16)};
+            Block.box(0, 0.1, 0, 16, 16, 16)};
     public static final VoxelShape[] LEFT_WEST_RIGHT_SOUTH = new VoxelShape[]{Shapes.empty(),
             Block.box(14, 0, 0, 16, 16, 2),
             Block.box(12, 0, 0, 16, 16, 4),
             Block.box(8, 0, 0, 16, 16, 8),
             Block.box(4, 0, 0, 16, 16, 12),
-            Block.box(0, 0, 0, 16, 16, 16)};
+            Block.box(0, 0.1, 0, 16, 16, 16)};
 
     public VerticalQuarterLayerBlock(Properties properties) {
         super(properties);

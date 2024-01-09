@@ -32,8 +32,8 @@ public class Roof22Block extends Block implements SimpleWaterloggedBlock {
     public static final EnumProperty<Half> HALF = BlockStateProperties.HALF;
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
-    protected static final VoxelShape BOTTOM_SHAPE = Block.box(0, 0, 0, 16, 8, 16);
-    protected static final VoxelShape TOP_SHAPE = Block.box(0, .01, 0, 16, 16, 16);
+    protected static final VoxelShape BOTTOM_SHAPE = Block.box(0, 0.01, 0, 16, 8, 16);
+    protected static final VoxelShape TOP_SHAPE = Block.box(0, 0.01, 0, 16, 16, 16);
     public Roof22Block(Properties properties) {
         super(properties);
         this.registerDefaultState(this.stateDefinition.any()

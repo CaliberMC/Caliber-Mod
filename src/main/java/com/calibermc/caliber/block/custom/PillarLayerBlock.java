@@ -40,7 +40,7 @@ public class PillarLayerBlock extends Block implements SimpleWaterloggedBlock {
             Block.box(6, 0, 6, 10, 16, 10),
             Block.box(4, 0, 4, 12, 16, 12),
             Block.box(2, 0, 2, 14, 16, 14),
-            Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D)};
+            Block.box(0, 0.1, 0, 16, 16, 16)};
 
     public PillarLayerBlock(Properties properties) {
         super(properties);

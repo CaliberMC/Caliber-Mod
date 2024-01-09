@@ -315,7 +315,8 @@ _ Added all Terracotta Roof variants
 - Bugfix: fixed all wooden variants not breaking quickly with axe
 - Bugfix: fixed some stone type variants not breaking quickly with pickaxe
 - Bugfix: removed wooden wall shaped recipes to avoid conflicts with vanilla recipes (wooden walls can still be crafted in the woodcutter)
-
+- Bugfix: fixed hitbox appearing in wrong place for Quarter Blocks with a single layer facing
+- Bugfix: adjusted hitboxes for Layered Blocks to Reduce Ambient Occlusion issues.
 
 
 

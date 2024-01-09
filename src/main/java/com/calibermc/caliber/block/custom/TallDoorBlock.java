@@ -2,7 +2,7 @@ package com.calibermc.caliber.block.custom;
 
 import com.calibermc.caliber.block.shapes.doors.TallDoorPart;
 import com.calibermc.caliber.util.ModBlockStateProperties;
-import com.calibermc.caliber.util.compat.DoubleDoorsOpening;
+import com.calibermc.caliber.util.compat.ModCompats;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.server.level.ServerLevel;
@@ -352,7 +352,7 @@ public class TallDoorBlock extends Block implements SimpleWaterloggedBlock{
         }
 
         public static void openDoubleDoors(Level world, BlockState state, BlockPos pos) {
-            if (DoubleDoorsOpening.DOUBLE_DOORS || DoubleDoorsOpening.MANYIDEAS_DOORS) {
+            if (ModCompats.DOUBLE_DOORS || ModCompats.MANYIDEAS_DOORS) {
                 Direction direction = state.getValue(TallDoorBlock.FACING);
                 boolean isOpen = state.getValue(TallDoorBlock.OPEN);
                 DoorHingeSide isMirrored = state.getValue(TallDoorBlock.HINGE);
