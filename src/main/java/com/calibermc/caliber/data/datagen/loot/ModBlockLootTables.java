@@ -1,13 +1,17 @@
 package com.calibermc.caliber.data.datagen.loot;
 
+import com.calibermc.caliber.block.custom.TallDoorBlock;
 import com.calibermc.caliber.block.management.BlockManager;
 import com.calibermc.caliber.block.ModBlocks;
+import com.calibermc.caliber.block.shapes.doors.TallDoorPart;
 import com.calibermc.caliber.item.ModItems;
 import com.mojang.datafixers.util.Pair;
 import net.minecraft.data.loot.BlockLoot;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.DoorBlock;
+import net.minecraft.world.level.block.state.properties.DoubleBlockHalf;
 import net.minecraft.world.level.storage.loot.LootTable;
 import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraftforge.registries.RegistryObject;
@@ -24,6 +28,7 @@ public class ModBlockLootTables extends BlockLoot {
         metalsAndOres();
         terrainBlocks();
         plasterBlocks();
+        plankBlocks();
         stainedPlanks();
 
         for (BlockManager blockManager : BlockManager.BLOCK_MANAGERS) {
@@ -95,37 +100,118 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.WHITE_PLASTER_POWDER.get());
     }
 
+    public void plankBlocks() {
+        this.add(ModBlocks.TALL_ACACIA_DOOR.get(), (block) ->
+                createSinglePropConditionTable(ModBlocks.TALL_ACACIA_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+        this.add(ModBlocks.TALL_BIRCH_DOOR.get(), (block) ->
+                createSinglePropConditionTable(ModBlocks.TALL_BIRCH_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+        this.add(ModBlocks.TALL_DARK_OAK_DOOR.get(), (block) ->
+                createSinglePropConditionTable(ModBlocks.TALL_DARK_OAK_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+        this.add(ModBlocks.TALL_JUNGLE_DOOR.get(), (block) ->
+                createSinglePropConditionTable(ModBlocks.TALL_JUNGLE_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+        this.add(ModBlocks.TALL_OAK_DOOR.get(), (block) ->
+                createSinglePropConditionTable(ModBlocks.TALL_OAK_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+        this.add(ModBlocks.TALL_SPRUCE_DOOR.get(), (block) ->
+                createSinglePropConditionTable(ModBlocks.TALL_SPRUCE_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+        this.add(ModBlocks.TALL_CRIMSON_DOOR.get(), (block) ->
+                createSinglePropConditionTable(ModBlocks.TALL_CRIMSON_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+        this.add(ModBlocks.TALL_WARPED_DOOR.get(), (block) ->
+                createSinglePropConditionTable(ModBlocks.TALL_WARPED_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+//        createSinglePropConditionTable(ModBlocks.TALL_ACACIA_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM);
+//        createSinglePropConditionTable(ModBlocks.TALL_BIRCH_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM);
+//        createSinglePropConditionTable(ModBlocks.TALL_DARK_OAK_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM);
+//        createSinglePropConditionTable(ModBlocks.TALL_JUNGLE_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM);
+//        createSinglePropConditionTable(ModBlocks.TALL_OAK_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM);
+//        createSinglePropConditionTable(ModBlocks.TALL_SPRUCE_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM);
+//        createSinglePropConditionTable(ModBlocks.TALL_CRIMSON_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM);
+//        createSinglePropConditionTable(ModBlocks.TALL_WARPED_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM);
+
+//        this.dropSelf(ModBlocks.TALL_ACACIA_DOOR.get());
+//        this.dropSelf(ModBlocks.TALL_BIRCH_DOOR.get());
+//        this.dropSelf(ModBlocks.TALL_DARK_OAK_DOOR.get());
+//        this.dropSelf(ModBlocks.TALL_JUNGLE_DOOR.get());
+//        this.dropSelf(ModBlocks.TALL_OAK_DOOR.get());
+//        this.dropSelf(ModBlocks.TALL_SPRUCE_DOOR.get());
+//        this.dropSelf(ModBlocks.TALL_CRIMSON_DOOR.get());
+//        this.dropSelf(ModBlocks.TALL_WARPED_DOOR.get());
+    }
+
+
     private void stainedPlanks() {
         this.dropSelf(ModBlocks.STAINED_ACACIA_BUTTON.get());
-        this.dropSelf(ModBlocks.STAINED_ACACIA_DOOR.get());
+//        this.dropSelf(ModBlocks.STAINED_ACACIA_DOOR.get());
         this.dropSelf(ModBlocks.STAINED_ACACIA_SIGN.get());
         this.dropSelf(ModBlocks.STAINED_ACACIA_TRAPDOOR.get());
         this.dropSelf(ModBlocks.STAINED_ACACIA_WALL_SIGN.get());
         this.dropSelf(ModBlocks.STAINED_BIRCH_BUTTON.get());
-        this.dropSelf(ModBlocks.STAINED_BIRCH_DOOR.get());
+//        this.dropSelf(ModBlocks.STAINED_BIRCH_DOOR.get());
         this.dropSelf(ModBlocks.STAINED_BIRCH_SIGN.get());
         this.dropSelf(ModBlocks.STAINED_BIRCH_TRAPDOOR.get());
         this.dropSelf(ModBlocks.STAINED_BIRCH_WALL_SIGN.get());
         this.dropSelf(ModBlocks.STAINED_DARK_OAK_BUTTON.get());
-        this.dropSelf(ModBlocks.STAINED_DARK_OAK_DOOR.get());
+//        this.dropSelf(ModBlocks.STAINED_DARK_OAK_DOOR.get());
         this.dropSelf(ModBlocks.STAINED_DARK_OAK_SIGN.get());
         this.dropSelf(ModBlocks.STAINED_DARK_OAK_TRAPDOOR.get());
         this.dropSelf(ModBlocks.STAINED_DARK_OAK_WALL_SIGN.get());
         this.dropSelf(ModBlocks.STAINED_JUNGLE_BUTTON.get());
-        this.dropSelf(ModBlocks.STAINED_JUNGLE_DOOR.get());
+//        this.dropSelf(ModBlocks.STAINED_JUNGLE_DOOR.get());
         this.dropSelf(ModBlocks.STAINED_JUNGLE_SIGN.get());
         this.dropSelf(ModBlocks.STAINED_JUNGLE_TRAPDOOR.get());
         this.dropSelf(ModBlocks.STAINED_JUNGLE_WALL_SIGN.get());
         this.dropSelf(ModBlocks.STAINED_OAK_BUTTON.get());
-        this.dropSelf(ModBlocks.STAINED_OAK_DOOR.get());
+//        this.dropSelf(ModBlocks.STAINED_OAK_DOOR.get());
         this.dropSelf(ModBlocks.STAINED_OAK_SIGN.get());
         this.dropSelf(ModBlocks.STAINED_OAK_TRAPDOOR.get());
         this.dropSelf(ModBlocks.STAINED_OAK_WALL_SIGN.get());
         this.dropSelf(ModBlocks.STAINED_SPRUCE_BUTTON.get());
-        this.dropSelf(ModBlocks.STAINED_SPRUCE_DOOR.get());
+//        this.dropSelf(ModBlocks.STAINED_SPRUCE_DOOR.get());
         this.dropSelf(ModBlocks.STAINED_SPRUCE_SIGN.get());
         this.dropSelf(ModBlocks.STAINED_SPRUCE_TRAPDOOR.get());
         this.dropSelf(ModBlocks.STAINED_SPRUCE_WALL_SIGN.get());
+//        createSinglePropConditionTable(ModBlocks.STAINED_ACACIA_DOOR.get(), DoorBlock.HALF, DoubleBlockHalf.LOWER);
+//        createSinglePropConditionTable(ModBlocks.STAINED_BIRCH_DOOR.get(), DoorBlock.HALF, DoubleBlockHalf.LOWER);
+//        createSinglePropConditionTable(ModBlocks.STAINED_DARK_OAK_DOOR.get(), DoorBlock.HALF, DoubleBlockHalf.LOWER);
+//        createSinglePropConditionTable(ModBlocks.STAINED_JUNGLE_DOOR.get(), DoorBlock.HALF, DoubleBlockHalf.LOWER);
+//        createSinglePropConditionTable(ModBlocks.STAINED_OAK_DOOR.get(), DoorBlock.HALF, DoubleBlockHalf.LOWER);
+//        createSinglePropConditionTable(ModBlocks.STAINED_SPRUCE_DOOR.get(), DoorBlock.HALF, DoubleBlockHalf.LOWER);
+        this.add(ModBlocks.STAINED_ACACIA_DOOR.get(), (block) ->
+                createSinglePropConditionTable(ModBlocks.STAINED_ACACIA_DOOR.get(), DoorBlock.HALF, DoubleBlockHalf.LOWER));
+        this.add(ModBlocks.STAINED_BIRCH_DOOR.get(), (block) ->
+                createSinglePropConditionTable(ModBlocks.TALL_STAINED_ACACIA_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+        this.add(ModBlocks.STAINED_DARK_OAK_DOOR.get(), (block) ->
+                createSinglePropConditionTable(ModBlocks.STAINED_DARK_OAK_DOOR.get(), DoorBlock.HALF, DoubleBlockHalf.LOWER));
+        this.add(ModBlocks.STAINED_JUNGLE_DOOR.get(), (block) ->
+                createSinglePropConditionTable(ModBlocks.STAINED_JUNGLE_DOOR.get(), DoorBlock.HALF, DoubleBlockHalf.LOWER));
+        this.add(ModBlocks.STAINED_OAK_DOOR.get(), (block) ->
+                createSinglePropConditionTable(ModBlocks.STAINED_OAK_DOOR.get(), DoorBlock.HALF, DoubleBlockHalf.LOWER));
+        this.add(ModBlocks.STAINED_SPRUCE_DOOR.get(), (block) ->
+                createSinglePropConditionTable(ModBlocks.STAINED_SPRUCE_DOOR.get(), DoorBlock.HALF, DoubleBlockHalf.LOWER));
+
+        this.add(ModBlocks.TALL_STAINED_ACACIA_DOOR.get(), (block) ->
+                createSinglePropConditionTable(ModBlocks.TALL_STAINED_ACACIA_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+        this.add(ModBlocks.TALL_STAINED_BIRCH_DOOR.get(), (block) ->
+                createSinglePropConditionTable(ModBlocks.TALL_STAINED_BIRCH_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+        this.add(ModBlocks.TALL_STAINED_DARK_OAK_DOOR.get(), (block) ->
+                createSinglePropConditionTable(ModBlocks.TALL_STAINED_DARK_OAK_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+        this.add(ModBlocks.TALL_STAINED_JUNGLE_DOOR.get(), (block) ->
+                createSinglePropConditionTable(ModBlocks.TALL_STAINED_JUNGLE_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+        this.add(ModBlocks.TALL_STAINED_OAK_DOOR.get(), (block) ->
+                createSinglePropConditionTable(ModBlocks.TALL_STAINED_OAK_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+        this.add(ModBlocks.TALL_STAINED_SPRUCE_DOOR.get(), (block) ->
+                createSinglePropConditionTable(ModBlocks.TALL_STAINED_SPRUCE_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+
+//        createSinglePropConditionTable(ModBlocks.STAINED_ACACIA_DOOR.get(), DoorBlock.HALF, DoubleBlockHalf.LOWER);
+//        createSinglePropConditionTable(ModBlocks.TALL_STAINED_BIRCH_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM);
+//        createSinglePropConditionTable(ModBlocks.TALL_STAINED_DARK_OAK_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM);
+//        createSinglePropConditionTable(ModBlocks.TALL_STAINED_JUNGLE_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM);
+//        createSinglePropConditionTable(ModBlocks.TALL_STAINED_OAK_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM);
+//        createSinglePropConditionTable(ModBlocks.TALL_STAINED_SPRUCE_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM);
+//        this.dropSelf(ModBlocks.TALL_STAINED_ACACIA_DOOR.get());
+//        this.dropSelf(ModBlocks.TALL_STAINED_BIRCH_DOOR.get());
+//        this.dropSelf(ModBlocks.TALL_STAINED_DARK_OAK_DOOR.get());
+//        this.dropSelf(ModBlocks.TALL_STAINED_JUNGLE_DOOR.get());
+//        this.dropSelf(ModBlocks.TALL_STAINED_OAK_DOOR.get());
+//        this.dropSelf(ModBlocks.TALL_STAINED_SPRUCE_DOOR.get());
     }
 
     @Override

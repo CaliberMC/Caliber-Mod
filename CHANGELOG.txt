@@ -306,11 +306,15 @@ _ Added all Terracotta Roof variants
 - Bugfix: fixed Sandstone, Red Sandstone, Smooth Sandstone and Quartz Block Pickers showing Black Marble Variants
 
 -0.1.2 (in progress)
+- Added a total of 14 new blocks!
+- Current Mod Block Count is at 5,820
+- Renamed Nethrite Block Variants to Netherite_VARIANT
 - Added Tall Doors for Acacia, Birch, Dark Oak, Jungle, Oak, Spruce, Crimson, Warped and their Stained counterparts
+- Bugfix: fixed Stained Doors dropping two doors when broken
 - Bugfix: fixed resin not dropping from spruce leaves
 - Bugfix: fixed all wooden variants not breaking quickly with axe
 - Bugfix: fixed some stone type variants not breaking quickly with pickaxe
-- Bugfix: removed wooden wall shaped recipes to avoid conflicts with vanilla recipes
+- Bugfix: removed wooden wall shaped recipes to avoid conflicts with vanilla recipes (wooden walls can still be crafted in the woodcutter)
 
 
 

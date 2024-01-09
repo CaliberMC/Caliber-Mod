@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "caliber:tall_birch_door"
+    },
+    {
+      "item": "caliber:resin"
+    }
+  ],
+  "result": {
+    "item": "caliber:tall_stained_birch_door"
+  }
+}

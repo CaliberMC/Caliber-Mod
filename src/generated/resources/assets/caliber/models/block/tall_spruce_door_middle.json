@@ -1,0 +1,6 @@
+{
+  "parent": "caliber:block/templates/door_middle",
+  "textures": {
+    "middle": "caliber:block/tall_spruce_door_middle"
+  }
+}

@@ -6,6 +6,18 @@
     "caliber:stained_birch_door",
     "caliber:stained_jungle_door",
     "caliber:stained_acacia_door",
-    "caliber:stained_dark_oak_door"
+    "caliber:stained_dark_oak_door",
+    "caliber:tall_acacia_door",
+    "caliber:tall_birch_door",
+    "caliber:tall_dark_oak_door",
+    "caliber:tall_jungle_door",
+    "caliber:tall_oak_door",
+    "caliber:tall_spruce_door",
+    "caliber:tall_stained_acacia_door",
+    "caliber:tall_stained_birch_door",
+    "caliber:tall_stained_dark_oak_door",
+    "caliber:tall_stained_jungle_door",
+    "caliber:tall_stained_oak_door",
+    "caliber:tall_stained_spruce_door"
   ]
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "caliber:block/templates/door_top",
+  "textures": {
+    "top": "caliber:block/tall_warped_door_top"
+  }
+}

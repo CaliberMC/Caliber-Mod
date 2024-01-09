@@ -136,7 +136,7 @@ public class ModItemModelProvider extends ItemModelProvider {
                     }
 
                     try {
-                        if (block instanceof DoorBlock || block instanceof StandingSignBlock) {
+                        if (block instanceof DoorBlock || block instanceof StandingSignBlock || block instanceof TallDoorBlock) {
                             withExistingParent(blockName, new ResourceLocation("item/generated"))
                                     .texture("layer0", new ResourceLocation(Caliber.MOD_ID,"item/" + parentName));
                         }

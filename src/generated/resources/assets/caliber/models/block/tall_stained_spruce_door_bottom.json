@@ -1,0 +1,6 @@
+{
+  "parent": "caliber:block/templates/door_bottom",
+  "textures": {
+    "bottom": "caliber:block/tall_stained_spruce_door_bottom"
+  }
+}

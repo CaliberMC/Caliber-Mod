@@ -261,6 +261,11 @@ public class ModBlockFamily {
             return this;
         }
 
+        public Builder tallDoor(Block pTallDoorBlock) {
+            this.family.variants.put(Variant.TALL_DOOR, pTallDoorBlock);
+            return this;
+        }
+
         public Builder pressurePlate(Block pPressurePlateBlock) {
             this.family.variants.put(Variant.PRESSURE_PLATE, pPressurePlateBlock);
             return this;
@@ -355,6 +360,7 @@ public class ModBlockFamily {
         STAIRS("stairs"),
         PRESSURE_PLATE("pressure_plate"),
         POLISHED("polished"),
+        TALL_DOOR("tall_door"),
         TRAPDOOR("trapdoor"),
         WALL("wall"),
         WALL_SIGN("wall_sign"),

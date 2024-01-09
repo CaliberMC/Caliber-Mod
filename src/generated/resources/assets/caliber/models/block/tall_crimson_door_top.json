@@ -1,0 +1,6 @@
+{
+  "parent": "caliber:block/templates/door_top",
+  "textures": {
+    "top": "caliber:block/tall_crimson_door_top"
+  }
+}

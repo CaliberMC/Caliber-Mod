@@ -55,7 +55,7 @@ public class Caliber {
         ModNetworking.registerMessages();
         CreativeTabs.setupCreativeTabs();
         ModBlocks.printBlockCounts();
-        ModItems.printItemCounts();
+//        ModItems.printItemCounts();
 //        ModRecipeProvider.printRecipeCounts();
         BuildifyBlockPicker.init();
     }

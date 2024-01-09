@@ -1,6 +1,7 @@
 package com.calibermc.caliber.util;
 
 import com.calibermc.caliber.block.shapes.*;
+import com.calibermc.caliber.block.shapes.doors.TallDoorPart;
 import com.calibermc.caliber.block.shapes.trim.ArchTrim;
 import com.calibermc.caliber.block.shapes.trim.LargeArchTrim;
 import net.minecraft.core.Direction;
@@ -38,6 +39,7 @@ public class ModBlockStateProperties {
     public static final EnumProperty<ArchTrim> ARCH_TRIM = EnumProperty.create("trim", ArchTrim.class);
     public static final EnumProperty<LargeArchTrim> LARGE_ARCH_TRIM = EnumProperty.create("trim", LargeArchTrim.class);
     public static final EnumProperty<RoofPitch> ROOF_PITCH = EnumProperty.create("pitch", RoofPitch.class);
+    public static final EnumProperty<TallDoorPart> TALL_DOOR_PART = EnumProperty.create("part", TallDoorPart.class);
 
     public static boolean isSide(Direction direction) {
         return direction == Direction.NORTH || direction == Direction.EAST || direction == Direction.SOUTH || direction == Direction.WEST;

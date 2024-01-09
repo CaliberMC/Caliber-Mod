@@ -488,6 +488,7 @@ public class ModBlockFamilies {
             .pressurePlate(Blocks.ACACIA_PRESSURE_PLATE)
             .button(Blocks.ACACIA_BUTTON)
             .sign(Blocks.ACACIA_SIGN, Blocks.ACACIA_WALL_SIGN)
+            .tallDoor(ModBlocks.TALL_ACACIA_DOOR.get())
             .getFamily();
     public static final ModBlockFamily BIRCH_PLANKS = familyBuilder(Blocks.BIRCH_PLANKS)
             .fromManager(ModBlocks.BIRCH)
@@ -499,6 +500,7 @@ public class ModBlockFamilies {
             .pressurePlate(Blocks.BIRCH_PRESSURE_PLATE)
             .button(Blocks.BIRCH_BUTTON)
             .sign(Blocks.BIRCH_SIGN, Blocks.BIRCH_WALL_SIGN)
+            .tallDoor(ModBlocks.TALL_BIRCH_DOOR.get())
             .getFamily();
     public static final ModBlockFamily DARK_OAK_PLANKS = familyBuilder(Blocks.DARK_OAK_PLANKS)
             .fromManager(ModBlocks.DARK_OAK)
@@ -510,6 +512,7 @@ public class ModBlockFamilies {
             .pressurePlate(Blocks.DARK_OAK_PRESSURE_PLATE)
             .button(Blocks.DARK_OAK_BUTTON)
             .sign(Blocks.DARK_OAK_SIGN, Blocks.DARK_OAK_WALL_SIGN)
+            .tallDoor(ModBlocks.TALL_DARK_OAK_DOOR.get())
             .getFamily();
     public static final ModBlockFamily JUNGLE_PLANKS = familyBuilder(Blocks.JUNGLE_PLANKS)
             .fromManager(ModBlocks.JUNGLE)
@@ -521,6 +524,7 @@ public class ModBlockFamilies {
             .pressurePlate(Blocks.JUNGLE_PRESSURE_PLATE)
             .button(Blocks.JUNGLE_BUTTON)
             .sign(Blocks.JUNGLE_SIGN, Blocks.JUNGLE_WALL_SIGN)
+            .tallDoor(ModBlocks.TALL_JUNGLE_DOOR.get())
             .getFamily();
     public static final ModBlockFamily OAK_PLANKS = familyBuilder(Blocks.OAK_PLANKS)
             .fromManager(ModBlocks.OAK)
@@ -532,6 +536,7 @@ public class ModBlockFamilies {
             .pressurePlate(Blocks.OAK_PRESSURE_PLATE)
             .button(Blocks.OAK_BUTTON)
             .sign(Blocks.OAK_SIGN, Blocks.OAK_WALL_SIGN)
+            .tallDoor(ModBlocks.TALL_OAK_DOOR.get())
             .getFamily();
     public static final ModBlockFamily SPRUCE_PLANKS = familyBuilder(Blocks.SPRUCE_PLANKS)
             .fromManager(ModBlocks.SPRUCE)
@@ -543,6 +548,7 @@ public class ModBlockFamilies {
             .pressurePlate(Blocks.SPRUCE_PRESSURE_PLATE)
             .button(Blocks.SPRUCE_BUTTON)
             .sign(Blocks.SPRUCE_SIGN, Blocks.SPRUCE_WALL_SIGN)
+            .tallDoor(ModBlocks.TALL_SPRUCE_DOOR.get())
             .getFamily();
     public static final ModBlockFamily CRIMSON_PLANKS = familyBuilder(Blocks.CRIMSON_PLANKS)
             .fromManager(ModBlocks.CRIMSON)
@@ -599,6 +605,7 @@ public class ModBlockFamilies {
             .button(ModBlocks.STAINED_ACACIA_BUTTON.get())
             .door(ModBlocks.STAINED_ACACIA_DOOR.get())
             .sign(ModBlocks.STAINED_ACACIA_SIGN.get(), ModBlocks.STAINED_ACACIA_WALL_SIGN.get())
+            .tallDoor(ModBlocks.TALL_STAINED_ACACIA_DOOR.get())
             .trapdoor(ModBlocks.STAINED_ACACIA_TRAPDOOR.get())
             .getFamily();
     public static final ModBlockFamily STAINED_BIRCH_PLANKS = familyBuilder(ModBlocks.STAINED_BIRCH.baseBlock())
@@ -606,6 +613,7 @@ public class ModBlockFamilies {
             .button(ModBlocks.STAINED_BIRCH_BUTTON.get())
             .door(ModBlocks.STAINED_BIRCH_DOOR.get())
             .sign(ModBlocks.STAINED_BIRCH_SIGN.get(), ModBlocks.STAINED_BIRCH_WALL_SIGN.get())
+            .tallDoor(ModBlocks.TALL_STAINED_BIRCH_DOOR.get())
             .trapdoor(ModBlocks.STAINED_BIRCH_TRAPDOOR.get())
             .getFamily();
     public static final ModBlockFamily STAINED_DARK_OAK_PLANKS = familyBuilder(ModBlocks.STAINED_DARK_OAK.baseBlock())
@@ -613,6 +621,7 @@ public class ModBlockFamilies {
             .button(ModBlocks.STAINED_DARK_OAK_BUTTON.get())
             .door(ModBlocks.STAINED_DARK_OAK_DOOR.get())
             .sign(ModBlocks.STAINED_DARK_OAK_SIGN.get(), ModBlocks.STAINED_DARK_OAK_WALL_SIGN.get())
+            .tallDoor(ModBlocks.TALL_STAINED_DARK_OAK_DOOR.get())
             .trapdoor(ModBlocks.STAINED_DARK_OAK_TRAPDOOR.get())
             .getFamily();
     public static final ModBlockFamily STAINED_JUNGLE_PLANKS = familyBuilder(ModBlocks.STAINED_JUNGLE.baseBlock())
@@ -620,6 +629,7 @@ public class ModBlockFamilies {
             .button(ModBlocks.STAINED_JUNGLE_BUTTON.get())
             .door(ModBlocks.STAINED_JUNGLE_DOOR.get())
             .sign(ModBlocks.STAINED_JUNGLE_SIGN.get(), ModBlocks.STAINED_JUNGLE_WALL_SIGN.get())
+            .tallDoor(ModBlocks.TALL_STAINED_JUNGLE_DOOR.get())
             .trapdoor(ModBlocks.STAINED_JUNGLE_TRAPDOOR.get())
             .getFamily();
     public static final ModBlockFamily STAINED_OAK_PLANKS = familyBuilder(ModBlocks.STAINED_OAK.baseBlock())
@@ -627,6 +637,7 @@ public class ModBlockFamilies {
             .button(ModBlocks.STAINED_OAK_BUTTON.get())
             .door(ModBlocks.STAINED_OAK_DOOR.get())
             .sign(ModBlocks.STAINED_OAK_SIGN.get(), ModBlocks.STAINED_OAK_WALL_SIGN.get())
+            .tallDoor(ModBlocks.TALL_STAINED_OAK_DOOR.get())
             .trapdoor(ModBlocks.STAINED_OAK_TRAPDOOR.get())
             .getFamily();
     public static final ModBlockFamily STAINED_SPRUCE_PLANKS = familyBuilder(ModBlocks.STAINED_SPRUCE.baseBlock())
@@ -634,6 +645,7 @@ public class ModBlockFamilies {
             .button(ModBlocks.STAINED_SPRUCE_BUTTON.get())
             .door(ModBlocks.STAINED_SPRUCE_DOOR.get())
             .sign(ModBlocks.STAINED_SPRUCE_SIGN.get(), ModBlocks.STAINED_SPRUCE_WALL_SIGN.get())
+            .tallDoor(ModBlocks.TALL_STAINED_SPRUCE_DOOR.get())
             .trapdoor(ModBlocks.STAINED_SPRUCE_TRAPDOOR.get())
             .getFamily();
 

@@ -5,6 +5,7 @@ import com.calibermc.caliber.block.custom.*;
 import com.calibermc.caliber.block.management.BlockManager;
 import com.calibermc.caliber.block.ModBlocks;
 import com.calibermc.caliber.block.shapes.*;
+import com.calibermc.caliber.block.shapes.doors.TallDoorPart;
 import com.calibermc.caliber.block.shapes.trim.ArchTrim;
 import com.calibermc.caliber.block.shapes.trim.LargeArchTrim;
 import com.calibermc.caliber.data.ModBlockFamily;
@@ -13,6 +14,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.*;
+import net.minecraft.world.level.block.state.properties.DoorHingeSide;
 import net.minecraft.world.level.block.state.properties.Half;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ModelFile;
@@ -41,6 +43,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         terrainBlocks();
         metalBlocks();
         plasterBlocks();
+        plankBlocks();
         stainedPlanks();
         for (BlockManager blockManager : BlockManager.BLOCK_MANAGERS) {
             BlockManager.BlockAdditional base = blockManager.getByVariant(ModBlockFamily.Variant.BASE);
@@ -88,8 +91,18 @@ public class ModBlockStateProvider extends BlockStateProvider {
         simpleBlock(ModBlocks.WHITE_PLASTER_POWDER.get());
     }
 
+    private void plankBlocks() {
+        tallDoorBlock((TallDoorBlock) ModBlocks.TALL_ACACIA_DOOR.get(), modLoc("block/tall_acacia_door_bottom"), modLoc("block/tall_acacia_door_middle"), modLoc("block/tall_acacia_door_top"));
+        tallDoorBlock((TallDoorBlock) ModBlocks.TALL_BIRCH_DOOR.get(), modLoc("block/tall_birch_door_bottom"), modLoc("block/tall_birch_door_middle"), modLoc("block/tall_birch_door_top"));
+        tallDoorBlock((TallDoorBlock) ModBlocks.TALL_DARK_OAK_DOOR.get(), modLoc("block/tall_dark_oak_door_bottom"), modLoc("block/tall_dark_oak_door_middle"), modLoc("block/tall_dark_oak_door_top"));
+        tallDoorBlock((TallDoorBlock) ModBlocks.TALL_JUNGLE_DOOR.get(), modLoc("block/tall_jungle_door_bottom"), modLoc("block/tall_jungle_door_middle"), modLoc("block/tall_jungle_door_top"));
+        tallDoorBlock((TallDoorBlock) ModBlocks.TALL_OAK_DOOR.get(), modLoc("block/tall_oak_door_bottom"), modLoc("block/tall_oak_door_middle"), modLoc("block/tall_oak_door_top"));
+        tallDoorBlock((TallDoorBlock) ModBlocks.TALL_SPRUCE_DOOR.get(), modLoc("block/tall_spruce_door_bottom"), modLoc("block/tall_spruce_door_middle"), modLoc("block/tall_spruce_door_top"));
+        tallDoorBlock((TallDoorBlock) ModBlocks.TALL_CRIMSON_DOOR.get(), modLoc("block/tall_crimson_door_bottom"), modLoc("block/tall_crimson_door_middle"), modLoc("block/tall_crimson_door_top"));
+        tallDoorBlock((TallDoorBlock) ModBlocks.TALL_WARPED_DOOR.get(), modLoc("block/tall_warped_door_bottom"), modLoc("block/tall_warped_door_middle"), modLoc("block/tall_warped_door_top"));
+    }
+
     private void stainedPlanks(){
-        
         models().buttonInventory("stained_acacia_button_inventory", blockTexture(ModBlocks.STAINED_ACACIA.baseBlock()));
         models().buttonInventory("stained_birch_button_inventory", blockTexture(ModBlocks.STAINED_BIRCH.baseBlock()));
         models().buttonInventory("stained_dark_oak_button_inventory", blockTexture(ModBlocks.STAINED_DARK_OAK.baseBlock()));
@@ -120,6 +133,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
         trapdoorBlock((TrapDoorBlock) ModBlocks.STAINED_JUNGLE_TRAPDOOR.get(), modLoc("block/stained_jungle_trapdoor"), true);
         trapdoorBlock((TrapDoorBlock) ModBlocks.STAINED_OAK_TRAPDOOR.get(), modLoc("block/stained_oak_trapdoor"), true);
         trapdoorBlock((TrapDoorBlock) ModBlocks.STAINED_SPRUCE_TRAPDOOR.get(), modLoc("block/stained_spruce_trapdoor"), true);
+        tallDoorBlock((TallDoorBlock) ModBlocks.TALL_STAINED_ACACIA_DOOR.get(), modLoc("block/tall_stained_acacia_door_bottom"), modLoc("block/tall_stained_acacia_door_middle"), modLoc("block/tall_stained_acacia_door_top"));
+        tallDoorBlock((TallDoorBlock) ModBlocks.TALL_STAINED_BIRCH_DOOR.get(), modLoc("block/tall_stained_birch_door_bottom"), modLoc("block/tall_stained_birch_door_middle"), modLoc("block/tall_stained_birch_door_top"));
+        tallDoorBlock((TallDoorBlock) ModBlocks.TALL_STAINED_DARK_OAK_DOOR.get(), modLoc("block/tall_stained_dark_oak_door_bottom"), modLoc("block/tall_stained_dark_oak_door_middle"), modLoc("block/tall_stained_dark_oak_door_top"));
+        tallDoorBlock((TallDoorBlock) ModBlocks.TALL_STAINED_JUNGLE_DOOR.get(), modLoc("block/tall_stained_jungle_door_bottom"), modLoc("block/tall_stained_jungle_door_middle"), modLoc("block/tall_stained_jungle_door_top"));
+        tallDoorBlock((TallDoorBlock) ModBlocks.TALL_STAINED_OAK_DOOR.get(), modLoc("block/tall_stained_oak_door_bottom"), modLoc("block/tall_stained_oak_door_middle"), modLoc("block/tall_stained_oak_door_top"));
+        tallDoorBlock((TallDoorBlock) ModBlocks.TALL_STAINED_SPRUCE_DOOR.get(), modLoc("block/tall_stained_spruce_door_bottom"), modLoc("block/tall_stained_spruce_door_middle"), modLoc("block/tall_stained_spruce_door_top"));
     }
 
 
@@ -1734,6 +1753,127 @@ public class ModBlockStateProvider extends BlockStateProvider {
                 .modelForState().modelFile(slab_vertical_layer_7).rotationY(270).uvLock(true).addModel()
                 .partialState().with(VerticalSlabLayerBlock.FACING, Direction.WEST).with(VerticalSlabLayerBlock.LAYERS, 8)
                 .modelForState().modelFile(full_block).addModel();
+    }
+    
+    public void tallDoorBlock(TallDoorBlock block) {
+        tallDoorBlock(block, blockTexture(block));
+    }
+    
+    public void tallDoorBlock(TallDoorBlock block, ResourceLocation texture) {
+        tallDoorBlock(block, texture, texture, texture);
+    }
+    
+    public void tallDoorBlock(TallDoorBlock block, ResourceLocation bottom, ResourceLocation middle, ResourceLocation top) {
+        ModelFile tall_door_bottom = models().withExistingParent(name(block) + "_bottom", modLoc("block/templates/door_bottom"))
+                .texture("bottom", bottom),
+                tall_door_bottom_hinge = models().withExistingParent(name(block) + "_bottom_hinge", modLoc("block/templates/door_bottom_rh"))
+                        .texture("bottom", bottom),
+                tall_door_middle = models().withExistingParent(name(block) + "_middle", modLoc("block/templates/door_middle"))
+                        .texture("middle", middle),
+                tall_door_middle_hinge = models().withExistingParent(name(block) + "_middle_hinge", modLoc("block/templates/door_middle_rh"))
+                        .texture("middle", middle),
+                tall_door_top = models().withExistingParent(name(block) + "_top", modLoc("block/templates/door_top"))
+                        .texture("top", top),
+                tall_door_top_hinge = models().withExistingParent(name(block) + "_top_hinge", modLoc("block/templates/door_top_rh"))
+                        .texture("top", top);
+
+        getVariantBuilder(block)
+                .partialState().with(TallDoorBlock.FACING, Direction.NORTH).with(TallDoorBlock.THIRD, TallDoorPart.BOTTOM).with(TallDoorBlock.HINGE, DoorHingeSide.LEFT).with(TallDoorBlock.OPEN, false)
+                .modelForState().modelFile(tall_door_bottom).rotationY(270).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.NORTH).with(TallDoorBlock.THIRD, TallDoorPart.BOTTOM).with(TallDoorBlock.HINGE, DoorHingeSide.RIGHT).with(TallDoorBlock.OPEN, false)
+                .modelForState().modelFile(tall_door_bottom_hinge).rotationY(270).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.NORTH).with(TallDoorBlock.THIRD, TallDoorPart.BOTTOM).with(TallDoorBlock.HINGE, DoorHingeSide.LEFT).with(TallDoorBlock.OPEN, true)
+                .modelForState().modelFile(tall_door_bottom_hinge).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.NORTH).with(TallDoorBlock.THIRD, TallDoorPart.BOTTOM).with(TallDoorBlock.HINGE, DoorHingeSide.RIGHT).with(TallDoorBlock.OPEN, true)
+                .modelForState().modelFile(tall_door_bottom).rotationY(180).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.NORTH).with(TallDoorBlock.THIRD, TallDoorPart.MIDDLE).with(TallDoorBlock.HINGE, DoorHingeSide.LEFT).with(TallDoorBlock.OPEN, false)
+                .modelForState().modelFile(tall_door_middle).rotationY(270).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.NORTH).with(TallDoorBlock.THIRD, TallDoorPart.MIDDLE).with(TallDoorBlock.HINGE, DoorHingeSide.RIGHT).with(TallDoorBlock.OPEN, false)
+                .modelForState().modelFile(tall_door_middle_hinge).rotationY(270).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.NORTH).with(TallDoorBlock.THIRD, TallDoorPart.MIDDLE).with(TallDoorBlock.HINGE, DoorHingeSide.LEFT).with(TallDoorBlock.OPEN, true)
+                .modelForState().modelFile(tall_door_middle_hinge).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.NORTH).with(TallDoorBlock.THIRD, TallDoorPart.MIDDLE).with(TallDoorBlock.HINGE, DoorHingeSide.RIGHT).with(TallDoorBlock.OPEN, true)
+                .modelForState().modelFile(tall_door_middle).rotationY(180).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.NORTH).with(TallDoorBlock.THIRD, TallDoorPart.TOP).with(TallDoorBlock.HINGE, DoorHingeSide.LEFT).with(TallDoorBlock.OPEN, false)
+                .modelForState().modelFile(tall_door_top).rotationY(270).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.NORTH).with(TallDoorBlock.THIRD, TallDoorPart.TOP).with(TallDoorBlock.HINGE, DoorHingeSide.RIGHT).with(TallDoorBlock.OPEN, false)
+                .modelForState().modelFile(tall_door_top_hinge).rotationY(270).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.NORTH).with(TallDoorBlock.THIRD, TallDoorPart.TOP).with(TallDoorBlock.HINGE, DoorHingeSide.LEFT).with(TallDoorBlock.OPEN, true)
+                .modelForState().modelFile(tall_door_top_hinge).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.NORTH).with(TallDoorBlock.THIRD, TallDoorPart.TOP).with(TallDoorBlock.HINGE, DoorHingeSide.RIGHT).with(TallDoorBlock.OPEN, true)
+                .modelForState().modelFile(tall_door_top).rotationY(180).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.EAST).with(TallDoorBlock.THIRD, TallDoorPart.BOTTOM).with(TallDoorBlock.HINGE, DoorHingeSide.LEFT).with(TallDoorBlock.OPEN, false)
+                .modelForState().modelFile(tall_door_bottom).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.EAST).with(TallDoorBlock.THIRD, TallDoorPart.BOTTOM).with(TallDoorBlock.HINGE, DoorHingeSide.RIGHT).with(TallDoorBlock.OPEN, false)
+                .modelForState().modelFile(tall_door_bottom_hinge).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.EAST).with(TallDoorBlock.THIRD, TallDoorPart.BOTTOM).with(TallDoorBlock.HINGE, DoorHingeSide.LEFT).with(TallDoorBlock.OPEN, true)
+                .modelForState().modelFile(tall_door_bottom_hinge).rotationY(90).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.EAST).with(TallDoorBlock.THIRD, TallDoorPart.BOTTOM).with(TallDoorBlock.HINGE, DoorHingeSide.RIGHT).with(TallDoorBlock.OPEN, true)
+                .modelForState().modelFile(tall_door_bottom).rotationY(270).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.EAST).with(TallDoorBlock.THIRD, TallDoorPart.MIDDLE).with(TallDoorBlock.HINGE, DoorHingeSide.LEFT).with(TallDoorBlock.OPEN, false)
+                .modelForState().modelFile(tall_door_middle).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.EAST).with(TallDoorBlock.THIRD, TallDoorPart.MIDDLE).with(TallDoorBlock.HINGE, DoorHingeSide.RIGHT).with(TallDoorBlock.OPEN, false)
+                .modelForState().modelFile(tall_door_middle_hinge).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.EAST).with(TallDoorBlock.THIRD, TallDoorPart.MIDDLE).with(TallDoorBlock.HINGE, DoorHingeSide.LEFT).with(TallDoorBlock.OPEN, true)
+                .modelForState().modelFile(tall_door_middle_hinge).rotationY(90).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.EAST).with(TallDoorBlock.THIRD, TallDoorPart.MIDDLE).with(TallDoorBlock.HINGE, DoorHingeSide.RIGHT).with(TallDoorBlock.OPEN, true)
+                .modelForState().modelFile(tall_door_middle).rotationY(270).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.EAST).with(TallDoorBlock.THIRD, TallDoorPart.TOP).with(TallDoorBlock.HINGE, DoorHingeSide.LEFT).with(TallDoorBlock.OPEN, false)
+                .modelForState().modelFile(tall_door_top).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.EAST).with(TallDoorBlock.THIRD, TallDoorPart.TOP).with(TallDoorBlock.HINGE, DoorHingeSide.RIGHT).with(TallDoorBlock.OPEN, false)
+                .modelForState().modelFile(tall_door_top_hinge).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.EAST).with(TallDoorBlock.THIRD, TallDoorPart.TOP).with(TallDoorBlock.HINGE, DoorHingeSide.LEFT).with(TallDoorBlock.OPEN, true)
+                .modelForState().modelFile(tall_door_top_hinge).rotationY(90).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.EAST).with(TallDoorBlock.THIRD, TallDoorPart.TOP).with(TallDoorBlock.HINGE, DoorHingeSide.RIGHT).with(TallDoorBlock.OPEN, true)
+                .modelForState().modelFile(tall_door_top).rotationY(270).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.SOUTH).with(TallDoorBlock.THIRD, TallDoorPart.BOTTOM).with(TallDoorBlock.HINGE, DoorHingeSide.LEFT).with(TallDoorBlock.OPEN, false)
+                .modelForState().modelFile(tall_door_bottom).rotationY(90).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.SOUTH).with(TallDoorBlock.THIRD, TallDoorPart.BOTTOM).with(TallDoorBlock.HINGE, DoorHingeSide.RIGHT).with(TallDoorBlock.OPEN, false)
+                .modelForState().modelFile(tall_door_bottom_hinge).rotationY(90).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.SOUTH).with(TallDoorBlock.THIRD, TallDoorPart.BOTTOM).with(TallDoorBlock.HINGE, DoorHingeSide.LEFT).with(TallDoorBlock.OPEN, true)
+                .modelForState().modelFile(tall_door_bottom_hinge).rotationY(180).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.SOUTH).with(TallDoorBlock.THIRD, TallDoorPart.BOTTOM).with(TallDoorBlock.HINGE, DoorHingeSide.RIGHT).with(TallDoorBlock.OPEN, true)
+                .modelForState().modelFile(tall_door_bottom).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.SOUTH).with(TallDoorBlock.THIRD, TallDoorPart.MIDDLE).with(TallDoorBlock.HINGE, DoorHingeSide.LEFT).with(TallDoorBlock.OPEN, false)
+                .modelForState().modelFile(tall_door_middle).rotationY(90).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.SOUTH).with(TallDoorBlock.THIRD, TallDoorPart.MIDDLE).with(TallDoorBlock.HINGE, DoorHingeSide.RIGHT).with(TallDoorBlock.OPEN, false)
+                .modelForState().modelFile(tall_door_middle_hinge).rotationY(90).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.SOUTH).with(TallDoorBlock.THIRD, TallDoorPart.MIDDLE).with(TallDoorBlock.HINGE, DoorHingeSide.LEFT).with(TallDoorBlock.OPEN, true)
+                .modelForState().modelFile(tall_door_middle_hinge).rotationY(180).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.SOUTH).with(TallDoorBlock.THIRD, TallDoorPart.MIDDLE).with(TallDoorBlock.HINGE, DoorHingeSide.RIGHT).with(TallDoorBlock.OPEN, true)
+                .modelForState().modelFile(tall_door_middle).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.SOUTH).with(TallDoorBlock.THIRD, TallDoorPart.TOP).with(TallDoorBlock.HINGE, DoorHingeSide.LEFT).with(TallDoorBlock.OPEN, false)
+                .modelForState().modelFile(tall_door_top).rotationY(90).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.SOUTH).with(TallDoorBlock.THIRD, TallDoorPart.TOP).with(TallDoorBlock.HINGE, DoorHingeSide.RIGHT).with(TallDoorBlock.OPEN, false)
+                .modelForState().modelFile(tall_door_top_hinge).rotationY(90).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.SOUTH).with(TallDoorBlock.THIRD, TallDoorPart.TOP).with(TallDoorBlock.HINGE, DoorHingeSide.LEFT).with(TallDoorBlock.OPEN, true)
+                .modelForState().modelFile(tall_door_top_hinge).rotationY(180).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.SOUTH).with(TallDoorBlock.THIRD, TallDoorPart.TOP).with(TallDoorBlock.HINGE, DoorHingeSide.RIGHT).with(TallDoorBlock.OPEN, true)
+                .modelForState().modelFile(tall_door_top).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.WEST).with(TallDoorBlock.THIRD, TallDoorPart.BOTTOM).with(TallDoorBlock.HINGE, DoorHingeSide.LEFT).with(TallDoorBlock.OPEN, false)
+                .modelForState().modelFile(tall_door_bottom).rotationY(180).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.WEST).with(TallDoorBlock.THIRD, TallDoorPart.BOTTOM).with(TallDoorBlock.HINGE, DoorHingeSide.RIGHT).with(TallDoorBlock.OPEN, false)
+                .modelForState().modelFile(tall_door_bottom_hinge).rotationY(180).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.WEST).with(TallDoorBlock.THIRD, TallDoorPart.BOTTOM).with(TallDoorBlock.HINGE, DoorHingeSide.LEFT).with(TallDoorBlock.OPEN, true)
+                .modelForState().modelFile(tall_door_bottom_hinge).rotationY(270).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.WEST).with(TallDoorBlock.THIRD, TallDoorPart.BOTTOM).with(TallDoorBlock.HINGE, DoorHingeSide.RIGHT).with(TallDoorBlock.OPEN, true)
+                .modelForState().modelFile(tall_door_bottom).rotationY(90).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.WEST).with(TallDoorBlock.THIRD, TallDoorPart.MIDDLE).with(TallDoorBlock.HINGE, DoorHingeSide.LEFT).with(TallDoorBlock.OPEN, false)
+                .modelForState().modelFile(tall_door_middle).rotationY(180).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.WEST).with(TallDoorBlock.THIRD, TallDoorPart.MIDDLE).with(TallDoorBlock.HINGE, DoorHingeSide.RIGHT).with(TallDoorBlock.OPEN, false)
+                .modelForState().modelFile(tall_door_middle_hinge).rotationY(180).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.WEST).with(TallDoorBlock.THIRD, TallDoorPart.MIDDLE).with(TallDoorBlock.HINGE, DoorHingeSide.LEFT).with(TallDoorBlock.OPEN, true)
+                .modelForState().modelFile(tall_door_middle_hinge).rotationY(270).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.WEST).with(TallDoorBlock.THIRD, TallDoorPart.MIDDLE).with(TallDoorBlock.HINGE, DoorHingeSide.RIGHT).with(TallDoorBlock.OPEN, true)
+                .modelForState().modelFile(tall_door_middle).rotationY(90).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.WEST).with(TallDoorBlock.THIRD, TallDoorPart.TOP).with(TallDoorBlock.HINGE, DoorHingeSide.LEFT).with(TallDoorBlock.OPEN, false)
+                .modelForState().modelFile(tall_door_top).rotationY(180).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.WEST).with(TallDoorBlock.THIRD, TallDoorPart.TOP).with(TallDoorBlock.HINGE, DoorHingeSide.RIGHT).with(TallDoorBlock.OPEN, false)
+                .modelForState().modelFile(tall_door_top_hinge).rotationY(180).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.WEST).with(TallDoorBlock.THIRD, TallDoorPart.TOP).with(TallDoorBlock.HINGE, DoorHingeSide.LEFT).with(TallDoorBlock.OPEN, true)
+                .modelForState().modelFile(tall_door_top_hinge).rotationY(270).addModel()
+                .partialState().with(TallDoorBlock.FACING, Direction.WEST).with(TallDoorBlock.THIRD, TallDoorPart.TOP).with(TallDoorBlock.HINGE, DoorHingeSide.RIGHT).with(TallDoorBlock.OPEN, true)
+                .modelForState().modelFile(tall_door_top).rotationY(90).addModel();
     }
 
     public void windowBlock(WindowBlock block) {

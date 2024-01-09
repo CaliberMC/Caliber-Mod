@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "caliber:netherite_slab"
+  },
+  "result": "caliber:netherite_slab_vertical",
+  "count": 1
+}

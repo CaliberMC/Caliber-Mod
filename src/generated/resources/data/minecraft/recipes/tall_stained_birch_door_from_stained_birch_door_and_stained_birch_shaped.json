@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "#"
+  ],
+  "key": {
+    "X": {
+      "item": "caliber:stained_birch_door"
+    },
+    "#": {
+      "item": "caliber:stained_birch_planks"
+    }
+  },
+  "result": {
+    "item": "caliber:tall_stained_birch_door"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "caliber:block/templates/door_top",
+  "textures": {
+    "top": "caliber:block/tall_stained_oak_door_top"
+  }
+}
