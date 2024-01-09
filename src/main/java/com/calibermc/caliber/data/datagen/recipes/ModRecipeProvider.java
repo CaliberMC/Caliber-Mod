@@ -187,8 +187,10 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
                 }
                 case WALL -> {
-                    ShapedRecipeBuilder.shaped(manager.get(ModBlockFamily.Variant.WALL), 6).define('#', baseBlock).pattern("###").pattern("###").unlockedBy(criterionBy,
-                            inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, "%s_from_%s_shaped".formatted(path, name));
+                    if (block.defaultBlockState().getMaterial() != Material.WOOD) {
+                        ShapedRecipeBuilder.shaped(manager.get(ModBlockFamily.Variant.WALL), 6).define('#', baseBlock).pattern("###").pattern("###").unlockedBy(criterionBy,
+                                inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, "%s_from_%s_shaped".formatted(path, name));
+                    }
 
                     stoneOrWoodcutting.apply(Ingredient.of(baseBlock), block, 1).unlockedBy(criterionBy,
                             inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, n);

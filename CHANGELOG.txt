@@ -293,7 +293,7 @@ _ Added all Terracotta Roof variants
 - While this is a beta release, it is still very much a work in progress.  The mod is stable with no known bugs at this point. There are still many blocks to add and some bugs may still exist.
 - Added finishing touches on the recipe generation system (this will ensure that now recipes are missed in future updates)
 
--0.1.1 (in progress)
+-0.1.1
 - Added a total of 29 new blocks!
 - Current Mod Block Count is at 5,806
 - Added Mossy Thatch Variants
@@ -305,7 +305,12 @@ _ Added all Terracotta Roof variants
 - Bugfix: fixed lighting/shading on 67 degree roof blocks
 - Bugfix: fixed Sandstone, Red Sandstone, Smooth Sandstone and Quartz Block Pickers showing Black Marble Variants
 
-
+-0.1.2 (in progress)
+- Added Tall Doors for Acacia, Birch, Dark Oak, Jungle, Oak, Spruce, Crimson, Warped and their Stained counterparts
+- Bugfix: fixed resin not dropping from spruce leaves
+- Bugfix: fixed all wooden variants not breaking quickly with axe
+- Bugfix: fixed some stone type variants not breaking quickly with pickaxe
+- Bugfix: removed wooden wall shaped recipes to avoid conflicts with vanilla recipes
 
 
 
