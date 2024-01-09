@@ -2,6 +2,7 @@ package com.calibermc.caliber.event;
 
 import com.calibermc.caliber.Caliber;
 import com.calibermc.caliber.event.loot.GrassStemsFromGrassModifier;
+import com.calibermc.caliber.event.loot.ResinFromSpruceLeavesModifier;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.common.loot.GlobalLootModifierSerializer;
 import net.minecraftforge.event.RegistryEvent;
@@ -17,7 +18,9 @@ public class ModEventBusEvents {
     public static void registerModifierSerializers(@Nonnull final RegistryEvent.Register<GlobalLootModifierSerializer<?>> event) {
         event.getRegistry().registerAll(
                 new GrassStemsFromGrassModifier.Serializer().setRegistryName
-                        (new ResourceLocation(Caliber.MOD_ID, "grass_stems_from_grass"))
+                        (new ResourceLocation(Caliber.MOD_ID, "grass_stems_from_grass")),
+                new ResinFromSpruceLeavesModifier.Serializer().setRegistryName
+                        (new ResourceLocation(Caliber.MOD_ID, "resin_from_spruce_leaves"))
         );
     }
 }
