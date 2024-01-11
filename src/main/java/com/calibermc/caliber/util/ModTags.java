@@ -1,6 +1,7 @@
 package com.calibermc.caliber.util;
 
 import com.calibermc.caliber.Caliber;
+import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
@@ -13,6 +14,8 @@ public class ModTags {
 
 
     public static class Blocks {
+        public static final TagKey<Block> tallWoodenDoors = tag("tall_wooden_doors");
+
         /* Shapes */
         public static final TagKey<Block> arches = tag("shapes/arches");
         public static final TagKey<Block> arrowslits = tag("shapes/arrowslits");

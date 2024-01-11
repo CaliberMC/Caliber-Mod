@@ -2,6 +2,9 @@
 	"credit": "Made by Charm8er for CaliberMC",
 	"parent": "caliber:block/templates/caliber_block_no_occlusion",
 	"ambientocclusion": false,
+	"textures": {
+		"particle": "#side"
+	},
 	"elements": [
 		{
 			"name": "top",
@@ -61,11 +64,11 @@
 		},
 		{
 			"name": "ns2",
-			"from": [6.01088, 8, 0],
+			"from": [6.01088, 8, -0.01562],
 			"to": [9.98912, 10, 16.4375],
 			"rotation": {"angle": 45, "axis": "z", "origin": [8, 0, 8]},
 			"faces": {
-				"north": {"uv": [12.02175, 14, 15.99999, 16], "texture": "#side"},
+				"north": {"uv": [0, 9, 3.97824, 11], "texture": "#side"},
 				"east": {"uv": [0, 14, 16, 16], "texture": "#side"},
 				"south": {"uv": [0.02175, 9, 3.99999, 11], "texture": "#side"},
 				"west": {"uv": [0, 14, 16, 16], "texture": "#side"},
@@ -75,11 +78,11 @@
 		},
 		{
 			"name": "ns3",
-			"from": [6.01088, 8, 0],
+			"from": [6.01088, 8, -0.01562],
 			"to": [9.98912, 10, 16.48437],
 			"rotation": {"angle": 22.5, "axis": "z", "origin": [8, 0, 8]},
 			"faces": {
-				"north": {"uv": [12.02175, 14, 15.99999, 16], "texture": "#side", "cullface": "north"},
+				"north": {"uv": [3.02175, 10, 6.99999, 12], "texture": "#side", "cullface": "north"},
 				"east": {"uv": [0, 14, 16, 16], "texture": "#side"},
 				"south": {"uv": [3.02175, 10, 6.99999, 12], "texture": "#side", "cullface": "south"},
 				"west": {"uv": [0, 14, 16, 16], "texture": "#side"},
@@ -89,7 +92,7 @@
 		},
 		{
 			"name": "ns4",
-			"from": [6.01088, 7.98438, 0],
+			"from": [6.01088, 7.98438, -0.01562],
 			"to": [9.98912, 9.98438, 16.5],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
 			"faces": {
@@ -117,11 +120,11 @@
 		},
 		{
 			"name": "ns5",
-			"from": [6.01088, 8, 0],
+			"from": [6.01088, 8, -0.01562],
 			"to": [9.98912, 10, 16.48437],
 			"rotation": {"angle": -22.5, "axis": "z", "origin": [8, 0, 8]},
 			"faces": {
-				"north": {"uv": [12.02175, 14, 15.99999, 16], "texture": "#side", "cullface": "north"},
+				"north": {"uv": [1.02175, 3, 4.99999, 5], "texture": "#side", "cullface": "north"},
 				"east": {"uv": [0, 14, 16, 16], "texture": "#side"},
 				"south": {"uv": [1.02175, 3, 4.99999, 5], "texture": "#side", "cullface": "south"},
 				"west": {"uv": [0, 14, 16, 16], "texture": "#side"},
@@ -131,11 +134,11 @@
 		},
 		{
 			"name": "ns6",
-			"from": [6.01088, 8, 0],
+			"from": [6.01088, 8, -0.01562],
 			"to": [9.98912, 10, 16.4375],
 			"rotation": {"angle": -45, "axis": "z", "origin": [8, 0, 8]},
 			"faces": {
-				"north": {"uv": [12.02175, 14, 15.99999, 16], "texture": "#side"},
+				"north": {"uv": [3.02175, 11.5, 6.99999, 13.5], "texture": "#side"},
 				"east": {"uv": [0, 14, 16, 16], "texture": "#side"},
 				"south": {"uv": [3.02175, 11.5, 6.99999, 13.5], "texture": "#side"},
 				"west": {"uv": [0, 14, 16, 16], "texture": "#side"},
@@ -158,6 +161,37 @@
 			}
 		}
 	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 225, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
 	"groups": [
 		{
 			"name": "VoxelShapes",

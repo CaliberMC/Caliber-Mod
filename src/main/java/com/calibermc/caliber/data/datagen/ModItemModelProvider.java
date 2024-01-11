@@ -42,6 +42,10 @@ public class ModItemModelProvider extends ItemModelProvider {
                 String blockName = e.getValue().getFirst().getPath();
                 String parentName = blockName;
 
+                if (variant.equals(ModBlockFamily.Variant.ARCH)) {
+                    parentName += "_trim_2";
+                }
+
                 if (variant.equals(ModBlockFamily.Variant.CORNER)
                         || variant.equals(ModBlockFamily.Variant.PILLAR)
                         || variant.equals(ModBlockFamily.Variant.QUARTER)
@@ -91,6 +95,10 @@ public class ModItemModelProvider extends ItemModelProvider {
                 .forEach(block -> {
                     String blockName = block.getRegistryName().getPath();
                     String parentName = blockName;
+
+                    if (block instanceof ArchBlock) {
+                        parentName += "_trim_2";
+                    }
 
 
                     if (block instanceof CornerLayerBlock

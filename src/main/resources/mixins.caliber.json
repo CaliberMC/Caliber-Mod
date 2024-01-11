@@ -7,8 +7,12 @@
   "client": [
   ],
   "mixins": [
-    "BlockItemMixin"
-
+    "BlockItemMixin",
+    "DoorBlockMixin",
+    "FenceGateBlockMixin",
+    "LandPathNodeMakerMixin",
+    "OpenDoorsTaskMixin",
+    "DoorInteractGoalMixin"
   ],
   "injectors": {
     "defaultRequire": 1
