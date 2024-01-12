@@ -1,6 +1,9 @@
 package com.calibermc.caliber.mixin;
 
 import com.calibermc.caliber.client.inventory.SortingButton;
+import com.calibermc.caliber.config.CaliberClientConfigs;
+import com.calibermc.caliber.config.CaliberCommonConfigs;
+import com.calibermc.caliber.world.gen.ModOreGeneration;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen;
@@ -44,30 +47,31 @@ public abstract class AbstractContainerScreenMixin<T extends AbstractContainerMe
 
     @Inject(method = "init", at = @At("RETURN"))
     public void mixin$init(CallbackInfo ci) {
-        AbstractContainerScreen<?> screen = (AbstractContainerScreen<?>) (Object) this;
-        int x = this.leftPos + this.imageWidth - 5;
-        for (int i = 0; i < 2; i++) {
-            boolean playerOnly = this.menu instanceof InventoryMenu || screen instanceof CreativeModeInventoryScreen;
-            boolean isChestMenu = this.menu instanceof ChestMenu;
-            boolean alphabet = i == 0;
-            x -= 13;
-            this.buildify$sortingButtonList.add(this.addRenderableWidget(new SortingButton(screen, x, this.topPos + (playerOnly ? (imageHeight - 98) : 6), playerOnly, alphabet))); // player only
-            if (!playerOnly) {
-                int y = 0;
-                if (!this.menu.slots.isEmpty()) {
-                    y = this.menu.getSlot(this.menu.slots.size() - 36).y - 13;
+        boolean displaySortingButtons = CaliberClientConfigs.DISPLAY_SORTING_BUTTONS.get();
+        if (displaySortingButtons) {
+            AbstractContainerScreen<?> screen = (AbstractContainerScreen<?>) (Object) this;
+            int x = this.leftPos + this.imageWidth - 5;
+            for (int i = 0; i < 2; i++) {
+                boolean playerOnly = this.menu instanceof InventoryMenu || screen instanceof CreativeModeInventoryScreen;
+                boolean isChestMenu = this.menu instanceof ChestMenu;
+                boolean alphabet = i == 0;
+                x -= 13;
+                this.buildify$sortingButtonList.add(this.addRenderableWidget(new SortingButton(screen, x, this.topPos + (playerOnly ? (imageHeight - 98) : 6), playerOnly, alphabet))); // player only
+                if (!playerOnly) {
+                    int y = 0;
+                    if (!this.menu.slots.isEmpty()) {
+                        y = this.menu.getSlot(this.menu.slots.size() - 36).y - 13;
+                    }
+
+                    this.buildify$sortingButtonList.add(this.addRenderableWidget(new SortingButton(screen, x, this.topPos + y, true, alphabet)));
                 }
-
-                this.buildify$sortingButtonList.add(this.addRenderableWidget(new SortingButton(screen, x, this.topPos + y, true, alphabet)));
+            }
+            if (screen instanceof CreativeModeInventoryScreen s) {
+                for (SortingButton button : this.buildify$sortingButtonList) {
+                    button.visible = s.getSelectedTab() == CreativeModeTab.TAB_INVENTORY.getId();
+                }
             }
         }
-        if (screen instanceof CreativeModeInventoryScreen s) {
-            for (SortingButton button : this.buildify$sortingButtonList) {
-                button.visible = s.getSelectedTab() == CreativeModeTab.TAB_INVENTORY.getId();
-            }
-        }
-
-
     }
 
     @Inject(method = "render", at = @At("HEAD"))

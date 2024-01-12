@@ -6,6 +6,7 @@ public class CaliberCommonConfigs {
     public static final ForgeConfigSpec.Builder BUILDER = new ForgeConfigSpec.Builder();
     public static final ForgeConfigSpec SPEC;
 
+
     public static final ForgeConfigSpec.BooleanValue WORLD_GEN_ORES;
     public static final ForgeConfigSpec.ConfigValue<Integer> TIN_VEINS_PER_CHUNK;
     public static final ForgeConfigSpec.ConfigValue<Integer> TIN_VEIN_SIZE;
