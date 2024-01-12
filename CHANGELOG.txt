@@ -308,6 +308,7 @@ _ Added all Terracotta Roof variants
 -0.1.2 (in progress)
 - Added a total of 14 new blocks!
 - Current Mod Block Count is at 5,820
+- Added Inventory Sorting Feature
 - Renamed Nethrite Block Variants to Netherite_VARIANT
 - Added Tall Doors for Acacia, Birch, Dark Oak, Jungle, Oak, Spruce, Crimson, Warped and their Stained counterparts
 - Adjusted texture placement on Arch Block trim
