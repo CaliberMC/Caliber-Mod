@@ -305,7 +305,7 @@ _ Added all Terracotta Roof variants
 - Bugfix: fixed lighting/shading on 67 degree roof blocks
 - Bugfix: fixed Sandstone, Red Sandstone, Smooth Sandstone and Quartz Block Pickers showing Black Marble Variants
 
--0.1.2 (in progress)
+-0.1.2
 - Added a total of 14 new blocks!
 - Current Mod Block Count is at 5,820
 - Added Inventory Sorting Feature
@@ -320,6 +320,9 @@ _ Added all Terracotta Roof variants
 - Bugfix: removed wooden wall shaped recipes to avoid conflicts with vanilla recipes (wooden walls can still be crafted in the woodcutter)
 - Bugfix: fixed hitbox appearing in wrong place for Quarter Blocks with a single layer facing
 - Bugfix: adjusted hitboxes for Layered Blocks to Reduce Ambient Occlusion issues
+
+-0.1.3 (in progress)
+-
 
 
 
