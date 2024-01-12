@@ -60,6 +60,6 @@ Caliber Mod aims to add more block variations from the natural world into Minecr
 modId="buildify"
 mandatory=true
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
-versionRange="[0.1.0-1.18.2, 0.2.0-1.18.2]"
+versionRange="[0.1.2-1.18.2, 0.2.0-1.18.2]"
 ordering="NONE"
 side="BOTH"

@@ -322,7 +322,7 @@ _ Added all Terracotta Roof variants
 - Bugfix: adjusted hitboxes for Layered Blocks to Reduce Ambient Occlusion issues
 
 -0.1.3 (in progress)
--
+- Updated Buildify Dependency Version to 0.1.2+
 
 
 
