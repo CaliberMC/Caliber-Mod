@@ -128,20 +128,20 @@
       "uvlock": true
     },
     "facing=north,trim=both,type=straight": {
-      "model": "caliber:block/black_concrete_arch_trim2"
+      "model": "caliber:block/black_concrete_arch_trim_2"
     },
     "facing=south,trim=both,type=straight": {
-      "model": "caliber:block/black_concrete_arch_trim2",
+      "model": "caliber:block/black_concrete_arch_trim_2",
       "y": 180,
       "uvlock": true
     },
     "facing=west,trim=both,type=straight": {
-      "model": "caliber:block/black_concrete_arch_trim2",
+      "model": "caliber:block/black_concrete_arch_trim_2",
       "y": 270,
       "uvlock": true
     },
     "facing=east,trim=both,type=straight": {
-      "model": "caliber:block/black_concrete_arch_trim2",
+      "model": "caliber:block/black_concrete_arch_trim_2",
       "y": 90,
       "uvlock": true
     },
