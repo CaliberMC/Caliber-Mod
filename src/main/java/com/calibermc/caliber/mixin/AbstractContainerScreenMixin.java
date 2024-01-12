@@ -7,6 +7,7 @@ import net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen;
 import net.minecraft.client.gui.screens.recipebook.RecipeUpdateListener;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.inventory.AbstractContainerMenu;
+import net.minecraft.world.inventory.ChestMenu;
 import net.minecraft.world.inventory.InventoryMenu;
 import net.minecraft.world.item.CreativeModeTab;
 import org.apache.commons.compress.utils.Lists;
@@ -44,16 +45,17 @@ public abstract class AbstractContainerScreenMixin<T extends AbstractContainerMe
     @Inject(method = "init", at = @At("RETURN"))
     public void mixin$init(CallbackInfo ci) {
         AbstractContainerScreen<?> screen = (AbstractContainerScreen<?>) (Object) this;
-        int x = this.leftPos + this.imageWidth - 10;
+        int x = this.leftPos + this.imageWidth - 5;
         for (int i = 0; i < 2; i++) {
             boolean playerOnly = this.menu instanceof InventoryMenu || screen instanceof CreativeModeInventoryScreen;
+            boolean isChestMenu = this.menu instanceof ChestMenu;
             boolean alphabet = i == 0;
             x -= 13;
-            this.buildify$sortingButtonList.add(this.addRenderableWidget(new SortingButton(screen, x, this.topPos + (playerOnly ? (imageHeight - 95) : 6), playerOnly, alphabet)));
+            this.buildify$sortingButtonList.add(this.addRenderableWidget(new SortingButton(screen, x, this.topPos + (playerOnly ? (imageHeight - 98) : 6), playerOnly, alphabet))); // player only
             if (!playerOnly) {
                 int y = 0;
                 if (!this.menu.slots.isEmpty()) {
-                    y = this.menu.getSlot(this.menu.slots.size() - 36).y - 12;
+                    y = this.menu.getSlot(this.menu.slots.size() - 36).y - 13;
                 }
 
                 this.buildify$sortingButtonList.add(this.addRenderableWidget(new SortingButton(screen, x, this.topPos + y, true, alphabet)));
