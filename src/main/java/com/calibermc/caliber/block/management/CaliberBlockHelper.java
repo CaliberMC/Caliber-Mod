@@ -1,30 +1,17 @@
 package com.calibermc.caliber.block.management;
 
 import com.calibermc.caliber.block.custom.*;
-import com.calibermc.caliber.block.shapes.CornerShape;
-import com.calibermc.caliber.block.shapes.VerticalQuarterShape;
-import com.calibermc.caliber.block.shapes.VerticalSlabShape;
-import com.calibermc.caliber.data.ModBlockFamily;
 import com.calibermc.caliber.data.datagen.ModBlockStateProvider;
-import com.calibermc.caliber.util.ModBlockStateProperties;
 import com.google.common.collect.Lists;
-import net.minecraft.core.Direction;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.*;
-import net.minecraft.world.level.block.state.properties.BlockStateProperties;
-import net.minecraftforge.client.model.generators.BlockStateProvider;
-import net.minecraftforge.client.model.generators.ConfiguredModel;
 import net.minecraftforge.client.model.generators.ModelBuilder;
-import net.minecraftforge.client.model.generators.ModelFile;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 import static com.calibermc.caliber.data.ModBlockFamily.Variant;
-import static com.calibermc.caliber.data.ModBlockFamily.Variant.*;
 
 public class CaliberBlockHelper {
 
@@ -51,7 +38,7 @@ public class CaliberBlockHelper {
             Variant.CORNER_SLAB, Variant.CORNER_SLAB_VERTICAL, Variant.EIGHTH, Variant.FENCE, Variant.FENCE_GATE, Variant.PILLAR, Variant.PRESSURE_PLATE,
             Variant.QUARTER, Variant.QUARTER_VERTICAL, Variant.SLAB, Variant.SLAB_VERTICAL, Variant.STAIRS, Variant.WALL, Variant.WINDOW, Variant.WINDOW_HALF);
 
-    public static final List<Variant> PLANK_VARIANTS_WITHOUT_FENCES = Lists.newArrayList(Variant.BALUSTRADE, Variant.CAPITAL, Variant.CORNER,
+    public static final List<Variant> BOARD_VARIANTS = Lists.newArrayList(Variant.BALUSTRADE, Variant.CAPITAL, Variant.CORNER,
             Variant.CORNER_SLAB, Variant.CORNER_SLAB_VERTICAL, Variant.EIGHTH, Variant.PILLAR, Variant.PRESSURE_PLATE,
             Variant.QUARTER, Variant.QUARTER_VERTICAL, Variant.SLAB, Variant.SLAB_VERTICAL, Variant.STAIRS, Variant.WALL, Variant.WINDOW, Variant.WINDOW_HALF);
 

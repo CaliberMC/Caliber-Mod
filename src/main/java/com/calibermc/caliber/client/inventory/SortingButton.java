@@ -4,7 +4,6 @@ import com.calibermc.buildify.networking.ModNetworking;
 import com.calibermc.buildify.networking.ServerUpdateSlots;
 import com.calibermc.caliber.util.InventorySortHelper;
 import com.google.common.collect.Lists;
-import com.mojang.blaze3d.vertex.PoseStack;
 import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
 import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap;
 import net.minecraft.client.Minecraft;

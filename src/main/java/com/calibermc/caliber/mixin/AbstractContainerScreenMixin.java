@@ -53,16 +53,20 @@ public abstract class AbstractContainerScreenMixin<T extends AbstractContainerMe
             int x = this.leftPos + this.imageWidth - 5;
             for (int i = 0; i < 2; i++) {
                 boolean playerOnly = this.menu instanceof InventoryMenu || screen instanceof CreativeModeInventoryScreen;
-                boolean isChestMenu = this.menu instanceof ChestMenu;
                 boolean alphabet = i == 0;
                 x -= 13;
-                this.buildify$sortingButtonList.add(this.addRenderableWidget(new SortingButton(screen, x, this.topPos + (playerOnly ? (imageHeight - 98) : 6), playerOnly, alphabet))); // player only
+                int menuY = this.topPos + (playerOnly ? (this.imageHeight - 98) : 6);
+
+                if (this.menu instanceof ChestMenu) {
+                    menuY -= 1;
+                }
+                this.buildify$sortingButtonList.add(this.addRenderableWidget(new SortingButton(screen, x, menuY, playerOnly, alphabet)));
+
                 if (!playerOnly) {
                     int y = 0;
                     if (!this.menu.slots.isEmpty()) {
                         y = this.menu.getSlot(this.menu.slots.size() - 36).y - 13;
                     }
-
                     this.buildify$sortingButtonList.add(this.addRenderableWidget(new SortingButton(screen, x, this.topPos + y, true, alphabet)));
                 }
             }
