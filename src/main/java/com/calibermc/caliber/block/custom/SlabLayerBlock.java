@@ -79,17 +79,17 @@ public class SlabLayerBlock extends Block implements SimpleWaterloggedBlock {
         }
     }
 
-    public VoxelShape getCollisionShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
-        return SHAPE_BY_LAYER[pState.getValue(LAYERS) - 1];
-    }
-
-    public VoxelShape getBlockSupportShape(BlockState pState, BlockGetter pReader, BlockPos pPos) {
-        return SHAPE_BY_LAYER[pState.getValue(LAYERS)];
-    }
-
-    public VoxelShape getVisualShape(BlockState pState, BlockGetter pReader, BlockPos pPos, CollisionContext pContext) {
-        return SHAPE_BY_LAYER[pState.getValue(LAYERS)];
-    }
+//    public VoxelShape getCollisionShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
+//        return SHAPE_BY_LAYER[pState.getValue(LAYERS)];
+//    }
+//
+//    public VoxelShape getBlockSupportShape(BlockState pState, BlockGetter pReader, BlockPos pPos) {
+//        return SHAPE_BY_LAYER[pState.getValue(LAYERS)];
+//    }
+//
+//    public VoxelShape getVisualShape(BlockState pState, BlockGetter pReader, BlockPos pPos, CollisionContext pContext) {
+//        return SHAPE_BY_LAYER[pState.getValue(LAYERS)];
+//    }
 
     @Nullable
     @Override

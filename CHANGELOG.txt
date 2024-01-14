@@ -327,6 +327,12 @@ _ Added all Terracotta Roof variants
 - Bugfix: fixed issue that was preventing startup of dedicated servers
 - Bugfix: fixed villagers not able to use Tall Doors
 
+-0.1.4
+- Updated translations en_us
+- Bugfix: fixed layered slab block collision shape
+- Bugfix: fixed black/transparent textures on Tall Doors
+- Bugfix: fixed red_sand_layer texture showing as sand
+- Bugfix: fixed slab_layer removing block from inventory on placement of double_slab in Slab Mode
 
 
 

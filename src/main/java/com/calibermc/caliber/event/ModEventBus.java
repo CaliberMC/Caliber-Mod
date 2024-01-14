@@ -40,7 +40,10 @@ public class ModEventBus {
                     if (state.getBlock() instanceof SlabLayerBlock || state.getBlock() instanceof VerticalSlabLayerBlock) {
                         ItemStack stack = event.getPlayer().getItemInHand(event.getHand());
                         slabVal = 8;
-                        stack.shrink(4);
+                        if (!event.getPlayer().isCreative()){
+                            stack.shrink(4);
+                        }
+
                     }
                     state = state.setValue(BlockStateProperties.LAYERS, slabVal);
                     event.getWorld().setBlock(event.getPos(), state, 18);
