@@ -14,7 +14,7 @@ public class ModTags {
 
 
     public static class Blocks {
-        public static final TagKey<Block> tallWoodenDoors = tag("tall_wooden_doors");
+
 
         /* Shapes */
         public static final TagKey<Block> arches = tag("shapes/arches");
@@ -23,6 +23,7 @@ public class ModTags {
         public static final TagKey<Block> horizontalBeams = tag("shapes/horizontal_beams");
         public static final TagKey<Block> lintelBeams = tag("shapes/lintel_beams");
         public static final TagKey<Block> postBeams = tag("shapes/post_beams");
+        public static final TagKey<Block> tallWoodenDoors = tag("shapes/tall_wooden_doors");
         public static final TagKey<Block> verticalBeams = tag("shapes/vertical_beams");
 
         public static final TagKey<Block> capitals = tag("shapes/capitals");

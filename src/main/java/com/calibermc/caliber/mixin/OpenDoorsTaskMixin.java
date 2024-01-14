@@ -39,25 +39,25 @@ public class OpenDoorsTaskMixin
 
 	@Inject(method = "start(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;J)V", at = @At(value = "INVOKE", target = "Lnet/minecraft/world/entity/ai/behavior/InteractWithDoor;closeDoorsThatIHaveOpenedOrPassedThrough(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/level/pathfinder/Node;Lnet/minecraft/world/level/pathfinder/Node;)V", shift = Shift.BEFORE), locals = LocalCapture.CAPTURE_FAILSOFT)
 	private void injectStartP2(ServerLevel world, LivingEntity entity, long time, CallbackInfo ci, Path path, Node node, Node node1) {
-		BlockPos blockPosDD2 = node1.asBlockPos();
-		BlockState blockstateDD2 = world.getBlockState(blockPosDD2);
-		if (blockstateDD2.is(ModTags.Blocks.tallWoodenDoors, (localblockstate) -> {
+		BlockPos blockPos = node1.asBlockPos();
+		BlockState blockstate = world.getBlockState(blockPos);
+		if (blockstate.is(ModTags.Blocks.tallWoodenDoors, (localblockstate) -> {
 			return localblockstate.getBlock() instanceof TallDoorBlock;
 		})) {
-			TallDoorBlock talldoorblock = (TallDoorBlock)blockstateDD2.getBlock();
-			if (!talldoorblock.isOpen(blockstateDD2)) {
-				talldoorblock.setOpen(entity, world, blockstateDD2, blockPosDD2, true);
+			TallDoorBlock talldoorblock = (TallDoorBlock)blockstate.getBlock();
+			if (!talldoorblock.isOpen(blockstate)) {
+				talldoorblock.setOpen(entity, world, blockstate, blockPos, true);
 			}
-			((InteractWithDoor)(Object)this).rememberDoorToClose(world, entity, blockPosDD2);
+			((InteractWithDoor)(Object)this).rememberDoorToClose(world, entity, blockPos);
 		}
 	}
 
 	@Inject(method = "closeDoorsThatIHaveOpenedOrPassedThrough(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/level/pathfinder/Node;Lnet/minecraft/world/level/pathfinder/Node;)V", at = @At(value = "INVOKE", target = "Lnet/minecraft/server/level/ServerLevel;getBlockState(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;"), locals = LocalCapture.CAPTURE_FAILSOFT)
 	private static void injectPathToDoor(ServerLevel world, LivingEntity entity, @Nullable Node lastNode, @Nullable Node currentNode, CallbackInfo ci, Brain<?> brain, Iterator<GlobalPos> iterator, GlobalPos globalPos, BlockPos blockPos) {
-		BlockState blockStateDD = world.getBlockState(blockPos);
-        if (blockStateDD.is(ModTags.Blocks.tallWoodenDoors, state -> state.getBlock() instanceof TallDoorBlock)) {
-        	TallDoorBlock tallDoorBlock = (TallDoorBlock)blockStateDD.getBlock();
-        	tallDoorBlock.setOpen(entity, world, blockStateDD, blockPos, false);
+		BlockState blockState = world.getBlockState(blockPos);
+        if (blockState.is(ModTags.Blocks.tallWoodenDoors, state -> state.getBlock() instanceof TallDoorBlock)) {
+        	TallDoorBlock tallDoorBlock = (TallDoorBlock)blockState.getBlock();
+        	tallDoorBlock.setOpen(entity, world, blockState, blockPos, false);
         }
 	}
 }
