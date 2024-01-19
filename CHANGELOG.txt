@@ -329,8 +329,9 @@ _ Added all Terracotta Roof variants
 
 -0.1.4
 There are some major changes coming to Caliber Mod in the next couple of weeks! The mod is being further split into several parts to allow for the most customizable
-experience for every player. Please be prepared for the changes and watch the changelog before installing the new versions as you will need the other mods to keep
-your current builds intact once the "split" has occured.
+experience for every player. This will only affect versions 1.20+ for now.  The 1.18.2 branch will remain as one mod with Buildify as a dependency.  I have not decided if
+additional World Gen or Custom Biomes will be included in 1.18.2 yet.  Most new blocks that are added to 1.20.1 will also be added to 1.18.2 with the possible exception of
+the newer vanilla minecraft blocks.
     - Caliber Lib: will contain all of my re-useable code and will be the foundation for all of my future mods.
     - Caliber Mod: will contain all of the Vanilla Block variants/shapes
     - Natures Canvas: will contain custom biomes and world generation features along with all variants that are products of the generated environment. (light limestone, black granite, etc)
