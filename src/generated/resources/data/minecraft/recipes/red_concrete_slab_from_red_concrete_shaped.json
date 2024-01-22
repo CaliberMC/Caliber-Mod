@@ -1,15 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:red_concrete"
     }
   },
+  "pattern": [
+    "###"
+  ],
   "result": {
-    "item": "caliber:red_concrete_slab",
-    "count": 24
-  }
+    "count": 24,
+    "item": "caliber:red_concrete_slab"
+  },
+  "show_notification": true
 }

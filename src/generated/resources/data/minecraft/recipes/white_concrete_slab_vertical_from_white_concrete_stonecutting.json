@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 8,
   "ingredient": {
     "item": "minecraft:white_concrete"
   },
-  "result": "caliber:white_concrete_slab_vertical",
-  "count": 8
+  "result": "caliber:white_concrete_slab_vertical"
 }

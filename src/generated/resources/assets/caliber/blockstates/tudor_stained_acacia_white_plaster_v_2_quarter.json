@@ -1,75 +1,40 @@
 {
   "variants": {
-    "facing=north,layers=1,type=top": {
-      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_top_layer_1"
-    },
-    "facing=south,layers=1,type=top": {
-      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_top_layer_1",
-      "y": 180
-    },
-    "facing=west,layers=1,type=top": {
-      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_top_layer_1",
-      "y": 270
+    "facing=east,layers=1,type=bottom": {
+      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_layer_1",
+      "y": 90
     },
     "facing=east,layers=1,type=top": {
       "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_top_layer_1",
       "y": 90
     },
-    "facing=north,layers=2,type=top": {
-      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_top_layer_2"
-    },
-    "facing=south,layers=2,type=top": {
-      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_top_layer_2",
-      "y": 180
-    },
-    "facing=west,layers=2,type=top": {
-      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_top_layer_2",
-      "y": 270
+    "facing=east,layers=2,type=bottom": {
+      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_layer_2",
+      "y": 90
     },
     "facing=east,layers=2,type=top": {
       "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_top_layer_2",
       "y": 90
     },
-    "facing=north,layers=3,type=top": {
-      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_top_layer_3"
-    },
-    "facing=south,layers=3,type=top": {
-      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_top_layer_3",
-      "y": 180
-    },
-    "facing=west,layers=3,type=top": {
-      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_top_layer_3",
-      "y": 270
+    "facing=east,layers=3,type=bottom": {
+      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_layer_3",
+      "y": 90
     },
     "facing=east,layers=3,type=top": {
       "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_top_layer_3",
       "y": 90
     },
-    "facing=north,layers=4,type=top": {
-      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_top_layer_4"
-    },
-    "facing=south,layers=4,type=top": {
-      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_top_layer_4",
-      "y": 180
-    },
-    "facing=west,layers=4,type=top": {
-      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_top_layer_4",
-      "y": 270
+    "facing=east,layers=4,type=bottom": {
+      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_layer_4",
+      "y": 90
     },
     "facing=east,layers=4,type=top": {
       "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_top_layer_4",
       "y": 90
     },
-    "facing=north,layers=5,type=top": {
-      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2"
-    },
-    "facing=south,layers=5,type=top": {
+    "facing=east,layers=5,type=bottom": {
       "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2",
-      "y": 180
-    },
-    "facing=west,layers=5,type=top": {
-      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2",
-      "y": 270
+      "y": 90
     },
     "facing=east,layers=5,type=top": {
       "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2",
@@ -78,77 +43,112 @@
     "facing=north,layers=1,type=bottom": {
       "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_layer_1"
     },
+    "facing=north,layers=1,type=top": {
+      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_top_layer_1"
+    },
+    "facing=north,layers=2,type=bottom": {
+      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_layer_2"
+    },
+    "facing=north,layers=2,type=top": {
+      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_top_layer_2"
+    },
+    "facing=north,layers=3,type=bottom": {
+      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_layer_3"
+    },
+    "facing=north,layers=3,type=top": {
+      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_top_layer_3"
+    },
+    "facing=north,layers=4,type=bottom": {
+      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_layer_4"
+    },
+    "facing=north,layers=4,type=top": {
+      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_top_layer_4"
+    },
+    "facing=north,layers=5,type=bottom": {
+      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2"
+    },
+    "facing=north,layers=5,type=top": {
+      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2"
+    },
     "facing=south,layers=1,type=bottom": {
       "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_layer_1",
+      "y": 180
+    },
+    "facing=south,layers=1,type=top": {
+      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_top_layer_1",
+      "y": 180
+    },
+    "facing=south,layers=2,type=bottom": {
+      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_layer_2",
+      "y": 180
+    },
+    "facing=south,layers=2,type=top": {
+      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_top_layer_2",
+      "y": 180
+    },
+    "facing=south,layers=3,type=bottom": {
+      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_layer_3",
+      "y": 180
+    },
+    "facing=south,layers=3,type=top": {
+      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_top_layer_3",
+      "y": 180
+    },
+    "facing=south,layers=4,type=bottom": {
+      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_layer_4",
+      "y": 180
+    },
+    "facing=south,layers=4,type=top": {
+      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_top_layer_4",
+      "y": 180
+    },
+    "facing=south,layers=5,type=bottom": {
+      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2",
+      "y": 180
+    },
+    "facing=south,layers=5,type=top": {
+      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2",
       "y": 180
     },
     "facing=west,layers=1,type=bottom": {
       "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_layer_1",
       "y": 270
     },
-    "facing=east,layers=1,type=bottom": {
-      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_layer_1",
-      "y": 90
-    },
-    "facing=north,layers=2,type=bottom": {
-      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_layer_2"
-    },
-    "facing=south,layers=2,type=bottom": {
-      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_layer_2",
-      "y": 180
+    "facing=west,layers=1,type=top": {
+      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_top_layer_1",
+      "y": 270
     },
     "facing=west,layers=2,type=bottom": {
       "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_layer_2",
       "y": 270
     },
-    "facing=east,layers=2,type=bottom": {
-      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_layer_2",
-      "y": 90
-    },
-    "facing=north,layers=3,type=bottom": {
-      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_layer_3"
-    },
-    "facing=south,layers=3,type=bottom": {
-      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_layer_3",
-      "y": 180
+    "facing=west,layers=2,type=top": {
+      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_top_layer_2",
+      "y": 270
     },
     "facing=west,layers=3,type=bottom": {
       "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_layer_3",
       "y": 270
     },
-    "facing=east,layers=3,type=bottom": {
-      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_layer_3",
-      "y": 90
-    },
-    "facing=north,layers=4,type=bottom": {
-      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_layer_4"
-    },
-    "facing=south,layers=4,type=bottom": {
-      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_layer_4",
-      "y": 180
+    "facing=west,layers=3,type=top": {
+      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_top_layer_3",
+      "y": 270
     },
     "facing=west,layers=4,type=bottom": {
       "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_layer_4",
       "y": 270
     },
-    "facing=east,layers=4,type=bottom": {
-      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_layer_4",
-      "y": 90
-    },
-    "facing=north,layers=5,type=bottom": {
-      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2"
-    },
-    "facing=south,layers=5,type=bottom": {
-      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2",
-      "y": 180
+    "facing=west,layers=4,type=top": {
+      "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2_quarter_top_layer_4",
+      "y": 270
     },
     "facing=west,layers=5,type=bottom": {
       "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2",
       "y": 270
     },
-    "facing=east,layers=5,type=bottom": {
+    "facing=west,layers=5,type=top": {
       "model": "caliber:block/tudor_stained_acacia_white_plaster_v_2",
-      "y": 90
+      "y": 270
     }
   }
 }

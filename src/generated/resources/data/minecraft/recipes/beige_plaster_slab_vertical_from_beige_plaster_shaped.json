@@ -1,17 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " # ",
-    " # ",
-    " # "
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "caliber:beige_plaster"
     }
   },
+  "pattern": [
+    " # ",
+    " # ",
+    " # "
+  ],
   "result": {
-    "item": "caliber:beige_plaster_slab_vertical",
-    "count": 24
-  }
+    "count": 24,
+    "item": "caliber:beige_plaster_slab_vertical"
+  },
+  "show_notification": true
 }

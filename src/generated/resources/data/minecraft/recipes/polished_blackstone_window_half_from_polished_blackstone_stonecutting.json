@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "minecraft:polished_blackstone"
   },
-  "result": "caliber:polished_blackstone_window_half",
-  "count": 2
+  "result": "caliber:polished_blackstone_window_half"
 }

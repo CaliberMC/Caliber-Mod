@@ -1,8 +1,8 @@
 {
   "type": "caliber:woodcutting",
+  "count": 2,
   "ingredient": {
     "item": "caliber:mossy_dark_oak_planks"
   },
-  "result": "caliber:mossy_dark_oak_window_half",
-  "count": 2
+  "result": "caliber:mossy_dark_oak_window_half"
 }

@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 1,
   "ingredient": {
     "item": "caliber:pink_terracotta_slab_vertical"
   },
-  "result": "caliber:pink_terracotta_slab",
-  "count": 1
+  "result": "caliber:pink_terracotta_slab"
 }

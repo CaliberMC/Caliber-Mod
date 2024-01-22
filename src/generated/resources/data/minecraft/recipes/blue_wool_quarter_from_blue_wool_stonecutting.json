@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 5,
   "ingredient": {
     "item": "minecraft:blue_wool"
   },
-  "result": "caliber:blue_wool_quarter",
-  "count": 5
+  "result": "caliber:blue_wool_quarter"
 }

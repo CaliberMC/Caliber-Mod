@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "minecraft:magenta_concrete"
   },
-  "result": "caliber:magenta_concrete_window_half",
-  "count": 2
+  "result": "caliber:magenta_concrete_window_half"
 }

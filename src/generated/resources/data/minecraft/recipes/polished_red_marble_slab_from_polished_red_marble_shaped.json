@@ -1,15 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "caliber:polished_red_marble"
     }
   },
+  "pattern": [
+    "###"
+  ],
   "result": {
-    "item": "caliber:polished_red_marble_slab",
-    "count": 24
-  }
+    "count": 24,
+    "item": "caliber:polished_red_marble_slab"
+  },
+  "show_notification": true
 }

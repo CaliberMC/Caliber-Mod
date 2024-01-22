@@ -1,15 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "caliber:mossy_tan_limestone_bricks"
     }
   },
+  "pattern": [
+    "###"
+  ],
   "result": {
-    "item": "caliber:mossy_tan_limestone_brick_slab",
-    "count": 24
-  }
+    "count": 24,
+    "item": "caliber:mossy_tan_limestone_brick_slab"
+  },
+  "show_notification": true
 }

@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 5,
   "ingredient": {
     "item": "minecraft:stone_bricks"
   },
-  "result": "caliber:limestone_brick_quarter_vertical",
-  "count": 5
+  "result": "caliber:limestone_brick_quarter_vertical"
 }

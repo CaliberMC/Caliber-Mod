@@ -4,7 +4,7 @@ import com.calibermc.caliber.config.CaliberCommonConfigs;
 import com.mojang.brigadier.CommandDispatcher;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.Commands;
-import net.minecraft.network.chat.TextComponent;
+import net.minecraft.network.chat.Component;
 
 public class CaliberCommands {
 
@@ -17,7 +17,7 @@ public class CaliberCommands {
 
     private static int setBlockStateMode(CommandSourceStack pSource, int mode) {
         CaliberCommonConfigs.MODE_BLOCKSTATE.set(mode);
-        pSource.sendSuccess(new TextComponent("Set %s mode".formatted(mode == 0 ? "slab" : "layer")), true);
+        pSource.sendSuccess(() -> Component.literal("Set %s mode".formatted(mode == 0 ? "slab" : "layer")), true);
         return 0;
     }
 }

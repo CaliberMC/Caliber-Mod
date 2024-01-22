@@ -1,17 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " # ",
-    " # ",
-    " # "
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:polished_basalt"
     }
   },
+  "pattern": [
+    " # ",
+    " # ",
+    " # "
+  ],
   "result": {
-    "item": "caliber:polished_basalt_slab_vertical",
-    "count": 24
-  }
+    "count": 24,
+    "item": "caliber:polished_basalt_slab_vertical"
+  },
+  "show_notification": true
 }

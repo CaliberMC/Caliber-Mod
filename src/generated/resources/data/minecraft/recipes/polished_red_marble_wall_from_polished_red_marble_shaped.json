@@ -1,16 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "caliber:polished_red_marble"
     }
   },
+  "pattern": [
+    "###",
+    "###"
+  ],
   "result": {
-    "item": "caliber:polished_red_marble_wall",
-    "count": 6
-  }
+    "count": 6,
+    "item": "caliber:polished_red_marble_wall"
+  },
+  "show_notification": true
 }

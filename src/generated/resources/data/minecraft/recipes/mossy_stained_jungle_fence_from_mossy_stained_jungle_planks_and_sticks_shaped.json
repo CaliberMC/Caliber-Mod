@@ -1,9 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#X#",
-    "#X#"
-  ],
+  "category": "redstone",
   "key": {
     "#": {
       "item": "caliber:mossy_stained_jungle_planks"
@@ -12,8 +9,13 @@
       "item": "minecraft:stick"
     }
   },
+  "pattern": [
+    "#X#",
+    "#X#"
+  ],
   "result": {
-    "item": "caliber:mossy_stained_jungle_fence",
-    "count": 3
-  }
+    "count": 3,
+    "item": "caliber:mossy_stained_jungle_fence"
+  },
+  "show_notification": true
 }

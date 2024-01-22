@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "caliber:mossy_cobbled_light_limestone"
   },
-  "result": "caliber:mossy_cobbled_light_limestone_balustrade",
-  "count": 2
+  "result": "caliber:mossy_cobbled_light_limestone_balustrade"
 }

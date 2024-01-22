@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "minecraft:magenta_terracotta"
   },
-  "result": "caliber:magenta_terracotta_capital",
-  "count": 2
+  "result": "caliber:magenta_terracotta_capital"
 }

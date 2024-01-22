@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/outer_stairs",
   "textures": {
-    "side": "caliber:block/mossy_warped_planks",
     "bottom": "caliber:block/mossy_warped_planks",
+    "side": "caliber:block/mossy_warped_planks",
     "top": "caliber:block/mossy_warped_planks"
   }
 }

@@ -1,8 +1,8 @@
 {
   "parent": "caliber:block/templates/roof_peak_cross_top",
   "textures": {
+    "bottom": "caliber:block/birch_boards",
     "side": "caliber:block/birch_boards",
-    "top": "caliber:block/birch_boards",
-    "bottom": "caliber:block/birch_boards"
+    "top": "caliber:block/birch_boards"
   }
 }

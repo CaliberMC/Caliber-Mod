@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_polished_gray_granite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caliber:polished_gray_granite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:polished_gray_granite_slab_vertical_from_polished_gray_granite_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_polished_gray_granite",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:polished_gray_granite_slab_vertical_from_polished_gray_granite_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

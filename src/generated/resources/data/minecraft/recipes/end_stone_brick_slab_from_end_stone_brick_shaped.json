@@ -1,15 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:end_stone_bricks"
     }
   },
+  "pattern": [
+    "###"
+  ],
   "result": {
-    "item": "caliber:end_stone_brick_slab",
-    "count": 24
-  }
+    "count": 24,
+    "item": "caliber:end_stone_brick_slab"
+  },
+  "show_notification": true
 }

@@ -1,14 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "##"
-  ],
+  "category": "redstone",
   "key": {
     "#": {
       "item": "caliber:spruce_boards"
     }
   },
+  "pattern": [
+    "##"
+  ],
   "result": {
     "item": "caliber:spruce_board_pressure_plate"
-  }
+  },
+  "show_notification": true
 }

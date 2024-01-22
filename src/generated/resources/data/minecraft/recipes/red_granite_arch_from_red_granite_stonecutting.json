@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "minecraft:granite"
   },
-  "result": "caliber:red_granite_arch",
-  "count": 2
+  "result": "caliber:red_granite_arch"
 }

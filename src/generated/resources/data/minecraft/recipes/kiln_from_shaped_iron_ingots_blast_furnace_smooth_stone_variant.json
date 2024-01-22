@@ -1,22 +1,24 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "III",
-    "IXI",
-    "###"
-  ],
+  "category": "misc",
   "key": {
+    "#": {
+      "item": "minecraft:smooth_stone"
+    },
     "I": {
       "item": "minecraft:iron_ingot"
     },
     "X": {
       "item": "minecraft:blast_furnace"
-    },
-    "#": {
-      "item": "minecraft:smooth_stone"
     }
   },
+  "pattern": [
+    "III",
+    "IXI",
+    "###"
+  ],
   "result": {
     "item": "caliber:kiln"
-  }
+  },
+  "show_notification": true
 }

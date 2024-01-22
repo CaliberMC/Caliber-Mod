@@ -1,15 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#",
-    "#"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "caliber:brown_sandstone"
     }
   },
+  "pattern": [
+    "#",
+    "#"
+  ],
   "result": {
     "item": "caliber:chiseled_brown_sandstone"
-  }
+  },
+  "show_notification": true
 }

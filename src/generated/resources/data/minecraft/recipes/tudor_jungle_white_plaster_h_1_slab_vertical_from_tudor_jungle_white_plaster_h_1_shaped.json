@@ -1,17 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " # ",
-    " # ",
-    " # "
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "caliber:tudor_jungle_white_plaster_h_1"
     }
   },
+  "pattern": [
+    " # ",
+    " # ",
+    " # "
+  ],
   "result": {
-    "item": "caliber:tudor_jungle_white_plaster_h_1_slab_vertical",
-    "count": 24
-  }
+    "count": 24,
+    "item": "caliber:tudor_jungle_white_plaster_h_1_slab_vertical"
+  },
+  "show_notification": true
 }

@@ -1,9 +1,10 @@
 {
   "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
   "ingredient": {
     "item": "caliber:raw_tin"
   },
-  "result": "caliber:tin_ingot",
-  "experience": 1.0,
-  "cookingtime": 100
+  "result": "caliber:tin_ingot"
 }

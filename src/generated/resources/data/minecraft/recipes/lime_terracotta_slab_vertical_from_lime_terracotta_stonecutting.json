@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 8,
   "ingredient": {
     "item": "minecraft:lime_terracotta"
   },
-  "result": "caliber:lime_terracotta_slab_vertical",
-  "count": 8
+  "result": "caliber:lime_terracotta_slab_vertical"
 }

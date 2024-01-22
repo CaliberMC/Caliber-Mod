@@ -1,17 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:gray_concrete"
     }
   },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
   "result": {
-    "item": "caliber:gray_concrete_stairs",
-    "count": 4
-  }
+    "count": 4,
+    "item": "caliber:gray_concrete_stairs"
+  },
+  "show_notification": true
 }

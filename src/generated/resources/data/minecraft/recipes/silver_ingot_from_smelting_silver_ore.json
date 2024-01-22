@@ -1,9 +1,10 @@
 {
   "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
   "ingredient": {
     "item": "caliber:silver_ore"
   },
-  "result": "caliber:silver_ingot",
-  "experience": 1.0,
-  "cookingtime": 200
+  "result": "caliber:silver_ingot"
 }

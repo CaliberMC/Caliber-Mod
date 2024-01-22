@@ -1,22 +1,22 @@
 {
   "variants": {
+    "facing=east": {
+      "model": "caliber:block/smooth_quartz_arch_half",
+      "uvlock": true,
+      "y": 90
+    },
     "facing=north": {
       "model": "caliber:block/smooth_quartz_arch_half"
     },
     "facing=south": {
       "model": "caliber:block/smooth_quartz_arch_half",
-      "y": 180,
-      "uvlock": true
+      "uvlock": true,
+      "y": 180
     },
     "facing=west": {
       "model": "caliber:block/smooth_quartz_arch_half",
-      "y": 270,
-      "uvlock": true
-    },
-    "facing=east": {
-      "model": "caliber:block/smooth_quartz_arch_half",
-      "y": 90,
-      "uvlock": true
+      "uvlock": true,
+      "y": 270
     }
   }
 }

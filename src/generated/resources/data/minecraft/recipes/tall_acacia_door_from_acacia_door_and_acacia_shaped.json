@@ -1,18 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "minecraft:acacia_planks"
+    },
+    "X": {
+      "item": "minecraft:acacia_door"
+    }
+  },
   "pattern": [
     "X",
     "#"
   ],
-  "key": {
-    "X": {
-      "item": "minecraft:acacia_door"
-    },
-    "#": {
-      "item": "minecraft:acacia_planks"
-    }
-  },
   "result": {
     "item": "caliber:tall_acacia_door"
-  }
+  },
+  "show_notification": true
 }

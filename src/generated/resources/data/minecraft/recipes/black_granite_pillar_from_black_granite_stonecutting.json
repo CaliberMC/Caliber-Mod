@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 5,
   "ingredient": {
     "item": "caliber:black_granite"
   },
-  "result": "caliber:black_granite_pillar",
-  "count": 5
+  "result": "caliber:black_granite_pillar"
 }

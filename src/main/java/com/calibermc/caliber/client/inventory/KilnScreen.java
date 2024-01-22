@@ -4,12 +4,11 @@ import com.calibermc.caliber.Caliber;
 import com.calibermc.caliber.client.inventory.recipebook.AlloyingRecipeBookComponent;
 import com.calibermc.caliber.world.inventory.kiln.KilnMenu;
 import com.mojang.blaze3d.systems.RenderSystem;
-import com.mojang.blaze3d.vertex.PoseStack;
+import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.components.ImageButton;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.screens.recipebook.RecipeBookComponent;
 import net.minecraft.client.gui.screens.recipebook.RecipeUpdateListener;
-import net.minecraft.client.renderer.GameRenderer;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.player.Inventory;
@@ -50,36 +49,34 @@ public class KilnScreen extends AbstractContainerScreen<KilnMenu> implements Rec
     }
 
     @Override
-    public void render(PoseStack pPoseStack, int pMouseX, int pMouseY, float pPartialTick) {
-        this.renderBackground(pPoseStack);
+    public void render(GuiGraphics pGuiGraphics, int pMouseX, int pMouseY, float pPartialTick) {
+        this.renderBackground(pGuiGraphics);
         if (this.recipeBookComponent.isVisible() && this.widthTooNarrow) {
-            this.renderBg(pPoseStack, pPartialTick, pMouseX, pMouseY);
-            this.recipeBookComponent.render(pPoseStack, pMouseX, pMouseY, pPartialTick);
+            this.renderBg(pGuiGraphics, pPartialTick, pMouseX, pMouseY);
+            this.recipeBookComponent.render(pGuiGraphics, pMouseX, pMouseY, pPartialTick);
         } else {
-            this.recipeBookComponent.render(pPoseStack, pMouseX, pMouseY, pPartialTick);
-            super.render(pPoseStack, pMouseX, pMouseY, pPartialTick);
-            this.recipeBookComponent.renderGhostRecipe(pPoseStack, this.leftPos, this.topPos, true, pPartialTick);
+            this.recipeBookComponent.render(pGuiGraphics, pMouseX, pMouseY, pPartialTick);
+            super.render(pGuiGraphics, pMouseX, pMouseY, pPartialTick);
+            this.recipeBookComponent.renderGhostRecipe(pGuiGraphics, this.leftPos, this.topPos, true, pPartialTick);
         }
 
-        this.renderTooltip(pPoseStack, pMouseX, pMouseY);
-        this.recipeBookComponent.renderTooltip(pPoseStack, this.leftPos, this.topPos, pMouseX, pMouseY);
+        this.renderTooltip(pGuiGraphics, pMouseX, pMouseY);
+        this.recipeBookComponent.renderTooltip(pGuiGraphics, this.leftPos, this.topPos, pMouseX, pMouseY);
     }
 
     @Override
-    protected void renderBg(PoseStack pPoseStack, float pPartialTick, int pX, int pY) {
-        RenderSystem.setShader(GameRenderer::getPositionTexShader);
+    protected void renderBg(GuiGraphics pGuiGraphics, float pPartialTick, int pX, int pY) {
         RenderSystem.setShaderColor(1.0F, 1.0F, 1.0F, 1.0F);
-        RenderSystem.setShaderTexture(0, TEXTURE);
         int i = this.leftPos;
         int j = this.topPos;
-        this.blit(pPoseStack, i, j, 0, 0, this.imageWidth, this.imageHeight);
+        pGuiGraphics.blit(TEXTURE, i, j, 0, 0, this.imageWidth, this.imageHeight);
         if (this.menu.isLit()) {
             int k = this.menu.getLitProgress();
-            this.blit(pPoseStack, i + 56, j + 36 + 12 - k, 176, 12 - k, 14, k + 1);
+            pGuiGraphics.blit(TEXTURE, i + 56, j + 36 + 12 - k, 176, 12 - k, 14, k + 1);
         }
 
         int l = this.menu.getBurnProgress();
-        this.blit(pPoseStack, i + 79, j + 34, 176, 14, l + 1, 16);
+        pGuiGraphics.blit(TEXTURE, i + 79, j + 34, 176, 14, l + 1, 16);
     }
 
     @Override
@@ -128,7 +125,6 @@ public class KilnScreen extends AbstractContainerScreen<KilnMenu> implements Rec
 
     @Override
     public void removed() {
-        this.recipeBookComponent.removed();
         super.removed();
     }
 }

@@ -1,16 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:blue_concrete"
     }
   },
+  "pattern": [
+    "###",
+    "###"
+  ],
   "result": {
-    "item": "caliber:blue_concrete_wall",
-    "count": 6
-  }
+    "count": 6,
+    "item": "caliber:blue_concrete_wall"
+  },
+  "show_notification": true
 }

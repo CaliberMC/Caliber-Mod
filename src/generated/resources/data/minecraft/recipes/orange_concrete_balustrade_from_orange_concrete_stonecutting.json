@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "minecraft:orange_concrete"
   },
-  "result": "caliber:orange_concrete_balustrade",
-  "count": 2
+  "result": "caliber:orange_concrete_balustrade"
 }

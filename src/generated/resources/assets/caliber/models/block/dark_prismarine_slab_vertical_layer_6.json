@@ -1,8 +1,8 @@
 {
   "parent": "caliber:block/templates/slab_vertical_layer_6",
   "textures": {
+    "bottom": "minecraft:block/dark_prismarine",
     "side": "minecraft:block/dark_prismarine",
-    "top": "minecraft:block/dark_prismarine",
-    "bottom": "minecraft:block/dark_prismarine"
+    "top": "minecraft:block/dark_prismarine"
   }
 }

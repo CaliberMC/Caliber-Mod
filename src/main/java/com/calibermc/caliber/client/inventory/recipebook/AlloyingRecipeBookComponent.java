@@ -1,12 +1,10 @@
 package com.calibermc.caliber.client.inventory.recipebook;
 
-import net.minecraft.client.gui.screens.recipebook.AbstractFurnaceRecipeBookComponent;
 import net.minecraft.client.gui.screens.recipebook.RecipeBookComponent;
 import net.minecraft.core.NonNullList;
+import net.minecraft.core.RegistryAccess;
 import net.minecraft.network.chat.Component;
-import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.world.inventory.Slot;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.Recipe;
@@ -17,11 +15,10 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import javax.annotation.Nullable;
 import java.util.Iterator;
 import java.util.List;
-import java.util.Set;
 
 @OnlyIn(Dist.CLIENT)
 public class AlloyingRecipeBookComponent extends RecipeBookComponent {
-   private static final Component FILTER_NAME = new TranslatableComponent("caliber.gui.recipebook.toggleRecipes.alloying");
+   private static final Component FILTER_NAME = Component.translatable("caliber.gui.recipebook.toggleRecipes.alloying");
 
    @Nullable
    private Ingredient fuels;
@@ -42,7 +39,7 @@ public class AlloyingRecipeBookComponent extends RecipeBookComponent {
 
    @Override
    public void setupGhostRecipe(Recipe<?> pRecipe, List<Slot> pSlots) {
-      ItemStack itemstack = pRecipe.getResultItem();
+      ItemStack itemstack = pRecipe.getResultItem(RegistryAccess.EMPTY);
       this.ghostRecipe.setRecipe(pRecipe);
       this.ghostRecipe.addIngredient(Ingredient.of(itemstack), pSlots.get(3).x, pSlots.get(3).y);
       NonNullList<Ingredient> nonnulllist = pRecipe.getIngredients();

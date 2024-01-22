@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 5,
   "ingredient": {
     "item": "minecraft:diorite"
   },
-  "result": "caliber:diorite_corner",
-  "count": 5
+  "result": "caliber:diorite_corner"
 }

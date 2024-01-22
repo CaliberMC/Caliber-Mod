@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 1,
   "ingredient": {
     "item": "caliber:smooth_tan_limestone"
   },
-  "result": "caliber:smooth_tan_limestone_wall",
-  "count": 1
+  "result": "caliber:smooth_tan_limestone_wall"
 }

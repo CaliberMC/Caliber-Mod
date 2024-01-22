@@ -1,15 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:blackstone"
     }
   },
+  "pattern": [
+    "###"
+  ],
   "result": {
-    "item": "caliber:blackstone_slab",
-    "count": 24
-  }
+    "count": 24,
+    "item": "caliber:blackstone_slab"
+  },
+  "show_notification": true
 }

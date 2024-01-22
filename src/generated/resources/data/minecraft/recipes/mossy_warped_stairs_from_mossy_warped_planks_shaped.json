@@ -1,17 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "caliber:mossy_warped_planks"
     }
   },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
   "result": {
-    "item": "caliber:mossy_warped_stairs",
-    "count": 4
-  }
+    "count": 4,
+    "item": "caliber:mossy_warped_stairs"
+  },
+  "show_notification": true
 }

@@ -1,17 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "caliber:tan_plaster"
     }
   },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
   "result": {
-    "item": "caliber:tan_plaster_stairs",
-    "count": 4
-  }
+    "count": 4,
+    "item": "caliber:tan_plaster_stairs"
+  },
+  "show_notification": true
 }

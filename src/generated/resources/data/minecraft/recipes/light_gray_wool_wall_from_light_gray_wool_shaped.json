@@ -1,16 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:light_gray_wool"
     }
   },
+  "pattern": [
+    "###",
+    "###"
+  ],
   "result": {
-    "item": "caliber:light_gray_wool_wall",
-    "count": 6
-  }
+    "count": 6,
+    "item": "caliber:light_gray_wool_wall"
+  },
+  "show_notification": true
 }

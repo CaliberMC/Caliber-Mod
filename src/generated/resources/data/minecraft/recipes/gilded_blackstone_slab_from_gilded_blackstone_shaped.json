@@ -1,15 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:gilded_blackstone"
     }
   },
+  "pattern": [
+    "###"
+  ],
   "result": {
-    "item": "caliber:gilded_blackstone_slab",
-    "count": 24
-  }
+    "count": 24,
+    "item": "caliber:gilded_blackstone_slab"
+  },
+  "show_notification": true
 }

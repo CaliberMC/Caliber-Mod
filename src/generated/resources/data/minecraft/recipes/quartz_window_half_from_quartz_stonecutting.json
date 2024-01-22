@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "minecraft:quartz_block"
   },
-  "result": "caliber:quartz_window_half",
-  "count": 2
+  "result": "caliber:quartz_window_half"
 }

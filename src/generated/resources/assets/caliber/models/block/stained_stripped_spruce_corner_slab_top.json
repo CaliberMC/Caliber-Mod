@@ -1,8 +1,8 @@
 {
   "parent": "caliber:block/templates/corner_slab_top",
   "textures": {
+    "bottom": "caliber:block/stained_stripped_spruce_wood",
     "side": "caliber:block/stained_stripped_spruce_wood",
-    "top": "caliber:block/stained_stripped_spruce_wood",
-    "bottom": "caliber:block/stained_stripped_spruce_wood"
+    "top": "caliber:block/stained_stripped_spruce_wood"
   }
 }

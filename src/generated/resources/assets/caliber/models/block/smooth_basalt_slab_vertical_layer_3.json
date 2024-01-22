@@ -1,8 +1,8 @@
 {
   "parent": "caliber:block/templates/slab_vertical_layer_3",
   "textures": {
+    "bottom": "minecraft:block/smooth_basalt",
     "side": "minecraft:block/smooth_basalt",
-    "top": "minecraft:block/smooth_basalt",
-    "bottom": "minecraft:block/smooth_basalt"
+    "top": "minecraft:block/smooth_basalt"
   }
 }

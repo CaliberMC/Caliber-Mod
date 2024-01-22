@@ -1,15 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "caliber:stained_stripped_birch_wood"
     }
   },
+  "pattern": [
+    "###"
+  ],
   "result": {
-    "item": "caliber:stained_stripped_birch_slab",
-    "count": 24
-  }
+    "count": 24,
+    "item": "caliber:stained_stripped_birch_slab"
+  },
+  "show_notification": true
 }

@@ -1,14 +1,12 @@
 package com.calibermc.caliber.util;
 
 import com.calibermc.caliber.Caliber;
-import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.minecraftforge.registries.ForgeRegistries;
 
 public class ModTags {
 
@@ -65,34 +63,6 @@ public class ModTags {
     }
 
     public static class Items {
-        /* Creative Tab Tags */
-        public static final TagKey<Item> armorTab = tag("creative_tabs/armor_tab");
-        public static final TagKey<Item> brewingTab = tag("creative_tabs/brewing_tab");
-        public static final TagKey<Item> cobbleBricksTab = tag( "creative_tabs/cobble_bricks_tab");
-        public static final TagKey<Item> craftingTab = tag("creative_tabs/crafting_tab");
-        public static final TagKey<Item> cropsTab = tag("creative_tabs/crops_tab");
-        public static final TagKey<Item> decorTab = tag("creative_tabs/decor_tab");
-        public static final TagKey<Item> flowersPlantsTab = tag("creative_tabs/flowers_plants_tab");
-        public static final TagKey<Item> foodTab = tag("creative_tabs/food_tab");
-        public static final TagKey<Item> furnitureTab = tag("creative_tabs/furniture_tab");
-        public static final TagKey<Item> glassWindowsTab = tag("creative_tabs/glass_windows_tab");
-        public static final TagKey<Item> grassDirtTab = tag("creative_tabs/grass_dirt_tab");
-        public static final TagKey<Item> halfTimberedWallTab = tag("creative_tabs/half_timbered_wall_tab");
-        public static final TagKey<Item> leavesTab = tag("creative_tabs/leaves_tab");
-        public static final TagKey<Item> lightingTab = tag("creative_tabs/lighting_tab");
-        public static final TagKey<Item> logsTab = tag("creative_tabs/logs_tab");
-        public static final TagKey<Item> metalsOresTab = tag("creative_tabs/metals_ores_tab");
-        public static final TagKey<Item> miscTab = tag("creative_tabs/misc_tab");
-        public static final TagKey<Item> planksBeamsTab = tag("creative_tabs/planks_beams_tab");
-        public static final TagKey<Item> plasterStuccoTab = tag("creative_tabs/plaster_stucco_tab");
-        public static final TagKey<Item> redstoneTab = tag("creative_tabs/redstone_tab");
-        public static final TagKey<Item> roofingTab = tag("creative_tabs/roofing_tab");
-        public static final TagKey<Item> sandGravelTab = tag("creative_tabs/sand_gravel_tab");
-        public static final TagKey<Item> stoneTab = tag("creative_tabs/stone_tab");
-        public static final TagKey<Item> storageTab = tag("creative_tabs/storage_tab");
-        public static final TagKey<Item> tilesFlooringTab = tag("creative_tabs/tiles_flooring_tab");
-        public static final TagKey<Item> toolsWeaponsTab = tag("creative_tabs/tools_weapons_tab");
-
         /* Forge Item Tags */
         public static final TagKey<Item> BRONZE_INGOTS = forgeTag("ingots/bronze_ingot");
 

@@ -1,22 +1,27 @@
 package com.calibermc.caliber.event.loot;
 
-import com.google.gson.JsonObject;
+import com.mojang.serialization.Codec;
+import com.mojang.serialization.codecs.RecordCodecBuilder;
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.util.GsonHelper;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
-import net.minecraftforge.common.loot.GlobalLootModifierSerializer;
+import net.minecraftforge.common.loot.IGlobalLootModifier;
 import net.minecraftforge.common.loot.LootModifier;
 import net.minecraftforge.registries.ForgeRegistries;
 import org.jetbrains.annotations.NotNull;
 
 import javax.annotation.Nonnull;
-import java.util.List;
+import java.util.function.Supplier;
 
 public class GrassStemsFromGrassModifier extends LootModifier {
+    public static final Supplier<Codec<GrassStemsFromGrassModifier>> CODEC = () -> RecordCodecBuilder.create(inst ->
+            LootModifier.codecStart(inst)
+                    .and(ForgeRegistries.ITEMS.getCodec().fieldOf("addition").forGetter(m -> m.addition))
+                    .apply(inst, GrassStemsFromGrassModifier::new)
+    );
+
     private final Item addition;
 
     protected GrassStemsFromGrassModifier(LootItemCondition[] conditionsIn, Item addition) {
@@ -26,7 +31,7 @@ public class GrassStemsFromGrassModifier extends LootModifier {
 
     @Nonnull
     @Override
-    protected List<ItemStack> doApply(List<ItemStack> generatedLoot, LootContext context) {
+    protected @NotNull ObjectArrayList<ItemStack> doApply(ObjectArrayList<ItemStack> generatedLoot, LootContext context) {
         // generatedLoot is the loot that would be dropped, if we wouldn't add or replace
         // anything!
         if(context.getRandom().nextFloat() > 0.5f) {
@@ -35,21 +40,8 @@ public class GrassStemsFromGrassModifier extends LootModifier {
         return generatedLoot;
     }
 
-    public static class Serializer extends GlobalLootModifierSerializer<GrassStemsFromGrassModifier> {
-
-        @Override
-        public GrassStemsFromGrassModifier read(ResourceLocation name, JsonObject object,
-                                                           LootItemCondition[] conditionsIn) {
-            Item addition = ForgeRegistries.ITEMS.getValue(
-                    new ResourceLocation(GsonHelper.getAsString(object, "addition")));
-            return new GrassStemsFromGrassModifier(conditionsIn, addition);
-        }
-
-        @Override
-        public JsonObject write(GrassStemsFromGrassModifier instance) {
-            JsonObject json = makeConditions(instance.conditions);
-            json.addProperty("addition", ForgeRegistries.ITEMS.getKey(instance.addition).toString());
-            return json;
-        }
+    @Override
+    public Codec<? extends IGlobalLootModifier> codec() {
+        return CODEC.get();
     }
 }

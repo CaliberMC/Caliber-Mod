@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_crimson_boards": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caliber:crimson_boards"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:crimson_board_slab_vertical_from_crimson_boards_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_crimson_boards",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:crimson_board_slab_vertical_from_crimson_boards_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

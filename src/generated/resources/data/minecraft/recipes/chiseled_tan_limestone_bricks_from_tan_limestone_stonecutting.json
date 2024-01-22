@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 1,
   "ingredient": {
     "item": "caliber:tan_limestone"
   },
-  "result": "caliber:chiseled_tan_limestone_bricks",
-  "count": 1
+  "result": "caliber:chiseled_tan_limestone_bricks"
 }

@@ -1,16 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "caliber:mossy_thatch"
     }
   },
+  "pattern": [
+    "###",
+    "###"
+  ],
   "result": {
-    "item": "caliber:mossy_thatch_wall",
-    "count": 6
-  }
+    "count": 6,
+    "item": "caliber:mossy_thatch_wall"
+  },
+  "show_notification": true
 }

@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 8,
   "ingredient": {
     "item": "minecraft:purple_terracotta"
   },
-  "result": "caliber:purple_terracotta_eighth",
-  "count": 8
+  "result": "caliber:purple_terracotta_eighth"
 }

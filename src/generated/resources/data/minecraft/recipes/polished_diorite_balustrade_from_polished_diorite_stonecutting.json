@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "minecraft:polished_diorite"
   },
-  "result": "caliber:polished_diorite_balustrade",
-  "count": 2
+  "result": "caliber:polished_diorite_balustrade"
 }

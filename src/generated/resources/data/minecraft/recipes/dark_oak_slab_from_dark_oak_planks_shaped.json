@@ -1,15 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:dark_oak_planks"
     }
   },
+  "pattern": [
+    "###"
+  ],
   "result": {
-    "item": "caliber:dark_oak_slab",
-    "count": 24
-  }
+    "count": 24,
+    "item": "caliber:dark_oak_slab"
+  },
+  "show_notification": true
 }

@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "minecraft:green_wool"
   },
-  "result": "caliber:green_wool_window",
-  "count": 2
+  "result": "caliber:green_wool_window"
 }

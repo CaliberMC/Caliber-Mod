@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "caliber:cobbled_pink_limestone"
   },
-  "result": "caliber:cobbled_pink_limestone_arch",
-  "count": 2
+  "result": "caliber:cobbled_pink_limestone_arch"
 }

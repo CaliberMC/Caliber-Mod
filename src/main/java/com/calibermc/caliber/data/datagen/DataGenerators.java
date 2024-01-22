@@ -1,13 +1,16 @@
 package com.calibermc.caliber.data.datagen;
 
 import com.calibermc.caliber.Caliber;
-import com.calibermc.caliber.data.datagen.recipes.*;
+import com.calibermc.caliber.data.datagen.loot.CaliberBlockLootTables;
+import com.calibermc.caliber.data.datagen.recipes.ItemRecipeProvider;
+import com.calibermc.caliber.data.datagen.recipes.MiscRecipeProvider;
+import com.calibermc.caliber.data.datagen.recipes.ModRecipeProvider;
+import com.calibermc.caliberlib.data.datagen.ModLootTableProvider;
 import net.minecraft.data.DataGenerator;
-import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.forge.event.lifecycle.GatherDataEvent;
 
 @Mod.EventBusSubscriber(modid = Caliber.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class DataGenerators {
@@ -15,16 +18,17 @@ public class DataGenerators {
     public static void gatherData(GatherDataEvent event) {
         DataGenerator generator = event.getGenerator();
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
+        boolean run = true;
 
         // BlockStates, Loot and Models
-        generator.addProvider(new ModBlockStateProvider(generator, existingFileHelper));
-        generator.addProvider(new ModLootTableProvider(generator));
-        generator.addProvider(new ModItemModelProvider(generator, existingFileHelper));
+        generator.addProvider(run, new CaliberBlockStateProvider(generator, existingFileHelper));
+        generator.addProvider(run, new ModLootTableProvider(generator, CaliberBlockLootTables::new));
+        generator.addProvider(run, new CaliberItemModelProvider(generator, existingFileHelper));
 
         // Recipes
-        generator.addProvider(new ModRecipeProvider(generator));
-        generator.addProvider(new MiscRecipeProvider(generator));
-        generator.addProvider(new ItemRecipeProvider(generator));
+        generator.addProvider(run, new ModRecipeProvider(generator));
+        generator.addProvider(run, new MiscRecipeProvider(generator));
+        generator.addProvider(run, new ItemRecipeProvider(generator));
 
     }
 }

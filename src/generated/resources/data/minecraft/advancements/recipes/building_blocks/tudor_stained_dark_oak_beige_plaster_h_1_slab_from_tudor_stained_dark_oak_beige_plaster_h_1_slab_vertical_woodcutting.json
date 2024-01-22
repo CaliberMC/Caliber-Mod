@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:tudor_stained_dark_oak_beige_plaster_h_1_slab_from_tudor_stained_dark_oak_beige_plaster_h_1_slab_vertical_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tudor_stained_dark_oak_beige_plaster_h_1": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caliber:tudor_stained_dark_oak_beige_plaster_h_1"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_tudor_stained_dark_oak_beige_plaster_h_1",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:tudor_stained_dark_oak_beige_plaster_h_1_slab_from_tudor_stained_dark_oak_beige_plaster_h_1_slab_vertical_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

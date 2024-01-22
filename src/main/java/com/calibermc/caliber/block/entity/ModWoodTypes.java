@@ -1,7 +1,5 @@
 package com.calibermc.caliber.block.entity;
 
-import net.minecraft.world.level.block.state.properties.WoodType;
-
 public class ModWoodTypes {
 //    public static final WoodType STAINED_ACACIA = WoodType.create("stained_acacia");
 //    public static final WoodType STAINED_BIRCH = WoodType.create("stained_birch");

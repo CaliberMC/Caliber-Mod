@@ -1,16 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:smooth_basalt"
     }
   },
+  "pattern": [
+    "###",
+    "###"
+  ],
   "result": {
-    "item": "caliber:smooth_basalt_wall",
-    "count": 6
-  }
+    "count": 6,
+    "item": "caliber:smooth_basalt_wall"
+  },
+  "show_notification": true
 }

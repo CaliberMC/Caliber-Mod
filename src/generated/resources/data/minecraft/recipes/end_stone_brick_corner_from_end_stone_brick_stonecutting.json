@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 5,
   "ingredient": {
     "item": "minecraft:end_stone_bricks"
   },
-  "result": "caliber:end_stone_brick_corner",
-  "count": 5
+  "result": "caliber:end_stone_brick_corner"
 }

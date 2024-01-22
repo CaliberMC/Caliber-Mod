@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 4,
   "ingredient": {
     "item": "caliber:smooth_light_limestone"
   },
-  "result": "caliber:smooth_light_limestone_corner_slab_vertical",
-  "count": 4
+  "result": "caliber:smooth_light_limestone_corner_slab_vertical"
 }

@@ -9,9 +9,9 @@ import it.unimi.dsi.fastutil.objects.Object2IntOpenHashMap;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.core.NonNullList;
+import net.minecraft.core.RegistryAccess;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
-import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
@@ -40,6 +40,7 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.Vec3;
 import net.minecraftforge.common.ForgeHooks;
+import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.common.util.LazyOptional;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.wrapper.SidedInvWrapper;
@@ -113,12 +114,12 @@ public class KilnBlockEntity extends BaseContainerBlockEntity implements Worldly
                 pBlockEntity.litDuration = pBlockEntity.litTime;
                 if (pBlockEntity.isLit()) {
                     flag1 = true;
-                    if (itemstack.hasContainerItem())
-                        pBlockEntity.items.set(2, itemstack.getContainerItem());
+                    if (itemstack.hasCraftingRemainingItem())
+                        pBlockEntity.items.set(2, itemstack.getCraftingRemainingItem());
                     else if (!itemstack.isEmpty()) {
                         itemstack.shrink(1);
                         if (itemstack.isEmpty()) {
-                            pBlockEntity.items.set(2, itemstack.getContainerItem());
+                            pBlockEntity.items.set(2, itemstack.getCraftingRemainingItem());
                         }
                     }
                 }
@@ -206,14 +207,14 @@ public class KilnBlockEntity extends BaseContainerBlockEntity implements Worldly
     @SuppressWarnings("unchecked")
     private boolean canBurn(@Nullable Recipe<?> pRecipe, NonNullList<ItemStack> pStacks, int pStackSize) {
         if (!pStacks.get(0).isEmpty() && pRecipe != null) {
-            ItemStack itemstack = ((Recipe<WorldlyContainer>) pRecipe).assemble(this);
+            ItemStack itemstack = ((Recipe<WorldlyContainer>) pRecipe).assemble(this, RegistryAccess.EMPTY);
             if (itemstack.isEmpty()) {
                 return false;
             } else {
                 ItemStack itemstack1 = pStacks.get(3);
                 if (itemstack1.isEmpty()) {
                     return true;
-                } else if (!itemstack1.sameItem(itemstack)) {
+                } else if (!ItemStack.isSameItem(itemstack1, itemstack)) {
                     return false;
                 } else if (itemstack1.getCount() + itemstack.getCount() <= pStackSize && itemstack1.getCount() + itemstack.getCount() <= itemstack1.getMaxStackSize()) { // Forge fix: make furnace respect stack sizes in furnace recipes
                     return true;
@@ -231,7 +232,7 @@ public class KilnBlockEntity extends BaseContainerBlockEntity implements Worldly
         if (pRecipe != null && this.canBurn(pRecipe, pStacks, pStackSize)) {
             ItemStack itemstack = pStacks.get(0);
             ItemStack itemstack1 = pStacks.get(1);
-            ItemStack itemstack2 = ((Recipe<WorldlyContainer>) pRecipe).assemble(this);
+            ItemStack itemstack2 = ((Recipe<WorldlyContainer>) pRecipe).assemble(this, RegistryAccess.EMPTY);
             ItemStack itemstack3 = pStacks.get(3);
             if (itemstack3.isEmpty()) {
                 pStacks.set(3, itemstack2.copy());
@@ -316,7 +317,7 @@ public class KilnBlockEntity extends BaseContainerBlockEntity implements Worldly
     @Override
     public void setItem(int pIndex, ItemStack pStack) {
         ItemStack itemstack = this.items.get(pIndex);
-        boolean flag = !pStack.isEmpty() && pStack.sameItem(itemstack) && ItemStack.tagMatches(pStack, itemstack);
+        boolean flag = !pStack.isEmpty() && ItemStack.isSameItemSameTags(pStack, itemstack);
         this.items.set(pIndex, pStack);
         if (pStack.getCount() > this.getMaxStackSize()) {
             pStack.setCount(this.getMaxStackSize());
@@ -371,12 +372,8 @@ public class KilnBlockEntity extends BaseContainerBlockEntity implements Worldly
 
     }
 
-    @Override
-    public void awardUsedRecipes(Player pPlayer) {
-    }
-
     public void awardUsedRecipesAndPopExperience(ServerPlayer pPlayer) {
-        List<Recipe<?>> list = this.getRecipesToAwardAndPopExperience(pPlayer.getLevel(), pPlayer.position());
+        List<Recipe<?>> list = this.getRecipesToAwardAndPopExperience(pPlayer.serverLevel(), pPlayer.position());
         pPlayer.awardRecipes(list);
         this.recipesUsed.clear();
     }
@@ -403,7 +400,7 @@ public class KilnBlockEntity extends BaseContainerBlockEntity implements Worldly
 
     @Override
     public <T> LazyOptional<T> getCapability(net.minecraftforge.common.capabilities.Capability<T> capability, @Nullable Direction facing) {
-        if (!this.remove && facing != null && capability == net.minecraftforge.items.CapabilityItemHandler.ITEM_HANDLER_CAPABILITY) {
+        if (!this.remove && facing != null && capability == ForgeCapabilities.ITEM_HANDLER) {
             if (facing == Direction.UP)
                 return handlers[0].cast();
             else if (facing == Direction.DOWN)
@@ -428,7 +425,7 @@ public class KilnBlockEntity extends BaseContainerBlockEntity implements Worldly
 
     @Override
     protected Component getDefaultName() {
-        return new TranslatableComponent("container.caliber.kiln");
+        return Component.translatable("container.caliber.kiln");
     }
 
     @Override

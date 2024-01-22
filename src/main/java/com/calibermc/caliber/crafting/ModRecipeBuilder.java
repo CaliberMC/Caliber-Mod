@@ -1,25 +1,24 @@
 package com.calibermc.caliber.crafting;
 
-import com.calibermc.caliber.crafting.ModRecipeSerializers;
 import com.google.gson.JsonObject;
-import java.util.function.Consumer;
-import javax.annotation.Nullable;
 import net.minecraft.advancements.Advancement;
 import net.minecraft.advancements.AdvancementRewards;
 import net.minecraft.advancements.CriterionTriggerInstance;
 import net.minecraft.advancements.RequirementsStrategy;
 import net.minecraft.advancements.critereon.RecipeUnlockedTrigger;
-import net.minecraft.core.Registry;
 import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.data.recipes.RecipeBuilder;
+import net.minecraft.data.recipes.RecipeCategory;
 import net.minecraft.data.recipes.SingleItemRecipeBuilder;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
-import net.minecraft.world.item.crafting.SimpleCookingSerializer;
 import net.minecraft.world.level.ItemLike;
+import net.minecraftforge.registries.ForgeRegistries;
+
+import javax.annotation.Nullable;
+import java.util.function.Consumer;
 
 public class ModRecipeBuilder implements RecipeBuilder {
     private final Item result;
@@ -46,7 +45,7 @@ public class ModRecipeBuilder implements RecipeBuilder {
     }
 
     public static SingleItemRecipeBuilder woodcutting(Ingredient pIngredient, ItemLike pResult, int pCount) {
-        return new SingleItemRecipeBuilder(ModRecipeSerializers.WOODCUTTING.get(), pIngredient, pResult, pCount);
+        return new SingleItemRecipeBuilder(RecipeCategory.BUILDING_BLOCKS, ModRecipeSerializers.WOODCUTTING.get(), pIngredient, pResult, pCount);
     }
     // ---------------------------------------------------------
 
@@ -75,7 +74,7 @@ public class ModRecipeBuilder implements RecipeBuilder {
     public void save(Consumer<FinishedRecipe> pFinishedRecipeConsumer, ResourceLocation pRecipeId) {
         this.ensureValid(pRecipeId);
         this.advancement.parent(new ResourceLocation("recipes/root")).addCriterion("has_the_recipe", RecipeUnlockedTrigger.unlocked(pRecipeId)).rewards(AdvancementRewards.Builder.recipe(pRecipeId)).requirements(RequirementsStrategy.OR);
-        pFinishedRecipeConsumer.accept(new Result(pRecipeId, this.group == null ? "" : this.group, this.ingredient, this.secondIngredient, this.result, this.experience, this.cookingTime, this.advancement, new ResourceLocation(pRecipeId.getNamespace(), "recipes/" + this.result.getItemCategory().getRecipeFolderName() + "/" + pRecipeId.getPath())));
+        pFinishedRecipeConsumer.accept(new Result(pRecipeId, this.group == null ? "" : this.group, this.ingredient, this.secondIngredient, this.result, this.experience, this.cookingTime, this.advancement, new ResourceLocation(pRecipeId.getNamespace(), "recipes/" + RecipeCategory.MISC.getFolderName() + "/" + pRecipeId.getPath())));
     }
 
     /**
@@ -118,7 +117,7 @@ public class ModRecipeBuilder implements RecipeBuilder {
 
             pJson.add("ingredient", this.ingredient.toJson());
             pJson.add("second_ingredient", this.secondIngredient.toJson());
-            pJson.addProperty("result", Registry.ITEM.getKey(this.result).toString());
+            pJson.addProperty("result", ForgeRegistries.ITEMS.getKey(this.result).toString());
             pJson.addProperty("experience", this.experience);
             pJson.addProperty("cookingtime", this.cookingTime);
         }

@@ -1,8 +1,8 @@
 {
   "type": "caliber:woodcutting",
+  "count": 2,
   "ingredient": {
     "item": "caliber:mossy_crimson_boards"
   },
-  "result": "caliber:mossy_crimson_board_window",
-  "count": 2
+  "result": "caliber:mossy_crimson_board_window"
 }

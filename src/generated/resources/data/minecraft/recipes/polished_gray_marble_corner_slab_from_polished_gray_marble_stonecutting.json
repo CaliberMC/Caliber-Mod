@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 4,
   "ingredient": {
     "item": "caliber:polished_gray_marble"
   },
-  "result": "caliber:polished_gray_marble_corner_slab",
-  "count": 4
+  "result": "caliber:polished_gray_marble_corner_slab"
 }

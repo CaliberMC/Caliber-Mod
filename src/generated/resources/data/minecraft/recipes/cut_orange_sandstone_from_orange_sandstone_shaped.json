@@ -1,16 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "##",
-    "##"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "caliber:orange_sandstone"
     }
   },
+  "pattern": [
+    "##",
+    "##"
+  ],
   "result": {
-    "item": "caliber:cut_orange_sandstone",
-    "count": 4
-  }
+    "count": 4,
+    "item": "caliber:cut_orange_sandstone"
+  },
+  "show_notification": true
 }

@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 1,
   "ingredient": {
     "item": "caliber:white_marble"
   },
-  "result": "caliber:white_marble_stairs",
-  "count": 1
+  "result": "caliber:white_marble_stairs"
 }

@@ -1,265 +1,47 @@
 {
   "variants": {
-    "facing=north,half=top,type=corner_right": {
-      "model": "caliber:block/slate_tile_roof_peak_corner_top"
-    },
-    "facing=south,half=top,type=corner_right": {
-      "model": "caliber:block/slate_tile_roof_peak_corner_top",
-      "y": 180
-    },
-    "facing=west,half=top,type=corner_right": {
-      "model": "caliber:block/slate_tile_roof_peak_corner_top",
-      "y": 270
-    },
-    "facing=east,half=top,type=corner_right": {
-      "model": "caliber:block/slate_tile_roof_peak_corner_top",
-      "y": 90
-    },
-    "facing=north,half=bottom,type=corner_right": {
+    "facing=east,half=bottom,type=corner_left": {
       "model": "caliber:block/slate_tile_roof_peak_corner"
-    },
-    "facing=south,half=bottom,type=corner_right": {
-      "model": "caliber:block/slate_tile_roof_peak_corner",
-      "y": 180
-    },
-    "facing=west,half=bottom,type=corner_right": {
-      "model": "caliber:block/slate_tile_roof_peak_corner",
-      "y": 270
     },
     "facing=east,half=bottom,type=corner_right": {
       "model": "caliber:block/slate_tile_roof_peak_corner",
       "y": 90
     },
-    "facing=north,half=top,type=corner_left": {
-      "model": "caliber:block/slate_tile_roof_peak_corner_top",
-      "y": 270
-    },
-    "facing=south,half=top,type=corner_left": {
-      "model": "caliber:block/slate_tile_roof_peak_corner_top",
+    "facing=east,half=bottom,type=end_facing": {
+      "model": "caliber:block/slate_tile_roof_peak_end",
       "y": 90
     },
-    "facing=west,half=top,type=corner_left": {
-      "model": "caliber:block/slate_tile_roof_peak_corner_top",
-      "y": 180
-    },
-    "facing=east,half=top,type=corner_left": {
-      "model": "caliber:block/slate_tile_roof_peak_corner_top"
-    },
-    "facing=north,half=bottom,type=corner_left": {
-      "model": "caliber:block/slate_tile_roof_peak_corner",
-      "y": 270
-    },
-    "facing=south,half=bottom,type=corner_left": {
-      "model": "caliber:block/slate_tile_roof_peak_corner",
-      "y": 90
-    },
-    "facing=west,half=bottom,type=corner_left": {
-      "model": "caliber:block/slate_tile_roof_peak_corner",
-      "y": 180
-    },
-    "facing=east,half=bottom,type=corner_left": {
-      "model": "caliber:block/slate_tile_roof_peak_corner"
-    },
-    "facing=north,half=top,type=left_t": {
-      "model": "caliber:block/slate_tile_roof_peak_top_t",
-      "y": 90
-    },
-    "facing=south,half=top,type=left_t": {
-      "model": "caliber:block/slate_tile_roof_peak_top_t",
-      "y": 270
-    },
-    "facing=west,half=top,type=left_t": {
-      "model": "caliber:block/slate_tile_roof_peak_top_t"
-    },
-    "facing=east,half=top,type=left_t": {
-      "model": "caliber:block/slate_tile_roof_peak_top_t",
-      "y": 180
-    },
-    "facing=north,half=bottom,type=left_t": {
-      "model": "caliber:block/slate_tile_roof_peak_t",
-      "y": 90
-    },
-    "facing=south,half=bottom,type=left_t": {
-      "model": "caliber:block/slate_tile_roof_peak_t",
-      "y": 270
-    },
-    "facing=west,half=bottom,type=left_t": {
-      "model": "caliber:block/slate_tile_roof_peak_t"
-    },
-    "facing=east,half=bottom,type=left_t": {
-      "model": "caliber:block/slate_tile_roof_peak_t",
-      "y": 180
-    },
-    "facing=north,half=top,type=right_t": {
-      "model": "caliber:block/slate_tile_roof_peak_top_t",
-      "y": 270
-    },
-    "facing=south,half=top,type=right_t": {
-      "model": "caliber:block/slate_tile_roof_peak_top_t",
-      "y": 90
-    },
-    "facing=west,half=top,type=right_t": {
-      "model": "caliber:block/slate_tile_roof_peak_top_t",
-      "y": 180
-    },
-    "facing=east,half=top,type=right_t": {
-      "model": "caliber:block/slate_tile_roof_peak_top_t"
-    },
-    "facing=north,half=bottom,type=right_t": {
-      "model": "caliber:block/slate_tile_roof_peak_t",
-      "y": 270
-    },
-    "facing=south,half=bottom,type=right_t": {
-      "model": "caliber:block/slate_tile_roof_peak_t",
-      "y": 90
-    },
-    "facing=west,half=bottom,type=right_t": {
-      "model": "caliber:block/slate_tile_roof_peak_t",
-      "y": 180
-    },
-    "facing=east,half=bottom,type=right_t": {
-      "model": "caliber:block/slate_tile_roof_peak_t"
-    },
-    "facing=north,half=top,type=facing_t": {
-      "model": "caliber:block/slate_tile_roof_peak_t"
-    },
-    "facing=south,half=top,type=facing_t": {
-      "model": "caliber:block/slate_tile_roof_peak_top_t",
-      "y": 180
-    },
-    "facing=west,half=top,type=facing_t": {
-      "model": "caliber:block/slate_tile_roof_peak_top_t",
-      "y": 270
-    },
-    "facing=east,half=top,type=facing_t": {
-      "model": "caliber:block/slate_tile_roof_peak_top_t",
-      "y": 90
-    },
-    "facing=north,half=bottom,type=facing_t": {
-      "model": "caliber:block/slate_tile_roof_peak_top_t"
-    },
-    "facing=south,half=bottom,type=facing_t": {
-      "model": "caliber:block/slate_tile_roof_peak_t",
-      "y": 180
-    },
-    "facing=west,half=bottom,type=facing_t": {
-      "model": "caliber:block/slate_tile_roof_peak_t",
+    "facing=east,half=bottom,type=end_opposite": {
+      "model": "caliber:block/slate_tile_roof_peak_end",
       "y": 270
     },
     "facing=east,half=bottom,type=facing_t": {
       "model": "caliber:block/slate_tile_roof_peak_t",
       "y": 90
     },
-    "facing=north,half=top,type=opposite_t": {
+    "facing=east,half=bottom,type=left_t": {
       "model": "caliber:block/slate_tile_roof_peak_t",
       "y": 180
-    },
-    "facing=south,half=top,type=opposite_t": {
-      "model": "caliber:block/slate_tile_roof_peak_top_t"
-    },
-    "facing=west,half=top,type=opposite_t": {
-      "model": "caliber:block/slate_tile_roof_peak_top_t",
-      "y": 90
-    },
-    "facing=east,half=top,type=opposite_t": {
-      "model": "caliber:block/slate_tile_roof_peak_top_t",
-      "y": 270
-    },
-    "facing=north,half=bottom,type=opposite_t": {
-      "model": "caliber:block/slate_tile_roof_peak_top_t",
-      "y": 180
-    },
-    "facing=south,half=bottom,type=opposite_t": {
-      "model": "caliber:block/slate_tile_roof_peak_t"
-    },
-    "facing=west,half=bottom,type=opposite_t": {
-      "model": "caliber:block/slate_tile_roof_peak_t",
-      "y": 90
     },
     "facing=east,half=bottom,type=opposite_t": {
       "model": "caliber:block/slate_tile_roof_peak_t",
       "y": 270
     },
-    "half=top,type=cross": {
-      "model": "caliber:block/slate_tile_roof_peak_cross_top"
-    },
-    "half=bottom,type=cross": {
-      "model": "caliber:block/slate_tile_roof_peak_cross"
-    },
-    "facing=north,half=top,type=straight": {
-      "model": "caliber:block/slate_tile_roof_peak_top"
-    },
-    "facing=south,half=top,type=straight": {
-      "model": "caliber:block/slate_tile_roof_peak_top",
-      "y": 180
-    },
-    "facing=west,half=top,type=straight": {
-      "model": "caliber:block/slate_tile_roof_peak_top",
-      "y": 270
-    },
-    "facing=east,half=top,type=straight": {
-      "model": "caliber:block/slate_tile_roof_peak_top",
-      "y": 90
-    },
-    "facing=north,half=bottom,type=straight": {
-      "model": "caliber:block/slate_tile_roof_peak"
-    },
-    "facing=south,half=bottom,type=straight": {
-      "model": "caliber:block/slate_tile_roof_peak",
-      "y": 180
-    },
-    "facing=west,half=bottom,type=straight": {
-      "model": "caliber:block/slate_tile_roof_peak",
-      "y": 270
+    "facing=east,half=bottom,type=right_t": {
+      "model": "caliber:block/slate_tile_roof_peak_t"
     },
     "facing=east,half=bottom,type=straight": {
       "model": "caliber:block/slate_tile_roof_peak",
       "y": 90
     },
-    "half=top,type=cap": {
-      "model": "caliber:block/slate_tile_roof_peak_cap_top"
+    "facing=east,half=top,type=corner_left": {
+      "model": "caliber:block/slate_tile_roof_peak_corner_top"
     },
-    "half=bottom,type=cap": {
-      "model": "caliber:block/slate_tile_roof_peak_cap"
-    },
-    "facing=north,half=top,type=end_facing": {
-      "model": "caliber:block/slate_tile_roof_peak_end_top"
-    },
-    "facing=south,half=top,type=end_facing": {
-      "model": "caliber:block/slate_tile_roof_peak_end_top",
-      "y": 180
-    },
-    "facing=west,half=top,type=end_facing": {
-      "model": "caliber:block/slate_tile_roof_peak_end_top",
-      "y": 270
+    "facing=east,half=top,type=corner_right": {
+      "model": "caliber:block/slate_tile_roof_peak_corner_top",
+      "y": 90
     },
     "facing=east,half=top,type=end_facing": {
-      "model": "caliber:block/slate_tile_roof_peak_end_top",
-      "y": 90
-    },
-    "facing=north,half=bottom,type=end_facing": {
-      "model": "caliber:block/slate_tile_roof_peak_end"
-    },
-    "facing=south,half=bottom,type=end_facing": {
-      "model": "caliber:block/slate_tile_roof_peak_end",
-      "y": 180
-    },
-    "facing=west,half=bottom,type=end_facing": {
-      "model": "caliber:block/slate_tile_roof_peak_end",
-      "y": 270
-    },
-    "facing=east,half=bottom,type=end_facing": {
-      "model": "caliber:block/slate_tile_roof_peak_end",
-      "y": 90
-    },
-    "facing=north,half=top,type=end_opposite": {
-      "model": "caliber:block/slate_tile_roof_peak_end_top",
-      "y": 180
-    },
-    "facing=south,half=top,type=end_opposite": {
-      "model": "caliber:block/slate_tile_roof_peak_end_top"
-    },
-    "facing=west,half=top,type=end_opposite": {
       "model": "caliber:block/slate_tile_roof_peak_end_top",
       "y": 90
     },
@@ -267,20 +49,238 @@
       "model": "caliber:block/slate_tile_roof_peak_end_top",
       "y": 270
     },
+    "facing=east,half=top,type=facing_t": {
+      "model": "caliber:block/slate_tile_roof_peak_top_t",
+      "y": 90
+    },
+    "facing=east,half=top,type=left_t": {
+      "model": "caliber:block/slate_tile_roof_peak_top_t",
+      "y": 180
+    },
+    "facing=east,half=top,type=opposite_t": {
+      "model": "caliber:block/slate_tile_roof_peak_top_t",
+      "y": 270
+    },
+    "facing=east,half=top,type=right_t": {
+      "model": "caliber:block/slate_tile_roof_peak_top_t"
+    },
+    "facing=east,half=top,type=straight": {
+      "model": "caliber:block/slate_tile_roof_peak_top",
+      "y": 90
+    },
+    "facing=north,half=bottom,type=corner_left": {
+      "model": "caliber:block/slate_tile_roof_peak_corner",
+      "y": 270
+    },
+    "facing=north,half=bottom,type=corner_right": {
+      "model": "caliber:block/slate_tile_roof_peak_corner"
+    },
+    "facing=north,half=bottom,type=end_facing": {
+      "model": "caliber:block/slate_tile_roof_peak_end"
+    },
     "facing=north,half=bottom,type=end_opposite": {
+      "model": "caliber:block/slate_tile_roof_peak_end",
+      "y": 180
+    },
+    "facing=north,half=bottom,type=facing_t": {
+      "model": "caliber:block/slate_tile_roof_peak_top_t"
+    },
+    "facing=north,half=bottom,type=left_t": {
+      "model": "caliber:block/slate_tile_roof_peak_t",
+      "y": 90
+    },
+    "facing=north,half=bottom,type=opposite_t": {
+      "model": "caliber:block/slate_tile_roof_peak_top_t",
+      "y": 180
+    },
+    "facing=north,half=bottom,type=right_t": {
+      "model": "caliber:block/slate_tile_roof_peak_t",
+      "y": 270
+    },
+    "facing=north,half=bottom,type=straight": {
+      "model": "caliber:block/slate_tile_roof_peak"
+    },
+    "facing=north,half=top,type=corner_left": {
+      "model": "caliber:block/slate_tile_roof_peak_corner_top",
+      "y": 270
+    },
+    "facing=north,half=top,type=corner_right": {
+      "model": "caliber:block/slate_tile_roof_peak_corner_top"
+    },
+    "facing=north,half=top,type=end_facing": {
+      "model": "caliber:block/slate_tile_roof_peak_end_top"
+    },
+    "facing=north,half=top,type=end_opposite": {
+      "model": "caliber:block/slate_tile_roof_peak_end_top",
+      "y": 180
+    },
+    "facing=north,half=top,type=facing_t": {
+      "model": "caliber:block/slate_tile_roof_peak_t"
+    },
+    "facing=north,half=top,type=left_t": {
+      "model": "caliber:block/slate_tile_roof_peak_top_t",
+      "y": 90
+    },
+    "facing=north,half=top,type=opposite_t": {
+      "model": "caliber:block/slate_tile_roof_peak_t",
+      "y": 180
+    },
+    "facing=north,half=top,type=right_t": {
+      "model": "caliber:block/slate_tile_roof_peak_top_t",
+      "y": 270
+    },
+    "facing=north,half=top,type=straight": {
+      "model": "caliber:block/slate_tile_roof_peak_top"
+    },
+    "facing=south,half=bottom,type=corner_left": {
+      "model": "caliber:block/slate_tile_roof_peak_corner",
+      "y": 90
+    },
+    "facing=south,half=bottom,type=corner_right": {
+      "model": "caliber:block/slate_tile_roof_peak_corner",
+      "y": 180
+    },
+    "facing=south,half=bottom,type=end_facing": {
       "model": "caliber:block/slate_tile_roof_peak_end",
       "y": 180
     },
     "facing=south,half=bottom,type=end_opposite": {
       "model": "caliber:block/slate_tile_roof_peak_end"
     },
+    "facing=south,half=bottom,type=facing_t": {
+      "model": "caliber:block/slate_tile_roof_peak_t",
+      "y": 180
+    },
+    "facing=south,half=bottom,type=left_t": {
+      "model": "caliber:block/slate_tile_roof_peak_t",
+      "y": 270
+    },
+    "facing=south,half=bottom,type=opposite_t": {
+      "model": "caliber:block/slate_tile_roof_peak_t"
+    },
+    "facing=south,half=bottom,type=right_t": {
+      "model": "caliber:block/slate_tile_roof_peak_t",
+      "y": 90
+    },
+    "facing=south,half=bottom,type=straight": {
+      "model": "caliber:block/slate_tile_roof_peak",
+      "y": 180
+    },
+    "facing=south,half=top,type=corner_left": {
+      "model": "caliber:block/slate_tile_roof_peak_corner_top",
+      "y": 90
+    },
+    "facing=south,half=top,type=corner_right": {
+      "model": "caliber:block/slate_tile_roof_peak_corner_top",
+      "y": 180
+    },
+    "facing=south,half=top,type=end_facing": {
+      "model": "caliber:block/slate_tile_roof_peak_end_top",
+      "y": 180
+    },
+    "facing=south,half=top,type=end_opposite": {
+      "model": "caliber:block/slate_tile_roof_peak_end_top"
+    },
+    "facing=south,half=top,type=facing_t": {
+      "model": "caliber:block/slate_tile_roof_peak_top_t",
+      "y": 180
+    },
+    "facing=south,half=top,type=left_t": {
+      "model": "caliber:block/slate_tile_roof_peak_top_t",
+      "y": 270
+    },
+    "facing=south,half=top,type=opposite_t": {
+      "model": "caliber:block/slate_tile_roof_peak_top_t"
+    },
+    "facing=south,half=top,type=right_t": {
+      "model": "caliber:block/slate_tile_roof_peak_top_t",
+      "y": 90
+    },
+    "facing=south,half=top,type=straight": {
+      "model": "caliber:block/slate_tile_roof_peak_top",
+      "y": 180
+    },
+    "facing=west,half=bottom,type=corner_left": {
+      "model": "caliber:block/slate_tile_roof_peak_corner",
+      "y": 180
+    },
+    "facing=west,half=bottom,type=corner_right": {
+      "model": "caliber:block/slate_tile_roof_peak_corner",
+      "y": 270
+    },
+    "facing=west,half=bottom,type=end_facing": {
+      "model": "caliber:block/slate_tile_roof_peak_end",
+      "y": 270
+    },
     "facing=west,half=bottom,type=end_opposite": {
       "model": "caliber:block/slate_tile_roof_peak_end",
       "y": 90
     },
-    "facing=east,half=bottom,type=end_opposite": {
-      "model": "caliber:block/slate_tile_roof_peak_end",
+    "facing=west,half=bottom,type=facing_t": {
+      "model": "caliber:block/slate_tile_roof_peak_t",
       "y": 270
+    },
+    "facing=west,half=bottom,type=left_t": {
+      "model": "caliber:block/slate_tile_roof_peak_t"
+    },
+    "facing=west,half=bottom,type=opposite_t": {
+      "model": "caliber:block/slate_tile_roof_peak_t",
+      "y": 90
+    },
+    "facing=west,half=bottom,type=right_t": {
+      "model": "caliber:block/slate_tile_roof_peak_t",
+      "y": 180
+    },
+    "facing=west,half=bottom,type=straight": {
+      "model": "caliber:block/slate_tile_roof_peak",
+      "y": 270
+    },
+    "facing=west,half=top,type=corner_left": {
+      "model": "caliber:block/slate_tile_roof_peak_corner_top",
+      "y": 180
+    },
+    "facing=west,half=top,type=corner_right": {
+      "model": "caliber:block/slate_tile_roof_peak_corner_top",
+      "y": 270
+    },
+    "facing=west,half=top,type=end_facing": {
+      "model": "caliber:block/slate_tile_roof_peak_end_top",
+      "y": 270
+    },
+    "facing=west,half=top,type=end_opposite": {
+      "model": "caliber:block/slate_tile_roof_peak_end_top",
+      "y": 90
+    },
+    "facing=west,half=top,type=facing_t": {
+      "model": "caliber:block/slate_tile_roof_peak_top_t",
+      "y": 270
+    },
+    "facing=west,half=top,type=left_t": {
+      "model": "caliber:block/slate_tile_roof_peak_top_t"
+    },
+    "facing=west,half=top,type=opposite_t": {
+      "model": "caliber:block/slate_tile_roof_peak_top_t",
+      "y": 90
+    },
+    "facing=west,half=top,type=right_t": {
+      "model": "caliber:block/slate_tile_roof_peak_top_t",
+      "y": 180
+    },
+    "facing=west,half=top,type=straight": {
+      "model": "caliber:block/slate_tile_roof_peak_top",
+      "y": 270
+    },
+    "half=bottom,type=cap": {
+      "model": "caliber:block/slate_tile_roof_peak_cap"
+    },
+    "half=bottom,type=cross": {
+      "model": "caliber:block/slate_tile_roof_peak_cross"
+    },
+    "half=top,type=cap": {
+      "model": "caliber:block/slate_tile_roof_peak_cap_top"
+    },
+    "half=top,type=cross": {
+      "model": "caliber:block/slate_tile_roof_peak_cross_top"
     }
   }
 }

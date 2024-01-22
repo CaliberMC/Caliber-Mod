@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "minecraft:dripstone_block"
   },
-  "result": "caliber:dripstone_arch_large_half",
-  "count": 2
+  "result": "caliber:dripstone_arch_large_half"
 }

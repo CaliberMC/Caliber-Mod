@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 5,
   "ingredient": {
     "item": "caliber:smooth_tan_limestone"
   },
-  "result": "caliber:smooth_tan_limestone_corner",
-  "count": 5
+  "result": "caliber:smooth_tan_limestone_corner"
 }

@@ -1,10 +1,10 @@
 package com.calibermc.caliber.mixin;
 
-import com.calibermc.caliber.block.custom.SlabLayerBlock;
-import com.calibermc.caliber.block.custom.VerticalSlabLayerBlock;
-import com.calibermc.caliber.config.CaliberCommonConfigs;
-import com.calibermc.caliber.util.ModBlockStateProperties;
 import com.calibermc.buildify.util.player.IPlayerExtended;
+import com.calibermc.caliber.config.CaliberCommonConfigs;
+import com.calibermc.caliberlib.block.custom.SlabLayerBlock;
+import com.calibermc.caliberlib.block.custom.VerticalSlabLayerBlock;
+import com.calibermc.caliberlib.util.ModBlockStateProperties;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.block.Block;

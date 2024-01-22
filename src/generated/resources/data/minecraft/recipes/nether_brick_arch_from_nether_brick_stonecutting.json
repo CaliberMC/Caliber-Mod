@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "minecraft:nether_bricks"
   },
-  "result": "caliber:nether_brick_arch",
-  "count": 2
+  "result": "caliber:nether_brick_arch"
 }

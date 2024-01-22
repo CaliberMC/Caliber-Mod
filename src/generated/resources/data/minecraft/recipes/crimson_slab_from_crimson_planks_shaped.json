@@ -1,15 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:crimson_planks"
     }
   },
+  "pattern": [
+    "###"
+  ],
   "result": {
-    "item": "caliber:crimson_slab",
-    "count": 24
-  }
+    "count": 24,
+    "item": "caliber:crimson_slab"
+  },
+  "show_notification": true
 }

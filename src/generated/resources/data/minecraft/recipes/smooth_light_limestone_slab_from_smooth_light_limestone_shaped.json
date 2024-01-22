@@ -1,15 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "caliber:smooth_light_limestone"
     }
   },
+  "pattern": [
+    "###"
+  ],
   "result": {
-    "item": "caliber:smooth_light_limestone_slab",
-    "count": 24
-  }
+    "count": 24,
+    "item": "caliber:smooth_light_limestone_slab"
+  },
+  "show_notification": true
 }

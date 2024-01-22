@@ -1,16 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "SSS",
-    "SSS",
-    "SSS"
-  ],
+  "category": "misc",
   "key": {
     "S": {
       "item": "caliber:silver_nugget"
     }
   },
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
   "result": {
     "item": "caliber:silver_ingot"
-  }
+  },
+  "show_notification": true
 }

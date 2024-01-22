@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 4,
   "ingredient": {
     "item": "caliber:cobbled_light_limestone"
   },
-  "result": "caliber:cobbled_light_limestone_corner_slab",
-  "count": 4
+  "result": "caliber:cobbled_light_limestone_corner_slab"
 }

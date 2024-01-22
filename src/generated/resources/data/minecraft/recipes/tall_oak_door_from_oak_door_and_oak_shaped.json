@@ -1,18 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "minecraft:oak_planks"
+    },
+    "X": {
+      "item": "minecraft:oak_door"
+    }
+  },
   "pattern": [
     "X",
     "#"
   ],
-  "key": {
-    "X": {
-      "item": "minecraft:oak_door"
-    },
-    "#": {
-      "item": "minecraft:oak_planks"
-    }
-  },
   "result": {
     "item": "caliber:tall_oak_door"
-  }
+  },
+  "show_notification": true
 }

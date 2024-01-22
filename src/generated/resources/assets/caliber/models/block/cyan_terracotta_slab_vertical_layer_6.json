@@ -1,8 +1,8 @@
 {
   "parent": "caliber:block/templates/slab_vertical_layer_6",
   "textures": {
+    "bottom": "minecraft:block/cyan_terracotta",
     "side": "minecraft:block/cyan_terracotta",
-    "top": "minecraft:block/cyan_terracotta",
-    "bottom": "minecraft:block/cyan_terracotta"
+    "top": "minecraft:block/cyan_terracotta"
   }
 }

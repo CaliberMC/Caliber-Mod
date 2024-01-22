@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 5,
   "ingredient": {
     "item": "minecraft:red_wool"
   },
-  "result": "caliber:red_wool_corner",
-  "count": 5
+  "result": "caliber:red_wool_corner"
 }

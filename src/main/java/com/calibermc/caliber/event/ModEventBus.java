@@ -1,13 +1,12 @@
 package com.calibermc.caliber.event;
 
+import com.calibermc.buildify.util.player.IPlayerExtended;
 import com.calibermc.caliber.Caliber;
-
-import com.calibermc.caliber.block.custom.SlabLayerBlock;
-import com.calibermc.caliber.block.custom.VerticalSlabLayerBlock;
 import com.calibermc.caliber.command.CaliberCommands;
 import com.calibermc.caliber.config.CaliberCommonConfigs;
-import com.calibermc.caliber.util.ModBlockStateProperties;
-import com.calibermc.buildify.util.player.IPlayerExtended;
+import com.calibermc.caliberlib.block.custom.SlabLayerBlock;
+import com.calibermc.caliberlib.block.custom.VerticalSlabLayerBlock;
+import com.calibermc.caliberlib.util.ModBlockStateProperties;
 import net.minecraft.Util;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionHand;
@@ -26,29 +25,28 @@ import javax.annotation.Nullable;
 @Mod.EventBusSubscriber(modid = Caliber.MOD_ID)
 public class ModEventBus {
 
-
     @SubscribeEvent
     public static void preventRightClick(PlayerInteractEvent.RightClickBlock event) {
-        if (event.getPlayer() instanceof IPlayerExtended ex && event.getHand() == InteractionHand.MAIN_HAND) {
-            BlockState state = event.getWorld().getBlockState(event.getPos());
-            if (event.getPlayer().getItemInHand(event.getHand()).is(state.getBlock().asItem()) && state.hasProperty(BlockStateProperties.LAYERS) && !state.hasProperty(ModBlockStateProperties.FIVE_LAYERS)) {
+        if (event.getEntity() instanceof IPlayerExtended ex && event.getHand() == InteractionHand.MAIN_HAND) {
+            BlockState state = event.getLevel().getBlockState(event.getPos());
+            if (event.getEntity().getItemInHand(event.getHand()).is(state.getBlock().asItem()) && state.hasProperty(BlockStateProperties.LAYERS) && !state.hasProperty(ModBlockStateProperties.FIVE_LAYERS)) {
                 boolean slab = CaliberCommonConfigs.MODE_BLOCKSTATE.get() == 0;
                 if (ex.buildify$additionalPressed()) {
                     slab = !slab;                 }
                 if (slab && state.getValue(BlockStateProperties.LAYERS) == 4) {
                     int slabVal = 5;
                     if (state.getBlock() instanceof SlabLayerBlock || state.getBlock() instanceof VerticalSlabLayerBlock) {
-                        ItemStack stack = event.getPlayer().getItemInHand(event.getHand());
+                        ItemStack stack = event.getEntity().getItemInHand(event.getHand());
                         slabVal = 8;
-                        if (!event.getPlayer().isCreative()){
+                        if (!event.getEntity().isCreative()){
                             stack.shrink(4);
                         }
 
                     }
                     state = state.setValue(BlockStateProperties.LAYERS, slabVal);
-                    event.getWorld().setBlock(event.getPos(), state, 18);
-                    SoundType soundtype = state.getSoundType(event.getWorld(), event.getPos(), event.getPlayer());
-                    event.getWorld().playSound(event.getPlayer(), event.getPos(), soundtype.getPlaceSound(), SoundSource.BLOCKS, (soundtype.getVolume() + 1.0F) / 2.0F, soundtype.getPitch() * 0.8F);
+                    event.getLevel().setBlock(event.getPos(), state, 18);
+                    SoundType soundtype = state.getSoundType(event.getLevel(), event.getPos(), event.getEntity());
+                    event.getLevel().playSound(event.getEntity(), event.getPos(), soundtype.getPlaceSound(), SoundSource.BLOCKS, (soundtype.getVolume() + 1.0F) / 2.0F, soundtype.getPitch() * 0.8F);
                     event.setCanceled(true);
                 }
             }
@@ -72,6 +70,4 @@ public class ModEventBus {
     public static void registerCommands(RegisterCommandsEvent event) {
         CaliberCommands.register(event.getDispatcher());
     }
-
-
 }

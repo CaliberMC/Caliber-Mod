@@ -1,17 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:brown_wool"
     }
   },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
   "result": {
-    "item": "caliber:brown_wool_stairs",
-    "count": 4
-  }
+    "count": 4,
+    "item": "caliber:brown_wool_stairs"
+  },
+  "show_notification": true
 }

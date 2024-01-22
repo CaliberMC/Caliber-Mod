@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 5,
   "ingredient": {
     "item": "caliber:thatch"
   },
-  "result": "caliber:thatch_pillar",
-  "count": 5
+  "result": "caliber:thatch_pillar"
 }

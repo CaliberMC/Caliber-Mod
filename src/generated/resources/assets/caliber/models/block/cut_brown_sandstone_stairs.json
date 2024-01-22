@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/stairs",
   "textures": {
-    "side": "caliber:block/cut_brown_sandstone",
     "bottom": "caliber:block/brown_sandstone_top",
+    "side": "caliber:block/cut_brown_sandstone",
     "top": "caliber:block/brown_sandstone_top"
   }
 }

@@ -1,17 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:smooth_stone"
     }
   },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
   "result": {
-    "item": "caliber:smooth_limestone_stairs",
-    "count": 4
-  }
+    "count": 4,
+    "item": "caliber:smooth_limestone_stairs"
+  },
+  "show_notification": true
 }

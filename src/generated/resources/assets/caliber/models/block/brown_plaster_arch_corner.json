@@ -1,8 +1,8 @@
 {
   "parent": "caliber:block/templates/arch_corner",
   "textures": {
+    "bottom": "caliber:block/brown_plaster",
     "side": "caliber:block/brown_plaster",
-    "top": "caliber:block/brown_plaster",
-    "bottom": "caliber:block/brown_plaster"
+    "top": "caliber:block/brown_plaster"
   }
 }

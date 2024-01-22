@@ -1,15 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "caliber:mossy_stained_oak_boards"
     }
   },
+  "pattern": [
+    "###"
+  ],
   "result": {
-    "item": "caliber:mossy_stained_oak_board_slab",
-    "count": 24
-  }
+    "count": 24,
+    "item": "caliber:mossy_stained_oak_board_slab"
+  },
+  "show_notification": true
 }

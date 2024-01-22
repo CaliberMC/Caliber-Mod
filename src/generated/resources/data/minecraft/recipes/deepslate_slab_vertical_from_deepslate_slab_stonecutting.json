@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 1,
   "ingredient": {
     "item": "caliber:deepslate_slab"
   },
-  "result": "caliber:deepslate_slab_vertical",
-  "count": 1
+  "result": "caliber:deepslate_slab_vertical"
 }

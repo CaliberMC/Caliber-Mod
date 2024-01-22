@@ -1,6 +1,6 @@
 package com.calibermc.caliber.entity.ai;
 
-import com.calibermc.caliber.block.custom.TallDoorBlock;
+import com.calibermc.caliberlib.block.custom.TallDoorBlock;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.ai.goal.Goal;
@@ -29,7 +29,7 @@ public class TallDoorInteractGoal extends Goal {
       if (!this.hasDoor) {
          return false;
       } else {
-         BlockState blockstate = this.mob.level.getBlockState(this.doorPos);
+         BlockState blockstate = this.mob.getCommandSenderWorld().getBlockState(this.doorPos);
          if (!(blockstate.getBlock() instanceof TallDoorBlock)) {
             this.hasDoor = false;
             return false;
@@ -41,9 +41,9 @@ public class TallDoorInteractGoal extends Goal {
 
    protected void setOpen(boolean p_25196_) {
       if (this.hasDoor) {
-         BlockState blockstate = this.mob.level.getBlockState(this.doorPos);
+         BlockState blockstate = this.mob.getCommandSenderWorld().getBlockState(this.doorPos);
          if (blockstate.getBlock() instanceof TallDoorBlock) {
-            ((TallDoorBlock)blockstate.getBlock()).setOpen(this.mob, this.mob.level, blockstate, this.doorPos, p_25196_);
+            ((TallDoorBlock)blockstate.getBlock()).setOpen(this.mob, this.mob.getCommandSenderWorld(), blockstate, this.doorPos, p_25196_);
          }
       }
 
@@ -62,7 +62,7 @@ public class TallDoorInteractGoal extends Goal {
                Node node = path.getNode(i);
                this.doorPos = new BlockPos(node.x, node.y + 1, node.z);
                if (!(this.mob.distanceToSqr((double)this.doorPos.getX(), this.mob.getY(), (double)this.doorPos.getZ()) > 2.25D)) {
-                  this.hasDoor = TallDoorBlock.isWoodenDoor(this.mob.level, this.doorPos);
+                  this.hasDoor = TallDoorBlock.isWoodenDoor(this.mob.getCommandSenderWorld(), this.doorPos);
                   if (this.hasDoor) {
                      return true;
                   }
@@ -70,7 +70,7 @@ public class TallDoorInteractGoal extends Goal {
             }
 
             this.doorPos = this.mob.blockPosition().above();
-            this.hasDoor = TallDoorBlock.isWoodenDoor(this.mob.level, this.doorPos);
+            this.hasDoor = TallDoorBlock.isWoodenDoor(this.mob.getCommandSenderWorld(), this.doorPos);
             return this.hasDoor;
          } else {
             return false;

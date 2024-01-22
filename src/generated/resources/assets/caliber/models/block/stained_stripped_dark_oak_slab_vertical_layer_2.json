@@ -1,8 +1,8 @@
 {
   "parent": "caliber:block/templates/slab_vertical_layer_2",
   "textures": {
+    "bottom": "caliber:block/stained_stripped_dark_oak_wood",
     "side": "caliber:block/stained_stripped_dark_oak_wood",
-    "top": "caliber:block/stained_stripped_dark_oak_wood",
-    "bottom": "caliber:block/stained_stripped_dark_oak_wood"
+    "top": "caliber:block/stained_stripped_dark_oak_wood"
   }
 }

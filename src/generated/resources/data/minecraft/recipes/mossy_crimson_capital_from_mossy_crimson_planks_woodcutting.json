@@ -1,8 +1,8 @@
 {
   "type": "caliber:woodcutting",
+  "count": 2,
   "ingredient": {
     "item": "caliber:mossy_crimson_planks"
   },
-  "result": "caliber:mossy_crimson_capital",
-  "count": 2
+  "result": "caliber:mossy_crimson_capital"
 }

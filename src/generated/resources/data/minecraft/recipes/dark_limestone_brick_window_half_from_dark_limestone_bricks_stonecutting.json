@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "caliber:dark_limestone_bricks"
   },
-  "result": "caliber:dark_limestone_brick_window_half",
-  "count": 2
+  "result": "caliber:dark_limestone_brick_window_half"
 }

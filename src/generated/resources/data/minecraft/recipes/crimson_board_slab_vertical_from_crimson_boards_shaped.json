@@ -1,17 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " # ",
-    " # ",
-    " # "
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "caliber:crimson_boards"
     }
   },
+  "pattern": [
+    " # ",
+    " # ",
+    " # "
+  ],
   "result": {
-    "item": "caliber:crimson_board_slab_vertical",
-    "count": 24
-  }
+    "count": 24,
+    "item": "caliber:crimson_board_slab_vertical"
+  },
+  "show_notification": true
 }

@@ -2,7 +2,7 @@ package com.calibermc.caliber.util.compat;
 
 import com.calibermc.buildify.util.BlockPickerStatesJson;
 import com.calibermc.caliber.data.ModBlockFamilies;
-import com.calibermc.caliber.data.ModBlockFamily;
+import com.calibermc.caliberlib.data.ModBlockFamily;
 
 import java.util.ArrayList;
 

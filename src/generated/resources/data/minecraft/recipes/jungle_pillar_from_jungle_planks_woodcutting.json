@@ -1,8 +1,8 @@
 {
   "type": "caliber:woodcutting",
+  "count": 5,
   "ingredient": {
     "item": "minecraft:jungle_planks"
   },
-  "result": "caliber:jungle_pillar",
-  "count": 5
+  "result": "caliber:jungle_pillar"
 }

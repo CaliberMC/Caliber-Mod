@@ -1,16 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:dark_prismarine"
     }
   },
+  "pattern": [
+    "###",
+    "###"
+  ],
   "result": {
-    "item": "caliber:dark_prismarine_wall",
-    "count": 6
-  }
+    "count": 6,
+    "item": "caliber:dark_prismarine_wall"
+  },
+  "show_notification": true
 }

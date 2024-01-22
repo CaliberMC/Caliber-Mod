@@ -1,18 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "caliber:stained_oak_planks"
+    },
+    "X": {
+      "item": "caliber:stained_oak_door"
+    }
+  },
   "pattern": [
     "X",
     "#"
   ],
-  "key": {
-    "X": {
-      "item": "caliber:stained_oak_door"
-    },
-    "#": {
-      "item": "caliber:stained_oak_planks"
-    }
-  },
   "result": {
     "item": "caliber:tall_stained_oak_door"
-  }
+  },
+  "show_notification": true
 }

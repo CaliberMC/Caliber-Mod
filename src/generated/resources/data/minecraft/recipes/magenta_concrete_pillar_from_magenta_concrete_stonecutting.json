@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 5,
   "ingredient": {
     "item": "minecraft:magenta_concrete"
   },
-  "result": "caliber:magenta_concrete_pillar",
-  "count": 5
+  "result": "caliber:magenta_concrete_pillar"
 }

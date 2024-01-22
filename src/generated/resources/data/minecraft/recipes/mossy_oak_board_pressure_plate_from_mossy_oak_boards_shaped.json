@@ -1,14 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "##"
-  ],
+  "category": "redstone",
   "key": {
     "#": {
       "item": "caliber:mossy_oak_boards"
     }
   },
+  "pattern": [
+    "##"
+  ],
   "result": {
     "item": "caliber:mossy_oak_board_pressure_plate"
-  }
+  },
+  "show_notification": true
 }

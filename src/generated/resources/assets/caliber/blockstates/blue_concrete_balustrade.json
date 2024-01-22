@@ -1,25 +1,25 @@
 {
   "variants": {
-    "type=single": {
-      "model": "caliber:block/blue_concrete_balustrade"
+    "facing=east,type=connected": {
+      "model": "caliber:block/blue_concrete_balustrade_connected",
+      "uvlock": true,
+      "y": 90
     },
     "facing=north,type=connected": {
       "model": "caliber:block/blue_concrete_balustrade_connected"
     },
     "facing=south,type=connected": {
       "model": "caliber:block/blue_concrete_balustrade_connected",
-      "y": 180,
-      "uvlock": true
+      "uvlock": true,
+      "y": 180
     },
     "facing=west,type=connected": {
       "model": "caliber:block/blue_concrete_balustrade_connected",
-      "y": 270,
-      "uvlock": true
+      "uvlock": true,
+      "y": 270
     },
-    "facing=east,type=connected": {
-      "model": "caliber:block/blue_concrete_balustrade_connected",
-      "y": 90,
-      "uvlock": true
+    "type=single": {
+      "model": "caliber:block/blue_concrete_balustrade"
     }
   }
 }

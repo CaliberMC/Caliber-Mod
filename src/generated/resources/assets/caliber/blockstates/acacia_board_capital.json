@@ -1,10 +1,10 @@
 {
   "variants": {
-    "type=top": {
-      "model": "caliber:block/acacia_board_capital_top"
-    },
     "type=bottom": {
       "model": "caliber:block/acacia_board_capital"
+    },
+    "type=top": {
+      "model": "caliber:block/acacia_board_capital_top"
     }
   }
 }

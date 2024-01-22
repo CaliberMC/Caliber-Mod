@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_oak_boards": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caliber:oak_boards"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:oak_board_pressure_plate_from_oak_boards_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_oak_boards",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:oak_board_pressure_plate_from_oak_boards_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

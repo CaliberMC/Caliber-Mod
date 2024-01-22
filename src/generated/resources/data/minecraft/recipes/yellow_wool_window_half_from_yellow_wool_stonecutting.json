@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "minecraft:yellow_wool"
   },
-  "result": "caliber:yellow_wool_window_half",
-  "count": 2
+  "result": "caliber:yellow_wool_window_half"
 }

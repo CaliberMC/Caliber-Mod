@@ -1,72 +1,34 @@
 {
   "variants": {
-    "facing=north,layers=1,type=right": {
+    "facing=east,layers=1,type=left": {
       "model": "caliber:block/dripstone_quarter_vertical_layer_1"
-    },
-    "facing=south,layers=1,type=right": {
-      "model": "caliber:block/dripstone_quarter_vertical_layer_1",
-      "y": 180
-    },
-    "facing=west,layers=1,type=right": {
-      "model": "caliber:block/dripstone_quarter_vertical_layer_1",
-      "y": 270
     },
     "facing=east,layers=1,type=right": {
       "model": "caliber:block/dripstone_quarter_vertical_layer_1",
       "y": 90
     },
-    "facing=north,layers=2,type=right": {
+    "facing=east,layers=2,type=left": {
       "model": "caliber:block/dripstone_quarter_vertical_layer_2"
-    },
-    "facing=south,layers=2,type=right": {
-      "model": "caliber:block/dripstone_quarter_vertical_layer_2",
-      "y": 180
-    },
-    "facing=west,layers=2,type=right": {
-      "model": "caliber:block/dripstone_quarter_vertical_layer_2",
-      "y": 270
     },
     "facing=east,layers=2,type=right": {
       "model": "caliber:block/dripstone_quarter_vertical_layer_2",
       "y": 90
     },
-    "facing=north,layers=3,type=right": {
+    "facing=east,layers=3,type=left": {
       "model": "caliber:block/dripstone_quarter_vertical_layer_3"
-    },
-    "facing=south,layers=3,type=right": {
-      "model": "caliber:block/dripstone_quarter_vertical_layer_3",
-      "y": 180
-    },
-    "facing=west,layers=3,type=right": {
-      "model": "caliber:block/dripstone_quarter_vertical_layer_3",
-      "y": 270
     },
     "facing=east,layers=3,type=right": {
       "model": "caliber:block/dripstone_quarter_vertical_layer_3",
       "y": 90
     },
-    "facing=north,layers=4,type=right": {
+    "facing=east,layers=4,type=left": {
       "model": "caliber:block/dripstone_quarter_vertical_layer_4"
-    },
-    "facing=south,layers=4,type=right": {
-      "model": "caliber:block/dripstone_quarter_vertical_layer_4",
-      "y": 180
-    },
-    "facing=west,layers=4,type=right": {
-      "model": "caliber:block/dripstone_quarter_vertical_layer_4",
-      "y": 270
     },
     "facing=east,layers=4,type=right": {
       "model": "caliber:block/dripstone_quarter_vertical_layer_4",
       "y": 90
     },
-    "facing=north,layers=5,type=right": {
-      "model": "minecraft:block/dripstone_block"
-    },
-    "facing=south,layers=5,type=right": {
-      "model": "minecraft:block/dripstone_block"
-    },
-    "facing=west,layers=5,type=right": {
+    "facing=east,layers=5,type=left": {
       "model": "minecraft:block/dripstone_block"
     },
     "facing=east,layers=5,type=right": {
@@ -77,73 +39,111 @@
       "model": "caliber:block/dripstone_quarter_vertical_layer_1",
       "y": 270
     },
-    "facing=south,layers=1,type=left": {
-      "model": "caliber:block/dripstone_quarter_vertical_layer_1",
-      "y": 90
-    },
-    "facing=west,layers=1,type=left": {
-      "model": "caliber:block/dripstone_quarter_vertical_layer_1",
-      "y": 180
-    },
-    "facing=east,layers=1,type=left": {
+    "facing=north,layers=1,type=right": {
       "model": "caliber:block/dripstone_quarter_vertical_layer_1"
     },
     "facing=north,layers=2,type=left": {
       "model": "caliber:block/dripstone_quarter_vertical_layer_2",
       "y": 270
     },
-    "facing=south,layers=2,type=left": {
-      "model": "caliber:block/dripstone_quarter_vertical_layer_2",
-      "y": 90
-    },
-    "facing=west,layers=2,type=left": {
-      "model": "caliber:block/dripstone_quarter_vertical_layer_2",
-      "y": 180
-    },
-    "facing=east,layers=2,type=left": {
+    "facing=north,layers=2,type=right": {
       "model": "caliber:block/dripstone_quarter_vertical_layer_2"
     },
     "facing=north,layers=3,type=left": {
       "model": "caliber:block/dripstone_quarter_vertical_layer_3",
       "y": 270
     },
-    "facing=south,layers=3,type=left": {
-      "model": "caliber:block/dripstone_quarter_vertical_layer_3",
-      "y": 90
-    },
-    "facing=west,layers=3,type=left": {
-      "model": "caliber:block/dripstone_quarter_vertical_layer_3",
-      "y": 180
-    },
-    "facing=east,layers=3,type=left": {
+    "facing=north,layers=3,type=right": {
       "model": "caliber:block/dripstone_quarter_vertical_layer_3"
     },
     "facing=north,layers=4,type=left": {
       "model": "caliber:block/dripstone_quarter_vertical_layer_4",
       "y": 270
     },
-    "facing=south,layers=4,type=left": {
-      "model": "caliber:block/dripstone_quarter_vertical_layer_4",
-      "y": 90
-    },
-    "facing=west,layers=4,type=left": {
-      "model": "caliber:block/dripstone_quarter_vertical_layer_4",
-      "y": 180
-    },
-    "facing=east,layers=4,type=left": {
+    "facing=north,layers=4,type=right": {
       "model": "caliber:block/dripstone_quarter_vertical_layer_4"
     },
     "facing=north,layers=5,type=left": {
       "model": "minecraft:block/dripstone_block",
       "y": 270
     },
+    "facing=north,layers=5,type=right": {
+      "model": "minecraft:block/dripstone_block"
+    },
+    "facing=south,layers=1,type=left": {
+      "model": "caliber:block/dripstone_quarter_vertical_layer_1",
+      "y": 90
+    },
+    "facing=south,layers=1,type=right": {
+      "model": "caliber:block/dripstone_quarter_vertical_layer_1",
+      "y": 180
+    },
+    "facing=south,layers=2,type=left": {
+      "model": "caliber:block/dripstone_quarter_vertical_layer_2",
+      "y": 90
+    },
+    "facing=south,layers=2,type=right": {
+      "model": "caliber:block/dripstone_quarter_vertical_layer_2",
+      "y": 180
+    },
+    "facing=south,layers=3,type=left": {
+      "model": "caliber:block/dripstone_quarter_vertical_layer_3",
+      "y": 90
+    },
+    "facing=south,layers=3,type=right": {
+      "model": "caliber:block/dripstone_quarter_vertical_layer_3",
+      "y": 180
+    },
+    "facing=south,layers=4,type=left": {
+      "model": "caliber:block/dripstone_quarter_vertical_layer_4",
+      "y": 90
+    },
+    "facing=south,layers=4,type=right": {
+      "model": "caliber:block/dripstone_quarter_vertical_layer_4",
+      "y": 180
+    },
     "facing=south,layers=5,type=left": {
       "model": "minecraft:block/dripstone_block"
+    },
+    "facing=south,layers=5,type=right": {
+      "model": "minecraft:block/dripstone_block"
+    },
+    "facing=west,layers=1,type=left": {
+      "model": "caliber:block/dripstone_quarter_vertical_layer_1",
+      "y": 180
+    },
+    "facing=west,layers=1,type=right": {
+      "model": "caliber:block/dripstone_quarter_vertical_layer_1",
+      "y": 270
+    },
+    "facing=west,layers=2,type=left": {
+      "model": "caliber:block/dripstone_quarter_vertical_layer_2",
+      "y": 180
+    },
+    "facing=west,layers=2,type=right": {
+      "model": "caliber:block/dripstone_quarter_vertical_layer_2",
+      "y": 270
+    },
+    "facing=west,layers=3,type=left": {
+      "model": "caliber:block/dripstone_quarter_vertical_layer_3",
+      "y": 180
+    },
+    "facing=west,layers=3,type=right": {
+      "model": "caliber:block/dripstone_quarter_vertical_layer_3",
+      "y": 270
+    },
+    "facing=west,layers=4,type=left": {
+      "model": "caliber:block/dripstone_quarter_vertical_layer_4",
+      "y": 180
+    },
+    "facing=west,layers=4,type=right": {
+      "model": "caliber:block/dripstone_quarter_vertical_layer_4",
+      "y": 270
     },
     "facing=west,layers=5,type=left": {
       "model": "minecraft:block/dripstone_block"
     },
-    "facing=east,layers=5,type=left": {
+    "facing=west,layers=5,type=right": {
       "model": "minecraft:block/dripstone_block"
     }
   }

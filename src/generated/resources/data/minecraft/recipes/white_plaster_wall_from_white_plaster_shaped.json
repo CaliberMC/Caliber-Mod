@@ -1,16 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "caliber:white_plaster"
     }
   },
+  "pattern": [
+    "###",
+    "###"
+  ],
   "result": {
-    "item": "caliber:white_plaster_wall",
-    "count": 6
-  }
+    "count": 6,
+    "item": "caliber:white_plaster_wall"
+  },
+  "show_notification": true
 }

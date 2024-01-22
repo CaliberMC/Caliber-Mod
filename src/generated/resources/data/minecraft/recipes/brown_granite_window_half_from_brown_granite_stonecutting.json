@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "caliber:brown_granite"
   },
-  "result": "caliber:brown_granite_window_half",
-  "count": 2
+  "result": "caliber:brown_granite_window_half"
 }

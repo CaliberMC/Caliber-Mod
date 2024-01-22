@@ -1,17 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:stripped_spruce_wood"
     }
   },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
   "result": {
-    "item": "caliber:stripped_spruce_stairs",
-    "count": 4
-  }
+    "count": 4,
+    "item": "caliber:stripped_spruce_stairs"
+  },
+  "show_notification": true
 }

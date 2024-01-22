@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 1,
   "ingredient": {
     "item": "caliber:mossy_cobbled_dark_limestone_slab_vertical"
   },
-  "result": "caliber:mossy_cobbled_dark_limestone_slab",
-  "count": 1
+  "result": "caliber:mossy_cobbled_dark_limestone_slab"
 }

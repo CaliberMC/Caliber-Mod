@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stained_oak_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caliber:stained_oak_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:stained_oak_slab_from_stained_oak_planks_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_stained_oak_planks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:stained_oak_slab_from_stained_oak_planks_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

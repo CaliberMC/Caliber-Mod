@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "minecraft:gray_wool"
   },
-  "result": "caliber:gray_wool_capital",
-  "count": 2
+  "result": "caliber:gray_wool_capital"
 }

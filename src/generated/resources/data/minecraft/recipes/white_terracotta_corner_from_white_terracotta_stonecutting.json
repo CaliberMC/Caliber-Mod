@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 5,
   "ingredient": {
     "item": "minecraft:white_terracotta"
   },
-  "result": "caliber:white_terracotta_corner",
-  "count": 5
+  "result": "caliber:white_terracotta_corner"
 }

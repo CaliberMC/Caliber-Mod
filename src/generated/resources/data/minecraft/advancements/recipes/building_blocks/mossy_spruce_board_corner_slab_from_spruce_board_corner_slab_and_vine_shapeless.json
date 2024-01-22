@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mossy_spruce_boards": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caliber:mossy_spruce_boards"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:mossy_spruce_board_corner_slab_from_spruce_board_corner_slab_and_vine_shapeless"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_mossy_spruce_boards",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:mossy_spruce_board_corner_slab_from_spruce_board_corner_slab_and_vine_shapeless"
+    ]
+  },
+  "sends_telemetry_event": false
+}

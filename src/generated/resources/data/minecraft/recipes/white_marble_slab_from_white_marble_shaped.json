@@ -1,15 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "caliber:white_marble"
     }
   },
+  "pattern": [
+    "###"
+  ],
   "result": {
-    "item": "caliber:white_marble_slab",
-    "count": 24
-  }
+    "count": 24,
+    "item": "caliber:white_marble_slab"
+  },
+  "show_notification": true
 }

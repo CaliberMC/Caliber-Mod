@@ -1,15 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:pink_concrete"
     }
   },
+  "pattern": [
+    "###"
+  ],
   "result": {
-    "item": "caliber:pink_concrete_slab",
-    "count": 24
-  }
+    "count": 24,
+    "item": "caliber:pink_concrete_slab"
+  },
+  "show_notification": true
 }

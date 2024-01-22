@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/door_top_rh",
-  "textures": {
-    "bottom": "caliber:block/stained_acacia_door_bottom",
-    "top": "caliber:block/stained_acacia_door_top"
-  }
-}

@@ -1,6 +1,6 @@
 package com.calibermc.caliber.mixin;
 
-import com.calibermc.caliber.block.custom.TallDoorBlock;
+import com.calibermc.caliberlib.block.custom.TallDoorBlock;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.ai.goal.DoorInteractGoal;
@@ -24,7 +24,7 @@ public class DoorInteractGoalMixin
 
 	@Inject(method = "isOpen()Z", at = @At("HEAD"), cancellable = true)
 	private void injectIsDoorOpen(CallbackInfoReturnable<Boolean> cir) {
-        BlockState blockStateDD = this.mob.level.getBlockState(this.doorPos);
+        BlockState blockStateDD = this.mob.getCommandSenderWorld().getBlockState(this.doorPos);
         if (this.hasDoor && blockStateDD.getBlock() instanceof TallDoorBlock) {
             cir.setReturnValue(blockStateDD.getValue(TallDoorBlock.OPEN));
         }
@@ -33,14 +33,14 @@ public class DoorInteractGoalMixin
 	@Inject(method = "setOpen(Z)V", at = @At("TAIL"))
 	private void injectSetDoorOpen(boolean open, CallbackInfo ci) {
 		BlockState tallDoorBlockState;
-        if (this.hasDoor && (tallDoorBlockState = this.mob.level.getBlockState(this.doorPos)).getBlock() instanceof TallDoorBlock) {
-            ((TallDoorBlock)tallDoorBlockState.getBlock()).setOpen(this.mob, this.mob.level, tallDoorBlockState, this.doorPos, open);
+        if (this.hasDoor && (tallDoorBlockState = this.mob.getCommandSenderWorld().getBlockState(this.doorPos)).getBlock() instanceof TallDoorBlock) {
+            ((TallDoorBlock)tallDoorBlockState.getBlock()).setOpen(this.mob, this.mob.getCommandSenderWorld(), tallDoorBlockState, this.doorPos, open);
         }
 	}
 
 	@Inject(method = "canUse()Z", at = @At(value = "INVOKE", target = "Lnet/minecraft/world/level/block/DoorBlock;isWoodenDoor(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Z", shift = At.Shift.AFTER), cancellable = true)
 	private void injectCanStart(CallbackInfoReturnable<Boolean> ci) {
-		this.hasDoor = TallDoorBlock.isWoodenDoor(this.mob.level, this.doorPos);
+		this.hasDoor = TallDoorBlock.isWoodenDoor(this.mob.getCommandSenderWorld(), this.doorPos);
 		if (this.hasDoor) {
 			ci.setReturnValue(true);
 		}

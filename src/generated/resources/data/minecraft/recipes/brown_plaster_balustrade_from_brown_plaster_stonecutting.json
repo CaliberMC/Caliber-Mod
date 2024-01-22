@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "caliber:brown_plaster"
   },
-  "result": "caliber:brown_plaster_balustrade",
-  "count": 2
+  "result": "caliber:brown_plaster_balustrade"
 }

@@ -1,5 +1,9 @@
 {
   "variants": {
+    "facing=east": {
+      "model": "caliber:block/white_plaster_arrowslit",
+      "y": 90
+    },
     "facing=north": {
       "model": "caliber:block/white_plaster_arrowslit"
     },
@@ -10,10 +14,6 @@
     "facing=west": {
       "model": "caliber:block/white_plaster_arrowslit",
       "y": 270
-    },
-    "facing=east": {
-      "model": "caliber:block/white_plaster_arrowslit",
-      "y": 90
     }
   }
 }

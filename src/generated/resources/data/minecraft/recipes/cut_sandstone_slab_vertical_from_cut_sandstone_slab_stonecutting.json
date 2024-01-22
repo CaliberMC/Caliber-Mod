@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 1,
   "ingredient": {
     "item": "caliber:cut_sandstone_slab"
   },
-  "result": "caliber:cut_sandstone_slab_vertical",
-  "count": 1
+  "result": "caliber:cut_sandstone_slab_vertical"
 }

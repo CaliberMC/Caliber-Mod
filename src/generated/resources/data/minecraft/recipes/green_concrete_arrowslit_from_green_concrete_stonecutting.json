@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "minecraft:green_concrete"
   },
-  "result": "caliber:green_concrete_arrowslit",
-  "count": 2
+  "result": "caliber:green_concrete_arrowslit"
 }

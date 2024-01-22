@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mossy_warped_boards": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caliber:mossy_warped_boards"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:mossy_warped_board_stairs_from_mossy_warped_boards_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_mossy_warped_boards",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:mossy_warped_board_stairs_from_mossy_warped_boards_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

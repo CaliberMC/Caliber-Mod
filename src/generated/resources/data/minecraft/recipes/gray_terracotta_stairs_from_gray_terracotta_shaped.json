@@ -1,17 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:gray_terracotta"
     }
   },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
   "result": {
-    "item": "caliber:gray_terracotta_stairs",
-    "count": 4
-  }
+    "count": 4,
+    "item": "caliber:gray_terracotta_stairs"
+  },
+  "show_notification": true
 }

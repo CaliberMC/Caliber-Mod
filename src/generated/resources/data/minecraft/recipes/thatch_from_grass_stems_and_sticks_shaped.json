@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "XXX",
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "caliber:grass_stems"
@@ -13,8 +9,14 @@
       "item": "minecraft:stick"
     }
   },
+  "pattern": [
+    "###",
+    "XXX",
+    "###"
+  ],
   "result": {
-    "item": "caliber:thatch",
-    "count": 9
-  }
+    "count": 9,
+    "item": "caliber:thatch"
+  },
+  "show_notification": true
 }

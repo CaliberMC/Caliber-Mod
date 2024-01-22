@@ -327,19 +327,17 @@ _ Added all Terracotta Roof variants
 - Bugfix: fixed issue that was preventing startup of dedicated servers
 - Bugfix: fixed villagers not able to use Tall Doors
 
--0.1.4
-There are some major changes coming to Caliber Mod in the next couple of weeks! The mod is being further split into several parts to allow for the most customizable
-experience for every player. Please be prepared for the changes and watch the changelog before installing the new versions as you will need the other mods to keep
-your current builds intact once the "split" has occured.
-    - Caliber Lib: will contain all of my re-useable code and will be the foundation for all of my future mods.
-    - Caliber Mod: will contain all of the Vanilla Block variants/shapes
-    - Natures Canvas: will contain custom biomes and world generation features along with all variants that are products of the generated environment. (light limestone, black granite, etc)
-    - Buildify: will continue to be the mod for a more customized player experience. The Block Picker, Custom GUIs, etc will be located in this mod.
+-0.2.0 - 1.20.1
+- Added Forge 1.20.1 support
+- Removed Sorting Buttons
+- Removed World Gen
+- Added Fir, Pine and Redwood Blocks (will be adding more)
 - Updated translations en_us
 - Bugfix: fixed layered slab block collision shape
 - Bugfix: fixed black/transparent textures on Tall Doors
 - Bugfix: fixed red_sand_layer texture showing as sand
 - Bugfix: fixed slab_layer removing block from inventory on placement of double_slab in Slab Mode
+
 
 
 

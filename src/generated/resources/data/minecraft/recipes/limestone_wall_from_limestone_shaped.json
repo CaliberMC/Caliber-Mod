@@ -1,16 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:stone"
     }
   },
+  "pattern": [
+    "###",
+    "###"
+  ],
   "result": {
-    "item": "caliber:limestone_wall",
-    "count": 6
-  }
+    "count": 6,
+    "item": "caliber:limestone_wall"
+  },
+  "show_notification": true
 }

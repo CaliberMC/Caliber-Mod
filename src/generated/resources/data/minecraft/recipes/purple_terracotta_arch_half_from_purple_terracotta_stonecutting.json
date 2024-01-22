@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "minecraft:purple_terracotta"
   },
-  "result": "caliber:purple_terracotta_arch_half",
-  "count": 2
+  "result": "caliber:purple_terracotta_arch_half"
 }

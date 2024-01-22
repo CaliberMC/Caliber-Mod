@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 5,
   "ingredient": {
     "item": "caliber:pink_marble"
   },
-  "result": "caliber:pink_marble_pillar",
-  "count": 5
+  "result": "caliber:pink_marble_pillar"
 }

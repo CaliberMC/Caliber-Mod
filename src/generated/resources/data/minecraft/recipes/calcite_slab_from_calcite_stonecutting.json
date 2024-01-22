@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 8,
   "ingredient": {
     "item": "minecraft:calcite"
   },
-  "result": "caliber:calcite_slab",
-  "count": 8
+  "result": "caliber:calcite_slab"
 }

@@ -1,17 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "caliber:pink_limestone_bricks"
     }
   },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
   "result": {
-    "item": "caliber:pink_limestone_brick_stairs",
-    "count": 4
-  }
+    "count": 4,
+    "item": "caliber:pink_limestone_brick_stairs"
+  },
+  "show_notification": true
 }

@@ -1,11 +1,9 @@
 package com.calibermc.caliber.block.properties;
 
 import com.calibermc.caliber.block.ModBlocks;
-import com.calibermc.caliber.block.management.CaliberBlockHelper;
-import com.calibermc.caliber.data.ModBlockFamily;
+import com.calibermc.caliberlib.data.ModBlockFamily;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
-import net.minecraft.world.level.block.Block;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 

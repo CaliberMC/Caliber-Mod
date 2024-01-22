@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 5,
   "ingredient": {
     "item": "caliber:brown_sandstone"
   },
-  "result": "caliber:brown_sandstone_quarter_vertical",
-  "count": 5
+  "result": "caliber:brown_sandstone_quarter_vertical"
 }

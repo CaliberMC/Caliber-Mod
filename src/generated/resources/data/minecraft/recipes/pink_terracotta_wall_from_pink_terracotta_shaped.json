@@ -1,16 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:pink_terracotta"
     }
   },
+  "pattern": [
+    "###",
+    "###"
+  ],
   "result": {
-    "item": "caliber:pink_terracotta_wall",
-    "count": 6
-  }
+    "count": 6,
+    "item": "caliber:pink_terracotta_wall"
+  },
+  "show_notification": true
 }

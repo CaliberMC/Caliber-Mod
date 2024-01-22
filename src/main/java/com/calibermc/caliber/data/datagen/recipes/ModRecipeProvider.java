@@ -1,10 +1,10 @@
 package com.calibermc.caliber.data.datagen.recipes;
 
 import com.calibermc.caliber.Caliber;
-import com.calibermc.caliber.block.management.BlockManager;
+import com.calibermc.caliberlib.block.management.BlockManager;
 import com.calibermc.caliber.block.properties.ModMaterials;
 import com.calibermc.caliber.crafting.ModRecipeBuilder;
-import com.calibermc.caliber.data.ModBlockFamily;
+import com.calibermc.caliberlib.data.ModBlockFamily;
 import com.calibermc.caliber.item.ModItems;
 import com.mojang.datafixers.util.Function3;
 import com.mojang.datafixers.util.Pair;
@@ -17,7 +17,7 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.block.state.properties.WoodType;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
 import java.util.Map;
@@ -30,16 +30,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     public static int recipeCount = 152; // Recipes from MiscRecipeProvider
 
     public ModRecipeProvider(DataGenerator pGenerator) {
-        super(pGenerator);
+        super(pGenerator.getPackOutput());
     }
 
     @Override
-    protected void buildCraftingRecipes(Consumer<FinishedRecipe> recipeConsumer) {
-        for (BlockManager blockManager : BlockManager.BLOCK_MANAGERS) {
+    protected void buildRecipes(Consumer<FinishedRecipe> recipeConsumer) {
+        for (BlockManager blockManager : BlockManager.BLOCK_MANAGERS.get(Caliber.MOD_ID)) {
             try {
                 if (blockManager.baseBlock() != null) {
-                    Material material = blockManager.baseBlock().defaultBlockState().getMaterial();
-                    generateRecipes(blockManager, material == Material.WOOD || material == Material.NETHER_WOOD || material == ModMaterials.TUDOR_1 || material == ModMaterials.TUDOR_2 , recipeConsumer);
+                    boolean wood = WoodType.values().anyMatch(p -> p.name().equals(blockManager.blockType().name()));
+                    generateRecipes(blockManager, wood || blockManager.blockType() == ModMaterials.TUDOR_1 || blockManager.blockType() == ModMaterials.TUDOR_2 , recipeConsumer);
                 }
             } catch (Exception e) {
                 e.printStackTrace();
@@ -61,7 +61,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
             if (wood) {
                 return ModRecipeBuilder.woodcutting(a, b, c);
             }
-            return SingleItemRecipeBuilder.stonecutting(a, b, c);
+            return SingleItemRecipeBuilder.stonecutting(a, RecipeCategory.BUILDING_BLOCKS, b, c);
         };
 
         for (Map.Entry<BlockManager.BlockAdditional, Pair<ResourceLocation, Supplier<Block>>> e : manager.getBlocks().entrySet()) {
@@ -124,29 +124,29 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 }
 
                 case BUTTON -> {
-                    ShapelessRecipeBuilder.shapeless(block).requires(baseBlock).unlockedBy(criterionBy,
+                    ShapelessRecipeBuilder.shapeless(RecipeCategory.REDSTONE, block).requires(baseBlock).unlockedBy(criterionBy,
                             inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, "%s_from_%s_shaped".formatted(path, name));
 
                     stoneOrWoodcutting.apply(Ingredient.of(baseBlock), block, 1).unlockedBy(criterionBy,
                             inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, n);
                 }
                 case FENCE -> {
-                    ShapedRecipeBuilder.shaped(block, 3).define('#', baseBlock).define('X', Items.STICK).pattern("#X#").pattern("#X#").unlockedBy(criterionBy,
+                    ShapedRecipeBuilder.shaped(RecipeCategory.REDSTONE, block, 3).define('#', baseBlock).define('X', Items.STICK).pattern("#X#").pattern("#X#").unlockedBy(criterionBy,
                             inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, "%s_from_%s_and_sticks_shaped".formatted(path, name));
 
-                    SingleItemRecipeBuilder.stonecutting(Ingredient.of(baseBlock), block, 1).unlockedBy(criterionBy,
+                    SingleItemRecipeBuilder.stonecutting(Ingredient.of(baseBlock), RecipeCategory.REDSTONE, block, 1).unlockedBy(criterionBy,
                             inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, "%s_from_%s_%scutting".formatted(path, name, woodOrStone));
 
                 }
                 case PRESSURE_PLATE -> {
-                    ShapedRecipeBuilder.shaped(block).define('#', baseBlock).pattern("##").unlockedBy(criterionBy,
+                    ShapedRecipeBuilder.shaped(RecipeCategory.REDSTONE, block).define('#', baseBlock).pattern("##").unlockedBy(criterionBy,
                             inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, "%s_from_%s_shaped".formatted(path, name));
 
                     stoneOrWoodcutting.apply(Ingredient.of(baseBlock), block, 1).unlockedBy(criterionBy,
                             inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, n);
                 }
                 case SLAB -> {
-                    ShapedRecipeBuilder.shaped(block, 24).define('#', baseBlock).pattern("###").unlockedBy(criterionBy,
+                    ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, block, 24).define('#', baseBlock).pattern("###").unlockedBy(criterionBy,
                             inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, "%s_from_%s_shaped".formatted(path, name));
 
                     stoneOrWoodcutting.apply(Ingredient.of(manager.get(ModBlockFamily.Variant.SLAB_VERTICAL)), (block), 1).unlockedBy(criterionBy,
@@ -161,7 +161,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
                 }
                 case SLAB_VERTICAL -> {
-                    ShapedRecipeBuilder.shaped(block, 24).define('#', baseBlock).pattern(" # ").pattern(" # ").pattern(" # ").unlockedBy(criterionBy,
+                    ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, block, 24).define('#', baseBlock).pattern(" # ").pattern(" # ").pattern(" # ").unlockedBy(criterionBy,
                             inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, "%s_from_%s_shaped".formatted(path, name));
 
                     stoneOrWoodcutting.apply(Ingredient.of(manager.get(ModBlockFamily.Variant.SLAB)), (block), 1).unlockedBy(criterionBy,
@@ -175,7 +175,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                     mossyVariantRecipes(manager, finished, name, baseBlock, criterionBy, e, path, block);
                 }
                 case STAIRS -> {
-                    ShapedRecipeBuilder.shaped(manager.get(ModBlockFamily.Variant.STAIRS), 4).define('#', baseBlock).pattern("#  ").pattern("## ").pattern("###").unlockedBy(criterionBy,
+                    ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, manager.get(ModBlockFamily.Variant.STAIRS), 4).define('#', baseBlock).pattern("#  ").pattern("## ").pattern("###").unlockedBy(criterionBy,
                             inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, "%s_from_%s_shaped".formatted(path, name));
 
                     stoneOrWoodcutting.apply(Ingredient.of(baseBlock), block, 1).unlockedBy(criterionBy,
@@ -187,8 +187,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
                 }
                 case WALL -> {
-                    if (block.defaultBlockState().getMaterial() != Material.WOOD) {
-                        ShapedRecipeBuilder.shaped(manager.get(ModBlockFamily.Variant.WALL), 6).define('#', baseBlock).pattern("###").pattern("###").unlockedBy(criterionBy,
+                    if (!wood) {
+                        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, manager.get(ModBlockFamily.Variant.WALL), 6).define('#', baseBlock).pattern("###").pattern("###").unlockedBy(criterionBy,
                                 inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, "%s_from_%s_shaped".formatted(path, name));
                     }
 
@@ -249,13 +249,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                     }
                 }
 
-                Optional<BlockManager> woodBlockManager = BlockManager.BLOCK_MANAGERS.stream()
+                Optional<BlockManager> woodBlockManager = BlockManager.BLOCK_MANAGERS.get(Caliber.MOD_ID).stream()
                         .filter(m -> m.getName().equals(woodType + "_boards")).findFirst();
-                Optional<BlockManager> plasterBlockManager = BlockManager.BLOCK_MANAGERS.stream()
+                Optional<BlockManager> plasterBlockManager = BlockManager.BLOCK_MANAGERS.get(Caliber.MOD_ID).stream()
                         .filter(m -> m.getName().startsWith(plasterColor + "_plaster")).findFirst();
 
                 if (woodBlockManager.isPresent() && plasterBlockManager.isPresent()) {
-                    ShapelessRecipeBuilder.shapeless(block, 1)
+                    ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, block, 1)
                             .requires(woodBlockManager.get().get(e.getKey().variant))
                             .requires(plasterBlockManager.get().get(e.getKey().variant))
                             .unlockedBy(criterionBy,
@@ -277,16 +277,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     private void stainedVariantRecipe(BlockManager manager, Consumer<FinishedRecipe> finished, String name, Block baseBlock, String criterionBy, Map.Entry<BlockManager.BlockAdditional, Pair<ResourceLocation, Supplier<Block>>> e, String path, Block block) {
         if (name.contains("stained") && !name.contains("tudor") && !name.contains("mossy")) {
-            BlockManager blockManager = BlockManager.BLOCK_MANAGERS.stream()
+            BlockManager blockManager = BlockManager.BLOCK_MANAGERS.get(Caliber.MOD_ID).stream()
                     .filter(m -> manager.getName().replace("stained_", "").equals(m.getName()))
                     .findFirst()
-                    .orElseGet(() -> BlockManager.BLOCK_MANAGERS.stream()
+                    .orElseGet(() -> BlockManager.BLOCK_MANAGERS.get(Caliber.MOD_ID).stream()
                             .filter(m -> m.getName().replace("caliber:", "minecraft:").equals(manager.getName().replace("stained_", "")))
                             .findFirst()
                             .orElseThrow(() -> new RuntimeException("No matching BlockManager found: " + manager.getName())));
 
             if (blockManager.getByVariant(e.getKey().variant) != null) {
-                ShapelessRecipeBuilder.shapeless(block, 1)
+                ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, block, 1)
                         .requires(ModItems.RESIN.get())
                         .requires(blockManager.get(e.getKey().variant))
                         .unlockedBy(criterionBy, inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build()))
@@ -361,18 +361,18 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         //ORIGINAL
     private void mossyVariantRecipes(BlockManager manager, Consumer<FinishedRecipe> finished, String name, Block baseBlock, String criterionBy, Map.Entry<BlockManager.BlockAdditional, Pair<ResourceLocation, Supplier<Block>>> e, String path, Block block) {
         if (name.contains("mossy") && !name.contains("tudor")) {
-            Optional<BlockManager> optionalManager = BlockManager.BLOCK_MANAGERS.stream()
+            Optional<BlockManager> optionalManager = BlockManager.BLOCK_MANAGERS.get(Caliber.MOD_ID).stream()
                     .filter(m -> manager.getName().replace("mossy_", "").equals(m.getName()))
                     .findFirst();
 
             if (optionalManager.isPresent()) {
                 if (optionalManager.get().getByVariant(e.getKey().variant) != null) {
-                    ShapelessRecipeBuilder.shapeless(block, 1).requires(Items.VINE)
+                    ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, block, 1).requires(Items.VINE)
                             .requires(optionalManager.get().get(e.getKey().variant))
                             .unlockedBy(criterionBy, inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build()))
                             .save(finished, "%s_from_%s_and_vine_shapeless".formatted(path, path.replace("mossy_", "")));
 
-                    ShapelessRecipeBuilder.shapeless(block, 1).requires(Blocks.MOSS_BLOCK)
+                    ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, block, 1).requires(Blocks.MOSS_BLOCK)
                             .requires(optionalManager.get().get(e.getKey().variant))
                             .unlockedBy(criterionBy, inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build()))
                             .save(finished, "%s_from_%s_and_moss_shapeless".formatted(path, path.replace("mossy_", "")));
@@ -385,12 +385,12 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     private void smoothBaseBlockRecipe(BlockManager manager, Consumer<FinishedRecipe> finished, String name, Block baseBlock, String criterionBy, Map.Entry<BlockManager.BlockAdditional, Pair<ResourceLocation, Supplier<Block>>> e, String path, Block block) {
         if (name.contains("smooth")) {
-            Optional<BlockManager> optionalManager = BlockManager.BLOCK_MANAGERS.stream()
+            Optional<BlockManager> optionalManager = BlockManager.BLOCK_MANAGERS.get(Caliber.MOD_ID).stream()
                     .filter(m -> manager.getName().replace("smooth_", "").equals(m.getName())).findFirst();
 
             if (optionalManager.isPresent()) {
                 if (optionalManager.get().getByVariant(e.getKey().variant) != null) {
-                    SimpleCookingRecipeBuilder.smelting(Ingredient.of(baseBlock), block, 0.1f, 200)
+                    SimpleCookingRecipeBuilder.smelting(Ingredient.of(baseBlock), RecipeCategory.BUILDING_BLOCKS, block, 0.1f, 200)
                             .unlockedBy(criterionBy, inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build()))
                             .save(finished, "%s_from_%s_smelting".formatted(path, path.replace("smooth_", "")));
                 }

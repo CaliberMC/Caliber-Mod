@@ -1,64 +1,64 @@
 {
   "variants": {
-    "facing=north,type=top": {
-      "model": "caliber:block/tan_limestone_brick_window_half_trim"
-    },
-    "facing=south,type=top": {
-      "model": "caliber:block/tan_limestone_brick_window_half_trim",
-      "y": 180
-    },
-    "facing=west,type=top": {
-      "model": "caliber:block/tan_limestone_brick_window_half_trim",
-      "y": 270
-    },
-    "facing=east,type=top": {
-      "model": "caliber:block/tan_limestone_brick_window_half_trim",
+    "facing=east,type=bottom": {
+      "model": "caliber:block/tan_limestone_brick_window_half_cross",
       "y": 90
     },
-    "facing=north,type=middle": {
-      "model": "caliber:block/tan_limestone_brick_window_half_trim2"
-    },
-    "facing=south,type=middle": {
-      "model": "caliber:block/tan_limestone_brick_window_half_trim2",
-      "y": 180
-    },
-    "facing=west,type=middle": {
-      "model": "caliber:block/tan_limestone_brick_window_half_trim2",
-      "y": 270
+    "facing=east,type=full_block": {
+      "model": "caliber:block/tan_limestone_brick_window_half",
+      "y": 90
     },
     "facing=east,type=middle": {
       "model": "caliber:block/tan_limestone_brick_window_half_trim2",
       "y": 90
     },
+    "facing=east,type=top": {
+      "model": "caliber:block/tan_limestone_brick_window_half_trim",
+      "y": 90
+    },
     "facing=north,type=bottom": {
       "model": "caliber:block/tan_limestone_brick_window_half_cross"
     },
+    "facing=north,type=full_block": {
+      "model": "caliber:block/tan_limestone_brick_window_half"
+    },
+    "facing=north,type=middle": {
+      "model": "caliber:block/tan_limestone_brick_window_half_trim2"
+    },
+    "facing=north,type=top": {
+      "model": "caliber:block/tan_limestone_brick_window_half_trim"
+    },
     "facing=south,type=bottom": {
       "model": "caliber:block/tan_limestone_brick_window_half_cross",
+      "y": 180
+    },
+    "facing=south,type=full_block": {
+      "model": "caliber:block/tan_limestone_brick_window_half",
+      "y": 180
+    },
+    "facing=south,type=middle": {
+      "model": "caliber:block/tan_limestone_brick_window_half_trim2",
+      "y": 180
+    },
+    "facing=south,type=top": {
+      "model": "caliber:block/tan_limestone_brick_window_half_trim",
       "y": 180
     },
     "facing=west,type=bottom": {
       "model": "caliber:block/tan_limestone_brick_window_half_cross",
       "y": 270
     },
-    "facing=east,type=bottom": {
-      "model": "caliber:block/tan_limestone_brick_window_half_cross",
-      "y": 90
-    },
-    "facing=north,type=full_block": {
-      "model": "caliber:block/tan_limestone_brick_window_half"
-    },
-    "facing=south,type=full_block": {
-      "model": "caliber:block/tan_limestone_brick_window_half",
-      "y": 180
-    },
     "facing=west,type=full_block": {
       "model": "caliber:block/tan_limestone_brick_window_half",
       "y": 270
     },
-    "facing=east,type=full_block": {
-      "model": "caliber:block/tan_limestone_brick_window_half",
-      "y": 90
+    "facing=west,type=middle": {
+      "model": "caliber:block/tan_limestone_brick_window_half_trim2",
+      "y": 270
+    },
+    "facing=west,type=top": {
+      "model": "caliber:block/tan_limestone_brick_window_half_trim",
+      "y": 270
     }
   }
 }

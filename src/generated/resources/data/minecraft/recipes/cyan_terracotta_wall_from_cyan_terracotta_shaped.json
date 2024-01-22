@@ -1,16 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:cyan_terracotta"
     }
   },
+  "pattern": [
+    "###",
+    "###"
+  ],
   "result": {
-    "item": "caliber:cyan_terracotta_wall",
-    "count": 6
-  }
+    "count": 6,
+    "item": "caliber:cyan_terracotta_wall"
+  },
+  "show_notification": true
 }

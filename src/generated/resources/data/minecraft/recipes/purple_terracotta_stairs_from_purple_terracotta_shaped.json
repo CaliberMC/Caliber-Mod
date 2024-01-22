@@ -1,17 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:purple_terracotta"
     }
   },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
   "result": {
-    "item": "caliber:purple_terracotta_stairs",
-    "count": 4
-  }
+    "count": 4,
+    "item": "caliber:purple_terracotta_stairs"
+  },
+  "show_notification": true
 }

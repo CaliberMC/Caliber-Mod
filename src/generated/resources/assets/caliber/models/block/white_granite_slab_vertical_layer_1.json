@@ -1,8 +1,8 @@
 {
   "parent": "caliber:block/templates/slab_vertical_layer_1",
   "textures": {
+    "bottom": "caliber:block/white_granite",
     "side": "caliber:block/white_granite",
-    "top": "caliber:block/white_granite",
-    "bottom": "caliber:block/white_granite"
+    "top": "caliber:block/white_granite"
   }
 }

@@ -1,15 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:stripped_warped_hyphae"
     }
   },
+  "pattern": [
+    "###"
+  ],
   "result": {
-    "item": "caliber:stripped_warped_slab",
-    "count": 24
-  }
+    "count": 24,
+    "item": "caliber:stripped_warped_slab"
+  },
+  "show_notification": true
 }

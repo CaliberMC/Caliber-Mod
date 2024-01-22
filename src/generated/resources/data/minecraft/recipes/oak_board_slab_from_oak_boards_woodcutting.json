@@ -1,8 +1,8 @@
 {
   "type": "caliber:woodcutting",
+  "count": 8,
   "ingredient": {
     "item": "caliber:oak_boards"
   },
-  "result": "caliber:oak_board_slab",
-  "count": 8
+  "result": "caliber:oak_board_slab"
 }

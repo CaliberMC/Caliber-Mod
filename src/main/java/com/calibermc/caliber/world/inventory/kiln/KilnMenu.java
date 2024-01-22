@@ -48,7 +48,7 @@ public class KilnMenu extends RecipeBookMenu<Container> {
         checkContainerDataCount(pData, 4);
         this.container = pContainer;
         this.data = pData;
-        this.level = pPlayerInventory.player.level;
+        this.level = pPlayerInventory.player.getCommandSenderWorld();
         this.addSlot(new Slot(pContainer, 0, 38, 17));
         this.addSlot(new Slot(pContainer, 1, 74, 17));
         // fuel slot
@@ -271,7 +271,7 @@ public class KilnMenu extends RecipeBookMenu<Container> {
         */
        @Override
        protected void checkTakeAchievements(ItemStack pStack) {
-          pStack.onCraftedBy(this.player.level, this.player, this.removeCount);
+          pStack.onCraftedBy(this.player.getCommandSenderWorld(), this.player, this.removeCount);
           if (this.player instanceof ServerPlayer serverPlayer && this.container instanceof KilnBlockEntity e) {
               e.awardUsedRecipesAndPopExperience(serverPlayer);
           }

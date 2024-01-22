@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 8,
   "ingredient": {
     "item": "minecraft:smooth_basalt"
   },
-  "result": "caliber:smooth_basalt_slab_vertical",
-  "count": 8
+  "result": "caliber:smooth_basalt_slab_vertical"
 }

@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "minecraft:dark_prismarine"
   },
-  "result": "caliber:dark_prismarine_window_half",
-  "count": 2
+  "result": "caliber:dark_prismarine_window_half"
 }

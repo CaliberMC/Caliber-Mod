@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 8,
   "ingredient": {
     "item": "minecraft:purple_wool"
   },
-  "result": "caliber:purple_wool_eighth",
-  "count": 8
+  "result": "caliber:purple_wool_eighth"
 }

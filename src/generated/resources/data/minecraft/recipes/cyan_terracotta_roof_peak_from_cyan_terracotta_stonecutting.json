@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "minecraft:cyan_terracotta"
   },
-  "result": "caliber:cyan_terracotta_roof_peak",
-  "count": 2
+  "result": "caliber:cyan_terracotta_roof_peak"
 }

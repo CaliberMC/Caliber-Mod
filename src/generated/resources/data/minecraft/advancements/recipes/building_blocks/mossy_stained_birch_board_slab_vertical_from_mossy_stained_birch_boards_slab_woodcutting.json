@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mossy_stained_birch_boards": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caliber:mossy_stained_birch_boards"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:mossy_stained_birch_board_slab_vertical_from_mossy_stained_birch_boards_slab_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_mossy_stained_birch_boards",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:mossy_stained_birch_board_slab_vertical_from_mossy_stained_birch_boards_slab_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

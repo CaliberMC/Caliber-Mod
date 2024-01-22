@@ -1,15 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "I I",
-    "I I"
-  ],
+  "category": "equipment",
   "key": {
     "I": {
       "item": "caliber:bronze_ingot"
     }
   },
+  "pattern": [
+    "I I",
+    "I I"
+  ],
   "result": {
     "item": "caliber:bronze_boots"
-  }
+  },
+  "show_notification": true
 }

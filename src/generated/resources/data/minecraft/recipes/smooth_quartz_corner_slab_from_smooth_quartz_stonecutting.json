@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 4,
   "ingredient": {
     "item": "minecraft:smooth_quartz"
   },
-  "result": "caliber:smooth_quartz_corner_slab",
-  "count": 4
+  "result": "caliber:smooth_quartz_corner_slab"
 }

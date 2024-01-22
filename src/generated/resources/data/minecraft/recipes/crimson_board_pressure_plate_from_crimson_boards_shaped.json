@@ -1,14 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "##"
-  ],
+  "category": "redstone",
   "key": {
     "#": {
       "item": "caliber:crimson_boards"
     }
   },
+  "pattern": [
+    "##"
+  ],
   "result": {
     "item": "caliber:crimson_board_pressure_plate"
-  }
+  },
+  "show_notification": true
 }

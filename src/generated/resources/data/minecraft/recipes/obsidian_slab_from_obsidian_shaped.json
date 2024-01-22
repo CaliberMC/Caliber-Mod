@@ -1,15 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:obsidian"
     }
   },
+  "pattern": [
+    "###"
+  ],
   "result": {
-    "item": "caliber:obsidian_slab",
-    "count": 24
-  }
+    "count": 24,
+    "item": "caliber:obsidian_slab"
+  },
+  "show_notification": true
 }

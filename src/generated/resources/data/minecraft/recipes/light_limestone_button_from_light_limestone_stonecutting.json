@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 1,
   "ingredient": {
     "item": "caliber:light_limestone"
   },
-  "result": "caliber:light_limestone_button",
-  "count": 1
+  "result": "caliber:light_limestone_button"
 }

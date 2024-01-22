@@ -1,16 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "##",
-    "##"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "caliber:tan_limestone"
     }
   },
+  "pattern": [
+    "##",
+    "##"
+  ],
   "result": {
-    "item": "caliber:tan_limestone_bricks",
-    "count": 4
-  }
+    "count": 4,
+    "item": "caliber:tan_limestone_bricks"
+  },
+  "show_notification": true
 }

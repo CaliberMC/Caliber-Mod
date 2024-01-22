@@ -1,8 +1,8 @@
 {
   "parent": "caliber:block/templates/capital",
   "textures": {
+    "bottom": "caliber:block/mossy_crimson_boards",
     "side": "caliber:block/mossy_crimson_boards",
-    "top": "caliber:block/mossy_crimson_boards",
-    "bottom": "caliber:block/mossy_crimson_boards"
+    "top": "caliber:block/mossy_crimson_boards"
   }
 }

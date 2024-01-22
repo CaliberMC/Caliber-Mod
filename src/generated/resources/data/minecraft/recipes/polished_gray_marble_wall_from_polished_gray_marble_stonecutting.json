@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 1,
   "ingredient": {
     "item": "caliber:polished_gray_marble"
   },
-  "result": "caliber:polished_gray_marble_wall",
-  "count": 1
+  "result": "caliber:polished_gray_marble_wall"
 }

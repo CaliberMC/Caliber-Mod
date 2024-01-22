@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 1,
   "ingredient": {
     "item": "caliber:tuff_slab_vertical"
   },
-  "result": "caliber:tuff_slab",
-  "count": 1
+  "result": "caliber:tuff_slab"
 }

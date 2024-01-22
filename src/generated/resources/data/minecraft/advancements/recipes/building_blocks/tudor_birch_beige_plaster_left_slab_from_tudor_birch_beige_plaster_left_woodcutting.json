@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:tudor_birch_beige_plaster_left_slab_from_tudor_birch_beige_plaster_left_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tudor_birch_beige_plaster_left": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caliber:tudor_birch_beige_plaster_left"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_tudor_birch_beige_plaster_left",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:tudor_birch_beige_plaster_left_slab_from_tudor_birch_beige_plaster_left_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

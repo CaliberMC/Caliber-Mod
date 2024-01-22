@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "caliber:smooth_pink_limestone"
   },
-  "result": "caliber:smooth_pink_limestone_arch_half",
-  "count": 2
+  "result": "caliber:smooth_pink_limestone_arch_half"
 }

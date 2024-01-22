@@ -1,15 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#",
-    "#"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "caliber:pink_limestone"
     }
   },
+  "pattern": [
+    "#",
+    "#"
+  ],
   "result": {
     "item": "caliber:chiseled_pink_limestone_bricks"
-  }
+  },
+  "show_notification": true
 }

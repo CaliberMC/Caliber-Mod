@@ -4,13 +4,11 @@ import com.calibermc.caliber.block.ModBlocks;
 import com.google.common.collect.Maps;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.ForgeRegistries;
+import com.calibermc.caliberlib.data.ModBlockFamily;
 
 import java.util.Map;
 import java.util.stream.Stream;
-
-import static com.calibermc.caliber.data.ModBlockFamily.Variant.*;
 
 @SuppressWarnings("unused")
 public class ModBlockFamilies {

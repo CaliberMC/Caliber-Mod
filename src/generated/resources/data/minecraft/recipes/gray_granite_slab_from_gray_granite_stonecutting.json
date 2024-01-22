@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 8,
   "ingredient": {
     "item": "caliber:gray_granite"
   },
-  "result": "caliber:gray_granite_slab",
-  "count": 8
+  "result": "caliber:gray_granite_slab"
 }

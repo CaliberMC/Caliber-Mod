@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 5,
   "ingredient": {
     "item": "minecraft:white_concrete"
   },
-  "result": "caliber:white_concrete_pillar",
-  "count": 5
+  "result": "caliber:white_concrete_pillar"
 }

@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 4,
   "ingredient": {
     "item": "minecraft:obsidian"
   },
-  "result": "caliber:obsidian_corner_slab",
-  "count": 4
+  "result": "caliber:obsidian_corner_slab"
 }

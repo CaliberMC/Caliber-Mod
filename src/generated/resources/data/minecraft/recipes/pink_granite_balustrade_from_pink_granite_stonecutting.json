@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "caliber:pink_granite"
   },
-  "result": "caliber:pink_granite_balustrade",
-  "count": 2
+  "result": "caliber:pink_granite_balustrade"
 }

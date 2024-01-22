@@ -1,17 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " # ",
-    " # ",
-    " # "
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:blue_terracotta"
     }
   },
+  "pattern": [
+    " # ",
+    " # ",
+    " # "
+  ],
   "result": {
-    "item": "caliber:blue_terracotta_slab_vertical",
-    "count": 24
-  }
+    "count": 24,
+    "item": "caliber:blue_terracotta_slab_vertical"
+  },
+  "show_notification": true
 }

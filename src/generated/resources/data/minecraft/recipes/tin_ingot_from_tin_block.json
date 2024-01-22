@@ -1,12 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
     {
       "item": "caliber:tin_ore"
     }
   ],
   "result": {
-    "item": "caliber:tin_ingot",
-    "count": 9
+    "count": 9,
+    "item": "caliber:tin_ingot"
   }
 }

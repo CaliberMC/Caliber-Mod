@@ -1,8 +1,8 @@
 {
   "type": "caliber:woodcutting",
+  "count": 2,
   "ingredient": {
     "item": "minecraft:dark_oak_planks"
   },
-  "result": "caliber:dark_oak_window",
-  "count": 2
+  "result": "caliber:dark_oak_window"
 }

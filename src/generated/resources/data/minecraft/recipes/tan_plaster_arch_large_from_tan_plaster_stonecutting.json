@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "caliber:tan_plaster"
   },
-  "result": "caliber:tan_plaster_arch_large",
-  "count": 2
+  "result": "caliber:tan_plaster_arch_large"
 }

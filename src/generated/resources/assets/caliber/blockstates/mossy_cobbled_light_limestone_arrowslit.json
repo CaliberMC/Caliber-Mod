@@ -1,5 +1,9 @@
 {
   "variants": {
+    "facing=east": {
+      "model": "caliber:block/mossy_cobbled_light_limestone_arrowslit",
+      "y": 90
+    },
     "facing=north": {
       "model": "caliber:block/mossy_cobbled_light_limestone_arrowslit"
     },
@@ -10,10 +14,6 @@
     "facing=west": {
       "model": "caliber:block/mossy_cobbled_light_limestone_arrowslit",
       "y": 270
-    },
-    "facing=east": {
-      "model": "caliber:block/mossy_cobbled_light_limestone_arrowslit",
-      "y": 90
     }
   }
 }

@@ -1,15 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "caliber:cut_orange_sandstone"
     }
   },
+  "pattern": [
+    "###"
+  ],
   "result": {
-    "item": "caliber:cut_orange_sandstone_slab",
-    "count": 24
-  }
+    "count": 24,
+    "item": "caliber:cut_orange_sandstone_slab"
+  },
+  "show_notification": true
 }

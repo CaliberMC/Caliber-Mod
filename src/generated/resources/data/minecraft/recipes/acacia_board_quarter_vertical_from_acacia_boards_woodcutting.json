@@ -1,8 +1,8 @@
 {
   "type": "caliber:woodcutting",
+  "count": 5,
   "ingredient": {
     "item": "caliber:acacia_boards"
   },
-  "result": "caliber:acacia_board_quarter_vertical",
-  "count": 5
+  "result": "caliber:acacia_board_quarter_vertical"
 }

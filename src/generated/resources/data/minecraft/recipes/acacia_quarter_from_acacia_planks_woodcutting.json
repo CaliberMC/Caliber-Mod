@@ -1,8 +1,8 @@
 {
   "type": "caliber:woodcutting",
+  "count": 5,
   "ingredient": {
     "item": "minecraft:acacia_planks"
   },
-  "result": "caliber:acacia_quarter",
-  "count": 5
+  "result": "caliber:acacia_quarter"
 }

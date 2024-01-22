@@ -1,16 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:dripstone_block"
     }
   },
+  "pattern": [
+    "###",
+    "###"
+  ],
   "result": {
-    "item": "caliber:dripstone_wall",
-    "count": 6
-  }
+    "count": 6,
+    "item": "caliber:dripstone_wall"
+  },
+  "show_notification": true
 }

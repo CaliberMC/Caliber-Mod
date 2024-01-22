@@ -1,8 +1,8 @@
 {
   "type": "caliber:woodcutting",
+  "count": 1,
   "ingredient": {
     "item": "caliber:stained_stripped_oak_wood"
   },
-  "result": "caliber:stained_stripped_oak_wall",
-  "count": 1
+  "result": "caliber:stained_stripped_oak_wall"
 }

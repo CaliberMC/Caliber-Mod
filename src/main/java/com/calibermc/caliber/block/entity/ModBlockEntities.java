@@ -12,7 +12,7 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModBlockEntities {
 
     public static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITIES =
-            DeferredRegister.create(ForgeRegistries.BLOCK_ENTITIES, Caliber.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, Caliber.MOD_ID);
 
     public static final RegistryObject<BlockEntityType<KilnBlockEntity>> KILN =
             BLOCK_ENTITIES.register("kiln", () ->

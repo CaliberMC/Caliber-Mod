@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "minecraft:blue_concrete"
   },
-  "result": "caliber:blue_concrete_arch_half",
-  "count": 2
+  "result": "caliber:blue_concrete_arch_half"
 }

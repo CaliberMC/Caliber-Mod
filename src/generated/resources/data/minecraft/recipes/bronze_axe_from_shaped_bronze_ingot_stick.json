@@ -1,19 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "I": {
+      "item": "caliber:bronze_ingot"
+    }
+  },
   "pattern": [
     "II ",
     "I# ",
     " # "
   ],
-  "key": {
-    "I": {
-      "item": "caliber:bronze_ingot"
-    },
-    "#": {
-      "item": "minecraft:stick"
-    }
-  },
   "result": {
     "item": "caliber:bronze_axe"
-  }
+  },
+  "show_notification": true
 }

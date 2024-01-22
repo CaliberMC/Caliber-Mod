@@ -1,14 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "##"
-  ],
+  "category": "redstone",
   "key": {
     "#": {
       "item": "caliber:light_limestone"
     }
   },
+  "pattern": [
+    "##"
+  ],
   "result": {
     "item": "caliber:light_limestone_pressure_plate"
-  }
+  },
+  "show_notification": true
 }

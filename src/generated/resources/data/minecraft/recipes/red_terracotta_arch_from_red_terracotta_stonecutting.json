@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "minecraft:red_terracotta"
   },
-  "result": "caliber:red_terracotta_arch",
-  "count": 2
+  "result": "caliber:red_terracotta_arch"
 }

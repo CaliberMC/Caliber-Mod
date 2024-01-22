@@ -1,16 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "##",
-    "##"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "caliber:white_granite"
     }
   },
+  "pattern": [
+    "##",
+    "##"
+  ],
   "result": {
-    "item": "caliber:polished_white_granite",
-    "count": 4
-  }
+    "count": 4,
+    "item": "caliber:polished_white_granite"
+  },
+  "show_notification": true
 }

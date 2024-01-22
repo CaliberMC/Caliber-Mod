@@ -5,7 +5,6 @@ import com.calibermc.caliber.crafting.ModRecipeSerializers;
 import com.calibermc.caliber.crafting.WoodcutterRecipe;
 import com.calibermc.caliber.world.inventory.ModMenuTypes;
 import com.google.common.collect.Lists;
-import net.minecraft.client.RecipeBookCategories;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.Container;
@@ -47,7 +46,7 @@ public class WoodcutterMenu extends AbstractContainerMenu {
    public WoodcutterMenu(int pContainerId, Inventory pPlayerInventory, final ContainerLevelAccess pAccess) {
       super(ModMenuTypes.WOODCUTTER.get(), pContainerId);
       this.access = pAccess;
-      this.level = pPlayerInventory.player.level;
+      this.level = pPlayerInventory.player.getCommandSenderWorld();
       this.inputSlot = this.addSlot(new Slot(this.container, 0, 20, 33));
       this.resultSlot = this.addSlot(new Slot(this.resultContainer, 1, 143, 33) {
          // Cannot because it's result slot
@@ -58,8 +57,8 @@ public class WoodcutterMenu extends AbstractContainerMenu {
 
          @Override
          public void onTake(Player pPlayer, ItemStack pStack) {
-            pStack.onCraftedBy(pPlayer.level, pPlayer, pStack.getCount());
-            WoodcutterMenu.this.resultContainer.awardUsedRecipes(pPlayer);
+            pStack.onCraftedBy(pPlayer.getCommandSenderWorld(), pPlayer, pStack.getCount());
+            WoodcutterMenu.this.resultContainer.awardUsedRecipes(pPlayer, List.of(WoodcutterMenu.this.inputSlot.getItem()));
             ItemStack itemstack = WoodcutterMenu.this.inputSlot.remove(1);
             if (!itemstack.isEmpty()) {
                WoodcutterMenu.this.setupResultSlot();
@@ -146,7 +145,7 @@ public class WoodcutterMenu extends AbstractContainerMenu {
       if (!this.recipes.isEmpty() && this.isValidRecipeIndex(this.getSelectedRecipeIndex())) {
          WoodcutterRecipe WoodcutterRecipe = this.recipes.get(this.getSelectedRecipeIndex());
          this.resultContainer.setRecipeUsed(WoodcutterRecipe);
-         this.resultSlot.set(WoodcutterRecipe.assemble(this.container));
+         this.resultSlot.set(WoodcutterRecipe.assemble(this.container, this.level.registryAccess()));
       } else {
          this.resultSlot.set(ItemStack.EMPTY);
       }
@@ -174,7 +173,7 @@ public class WoodcutterMenu extends AbstractContainerMenu {
          Item item = itemstack1.getItem();
          itemstack = itemstack1.copy();
          if (pIndex == 1) {
-            item.onCraftedBy(itemstack1, pPlayer.level, pPlayer);
+            item.onCraftedBy(itemstack1, pPlayer.getCommandSenderWorld(), pPlayer);
             if (!this.moveItemStackTo(itemstack1, 2, 38, true)) {
                return ItemStack.EMPTY;
             }

@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 5,
   "ingredient": {
     "item": "minecraft:polished_andesite"
   },
-  "result": "caliber:polished_andesite_pillar",
-  "count": 5
+  "result": "caliber:polished_andesite_pillar"
 }

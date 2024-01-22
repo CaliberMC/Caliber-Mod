@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "caliber:ochre_plaster"
   },
-  "result": "caliber:ochre_plaster_window_half",
-  "count": 2
+  "result": "caliber:ochre_plaster_window_half"
 }

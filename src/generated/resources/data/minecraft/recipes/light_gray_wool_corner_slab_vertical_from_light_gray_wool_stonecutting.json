@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 4,
   "ingredient": {
     "item": "minecraft:light_gray_wool"
   },
-  "result": "caliber:light_gray_wool_corner_slab_vertical",
-  "count": 4
+  "result": "caliber:light_gray_wool_corner_slab_vertical"
 }

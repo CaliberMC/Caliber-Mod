@@ -1,8 +1,8 @@
 {
   "parent": "caliber:block/templates/pillar_layer_4",
   "textures": {
+    "bottom": "caliber:block/stained_oak_planks",
     "side": "caliber:block/stained_oak_planks",
-    "top": "caliber:block/stained_oak_planks",
-    "bottom": "caliber:block/stained_oak_planks"
+    "top": "caliber:block/stained_oak_planks"
   }
 }

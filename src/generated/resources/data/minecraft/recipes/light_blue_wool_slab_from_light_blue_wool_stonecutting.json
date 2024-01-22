@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 8,
   "ingredient": {
     "item": "minecraft:light_blue_wool"
   },
-  "result": "caliber:light_blue_wool_slab",
-  "count": 8
+  "result": "caliber:light_blue_wool_slab"
 }

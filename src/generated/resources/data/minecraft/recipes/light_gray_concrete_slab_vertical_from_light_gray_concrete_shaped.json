@@ -1,17 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " # ",
-    " # ",
-    " # "
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:light_gray_concrete"
     }
   },
+  "pattern": [
+    " # ",
+    " # ",
+    " # "
+  ],
   "result": {
-    "item": "caliber:light_gray_concrete_slab_vertical",
-    "count": 24
-  }
+    "count": 24,
+    "item": "caliber:light_gray_concrete_slab_vertical"
+  },
+  "show_notification": true
 }

@@ -1,18 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "minecraft:crimson_planks"
+    },
+    "X": {
+      "item": "minecraft:crimson_door"
+    }
+  },
   "pattern": [
     "X",
     "#"
   ],
-  "key": {
-    "X": {
-      "item": "minecraft:crimson_door"
-    },
-    "#": {
-      "item": "minecraft:crimson_planks"
-    }
-  },
   "result": {
     "item": "caliber:tall_crimson_door"
-  }
+  },
+  "show_notification": true
 }

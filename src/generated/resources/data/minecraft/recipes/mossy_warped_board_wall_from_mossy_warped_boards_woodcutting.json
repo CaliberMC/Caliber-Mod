@@ -1,8 +1,8 @@
 {
   "type": "caliber:woodcutting",
+  "count": 1,
   "ingredient": {
     "item": "caliber:mossy_warped_boards"
   },
-  "result": "caliber:mossy_warped_board_wall",
-  "count": 1
+  "result": "caliber:mossy_warped_board_wall"
 }

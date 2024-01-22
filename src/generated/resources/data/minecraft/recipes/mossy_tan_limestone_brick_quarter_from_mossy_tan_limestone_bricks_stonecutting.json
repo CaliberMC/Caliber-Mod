@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 5,
   "ingredient": {
     "item": "caliber:mossy_tan_limestone_bricks"
   },
-  "result": "caliber:mossy_tan_limestone_brick_quarter",
-  "count": 5
+  "result": "caliber:mossy_tan_limestone_brick_quarter"
 }

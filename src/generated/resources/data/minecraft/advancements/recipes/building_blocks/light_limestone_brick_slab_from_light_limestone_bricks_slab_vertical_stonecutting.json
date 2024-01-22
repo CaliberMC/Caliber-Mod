@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_light_limestone_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caliber:light_limestone_bricks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:light_limestone_brick_slab_from_light_limestone_bricks_slab_vertical_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_light_limestone_bricks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:light_limestone_brick_slab_from_light_limestone_bricks_slab_vertical_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

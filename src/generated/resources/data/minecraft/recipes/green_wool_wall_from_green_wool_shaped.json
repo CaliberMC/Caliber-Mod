@@ -1,16 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:green_wool"
     }
   },
+  "pattern": [
+    "###",
+    "###"
+  ],
   "result": {
-    "item": "caliber:green_wool_wall",
-    "count": 6
-  }
+    "count": 6,
+    "item": "caliber:green_wool_wall"
+  },
+  "show_notification": true
 }

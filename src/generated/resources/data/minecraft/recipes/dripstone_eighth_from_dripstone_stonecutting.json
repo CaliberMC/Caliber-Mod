@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 8,
   "ingredient": {
     "item": "minecraft:dripstone_block"
   },
-  "result": "caliber:dripstone_eighth",
-  "count": 8
+  "result": "caliber:dripstone_eighth"
 }

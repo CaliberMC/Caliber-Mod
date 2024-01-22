@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "minecraft:smooth_basalt"
   },
-  "result": "caliber:smooth_basalt_arrowslit",
-  "count": 2
+  "result": "caliber:smooth_basalt_arrowslit"
 }

@@ -1,16 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "I I",
-    "III",
-    "III"
-  ],
+  "category": "equipment",
   "key": {
     "I": {
       "item": "caliber:bronze_ingot"
     }
   },
+  "pattern": [
+    "I I",
+    "III",
+    "III"
+  ],
   "result": {
     "item": "caliber:bronze_chestplate"
-  }
+  },
+  "show_notification": true
 }

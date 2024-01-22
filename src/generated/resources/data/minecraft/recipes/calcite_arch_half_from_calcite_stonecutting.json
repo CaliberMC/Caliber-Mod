@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "minecraft:calcite"
   },
-  "result": "caliber:calcite_arch_half",
-  "count": 2
+  "result": "caliber:calcite_arch_half"
 }

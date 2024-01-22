@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_tan_plaster_powder": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caliber:tan_plaster_powder"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:tan_plaster_from_tan_plaster_powder_water_bucket"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_tan_plaster_powder",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:tan_plaster_from_tan_plaster_powder_water_bucket"
+    ]
+  },
+  "sends_telemetry_event": false
+}

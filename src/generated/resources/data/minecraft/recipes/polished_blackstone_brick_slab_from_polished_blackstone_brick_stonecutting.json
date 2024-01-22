@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 8,
   "ingredient": {
     "item": "minecraft:polished_blackstone_bricks"
   },
-  "result": "caliber:polished_blackstone_brick_slab",
-  "count": 8
+  "result": "caliber:polished_blackstone_brick_slab"
 }

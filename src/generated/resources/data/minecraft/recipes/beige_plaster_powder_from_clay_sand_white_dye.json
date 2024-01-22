@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "category": "building",
   "ingredients": [
     {
       "item": "minecraft:sand"
@@ -30,7 +31,7 @@
     }
   ],
   "result": {
-    "item": "caliber:beige_plaster_powder",
-    "count": 9
+    "count": 9,
+    "item": "caliber:beige_plaster_powder"
   }
 }

@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "CTC",
-    "CTC",
-    "CTC"
-  ],
+  "category": "misc",
   "key": {
     "C": {
       "item": "minecraft:copper_ingot"
@@ -13,8 +9,14 @@
       "item": "caliber:tin_ingot"
     }
   },
+  "pattern": [
+    "CTC",
+    "CTC",
+    "CTC"
+  ],
   "result": {
-    "item": "caliber:bronze_ingot",
-    "count": 9
-  }
+    "count": 9,
+    "item": "caliber:bronze_ingot"
+  },
+  "show_notification": true
 }

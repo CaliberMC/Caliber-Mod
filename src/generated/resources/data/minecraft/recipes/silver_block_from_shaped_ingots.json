@@ -1,16 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "SSS",
-    "SSS",
-    "SSS"
-  ],
+  "category": "building",
   "key": {
     "S": {
       "item": "caliber:silver_ingot"
     }
   },
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
   "result": {
     "item": "caliber:silver_block"
-  }
+  },
+  "show_notification": true
 }

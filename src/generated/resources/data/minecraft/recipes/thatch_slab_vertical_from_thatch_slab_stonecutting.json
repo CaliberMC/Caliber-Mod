@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 1,
   "ingredient": {
     "item": "caliber:thatch_slab"
   },
-  "result": "caliber:thatch_slab_vertical",
-  "count": 1
+  "result": "caliber:thatch_slab_vertical"
 }

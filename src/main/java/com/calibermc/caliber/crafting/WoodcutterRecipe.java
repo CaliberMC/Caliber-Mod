@@ -2,7 +2,7 @@ package com.calibermc.caliber.crafting;
 
 import com.calibermc.caliber.block.ModBlocks;
 import com.google.gson.JsonObject;
-import net.minecraft.core.Registry;
+import net.minecraft.core.RegistryAccess;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.GsonHelper;
@@ -10,10 +10,9 @@ import net.minecraft.world.Container;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
-import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraft.world.item.crafting.SingleItemRecipe;
 import net.minecraft.world.level.Level;
-import net.minecraftforge.registries.ForgeRegistryEntry;
+import net.minecraftforge.registries.ForgeRegistries;
 
 public class WoodcutterRecipe extends SingleItemRecipe {
 
@@ -31,7 +30,7 @@ public class WoodcutterRecipe extends SingleItemRecipe {
         return new ItemStack(ModBlocks.WOODCUTTER.get());
     }
 
-    public static class Serializer<T extends SingleItemRecipe> extends ForgeRegistryEntry<RecipeSerializer<?>> implements RecipeSerializer<T> {
+    public static class Serializer<T extends SingleItemRecipe> implements RecipeSerializer<T> {
         final SingleItemMaker<T> factory;
 
         public Serializer(SingleItemMaker<T> pFactory) {
@@ -50,7 +49,7 @@ public class WoodcutterRecipe extends SingleItemRecipe {
 
             String s1 = GsonHelper.getAsString(pJson, "result");
             int i = GsonHelper.getAsInt(pJson, "count");
-            ItemStack itemstack = new ItemStack(Registry.ITEM.get(new ResourceLocation(s1)), i);
+            ItemStack itemstack = new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation(s1)), i);
             return this.factory.create(pRecipeId, s, ingredient, itemstack);
         }
 
@@ -66,7 +65,7 @@ public class WoodcutterRecipe extends SingleItemRecipe {
         public void toNetwork(FriendlyByteBuf pBuffer, T pRecipe) {
             pBuffer.writeUtf(pRecipe.getGroup());
             pRecipe.getIngredients().get(0).toNetwork(pBuffer);
-            pBuffer.writeItem(pRecipe.getResultItem());
+            pBuffer.writeItem(pRecipe.getResultItem(RegistryAccess.EMPTY));
         }
 
         interface SingleItemMaker<T extends SingleItemRecipe> {

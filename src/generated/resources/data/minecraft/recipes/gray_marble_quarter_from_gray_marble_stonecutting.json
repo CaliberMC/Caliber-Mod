@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 5,
   "ingredient": {
     "item": "caliber:gray_marble"
   },
-  "result": "caliber:gray_marble_quarter",
-  "count": 5
+  "result": "caliber:gray_marble_quarter"
 }

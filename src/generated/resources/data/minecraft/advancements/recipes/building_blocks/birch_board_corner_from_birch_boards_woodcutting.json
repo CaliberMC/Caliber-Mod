@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_birch_boards": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caliber:birch_boards"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:birch_board_corner_from_birch_boards_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_birch_boards",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:birch_board_corner_from_birch_boards_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

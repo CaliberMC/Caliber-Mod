@@ -1,8 +1,8 @@
 {
   "type": "caliber:woodcutting",
+  "count": 1,
   "ingredient": {
     "item": "caliber:mossy_acacia_boards"
   },
-  "result": "caliber:mossy_acacia_board_pressure_plate",
-  "count": 1
+  "result": "caliber:mossy_acacia_board_pressure_plate"
 }

@@ -1,15 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "caliber:thatch"
     }
   },
+  "pattern": [
+    "###"
+  ],
   "result": {
-    "item": "caliber:thatch_slab",
-    "count": 24
-  }
+    "count": 24,
+    "item": "caliber:thatch_slab"
+  },
+  "show_notification": true
 }

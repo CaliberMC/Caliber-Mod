@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 5,
   "ingredient": {
     "item": "minecraft:deepslate"
   },
-  "result": "caliber:deepslate_corner",
-  "count": 5
+  "result": "caliber:deepslate_corner"
 }

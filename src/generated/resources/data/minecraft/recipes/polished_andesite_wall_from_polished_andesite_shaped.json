@@ -1,16 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:polished_andesite"
     }
   },
+  "pattern": [
+    "###",
+    "###"
+  ],
   "result": {
-    "item": "caliber:polished_andesite_wall",
-    "count": 6
-  }
+    "count": 6,
+    "item": "caliber:polished_andesite_wall"
+  },
+  "show_notification": true
 }

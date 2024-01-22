@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "minecraft:deepslate_tiles"
   },
-  "result": "caliber:slate_tile_roof_67",
-  "count": 2
+  "result": "caliber:slate_tile_roof_67"
 }

@@ -1,16 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:smooth_quartz"
     }
   },
+  "pattern": [
+    "###",
+    "###"
+  ],
   "result": {
-    "item": "caliber:smooth_quartz_wall",
-    "count": 6
-  }
+    "count": 6,
+    "item": "caliber:smooth_quartz_wall"
+  },
+  "show_notification": true
 }

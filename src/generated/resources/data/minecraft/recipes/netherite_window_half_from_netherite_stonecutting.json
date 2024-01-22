@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "minecraft:netherite_block"
   },
-  "result": "caliber:netherite_window_half",
-  "count": 2
+  "result": "caliber:netherite_window_half"
 }

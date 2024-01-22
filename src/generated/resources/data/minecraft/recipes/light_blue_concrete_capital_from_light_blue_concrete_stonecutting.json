@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "minecraft:light_blue_concrete"
   },
-  "result": "caliber:light_blue_concrete_capital",
-  "count": 2
+  "result": "caliber:light_blue_concrete_capital"
 }

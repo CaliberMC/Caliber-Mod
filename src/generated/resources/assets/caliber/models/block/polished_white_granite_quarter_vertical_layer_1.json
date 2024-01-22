@@ -1,8 +1,8 @@
 {
   "parent": "caliber:block/templates/quarter_vertical_layer_1",
   "textures": {
+    "bottom": "caliber:block/polished_white_granite",
     "side": "caliber:block/polished_white_granite",
-    "top": "caliber:block/polished_white_granite",
-    "bottom": "caliber:block/polished_white_granite"
+    "top": "caliber:block/polished_white_granite"
   }
 }

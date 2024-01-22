@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "minecraft:gilded_blackstone"
   },
-  "result": "caliber:gilded_blackstone_arrowslit",
-  "count": 2
+  "result": "caliber:gilded_blackstone_arrowslit"
 }

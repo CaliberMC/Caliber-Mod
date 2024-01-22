@@ -1,8 +1,8 @@
 {
   "type": "caliber:woodcutting",
+  "count": 1,
   "ingredient": {
     "item": "caliber:stained_stripped_dark_oak_slab_vertical"
   },
-  "result": "caliber:stained_stripped_dark_oak_slab",
-  "count": 1
+  "result": "caliber:stained_stripped_dark_oak_slab"
 }

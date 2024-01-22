@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mossy_stained_jungle_boards": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caliber:mossy_stained_jungle_boards"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:mossy_stained_jungle_board_quarter_vertical_from_mossy_stained_jungle_boards_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_mossy_stained_jungle_boards",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:mossy_stained_jungle_board_quarter_vertical_from_mossy_stained_jungle_boards_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

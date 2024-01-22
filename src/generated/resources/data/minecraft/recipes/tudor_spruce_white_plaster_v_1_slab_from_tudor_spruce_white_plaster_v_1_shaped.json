@@ -1,15 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "caliber:tudor_spruce_white_plaster_v_1"
     }
   },
+  "pattern": [
+    "###"
+  ],
   "result": {
-    "item": "caliber:tudor_spruce_white_plaster_v_1_slab",
-    "count": 24
-  }
+    "count": 24,
+    "item": "caliber:tudor_spruce_white_plaster_v_1_slab"
+  },
+  "show_notification": true
 }

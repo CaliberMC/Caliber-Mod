@@ -1,15 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "caliber:tudor_stained_oak_beige_plaster_h_2"
     }
   },
+  "pattern": [
+    "###"
+  ],
   "result": {
-    "item": "caliber:tudor_stained_oak_beige_plaster_h_2_slab",
-    "count": 24
-  }
+    "count": 24,
+    "item": "caliber:tudor_stained_oak_beige_plaster_h_2_slab"
+  },
+  "show_notification": true
 }

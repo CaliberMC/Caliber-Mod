@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "minecraft:tuff"
   },
-  "result": "caliber:tuff_capital",
-  "count": 2
+  "result": "caliber:tuff_capital"
 }

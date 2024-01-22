@@ -1,8 +1,8 @@
 {
   "parent": "caliber:block/templates/slab_vertical_layer_2",
   "textures": {
+    "bottom": "caliber:block/stained_spruce_planks",
     "side": "caliber:block/stained_spruce_planks",
-    "top": "caliber:block/stained_spruce_planks",
-    "bottom": "caliber:block/stained_spruce_planks"
+    "top": "caliber:block/stained_spruce_planks"
   }
 }

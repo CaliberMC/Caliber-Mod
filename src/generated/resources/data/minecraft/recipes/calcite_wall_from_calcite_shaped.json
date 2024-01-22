@@ -1,16 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:calcite"
     }
   },
+  "pattern": [
+    "###",
+    "###"
+  ],
   "result": {
-    "item": "caliber:calcite_wall",
-    "count": 6
-  }
+    "count": 6,
+    "item": "caliber:calcite_wall"
+  },
+  "show_notification": true
 }

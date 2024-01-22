@@ -1,15 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:cyan_wool"
     }
   },
+  "pattern": [
+    "###"
+  ],
   "result": {
-    "item": "caliber:cyan_wool_slab",
-    "count": 24
-  }
+    "count": 24,
+    "item": "caliber:cyan_wool_slab"
+  },
+  "show_notification": true
 }

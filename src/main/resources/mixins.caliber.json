@@ -5,15 +5,16 @@
   "compatibilityLevel": "JAVA_17",
   "minVersion": "0.8",
   "client": [
-    "AbstractContainerScreenMixin"
   ],
   "mixins": [
     "BlockItemMixin",
+    "DeferredRegisterAccessor",
     "DoorBlockMixin",
+    "DoorInteractGoalMixin",
     "FenceGateBlockMixin",
     "LandPathNodeMakerMixin",
     "OpenDoorsTaskMixin",
-    "DoorInteractGoalMixin"
+    "RecipeProviderMixin"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "caliber:cobbled_dark_limestone"
   },
-  "result": "caliber:cobbled_dark_limestone_window_half",
-  "count": 2
+  "result": "caliber:cobbled_dark_limestone_window_half"
 }

@@ -1,8 +1,8 @@
 {
   "type": "caliber:woodcutting",
+  "count": 1,
   "ingredient": {
     "item": "caliber:stripped_warped_slab_vertical"
   },
-  "result": "caliber:stripped_warped_slab",
-  "count": 1
+  "result": "caliber:stripped_warped_slab"
 }

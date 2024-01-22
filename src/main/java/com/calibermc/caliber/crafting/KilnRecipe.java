@@ -12,14 +12,13 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.ForgeRegistryEntry;
 
 public class KilnRecipe extends AbstractCookingRecipe {
 
     protected final Ingredient secondIngredient;
 
     public KilnRecipe(ResourceLocation pId, String pGroup, Ingredient pIngredient, Ingredient pSecondIngredient, ItemStack pResult, float pExperience, int pCookingTime) {
-        super(ModRecipeSerializers.ALLOYING_TYPE.get(), pId, pGroup, pIngredient, pResult, pExperience, pCookingTime);
+        super(ModRecipeSerializers.ALLOYING_TYPE.get(), pId, pGroup, CookingBookCategory.MISC, pIngredient, pResult, pExperience, pCookingTime);
         this.secondIngredient = pSecondIngredient;
     }
 
@@ -58,7 +57,7 @@ public class KilnRecipe extends AbstractCookingRecipe {
         return ModRecipeSerializers.ALLOYING.get();
     }
 
-    public static class Serializer<T extends KilnRecipe> extends ForgeRegistryEntry<RecipeSerializer<?>> implements RecipeSerializer<T> {
+    public static class Serializer<T extends KilnRecipe> implements RecipeSerializer<T> {
         private final Builder<T> factory;
 
         public Serializer(Builder<T> pFactory) {

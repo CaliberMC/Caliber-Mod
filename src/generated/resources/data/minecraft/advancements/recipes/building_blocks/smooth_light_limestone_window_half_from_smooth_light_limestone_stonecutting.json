@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_smooth_light_limestone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caliber:smooth_light_limestone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:smooth_light_limestone_window_half_from_smooth_light_limestone_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_smooth_light_limestone",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:smooth_light_limestone_window_half_from_smooth_light_limestone_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

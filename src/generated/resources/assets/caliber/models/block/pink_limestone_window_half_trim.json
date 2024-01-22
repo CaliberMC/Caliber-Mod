@@ -1,8 +1,8 @@
 {
   "parent": "caliber:block/templates/window_half_top",
   "textures": {
+    "bottom": "caliber:block/pink_limestone",
     "side": "caliber:block/pink_limestone",
-    "top": "caliber:block/pink_limestone",
-    "bottom": "caliber:block/pink_limestone"
+    "top": "caliber:block/pink_limestone"
   }
 }

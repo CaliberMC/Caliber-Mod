@@ -1,15 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:netherite_block"
     }
   },
+  "pattern": [
+    "###"
+  ],
   "result": {
-    "item": "caliber:netherite_slab",
-    "count": 24
-  }
+    "count": 24,
+    "item": "caliber:netherite_slab"
+  },
+  "show_notification": true
 }
