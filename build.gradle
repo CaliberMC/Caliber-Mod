@@ -144,7 +144,7 @@ dependencies {
     annotationProcessor "org.spongepowered:mixin:0.8.5:processor"
 
 //    implementation fg.deobf("maven.modrinth:buildify:0.1.3-1.18.2") // modrinth variant
-    implementation fg.deobf("com.calibermc.buildify:buildify:0.1.3") // maven local
+    implementation fg.deobf("com.calibermc.buildify:buildify:0.1.4") // maven local
 
 
 //    compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api") // Adds JEI API as a compile dependency
