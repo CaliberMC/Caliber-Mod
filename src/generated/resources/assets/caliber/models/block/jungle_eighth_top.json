@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/eighth_top",
+  "parent": "caliberlib:block/templates/eighth_top",
   "textures": {
     "bottom": "minecraft:block/jungle_planks",
     "side": "minecraft:block/jungle_planks",

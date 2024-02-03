@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "caliber:polished_red_marble"
-  },
-  "result": "caliber:polished_red_marble_arch_large_half"
-}

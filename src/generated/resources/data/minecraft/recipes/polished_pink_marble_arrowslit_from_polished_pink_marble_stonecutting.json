@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "caliber:polished_pink_marble"
-  },
-  "result": "caliber:polished_pink_marble_arrowslit"
-}

@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/balustrade",
+  "parent": "caliberlib:block/templates/balustrade",
   "textures": {
     "bottom": "minecraft:block/polished_basalt_top",
     "side": "minecraft:block/polished_basalt_side",

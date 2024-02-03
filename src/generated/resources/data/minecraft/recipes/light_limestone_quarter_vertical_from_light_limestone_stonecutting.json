@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 5,
-  "ingredient": {
-    "item": "caliber:light_limestone"
-  },
-  "result": "caliber:light_limestone_quarter_vertical"
-}

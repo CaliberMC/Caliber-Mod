@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/roof_22_top_inner",
+  "parent": "caliberlib:block/templates/roof_22_top_inner",
   "textures": {
     "bottom": "caliber:block/acacia_boards",
     "side": "caliber:block/acacia_boards",

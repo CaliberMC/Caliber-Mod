@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 5,
-  "ingredient": {
-    "item": "caliber:mossy_dark_limestone_bricks"
-  },
-  "result": "caliber:mossy_dark_limestone_brick_quarter_vertical"
-}

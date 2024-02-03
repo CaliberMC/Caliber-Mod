@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 5,
-  "ingredient": {
-    "item": "caliber:pink_limestone"
-  },
-  "result": "caliber:pink_limestone_quarter"
-}

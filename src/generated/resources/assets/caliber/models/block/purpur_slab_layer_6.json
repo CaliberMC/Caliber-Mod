@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/slab_layer_6",
+  "parent": "caliberlib:block/templates/slab_layer_6",
   "textures": {
     "bottom": "minecraft:block/purpur_block",
     "side": "minecraft:block/purpur_block",

@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/capital",
+  "parent": "caliberlib:block/templates/capital",
   "textures": {
     "bottom": "minecraft:block/light_blue_wool",
     "side": "minecraft:block/light_blue_wool",

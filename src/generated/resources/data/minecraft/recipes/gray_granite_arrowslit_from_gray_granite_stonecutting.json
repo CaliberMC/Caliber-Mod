@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "caliber:gray_granite"
-  },
-  "result": "caliber:gray_granite_arrowslit"
-}

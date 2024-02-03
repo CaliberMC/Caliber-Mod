@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/arch_trim_2",
+  "parent": "caliberlib:block/templates/arch_trim_2",
   "textures": {
     "bottom": "minecraft:block/end_stone",
     "side": "minecraft:block/end_stone",

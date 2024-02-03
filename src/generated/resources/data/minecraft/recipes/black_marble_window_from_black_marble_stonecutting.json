@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "caliber:black_marble"
-  },
-  "result": "caliber:black_marble_window"
-}

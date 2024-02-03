@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/roof_45",
+  "parent": "caliberlib:block/templates/roof_45",
   "textures": {
     "bottom": "caliber:block/mossy_stained_jungle_boards",
     "side": "caliber:block/mossy_stained_jungle_boards",

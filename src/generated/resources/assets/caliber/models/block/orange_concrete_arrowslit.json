@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/arrowslit",
+  "parent": "caliberlib:block/templates/arrowslit",
   "textures": {
     "bottom": "minecraft:block/orange_concrete",
     "side": "minecraft:block/orange_concrete",

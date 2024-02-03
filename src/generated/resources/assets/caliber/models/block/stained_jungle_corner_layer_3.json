@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/corner_layer_3",
+  "parent": "caliberlib:block/templates/corner_layer_3",
   "textures": {
     "bottom": "caliber:block/stained_jungle_planks",
     "side": "caliber:block/stained_jungle_planks",

@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/quarter_vertical_layer_4",
+  "parent": "caliberlib:block/templates/quarter_vertical_layer_4",
   "textures": {
     "bottom": "minecraft:block/brown_terracotta",
     "side": "minecraft:block/brown_terracotta",

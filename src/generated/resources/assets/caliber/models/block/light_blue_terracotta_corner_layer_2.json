@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/corner_layer_2",
+  "parent": "caliberlib:block/templates/corner_layer_2",
   "textures": {
     "bottom": "minecraft:block/light_blue_terracotta",
     "side": "minecraft:block/light_blue_terracotta",

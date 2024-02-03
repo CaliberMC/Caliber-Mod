@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/eighth",
+  "parent": "caliberlib:block/templates/eighth",
   "textures": {
     "bottom": "minecraft:block/dripstone_block",
     "side": "minecraft:block/dripstone_block",

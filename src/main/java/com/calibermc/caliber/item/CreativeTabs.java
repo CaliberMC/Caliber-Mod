@@ -1,26 +1,18 @@
 package com.calibermc.caliber.item;
 
 import com.calibermc.caliber.Caliber;
-import com.calibermc.caliber.block.ModBlocks;
-import com.calibermc.caliber.config.CaliberCommonConfigs;
-import com.calibermc.caliberlib.data.ModBlockFamily;
-import com.calibermc.caliber.util.ModTags;
-import com.google.common.collect.Lists;
-import net.minecraft.core.registries.BuiltInRegistries;
+import com.calibermc.caliber.block.CaliberBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import net.minecraftforge.registries.tags.ITagManager;
 
 import java.util.List;
 import java.util.Map;
-import java.util.function.Supplier;
 
 public class CreativeTabs {
 
@@ -30,9 +22,9 @@ public class CreativeTabs {
     public static final RegistryObject<CreativeModeTab> CALIBER_TAB = CREATIVE_TABS.register("caliber",
             () -> CreativeModeTab.builder().title(Component.translatable("itemGroup.caliber"))
                     .withTabsBefore(CreativeModeTabs.SPAWN_EGGS)
-                    .icon(() -> new ItemStack(ModBlocks.POLISHED_PINK_MARBLE.baseBlock()))
+                    .icon(() -> new ItemStack(CaliberBlocks.POLISHED_DIORITE.baseBlock()))
                     .displayItems((pParameters, pOutput) -> {
-                        for (RegistryObject<Item> entry : ModItems.ITEMS.getEntries()) {
+                        for (RegistryObject<Item> entry : CaliberItems.ITEMS.getEntries()) {
                             pOutput.accept(entry.get());
                         }
                     }).build());

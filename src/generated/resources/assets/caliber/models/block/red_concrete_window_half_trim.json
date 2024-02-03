@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/window_half_top",
+  "parent": "caliberlib:block/templates/window_half_top",
   "textures": {
     "bottom": "minecraft:block/red_concrete",
     "side": "minecraft:block/red_concrete",

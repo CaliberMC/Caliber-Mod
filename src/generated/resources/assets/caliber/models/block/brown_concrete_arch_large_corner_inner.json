@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/arch_large_corner_inner",
+  "parent": "caliberlib:block/templates/arch_large_corner_inner",
   "textures": {
     "bottom": "minecraft:block/brown_concrete",
     "side": "minecraft:block/brown_concrete",

@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "caliber:cobbled_tan_limestone"
-  },
-  "result": "caliber:cobbled_tan_limestone_window"
-}

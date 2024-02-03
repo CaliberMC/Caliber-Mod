@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/quarter_layer_2",
+  "parent": "caliberlib:block/templates/quarter_layer_2",
   "textures": {
     "bottom": "minecraft:block/dripstone_block",
     "side": "minecraft:block/dripstone_block",

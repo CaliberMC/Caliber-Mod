@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/outer_stairs",
-  "textures": {
-    "bottom": "caliber:block/red_marble",
-    "side": "caliber:block/red_marble",
-    "top": "caliber:block/red_marble"
-  }
-}

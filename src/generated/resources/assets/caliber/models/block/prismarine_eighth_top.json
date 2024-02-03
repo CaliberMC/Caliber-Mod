@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/eighth_top",
+  "parent": "caliberlib:block/templates/eighth_top",
   "textures": {
     "bottom": "minecraft:block/prismarine",
     "side": "minecraft:block/prismarine",

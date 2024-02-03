@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/arch",
+  "parent": "caliberlib:block/templates/arch",
   "textures": {
     "bottom": "minecraft:block/pink_terracotta",
     "side": "minecraft:block/pink_terracotta",

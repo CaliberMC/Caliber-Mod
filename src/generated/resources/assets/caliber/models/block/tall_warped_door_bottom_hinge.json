@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/door_bottom_rh",
+  "parent": "caliberlib:block/templates/door_bottom_rh",
   "textures": {
     "bottom": "caliber:block/tall_warped_door_bottom"
   }

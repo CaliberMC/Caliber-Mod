@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/slab_vertical_layer_7",
+  "parent": "caliberlib:block/templates/slab_vertical_layer_7",
   "textures": {
     "bottom": "caliber:block/mossy_thatch",
     "side": "caliber:block/mossy_thatch",

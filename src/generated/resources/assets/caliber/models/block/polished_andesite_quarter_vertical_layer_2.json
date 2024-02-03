@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/quarter_vertical_layer_2",
+  "parent": "caliberlib:block/templates/quarter_vertical_layer_2",
   "textures": {
     "bottom": "minecraft:block/polished_andesite",
     "side": "minecraft:block/polished_andesite",

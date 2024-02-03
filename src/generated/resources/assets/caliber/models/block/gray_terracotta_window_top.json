@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/window_top",
+  "parent": "caliberlib:block/templates/window_top",
   "textures": {
     "bottom": "minecraft:block/gray_terracotta",
     "side": "minecraft:block/gray_terracotta",

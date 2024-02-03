@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/arch_corner",
-  "textures": {
-    "bottom": "caliber:block/mossy_pink_limestone_bricks",
-    "side": "caliber:block/mossy_pink_limestone_bricks",
-    "top": "caliber:block/mossy_pink_limestone_bricks"
-  }
-}

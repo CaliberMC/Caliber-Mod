@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "caliber:smooth_brown_sandstone"
-  },
-  "result": "caliber:smooth_brown_sandstone_arch_large"
-}

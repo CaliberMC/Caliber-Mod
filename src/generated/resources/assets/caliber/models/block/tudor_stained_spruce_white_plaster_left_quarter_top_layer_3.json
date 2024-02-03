@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/quarter_top_layer_3",
+  "parent": "caliberlib:block/templates/quarter_top_layer_3",
   "textures": {
     "bottom": "caliber:block/stained_spruce_boards",
     "side": "caliber:block/tudor_stained_spruce_white_plaster_left",

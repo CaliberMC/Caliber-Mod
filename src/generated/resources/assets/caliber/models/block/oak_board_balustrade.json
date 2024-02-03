@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/balustrade",
+  "parent": "caliberlib:block/templates/balustrade",
   "textures": {
     "bottom": "caliber:block/oak_boards",
     "side": "caliber:block/oak_boards",

@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/eighth_left",
+  "parent": "caliberlib:block/templates/eighth_left",
   "textures": {
     "bottom": "minecraft:block/stripped_crimson_stem",
     "side": "minecraft:block/stripped_crimson_stem",

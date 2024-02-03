@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/pillar_layer_1",
+  "parent": "caliberlib:block/templates/pillar_layer_1",
   "textures": {
     "bottom": "caliber:block/mossy_birch_boards",
     "side": "caliber:block/mossy_birch_boards",

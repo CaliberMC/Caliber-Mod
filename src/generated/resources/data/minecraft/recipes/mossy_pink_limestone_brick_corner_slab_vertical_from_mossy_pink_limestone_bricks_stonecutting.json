@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 4,
-  "ingredient": {
-    "item": "caliber:mossy_pink_limestone_bricks"
-  },
-  "result": "caliber:mossy_pink_limestone_brick_corner_slab_vertical"
-}

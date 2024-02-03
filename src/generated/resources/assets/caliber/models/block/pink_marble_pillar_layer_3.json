@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/pillar_layer_3",
-  "textures": {
-    "bottom": "caliber:block/pink_marble",
-    "side": "caliber:block/pink_marble",
-    "top": "caliber:block/pink_marble"
-  }
-}

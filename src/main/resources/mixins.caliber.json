@@ -8,13 +8,11 @@
   ],
   "mixins": [
     "BlockItemMixin",
-    "DeferredRegisterAccessor",
     "DoorBlockMixin",
     "DoorInteractGoalMixin",
     "FenceGateBlockMixin",
     "LandPathNodeMakerMixin",
-    "OpenDoorsTaskMixin",
-    "RecipeProviderMixin"
+    "OpenDoorsTaskMixin"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/slab_layer_5",
-  "textures": {
-    "bottom": "caliber:block/polished_red_marble",
-    "side": "caliber:block/polished_red_marble",
-    "top": "caliber:block/polished_red_marble"
-  }
-}

@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/corner_layer_1",
+  "parent": "caliberlib:block/templates/corner_layer_1",
   "textures": {
     "bottom": "minecraft:block/basalt_top",
     "side": "minecraft:block/basalt_side",

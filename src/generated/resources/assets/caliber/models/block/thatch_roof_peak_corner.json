@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/roof_peak_corner",
+  "parent": "caliberlib:block/templates/roof_peak_corner",
   "textures": {
     "bottom": "caliber:block/thatch",
     "side": "caliber:block/thatch",

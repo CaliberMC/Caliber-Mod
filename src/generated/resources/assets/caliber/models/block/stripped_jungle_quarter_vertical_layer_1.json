@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/quarter_vertical_layer_1",
+  "parent": "caliberlib:block/templates/quarter_vertical_layer_1",
   "textures": {
     "bottom": "minecraft:block/stripped_jungle_log",
     "side": "minecraft:block/stripped_jungle_log",

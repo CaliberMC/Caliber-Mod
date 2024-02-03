@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/beam_vertical_4",
+  "parent": "caliberlib:block/templates/beam_vertical_4",
   "textures": {
     "bottom": "minecraft:block/stripped_acacia_log",
     "side": "minecraft:block/stripped_acacia_log",

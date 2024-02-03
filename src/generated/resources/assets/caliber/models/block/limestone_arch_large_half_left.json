@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/arch_large_half_left",
-  "textures": {
-    "bottom": "minecraft:block/stone",
-    "side": "minecraft:block/stone",
-    "top": "minecraft:block/stone"
-  }
-}

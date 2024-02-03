@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/arch_large_trim_right",
+  "parent": "caliberlib:block/templates/arch_large_trim_right",
   "textures": {
     "bottom": "minecraft:block/red_nether_bricks",
     "side": "minecraft:block/red_nether_bricks",

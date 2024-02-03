@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "caliber:mossy_light_limestone_bricks"
-  },
-  "result": "caliber:mossy_light_limestone_brick_capital"
-}

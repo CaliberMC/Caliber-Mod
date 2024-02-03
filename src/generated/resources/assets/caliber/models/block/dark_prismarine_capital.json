@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/capital",
+  "parent": "caliberlib:block/templates/capital",
   "textures": {
     "bottom": "minecraft:block/dark_prismarine",
     "side": "minecraft:block/dark_prismarine",

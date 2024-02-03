@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/pillar_layer_4",
+  "parent": "caliberlib:block/templates/pillar_layer_4",
   "textures": {
     "bottom": "minecraft:block/pink_terracotta",
     "side": "minecraft:block/pink_terracotta",

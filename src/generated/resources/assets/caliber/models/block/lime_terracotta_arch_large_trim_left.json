@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/arch_large_trim_left",
+  "parent": "caliberlib:block/templates/arch_large_trim_left",
   "textures": {
     "bottom": "minecraft:block/lime_terracotta",
     "side": "minecraft:block/lime_terracotta",

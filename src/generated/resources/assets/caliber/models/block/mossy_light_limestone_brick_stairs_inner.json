@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "bottom": "caliber:block/mossy_light_limestone_bricks",
-    "side": "caliber:block/mossy_light_limestone_bricks",
-    "top": "caliber:block/mossy_light_limestone_bricks"
-  }
-}

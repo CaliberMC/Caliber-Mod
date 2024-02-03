@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/door_middle_rh",
+  "parent": "caliberlib:block/templates/door_middle_rh",
   "textures": {
     "middle": "caliber:block/tall_stained_jungle_door_middle"
   }

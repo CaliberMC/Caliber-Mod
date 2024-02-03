@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/capital",
+  "parent": "caliberlib:block/templates/capital",
   "textures": {
     "bottom": "caliber:block/dark_oak_boards",
     "side": "caliber:block/dark_oak_boards",

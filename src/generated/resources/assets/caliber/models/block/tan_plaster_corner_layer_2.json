@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/corner_layer_2",
+  "parent": "caliberlib:block/templates/corner_layer_2",
   "textures": {
     "bottom": "caliber:block/tan_plaster",
     "side": "caliber:block/tan_plaster",

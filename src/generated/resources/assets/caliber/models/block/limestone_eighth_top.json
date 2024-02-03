@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/eighth_top",
-  "textures": {
-    "bottom": "minecraft:block/stone",
-    "side": "minecraft:block/stone",
-    "top": "minecraft:block/stone"
-  }
-}

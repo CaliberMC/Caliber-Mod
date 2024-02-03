@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/eighth_top_left",
-  "textures": {
-    "bottom": "caliber:block/gray_marble",
-    "side": "caliber:block/gray_marble",
-    "top": "caliber:block/gray_marble"
-  }
-}

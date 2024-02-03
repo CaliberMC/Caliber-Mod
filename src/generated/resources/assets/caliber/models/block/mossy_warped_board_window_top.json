@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/window_top",
+  "parent": "caliberlib:block/templates/window_top",
   "textures": {
     "bottom": "caliber:block/mossy_warped_boards",
     "side": "caliber:block/mossy_warped_boards",

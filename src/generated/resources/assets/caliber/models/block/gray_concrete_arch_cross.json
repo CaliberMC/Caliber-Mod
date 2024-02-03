@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/arch_cross",
+  "parent": "caliberlib:block/templates/arch_cross",
   "textures": {
     "bottom": "minecraft:block/gray_concrete",
     "side": "minecraft:block/gray_concrete",

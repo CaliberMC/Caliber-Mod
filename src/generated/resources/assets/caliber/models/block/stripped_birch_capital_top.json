@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/capital_top",
+  "parent": "caliberlib:block/templates/capital_top",
   "textures": {
     "bottom": "minecraft:block/stripped_birch_log",
     "side": "minecraft:block/stripped_birch_log",

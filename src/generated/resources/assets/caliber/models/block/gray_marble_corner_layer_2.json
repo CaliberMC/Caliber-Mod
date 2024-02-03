@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/corner_layer_2",
-  "textures": {
-    "bottom": "caliber:block/gray_marble",
-    "side": "caliber:block/gray_marble",
-    "top": "caliber:block/gray_marble"
-  }
-}

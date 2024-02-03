@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/corner_layer_3",
-  "textures": {
-    "bottom": "caliber:block/smooth_dark_limestone",
-    "side": "caliber:block/smooth_dark_limestone",
-    "top": "caliber:block/smooth_dark_limestone"
-  }
-}

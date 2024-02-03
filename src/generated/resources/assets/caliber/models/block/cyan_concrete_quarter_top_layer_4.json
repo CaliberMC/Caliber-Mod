@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/quarter_top_layer_4",
+  "parent": "caliberlib:block/templates/quarter_top_layer_4",
   "textures": {
     "bottom": "minecraft:block/cyan_concrete",
     "side": "minecraft:block/cyan_concrete",

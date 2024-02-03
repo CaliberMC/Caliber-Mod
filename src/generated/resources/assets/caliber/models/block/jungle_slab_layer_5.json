@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/slab_layer_5",
+  "parent": "caliberlib:block/templates/slab_layer_5",
   "textures": {
     "bottom": "minecraft:block/jungle_planks",
     "side": "minecraft:block/jungle_planks",

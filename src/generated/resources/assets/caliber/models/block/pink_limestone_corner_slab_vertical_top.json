@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/corner_slab_vertical_top",
-  "textures": {
-    "bottom": "caliber:block/pink_limestone",
-    "side": "caliber:block/pink_limestone",
-    "top": "caliber:block/pink_limestone"
-  }
-}

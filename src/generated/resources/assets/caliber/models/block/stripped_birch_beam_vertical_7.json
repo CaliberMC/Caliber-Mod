@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/beam_vertical_7",
+  "parent": "caliberlib:block/templates/beam_vertical_7",
   "textures": {
     "bottom": "minecraft:block/stripped_birch_log",
     "side": "minecraft:block/stripped_birch_log",

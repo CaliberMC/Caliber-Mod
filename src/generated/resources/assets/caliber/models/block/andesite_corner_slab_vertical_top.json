@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/corner_slab_vertical_top",
+  "parent": "caliberlib:block/templates/corner_slab_vertical_top",
   "textures": {
     "bottom": "minecraft:block/andesite",
     "side": "minecraft:block/andesite",

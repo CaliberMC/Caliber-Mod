@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/roof_67_outer",
+  "parent": "caliberlib:block/templates/roof_67_outer",
   "textures": {
     "bottom": "caliber:block/crimson_boards",
     "side": "caliber:block/crimson_boards",

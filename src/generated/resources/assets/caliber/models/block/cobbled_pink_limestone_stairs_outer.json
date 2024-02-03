@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/outer_stairs",
-  "textures": {
-    "bottom": "caliber:block/cobbled_pink_limestone",
-    "side": "caliber:block/cobbled_pink_limestone",
-    "top": "caliber:block/cobbled_pink_limestone"
-  }
-}

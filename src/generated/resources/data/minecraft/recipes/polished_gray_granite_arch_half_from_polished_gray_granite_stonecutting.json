@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "caliber:polished_gray_granite"
-  },
-  "result": "caliber:polished_gray_granite_arch_half"
-}

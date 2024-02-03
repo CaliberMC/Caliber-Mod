@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 8,
-  "ingredient": {
-    "item": "caliber:polished_brown_granite"
-  },
-  "result": "caliber:polished_brown_granite_eighth"
-}

@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/arch_large_corner_inner",
+  "parent": "caliberlib:block/templates/arch_large_corner_inner",
   "textures": {
     "bottom": "minecraft:block/polished_andesite",
     "side": "minecraft:block/polished_andesite",

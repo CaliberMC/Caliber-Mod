@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/slab_layer_5",
+  "parent": "caliberlib:block/templates/slab_layer_5",
   "textures": {
     "bottom": "caliber:block/stained_stripped_birch_wood",
     "side": "caliber:block/stained_stripped_birch_wood",

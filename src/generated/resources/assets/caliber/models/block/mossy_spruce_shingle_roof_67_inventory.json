@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/inv/roof_67_top_inventory",
+  "parent": "caliberlib:block/templates/inv/roof_67_top_inventory",
   "textures": {
     "bottom": "caliber:block/mossy_spruce_boards",
     "side": "caliber:block/mossy_spruce_boards",

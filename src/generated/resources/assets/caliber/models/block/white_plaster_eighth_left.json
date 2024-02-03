@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/eighth_left",
+  "parent": "caliberlib:block/templates/eighth_left",
   "textures": {
     "bottom": "caliber:block/white_plaster",
     "side": "caliber:block/white_plaster",

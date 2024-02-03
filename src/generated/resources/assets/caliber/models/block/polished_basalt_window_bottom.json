@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/window_bottom",
+  "parent": "caliberlib:block/templates/window_bottom",
   "textures": {
     "bottom": "minecraft:block/polished_basalt_top",
     "side": "minecraft:block/polished_basalt_side",

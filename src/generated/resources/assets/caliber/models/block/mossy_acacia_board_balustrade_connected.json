@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/balustrade_connected",
+  "parent": "caliberlib:block/templates/balustrade_connected",
   "textures": {
     "bottom": "caliber:block/mossy_acacia_boards",
     "side": "caliber:block/mossy_acacia_boards",

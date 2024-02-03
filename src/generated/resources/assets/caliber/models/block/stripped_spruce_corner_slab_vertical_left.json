@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/corner_slab_vertical_left",
+  "parent": "caliberlib:block/templates/corner_slab_vertical_left",
   "textures": {
     "bottom": "minecraft:block/stripped_spruce_log",
     "side": "minecraft:block/stripped_spruce_log",

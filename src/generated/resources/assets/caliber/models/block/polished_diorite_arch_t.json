@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/arch_t",
+  "parent": "caliberlib:block/templates/arch_t",
   "textures": {
     "bottom": "minecraft:block/polished_diorite",
     "side": "minecraft:block/polished_diorite",

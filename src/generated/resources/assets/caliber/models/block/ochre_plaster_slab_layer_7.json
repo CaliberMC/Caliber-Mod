@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/slab_layer_7",
+  "parent": "caliberlib:block/templates/slab_layer_7",
   "textures": {
     "bottom": "caliber:block/ochre_plaster",
     "side": "caliber:block/ochre_plaster",

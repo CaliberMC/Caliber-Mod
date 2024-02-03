@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/window",
+  "parent": "caliberlib:block/templates/window",
   "textures": {
     "bottom": "caliber:block/mossy_acacia_boards",
     "side": "caliber:block/mossy_acacia_boards",

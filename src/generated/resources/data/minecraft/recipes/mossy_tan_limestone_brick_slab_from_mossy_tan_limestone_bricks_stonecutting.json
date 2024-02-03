@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 8,
-  "ingredient": {
-    "item": "caliber:mossy_tan_limestone_bricks"
-  },
-  "result": "caliber:mossy_tan_limestone_brick_slab"
-}

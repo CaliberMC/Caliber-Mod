@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/pillar_layer_2",
+  "parent": "caliberlib:block/templates/pillar_layer_2",
   "textures": {
     "bottom": "minecraft:block/yellow_wool",
     "side": "minecraft:block/yellow_wool",

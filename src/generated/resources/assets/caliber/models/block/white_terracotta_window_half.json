@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/window_half",
+  "parent": "caliberlib:block/templates/window_half",
   "textures": {
     "bottom": "minecraft:block/white_terracotta",
     "side": "minecraft:block/white_terracotta",

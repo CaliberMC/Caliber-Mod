@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/roof_67_inner",
+  "parent": "caliberlib:block/templates/roof_67_inner",
   "textures": {
     "bottom": "minecraft:block/brown_terracotta",
     "side": "minecraft:block/brown_terracotta",

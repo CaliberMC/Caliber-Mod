@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/roof_peak_corner",
+  "parent": "caliberlib:block/templates/roof_peak_corner",
   "textures": {
     "bottom": "caliber:block/crimson_boards",
     "side": "caliber:block/crimson_boards",

@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/quarter_layer_2",
+  "parent": "caliberlib:block/templates/quarter_layer_2",
   "textures": {
     "bottom": "minecraft:block/black_wool",
     "side": "minecraft:block/black_wool",

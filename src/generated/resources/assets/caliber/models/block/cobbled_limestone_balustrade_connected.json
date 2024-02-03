@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/balustrade_connected",
-  "textures": {
-    "bottom": "minecraft:block/cobblestone",
-    "side": "minecraft:block/cobblestone",
-    "top": "minecraft:block/cobblestone"
-  }
-}

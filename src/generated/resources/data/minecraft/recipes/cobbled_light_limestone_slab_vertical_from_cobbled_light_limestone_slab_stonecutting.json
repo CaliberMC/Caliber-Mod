@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "caliber:cobbled_light_limestone_slab"
-  },
-  "result": "caliber:cobbled_light_limestone_slab_vertical"
-}

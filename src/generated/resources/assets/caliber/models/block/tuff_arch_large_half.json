@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/arch_large_half",
+  "parent": "caliberlib:block/templates/arch_large_half",
   "textures": {
     "bottom": "minecraft:block/tuff",
     "side": "minecraft:block/tuff",

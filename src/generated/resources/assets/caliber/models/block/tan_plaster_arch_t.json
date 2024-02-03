@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/arch_t",
+  "parent": "caliberlib:block/templates/arch_t",
   "textures": {
     "bottom": "caliber:block/tan_plaster",
     "side": "caliber:block/tan_plaster",

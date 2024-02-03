@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/corner_slab_vertical",
+  "parent": "caliberlib:block/templates/corner_slab_vertical",
   "textures": {
     "bottom": "caliber:block/mossy_stained_dark_oak_boards",
     "side": "caliber:block/mossy_stained_dark_oak_boards",

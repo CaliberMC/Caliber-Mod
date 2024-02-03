@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/window_half",
+  "parent": "caliberlib:block/templates/window_half",
   "textures": {
     "bottom": "minecraft:block/stripped_dark_oak_log",
     "side": "minecraft:block/stripped_dark_oak_log",

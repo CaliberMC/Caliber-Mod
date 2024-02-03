@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/quarter_layer_2",
+  "parent": "caliberlib:block/templates/quarter_layer_2",
   "textures": {
     "bottom": "caliber:block/acacia_boards",
     "side": "caliber:block/tudor_acacia_white_plaster_v_2",

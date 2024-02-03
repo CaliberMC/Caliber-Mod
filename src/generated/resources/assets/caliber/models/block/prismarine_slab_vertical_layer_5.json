@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/slab_vertical_layer_5",
+  "parent": "caliberlib:block/templates/slab_vertical_layer_5",
   "textures": {
     "bottom": "minecraft:block/prismarine",
     "side": "minecraft:block/prismarine",

@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/arrowslit",
-  "textures": {
-    "bottom": "caliber:block/white_granite",
-    "side": "caliber:block/white_granite",
-    "top": "caliber:block/white_granite"
-  }
-}

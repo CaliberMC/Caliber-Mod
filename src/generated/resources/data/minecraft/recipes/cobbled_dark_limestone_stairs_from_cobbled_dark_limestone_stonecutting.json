@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "caliber:cobbled_dark_limestone"
-  },
-  "result": "caliber:cobbled_dark_limestone_stairs"
-}

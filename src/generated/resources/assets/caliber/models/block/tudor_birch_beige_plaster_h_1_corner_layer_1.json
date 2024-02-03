@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/corner_layer_1",
+  "parent": "caliberlib:block/templates/corner_layer_1",
   "textures": {
     "bottom": "caliber:block/birch_boards",
     "side": "caliber:block/tudor_birch_beige_plaster_h_1",

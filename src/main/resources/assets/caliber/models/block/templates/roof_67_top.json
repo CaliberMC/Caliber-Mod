@@ -1,9 +1,0 @@
-{
-	"loader": "forge:obj",
-	"model": "caliber:models/block/templates/obj/roof_67_top.obj",
-	"emissive_ambient": true,
-	"flip_v": true,
-	"textures": {
-		"particle": "#side"
-	}
-}

@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/roof_45_inner",
+  "parent": "caliberlib:block/templates/roof_45_inner",
   "textures": {
     "bottom": "minecraft:block/deepslate_tiles",
     "side": "minecraft:block/deepslate_tiles",

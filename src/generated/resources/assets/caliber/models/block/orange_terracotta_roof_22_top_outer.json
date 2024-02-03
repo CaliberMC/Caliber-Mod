@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/roof_22_top_outer",
+  "parent": "caliberlib:block/templates/roof_22_top_outer",
   "textures": {
     "bottom": "minecraft:block/orange_terracotta",
     "side": "minecraft:block/orange_terracotta",

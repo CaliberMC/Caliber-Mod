@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/quarter_top_layer_2",
+  "parent": "caliberlib:block/templates/quarter_top_layer_2",
   "textures": {
     "bottom": "minecraft:block/blackstone",
     "side": "minecraft:block/blackstone",

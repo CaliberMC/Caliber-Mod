@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/roof_peak_cross_top",
+  "parent": "caliberlib:block/templates/roof_peak_cross_top",
   "textures": {
     "bottom": "caliber:block/mossy_stained_dark_oak_boards",
     "side": "caliber:block/mossy_stained_dark_oak_boards",

@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/roof_peak_t",
+  "parent": "caliberlib:block/templates/roof_peak_t",
   "textures": {
     "bottom": "minecraft:block/terracotta",
     "side": "minecraft:block/terracotta",

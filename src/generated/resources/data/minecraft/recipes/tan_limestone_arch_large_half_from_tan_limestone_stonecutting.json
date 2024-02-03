@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "caliber:tan_limestone"
-  },
-  "result": "caliber:tan_limestone_arch_large_half"
-}

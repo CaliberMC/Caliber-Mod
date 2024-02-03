@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/pillar_layer_3",
+  "parent": "caliberlib:block/templates/pillar_layer_3",
   "textures": {
     "bottom": "minecraft:block/birch_planks",
     "side": "minecraft:block/birch_planks",

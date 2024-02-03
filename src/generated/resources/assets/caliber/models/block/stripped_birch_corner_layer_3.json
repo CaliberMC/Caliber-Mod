@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/corner_layer_3",
+  "parent": "caliberlib:block/templates/corner_layer_3",
   "textures": {
     "bottom": "minecraft:block/stripped_birch_log",
     "side": "minecraft:block/stripped_birch_log",

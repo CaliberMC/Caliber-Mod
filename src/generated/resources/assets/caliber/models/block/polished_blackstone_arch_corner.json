@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/arch_corner",
+  "parent": "caliberlib:block/templates/arch_corner",
   "textures": {
     "bottom": "minecraft:block/polished_blackstone",
     "side": "minecraft:block/polished_blackstone",

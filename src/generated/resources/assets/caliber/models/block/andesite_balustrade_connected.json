@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/balustrade_connected",
+  "parent": "caliberlib:block/templates/balustrade_connected",
   "textures": {
     "bottom": "minecraft:block/andesite",
     "side": "minecraft:block/andesite",

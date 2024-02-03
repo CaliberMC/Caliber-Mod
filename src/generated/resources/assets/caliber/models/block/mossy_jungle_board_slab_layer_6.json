@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/slab_layer_6",
+  "parent": "caliberlib:block/templates/slab_layer_6",
   "textures": {
     "bottom": "caliber:block/mossy_jungle_boards",
     "side": "caliber:block/mossy_jungle_boards",

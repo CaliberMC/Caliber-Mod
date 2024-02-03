@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/slab_layer_7",
+  "parent": "caliberlib:block/templates/slab_layer_7",
   "textures": {
     "bottom": "caliber:block/mossy_dark_oak_planks",
     "side": "caliber:block/mossy_dark_oak_planks",

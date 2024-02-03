@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/pillar_layer_1",
+  "parent": "caliberlib:block/templates/pillar_layer_1",
   "textures": {
     "bottom": "caliber:block/stained_stripped_jungle_wood",
     "side": "caliber:block/stained_stripped_jungle_wood",

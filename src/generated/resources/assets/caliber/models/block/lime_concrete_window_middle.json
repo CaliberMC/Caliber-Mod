@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/window_middle",
+  "parent": "caliberlib:block/templates/window_middle",
   "textures": {
     "bottom": "minecraft:block/lime_concrete",
     "side": "minecraft:block/lime_concrete",

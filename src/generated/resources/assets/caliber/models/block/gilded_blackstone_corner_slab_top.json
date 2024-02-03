@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/corner_slab_top",
+  "parent": "caliberlib:block/templates/corner_slab_top",
   "textures": {
     "bottom": "minecraft:block/gilded_blackstone",
     "side": "minecraft:block/gilded_blackstone",

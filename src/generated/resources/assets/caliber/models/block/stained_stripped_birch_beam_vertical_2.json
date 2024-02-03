@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/beam_vertical_2",
+  "parent": "caliberlib:block/templates/beam_vertical_2",
   "textures": {
     "bottom": "caliber:block/stained_stripped_birch_wood",
     "side": "caliber:block/stained_stripped_birch_wood",

@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 4,
-  "ingredient": {
-    "item": "caliber:gray_granite"
-  },
-  "result": "caliber:gray_granite_corner_slab_vertical"
-}

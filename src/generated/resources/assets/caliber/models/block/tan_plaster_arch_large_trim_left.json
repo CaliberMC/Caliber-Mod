@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/arch_large_trim_left",
+  "parent": "caliberlib:block/templates/arch_large_trim_left",
   "textures": {
     "bottom": "caliber:block/tan_plaster",
     "side": "caliber:block/tan_plaster",

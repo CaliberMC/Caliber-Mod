@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/slab_layer_1",
+  "parent": "caliberlib:block/templates/slab_layer_1",
   "textures": {
     "bottom": "minecraft:block/quartz_block_bottom",
     "side": "minecraft:block/quartz_block_bottom",

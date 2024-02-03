@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/corner_slab",
+  "parent": "caliberlib:block/templates/corner_slab",
   "textures": {
     "bottom": "minecraft:block/end_stone_bricks",
     "side": "minecraft:block/end_stone_bricks",

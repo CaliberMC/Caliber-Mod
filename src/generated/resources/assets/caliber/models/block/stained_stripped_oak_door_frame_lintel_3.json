@@ -1,5 +1,5 @@
 {
-  "parent": "caliber:block/templates/door_frame_lintel_3",
+  "parent": "caliberlib:block/templates/door_frame_lintel_3",
   "textures": {
     "bottom": "caliber:block/stained_stripped_oak_wood",
     "side": "caliber:block/stained_stripped_oak_wood",

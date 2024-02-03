@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 5,
-  "ingredient": {
-    "item": "caliber:dark_limestone"
-  },
-  "result": "caliber:dark_limestone_quarter"
-}

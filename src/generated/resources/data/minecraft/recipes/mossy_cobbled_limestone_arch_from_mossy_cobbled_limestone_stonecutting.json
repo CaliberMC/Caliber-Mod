@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "minecraft:mossy_cobblestone"
-  },
-  "result": "caliber:mossy_cobbled_limestone_arch"
-}
