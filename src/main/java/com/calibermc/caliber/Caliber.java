@@ -1,17 +1,15 @@
 package com.calibermc.caliber;
 
-import com.calibermc.caliber.block.ModBlocks;
-import com.calibermc.caliber.block.entity.ModBlockEntities;
+import com.calibermc.caliber.block.CaliberBlocks;
 import com.calibermc.caliber.config.CaliberClientConfigs;
 import com.calibermc.caliber.config.CaliberCommonConfigs;
-import com.calibermc.caliber.crafting.ModRecipeSerializers;
+import com.calibermc.caliber.crafting.CaliberRecipeSerializers;
 import com.calibermc.caliber.event.loot.ModGlobalLootSerializers;
+import com.calibermc.caliber.item.CaliberItems;
 import com.calibermc.caliber.item.CreativeTabs;
-import com.calibermc.caliber.item.ModItems;
 import com.calibermc.caliber.networking.ModNetworking;
 import com.calibermc.caliber.util.compat.BuildifyBlockPicker;
-import com.calibermc.caliber.world.inventory.ModMenuTypes;
-import net.minecraft.world.inventory.RecipeBookType;
+import com.calibermc.caliber.crafting.CaliberMenuTypes;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
@@ -25,7 +23,6 @@ import org.apache.logging.log4j.Logger;
 @Mod(Caliber.MOD_ID)
 public class Caliber {
     public static final String MOD_ID = "caliber";
-    public static final RecipeBookType KILN_BOOK_TYPE = RecipeBookType.create("kiln");
 
     public static final Logger LOGGER = LogManager.getLogger();
 
@@ -36,11 +33,10 @@ public class Caliber {
     public Caliber() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ModItems.register(eventBus);
-        ModBlocks.register(eventBus);
-        ModMenuTypes.register(eventBus);
-        ModRecipeSerializers.register(eventBus);
-        ModBlockEntities.register(eventBus);
+        CaliberItems.register(eventBus);
+        CaliberBlocks.register(eventBus);
+        CaliberMenuTypes.register(eventBus);
+        CaliberRecipeSerializers.register(eventBus);
         CreativeTabs.register(eventBus);
         ModGlobalLootSerializers.register(eventBus);
 
@@ -56,7 +52,7 @@ public class Caliber {
         LOGGER.info("Loading Caliber Mod");
 
         ModNetworking.registerMessages();
-        ModBlocks.printBlockCounts();
+        CaliberBlocks.printBlockCounts();
         BuildifyBlockPicker.init();
     }
 

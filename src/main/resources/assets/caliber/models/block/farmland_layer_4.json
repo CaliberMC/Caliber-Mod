@@ -1,8 +1,0 @@
-{
-  "parent": "caliber:block/templates/slab_layer_4",
-  "textures": {
-    "side": "minecraft:block/farmland",
-    "bottom": "minecraft:block/farmland",
-    "top": "minecraft:block/farmland"
-  }
-}

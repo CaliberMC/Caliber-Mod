@@ -1,11 +1,11 @@
 package com.calibermc.caliber.data.datagen.recipes;
 
 import com.calibermc.caliber.Caliber;
+import com.calibermc.caliber.item.CaliberItems;
 import com.calibermc.caliberlib.block.management.BlockManager;
 import com.calibermc.caliber.block.properties.ModMaterials;
-import com.calibermc.caliber.crafting.ModRecipeBuilder;
+import com.calibermc.caliber.crafting.CaliberRecipeBuilder;
 import com.calibermc.caliberlib.data.ModBlockFamily;
-import com.calibermc.caliber.item.ModItems;
 import com.mojang.datafixers.util.Function3;
 import com.mojang.datafixers.util.Pair;
 import net.minecraft.advancements.critereon.ItemPredicate;
@@ -59,7 +59,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         Function3<Ingredient, ItemLike, Integer, SingleItemRecipeBuilder> stoneOrWoodcutting = (a, b, c) -> {
             if (wood) {
-                return ModRecipeBuilder.woodcutting(a, b, c);
+                return CaliberRecipeBuilder.woodcutting(a, b, c);
             }
             return SingleItemRecipeBuilder.stonecutting(a, RecipeCategory.BUILDING_BLOCKS, b, c);
         };
@@ -211,7 +211,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
 //                    for (BlockManager blockManager : BlockManager.BLOCK_MANAGERS) {
 //                        if (blockManager.getName().equals(manager.getName().replace("board", ""))) {
-//                            ModRecipeBuilder.woodcutting(Ingredient.of(baseBlock), blockManager.baseBlock()).unlockedBy(criterionBy,
+//                            CaliberRecipeBuilder.woodcutting(Ingredient.of(baseBlock), blockManager.baseBlock()).unlockedBy(criterionBy,
 //                                    inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, "000%s_from_%s_%scutting".formatted(name,
 //                                    manager.getBlocks().entrySet().stream().filter(e1 -> e1.getKey().variant.equals(e.getKey().variant)).findFirst().get().getValue().getFirst().getPath(), woodOrStone));
 //                        }
@@ -287,7 +287,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
             if (blockManager.getByVariant(e.getKey().variant) != null) {
                 ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, block, 1)
-                        .requires(ModItems.RESIN.get())
+                        .requires(CaliberItems.RESIN.get())
                         .requires(blockManager.get(e.getKey().variant))
                         .unlockedBy(criterionBy, inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build()))
                         .save(finished, "%s_from_%s_and_resin_shapeless".formatted(path, name));

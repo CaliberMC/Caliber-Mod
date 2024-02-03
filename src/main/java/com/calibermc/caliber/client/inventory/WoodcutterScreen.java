@@ -1,7 +1,7 @@
 package com.calibermc.caliber.client.inventory;
 
 import com.calibermc.caliber.crafting.WoodcutterRecipe;
-import com.calibermc.caliber.world.inventory.woodcutter.WoodcutterMenu;
+import com.calibermc.caliber.crafting.WoodcutterMenu;
 import com.mojang.blaze3d.systems.RenderSystem;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiGraphics;

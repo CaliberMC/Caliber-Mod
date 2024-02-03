@@ -2,13 +2,12 @@ package com.calibermc.caliber.data.datagen;
 
 import com.calibermc.buildify.item.custom.Hammer;
 import com.calibermc.caliber.Caliber;
-import com.calibermc.caliber.item.ModItems;
+import com.calibermc.caliber.item.CaliberItems;
 import com.calibermc.caliberlib.data.datagen.ModItemModelProvider;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
-import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.RegistryObject;
 
@@ -27,7 +26,7 @@ public class CaliberItemModelProvider extends ModItemModelProvider {
 
     private void itemModels() {
         // Register Item Models
-        ModItems.ITEMS.getEntries().stream()
+        CaliberItems.ITEMS.getEntries().stream()
                 .filter(itemRegistryObject -> {
                     // Check if the item's registry name is in the Caliber.MOD_ID namespace
                     ResourceLocation registryName = itemRegistryObject.getId();

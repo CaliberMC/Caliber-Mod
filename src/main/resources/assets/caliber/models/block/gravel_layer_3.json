@@ -1,9 +1,0 @@
-{
-  "parent": "caliber:block/templates/slab_layer_3",
-  "textures": {
-    "side": "minecraft:block/gravel",
-    "bottom": "minecraft:block/gravel",
-    "top": "minecraft:block/gravel"
-  }
-}
-

@@ -1,6 +1,6 @@
 package com.calibermc.caliber.block.custom.entity;
 
-import com.calibermc.caliber.world.inventory.woodcutter.WoodcutterMenu;
+import com.calibermc.caliber.crafting.WoodcutterMenu;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.network.chat.Component;

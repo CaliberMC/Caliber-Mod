@@ -1,6 +1,6 @@
 package com.calibermc.caliber.crafting;
 
-import com.calibermc.caliber.block.ModBlocks;
+import com.calibermc.caliber.block.CaliberBlocks;
 import com.google.gson.JsonObject;
 import net.minecraft.core.RegistryAccess;
 import net.minecraft.network.FriendlyByteBuf;
@@ -17,7 +17,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class WoodcutterRecipe extends SingleItemRecipe {
 
     public WoodcutterRecipe(ResourceLocation pId, String pGroup, Ingredient pIngredient, ItemStack pResult) {
-        super(ModRecipeSerializers.WOODCUTTING_TYPE.get(), ModRecipeSerializers.WOODCUTTING.get(), pId, pGroup, pIngredient, pResult);
+        super(CaliberRecipeSerializers.WOODCUTTING_TYPE.get(), CaliberRecipeSerializers.WOODCUTTING.get(), pId, pGroup, pIngredient, pResult);
     }
 
     @Override
@@ -27,7 +27,7 @@ public class WoodcutterRecipe extends SingleItemRecipe {
 
     @Override
     public ItemStack getToastSymbol() {
-        return new ItemStack(ModBlocks.WOODCUTTER.get());
+        return new ItemStack(CaliberBlocks.WOODCUTTER.get());
     }
 
     public static class Serializer<T extends SingleItemRecipe> implements RecipeSerializer<T> {
