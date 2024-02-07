@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/quarter_top_layer_4",
-  "textures": {
-    "bottom": "caliber:block/birch_boards",
-    "side": "caliber:block/tudor_birch_beige_plaster_cross",
-    "top": "caliber:block/birch_boards"
-  }
-}

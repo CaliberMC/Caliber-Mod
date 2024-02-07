@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/window_half_bottom",
-  "textures": {
-    "bottom": "caliber:block/mossy_thatch",
-    "side": "caliber:block/mossy_thatch",
-    "top": "caliber:block/mossy_thatch"
-  }
-}

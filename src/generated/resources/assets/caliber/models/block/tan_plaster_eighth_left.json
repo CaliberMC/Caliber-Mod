@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/eighth_left",
-  "textures": {
-    "bottom": "caliber:block/tan_plaster",
-    "side": "caliber:block/tan_plaster",
-    "top": "caliber:block/tan_plaster"
-  }
-}

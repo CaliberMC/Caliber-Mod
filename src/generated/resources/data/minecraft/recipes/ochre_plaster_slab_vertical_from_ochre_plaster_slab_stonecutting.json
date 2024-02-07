@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "caliber:ochre_plaster_slab"
-  },
-  "result": "caliber:ochre_plaster_slab_vertical"
-}

@@ -47,7 +47,10 @@ public class CaliberItemModelProvider extends ModItemModelProvider {
                         handheldItem(itemRegistryObject);
                     }
                     // Use simpleItem for items that are exactly instances of Item.class or ArmorItem.class
-                    else if (item.getClass() == Item.class || item.getClass() == ArmorItem.class  || item.getClass() == SignItem.class) {
+                    else if (item.getClass() == Item.class ||
+                            item.getClass() == ArmorItem.class  ||
+                            item.getClass() == SignItem.class ||
+                            item.getClass() == HangingSignItem.class) {
                         simpleItem(itemRegistryObject);
                     }
                 });

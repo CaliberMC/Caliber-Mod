@@ -20,8 +20,6 @@ public class CaliberBlockStateProvider extends ModBlockStateProvider {
         super.registerStatesAndModels();
     }
 
-
-
     private void plankBlocks() {
         tallDoorBlock((TallDoorBlock) CaliberBlocks.TALL_ACACIA_DOOR.get(), modLoc("block/tall_acacia_door_bottom"), modLoc("block/tall_acacia_door_middle"), modLoc("block/tall_acacia_door_top"));
         tallDoorBlock((TallDoorBlock) CaliberBlocks.TALL_BIRCH_DOOR.get(), modLoc("block/tall_birch_door_bottom"), modLoc("block/tall_birch_door_middle"), modLoc("block/tall_birch_door_top"));
@@ -52,6 +50,12 @@ public class CaliberBlockStateProvider extends ModBlockStateProvider {
         doorBlock((DoorBlock) CaliberBlocks.STAINED_JUNGLE_DOOR.get(), modLoc("block/stained_jungle_door_bottom"), modLoc("block/stained_jungle_door_top"));
         doorBlock((DoorBlock) CaliberBlocks.STAINED_OAK_DOOR.get(), modLoc("block/stained_oak_door_bottom"), modLoc("block/stained_oak_door_top"));
         doorBlock((DoorBlock) CaliberBlocks.STAINED_SPRUCE_DOOR.get(), modLoc("block/stained_spruce_door_bottom"), modLoc("block/stained_spruce_door_top"));
+        hangingSignBlock(CaliberBlocks.STAINED_ACACIA_HANGING_SIGN.get(), CaliberBlocks.STAINED_ACACIA_WALL_HANGING_SIGN.get(), modLoc("block/stained_acacia_planks"));
+        hangingSignBlock(CaliberBlocks.STAINED_BIRCH_HANGING_SIGN.get(), CaliberBlocks.STAINED_BIRCH_WALL_HANGING_SIGN.get(), modLoc("block/stained_birch_planks"));
+        hangingSignBlock(CaliberBlocks.STAINED_DARK_OAK_HANGING_SIGN.get(), CaliberBlocks.STAINED_DARK_OAK_WALL_HANGING_SIGN.get(), modLoc("block/stained_dark_oak_planks"));
+        hangingSignBlock(CaliberBlocks.STAINED_JUNGLE_HANGING_SIGN.get(), CaliberBlocks.STAINED_JUNGLE_WALL_HANGING_SIGN.get(), modLoc("block/stained_jungle_planks"));
+        hangingSignBlock(CaliberBlocks.STAINED_OAK_HANGING_SIGN.get(), CaliberBlocks.STAINED_OAK_WALL_HANGING_SIGN.get(), modLoc("block/stained_oak_planks"));
+        hangingSignBlock(CaliberBlocks.STAINED_SPRUCE_HANGING_SIGN.get(), CaliberBlocks.STAINED_SPRUCE_WALL_HANGING_SIGN.get(), modLoc("block/stained_spruce_planks"));
         signBlock((StandingSignBlock) CaliberBlocks.STAINED_ACACIA_SIGN.get(), (WallSignBlock) CaliberBlocks.STAINED_ACACIA_WALL_SIGN.get(), modLoc("block/stained_acacia_planks"));
         signBlock((StandingSignBlock) CaliberBlocks.STAINED_BIRCH_SIGN.get(), (WallSignBlock) CaliberBlocks.STAINED_BIRCH_WALL_SIGN.get(), modLoc("block/stained_birch_planks"));
         signBlock((StandingSignBlock) CaliberBlocks.STAINED_DARK_OAK_SIGN.get(), (WallSignBlock) CaliberBlocks.STAINED_DARK_OAK_WALL_SIGN.get(), modLoc("block/stained_dark_oak_planks"));

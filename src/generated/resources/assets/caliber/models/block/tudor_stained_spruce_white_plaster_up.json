@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/cube_bottom_top",
-  "textures": {
-    "bottom": "caliber:block/stained_spruce_boards",
-    "side": "caliber:block/tudor_stained_spruce_white_plaster_up",
-    "top": "caliber:block/stained_spruce_boards"
-  }
-}

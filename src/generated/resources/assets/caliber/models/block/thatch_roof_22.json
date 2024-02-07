@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/roof_22",
-  "textures": {
-    "bottom": "caliber:block/thatch",
-    "side": "caliber:block/thatch",
-    "top": "caliber:block/thatch"
-  }
-}

@@ -1,17 +1,5 @@
 {
   "replace": false,
   "values": [
-    "minecraft:grass_block",
-    "minecraft:dirt",
-    "minecraft:farmland",
-    "minecraft:coarse_dirt",
-    "minecraft:rooted_dirt",
-    "minecraft:dirt_path",
-    "minecraft:podzol",
-    "minecraft:clay",
-    "minecraft:crimson_nylium",
-    "minecraft:warped_nylium",
-    "minecraft:mycelium",
-    "minecraft:soul_soil"
   ]
 }

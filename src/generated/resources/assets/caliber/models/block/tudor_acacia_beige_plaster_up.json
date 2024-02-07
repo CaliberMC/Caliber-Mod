@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/cube_bottom_top",
-  "textures": {
-    "bottom": "caliber:block/acacia_boards",
-    "side": "caliber:block/tudor_acacia_beige_plaster_up",
-    "top": "caliber:block/acacia_boards"
-  }
-}

@@ -1,13 +1,14 @@
 package com.calibermc.caliber;
 
 import com.calibermc.caliber.block.CaliberBlocks;
+import com.calibermc.caliber.block.custom.entity.CaliberBlockEntities;
 import com.calibermc.caliber.config.CaliberClientConfigs;
 import com.calibermc.caliber.config.CaliberCommonConfigs;
 import com.calibermc.caliber.crafting.CaliberRecipeSerializers;
-import com.calibermc.caliber.event.loot.ModGlobalLootSerializers;
+import com.calibermc.caliber.event.loot.CaliberGlobalLootSerializers;
 import com.calibermc.caliber.item.CaliberItems;
 import com.calibermc.caliber.item.CreativeTabs;
-import com.calibermc.caliber.networking.ModNetworking;
+import com.calibermc.caliber.networking.CaliberNetworking;
 import com.calibermc.caliber.util.compat.BuildifyBlockPicker;
 import com.calibermc.caliber.crafting.CaliberMenuTypes;
 import net.minecraftforge.common.MinecraftForge;
@@ -35,10 +36,11 @@ public class Caliber {
 
         CaliberItems.register(eventBus);
         CaliberBlocks.register(eventBus);
+        CaliberBlockEntities.register(eventBus);
         CaliberMenuTypes.register(eventBus);
         CaliberRecipeSerializers.register(eventBus);
         CreativeTabs.register(eventBus);
-        ModGlobalLootSerializers.register(eventBus);
+        CaliberGlobalLootSerializers.register(eventBus);
 
         eventBus.addListener(this::setup);
 
@@ -51,7 +53,7 @@ public class Caliber {
     private void setup(final FMLCommonSetupEvent event) {
         LOGGER.info("Loading Caliber Mod");
 
-        ModNetworking.registerMessages();
+        CaliberNetworking.registerMessages();
         CaliberBlocks.printBlockCounts();
         BuildifyBlockPicker.init();
     }

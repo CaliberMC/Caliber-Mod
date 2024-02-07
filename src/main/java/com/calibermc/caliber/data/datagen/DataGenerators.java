@@ -2,9 +2,9 @@ package com.calibermc.caliber.data.datagen;
 
 import com.calibermc.caliber.Caliber;
 import com.calibermc.caliber.data.datagen.loot.CaliberBlockLootTables;
+import com.calibermc.caliber.data.datagen.recipes.CaliberRecipeProvider;
 import com.calibermc.caliber.data.datagen.recipes.ItemRecipeProvider;
 import com.calibermc.caliber.data.datagen.recipes.MiscRecipeProvider;
-import com.calibermc.caliber.data.datagen.recipes.ModRecipeProvider;
 import com.calibermc.caliberlib.data.datagen.ModLootTableProvider;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -26,7 +26,7 @@ public class DataGenerators {
         generator.addProvider(run, new CaliberItemModelProvider(generator, existingFileHelper));
 
         // Recipes
-        generator.addProvider(run, new ModRecipeProvider(generator));
+        generator.addProvider(run, new CaliberRecipeProvider(generator));
         generator.addProvider(run, new MiscRecipeProvider(generator));
         generator.addProvider(run, new ItemRecipeProvider(generator));
 

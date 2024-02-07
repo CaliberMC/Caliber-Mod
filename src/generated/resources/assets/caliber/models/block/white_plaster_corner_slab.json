@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/corner_slab",
-  "textures": {
-    "bottom": "caliber:block/white_plaster",
-    "side": "caliber:block/white_plaster",
-    "top": "caliber:block/white_plaster"
-  }
-}

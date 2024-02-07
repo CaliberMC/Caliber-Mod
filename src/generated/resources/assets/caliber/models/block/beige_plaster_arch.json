@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/arch",
-  "textures": {
-    "bottom": "caliber:block/beige_plaster",
-    "side": "caliber:block/beige_plaster",
-    "top": "caliber:block/beige_plaster"
-  }
-}

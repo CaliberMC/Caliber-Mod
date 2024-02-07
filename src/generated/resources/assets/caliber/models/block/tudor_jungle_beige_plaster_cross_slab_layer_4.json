@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/slab_layer_4",
-  "textures": {
-    "bottom": "caliber:block/jungle_boards",
-    "side": "caliber:block/tudor_jungle_beige_plaster_cross",
-    "top": "caliber:block/jungle_boards"
-  }
-}

@@ -4,11 +4,11 @@ package com.calibermc.caliber.event;
 import com.calibermc.buildify.util.player.IPlayerExtended;
 import com.calibermc.caliber.Caliber;
 import com.calibermc.caliber.block.CaliberBlocks;
-import com.calibermc.caliber.block.custom.entity.ModBlockEntities;
+import com.calibermc.caliber.block.custom.entity.CaliberBlockEntities;
 import com.calibermc.caliber.block.properties.BlockRenderLayers;
 import com.calibermc.caliber.client.inventory.WoodcutterScreen;
 import com.calibermc.caliber.crafting.CaliberRecipeSerializers;
-import com.calibermc.caliber.networking.ModNetworking;
+import com.calibermc.caliber.networking.CaliberNetworking;
 import com.calibermc.caliber.networking.ServerPressAdditionalKey;
 import com.calibermc.caliber.crafting.CaliberMenuTypes;
 import net.minecraft.client.KeyMapping;
@@ -16,6 +16,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.RecipeBookCategories;
 import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.blockentity.BlockEntityRenderers;
+import net.minecraft.client.renderer.blockentity.HangingSignRenderer;
 import net.minecraft.client.renderer.blockentity.SignRenderer;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.EntityRenderersEvent;
@@ -65,7 +66,8 @@ public class CaliberClientEventBus {
     @SubscribeEvent
     public static void clientSetup(final FMLClientSetupEvent event) {
         MenuScreens.register(CaliberMenuTypes.WOODCUTTER.get(), WoodcutterScreen::new);
-        BlockEntityRenderers.register(ModBlockEntities.SIGN_BLOCK_ENTITIES.get(), SignRenderer::new);
+        BlockEntityRenderers.register(CaliberBlockEntities.SIGN_BLOCK_ENTITIES.get(), SignRenderer::new);
+        BlockEntityRenderers.register(CaliberBlockEntities.HANGING_SIGN_BLOCK_ENTITIES.get(), HangingSignRenderer::new);
         // Set Block Render Types
         BlockRenderLayers.set();
 
@@ -82,7 +84,7 @@ public class CaliberClientEventBus {
                 boolean b = ALLOW_ADDITIONAL.isDown();
                 if (ex.buildify$additionalPressed() != b) {
                     ex.buildify$pressAdditional(b);
-                    ModNetworking.INSTANCE.sendToServer(new ServerPressAdditionalKey(b));
+                    CaliberNetworking.INSTANCE.sendToServer(new ServerPressAdditionalKey(b));
                 }
             }
         }

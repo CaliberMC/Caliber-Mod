@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 5,
-  "ingredient": {
-    "item": "caliber:tudor_stained_acacia_beige_plaster_h_1"
-  },
-  "result": "caliber:tudor_stained_acacia_beige_plaster_h_1_corner"
-}

@@ -1,22 +1,6 @@
 {
   "replace": false,
   "values": [
-    "minecraft:crafting_table",
-    "caliber:kiln",
-    "minecraft:furnace",
-    "minecraft:blast_furnace",
-    "minecraft:smoker",
-    "minecraft:loom",
-    "minecraft:cartography_table",
-    "minecraft:smithing_table",
-    "minecraft:fletching_table",
-    "minecraft:beehive",
-    "minecraft:brewing_stand",
-    "minecraft:enchanting_table",
-    "caliber:woodcutter",
-    "minecraft:stonecutter",
-    "minecraft:grindstone",
-    "minecraft:anvil",
-    "minecraft:cauldron"
+    "caliber:woodcutter"
   ]
 }

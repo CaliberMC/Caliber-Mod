@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/arrowslit",
-  "textures": {
-    "bottom": "caliber:block/ochre_plaster",
-    "side": "caliber:block/ochre_plaster",
-    "top": "caliber:block/ochre_plaster"
-  }
-}

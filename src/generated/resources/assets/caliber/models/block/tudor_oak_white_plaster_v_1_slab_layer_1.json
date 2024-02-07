@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/slab_layer_1",
-  "textures": {
-    "bottom": "caliber:block/oak_boards",
-    "side": "caliber:block/tudor_oak_white_plaster_v_1",
-    "top": "caliber:block/oak_boards"
-  }
-}

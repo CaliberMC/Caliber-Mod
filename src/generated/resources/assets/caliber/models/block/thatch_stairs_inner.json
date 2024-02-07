@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "bottom": "caliber:block/thatch",
-    "side": "caliber:block/thatch",
-    "top": "caliber:block/thatch"
-  }
-}

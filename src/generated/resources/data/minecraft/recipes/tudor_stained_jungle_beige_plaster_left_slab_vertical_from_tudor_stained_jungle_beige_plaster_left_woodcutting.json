@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 8,
-  "ingredient": {
-    "item": "caliber:tudor_stained_jungle_beige_plaster_left"
-  },
-  "result": "caliber:tudor_stained_jungle_beige_plaster_left_slab_vertical"
-}

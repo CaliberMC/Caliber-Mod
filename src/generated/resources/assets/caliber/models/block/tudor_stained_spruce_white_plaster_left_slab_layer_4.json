@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/slab_layer_4",
-  "textures": {
-    "bottom": "caliber:block/stained_spruce_boards",
-    "side": "caliber:block/tudor_stained_spruce_white_plaster_left",
-    "top": "caliber:block/stained_spruce_boards"
-  }
-}

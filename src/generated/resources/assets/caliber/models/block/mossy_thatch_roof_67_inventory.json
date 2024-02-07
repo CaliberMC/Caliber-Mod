@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/inv/roof_67_top_inventory",
-  "textures": {
-    "bottom": "caliber:block/mossy_thatch",
-    "side": "caliber:block/mossy_thatch",
-    "top": "caliber:block/mossy_thatch"
-  }
-}

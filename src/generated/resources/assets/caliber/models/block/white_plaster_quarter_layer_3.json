@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/quarter_layer_3",
-  "textures": {
-    "bottom": "caliber:block/white_plaster",
-    "side": "caliber:block/white_plaster",
-    "top": "caliber:block/white_plaster"
-  }
-}

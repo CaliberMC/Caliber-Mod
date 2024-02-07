@@ -1,8 +1,6 @@
 {
   "replace": false,
   "values": [
-    "caliber:thatch_roof_45",
-    "caliber:mossy_thatch_roof_45",
     "caliber:slate_tile_roof_45",
     "caliber:acacia_shingle_roof_45",
     "caliber:birch_shingle_roof_45",

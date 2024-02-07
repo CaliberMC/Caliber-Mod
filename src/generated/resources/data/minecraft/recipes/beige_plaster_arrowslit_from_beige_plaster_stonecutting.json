@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "caliber:beige_plaster"
-  },
-  "result": "caliber:beige_plaster_arrowslit"
-}

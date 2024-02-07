@@ -331,7 +331,7 @@ _ Added all Terracotta Roof variants
 - Added Forge 1.20.1 support
 - Removed Sorting Buttons
 - Removed World Gen
-- Added Fir, Pine and Redwood Blocks (will be adding more)
+- Added Stained Hanging Signs
 - Updated translations en_us
 - Bugfix: fixed layered slab block collision shape
 - Bugfix: fixed black/transparent textures on Tall Doors

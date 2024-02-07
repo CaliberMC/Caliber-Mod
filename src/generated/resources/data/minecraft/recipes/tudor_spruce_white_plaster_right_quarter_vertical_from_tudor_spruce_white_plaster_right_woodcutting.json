@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 5,
-  "ingredient": {
-    "item": "caliber:tudor_spruce_white_plaster_right"
-  },
-  "result": "caliber:tudor_spruce_white_plaster_right_quarter_vertical"
-}

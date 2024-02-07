@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 5,
-  "ingredient": {
-    "item": "caliber:tudor_stained_spruce_beige_plaster_right"
-  },
-  "result": "caliber:tudor_stained_spruce_beige_plaster_right_corner"
-}

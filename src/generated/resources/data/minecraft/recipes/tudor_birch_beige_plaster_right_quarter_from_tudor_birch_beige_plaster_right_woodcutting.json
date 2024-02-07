@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 5,
-  "ingredient": {
-    "item": "caliber:tudor_birch_beige_plaster_right"
-  },
-  "result": "caliber:tudor_birch_beige_plaster_right_quarter"
-}

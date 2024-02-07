@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 8,
-  "ingredient": {
-    "item": "caliber:tudor_birch_white_plaster_cross"
-  },
-  "result": "caliber:tudor_birch_white_plaster_cross_slab_vertical"
-}

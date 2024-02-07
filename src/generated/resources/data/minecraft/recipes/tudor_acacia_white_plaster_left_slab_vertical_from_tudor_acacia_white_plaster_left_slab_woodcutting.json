@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 1,
-  "ingredient": {
-    "item": "caliber:tudor_acacia_white_plaster_left_slab"
-  },
-  "result": "caliber:tudor_acacia_white_plaster_left_slab_vertical"
-}

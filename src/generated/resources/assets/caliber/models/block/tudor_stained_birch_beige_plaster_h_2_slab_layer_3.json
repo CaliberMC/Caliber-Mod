@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/slab_layer_3",
-  "textures": {
-    "bottom": "caliber:block/stained_birch_boards",
-    "side": "caliber:block/tudor_stained_birch_beige_plaster_h_2",
-    "top": "caliber:block/stained_birch_boards"
-  }
-}
