@@ -7,7 +7,7 @@ plugins {
     id 'org.spongepowered.mixin' version '0.7-SNAPSHOT' apply true
 }
 
-version = mod_version
+version = mod_version-minecraft_version
 group = mod_group_id
 
 base {
@@ -199,9 +199,9 @@ dependencies {
 //    runtimeOnly(fg.deobf("mezz.jei:jei-${minecraft_version}-forge:${jei_version}"))
 
 //    implementation fg.deobf("maven.modrinth:buildify:${buildify_version}-${minecraft_version}") // modrinth variant
-//    implementation fg.deobf("maven.modrinth:caliber:${caliber_lib_version}-${minecraft_version}") // modrinth variant
-    implementation fg.deobf("com.calibermc.buildify:buildify:0.2.0-1.20.1") // maven local
-    implementation fg.deobf("com.calibermc.caliberlib:caliberlib:0.1.0-1.20.1") // maven local
+//    implementation fg.deobf("maven.modrinth:caliberlib:${caliber_lib_version}-${minecraft_version}") // modrinth variant
+    implementation fg.deobf("com.calibermc.buildify:buildify:${buildify_version}-${minecraft_version}") // maven local
+    implementation fg.deobf("com.calibermc.caliberlib:caliberlib:${caliber_lib_version}-${minecraft_version}") // maven local
 
     // jarJar
 //    implementation(fg.deobf(jarJar("com.calibermc.caliberlib:caliberlib:0.0.1") {
