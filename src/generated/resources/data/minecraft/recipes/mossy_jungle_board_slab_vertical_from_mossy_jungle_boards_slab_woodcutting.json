@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 1,
-  "ingredient": {
-    "item": "caliber:mossy_jungle_board_slab"
-  },
-  "result": "caliber:mossy_jungle_board_slab_vertical"
-}

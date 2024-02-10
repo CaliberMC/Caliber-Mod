@@ -29,6 +29,5 @@ public class DataGenerators {
         generator.addProvider(run, new CaliberRecipeProvider(generator));
         generator.addProvider(run, new MiscRecipeProvider(generator));
         generator.addProvider(run, new ItemRecipeProvider(generator));
-
     }
 }

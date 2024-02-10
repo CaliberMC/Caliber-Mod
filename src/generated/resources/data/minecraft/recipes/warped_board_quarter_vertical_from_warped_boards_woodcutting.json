@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 5,
-  "ingredient": {
-    "item": "caliber:warped_boards"
-  },
-  "result": "caliber:warped_board_quarter_vertical"
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/pillar_layer_4",
-  "textures": {
-    "bottom": "caliber:block/mossy_jungle_boards",
-    "side": "caliber:block/mossy_jungle_boards",
-    "top": "caliber:block/mossy_jungle_boards"
-  }
-}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "minecraft:cobblestone"
+  },
+  "result": "caliber:cobblestone_arch_large_half"
+}

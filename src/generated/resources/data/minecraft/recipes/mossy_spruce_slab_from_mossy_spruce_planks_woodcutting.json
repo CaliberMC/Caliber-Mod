@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 8,
-  "ingredient": {
-    "item": "caliber:mossy_spruce_planks"
-  },
-  "result": "caliber:mossy_spruce_slab"
-}

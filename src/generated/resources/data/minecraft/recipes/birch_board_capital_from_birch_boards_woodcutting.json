@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 2,
-  "ingredient": {
-    "item": "caliber:birch_boards"
-  },
-  "result": "caliber:birch_board_capital"
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/window_half_top",
-  "textures": {
-    "bottom": "caliber:block/stained_stripped_oak_wood",
-    "side": "caliber:block/stained_stripped_oak_wood",
-    "top": "caliber:block/stained_stripped_oak_wood"
-  }
-}

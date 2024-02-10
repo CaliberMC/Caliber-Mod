@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/roof_peak_corner_top",
-  "textures": {
-    "bottom": "caliber:block/jungle_boards",
-    "side": "caliber:block/jungle_boards",
-    "top": "caliber:block/jungle_boards"
-  }
-}

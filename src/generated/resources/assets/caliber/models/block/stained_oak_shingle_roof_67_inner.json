@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/roof_67_inner",
-  "textures": {
-    "bottom": "caliber:block/stained_oak_boards",
-    "side": "caliber:block/stained_oak_boards",
-    "top": "caliber:block/stained_oak_boards"
-  }
-}

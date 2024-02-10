@@ -1,0 +1,8 @@
+{
+  "parent": "caliberlib:block/templates/slab_vertical_layer_6",
+  "textures": {
+    "bottom": "minecraft:block/red_sandstone_top",
+    "side": "minecraft:block/cut_red_sandstone",
+    "top": "minecraft:block/red_sandstone_top"
+  }
+}

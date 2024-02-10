@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "bottom": "caliber:block/mossy_warped_boards",
-    "side": "caliber:block/mossy_warped_boards",
-    "top": "caliber:block/mossy_warped_boards"
-  }
-}

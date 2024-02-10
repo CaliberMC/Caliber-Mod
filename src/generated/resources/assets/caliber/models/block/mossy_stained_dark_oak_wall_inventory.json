@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/wall_inventory",
-  "textures": {
-    "wall": "caliber:block/mossy_stained_dark_oak_planks"
-  }
-}

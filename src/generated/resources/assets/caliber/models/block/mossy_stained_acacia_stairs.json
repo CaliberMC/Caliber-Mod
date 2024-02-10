@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "bottom": "caliber:block/mossy_stained_acacia_planks",
-    "side": "caliber:block/mossy_stained_acacia_planks",
-    "top": "caliber:block/mossy_stained_acacia_planks"
-  }
-}

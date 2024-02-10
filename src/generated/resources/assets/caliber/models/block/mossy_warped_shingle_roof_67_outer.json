@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/roof_67_outer",
-  "textures": {
-    "bottom": "caliber:block/mossy_warped_boards",
-    "side": "caliber:block/mossy_warped_boards",
-    "top": "caliber:block/mossy_warped_boards"
-  }
-}

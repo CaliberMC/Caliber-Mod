@@ -228,7 +228,7 @@ def replaceProperties = [
         minecraft_version: minecraft_version, minecraft_version_range: minecraft_version_range,
         forge_version: forge_version, forge_version_range: forge_version_range,
         loader_version_range: loader_version_range,
-        mod_id: mod_id, mod_name: mod_name, mod_license: mod_license, mod_version: mod_version,
+        mod_id: mod_id, mod_name: mod_name, mod_license: mod_license, mod_version: mod_version, pub_version: pub_version,
         mod_authors: mod_authors, mod_description: mod_description,
         buildify_version_range: buildify_version_range,
         caliber_lib_version_range: caliber_lib_version_range,
@@ -271,7 +271,7 @@ publishing {
             // Define groupId, artifactId, and version
             groupId = mod_group_id
             artifactId = mod_id
-            version = mod_version
+            version = pub_version
         }
     }
     repositories {

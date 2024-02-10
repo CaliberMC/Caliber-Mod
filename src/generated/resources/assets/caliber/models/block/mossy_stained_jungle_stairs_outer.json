@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/outer_stairs",
-  "textures": {
-    "bottom": "caliber:block/mossy_stained_jungle_planks",
-    "side": "caliber:block/mossy_stained_jungle_planks",
-    "top": "caliber:block/mossy_stained_jungle_planks"
-  }
-}

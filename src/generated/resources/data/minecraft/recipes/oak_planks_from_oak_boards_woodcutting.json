@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 1,
-  "ingredient": {
-    "item": "caliber:oak_boards"
-  },
-  "result": "minecraft:oak_planks"
-}

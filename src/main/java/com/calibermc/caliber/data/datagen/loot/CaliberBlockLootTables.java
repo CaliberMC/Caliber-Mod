@@ -19,7 +19,6 @@ public class CaliberBlockLootTables extends ModBlockLootTables {
     protected void generate() {
         craftingTables();
         plankBlocks();
-        stainedPlanks();
         super.generate();
     }
 
@@ -61,60 +60,6 @@ public class CaliberBlockLootTables extends ModBlockLootTables {
 //        this.dropSelf(CaliberBlocks.TALL_SPRUCE_DOOR.get());
 //        this.dropSelf(CaliberBlocks.TALL_CRIMSON_DOOR.get());
 //        this.dropSelf(CaliberBlocks.TALL_WARPED_DOOR.get());
-    }
-
-
-    private void stainedPlanks() {
-        this.dropSelf(CaliberBlocks.STAINED_ACACIA_BUTTON.get());
-        this.add(CaliberBlocks.STAINED_ACACIA_DOOR.get(), (block) -> createSinglePropConditionTable(CaliberBlocks.STAINED_ACACIA_DOOR.get(), DoorBlock.HALF, DoubleBlockHalf.LOWER));
-        this.add(CaliberBlocks.STAINED_ACACIA_HANGING_SIGN.get(), (block) -> createSingleItemTable(CaliberBlocks.STAINED_ACACIA_HANGING_SIGN.get()));
-        this.add(CaliberBlocks.STAINED_ACACIA_SIGN.get(), (block) -> createSingleItemTable(CaliberBlocks.STAINED_ACACIA_SIGN.get()));
-        this.dropSelf(CaliberBlocks.STAINED_ACACIA_TRAPDOOR.get());
-        this.add(CaliberBlocks.STAINED_ACACIA_WALL_HANGING_SIGN.get(), (block) -> createSingleItemTable(CaliberBlocks.STAINED_ACACIA_WALL_HANGING_SIGN.get()));
-        this.add(CaliberBlocks.STAINED_ACACIA_WALL_SIGN.get(), (block) -> createSingleItemTable(CaliberBlocks.STAINED_ACACIA_WALL_SIGN.get()));
-        this.dropSelf(CaliberBlocks.STAINED_BIRCH_BUTTON.get());
-        this.add(CaliberBlocks.STAINED_BIRCH_DOOR.get(), (block) -> createSinglePropConditionTable(CaliberBlocks.TALL_STAINED_ACACIA_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
-        this.add(CaliberBlocks.STAINED_BIRCH_HANGING_SIGN.get(), (block) -> createSingleItemTable(CaliberBlocks.STAINED_BIRCH_HANGING_SIGN.get()));
-        this.add(CaliberBlocks.STAINED_BIRCH_SIGN.get(), (block) -> createSingleItemTable(CaliberBlocks.STAINED_BIRCH_SIGN.get()));
-        this.dropSelf(CaliberBlocks.STAINED_BIRCH_TRAPDOOR.get());
-        this.add(CaliberBlocks.STAINED_BIRCH_WALL_HANGING_SIGN.get(), (block) -> createSingleItemTable(CaliberBlocks.STAINED_BIRCH_WALL_HANGING_SIGN.get()));
-        this.add(CaliberBlocks.STAINED_BIRCH_WALL_SIGN.get(), (block) -> createSingleItemTable(CaliberBlocks.STAINED_BIRCH_WALL_SIGN.get()));
-        this.dropSelf(CaliberBlocks.STAINED_DARK_OAK_BUTTON.get());
-        this.add(CaliberBlocks.STAINED_DARK_OAK_DOOR.get(), (block) -> createSinglePropConditionTable(CaliberBlocks.STAINED_DARK_OAK_DOOR.get(), DoorBlock.HALF, DoubleBlockHalf.LOWER));
-        this.add(CaliberBlocks.STAINED_DARK_OAK_HANGING_SIGN.get(), (block) -> createSingleItemTable(CaliberBlocks.STAINED_DARK_OAK_HANGING_SIGN.get()));
-        this.add(CaliberBlocks.STAINED_DARK_OAK_SIGN.get(), (block) -> createSingleItemTable(CaliberBlocks.STAINED_DARK_OAK_SIGN.get()));
-        this.dropSelf(CaliberBlocks.STAINED_DARK_OAK_TRAPDOOR.get());
-        this.add(CaliberBlocks.STAINED_DARK_OAK_WALL_HANGING_SIGN.get(), (block) -> createSingleItemTable(CaliberBlocks.STAINED_DARK_OAK_WALL_HANGING_SIGN.get()));
-        this.add(CaliberBlocks.STAINED_DARK_OAK_WALL_SIGN.get(), (block) -> createSingleItemTable(CaliberBlocks.STAINED_DARK_OAK_WALL_SIGN.get()));
-        this.dropSelf(CaliberBlocks.STAINED_JUNGLE_BUTTON.get());
-        this.add(CaliberBlocks.STAINED_JUNGLE_DOOR.get(), (block) -> createSinglePropConditionTable(CaliberBlocks.STAINED_JUNGLE_DOOR.get(), DoorBlock.HALF, DoubleBlockHalf.LOWER));
-        this.add(CaliberBlocks.STAINED_JUNGLE_HANGING_SIGN.get(), (block) -> createSingleItemTable(CaliberBlocks.STAINED_JUNGLE_HANGING_SIGN.get()));
-        this.add(CaliberBlocks.STAINED_JUNGLE_SIGN.get(), (block) -> createSingleItemTable(CaliberBlocks.STAINED_JUNGLE_SIGN.get()));
-        this.dropSelf(CaliberBlocks.STAINED_JUNGLE_TRAPDOOR.get());
-        this.add(CaliberBlocks.STAINED_JUNGLE_WALL_HANGING_SIGN.get(), (block) -> createSingleItemTable(CaliberBlocks.STAINED_JUNGLE_WALL_HANGING_SIGN.get()));
-        this.add(CaliberBlocks.STAINED_JUNGLE_WALL_SIGN.get(), (block) -> createSingleItemTable(CaliberBlocks.STAINED_JUNGLE_WALL_SIGN.get()));
-        this.dropSelf(CaliberBlocks.STAINED_OAK_BUTTON.get());
-        this.add(CaliberBlocks.STAINED_OAK_DOOR.get(), (block) -> createSinglePropConditionTable(CaliberBlocks.STAINED_OAK_DOOR.get(), DoorBlock.HALF, DoubleBlockHalf.LOWER));
-        this.add(CaliberBlocks.STAINED_OAK_HANGING_SIGN.get(), (block) -> createSingleItemTable(CaliberBlocks.STAINED_OAK_HANGING_SIGN.get()));
-        this.add(CaliberBlocks.STAINED_OAK_SIGN.get(), (block) -> createSingleItemTable(CaliberBlocks.STAINED_OAK_SIGN.get()));
-        this.dropSelf(CaliberBlocks.STAINED_OAK_TRAPDOOR.get());
-        this.add(CaliberBlocks.STAINED_OAK_WALL_HANGING_SIGN.get(), (block) -> createSingleItemTable(CaliberBlocks.STAINED_OAK_WALL_HANGING_SIGN.get()));
-        this.add(CaliberBlocks.STAINED_OAK_WALL_SIGN.get(), (block) -> createSingleItemTable(CaliberBlocks.STAINED_OAK_WALL_SIGN.get()));
-        this.dropSelf(CaliberBlocks.STAINED_SPRUCE_BUTTON.get());
-        this.add(CaliberBlocks.STAINED_SPRUCE_DOOR.get(), (block) -> createSinglePropConditionTable(CaliberBlocks.STAINED_SPRUCE_DOOR.get(), DoorBlock.HALF, DoubleBlockHalf.LOWER));
-        this.add(CaliberBlocks.STAINED_SPRUCE_HANGING_SIGN.get(), (block) -> createSingleItemTable(CaliberBlocks.STAINED_SPRUCE_HANGING_SIGN.get()));
-        this.add(CaliberBlocks.STAINED_SPRUCE_SIGN.get(), (block) -> createSingleItemTable(CaliberBlocks.STAINED_SPRUCE_SIGN.get()));
-        this.dropSelf(CaliberBlocks.STAINED_SPRUCE_TRAPDOOR.get());
-        this.add(CaliberBlocks.STAINED_SPRUCE_WALL_HANGING_SIGN.get(), (block) -> createSingleItemTable(CaliberBlocks.STAINED_SPRUCE_WALL_HANGING_SIGN.get()));
-        this.add(CaliberBlocks.STAINED_SPRUCE_WALL_SIGN.get(), (block) -> createSingleItemTable(CaliberBlocks.STAINED_SPRUCE_WALL_SIGN.get()));
-
-        this.add(CaliberBlocks.TALL_STAINED_ACACIA_DOOR.get(), (block) -> createSinglePropConditionTable(CaliberBlocks.TALL_STAINED_ACACIA_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
-        this.add(CaliberBlocks.TALL_STAINED_BIRCH_DOOR.get(), (block) -> createSinglePropConditionTable(CaliberBlocks.TALL_STAINED_BIRCH_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
-        this.add(CaliberBlocks.TALL_STAINED_DARK_OAK_DOOR.get(), (block) -> createSinglePropConditionTable(CaliberBlocks.TALL_STAINED_DARK_OAK_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
-        this.add(CaliberBlocks.TALL_STAINED_JUNGLE_DOOR.get(), (block) -> createSinglePropConditionTable(CaliberBlocks.TALL_STAINED_JUNGLE_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
-        this.add(CaliberBlocks.TALL_STAINED_OAK_DOOR.get(), (block) -> createSinglePropConditionTable(CaliberBlocks.TALL_STAINED_OAK_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
-        this.add(CaliberBlocks.TALL_STAINED_SPRUCE_DOOR.get(), (block) -> createSinglePropConditionTable(CaliberBlocks.TALL_STAINED_SPRUCE_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
-
     }
 
     @Override

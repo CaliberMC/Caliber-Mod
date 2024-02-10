@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/pillar_layer_1",
-  "textures": {
-    "bottom": "caliber:block/mossy_stained_spruce_planks",
-    "side": "caliber:block/mossy_stained_spruce_planks",
-    "top": "caliber:block/mossy_stained_spruce_planks"
-  }
-}

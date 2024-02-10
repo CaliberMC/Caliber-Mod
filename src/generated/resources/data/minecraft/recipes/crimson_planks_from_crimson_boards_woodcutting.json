@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 1,
-  "ingredient": {
-    "item": "caliber:crimson_boards"
-  },
-  "result": "minecraft:crimson_planks"
-}

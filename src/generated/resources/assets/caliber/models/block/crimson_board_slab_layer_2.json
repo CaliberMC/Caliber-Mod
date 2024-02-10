@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/slab_layer_2",
-  "textures": {
-    "bottom": "caliber:block/crimson_boards",
-    "side": "caliber:block/crimson_boards",
-    "top": "caliber:block/crimson_boards"
-  }
-}

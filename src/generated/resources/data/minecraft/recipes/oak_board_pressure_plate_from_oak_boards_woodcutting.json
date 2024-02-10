@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 1,
-  "ingredient": {
-    "item": "caliber:oak_boards"
-  },
-  "result": "caliber:oak_board_pressure_plate"
-}

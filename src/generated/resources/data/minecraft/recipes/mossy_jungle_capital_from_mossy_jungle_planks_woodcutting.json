@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 2,
-  "ingredient": {
-    "item": "caliber:mossy_jungle_planks"
-  },
-  "result": "caliber:mossy_jungle_capital"
-}

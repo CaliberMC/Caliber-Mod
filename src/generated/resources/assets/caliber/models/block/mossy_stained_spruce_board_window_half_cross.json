@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/window_half_bottom",
-  "textures": {
-    "bottom": "caliber:block/mossy_stained_spruce_boards",
-    "side": "caliber:block/mossy_stained_spruce_boards",
-    "top": "caliber:block/mossy_stained_spruce_boards"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 5,
-  "ingredient": {
-    "item": "caliber:crimson_boards"
-  },
-  "result": "caliber:crimson_board_quarter"
-}

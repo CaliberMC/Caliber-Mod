@@ -1,6 +1,8 @@
 package com.calibermc.caliber.data;
 
 import com.calibermc.caliber.block.CaliberBlocks;
+import com.calibermc.caliberlib.block.management.BlockManager;
+import com.calibermc.caliberlib.block.properties.BlockProps;
 import com.google.common.collect.Maps;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -9,6 +11,8 @@ import com.calibermc.caliberlib.data.ModBlockFamily;
 
 import java.util.Map;
 import java.util.stream.Stream;
+
+import static com.calibermc.caliberlib.block.management.ModBlockHelper.STONE_VARIANTS_WITHOUT_STAIRS_WALL;
 
 @SuppressWarnings("unused")
 public class CaliberBlockFamilies {
@@ -138,6 +142,18 @@ public class CaliberBlockFamilies {
             .stairs(Blocks.END_STONE_BRICK_STAIRS)
             .wall(Blocks.END_STONE_BRICK_WALL)
             .getFamily();
+
+    /* Granite */
+    public static final ModBlockFamily GRANITE = familyBuilder(Blocks.GRANITE)
+            .fromManager(CaliberBlocks.GRANITE)
+            .stairs(Blocks.GRANITE_STAIRS)
+            .wall(Blocks.GRANITE_WALL)
+            .getFamily();
+    public static final ModBlockFamily POLISHED_GRANITE = familyBuilder(Blocks.POLISHED_GRANITE)
+            .fromManager(CaliberBlocks.POLISHED_GRANITE)
+            .stairs(Blocks.GRANITE_STAIRS)
+            .wall(Blocks.GRANITE_WALL)
+            .getFamily();
     
     /* Netherite */
     public static final ModBlockFamily NETHERITE = familyBuilder(Blocks.NETHERITE_BLOCK)
@@ -194,6 +210,76 @@ public class CaliberBlockFamilies {
             .stairs(Blocks.SMOOTH_QUARTZ_STAIRS)
             .getFamily();
 
+    /* Sandstone */
+    public static final ModBlockFamily RED_SANDSTONE = familyBuilder(Blocks.RED_SANDSTONE)
+            .fromManager(CaliberBlocks.RED_SANDSTONE)
+            .stairs(Blocks.RED_SANDSTONE_STAIRS)
+            .wall(Blocks.RED_SANDSTONE_WALL)
+            .getFamily();
+    public static final ModBlockFamily SANDSTONE = familyBuilder(Blocks.SANDSTONE)
+            .fromManager(CaliberBlocks.SANDSTONE)
+            .stairs(Blocks.SANDSTONE_STAIRS)
+            .wall(Blocks.SANDSTONE_WALL)
+            .getFamily();
+    public static final ModBlockFamily SMOOTH_RED_SANDSTONE = familyBuilder(Blocks.SMOOTH_RED_SANDSTONE)
+            .fromManager(CaliberBlocks.SMOOTH_RED_SANDSTONE)
+            .stairs(Blocks.SMOOTH_RED_SANDSTONE_STAIRS)
+            .getFamily();
+    public static final ModBlockFamily SMOOTH_SANDSTONE = familyBuilder(Blocks.SMOOTH_SANDSTONE)
+            .fromManager(CaliberBlocks.SMOOTH_SANDSTONE)
+            .stairs(Blocks.SMOOTH_SANDSTONE_STAIRS)
+            .getFamily();
+    public static final ModBlockFamily CUT_RED_SANDSTONE = familyBuilder(Blocks.CUT_RED_SANDSTONE)
+            .fromManager(CaliberBlocks.CUT_RED_SANDSTONE)
+            .getFamily();
+    public static final ModBlockFamily CUT_SANDSTONE = familyBuilder(Blocks.CUT_SANDSTONE)
+            .fromManager(CaliberBlocks.CUT_SANDSTONE)
+            .getFamily();
+
+
+    /* Stone */
+    public static final ModBlockFamily STONE = familyBuilder(Blocks.STONE)
+            .fromManager(CaliberBlocks.STONE)
+            .button(Blocks.STONE_BUTTON)
+            .pressurePlate(Blocks.STONE_PRESSURE_PLATE)
+            .stairs(Blocks.STONE_STAIRS)
+            .getFamily();
+    public static final ModBlockFamily COBBLESTONE = familyBuilder(Blocks.COBBLESTONE)
+            .fromManager(CaliberBlocks.COBBLESTONE)
+            .stairs(Blocks.COBBLESTONE_STAIRS)
+            .wall(Blocks.COBBLESTONE_WALL)
+            .getFamily();
+    public static final ModBlockFamily STONE_BRICKS = familyBuilder(Blocks.STONE_BRICKS)
+            .fromManager(CaliberBlocks.STONE_BRICK)
+            .stairs(Blocks.STONE_BRICK_STAIRS)
+            .wall(Blocks.STONE_BRICK_WALL)
+            .getFamily();
+
+    /* Stripped Wood  */
+    public static final ModBlockFamily STRIPPED_ACACIA_WOOD = familyBuilder(Blocks.STRIPPED_ACACIA_WOOD)
+            .fromManager(CaliberBlocks.STRIPPED_ACACIA)
+            .getFamily();
+    public static final ModBlockFamily STRIPPED_BIRCH_WOOD = familyBuilder(Blocks.STRIPPED_BIRCH_WOOD)
+            .fromManager(CaliberBlocks.STRIPPED_BIRCH)
+            .getFamily();
+    public static final ModBlockFamily STRIPPED_DARK_OAK_WOOD = familyBuilder(Blocks.STRIPPED_DARK_OAK_WOOD)
+            .fromManager(CaliberBlocks.STRIPPED_DARK_OAK)
+            .getFamily();
+    public static final ModBlockFamily STRIPPED_JUNGLE_WOOD = familyBuilder(Blocks.STRIPPED_JUNGLE_WOOD)
+            .fromManager(CaliberBlocks.STRIPPED_JUNGLE)
+            .getFamily();
+    public static final ModBlockFamily STRIPPED_OAK_WOOD = familyBuilder(Blocks.STRIPPED_OAK_WOOD)
+            .fromManager(CaliberBlocks.STRIPPED_OAK)
+            .getFamily();
+    public static final ModBlockFamily STRIPPED_SPRUCE_WOOD = familyBuilder(Blocks.STRIPPED_SPRUCE_WOOD)
+            .fromManager(CaliberBlocks.STRIPPED_SPRUCE)
+            .getFamily();
+    public static final ModBlockFamily STRIPPED_CRIMSON_HYPHAE = familyBuilder(Blocks.STRIPPED_CRIMSON_HYPHAE)
+            .fromManager(CaliberBlocks.STRIPPED_CRIMSON)
+            .getFamily();
+    public static final ModBlockFamily STRIPPED_WARPED_HYPHAE = familyBuilder(Blocks.STRIPPED_WARPED_HYPHAE)
+            .fromManager(CaliberBlocks.STRIPPED_WARPED)
+            .getFamily();
 
     /* Tuff */
     public static final ModBlockFamily TUFF = familyBuilder(Blocks.TUFF)
@@ -295,271 +381,7 @@ public class CaliberBlockFamilies {
             .button(Blocks.WARPED_BUTTON)
             .sign(Blocks.WARPED_SIGN, Blocks.WARPED_WALL_SIGN)
             .getFamily();
-
-    /* Mossy Planks */
-    public static final ModBlockFamily MOSSY_ACACIA = familyBuilder(CaliberBlocks.MOSSY_ACACIA.baseBlock())
-            .fromManager(CaliberBlocks.MOSSY_ACACIA)
-            .getFamily();
-    public static final ModBlockFamily MOSSY_BIRCH = familyBuilder(CaliberBlocks.MOSSY_BIRCH.baseBlock())
-            .fromManager(CaliberBlocks.MOSSY_BIRCH)
-            .getFamily();
-    public static final ModBlockFamily MOSSY_DARK_OAK = familyBuilder(CaliberBlocks.MOSSY_DARK_OAK.baseBlock())
-            .fromManager(CaliberBlocks.MOSSY_DARK_OAK)
-            .getFamily();
-    public static final ModBlockFamily MOSSY_JUNGLE = familyBuilder(CaliberBlocks.MOSSY_JUNGLE.baseBlock())
-            .fromManager(CaliberBlocks.MOSSY_JUNGLE)
-            .getFamily();
-    public static final ModBlockFamily MOSSY_OAK = familyBuilder(CaliberBlocks.MOSSY_OAK.baseBlock())
-            .fromManager(CaliberBlocks.MOSSY_OAK)
-            .getFamily();
-    public static final ModBlockFamily MOSSY_SPRUCE = familyBuilder(CaliberBlocks.MOSSY_SPRUCE.baseBlock())
-            .fromManager(CaliberBlocks.MOSSY_SPRUCE)
-            .getFamily();
-    public static final ModBlockFamily MOSSY_CRIMSON = familyBuilder(CaliberBlocks.MOSSY_CRIMSON.baseBlock())
-            .fromManager(CaliberBlocks.MOSSY_CRIMSON)
-            .getFamily();
-    public static final ModBlockFamily MOSSY_WARPED = familyBuilder(CaliberBlocks.MOSSY_WARPED.baseBlock())
-            .fromManager(CaliberBlocks.MOSSY_WARPED)
-            .getFamily();
-
-    /* Stained Wood Planks */
-    public static final ModBlockFamily STAINED_ACACIA_PLANKS = familyBuilder(CaliberBlocks.STAINED_ACACIA.baseBlock())
-            .fromManager(CaliberBlocks.STAINED_ACACIA)
-            .button(CaliberBlocks.STAINED_ACACIA_BUTTON.get())
-            .door(CaliberBlocks.STAINED_ACACIA_DOOR.get())
-            .sign(CaliberBlocks.STAINED_ACACIA_SIGN.get(), CaliberBlocks.STAINED_ACACIA_WALL_SIGN.get())
-            .tallDoor(CaliberBlocks.TALL_STAINED_ACACIA_DOOR.get())
-            .trapdoor(CaliberBlocks.STAINED_ACACIA_TRAPDOOR.get())
-            .getFamily();
-    public static final ModBlockFamily STAINED_BIRCH_PLANKS = familyBuilder(CaliberBlocks.STAINED_BIRCH.baseBlock())
-            .fromManager(CaliberBlocks.STAINED_BIRCH)
-            .button(CaliberBlocks.STAINED_BIRCH_BUTTON.get())
-            .door(CaliberBlocks.STAINED_BIRCH_DOOR.get())
-            .sign(CaliberBlocks.STAINED_BIRCH_SIGN.get(), CaliberBlocks.STAINED_BIRCH_WALL_SIGN.get())
-            .tallDoor(CaliberBlocks.TALL_STAINED_BIRCH_DOOR.get())
-            .trapdoor(CaliberBlocks.STAINED_BIRCH_TRAPDOOR.get())
-            .getFamily();
-    public static final ModBlockFamily STAINED_DARK_OAK_PLANKS = familyBuilder(CaliberBlocks.STAINED_DARK_OAK.baseBlock())
-            .fromManager(CaliberBlocks.STAINED_DARK_OAK)
-            .button(CaliberBlocks.STAINED_DARK_OAK_BUTTON.get())
-            .door(CaliberBlocks.STAINED_DARK_OAK_DOOR.get())
-            .sign(CaliberBlocks.STAINED_DARK_OAK_SIGN.get(), CaliberBlocks.STAINED_DARK_OAK_WALL_SIGN.get())
-            .tallDoor(CaliberBlocks.TALL_STAINED_DARK_OAK_DOOR.get())
-            .trapdoor(CaliberBlocks.STAINED_DARK_OAK_TRAPDOOR.get())
-            .getFamily();
-    public static final ModBlockFamily STAINED_JUNGLE_PLANKS = familyBuilder(CaliberBlocks.STAINED_JUNGLE.baseBlock())
-            .fromManager(CaliberBlocks.STAINED_JUNGLE)
-            .button(CaliberBlocks.STAINED_JUNGLE_BUTTON.get())
-            .door(CaliberBlocks.STAINED_JUNGLE_DOOR.get())
-            .sign(CaliberBlocks.STAINED_JUNGLE_SIGN.get(), CaliberBlocks.STAINED_JUNGLE_WALL_SIGN.get())
-            .tallDoor(CaliberBlocks.TALL_STAINED_JUNGLE_DOOR.get())
-            .trapdoor(CaliberBlocks.STAINED_JUNGLE_TRAPDOOR.get())
-            .getFamily();
-    public static final ModBlockFamily STAINED_OAK_PLANKS = familyBuilder(CaliberBlocks.STAINED_OAK.baseBlock())
-            .fromManager(CaliberBlocks.STAINED_OAK)
-            .button(CaliberBlocks.STAINED_OAK_BUTTON.get())
-            .door(CaliberBlocks.STAINED_OAK_DOOR.get())
-            .sign(CaliberBlocks.STAINED_OAK_SIGN.get(), CaliberBlocks.STAINED_OAK_WALL_SIGN.get())
-            .tallDoor(CaliberBlocks.TALL_STAINED_OAK_DOOR.get())
-            .trapdoor(CaliberBlocks.STAINED_OAK_TRAPDOOR.get())
-            .getFamily();
-    public static final ModBlockFamily STAINED_SPRUCE_PLANKS = familyBuilder(CaliberBlocks.STAINED_SPRUCE.baseBlock())
-            .fromManager(CaliberBlocks.STAINED_SPRUCE)
-            .button(CaliberBlocks.STAINED_SPRUCE_BUTTON.get())
-            .door(CaliberBlocks.STAINED_SPRUCE_DOOR.get())
-            .sign(CaliberBlocks.STAINED_SPRUCE_SIGN.get(), CaliberBlocks.STAINED_SPRUCE_WALL_SIGN.get())
-            .tallDoor(CaliberBlocks.TALL_STAINED_SPRUCE_DOOR.get())
-            .trapdoor(CaliberBlocks.STAINED_SPRUCE_TRAPDOOR.get())
-            .getFamily();
-
-    /* Mossy Stained Planks */
-    public static final ModBlockFamily MOSSY_STAINED_ACACIA = familyBuilder(CaliberBlocks.MOSSY_STAINED_ACACIA.baseBlock())
-            .fromManager(CaliberBlocks.MOSSY_STAINED_ACACIA)
-            .getFamily();
-    public static final ModBlockFamily MOSSY_STAINED_BIRCH = familyBuilder(CaliberBlocks.MOSSY_STAINED_BIRCH.baseBlock())
-            .fromManager(CaliberBlocks.MOSSY_STAINED_BIRCH)
-            .getFamily();
-    public static final ModBlockFamily MOSSY_STAINED_DARK_OAK = familyBuilder(CaliberBlocks.MOSSY_STAINED_DARK_OAK.baseBlock())
-            .fromManager(CaliberBlocks.MOSSY_STAINED_DARK_OAK)
-            .getFamily();
-    public static final ModBlockFamily MOSSY_STAINED_JUNGLE = familyBuilder(CaliberBlocks.MOSSY_STAINED_JUNGLE.baseBlock())
-            .fromManager(CaliberBlocks.MOSSY_STAINED_JUNGLE)
-            .getFamily();
-    public static final ModBlockFamily MOSSY_STAINED_OAK = familyBuilder(CaliberBlocks.MOSSY_STAINED_OAK.baseBlock())
-            .fromManager(CaliberBlocks.MOSSY_STAINED_OAK)
-            .getFamily();
-    public static final ModBlockFamily MOSSY_STAINED_SPRUCE = familyBuilder(CaliberBlocks.MOSSY_STAINED_SPRUCE.baseBlock())
-            .fromManager(CaliberBlocks.MOSSY_STAINED_SPRUCE)
-            .getFamily();
-
-    /* Stripped Wood  */
-    public static final ModBlockFamily STRIPPED_ACACIA_WOOD = familyBuilder(Blocks.STRIPPED_ACACIA_WOOD)
-            .fromManager(CaliberBlocks.STRIPPED_ACACIA)
-            .getFamily();
-    public static final ModBlockFamily STRIPPED_BIRCH_WOOD = familyBuilder(Blocks.STRIPPED_BIRCH_WOOD)
-            .fromManager(CaliberBlocks.STRIPPED_BIRCH)
-            .getFamily();
-    public static final ModBlockFamily STRIPPED_DARK_OAK_WOOD = familyBuilder(Blocks.STRIPPED_DARK_OAK_WOOD)
-            .fromManager(CaliberBlocks.STRIPPED_DARK_OAK)
-            .getFamily();
-    public static final ModBlockFamily STRIPPED_JUNGLE_WOOD = familyBuilder(Blocks.STRIPPED_JUNGLE_WOOD)
-            .fromManager(CaliberBlocks.STRIPPED_JUNGLE)
-            .getFamily();
-    public static final ModBlockFamily STRIPPED_OAK_WOOD = familyBuilder(Blocks.STRIPPED_OAK_WOOD)
-            .fromManager(CaliberBlocks.STRIPPED_OAK)
-            .getFamily();
-    public static final ModBlockFamily STRIPPED_SPRUCE_WOOD = familyBuilder(Blocks.STRIPPED_SPRUCE_WOOD)
-            .fromManager(CaliberBlocks.STRIPPED_SPRUCE)
-            .getFamily();
-    public static final ModBlockFamily STRIPPED_CRIMSON_HYPHAE = familyBuilder(Blocks.STRIPPED_CRIMSON_HYPHAE)
-            .fromManager(CaliberBlocks.STRIPPED_CRIMSON)
-            .getFamily();
-    public static final ModBlockFamily STRIPPED_WARPED_HYPHAE = familyBuilder(Blocks.STRIPPED_WARPED_HYPHAE)
-            .fromManager(CaliberBlocks.STRIPPED_WARPED)
-            .getFamily();
-
-    /* Stained Wood  */
-    public static final ModBlockFamily STAINED_STRIPPED_ACACIA_WOOD = familyBuilder(CaliberBlocks.STAINED_STRIPPED_ACACIA.baseBlock())
-            .fromManager(CaliberBlocks.STAINED_STRIPPED_ACACIA)
-            .getFamily();
-    public static final ModBlockFamily STAINED_STRIPPED_BIRCH_WOOD = familyBuilder(CaliberBlocks.STAINED_STRIPPED_BIRCH.baseBlock())
-            .fromManager(CaliberBlocks.STAINED_STRIPPED_BIRCH)
-            .getFamily();
-    public static final ModBlockFamily STAINED_STRIPPED_DARK_OAK_WOOD = familyBuilder(CaliberBlocks.STAINED_STRIPPED_DARK_OAK.baseBlock())
-            .fromManager(CaliberBlocks.STAINED_STRIPPED_DARK_OAK)
-            .getFamily();
-    public static final ModBlockFamily STAINED_STRIPPED_JUNGLE_WOOD = familyBuilder(CaliberBlocks.STAINED_STRIPPED_JUNGLE.baseBlock())
-            .fromManager(CaliberBlocks.STAINED_STRIPPED_JUNGLE)
-            .getFamily();
-    public static final ModBlockFamily STAINED_STRIPPED_OAK_WOOD = familyBuilder(CaliberBlocks.STAINED_STRIPPED_OAK.baseBlock())
-            .fromManager(CaliberBlocks.STAINED_STRIPPED_OAK)
-            .getFamily();
-    public static final ModBlockFamily STAINED_STRIPPED_SPRUCE_WOOD = familyBuilder(CaliberBlocks.STAINED_STRIPPED_SPRUCE.baseBlock())
-            .fromManager(CaliberBlocks.STAINED_STRIPPED_SPRUCE)
-            .getFamily();
-
-    /* Boards and Roofing Blocks */
-    public static final ModBlockFamily ACACIA_BOARDS = familyBuilder(CaliberBlocks.ACACIA_BOARDS.baseBlock())
-            .fromManager(CaliberBlocks.ACACIA_BOARDS)
-            .fromManager(CaliberBlocks.ACACIA_SHINGLES)
-            .getFamily();
-    public static final ModBlockFamily BIRCH_BOARDS = familyBuilder(CaliberBlocks.BIRCH_BOARDS.baseBlock())
-            .fromManager(CaliberBlocks.BIRCH_BOARDS)
-            .fromManager(CaliberBlocks.BIRCH_SHINGLES)
-            .getFamily();
-    public static final ModBlockFamily DARK_OAK_BOARDS = familyBuilder(CaliberBlocks.DARK_OAK_BOARDS.baseBlock())
-            .fromManager(CaliberBlocks.DARK_OAK_BOARDS)
-            .fromManager(CaliberBlocks.DARK_OAK_SHINGLES)
-            .getFamily();
-    public static final ModBlockFamily JUNGLE_BOARDS = familyBuilder(CaliberBlocks.JUNGLE_BOARDS.baseBlock())
-            .fromManager(CaliberBlocks.JUNGLE_BOARDS)
-            .fromManager(CaliberBlocks.JUNGLE_SHINGLES)
-            .getFamily();
-    public static final ModBlockFamily OAK_BOARDS = familyBuilder(CaliberBlocks.OAK_BOARDS.baseBlock())
-            .fromManager(CaliberBlocks.OAK_BOARDS)
-            .fromManager(CaliberBlocks.OAK_SHINGLES)
-            .getFamily();
-    public static final ModBlockFamily SPRUCE_BOARDS = familyBuilder(CaliberBlocks.SPRUCE_BOARDS.baseBlock())
-            .fromManager(CaliberBlocks.SPRUCE_BOARDS)
-            .fromManager(CaliberBlocks.SPRUCE_SHINGLES)
-            .getFamily();
-    public static final ModBlockFamily CRIMSON_BOARDS = familyBuilder(CaliberBlocks.CRIMSON_BOARDS.baseBlock())
-            .fromManager(CaliberBlocks.CRIMSON_BOARDS)
-            .fromManager(CaliberBlocks.CRIMSON_SHINGLES)
-            .getFamily();
-    public static final ModBlockFamily WARPED_BOARDS = familyBuilder(CaliberBlocks.WARPED_BOARDS.baseBlock())
-            .fromManager(CaliberBlocks.WARPED_BOARDS)
-            .fromManager(CaliberBlocks.WARPED_SHINGLES)
-            .getFamily();
     
-    /* Mossy Boards and Roofing Blocks */
-    public static final ModBlockFamily MOSSY_ACACIA_BOARDS = familyBuilder(CaliberBlocks.MOSSY_ACACIA_BOARDS.baseBlock())
-            .fromManager(CaliberBlocks.MOSSY_ACACIA_BOARDS)
-            .fromManager(CaliberBlocks.MOSSY_ACACIA_SHINGLES)
-            .getFamily();
-    public static final ModBlockFamily MOSSY_BIRCH_BOARDS = familyBuilder(CaliberBlocks.MOSSY_BIRCH_BOARDS.baseBlock())
-            .fromManager(CaliberBlocks.MOSSY_BIRCH_BOARDS)
-            .fromManager(CaliberBlocks.MOSSY_BIRCH_SHINGLES)
-            .getFamily();
-    public static final ModBlockFamily MOSSY_DARK_OAK_BOARDS = familyBuilder(CaliberBlocks.MOSSY_DARK_OAK_BOARDS.baseBlock())
-            .fromManager(CaliberBlocks.MOSSY_DARK_OAK_BOARDS)
-            .fromManager(CaliberBlocks.MOSSY_DARK_OAK_SHINGLES)
-            .getFamily();
-    public static final ModBlockFamily MOSSY_JUNGLE_BOARDS = familyBuilder(CaliberBlocks.MOSSY_JUNGLE_BOARDS.baseBlock())
-            .fromManager(CaliberBlocks.MOSSY_JUNGLE_BOARDS)
-            .fromManager(CaliberBlocks.MOSSY_JUNGLE_SHINGLES)
-            .getFamily();
-    public static final ModBlockFamily MOSSY_OAK_BOARDS = familyBuilder(CaliberBlocks.MOSSY_OAK_BOARDS.baseBlock())
-            .fromManager(CaliberBlocks.MOSSY_OAK_BOARDS)
-            .fromManager(CaliberBlocks.MOSSY_OAK_SHINGLES)
-            .getFamily();
-    public static final ModBlockFamily MOSSY_SPRUCE_BOARDS = familyBuilder(CaliberBlocks.MOSSY_SPRUCE_BOARDS.baseBlock())
-            .fromManager(CaliberBlocks.MOSSY_SPRUCE_BOARDS)
-            .fromManager(CaliberBlocks.MOSSY_SPRUCE_SHINGLES)
-            .getFamily();
-    public static final ModBlockFamily MOSSY_CRIMSON_BOARDS = familyBuilder(CaliberBlocks.MOSSY_CRIMSON_BOARDS.baseBlock())
-            .fromManager(CaliberBlocks.MOSSY_CRIMSON_BOARDS)
-            .fromManager(CaliberBlocks.MOSSY_CRIMSON_SHINGLES)
-            .getFamily();
-    public static final ModBlockFamily MOSSY_WARPED_BOARDS = familyBuilder(CaliberBlocks.MOSSY_WARPED_BOARDS.baseBlock())
-            .fromManager(CaliberBlocks.MOSSY_WARPED_BOARDS)
-            .fromManager(CaliberBlocks.MOSSY_WARPED_SHINGLES)
-            .getFamily();
-    
-    
-    /* Stained Boards and Roofing Blocks */
-    public static final ModBlockFamily STAINED_ACACIA_BOARDS = familyBuilder(CaliberBlocks.STAINED_ACACIA_BOARDS.baseBlock())
-            .fromManager(CaliberBlocks.STAINED_ACACIA_BOARDS)
-            .fromManager(CaliberBlocks.STAINED_ACACIA_SHINGLES)
-            .getFamily();
-    public static final ModBlockFamily STAINED_BIRCH_BOARDS = familyBuilder(CaliberBlocks.STAINED_BIRCH_BOARDS.baseBlock())
-            .fromManager(CaliberBlocks.STAINED_BIRCH_BOARDS)
-            .fromManager(CaliberBlocks.STAINED_BIRCH_SHINGLES)
-            .getFamily();
-    public static final ModBlockFamily STAINED_DARK_OAK_BOARDS = familyBuilder(CaliberBlocks.STAINED_DARK_OAK_BOARDS.baseBlock())
-            .fromManager(CaliberBlocks.STAINED_DARK_OAK_BOARDS)
-            .fromManager(CaliberBlocks.STAINED_DARK_OAK_SHINGLES)
-            .getFamily();
-    public static final ModBlockFamily STAINED_JUNGLE_BOARDS = familyBuilder(CaliberBlocks.STAINED_JUNGLE_BOARDS.baseBlock())
-            .fromManager(CaliberBlocks.STAINED_JUNGLE_BOARDS)
-            .fromManager(CaliberBlocks.STAINED_JUNGLE_SHINGLES)
-            .getFamily();
-    public static final ModBlockFamily STAINED_OAK_BOARDS = familyBuilder(CaliberBlocks.STAINED_OAK_BOARDS.baseBlock())
-            .fromManager(CaliberBlocks.STAINED_OAK_BOARDS)
-            .fromManager(CaliberBlocks.STAINED_OAK_SHINGLES)
-            .getFamily();
-    public static final ModBlockFamily STAINED_SPRUCE_BOARDS = familyBuilder(CaliberBlocks.STAINED_SPRUCE_BOARDS.baseBlock())
-            .fromManager(CaliberBlocks.STAINED_SPRUCE_BOARDS)
-            .fromManager(CaliberBlocks.STAINED_SPRUCE_SHINGLES)
-            .getFamily();
-
-    /* Mossy Boards and Roofing Blocks */
-    public static final ModBlockFamily MOSSY_STAINED_ACACIA_BOARDS = familyBuilder(CaliberBlocks.MOSSY_STAINED_ACACIA_BOARDS.baseBlock())
-            .fromManager(CaliberBlocks.MOSSY_STAINED_ACACIA_BOARDS)
-            .fromManager(CaliberBlocks.MOSSY_STAINED_ACACIA_SHINGLES)
-            .getFamily();
-    public static final ModBlockFamily MOSSY_STAINED_BIRCH_BOARDS = familyBuilder(CaliberBlocks.MOSSY_STAINED_BIRCH_BOARDS.baseBlock())
-            .fromManager(CaliberBlocks.MOSSY_STAINED_BIRCH_BOARDS)
-            .fromManager(CaliberBlocks.MOSSY_STAINED_BIRCH_SHINGLES)
-            .getFamily();
-    public static final ModBlockFamily MOSSY_STAINED_DARK_OAK_BOARDS = familyBuilder(CaliberBlocks.MOSSY_STAINED_DARK_OAK_BOARDS.baseBlock())
-            .fromManager(CaliberBlocks.MOSSY_STAINED_DARK_OAK_BOARDS)
-            .fromManager(CaliberBlocks.MOSSY_STAINED_DARK_OAK_SHINGLES)
-            .getFamily();
-    public static final ModBlockFamily MOSSY_STAINED_JUNGLE_BOARDS = familyBuilder(CaliberBlocks.MOSSY_STAINED_JUNGLE_BOARDS.baseBlock())
-            .fromManager(CaliberBlocks.MOSSY_STAINED_JUNGLE_BOARDS)
-            .fromManager(CaliberBlocks.MOSSY_STAINED_JUNGLE_SHINGLES)
-            .getFamily();
-    public static final ModBlockFamily MOSSY_STAINED_OAK_BOARDS = familyBuilder(CaliberBlocks.MOSSY_STAINED_OAK_BOARDS.baseBlock())
-            .fromManager(CaliberBlocks.MOSSY_STAINED_OAK_BOARDS)
-            .fromManager(CaliberBlocks.MOSSY_STAINED_OAK_SHINGLES)
-            .getFamily();
-    public static final ModBlockFamily MOSSY_STAINED_SPRUCE_BOARDS = familyBuilder(CaliberBlocks.MOSSY_STAINED_SPRUCE_BOARDS.baseBlock())
-            .fromManager(CaliberBlocks.MOSSY_STAINED_SPRUCE_BOARDS)
-            .fromManager(CaliberBlocks.MOSSY_STAINED_SPRUCE_SHINGLES)
-            .getFamily();
-
-
     /* Concrete */
     public static final ModBlockFamily BLACK_CONCRETE = familyBuilder(Blocks.BLACK_CONCRETE)
             .fromManager(CaliberBlocks.BLACK_CONCRETE)

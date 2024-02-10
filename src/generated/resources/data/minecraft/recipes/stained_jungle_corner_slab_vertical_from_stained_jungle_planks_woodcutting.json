@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 4,
-  "ingredient": {
-    "item": "caliber:stained_jungle_planks"
-  },
-  "result": "caliber:stained_jungle_corner_slab_vertical"
-}

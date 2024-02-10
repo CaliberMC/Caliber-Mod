@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "caliber:block/cobblestone_capital"
+    },
+    "type=top": {
+      "model": "caliber:block/cobblestone_capital_top"
+    }
+  }
+}

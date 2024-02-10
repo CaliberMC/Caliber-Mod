@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 2,
-  "ingredient": {
-    "item": "caliber:mossy_acacia_boards"
-  },
-  "result": "caliber:mossy_acacia_shingle_roof_45"
-}

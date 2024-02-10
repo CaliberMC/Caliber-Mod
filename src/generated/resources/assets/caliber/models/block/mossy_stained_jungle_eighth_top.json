@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/eighth_top",
-  "textures": {
-    "bottom": "caliber:block/mossy_stained_jungle_planks",
-    "side": "caliber:block/mossy_stained_jungle_planks",
-    "top": "caliber:block/mossy_stained_jungle_planks"
-  }
-}

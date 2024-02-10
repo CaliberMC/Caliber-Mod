@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/eighth_top",
-  "textures": {
-    "bottom": "caliber:block/stained_acacia_planks",
-    "side": "caliber:block/stained_acacia_planks",
-    "top": "caliber:block/stained_acacia_planks"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/capital",
-  "textures": {
-    "bottom": "caliber:block/spruce_boards",
-    "side": "caliber:block/spruce_boards",
-    "top": "caliber:block/spruce_boards"
-  }
-}

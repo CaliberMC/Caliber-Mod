@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 8,
-  "ingredient": {
-    "item": "caliber:mossy_oak_boards"
-  },
-  "result": "caliber:mossy_oak_board_slab_vertical"
-}

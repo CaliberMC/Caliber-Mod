@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 4,
-  "ingredient": {
-    "item": "caliber:stained_dark_oak_boards"
-  },
-  "result": "caliber:stained_dark_oak_board_corner_slab_vertical"
-}

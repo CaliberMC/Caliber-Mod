@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/quarter_vertical_layer_3",
-  "textures": {
-    "bottom": "caliber:block/stained_dark_oak_planks",
-    "side": "caliber:block/stained_dark_oak_planks",
-    "top": "caliber:block/stained_dark_oak_planks"
-  }
-}

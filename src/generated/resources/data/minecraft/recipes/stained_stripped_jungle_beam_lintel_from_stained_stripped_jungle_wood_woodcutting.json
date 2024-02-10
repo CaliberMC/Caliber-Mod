@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 16,
-  "ingredient": {
-    "item": "caliber:stained_stripped_jungle_wood"
-  },
-  "result": "caliber:stained_stripped_jungle_beam_lintel"
-}

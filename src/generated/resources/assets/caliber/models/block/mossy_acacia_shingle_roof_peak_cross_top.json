@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/roof_peak_cross_top",
-  "textures": {
-    "bottom": "caliber:block/mossy_acacia_boards",
-    "side": "caliber:block/mossy_acacia_boards",
-    "top": "caliber:block/mossy_acacia_boards"
-  }
-}

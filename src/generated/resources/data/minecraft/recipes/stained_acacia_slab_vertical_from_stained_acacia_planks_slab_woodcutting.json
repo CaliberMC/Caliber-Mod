@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 1,
-  "ingredient": {
-    "item": "caliber:stained_acacia_slab"
-  },
-  "result": "caliber:stained_acacia_slab_vertical"
-}

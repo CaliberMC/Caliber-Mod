@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/template_wall_side",
-  "textures": {
-    "wall": "caliber:block/mossy_stained_dark_oak_boards"
-  }
-}

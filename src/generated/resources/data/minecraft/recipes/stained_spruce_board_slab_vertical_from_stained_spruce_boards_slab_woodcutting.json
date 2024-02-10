@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 1,
-  "ingredient": {
-    "item": "caliber:stained_spruce_board_slab"
-  },
-  "result": "caliber:stained_spruce_board_slab_vertical"
-}

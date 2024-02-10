@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/balustrade_connected",
-  "textures": {
-    "bottom": "caliber:block/mossy_jungle_boards",
-    "side": "caliber:block/mossy_jungle_boards",
-    "top": "caliber:block/mossy_jungle_boards"
-  }
-}

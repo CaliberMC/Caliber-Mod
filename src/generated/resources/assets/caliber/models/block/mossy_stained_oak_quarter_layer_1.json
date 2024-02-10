@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/quarter_layer_1",
-  "textures": {
-    "bottom": "caliber:block/mossy_stained_oak_planks",
-    "side": "caliber:block/mossy_stained_oak_planks",
-    "top": "caliber:block/mossy_stained_oak_planks"
-  }
-}

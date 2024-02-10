@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 4,
-  "ingredient": {
-    "item": "caliber:mossy_warped_boards"
-  },
-  "result": "caliber:mossy_warped_board_corner_slab_vertical"
-}

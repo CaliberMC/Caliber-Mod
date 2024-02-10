@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 5,
-  "ingredient": {
-    "item": "caliber:mossy_stained_oak_boards"
-  },
-  "result": "caliber:mossy_stained_oak_board_quarter"
-}

@@ -66,8 +66,7 @@ public class CaliberClientEventBus {
     @SubscribeEvent
     public static void clientSetup(final FMLClientSetupEvent event) {
         MenuScreens.register(CaliberMenuTypes.WOODCUTTER.get(), WoodcutterScreen::new);
-        BlockEntityRenderers.register(CaliberBlockEntities.SIGN_BLOCK_ENTITIES.get(), SignRenderer::new);
-        BlockEntityRenderers.register(CaliberBlockEntities.HANGING_SIGN_BLOCK_ENTITIES.get(), HangingSignRenderer::new);
+
         // Set Block Render Types
         BlockRenderLayers.set();
 

@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 5,
-  "ingredient": {
-    "item": "caliber:jungle_boards"
-  },
-  "result": "caliber:jungle_board_quarter"
-}

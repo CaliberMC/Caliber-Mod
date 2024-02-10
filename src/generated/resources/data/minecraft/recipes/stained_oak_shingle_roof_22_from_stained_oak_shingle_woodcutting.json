@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 2,
-  "ingredient": {
-    "item": "caliber:stained_oak_boards"
-  },
-  "result": "caliber:stained_oak_shingle_roof_22"
-}

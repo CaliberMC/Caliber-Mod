@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/slab_layer_2",
-  "textures": {
-    "bottom": "caliber:block/stained_jungle_planks",
-    "side": "caliber:block/stained_jungle_planks",
-    "top": "caliber:block/stained_jungle_planks"
-  }
-}

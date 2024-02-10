@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/eighth",
-  "textures": {
-    "bottom": "caliber:block/dark_oak_boards",
-    "side": "caliber:block/dark_oak_boards",
-    "top": "caliber:block/dark_oak_boards"
-  }
-}

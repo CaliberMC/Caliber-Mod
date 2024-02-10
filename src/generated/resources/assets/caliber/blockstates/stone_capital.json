@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "caliber:block/stone_capital"
+    },
+    "type=top": {
+      "model": "caliber:block/stone_capital_top"
+    }
+  }
+}

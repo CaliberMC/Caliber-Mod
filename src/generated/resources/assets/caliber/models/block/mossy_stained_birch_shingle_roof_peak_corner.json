@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/roof_peak_corner",
-  "textures": {
-    "bottom": "caliber:block/mossy_stained_birch_boards",
-    "side": "caliber:block/mossy_stained_birch_boards",
-    "top": "caliber:block/mossy_stained_birch_boards"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 1,
-  "ingredient": {
-    "item": "caliber:mossy_crimson_planks"
-  },
-  "result": "caliber:mossy_crimson_wall"
-}

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "caliber:block/red_granite_arch_half",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "caliber:block/red_granite_arch_half"
+    },
+    "facing=south": {
+      "model": "caliber:block/red_granite_arch_half",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "caliber:block/red_granite_arch_half",
+      "uvlock": true,
+      "y": 270
+    }
+  }
+}

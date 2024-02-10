@@ -1,8 +1,8 @@
 package com.calibermc.caliber.block.management;
 
 import com.calibermc.caliber.block.CaliberBlocks;
-import com.calibermc.caliber.block.properties.BlockProps;
 import com.calibermc.caliberlib.block.management.ModBlockHelper;
+import com.calibermc.caliberlib.block.properties.BlockProps;
 import com.calibermc.caliberlib.data.ModBlockFamily;
 import com.calibermc.caliberlib.block.management.BlockManager;
 import net.minecraft.world.level.block.*;

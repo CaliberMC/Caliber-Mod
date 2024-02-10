@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/beam_lintel_1",
-  "textures": {
-    "bottom": "caliber:block/stained_stripped_spruce_wood",
-    "side": "caliber:block/stained_stripped_spruce_wood",
-    "top": "caliber:block/stained_stripped_spruce_wood"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/roof_45_outer",
-  "textures": {
-    "bottom": "caliber:block/oak_boards",
-    "side": "caliber:block/oak_boards",
-    "top": "caliber:block/oak_boards"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/roof_peak_cap_top",
-  "textures": {
-    "bottom": "caliber:block/crimson_boards",
-    "side": "caliber:block/crimson_boards",
-    "top": "caliber:block/crimson_boards"
-  }
-}

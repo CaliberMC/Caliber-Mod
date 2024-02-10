@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "caliber:cobblestone_slab"
+  },
+  "result": "caliber:cobblestone_slab_vertical"
+}

@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 2,
-  "ingredient": {
-    "item": "caliber:stained_birch_planks"
-  },
-  "result": "caliber:stained_birch_window"
-}

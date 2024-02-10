@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "caliber:block/cut_red_sandstone_arrowslit",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "caliber:block/cut_red_sandstone_arrowslit"
+    },
+    "facing=south": {
+      "model": "caliber:block/cut_red_sandstone_arrowslit",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "caliber:block/cut_red_sandstone_arrowslit",
+      "y": 270
+    }
+  }
+}

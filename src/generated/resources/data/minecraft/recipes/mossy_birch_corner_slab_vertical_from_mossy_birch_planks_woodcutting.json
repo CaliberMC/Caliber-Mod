@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 4,
-  "ingredient": {
-    "item": "caliber:mossy_birch_planks"
-  },
-  "result": "caliber:mossy_birch_corner_slab_vertical"
-}
