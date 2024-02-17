@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "caliber:block/stripped_mangrove_capital"
+    },
+    "type=top": {
+      "model": "caliber:block/stripped_mangrove_capital_top"
+    }
+  }
+}

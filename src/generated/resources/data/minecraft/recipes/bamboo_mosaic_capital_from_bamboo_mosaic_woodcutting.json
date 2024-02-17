@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 2,
+  "ingredient": {
+    "item": "minecraft:bamboo_mosaic"
+  },
+  "result": "caliber:bamboo_mosaic_capital"
+}

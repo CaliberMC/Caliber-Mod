@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 1,
+  "ingredient": {
+    "item": "caliber:bamboo_mosaic_slab_vertical"
+  },
+  "result": "caliber:bamboo_mosaic_slab"
+}

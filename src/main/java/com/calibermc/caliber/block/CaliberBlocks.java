@@ -34,12 +34,6 @@ public class CaliberBlocks {
 //            () -> new TappedBirchLog(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)));
 
 
-
-
-    // TODO: ADD STEEL STUFF
-
-    // TODO: CHECK SETTINGS AND CONFIRM SELECTIONS BELOW
-
     /* Andesite */
     public static final BlockManager ANDESITE = CaliberBlockManager.register("andesite", BlockProps.ANDESITE.get(), () -> Blocks.ANDESITE, STONE_VARIANTS_WITHOUT_STAIRS_WALL);
     public static final BlockManager POLISHED_ANDESITE = CaliberBlockManager.register("polished_andesite", BlockProps.POLISHED_ANDESITE.get(), () -> Blocks.POLISHED_ANDESITE, STONE_VARIANTS_WITHOUT_STAIRS);
@@ -68,13 +62,6 @@ public class CaliberBlocks {
     public static final BlockManager COBBLED_DEEPSLATE = CaliberBlockManager.register("cobbled_deepslate", BlockProps.COBBLED_DEEPSLATE.get(), () -> Blocks.COBBLED_DEEPSLATE, STONE_VARIANTS_WITHOUT_STAIRS_WALL);
     public static final BlockManager POLISHED_DEEPSLATE = CaliberBlockManager.register("polished_deepslate", BlockProps.POLISHED_DEEPSLATE.get(), () -> Blocks.POLISHED_DEEPSLATE, STONE_VARIANTS_WITHOUT_STAIRS_WALL);
 
-    /* Mossy Deepslate */
-//    public static final BlockManager MOSSY_DEEPSLATE = BlockManager.register("mossy_deepslate", BlockProps.DEEPSLATE.get(), ModBlockHelper.modifyList(STONE_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
-//    public static final BlockManager MOSSY_DEEPSLATE_BRICK = BlockManager.register("mossy_deepslate_bricks", BlockProps.DEEPSLATE_BRICK.get(), ModBlockHelper.modifyList(STONE_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
-//    public static final BlockManager MOSSY_DEEPSLATE_TILE = BlockManager.register("mossy_deepslate_tiles", BlockProps.DEEPSLATE_TILES.get(), ModBlockHelper.modifyList(STONE_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
-//    public static final BlockManager MOSSY_COBBLED_DEEPSLATE = BlockManager.register("mossy_cobbled_deepslate", BlockProps.COBBLED_DEEPSLATE.get(), ModBlockHelper.modifyList(STONE_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
-//    public static final BlockManager MOSSY_POLISHED_DEEPSLATE = BlockManager.register("mossy_polished_deepslate", BlockProps.POLISHED_DEEPSLATE.get(), ModBlockHelper.modifyList(STONE_VARIANTS, (c) -> c.add(ModBlockFamily.Variant.BASE)));
-
     /* Diorite */
     public static final BlockManager DIORITE = CaliberBlockManager.register("diorite", BlockProps.DIORITE.get(), () -> Blocks.DIORITE, STONE_VARIANTS_WITHOUT_STAIRS_WALL);
     public static final BlockManager POLISHED_DIORITE = CaliberBlockManager.register("polished_diorite", BlockProps.POLISHED_DIORITE.get(), () -> Blocks.POLISHED_DIORITE, STONE_VARIANTS_WITHOUT_STAIRS);
@@ -89,6 +76,9 @@ public class CaliberBlocks {
     /* Granite */
     public static final BlockManager GRANITE = CaliberBlockManager.register("red_granite", BlockProps.GRANITE.get(), () -> Blocks.GRANITE, STONE_VARIANTS_WITHOUT_STAIRS_WALL);
     public static final BlockManager POLISHED_GRANITE = CaliberBlockManager.register("polished_granite", BlockProps.GRANITE.get(), () -> Blocks.POLISHED_GRANITE, STONE_VARIANTS_WITHOUT_STAIRS);
+
+    /* Mud Brick */
+    public static final BlockManager MUD_BRICK = CaliberBlockManager.register("mud_brick", BlockProps.MUD_BRICK.get(), () -> Blocks.MUD_BRICKS, STONE_VARIANTS_WITHOUT_STAIRS_WALL);
 
     /* Netherite */
     public static final BlockManager NETHERITE = CaliberBlockManager.register("netherite", BlockProps.NETHERITE.get(), () -> Blocks.NETHERITE_BLOCK, STONE_VARIANTS);
@@ -131,9 +121,13 @@ public class CaliberBlocks {
 
     /* Planks */
     public static final BlockManager ACACIA = CaliberBlockManager.register("acacia_planks", BlockProps.PLANK.get(), () -> Blocks.ACACIA_PLANKS, PLANK_VARIANTS_WITHOUT_FENCES_STAIRS);
+    public static final BlockManager BAMBOO = CaliberBlockManager.register("bamboo_planks", BlockProps.PLANK.get(), () -> Blocks.BAMBOO_PLANKS, PLANK_VARIANTS_WITHOUT_FENCES_STAIRS);
+    public static final BlockManager BAMBOO_MOSAIC = CaliberBlockManager.register("bamboo_mosaic", BlockProps.PLANK.get(), () -> Blocks.BAMBOO_MOSAIC, PLANK_VARIANTS_WITHOUT_FENCES_STAIRS);
     public static final BlockManager BIRCH = CaliberBlockManager.register("birch_planks", BlockProps.PLANK.get(), () -> Blocks.BIRCH_PLANKS, PLANK_VARIANTS_WITHOUT_FENCES_STAIRS);
+    public static final BlockManager CHERRY = CaliberBlockManager.register("cherry_planks", BlockProps.PLANK.get(), () -> Blocks.CHERRY_PLANKS, PLANK_VARIANTS_WITHOUT_FENCES_STAIRS);
     public static final BlockManager DARK_OAK = CaliberBlockManager.register("dark_oak_planks", BlockProps.PLANK.get(), () -> Blocks.DARK_OAK_PLANKS, PLANK_VARIANTS_WITHOUT_FENCES_STAIRS);
     public static final BlockManager JUNGLE = CaliberBlockManager.register("jungle_planks", BlockProps.PLANK.get(), () -> Blocks.JUNGLE_PLANKS, PLANK_VARIANTS_WITHOUT_FENCES_STAIRS);
+    public static final BlockManager MANGROVE = CaliberBlockManager.register("mangrove_planks", BlockProps.PLANK.get(), () -> Blocks.MANGROVE_PLANKS, PLANK_VARIANTS_WITHOUT_FENCES_STAIRS);
     public static final BlockManager OAK = CaliberBlockManager.register("oak_planks", BlockProps.PLANK.get(), () -> Blocks.OAK_PLANKS, PLANK_VARIANTS_WITHOUT_FENCES_STAIRS);
     public static final BlockManager SPRUCE = CaliberBlockManager.register("spruce_planks", BlockProps.PLANK.get(), () -> Blocks.SPRUCE_PLANKS, PLANK_VARIANTS_WITHOUT_FENCES_STAIRS);
     public static final BlockManager CRIMSON = CaliberBlockManager.register("crimson_planks", BlockProps.PLANK.get(), () -> Blocks.CRIMSON_PLANKS, PLANK_VARIANTS_WITHOUT_FENCES_STAIRS);
@@ -150,9 +144,12 @@ public class CaliberBlocks {
 
     /* Stripped Wood */
     public static final BlockManager STRIPPED_ACACIA = CaliberBlockManager.register("stripped_acacia_wood", BlockProps.PLANK.get(), () -> Blocks.STRIPPED_ACACIA_WOOD, STRIPPED_WOOD_VARIANTS);
+    public static final BlockManager STRIPPED_BAMBOO = CaliberBlockManager.register("stripped_bamboo_block", BlockProps.PLANK.get(), () -> Blocks.STRIPPED_BAMBOO_BLOCK, STRIPPED_WOOD_VARIANTS);
     public static final BlockManager STRIPPED_BIRCH = CaliberBlockManager.register("stripped_birch_wood", BlockProps.PLANK.get(), () -> Blocks.STRIPPED_BIRCH_WOOD, STRIPPED_WOOD_VARIANTS);
+    public static final BlockManager STRIPPED_CHERRY = CaliberBlockManager.register("stripped_cherry_wood", BlockProps.PLANK.get(), () -> Blocks.STRIPPED_CHERRY_WOOD, STRIPPED_WOOD_VARIANTS);
     public static final BlockManager STRIPPED_DARK_OAK = CaliberBlockManager.register("stripped_dark_oak_wood", BlockProps.PLANK.get(), () -> Blocks.STRIPPED_DARK_OAK_WOOD, STRIPPED_WOOD_VARIANTS);
     public static final BlockManager STRIPPED_JUNGLE = CaliberBlockManager.register("stripped_jungle_wood", BlockProps.PLANK.get(), () -> Blocks.STRIPPED_JUNGLE_WOOD, STRIPPED_WOOD_VARIANTS);
+    public static final BlockManager STRIPPED_MANGROVE = CaliberBlockManager.register("stripped_mangrove_wood", BlockProps.PLANK.get(), () -> Blocks.STRIPPED_MANGROVE_WOOD, STRIPPED_WOOD_VARIANTS);
     public static final BlockManager STRIPPED_OAK = CaliberBlockManager.register("stripped_oak_wood", BlockProps.PLANK.get(), () -> Blocks.STRIPPED_OAK_WOOD, STRIPPED_WOOD_VARIANTS);
     public static final BlockManager STRIPPED_SPRUCE = CaliberBlockManager.register("stripped_spruce_wood", BlockProps.PLANK.get(), () -> Blocks.STRIPPED_SPRUCE_WOOD, STRIPPED_WOOD_VARIANTS);
     public static final BlockManager STRIPPED_CRIMSON = CaliberBlockManager.register("stripped_crimson_wood", BlockProps.PLANK.get(), () -> Blocks.STRIPPED_CRIMSON_HYPHAE, STRIPPED_WOOD_VARIANTS);

@@ -1,0 +1,8 @@
+{
+  "parent": "caliberlib:block/templates/slab_vertical_layer_6",
+  "textures": {
+    "bottom": "minecraft:block/stripped_cherry_log",
+    "side": "minecraft:block/stripped_cherry_log",
+    "top": "minecraft:block/stripped_cherry_log"
+  }
+}

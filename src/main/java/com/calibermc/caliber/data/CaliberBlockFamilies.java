@@ -97,25 +97,6 @@ public class CaliberBlockFamilies {
             .stairs(Blocks.POLISHED_DEEPSLATE_STAIRS)
             .wall(Blocks.POLISHED_DEEPSLATE_WALL)
             .getFamily();
-
-    /* Mossy Deepslate */
-//    public static final ModBlockFamily MOSSY_DEEPSLATE = familyBuilder(CaliberBlocks.MOSSY_DEEPSLATE.baseBlock())
-//            .fromManager(CaliberBlocks.MOSSY_DEEPSLATE)
-//            .getFamily();
-//    public static final ModBlockFamily MOSSY_DEEPSLATE_BRICKS = familyBuilder(CaliberBlocks.MOSSY_DEEPSLATE_BRICK.baseBlock())
-//            .fromManager(CaliberBlocks.MOSSY_DEEPSLATE_BRICK)
-//            .getFamily();
-//    public static final ModBlockFamily MOSSY_DEEPSLATE_TILES = familyBuilder(CaliberBlocks.MOSSY_DEEPSLATE_TILE.baseBlock())
-//            .fromManager(CaliberBlocks.MOSSY_DEEPSLATE_TILE)
-//            .fromManager(CaliberBlocks.MOSSY_SLATE_TILE)
-//            .getFamily();
-//    public static final ModBlockFamily MOSSY_COBBLED_DEEPSLATE = familyBuilder(CaliberBlocks.MOSSY_COBBLED_DEEPSLATE.baseBlock())
-//            .fromManager(CaliberBlocks.MOSSY_COBBLED_DEEPSLATE)
-//            .getFamily();
-//    public static final ModBlockFamily MOSSY_POLISHED_DEEPSLATE = familyBuilder(CaliberBlocks.MOSSY_POLISHED_DEEPSLATE.baseBlock())
-//            .fromManager(CaliberBlocks.MOSSY_POLISHED_DEEPSLATE)
-//            .getFamily();
-
     
     /* Diorite */
     public static final ModBlockFamily DIORITE = familyBuilder(Blocks.DIORITE)
@@ -153,6 +134,13 @@ public class CaliberBlockFamilies {
             .fromManager(CaliberBlocks.POLISHED_GRANITE)
             .stairs(Blocks.GRANITE_STAIRS)
             .wall(Blocks.GRANITE_WALL)
+            .getFamily();
+    
+    /* Mud Bricks */
+    public static final ModBlockFamily MUD_BRICKS = familyBuilder(Blocks.MUD_BRICKS)
+            .fromManager(CaliberBlocks.MUD_BRICK)
+            .stairs(Blocks.MUD_BRICK_STAIRS)
+            .wall(Blocks.MUD_BRICK_WALL)
             .getFamily();
     
     /* Netherite */
@@ -255,18 +243,27 @@ public class CaliberBlockFamilies {
             .wall(Blocks.STONE_BRICK_WALL)
             .getFamily();
 
-    /* Stripped Wood  */
+    /* Stripped Wood */
     public static final ModBlockFamily STRIPPED_ACACIA_WOOD = familyBuilder(Blocks.STRIPPED_ACACIA_WOOD)
             .fromManager(CaliberBlocks.STRIPPED_ACACIA)
             .getFamily();
+    public static final ModBlockFamily STRIPPED_BAMBOO_BLOCK = familyBuilder(Blocks.STRIPPED_BAMBOO_BLOCK)
+            .fromManager(CaliberBlocks.STRIPPED_BAMBOO)
+            .getFamily();
     public static final ModBlockFamily STRIPPED_BIRCH_WOOD = familyBuilder(Blocks.STRIPPED_BIRCH_WOOD)
             .fromManager(CaliberBlocks.STRIPPED_BIRCH)
+            .getFamily();
+    public static final ModBlockFamily STRIPPED_CHERRY_WOOD = familyBuilder(Blocks.STRIPPED_CHERRY_WOOD)
+            .fromManager(CaliberBlocks.STRIPPED_CHERRY)
             .getFamily();
     public static final ModBlockFamily STRIPPED_DARK_OAK_WOOD = familyBuilder(Blocks.STRIPPED_DARK_OAK_WOOD)
             .fromManager(CaliberBlocks.STRIPPED_DARK_OAK)
             .getFamily();
     public static final ModBlockFamily STRIPPED_JUNGLE_WOOD = familyBuilder(Blocks.STRIPPED_JUNGLE_WOOD)
             .fromManager(CaliberBlocks.STRIPPED_JUNGLE)
+            .getFamily();
+    public static final ModBlockFamily STRIPPED_MANGROVE_WOOD = familyBuilder(Blocks.STRIPPED_MANGROVE_WOOD)
+            .fromManager(CaliberBlocks.STRIPPED_MANGROVE)
             .getFamily();
     public static final ModBlockFamily STRIPPED_OAK_WOOD = familyBuilder(Blocks.STRIPPED_OAK_WOOD)
             .fromManager(CaliberBlocks.STRIPPED_OAK)
@@ -299,6 +296,22 @@ public class CaliberBlockFamilies {
             .sign(Blocks.ACACIA_SIGN, Blocks.ACACIA_WALL_SIGN)
             .tallDoor(CaliberBlocks.TALL_ACACIA_DOOR.get())
             .getFamily();
+    public static final ModBlockFamily BAMBOO_PLANKS = familyBuilder(Blocks.BAMBOO_PLANKS)
+            .fromManager(CaliberBlocks.BAMBOO)
+            .fence(Blocks.BAMBOO_FENCE)
+            .fenceGate(Blocks.BAMBOO_FENCE_GATE)
+            .door(Blocks.BAMBOO_DOOR)
+            .trapdoor(Blocks.BAMBOO_TRAPDOOR)
+            .stairs(Blocks.BAMBOO_STAIRS)
+            .pressurePlate(Blocks.BAMBOO_PRESSURE_PLATE)
+            .button(Blocks.BAMBOO_BUTTON)
+            .sign(Blocks.BAMBOO_SIGN, Blocks.BAMBOO_WALL_SIGN)
+//            .tallDoor(CaliberBlocks.TALL_BAMBOO_DOOR.get())
+            .getFamily();
+    public static final ModBlockFamily BAMBOO_MOSAIC = familyBuilder(Blocks.BAMBOO_MOSAIC)
+            .fromManager(CaliberBlocks.BAMBOO_MOSAIC)
+            .stairs(Blocks.BAMBOO_MOSAIC_STAIRS)
+            .getFamily();
     public static final ModBlockFamily BIRCH_PLANKS = familyBuilder(Blocks.BIRCH_PLANKS)
             .fromManager(CaliberBlocks.BIRCH)
             .fence(Blocks.BIRCH_FENCE)
@@ -310,6 +323,18 @@ public class CaliberBlockFamilies {
             .button(Blocks.BIRCH_BUTTON)
             .sign(Blocks.BIRCH_SIGN, Blocks.BIRCH_WALL_SIGN)
             .tallDoor(CaliberBlocks.TALL_BIRCH_DOOR.get())
+            .getFamily();
+    public static final ModBlockFamily CHERRY_PLANKS = familyBuilder(Blocks.CHERRY_PLANKS)
+            .fromManager(CaliberBlocks.CHERRY)
+            .fence(Blocks.CHERRY_FENCE)
+            .fenceGate(Blocks.CHERRY_FENCE_GATE)
+            .door(Blocks.CHERRY_DOOR)
+            .trapdoor(Blocks.CHERRY_TRAPDOOR)
+            .stairs(Blocks.CHERRY_STAIRS)
+            .pressurePlate(Blocks.CHERRY_PRESSURE_PLATE)
+            .button(Blocks.CHERRY_BUTTON)
+            .sign(Blocks.CHERRY_SIGN, Blocks.CHERRY_WALL_SIGN)
+//            .tallDoor(CaliberBlocks.TALL_CHERRY_DOOR.get())
             .getFamily();
     public static final ModBlockFamily DARK_OAK_PLANKS = familyBuilder(Blocks.DARK_OAK_PLANKS)
             .fromManager(CaliberBlocks.DARK_OAK)
@@ -334,6 +359,18 @@ public class CaliberBlockFamilies {
             .button(Blocks.JUNGLE_BUTTON)
             .sign(Blocks.JUNGLE_SIGN, Blocks.JUNGLE_WALL_SIGN)
             .tallDoor(CaliberBlocks.TALL_JUNGLE_DOOR.get())
+            .getFamily();
+    public static final ModBlockFamily MANGROVE_PLANKS = familyBuilder(Blocks.MANGROVE_PLANKS)
+            .fromManager(CaliberBlocks.MANGROVE)
+            .fence(Blocks.MANGROVE_FENCE)
+            .fenceGate(Blocks.MANGROVE_FENCE_GATE)
+            .door(Blocks.MANGROVE_DOOR)
+            .trapdoor(Blocks.MANGROVE_TRAPDOOR)
+            .stairs(Blocks.MANGROVE_STAIRS)
+            .pressurePlate(Blocks.MANGROVE_PRESSURE_PLATE)
+            .button(Blocks.MANGROVE_BUTTON)
+            .sign(Blocks.MANGROVE_SIGN, Blocks.MANGROVE_WALL_SIGN)
+//            .tallDoor(CaliberBlocks.TALL_MANGROVE_DOOR.get())
             .getFamily();
     public static final ModBlockFamily OAK_PLANKS = familyBuilder(Blocks.OAK_PLANKS)
             .fromManager(CaliberBlocks.OAK)

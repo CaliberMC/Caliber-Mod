@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "caliber:mud_brick_slab"
+  },
+  "result": "caliber:mud_brick_slab_vertical"
+}

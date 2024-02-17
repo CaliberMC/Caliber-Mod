@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "minecraft:mud_bricks"
+  },
+  "result": "caliber:mud_brick_arch_large"
+}

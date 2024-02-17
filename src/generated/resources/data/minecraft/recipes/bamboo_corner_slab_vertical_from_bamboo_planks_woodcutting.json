@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 4,
+  "ingredient": {
+    "item": "minecraft:bamboo_planks"
+  },
+  "result": "caliber:bamboo_corner_slab_vertical"
+}

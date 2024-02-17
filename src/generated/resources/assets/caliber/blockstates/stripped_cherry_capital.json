@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "caliber:block/stripped_cherry_capital"
+    },
+    "type=top": {
+      "model": "caliber:block/stripped_cherry_capital_top"
+    }
+  }
+}

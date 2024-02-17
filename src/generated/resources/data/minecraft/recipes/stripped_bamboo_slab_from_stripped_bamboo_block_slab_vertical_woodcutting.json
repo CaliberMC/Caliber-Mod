@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 1,
+  "ingredient": {
+    "item": "caliber:stripped_bamboo_slab_vertical"
+  },
+  "result": "caliber:stripped_bamboo_slab"
+}

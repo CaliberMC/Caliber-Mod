@@ -1,0 +1,8 @@
+{
+  "parent": "caliberlib:block/templates/corner_slab_top",
+  "textures": {
+    "bottom": "minecraft:block/stripped_cherry_log",
+    "side": "minecraft:block/stripped_cherry_log",
+    "top": "minecraft:block/stripped_cherry_log"
+  }
+}
