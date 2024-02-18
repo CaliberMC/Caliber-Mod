@@ -1,13 +1,10 @@
 package com.calibermc.caliber.data.datagen.recipes;
 
 import com.calibermc.caliber.block.CaliberBlocks;
-import com.calibermc.caliber.crafting.CaliberRecipeBuilder;
-import com.calibermc.caliber.item.CaliberItems;
 import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.Items;
-import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
@@ -50,5 +47,4 @@ public class MiscRecipeProvider extends RecipeProvider implements IConditionBuil
         ShapedRecipeBuilder.shaped(RecipeCategory.REDSTONE,  CaliberBlocks.TALL_WARPED_DOOR.get(), 1).define('X', Blocks.WARPED_DOOR).define('#', CaliberBlocks.WARPED.baseBlock()).pattern("X").pattern("#").unlockedBy("has_warped",
                 inventoryTrigger(ItemPredicate.Builder.item().of(CaliberBlocks.WARPED.baseBlock()).build())).save(pFinishedRecipeConsumer, "tall_warped_door_from_warped_door_and_warped_shaped");
     }
-
 }

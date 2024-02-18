@@ -329,15 +329,18 @@ _ Added all Terracotta Roof variants
 
 -0.2.0 - 1.20.1
 - Added Forge 1.20.1 support
-- Removed Sorting Buttons
-- Removed World Gen
-- Added Stained Hanging Signs
+- Removed Sorting Buttons (are included in Buildify now)
+- Removed World Gen (is included in Natures Canvas now)
 - Updated translations en_us
+- Added Bamboo, Bamboo Mosaic, Stripped Bamboo, Cherry, Stripped Cherry, Mangrove, Stripped Mangrove and Mud Bricks Variants
+- Updated Dependencies CaliberLib -> 0.1.2. Buildify -> 0.2.3.
 - Bugfix: fixed layered slab block collision shape
 - Bugfix: fixed black/transparent textures on Tall Doors
 - Bugfix: fixed red_sand_layer texture showing as sand
 - Bugfix: fixed slab_layer removing block from inventory on placement of double_slab in Slab Mode
 
+-0.2.1 (in progress)
+- Added check for if dataGen is running
 
 
 
