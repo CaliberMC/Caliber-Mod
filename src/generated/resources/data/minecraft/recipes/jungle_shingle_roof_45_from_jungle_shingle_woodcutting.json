@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 2,
+  "ingredient": {
+    "item": "minecraft:jungle_planks"
+  },
+  "result": "caliber:jungle_shingle_roof_45"
+}

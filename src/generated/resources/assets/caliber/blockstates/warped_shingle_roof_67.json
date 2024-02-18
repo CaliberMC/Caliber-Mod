@@ -1,0 +1,154 @@
+{
+  "variants": {
+    "facing=east,half=bottom,type=inner_left": {
+      "model": "caliber:block/warped_shingle_roof_67_inner",
+      "y": 270
+    },
+    "facing=east,half=bottom,type=inner_right": {
+      "model": "caliber:block/warped_shingle_roof_67_inner"
+    },
+    "facing=east,half=bottom,type=outer_left": {
+      "model": "caliber:block/warped_shingle_roof_67_outer",
+      "y": 270
+    },
+    "facing=east,half=bottom,type=outer_right": {
+      "model": "caliber:block/warped_shingle_roof_67_outer"
+    },
+    "facing=east,half=bottom,type=straight": {
+      "model": "caliber:block/warped_shingle_roof_67"
+    },
+    "facing=east,half=top,type=inner_left": {
+      "model": "caliber:block/warped_shingle_roof_67_top_inner",
+      "y": 270
+    },
+    "facing=east,half=top,type=inner_right": {
+      "model": "caliber:block/warped_shingle_roof_67_top_inner"
+    },
+    "facing=east,half=top,type=outer_left": {
+      "model": "caliber:block/warped_shingle_roof_67_top_outer",
+      "y": 270
+    },
+    "facing=east,half=top,type=outer_right": {
+      "model": "caliber:block/warped_shingle_roof_67_top_outer"
+    },
+    "facing=east,half=top,type=straight": {
+      "model": "caliber:block/warped_shingle_roof_67_top"
+    },
+    "facing=north,half=bottom,type=inner_left": {
+      "model": "caliber:block/warped_shingle_roof_67_inner",
+      "y": 180
+    },
+    "facing=north,half=bottom,type=inner_right": {
+      "model": "caliber:block/warped_shingle_roof_67_inner",
+      "y": 270
+    },
+    "facing=north,half=bottom,type=outer_left": {
+      "model": "caliber:block/warped_shingle_roof_67_outer",
+      "y": 180
+    },
+    "facing=north,half=bottom,type=outer_right": {
+      "model": "caliber:block/warped_shingle_roof_67_outer",
+      "y": 270
+    },
+    "facing=north,half=bottom,type=straight": {
+      "model": "caliber:block/warped_shingle_roof_67",
+      "y": 270
+    },
+    "facing=north,half=top,type=inner_left": {
+      "model": "caliber:block/warped_shingle_roof_67_top_inner",
+      "y": 180
+    },
+    "facing=north,half=top,type=inner_right": {
+      "model": "caliber:block/warped_shingle_roof_67_top_inner",
+      "y": 270
+    },
+    "facing=north,half=top,type=outer_left": {
+      "model": "caliber:block/warped_shingle_roof_67_top_outer",
+      "y": 180
+    },
+    "facing=north,half=top,type=outer_right": {
+      "model": "caliber:block/warped_shingle_roof_67_top_outer",
+      "y": 270
+    },
+    "facing=north,half=top,type=straight": {
+      "model": "caliber:block/warped_shingle_roof_67_top",
+      "y": 270
+    },
+    "facing=south,half=bottom,type=inner_left": {
+      "model": "caliber:block/warped_shingle_roof_67_inner"
+    },
+    "facing=south,half=bottom,type=inner_right": {
+      "model": "caliber:block/warped_shingle_roof_67_inner",
+      "y": 90
+    },
+    "facing=south,half=bottom,type=outer_left": {
+      "model": "caliber:block/warped_shingle_roof_67_outer"
+    },
+    "facing=south,half=bottom,type=outer_right": {
+      "model": "caliber:block/warped_shingle_roof_67_outer",
+      "y": 90
+    },
+    "facing=south,half=bottom,type=straight": {
+      "model": "caliber:block/warped_shingle_roof_67",
+      "y": 90
+    },
+    "facing=south,half=top,type=inner_left": {
+      "model": "caliber:block/warped_shingle_roof_67_top_inner"
+    },
+    "facing=south,half=top,type=inner_right": {
+      "model": "caliber:block/warped_shingle_roof_67_top_inner",
+      "y": 90
+    },
+    "facing=south,half=top,type=outer_left": {
+      "model": "caliber:block/warped_shingle_roof_67_top_outer"
+    },
+    "facing=south,half=top,type=outer_right": {
+      "model": "caliber:block/warped_shingle_roof_67_top_outer",
+      "y": 90
+    },
+    "facing=south,half=top,type=straight": {
+      "model": "caliber:block/warped_shingle_roof_67_top",
+      "y": 90
+    },
+    "facing=west,half=bottom,type=inner_left": {
+      "model": "caliber:block/warped_shingle_roof_67_inner",
+      "y": 90
+    },
+    "facing=west,half=bottom,type=inner_right": {
+      "model": "caliber:block/warped_shingle_roof_67_inner",
+      "y": 180
+    },
+    "facing=west,half=bottom,type=outer_left": {
+      "model": "caliber:block/warped_shingle_roof_67_outer",
+      "y": 90
+    },
+    "facing=west,half=bottom,type=outer_right": {
+      "model": "caliber:block/warped_shingle_roof_67_outer",
+      "y": 180
+    },
+    "facing=west,half=bottom,type=straight": {
+      "model": "caliber:block/warped_shingle_roof_67",
+      "y": 180
+    },
+    "facing=west,half=top,type=inner_left": {
+      "model": "caliber:block/warped_shingle_roof_67_top_inner",
+      "y": 90
+    },
+    "facing=west,half=top,type=inner_right": {
+      "model": "caliber:block/warped_shingle_roof_67_top_inner",
+      "y": 180
+    },
+    "facing=west,half=top,type=outer_left": {
+      "model": "caliber:block/warped_shingle_roof_67_top_outer",
+      "y": 90
+    },
+    "facing=west,half=top,type=outer_right": {
+      "model": "caliber:block/warped_shingle_roof_67_top_outer",
+      "y": 180
+    },
+    "facing=west,half=top,type=straight": {
+      "model": "caliber:block/warped_shingle_roof_67_top",
+      "y": 180
+    }
+  }
+}

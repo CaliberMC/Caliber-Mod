@@ -6,7 +6,9 @@ import com.calibermc.caliberlib.block.custom.TallDoorBlock;
 import com.calibermc.caliber.block.custom.entity.WoodcutterBlock;
 import com.calibermc.caliber.block.management.CaliberBlockManager;
 import com.calibermc.caliberlib.block.management.BlockManager;
+import com.calibermc.caliberlib.block.management.ModBlockHelper;
 import com.calibermc.caliberlib.block.properties.BlockProps;
+import com.calibermc.caliberlib.data.ModBlockFamily;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
@@ -155,9 +157,19 @@ public class CaliberBlocks {
     public static final BlockManager STRIPPED_CRIMSON = CaliberBlockManager.register("stripped_crimson_wood", BlockProps.PLANK.get(), () -> Blocks.STRIPPED_CRIMSON_HYPHAE, STRIPPED_WOOD_VARIANTS);
     public static final BlockManager STRIPPED_WARPED = CaliberBlockManager.register("stripped_warped_wood", BlockProps.PLANK.get(), () -> Blocks.STRIPPED_WARPED_HYPHAE, STRIPPED_WOOD_VARIANTS);
 
-    /* Other Roofing Materials */
+    /* Roofing Materials */
+    public static final BlockManager ACACIA_SHINGLES = CaliberBlockManager.register("acacia_shingle", BlockProps.PLANK_NO_OC.get(), () -> Blocks.ACACIA_PLANKS, ROOF_VARIANTS);
+    public static final BlockManager BAMBOO_SHINGLES = CaliberBlockManager.register("bamboo_shingle", BlockProps.PLANK_NO_OC.get(), () -> Blocks.BAMBOO_PLANKS, ROOF_VARIANTS);
+    public static final BlockManager BIRCH_SHINGLES = CaliberBlockManager.register("birch_shingle", BlockProps.PLANK_NO_OC.get(), () -> Blocks. BIRCH_PLANKS, ROOF_VARIANTS);
+    public static final BlockManager CHERRY_SHINGLES = CaliberBlockManager.register("cherry_shingle", BlockProps.PLANK_NO_OC.get(), () -> Blocks.CHERRY_PLANKS, ROOF_VARIANTS);
+    public static final BlockManager DARK_OAK_SHINGLES = CaliberBlockManager.register("dark_oak_shingle", BlockProps.PLANK_NO_OC.get(), () -> Blocks.DARK_OAK_PLANKS, ROOF_VARIANTS);
+    public static final BlockManager JUNGLE_SHINGLES = CaliberBlockManager.register("jungle_shingle", BlockProps.PLANK_NO_OC.get(), () -> Blocks.JUNGLE_PLANKS, ROOF_VARIANTS);
+    public static final BlockManager MANGROVE_SHINGLES = CaliberBlockManager.register("mangrove_shingle", BlockProps.PLANK_NO_OC.get(), () -> Blocks.MANGROVE_PLANKS, ROOF_VARIANTS);
+    public static final BlockManager OAK_SHINGLES = CaliberBlockManager.register("oak_shingle", BlockProps.PLANK_NO_OC.get(), () -> Blocks.OAK_PLANKS, ROOF_VARIANTS);
+    public static final BlockManager SPRUCE_SHINGLES = CaliberBlockManager.register("spruce_shingle", BlockProps.PLANK_NO_OC.get(), () -> Blocks.SPRUCE_PLANKS, ROOF_VARIANTS);
+    public static final BlockManager CRIMSON_SHINGLES = CaliberBlockManager.register("crimson_shingle", BlockProps.PLANK_NO_OC.get(), () -> Blocks.CRIMSON_PLANKS, ROOF_VARIANTS);
+    public static final BlockManager WARPED_SHINGLES = CaliberBlockManager.register("warped_shingle", BlockProps.PLANK_NO_OC.get(), () -> Blocks.WARPED_PLANKS, ROOF_VARIANTS);
     public static final BlockManager SLATE_TILE = CaliberBlockManager.register("slate_tile", BlockProps.DEEPSLATE.get().noOcclusion(), () -> Blocks.DEEPSLATE_TILES, ROOF_VARIANTS);
-//    public static final BlockManager MOSSY_SLATE_TILE = BlockManager.register("mossy_slate_tile", BlockProps.DEEPSLATE.get().noOcclusion(), () -> Blocks.DEEPSLATE_TILES, ROOF_VARIANTS);
 
     /* Concrete */
     public static final BlockManager BLACK_CONCRETE = CaliberBlockManager.register("black_concrete", BlockProps.CONCRETE.get(), () -> Blocks.BLACK_CONCRETE, STONE_VARIANTS);

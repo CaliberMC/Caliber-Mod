@@ -294,7 +294,7 @@ public class CaliberBlockFamilies {
             .pressurePlate(Blocks.ACACIA_PRESSURE_PLATE)
             .button(Blocks.ACACIA_BUTTON)
             .sign(Blocks.ACACIA_SIGN, Blocks.ACACIA_WALL_SIGN)
-            .tallDoor(CaliberBlocks.TALL_ACACIA_DOOR.get())
+//            .tallDoor(CaliberBlocks.TALL_ACACIA_DOOR.get())
             .getFamily();
     public static final ModBlockFamily BAMBOO_PLANKS = familyBuilder(Blocks.BAMBOO_PLANKS)
             .fromManager(CaliberBlocks.BAMBOO)
@@ -418,7 +418,12 @@ public class CaliberBlockFamilies {
             .button(Blocks.WARPED_BUTTON)
             .sign(Blocks.WARPED_SIGN, Blocks.WARPED_WALL_SIGN)
             .getFamily();
-    
+
+    /* Roofing */
+//    public static final ModBlockFamily ACACIA_SHINGLES = familyBuilder(CaliberBlocks.ACACIA_SHINGLES.baseBlock())
+//            .fromManager(CaliberBlocks.ACACIA_SHINGLES)
+//            .getFamily();
+//
     /* Concrete */
     public static final ModBlockFamily BLACK_CONCRETE = familyBuilder(Blocks.BLACK_CONCRETE)
             .fromManager(CaliberBlocks.BLACK_CONCRETE)
