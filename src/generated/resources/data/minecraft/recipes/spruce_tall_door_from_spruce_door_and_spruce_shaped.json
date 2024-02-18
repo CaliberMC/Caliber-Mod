@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "minecraft:spruce_planks"
+    },
+    "X": {
+      "item": "minecraft:spruce_door"
+    }
+  },
+  "pattern": [
+    "X",
+    "#"
+  ],
+  "result": {
+    "item": "caliber:spruce_tall_door"
+  },
+  "show_notification": true
+}

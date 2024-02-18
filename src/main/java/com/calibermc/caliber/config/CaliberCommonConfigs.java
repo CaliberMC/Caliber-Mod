@@ -13,7 +13,6 @@ public class CaliberCommonConfigs {
 
         MODE_BLOCKSTATE = BUILDER.comment("Change mode for use additional blockstates").translation("config.caliber.mode_blockstates").defineInRange("mode_blockstates", 1, 0, 1);
 
-
         BUILDER.pop();
         SPEC = BUILDER.build();
     }

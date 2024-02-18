@@ -1,0 +1,6 @@
+{
+  "parent": "caliberlib:block/templates/door_bottom_rh",
+  "textures": {
+    "bottom": "caliber:block/jungle_tall_door_bottom"
+  }
+}

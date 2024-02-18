@@ -1,4 +1,5 @@
 {   "parent": "block/block",
+    "render_type": "cutout",
     "textures": {
         "particle": "caliber:block/woodcutter_bottom",
         "bottom": "caliber:block/woodcutter_bottom",

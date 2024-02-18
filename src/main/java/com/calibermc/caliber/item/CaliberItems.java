@@ -14,8 +14,6 @@ public class CaliberItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, Caliber.MOD_ID);
 
-//    public static final RegistryObject<Item> RESIN = ITEMS.register("resin",
-//            () -> new Item(new Item.Properties()));
 
     public static void printItemCounts() {
         System.out.println("Caliber Items Registered: " + itemCount);

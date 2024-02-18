@@ -1,11 +1,8 @@
 package com.calibermc.caliber.event;
 
-
 import com.calibermc.buildify.util.player.IPlayerExtended;
 import com.calibermc.caliber.Caliber;
 import com.calibermc.caliber.block.CaliberBlocks;
-import com.calibermc.caliber.block.custom.entity.CaliberBlockEntities;
-import com.calibermc.caliber.block.properties.BlockRenderLayers;
 import com.calibermc.caliber.client.inventory.WoodcutterScreen;
 import com.calibermc.caliber.crafting.CaliberRecipeSerializers;
 import com.calibermc.caliber.networking.CaliberNetworking;
@@ -15,9 +12,6 @@ import net.minecraft.client.KeyMapping;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.RecipeBookCategories;
 import net.minecraft.client.gui.screens.MenuScreens;
-import net.minecraft.client.renderer.blockentity.BlockEntityRenderers;
-import net.minecraft.client.renderer.blockentity.HangingSignRenderer;
-import net.minecraft.client.renderer.blockentity.SignRenderer;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.client.event.InputEvent;
@@ -66,9 +60,6 @@ public class CaliberClientEventBus {
     @SubscribeEvent
     public static void clientSetup(final FMLClientSetupEvent event) {
         MenuScreens.register(CaliberMenuTypes.WOODCUTTER.get(), WoodcutterScreen::new);
-
-        // Set Block Render Types
-        BlockRenderLayers.set();
 
     }
 

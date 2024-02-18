@@ -1,4 +1,4 @@
-// 1.20.1	2024-02-17T20:02:23.9372946	Item Models: caliber
+// 1.20.1	2024-02-18T14:37:22.0637651	Item Models: caliber
 00b20268e49b72c77722ed8940daed37cae906c4 assets/caliber/models/item/acacia_balustrade.json
 6ef10aceacc40aba66253931a29dc358e815f7b7 assets/caliber/models/item/acacia_capital.json
 d4ccb8c4401ae5a9176d183c9c0ff5e3f820bc87 assets/caliber/models/item/acacia_corner.json
@@ -15,6 +15,7 @@ c0b4699a12d518d64bb8a631f6d06b0042238435 assets/caliber/models/item/acacia_shing
 972a732a438b6c3ca39e356c773566b617a060ac assets/caliber/models/item/acacia_shingle_roof_peak.json
 70eb923ffcb47b271e2899c7a4d671d9c5462f6d assets/caliber/models/item/acacia_slab.json
 ace2ad978d18586a8702493daf2260213b72871f assets/caliber/models/item/acacia_slab_vertical.json
+099a5b96f0c609ab9a29365177ce1901222cb1ac assets/caliber/models/item/acacia_tall_door.json
 eb82429c15edd3431b770b9b8d1639daef5da1fd assets/caliber/models/item/acacia_wall.json
 0cf6bc1f3fd6fc75f363713ce5d90b85305b6109 assets/caliber/models/item/acacia_window.json
 f5c63f94e3aa83f11d54989149bc43461930f586 assets/caliber/models/item/acacia_window_half.json
@@ -67,6 +68,7 @@ c91b7a1abb07b576f6200b70d3d516b76922e8af assets/caliber/models/item/bamboo_shing
 2b1edda4f47aac1f92383e62fb9ff94ab22ce82f assets/caliber/models/item/bamboo_shingle_roof_peak.json
 631c41b6e9395b0149fd9e0dec5de7467700d80f assets/caliber/models/item/bamboo_slab.json
 34c2fa8193d51ede234d0fe0f297a872be847780 assets/caliber/models/item/bamboo_slab_vertical.json
+26bc3f16dc0c7952644fd89529ea358e7bb09225 assets/caliber/models/item/bamboo_tall_door.json
 f23bd851c098e84b7cee9b008c73bf3044107b3e assets/caliber/models/item/bamboo_wall.json
 638973565b405fe81f1b913ca4287e8db6c7a74c assets/caliber/models/item/bamboo_window.json
 9fd6fe49bcb49c3e7a433a36c4a5e7d176e97cea assets/caliber/models/item/bamboo_window_half.json
@@ -106,6 +108,7 @@ c2397e32cc43d638195d38b77f48363031f804b6 assets/caliber/models/item/birch_shingl
 ef51bf76d92e8e5933ce73f81f7b370c4b129a23 assets/caliber/models/item/birch_shingle_roof_peak.json
 b69b2049cf2e68b44d66f9d4e4a88224ae11c3fa assets/caliber/models/item/birch_slab.json
 ee1c2ba997a30312ed699bd4e26e7072aa122454 assets/caliber/models/item/birch_slab_vertical.json
+f43a949f853817eb278dca0acfa36a962ccbf8c5 assets/caliber/models/item/birch_tall_door.json
 23cd3ff592922da1157eb6799753680d714e6202 assets/caliber/models/item/birch_wall.json
 a4d38cb63b6908593a2742977026d4886dc4ef68 assets/caliber/models/item/birch_window.json
 0ae130b57252f0d8e3ef9cab0ac14cdc92bf7ad0 assets/caliber/models/item/birch_window_half.json
@@ -355,6 +358,7 @@ e6df1d4d21132dee4e82718e0c539cc5a7337685 assets/caliber/models/item/cherry_shing
 da8418be0cffb40d8bb02c458011b2eb9dec9b99 assets/caliber/models/item/cherry_shingle_roof_peak.json
 52ef59d7b78584c847c55088868a911c0508e5bd assets/caliber/models/item/cherry_slab.json
 97fef6b8f9aa4a0d1ba0a0d34e15d5cb8cdc4222 assets/caliber/models/item/cherry_slab_vertical.json
+88bae02b6f6667d046ca1193a5ad97e8f1f3abd3 assets/caliber/models/item/cherry_tall_door.json
 2f2d8cb044666b5970ddc468d1ea6bd52a1df4ed assets/caliber/models/item/cherry_wall.json
 e7c15633b76260d053e2d3d33de4d751a394937b assets/caliber/models/item/cherry_window.json
 b1fbdae8a801b253a1e4c831e9566bf91e5017ee assets/caliber/models/item/cherry_window_half.json
@@ -410,6 +414,7 @@ e09db9af4e344a482618f7a0dbc67a1358c86e7c assets/caliber/models/item/crimson_corn
 31529dd863b9c2dfaf42d50227ed1e943bc23b1c assets/caliber/models/item/crimson_shingle_roof_peak.json
 38b9684b5b8e06b88c4284e5415b61eb7e52f6aa assets/caliber/models/item/crimson_slab.json
 95960ae05ca34be7aefe8897ab9d6958b08ce8f6 assets/caliber/models/item/crimson_slab_vertical.json
+b59431be80e2cc845cd13fc3dcd534a78a1bf9fc assets/caliber/models/item/crimson_tall_door.json
 c0377934baf7744916c0f6119df03ee12304c892 assets/caliber/models/item/crimson_wall.json
 52528ea307b0319bf0d4f1158dd9d575e19aa4f7 assets/caliber/models/item/crimson_window.json
 cbb2f28c90425485d981a9ef4ce8be47fe59bb10 assets/caliber/models/item/crimson_window_half.json
@@ -527,6 +532,7 @@ dec6ce00af4209686f9818b39f1f246471efa911 assets/caliber/models/item/dark_oak_shi
 1f82801bed8af77013360d49d07e001ef17314da assets/caliber/models/item/dark_oak_shingle_roof_peak.json
 e73f51b1a99843ee6d2f9fcc89e6745c3a2d332b assets/caliber/models/item/dark_oak_slab.json
 1893989ef08bf1b39c02e0a505e3e21be2ea8cb1 assets/caliber/models/item/dark_oak_slab_vertical.json
+5541102a870683d4234e1d85af02406fcc873ee6 assets/caliber/models/item/dark_oak_tall_door.json
 bd4a0325ba7b51340901b41b80d64a4dc364e350 assets/caliber/models/item/dark_oak_wall.json
 e4a837e93cf32d128cd83b99ccc8c63b66dd0058 assets/caliber/models/item/dark_oak_window.json
 8cdc6bc8393072643faf58b9185eca34c2d22fc3 assets/caliber/models/item/dark_oak_window_half.json
@@ -833,6 +839,7 @@ ca3f139c5404e390487eef09385e483087741594 assets/caliber/models/item/jungle_shing
 3388f4bd5ba3b40085b7409d3c410d35f91d8164 assets/caliber/models/item/jungle_shingle_roof_peak.json
 795a9592eefab9838d98ffb9be3dc53c6f696686 assets/caliber/models/item/jungle_slab.json
 b473183a669fff753d487ec2b7fca6ee8e5a08b5 assets/caliber/models/item/jungle_slab_vertical.json
+3ea566223b198d78c8cc1ee339e79d392fd66c5c assets/caliber/models/item/jungle_tall_door.json
 4e06fff5d79cd40407e7cc4b3d3d596db8b0cefd assets/caliber/models/item/jungle_wall.json
 8364376040806f7addc7ba27ee45844952b1acf4 assets/caliber/models/item/jungle_window.json
 0ffe6f1e2ac8e0b2755e9a70bd7c7a138e8eb421 assets/caliber/models/item/jungle_window_half.json
@@ -1084,6 +1091,7 @@ cc85a9fab4ee547c488a543ea175d5903bfb0d0a assets/caliber/models/item/mangrove_pil
 d2d4ec254f6dae87dc1b770af59a43b317145c0c assets/caliber/models/item/mangrove_shingle_roof_peak.json
 7e956b00bb62446ef35075befb07b6ba4bb02007 assets/caliber/models/item/mangrove_slab.json
 5c5b9134895370bda44a8dcbf02c4915628de527 assets/caliber/models/item/mangrove_slab_vertical.json
+ab7a2cf61f56346447dfdb6c98356be50d9c2094 assets/caliber/models/item/mangrove_tall_door.json
 0f98266becf5c520c93eb19160200be5d840f72c assets/caliber/models/item/mangrove_wall.json
 5e9506031aa07c2f7d08556d5266390c2be941a5 assets/caliber/models/item/mangrove_window.json
 5b3b40a4773ea9d064cbd8e109fee125ee6e3e61 assets/caliber/models/item/mangrove_window_half.json
@@ -1159,6 +1167,7 @@ befe720788c4fccff4ab443f722df74ecabe0095 assets/caliber/models/item/oak_quarter_
 c3361f8a0abcc90790a9336721ca7c4f16aee7ff assets/caliber/models/item/oak_shingle_roof_peak.json
 1fa729799e6f976488210b42813f364efaec1d90 assets/caliber/models/item/oak_slab.json
 fbe68ca0e7294c3e724622ec1de9ebc8a3823c3f assets/caliber/models/item/oak_slab_vertical.json
+a601eb8222207284944bd12a6e35c7b58b9c2dab assets/caliber/models/item/oak_tall_door.json
 8aac964a2f39ebf5ec693b53a7824aa5791ecb03 assets/caliber/models/item/oak_wall.json
 27ad0824542aca20dea9f37a1b7de6df63d7ed23 assets/caliber/models/item/oak_window.json
 344f10537eefdbd59d007e8e9d98f77623ba2801 assets/caliber/models/item/oak_window_half.json
@@ -1809,6 +1818,7 @@ f66ec9f92469f79ba930a59cf83f268677a4fd32 assets/caliber/models/item/spruce_quart
 46f8008024475c90d0736c4bb65c1224328e3a59 assets/caliber/models/item/spruce_shingle_roof_peak.json
 2a35606f748ce44084e0d49392e4ec5e9d296df2 assets/caliber/models/item/spruce_slab.json
 76aa108696d1bb9d62044da4290a28093cb62b1a assets/caliber/models/item/spruce_slab_vertical.json
+bccb918b48a873b0e8c102cc57fa0d0ccc1c8a02 assets/caliber/models/item/spruce_tall_door.json
 5c4c0bbaf95d23c00f5b9be1894e1727ec34b40b assets/caliber/models/item/spruce_wall.json
 7259b0256c47e1e56571fd1b16bed43f79579ac4 assets/caliber/models/item/spruce_window.json
 5f35827961ee55736f8d3a5f2974cf52411ccada assets/caliber/models/item/spruce_window_half.json
@@ -2080,14 +2090,6 @@ dbc338df33aab59ad8e2e789b70db890686bd64e assets/caliber/models/item/stripped_war
 afffd11429eeb2467906119103df1789fedb06c7 assets/caliber/models/item/stripped_warped_wall.json
 e2a443df1dde9f7a276b2105425d9d5a345c6b88 assets/caliber/models/item/stripped_warped_window.json
 771dfbbbcab4e9c8f9652b96cd86b7f68a299faa assets/caliber/models/item/stripped_warped_window_half.json
-359a3d381b4e318fe95edc4ebfe7941073e8e311 assets/caliber/models/item/tall_acacia_door.json
-3beb676603b3151f7d5a39f86cea42ee84b64019 assets/caliber/models/item/tall_birch_door.json
-fdf4c8d27b3c93ac4deb3f21b07f0702502e7f43 assets/caliber/models/item/tall_crimson_door.json
-669a2cde88b3b85c14c0c54f871b4a1d3bb9d4e7 assets/caliber/models/item/tall_dark_oak_door.json
-80dcbeee3fe62351280c61d18f5b755f44dee946 assets/caliber/models/item/tall_jungle_door.json
-d70ddd7d73a8ab753a40e1d11b5581f2e4d45a2f assets/caliber/models/item/tall_oak_door.json
-a667f656c5a4b6f1677804d5d5a93e60b54cabbc assets/caliber/models/item/tall_spruce_door.json
-deaf16b54a2c64331d388c00062848624ae19a7b assets/caliber/models/item/tall_warped_door.json
 8c396a7fd80254c24bdebe48bffbff0141846f4c assets/caliber/models/item/terracotta_arch.json
 e03f843d53aa2257231ac0bf4b4e428c2eafb214 assets/caliber/models/item/terracotta_arch_half.json
 64c5ae50c75760941f1ea0825035d555f83378ed assets/caliber/models/item/terracotta_arch_large.json
@@ -2148,6 +2150,7 @@ d05aa1268ab0aa36c7633ecce8973f50d01ad31c assets/caliber/models/item/warped_shing
 a5dbc269ca91de40940b1ee2f113fcca62be414e assets/caliber/models/item/warped_shingle_roof_peak.json
 d180ebaf780de7f9bfdb3a7503a35394bd5fb65f assets/caliber/models/item/warped_slab.json
 172ed786b5207c53bb1fbdfcbab57ada949a4ae4 assets/caliber/models/item/warped_slab_vertical.json
+c81c1d18a72f52db8242bc3018471b71a4bfc9ea assets/caliber/models/item/warped_tall_door.json
 d11b64b6159ec7ea4b942398c3f800b50a5f5f5e assets/caliber/models/item/warped_wall.json
 78b8c45139200256dc07d70e98e62539d513f3b6 assets/caliber/models/item/warped_window.json
 e359f758dd5fbe34811417400575f1a501619b1c assets/caliber/models/item/warped_window_half.json

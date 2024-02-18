@@ -1,7 +1,6 @@
 package com.calibermc.caliber;
 
 import com.calibermc.caliber.block.CaliberBlocks;
-import com.calibermc.caliber.block.custom.entity.CaliberBlockEntities;
 import com.calibermc.caliber.config.CaliberClientConfigs;
 import com.calibermc.caliber.config.CaliberCommonConfigs;
 import com.calibermc.caliber.crafting.CaliberRecipeSerializers;
@@ -36,7 +35,6 @@ public class Caliber {
 
         CaliberItems.register(eventBus);
         CaliberBlocks.register(eventBus);
-        CaliberBlockEntities.register(eventBus);
         CaliberMenuTypes.register(eventBus);
         CaliberRecipeSerializers.register(eventBus);
         CreativeTabs.register(eventBus);

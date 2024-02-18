@@ -171,8 +171,6 @@ public class CaliberRecipeProvider extends RecipeProvider implements IConditionB
             }
         }}
 
-    // TODO: CONSIDER SLAB to MOD SLAB RECIPE
-
     private void smoothBaseBlockRecipe(BlockManager manager, Consumer<FinishedRecipe> finished, String name, Block baseBlock, String criterionBy, Map.Entry<BlockManager.BlockAdditional, Pair<ResourceLocation, Supplier<Block>>> e, String path, Block block) {
         if (name.contains("smooth")) {
             Optional<BlockManager> optionalManager = BlockManager.BLOCK_MANAGERS.get(Caliber.MOD_ID).stream()

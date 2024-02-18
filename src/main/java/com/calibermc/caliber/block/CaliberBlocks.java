@@ -32,9 +32,6 @@ public class CaliberBlocks {
     public static final RegistryObject<Block> WOODCUTTER = registerBlock("woodcutter",
             () -> new WoodcutterBlock(BlockBehaviour.Properties.of().mapColor(MapColor.STONE).instrument(NoteBlockInstrument.BASEDRUM).noOcclusion().requiresCorrectToolForDrops().strength(3.5F)));
 
-//    public static final RegistryObject<Block> TAPPED_BIRCH_LOG = registerBlock("tapped_birch_log",
-//            () -> new TappedBirchLog(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)));
-
 
     /* Andesite */
     public static final BlockManager ANDESITE = CaliberBlockManager.register("andesite", BlockProps.ANDESITE.get(), () -> Blocks.ANDESITE, STONE_VARIANTS_WITHOUT_STAIRS_WALL);
@@ -135,14 +132,29 @@ public class CaliberBlocks {
     public static final BlockManager CRIMSON = CaliberBlockManager.register("crimson_planks", BlockProps.PLANK.get(), () -> Blocks.CRIMSON_PLANKS, PLANK_VARIANTS_WITHOUT_FENCES_STAIRS);
     public static final BlockManager WARPED = CaliberBlockManager.register("warped_planks", BlockProps.PLANK.get(), () -> Blocks.WARPED_PLANKS, PLANK_VARIANTS_WITHOUT_FENCES_STAIRS);
 
-    public static final RegistryObject<Block> TALL_ACACIA_DOOR = registerBlock("tall_acacia_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.ACACIA));
-    public static final RegistryObject<Block> TALL_BIRCH_DOOR = registerBlock("tall_birch_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.BIRCH));
-    public static final RegistryObject<Block> TALL_DARK_OAK_DOOR = registerBlock("tall_dark_oak_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.DARK_OAK));
-    public static final RegistryObject<Block> TALL_JUNGLE_DOOR = registerBlock("tall_jungle_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.JUNGLE));
-    public static final RegistryObject<Block> TALL_OAK_DOOR = registerBlock("tall_oak_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.OAK));
-    public static final RegistryObject<Block> TALL_SPRUCE_DOOR = registerBlock("tall_spruce_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.SPRUCE));
-    public static final RegistryObject<Block> TALL_CRIMSON_DOOR = registerBlock("tall_crimson_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.CRIMSON));
-    public static final RegistryObject<Block> TALL_WARPED_DOOR = registerBlock("tall_warped_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.WARPED));
+//    public static final BlockManager ACACIA_TALL_DOOR = CaliberBlockManager.registerOneBlock("acacia_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.ACACIA));
+//    public static final BlockManager BAMBOO_TALL_DOOR = CaliberBlockManager.registerOneBlock("bamboo_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.BAMBOO));
+//    public static final BlockManager BIRCH_TALL_DOOR = CaliberBlockManager.registerOneBlock("birch_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.BIRCH));
+//    public static final BlockManager CHERRY_TALL_DOOR = CaliberBlockManager.registerOneBlock("cherry_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.CHERRY));
+//    public static final BlockManager DARK_OAK_TALL_DOOR = CaliberBlockManager.registerOneBlock("dark_oak_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.DARK_OAK));
+//    public static final BlockManager JUNGLE_TALL_DOOR = CaliberBlockManager.registerOneBlock("jungle_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.JUNGLE));
+//    public static final BlockManager MANGROVE_TALL_DOOR = CaliberBlockManager.registerOneBlock("mangrove_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.MANGROVE));
+//    public static final BlockManager OAK_TALL_DOOR = CaliberBlockManager.registerOneBlock("oak_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.OAK));
+//    public static final BlockManager SPRUCE_TALL_DOOR = CaliberBlockManager.registerOneBlock("spruce_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.SPRUCE));
+//    public static final BlockManager CRIMSON_TALL_DOOR = CaliberBlockManager.registerOneBlock("crimson_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.CRIMSON));
+//    public static final BlockManager WARPED_TALL_DOOR = CaliberBlockManager.registerOneBlock("warped_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.WARPED));
+
+    public static final RegistryObject<Block> ACACIA_TALL_DOOR = registerBlock("acacia_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.ACACIA));
+    public static final RegistryObject<Block> BAMBOO_TALL_DOOR = registerBlock("bamboo_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.BAMBOO));
+    public static final RegistryObject<Block> BIRCH_TALL_DOOR = registerBlock("birch_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.BIRCH));
+    public static final RegistryObject<Block> CHERRY_TALL_DOOR = registerBlock("cherry_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.CHERRY));
+    public static final RegistryObject<Block> DARK_OAK_TALL_DOOR = registerBlock("dark_oak_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.DARK_OAK));
+    public static final RegistryObject<Block> JUNGLE_TALL_DOOR = registerBlock("jungle_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.JUNGLE));
+    public static final RegistryObject<Block> MANGROVE_TALL_DOOR = registerBlock("mangrove_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.MANGROVE));
+    public static final RegistryObject<Block> OAK_TALL_DOOR = registerBlock("oak_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.OAK));
+    public static final RegistryObject<Block> SPRUCE_TALL_DOOR = registerBlock("spruce_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.SPRUCE));
+    public static final RegistryObject<Block> CRIMSON_TALL_DOOR = registerBlock("crimson_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.CRIMSON));
+    public static final RegistryObject<Block> WARPED_TALL_DOOR = registerBlock("warped_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.WARPED));
 
     /* Stripped Wood */
     public static final BlockManager STRIPPED_ACACIA = CaliberBlockManager.register("stripped_acacia_wood", BlockProps.PLANK.get(), () -> Blocks.STRIPPED_ACACIA_WOOD, STRIPPED_WOOD_VARIANTS);
@@ -238,7 +250,7 @@ public class CaliberBlocks {
 
     public static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
-        registerBlockItem(name, toReturn); //CreativeTabs.CALIBER_TAB
+        registerBlockItem(name, toReturn);
         blockCount++;
         return toReturn;
     }

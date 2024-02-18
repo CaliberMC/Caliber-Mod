@@ -27,39 +27,28 @@ public class CaliberBlockLootTables extends ModBlockLootTables {
     }
 
     public void plankBlocks() {
-        this.add(CaliberBlocks.TALL_ACACIA_DOOR.get(), (block) ->
-                createSinglePropConditionTable(CaliberBlocks.TALL_ACACIA_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
-        this.add(CaliberBlocks.TALL_BIRCH_DOOR.get(), (block) ->
-                createSinglePropConditionTable(CaliberBlocks.TALL_BIRCH_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
-        this.add(CaliberBlocks.TALL_DARK_OAK_DOOR.get(), (block) ->
-                createSinglePropConditionTable(CaliberBlocks.TALL_DARK_OAK_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
-        this.add(CaliberBlocks.TALL_JUNGLE_DOOR.get(), (block) ->
-                createSinglePropConditionTable(CaliberBlocks.TALL_JUNGLE_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
-        this.add(CaliberBlocks.TALL_OAK_DOOR.get(), (block) ->
-                createSinglePropConditionTable(CaliberBlocks.TALL_OAK_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
-        this.add(CaliberBlocks.TALL_SPRUCE_DOOR.get(), (block) ->
-                createSinglePropConditionTable(CaliberBlocks.TALL_SPRUCE_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
-        this.add(CaliberBlocks.TALL_CRIMSON_DOOR.get(), (block) ->
-                createSinglePropConditionTable(CaliberBlocks.TALL_CRIMSON_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
-        this.add(CaliberBlocks.TALL_WARPED_DOOR.get(), (block) ->
-                createSinglePropConditionTable(CaliberBlocks.TALL_WARPED_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
-//        createSinglePropConditionTable(CaliberBlocks.TALL_ACACIA_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM);
-//        createSinglePropConditionTable(CaliberBlocks.TALL_BIRCH_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM);
-//        createSinglePropConditionTable(CaliberBlocks.TALL_DARK_OAK_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM);
-//        createSinglePropConditionTable(CaliberBlocks.TALL_JUNGLE_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM);
-//        createSinglePropConditionTable(CaliberBlocks.TALL_OAK_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM);
-//        createSinglePropConditionTable(CaliberBlocks.TALL_SPRUCE_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM);
-//        createSinglePropConditionTable(CaliberBlocks.TALL_CRIMSON_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM);
-//        createSinglePropConditionTable(CaliberBlocks.TALL_WARPED_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM);
-
-//        this.dropSelf(CaliberBlocks.TALL_ACACIA_DOOR.get());
-//        this.dropSelf(CaliberBlocks.TALL_BIRCH_DOOR.get());
-//        this.dropSelf(CaliberBlocks.TALL_DARK_OAK_DOOR.get());
-//        this.dropSelf(CaliberBlocks.TALL_JUNGLE_DOOR.get());
-//        this.dropSelf(CaliberBlocks.TALL_OAK_DOOR.get());
-//        this.dropSelf(CaliberBlocks.TALL_SPRUCE_DOOR.get());
-//        this.dropSelf(CaliberBlocks.TALL_CRIMSON_DOOR.get());
-//        this.dropSelf(CaliberBlocks.TALL_WARPED_DOOR.get());
+//        this.add(CaliberBlocks.ACACIA_TALL_DOOR.baseBlock(), (block) -> createSinglePropConditionTable(CaliberBlocks.ACACIA_TALL_DOOR.baseBlock(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+//        this.add(CaliberBlocks.BAMBOO_TALL_DOOR.baseBlock(), (block) -> createSinglePropConditionTable(CaliberBlocks.BAMBOO_TALL_DOOR.baseBlock(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+//        this.add(CaliberBlocks.BIRCH_TALL_DOOR.baseBlock(), (block) -> createSinglePropConditionTable(CaliberBlocks.BIRCH_TALL_DOOR.baseBlock(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+//        this.add(CaliberBlocks.CHERRY_TALL_DOOR.baseBlock(), (block) -> createSinglePropConditionTable(CaliberBlocks.CHERRY_TALL_DOOR.baseBlock(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+//        this.add(CaliberBlocks.DARK_OAK_TALL_DOOR.baseBlock(), (block) -> createSinglePropConditionTable(CaliberBlocks.DARK_OAK_TALL_DOOR.baseBlock(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+//        this.add(CaliberBlocks.JUNGLE_TALL_DOOR.baseBlock(), (block) -> createSinglePropConditionTable(CaliberBlocks.JUNGLE_TALL_DOOR.baseBlock(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+//        this.add(CaliberBlocks.MANGROVE_TALL_DOOR.baseBlock(), (block) -> createSinglePropConditionTable(CaliberBlocks.MANGROVE_TALL_DOOR.baseBlock(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+//        this.add(CaliberBlocks.OAK_TALL_DOOR.baseBlock(), (block) -> createSinglePropConditionTable(CaliberBlocks.OAK_TALL_DOOR.baseBlock(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+//        this.add(CaliberBlocks.SPRUCE_TALL_DOOR.baseBlock(), (block) -> createSinglePropConditionTable(CaliberBlocks.SPRUCE_TALL_DOOR.baseBlock(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+//        this.add(CaliberBlocks.CRIMSON_TALL_DOOR.baseBlock(), (block) -> createSinglePropConditionTable(CaliberBlocks.CRIMSON_TALL_DOOR.baseBlock(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+//        this.add(CaliberBlocks.WARPED_TALL_DOOR.baseBlock(), (block) -> createSinglePropConditionTable(CaliberBlocks.WARPED_TALL_DOOR.baseBlock(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+        this.add(CaliberBlocks.ACACIA_TALL_DOOR.get(), (block) -> createSinglePropConditionTable(CaliberBlocks.ACACIA_TALL_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+        this.add(CaliberBlocks.BAMBOO_TALL_DOOR.get(), (block) -> createSinglePropConditionTable(CaliberBlocks.BAMBOO_TALL_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+        this.add(CaliberBlocks.BIRCH_TALL_DOOR.get(), (block) -> createSinglePropConditionTable(CaliberBlocks.BIRCH_TALL_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+        this.add(CaliberBlocks.CHERRY_TALL_DOOR.get(), (block) -> createSinglePropConditionTable(CaliberBlocks.CHERRY_TALL_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+        this.add(CaliberBlocks.DARK_OAK_TALL_DOOR.get(), (block) -> createSinglePropConditionTable(CaliberBlocks.DARK_OAK_TALL_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+        this.add(CaliberBlocks.JUNGLE_TALL_DOOR.get(), (block) -> createSinglePropConditionTable(CaliberBlocks.JUNGLE_TALL_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+        this.add(CaliberBlocks.MANGROVE_TALL_DOOR.get(), (block) -> createSinglePropConditionTable(CaliberBlocks.MANGROVE_TALL_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+        this.add(CaliberBlocks.OAK_TALL_DOOR.get(), (block) -> createSinglePropConditionTable(CaliberBlocks.OAK_TALL_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+        this.add(CaliberBlocks.SPRUCE_TALL_DOOR.get(), (block) -> createSinglePropConditionTable(CaliberBlocks.SPRUCE_TALL_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+        this.add(CaliberBlocks.CRIMSON_TALL_DOOR.get(), (block) -> createSinglePropConditionTable(CaliberBlocks.CRIMSON_TALL_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
+        this.add(CaliberBlocks.WARPED_TALL_DOOR.get(), (block) -> createSinglePropConditionTable(CaliberBlocks.WARPED_TALL_DOOR.get(), TallDoorBlock.THIRD, TallDoorPart.BOTTOM));
     }
 
     @Override
