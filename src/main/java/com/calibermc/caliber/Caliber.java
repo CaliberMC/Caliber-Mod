@@ -4,7 +4,6 @@ import com.calibermc.caliber.block.CaliberBlocks;
 import com.calibermc.caliber.config.CaliberClientConfigs;
 import com.calibermc.caliber.config.CaliberCommonConfigs;
 import com.calibermc.caliber.crafting.CaliberRecipeSerializers;
-import com.calibermc.caliber.event.loot.CaliberGlobalLootSerializers;
 import com.calibermc.caliber.item.CaliberItems;
 import com.calibermc.caliber.item.CreativeTabs;
 import com.calibermc.caliber.networking.CaliberNetworking;
@@ -38,7 +37,6 @@ public class Caliber {
         CaliberMenuTypes.register(eventBus);
         CaliberRecipeSerializers.register(eventBus);
         CreativeTabs.register(eventBus);
-        CaliberGlobalLootSerializers.register(eventBus);
 
         eventBus.addListener(this::setup);
 

@@ -345,6 +345,8 @@ _ Added all Terracotta Roof variants
 - Added Bamboo, Cherry and Mangrove Tall Doors
 - Refactored all Tall Doors to better match naming conventions woodname_tall_door.  Sorry for any inconvenience this may cause.
 - Removed deprecated BlockRenderLayers and replaced with RenderLayer setting in models
+- Removed unused Global Loot Modifiers (moved to Natures Canvas)
+- Removed unused Biome Modifier (all world gen is now in Natures Canvas)
 
 
 
