@@ -13,7 +13,6 @@ public class CaliberTags {
 
     public static class Blocks {
 
-
         /* Shapes */
         public static final TagKey<Block> arches = tag("shapes/arches");
         public static final TagKey<Block> arrowslits = tag("shapes/arrowslits");

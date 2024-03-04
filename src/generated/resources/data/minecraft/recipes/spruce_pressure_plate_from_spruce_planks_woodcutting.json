@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 1,
-  "ingredient": {
-    "item": "minecraft:spruce_planks"
-  },
-  "result": "caliber:spruce_pressure_plate"
-}

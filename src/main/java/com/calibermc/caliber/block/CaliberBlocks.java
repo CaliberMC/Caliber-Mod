@@ -132,6 +132,8 @@ public class CaliberBlocks {
     public static final BlockManager CRIMSON = CaliberBlockManager.register("crimson_planks", BlockProps.PLANK.get(), () -> Blocks.CRIMSON_PLANKS, PLANK_VARIANTS_WITHOUT_FENCES_STAIRS);
     public static final BlockManager WARPED = CaliberBlockManager.register("warped_planks", BlockProps.PLANK.get(), () -> Blocks.WARPED_PLANKS, PLANK_VARIANTS_WITHOUT_FENCES_STAIRS);
 
+
+    // TODO Move Tall Doors to BlockManager
 //    public static final BlockManager ACACIA_TALL_DOOR = CaliberBlockManager.registerOneBlock("acacia_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.ACACIA));
 //    public static final BlockManager BAMBOO_TALL_DOOR = CaliberBlockManager.registerOneBlock("bamboo_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.BAMBOO));
 //    public static final BlockManager BIRCH_TALL_DOOR = CaliberBlockManager.registerOneBlock("birch_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.BIRCH));
