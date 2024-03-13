@@ -1,6 +1,6 @@
 {
   "type": "caliber:woodcutting",
-  "count": 4,
+  "count": 5,
   "ingredient": {
     "item": "minecraft:stripped_mangrove_wood"
   },

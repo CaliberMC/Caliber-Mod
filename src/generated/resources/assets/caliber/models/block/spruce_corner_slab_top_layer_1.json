@@ -1,0 +1,8 @@
+{
+  "parent": "caliberlib:block/templates/corner_slab_top_layer_1",
+  "textures": {
+    "bottom": "minecraft:block/spruce_planks",
+    "side": "minecraft:block/spruce_planks",
+    "top": "minecraft:block/spruce_planks"
+  }
+}

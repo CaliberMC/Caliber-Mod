@@ -67,13 +67,8 @@ public class CaliberRecipeProvider extends RecipeProvider implements IConditionB
                             inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, n);
                 }
 
-                case CORNER, QUARTER, QUARTER_VERTICAL, PILLAR -> {
+                case CORNER, QUARTER, QUARTER_VERTICAL, PILLAR, CORNER_SLAB, CORNER_SLAB_VERTICAL -> {
                     stoneOrWoodcutting.apply(Ingredient.of(baseBlock), block, 5).unlockedBy(criterionBy,
-                            inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, n);
-                }
-
-                case CORNER_SLAB, CORNER_SLAB_VERTICAL -> {
-                    stoneOrWoodcutting.apply(Ingredient.of(baseBlock), block, 4).unlockedBy(criterionBy,
                             inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, n);
                 }
 
@@ -118,8 +113,8 @@ public class CaliberRecipeProvider extends RecipeProvider implements IConditionB
                 }
 
                 case LAYER-> {
-                    ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, block, 24).define('#', baseBlock).pattern("###").unlockedBy(criterionBy,
-                            inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, "%s_from_%s_shaped".formatted(path, name));
+//                    ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, block, 24).define('#', baseBlock).pattern("###").unlockedBy(criterionBy,
+//                            inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, "%s_from_%s_shaped".formatted(path, name));
 
                     stoneOrWoodcutting.apply(Ingredient.of(manager.get(ModBlockFamily.Variant.LAYER_VERTICAL)), (block), 1).unlockedBy(criterionBy,
                             inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, "%s_from_%s_layer_vertical_%scutting".formatted(path, name, woodOrStone));

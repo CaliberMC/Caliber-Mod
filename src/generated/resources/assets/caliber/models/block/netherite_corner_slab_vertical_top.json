@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/corner_slab_vertical_top",
-  "textures": {
-    "bottom": "minecraft:block/netherite_block",
-    "side": "minecraft:block/netherite_block",
-    "top": "minecraft:block/netherite_block"
-  }
-}

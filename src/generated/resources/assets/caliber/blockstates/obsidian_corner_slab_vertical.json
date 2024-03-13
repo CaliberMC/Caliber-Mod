@@ -1,64 +1,292 @@
 {
   "variants": {
-    "facing=east,type=left": {
-      "model": "caliber:block/obsidian_corner_slab_vertical_left",
+    "facing=east,layers=1,type=left": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_left_layer_1",
       "y": 90
     },
-    "facing=east,type=right": {
-      "model": "caliber:block/obsidian_corner_slab_vertical",
+    "facing=east,layers=1,type=right": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_layer_1",
       "y": 90
     },
-    "facing=east,type=top_left": {
-      "model": "caliber:block/obsidian_corner_slab_vertical_top_left",
+    "facing=east,layers=1,type=top_left": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_top_left_layer_1",
       "y": 90
     },
-    "facing=east,type=top_right": {
-      "model": "caliber:block/obsidian_corner_slab_vertical_top",
+    "facing=east,layers=1,type=top_right": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_top_layer_1",
       "y": 90
     },
-    "facing=north,type=left": {
-      "model": "caliber:block/obsidian_corner_slab_vertical_left"
+    "facing=east,layers=2,type=left": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_left_layer_2",
+      "y": 90
     },
-    "facing=north,type=right": {
-      "model": "caliber:block/obsidian_corner_slab_vertical"
+    "facing=east,layers=2,type=right": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_layer_2",
+      "y": 90
     },
-    "facing=north,type=top_left": {
-      "model": "caliber:block/obsidian_corner_slab_vertical_top_left"
+    "facing=east,layers=2,type=top_left": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_top_left_layer_2",
+      "y": 90
     },
-    "facing=north,type=top_right": {
-      "model": "caliber:block/obsidian_corner_slab_vertical_top"
+    "facing=east,layers=2,type=top_right": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_top_layer_2",
+      "y": 90
     },
-    "facing=south,type=left": {
-      "model": "caliber:block/obsidian_corner_slab_vertical_left",
+    "facing=east,layers=3,type=left": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_left_layer_3",
+      "y": 90
+    },
+    "facing=east,layers=3,type=right": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_layer_3",
+      "y": 90
+    },
+    "facing=east,layers=3,type=top_left": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_top_left_layer_3",
+      "y": 90
+    },
+    "facing=east,layers=3,type=top_right": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_top_layer_3",
+      "y": 90
+    },
+    "facing=east,layers=4,type=left": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_left_layer_4",
+      "y": 90
+    },
+    "facing=east,layers=4,type=right": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_layer_4",
+      "y": 90
+    },
+    "facing=east,layers=4,type=top_left": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_top_left_layer_4",
+      "y": 90
+    },
+    "facing=east,layers=4,type=top_right": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_top_layer_4",
+      "y": 90
+    },
+    "facing=east,layers=5,type=left": {
+      "model": "minecraft:block/obsidian"
+    },
+    "facing=east,layers=5,type=right": {
+      "model": "minecraft:block/obsidian"
+    },
+    "facing=east,layers=5,type=top_left": {
+      "model": "minecraft:block/obsidian"
+    },
+    "facing=east,layers=5,type=top_right": {
+      "model": "minecraft:block/obsidian"
+    },
+    "facing=north,layers=1,type=left": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_left_layer_1"
+    },
+    "facing=north,layers=1,type=right": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_layer_1"
+    },
+    "facing=north,layers=1,type=top_left": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_top_left_layer_1"
+    },
+    "facing=north,layers=1,type=top_right": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_top_layer_1"
+    },
+    "facing=north,layers=2,type=left": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_left_layer_2"
+    },
+    "facing=north,layers=2,type=right": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_layer_2"
+    },
+    "facing=north,layers=2,type=top_left": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_top_left_layer_2"
+    },
+    "facing=north,layers=2,type=top_right": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_top_layer_2"
+    },
+    "facing=north,layers=3,type=left": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_left_layer_3"
+    },
+    "facing=north,layers=3,type=right": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_layer_3"
+    },
+    "facing=north,layers=3,type=top_left": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_top_left_layer_3"
+    },
+    "facing=north,layers=3,type=top_right": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_top_layer_3"
+    },
+    "facing=north,layers=4,type=left": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_left_layer_4"
+    },
+    "facing=north,layers=4,type=right": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_layer_4"
+    },
+    "facing=north,layers=4,type=top_left": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_top_left_layer_4"
+    },
+    "facing=north,layers=4,type=top_right": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_top_layer_4"
+    },
+    "facing=north,layers=5,type=left": {
+      "model": "minecraft:block/obsidian"
+    },
+    "facing=north,layers=5,type=right": {
+      "model": "minecraft:block/obsidian"
+    },
+    "facing=north,layers=5,type=top_left": {
+      "model": "minecraft:block/obsidian"
+    },
+    "facing=north,layers=5,type=top_right": {
+      "model": "minecraft:block/obsidian"
+    },
+    "facing=south,layers=1,type=left": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_left_layer_1",
       "y": 180
     },
-    "facing=south,type=right": {
-      "model": "caliber:block/obsidian_corner_slab_vertical",
+    "facing=south,layers=1,type=right": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_layer_1",
       "y": 180
     },
-    "facing=south,type=top_left": {
-      "model": "caliber:block/obsidian_corner_slab_vertical_top_left",
+    "facing=south,layers=1,type=top_left": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_top_left_layer_1",
       "y": 180
     },
-    "facing=south,type=top_right": {
-      "model": "caliber:block/obsidian_corner_slab_vertical_top",
+    "facing=south,layers=1,type=top_right": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_top_layer_1",
       "y": 180
     },
-    "facing=west,type=left": {
-      "model": "caliber:block/obsidian_corner_slab_vertical_left",
+    "facing=south,layers=2,type=left": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_left_layer_2",
+      "y": 180
+    },
+    "facing=south,layers=2,type=right": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_layer_2",
+      "y": 180
+    },
+    "facing=south,layers=2,type=top_left": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_top_left_layer_2",
+      "y": 180
+    },
+    "facing=south,layers=2,type=top_right": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_top_layer_2",
+      "y": 180
+    },
+    "facing=south,layers=3,type=left": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_left_layer_3",
+      "y": 180
+    },
+    "facing=south,layers=3,type=right": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_layer_3",
+      "y": 180
+    },
+    "facing=south,layers=3,type=top_left": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_top_left_layer_3",
+      "y": 180
+    },
+    "facing=south,layers=3,type=top_right": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_top_layer_3",
+      "y": 180
+    },
+    "facing=south,layers=4,type=left": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_left_layer_4",
+      "y": 180
+    },
+    "facing=south,layers=4,type=right": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_layer_4",
+      "y": 180
+    },
+    "facing=south,layers=4,type=top_left": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_top_left_layer_4",
+      "y": 180
+    },
+    "facing=south,layers=4,type=top_right": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_top_layer_4",
+      "y": 180
+    },
+    "facing=south,layers=5,type=left": {
+      "model": "minecraft:block/obsidian"
+    },
+    "facing=south,layers=5,type=right": {
+      "model": "minecraft:block/obsidian"
+    },
+    "facing=south,layers=5,type=top_left": {
+      "model": "minecraft:block/obsidian"
+    },
+    "facing=south,layers=5,type=top_right": {
+      "model": "minecraft:block/obsidian"
+    },
+    "facing=west,layers=1,type=left": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_left_layer_1",
       "y": 270
     },
-    "facing=west,type=right": {
-      "model": "caliber:block/obsidian_corner_slab_vertical",
+    "facing=west,layers=1,type=right": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_layer_1",
       "y": 270
     },
-    "facing=west,type=top_left": {
-      "model": "caliber:block/obsidian_corner_slab_vertical_top_left",
+    "facing=west,layers=1,type=top_left": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_top_left_layer_1",
       "y": 270
     },
-    "facing=west,type=top_right": {
-      "model": "caliber:block/obsidian_corner_slab_vertical_top",
+    "facing=west,layers=1,type=top_right": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_top_layer_1",
       "y": 270
+    },
+    "facing=west,layers=2,type=left": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_left_layer_2",
+      "y": 270
+    },
+    "facing=west,layers=2,type=right": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_layer_2",
+      "y": 270
+    },
+    "facing=west,layers=2,type=top_left": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_top_left_layer_2",
+      "y": 270
+    },
+    "facing=west,layers=2,type=top_right": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_top_layer_2",
+      "y": 270
+    },
+    "facing=west,layers=3,type=left": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_left_layer_3",
+      "y": 270
+    },
+    "facing=west,layers=3,type=right": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_layer_3",
+      "y": 270
+    },
+    "facing=west,layers=3,type=top_left": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_top_left_layer_3",
+      "y": 270
+    },
+    "facing=west,layers=3,type=top_right": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_top_layer_3",
+      "y": 270
+    },
+    "facing=west,layers=4,type=left": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_left_layer_4",
+      "y": 270
+    },
+    "facing=west,layers=4,type=right": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_layer_4",
+      "y": 270
+    },
+    "facing=west,layers=4,type=top_left": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_top_left_layer_4",
+      "y": 270
+    },
+    "facing=west,layers=4,type=top_right": {
+      "model": "caliber:block/obsidian_corner_slab_vertical_top_layer_4",
+      "y": 270
+    },
+    "facing=west,layers=5,type=left": {
+      "model": "minecraft:block/obsidian"
+    },
+    "facing=west,layers=5,type=right": {
+      "model": "minecraft:block/obsidian"
+    },
+    "facing=west,layers=5,type=top_left": {
+      "model": "minecraft:block/obsidian"
+    },
+    "facing=west,layers=5,type=top_right": {
+      "model": "minecraft:block/obsidian"
     }
   }
 }

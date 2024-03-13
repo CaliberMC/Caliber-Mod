@@ -1,0 +1,8 @@
+{
+  "parent": "caliberlib:block/templates/corner_slab_top_layer_1",
+  "textures": {
+    "bottom": "minecraft:block/cobbled_deepslate",
+    "side": "minecraft:block/cobbled_deepslate",
+    "top": "minecraft:block/cobbled_deepslate"
+  }
+}

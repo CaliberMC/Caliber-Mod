@@ -1,0 +1,8 @@
+{
+  "parent": "caliberlib:block/templates/corner_slab_top_layer_1",
+  "textures": {
+    "bottom": "minecraft:block/stripped_crimson_stem",
+    "side": "minecraft:block/stripped_crimson_stem",
+    "top": "minecraft:block/stripped_crimson_stem"
+  }
+}

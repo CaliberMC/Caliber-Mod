@@ -1,0 +1,8 @@
+{
+  "parent": "caliberlib:block/templates/corner_slab_top_layer_1",
+  "textures": {
+    "bottom": "minecraft:block/light_blue_wool",
+    "side": "minecraft:block/light_blue_wool",
+    "top": "minecraft:block/light_blue_wool"
+  }
+}
