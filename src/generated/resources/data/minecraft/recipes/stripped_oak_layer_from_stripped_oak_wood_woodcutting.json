@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 8,
+  "ingredient": {
+    "item": "minecraft:stripped_oak_wood"
+  },
+  "result": "caliber:stripped_oak_layer"
+}

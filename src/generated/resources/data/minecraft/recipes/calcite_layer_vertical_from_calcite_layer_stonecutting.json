@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "caliber:calcite_layer"
+  },
+  "result": "caliber:calcite_layer_vertical"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 1,
+  "ingredient": {
+    "item": "caliber:stripped_warped_layer_vertical"
+  },
+  "result": "caliber:stripped_warped_layer"
+}

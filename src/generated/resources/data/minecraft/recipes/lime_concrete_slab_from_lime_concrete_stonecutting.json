@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 8,
-  "ingredient": {
-    "item": "minecraft:lime_concrete"
-  },
-  "result": "caliber:lime_concrete_slab"
-}

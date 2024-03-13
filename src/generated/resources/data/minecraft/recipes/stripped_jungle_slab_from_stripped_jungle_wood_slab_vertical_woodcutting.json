@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 1,
-  "ingredient": {
-    "item": "caliber:stripped_jungle_slab_vertical"
-  },
-  "result": "caliber:stripped_jungle_slab"
-}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "caliber:andesite_layer"
+  },
+  "result": "caliber:andesite_layer_vertical"
+}

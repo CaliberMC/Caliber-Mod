@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "caliber:cobblestone_layer"
+  },
+  "result": "caliber:cobblestone_layer_vertical"
+}

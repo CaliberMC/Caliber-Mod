@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 8,
-  "ingredient": {
-    "item": "minecraft:cyan_wool"
-  },
-  "result": "caliber:cyan_wool_slab"
-}

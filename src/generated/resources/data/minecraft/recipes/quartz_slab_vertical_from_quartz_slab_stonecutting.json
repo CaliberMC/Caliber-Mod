@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "caliber:quartz_slab"
-  },
-  "result": "caliber:quartz_slab_vertical"
-}

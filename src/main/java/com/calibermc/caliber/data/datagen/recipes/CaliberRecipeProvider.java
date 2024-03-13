@@ -117,23 +117,23 @@ public class CaliberRecipeProvider extends RecipeProvider implements IConditionB
                             inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, n);
                 }
 
-                case SLAB -> {
+                case LAYER-> {
                     ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, block, 24).define('#', baseBlock).pattern("###").unlockedBy(criterionBy,
                             inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, "%s_from_%s_shaped".formatted(path, name));
 
-                    stoneOrWoodcutting.apply(Ingredient.of(manager.get(ModBlockFamily.Variant.SLAB_VERTICAL)), (block), 1).unlockedBy(criterionBy,
-                            inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, "%s_from_%s_slab_vertical_%scutting".formatted(path, name, woodOrStone));
+                    stoneOrWoodcutting.apply(Ingredient.of(manager.get(ModBlockFamily.Variant.LAYER_VERTICAL)), (block), 1).unlockedBy(criterionBy,
+                            inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, "%s_from_%s_layer_vertical_%scutting".formatted(path, name, woodOrStone));
 
                     stoneOrWoodcutting.apply(Ingredient.of(baseBlock), block, 8).unlockedBy(criterionBy,
                             inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, n);
                 }
 
-                case SLAB_VERTICAL -> {
+                case LAYER_VERTICAL -> {
                     ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, block, 24).define('#', baseBlock).pattern(" # ").pattern(" # ").pattern(" # ").unlockedBy(criterionBy,
                             inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, "%s_from_%s_shaped".formatted(path, name));
 
-                    stoneOrWoodcutting.apply(Ingredient.of(manager.get(ModBlockFamily.Variant.SLAB)), (block), 1).unlockedBy(criterionBy,
-                            inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, "%s_from_%s_slab_%scutting".formatted(path, name, woodOrStone));
+                    stoneOrWoodcutting.apply(Ingredient.of(manager.get(ModBlockFamily.Variant.LAYER)), (block), 1).unlockedBy(criterionBy,
+                            inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, "%s_from_%s_layer_%scutting".formatted(path, name, woodOrStone));
 
                     stoneOrWoodcutting.apply(Ingredient.of(baseBlock), block, 8).unlockedBy(criterionBy,
                             inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, n);

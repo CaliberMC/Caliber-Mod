@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "caliber:green_wool_layer"
+  },
+  "result": "caliber:green_wool_layer_vertical"
+}

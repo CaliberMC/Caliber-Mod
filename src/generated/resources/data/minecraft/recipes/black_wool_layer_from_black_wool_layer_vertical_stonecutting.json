@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "caliber:black_wool_layer_vertical"
+  },
+  "result": "caliber:black_wool_layer"
+}

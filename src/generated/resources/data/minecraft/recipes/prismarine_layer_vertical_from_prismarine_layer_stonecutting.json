@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "caliber:prismarine_layer"
+  },
+  "result": "caliber:prismarine_layer_vertical"
+}

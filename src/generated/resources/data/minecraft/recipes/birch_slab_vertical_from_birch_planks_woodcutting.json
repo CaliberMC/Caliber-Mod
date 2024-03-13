@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 8,
-  "ingredient": {
-    "item": "minecraft:birch_planks"
-  },
-  "result": "caliber:birch_slab_vertical"
-}

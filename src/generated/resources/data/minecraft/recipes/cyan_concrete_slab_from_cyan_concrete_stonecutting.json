@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 8,
-  "ingredient": {
-    "item": "minecraft:cyan_concrete"
-  },
-  "result": "caliber:cyan_concrete_slab"
-}

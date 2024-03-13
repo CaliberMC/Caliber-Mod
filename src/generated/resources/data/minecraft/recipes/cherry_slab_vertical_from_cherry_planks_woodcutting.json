@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 8,
-  "ingredient": {
-    "item": "minecraft:cherry_planks"
-  },
-  "result": "caliber:cherry_slab_vertical"
-}

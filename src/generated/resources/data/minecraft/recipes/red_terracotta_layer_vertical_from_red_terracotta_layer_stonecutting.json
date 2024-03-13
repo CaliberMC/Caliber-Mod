@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "caliber:red_terracotta_layer"
+  },
+  "result": "caliber:red_terracotta_layer_vertical"
+}

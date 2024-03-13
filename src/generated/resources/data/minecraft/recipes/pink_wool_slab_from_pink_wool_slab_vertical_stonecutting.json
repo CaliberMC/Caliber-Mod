@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "caliber:pink_wool_slab_vertical"
-  },
-  "result": "caliber:pink_wool_slab"
-}

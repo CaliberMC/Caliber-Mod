@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "caliber:black_concrete_layer"
+  },
+  "result": "caliber:black_concrete_layer_vertical"
+}

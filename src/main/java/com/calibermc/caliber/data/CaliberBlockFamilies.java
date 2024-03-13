@@ -295,7 +295,6 @@ public class CaliberBlockFamilies {
             .button(Blocks.ACACIA_BUTTON)
             .sign(Blocks.ACACIA_SIGN, Blocks.ACACIA_WALL_SIGN)
             .tallDoor(CaliberBlocks.ACACIA_TALL_DOOR.get())
-//            .fromManager(CaliberBlocks.ACACIA_DOOR)
             .getFamily();
     public static final ModBlockFamily BAMBOO_PLANKS = familyBuilder(Blocks.BAMBOO_PLANKS)
             .fromManager(CaliberBlocks.BAMBOO)

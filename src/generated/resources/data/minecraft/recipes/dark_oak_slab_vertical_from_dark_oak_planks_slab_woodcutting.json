@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 1,
-  "ingredient": {
-    "item": "caliber:dark_oak_slab"
-  },
-  "result": "caliber:dark_oak_slab_vertical"
-}

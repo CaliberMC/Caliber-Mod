@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 1,
+  "ingredient": {
+    "item": "caliber:mangrove_layer"
+  },
+  "result": "caliber:mangrove_layer_vertical"
+}

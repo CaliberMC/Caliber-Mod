@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 8,
-  "ingredient": {
-    "item": "minecraft:dripstone_block"
-  },
-  "result": "caliber:dripstone_slab_vertical"
-}

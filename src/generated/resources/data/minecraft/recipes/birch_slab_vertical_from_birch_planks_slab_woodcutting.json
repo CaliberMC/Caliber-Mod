@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 1,
-  "ingredient": {
-    "item": "caliber:birch_slab"
-  },
-  "result": "caliber:birch_slab_vertical"
-}

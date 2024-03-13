@@ -2,6 +2,7 @@ package com.calibermc.caliber.mixin;
 
 import com.calibermc.caliber.util.CaliberTags;
 import com.calibermc.caliberlib.block.custom.TallDoorBlock;
+import com.calibermc.caliberlib.util.ModTags;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.GlobalPos;
 import net.minecraft.server.level.ServerLevel;
@@ -27,7 +28,7 @@ public class OpenDoorsTaskMixin {
 	@Inject(method = "closeDoorsThatIHaveOpenedOrPassedThrough(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/level/pathfinder/Node;Lnet/minecraft/world/level/pathfinder/Node;Ljava/util/Set;Ljava/util/Optional;)V", at = @At(value = "INVOKE", target = "Lnet/minecraft/server/level/ServerLevel;getBlockState(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;"), locals = LocalCapture.CAPTURE_FAILSOFT)
 	private static void injectPathToDoor(ServerLevel world, LivingEntity entity, @Nullable Node lastNode, @Nullable Node currentNode, Set<GlobalPos> doors, Optional<List<LivingEntity>> otherMobs, CallbackInfo ci, Iterator<GlobalPos> iterator, GlobalPos globalPos, BlockPos blockPos) {
 		BlockState blockStateDD = world.getBlockState(blockPos);
-		if (blockStateDD.is(CaliberTags.Blocks.tallWoodenDoors, state -> state.getBlock() instanceof TallDoorBlock)) {
+		if (blockStateDD.is(ModTags.Blocks.TALL_WOODEN_DOORS, state -> state.getBlock() instanceof TallDoorBlock)) {
 			TallDoorBlock tallDoorBlock = (TallDoorBlock)blockStateDD.getBlock();
 			tallDoorBlock.setOpen(entity, world, blockStateDD, blockPos, false);
 		}

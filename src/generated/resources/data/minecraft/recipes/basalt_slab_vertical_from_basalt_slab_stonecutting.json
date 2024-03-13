@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "caliber:basalt_slab"
-  },
-  "result": "caliber:basalt_slab_vertical"
-}

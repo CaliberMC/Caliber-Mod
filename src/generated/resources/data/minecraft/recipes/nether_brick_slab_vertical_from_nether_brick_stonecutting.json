@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 8,
-  "ingredient": {
-    "item": "minecraft:nether_bricks"
-  },
-  "result": "caliber:nether_brick_slab_vertical"
-}

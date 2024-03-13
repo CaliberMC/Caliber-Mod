@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 8,
-  "ingredient": {
-    "item": "minecraft:andesite"
-  },
-  "result": "caliber:andesite_slab_vertical"
-}

@@ -340,6 +340,8 @@ _ Added all Terracotta Roof variants
 - Bugfix: fixed slab_layer removing block from inventory on placement of double_slab in Slab Mode
 
 -0.2.1 (in progress)
+- Slab variants are now just called Layers (Sorry if this breaks any builds, but it just makes sense to avoid confusion with vanilla slabs)
+- Vertical Slab variants are now just called Vertical Layers
 - Added check for if dataGen is running
 - Added Acacia, Bamboo, Birch, Dark_Oak, Jungle, Mangrove, Oak, Spruce, Crimson and Warped Roof Blocks
 - Added Bamboo, Cherry and Mangrove Tall Doors

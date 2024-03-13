@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "caliber:cobbled_deepslate_layer"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "caliber:blocks/cobbled_deepslate_layer"
+}

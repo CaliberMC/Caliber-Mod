@@ -1,8 +1,0 @@
-{
-  "type": "caliber:woodcutting",
-  "count": 1,
-  "ingredient": {
-    "item": "caliber:stripped_spruce_slab"
-  },
-  "result": "caliber:stripped_spruce_slab_vertical"
-}
