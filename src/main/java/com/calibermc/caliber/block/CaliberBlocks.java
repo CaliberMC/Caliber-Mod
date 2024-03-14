@@ -119,31 +119,18 @@ public class CaliberBlocks {
     public static final BlockManager TUFF = CaliberBlockManager.register("tuff", BlockProps.TUFF.get(), () -> Blocks.TUFF, STONE_VARIANTS);
 
     /* Planks */
-    public static final BlockManager ACACIA = CaliberBlockManager.register("acacia_planks", BlockProps.PLANK.get(), () -> Blocks.ACACIA_PLANKS, PLANK_VARIANTS_WITHOUT_FENCES_STAIRS); //VANILLA_PLANK_VARIANTS
-    public static final BlockManager BAMBOO = CaliberBlockManager.register("bamboo_planks", BlockProps.PLANK.get(), () -> Blocks.BAMBOO_PLANKS, PLANK_VARIANTS_WITHOUT_FENCES_STAIRS);
+    public static final BlockManager ACACIA = CaliberBlockManager.register("acacia_planks", BlockProps.PLANK.get(), () -> Blocks.ACACIA_PLANKS, VANILLA_PLANK_VARIANTS); //VANILLA_PLANK_VARIANTS
+    public static final BlockManager BAMBOO = CaliberBlockManager.register("bamboo_planks", BlockProps.PLANK.get(), () -> Blocks.BAMBOO_PLANKS, VANILLA_PLANK_VARIANTS);
     public static final BlockManager BAMBOO_MOSAIC = CaliberBlockManager.register("bamboo_mosaic", BlockProps.PLANK.get(), () -> Blocks.BAMBOO_MOSAIC, PLANK_VARIANTS_WITHOUT_FENCES_STAIRS);
-    public static final BlockManager BIRCH = CaliberBlockManager.register("birch_planks", BlockProps.PLANK.get(), () -> Blocks.BIRCH_PLANKS, PLANK_VARIANTS_WITHOUT_FENCES_STAIRS);
-    public static final BlockManager CHERRY = CaliberBlockManager.register("cherry_planks", BlockProps.PLANK.get(), () -> Blocks.CHERRY_PLANKS, PLANK_VARIANTS_WITHOUT_FENCES_STAIRS);
-    public static final BlockManager DARK_OAK = CaliberBlockManager.register("dark_oak_planks", BlockProps.PLANK.get(), () -> Blocks.DARK_OAK_PLANKS, PLANK_VARIANTS_WITHOUT_FENCES_STAIRS);
-    public static final BlockManager JUNGLE = CaliberBlockManager.register("jungle_planks", BlockProps.PLANK.get(), () -> Blocks.JUNGLE_PLANKS, PLANK_VARIANTS_WITHOUT_FENCES_STAIRS);
-    public static final BlockManager MANGROVE = CaliberBlockManager.register("mangrove_planks", BlockProps.PLANK.get(), () -> Blocks.MANGROVE_PLANKS, PLANK_VARIANTS_WITHOUT_FENCES_STAIRS);
-    public static final BlockManager OAK = CaliberBlockManager.register("oak_planks", BlockProps.PLANK.get(), () -> Blocks.OAK_PLANKS, PLANK_VARIANTS_WITHOUT_FENCES_STAIRS);
-    public static final BlockManager SPRUCE = CaliberBlockManager.register("spruce_planks", BlockProps.PLANK.get(), () -> Blocks.SPRUCE_PLANKS, PLANK_VARIANTS_WITHOUT_FENCES_STAIRS);
-    public static final BlockManager CRIMSON = CaliberBlockManager.register("crimson_planks", BlockProps.PLANK.get(), () -> Blocks.CRIMSON_PLANKS, PLANK_VARIANTS_WITHOUT_FENCES_STAIRS);
-    public static final BlockManager WARPED = CaliberBlockManager.register("warped_planks", BlockProps.PLANK.get(), () -> Blocks.WARPED_PLANKS, PLANK_VARIANTS_WITHOUT_FENCES_STAIRS);
-
-    // TODO Move Tall Doors to BlockManager
-    public static final RegistryObject<Block> ACACIA_TALL_DOOR = registerBlock("acacia_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.ACACIA));
-    public static final RegistryObject<Block> BAMBOO_TALL_DOOR = registerBlock("bamboo_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.BAMBOO));
-    public static final RegistryObject<Block> BIRCH_TALL_DOOR = registerBlock("birch_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.BIRCH));
-    public static final RegistryObject<Block> CHERRY_TALL_DOOR = registerBlock("cherry_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.CHERRY));
-    public static final RegistryObject<Block> DARK_OAK_TALL_DOOR = registerBlock("dark_oak_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.DARK_OAK));
-    public static final RegistryObject<Block> JUNGLE_TALL_DOOR = registerBlock("jungle_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.JUNGLE));
-    public static final RegistryObject<Block> MANGROVE_TALL_DOOR = registerBlock("mangrove_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.MANGROVE));
-    public static final RegistryObject<Block> OAK_TALL_DOOR = registerBlock("oak_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.OAK));
-    public static final RegistryObject<Block> SPRUCE_TALL_DOOR = registerBlock("spruce_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.SPRUCE));
-    public static final RegistryObject<Block> CRIMSON_TALL_DOOR = registerBlock("crimson_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.CRIMSON));
-    public static final RegistryObject<Block> WARPED_TALL_DOOR = registerBlock("warped_tall_door", () -> new TallDoorBlock(BlockProps.PLANK.get(), BlockSetType.WARPED));
+    public static final BlockManager BIRCH = CaliberBlockManager.register("birch_planks", BlockProps.PLANK.get(), () -> Blocks.BIRCH_PLANKS, VANILLA_PLANK_VARIANTS);
+    public static final BlockManager CHERRY = CaliberBlockManager.register("cherry_planks", BlockProps.PLANK.get(), () -> Blocks.CHERRY_PLANKS, VANILLA_PLANK_VARIANTS);
+    public static final BlockManager DARK_OAK = CaliberBlockManager.register("dark_oak_planks", BlockProps.PLANK.get(), () -> Blocks.DARK_OAK_PLANKS, VANILLA_PLANK_VARIANTS);
+    public static final BlockManager JUNGLE = CaliberBlockManager.register("jungle_planks", BlockProps.PLANK.get(), () -> Blocks.JUNGLE_PLANKS, VANILLA_PLANK_VARIANTS);
+    public static final BlockManager MANGROVE = CaliberBlockManager.register("mangrove_planks", BlockProps.PLANK.get(), () -> Blocks.MANGROVE_PLANKS, VANILLA_PLANK_VARIANTS);
+    public static final BlockManager OAK = CaliberBlockManager.register("oak_planks", BlockProps.PLANK.get(), () -> Blocks.OAK_PLANKS, VANILLA_PLANK_VARIANTS);
+    public static final BlockManager SPRUCE = CaliberBlockManager.register("spruce_planks", BlockProps.PLANK.get(), () -> Blocks.SPRUCE_PLANKS, VANILLA_PLANK_VARIANTS);
+    public static final BlockManager CRIMSON = CaliberBlockManager.register("crimson_planks", BlockProps.PLANK.get(), () -> Blocks.CRIMSON_PLANKS, VANILLA_PLANK_VARIANTS);
+    public static final BlockManager WARPED = CaliberBlockManager.register("warped_planks", BlockProps.PLANK.get(), () -> Blocks.WARPED_PLANKS, VANILLA_PLANK_VARIANTS);
 
     /* Stripped Wood */
     public static final BlockManager STRIPPED_ACACIA = CaliberBlockManager.register("stripped_acacia_wood", BlockProps.PLANK.get(), () -> Blocks.STRIPPED_ACACIA_WOOD, STRIPPED_WOOD_VARIANTS);

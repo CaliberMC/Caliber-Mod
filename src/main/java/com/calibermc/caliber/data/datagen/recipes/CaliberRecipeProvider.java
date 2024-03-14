@@ -45,6 +45,7 @@ public class CaliberRecipeProvider extends RecipeProvider implements IConditionB
     private void generateRecipes(BlockManager manager, boolean wood, Consumer<FinishedRecipe> finished) {
         String name = manager.getName();
         Block baseBlock = manager.baseBlock();
+//        Block door = manager.get(ModBlockFamily.Variant.DOOR);
         String criterionBy = "has_%s".formatted(name);
         String woodOrStone = wood ? "wood" : "stone";
         String fromCraftingMethod = "_from_%s_%scutting".formatted(name, woodOrStone);
@@ -134,6 +135,13 @@ public class CaliberRecipeProvider extends RecipeProvider implements IConditionB
                             inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, n);
                 }
 
+//                case TALL_DOOR, DOOR -> {
+//                    if (e.getKey().variant == ModBlockFamily.Variant.TALL_DOOR) {
+//                        ShapedRecipeBuilder.shaped(RecipeCategory.REDSTONE, block, 1).define('X', manager.get(ModBlockFamily.Variant.DOOR)).define('#', baseBlock).pattern("X").pattern("#").unlockedBy(criterionBy,
+//                                inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, "%s_from_%s_shaped".formatted(path, name));
+//                    }
+//                }
+
                 case STAIRS -> {
                     ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, manager.get(ModBlockFamily.Variant.STAIRS), 4).define('#', baseBlock).pattern("#  ").pattern("## ").pattern("###").unlockedBy(criterionBy,
                             inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, "%s_from_%s_shaped".formatted(path, name));
@@ -154,14 +162,6 @@ public class CaliberRecipeProvider extends RecipeProvider implements IConditionB
 
                 case BASE -> {
                     smoothBaseBlockRecipe(manager, finished, name, baseBlock, criterionBy, e, path, block);
-
-//                    for (BlockManager blockManager : BlockManager.BLOCK_MANAGERS) {
-//                        if (blockManager.getName().equals(manager.getName().replace("board", ""))) {
-//                            CaliberRecipeBuilder.woodcutting(Ingredient.of(baseBlock), blockManager.baseBlock()).unlockedBy(criterionBy,
-//                                    inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, "000%s_from_%s_%scutting".formatted(name,
-//                                    manager.getBlocks().entrySet().stream().filter(e1 -> e1.getKey().variant.equals(e.getKey().variant)).findFirst().get().getValue().getFirst().getPath(), woodOrStone));
-//                        }
-//                    }
                 }
             }
         }}
@@ -183,19 +183,5 @@ public class CaliberRecipeProvider extends RecipeProvider implements IConditionB
         }
     }
 
-//    private void baseBlockShapedRecipe(BlockManager manager, Consumer<FinishedRecipe> finished, String name, Block baseBlock, String criterionBy, Map.Entry<BlockManager.BlockAdditional, Pair<ResourceLocation, Supplier<Block>>> e, String path, Block block) {
-//        if (name.contains("limestone") && name.contains("brick") && !name.contains("chiseled") && !name.contains("cracked")
-//                || (name.contains("cut") && name.contains("sandstone"))
-//                || name.contains("polished") && name.contains("granite")) {
-//            ShapedRecipeBuilder.shaped(block, 4).define('#', baseBlock).pattern("##").pattern("##").unlockedBy(criterionBy,
-//                    inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, "000%s_from_%s_shaped".formatted(path, name));
-//        }
-//
-//        if (name.contains("limestone") && name.contains("chiseled")) {
-//            ShapedRecipeBuilder.shaped(block, 1).define('#', baseBlock).pattern("##").pattern("##").unlockedBy(criterionBy,
-//                    inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, "%s_from_%s_shaped".formatted(path, name));
-//        }
-//
-//    }
 }
 

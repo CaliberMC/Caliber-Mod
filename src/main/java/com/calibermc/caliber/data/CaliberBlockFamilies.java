@@ -294,7 +294,6 @@ public class CaliberBlockFamilies {
             .pressurePlate(Blocks.ACACIA_PRESSURE_PLATE)
             .button(Blocks.ACACIA_BUTTON)
             .sign(Blocks.ACACIA_SIGN, Blocks.ACACIA_WALL_SIGN)
-            .tallDoor(CaliberBlocks.ACACIA_TALL_DOOR.get())
             .getFamily();
     public static final ModBlockFamily BAMBOO_PLANKS = familyBuilder(Blocks.BAMBOO_PLANKS)
             .fromManager(CaliberBlocks.BAMBOO)
@@ -306,7 +305,6 @@ public class CaliberBlockFamilies {
             .pressurePlate(Blocks.BAMBOO_PRESSURE_PLATE)
             .button(Blocks.BAMBOO_BUTTON)
             .sign(Blocks.BAMBOO_SIGN, Blocks.BAMBOO_WALL_SIGN)
-            .tallDoor(CaliberBlocks.BAMBOO_TALL_DOOR.get())
             .getFamily();
     public static final ModBlockFamily BAMBOO_MOSAIC = familyBuilder(Blocks.BAMBOO_MOSAIC)
             .fromManager(CaliberBlocks.BAMBOO_MOSAIC)
@@ -322,7 +320,6 @@ public class CaliberBlockFamilies {
             .pressurePlate(Blocks.BIRCH_PRESSURE_PLATE)
             .button(Blocks.BIRCH_BUTTON)
             .sign(Blocks.BIRCH_SIGN, Blocks.BIRCH_WALL_SIGN)
-            .tallDoor(CaliberBlocks.BIRCH_TALL_DOOR.get())
             .getFamily();
     public static final ModBlockFamily CHERRY_PLANKS = familyBuilder(Blocks.CHERRY_PLANKS)
             .fromManager(CaliberBlocks.CHERRY)
@@ -334,7 +331,6 @@ public class CaliberBlockFamilies {
             .pressurePlate(Blocks.CHERRY_PRESSURE_PLATE)
             .button(Blocks.CHERRY_BUTTON)
             .sign(Blocks.CHERRY_SIGN, Blocks.CHERRY_WALL_SIGN)
-            .tallDoor(CaliberBlocks.CHERRY_TALL_DOOR.get())
             .getFamily();
     public static final ModBlockFamily DARK_OAK_PLANKS = familyBuilder(Blocks.DARK_OAK_PLANKS)
             .fromManager(CaliberBlocks.DARK_OAK)
@@ -346,7 +342,6 @@ public class CaliberBlockFamilies {
             .pressurePlate(Blocks.DARK_OAK_PRESSURE_PLATE)
             .button(Blocks.DARK_OAK_BUTTON)
             .sign(Blocks.DARK_OAK_SIGN, Blocks.DARK_OAK_WALL_SIGN)
-            .tallDoor(CaliberBlocks.DARK_OAK_TALL_DOOR.get())
             .getFamily();
     public static final ModBlockFamily JUNGLE_PLANKS = familyBuilder(Blocks.JUNGLE_PLANKS)
             .fromManager(CaliberBlocks.JUNGLE)
@@ -358,7 +353,6 @@ public class CaliberBlockFamilies {
             .pressurePlate(Blocks.JUNGLE_PRESSURE_PLATE)
             .button(Blocks.JUNGLE_BUTTON)
             .sign(Blocks.JUNGLE_SIGN, Blocks.JUNGLE_WALL_SIGN)
-            .tallDoor(CaliberBlocks.JUNGLE_TALL_DOOR.get())
             .getFamily();
     public static final ModBlockFamily MANGROVE_PLANKS = familyBuilder(Blocks.MANGROVE_PLANKS)
             .fromManager(CaliberBlocks.MANGROVE)
@@ -370,7 +364,6 @@ public class CaliberBlockFamilies {
             .pressurePlate(Blocks.MANGROVE_PRESSURE_PLATE)
             .button(Blocks.MANGROVE_BUTTON)
             .sign(Blocks.MANGROVE_SIGN, Blocks.MANGROVE_WALL_SIGN)
-            .tallDoor(CaliberBlocks.MANGROVE_TALL_DOOR.get())
             .getFamily();
     public static final ModBlockFamily OAK_PLANKS = familyBuilder(Blocks.OAK_PLANKS)
             .fromManager(CaliberBlocks.OAK)
@@ -382,7 +375,6 @@ public class CaliberBlockFamilies {
             .pressurePlate(Blocks.OAK_PRESSURE_PLATE)
             .button(Blocks.OAK_BUTTON)
             .sign(Blocks.OAK_SIGN, Blocks.OAK_WALL_SIGN)
-            .tallDoor(CaliberBlocks.OAK_TALL_DOOR.get())
             .getFamily();
     public static final ModBlockFamily SPRUCE_PLANKS = familyBuilder(Blocks.SPRUCE_PLANKS)
             .fromManager(CaliberBlocks.SPRUCE)
@@ -394,7 +386,6 @@ public class CaliberBlockFamilies {
             .pressurePlate(Blocks.SPRUCE_PRESSURE_PLATE)
             .button(Blocks.SPRUCE_BUTTON)
             .sign(Blocks.SPRUCE_SIGN, Blocks.SPRUCE_WALL_SIGN)
-            .tallDoor(CaliberBlocks.SPRUCE_TALL_DOOR.get())
             .getFamily();
     public static final ModBlockFamily CRIMSON_PLANKS = familyBuilder(Blocks.CRIMSON_PLANKS)
             .fromManager(CaliberBlocks.CRIMSON)
@@ -406,7 +397,6 @@ public class CaliberBlockFamilies {
             .pressurePlate(Blocks.CRIMSON_PRESSURE_PLATE)
             .button(Blocks.CRIMSON_BUTTON)
             .sign(Blocks.CRIMSON_SIGN, Blocks.CRIMSON_WALL_SIGN)
-            .tallDoor(CaliberBlocks.CRIMSON_TALL_DOOR.get())
             .getFamily();
     public static final ModBlockFamily WARPED_PLANKS = familyBuilder(Blocks.WARPED_PLANKS)
             .fromManager(CaliberBlocks.WARPED)
@@ -418,7 +408,6 @@ public class CaliberBlockFamilies {
             .pressurePlate(Blocks.WARPED_PRESSURE_PLATE)
             .button(Blocks.WARPED_BUTTON)
             .sign(Blocks.WARPED_SIGN, Blocks.WARPED_WALL_SIGN)
-            .tallDoor(CaliberBlocks.WARPED_TALL_DOOR.get())
             .getFamily();
 
     /* Concrete */

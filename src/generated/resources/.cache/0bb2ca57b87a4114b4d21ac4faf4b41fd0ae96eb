@@ -1,11 +1,11 @@
-// 1.20.1	2024-03-13T15:44:58.7203353	Tags for minecraft:block mod id caliber
+// 1.20.1	2024-03-13T18:41:39.2772882	Tags for minecraft:block mod id caliber
 189f94c64d8773170590605f848235563727a83a data/caliber/tags/blocks/shapes/arches.json
 a81082f52f959dbbfc4b11acf522bd61cbbc4b53 data/caliber/tags/blocks/shapes/arrowslits.json
 6a462080620757a422ef97e0366bac4c758a53e3 data/caliber/tags/blocks/shapes/balustrades.json
 7207e276fc722d6c7dab2f4d37ed3455fbb8a04f data/caliber/tags/blocks/shapes/beam_lintels.json
 abd11f7ebbabf1d2505adb0becc01ea5ec73c117 data/caliber/tags/blocks/shapes/beam_posts.json
 be476d6704787d0c4174ec86c7ee0a4d3645f133 data/caliber/tags/blocks/shapes/capitals.json
-5937b5e6685a051e807f695e9190273d49745b04 data/caliber/tags/blocks/shapes/corners.json
+21be8b15ab95b716edc8d8a40181c4c604a56116 data/caliber/tags/blocks/shapes/corners.json
 fc04e84a003e76be1ec19eaf99f69296a12764e9 data/caliber/tags/blocks/shapes/door_frames.json
 75fece48f7077c1eadfa692ff5a5159d4b7de9c6 data/caliber/tags/blocks/shapes/door_frame_lintels.json
 9c0f33263eac449b17e11ae43bb2f5e347477639 data/caliber/tags/blocks/shapes/eighths.json
@@ -21,14 +21,15 @@ af178a2500b4736d4f03147980aab2b5e5772696 data/caliber/tags/blocks/shapes/layers.
 7324a345ec9a2bb8755785a5c032ef16e694a943 data/caliber/tags/blocks/shapes/roof_45s.json
 3c18ec21907ff444e21daf806729ba52fa95cff5 data/caliber/tags/blocks/shapes/roof_67s.json
 fa3eb8d76e16ac3f2ddef88390f4277384ef0903 data/caliber/tags/blocks/shapes/roof_peaks.json
+7d9f759c77f7cbd215c61e956b7009a04e1b6d78 data/caliber/tags/blocks/shapes/tall_wooden_doors.json
 041883c3cfaf6a122a90e78bde9e12710efd9676 data/caliber/tags/blocks/shapes/vertical_beams.json
 132f83a2b4da04d63f944bee8f452db188554c5b data/caliber/tags/blocks/shapes/vertical_corner_slabs.json
 ed9b68260dcb96c56cf1ac9791912cec4c3e5697 data/caliber/tags/blocks/shapes/vertical_layers.json
 a5f5353ff8b6785da3c3b016c1c8b8f852fe2f7b data/caliber/tags/blocks/shapes/vertical_quarters.json
 bf4a115446fec65e8cf1baff8403907bcdc5d3b3 data/caliber/tags/blocks/shapes/windows.json
 ca83b53d6ebdaa204ca97f0a0dea5bc7277e871a data/minecraft/tags/blocks/logs_that_burn.json
-b4d5a3f3c999710aa0ee3f8cddc6a144749c6f8b data/minecraft/tags/blocks/mineable/axe.json
-724f586e465dcff290498235fb2c00acedf85bfc data/minecraft/tags/blocks/mineable/pickaxe.json
-d17d1b5a9ec200279f0bbf02d97f95d2a7b58340 data/minecraft/tags/blocks/mineable/shovel.json
+5f73b4b8977cc5b028c43631b9960158c71912ec data/minecraft/tags/blocks/mineable/axe.json
+5f76277e0115bc0c6e2825c7969db7a529dd025e data/minecraft/tags/blocks/mineable/pickaxe.json
+d474eb4f231667175eb659839e21c9f37dd58f72 data/minecraft/tags/blocks/mineable/shovel.json
 f5078a055b2183b05051cff0687ca8b0351abf97 data/minecraft/tags/blocks/stairs.json
 e6f83ed1c6a5633a7e6d7e0ea80f97d799f54389 data/minecraft/tags/blocks/walls.json
