@@ -2,18 +2,14 @@ package com.calibermc.caliber.block;
 
 import com.calibermc.caliber.Caliber;
 import com.calibermc.caliber.item.CaliberItems;
-import com.calibermc.caliberlib.block.custom.TallDoorBlock;
 import com.calibermc.caliber.block.custom.entity.WoodcutterBlock;
 import com.calibermc.caliber.block.management.CaliberBlockManager;
 import com.calibermc.caliberlib.block.management.BlockManager;
-import com.calibermc.caliberlib.block.management.ModBlockHelper;
 import com.calibermc.caliberlib.block.properties.BlockProps;
-import com.calibermc.caliberlib.data.ModBlockFamily;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.eventbus.api.IEventBus;

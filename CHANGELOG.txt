@@ -343,6 +343,7 @@ _ Added all Terracotta Roof variants
 - Slab variants are now just called Layers (Sorry if this breaks any builds, but it just makes sense to avoid confusion with vanilla slabs)
 - Vertical Slab variants are now just called Vertical Layers
 - Corner Slab and Vertical Corner Slab variants have new layers functionality (again this may break some builds, but it makes sense to have them function like the other layered blocks)
+- Eighth variants have new layers functionality (again this may break some builds, but it makes sense to have them function like the other layered blocks)
 - Added check for if dataGen is running
 - Added Acacia, Bamboo, Birch, Dark_Oak, Jungle, Mangrove, Oak, Spruce, Crimson and Warped Roof Blocks
 - Added Bamboo, Cherry and Mangrove Tall Doors

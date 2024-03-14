@@ -68,15 +68,15 @@ public class CaliberRecipeProvider extends RecipeProvider implements IConditionB
                             inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, n);
                 }
 
-                case CORNER, QUARTER, QUARTER_VERTICAL, PILLAR, CORNER_SLAB, CORNER_SLAB_VERTICAL -> {
+                case CORNER, QUARTER, QUARTER_VERTICAL, PILLAR, CORNER_SLAB, CORNER_SLAB_VERTICAL, EIGHTH -> {
                     stoneOrWoodcutting.apply(Ingredient.of(baseBlock), block, 5).unlockedBy(criterionBy,
                             inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, n);
                 }
 
-                case EIGHTH -> {
-                    stoneOrWoodcutting.apply(Ingredient.of(baseBlock), block, 8).unlockedBy(criterionBy,
-                            inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, n);
-                }
+//                case EIGHTH -> {
+//                    stoneOrWoodcutting.apply(Ingredient.of(baseBlock), block, 8).unlockedBy(criterionBy,
+//                            inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, n);
+//                }
 
                 case BEAM_HORIZONTAL, BEAM_VERTICAL -> {
                     stoneOrWoodcutting.apply(Ingredient.of(baseBlock), block, 9).unlockedBy(criterionBy,
