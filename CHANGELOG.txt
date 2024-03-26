@@ -339,7 +339,7 @@ _ Added all Terracotta Roof variants
 - Bugfix: fixed red_sand_layer texture showing as sand
 - Bugfix: fixed slab_layer removing block from inventory on placement of double_slab in Slab Mode
 
--0.2.1 (in progress)
+-0.2.1
 - Slab variants are now just called Layers (Sorry if this breaks any builds, but it just makes sense to avoid confusion with vanilla slabs)
 - Vertical Slab variants are now just called Vertical Layers
 - Corner Slab and Vertical Corner Slab variants have new layers functionality (again this may break some builds, but it makes sense to have them function like the other layered blocks)
@@ -353,7 +353,10 @@ _ Added all Terracotta Roof variants
 - Removed unused Biome Modifier (all world gen is now in Natures Canvas)
 - Removed unused Tags
 - Removed dulicate wooden Pressure Plate variants
-- Added Tags data gen to ensure all tags Minecraft, Forge and Custom tags are accounted for.
+- Added Tags data gen to ensure all Minecraft, Forge and Custom tags are accounted for
+
+-0.2.2 (in progress)
+- Added Diagonal Beam variants for all Stripped Wood
 
 
 
