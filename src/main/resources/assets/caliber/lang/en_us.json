@@ -1096,6 +1096,7 @@
     "block.caliber.warped_window_half": "Warped Half Window",
 
     "block.caliber.stripped_acacia_balustrade": "Stripped Acacia Balustrade",
+    "block.caliber.stripped_acacia_beam_diagonal": "Stripped Acacia Diagonal Beam",
     "block.caliber.stripped_acacia_beam_horizontal": "Stripped Acacia Horizontal Beam",
     "block.caliber.stripped_acacia_beam_lintel": "Stripped Acacia Beam Lintel",
     "block.caliber.stripped_acacia_beam_posts": "Stripped Acacia Beam Posts",
@@ -1118,6 +1119,7 @@
     "block.caliber.stripped_acacia_window_half": "Stripped Acacia Half Window",
 
     "block.caliber.stripped_bamboo_balustrade": "Stripped Bamboo Balustrade",
+    "block.caliber.stripped_bamboo_beam_diagonal": "Stripped Bamboo Diagonal Beam",
     "block.caliber.stripped_bamboo_beam_horizontal": "Stripped Bamboo Horizontal Beam",
     "block.caliber.stripped_bamboo_beam_lintel": "Stripped Bamboo Beam Lintel",
     "block.caliber.stripped_bamboo_beam_posts": "Stripped Bamboo Beam Posts",
@@ -1140,6 +1142,7 @@
     "block.caliber.stripped_bamboo_window_half": "Stripped Bamboo Half Window",
 
     "block.caliber.stripped_birch_balustrade": "Stripped Birch Balustrade",
+    "block.caliber.stripped_birch_beam_diagonal": "Stripped Birch Diagonal Beam",
     "block.caliber.stripped_birch_beam_horizontal": "Stripped Birch Horizontal Beam",
     "block.caliber.stripped_birch_beam_lintel": "Stripped Birch Beam Lintel",
     "block.caliber.stripped_birch_beam_posts": "Stripped Birch Beam Posts",
@@ -1162,6 +1165,7 @@
     "block.caliber.stripped_birch_window_half": "Stripped Birch Half Window",
 
     "block.caliber.stripped_cherry_balustrade": "Stripped Cherry Balustrade",
+    "block.caliber.stripped_cherry_beam_diagonal": "Stripped Cherry Diagonal Beam",
     "block.caliber.stripped_cherry_beam_horizontal": "Stripped Cherry Horizontal Beam",
     "block.caliber.stripped_cherry_beam_lintel": "Stripped Cherry Beam Lintel",
     "block.caliber.stripped_cherry_beam_posts": "Stripped Cherry Beam Posts",
@@ -1184,6 +1188,7 @@
     "block.caliber.stripped_cherry_window_half": "Stripped Cherry Half Window",
 
     "block.caliber.stripped_dark_oak_balustrade": "Stripped Dark Oak Balustrade",
+    "block.caliber.stripped_dark_oak_beam_diagonal": "Stripped Dark Oak Diagonal Beam",
     "block.caliber.stripped_dark_oak_beam_horizontal": "Stripped Dark Oak Horizontal Beam",
     "block.caliber.stripped_dark_oak_beam_lintel": "Stripped Dark Oak Beam Lintel",
     "block.caliber.stripped_dark_oak_beam_posts": "Stripped Dark Oak Beam Posts",
@@ -1206,6 +1211,7 @@
     "block.caliber.stripped_dark_oak_window_half": "Stripped Dark Oak Half Window",
 
     "block.caliber.stripped_jungle_balustrade": "Stripped Jungle Balustrade",
+    "block.caliber.stripped_jungle_beam_diagonal": "Stripped Jungle Diagonal Beam",
     "block.caliber.stripped_jungle_beam_horizontal": "Stripped Jungle Horizontal Beam",
     "block.caliber.stripped_jungle_beam_lintel": "Stripped Jungle Beam Lintel",
     "block.caliber.stripped_jungle_beam_posts": "Stripped Jungle Beam Posts",
@@ -1228,6 +1234,7 @@
     "block.caliber.stripped_jungle_window_half": "Stripped Jungle Half Window",
 
     "block.caliber.stripped_mangrove_balustrade": "Stripped Mangrove Balustrade",
+    "block.caliber.stripped_mangrove_beam_diagonal": "Stripped Mangrove Diagonal Beam",
     "block.caliber.stripped_mangrove_beam_horizontal": "Stripped Mangrove Horizontal Beam",
     "block.caliber.stripped_mangrove_beam_lintel": "Stripped Mangrove Beam Lintel",
     "block.caliber.stripped_mangrove_beam_posts": "Stripped Mangrove Beam Posts",
@@ -1250,6 +1257,7 @@
     "block.caliber.stripped_mangrove_window_half": "Stripped Mangrove Half Window",
 
     "block.caliber.stripped_oak_balustrade": "Stripped Oak Balustrade",
+    "block.caliber.stripped_oak_beam_diagonal": "Stripped Oak Diagonal Beam",
     "block.caliber.stripped_oak_beam_horizontal": "Stripped Oak Horizontal Beam",
     "block.caliber.stripped_oak_beam_lintel": "Stripped Oak Beam Lintel",
     "block.caliber.stripped_oak_beam_posts": "Stripped Oak Beam Posts",
@@ -1272,6 +1280,7 @@
     "block.caliber.stripped_oak_window_half": "Stripped Oak Half Window",
 
     "block.caliber.stripped_spruce_balustrade": "Stripped Spruce Balustrade",
+    "block.caliber.stripped_spruce_beam_diagonal": "Stripped Spruce Diagonal Beam",
     "block.caliber.stripped_spruce_beam_horizontal": "Stripped Spruce Horizontal Beam",
     "block.caliber.stripped_spruce_beam_lintel": "Stripped Spruce Beam Lintel",
     "block.caliber.stripped_spruce_beam_posts": "Stripped Spruce Beam Posts",
@@ -1294,6 +1303,7 @@
     "block.caliber.stripped_spruce_window_half": "Stripped Spruce Half Window",
 
     "block.caliber.stripped_crimson_balustrade": "Stripped Crimson Balustrade",
+    "block.caliber.stripped_crimson_beam_diagonal": "Stripped Crimson Diagonal Beam",
     "block.caliber.stripped_crimson_beam_horizontal": "Stripped Crimson Horizontal Beam",
     "block.caliber.stripped_crimson_beam_lintel": "Stripped Crimson Beam Lintel",
     "block.caliber.stripped_crimson_beam_posts": "Stripped Crimson Beam Posts",
@@ -1316,6 +1326,7 @@
     "block.caliber.stripped_crimson_window_half": "Stripped Crimson Half Window",
 
     "block.caliber.stripped_warped_balustrade": "Stripped Warped Balustrade",
+    "block.caliber.stripped_warped_beam_diagonal": "Stripped Warped Diagonal Beam",
     "block.caliber.stripped_warped_beam_horizontal": "Stripped Warped Horizontal Beam",
     "block.caliber.stripped_warped_beam_lintel": "Stripped Warped Beam Lintel",
     "block.caliber.stripped_warped_beam_posts": "Stripped Warped Beam Posts",
