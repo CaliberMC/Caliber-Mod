@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 9,
+  "ingredient": {
+    "item": "minecraft:stripped_warped_hyphae"
+  },
+  "result": "caliber:stripped_warped_beam_diagonal"
+}

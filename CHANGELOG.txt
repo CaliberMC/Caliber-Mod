@@ -355,9 +355,11 @@ _ Added all Terracotta Roof variants
 - Removed dulicate wooden Pressure Plate variants
 - Added Tags data gen to ensure all Minecraft, Forge and Custom tags are accounted for
 
--0.2.2 (in progress)
+-0.2.2
 - Added Diagonal Beam variants for all Stripped Wood
 
+-0.2.3 (in progress)
+- Added recipes for Diagonal Beams
 
 
 
