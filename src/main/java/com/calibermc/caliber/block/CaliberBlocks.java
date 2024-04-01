@@ -110,6 +110,8 @@ public class CaliberBlocks {
     public static final BlockManager STONE = CaliberBlockManager.register("stone", BlockProps.LIMESTONE.get(), () -> Blocks.STONE, STONE_VARIANTS_WITHOUT_STAIRS);
     public static final BlockManager COBBLESTONE = CaliberBlockManager.register("cobblestone", BlockProps.COBBLESTONE.get(), () -> Blocks.COBBLESTONE, STONE_VARIANTS_WITHOUT_STAIRS_WALL);
     public static final BlockManager STONE_BRICK = CaliberBlockManager.register("stone_bricks", BlockProps.LIMESTONE_BRICK.get(), () -> Blocks.STONE_BRICKS, STONE_VARIANTS_WITHOUT_STAIRS_WALL);
+    public static final BlockManager MOSSY_STONE_BRICK = CaliberBlockManager.register("mossy_stone_bricks", BlockProps.LIMESTONE_BRICK.get(), () -> Blocks.MOSSY_STONE_BRICKS, STONE_VARIANTS_WITHOUT_STAIRS_WALL);
+    public static final BlockManager MOSSY_COBBLESTONE = CaliberBlockManager.register("mossy_cobblestone", BlockProps.COBBLESTONE.get(), () -> Blocks.MOSSY_STONE_BRICKS, STONE_VARIANTS_WITHOUT_STAIRS_WALL);
 
     /* Tuff */
     public static final BlockManager TUFF = CaliberBlockManager.register("tuff", BlockProps.TUFF.get(), () -> Blocks.TUFF, STONE_VARIANTS);

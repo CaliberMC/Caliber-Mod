@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "minecraft:mossy_stone_bricks"
+  },
+  "result": "caliber:mossy_stone_brick_layer"
+}

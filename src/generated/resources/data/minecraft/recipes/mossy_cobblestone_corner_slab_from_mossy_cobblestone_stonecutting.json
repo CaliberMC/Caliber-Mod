@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "minecraft:mossy_stone_bricks"
+  },
+  "result": "caliber:mossy_cobblestone_corner_slab"
+}

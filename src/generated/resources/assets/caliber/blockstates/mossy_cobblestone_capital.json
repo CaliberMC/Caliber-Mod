@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "caliber:block/mossy_cobblestone_capital"
+    },
+    "type=top": {
+      "model": "caliber:block/mossy_cobblestone_capital_top"
+    }
+  }
+}

@@ -44,6 +44,8 @@
     "caliber:stone_layer_vertical",
     "caliber:cobblestone_layer_vertical",
     "caliber:stone_brick_layer_vertical",
+    "caliber:mossy_stone_brick_layer_vertical",
+    "caliber:mossy_cobblestone_layer_vertical",
     "caliber:tuff_layer_vertical",
     "caliber:acacia_layer_vertical",
     "caliber:bamboo_layer_vertical",
