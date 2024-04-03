@@ -359,7 +359,11 @@ _ Added all Terracotta Roof variants
 - Added Diagonal Beam variants for all Stripped Wood
 
 -0.2.3 (in progress)
-- Added recipes for Diagonal Beams
+- Downgraded Forge Version <- 47.1.3 to allow NeoForge 1.20.1 support
+- Added missing recipes for Diagonal Beams
+- Added missing Mossy Cobblestone and Mossy Stone Brick variants
+
+
 
 
 
