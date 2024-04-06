@@ -1,0 +1,286 @@
+{
+  "variants": {
+    "facing=east,half=bottom,type=corner_left": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_corner"
+    },
+    "facing=east,half=bottom,type=corner_right": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_corner",
+      "y": 90
+    },
+    "facing=east,half=bottom,type=end_facing": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_end",
+      "y": 90
+    },
+    "facing=east,half=bottom,type=end_opposite": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_end",
+      "y": 270
+    },
+    "facing=east,half=bottom,type=facing_t": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_t",
+      "y": 90
+    },
+    "facing=east,half=bottom,type=left_t": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_t",
+      "y": 180
+    },
+    "facing=east,half=bottom,type=opposite_t": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_t",
+      "y": 270
+    },
+    "facing=east,half=bottom,type=right_t": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_t"
+    },
+    "facing=east,half=bottom,type=straight": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak",
+      "y": 90
+    },
+    "facing=east,half=top,type=corner_left": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_corner_top"
+    },
+    "facing=east,half=top,type=corner_right": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_corner_top",
+      "y": 90
+    },
+    "facing=east,half=top,type=end_facing": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_end_top",
+      "y": 90
+    },
+    "facing=east,half=top,type=end_opposite": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_end_top",
+      "y": 270
+    },
+    "facing=east,half=top,type=facing_t": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_top_t",
+      "y": 90
+    },
+    "facing=east,half=top,type=left_t": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_top_t",
+      "y": 180
+    },
+    "facing=east,half=top,type=opposite_t": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_top_t",
+      "y": 270
+    },
+    "facing=east,half=top,type=right_t": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_top_t"
+    },
+    "facing=east,half=top,type=straight": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_top",
+      "y": 90
+    },
+    "facing=north,half=bottom,type=corner_left": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_corner",
+      "y": 270
+    },
+    "facing=north,half=bottom,type=corner_right": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_corner"
+    },
+    "facing=north,half=bottom,type=end_facing": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_end"
+    },
+    "facing=north,half=bottom,type=end_opposite": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_end",
+      "y": 180
+    },
+    "facing=north,half=bottom,type=facing_t": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_top_t"
+    },
+    "facing=north,half=bottom,type=left_t": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_t",
+      "y": 90
+    },
+    "facing=north,half=bottom,type=opposite_t": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_top_t",
+      "y": 180
+    },
+    "facing=north,half=bottom,type=right_t": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_t",
+      "y": 270
+    },
+    "facing=north,half=bottom,type=straight": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak"
+    },
+    "facing=north,half=top,type=corner_left": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_corner_top",
+      "y": 270
+    },
+    "facing=north,half=top,type=corner_right": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_corner_top"
+    },
+    "facing=north,half=top,type=end_facing": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_end_top"
+    },
+    "facing=north,half=top,type=end_opposite": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_end_top",
+      "y": 180
+    },
+    "facing=north,half=top,type=facing_t": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_t"
+    },
+    "facing=north,half=top,type=left_t": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_top_t",
+      "y": 90
+    },
+    "facing=north,half=top,type=opposite_t": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_t",
+      "y": 180
+    },
+    "facing=north,half=top,type=right_t": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_top_t",
+      "y": 270
+    },
+    "facing=north,half=top,type=straight": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_top"
+    },
+    "facing=south,half=bottom,type=corner_left": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_corner",
+      "y": 90
+    },
+    "facing=south,half=bottom,type=corner_right": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_corner",
+      "y": 180
+    },
+    "facing=south,half=bottom,type=end_facing": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_end",
+      "y": 180
+    },
+    "facing=south,half=bottom,type=end_opposite": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_end"
+    },
+    "facing=south,half=bottom,type=facing_t": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_t",
+      "y": 180
+    },
+    "facing=south,half=bottom,type=left_t": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_t",
+      "y": 270
+    },
+    "facing=south,half=bottom,type=opposite_t": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_t"
+    },
+    "facing=south,half=bottom,type=right_t": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_t",
+      "y": 90
+    },
+    "facing=south,half=bottom,type=straight": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak",
+      "y": 180
+    },
+    "facing=south,half=top,type=corner_left": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_corner_top",
+      "y": 90
+    },
+    "facing=south,half=top,type=corner_right": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_corner_top",
+      "y": 180
+    },
+    "facing=south,half=top,type=end_facing": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_end_top",
+      "y": 180
+    },
+    "facing=south,half=top,type=end_opposite": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_end_top"
+    },
+    "facing=south,half=top,type=facing_t": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_top_t",
+      "y": 180
+    },
+    "facing=south,half=top,type=left_t": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_top_t",
+      "y": 270
+    },
+    "facing=south,half=top,type=opposite_t": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_top_t"
+    },
+    "facing=south,half=top,type=right_t": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_top_t",
+      "y": 90
+    },
+    "facing=south,half=top,type=straight": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_top",
+      "y": 180
+    },
+    "facing=west,half=bottom,type=corner_left": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_corner",
+      "y": 180
+    },
+    "facing=west,half=bottom,type=corner_right": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_corner",
+      "y": 270
+    },
+    "facing=west,half=bottom,type=end_facing": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_end",
+      "y": 270
+    },
+    "facing=west,half=bottom,type=end_opposite": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_end",
+      "y": 90
+    },
+    "facing=west,half=bottom,type=facing_t": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_t",
+      "y": 270
+    },
+    "facing=west,half=bottom,type=left_t": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_t"
+    },
+    "facing=west,half=bottom,type=opposite_t": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_t",
+      "y": 90
+    },
+    "facing=west,half=bottom,type=right_t": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_t",
+      "y": 180
+    },
+    "facing=west,half=bottom,type=straight": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak",
+      "y": 270
+    },
+    "facing=west,half=top,type=corner_left": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_corner_top",
+      "y": 180
+    },
+    "facing=west,half=top,type=corner_right": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_corner_top",
+      "y": 270
+    },
+    "facing=west,half=top,type=end_facing": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_end_top",
+      "y": 270
+    },
+    "facing=west,half=top,type=end_opposite": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_end_top",
+      "y": 90
+    },
+    "facing=west,half=top,type=facing_t": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_top_t",
+      "y": 270
+    },
+    "facing=west,half=top,type=left_t": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_top_t"
+    },
+    "facing=west,half=top,type=opposite_t": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_top_t",
+      "y": 90
+    },
+    "facing=west,half=top,type=right_t": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_top_t",
+      "y": 180
+    },
+    "facing=west,half=top,type=straight": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_top",
+      "y": 270
+    },
+    "half=bottom,type=cap": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_cap"
+    },
+    "half=bottom,type=cross": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_cross"
+    },
+    "half=top,type=cap": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_cap_top"
+    },
+    "half=top,type=cross": {
+      "model": "regions_unexplored:block/socotra_shingle_roof_peak_cross_top"
+    }
+  }
+}

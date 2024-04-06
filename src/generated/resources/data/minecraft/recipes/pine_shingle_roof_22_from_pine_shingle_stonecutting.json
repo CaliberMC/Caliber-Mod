@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "regions_unexplored:pine_planks"
+  },
+  "result": "regions_unexplored:pine_shingle_roof_22"
+}

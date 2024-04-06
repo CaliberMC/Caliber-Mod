@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "regions_unexplored:baobab_planks"
+  },
+  "result": "regions_unexplored:baobab_shingle_roof_22"
+}

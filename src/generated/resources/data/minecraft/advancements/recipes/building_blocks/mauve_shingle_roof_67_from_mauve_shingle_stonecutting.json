@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mauve_shingle": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "regions_unexplored:mauve_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:mauve_shingle_roof_67_from_mauve_shingle_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_mauve_shingle",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:mauve_shingle_roof_67_from_mauve_shingle_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}
