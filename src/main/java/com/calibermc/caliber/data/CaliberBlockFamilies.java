@@ -1,21 +1,27 @@
 package com.calibermc.caliber.data;
 
 import com.calibermc.caliber.block.CaliberBlocks;
-import com.calibermc.caliberlib.block.management.BlockManager;
-import com.calibermc.caliberlib.block.properties.BlockProps;
+import com.calibermc.caliber.block.compat.RegionsUnexploredBlocks;
+import com.calibermc.caliber.data.compat.RegionsUnexploredBlockFamilies;
+import com.calibermc.caliber.util.compat.ModCompats;
+import com.calibermc.caliberlib.util.DataGenUtil;
+import net.regions_unexplored.block.RuBlocks;
 import com.google.common.collect.Maps;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.registries.ForgeRegistries;
 import com.calibermc.caliberlib.data.ModBlockFamily;
 
+import java.lang.reflect.Field;
+import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 @SuppressWarnings("unused")
 public class CaliberBlockFamilies {
     private static final Map<Block, ModBlockFamily> MAP = Maps.newHashMap();
-    
+
     /* Andesite */
     public static final ModBlockFamily ANDESITE = familyBuilder(Blocks.ANDESITE)
             .fromManager(CaliberBlocks.ANDESITE)
@@ -302,6 +308,7 @@ public class CaliberBlockFamilies {
             .pressurePlate(Blocks.ACACIA_PRESSURE_PLATE)
             .button(Blocks.ACACIA_BUTTON)
             .sign(Blocks.ACACIA_SIGN, Blocks.ACACIA_WALL_SIGN)
+            .stairs(Blocks.ACACIA_STAIRS)
             .fromManager(CaliberBlocks.ACACIA_SHINGLES)
             .getFamily();
     public static final ModBlockFamily BAMBOO_PLANKS = familyBuilder(Blocks.BAMBOO_PLANKS)
@@ -314,6 +321,7 @@ public class CaliberBlockFamilies {
             .pressurePlate(Blocks.BAMBOO_PRESSURE_PLATE)
             .button(Blocks.BAMBOO_BUTTON)
             .sign(Blocks.BAMBOO_SIGN, Blocks.BAMBOO_WALL_SIGN)
+            .stairs(Blocks.BAMBOO_STAIRS)
             .fromManager(CaliberBlocks.BAMBOO_SHINGLES)
             .getFamily();
     public static final ModBlockFamily BAMBOO_MOSAIC = familyBuilder(Blocks.BAMBOO_MOSAIC)
@@ -330,6 +338,7 @@ public class CaliberBlockFamilies {
             .pressurePlate(Blocks.BIRCH_PRESSURE_PLATE)
             .button(Blocks.BIRCH_BUTTON)
             .sign(Blocks.BIRCH_SIGN, Blocks.BIRCH_WALL_SIGN)
+            .stairs(Blocks.BIRCH_STAIRS)
             .fromManager(CaliberBlocks.BIRCH_SHINGLES)
             .getFamily();
     public static final ModBlockFamily CHERRY_PLANKS = familyBuilder(Blocks.CHERRY_PLANKS)
@@ -342,6 +351,7 @@ public class CaliberBlockFamilies {
             .pressurePlate(Blocks.CHERRY_PRESSURE_PLATE)
             .button(Blocks.CHERRY_BUTTON)
             .sign(Blocks.CHERRY_SIGN, Blocks.CHERRY_WALL_SIGN)
+            .stairs(Blocks.CHERRY_STAIRS)
             .fromManager(CaliberBlocks.CHERRY_SHINGLES)
             .getFamily();
     public static final ModBlockFamily DARK_OAK_PLANKS = familyBuilder(Blocks.DARK_OAK_PLANKS)
@@ -354,6 +364,7 @@ public class CaliberBlockFamilies {
             .pressurePlate(Blocks.DARK_OAK_PRESSURE_PLATE)
             .button(Blocks.DARK_OAK_BUTTON)
             .sign(Blocks.DARK_OAK_SIGN, Blocks.DARK_OAK_WALL_SIGN)
+            .stairs(Blocks.DARK_OAK_STAIRS)
             .fromManager(CaliberBlocks.DARK_OAK_SHINGLES)
             .getFamily();
     public static final ModBlockFamily JUNGLE_PLANKS = familyBuilder(Blocks.JUNGLE_PLANKS)
@@ -366,6 +377,7 @@ public class CaliberBlockFamilies {
             .pressurePlate(Blocks.JUNGLE_PRESSURE_PLATE)
             .button(Blocks.JUNGLE_BUTTON)
             .sign(Blocks.JUNGLE_SIGN, Blocks.JUNGLE_WALL_SIGN)
+            .stairs(Blocks.JUNGLE_STAIRS)
             .fromManager(CaliberBlocks.JUNGLE_SHINGLES)
             .getFamily();
     public static final ModBlockFamily MANGROVE_PLANKS = familyBuilder(Blocks.MANGROVE_PLANKS)
@@ -378,6 +390,7 @@ public class CaliberBlockFamilies {
             .pressurePlate(Blocks.MANGROVE_PRESSURE_PLATE)
             .button(Blocks.MANGROVE_BUTTON)
             .sign(Blocks.MANGROVE_SIGN, Blocks.MANGROVE_WALL_SIGN)
+            .stairs(Blocks.MANGROVE_STAIRS)
             .fromManager(CaliberBlocks.MANGROVE_SHINGLES)
             .getFamily();
     public static final ModBlockFamily OAK_PLANKS = familyBuilder(Blocks.OAK_PLANKS)
@@ -390,6 +403,7 @@ public class CaliberBlockFamilies {
             .pressurePlate(Blocks.OAK_PRESSURE_PLATE)
             .button(Blocks.OAK_BUTTON)
             .sign(Blocks.OAK_SIGN, Blocks.OAK_WALL_SIGN)
+            .stairs(Blocks.OAK_STAIRS)
             .fromManager(CaliberBlocks.OAK_SHINGLES)
             .getFamily();
     public static final ModBlockFamily SPRUCE_PLANKS = familyBuilder(Blocks.SPRUCE_PLANKS)
@@ -402,6 +416,7 @@ public class CaliberBlockFamilies {
             .pressurePlate(Blocks.SPRUCE_PRESSURE_PLATE)
             .button(Blocks.SPRUCE_BUTTON)
             .sign(Blocks.SPRUCE_SIGN, Blocks.SPRUCE_WALL_SIGN)
+            .stairs(Blocks.SPRUCE_STAIRS)
             .fromManager(CaliberBlocks.SPRUCE_SHINGLES)
             .getFamily();
     public static final ModBlockFamily CRIMSON_PLANKS = familyBuilder(Blocks.CRIMSON_PLANKS)
@@ -414,6 +429,7 @@ public class CaliberBlockFamilies {
             .pressurePlate(Blocks.CRIMSON_PRESSURE_PLATE)
             .button(Blocks.CRIMSON_BUTTON)
             .sign(Blocks.CRIMSON_SIGN, Blocks.CRIMSON_WALL_SIGN)
+            .stairs(Blocks.CRIMSON_STAIRS)
             .fromManager(CaliberBlocks.CRIMSON_SHINGLES)
             .getFamily();
     public static final ModBlockFamily WARPED_PLANKS = familyBuilder(Blocks.WARPED_PLANKS)
@@ -426,6 +442,7 @@ public class CaliberBlockFamilies {
             .pressurePlate(Blocks.WARPED_PRESSURE_PLATE)
             .button(Blocks.WARPED_BUTTON)
             .sign(Blocks.WARPED_SIGN, Blocks.WARPED_WALL_SIGN)
+            .stairs(Blocks.WARPED_STAIRS)
             .fromManager(CaliberBlocks.WARPED_SHINGLES)
             .getFamily();
 
@@ -581,6 +598,12 @@ public class CaliberBlockFamilies {
     public static final ModBlockFamily YELLOW_WOOL = familyBuilder(Blocks.YELLOW_WOOL)
             .fromManager(CaliberBlocks.YELLOW_WOOL)
             .getFamily();
+
+
+    // COMPAT
+    static {
+        if (ModCompats.REGIONS_UNEXPLORED) MAP.putAll(RegionsUnexploredBlockFamilies.getAllFamiliesAsMap());
+    }
 
 
     public static ModBlockFamily.Builder familyBuilder(Block pBaseBlock) {

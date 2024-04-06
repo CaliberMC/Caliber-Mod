@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "regions_unexplored:blackwood_planks"
+  },
+  "result": "regions_unexplored:blackwood_quarter_vertical"
+}

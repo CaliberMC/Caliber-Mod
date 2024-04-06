@@ -1,0 +1,8 @@
+{
+  "parent": "caliberlib:block/templates/corner_slab_vertical_left_layer_2",
+  "textures": {
+    "bottom": "regions_unexplored:block/stripped_kapok_log",
+    "side": "regions_unexplored:block/stripped_kapok_log",
+    "top": "regions_unexplored:block/stripped_kapok_log"
+  }
+}

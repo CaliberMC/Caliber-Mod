@@ -1,0 +1,8 @@
+{
+  "parent": "caliberlib:block/templates/balustrade",
+  "textures": {
+    "bottom": "regions_unexplored:block/stripped_magnolia_log",
+    "side": "regions_unexplored:block/stripped_magnolia_log",
+    "top": "regions_unexplored:block/stripped_magnolia_log"
+  }
+}

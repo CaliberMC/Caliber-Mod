@@ -1,0 +1,8 @@
+{
+  "parent": "caliberlib:block/templates/beam_diagonal_1_ahav",
+  "textures": {
+    "bottom": "regions_unexplored:block/stripped_kapok_log",
+    "side": "regions_unexplored:block/stripped_kapok_log",
+    "top": "regions_unexplored:block/stripped_kapok_log"
+  }
+}

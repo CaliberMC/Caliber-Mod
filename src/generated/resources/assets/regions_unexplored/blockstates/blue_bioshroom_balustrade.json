@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "facing=east,type=connected": {
+      "model": "regions_unexplored:block/blue_bioshroom_balustrade_connected",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=north,type=connected": {
+      "model": "regions_unexplored:block/blue_bioshroom_balustrade_connected"
+    },
+    "facing=south,type=connected": {
+      "model": "regions_unexplored:block/blue_bioshroom_balustrade_connected",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,type=connected": {
+      "model": "regions_unexplored:block/blue_bioshroom_balustrade_connected",
+      "uvlock": true,
+      "y": 270
+    },
+    "type=single": {
+      "model": "regions_unexplored:block/blue_bioshroom_balustrade"
+    }
+  }
+}

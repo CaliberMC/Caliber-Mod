@@ -1,14 +1,19 @@
 package com.calibermc.caliber;
 
 import com.calibermc.caliber.block.CaliberBlocks;
+import com.calibermc.caliber.block.compat.BiomesOPlentyBlocks;
+import com.calibermc.caliber.block.compat.RegionsUnexploredBlocks;
 import com.calibermc.caliber.config.CaliberClientConfigs;
 import com.calibermc.caliber.config.CaliberCommonConfigs;
 import com.calibermc.caliber.crafting.CaliberRecipeSerializers;
 import com.calibermc.caliber.item.CaliberItems;
 import com.calibermc.caliber.item.CreativeTabs;
+import com.calibermc.caliber.item.compat.BiomesOPlentyItems;
+import com.calibermc.caliber.item.compat.RegionsUnexploredItems;
 import com.calibermc.caliber.networking.CaliberNetworking;
 import com.calibermc.caliber.util.compat.BuildifyBlockPicker;
 import com.calibermc.caliber.crafting.CaliberMenuTypes;
+import com.calibermc.caliber.util.compat.ModCompats;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
@@ -34,6 +39,18 @@ public class Caliber {
 
         CaliberItems.register(eventBus);
         CaliberBlocks.register(eventBus);
+
+        // COMPAT // || DataGenUtil.isDataGen
+//        if (ModCompats.BOP) {
+//            BiomesOPlentyItems.register(eventBus);
+//            BiomesOPlentyBlocks.register(eventBus);
+//        }
+
+        if (ModCompats.REGIONS_UNEXPLORED) {
+            RegionsUnexploredItems.register(eventBus);
+            RegionsUnexploredBlocks.register(eventBus);
+        }
+
         CaliberMenuTypes.register(eventBus);
         CaliberRecipeSerializers.register(eventBus);
         CreativeTabs.register(eventBus);

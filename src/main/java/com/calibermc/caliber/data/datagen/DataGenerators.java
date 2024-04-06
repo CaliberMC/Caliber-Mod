@@ -1,18 +1,26 @@
 package com.calibermc.caliber.data.datagen;
 
 import com.calibermc.caliber.Caliber;
+import com.calibermc.caliber.block.compat.BiomesOPlentyBlocks;
+import com.calibermc.caliber.block.compat.RegionsUnexploredBlocks;
 import com.calibermc.caliber.data.datagen.loot.CaliberBlockLootTables;
 import com.calibermc.caliber.data.datagen.recipes.CaliberRecipeProvider;
 import com.calibermc.caliber.data.datagen.recipes.ItemRecipeProvider;
 import com.calibermc.caliber.data.datagen.recipes.MiscRecipeProvider;
+import com.calibermc.caliber.util.compat.ModCompats;
+import com.calibermc.caliberlib.data.datagen.ModBlockStateProvider;
+import com.calibermc.caliberlib.data.datagen.ModItemModelProvider;
 import com.calibermc.caliberlib.data.datagen.ModLootTableProvider;
+import com.calibermc.caliberlib.data.datagen.loot.ModBlockLootTables;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.registries.RegistryObject;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -38,5 +46,27 @@ public class DataGenerators {
         // Tags
         CaliberBlockTagProvider blockTagGenerator = generator.addProvider(event.includeServer(), new CaliberBlockTagProvider(packOutput, lookupProvider, existingFileHelper));
         generator.addProvider(event.includeServer(), new CaliberItemTagProvider(packOutput, lookupProvider, blockTagGenerator.contentsGetter(), existingFileHelper));
+
+//        if (ModCompats.BOP) {
+//            generator.addProvider(event.includeClient(), new ModBlockStateProvider(generator, "biomesoplenty", existingFileHelper));
+//            generator.addProvider(event.includeClient(), new ModItemModelProvider(generator, "biomesoplenty", existingFileHelper));
+//            generator.addProvider(event.includeServer(), new ModLootTableProvider(generator, () -> new ModBlockLootTables("biomesoplenty") {
+//                @Override
+//                protected Iterable<Block> getKnownBlocks() {
+//                    return BiomesOPlentyBlocks.BLOCKS.getEntries().stream().map(RegistryObject::get)::iterator;
+//                }
+//            }));
+//        }
+
+        if (ModCompats.REGIONS_UNEXPLORED) {
+            generator.addProvider(event.includeClient(), new ModBlockStateProvider(generator, "regions_unexplored", existingFileHelper));
+            generator.addProvider(event.includeClient(), new ModItemModelProvider(generator, "regions_unexplored", existingFileHelper));
+            generator.addProvider(event.includeServer(), new ModLootTableProvider(generator, () -> new ModBlockLootTables("regions_unexplored") {
+                @Override
+                protected Iterable<Block> getKnownBlocks() {
+                    return RegionsUnexploredBlocks.BLOCKS.getEntries().stream().map(RegistryObject::get)::iterator;
+                }
+            }));
+        }
     }
 }

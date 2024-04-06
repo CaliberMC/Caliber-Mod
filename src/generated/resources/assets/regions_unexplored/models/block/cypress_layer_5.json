@@ -1,0 +1,8 @@
+{
+  "parent": "caliberlib:block/templates/slab_layer_5",
+  "textures": {
+    "bottom": "regions_unexplored:block/cypress_planks",
+    "side": "regions_unexplored:block/cypress_planks",
+    "top": "regions_unexplored:block/cypress_planks"
+  }
+}

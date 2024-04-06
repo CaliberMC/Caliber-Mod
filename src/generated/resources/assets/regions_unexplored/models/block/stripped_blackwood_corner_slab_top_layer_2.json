@@ -1,0 +1,8 @@
+{
+  "parent": "caliberlib:block/templates/corner_slab_top_layer_2",
+  "textures": {
+    "bottom": "regions_unexplored:block/stripped_blackwood_log",
+    "side": "regions_unexplored:block/stripped_blackwood_log",
+    "top": "regions_unexplored:block/stripped_blackwood_log"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "regions_unexplored:stripped_pink_bioshroom_layer"
+  },
+  "result": "regions_unexplored:stripped_pink_bioshroom_layer_vertical"
+}

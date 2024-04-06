@@ -69,7 +69,7 @@ public class CaliberBlocks {
     public static final BlockManager END_STONE_BRICK = CaliberBlockManager.register("end_stone_brick", BlockProps.END_STONE_BRICK.get(), () -> Blocks.END_STONE_BRICKS, STONE_VARIANTS_WITHOUT_STAIRS_WALL);
 
     /* Granite */
-    public static final BlockManager GRANITE = CaliberBlockManager.register("red_granite", BlockProps.GRANITE.get(), () -> Blocks.GRANITE, STONE_VARIANTS_WITHOUT_STAIRS_WALL);
+    public static final BlockManager GRANITE = CaliberBlockManager.register("granite", BlockProps.GRANITE.get(), () -> Blocks.GRANITE, STONE_VARIANTS_WITHOUT_STAIRS_WALL);
     public static final BlockManager POLISHED_GRANITE = CaliberBlockManager.register("polished_granite", BlockProps.GRANITE.get(), () -> Blocks.POLISHED_GRANITE, STONE_VARIANTS_WITHOUT_STAIRS);
 
     /* Mud Brick */

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 16,
+  "ingredient": {
+    "item": "regions_unexplored:stripped_green_bioshroom_hyphae"
+  },
+  "result": "regions_unexplored:stripped_green_bioshroom_beam_posts"
+}

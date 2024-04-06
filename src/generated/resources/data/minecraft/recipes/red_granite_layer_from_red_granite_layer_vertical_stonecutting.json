@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "caliber:red_granite_layer_vertical"
-  },
-  "result": "caliber:red_granite_layer"
-}

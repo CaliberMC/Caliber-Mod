@@ -13,6 +13,7 @@ public class BuildifyBlockPicker {
             BlockPickerStatesJson.registerBlockFamily(modBlockFamily.getBaseBlock(), () ->
                     new ArrayList<>(modBlockFamily.getVariants().entrySet().stream()
                             .filter(p -> !p.getKey().equals(ModBlockFamily.Variant.WALL_SIGN))
+                            .filter(p -> !p.getKey().equals(ModBlockFamily.Variant.WALL_HANGING_SIGN))
                             .map(p -> p.getValue().asItem().getDefaultInstance()).toList()));
         }
     }

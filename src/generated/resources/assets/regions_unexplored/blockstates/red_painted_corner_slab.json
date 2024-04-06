@@ -1,0 +1,340 @@
+{
+  "variants": {
+    "facing=east,layers=1,type=left": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_layer_1"
+    },
+    "facing=east,layers=1,type=right": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_layer_1",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,layers=1,type=top_left": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_top_layer_1"
+    },
+    "facing=east,layers=1,type=top_right": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_top_layer_1",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,layers=2,type=left": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_layer_2"
+    },
+    "facing=east,layers=2,type=right": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_layer_2",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,layers=2,type=top_left": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_top_layer_2"
+    },
+    "facing=east,layers=2,type=top_right": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_top_layer_2",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,layers=3,type=left": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_layer_3"
+    },
+    "facing=east,layers=3,type=right": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_layer_3",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,layers=3,type=top_left": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_top_layer_3"
+    },
+    "facing=east,layers=3,type=top_right": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_top_layer_3",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,layers=4,type=left": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_layer_4"
+    },
+    "facing=east,layers=4,type=right": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_layer_4",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,layers=4,type=top_left": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_top_layer_4"
+    },
+    "facing=east,layers=4,type=top_right": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_top_layer_4",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,layers=5,type=left": {
+      "model": "regions_unexplored:block/red_painted_planks"
+    },
+    "facing=east,layers=5,type=right": {
+      "model": "regions_unexplored:block/red_painted_planks"
+    },
+    "facing=east,layers=5,type=top_left": {
+      "model": "regions_unexplored:block/red_painted_planks"
+    },
+    "facing=east,layers=5,type=top_right": {
+      "model": "regions_unexplored:block/red_painted_planks"
+    },
+    "facing=north,layers=1,type=left": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_layer_1",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=north,layers=1,type=right": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_layer_1"
+    },
+    "facing=north,layers=1,type=top_left": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_top_layer_1",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=north,layers=1,type=top_right": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_top_layer_1"
+    },
+    "facing=north,layers=2,type=left": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_layer_2",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=north,layers=2,type=right": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_layer_2"
+    },
+    "facing=north,layers=2,type=top_left": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_top_layer_2",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=north,layers=2,type=top_right": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_top_layer_2"
+    },
+    "facing=north,layers=3,type=left": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_layer_3",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=north,layers=3,type=right": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_layer_3"
+    },
+    "facing=north,layers=3,type=top_left": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_top_layer_3",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=north,layers=3,type=top_right": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_top_layer_3"
+    },
+    "facing=north,layers=4,type=left": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_layer_4",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=north,layers=4,type=right": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_layer_4"
+    },
+    "facing=north,layers=4,type=top_left": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_top_layer_4",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=north,layers=4,type=top_right": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_top_layer_4"
+    },
+    "facing=north,layers=5,type=left": {
+      "model": "regions_unexplored:block/red_painted_planks"
+    },
+    "facing=north,layers=5,type=right": {
+      "model": "regions_unexplored:block/red_painted_planks"
+    },
+    "facing=north,layers=5,type=top_left": {
+      "model": "regions_unexplored:block/red_painted_planks"
+    },
+    "facing=north,layers=5,type=top_right": {
+      "model": "regions_unexplored:block/red_painted_planks"
+    },
+    "facing=south,layers=1,type=left": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_layer_1",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,layers=1,type=right": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_layer_1",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,layers=1,type=top_left": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_top_layer_1",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,layers=1,type=top_right": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_top_layer_1",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,layers=2,type=left": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_layer_2",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,layers=2,type=right": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_layer_2",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,layers=2,type=top_left": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_top_layer_2",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,layers=2,type=top_right": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_top_layer_2",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,layers=3,type=left": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_layer_3",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,layers=3,type=right": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_layer_3",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,layers=3,type=top_left": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_top_layer_3",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,layers=3,type=top_right": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_top_layer_3",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,layers=4,type=left": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_layer_4",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,layers=4,type=right": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_layer_4",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,layers=4,type=top_left": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_top_layer_4",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,layers=4,type=top_right": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_top_layer_4",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,layers=5,type=left": {
+      "model": "regions_unexplored:block/red_painted_planks"
+    },
+    "facing=south,layers=5,type=right": {
+      "model": "regions_unexplored:block/red_painted_planks"
+    },
+    "facing=south,layers=5,type=top_left": {
+      "model": "regions_unexplored:block/red_painted_planks"
+    },
+    "facing=south,layers=5,type=top_right": {
+      "model": "regions_unexplored:block/red_painted_planks"
+    },
+    "facing=west,layers=1,type=left": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_layer_1",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,layers=1,type=right": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_layer_1",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,layers=1,type=top_left": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_top_layer_1",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,layers=1,type=top_right": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_top_layer_1",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,layers=2,type=left": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_layer_2",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,layers=2,type=right": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_layer_2",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,layers=2,type=top_left": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_top_layer_2",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,layers=2,type=top_right": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_top_layer_2",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,layers=3,type=left": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_layer_3",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,layers=3,type=right": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_layer_3",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,layers=3,type=top_left": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_top_layer_3",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,layers=3,type=top_right": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_top_layer_3",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,layers=4,type=left": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_layer_4",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,layers=4,type=right": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_layer_4",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,layers=4,type=top_left": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_top_layer_4",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,layers=4,type=top_right": {
+      "model": "regions_unexplored:block/red_painted_corner_slab_top_layer_4",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,layers=5,type=left": {
+      "model": "regions_unexplored:block/red_painted_planks"
+    },
+    "facing=west,layers=5,type=right": {
+      "model": "regions_unexplored:block/red_painted_planks"
+    },
+    "facing=west,layers=5,type=top_left": {
+      "model": "regions_unexplored:block/red_painted_planks"
+    },
+    "facing=west,layers=5,type=top_right": {
+      "model": "regions_unexplored:block/red_painted_planks"
+    }
+  }
+}

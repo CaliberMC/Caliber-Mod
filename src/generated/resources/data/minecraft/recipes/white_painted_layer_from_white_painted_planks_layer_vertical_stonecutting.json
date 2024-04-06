@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "regions_unexplored:white_painted_layer_vertical"
+  },
+  "result": "regions_unexplored:white_painted_layer"
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:yellow_painted_quarter_vertical_from_yellow_painted_planks_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_yellow_painted_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "regions_unexplored:yellow_painted_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_yellow_painted_planks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:yellow_painted_quarter_vertical_from_yellow_painted_planks_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

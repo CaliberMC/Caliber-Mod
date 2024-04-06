@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "regions_unexplored:stripped_socotra_wood"
+    }
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "regions_unexplored:stripped_socotra_wall"
+  },
+  "show_notification": true
+}

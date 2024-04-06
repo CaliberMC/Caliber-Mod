@@ -1,12 +1,15 @@
 package com.calibermc.caliber.block.management;
 
 import com.calibermc.caliber.block.CaliberBlocks;
+import com.calibermc.caliber.block.compat.BiomesOPlentyBlocks;
+import com.calibermc.caliber.block.compat.RegionsUnexploredBlocks;
 import com.calibermc.caliberlib.block.management.ModBlockHelper;
 import com.calibermc.caliberlib.block.properties.BlockProps;
 import com.calibermc.caliberlib.data.ModBlockFamily;
 import com.calibermc.caliberlib.block.management.BlockManager;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
 
 import java.util.*;
 import java.util.function.Supplier;
@@ -15,7 +18,7 @@ import java.util.function.Supplier;
  * Created to reduce the code in CaliberBlocks, for optimization and easier register of complex blocks
  */
 public class CaliberBlockManager {
-    
+
     public static BlockManager register(String name, BlockBehaviour.Properties properties, Collection<ModBlockFamily.Variant> variants) {
         return BlockManager.register(name, CaliberBlocks.BLOCKS, properties, () -> Blocks.AIR, variants).registerBlockFunc(CaliberBlocks::registerBlock).build();
     }
@@ -38,4 +41,28 @@ public class CaliberBlockManager {
     public static BlockManager register(String name, BlockBehaviour.Properties properties, Supplier<Block> blockSupplier, Collection<ModBlockFamily.Variant> variants) {
         return BlockManager.register(name, CaliberBlocks.BLOCKS, properties, blockSupplier, variants).registerBlockFunc(CaliberBlocks::registerBlock).build();
     }
+
+    // COMPAT
+    public static BlockManager registerBOP(String name, Supplier<BlockBehaviour.Properties> properties, Supplier<Block> blockSupplier, Collection<ModBlockFamily.Variant> variants) {
+        return BlockManager.register(name, (b) -> {
+            BlockSetType.values().forEach((type) -> {
+                if (name.contains(type.name())) {
+                    b.type(type);
+                }
+
+            });
+        }, BiomesOPlentyBlocks.BLOCKS, properties, blockSupplier, variants).registerBlockFunc(BiomesOPlentyBlocks::registerBlock).build();
+    }
+
+    public static BlockManager registerRU(String name, Supplier<BlockBehaviour.Properties> properties, Supplier<Block> blockSupplier, Collection<ModBlockFamily.Variant> variants) {
+        return BlockManager.register(name, (b) -> {
+            BlockSetType.values().forEach((type) -> {
+                if (name.contains(type.name())) {
+                    b.type(type);
+                }
+
+            });
+        }, RegionsUnexploredBlocks.BLOCKS, properties, blockSupplier, variants).registerBlockFunc(RegionsUnexploredBlocks::registerBlock).build();
+    }
+
 }

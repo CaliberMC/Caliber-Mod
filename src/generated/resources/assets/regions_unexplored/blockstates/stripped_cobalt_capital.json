@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "regions_unexplored:block/stripped_cobalt_capital"
+    },
+    "type=top": {
+      "model": "regions_unexplored:block/stripped_cobalt_capital_top"
+    }
+  }
+}

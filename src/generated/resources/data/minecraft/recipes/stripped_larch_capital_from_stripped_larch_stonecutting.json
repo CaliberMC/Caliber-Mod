@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "regions_unexplored:stripped_larch_wood"
+  },
+  "result": "regions_unexplored:stripped_larch_capital"
+}

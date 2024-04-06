@@ -1,0 +1,8 @@
+{
+  "parent": "caliberlib:block/templates/eighth_layer_4",
+  "textures": {
+    "bottom": "regions_unexplored:block/brimwood_planks",
+    "side": "regions_unexplored:block/brimwood_planks",
+    "top": "regions_unexplored:block/brimwood_planks"
+  }
+}

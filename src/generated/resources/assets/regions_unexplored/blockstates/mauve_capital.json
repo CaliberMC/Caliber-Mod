@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "regions_unexplored:block/mauve_capital"
+    },
+    "type=top": {
+      "model": "regions_unexplored:block/mauve_capital_top"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 16,
+  "ingredient": {
+    "item": "regions_unexplored:stripped_eucalyptus_wood"
+  },
+  "result": "regions_unexplored:stripped_eucalyptus_beam_lintel"
+}

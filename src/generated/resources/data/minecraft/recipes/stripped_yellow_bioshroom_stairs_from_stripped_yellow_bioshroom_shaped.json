@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "regions_unexplored:stripped_yellow_bioshroom_hyphae"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "item": "regions_unexplored:stripped_yellow_bioshroom_stairs"
+  },
+  "show_notification": true
+}

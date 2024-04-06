@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "regions_unexplored:block/light_blue_painted_planks"
+  }
+}

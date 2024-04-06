@@ -1,0 +1,8 @@
+{
+  "parent": "caliberlib:block/templates/pillar_layer_1",
+  "textures": {
+    "bottom": "regions_unexplored:block/argillite",
+    "side": "regions_unexplored:block/argillite",
+    "top": "regions_unexplored:block/argillite"
+  }
+}

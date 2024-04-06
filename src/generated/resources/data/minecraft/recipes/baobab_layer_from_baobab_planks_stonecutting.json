@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "regions_unexplored:baobab_planks"
+  },
+  "result": "regions_unexplored:baobab_layer"
+}

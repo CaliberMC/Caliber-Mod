@@ -1,9 +1,12 @@
 package com.calibermc.caliber.data.datagen.recipes;
 
 import com.calibermc.caliber.Caliber;
+import com.calibermc.caliber.util.compat.ModCompats;
 import com.calibermc.caliberlib.block.management.BlockManager;
 import com.calibermc.caliber.crafting.CaliberRecipeBuilder;
 import com.calibermc.caliberlib.data.ModBlockFamily;
+import com.calibermc.caliberlib.block.properties.ModWoodType;
+import net.regions_unexplored.data.block.RuWoodTypes;
 import com.mojang.datafixers.util.Function3;
 import com.mojang.datafixers.util.Pair;
 import net.minecraft.advancements.critereon.ItemPredicate;
@@ -17,8 +20,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.properties.WoodType;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
-import java.util.Map;
-import java.util.Optional;
+import java.util.*;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
 
@@ -30,16 +32,35 @@ public class CaliberRecipeProvider extends RecipeProvider implements IConditionB
 
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> recipeConsumer) {
-        for (BlockManager blockManager : BlockManager.BLOCK_MANAGERS.get(Caliber.MOD_ID)) {
-            try {
-                if (blockManager.baseBlock() != null) {
-                    boolean wood = WoodType.values().anyMatch(p -> p.name().equals(blockManager.blockType().name()));
-                    generateRecipes(blockManager, wood, recipeConsumer);
+        List<String> blockManagerKeys = new ArrayList<>(Arrays.asList(Caliber.MOD_ID));
+        if (ModCompats.REGIONS_UNEXPLORED) {
+            blockManagerKeys.add("regions_unexplored");
+        }
+        // TODO: Fix ModWoodTypes not generating woodcutter recipes
+        for (String blockManagerKey : blockManagerKeys) {
+            for (BlockManager blockManager : BlockManager.BLOCK_MANAGERS.get(blockManagerKey)) {
+                try {
+                    if (blockManager.baseBlock() != null) {
+                        boolean wood = ModWoodType.getWoodTypes().stream().anyMatch(p -> p.name().contains(blockManager.blockType().name()))
+                                || WoodType.values().anyMatch(p -> p.name().equals(blockManager.blockType().name()));
+                        generateRecipes(blockManager, wood, recipeConsumer);
+                    }
+                } catch (Exception e) {
+                    e.printStackTrace();
                 }
-            } catch (Exception e) {
-                e.printStackTrace();
             }
         }
+
+//        for (BlockManager blockManager : BlockManager.BLOCK_MANAGERS.get(Caliber.MOD_ID)) {
+//            try {
+//                if (blockManager.baseBlock() != null) {
+//                    boolean wood = WoodType.values().anyMatch(p -> p.name().equals(blockManager.blockType().name()));
+//                    generateRecipes(blockManager, wood, recipeConsumer);
+//                }
+//            } catch (Exception e) {
+//                e.printStackTrace();
+//            }
+//        }
     }
 
     private void generateRecipes(BlockManager manager, boolean wood, Consumer<FinishedRecipe> finished) {

@@ -1,0 +1,8 @@
+{
+  "parent": "caliberlib:block/templates/slab_vertical_layer_5",
+  "textures": {
+    "bottom": "regions_unexplored:block/stripped_brimwood_log",
+    "side": "regions_unexplored:block/stripped_brimwood_log",
+    "top": "regions_unexplored:block/stripped_brimwood_log"
+  }
+}

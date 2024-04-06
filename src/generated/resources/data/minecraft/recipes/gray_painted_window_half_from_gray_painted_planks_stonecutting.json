@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "regions_unexplored:gray_painted_planks"
+  },
+  "result": "regions_unexplored:gray_painted_window_half"
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_baobab_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "regions_unexplored:baobab_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:baobab_window_from_baobab_planks_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_baobab_planks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:baobab_window_from_baobab_planks_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

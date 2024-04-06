@@ -1,0 +1,8 @@
+{
+  "parent": "caliberlib:block/templates/door_frame_lintel_3",
+  "textures": {
+    "bottom": "regions_unexplored:block/stripped_willow_log",
+    "side": "regions_unexplored:block/stripped_willow_log",
+    "top": "regions_unexplored:block/stripped_willow_log"
+  }
+}

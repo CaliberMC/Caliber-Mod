@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 9,
+  "ingredient": {
+    "item": "regions_unexplored:stripped_socotra_wood"
+  },
+  "result": "regions_unexplored:stripped_socotra_beam_diagonal"
+}

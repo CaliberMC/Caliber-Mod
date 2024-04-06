@@ -1,0 +1,8 @@
+{
+  "parent": "caliberlib:block/templates/slab_layer_5",
+  "textures": {
+    "bottom": "regions_unexplored:block/stripped_palm_log",
+    "side": "regions_unexplored:block/stripped_palm_log",
+    "top": "regions_unexplored:block/stripped_palm_log"
+  }
+}

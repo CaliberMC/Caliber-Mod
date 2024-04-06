@@ -2,6 +2,8 @@ package com.calibermc.caliber.item;
 
 import com.calibermc.caliber.Caliber;
 import com.calibermc.caliber.block.CaliberBlocks;
+import com.calibermc.caliber.item.compat.RegionsUnexploredItems;
+import com.calibermc.caliber.util.compat.ModCompats;
 import net.minecraft.core.NonNullList;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -27,6 +29,11 @@ public class CreativeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         for (RegistryObject<Item> entry : CaliberItems.ITEMS.getEntries()) {
                             pOutput.accept(entry.get());
+                        }
+                        if (ModCompats.REGIONS_UNEXPLORED) {
+                            for (RegistryObject<Item> entry : RegionsUnexploredItems.ITEMS.getEntries()) {
+                                pOutput.accept(entry.get());
+                            }
                         }
                     }).build());
 

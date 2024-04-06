@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_argillite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "regions_unexplored:argillite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:argillite_quarter_from_argillite_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_argillite",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:argillite_quarter_from_argillite_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

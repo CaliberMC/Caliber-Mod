@@ -1,0 +1,8 @@
+{
+  "parent": "caliberlib:block/templates/eighth_top_layer_3",
+  "textures": {
+    "bottom": "regions_unexplored:block/stripped_blue_bioshroom_stem",
+    "side": "regions_unexplored:block/stripped_blue_bioshroom_stem",
+    "top": "regions_unexplored:block/stripped_blue_bioshroom_stem"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "regions_unexplored:stripped_cobalt_wood"
+  },
+  "result": "regions_unexplored:stripped_cobalt_layer"
+}

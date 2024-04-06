@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "regions_unexplored:stripped_cypress_wood"
+  },
+  "result": "regions_unexplored:stripped_cypress_capital"
+}
