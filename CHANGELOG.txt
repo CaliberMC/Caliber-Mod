@@ -361,11 +361,13 @@ _ Added all Terracotta Roof variants
 -0.2.3 (in progress)
 - Downgraded Forge Version <- 47.1.3 to allow NeoForge 1.20.1 support
 - Added missing recipes for Diagonal Beams
-- Added missing Mossy Cobblestone and Mossy Stone Brick variants
+- Added Mossy Cobblestone variants
+- Added Mossy Stone Brick variants
+- Added Smooth Stone variants
 - Added mod compatibility for Regions Unexplored
 - Added Stairs to BlockFamilies for Plank type blocks
 - Added missing translations for en_us
-
+- Bugfix: fixed ArchBlock textures not displaying correctly in all situations
 
 
 

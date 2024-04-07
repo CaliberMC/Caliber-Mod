@@ -256,6 +256,10 @@ public class CaliberBlockFamilies {
             .stairs(Blocks.MOSSY_COBBLESTONE_STAIRS)
             .wall(Blocks.MOSSY_COBBLESTONE_WALL)
             .getFamily();
+    public static final ModBlockFamily SMOOTH_STONE = familyBuilder(Blocks.SMOOTH_STONE)
+            .fromManager(CaliberBlocks.SMOOTH_STONE)
+            .slab(Blocks.SMOOTH_STONE_SLAB)
+            .getFamily();
 
     /* Stripped Wood */
     public static final ModBlockFamily STRIPPED_ACACIA_WOOD = familyBuilder(Blocks.STRIPPED_ACACIA_WOOD)
