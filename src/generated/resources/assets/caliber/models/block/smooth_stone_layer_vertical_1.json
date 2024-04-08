@@ -1,0 +1,8 @@
+{
+  "parent": "caliberlib:block/templates/slab_vertical_layer_1",
+  "textures": {
+    "bottom": "minecraft:block/smooth_stone",
+    "side": "minecraft:block/smooth_stone",
+    "top": "minecraft:block/smooth_stone"
+  }
+}
