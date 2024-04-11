@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 8,
-  "ingredient": {
-    "item": "biomesoplenty:jacaranda_planks"
-  },
-  "result": "biomesoplenty:jacaranda_layer"
-}

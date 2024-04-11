@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 5,
-  "ingredient": {
-    "item": "biomesoplenty:stripped_hellbark_wood"
-  },
-  "result": "biomesoplenty:stripped_hellbark_corner_slab_vertical"
-}

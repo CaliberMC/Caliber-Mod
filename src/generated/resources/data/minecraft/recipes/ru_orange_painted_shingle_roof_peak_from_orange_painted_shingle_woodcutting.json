@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 2,
+  "ingredient": {
+    "item": "regions_unexplored:orange_painted_planks"
+  },
+  "result": "regions_unexplored:orange_painted_shingle_roof_peak"
+}

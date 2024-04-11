@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 16,
+  "ingredient": {
+    "item": "biomesoplenty:stripped_mahogany_wood"
+  },
+  "result": "biomesoplenty:stripped_mahogany_door_frame"
+}

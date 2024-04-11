@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 1,
+  "ingredient": {
+    "item": "biomesoplenty:magic_layer_vertical"
+  },
+  "result": "biomesoplenty:magic_layer"
+}

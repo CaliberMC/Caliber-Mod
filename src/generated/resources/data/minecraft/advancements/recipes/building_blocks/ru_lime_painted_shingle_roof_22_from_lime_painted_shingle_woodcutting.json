@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_lime_painted_shingle": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "regions_unexplored:lime_painted_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:ru_lime_painted_shingle_roof_22_from_lime_painted_shingle_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_lime_painted_shingle",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:ru_lime_painted_shingle_roof_22_from_lime_painted_shingle_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

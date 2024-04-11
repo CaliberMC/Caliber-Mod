@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "regions_unexplored:blue_painted_planks"
+  },
+  "result": "regions_unexplored:blue_painted_pillar"
+}

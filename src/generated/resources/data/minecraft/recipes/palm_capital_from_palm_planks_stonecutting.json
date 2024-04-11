@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "regions_unexplored:palm_planks"
-  },
-  "result": "regions_unexplored:palm_capital"
-}

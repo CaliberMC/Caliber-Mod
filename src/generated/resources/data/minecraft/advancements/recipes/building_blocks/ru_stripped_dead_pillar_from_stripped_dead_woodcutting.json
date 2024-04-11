@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_dead": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "regions_unexplored:stripped_dead_wood"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:ru_stripped_dead_pillar_from_stripped_dead_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_dead",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:ru_stripped_dead_pillar_from_stripped_dead_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

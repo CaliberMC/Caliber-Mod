@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 5,
-  "ingredient": {
-    "item": "regions_unexplored:magenta_painted_planks"
-  },
-  "result": "regions_unexplored:magenta_painted_quarter_vertical"
-}

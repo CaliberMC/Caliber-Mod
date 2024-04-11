@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_magic_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "biomesoplenty:stripped_magic_wood"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:bop_stripped_magic_balustrade_from_stripped_magic_wood_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_magic_wood",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:bop_stripped_magic_balustrade_from_stripped_magic_wood_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

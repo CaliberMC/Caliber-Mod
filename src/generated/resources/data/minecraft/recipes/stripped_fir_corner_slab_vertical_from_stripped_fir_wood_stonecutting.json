@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 5,
-  "ingredient": {
-    "item": "biomesoplenty:stripped_fir_wood"
-  },
-  "result": "biomesoplenty:stripped_fir_corner_slab_vertical"
-}

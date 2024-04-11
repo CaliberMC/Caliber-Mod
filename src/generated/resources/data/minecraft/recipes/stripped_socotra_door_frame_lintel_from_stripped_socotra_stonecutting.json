@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 16,
-  "ingredient": {
-    "item": "regions_unexplored:stripped_socotra_wood"
-  },
-  "result": "regions_unexplored:stripped_socotra_door_frame_lintel"
-}

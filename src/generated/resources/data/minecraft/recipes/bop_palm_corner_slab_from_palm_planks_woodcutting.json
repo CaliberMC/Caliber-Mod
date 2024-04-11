@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "biomesoplenty:palm_planks"
+  },
+  "result": "biomesoplenty:palm_corner_slab"
+}

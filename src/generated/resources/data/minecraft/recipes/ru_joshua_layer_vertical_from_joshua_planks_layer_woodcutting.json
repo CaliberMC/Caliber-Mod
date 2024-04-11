@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 1,
+  "ingredient": {
+    "item": "regions_unexplored:joshua_layer"
+  },
+  "result": "regions_unexplored:joshua_layer_vertical"
+}

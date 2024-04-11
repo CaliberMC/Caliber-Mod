@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 2,
+  "ingredient": {
+    "item": "regions_unexplored:stripped_baobab_wood"
+  },
+  "result": "regions_unexplored:stripped_baobab_window_half"
+}

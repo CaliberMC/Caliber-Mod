@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "regions_unexplored:socotra_planks"
+  },
+  "result": "regions_unexplored:socotra_eighth"
+}

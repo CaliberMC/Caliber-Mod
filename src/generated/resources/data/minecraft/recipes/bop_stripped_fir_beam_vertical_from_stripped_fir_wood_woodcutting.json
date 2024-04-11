@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 9,
+  "ingredient": {
+    "item": "biomesoplenty:stripped_fir_wood"
+  },
+  "result": "biomesoplenty:stripped_fir_beam_vertical"
+}

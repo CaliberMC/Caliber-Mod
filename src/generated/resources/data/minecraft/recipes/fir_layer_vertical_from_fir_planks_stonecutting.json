@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 8,
-  "ingredient": {
-    "item": "biomesoplenty:fir_planks"
-  },
-  "result": "biomesoplenty:fir_layer_vertical"
-}

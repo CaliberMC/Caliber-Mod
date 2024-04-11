@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 1,
+  "ingredient": {
+    "item": "biomesoplenty:stripped_jacaranda_layer"
+  },
+  "result": "biomesoplenty:stripped_jacaranda_layer_vertical"
+}

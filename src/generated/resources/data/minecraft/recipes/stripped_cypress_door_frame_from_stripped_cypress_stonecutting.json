@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 16,
-  "ingredient": {
-    "item": "regions_unexplored:stripped_cypress_wood"
-  },
-  "result": "regions_unexplored:stripped_cypress_door_frame"
-}

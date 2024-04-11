@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 1,
+  "ingredient": {
+    "item": "regions_unexplored:baobab_planks"
+  },
+  "result": "regions_unexplored:baobab_wall"
+}

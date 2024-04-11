@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "biomesoplenty:magic_planks"
-  },
-  "result": "biomesoplenty:magic_shingle_roof_45"
-}

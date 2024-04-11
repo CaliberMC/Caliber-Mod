@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 5,
-  "ingredient": {
-    "item": "regions_unexplored:stripped_eucalyptus_wood"
-  },
-  "result": "regions_unexplored:stripped_eucalyptus_corner"
-}

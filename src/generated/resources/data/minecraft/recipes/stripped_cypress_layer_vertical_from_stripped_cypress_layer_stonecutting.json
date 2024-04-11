@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "regions_unexplored:stripped_cypress_layer"
-  },
-  "result": "regions_unexplored:stripped_cypress_layer_vertical"
-}

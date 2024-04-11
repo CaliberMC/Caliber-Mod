@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "regions_unexplored:redwood_planks"
+  },
+  "result": "regions_unexplored:redwood_pillar"
+}

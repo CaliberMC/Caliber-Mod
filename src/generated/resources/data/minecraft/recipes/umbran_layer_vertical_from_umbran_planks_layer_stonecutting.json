@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "biomesoplenty:umbran_layer"
-  },
-  "result": "biomesoplenty:umbran_layer_vertical"
-}

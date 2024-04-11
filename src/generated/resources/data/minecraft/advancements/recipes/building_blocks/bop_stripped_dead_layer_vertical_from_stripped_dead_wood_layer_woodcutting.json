@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_dead_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "biomesoplenty:stripped_dead_wood"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:bop_stripped_dead_layer_vertical_from_stripped_dead_wood_layer_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_dead_wood",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:bop_stripped_dead_layer_vertical_from_stripped_dead_wood_layer_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

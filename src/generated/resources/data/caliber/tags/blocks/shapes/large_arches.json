@@ -1,9 +1,14 @@
 {
   "values": [
-    "regions_unexplored:argillite_arch_large",
-    "regions_unexplored:chalk_arch_large",
-    "regions_unexplored:chalk_brick_arch_large",
-    "regions_unexplored:mossy_stone_arch_large",
-    "regions_unexplored:polished_chalk_arch_large"
+    "biomesoplenty:black_sandstone_arch_large",
+    "biomesoplenty:brimstone_arch_large",
+    "biomesoplenty:brimstone_brick_arch_large",
+    "biomesoplenty:chiseled_black_sandstone_arch_large",
+    "biomesoplenty:chiseled_brimstone_brick_arch_large",
+    "biomesoplenty:chiseled_orange_sandstone_arch_large",
+    "biomesoplenty:chiseled_white_sandstone_arch_large",
+    "biomesoplenty:cut_black_sandstone_arch_large",
+    "biomesoplenty:cut_orange_sandstone_arch_large",
+    "biomesoplenty:cut_white_sandstone_arch_large"
   ]
 }

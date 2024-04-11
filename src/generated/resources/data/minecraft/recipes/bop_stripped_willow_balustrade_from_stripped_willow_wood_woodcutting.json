@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 2,
+  "ingredient": {
+    "item": "biomesoplenty:stripped_willow_wood"
+  },
+  "result": "biomesoplenty:stripped_willow_balustrade"
+}

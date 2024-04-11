@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 8,
-  "ingredient": {
-    "item": "biomesoplenty:mahogany_planks"
-  },
-  "result": "biomesoplenty:mahogany_layer"
-}

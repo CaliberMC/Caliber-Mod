@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 16,
-  "ingredient": {
-    "item": "biomesoplenty:stripped_magic_wood"
-  },
-  "result": "biomesoplenty:stripped_magic_door_frame"
-}

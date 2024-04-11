@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "biomesoplenty:mahogany_planks"
-  },
-  "result": "biomesoplenty:mahogany_wall"
-}

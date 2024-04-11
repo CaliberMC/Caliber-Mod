@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "regions_unexplored:black_painted_planks"
+  },
+  "result": "regions_unexplored:black_painted_corner_slab_vertical"
+}

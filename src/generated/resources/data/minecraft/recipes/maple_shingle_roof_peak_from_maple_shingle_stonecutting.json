@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "regions_unexplored:maple_planks"
-  },
-  "result": "regions_unexplored:maple_shingle_roof_peak"
-}

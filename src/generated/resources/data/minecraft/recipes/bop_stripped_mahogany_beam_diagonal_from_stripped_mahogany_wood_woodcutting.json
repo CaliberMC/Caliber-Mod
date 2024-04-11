@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 9,
+  "ingredient": {
+    "item": "biomesoplenty:stripped_mahogany_wood"
+  },
+  "result": "biomesoplenty:stripped_mahogany_beam_diagonal"
+}

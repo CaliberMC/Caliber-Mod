@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_brimwood": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "regions_unexplored:stripped_brimwood_wood"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:ru_stripped_brimwood_corner_slab_vertical_from_stripped_brimwood_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_brimwood",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:ru_stripped_brimwood_corner_slab_vertical_from_stripped_brimwood_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

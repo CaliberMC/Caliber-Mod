@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "regions_unexplored:palm_layer"
-  },
-  "result": "regions_unexplored:palm_layer_vertical"
-}

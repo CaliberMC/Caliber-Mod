@@ -1,26 +1,14 @@
 {
   "values": [
-    "regions_unexplored:stripped_baobab_beam_posts",
-    "regions_unexplored:stripped_blackwood_beam_posts",
-    "regions_unexplored:stripped_blue_bioshroom_beam_posts",
-    "regions_unexplored:stripped_brimwood_beam_posts",
-    "regions_unexplored:stripped_cobalt_beam_posts",
-    "regions_unexplored:stripped_cypress_beam_posts",
-    "regions_unexplored:stripped_dead_beam_posts",
-    "regions_unexplored:stripped_eucalyptus_beam_posts",
-    "regions_unexplored:stripped_green_bioshroom_beam_posts",
-    "regions_unexplored:stripped_joshua_beam_posts",
-    "regions_unexplored:stripped_kapok_beam_posts",
-    "regions_unexplored:stripped_larch_beam_posts",
-    "regions_unexplored:stripped_magnolia_beam_posts",
-    "regions_unexplored:stripped_maple_beam_posts",
-    "regions_unexplored:stripped_mauve_beam_posts",
-    "regions_unexplored:stripped_palm_beam_posts",
-    "regions_unexplored:stripped_pine_beam_posts",
-    "regions_unexplored:stripped_pink_bioshroom_beam_posts",
-    "regions_unexplored:stripped_redwood_beam_posts",
-    "regions_unexplored:stripped_socotra_beam_posts",
-    "regions_unexplored:stripped_willow_beam_posts",
-    "regions_unexplored:stripped_yellow_bioshroom_beam_posts"
+    "biomesoplenty:stripped_dead_beam_posts",
+    "biomesoplenty:stripped_fir_beam_posts",
+    "biomesoplenty:stripped_hellbark_beam_posts",
+    "biomesoplenty:stripped_jacaranda_beam_posts",
+    "biomesoplenty:stripped_magic_beam_posts",
+    "biomesoplenty:stripped_mahogany_beam_posts",
+    "biomesoplenty:stripped_palm_beam_posts",
+    "biomesoplenty:stripped_redwood_beam_posts",
+    "biomesoplenty:stripped_umbran_beam_posts",
+    "biomesoplenty:stripped_willow_beam_posts"
   ]
 }

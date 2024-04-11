@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 16,
-  "ingredient": {
-    "item": "regions_unexplored:stripped_pink_bioshroom_hyphae"
-  },
-  "result": "regions_unexplored:stripped_pink_bioshroom_beam_lintel"
-}

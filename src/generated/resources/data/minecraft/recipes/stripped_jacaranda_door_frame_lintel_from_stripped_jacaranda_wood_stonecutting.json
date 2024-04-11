@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 16,
-  "ingredient": {
-    "item": "biomesoplenty:stripped_jacaranda_wood"
-  },
-  "result": "biomesoplenty:stripped_jacaranda_door_frame_lintel"
-}

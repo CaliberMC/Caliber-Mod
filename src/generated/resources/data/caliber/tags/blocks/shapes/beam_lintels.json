@@ -1,26 +1,14 @@
 {
   "values": [
-    "regions_unexplored:stripped_baobab_beam_lintel",
-    "regions_unexplored:stripped_blackwood_beam_lintel",
-    "regions_unexplored:stripped_blue_bioshroom_beam_lintel",
-    "regions_unexplored:stripped_brimwood_beam_lintel",
-    "regions_unexplored:stripped_cobalt_beam_lintel",
-    "regions_unexplored:stripped_cypress_beam_lintel",
-    "regions_unexplored:stripped_dead_beam_lintel",
-    "regions_unexplored:stripped_eucalyptus_beam_lintel",
-    "regions_unexplored:stripped_green_bioshroom_beam_lintel",
-    "regions_unexplored:stripped_joshua_beam_lintel",
-    "regions_unexplored:stripped_kapok_beam_lintel",
-    "regions_unexplored:stripped_larch_beam_lintel",
-    "regions_unexplored:stripped_magnolia_beam_lintel",
-    "regions_unexplored:stripped_maple_beam_lintel",
-    "regions_unexplored:stripped_mauve_beam_lintel",
-    "regions_unexplored:stripped_palm_beam_lintel",
-    "regions_unexplored:stripped_pine_beam_lintel",
-    "regions_unexplored:stripped_pink_bioshroom_beam_lintel",
-    "regions_unexplored:stripped_redwood_beam_lintel",
-    "regions_unexplored:stripped_socotra_beam_lintel",
-    "regions_unexplored:stripped_willow_beam_lintel",
-    "regions_unexplored:stripped_yellow_bioshroom_beam_lintel"
+    "biomesoplenty:stripped_dead_beam_lintel",
+    "biomesoplenty:stripped_fir_beam_lintel",
+    "biomesoplenty:stripped_hellbark_beam_lintel",
+    "biomesoplenty:stripped_jacaranda_beam_lintel",
+    "biomesoplenty:stripped_magic_beam_lintel",
+    "biomesoplenty:stripped_mahogany_beam_lintel",
+    "biomesoplenty:stripped_palm_beam_lintel",
+    "biomesoplenty:stripped_redwood_beam_lintel",
+    "biomesoplenty:stripped_umbran_beam_lintel",
+    "biomesoplenty:stripped_willow_beam_lintel"
   ]
 }

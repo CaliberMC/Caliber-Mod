@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "biomesoplenty:hellbark_planks"
-  },
-  "result": "biomesoplenty:hellbark_window_half"
-}

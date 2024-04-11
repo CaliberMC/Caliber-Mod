@@ -1,11 +1,11 @@
-// 1.20.1	2024-04-10T19:03:37.6872013	Tags for minecraft:block mod id caliber
+// 1.20.1	2024-04-11T13:34:21.990678	Tags for minecraft:block mod id caliber
 8a1cdc61180750a0c7ef8dac5da909c3e82c4319 data/caliber/tags/blocks/shapes/arches.json
 65b92bc17e67f67e1ed5f673e026ef320288addd data/caliber/tags/blocks/shapes/arrowslits.json
 950263ceb7d88055613c012ad86f217b209b7b9e data/caliber/tags/blocks/shapes/balustrades.json
 7207e276fc722d6c7dab2f4d37ed3455fbb8a04f data/caliber/tags/blocks/shapes/beam_lintels.json
 abd11f7ebbabf1d2505adb0becc01ea5ec73c117 data/caliber/tags/blocks/shapes/beam_posts.json
 759c08b22e1208f7669b02bb1d61778e4f9c2d9d data/caliber/tags/blocks/shapes/capitals.json
-936a706e3f1a3fdd22211473fd2e7f846f046f79 data/caliber/tags/blocks/shapes/corners.json
+6755b3e9c0e57cef9ce5b33106377fe47645ced8 data/caliber/tags/blocks/shapes/corners.json
 2fc3a08d77394e069b44cc0fd16ea3c0359c4e83 data/caliber/tags/blocks/shapes/diagonal_beams.json
 fc04e84a003e76be1ec19eaf99f69296a12764e9 data/caliber/tags/blocks/shapes/door_frames.json
 75fece48f7077c1eadfa692ff5a5159d4b7de9c6 data/caliber/tags/blocks/shapes/door_frame_lintels.json
@@ -29,8 +29,8 @@ fa3eb8d76e16ac3f2ddef88390f4277384ef0903 data/caliber/tags/blocks/shapes/roof_pe
 dbca9b398eceb23a20c907ecd1cad890e93bdbf4 data/caliber/tags/blocks/shapes/vertical_quarters.json
 849c16273416133aa9f13f859a28e6754d34630e data/caliber/tags/blocks/shapes/windows.json
 ca83b53d6ebdaa204ca97f0a0dea5bc7277e871a data/minecraft/tags/blocks/logs_that_burn.json
-9bd3a9cd21bad23ce5e6f29a35365ca01c9d294e data/minecraft/tags/blocks/mineable/axe.json
-da782b406999ef719bb86d66dcacddbcb7da48d8 data/minecraft/tags/blocks/mineable/pickaxe.json
-42a84d0672a08d03961aec4cebcea0cf3f72b08a data/minecraft/tags/blocks/mineable/shovel.json
+2d02d439cf293b42d156433c67aa6888295328fd data/minecraft/tags/blocks/mineable/axe.json
+38eaae7e57c8b58c8358dbea748ad60f4978be14 data/minecraft/tags/blocks/mineable/pickaxe.json
+ba34403ff77642fd3405f9eaa3b4236f3e9b2ca3 data/minecraft/tags/blocks/mineable/shovel.json
 431e8230a3bc90c0e3a77d20bcc12ec4aaa55ea3 data/minecraft/tags/blocks/stairs.json
 beebbca43e3e4cddfb20a39ec8df1df8ed47e757 data/minecraft/tags/blocks/walls.json

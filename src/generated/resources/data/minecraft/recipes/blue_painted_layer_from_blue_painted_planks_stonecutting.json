@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 8,
-  "ingredient": {
-    "item": "regions_unexplored:blue_painted_planks"
-  },
-  "result": "regions_unexplored:blue_painted_layer"
-}

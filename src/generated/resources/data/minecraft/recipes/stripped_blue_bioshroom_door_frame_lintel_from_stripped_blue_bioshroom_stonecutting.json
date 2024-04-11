@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 16,
-  "ingredient": {
-    "item": "regions_unexplored:stripped_blue_bioshroom_hyphae"
-  },
-  "result": "regions_unexplored:stripped_blue_bioshroom_door_frame_lintel"
-}

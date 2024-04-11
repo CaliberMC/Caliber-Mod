@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "regions_unexplored:redwood_layer"
-  },
-  "result": "regions_unexplored:redwood_layer_vertical"
-}

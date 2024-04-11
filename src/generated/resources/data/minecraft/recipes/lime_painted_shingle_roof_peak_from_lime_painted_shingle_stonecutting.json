@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "regions_unexplored:lime_painted_planks"
-  },
-  "result": "regions_unexplored:lime_painted_shingle_roof_peak"
-}

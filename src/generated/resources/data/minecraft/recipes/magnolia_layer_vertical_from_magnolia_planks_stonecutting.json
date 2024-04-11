@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 8,
-  "ingredient": {
-    "item": "regions_unexplored:magnolia_planks"
-  },
-  "result": "regions_unexplored:magnolia_layer_vertical"
-}

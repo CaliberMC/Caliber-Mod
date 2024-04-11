@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "regions_unexplored:joshua_planks"
-  },
-  "result": "regions_unexplored:joshua_shingle_roof_peak"
-}

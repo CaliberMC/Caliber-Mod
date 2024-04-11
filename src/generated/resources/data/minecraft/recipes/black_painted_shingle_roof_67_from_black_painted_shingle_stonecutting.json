@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "regions_unexplored:black_painted_planks"
-  },
-  "result": "regions_unexplored:black_painted_shingle_roof_67"
-}

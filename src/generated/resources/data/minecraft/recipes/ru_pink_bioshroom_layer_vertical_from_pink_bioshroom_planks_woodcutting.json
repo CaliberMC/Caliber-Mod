@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 8,
+  "ingredient": {
+    "item": "regions_unexplored:pink_bioshroom_planks"
+  },
+  "result": "regions_unexplored:pink_bioshroom_layer_vertical"
+}

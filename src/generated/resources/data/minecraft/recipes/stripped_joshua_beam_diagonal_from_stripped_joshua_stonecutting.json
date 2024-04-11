@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 9,
-  "ingredient": {
-    "item": "regions_unexplored:stripped_joshua_wood"
-  },
-  "result": "regions_unexplored:stripped_joshua_beam_diagonal"
-}

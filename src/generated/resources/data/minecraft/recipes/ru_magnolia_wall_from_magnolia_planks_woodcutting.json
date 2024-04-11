@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 1,
+  "ingredient": {
+    "item": "regions_unexplored:magnolia_planks"
+  },
+  "result": "regions_unexplored:magnolia_wall"
+}

@@ -1,9 +1,14 @@
 {
   "values": [
-    "regions_unexplored:argillite_arrowslit",
-    "regions_unexplored:chalk_arrowslit",
-    "regions_unexplored:chalk_brick_arrowslit",
-    "regions_unexplored:mossy_stone_arrowslit",
-    "regions_unexplored:polished_chalk_arrowslit"
+    "biomesoplenty:black_sandstone_arrowslit",
+    "biomesoplenty:brimstone_arrowslit",
+    "biomesoplenty:brimstone_brick_arrowslit",
+    "biomesoplenty:chiseled_black_sandstone_arrowslit",
+    "biomesoplenty:chiseled_brimstone_brick_arrowslit",
+    "biomesoplenty:chiseled_orange_sandstone_arrowslit",
+    "biomesoplenty:chiseled_white_sandstone_arrowslit",
+    "biomesoplenty:cut_black_sandstone_arrowslit",
+    "biomesoplenty:cut_orange_sandstone_arrowslit",
+    "biomesoplenty:cut_white_sandstone_arrowslit"
   ]
 }

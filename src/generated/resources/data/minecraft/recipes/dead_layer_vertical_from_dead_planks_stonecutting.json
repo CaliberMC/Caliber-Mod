@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 8,
-  "ingredient": {
-    "item": "regions_unexplored:dead_planks"
-  },
-  "result": "regions_unexplored:dead_layer_vertical"
-}

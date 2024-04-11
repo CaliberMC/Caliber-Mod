@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_kapok": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "regions_unexplored:stripped_kapok_wood"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:ru_stripped_kapok_quarter_vertical_from_stripped_kapok_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_kapok",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:ru_stripped_kapok_quarter_vertical_from_stripped_kapok_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

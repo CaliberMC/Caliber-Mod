@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 2,
+  "ingredient": {
+    "item": "regions_unexplored:stripped_joshua_wood"
+  },
+  "result": "regions_unexplored:stripped_joshua_balustrade"
+}

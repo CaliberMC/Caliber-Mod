@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "regions_unexplored:socotra_planks"
-  },
-  "result": "regions_unexplored:socotra_shingle_roof_22"
-}

@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 8,
+  "ingredient": {
+    "item": "biomesoplenty:stripped_magic_wood"
+  },
+  "result": "biomesoplenty:stripped_magic_layer"
+}

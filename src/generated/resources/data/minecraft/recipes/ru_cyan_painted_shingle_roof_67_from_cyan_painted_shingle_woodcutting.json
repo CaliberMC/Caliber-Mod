@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 2,
+  "ingredient": {
+    "item": "regions_unexplored:cyan_painted_planks"
+  },
+  "result": "regions_unexplored:cyan_painted_shingle_roof_67"
+}

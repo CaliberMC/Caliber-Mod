@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 2,
+  "ingredient": {
+    "item": "biomesoplenty:palm_planks"
+  },
+  "result": "biomesoplenty:palm_shingle_roof_peak"
+}

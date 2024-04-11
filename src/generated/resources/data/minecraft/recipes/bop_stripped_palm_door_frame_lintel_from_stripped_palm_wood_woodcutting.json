@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 16,
+  "ingredient": {
+    "item": "biomesoplenty:stripped_palm_wood"
+  },
+  "result": "biomesoplenty:stripped_palm_door_frame_lintel"
+}

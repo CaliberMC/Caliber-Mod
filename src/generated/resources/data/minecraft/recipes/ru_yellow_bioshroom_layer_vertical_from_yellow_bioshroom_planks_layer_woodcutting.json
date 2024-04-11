@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 1,
+  "ingredient": {
+    "item": "regions_unexplored:yellow_bioshroom_layer"
+  },
+  "result": "regions_unexplored:yellow_bioshroom_layer_vertical"
+}

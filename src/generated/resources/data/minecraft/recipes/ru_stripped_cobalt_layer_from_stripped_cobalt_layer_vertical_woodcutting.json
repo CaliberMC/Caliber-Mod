@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 1,
+  "ingredient": {
+    "item": "regions_unexplored:stripped_cobalt_layer_vertical"
+  },
+  "result": "regions_unexplored:stripped_cobalt_layer"
+}

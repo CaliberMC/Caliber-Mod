@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:ru_yellow_bioshroom_corner_slab_from_yellow_bioshroom_planks_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_yellow_bioshroom_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "regions_unexplored:yellow_bioshroom_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_yellow_bioshroom_planks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:ru_yellow_bioshroom_corner_slab_from_yellow_bioshroom_planks_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

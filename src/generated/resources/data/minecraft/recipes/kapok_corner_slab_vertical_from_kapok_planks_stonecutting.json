@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 5,
-  "ingredient": {
-    "item": "regions_unexplored:kapok_planks"
-  },
-  "result": "regions_unexplored:kapok_corner_slab_vertical"
-}

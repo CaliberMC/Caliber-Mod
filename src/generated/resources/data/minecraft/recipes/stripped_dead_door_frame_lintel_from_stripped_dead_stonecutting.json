@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 16,
-  "ingredient": {
-    "item": "regions_unexplored:stripped_dead_wood"
-  },
-  "result": "regions_unexplored:stripped_dead_door_frame_lintel"
-}

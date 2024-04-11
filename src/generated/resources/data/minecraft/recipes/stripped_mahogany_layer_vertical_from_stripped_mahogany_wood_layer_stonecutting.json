@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "biomesoplenty:stripped_mahogany_layer"
-  },
-  "result": "biomesoplenty:stripped_mahogany_layer_vertical"
-}

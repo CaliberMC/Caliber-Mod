@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "regions_unexplored:eucalyptus_planks"
-  },
-  "result": "regions_unexplored:eucalyptus_capital"
-}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cut_orange_sandstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "biomesoplenty:cut_orange_sandstone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:bop_cut_orange_sandstone_arch_large_half_from_cut_orange_sandstone_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_cut_orange_sandstone",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:bop_cut_orange_sandstone_arch_large_half_from_cut_orange_sandstone_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

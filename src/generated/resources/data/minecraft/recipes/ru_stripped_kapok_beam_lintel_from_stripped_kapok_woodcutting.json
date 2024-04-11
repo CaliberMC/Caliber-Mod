@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 16,
+  "ingredient": {
+    "item": "regions_unexplored:stripped_kapok_wood"
+  },
+  "result": "regions_unexplored:stripped_kapok_beam_lintel"
+}

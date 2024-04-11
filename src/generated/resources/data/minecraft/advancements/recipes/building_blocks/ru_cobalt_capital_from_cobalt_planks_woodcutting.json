@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cobalt_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "regions_unexplored:cobalt_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:ru_cobalt_capital_from_cobalt_planks_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_cobalt_planks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:ru_cobalt_capital_from_cobalt_planks_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

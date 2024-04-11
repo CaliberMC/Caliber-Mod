@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_cobalt": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "regions_unexplored:stripped_cobalt_wood"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:ru_stripped_cobalt_door_frame_lintel_from_stripped_cobalt_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_cobalt",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:ru_stripped_cobalt_door_frame_lintel_from_stripped_cobalt_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}
