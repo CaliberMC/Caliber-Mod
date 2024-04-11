@@ -2,6 +2,7 @@ package com.calibermc.caliber.item;
 
 import com.calibermc.caliber.Caliber;
 import com.calibermc.caliber.block.CaliberBlocks;
+import com.calibermc.caliber.compat.item.BiomesOPlentyItems;
 import com.calibermc.caliber.compat.item.RegionsUnexploredItems;
 import com.calibermc.caliber.compat.ModCompats;
 import net.minecraft.core.registries.Registries;
@@ -24,11 +25,17 @@ public class CreativeTabs {
                         for (RegistryObject<Item> entry : CaliberItems.ITEMS.getEntries()) {
                             pOutput.accept(entry.get());
                         }
+                        if (ModCompats.BOP) {
+                            for (RegistryObject<Item> entry : BiomesOPlentyItems.ITEMS.getEntries()) {
+                                pOutput.accept(entry.get());
+                            }
+                        }
                         if (ModCompats.REGIONS_UNEXPLORED) {
                             for (RegistryObject<Item> entry : RegionsUnexploredItems.ITEMS.getEntries()) {
                                 pOutput.accept(entry.get());
                             }
                         }
+
                     }).build());
 
     public static void register(IEventBus eventBus) {
