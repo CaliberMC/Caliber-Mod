@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 9,
+  "ingredient": {
+    "item": "biomesoplenty:stripped_magic_wood"
+  },
+  "result": "biomesoplenty:stripped_magic_beam_horizontal"
+}

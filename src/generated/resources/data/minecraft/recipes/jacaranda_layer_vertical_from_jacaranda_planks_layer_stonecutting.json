@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "biomesoplenty:jacaranda_layer"
+  },
+  "result": "biomesoplenty:jacaranda_layer_vertical"
+}

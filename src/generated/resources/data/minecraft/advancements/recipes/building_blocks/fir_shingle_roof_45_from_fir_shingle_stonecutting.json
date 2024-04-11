@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_fir_shingle": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "biomesoplenty:fir_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:fir_shingle_roof_45_from_fir_shingle_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_fir_shingle",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:fir_shingle_roof_45_from_fir_shingle_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

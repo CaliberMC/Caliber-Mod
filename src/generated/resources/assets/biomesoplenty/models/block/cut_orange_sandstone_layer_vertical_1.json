@@ -1,0 +1,8 @@
+{
+  "parent": "caliberlib:block/templates/slab_vertical_layer_1",
+  "textures": {
+    "bottom": "biomesoplenty:block/orange_sandstone_top",
+    "side": "biomesoplenty:block/cut_orange_sandstone",
+    "top": "biomesoplenty:block/orange_sandstone_top"
+  }
+}

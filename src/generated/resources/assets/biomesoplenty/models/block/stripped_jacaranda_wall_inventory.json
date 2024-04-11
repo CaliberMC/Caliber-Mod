@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "biomesoplenty:block/stripped_jacaranda_log"
+  }
+}

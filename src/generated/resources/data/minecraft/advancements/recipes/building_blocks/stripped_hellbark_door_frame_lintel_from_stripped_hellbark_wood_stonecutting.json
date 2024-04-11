@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_hellbark_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "biomesoplenty:stripped_hellbark_wood"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:stripped_hellbark_door_frame_lintel_from_stripped_hellbark_wood_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_hellbark_wood",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:stripped_hellbark_door_frame_lintel_from_stripped_hellbark_wood_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

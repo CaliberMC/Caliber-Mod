@@ -364,8 +364,8 @@ _ Added all Terracotta Roof variants
 - Added Mossy Cobblestone variants
 - Added Mossy Stone Brick variants
 - Added Smooth Stone variants
+- Added mod compatibility for Biomes O' Plenty
 - Added mod compatibility for Regions Unexplored
-- Added Stairs to BlockFamilies for Plank type blocks
 - Added missing translations for en_us
 - Bugfix: fixed ArchBlock textures not displaying correctly in all situations
 

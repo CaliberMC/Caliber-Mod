@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "biomesoplenty:stripped_redwood_wood"
+  },
+  "result": "biomesoplenty:stripped_redwood_stairs"
+}

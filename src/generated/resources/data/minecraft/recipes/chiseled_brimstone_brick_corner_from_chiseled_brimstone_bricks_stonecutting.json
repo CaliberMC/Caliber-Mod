@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "biomesoplenty:chiseled_brimstone_bricks"
+  },
+  "result": "biomesoplenty:chiseled_brimstone_brick_corner"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "biomesoplenty:chiseled_white_sandstone"
+    }
+  },
+  "pattern": [
+    " # ",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "count": 24,
+    "item": "biomesoplenty:chiseled_white_sandstone_layer_vertical"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "biomesoplenty:block/brimstone_capital"
+    },
+    "type=top": {
+      "model": "biomesoplenty:block/brimstone_capital_top"
+    }
+  }
+}

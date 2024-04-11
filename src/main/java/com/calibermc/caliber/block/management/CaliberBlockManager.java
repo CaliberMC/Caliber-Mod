@@ -1,8 +1,8 @@
 package com.calibermc.caliber.block.management;
 
 import com.calibermc.caliber.block.CaliberBlocks;
-import com.calibermc.caliber.block.compat.BiomesOPlentyBlocks;
-import com.calibermc.caliber.block.compat.RegionsUnexploredBlocks;
+import com.calibermc.caliber.compat.block.BiomesOPlentyBlocks;
+import com.calibermc.caliber.compat.block.RegionsUnexploredBlocks;
 import com.calibermc.caliberlib.block.management.ModBlockHelper;
 import com.calibermc.caliberlib.block.properties.BlockProps;
 import com.calibermc.caliberlib.data.ModBlockFamily;

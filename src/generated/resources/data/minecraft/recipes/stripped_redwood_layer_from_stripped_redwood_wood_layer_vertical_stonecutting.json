@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "biomesoplenty:stripped_redwood_layer_vertical"
+  },
+  "result": "biomesoplenty:stripped_redwood_layer"
+}

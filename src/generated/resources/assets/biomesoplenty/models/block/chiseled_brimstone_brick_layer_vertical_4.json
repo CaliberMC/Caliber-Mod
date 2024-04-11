@@ -1,0 +1,8 @@
+{
+  "parent": "caliberlib:block/templates/slab_vertical_layer_4",
+  "textures": {
+    "bottom": "biomesoplenty:block/chiseled_brimstone_bricks",
+    "side": "biomesoplenty:block/chiseled_brimstone_bricks",
+    "top": "biomesoplenty:block/chiseled_brimstone_bricks"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "facing=east,type=bottom": {
+      "model": "biomesoplenty:block/stripped_jacaranda_window_half_cross",
+      "y": 90
+    },
+    "facing=east,type=full_block": {
+      "model": "biomesoplenty:block/stripped_jacaranda_window_half",
+      "y": 90
+    },
+    "facing=east,type=middle": {
+      "model": "biomesoplenty:block/stripped_jacaranda_window_half_trim2",
+      "y": 90
+    },
+    "facing=east,type=top": {
+      "model": "biomesoplenty:block/stripped_jacaranda_window_half_trim",
+      "y": 90
+    },
+    "facing=north,type=bottom": {
+      "model": "biomesoplenty:block/stripped_jacaranda_window_half_cross"
+    },
+    "facing=north,type=full_block": {
+      "model": "biomesoplenty:block/stripped_jacaranda_window_half"
+    },
+    "facing=north,type=middle": {
+      "model": "biomesoplenty:block/stripped_jacaranda_window_half_trim2"
+    },
+    "facing=north,type=top": {
+      "model": "biomesoplenty:block/stripped_jacaranda_window_half_trim"
+    },
+    "facing=south,type=bottom": {
+      "model": "biomesoplenty:block/stripped_jacaranda_window_half_cross",
+      "y": 180
+    },
+    "facing=south,type=full_block": {
+      "model": "biomesoplenty:block/stripped_jacaranda_window_half",
+      "y": 180
+    },
+    "facing=south,type=middle": {
+      "model": "biomesoplenty:block/stripped_jacaranda_window_half_trim2",
+      "y": 180
+    },
+    "facing=south,type=top": {
+      "model": "biomesoplenty:block/stripped_jacaranda_window_half_trim",
+      "y": 180
+    },
+    "facing=west,type=bottom": {
+      "model": "biomesoplenty:block/stripped_jacaranda_window_half_cross",
+      "y": 270
+    },
+    "facing=west,type=full_block": {
+      "model": "biomesoplenty:block/stripped_jacaranda_window_half",
+      "y": 270
+    },
+    "facing=west,type=middle": {
+      "model": "biomesoplenty:block/stripped_jacaranda_window_half_trim2",
+      "y": 270
+    },
+    "facing=west,type=top": {
+      "model": "biomesoplenty:block/stripped_jacaranda_window_half_trim",
+      "y": 270
+    }
+  }
+}

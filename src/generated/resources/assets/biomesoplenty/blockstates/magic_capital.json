@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "biomesoplenty:block/magic_capital"
+    },
+    "type=top": {
+      "model": "biomesoplenty:block/magic_capital_top"
+    }
+  }
+}

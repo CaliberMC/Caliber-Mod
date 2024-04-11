@@ -1,0 +1,8 @@
+{
+  "parent": "caliberlib:block/templates/arrowslit",
+  "textures": {
+    "bottom": "biomesoplenty:block/orange_sandstone_top",
+    "side": "biomesoplenty:block/cut_orange_sandstone",
+    "top": "biomesoplenty:block/orange_sandstone_top"
+  }
+}

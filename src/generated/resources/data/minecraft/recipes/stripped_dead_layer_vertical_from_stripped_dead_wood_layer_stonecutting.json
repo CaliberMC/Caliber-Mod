@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "biomesoplenty:stripped_dead_layer"
+  },
+  "result": "biomesoplenty:stripped_dead_layer_vertical"
+}

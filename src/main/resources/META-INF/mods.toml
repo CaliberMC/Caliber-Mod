@@ -83,3 +83,9 @@ mandatory=false
 versionRange="${regions_unexplored_version_range}"
 ordering="AFTER"
 side="BOTH"
+[[dependencies.${mod_id}]]
+modId="biomesoplenty"
+mandatory=false
+versionRange="${biomesoplenty_version_range}"
+ordering="AFTER"
+side="BOTH"

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "biomesoplenty:stripped_mahogany_wood"
+  },
+  "result": "biomesoplenty:stripped_mahogany_window_half"
+}

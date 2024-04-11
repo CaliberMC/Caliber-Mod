@@ -1,12 +1,11 @@
 package com.calibermc.caliber.data.datagen.recipes;
 
 import com.calibermc.caliber.Caliber;
-import com.calibermc.caliber.util.compat.ModCompats;
+import com.calibermc.caliber.compat.ModCompats;
 import com.calibermc.caliberlib.block.management.BlockManager;
 import com.calibermc.caliber.crafting.CaliberRecipeBuilder;
 import com.calibermc.caliberlib.data.ModBlockFamily;
 import com.calibermc.caliberlib.block.properties.ModWoodType;
-import net.regions_unexplored.data.block.RuWoodTypes;
 import com.mojang.datafixers.util.Function3;
 import com.mojang.datafixers.util.Pair;
 import net.minecraft.advancements.critereon.ItemPredicate;
@@ -19,6 +18,8 @@ import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.properties.WoodType;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
+import net.minecraftforge.event.TagsUpdatedEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 
 import java.util.*;
 import java.util.function.Consumer;
@@ -35,6 +36,9 @@ public class CaliberRecipeProvider extends RecipeProvider implements IConditionB
         List<String> blockManagerKeys = new ArrayList<>(Arrays.asList(Caliber.MOD_ID));
         if (ModCompats.REGIONS_UNEXPLORED) {
             blockManagerKeys.add("regions_unexplored");
+        }
+        if (ModCompats.BOP) {
+            blockManagerKeys.add("biomesoplenty");
         }
         // TODO: Fix ModWoodTypes not generating woodcutter recipes
         for (String blockManagerKey : blockManagerKeys) {
@@ -205,4 +209,7 @@ public class CaliberRecipeProvider extends RecipeProvider implements IConditionB
     }
 
 }
+
+
+
 

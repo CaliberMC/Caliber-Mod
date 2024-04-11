@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "biomesoplenty:block/willow_capital"
+    },
+    "type=top": {
+      "model": "biomesoplenty:block/willow_capital_top"
+    }
+  }
+}

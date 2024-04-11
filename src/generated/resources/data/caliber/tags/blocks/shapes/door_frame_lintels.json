@@ -1,15 +1,26 @@
 {
   "values": [
-    "caliber:stripped_acacia_door_frame_lintel",
-    "caliber:stripped_bamboo_door_frame_lintel",
-    "caliber:stripped_birch_door_frame_lintel",
-    "caliber:stripped_cherry_door_frame_lintel",
-    "caliber:stripped_dark_oak_door_frame_lintel",
-    "caliber:stripped_jungle_door_frame_lintel",
-    "caliber:stripped_mangrove_door_frame_lintel",
-    "caliber:stripped_oak_door_frame_lintel",
-    "caliber:stripped_spruce_door_frame_lintel",
-    "caliber:stripped_crimson_door_frame_lintel",
-    "caliber:stripped_warped_door_frame_lintel"
+    "regions_unexplored:stripped_baobab_door_frame_lintel",
+    "regions_unexplored:stripped_blackwood_door_frame_lintel",
+    "regions_unexplored:stripped_blue_bioshroom_door_frame_lintel",
+    "regions_unexplored:stripped_brimwood_door_frame_lintel",
+    "regions_unexplored:stripped_cobalt_door_frame_lintel",
+    "regions_unexplored:stripped_cypress_door_frame_lintel",
+    "regions_unexplored:stripped_dead_door_frame_lintel",
+    "regions_unexplored:stripped_eucalyptus_door_frame_lintel",
+    "regions_unexplored:stripped_green_bioshroom_door_frame_lintel",
+    "regions_unexplored:stripped_joshua_door_frame_lintel",
+    "regions_unexplored:stripped_kapok_door_frame_lintel",
+    "regions_unexplored:stripped_larch_door_frame_lintel",
+    "regions_unexplored:stripped_magnolia_door_frame_lintel",
+    "regions_unexplored:stripped_maple_door_frame_lintel",
+    "regions_unexplored:stripped_mauve_door_frame_lintel",
+    "regions_unexplored:stripped_palm_door_frame_lintel",
+    "regions_unexplored:stripped_pine_door_frame_lintel",
+    "regions_unexplored:stripped_pink_bioshroom_door_frame_lintel",
+    "regions_unexplored:stripped_redwood_door_frame_lintel",
+    "regions_unexplored:stripped_socotra_door_frame_lintel",
+    "regions_unexplored:stripped_willow_door_frame_lintel",
+    "regions_unexplored:stripped_yellow_bioshroom_door_frame_lintel"
   ]
 }

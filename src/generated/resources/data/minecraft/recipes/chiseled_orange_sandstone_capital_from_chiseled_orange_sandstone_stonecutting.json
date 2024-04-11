@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "biomesoplenty:chiseled_orange_sandstone"
+  },
+  "result": "biomesoplenty:chiseled_orange_sandstone_capital"
+}

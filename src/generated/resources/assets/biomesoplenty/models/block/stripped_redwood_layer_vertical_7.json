@@ -1,0 +1,8 @@
+{
+  "parent": "caliberlib:block/templates/slab_vertical_layer_7",
+  "textures": {
+    "bottom": "biomesoplenty:block/stripped_redwood_log",
+    "side": "biomesoplenty:block/stripped_redwood_log",
+    "top": "biomesoplenty:block/stripped_redwood_log"
+  }
+}

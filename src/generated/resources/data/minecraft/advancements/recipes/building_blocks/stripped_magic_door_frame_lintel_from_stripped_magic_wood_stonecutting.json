@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_magic_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "biomesoplenty:stripped_magic_wood"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:stripped_magic_door_frame_lintel_from_stripped_magic_wood_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_magic_wood",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:stripped_magic_door_frame_lintel_from_stripped_magic_wood_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

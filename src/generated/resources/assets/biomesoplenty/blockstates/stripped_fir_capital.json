@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "biomesoplenty:block/stripped_fir_capital"
+    },
+    "type=top": {
+      "model": "biomesoplenty:block/stripped_fir_capital_top"
+    }
+  }
+}

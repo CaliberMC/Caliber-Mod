@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "biomesoplenty:stripped_palm_layer"
+  },
+  "result": "biomesoplenty:stripped_palm_layer_vertical"
+}

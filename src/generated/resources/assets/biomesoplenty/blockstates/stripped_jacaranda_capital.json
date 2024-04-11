@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "biomesoplenty:block/stripped_jacaranda_capital"
+    },
+    "type=top": {
+      "model": "biomesoplenty:block/stripped_jacaranda_capital_top"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "biomesoplenty:block/hellbark_capital"
+    },
+    "type=top": {
+      "model": "biomesoplenty:block/hellbark_capital_top"
+    }
+  }
+}

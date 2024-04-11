@@ -1,15 +1,26 @@
 {
   "values": [
-    "caliber:stripped_acacia_beam_diagonal",
-    "caliber:stripped_bamboo_beam_diagonal",
-    "caliber:stripped_birch_beam_diagonal",
-    "caliber:stripped_cherry_beam_diagonal",
-    "caliber:stripped_dark_oak_beam_diagonal",
-    "caliber:stripped_jungle_beam_diagonal",
-    "caliber:stripped_mangrove_beam_diagonal",
-    "caliber:stripped_oak_beam_diagonal",
-    "caliber:stripped_spruce_beam_diagonal",
-    "caliber:stripped_crimson_beam_diagonal",
-    "caliber:stripped_warped_beam_diagonal"
+    "regions_unexplored:stripped_baobab_beam_diagonal",
+    "regions_unexplored:stripped_blackwood_beam_diagonal",
+    "regions_unexplored:stripped_blue_bioshroom_beam_diagonal",
+    "regions_unexplored:stripped_brimwood_beam_diagonal",
+    "regions_unexplored:stripped_cobalt_beam_diagonal",
+    "regions_unexplored:stripped_cypress_beam_diagonal",
+    "regions_unexplored:stripped_dead_beam_diagonal",
+    "regions_unexplored:stripped_eucalyptus_beam_diagonal",
+    "regions_unexplored:stripped_green_bioshroom_beam_diagonal",
+    "regions_unexplored:stripped_joshua_beam_diagonal",
+    "regions_unexplored:stripped_kapok_beam_diagonal",
+    "regions_unexplored:stripped_larch_beam_diagonal",
+    "regions_unexplored:stripped_magnolia_beam_diagonal",
+    "regions_unexplored:stripped_maple_beam_diagonal",
+    "regions_unexplored:stripped_mauve_beam_diagonal",
+    "regions_unexplored:stripped_palm_beam_diagonal",
+    "regions_unexplored:stripped_pine_beam_diagonal",
+    "regions_unexplored:stripped_pink_bioshroom_beam_diagonal",
+    "regions_unexplored:stripped_redwood_beam_diagonal",
+    "regions_unexplored:stripped_socotra_beam_diagonal",
+    "regions_unexplored:stripped_willow_beam_diagonal",
+    "regions_unexplored:stripped_yellow_bioshroom_beam_diagonal"
   ]
 }

@@ -2,20 +2,14 @@ package com.calibermc.caliber.item;
 
 import com.calibermc.caliber.Caliber;
 import com.calibermc.caliber.block.CaliberBlocks;
-import com.calibermc.caliber.item.compat.RegionsUnexploredItems;
-import com.calibermc.caliber.util.compat.ModCompats;
-import net.minecraft.core.NonNullList;
+import com.calibermc.caliber.compat.item.RegionsUnexploredItems;
+import com.calibermc.caliber.compat.ModCompats;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-
-import java.util.List;
-import java.util.Map;
 
 public class CreativeTabs {
 

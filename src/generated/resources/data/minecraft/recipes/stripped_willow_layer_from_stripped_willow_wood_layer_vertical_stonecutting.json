@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "biomesoplenty:stripped_willow_layer_vertical"
+  },
+  "result": "biomesoplenty:stripped_willow_layer"
+}
