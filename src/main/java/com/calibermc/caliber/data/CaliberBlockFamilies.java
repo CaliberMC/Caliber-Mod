@@ -131,8 +131,7 @@ public class CaliberBlockFamilies {
             .getFamily();
     public static final ModBlockFamily POLISHED_GRANITE = familyBuilder(Blocks.POLISHED_GRANITE)
             .fromManager(CaliberBlocks.POLISHED_GRANITE)
-            .stairs(Blocks.GRANITE_STAIRS)
-            .wall(Blocks.GRANITE_WALL)
+            .stairs(Blocks.POLISHED_GRANITE_STAIRS)
             .getFamily();
     
     /* Mud Bricks */
