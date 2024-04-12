@@ -1,14 +1,145 @@
 {
   "values": [
-    "biomesoplenty:black_sandstone_arrowslit",
-    "biomesoplenty:brimstone_arrowslit",
-    "biomesoplenty:brimstone_brick_arrowslit",
-    "biomesoplenty:chiseled_black_sandstone_arrowslit",
-    "biomesoplenty:chiseled_brimstone_brick_arrowslit",
-    "biomesoplenty:chiseled_orange_sandstone_arrowslit",
-    "biomesoplenty:chiseled_white_sandstone_arrowslit",
-    "biomesoplenty:cut_black_sandstone_arrowslit",
-    "biomesoplenty:cut_orange_sandstone_arrowslit",
-    "biomesoplenty:cut_white_sandstone_arrowslit"
+    "caliber:andesite_arrowslit",
+    "caliber:basalt_arrowslit",
+    "caliber:black_concrete_arrowslit",
+    "caliber:black_terracotta_arrowslit",
+    "caliber:blackstone_arrowslit",
+    "caliber:blue_concrete_arrowslit",
+    "caliber:blue_terracotta_arrowslit",
+    "caliber:brick_arrowslit",
+    "caliber:brown_concrete_arrowslit",
+    "caliber:brown_terracotta_arrowslit",
+    "caliber:calcite_arrowslit",
+    "caliber:cobbled_deepslate_arrowslit",
+    "caliber:cobblestone_arrowslit",
+    "caliber:cut_red_sandstone_arrowslit",
+    "caliber:cut_sandstone_arrowslit",
+    "caliber:cyan_concrete_arrowslit",
+    "caliber:cyan_terracotta_arrowslit",
+    "caliber:dark_prismarine_arrowslit",
+    "caliber:deepslate_arrowslit",
+    "caliber:deepslate_brick_arrowslit",
+    "caliber:deepslate_tile_arrowslit",
+    "caliber:diorite_arrowslit",
+    "caliber:dripstone_arrowslit",
+    "caliber:end_stone_arrowslit",
+    "caliber:end_stone_brick_arrowslit",
+    "caliber:gilded_blackstone_arrowslit",
+    "caliber:granite_arrowslit",
+    "caliber:gray_concrete_arrowslit",
+    "caliber:gray_terracotta_arrowslit",
+    "caliber:green_concrete_arrowslit",
+    "caliber:green_terracotta_arrowslit",
+    "caliber:light_blue_concrete_arrowslit",
+    "caliber:light_blue_terracotta_arrowslit",
+    "caliber:light_gray_concrete_arrowslit",
+    "caliber:light_gray_terracotta_arrowslit",
+    "caliber:lime_concrete_arrowslit",
+    "caliber:lime_terracotta_arrowslit",
+    "caliber:magenta_concrete_arrowslit",
+    "caliber:magenta_terracotta_arrowslit",
+    "caliber:mossy_cobblestone_arrowslit",
+    "caliber:mossy_stone_brick_arrowslit",
+    "caliber:mud_brick_arrowslit",
+    "caliber:nether_brick_arrowslit",
+    "caliber:netherite_arrowslit",
+    "caliber:obsidian_arrowslit",
+    "caliber:orange_concrete_arrowslit",
+    "caliber:orange_terracotta_arrowslit",
+    "caliber:pink_concrete_arrowslit",
+    "caliber:pink_terracotta_arrowslit",
+    "caliber:polished_andesite_arrowslit",
+    "caliber:polished_basalt_arrowslit",
+    "caliber:polished_blackstone_arrowslit",
+    "caliber:polished_blackstone_brick_arrowslit",
+    "caliber:polished_deepslate_arrowslit",
+    "caliber:polished_diorite_arrowslit",
+    "caliber:polished_granite_arrowslit",
+    "caliber:prismarine_arrowslit",
+    "caliber:prismarine_brick_arrowslit",
+    "caliber:purple_concrete_arrowslit",
+    "caliber:purple_terracotta_arrowslit",
+    "caliber:purpur_arrowslit",
+    "caliber:quartz_arrowslit",
+    "caliber:quartz_brick_arrowslit",
+    "caliber:red_concrete_arrowslit",
+    "caliber:red_nether_brick_arrowslit",
+    "caliber:red_sandstone_arrowslit",
+    "caliber:red_terracotta_arrowslit",
+    "caliber:sandstone_arrowslit",
+    "caliber:smooth_basalt_arrowslit",
+    "caliber:smooth_quartz_arrowslit",
+    "caliber:smooth_red_sandstone_arrowslit",
+    "caliber:smooth_sandstone_arrowslit",
+    "caliber:smooth_stone_arrowslit",
+    "caliber:stone_arrowslit",
+    "caliber:stone_brick_arrowslit",
+    "caliber:terracotta_arrowslit",
+    "caliber:tuff_arrowslit",
+    "caliber:white_concrete_arrowslit",
+    "caliber:white_terracotta_arrowslit",
+    "caliber:yellow_concrete_arrowslit",
+    "caliber:yellow_terracotta_arrowslit",
+    {
+      "id": "biomesoplenty:black_sandstone_arrowslit",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:brimstone_arrowslit",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:brimstone_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_black_sandstone_arrowslit",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_brimstone_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_orange_sandstone_arrowslit",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_white_sandstone_arrowslit",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_black_sandstone_arrowslit",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_orange_sandstone_arrowslit",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_white_sandstone_arrowslit",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:argillite_arrowslit",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_arrowslit",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mossy_stone_arrowslit",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:polished_chalk_arrowslit",
+      "required": false
+    }
   ]
 }

@@ -1,34 +1,504 @@
 {
   "values": [
-    "biomesoplenty:black_sandstone_eighth",
-    "biomesoplenty:brimstone_eighth",
-    "biomesoplenty:brimstone_brick_eighth",
-    "biomesoplenty:chiseled_black_sandstone_eighth",
-    "biomesoplenty:chiseled_brimstone_brick_eighth",
-    "biomesoplenty:chiseled_orange_sandstone_eighth",
-    "biomesoplenty:chiseled_white_sandstone_eighth",
-    "biomesoplenty:cut_black_sandstone_eighth",
-    "biomesoplenty:cut_orange_sandstone_eighth",
-    "biomesoplenty:cut_white_sandstone_eighth",
-    "biomesoplenty:dead_eighth",
-    "biomesoplenty:fir_eighth",
-    "biomesoplenty:hellbark_eighth",
-    "biomesoplenty:jacaranda_eighth",
-    "biomesoplenty:magic_eighth",
-    "biomesoplenty:mahogany_eighth",
-    "biomesoplenty:palm_eighth",
-    "biomesoplenty:redwood_eighth",
-    "biomesoplenty:umbran_eighth",
-    "biomesoplenty:willow_eighth",
-    "biomesoplenty:stripped_dead_eighth",
-    "biomesoplenty:stripped_fir_eighth",
-    "biomesoplenty:stripped_hellbark_eighth",
-    "biomesoplenty:stripped_jacaranda_eighth",
-    "biomesoplenty:stripped_magic_eighth",
-    "biomesoplenty:stripped_mahogany_eighth",
-    "biomesoplenty:stripped_palm_eighth",
-    "biomesoplenty:stripped_redwood_eighth",
-    "biomesoplenty:stripped_umbran_eighth",
-    "biomesoplenty:stripped_willow_eighth"
+    "caliber:acacia_eighth",
+    "caliber:andesite_eighth",
+    "caliber:bamboo_mosaic_eighth",
+    "caliber:bamboo_eighth",
+    "caliber:basalt_eighth",
+    "caliber:birch_eighth",
+    "caliber:black_concrete_eighth",
+    "caliber:black_terracotta_eighth",
+    "caliber:black_wool_eighth",
+    "caliber:blackstone_eighth",
+    "caliber:blue_concrete_eighth",
+    "caliber:blue_terracotta_eighth",
+    "caliber:blue_wool_eighth",
+    "caliber:brick_eighth",
+    "caliber:brown_concrete_eighth",
+    "caliber:brown_terracotta_eighth",
+    "caliber:brown_wool_eighth",
+    "caliber:calcite_eighth",
+    "caliber:cherry_eighth",
+    "caliber:cobbled_deepslate_eighth",
+    "caliber:cobblestone_eighth",
+    "caliber:crimson_eighth",
+    "caliber:cut_red_sandstone_eighth",
+    "caliber:cut_sandstone_eighth",
+    "caliber:cyan_concrete_eighth",
+    "caliber:cyan_terracotta_eighth",
+    "caliber:cyan_wool_eighth",
+    "caliber:dark_oak_eighth",
+    "caliber:dark_prismarine_eighth",
+    "caliber:deepslate_eighth",
+    "caliber:deepslate_brick_eighth",
+    "caliber:deepslate_tile_eighth",
+    "caliber:diorite_eighth",
+    "caliber:dripstone_eighth",
+    "caliber:end_stone_eighth",
+    "caliber:end_stone_brick_eighth",
+    "caliber:gilded_blackstone_eighth",
+    "caliber:granite_eighth",
+    "caliber:gray_concrete_eighth",
+    "caliber:gray_terracotta_eighth",
+    "caliber:gray_wool_eighth",
+    "caliber:green_concrete_eighth",
+    "caliber:green_terracotta_eighth",
+    "caliber:green_wool_eighth",
+    "caliber:jungle_eighth",
+    "caliber:light_blue_concrete_eighth",
+    "caliber:light_blue_terracotta_eighth",
+    "caliber:light_blue_wool_eighth",
+    "caliber:light_gray_concrete_eighth",
+    "caliber:light_gray_terracotta_eighth",
+    "caliber:light_gray_wool_eighth",
+    "caliber:lime_concrete_eighth",
+    "caliber:lime_terracotta_eighth",
+    "caliber:lime_wool_eighth",
+    "caliber:magenta_concrete_eighth",
+    "caliber:magenta_terracotta_eighth",
+    "caliber:magenta_wool_eighth",
+    "caliber:mangrove_eighth",
+    "caliber:mossy_cobblestone_eighth",
+    "caliber:mossy_stone_brick_eighth",
+    "caliber:mud_brick_eighth",
+    "caliber:nether_brick_eighth",
+    "caliber:netherite_eighth",
+    "caliber:oak_eighth",
+    "caliber:obsidian_eighth",
+    "caliber:orange_concrete_eighth",
+    "caliber:orange_terracotta_eighth",
+    "caliber:orange_wool_eighth",
+    "caliber:pink_concrete_eighth",
+    "caliber:pink_terracotta_eighth",
+    "caliber:pink_wool_eighth",
+    "caliber:polished_andesite_eighth",
+    "caliber:polished_basalt_eighth",
+    "caliber:polished_blackstone_eighth",
+    "caliber:polished_blackstone_brick_eighth",
+    "caliber:polished_deepslate_eighth",
+    "caliber:polished_diorite_eighth",
+    "caliber:polished_granite_eighth",
+    "caliber:prismarine_eighth",
+    "caliber:prismarine_brick_eighth",
+    "caliber:purple_concrete_eighth",
+    "caliber:purple_terracotta_eighth",
+    "caliber:purple_wool_eighth",
+    "caliber:purpur_eighth",
+    "caliber:quartz_eighth",
+    "caliber:quartz_brick_eighth",
+    "caliber:red_concrete_eighth",
+    "caliber:red_nether_brick_eighth",
+    "caliber:red_sandstone_eighth",
+    "caliber:red_terracotta_eighth",
+    "caliber:red_wool_eighth",
+    "caliber:sandstone_eighth",
+    "caliber:smooth_basalt_eighth",
+    "caliber:smooth_quartz_eighth",
+    "caliber:smooth_red_sandstone_eighth",
+    "caliber:smooth_sandstone_eighth",
+    "caliber:smooth_stone_eighth",
+    "caliber:spruce_eighth",
+    "caliber:stone_eighth",
+    "caliber:stone_brick_eighth",
+    "caliber:stripped_acacia_eighth",
+    "caliber:stripped_bamboo_eighth",
+    "caliber:stripped_birch_eighth",
+    "caliber:stripped_cherry_eighth",
+    "caliber:stripped_crimson_eighth",
+    "caliber:stripped_dark_oak_eighth",
+    "caliber:stripped_jungle_eighth",
+    "caliber:stripped_mangrove_eighth",
+    "caliber:stripped_oak_eighth",
+    "caliber:stripped_spruce_eighth",
+    "caliber:stripped_warped_eighth",
+    "caliber:terracotta_eighth",
+    "caliber:tuff_eighth",
+    "caliber:warped_eighth",
+    "caliber:white_concrete_eighth",
+    "caliber:white_terracotta_eighth",
+    "caliber:white_wool_eighth",
+    "caliber:yellow_concrete_eighth",
+    "caliber:yellow_terracotta_eighth",
+    "caliber:yellow_wool_eighth",
+    {
+      "id": "biomesoplenty:black_sandstone_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:brimstone_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:brimstone_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_black_sandstone_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_brimstone_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_orange_sandstone_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_white_sandstone_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_black_sandstone_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_orange_sandstone_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_white_sandstone_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:dead_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:hellbark_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_dead_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_fir_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_hellbark_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_jacaranda_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_magic_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_mahogany_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_palm_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_umbran_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_willow_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:argillite_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:baobab_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:black_painted_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blackwood_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_bioshroom_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_painted_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brimwood_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brown_painted_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cobalt_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cyan_painted_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cypress_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:dead_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:eucalyptus_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:gray_painted_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:green_bioshroom_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:green_painted_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:joshua_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:larch_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_blue_painted_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_gray_painted_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:lime_painted_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magenta_painted_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magnolia_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:maple_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mauve_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mossy_stone_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:orange_painted_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:palm_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_bioshroom_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_painted_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:polished_chalk_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:purple_painted_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:red_painted_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redwood_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:socotra_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_baobab_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blackwood_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blue_bioshroom_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_brimwood_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cobalt_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cypress_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_dead_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_eucalyptus_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_green_bioshroom_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_joshua_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_kapok_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_larch_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_magnolia_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_maple_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_mauve_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_palm_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pine_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pink_bioshroom_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_redwood_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_socotra_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_willow_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_yellow_bioshroom_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:white_painted_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:willow_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_bioshroom_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_painted_eighth",
+      "required": false
+    }
   ]
 }

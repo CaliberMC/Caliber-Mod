@@ -1,14 +1,225 @@
 {
   "values": [
-    "biomesoplenty:dead_shingle_roof_peak",
-    "biomesoplenty:fir_shingle_roof_peak",
-    "biomesoplenty:hellbark_shingle_roof_peak",
-    "biomesoplenty:jacaranda_shingle_roof_peak",
-    "biomesoplenty:magic_shingle_roof_peak",
-    "biomesoplenty:mahogany_shingle_roof_peak",
-    "biomesoplenty:palm_shingle_roof_peak",
-    "biomesoplenty:redwood_shingle_roof_peak",
-    "biomesoplenty:umbran_shingle_roof_peak",
-    "biomesoplenty:willow_shingle_roof_peak"
+    "caliber:acacia_shingle_roof_peak",
+    "caliber:bamboo_shingle_roof_peak",
+    "caliber:birch_shingle_roof_peak",
+    "caliber:black_terracotta_roof_peak",
+    "caliber:blue_terracotta_roof_peak",
+    "caliber:brown_terracotta_roof_peak",
+    "caliber:cherry_shingle_roof_peak",
+    "caliber:crimson_shingle_roof_peak",
+    "caliber:cyan_terracotta_roof_peak",
+    "caliber:dark_oak_shingle_roof_peak",
+    "caliber:gray_terracotta_roof_peak",
+    "caliber:green_terracotta_roof_peak",
+    "caliber:jungle_shingle_roof_peak",
+    "caliber:light_blue_terracotta_roof_peak",
+    "caliber:light_gray_terracotta_roof_peak",
+    "caliber:lime_terracotta_roof_peak",
+    "caliber:magenta_terracotta_roof_peak",
+    "caliber:mangrove_shingle_roof_peak",
+    "caliber:oak_shingle_roof_peak",
+    "caliber:orange_terracotta_roof_peak",
+    "caliber:pink_terracotta_roof_peak",
+    "caliber:purple_terracotta_roof_peak",
+    "caliber:red_terracotta_roof_peak",
+    "caliber:slate_tile_roof_peak",
+    "caliber:spruce_shingle_roof_peak",
+    "caliber:terracotta_roof_peak",
+    "caliber:warped_shingle_roof_peak",
+    "caliber:white_terracotta_roof_peak",
+    "caliber:yellow_terracotta_roof_peak",
+    {
+      "id": "biomesoplenty:dead_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:hellbark_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:baobab_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:black_painted_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blackwood_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_bioshroom_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_painted_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brimwood_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brown_painted_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cobalt_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cyan_painted_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cypress_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:dead_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:eucalyptus_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:gray_painted_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:green_bioshroom_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:green_painted_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:joshua_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:larch_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_blue_painted_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_gray_painted_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:lime_painted_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magenta_painted_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magnolia_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:maple_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mauve_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:orange_painted_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:palm_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_bioshroom_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_painted_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:purple_painted_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:red_painted_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redwood_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:socotra_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:white_painted_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:willow_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_bioshroom_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_painted_shingle_roof_peak",
+      "required": false
+    }
   ]
 }

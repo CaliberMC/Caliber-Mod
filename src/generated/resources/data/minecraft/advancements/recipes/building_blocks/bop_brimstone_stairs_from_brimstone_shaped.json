@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_brimstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "biomesoplenty:brimstone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:bop_brimstone_stairs_from_brimstone_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_brimstone",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:bop_brimstone_stairs_from_brimstone_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

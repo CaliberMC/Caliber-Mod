@@ -63,7 +63,6 @@ public class DataGenerators {
             generator.addProvider(event.includeClient(), new ModBlockStateProvider(generator, "biomesoplenty", existingFileHelper));
             generator.addProvider(event.includeClient(), new ModItemModelProvider(generator, "biomesoplenty", existingFileHelper));
 
-//            generator.addProvider(event.includeServer(), new ModBlockTagProvider(packOutput, lookupProvider, "biomesoplenty", existingFileHelper));
             generator.addProvider(event.includeServer(), new ModLootTableProvider(generator, () -> new ModBlockLootTables("biomesoplenty") {
                 @Override
                 protected @NotNull Iterable<Block> getKnownBlocks() {
@@ -76,7 +75,6 @@ public class DataGenerators {
             generator.addProvider(event.includeClient(), new ModBlockStateProvider(generator, "regions_unexplored", existingFileHelper));
             generator.addProvider(event.includeClient(), new ModItemModelProvider(generator, "regions_unexplored", existingFileHelper));
 
-//            generator.addProvider(event.includeServer(), new ModBlockTagProvider(packOutput, lookupProvider, "regions_unexplored", existingFileHelper));
             generator.addProvider(event.includeServer(), new ModLootTableProvider(generator, () -> new ModBlockLootTables("regions_unexplored") {
                 @Override
                 protected @NotNull Iterable<Block> getKnownBlocks() {

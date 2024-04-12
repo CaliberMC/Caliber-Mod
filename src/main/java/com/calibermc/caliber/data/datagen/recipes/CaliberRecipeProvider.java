@@ -26,6 +26,8 @@ import java.util.*;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
 
+import static com.calibermc.caliber.compat.ModCompats.blockManagerMODID;
+
 public class CaliberRecipeProvider extends RecipeProvider implements IConditionBuilder {
 
     public CaliberRecipeProvider(DataGenerator pGenerator) {
@@ -34,15 +36,8 @@ public class CaliberRecipeProvider extends RecipeProvider implements IConditionB
 
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> recipeConsumer) {
-        List<String> blockManagerKeys = new ArrayList<>(Arrays.asList(Caliber.MOD_ID));
-        if (ModCompats.BOP) {
-            blockManagerKeys.add("biomesoplenty");
-        }
-        if (ModCompats.REGIONS_UNEXPLORED) {
-            blockManagerKeys.add("regions_unexplored");
-        }
 
-        for (String blockManagerKey : blockManagerKeys) {
+        for (String blockManagerKey : blockManagerMODID) {
             for (BlockManager blockManager : BlockManager.BLOCK_MANAGERS.get(blockManagerKey)) {
                 try {
                     if (blockManager.baseBlock() != null) {

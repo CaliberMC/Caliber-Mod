@@ -1,34 +1,504 @@
 {
   "values": [
-    "biomesoplenty:black_sandstone_layer",
-    "biomesoplenty:brimstone_layer",
-    "biomesoplenty:brimstone_brick_layer",
-    "biomesoplenty:chiseled_black_sandstone_layer",
-    "biomesoplenty:chiseled_brimstone_brick_layer",
-    "biomesoplenty:chiseled_orange_sandstone_layer",
-    "biomesoplenty:chiseled_white_sandstone_layer",
-    "biomesoplenty:cut_black_sandstone_layer",
-    "biomesoplenty:cut_orange_sandstone_layer",
-    "biomesoplenty:cut_white_sandstone_layer",
-    "biomesoplenty:dead_layer",
-    "biomesoplenty:fir_layer",
-    "biomesoplenty:hellbark_layer",
-    "biomesoplenty:jacaranda_layer",
-    "biomesoplenty:magic_layer",
-    "biomesoplenty:mahogany_layer",
-    "biomesoplenty:palm_layer",
-    "biomesoplenty:redwood_layer",
-    "biomesoplenty:umbran_layer",
-    "biomesoplenty:willow_layer",
-    "biomesoplenty:stripped_dead_layer",
-    "biomesoplenty:stripped_fir_layer",
-    "biomesoplenty:stripped_hellbark_layer",
-    "biomesoplenty:stripped_jacaranda_layer",
-    "biomesoplenty:stripped_magic_layer",
-    "biomesoplenty:stripped_mahogany_layer",
-    "biomesoplenty:stripped_palm_layer",
-    "biomesoplenty:stripped_redwood_layer",
-    "biomesoplenty:stripped_umbran_layer",
-    "biomesoplenty:stripped_willow_layer"
+    "caliber:acacia_layer",
+    "caliber:andesite_layer",
+    "caliber:bamboo_mosaic_layer",
+    "caliber:bamboo_layer",
+    "caliber:basalt_layer",
+    "caliber:birch_layer",
+    "caliber:black_concrete_layer",
+    "caliber:black_terracotta_layer",
+    "caliber:black_wool_layer",
+    "caliber:blackstone_layer",
+    "caliber:blue_concrete_layer",
+    "caliber:blue_terracotta_layer",
+    "caliber:blue_wool_layer",
+    "caliber:brick_layer",
+    "caliber:brown_concrete_layer",
+    "caliber:brown_terracotta_layer",
+    "caliber:brown_wool_layer",
+    "caliber:calcite_layer",
+    "caliber:cherry_layer",
+    "caliber:cobbled_deepslate_layer",
+    "caliber:cobblestone_layer",
+    "caliber:crimson_layer",
+    "caliber:cut_red_sandstone_layer",
+    "caliber:cut_sandstone_layer",
+    "caliber:cyan_concrete_layer",
+    "caliber:cyan_terracotta_layer",
+    "caliber:cyan_wool_layer",
+    "caliber:dark_oak_layer",
+    "caliber:dark_prismarine_layer",
+    "caliber:deepslate_layer",
+    "caliber:deepslate_brick_layer",
+    "caliber:deepslate_tile_layer",
+    "caliber:diorite_layer",
+    "caliber:dripstone_layer",
+    "caliber:end_stone_layer",
+    "caliber:end_stone_brick_layer",
+    "caliber:gilded_blackstone_layer",
+    "caliber:granite_layer",
+    "caliber:gray_concrete_layer",
+    "caliber:gray_terracotta_layer",
+    "caliber:gray_wool_layer",
+    "caliber:green_concrete_layer",
+    "caliber:green_terracotta_layer",
+    "caliber:green_wool_layer",
+    "caliber:jungle_layer",
+    "caliber:light_blue_concrete_layer",
+    "caliber:light_blue_terracotta_layer",
+    "caliber:light_blue_wool_layer",
+    "caliber:light_gray_concrete_layer",
+    "caliber:light_gray_terracotta_layer",
+    "caliber:light_gray_wool_layer",
+    "caliber:lime_concrete_layer",
+    "caliber:lime_terracotta_layer",
+    "caliber:lime_wool_layer",
+    "caliber:magenta_concrete_layer",
+    "caliber:magenta_terracotta_layer",
+    "caliber:magenta_wool_layer",
+    "caliber:mangrove_layer",
+    "caliber:mossy_cobblestone_layer",
+    "caliber:mossy_stone_brick_layer",
+    "caliber:mud_brick_layer",
+    "caliber:nether_brick_layer",
+    "caliber:netherite_layer",
+    "caliber:oak_layer",
+    "caliber:obsidian_layer",
+    "caliber:orange_concrete_layer",
+    "caliber:orange_terracotta_layer",
+    "caliber:orange_wool_layer",
+    "caliber:pink_concrete_layer",
+    "caliber:pink_terracotta_layer",
+    "caliber:pink_wool_layer",
+    "caliber:polished_andesite_layer",
+    "caliber:polished_basalt_layer",
+    "caliber:polished_blackstone_layer",
+    "caliber:polished_blackstone_brick_layer",
+    "caliber:polished_deepslate_layer",
+    "caliber:polished_diorite_layer",
+    "caliber:polished_granite_layer",
+    "caliber:prismarine_layer",
+    "caliber:prismarine_brick_layer",
+    "caliber:purple_concrete_layer",
+    "caliber:purple_terracotta_layer",
+    "caliber:purple_wool_layer",
+    "caliber:purpur_layer",
+    "caliber:quartz_layer",
+    "caliber:quartz_brick_layer",
+    "caliber:red_concrete_layer",
+    "caliber:red_nether_brick_layer",
+    "caliber:red_sandstone_layer",
+    "caliber:red_terracotta_layer",
+    "caliber:red_wool_layer",
+    "caliber:sandstone_layer",
+    "caliber:smooth_basalt_layer",
+    "caliber:smooth_quartz_layer",
+    "caliber:smooth_red_sandstone_layer",
+    "caliber:smooth_sandstone_layer",
+    "caliber:smooth_stone_layer",
+    "caliber:spruce_layer",
+    "caliber:stone_layer",
+    "caliber:stone_brick_layer",
+    "caliber:stripped_acacia_layer",
+    "caliber:stripped_bamboo_layer",
+    "caliber:stripped_birch_layer",
+    "caliber:stripped_cherry_layer",
+    "caliber:stripped_crimson_layer",
+    "caliber:stripped_dark_oak_layer",
+    "caliber:stripped_jungle_layer",
+    "caliber:stripped_mangrove_layer",
+    "caliber:stripped_oak_layer",
+    "caliber:stripped_spruce_layer",
+    "caliber:stripped_warped_layer",
+    "caliber:terracotta_layer",
+    "caliber:tuff_layer",
+    "caliber:warped_layer",
+    "caliber:white_concrete_layer",
+    "caliber:white_terracotta_layer",
+    "caliber:white_wool_layer",
+    "caliber:yellow_concrete_layer",
+    "caliber:yellow_terracotta_layer",
+    "caliber:yellow_wool_layer",
+    {
+      "id": "biomesoplenty:black_sandstone_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:brimstone_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:brimstone_brick_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_black_sandstone_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_brimstone_brick_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_orange_sandstone_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_white_sandstone_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_black_sandstone_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_orange_sandstone_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_white_sandstone_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:dead_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:hellbark_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_dead_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_fir_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_hellbark_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_jacaranda_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_magic_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_mahogany_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_palm_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_umbran_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_willow_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:argillite_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:baobab_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:black_painted_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blackwood_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_bioshroom_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_painted_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brimwood_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brown_painted_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_brick_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cobalt_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cyan_painted_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cypress_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:dead_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:eucalyptus_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:gray_painted_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:green_bioshroom_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:green_painted_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:joshua_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:larch_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_blue_painted_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_gray_painted_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:lime_painted_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magenta_painted_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magnolia_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:maple_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mauve_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mossy_stone_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:orange_painted_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:palm_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_bioshroom_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_painted_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:polished_chalk_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:purple_painted_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:red_painted_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redwood_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:socotra_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_baobab_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blackwood_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blue_bioshroom_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_brimwood_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cobalt_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cypress_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_dead_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_eucalyptus_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_green_bioshroom_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_joshua_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_kapok_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_larch_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_magnolia_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_maple_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_mauve_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_palm_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pine_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pink_bioshroom_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_redwood_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_socotra_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_willow_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_yellow_bioshroom_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:white_painted_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:willow_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_bioshroom_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_painted_layer",
+      "required": false
+    }
   ]
 }

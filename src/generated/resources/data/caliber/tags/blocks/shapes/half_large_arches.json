@@ -1,14 +1,145 @@
 {
   "values": [
-    "biomesoplenty:black_sandstone_arch_large_half",
-    "biomesoplenty:brimstone_arch_large_half",
-    "biomesoplenty:brimstone_brick_arch_large_half",
-    "biomesoplenty:chiseled_black_sandstone_arch_large_half",
-    "biomesoplenty:chiseled_brimstone_brick_arch_large_half",
-    "biomesoplenty:chiseled_orange_sandstone_arch_large_half",
-    "biomesoplenty:chiseled_white_sandstone_arch_large_half",
-    "biomesoplenty:cut_black_sandstone_arch_large_half",
-    "biomesoplenty:cut_orange_sandstone_arch_large_half",
-    "biomesoplenty:cut_white_sandstone_arch_large_half"
+    "caliber:andesite_arch_large_half",
+    "caliber:basalt_arch_large_half",
+    "caliber:black_concrete_arch_large_half",
+    "caliber:black_terracotta_arch_large_half",
+    "caliber:blackstone_arch_large_half",
+    "caliber:blue_concrete_arch_large_half",
+    "caliber:blue_terracotta_arch_large_half",
+    "caliber:brick_arch_large_half",
+    "caliber:brown_concrete_arch_large_half",
+    "caliber:brown_terracotta_arch_large_half",
+    "caliber:calcite_arch_large_half",
+    "caliber:cobbled_deepslate_arch_large_half",
+    "caliber:cobblestone_arch_large_half",
+    "caliber:cut_red_sandstone_arch_large_half",
+    "caliber:cut_sandstone_arch_large_half",
+    "caliber:cyan_concrete_arch_large_half",
+    "caliber:cyan_terracotta_arch_large_half",
+    "caliber:dark_prismarine_arch_large_half",
+    "caliber:deepslate_arch_large_half",
+    "caliber:deepslate_brick_arch_large_half",
+    "caliber:deepslate_tile_arch_large_half",
+    "caliber:diorite_arch_large_half",
+    "caliber:dripstone_arch_large_half",
+    "caliber:end_stone_arch_large_half",
+    "caliber:end_stone_brick_arch_large_half",
+    "caliber:gilded_blackstone_arch_large_half",
+    "caliber:granite_arch_large_half",
+    "caliber:gray_concrete_arch_large_half",
+    "caliber:gray_terracotta_arch_large_half",
+    "caliber:green_concrete_arch_large_half",
+    "caliber:green_terracotta_arch_large_half",
+    "caliber:light_blue_concrete_arch_large_half",
+    "caliber:light_blue_terracotta_arch_large_half",
+    "caliber:light_gray_concrete_arch_large_half",
+    "caliber:light_gray_terracotta_arch_large_half",
+    "caliber:lime_concrete_arch_large_half",
+    "caliber:lime_terracotta_arch_large_half",
+    "caliber:magenta_concrete_arch_large_half",
+    "caliber:magenta_terracotta_arch_large_half",
+    "caliber:mossy_cobblestone_arch_large_half",
+    "caliber:mossy_stone_brick_arch_large_half",
+    "caliber:mud_brick_arch_large_half",
+    "caliber:nether_brick_arch_large_half",
+    "caliber:netherite_arch_large_half",
+    "caliber:obsidian_arch_large_half",
+    "caliber:orange_concrete_arch_large_half",
+    "caliber:orange_terracotta_arch_large_half",
+    "caliber:pink_concrete_arch_large_half",
+    "caliber:pink_terracotta_arch_large_half",
+    "caliber:polished_andesite_arch_large_half",
+    "caliber:polished_basalt_arch_large_half",
+    "caliber:polished_blackstone_arch_large_half",
+    "caliber:polished_blackstone_brick_arch_large_half",
+    "caliber:polished_deepslate_arch_large_half",
+    "caliber:polished_diorite_arch_large_half",
+    "caliber:polished_granite_arch_large_half",
+    "caliber:prismarine_arch_large_half",
+    "caliber:prismarine_brick_arch_large_half",
+    "caliber:purple_concrete_arch_large_half",
+    "caliber:purple_terracotta_arch_large_half",
+    "caliber:purpur_arch_large_half",
+    "caliber:quartz_arch_large_half",
+    "caliber:quartz_brick_arch_large_half",
+    "caliber:red_concrete_arch_large_half",
+    "caliber:red_nether_brick_arch_large_half",
+    "caliber:red_sandstone_arch_large_half",
+    "caliber:red_terracotta_arch_large_half",
+    "caliber:sandstone_arch_large_half",
+    "caliber:smooth_basalt_arch_large_half",
+    "caliber:smooth_quartz_arch_large_half",
+    "caliber:smooth_red_sandstone_arch_large_half",
+    "caliber:smooth_sandstone_arch_large_half",
+    "caliber:smooth_stone_arch_large_half",
+    "caliber:stone_arch_large_half",
+    "caliber:stone_brick_arch_large_half",
+    "caliber:terracotta_arch_large_half",
+    "caliber:tuff_arch_large_half",
+    "caliber:white_concrete_arch_large_half",
+    "caliber:white_terracotta_arch_large_half",
+    "caliber:yellow_concrete_arch_large_half",
+    "caliber:yellow_terracotta_arch_large_half",
+    {
+      "id": "biomesoplenty:black_sandstone_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:brimstone_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:brimstone_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_black_sandstone_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_brimstone_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_orange_sandstone_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_white_sandstone_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_black_sandstone_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_orange_sandstone_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_white_sandstone_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:argillite_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mossy_stone_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:polished_chalk_arch_large_half",
+      "required": false
+    }
   ]
 }

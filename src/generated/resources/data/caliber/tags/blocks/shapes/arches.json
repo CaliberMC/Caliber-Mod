@@ -1,14 +1,529 @@
 {
   "values": [
-    "biomesoplenty:black_sandstone_arch",
-    "biomesoplenty:brimstone_arch",
-    "biomesoplenty:brimstone_brick_arch",
-    "biomesoplenty:chiseled_black_sandstone_arch",
-    "biomesoplenty:chiseled_brimstone_brick_arch",
-    "biomesoplenty:chiseled_orange_sandstone_arch",
-    "biomesoplenty:chiseled_white_sandstone_arch",
-    "biomesoplenty:cut_black_sandstone_arch",
-    "biomesoplenty:cut_orange_sandstone_arch",
-    "biomesoplenty:cut_white_sandstone_arch"
+    {
+      "id": "caliber:andesite_arch",
+      "required": false
+    },
+    "caliber:andesite_arch",
+    {
+      "id": "caliber:basalt_arch",
+      "required": false
+    },
+    "caliber:basalt_arch",
+    {
+      "id": "caliber:black_concrete_arch",
+      "required": false
+    },
+    "caliber:black_concrete_arch",
+    {
+      "id": "caliber:black_terracotta_arch",
+      "required": false
+    },
+    "caliber:black_terracotta_arch",
+    {
+      "id": "caliber:blackstone_arch",
+      "required": false
+    },
+    "caliber:blackstone_arch",
+    {
+      "id": "caliber:blue_concrete_arch",
+      "required": false
+    },
+    "caliber:blue_concrete_arch",
+    {
+      "id": "caliber:blue_terracotta_arch",
+      "required": false
+    },
+    "caliber:blue_terracotta_arch",
+    {
+      "id": "caliber:brick_arch",
+      "required": false
+    },
+    "caliber:brick_arch",
+    {
+      "id": "caliber:brown_concrete_arch",
+      "required": false
+    },
+    "caliber:brown_concrete_arch",
+    {
+      "id": "caliber:brown_terracotta_arch",
+      "required": false
+    },
+    "caliber:brown_terracotta_arch",
+    {
+      "id": "caliber:calcite_arch",
+      "required": false
+    },
+    "caliber:calcite_arch",
+    {
+      "id": "caliber:cobbled_deepslate_arch",
+      "required": false
+    },
+    "caliber:cobbled_deepslate_arch",
+    {
+      "id": "caliber:cobblestone_arch",
+      "required": false
+    },
+    "caliber:cobblestone_arch",
+    {
+      "id": "caliber:cut_red_sandstone_arch",
+      "required": false
+    },
+    "caliber:cut_red_sandstone_arch",
+    {
+      "id": "caliber:cut_sandstone_arch",
+      "required": false
+    },
+    "caliber:cut_sandstone_arch",
+    {
+      "id": "caliber:cyan_concrete_arch",
+      "required": false
+    },
+    "caliber:cyan_concrete_arch",
+    {
+      "id": "caliber:cyan_terracotta_arch",
+      "required": false
+    },
+    "caliber:cyan_terracotta_arch",
+    {
+      "id": "caliber:dark_prismarine_arch",
+      "required": false
+    },
+    "caliber:dark_prismarine_arch",
+    {
+      "id": "caliber:deepslate_arch",
+      "required": false
+    },
+    "caliber:deepslate_arch",
+    {
+      "id": "caliber:deepslate_brick_arch",
+      "required": false
+    },
+    "caliber:deepslate_brick_arch",
+    {
+      "id": "caliber:deepslate_tile_arch",
+      "required": false
+    },
+    "caliber:deepslate_tile_arch",
+    {
+      "id": "caliber:diorite_arch",
+      "required": false
+    },
+    "caliber:diorite_arch",
+    {
+      "id": "caliber:dripstone_arch",
+      "required": false
+    },
+    "caliber:dripstone_arch",
+    {
+      "id": "caliber:end_stone_arch",
+      "required": false
+    },
+    "caliber:end_stone_arch",
+    {
+      "id": "caliber:end_stone_brick_arch",
+      "required": false
+    },
+    "caliber:end_stone_brick_arch",
+    {
+      "id": "caliber:gilded_blackstone_arch",
+      "required": false
+    },
+    "caliber:gilded_blackstone_arch",
+    {
+      "id": "caliber:granite_arch",
+      "required": false
+    },
+    "caliber:granite_arch",
+    {
+      "id": "caliber:gray_concrete_arch",
+      "required": false
+    },
+    "caliber:gray_concrete_arch",
+    {
+      "id": "caliber:gray_terracotta_arch",
+      "required": false
+    },
+    "caliber:gray_terracotta_arch",
+    {
+      "id": "caliber:green_concrete_arch",
+      "required": false
+    },
+    "caliber:green_concrete_arch",
+    {
+      "id": "caliber:green_terracotta_arch",
+      "required": false
+    },
+    "caliber:green_terracotta_arch",
+    {
+      "id": "caliber:light_blue_concrete_arch",
+      "required": false
+    },
+    "caliber:light_blue_concrete_arch",
+    {
+      "id": "caliber:light_blue_terracotta_arch",
+      "required": false
+    },
+    "caliber:light_blue_terracotta_arch",
+    {
+      "id": "caliber:light_gray_concrete_arch",
+      "required": false
+    },
+    "caliber:light_gray_concrete_arch",
+    {
+      "id": "caliber:light_gray_terracotta_arch",
+      "required": false
+    },
+    "caliber:light_gray_terracotta_arch",
+    {
+      "id": "caliber:lime_concrete_arch",
+      "required": false
+    },
+    "caliber:lime_concrete_arch",
+    {
+      "id": "caliber:lime_terracotta_arch",
+      "required": false
+    },
+    "caliber:lime_terracotta_arch",
+    {
+      "id": "caliber:magenta_concrete_arch",
+      "required": false
+    },
+    "caliber:magenta_concrete_arch",
+    {
+      "id": "caliber:magenta_terracotta_arch",
+      "required": false
+    },
+    "caliber:magenta_terracotta_arch",
+    {
+      "id": "caliber:mossy_cobblestone_arch",
+      "required": false
+    },
+    "caliber:mossy_cobblestone_arch",
+    {
+      "id": "caliber:mossy_stone_brick_arch",
+      "required": false
+    },
+    "caliber:mossy_stone_brick_arch",
+    {
+      "id": "caliber:mud_brick_arch",
+      "required": false
+    },
+    "caliber:mud_brick_arch",
+    {
+      "id": "caliber:nether_brick_arch",
+      "required": false
+    },
+    "caliber:nether_brick_arch",
+    {
+      "id": "caliber:netherite_arch",
+      "required": false
+    },
+    "caliber:netherite_arch",
+    {
+      "id": "caliber:obsidian_arch",
+      "required": false
+    },
+    "caliber:obsidian_arch",
+    {
+      "id": "caliber:orange_concrete_arch",
+      "required": false
+    },
+    "caliber:orange_concrete_arch",
+    {
+      "id": "caliber:orange_terracotta_arch",
+      "required": false
+    },
+    "caliber:orange_terracotta_arch",
+    {
+      "id": "caliber:pink_concrete_arch",
+      "required": false
+    },
+    "caliber:pink_concrete_arch",
+    {
+      "id": "caliber:pink_terracotta_arch",
+      "required": false
+    },
+    "caliber:pink_terracotta_arch",
+    {
+      "id": "caliber:polished_andesite_arch",
+      "required": false
+    },
+    "caliber:polished_andesite_arch",
+    {
+      "id": "caliber:polished_basalt_arch",
+      "required": false
+    },
+    "caliber:polished_basalt_arch",
+    {
+      "id": "caliber:polished_blackstone_arch",
+      "required": false
+    },
+    "caliber:polished_blackstone_arch",
+    {
+      "id": "caliber:polished_blackstone_brick_arch",
+      "required": false
+    },
+    "caliber:polished_blackstone_brick_arch",
+    {
+      "id": "caliber:polished_deepslate_arch",
+      "required": false
+    },
+    "caliber:polished_deepslate_arch",
+    {
+      "id": "caliber:polished_diorite_arch",
+      "required": false
+    },
+    "caliber:polished_diorite_arch",
+    {
+      "id": "caliber:polished_granite_arch",
+      "required": false
+    },
+    "caliber:polished_granite_arch",
+    {
+      "id": "caliber:prismarine_arch",
+      "required": false
+    },
+    "caliber:prismarine_arch",
+    {
+      "id": "caliber:prismarine_brick_arch",
+      "required": false
+    },
+    "caliber:prismarine_brick_arch",
+    {
+      "id": "caliber:purple_concrete_arch",
+      "required": false
+    },
+    "caliber:purple_concrete_arch",
+    {
+      "id": "caliber:purple_terracotta_arch",
+      "required": false
+    },
+    "caliber:purple_terracotta_arch",
+    {
+      "id": "caliber:purpur_arch",
+      "required": false
+    },
+    "caliber:purpur_arch",
+    {
+      "id": "caliber:quartz_arch",
+      "required": false
+    },
+    "caliber:quartz_arch",
+    {
+      "id": "caliber:quartz_brick_arch",
+      "required": false
+    },
+    "caliber:quartz_brick_arch",
+    {
+      "id": "caliber:red_concrete_arch",
+      "required": false
+    },
+    "caliber:red_concrete_arch",
+    {
+      "id": "caliber:red_nether_brick_arch",
+      "required": false
+    },
+    "caliber:red_nether_brick_arch",
+    {
+      "id": "caliber:red_sandstone_arch",
+      "required": false
+    },
+    "caliber:red_sandstone_arch",
+    {
+      "id": "caliber:red_terracotta_arch",
+      "required": false
+    },
+    "caliber:red_terracotta_arch",
+    {
+      "id": "caliber:sandstone_arch",
+      "required": false
+    },
+    "caliber:sandstone_arch",
+    {
+      "id": "caliber:smooth_basalt_arch",
+      "required": false
+    },
+    "caliber:smooth_basalt_arch",
+    {
+      "id": "caliber:smooth_quartz_arch",
+      "required": false
+    },
+    "caliber:smooth_quartz_arch",
+    {
+      "id": "caliber:smooth_red_sandstone_arch",
+      "required": false
+    },
+    "caliber:smooth_red_sandstone_arch",
+    {
+      "id": "caliber:smooth_sandstone_arch",
+      "required": false
+    },
+    "caliber:smooth_sandstone_arch",
+    {
+      "id": "caliber:smooth_stone_arch",
+      "required": false
+    },
+    "caliber:smooth_stone_arch",
+    {
+      "id": "caliber:stone_arch",
+      "required": false
+    },
+    "caliber:stone_arch",
+    {
+      "id": "caliber:stone_brick_arch",
+      "required": false
+    },
+    "caliber:stone_brick_arch",
+    {
+      "id": "caliber:terracotta_arch",
+      "required": false
+    },
+    "caliber:terracotta_arch",
+    {
+      "id": "caliber:tuff_arch",
+      "required": false
+    },
+    "caliber:tuff_arch",
+    {
+      "id": "caliber:white_concrete_arch",
+      "required": false
+    },
+    "caliber:white_concrete_arch",
+    {
+      "id": "caliber:white_terracotta_arch",
+      "required": false
+    },
+    "caliber:white_terracotta_arch",
+    {
+      "id": "caliber:yellow_concrete_arch",
+      "required": false
+    },
+    "caliber:yellow_concrete_arch",
+    {
+      "id": "caliber:yellow_terracotta_arch",
+      "required": false
+    },
+    "caliber:yellow_terracotta_arch",
+    {
+      "id": "biomesoplenty:black_sandstone_arch",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:black_sandstone_arch",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:brimstone_arch",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:brimstone_arch",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:brimstone_brick_arch",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:brimstone_brick_arch",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_black_sandstone_arch",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_black_sandstone_arch",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_brimstone_brick_arch",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_brimstone_brick_arch",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_orange_sandstone_arch",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_orange_sandstone_arch",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_white_sandstone_arch",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_white_sandstone_arch",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_black_sandstone_arch",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_black_sandstone_arch",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_orange_sandstone_arch",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_orange_sandstone_arch",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_white_sandstone_arch",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_white_sandstone_arch",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:argillite_arch",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:argillite_arch",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_arch",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_arch",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_brick_arch",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_brick_arch",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mossy_stone_arch",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mossy_stone_arch",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:polished_chalk_arch",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:polished_chalk_arch",
+      "required": false
+    }
   ]
 }
