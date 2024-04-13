@@ -179,7 +179,8 @@ repositories {
         url = "https://api.modrinth.com/maven"
     }
     maven {
-        url "https://cursemaven.com" }
+        url "https://cursemaven.com"
+    }
     mavenLocal()
 }
 
@@ -209,13 +210,10 @@ dependencies {
     implementation fg.deobf("com.calibermc.caliberlib:caliberlib:${caliber_lib_version}-${minecraft_version}") // maven local
 
     // COMPAT
+    implementation fg.deobf("curse.maven:terrablender-563928:4573003")
     implementation fg.deobf("curse.maven:biomesoplenty-220318:4764804")
     implementation fg.deobf("maven.modrinth:regions-unexplored:${regions_unexplored_version}+${minecraft_version}-forge")
 
-//    compileOnly fg.deobf("net.regions_unexplored:REGIONS_UNEXPLORED_FORGE:${regions_unexplored_version}+${minecraft_version}")
-//    compileOnly fg.deobf("com.github.glitchfiend:TerraBlender-forge:${minecraft_version}-${terrablender_version}")
-
-    implementation fg.deobf("curse.maven:terrablender-563928:4573003")
     // jarJar
 //    implementation(fg.deobf(jarJar("com.calibermc.caliberlib:caliberlib:0.0.1") {
 //        jarJar.ranged(it, "[0.0,)")
@@ -243,8 +241,12 @@ def replaceProperties = [
         loader_version_range: loader_version_range,
         mod_id: mod_id, mod_name: mod_name, mod_license: mod_license, mod_version: mod_version, pub_version: pub_version,
         mod_authors: mod_authors, mod_description: mod_description,
+        buildify_version: buildify_version,
         buildify_version_range: buildify_version_range,
+        caliber_lib_version: caliber_lib_version,
         caliber_lib_version_range: caliber_lib_version_range,
+        terrablender_version: terrablender_version,
+        terrablender_version_range: terrablender_version_range,
         biomesoplenty_version: biomesoplenty_version,
         biomesoplenty_version_range: biomesoplenty_version_range,
         regions_unexplored_version: regions_unexplored_version,

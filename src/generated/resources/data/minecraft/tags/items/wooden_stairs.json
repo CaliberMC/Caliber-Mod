@@ -1,0 +1,139 @@
+{
+  "values": [
+    "caliber:stripped_acacia_stairs",
+    "caliber:stripped_bamboo_stairs",
+    "caliber:stripped_birch_stairs",
+    "caliber:stripped_cherry_stairs",
+    "caliber:stripped_crimson_stairs",
+    "caliber:stripped_dark_oak_stairs",
+    "caliber:stripped_jungle_stairs",
+    "caliber:stripped_mangrove_stairs",
+    "caliber:stripped_oak_stairs",
+    "caliber:stripped_spruce_stairs",
+    "caliber:stripped_warped_stairs",
+    {
+      "id": "biomesoplenty:stripped_dead_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_fir_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_hellbark_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_jacaranda_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_magic_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_mahogany_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_palm_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_umbran_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_willow_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_baobab_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blackwood_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blue_bioshroom_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_brimwood_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cobalt_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cypress_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_dead_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_eucalyptus_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_joshua_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_kapok_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_larch_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_magnolia_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_maple_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_mauve_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_palm_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pine_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pink_bioshroom_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_redwood_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_socotra_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_willow_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_yellow_bioshroom_stairs",
+      "required": false
+    }
+  ]
+}

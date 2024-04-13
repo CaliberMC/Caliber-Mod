@@ -18,12 +18,11 @@ public class CaliberBlockTagProvider extends ModBlockTagProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
+
         for (String modid : blockManagerMODID) {
             this.modid = modid;
             super.addTags(pProvider);
         }
-
-
     }
 }
 

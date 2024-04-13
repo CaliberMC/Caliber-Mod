@@ -10,6 +10,8 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
 
+import static com.calibermc.caliber.compat.ModCompats.blockManagerMODID;
+
 public class CaliberItemTagProvider extends ModItemTagProvider {
     public CaliberItemTagProvider(PackOutput pOutput, CompletableFuture<HolderLookup.Provider> pLookupProvider,
                                   CompletableFuture<TagLookup<Block>> pBlockTags, @Nullable ExistingFileHelper existingFileHelper) {
@@ -19,8 +21,10 @@ public class CaliberItemTagProvider extends ModItemTagProvider {
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
 
-        super.addTags(pProvider);
-
+        for (String modid : blockManagerMODID) {
+            this.modid = modid;
+            super.addTags(pProvider);
+        }
     }
 }
 

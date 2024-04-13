@@ -1,3 +1,4 @@
-// 1.20.1	2024-04-11T17:16:28.8140312	Tags for minecraft:item mod id caliber
-bbee76814372e57a6b5ea09ab1ecb0d452bedc1d data/minecraft/tags/items/non_flammable_wood.json
-431e8230a3bc90c0e3a77d20bcc12ec4aaa55ea3 data/minecraft/tags/items/stairs.json
+// 1.20.1	2024-04-13T16:32:39.7557007	Tags for minecraft:item mod id caliber
+026349245faeca668746b49792079290af0d9661 data/minecraft/tags/items/non_flammable_wood.json
+91f854a01bf67f433bb0752e1d9045f46a8cf0dd data/minecraft/tags/items/stairs.json
+c0ec0e8cc2098cab4830cd9fe3fe8c571b0f2af1 data/minecraft/tags/items/wooden_stairs.json

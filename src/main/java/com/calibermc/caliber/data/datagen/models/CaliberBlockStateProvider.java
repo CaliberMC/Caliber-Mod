@@ -1,11 +1,8 @@
 package com.calibermc.caliber.data.datagen.models;
 
 import com.calibermc.caliber.Caliber;
-import com.calibermc.caliber.block.CaliberBlocks;
-import com.calibermc.caliberlib.block.custom.TallDoorBlock;
 import com.calibermc.caliberlib.data.datagen.ModBlockStateProvider;
 import net.minecraft.data.DataGenerator;
-import net.minecraft.world.level.block.*;
 import net.minecraftforge.common.data.ExistingFileHelper;
 
 public class CaliberBlockStateProvider extends ModBlockStateProvider {
