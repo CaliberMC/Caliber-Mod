@@ -57,13 +57,20 @@ public class CaliberBlockFamilies {
             .stairs(Blocks.POLISHED_BLACKSTONE_STAIRS)
             .wall(Blocks.POLISHED_BLACKSTONE_WALL)
             .getFamily();
+    public static final ModBlockFamily CHISELED_POLISHED_BLACKSTONE = familyBuilder(Blocks.CHISELED_POLISHED_BLACKSTONE)
+            .fromManager(CaliberBlocks.CHISELED_POLISHED_BLACKSTONE)
+            .getFamily();
     public static final ModBlockFamily POLISHED_BLACKSTONE_BRICK = familyBuilder(Blocks.POLISHED_BLACKSTONE_BRICKS)
             .fromManager(CaliberBlocks.POLISHED_BLACKSTONE_BRICK)
             .slab(Blocks.POLISHED_BLACKSTONE_BRICK_SLAB)
             .stairs(Blocks.POLISHED_BLACKSTONE_BRICK_STAIRS)
             .wall(Blocks.POLISHED_BLACKSTONE_BRICK_WALL)
             .getFamily();
-    
+    public static final ModBlockFamily CRACKED_POLISHED_BLACKSTONE_BRICK = familyBuilder(Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS)
+            .fromManager(CaliberBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK)
+            .getFamily();
+
+
     /* Brick */
     public static final ModBlockFamily BRICKS = familyBuilder(Blocks.BRICKS)
             .fromManager(CaliberBlocks.BRICK)
@@ -96,6 +103,9 @@ public class CaliberBlockFamilies {
             .stairs(Blocks.DEEPSLATE_TILE_STAIRS)
             .wall(Blocks.DEEPSLATE_TILE_WALL)
             .fromManager(CaliberBlocks.SLATE_TILE)
+            .getFamily();
+    public static final ModBlockFamily CRACKED_DEEPSLATE_TILES = familyBuilder(Blocks.CRACKED_DEEPSLATE_TILES)
+            .fromManager(CaliberBlocks.CRACKED_DEEPSLATE_TILE)
             .getFamily();
     public static final ModBlockFamily COBBLED_DEEPSLATE = familyBuilder(Blocks.COBBLED_DEEPSLATE)
             .fromManager(CaliberBlocks.COBBLED_DEEPSLATE)
