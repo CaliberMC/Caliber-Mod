@@ -19,8 +19,17 @@
     "caliber:brown_wool_window_half",
     "caliber:calcite_window_half",
     "caliber:cherry_window_half",
+    "caliber:chiseled_deepslate_window_half",
+    "caliber:chiseled_polished_blackstone_window_half",
+    "caliber:chiseled_red_sandstone_window_half",
+    "caliber:chiseled_sandstone_window_half",
+    "caliber:chiseled_stone_brick_window_half",
     "caliber:cobbled_deepslate_window_half",
     "caliber:cobblestone_window_half",
+    "caliber:cracked_deepslate_brick_window_half",
+    "caliber:cracked_deepslate_tile_window_half",
+    "caliber:cracked_polished_blackstone_brick_window_half",
+    "caliber:cracked_stone_brick_window_half",
     "caliber:crimson_window_half",
     "caliber:cut_red_sandstone_window_half",
     "caliber:cut_sandstone_window_half",
@@ -273,11 +282,15 @@
       "required": false
     },
     {
-      "id": "regions_unexplored:chalk_window_half",
+      "id": "regions_unexplored:chalk_block_window_half",
       "required": false
     },
     {
       "id": "regions_unexplored:chalk_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_window_half",
       "required": false
     },
     {

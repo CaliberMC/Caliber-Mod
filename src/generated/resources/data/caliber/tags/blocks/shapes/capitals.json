@@ -19,8 +19,17 @@
     "caliber:brown_wool_capital",
     "caliber:calcite_capital",
     "caliber:cherry_capital",
+    "caliber:chiseled_deepslate_capital",
+    "caliber:chiseled_polished_blackstone_capital",
+    "caliber:chiseled_red_sandstone_capital",
+    "caliber:chiseled_sandstone_capital",
+    "caliber:chiseled_stone_brick_capital",
     "caliber:cobbled_deepslate_capital",
     "caliber:cobblestone_capital",
+    "caliber:cracked_deepslate_brick_capital",
+    "caliber:cracked_deepslate_tile_capital",
+    "caliber:cracked_polished_blackstone_brick_capital",
+    "caliber:cracked_stone_brick_capital",
     "caliber:crimson_capital",
     "caliber:cut_red_sandstone_capital",
     "caliber:cut_sandstone_capital",
@@ -273,11 +282,15 @@
       "required": false
     },
     {
-      "id": "regions_unexplored:chalk_capital",
+      "id": "regions_unexplored:chalk_block_capital",
       "required": false
     },
     {
       "id": "regions_unexplored:chalk_brick_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_capital",
       "required": false
     },
     {

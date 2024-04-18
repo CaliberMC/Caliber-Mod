@@ -17,6 +17,7 @@
   "block.biomesoplenty.black_sandstone_layer_vertical": "Black Sandstone Vertical Layer",
   "block.biomesoplenty.black_sandstone_window": "Black Sandstone Window",
   "block.biomesoplenty.black_sandstone_window_half": "Black Sandstone Half Window",
+
   "block.biomesoplenty.brimstone_arch": "Brimstone Arch",
   "block.biomesoplenty.brimstone_arch_half": "Brimstone Half Arch",
   "block.biomesoplenty.brimstone_arch_large": "Brimstone Large Arch",
@@ -31,12 +32,14 @@
   "block.biomesoplenty.brimstone_pillar": "Brimstone Pillar",
   "block.biomesoplenty.brimstone_quarter": "Brimstone Quarter",
   "block.biomesoplenty.brimstone_quarter_vertical": "Brimstone Vertical Quarter",
+  "block.biomesoplenty.brimstone_slab": "Brimstone Slab",
   "block.biomesoplenty.brimstone_stairs": "Brimstone Stairs",
   "block.biomesoplenty.brimstone_layer": "Brimstone Layer",
   "block.biomesoplenty.brimstone_layer_vertical": "Brimstone Vertical Layer",
   "block.biomesoplenty.brimstone_wall": "Brimstone Wall",
   "block.biomesoplenty.brimstone_window": "Brimstone Window",
   "block.biomesoplenty.brimstone_window_half": "Brimstone Half Window",
+
   "block.biomesoplenty.brimstone_brick_arch": "Brimstone Brick Arch",
   "block.biomesoplenty.brimstone_brick_arch_half": "Brimstone Brick Half Arch",
   "block.biomesoplenty.brimstone_brick_arch_large": "Brimstone Brick Large Arch",
@@ -55,6 +58,7 @@
   "block.biomesoplenty.brimstone_brick_layer_vertical": "Brimstone Brick Vertical Layer",
   "block.biomesoplenty.brimstone_brick_window": "Brimstone Brick Window",
   "block.biomesoplenty.brimstone_brick_window_half": "Brimstone Brick Half Window",
+
   "block.biomesoplenty.chiseled_black_sandstone_arch": "Chiseled Black Sandstone Arch",
   "block.biomesoplenty.chiseled_black_sandstone_arch_half": "Chiseled Black Sandstone Half Arch",
   "block.biomesoplenty.chiseled_black_sandstone_arch_large": "Chiseled Black Sandstone Large Arch",
@@ -69,12 +73,14 @@
   "block.biomesoplenty.chiseled_black_sandstone_pillar": "Chiseled Black Sandstone Pillar",
   "block.biomesoplenty.chiseled_black_sandstone_quarter": "Chiseled Black Sandstone Quarter",
   "block.biomesoplenty.chiseled_black_sandstone_quarter_vertical": "Chiseled Black Sandstone Vertical Quarter",
+  "block.biomesoplenty.chiseled_black_sandstone_slab": "Chiseled Black Sandstone Slab",
   "block.biomesoplenty.chiseled_black_sandstone_stairs": "Chiseled Black Sandstone Stairs",
   "block.biomesoplenty.chiseled_black_sandstone_layer": "Chiseled Black Sandstone Layer",
   "block.biomesoplenty.chiseled_black_sandstone_layer_vertical": "Chiseled Black Sandstone Vertical Layer",
   "block.biomesoplenty.chiseled_black_sandstone_wall": "Chiseled Black Sandstone Wall",
   "block.biomesoplenty.chiseled_black_sandstone_window": "Chiseled Black Sandstone Window",
   "block.biomesoplenty.chiseled_black_sandstone_window_half": "Chiseled Black Sandstone Half Window",
+
   "block.biomesoplenty.chiseled_brimstone_brick_arch": "Chiseled Brimstone Brick Arch",
   "block.biomesoplenty.chiseled_brimstone_brick_arch_half": "Chiseled Brimstone Brick Half Arch",
   "block.biomesoplenty.chiseled_brimstone_brick_arch_large": "Chiseled Brimstone Brick Large Arch",
@@ -89,12 +95,14 @@
   "block.biomesoplenty.chiseled_brimstone_brick_pillar": "Chiseled Brimstone Brick Pillar",
   "block.biomesoplenty.chiseled_brimstone_brick_quarter": "Chiseled Brimstone Brick Quarter",
   "block.biomesoplenty.chiseled_brimstone_brick_quarter_vertical": "Chiseled Brimstone Brick Vertical Quarter",
+  "block.biomesoplenty.chiseled_brimstone_brick_slab": "Chiseled Brimstone Brick Slab",
   "block.biomesoplenty.chiseled_brimstone_brick_stairs": "Chiseled Brimstone Brick Stairs",
   "block.biomesoplenty.chiseled_brimstone_brick_layer": "Chiseled Brimstone Brick Layer",
   "block.biomesoplenty.chiseled_brimstone_brick_layer_vertical": "Chiseled Brimstone Brick Vertical Layer",
   "block.biomesoplenty.chiseled_brimstone_brick_wall": "Chiseled Brimstone Brick Wall",
   "block.biomesoplenty.chiseled_brimstone_brick_window": "Chiseled Brimstone Brick Window",
   "block.biomesoplenty.chiseled_brimstone_brick_window_half": "Chiseled Brimstone Brick Half Window",
+
   "block.biomesoplenty.chiseled_orange_sandstone_arch": "Chiseled Orange Sandstone Arch",
   "block.biomesoplenty.chiseled_orange_sandstone_arch_half": "Chiseled Orange Sandstone Half Arch",
   "block.biomesoplenty.chiseled_orange_sandstone_arch_large": "Chiseled Orange Sandstone Large Arch",
@@ -109,12 +117,14 @@
   "block.biomesoplenty.chiseled_orange_sandstone_pillar": "Chiseled Orange Sandstone Pillar",
   "block.biomesoplenty.chiseled_orange_sandstone_quarter": "Chiseled Orange Sandstone Quarter",
   "block.biomesoplenty.chiseled_orange_sandstone_quarter_vertical": "Chiseled Orange Sandstone Vertical Quarter",
+  "block.biomesoplenty.chiseled_orange_sandstone_slab": "Chiseled Orange Sandstone Slab",
   "block.biomesoplenty.chiseled_orange_sandstone_stairs": "Chiseled Orange Sandstone Stairs",
   "block.biomesoplenty.chiseled_orange_sandstone_layer": "Chiseled Orange Sandstone Layer",
   "block.biomesoplenty.chiseled_orange_sandstone_layer_vertical": "Chiseled Orange Sandstone Vertical Layer",
   "block.biomesoplenty.chiseled_orange_sandstone_wall": "Chiseled Orange Sandstone Wall",
   "block.biomesoplenty.chiseled_orange_sandstone_window": "Chiseled Orange Sandstone Window",
   "block.biomesoplenty.chiseled_orange_sandstone_window_half": "Chiseled Orange Sandstone Half Window",
+
   "block.biomesoplenty.chiseled_white_sandstone_arch": "Chiseled White Sandstone Arch",
   "block.biomesoplenty.chiseled_white_sandstone_arch_half": "Chiseled White Sandstone Half Arch",
   "block.biomesoplenty.chiseled_white_sandstone_arch_large": "Chiseled White Sandstone Large Arch",
@@ -129,12 +139,14 @@
   "block.biomesoplenty.chiseled_white_sandstone_pillar": "Chiseled White Sandstone Pillar",
   "block.biomesoplenty.chiseled_white_sandstone_quarter": "Chiseled White Sandstone Quarter",
   "block.biomesoplenty.chiseled_white_sandstone_quarter_vertical": "Chiseled White Sandstone Vertical Quarter",
+  "block.biomesoplenty.chiseled_white_sandstone_slab": "Chiseled White Sandstone Slab",
   "block.biomesoplenty.chiseled_white_sandstone_stairs": "Chiseled White Sandstone Stairs",
   "block.biomesoplenty.chiseled_white_sandstone_layer": "Chiseled White Sandstone Layer",
   "block.biomesoplenty.chiseled_white_sandstone_layer_vertical": "Chiseled White Sandstone Vertical Layer",
   "block.biomesoplenty.chiseled_white_sandstone_wall": "Chiseled White Sandstone Wall",
   "block.biomesoplenty.chiseled_white_sandstone_window": "Chiseled White Sandstone Window",
   "block.biomesoplenty.chiseled_white_sandstone_window_half": "Chiseled White Sandstone Half Window",
+
   "block.biomesoplenty.cut_black_sandstone_arch": "Cut Black Sandstone Arch",
   "block.biomesoplenty.cut_black_sandstone_arch_half": "Cut Black Sandstone Half Arch",
   "block.biomesoplenty.cut_black_sandstone_arch_large": "Cut Black Sandstone Large Arch",
@@ -155,6 +167,7 @@
   "block.biomesoplenty.cut_black_sandstone_wall": "Cut Black Sandstone Wall",
   "block.biomesoplenty.cut_black_sandstone_window": "Cut Black Sandstone Window",
   "block.biomesoplenty.cut_black_sandstone_window_half": "Cut Black Sandstone Half Window",
+
   "block.biomesoplenty.cut_orange_sandstone_arch": "Cut Orange Sandstone Arch",
   "block.biomesoplenty.cut_orange_sandstone_arch_half": "Cut Orange Sandstone Half Arch",
   "block.biomesoplenty.cut_orange_sandstone_arch_large": "Cut Orange Sandstone Large Arch",
@@ -175,6 +188,7 @@
   "block.biomesoplenty.cut_orange_sandstone_wall": "Cut Orange Sandstone Wall",
   "block.biomesoplenty.cut_orange_sandstone_window": "Cut Orange Sandstone Window",
   "block.biomesoplenty.cut_orange_sandstone_window_half": "Cut Orange Sandstone Half Window",
+
   "block.biomesoplenty.cut_white_sandstone_arch": "Cut White Sandstone Arch",
   "block.biomesoplenty.cut_white_sandstone_arch_half": "Cut White Sandstone Half Arch",
   "block.biomesoplenty.cut_white_sandstone_arch_large": "Cut White Sandstone Large Arch",
@@ -195,6 +209,7 @@
   "block.biomesoplenty.cut_white_sandstone_wall": "Cut White Sandstone Wall",
   "block.biomesoplenty.cut_white_sandstone_window": "Cut White Sandstone Window",
   "block.biomesoplenty.cut_white_sandstone_window_half": "Cut White Sandstone Half Window",
+
   "block.biomesoplenty.dead_balustrade": "Dead Balustrade",
   "block.biomesoplenty.dead_capital": "Dead Capital",
   "block.biomesoplenty.dead_corner": "Dead Corner",
@@ -210,6 +225,7 @@
   "block.biomesoplenty.dead_wall": "Dead Wall",
   "block.biomesoplenty.dead_window": "Dead Window",
   "block.biomesoplenty.dead_window_half": "Dead Half Window",
+
   "block.biomesoplenty.fir_balustrade": "Fir Balustrade",
   "block.biomesoplenty.fir_capital": "Fir Capital",
   "block.biomesoplenty.fir_corner": "Fir Corner",
@@ -225,6 +241,7 @@
   "block.biomesoplenty.fir_wall": "Fir Wall",
   "block.biomesoplenty.fir_window": "Fir Window",
   "block.biomesoplenty.fir_window_half": "Fir Half Window",
+
   "block.biomesoplenty.hellbark_balustrade": "Hellbark Balustrade",
   "block.biomesoplenty.hellbark_capital": "Hellbark Capital",
   "block.biomesoplenty.hellbark_corner": "Hellbark Corner",
@@ -240,6 +257,7 @@
   "block.biomesoplenty.hellbark_wall": "Hellbark Wall",
   "block.biomesoplenty.hellbark_window": "Hellbark Window",
   "block.biomesoplenty.hellbark_window_half": "Hellbark Half Window",
+
   "block.biomesoplenty.jacaranda_balustrade": "Jacaranda Balustrade",
   "block.biomesoplenty.jacaranda_capital": "Jacaranda Capital",
   "block.biomesoplenty.jacaranda_corner": "Jacaranda Corner",
@@ -255,6 +273,7 @@
   "block.biomesoplenty.jacaranda_wall": "Jacaranda Wall",
   "block.biomesoplenty.jacaranda_window": "Jacaranda Window",
   "block.biomesoplenty.jacaranda_window_half": "Jacaranda Half Window",
+
   "block.biomesoplenty.magic_balustrade": "Magic Balustrade",
   "block.biomesoplenty.magic_capital": "Magic Capital",
   "block.biomesoplenty.magic_corner": "Magic Corner",
@@ -270,6 +289,7 @@
   "block.biomesoplenty.magic_wall": "Magic Wall",
   "block.biomesoplenty.magic_window": "Magic Window",
   "block.biomesoplenty.magic_window_half": "Magic Half Window",
+
   "block.biomesoplenty.mahogany_balustrade": "Mahogany Balustrade",
   "block.biomesoplenty.mahogany_capital": "Mahogany Capital",
   "block.biomesoplenty.mahogany_corner": "Mahogany Corner",
@@ -285,6 +305,7 @@
   "block.biomesoplenty.mahogany_wall": "Mahogany Wall",
   "block.biomesoplenty.mahogany_window": "Mahogany Window",
   "block.biomesoplenty.mahogany_window_half": "Mahogany Half Window",
+
   "block.biomesoplenty.palm_balustrade": "Palm Balustrade",
   "block.biomesoplenty.palm_capital": "Palm Capital",
   "block.biomesoplenty.palm_corner": "Palm Corner",
@@ -300,6 +321,7 @@
   "block.biomesoplenty.palm_wall": "Palm Wall",
   "block.biomesoplenty.palm_window": "Palm Window",
   "block.biomesoplenty.palm_window_half": "Palm Half Window",
+
   "block.biomesoplenty.redwood_balustrade": "Redwood Balustrade",
   "block.biomesoplenty.redwood_capital": "Redwood Capital",
   "block.biomesoplenty.redwood_corner": "Redwood Corner",
@@ -315,6 +337,7 @@
   "block.biomesoplenty.redwood_wall": "Redwood Wall",
   "block.biomesoplenty.redwood_window": "Redwood Window",
   "block.biomesoplenty.redwood_window_half": "Redwood Half Window",
+
   "block.biomesoplenty.umbran_balustrade": "Umbran Balustrade",
   "block.biomesoplenty.umbran_capital": "Umbran Capital",
   "block.biomesoplenty.umbran_corner": "Umbran Corner",
@@ -330,6 +353,7 @@
   "block.biomesoplenty.umbran_wall": "Umbran Wall",
   "block.biomesoplenty.umbran_window": "Umbran Window",
   "block.biomesoplenty.umbran_window_half": "Umbran Half Window",
+
   "block.biomesoplenty.willow_balustrade": "Willow Balustrade",
   "block.biomesoplenty.willow_capital": "Willow Capital",
   "block.biomesoplenty.willow_corner": "Willow Corner",
@@ -345,6 +369,7 @@
   "block.biomesoplenty.willow_wall": "Willow Wall",
   "block.biomesoplenty.willow_window": "Willow Window",
   "block.biomesoplenty.willow_window_half": "Willow Half Window",
+
   "block.biomesoplenty.dead_shingle_roof_22": "Dead Shingle Roof 22",
   "block.biomesoplenty.dead_shingle_roof_45": "Dead Shingle Roof 45",
   "block.biomesoplenty.dead_shingle_roof_67": "Dead Shingle Roof 67",

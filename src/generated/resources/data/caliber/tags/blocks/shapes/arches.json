@@ -56,6 +56,31 @@
     },
     "caliber:calcite_arch",
     {
+      "id": "caliber:chiseled_deepslate_arch",
+      "required": false
+    },
+    "caliber:chiseled_deepslate_arch",
+    {
+      "id": "caliber:chiseled_polished_blackstone_arch",
+      "required": false
+    },
+    "caliber:chiseled_polished_blackstone_arch",
+    {
+      "id": "caliber:chiseled_red_sandstone_arch",
+      "required": false
+    },
+    "caliber:chiseled_red_sandstone_arch",
+    {
+      "id": "caliber:chiseled_sandstone_arch",
+      "required": false
+    },
+    "caliber:chiseled_sandstone_arch",
+    {
+      "id": "caliber:chiseled_stone_brick_arch",
+      "required": false
+    },
+    "caliber:chiseled_stone_brick_arch",
+    {
       "id": "caliber:cobbled_deepslate_arch",
       "required": false
     },
@@ -65,6 +90,26 @@
       "required": false
     },
     "caliber:cobblestone_arch",
+    {
+      "id": "caliber:cracked_deepslate_brick_arch",
+      "required": false
+    },
+    "caliber:cracked_deepslate_brick_arch",
+    {
+      "id": "caliber:cracked_deepslate_tile_arch",
+      "required": false
+    },
+    "caliber:cracked_deepslate_tile_arch",
+    {
+      "id": "caliber:cracked_polished_blackstone_brick_arch",
+      "required": false
+    },
+    "caliber:cracked_polished_blackstone_brick_arch",
+    {
+      "id": "caliber:cracked_stone_brick_arch",
+      "required": false
+    },
+    "caliber:cracked_stone_brick_arch",
     {
       "id": "caliber:cut_red_sandstone_arch",
       "required": false
@@ -494,11 +539,15 @@
       "required": false
     },
     {
-      "id": "regions_unexplored:chalk_arch",
+      "id": "regions_unexplored:chalk_block_arch",
       "required": false
     },
     {
-      "id": "regions_unexplored:chalk_arch",
+      "id": "regions_unexplored:chalk_block_arch",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_brick_arch",
       "required": false
     },
     {
@@ -506,7 +555,11 @@
       "required": false
     },
     {
-      "id": "regions_unexplored:chalk_brick_arch",
+      "id": "regions_unexplored:chalk_pillar_arch",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_arch",
       "required": false
     },
     {

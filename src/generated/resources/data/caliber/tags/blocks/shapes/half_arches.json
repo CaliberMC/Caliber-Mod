@@ -11,8 +11,17 @@
     "caliber:brown_concrete_arch_half",
     "caliber:brown_terracotta_arch_half",
     "caliber:calcite_arch_half",
+    "caliber:chiseled_deepslate_arch_half",
+    "caliber:chiseled_polished_blackstone_arch_half",
+    "caliber:chiseled_red_sandstone_arch_half",
+    "caliber:chiseled_sandstone_arch_half",
+    "caliber:chiseled_stone_brick_arch_half",
     "caliber:cobbled_deepslate_arch_half",
     "caliber:cobblestone_arch_half",
+    "caliber:cracked_deepslate_brick_arch_half",
+    "caliber:cracked_deepslate_tile_arch_half",
+    "caliber:cracked_polished_blackstone_brick_arch_half",
+    "caliber:cracked_stone_brick_arch_half",
     "caliber:cut_red_sandstone_arch_half",
     "caliber:cut_sandstone_arch_half",
     "caliber:cyan_concrete_arch_half",
@@ -126,11 +135,15 @@
       "required": false
     },
     {
-      "id": "regions_unexplored:chalk_arch_half",
+      "id": "regions_unexplored:chalk_block_arch_half",
       "required": false
     },
     {
       "id": "regions_unexplored:chalk_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_arch_half",
       "required": false
     },
     {

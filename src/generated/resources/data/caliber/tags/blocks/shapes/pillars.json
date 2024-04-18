@@ -19,8 +19,17 @@
     "caliber:brown_wool_pillar",
     "caliber:calcite_pillar",
     "caliber:cherry_pillar",
+    "caliber:chiseled_deepslate_pillar",
+    "caliber:chiseled_polished_blackstone_pillar",
+    "caliber:chiseled_red_sandstone_pillar",
+    "caliber:chiseled_sandstone_pillar",
+    "caliber:chiseled_stone_brick_pillar",
     "caliber:cobbled_deepslate_pillar",
     "caliber:cobblestone_pillar",
+    "caliber:cracked_deepslate_brick_pillar",
+    "caliber:cracked_deepslate_tile_pillar",
+    "caliber:cracked_polished_blackstone_brick_pillar",
+    "caliber:cracked_stone_brick_pillar",
     "caliber:crimson_pillar",
     "caliber:cut_red_sandstone_pillar",
     "caliber:cut_sandstone_pillar",
@@ -273,11 +282,15 @@
       "required": false
     },
     {
-      "id": "regions_unexplored:chalk_pillar",
+      "id": "regions_unexplored:chalk_block_pillar",
       "required": false
     },
     {
       "id": "regions_unexplored:chalk_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_pillar",
       "required": false
     },
     {

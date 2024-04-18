@@ -24,8 +24,9 @@ public class RegionsUnexploredBlocks {
 
     /* Stone */
     public static final BlockManager RU_ARGILLITE = CaliberBlockManager.registerRU("argillite", () -> BlockBehaviour.Properties.copy(RuBlocks.ARGILLITE.get()), () -> RuBlocks.ARGILLITE.get(), STONE_VARIANTS_WITHOUT_STAIRS);
-    public static final BlockManager RU_CHALK = CaliberBlockManager.registerRU("chalk", () -> BlockBehaviour.Properties.copy(RuBlocks.CHALK.get()), () -> RuBlocks.CHALK.get(), STONE_VARIANTS_WITHOUT_STAIRS);
+    public static final BlockManager RU_CHALK = CaliberBlockManager.registerRU("chalk_block", () -> BlockBehaviour.Properties.copy(RuBlocks.CHALK.get()), () -> RuBlocks.CHALK.get(), STONE_VARIANTS_WITHOUT_STAIRS);
     public static final BlockManager RU_CHALK_BRICKS = CaliberBlockManager.registerRU("chalk_bricks", () -> BlockBehaviour.Properties.copy(RuBlocks.CHALK_BRICKS.get()), () -> RuBlocks.CHALK_BRICKS.get(), STONE_VARIANTS_WITHOUT_STAIRS);
+    public static final BlockManager RU_CHALK_PILLAR = CaliberBlockManager.registerRU("chalk_pillar", () -> BlockBehaviour.Properties.copy(RuBlocks.CHALK_PILLAR.get()), () -> RuBlocks.CHALK_PILLAR.get(), STONE_VARIANTS);
     public static final BlockManager RU_MOSSY_STONE = CaliberBlockManager.registerRU("mossy_stone", () -> BlockBehaviour.Properties.copy(RuBlocks.MOSSY_STONE.get()), () -> RuBlocks.MOSSY_STONE.get(), STONE_VARIANTS);
     public static final BlockManager RU_POLISHED_CHALK = CaliberBlockManager.registerRU("polished_chalk", () -> BlockBehaviour.Properties.copy(RuBlocks.POLISHED_CHALK.get()), () -> RuBlocks.POLISHED_CHALK.get(), STONE_VARIANTS_WITHOUT_STAIRS);
 

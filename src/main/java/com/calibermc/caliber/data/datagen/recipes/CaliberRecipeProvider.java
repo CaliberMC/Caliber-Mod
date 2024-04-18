@@ -169,6 +169,13 @@ public class CaliberRecipeProvider extends RecipeProvider implements IConditionB
 //                                inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, "%s_from_%s_shaped".formatted(path, name));
 //                    }
 //                }
+                case SLAB -> {
+                    ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, block, 6).define('#', baseBlock).pattern("###").unlockedBy(criterionBy,
+                            inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, prefix + "%s_from_%s_shaped".formatted(path, name));
+
+                    stoneOrWoodcutting.apply(Ingredient.of(baseBlock), block, 2).unlockedBy(criterionBy,
+                            inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, n);
+                }
 
                 case STAIRS -> {
                     ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, manager.get(ModBlockFamily.Variant.STAIRS), 4).define('#', baseBlock).pattern("#  ").pattern("## ").pattern("###").unlockedBy(criterionBy,

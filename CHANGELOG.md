@@ -2,6 +2,18 @@
 
 
 ### 0.2.4 (in progress)
+- Added vanilla style slabs for all variants that don't have them
+- Added Chiseled Polished Blackstone variants
+- Added Cracked Polished Blackstone variants
+- Added Chiseled Deeplate variants
+- Added Cracked Deepslate Brick variants
+- Added Cracked Deepslate Tile variants
+- Added Chiseled Stone Brick variants
+- Added Cracked Stone Brick variants
+- Added Chiseled Sandstone variants
+- Added Chiseled Red Sandstone variants
+- Added Regions Unexplored Chalk Pillar variants
+- Renamed Regions Unexplored Chalk variants to Chalk Block _(this is to allow the Chalk Pillar variants to be added)_
 - Added mod compatibility variants for Create
 - Added mod compatibility variants for Stone Works
 - Added mod compatibility variants for Quark

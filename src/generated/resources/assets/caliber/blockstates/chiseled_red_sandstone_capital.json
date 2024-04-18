@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "caliber:block/chiseled_red_sandstone_capital"
+    },
+    "type=top": {
+      "model": "caliber:block/chiseled_red_sandstone_capital_top"
+    }
+  }
+}

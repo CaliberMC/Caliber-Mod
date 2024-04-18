@@ -21,7 +21,7 @@ public class RegionsUnexploredBlockFamilies {
             .stairs(RuBlocks.ARGILLITE.get())
             .getFamily();
 
-    public static final ModBlockFamily RU_CHALK = familyBuilder(RuBlocks.CHALK.get())
+    public static final ModBlockFamily RU_CHALK_BLOCK = familyBuilder(RuBlocks.CHALK.get())
             .fromManager(RegionsUnexploredBlocks.RU_CHALK)
             .slab(RuBlocks.CHALK_SLAB.get())
             .stairs(RuBlocks.CHALK_STAIRS.get())
@@ -31,7 +31,10 @@ public class RegionsUnexploredBlockFamilies {
             .fromManager(RegionsUnexploredBlocks.RU_CHALK_BRICKS)
             .slab(RuBlocks.CHALK_BRICK_SLAB.get())
             .stairs(RuBlocks.CHALK_BRICK_STAIRS.get())
+            .getFamily();
 
+    public static final ModBlockFamily RU_CHALK_PILLAR = familyBuilder(RuBlocks.CHALK_PILLAR.get())
+            .fromManager(RegionsUnexploredBlocks.RU_CHALK)
             .getFamily();
 
     public static final ModBlockFamily RU_MOSSY_STONE = familyBuilder(RuBlocks.MOSSY_STONE.get())

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "biomesoplenty:block/chiseled_brimstone_brick_slab"
+    },
+    "type=double": {
+      "model": "biomesoplenty:block/chiseled_brimstone_bricks"
+    },
+    "type=top": {
+      "model": "biomesoplenty:block/chiseled_brimstone_brick_slab_top"
+    }
+  }
+}

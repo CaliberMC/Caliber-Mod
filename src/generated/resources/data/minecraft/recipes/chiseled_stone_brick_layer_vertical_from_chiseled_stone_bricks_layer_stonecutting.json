@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "caliber:chiseled_stone_brick_layer"
+  },
+  "result": "caliber:chiseled_stone_brick_layer_vertical"
+}

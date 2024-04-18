@@ -19,8 +19,17 @@
     "caliber:brown_wool_quarter_vertical",
     "caliber:calcite_quarter_vertical",
     "caliber:cherry_quarter_vertical",
+    "caliber:chiseled_deepslate_quarter_vertical",
+    "caliber:chiseled_polished_blackstone_quarter_vertical",
+    "caliber:chiseled_red_sandstone_quarter_vertical",
+    "caliber:chiseled_sandstone_quarter_vertical",
+    "caliber:chiseled_stone_brick_quarter_vertical",
     "caliber:cobbled_deepslate_quarter_vertical",
     "caliber:cobblestone_quarter_vertical",
+    "caliber:cracked_deepslate_brick_quarter_vertical",
+    "caliber:cracked_deepslate_tile_quarter_vertical",
+    "caliber:cracked_polished_blackstone_brick_quarter_vertical",
+    "caliber:cracked_stone_brick_quarter_vertical",
     "caliber:crimson_quarter_vertical",
     "caliber:cut_red_sandstone_quarter_vertical",
     "caliber:cut_sandstone_quarter_vertical",
@@ -273,11 +282,15 @@
       "required": false
     },
     {
-      "id": "regions_unexplored:chalk_quarter_vertical",
+      "id": "regions_unexplored:chalk_block_quarter_vertical",
       "required": false
     },
     {
       "id": "regions_unexplored:chalk_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_quarter_vertical",
       "required": false
     },
     {

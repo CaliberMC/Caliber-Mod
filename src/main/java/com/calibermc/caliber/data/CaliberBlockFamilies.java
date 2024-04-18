@@ -87,6 +87,9 @@ public class CaliberBlockFamilies {
             .stairs(Blocks.DEEPSLATE_BRICK_STAIRS)
             .wall(Blocks.DEEPSLATE_BRICK_WALL)
             .getFamily();
+    public static final ModBlockFamily CRACKED_DEEPSLATE_BRICKS = familyBuilder(Blocks.CRACKED_DEEPSLATE_BRICKS)
+            .fromManager(CaliberBlocks.CRACKED_DEEPSLATE_BRICK)
+            .getFamily();
     public static final ModBlockFamily DEEPSLATE_TILES = familyBuilder(Blocks.DEEPSLATE_TILES)
             .fromManager(CaliberBlocks.DEEPSLATE_TILE)
             .slab(Blocks.DEEPSLATE_TILE_SLAB)
@@ -99,6 +102,9 @@ public class CaliberBlockFamilies {
             .slab(Blocks.COBBLED_DEEPSLATE_SLAB)
             .stairs(Blocks.COBBLED_DEEPSLATE_STAIRS)
             .wall(Blocks.COBBLED_DEEPSLATE_WALL)
+            .getFamily();
+    public static final ModBlockFamily CHISELED_DEEPSLATE = familyBuilder(Blocks.CHISELED_DEEPSLATE)
+            .fromManager(CaliberBlocks.CHISELED_DEEPSLATE)
             .getFamily();
     public static final ModBlockFamily POLISHED_DEEPSLATE = familyBuilder(Blocks.POLISHED_DEEPSLATE)
             .fromManager(CaliberBlocks.POLISHED_DEEPSLATE)
@@ -242,6 +248,12 @@ public class CaliberBlockFamilies {
             .slab(Blocks.SMOOTH_SANDSTONE_SLAB)
             .stairs(Blocks.SMOOTH_SANDSTONE_STAIRS)
             .getFamily();
+    public static final ModBlockFamily CHISELED_RED_SANDSTONE = familyBuilder(Blocks.CHISELED_RED_SANDSTONE)
+            .fromManager(CaliberBlocks.CHISELED_RED_SANDSTONE)
+            .getFamily();
+    public static final ModBlockFamily CHISELED_SANDSTONE = familyBuilder(Blocks.CHISELED_SANDSTONE)
+            .fromManager(CaliberBlocks.CHISELED_SANDSTONE)
+            .getFamily();
     public static final ModBlockFamily CUT_RED_SANDSTONE = familyBuilder(Blocks.CUT_RED_SANDSTONE)
             .fromManager(CaliberBlocks.CUT_RED_SANDSTONE)
             .slab(Blocks.CUT_RED_SANDSTONE_SLAB)
@@ -271,6 +283,12 @@ public class CaliberBlockFamilies {
             .slab(Blocks.STONE_BRICK_SLAB)
             .stairs(Blocks.STONE_BRICK_STAIRS)
             .wall(Blocks.STONE_BRICK_WALL)
+            .getFamily();
+    public static final ModBlockFamily CRACKED_STONE_BRICKS = familyBuilder(Blocks.CRACKED_STONE_BRICKS)
+            .fromManager(CaliberBlocks.CRACKED_STONE_BRICK)
+            .getFamily();
+    public static final ModBlockFamily CHISELED_STONE_BRICKS = familyBuilder(Blocks.CHISELED_STONE_BRICKS)
+            .fromManager(CaliberBlocks.CHISELED_STONE_BRICK)
             .getFamily();
     public static final ModBlockFamily MOSSY_STONE_BRICKS = familyBuilder(Blocks.MOSSY_STONE_BRICKS)
             .fromManager(CaliberBlocks.MOSSY_STONE_BRICK)

@@ -19,8 +19,17 @@
     "caliber:brown_wool_corner_slab_vertical",
     "caliber:calcite_corner_slab_vertical",
     "caliber:cherry_corner_slab_vertical",
+    "caliber:chiseled_deepslate_corner_slab_vertical",
+    "caliber:chiseled_polished_blackstone_corner_slab_vertical",
+    "caliber:chiseled_red_sandstone_corner_slab_vertical",
+    "caliber:chiseled_sandstone_corner_slab_vertical",
+    "caliber:chiseled_stone_brick_corner_slab_vertical",
     "caliber:cobbled_deepslate_corner_slab_vertical",
     "caliber:cobblestone_corner_slab_vertical",
+    "caliber:cracked_deepslate_brick_corner_slab_vertical",
+    "caliber:cracked_deepslate_tile_corner_slab_vertical",
+    "caliber:cracked_polished_blackstone_brick_corner_slab_vertical",
+    "caliber:cracked_stone_brick_corner_slab_vertical",
     "caliber:crimson_corner_slab_vertical",
     "caliber:cut_red_sandstone_corner_slab_vertical",
     "caliber:cut_sandstone_corner_slab_vertical",
@@ -273,11 +282,15 @@
       "required": false
     },
     {
-      "id": "regions_unexplored:chalk_corner_slab_vertical",
+      "id": "regions_unexplored:chalk_block_corner_slab_vertical",
       "required": false
     },
     {
       "id": "regions_unexplored:chalk_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_corner_slab_vertical",
       "required": false
     },
     {

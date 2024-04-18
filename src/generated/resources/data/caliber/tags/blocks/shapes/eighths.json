@@ -19,8 +19,17 @@
     "caliber:brown_wool_eighth",
     "caliber:calcite_eighth",
     "caliber:cherry_eighth",
+    "caliber:chiseled_deepslate_eighth",
+    "caliber:chiseled_polished_blackstone_eighth",
+    "caliber:chiseled_red_sandstone_eighth",
+    "caliber:chiseled_sandstone_eighth",
+    "caliber:chiseled_stone_brick_eighth",
     "caliber:cobbled_deepslate_eighth",
     "caliber:cobblestone_eighth",
+    "caliber:cracked_deepslate_brick_eighth",
+    "caliber:cracked_deepslate_tile_eighth",
+    "caliber:cracked_polished_blackstone_brick_eighth",
+    "caliber:cracked_stone_brick_eighth",
     "caliber:crimson_eighth",
     "caliber:cut_red_sandstone_eighth",
     "caliber:cut_sandstone_eighth",
@@ -273,11 +282,15 @@
       "required": false
     },
     {
-      "id": "regions_unexplored:chalk_eighth",
+      "id": "regions_unexplored:chalk_block_eighth",
       "required": false
     },
     {
       "id": "regions_unexplored:chalk_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_eighth",
       "required": false
     },
     {

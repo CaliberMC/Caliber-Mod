@@ -19,8 +19,17 @@
     "caliber:brown_wool_window",
     "caliber:calcite_window",
     "caliber:cherry_window",
+    "caliber:chiseled_deepslate_window",
+    "caliber:chiseled_polished_blackstone_window",
+    "caliber:chiseled_red_sandstone_window",
+    "caliber:chiseled_sandstone_window",
+    "caliber:chiseled_stone_brick_window",
     "caliber:cobbled_deepslate_window",
     "caliber:cobblestone_window",
+    "caliber:cracked_deepslate_brick_window",
+    "caliber:cracked_deepslate_tile_window",
+    "caliber:cracked_polished_blackstone_brick_window",
+    "caliber:cracked_stone_brick_window",
     "caliber:crimson_window",
     "caliber:cut_red_sandstone_window",
     "caliber:cut_sandstone_window",
@@ -273,11 +282,15 @@
       "required": false
     },
     {
-      "id": "regions_unexplored:chalk_window",
+      "id": "regions_unexplored:chalk_block_window",
       "required": false
     },
     {
       "id": "regions_unexplored:chalk_brick_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_window",
       "required": false
     },
     {

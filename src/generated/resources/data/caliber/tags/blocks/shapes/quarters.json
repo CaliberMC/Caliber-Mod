@@ -19,8 +19,17 @@
     "caliber:brown_wool_quarter",
     "caliber:calcite_quarter",
     "caliber:cherry_quarter",
+    "caliber:chiseled_deepslate_quarter",
+    "caliber:chiseled_polished_blackstone_quarter",
+    "caliber:chiseled_red_sandstone_quarter",
+    "caliber:chiseled_sandstone_quarter",
+    "caliber:chiseled_stone_brick_quarter",
     "caliber:cobbled_deepslate_quarter",
     "caliber:cobblestone_quarter",
+    "caliber:cracked_deepslate_brick_quarter",
+    "caliber:cracked_deepslate_tile_quarter",
+    "caliber:cracked_polished_blackstone_brick_quarter",
+    "caliber:cracked_stone_brick_quarter",
     "caliber:crimson_quarter",
     "caliber:cut_red_sandstone_quarter",
     "caliber:cut_sandstone_quarter",
@@ -273,11 +282,15 @@
       "required": false
     },
     {
-      "id": "regions_unexplored:chalk_quarter",
+      "id": "regions_unexplored:chalk_block_quarter",
       "required": false
     },
     {
       "id": "regions_unexplored:chalk_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_quarter",
       "required": false
     },
     {

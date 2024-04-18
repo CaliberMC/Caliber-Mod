@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "minecraft:chiseled_deepslate"
+  },
+  "result": "caliber:chiseled_deepslate_arch_large_half"
+}

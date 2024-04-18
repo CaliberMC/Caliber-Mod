@@ -1,0 +1,8 @@
+{
+  "parent": "caliberlib:block/templates/slab_vertical_layer_2",
+  "textures": {
+    "bottom": "minecraft:block/chiseled_deepslate",
+    "side": "minecraft:block/chiseled_deepslate",
+    "top": "minecraft:block/chiseled_deepslate"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "regions_unexplored:chalk"
+  },
+  "result": "regions_unexplored:chalk_block_eighth"
+}

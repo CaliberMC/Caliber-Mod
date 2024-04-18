@@ -16,6 +16,15 @@
     "caliber:brown_wool_wall",
     "caliber:calcite_wall",
     "caliber:cherry_wall",
+    "caliber:chiseled_deepslate_wall",
+    "caliber:chiseled_polished_blackstone_wall",
+    "caliber:chiseled_red_sandstone_wall",
+    "caliber:chiseled_sandstone_wall",
+    "caliber:chiseled_stone_brick_wall",
+    "caliber:cracked_deepslate_brick_wall",
+    "caliber:cracked_deepslate_tile_wall",
+    "caliber:cracked_polished_blackstone_brick_wall",
+    "caliber:cracked_stone_brick_wall",
     "caliber:crimson_wall",
     "caliber:cut_red_sandstone_wall",
     "caliber:cut_sandstone_wall",
@@ -243,11 +252,15 @@
       "required": false
     },
     {
-      "id": "regions_unexplored:chalk_wall",
+      "id": "regions_unexplored:chalk_block_wall",
       "required": false
     },
     {
       "id": "regions_unexplored:chalk_brick_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_wall",
       "required": false
     },
     {

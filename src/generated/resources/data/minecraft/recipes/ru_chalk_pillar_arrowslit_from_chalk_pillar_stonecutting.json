@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "regions_unexplored:chalk_pillar"
+  },
+  "result": "regions_unexplored:chalk_pillar_arrowslit"
+}

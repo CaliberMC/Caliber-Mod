@@ -11,6 +11,15 @@
     "caliber:brown_terracotta_stairs",
     "caliber:brown_wool_stairs",
     "caliber:calcite_stairs",
+    "caliber:chiseled_deepslate_stairs",
+    "caliber:chiseled_polished_blackstone_stairs",
+    "caliber:chiseled_red_sandstone_stairs",
+    "caliber:chiseled_sandstone_stairs",
+    "caliber:chiseled_stone_brick_stairs",
+    "caliber:cracked_deepslate_brick_stairs",
+    "caliber:cracked_deepslate_tile_stairs",
+    "caliber:cracked_polished_blackstone_brick_stairs",
+    "caliber:cracked_stone_brick_stairs",
     "caliber:cut_red_sandstone_stairs",
     "caliber:cut_sandstone_stairs",
     "caliber:cyan_concrete_stairs",
@@ -145,6 +154,10 @@
     },
     {
       "id": "biomesoplenty:stripped_willow_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_stairs",
       "required": false
     },
     {

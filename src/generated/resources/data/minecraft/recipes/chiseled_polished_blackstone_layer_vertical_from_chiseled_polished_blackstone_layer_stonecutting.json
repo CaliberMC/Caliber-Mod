@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "caliber:chiseled_polished_blackstone_layer"
+  },
+  "result": "caliber:chiseled_polished_blackstone_layer_vertical"
+}

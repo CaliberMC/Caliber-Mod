@@ -11,8 +11,17 @@
     "caliber:brown_concrete_arrowslit",
     "caliber:brown_terracotta_arrowslit",
     "caliber:calcite_arrowslit",
+    "caliber:chiseled_deepslate_arrowslit",
+    "caliber:chiseled_polished_blackstone_arrowslit",
+    "caliber:chiseled_red_sandstone_arrowslit",
+    "caliber:chiseled_sandstone_arrowslit",
+    "caliber:chiseled_stone_brick_arrowslit",
     "caliber:cobbled_deepslate_arrowslit",
     "caliber:cobblestone_arrowslit",
+    "caliber:cracked_deepslate_brick_arrowslit",
+    "caliber:cracked_deepslate_tile_arrowslit",
+    "caliber:cracked_polished_blackstone_brick_arrowslit",
+    "caliber:cracked_stone_brick_arrowslit",
     "caliber:cut_red_sandstone_arrowslit",
     "caliber:cut_sandstone_arrowslit",
     "caliber:cyan_concrete_arrowslit",
@@ -126,11 +135,15 @@
       "required": false
     },
     {
-      "id": "regions_unexplored:chalk_arrowslit",
+      "id": "regions_unexplored:chalk_block_arrowslit",
       "required": false
     },
     {
       "id": "regions_unexplored:chalk_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_arrowslit",
       "required": false
     },
     {

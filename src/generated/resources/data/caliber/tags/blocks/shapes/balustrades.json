@@ -16,8 +16,17 @@
     "caliber:brown_terracotta_balustrade",
     "caliber:calcite_balustrade",
     "caliber:cherry_balustrade",
+    "caliber:chiseled_deepslate_balustrade",
+    "caliber:chiseled_polished_blackstone_balustrade",
+    "caliber:chiseled_red_sandstone_balustrade",
+    "caliber:chiseled_sandstone_balustrade",
+    "caliber:chiseled_stone_brick_balustrade",
     "caliber:cobbled_deepslate_balustrade",
     "caliber:cobblestone_balustrade",
+    "caliber:cracked_deepslate_brick_balustrade",
+    "caliber:cracked_deepslate_tile_balustrade",
+    "caliber:cracked_polished_blackstone_brick_balustrade",
+    "caliber:cracked_stone_brick_balustrade",
     "caliber:crimson_balustrade",
     "caliber:cut_red_sandstone_balustrade",
     "caliber:cut_sandstone_balustrade",
@@ -257,11 +266,15 @@
       "required": false
     },
     {
-      "id": "regions_unexplored:chalk_balustrade",
+      "id": "regions_unexplored:chalk_block_balustrade",
       "required": false
     },
     {
       "id": "regions_unexplored:chalk_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_balustrade",
       "required": false
     },
     {

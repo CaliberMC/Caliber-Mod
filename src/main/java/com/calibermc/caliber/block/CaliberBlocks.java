@@ -43,6 +43,9 @@ public class CaliberBlocks {
     public static final BlockManager GILDED_BLACKSTONE = CaliberBlockManager.register("gilded_blackstone", BlockProps.GILDED_BLACKSTONE.get(), () -> Blocks.GILDED_BLACKSTONE, STONE_VARIANTS);
     public static final BlockManager POLISHED_BLACKSTONE = CaliberBlockManager.register("polished_blackstone", BlockProps.POLISHED_BLACKSTONE.get(), () -> Blocks.POLISHED_BLACKSTONE, STONE_VARIANTS_WITHOUT_STAIRS_WALL);
     public static final BlockManager POLISHED_BLACKSTONE_BRICK = CaliberBlockManager.register("polished_blackstone_brick", BlockProps.POLISHED_BLACKSTONE_BRICK.get(), () -> Blocks.POLISHED_BLACKSTONE_BRICKS, STONE_VARIANTS_WITHOUT_STAIRS_WALL);
+    public static final BlockManager CHISELED_POLISHED_BLACKSTONE = CaliberBlockManager.register("chiseled_polished_blackstone", BlockProps.POLISHED_BLACKSTONE.get(), () -> Blocks.CHISELED_POLISHED_BLACKSTONE, STONE_VARIANTS);
+    public static final BlockManager CRACKED_POLISHED_BLACKSTONE_BRICK = CaliberBlockManager.register("cracked_polished_blackstone_brick", BlockProps.POLISHED_BLACKSTONE_BRICK.get(), () -> Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS, STONE_VARIANTS);
+
 
     /* Bricks */
     public static final BlockManager BRICK = CaliberBlockManager.register("brick", BlockProps.BRICK.get(), () -> Blocks.BRICKS, STONE_VARIANTS_WITHOUT_STAIRS_WALL);
@@ -53,8 +56,11 @@ public class CaliberBlocks {
     /* Deepslate */
     public static final BlockManager DEEPSLATE = CaliberBlockManager.register("deepslate", BlockProps.DEEPSLATE.get(), () -> Blocks.DEEPSLATE, STONE_VARIANTS);
     public static final BlockManager DEEPSLATE_BRICK = CaliberBlockManager.register("deepslate_brick", BlockProps.DEEPSLATE_BRICK.get(), () -> Blocks.DEEPSLATE_BRICKS, STONE_VARIANTS_WITHOUT_STAIRS_WALL);
+    public static final BlockManager CRACKED_DEEPSLATE_BRICK = CaliberBlockManager.register("cracked_deepslate_brick", BlockProps.DEEPSLATE_BRICK.get(), () -> Blocks.CRACKED_DEEPSLATE_BRICKS, STONE_VARIANTS);
     public static final BlockManager DEEPSLATE_TILE = CaliberBlockManager.register("deepslate_tile", BlockProps.DEEPSLATE_TILES.get(), () -> Blocks.DEEPSLATE_TILES, STONE_VARIANTS_WITHOUT_STAIRS_WALL);
+    public static final BlockManager CRACKED_DEEPSLATE_TILE = CaliberBlockManager.register("cracked_deepslate_tile", BlockProps.DEEPSLATE_TILES.get(), () -> Blocks.CRACKED_DEEPSLATE_TILES, STONE_VARIANTS);
     public static final BlockManager COBBLED_DEEPSLATE = CaliberBlockManager.register("cobbled_deepslate", BlockProps.COBBLED_DEEPSLATE.get(), () -> Blocks.COBBLED_DEEPSLATE, STONE_VARIANTS_WITHOUT_STAIRS_WALL);
+    public static final BlockManager CHISELED_DEEPSLATE = CaliberBlockManager.register("chiseled_deepslate", BlockProps.POLISHED_DEEPSLATE.get(), () -> Blocks.CHISELED_DEEPSLATE, STONE_VARIANTS);
     public static final BlockManager POLISHED_DEEPSLATE = CaliberBlockManager.register("polished_deepslate", BlockProps.POLISHED_DEEPSLATE.get(), () -> Blocks.POLISHED_DEEPSLATE, STONE_VARIANTS_WITHOUT_STAIRS_WALL);
 
     /* Diorite */
@@ -103,13 +109,17 @@ public class CaliberBlocks {
     public static final BlockManager SANDSTONE = CaliberBlockManager.register("sandstone", BlockProps.SANDSTONE.get(), () -> Blocks.SANDSTONE, STONE_VARIANTS_WITHOUT_STAIRS_WALL);
     public static final BlockManager SMOOTH_RED_SANDSTONE = CaliberBlockManager.register("smooth_red_sandstone", BlockProps.SMOOTH_SANDSTONE.get(), () -> Blocks.SMOOTH_RED_SANDSTONE, STONE_VARIANTS_WITHOUT_STAIRS);
     public static final BlockManager SMOOTH_SANDSTONE = CaliberBlockManager.register("smooth_sandstone", BlockProps.SMOOTH_SANDSTONE.get(), () -> Blocks.SMOOTH_SANDSTONE, STONE_VARIANTS_WITHOUT_STAIRS);
-    public static final BlockManager CUT_RED_SANDSTONE = CaliberBlockManager.register("cut_red_sandstone", BlockProps.SANDSTONE.get(), () -> Blocks.CUT_RED_SANDSTONE, STONE_VARIANTS);
-    public static final BlockManager CUT_SANDSTONE = CaliberBlockManager.register("cut_sandstone", BlockProps.SANDSTONE.get(), () -> Blocks.CUT_SANDSTONE, STONE_VARIANTS);
+    public static final BlockManager CUT_RED_SANDSTONE = CaliberBlockManager.register("cut_red_sandstone", BlockProps.SANDSTONE.get(), () -> Blocks.CUT_RED_SANDSTONE, STONE_VARIANTS_WITHOUT_SLAB);
+    public static final BlockManager CUT_SANDSTONE = CaliberBlockManager.register("cut_sandstone", BlockProps.SANDSTONE.get(), () -> Blocks.CUT_SANDSTONE, STONE_VARIANTS_WITHOUT_SLAB);
+    public static final BlockManager CHISELED_RED_SANDSTONE = CaliberBlockManager.register("chiseled_red_sandstone", BlockProps.SANDSTONE.get(), () -> Blocks.CHISELED_RED_SANDSTONE, STONE_VARIANTS);
+    public static final BlockManager CHISELED_SANDSTONE = CaliberBlockManager.register("chiseled_sandstone", BlockProps.SANDSTONE.get(), () -> Blocks.CHISELED_SANDSTONE, STONE_VARIANTS);
 
     /* Stone */
     public static final BlockManager STONE = CaliberBlockManager.register("stone", BlockProps.LIMESTONE.get(), () -> Blocks.STONE, STONE_VARIANTS_WITHOUT_STAIRS);
     public static final BlockManager COBBLESTONE = CaliberBlockManager.register("cobblestone", BlockProps.COBBLESTONE.get(), () -> Blocks.COBBLESTONE, STONE_VARIANTS_WITHOUT_STAIRS_WALL);
     public static final BlockManager STONE_BRICK = CaliberBlockManager.register("stone_bricks", BlockProps.LIMESTONE_BRICK.get(), () -> Blocks.STONE_BRICKS, STONE_VARIANTS_WITHOUT_STAIRS_WALL);
+    public static final BlockManager CRACKED_STONE_BRICK = CaliberBlockManager.register("cracked_stone_bricks", BlockProps.LIMESTONE_BRICK.get(), () -> Blocks.CRACKED_STONE_BRICKS, STONE_VARIANTS);
+    public static final BlockManager CHISELED_STONE_BRICK = CaliberBlockManager.register("chiseled_stone_bricks", BlockProps.LIMESTONE_BRICK.get(), () -> Blocks.CHISELED_STONE_BRICKS, STONE_VARIANTS);
     public static final BlockManager MOSSY_STONE_BRICK = CaliberBlockManager.register("mossy_stone_bricks", BlockProps.LIMESTONE_BRICK.get(), () -> Blocks.MOSSY_STONE_BRICKS, STONE_VARIANTS_WITHOUT_STAIRS_WALL);
     public static final BlockManager MOSSY_COBBLESTONE = CaliberBlockManager.register("mossy_cobblestone", BlockProps.COBBLESTONE.get(), () -> Blocks.MOSSY_STONE_BRICKS, STONE_VARIANTS_WITHOUT_STAIRS_WALL);
     public static final BlockManager SMOOTH_STONE = CaliberBlockManager.register("smooth_stone", BlockProps.LIMESTONE.get(), () -> Blocks.SMOOTH_STONE, STONE_VARIANTS);

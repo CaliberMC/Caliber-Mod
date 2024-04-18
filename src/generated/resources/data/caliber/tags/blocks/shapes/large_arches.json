@@ -11,8 +11,17 @@
     "caliber:brown_concrete_arch_large",
     "caliber:brown_terracotta_arch_large",
     "caliber:calcite_arch_large",
+    "caliber:chiseled_deepslate_arch_large",
+    "caliber:chiseled_polished_blackstone_arch_large",
+    "caliber:chiseled_red_sandstone_arch_large",
+    "caliber:chiseled_sandstone_arch_large",
+    "caliber:chiseled_stone_brick_arch_large",
     "caliber:cobbled_deepslate_arch_large",
     "caliber:cobblestone_arch_large",
+    "caliber:cracked_deepslate_brick_arch_large",
+    "caliber:cracked_deepslate_tile_arch_large",
+    "caliber:cracked_polished_blackstone_brick_arch_large",
+    "caliber:cracked_stone_brick_arch_large",
     "caliber:cut_red_sandstone_arch_large",
     "caliber:cut_sandstone_arch_large",
     "caliber:cyan_concrete_arch_large",
@@ -126,11 +135,15 @@
       "required": false
     },
     {
-      "id": "regions_unexplored:chalk_arch_large",
+      "id": "regions_unexplored:chalk_block_arch_large",
       "required": false
     },
     {
       "id": "regions_unexplored:chalk_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_arch_large",
       "required": false
     },
     {
