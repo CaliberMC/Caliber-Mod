@@ -1,0 +1,6 @@
+{
+  "parent": "caliberlib:block/templates/door_bottom",
+  "textures": {
+    "bottom": "biomesoplenty:block/fir_tall_door_bottom"
+  }
+}

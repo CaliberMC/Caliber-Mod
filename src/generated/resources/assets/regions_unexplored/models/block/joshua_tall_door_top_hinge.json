@@ -1,0 +1,6 @@
+{
+  "parent": "caliberlib:block/templates/door_top_rh",
+  "textures": {
+    "top": "regions_unexplored:block/joshua_tall_door_top"
+  }
+}

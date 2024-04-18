@@ -1,0 +1,6 @@
+{
+  "parent": "caliberlib:block/templates/door_middle_rh",
+  "textures": {
+    "middle": "regions_unexplored:block/brimwood_tall_door_middle"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ru_pine": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "regions_unexplored:pine_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:ru_pine_tall_door_from_ru_pine_door_and_ru_pine_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_ru_pine",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:ru_pine_tall_door_from_ru_pine_door_and_ru_pine_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -34,18 +34,18 @@ public class BiomesOPlentyBlocks {
     public static final BlockManager BOP_CUT_WHITE_SANDSTONE = CaliberBlockManager.registerBOP("cut_white_sandstone", () -> BlockBehaviour.Properties.copy(BOPBlocks.CUT_WHITE_SANDSTONE.get()), () -> BOPBlocks.CUT_WHITE_SANDSTONE.get(), STONE_VARIANTS);
 
     /* Planks */
-    public static final BlockManager BOP_DEAD = CaliberBlockManager.registerBOP("dead_planks", () -> BlockBehaviour.Properties.copy(BOPBlocks.DEAD_PLANKS.get()), () -> BOPBlocks.DEAD_PLANKS.get(), COMPAT_PLANK_VARIANTS);
-    public static final BlockManager BOP_FIR = CaliberBlockManager.registerBOP("fir_planks", () -> BlockBehaviour.Properties.copy(BOPBlocks.FIR_PLANKS.get()), () -> BOPBlocks.FIR_PLANKS.get(), COMPAT_PLANK_VARIANTS);
-    public static final BlockManager BOP_HELLBARK = CaliberBlockManager.registerBOP("hellbark_planks", () -> BlockBehaviour.Properties.copy(BOPBlocks.HELLBARK_PLANKS.get()), () -> BOPBlocks.HELLBARK_PLANKS.get(), COMPAT_PLANK_VARIANTS);
-    public static final BlockManager BOP_JACARANDA = CaliberBlockManager.registerBOP("jacaranda_planks", () -> BlockBehaviour.Properties.copy(BOPBlocks.JACARANDA_PLANKS.get()), () -> BOPBlocks.JACARANDA_PLANKS.get(), COMPAT_PLANK_VARIANTS);
-    public static final BlockManager BOP_MAGIC = CaliberBlockManager.registerBOP("magic_planks", () -> BlockBehaviour.Properties.copy(BOPBlocks.MAGIC_PLANKS.get()), () -> BOPBlocks.MAGIC_PLANKS.get(), COMPAT_PLANK_VARIANTS);
-    public static final BlockManager BOP_MAHOGANY = CaliberBlockManager.registerBOP("mahogany_planks", () -> BlockBehaviour.Properties.copy(BOPBlocks.MAHOGANY_PLANKS.get()), () -> BOPBlocks.MAHOGANY_PLANKS.get(), COMPAT_PLANK_VARIANTS);
-//    public static final BlockManager BOP_MAPLE = CaliberBlockManager.registerBOP("maple_planks", () -> BlockBehaviour.Properties.copy(BOPBlocks.MAPLE_PLANKS.get()), () -> BOPBlocks.MAPLE_PLANKS.get(), COMPAT_PLANK_VARIANTS);
-    public static final BlockManager BOP_PALM = CaliberBlockManager.registerBOP("palm_planks", () -> BlockBehaviour.Properties.copy(BOPBlocks.PALM_PLANKS.get()), () -> BOPBlocks.PALM_PLANKS.get(), COMPAT_PLANK_VARIANTS);
-//    public static final BlockManager BOP_PINE = CaliberBlockManager.registerBOP("pine_planks", () -> BlockBehaviour.Properties.copy(BOPBlocks.PINE_PLANKS.get()), () -> BOPBlocks.PINE_PLANKS.get(), COMPAT_PLANK_VARIANTS);
-    public static final BlockManager BOP_REDWOOD = CaliberBlockManager.registerBOP("redwood_planks", () -> BlockBehaviour.Properties.copy(BOPBlocks.REDWOOD_PLANKS.get()), () -> BOPBlocks.REDWOOD_PLANKS.get(), COMPAT_PLANK_VARIANTS);
-    public static final BlockManager BOP_UMBRAN = CaliberBlockManager.registerBOP("umbran_planks", () -> BlockBehaviour.Properties.copy(BOPBlocks.UMBRAN_PLANKS.get()), () -> BOPBlocks.UMBRAN_PLANKS.get(), COMPAT_PLANK_VARIANTS);
-    public static final BlockManager BOP_WILLOW = CaliberBlockManager.registerBOP("willow_planks", () -> BlockBehaviour.Properties.copy(BOPBlocks.WILLOW_PLANKS.get()), () -> BOPBlocks.WILLOW_PLANKS.get(), COMPAT_PLANK_VARIANTS);
+    public static final BlockManager BOP_DEAD = CaliberBlockManager.registerBOP("dead_planks", () -> BlockBehaviour.Properties.copy(BOPBlocks.DEAD_PLANKS.get()), () -> BOPBlocks.DEAD_PLANKS.get(), VANILLA_PLANK_VARIANTS);
+    public static final BlockManager BOP_FIR = CaliberBlockManager.registerBOP("fir_planks", () -> BlockBehaviour.Properties.copy(BOPBlocks.FIR_PLANKS.get()), () -> BOPBlocks.FIR_PLANKS.get(), VANILLA_PLANK_VARIANTS);
+    public static final BlockManager BOP_HELLBARK = CaliberBlockManager.registerBOP("hellbark_planks", () -> BlockBehaviour.Properties.copy(BOPBlocks.HELLBARK_PLANKS.get()), () -> BOPBlocks.HELLBARK_PLANKS.get(), VANILLA_PLANK_VARIANTS);
+    public static final BlockManager BOP_JACARANDA = CaliberBlockManager.registerBOP("jacaranda_planks", () -> BlockBehaviour.Properties.copy(BOPBlocks.JACARANDA_PLANKS.get()), () -> BOPBlocks.JACARANDA_PLANKS.get(), VANILLA_PLANK_VARIANTS);
+    public static final BlockManager BOP_MAGIC = CaliberBlockManager.registerBOP("magic_planks", () -> BlockBehaviour.Properties.copy(BOPBlocks.MAGIC_PLANKS.get()), () -> BOPBlocks.MAGIC_PLANKS.get(), VANILLA_PLANK_VARIANTS);
+    public static final BlockManager BOP_MAHOGANY = CaliberBlockManager.registerBOP("mahogany_planks", () -> BlockBehaviour.Properties.copy(BOPBlocks.MAHOGANY_PLANKS.get()), () -> BOPBlocks.MAHOGANY_PLANKS.get(), VANILLA_PLANK_VARIANTS);
+//    public static final BlockManager BOP_MAPLE = CaliberBlockManager.registerBOP("maple_planks", () -> BlockBehaviour.Properties.copy(BOPBlocks.MAPLE_PLANKS.get()), () -> BOPBlocks.MAPLE_PLANKS.get(), VANILLA_PLANK_VARIANTS);
+    public static final BlockManager BOP_PALM = CaliberBlockManager.registerBOP("palm_planks", () -> BlockBehaviour.Properties.copy(BOPBlocks.PALM_PLANKS.get()), () -> BOPBlocks.PALM_PLANKS.get(), VANILLA_PLANK_VARIANTS);
+//    public static final BlockManager BOP_PINE = CaliberBlockManager.registerBOP("pine_planks", () -> BlockBehaviour.Properties.copy(BOPBlocks.PINE_PLANKS.get()), () -> BOPBlocks.PINE_PLANKS.get(), VANILLA_PLANK_VARIANTS);
+    public static final BlockManager BOP_REDWOOD = CaliberBlockManager.registerBOP("redwood_planks", () -> BlockBehaviour.Properties.copy(BOPBlocks.REDWOOD_PLANKS.get()), () -> BOPBlocks.REDWOOD_PLANKS.get(), VANILLA_PLANK_VARIANTS);
+    public static final BlockManager BOP_UMBRAN = CaliberBlockManager.registerBOP("umbran_planks", () -> BlockBehaviour.Properties.copy(BOPBlocks.UMBRAN_PLANKS.get()), () -> BOPBlocks.UMBRAN_PLANKS.get(), VANILLA_PLANK_VARIANTS);
+    public static final BlockManager BOP_WILLOW = CaliberBlockManager.registerBOP("willow_planks", () -> BlockBehaviour.Properties.copy(BOPBlocks.WILLOW_PLANKS.get()), () -> BOPBlocks.WILLOW_PLANKS.get(), VANILLA_PLANK_VARIANTS);
 
     /* Shingles */
     public static final BlockManager BOP_DEAD_SHINGLES = CaliberBlockManager.registerBOP("dead_shingle", () -> BlockBehaviour.Properties.copy(BOPBlocks.DEAD_PLANKS.get()), () -> BOPBlocks.DEAD_PLANKS.get(), ROOF_VARIANTS);

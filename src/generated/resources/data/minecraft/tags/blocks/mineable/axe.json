@@ -734,6 +734,10 @@
       "required": false
     },
     {
+      "id": "biomesoplenty:dead_tall_door",
+      "required": false
+    },
+    {
       "id": "biomesoplenty:dead_wall",
       "required": false
     },
@@ -803,6 +807,10 @@
     },
     {
       "id": "biomesoplenty:fir_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_tall_door",
       "required": false
     },
     {
@@ -878,6 +886,10 @@
       "required": false
     },
     {
+      "id": "biomesoplenty:hellbark_tall_door",
+      "required": false
+    },
+    {
       "id": "biomesoplenty:hellbark_wall",
       "required": false
     },
@@ -947,6 +959,10 @@
     },
     {
       "id": "biomesoplenty:jacaranda_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_tall_door",
       "required": false
     },
     {
@@ -1022,6 +1038,10 @@
       "required": false
     },
     {
+      "id": "biomesoplenty:magic_tall_door",
+      "required": false
+    },
+    {
       "id": "biomesoplenty:magic_wall",
       "required": false
     },
@@ -1091,6 +1111,10 @@
     },
     {
       "id": "biomesoplenty:mahogany_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_tall_door",
       "required": false
     },
     {
@@ -1166,6 +1190,10 @@
       "required": false
     },
     {
+      "id": "biomesoplenty:palm_tall_door",
+      "required": false
+    },
+    {
       "id": "biomesoplenty:palm_wall",
       "required": false
     },
@@ -1235,6 +1263,10 @@
     },
     {
       "id": "biomesoplenty:redwood_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_tall_door",
       "required": false
     },
     {
@@ -2190,6 +2222,10 @@
       "required": false
     },
     {
+      "id": "biomesoplenty:umbran_tall_door",
+      "required": false
+    },
+    {
       "id": "biomesoplenty:umbran_wall",
       "required": false
     },
@@ -2262,6 +2298,10 @@
       "required": false
     },
     {
+      "id": "biomesoplenty:willow_tall_door",
+      "required": false
+    },
+    {
       "id": "biomesoplenty:willow_wall",
       "required": false
     },
@@ -2331,6 +2371,10 @@
     },
     {
       "id": "regions_unexplored:baobab_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:baobab_tall_door",
       "required": false
     },
     {
@@ -2475,6 +2519,10 @@
     },
     {
       "id": "regions_unexplored:blackwood_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blackwood_tall_door",
       "required": false
     },
     {
@@ -2691,6 +2739,10 @@
     },
     {
       "id": "regions_unexplored:brimwood_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brimwood_tall_door",
       "required": false
     },
     {
@@ -2982,6 +3034,10 @@
       "required": false
     },
     {
+      "id": "regions_unexplored:cypress_tall_door",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:cypress_wall",
       "required": false
     },
@@ -3054,6 +3110,10 @@
       "required": false
     },
     {
+      "id": "regions_unexplored:dead_tall_door",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:dead_wall",
       "required": false
     },
@@ -3123,6 +3183,10 @@
     },
     {
       "id": "regions_unexplored:eucalyptus_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:eucalyptus_tall_door",
       "required": false
     },
     {
@@ -3342,6 +3406,10 @@
       "required": false
     },
     {
+      "id": "regions_unexplored:joshua_tall_door",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:joshua_wall",
       "required": false
     },
@@ -3483,6 +3551,10 @@
     },
     {
       "id": "regions_unexplored:larch_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:larch_tall_door",
       "required": false
     },
     {
@@ -3918,6 +3990,10 @@
       "required": false
     },
     {
+      "id": "regions_unexplored:maple_tall_door",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:maple_wall",
       "required": false
     },
@@ -3987,6 +4063,10 @@
     },
     {
       "id": "regions_unexplored:mauve_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mauve_tall_door",
       "required": false
     },
     {
@@ -4134,6 +4214,10 @@
       "required": false
     },
     {
+      "id": "regions_unexplored:palm_tall_door",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:palm_wall",
       "required": false
     },
@@ -4203,6 +4287,10 @@
     },
     {
       "id": "regions_unexplored:pine_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_tall_door",
       "required": false
     },
     {
@@ -4563,6 +4651,10 @@
     },
     {
       "id": "regions_unexplored:redwood_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redwood_tall_door",
       "required": false
     },
     {
@@ -6627,6 +6719,10 @@
     },
     {
       "id": "regions_unexplored:willow_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:willow_tall_door",
       "required": false
     },
     {

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bop_willow": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "biomesoplenty:willow_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:bop_willow_tall_door_from_bop_willow_door_and_bop_willow_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_bop_willow",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:bop_willow_tall_door_from_bop_willow_door_and_bop_willow_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

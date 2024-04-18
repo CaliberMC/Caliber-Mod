@@ -1,0 +1,6 @@
+{
+  "parent": "caliberlib:block/templates/door_top",
+  "textures": {
+    "top": "regions_unexplored:block/palm_tall_door_top"
+  }
+}

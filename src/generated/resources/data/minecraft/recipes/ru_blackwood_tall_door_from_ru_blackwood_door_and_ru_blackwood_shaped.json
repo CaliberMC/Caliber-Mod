@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "regions_unexplored:blackwood_planks"
+    },
+    "X": {
+      "item": "regions_unexplored:blackwood_door"
+    }
+  },
+  "pattern": [
+    "X",
+    "#"
+  ],
+  "result": {
+    "item": "regions_unexplored:blackwood_tall_door"
+  },
+  "show_notification": true
+}

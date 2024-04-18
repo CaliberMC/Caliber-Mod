@@ -1,0 +1,6 @@
+{
+  "parent": "caliberlib:block/templates/door_middle",
+  "textures": {
+    "middle": "regions_unexplored:block/dead_tall_door_middle"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "caliberlib:block/templates/door_top",
+  "textures": {
+    "top": "biomesoplenty:block/dead_tall_door_top"
+  }
+}

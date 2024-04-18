@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "biomesoplenty:hellbark_planks"
+    },
+    "X": {
+      "item": "biomesoplenty:hellbark_door"
+    }
+  },
+  "pattern": [
+    "X",
+    "#"
+  ],
+  "result": {
+    "item": "biomesoplenty:hellbark_tall_door"
+  },
+  "show_notification": true
+}

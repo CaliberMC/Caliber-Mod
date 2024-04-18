@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bop_redwood": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "biomesoplenty:redwood_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:bop_redwood_tall_door_from_bop_redwood_door_and_bop_redwood_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_bop_redwood",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:bop_redwood_tall_door_from_bop_redwood_door_and_bop_redwood_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

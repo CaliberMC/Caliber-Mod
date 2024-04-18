@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bop_umbran": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "biomesoplenty:umbran_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:bop_umbran_tall_door_from_bop_umbran_door_and_bop_umbran_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_bop_umbran",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:bop_umbran_tall_door_from_bop_umbran_door_and_bop_umbran_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

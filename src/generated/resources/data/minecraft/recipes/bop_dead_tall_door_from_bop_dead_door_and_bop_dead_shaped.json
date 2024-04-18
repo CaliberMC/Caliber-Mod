@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "biomesoplenty:dead_planks"
+    },
+    "X": {
+      "item": "biomesoplenty:dead_door"
+    }
+  },
+  "pattern": [
+    "X",
+    "#"
+  ],
+  "result": {
+    "item": "biomesoplenty:dead_tall_door"
+  },
+  "show_notification": true
+}

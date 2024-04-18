@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bop_hellbark": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "biomesoplenty:hellbark_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:bop_hellbark_tall_door_from_bop_hellbark_door_and_bop_hellbark_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_bop_hellbark",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:bop_hellbark_tall_door_from_bop_hellbark_door_and_bop_hellbark_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

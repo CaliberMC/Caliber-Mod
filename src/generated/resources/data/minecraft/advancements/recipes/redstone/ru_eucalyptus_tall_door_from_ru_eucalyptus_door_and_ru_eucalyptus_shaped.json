@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ru_eucalyptus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "regions_unexplored:eucalyptus_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:ru_eucalyptus_tall_door_from_ru_eucalyptus_door_and_ru_eucalyptus_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_ru_eucalyptus",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:ru_eucalyptus_tall_door_from_ru_eucalyptus_door_and_ru_eucalyptus_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}
