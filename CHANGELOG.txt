@@ -368,6 +368,7 @@ _ Added all Terracotta Roof variants
 - Added mod compatibility variants for Regions Unexplored
 - Added missing translations for en_us
 - Added filters for Blockpicker showing vanilla block families (linked to Buildify Config)
+- Bugfix: fixed Tall Door Texture Colors
 - Bugfix: fixed Polished Granite BlockPicker displaying Granite stairs and walls, (now displays Polished Granite variants)
 - Bugfix: fixed ArchBlock textures not displaying correctly in all situations (there may still be some glitches in rare case)
 

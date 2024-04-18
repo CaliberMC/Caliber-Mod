@@ -20,11 +20,13 @@ public class CaliberBlockFamilies {
     /* Andesite */
     public static final ModBlockFamily ANDESITE = familyBuilder(Blocks.ANDESITE)
             .fromManager(CaliberBlocks.ANDESITE)
+            .slab(Blocks.ANDESITE_SLAB)
             .stairs(Blocks.ANDESITE_STAIRS)
             .wall(Blocks.ANDESITE_WALL)
             .getFamily();
     public static final ModBlockFamily POLISHED_ANDESITE = familyBuilder(Blocks.POLISHED_ANDESITE)
             .fromManager(CaliberBlocks.POLISHED_ANDESITE)
+            .slab(Blocks.POLISHED_ANDESITE_SLAB)
             .stairs(Blocks.POLISHED_ANDESITE_STAIRS)
             .getFamily();
     
@@ -42,6 +44,7 @@ public class CaliberBlockFamilies {
     /* Blackstone */
     public static final ModBlockFamily BLACKSTONE = familyBuilder(Blocks.BLACKSTONE)
             .fromManager(CaliberBlocks.BLACKSTONE)
+            .slab(Blocks.BLACKSTONE_SLAB)
             .stairs(Blocks.BLACKSTONE_STAIRS)
             .wall(Blocks.BLACKSTONE_WALL)
             .getFamily();
@@ -50,11 +53,13 @@ public class CaliberBlockFamilies {
             .getFamily();
     public static final ModBlockFamily POLISHED_BLACKSTONE = familyBuilder(Blocks.POLISHED_BLACKSTONE)
             .fromManager(CaliberBlocks.POLISHED_BLACKSTONE)
+            .slab(Blocks.POLISHED_BLACKSTONE_SLAB)
             .stairs(Blocks.POLISHED_BLACKSTONE_STAIRS)
             .wall(Blocks.POLISHED_BLACKSTONE_WALL)
             .getFamily();
     public static final ModBlockFamily POLISHED_BLACKSTONE_BRICK = familyBuilder(Blocks.POLISHED_BLACKSTONE_BRICKS)
             .fromManager(CaliberBlocks.POLISHED_BLACKSTONE_BRICK)
+            .slab(Blocks.POLISHED_BLACKSTONE_BRICK_SLAB)
             .stairs(Blocks.POLISHED_BLACKSTONE_BRICK_STAIRS)
             .wall(Blocks.POLISHED_BLACKSTONE_BRICK_WALL)
             .getFamily();
@@ -62,6 +67,7 @@ public class CaliberBlockFamilies {
     /* Brick */
     public static final ModBlockFamily BRICKS = familyBuilder(Blocks.BRICKS)
             .fromManager(CaliberBlocks.BRICK)
+            .slab(Blocks.BRICK_SLAB)
             .stairs(Blocks.BRICK_STAIRS)
             .wall(Blocks.BRICK_WALL)
             .getFamily();
@@ -77,22 +83,26 @@ public class CaliberBlockFamilies {
             .getFamily();
     public static final ModBlockFamily DEEPSLATE_BRICKS = familyBuilder(Blocks.DEEPSLATE_BRICKS)
             .fromManager(CaliberBlocks.DEEPSLATE_BRICK)
+            .slab(Blocks.DEEPSLATE_BRICK_SLAB)
             .stairs(Blocks.DEEPSLATE_BRICK_STAIRS)
             .wall(Blocks.DEEPSLATE_BRICK_WALL)
             .getFamily();
     public static final ModBlockFamily DEEPSLATE_TILES = familyBuilder(Blocks.DEEPSLATE_TILES)
             .fromManager(CaliberBlocks.DEEPSLATE_TILE)
+            .slab(Blocks.DEEPSLATE_TILE_SLAB)
             .stairs(Blocks.DEEPSLATE_TILE_STAIRS)
             .wall(Blocks.DEEPSLATE_TILE_WALL)
             .fromManager(CaliberBlocks.SLATE_TILE)
             .getFamily();
     public static final ModBlockFamily COBBLED_DEEPSLATE = familyBuilder(Blocks.COBBLED_DEEPSLATE)
             .fromManager(CaliberBlocks.COBBLED_DEEPSLATE)
+            .slab(Blocks.COBBLED_DEEPSLATE_SLAB)
             .stairs(Blocks.COBBLED_DEEPSLATE_STAIRS)
             .wall(Blocks.COBBLED_DEEPSLATE_WALL)
             .getFamily();
     public static final ModBlockFamily POLISHED_DEEPSLATE = familyBuilder(Blocks.POLISHED_DEEPSLATE)
             .fromManager(CaliberBlocks.POLISHED_DEEPSLATE)
+            .slab(Blocks.POLISHED_DEEPSLATE_SLAB)
             .stairs(Blocks.POLISHED_DEEPSLATE_STAIRS)
             .wall(Blocks.POLISHED_DEEPSLATE_WALL)
             .getFamily();
@@ -100,11 +110,13 @@ public class CaliberBlockFamilies {
     /* Diorite */
     public static final ModBlockFamily DIORITE = familyBuilder(Blocks.DIORITE)
             .fromManager(CaliberBlocks.DIORITE)
+            .slab(Blocks.DIORITE_SLAB)
             .stairs(Blocks.DIORITE_STAIRS)
             .wall(Blocks.DIORITE_WALL)
             .getFamily();
     public static final ModBlockFamily POLISHED_DIORITE = familyBuilder(Blocks.POLISHED_DIORITE)
             .fromManager(CaliberBlocks.POLISHED_DIORITE)
+            .slab(Blocks.POLISHED_DIORITE_SLAB)
             .stairs(Blocks.POLISHED_DIORITE_STAIRS)
             .getFamily();
     
@@ -119,6 +131,7 @@ public class CaliberBlockFamilies {
             .getFamily();
     public static final ModBlockFamily END_STONE_BRICK = familyBuilder(Blocks.END_STONE_BRICKS)
             .fromManager(CaliberBlocks.END_STONE_BRICK)
+            .slab(Blocks.END_STONE_BRICK_SLAB)
             .stairs(Blocks.END_STONE_BRICK_STAIRS)
             .wall(Blocks.END_STONE_BRICK_WALL)
             .getFamily();
@@ -126,17 +139,20 @@ public class CaliberBlockFamilies {
     /* Granite */
     public static final ModBlockFamily GRANITE = familyBuilder(Blocks.GRANITE)
             .fromManager(CaliberBlocks.GRANITE)
+            .slab(Blocks.GRANITE_SLAB)
             .stairs(Blocks.GRANITE_STAIRS)
             .wall(Blocks.GRANITE_WALL)
             .getFamily();
     public static final ModBlockFamily POLISHED_GRANITE = familyBuilder(Blocks.POLISHED_GRANITE)
             .fromManager(CaliberBlocks.POLISHED_GRANITE)
+            .slab(Blocks.POLISHED_GRANITE_SLAB)
             .stairs(Blocks.POLISHED_GRANITE_STAIRS)
             .getFamily();
     
     /* Mud Bricks */
     public static final ModBlockFamily MUD_BRICKS = familyBuilder(Blocks.MUD_BRICKS)
             .fromManager(CaliberBlocks.MUD_BRICK)
+            .slab(Blocks.MUD_BRICK_SLAB)
             .stairs(Blocks.MUD_BRICK_STAIRS)
             .wall(Blocks.MUD_BRICK_WALL)
             .getFamily();
@@ -149,11 +165,13 @@ public class CaliberBlockFamilies {
     /* Nether Bricks */
     public static final ModBlockFamily NETHER_BRICKS = familyBuilder(Blocks.NETHER_BRICKS)
             .fromManager(CaliberBlocks.NETHER_BRICK)
+            .slab(Blocks.NETHER_BRICK_SLAB)
             .stairs(Blocks.NETHER_BRICK_STAIRS)
             .wall(Blocks.NETHER_BRICK_WALL)
             .getFamily();
     public static final ModBlockFamily RED_NETHER_BRICKS = familyBuilder(Blocks.RED_NETHER_BRICKS)
             .fromManager(CaliberBlocks.RED_NETHER_BRICK)
+            .slab(Blocks.RED_NETHER_BRICK_SLAB)
             .stairs(Blocks.RED_NETHER_BRICK_STAIRS)
             .wall(Blocks.RED_NETHER_BRICK_WALL)
             .getFamily();
@@ -166,15 +184,18 @@ public class CaliberBlockFamilies {
     /* Prismarine */
     public static final ModBlockFamily PRISMARINE = familyBuilder(Blocks.PRISMARINE)
             .fromManager(CaliberBlocks.PRISMARINE)
+            .slab(Blocks.PRISMARINE_SLAB)
             .stairs(Blocks.PRISMARINE_STAIRS)
             .wall(Blocks.PRISMARINE_WALL)
             .getFamily();
     public static final ModBlockFamily PRISMARINE_BRICKS = familyBuilder(Blocks.PRISMARINE_BRICKS)
             .fromManager(CaliberBlocks.PRISMARINE_BRICK)
+            .slab(Blocks.PRISMARINE_BRICK_SLAB)
             .stairs(Blocks.PRISMARINE_BRICK_STAIRS)
             .getFamily();
     public static final ModBlockFamily DARK_PRISMARINE = familyBuilder(Blocks.DARK_PRISMARINE)
             .fromManager(CaliberBlocks.DARK_PRISMARINE)
+            .slab(Blocks.DARK_PRISMARINE_SLAB)
             .stairs(Blocks.DARK_PRISMARINE_STAIRS)
             .getFamily();
     
@@ -186,6 +207,7 @@ public class CaliberBlockFamilies {
     /* Quartz */
     public static final ModBlockFamily QUARTZ = familyBuilder(Blocks.QUARTZ_BLOCK)
             .fromManager(CaliberBlocks.QUARTZ)
+            .slab(Blocks.QUARTZ_SLAB)
             .stairs(Blocks.QUARTZ_STAIRS)
             .getFamily();
     public static final ModBlockFamily QUARTZ_BRICKS = familyBuilder(Blocks.QUARTZ_BRICKS)
@@ -193,33 +215,40 @@ public class CaliberBlockFamilies {
             .getFamily();
     public static final ModBlockFamily SMOOTH_QUARTZ = familyBuilder(Blocks.SMOOTH_QUARTZ)
             .fromManager(CaliberBlocks.SMOOTH_QUARTZ)
+            .slab(Blocks.SMOOTH_QUARTZ_SLAB)
             .stairs(Blocks.SMOOTH_QUARTZ_STAIRS)
             .getFamily();
 
     /* Sandstone */
     public static final ModBlockFamily RED_SANDSTONE = familyBuilder(Blocks.RED_SANDSTONE)
             .fromManager(CaliberBlocks.RED_SANDSTONE)
+            .slab(Blocks.RED_SANDSTONE_SLAB)
             .stairs(Blocks.RED_SANDSTONE_STAIRS)
             .wall(Blocks.RED_SANDSTONE_WALL)
             .getFamily();
     public static final ModBlockFamily SANDSTONE = familyBuilder(Blocks.SANDSTONE)
             .fromManager(CaliberBlocks.SANDSTONE)
+            .slab(Blocks.SANDSTONE_SLAB)
             .stairs(Blocks.SANDSTONE_STAIRS)
             .wall(Blocks.SANDSTONE_WALL)
             .getFamily();
     public static final ModBlockFamily SMOOTH_RED_SANDSTONE = familyBuilder(Blocks.SMOOTH_RED_SANDSTONE)
             .fromManager(CaliberBlocks.SMOOTH_RED_SANDSTONE)
+            .slab(Blocks.SMOOTH_RED_SANDSTONE_SLAB)
             .stairs(Blocks.SMOOTH_RED_SANDSTONE_STAIRS)
             .getFamily();
     public static final ModBlockFamily SMOOTH_SANDSTONE = familyBuilder(Blocks.SMOOTH_SANDSTONE)
             .fromManager(CaliberBlocks.SMOOTH_SANDSTONE)
+            .slab(Blocks.SMOOTH_SANDSTONE_SLAB)
             .stairs(Blocks.SMOOTH_SANDSTONE_STAIRS)
             .getFamily();
     public static final ModBlockFamily CUT_RED_SANDSTONE = familyBuilder(Blocks.CUT_RED_SANDSTONE)
             .fromManager(CaliberBlocks.CUT_RED_SANDSTONE)
+            .slab(Blocks.CUT_RED_SANDSTONE_SLAB)
             .getFamily();
     public static final ModBlockFamily CUT_SANDSTONE = familyBuilder(Blocks.CUT_SANDSTONE)
             .fromManager(CaliberBlocks.CUT_SANDSTONE)
+            .slab(Blocks.CUT_SANDSTONE_SLAB)
             .getFamily();
 
 
@@ -228,25 +257,30 @@ public class CaliberBlockFamilies {
             .fromManager(CaliberBlocks.STONE)
             .button(Blocks.STONE_BUTTON)
             .pressurePlate(Blocks.STONE_PRESSURE_PLATE)
+            .slab(Blocks.STONE_SLAB)
             .stairs(Blocks.STONE_STAIRS)
             .getFamily();
     public static final ModBlockFamily COBBLESTONE = familyBuilder(Blocks.COBBLESTONE)
             .fromManager(CaliberBlocks.COBBLESTONE)
+            .slab(Blocks.COBBLESTONE_SLAB)
             .stairs(Blocks.COBBLESTONE_STAIRS)
             .wall(Blocks.COBBLESTONE_WALL)
             .getFamily();
     public static final ModBlockFamily STONE_BRICKS = familyBuilder(Blocks.STONE_BRICKS)
             .fromManager(CaliberBlocks.STONE_BRICK)
+            .slab(Blocks.STONE_BRICK_SLAB)
             .stairs(Blocks.STONE_BRICK_STAIRS)
             .wall(Blocks.STONE_BRICK_WALL)
             .getFamily();
     public static final ModBlockFamily MOSSY_STONE_BRICKS = familyBuilder(Blocks.MOSSY_STONE_BRICKS)
             .fromManager(CaliberBlocks.MOSSY_STONE_BRICK)
+            .slab(Blocks.MOSSY_STONE_BRICK_SLAB)
             .stairs(Blocks.MOSSY_STONE_BRICK_STAIRS)
             .wall(Blocks.MOSSY_STONE_BRICK_WALL)
             .getFamily();
     public static final ModBlockFamily MOSSY_COBBLESTONE = familyBuilder(Blocks.MOSSY_COBBLESTONE)
             .fromManager(CaliberBlocks.MOSSY_COBBLESTONE)
+            .slab(Blocks.MOSSY_COBBLESTONE_SLAB)
             .stairs(Blocks.MOSSY_COBBLESTONE_STAIRS)
             .wall(Blocks.MOSSY_COBBLESTONE_WALL)
             .getFamily();
@@ -298,139 +332,142 @@ public class CaliberBlockFamilies {
     /* Wood Planks */
     public static final ModBlockFamily ACACIA_PLANKS = familyBuilder(Blocks.ACACIA_PLANKS)
             .fromManager(CaliberBlocks.ACACIA)
+            .fromManager(CaliberBlocks.ACACIA_SHINGLES)
+            .button(Blocks.ACACIA_BUTTON)
+            .door(Blocks.ACACIA_DOOR)
             .fence(Blocks.ACACIA_FENCE)
             .fenceGate(Blocks.ACACIA_FENCE_GATE)
-            .door(Blocks.ACACIA_DOOR)
-            .trapdoor(Blocks.ACACIA_TRAPDOOR)
-            .stairs(Blocks.ACACIA_STAIRS)
             .pressurePlate(Blocks.ACACIA_PRESSURE_PLATE)
-            .button(Blocks.ACACIA_BUTTON)
             .sign(Blocks.ACACIA_SIGN, Blocks.ACACIA_WALL_SIGN)
-            .fromManager(CaliberBlocks.ACACIA_SHINGLES)
+            .slab(Blocks.ACACIA_SLAB)
+            .stairs(Blocks.ACACIA_STAIRS)
+            .trapdoor(Blocks.ACACIA_TRAPDOOR)
             .getFamily();
     public static final ModBlockFamily BAMBOO_PLANKS = familyBuilder(Blocks.BAMBOO_PLANKS)
             .fromManager(CaliberBlocks.BAMBOO)
+            .fromManager(CaliberBlocks.BAMBOO_SHINGLES)
+            .button(Blocks.BAMBOO_BUTTON)
+            .door(Blocks.BAMBOO_DOOR)
             .fence(Blocks.BAMBOO_FENCE)
             .fenceGate(Blocks.BAMBOO_FENCE_GATE)
-            .door(Blocks.BAMBOO_DOOR)
-            .trapdoor(Blocks.BAMBOO_TRAPDOOR)
-            .stairs(Blocks.BAMBOO_STAIRS)
             .pressurePlate(Blocks.BAMBOO_PRESSURE_PLATE)
-            .button(Blocks.BAMBOO_BUTTON)
             .sign(Blocks.BAMBOO_SIGN, Blocks.BAMBOO_WALL_SIGN)
-            .fromManager(CaliberBlocks.BAMBOO_SHINGLES)
+            .slab(Blocks.BAMBOO_SLAB)
+            .stairs(Blocks.BAMBOO_STAIRS)
+            .trapdoor(Blocks.BAMBOO_TRAPDOOR)
             .getFamily();
     public static final ModBlockFamily BAMBOO_MOSAIC = familyBuilder(Blocks.BAMBOO_MOSAIC)
             .fromManager(CaliberBlocks.BAMBOO_MOSAIC)
+            .slab(Blocks.BAMBOO_MOSAIC_SLAB)
             .stairs(Blocks.BAMBOO_MOSAIC_STAIRS)
             .getFamily();
     public static final ModBlockFamily BIRCH_PLANKS = familyBuilder(Blocks.BIRCH_PLANKS)
             .fromManager(CaliberBlocks.BIRCH)
+            .fromManager(CaliberBlocks.BIRCH_SHINGLES)
+            .button(Blocks.BIRCH_BUTTON)
+            .door(Blocks.BIRCH_DOOR)
             .fence(Blocks.BIRCH_FENCE)
             .fenceGate(Blocks.BIRCH_FENCE_GATE)
-            .door(Blocks.BIRCH_DOOR)
-            .trapdoor(Blocks.BIRCH_TRAPDOOR)
-            .stairs(Blocks.BIRCH_STAIRS)
             .pressurePlate(Blocks.BIRCH_PRESSURE_PLATE)
-            .button(Blocks.BIRCH_BUTTON)
             .sign(Blocks.BIRCH_SIGN, Blocks.BIRCH_WALL_SIGN)
-            .fromManager(CaliberBlocks.BIRCH_SHINGLES)
+            .stairs(Blocks.BIRCH_STAIRS)
+            .trapdoor(Blocks.BIRCH_TRAPDOOR)
             .getFamily();
     public static final ModBlockFamily CHERRY_PLANKS = familyBuilder(Blocks.CHERRY_PLANKS)
             .fromManager(CaliberBlocks.CHERRY)
+            .fromManager(CaliberBlocks.CHERRY_SHINGLES)
+            .button(Blocks.CHERRY_BUTTON)
+            .door(Blocks.CHERRY_DOOR)
             .fence(Blocks.CHERRY_FENCE)
             .fenceGate(Blocks.CHERRY_FENCE_GATE)
-            .door(Blocks.CHERRY_DOOR)
-            .trapdoor(Blocks.CHERRY_TRAPDOOR)
             .stairs(Blocks.CHERRY_STAIRS)
             .pressurePlate(Blocks.CHERRY_PRESSURE_PLATE)
-            .button(Blocks.CHERRY_BUTTON)
             .sign(Blocks.CHERRY_SIGN, Blocks.CHERRY_WALL_SIGN)
-            .fromManager(CaliberBlocks.CHERRY_SHINGLES)
+            .trapdoor(Blocks.CHERRY_TRAPDOOR)
             .getFamily();
     public static final ModBlockFamily DARK_OAK_PLANKS = familyBuilder(Blocks.DARK_OAK_PLANKS)
             .fromManager(CaliberBlocks.DARK_OAK)
+            .fromManager(CaliberBlocks.DARK_OAK_SHINGLES)
+            .button(Blocks.DARK_OAK_BUTTON)
+            .door(Blocks.DARK_OAK_DOOR)
             .fence(Blocks.DARK_OAK_FENCE)
             .fenceGate(Blocks.DARK_OAK_FENCE_GATE)
-            .door(Blocks.DARK_OAK_DOOR)
-            .trapdoor(Blocks.DARK_OAK_TRAPDOOR)
             .stairs(Blocks.DARK_OAK_STAIRS)
             .pressurePlate(Blocks.DARK_OAK_PRESSURE_PLATE)
-            .button(Blocks.DARK_OAK_BUTTON)
             .sign(Blocks.DARK_OAK_SIGN, Blocks.DARK_OAK_WALL_SIGN)
-            .fromManager(CaliberBlocks.DARK_OAK_SHINGLES)
+            .trapdoor(Blocks.DARK_OAK_TRAPDOOR)
             .getFamily();
     public static final ModBlockFamily JUNGLE_PLANKS = familyBuilder(Blocks.JUNGLE_PLANKS)
             .fromManager(CaliberBlocks.JUNGLE)
+            .fromManager(CaliberBlocks.JUNGLE_SHINGLES)
+            .button(Blocks.JUNGLE_BUTTON)
+            .door(Blocks.JUNGLE_DOOR)
             .fence(Blocks.JUNGLE_FENCE)
             .fenceGate(Blocks.JUNGLE_FENCE_GATE)
-            .door(Blocks.JUNGLE_DOOR)
-            .trapdoor(Blocks.JUNGLE_TRAPDOOR)
-            .stairs(Blocks.JUNGLE_STAIRS)
             .pressurePlate(Blocks.JUNGLE_PRESSURE_PLATE)
-            .button(Blocks.JUNGLE_BUTTON)
             .sign(Blocks.JUNGLE_SIGN, Blocks.JUNGLE_WALL_SIGN)
-            .fromManager(CaliberBlocks.JUNGLE_SHINGLES)
+            .stairs(Blocks.JUNGLE_STAIRS)
+            .trapdoor(Blocks.JUNGLE_TRAPDOOR)
             .getFamily();
     public static final ModBlockFamily MANGROVE_PLANKS = familyBuilder(Blocks.MANGROVE_PLANKS)
             .fromManager(CaliberBlocks.MANGROVE)
+            .fromManager(CaliberBlocks.MANGROVE_SHINGLES)
+            .button(Blocks.MANGROVE_BUTTON)
+            .door(Blocks.MANGROVE_DOOR)
             .fence(Blocks.MANGROVE_FENCE)
             .fenceGate(Blocks.MANGROVE_FENCE_GATE)
-            .door(Blocks.MANGROVE_DOOR)
-            .trapdoor(Blocks.MANGROVE_TRAPDOOR)
-            .stairs(Blocks.MANGROVE_STAIRS)
             .pressurePlate(Blocks.MANGROVE_PRESSURE_PLATE)
-            .button(Blocks.MANGROVE_BUTTON)
             .sign(Blocks.MANGROVE_SIGN, Blocks.MANGROVE_WALL_SIGN)
-            .fromManager(CaliberBlocks.MANGROVE_SHINGLES)
+            .stairs(Blocks.MANGROVE_STAIRS)
+            .trapdoor(Blocks.MANGROVE_TRAPDOOR)
             .getFamily();
     public static final ModBlockFamily OAK_PLANKS = familyBuilder(Blocks.OAK_PLANKS)
             .fromManager(CaliberBlocks.OAK)
+            .fromManager(CaliberBlocks.OAK_SHINGLES)
+            .button(Blocks.OAK_BUTTON)
+            .door(Blocks.OAK_DOOR)
             .fence(Blocks.OAK_FENCE)
             .fenceGate(Blocks.OAK_FENCE_GATE)
-            .door(Blocks.OAK_DOOR)
-            .trapdoor(Blocks.OAK_TRAPDOOR)
-            .stairs(Blocks.OAK_STAIRS)
             .pressurePlate(Blocks.OAK_PRESSURE_PLATE)
-            .button(Blocks.OAK_BUTTON)
             .sign(Blocks.OAK_SIGN, Blocks.OAK_WALL_SIGN)
-            .fromManager(CaliberBlocks.OAK_SHINGLES)
+            .stairs(Blocks.OAK_STAIRS)
+            .trapdoor(Blocks.OAK_TRAPDOOR)
             .getFamily();
     public static final ModBlockFamily SPRUCE_PLANKS = familyBuilder(Blocks.SPRUCE_PLANKS)
             .fromManager(CaliberBlocks.SPRUCE)
+            .fromManager(CaliberBlocks.SPRUCE_SHINGLES)
+            .button(Blocks.SPRUCE_BUTTON)
+            .door(Blocks.SPRUCE_DOOR)
             .fence(Blocks.SPRUCE_FENCE)
             .fenceGate(Blocks.SPRUCE_FENCE_GATE)
-            .door(Blocks.SPRUCE_DOOR)
-            .trapdoor(Blocks.SPRUCE_TRAPDOOR)
-            .stairs(Blocks.SPRUCE_STAIRS)
             .pressurePlate(Blocks.SPRUCE_PRESSURE_PLATE)
-            .button(Blocks.SPRUCE_BUTTON)
             .sign(Blocks.SPRUCE_SIGN, Blocks.SPRUCE_WALL_SIGN)
-            .fromManager(CaliberBlocks.SPRUCE_SHINGLES)
+            .stairs(Blocks.SPRUCE_STAIRS)
+            .trapdoor(Blocks.SPRUCE_TRAPDOOR)
             .getFamily();
     public static final ModBlockFamily CRIMSON_PLANKS = familyBuilder(Blocks.CRIMSON_PLANKS)
             .fromManager(CaliberBlocks.CRIMSON)
+            .fromManager(CaliberBlocks.CRIMSON_SHINGLES)
+            .button(Blocks.CRIMSON_BUTTON)
+            .door(Blocks.CRIMSON_DOOR)
             .fence(Blocks.CRIMSON_FENCE)
             .fenceGate(Blocks.CRIMSON_FENCE_GATE)
-            .door(Blocks.CRIMSON_DOOR)
-            .trapdoor(Blocks.CRIMSON_TRAPDOOR)
-            .stairs(Blocks.CRIMSON_STAIRS)
             .pressurePlate(Blocks.CRIMSON_PRESSURE_PLATE)
-            .button(Blocks.CRIMSON_BUTTON)
             .sign(Blocks.CRIMSON_SIGN, Blocks.CRIMSON_WALL_SIGN)
-            .fromManager(CaliberBlocks.CRIMSON_SHINGLES)
+            .stairs(Blocks.CRIMSON_STAIRS)
+            .trapdoor(Blocks.CRIMSON_TRAPDOOR)
             .getFamily();
     public static final ModBlockFamily WARPED_PLANKS = familyBuilder(Blocks.WARPED_PLANKS)
             .fromManager(CaliberBlocks.WARPED)
+            .fromManager(CaliberBlocks.WARPED_SHINGLES)
+            .button(Blocks.WARPED_BUTTON)
+            .door(Blocks.WARPED_DOOR)
             .fence(Blocks.WARPED_FENCE)
             .fenceGate(Blocks.WARPED_FENCE_GATE)
-            .door(Blocks.WARPED_DOOR)
-            .trapdoor(Blocks.WARPED_TRAPDOOR)
-            .stairs(Blocks.WARPED_STAIRS)
             .pressurePlate(Blocks.WARPED_PRESSURE_PLATE)
-            .button(Blocks.WARPED_BUTTON)
             .sign(Blocks.WARPED_SIGN, Blocks.WARPED_WALL_SIGN)
-            .fromManager(CaliberBlocks.WARPED_SHINGLES)
+            .stairs(Blocks.WARPED_STAIRS)
+            .trapdoor(Blocks.WARPED_TRAPDOOR)
             .getFamily();
 
     /* Concrete */

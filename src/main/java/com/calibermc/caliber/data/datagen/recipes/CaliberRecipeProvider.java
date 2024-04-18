@@ -49,7 +49,7 @@ public class CaliberRecipeProvider extends RecipeProvider implements IConditionB
                                 || WoodType.values().anyMatch(p -> p.name().equals(blockManager.blockType().name()));
                         if (blockManager.getName().contains("maple")) {
                             LOGGER.info("BlockManager: " + blockManager.getName());
-                            LOGGER.info("Wood: " + wood);
+//                            LOGGER.info("Wood: " + wood);
                         }
 
                         generateRecipes(blockManager, wood, recipeConsumer, blockManagerKey);

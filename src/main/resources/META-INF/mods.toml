@@ -62,27 +62,29 @@ mandatory=true
 versionRange="${minecraft_version_range}"
 ordering="NONE"
 side="BOTH"
+
 [[dependencies.${mod_id}]]
 modId="buildify"
 mandatory=true
-# This version range declares a minimum of the current minecraft version up to but not including the next major version
 versionRange="${buildify_version_range}"
 ordering="NONE"
 side="BOTH"
+
 [[dependencies.${mod_id}]]
 modId="caliberlib"
 mandatory=true
-# This version range declares a minimum of the current minecraft version up to but not including the next major version
 versionRange="${caliber_lib_version_range}"
 ordering="NONE"
 side="BOTH"
 
+# Optional Dependencies - Mod Compatibility
 [[dependencies.${mod_id}]]
 modId="regions_unexplored"
 mandatory=false
 versionRange="${regions_unexplored_version_range}"
 ordering="AFTER"
 side="BOTH"
+
 [[dependencies.${mod_id}]]
 modId="biomesoplenty"
 mandatory=false
