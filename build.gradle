@@ -179,7 +179,7 @@ repositories {
         url = "https://api.modrinth.com/maven"
     }
     maven {
-        url "https://cursemaven.com"
+        url = "https://cursemaven.com"
     }
     mavenLocal()
 }
@@ -212,7 +212,8 @@ dependencies {
     // COMPAT
     implementation fg.deobf("curse.maven:terrablender-563928:4573003")
     implementation fg.deobf("curse.maven:biomesoplenty-220318:4764804")
-    implementation fg.deobf("maven.modrinth:regions-unexplored:${regions_unexplored_version}+${minecraft_version}-forge")
+    implementation fg.deobf("curse.maven:regions-unexplored-659110:5151869")
+//    implementation fg.deobf("maven.modrinth:regions-unexplored:${regions_unexplored_version}+${minecraft_version}-forge")
 
     // jarJar
 //    implementation(fg.deobf(jarJar("com.calibermc.caliberlib:caliberlib:0.0.1") {
