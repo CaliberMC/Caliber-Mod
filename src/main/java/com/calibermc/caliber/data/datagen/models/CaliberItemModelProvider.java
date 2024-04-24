@@ -20,7 +20,7 @@ public class CaliberItemModelProvider extends ModItemModelProvider {
     @Override
     protected void registerModels() {
         super.registerModels();
-        itemModels();
+//        itemModels();
     }
 
 

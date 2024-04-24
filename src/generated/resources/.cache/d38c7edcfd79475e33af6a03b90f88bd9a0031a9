@@ -1,4 +1,4 @@
-// 1.20.1	2024-04-18T11:09:20.9866766	Item Models: caliber
+// 1.20.1	2024-04-24T08:37:16.7864029	Item Models: caliber
 00b20268e49b72c77722ed8940daed37cae906c4 assets/caliber/models/item/acacia_balustrade.json
 6ef10aceacc40aba66253931a29dc358e815f7b7 assets/caliber/models/item/acacia_capital.json
 d4ccb8c4401ae5a9176d183c9c0ff5e3f820bc87 assets/caliber/models/item/acacia_corner.json
@@ -2484,7 +2484,6 @@ e34b1c60543c2c6a55f06851f930af5ffcc3388e assets/caliber/models/item/white_wool_q
 86c7c7b4992c8a3ea2579a89de72bebf699615f4 assets/caliber/models/item/white_wool_wall.json
 24520884e285ec0556851ce4bab91cad39787632 assets/caliber/models/item/white_wool_window.json
 1ffcdbde97bbd8a9e035f04962eaf0d35b08916c assets/caliber/models/item/white_wool_window_half.json
-951fe6f138613b335957aceb29d4c8ba2aa9786a assets/caliber/models/item/woodcutter.json
 4aeac47f5e0ae0f79eed59f05821c7f5a8cf67db assets/caliber/models/item/yellow_concrete_arch.json
 e58ba93baa0c4b73adb30c4a08f5a29ccc6e3a7f assets/caliber/models/item/yellow_concrete_arch_half.json
 a476e5e7192154ee8845d269706ac8354a8aa334 assets/caliber/models/item/yellow_concrete_arch_large.json

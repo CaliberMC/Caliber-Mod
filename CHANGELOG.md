@@ -18,6 +18,7 @@
 - Added mod compatibility variants for Stone Works
 - Added mod compatibility variants for Quark
 - Added mod compatibility variants for Ice and Fire
+- Bugfix: removed duplicate item models for mod compat variants _(this was causing some items to appear invisible in the inventory)_
 
 ### 0.2.3
 - Downgraded Minimum Forge Version <- 47.1.3 to allow NeoForge 1.20.1 support
