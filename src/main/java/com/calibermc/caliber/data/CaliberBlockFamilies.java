@@ -2,6 +2,7 @@ package com.calibermc.caliber.data;
 
 import com.calibermc.caliber.block.CaliberBlocks;
 import com.calibermc.caliber.compat.data.BiomesOPlentyBlockFamilies;
+import com.calibermc.caliber.compat.data.CreateBlockFamilies;
 import com.calibermc.caliber.compat.data.RegionsUnexploredBlockFamilies;
 import com.calibermc.caliber.compat.ModCompats;
 import com.google.common.collect.Maps;
@@ -398,6 +399,7 @@ public class CaliberBlockFamilies {
             .fenceGate(Blocks.BIRCH_FENCE_GATE)
             .pressurePlate(Blocks.BIRCH_PRESSURE_PLATE)
             .sign(Blocks.BIRCH_SIGN, Blocks.BIRCH_WALL_SIGN)
+            .slab(Blocks.BIRCH_SLAB)
             .stairs(Blocks.BIRCH_STAIRS)
             .trapdoor(Blocks.BIRCH_TRAPDOOR)
             .getFamily();
@@ -408,9 +410,10 @@ public class CaliberBlockFamilies {
             .door(Blocks.CHERRY_DOOR)
             .fence(Blocks.CHERRY_FENCE)
             .fenceGate(Blocks.CHERRY_FENCE_GATE)
-            .stairs(Blocks.CHERRY_STAIRS)
             .pressurePlate(Blocks.CHERRY_PRESSURE_PLATE)
             .sign(Blocks.CHERRY_SIGN, Blocks.CHERRY_WALL_SIGN)
+            .slab(Blocks.CHERRY_SLAB)
+            .stairs(Blocks.CHERRY_STAIRS)
             .trapdoor(Blocks.CHERRY_TRAPDOOR)
             .getFamily();
     public static final ModBlockFamily DARK_OAK_PLANKS = familyBuilder(Blocks.DARK_OAK_PLANKS)
@@ -420,9 +423,10 @@ public class CaliberBlockFamilies {
             .door(Blocks.DARK_OAK_DOOR)
             .fence(Blocks.DARK_OAK_FENCE)
             .fenceGate(Blocks.DARK_OAK_FENCE_GATE)
-            .stairs(Blocks.DARK_OAK_STAIRS)
             .pressurePlate(Blocks.DARK_OAK_PRESSURE_PLATE)
             .sign(Blocks.DARK_OAK_SIGN, Blocks.DARK_OAK_WALL_SIGN)
+            .slab(Blocks.DARK_OAK_SLAB)
+            .stairs(Blocks.DARK_OAK_STAIRS)
             .trapdoor(Blocks.DARK_OAK_TRAPDOOR)
             .getFamily();
     public static final ModBlockFamily JUNGLE_PLANKS = familyBuilder(Blocks.JUNGLE_PLANKS)
@@ -434,6 +438,7 @@ public class CaliberBlockFamilies {
             .fenceGate(Blocks.JUNGLE_FENCE_GATE)
             .pressurePlate(Blocks.JUNGLE_PRESSURE_PLATE)
             .sign(Blocks.JUNGLE_SIGN, Blocks.JUNGLE_WALL_SIGN)
+            .slab(Blocks.JUNGLE_SLAB)
             .stairs(Blocks.JUNGLE_STAIRS)
             .trapdoor(Blocks.JUNGLE_TRAPDOOR)
             .getFamily();
@@ -446,6 +451,7 @@ public class CaliberBlockFamilies {
             .fenceGate(Blocks.MANGROVE_FENCE_GATE)
             .pressurePlate(Blocks.MANGROVE_PRESSURE_PLATE)
             .sign(Blocks.MANGROVE_SIGN, Blocks.MANGROVE_WALL_SIGN)
+            .slab(Blocks.MANGROVE_SLAB)
             .stairs(Blocks.MANGROVE_STAIRS)
             .trapdoor(Blocks.MANGROVE_TRAPDOOR)
             .getFamily();
@@ -458,6 +464,7 @@ public class CaliberBlockFamilies {
             .fenceGate(Blocks.OAK_FENCE_GATE)
             .pressurePlate(Blocks.OAK_PRESSURE_PLATE)
             .sign(Blocks.OAK_SIGN, Blocks.OAK_WALL_SIGN)
+            .slab(Blocks.OAK_SLAB)
             .stairs(Blocks.OAK_STAIRS)
             .trapdoor(Blocks.OAK_TRAPDOOR)
             .getFamily();
@@ -470,6 +477,7 @@ public class CaliberBlockFamilies {
             .fenceGate(Blocks.SPRUCE_FENCE_GATE)
             .pressurePlate(Blocks.SPRUCE_PRESSURE_PLATE)
             .sign(Blocks.SPRUCE_SIGN, Blocks.SPRUCE_WALL_SIGN)
+            .slab(Blocks.SPRUCE_SLAB)
             .stairs(Blocks.SPRUCE_STAIRS)
             .trapdoor(Blocks.SPRUCE_TRAPDOOR)
             .getFamily();
@@ -482,6 +490,7 @@ public class CaliberBlockFamilies {
             .fenceGate(Blocks.CRIMSON_FENCE_GATE)
             .pressurePlate(Blocks.CRIMSON_PRESSURE_PLATE)
             .sign(Blocks.CRIMSON_SIGN, Blocks.CRIMSON_WALL_SIGN)
+            .slab(Blocks.CRIMSON_SLAB)
             .stairs(Blocks.CRIMSON_STAIRS)
             .trapdoor(Blocks.CRIMSON_TRAPDOOR)
             .getFamily();
@@ -494,6 +503,7 @@ public class CaliberBlockFamilies {
             .fenceGate(Blocks.WARPED_FENCE_GATE)
             .pressurePlate(Blocks.WARPED_PRESSURE_PLATE)
             .sign(Blocks.WARPED_SIGN, Blocks.WARPED_WALL_SIGN)
+            .slab(Blocks.WARPED_SLAB)
             .stairs(Blocks.WARPED_STAIRS)
             .trapdoor(Blocks.WARPED_TRAPDOOR)
             .getFamily();
@@ -654,8 +664,10 @@ public class CaliberBlockFamilies {
 
     // COMPAT
     static {
-        if (ModCompats.REGIONS_UNEXPLORED) MAP.putAll(RegionsUnexploredBlockFamilies.getAllFamiliesAsMap());
         if (ModCompats.BOP) MAP.putAll(BiomesOPlentyBlockFamilies.getAllFamiliesAsMap());
+//        if (ModCompats.CREATE) MAP.putAll(CreateBlockFamilies.getAllFamiliesAsMap());
+        if (ModCompats.REGIONS_UNEXPLORED) MAP.putAll(RegionsUnexploredBlockFamilies.getAllFamiliesAsMap());
+
     }
 
 

@@ -32,6 +32,9 @@ public class BiomesOPlentyBlocks {
     public static final BlockManager BOP_CUT_BLACK_SANDSTONE = CaliberBlockManager.registerBOP("cut_black_sandstone", () -> BlockBehaviour.Properties.copy(BOPBlocks.CUT_BLACK_SANDSTONE.get()), () -> BOPBlocks.CUT_BLACK_SANDSTONE.get(), STONE_VARIANTS_WITHOUT_SLAB);
     public static final BlockManager BOP_CUT_ORANGE_SANDSTONE = CaliberBlockManager.registerBOP("cut_orange_sandstone", () -> BlockBehaviour.Properties.copy(BOPBlocks.CUT_ORANGE_SANDSTONE.get()), () -> BOPBlocks.CUT_ORANGE_SANDSTONE.get(), STONE_VARIANTS_WITHOUT_SLAB);
     public static final BlockManager BOP_CUT_WHITE_SANDSTONE = CaliberBlockManager.registerBOP("cut_white_sandstone", () -> BlockBehaviour.Properties.copy(BOPBlocks.CUT_WHITE_SANDSTONE.get()), () -> BOPBlocks.CUT_WHITE_SANDSTONE.get(), STONE_VARIANTS_WITHOUT_SLAB);
+    public static final BlockManager BOP_SMOOTH_BLACK_SANDSTONE = CaliberBlockManager.registerBOP("smooth_black_sandstone", () -> BlockBehaviour.Properties.copy(BOPBlocks.SMOOTH_BLACK_SANDSTONE.get()), () -> BOPBlocks.SMOOTH_BLACK_SANDSTONE.get(), STONE_VARIANTS_WITHOUT_SLAB);
+    public static final BlockManager BOP_SMOOTH_ORANGE_SANDSTONE = CaliberBlockManager.registerBOP("smooth_orange_sandstone", () -> BlockBehaviour.Properties.copy(BOPBlocks.SMOOTH_ORANGE_SANDSTONE.get()), () -> BOPBlocks.SMOOTH_ORANGE_SANDSTONE.get(), STONE_VARIANTS_WITHOUT_SLAB);
+    public static final BlockManager BOP_SMOOTH_WHITE_SANDSTONE = CaliberBlockManager.registerBOP("smooth_white_sandstone", () -> BlockBehaviour.Properties.copy(BOPBlocks.SMOOTH_WHITE_SANDSTONE.get()), () -> BOPBlocks.SMOOTH_WHITE_SANDSTONE.get(), STONE_VARIANTS_WITHOUT_STAIRS);
 
     /* Planks */
     public static final BlockManager BOP_DEAD = CaliberBlockManager.registerBOP("dead_planks", () -> BlockBehaviour.Properties.copy(BOPBlocks.DEAD_PLANKS.get()), () -> BOPBlocks.DEAD_PLANKS.get(), VANILLA_PLANK_VARIANTS);

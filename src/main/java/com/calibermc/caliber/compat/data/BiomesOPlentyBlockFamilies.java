@@ -64,6 +64,12 @@ public class BiomesOPlentyBlockFamilies {
             .slab(BOPBlocks.CUT_WHITE_SANDSTONE_SLAB.get())
             .getFamily();
 
+    public static final ModBlockFamily BOP_SMOOTH_WHITE_SANDSTONE = familyBuilder(BOPBlocks.SMOOTH_WHITE_SANDSTONE.get())
+            .fromManager(BiomesOPlentyBlocks.BOP_SMOOTH_WHITE_SANDSTONE)
+            .slab(BOPBlocks.SMOOTH_WHITE_SANDSTONE_SLAB.get())
+            .stairs(BOPBlocks.SMOOTH_WHITE_SANDSTONE_STAIRS.get())
+            .getFamily();
+
     /* Planks */
     public static final ModBlockFamily BOP_DEAD_PLANKS = familyBuilder(BOPBlocks.DEAD_PLANKS.get())
             .fromManager(BiomesOPlentyBlocks.BOP_DEAD)

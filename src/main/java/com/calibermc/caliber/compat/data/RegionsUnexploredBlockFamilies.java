@@ -34,7 +34,7 @@ public class RegionsUnexploredBlockFamilies {
             .getFamily();
 
     public static final ModBlockFamily RU_CHALK_PILLAR = familyBuilder(RuBlocks.CHALK_PILLAR.get())
-            .fromManager(RegionsUnexploredBlocks.RU_CHALK)
+            .fromManager(RegionsUnexploredBlocks.RU_CHALK_PILLAR)
             .getFamily();
 
     public static final ModBlockFamily RU_MOSSY_STONE = familyBuilder(RuBlocks.MOSSY_STONE.get())
@@ -363,7 +363,7 @@ public class RegionsUnexploredBlockFamilies {
             .fromManager(RegionsUnexploredBlocks.RU_WILLOW_SHINGLES)
             .getFamily();
 
-    public static final ModBlockFamily YRU_ELLOW_BIOSHROOM_PLANKS = familyBuilder(RuBlocks.YELLOW_BIOSHROOM.get())
+    public static final ModBlockFamily YRU_YELLOW_BIOSHROOM_PLANKS = familyBuilder(RuBlocks.YELLOW_BIOSHROOM.get())
             .fromManager(RegionsUnexploredBlocks.RU_YELLOW_BIOSHROOM)
             .button(RuBlocks.YELLOW_BIOSHROOM_BUTTON.get())
             .door(RuBlocks.YELLOW_BIOSHROOM_DOOR.get())

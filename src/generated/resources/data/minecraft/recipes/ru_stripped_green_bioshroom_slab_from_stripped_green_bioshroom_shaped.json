@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "regions_unexplored:stripped_green_bioshroom_hyphae"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "regions_unexplored:stripped_green_bioshroom_slab"
+  },
+  "show_notification": true
+}

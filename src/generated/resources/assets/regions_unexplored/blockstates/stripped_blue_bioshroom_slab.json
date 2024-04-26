@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "regions_unexplored:block/stripped_blue_bioshroom_slab"
+    },
+    "type=double": {
+      "model": "regions_unexplored:block/stripped_blue_bioshroom_stem"
+    },
+    "type=top": {
+      "model": "regions_unexplored:block/stripped_blue_bioshroom_slab_top"
+    }
+  }
+}

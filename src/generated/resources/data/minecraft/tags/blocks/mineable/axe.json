@@ -418,6 +418,7 @@
     "caliber:stripped_acacia_pillar",
     "caliber:stripped_acacia_quarter",
     "caliber:stripped_acacia_quarter_vertical",
+    "caliber:stripped_acacia_slab",
     "caliber:stripped_acacia_stairs",
     "caliber:stripped_acacia_wall",
     "caliber:stripped_acacia_window",
@@ -440,6 +441,7 @@
     "caliber:stripped_bamboo_pillar",
     "caliber:stripped_bamboo_quarter",
     "caliber:stripped_bamboo_quarter_vertical",
+    "caliber:stripped_bamboo_slab",
     "caliber:stripped_bamboo_stairs",
     "caliber:stripped_bamboo_wall",
     "caliber:stripped_bamboo_window",
@@ -462,6 +464,7 @@
     "caliber:stripped_birch_pillar",
     "caliber:stripped_birch_quarter",
     "caliber:stripped_birch_quarter_vertical",
+    "caliber:stripped_birch_slab",
     "caliber:stripped_birch_stairs",
     "caliber:stripped_birch_wall",
     "caliber:stripped_birch_window",
@@ -484,6 +487,7 @@
     "caliber:stripped_cherry_pillar",
     "caliber:stripped_cherry_quarter",
     "caliber:stripped_cherry_quarter_vertical",
+    "caliber:stripped_cherry_slab",
     "caliber:stripped_cherry_stairs",
     "caliber:stripped_cherry_wall",
     "caliber:stripped_cherry_window",
@@ -506,6 +510,7 @@
     "caliber:stripped_crimson_pillar",
     "caliber:stripped_crimson_quarter",
     "caliber:stripped_crimson_quarter_vertical",
+    "caliber:stripped_crimson_slab",
     "caliber:stripped_crimson_stairs",
     "caliber:stripped_crimson_wall",
     "caliber:stripped_crimson_window",
@@ -528,6 +533,7 @@
     "caliber:stripped_dark_oak_pillar",
     "caliber:stripped_dark_oak_quarter",
     "caliber:stripped_dark_oak_quarter_vertical",
+    "caliber:stripped_dark_oak_slab",
     "caliber:stripped_dark_oak_stairs",
     "caliber:stripped_dark_oak_wall",
     "caliber:stripped_dark_oak_window",
@@ -550,6 +556,7 @@
     "caliber:stripped_jungle_pillar",
     "caliber:stripped_jungle_quarter",
     "caliber:stripped_jungle_quarter_vertical",
+    "caliber:stripped_jungle_slab",
     "caliber:stripped_jungle_stairs",
     "caliber:stripped_jungle_wall",
     "caliber:stripped_jungle_window",
@@ -572,6 +579,7 @@
     "caliber:stripped_mangrove_pillar",
     "caliber:stripped_mangrove_quarter",
     "caliber:stripped_mangrove_quarter_vertical",
+    "caliber:stripped_mangrove_slab",
     "caliber:stripped_mangrove_stairs",
     "caliber:stripped_mangrove_wall",
     "caliber:stripped_mangrove_window",
@@ -594,6 +602,7 @@
     "caliber:stripped_oak_pillar",
     "caliber:stripped_oak_quarter",
     "caliber:stripped_oak_quarter_vertical",
+    "caliber:stripped_oak_slab",
     "caliber:stripped_oak_stairs",
     "caliber:stripped_oak_wall",
     "caliber:stripped_oak_window",
@@ -616,6 +625,7 @@
     "caliber:stripped_spruce_pillar",
     "caliber:stripped_spruce_quarter",
     "caliber:stripped_spruce_quarter_vertical",
+    "caliber:stripped_spruce_slab",
     "caliber:stripped_spruce_stairs",
     "caliber:stripped_spruce_wall",
     "caliber:stripped_spruce_window",
@@ -638,6 +648,7 @@
     "caliber:stripped_warped_pillar",
     "caliber:stripped_warped_quarter",
     "caliber:stripped_warped_quarter_vertical",
+    "caliber:stripped_warped_slab",
     "caliber:stripped_warped_stairs",
     "caliber:stripped_warped_wall",
     "caliber:stripped_warped_window",
@@ -1370,6 +1381,10 @@
       "required": false
     },
     {
+      "id": "biomesoplenty:stripped_dead_slab",
+      "required": false
+    },
+    {
       "id": "biomesoplenty:stripped_dead_stairs",
       "required": false
     },
@@ -1455,6 +1470,10 @@
     },
     {
       "id": "biomesoplenty:stripped_fir_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_fir_slab",
       "required": false
     },
     {
@@ -1546,6 +1565,10 @@
       "required": false
     },
     {
+      "id": "biomesoplenty:stripped_hellbark_slab",
+      "required": false
+    },
+    {
       "id": "biomesoplenty:stripped_hellbark_stairs",
       "required": false
     },
@@ -1631,6 +1654,10 @@
     },
     {
       "id": "biomesoplenty:stripped_jacaranda_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_jacaranda_slab",
       "required": false
     },
     {
@@ -1722,6 +1749,10 @@
       "required": false
     },
     {
+      "id": "biomesoplenty:stripped_magic_slab",
+      "required": false
+    },
+    {
       "id": "biomesoplenty:stripped_magic_stairs",
       "required": false
     },
@@ -1807,6 +1838,10 @@
     },
     {
       "id": "biomesoplenty:stripped_mahogany_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_mahogany_slab",
       "required": false
     },
     {
@@ -1898,6 +1933,10 @@
       "required": false
     },
     {
+      "id": "biomesoplenty:stripped_palm_slab",
+      "required": false
+    },
+    {
       "id": "biomesoplenty:stripped_palm_stairs",
       "required": false
     },
@@ -1983,6 +2022,10 @@
     },
     {
       "id": "biomesoplenty:stripped_redwood_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_slab",
       "required": false
     },
     {
@@ -2074,6 +2117,10 @@
       "required": false
     },
     {
+      "id": "biomesoplenty:stripped_umbran_slab",
+      "required": false
+    },
+    {
       "id": "biomesoplenty:stripped_umbran_stairs",
       "required": false
     },
@@ -2159,6 +2206,10 @@
     },
     {
       "id": "biomesoplenty:stripped_willow_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_willow_slab",
       "required": false
     },
     {
@@ -4830,6 +4881,10 @@
       "required": false
     },
     {
+      "id": "regions_unexplored:stripped_baobab_slab",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:stripped_baobab_stairs",
       "required": false
     },
@@ -4915,6 +4970,10 @@
     },
     {
       "id": "regions_unexplored:stripped_blackwood_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blackwood_slab",
       "required": false
     },
     {
@@ -5006,6 +5065,10 @@
       "required": false
     },
     {
+      "id": "regions_unexplored:stripped_blue_bioshroom_slab",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:stripped_blue_bioshroom_stairs",
       "required": false
     },
@@ -5091,6 +5154,10 @@
     },
     {
       "id": "regions_unexplored:stripped_brimwood_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_brimwood_slab",
       "required": false
     },
     {
@@ -5182,6 +5249,10 @@
       "required": false
     },
     {
+      "id": "regions_unexplored:stripped_cobalt_slab",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:stripped_cobalt_stairs",
       "required": false
     },
@@ -5267,6 +5338,10 @@
     },
     {
       "id": "regions_unexplored:stripped_cypress_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cypress_slab",
       "required": false
     },
     {
@@ -5358,6 +5433,10 @@
       "required": false
     },
     {
+      "id": "regions_unexplored:stripped_dead_slab",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:stripped_dead_stairs",
       "required": false
     },
@@ -5443,6 +5522,10 @@
     },
     {
       "id": "regions_unexplored:stripped_eucalyptus_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_eucalyptus_slab",
       "required": false
     },
     {
@@ -5534,6 +5617,10 @@
       "required": false
     },
     {
+      "id": "regions_unexplored:stripped_joshua_slab",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:stripped_joshua_stairs",
       "required": false
     },
@@ -5619,6 +5706,10 @@
     },
     {
       "id": "regions_unexplored:stripped_kapok_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_kapok_slab",
       "required": false
     },
     {
@@ -5710,6 +5801,10 @@
       "required": false
     },
     {
+      "id": "regions_unexplored:stripped_larch_slab",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:stripped_larch_stairs",
       "required": false
     },
@@ -5795,6 +5890,10 @@
     },
     {
       "id": "regions_unexplored:stripped_magnolia_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_magnolia_slab",
       "required": false
     },
     {
@@ -5886,6 +5985,10 @@
       "required": false
     },
     {
+      "id": "regions_unexplored:stripped_maple_slab",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:stripped_maple_stairs",
       "required": false
     },
@@ -5971,6 +6074,10 @@
     },
     {
       "id": "regions_unexplored:stripped_mauve_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_mauve_slab",
       "required": false
     },
     {
@@ -6062,6 +6169,10 @@
       "required": false
     },
     {
+      "id": "regions_unexplored:stripped_palm_slab",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:stripped_palm_stairs",
       "required": false
     },
@@ -6147,6 +6258,10 @@
     },
     {
       "id": "regions_unexplored:stripped_pine_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pine_slab",
       "required": false
     },
     {
@@ -6238,6 +6353,10 @@
       "required": false
     },
     {
+      "id": "regions_unexplored:stripped_pink_bioshroom_slab",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:stripped_pink_bioshroom_stairs",
       "required": false
     },
@@ -6323,6 +6442,10 @@
     },
     {
       "id": "regions_unexplored:stripped_redwood_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_redwood_slab",
       "required": false
     },
     {
@@ -6414,6 +6537,10 @@
       "required": false
     },
     {
+      "id": "regions_unexplored:stripped_socotra_slab",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:stripped_socotra_stairs",
       "required": false
     },
@@ -6502,6 +6629,10 @@
       "required": false
     },
     {
+      "id": "regions_unexplored:stripped_willow_slab",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:stripped_willow_stairs",
       "required": false
     },
@@ -6587,6 +6718,10 @@
     },
     {
       "id": "regions_unexplored:stripped_yellow_bioshroom_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_yellow_bioshroom_slab",
       "required": false
     },
     {

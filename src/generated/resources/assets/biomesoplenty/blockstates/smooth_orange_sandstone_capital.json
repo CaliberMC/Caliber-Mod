@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "biomesoplenty:block/smooth_orange_sandstone_capital"
+    },
+    "type=top": {
+      "model": "biomesoplenty:block/smooth_orange_sandstone_capital_top"
+    }
+  }
+}

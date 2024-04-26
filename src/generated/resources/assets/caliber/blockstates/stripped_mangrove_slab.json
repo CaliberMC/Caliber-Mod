@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "caliber:block/stripped_mangrove_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/stripped_mangrove_log"
+    },
+    "type=top": {
+      "model": "caliber:block/stripped_mangrove_slab_top"
+    }
+  }
+}

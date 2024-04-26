@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "biomesoplenty:block/stripped_mahogany_slab"
+    },
+    "type=double": {
+      "model": "biomesoplenty:block/stripped_mahogany_log"
+    },
+    "type=top": {
+      "model": "biomesoplenty:block/stripped_mahogany_slab_top"
+    }
+  }
+}

@@ -186,6 +186,18 @@
       "required": false
     },
     {
+      "id": "biomesoplenty:smooth_black_sandstone_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_orange_sandstone_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_white_sandstone_balustrade",
+      "required": false
+    },
+    {
       "id": "biomesoplenty:stripped_dead_balustrade",
       "required": false
     },

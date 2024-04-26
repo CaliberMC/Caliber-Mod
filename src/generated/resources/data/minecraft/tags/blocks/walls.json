@@ -172,6 +172,18 @@
       "required": false
     },
     {
+      "id": "biomesoplenty:smooth_black_sandstone_wall",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_orange_sandstone_wall",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_white_sandstone_wall",
+      "required": false
+    },
+    {
       "id": "biomesoplenty:stripped_dead_wall",
       "required": false
     },

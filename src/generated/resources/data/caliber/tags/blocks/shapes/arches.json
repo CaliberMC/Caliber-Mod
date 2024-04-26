@@ -531,6 +531,30 @@
       "required": false
     },
     {
+      "id": "biomesoplenty:smooth_black_sandstone_arch",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_black_sandstone_arch",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_orange_sandstone_arch",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_orange_sandstone_arch",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_white_sandstone_arch",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_white_sandstone_arch",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:argillite_arch",
       "required": false
     },

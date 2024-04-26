@@ -1323,6 +1323,7 @@
     "caliber:stripped_warped_pillar",
     "caliber:stripped_warped_quarter",
     "caliber:stripped_warped_quarter_vertical",
+    "caliber:stripped_warped_slab",
     "caliber:stripped_warped_stairs",
     "caliber:stripped_warped_wall",
     "caliber:stripped_warped_window",
@@ -2241,6 +2242,246 @@
     },
     {
       "id": "biomesoplenty:cut_white_sandstone_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_black_sandstone_arch",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_black_sandstone_arch_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_black_sandstone_arch_large",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_black_sandstone_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_black_sandstone_arrowslit",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_black_sandstone_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_black_sandstone_capital",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_black_sandstone_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_black_sandstone_corner_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_black_sandstone_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_black_sandstone_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_black_sandstone_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_black_sandstone_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_black_sandstone_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_black_sandstone_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_black_sandstone_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_black_sandstone_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_black_sandstone_wall",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_black_sandstone_window",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_black_sandstone_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_orange_sandstone_arch",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_orange_sandstone_arch_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_orange_sandstone_arch_large",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_orange_sandstone_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_orange_sandstone_arrowslit",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_orange_sandstone_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_orange_sandstone_capital",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_orange_sandstone_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_orange_sandstone_corner_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_orange_sandstone_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_orange_sandstone_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_orange_sandstone_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_orange_sandstone_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_orange_sandstone_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_orange_sandstone_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_orange_sandstone_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_orange_sandstone_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_orange_sandstone_wall",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_orange_sandstone_window",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_orange_sandstone_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_white_sandstone_arch",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_white_sandstone_arch_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_white_sandstone_arch_large",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_white_sandstone_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_white_sandstone_arrowslit",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_white_sandstone_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_white_sandstone_capital",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_white_sandstone_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_white_sandstone_corner_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_white_sandstone_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_white_sandstone_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_white_sandstone_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_white_sandstone_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_white_sandstone_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_white_sandstone_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_white_sandstone_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_white_sandstone_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_white_sandstone_wall",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_white_sandstone_window",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_white_sandstone_window_half",
       "required": false
     },
     {

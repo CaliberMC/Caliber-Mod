@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "biomesoplenty:block/stripped_umbran_slab"
+    },
+    "type=double": {
+      "model": "biomesoplenty:block/stripped_umbran_log"
+    },
+    "type=top": {
+      "model": "biomesoplenty:block/stripped_umbran_slab_top"
+    }
+  }
+}

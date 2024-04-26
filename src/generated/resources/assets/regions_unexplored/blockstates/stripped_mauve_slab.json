@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "regions_unexplored:block/stripped_mauve_slab"
+    },
+    "type=double": {
+      "model": "regions_unexplored:block/stripped_mauve_log"
+    },
+    "type=top": {
+      "model": "regions_unexplored:block/stripped_mauve_slab_top"
+    }
+  }
+}

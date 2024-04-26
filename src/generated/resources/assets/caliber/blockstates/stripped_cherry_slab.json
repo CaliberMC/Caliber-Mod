@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "caliber:block/stripped_cherry_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/stripped_cherry_log"
+    },
+    "type=top": {
+      "model": "caliber:block/stripped_cherry_slab_top"
+    }
+  }
+}
