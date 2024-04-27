@@ -15,6 +15,7 @@ public class ModCompats {
     public static final boolean BOP;
     public static final boolean BYG;
     public static final boolean CHIPPED;
+    public static final boolean CREATE;
     public static final boolean DOUBLE_DOORS;
     public static final boolean MANYIDEAS_DOORS;
     public static final boolean QUARK;
@@ -24,6 +25,7 @@ public class ModCompats {
         BOP = ModList.get().isLoaded("biomesoplenty");
         BYG = ModList.get().isLoaded("byg");
         CHIPPED = ModList.get().isLoaded("chipped");
+        CREATE = ModList.get().isLoaded("create");
         DOUBLE_DOORS = ModList.get().isLoaded("doubledoors");
         MANYIDEAS_DOORS = ModList.get().isLoaded("manyideas_doors");
         QUARK = ModList.get().isLoaded("quark");
@@ -38,6 +40,9 @@ public class ModCompats {
         }
         if (CHIPPED) {
             blockManagerMODID.add("chipped");
+        }
+        if (CREATE) {
+            blockManagerMODID.add("create");
         }
         if (DOUBLE_DOORS) {
             blockManagerMODID.add("doubledoors");

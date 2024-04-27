@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "create:block/limestone_capital"
+    },
+    "type=top": {
+      "model": "create:block/limestone_capital_top"
+    }
+  }
+}

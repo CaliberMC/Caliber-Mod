@@ -1,0 +1,40 @@
+{
+  "variants": {
+    "facing=east,type=left": {
+      "model": "create:block/crimsite_arch_large_half_left",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,type=right": {
+      "model": "create:block/crimsite_arch_large_half",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=north,type=left": {
+      "model": "create:block/crimsite_arch_large_half_left"
+    },
+    "facing=north,type=right": {
+      "model": "create:block/crimsite_arch_large_half"
+    },
+    "facing=south,type=left": {
+      "model": "create:block/crimsite_arch_large_half_left",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,type=right": {
+      "model": "create:block/crimsite_arch_large_half",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,type=left": {
+      "model": "create:block/crimsite_arch_large_half_left",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,type=right": {
+      "model": "create:block/crimsite_arch_large_half",
+      "uvlock": true,
+      "y": 270
+    }
+  }
+}

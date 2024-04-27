@@ -2490,6 +2490,90 @@
       "required": false
     },
     {
+      "id": "create:limestone_arch",
+      "required": false
+    },
+    {
+      "id": "create:limestone_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:limestone_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:limestone_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:limestone_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:limestone_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:limestone_capital",
+      "required": false
+    },
+    {
+      "id": "create:limestone_corner",
+      "required": false
+    },
+    {
+      "id": "create:limestone_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:limestone_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:limestone_eighth",
+      "required": false
+    },
+    {
+      "id": "create:limestone_layer",
+      "required": false
+    },
+    {
+      "id": "create:limestone_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:limestone_pillar",
+      "required": false
+    },
+    {
+      "id": "create:limestone_quarter",
+      "required": false
+    },
+    {
+      "id": "create:limestone_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:limestone_slab",
+      "required": false
+    },
+    {
+      "id": "create:limestone_stairs",
+      "required": false
+    },
+    {
+      "id": "create:limestone_wall",
+      "required": false
+    },
+    {
+      "id": "create:limestone_window",
+      "required": false
+    },
+    {
+      "id": "create:limestone_window_half",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:chalk_brick_arch",
       "required": false
     },

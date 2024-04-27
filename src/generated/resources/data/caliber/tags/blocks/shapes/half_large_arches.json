@@ -143,6 +143,34 @@
       "required": false
     },
     {
+      "id": "create:asurine_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:limestone_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:scoria_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:veridium_arch_large_half",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:argillite_arch_large_half",
       "required": false
     },

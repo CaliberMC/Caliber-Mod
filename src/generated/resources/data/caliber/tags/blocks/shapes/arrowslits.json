@@ -143,6 +143,34 @@
       "required": false
     },
     {
+      "id": "create:asurine_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:limestone_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:scoria_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:veridium_arrowslit",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:argillite_arrowslit",
       "required": false
     },

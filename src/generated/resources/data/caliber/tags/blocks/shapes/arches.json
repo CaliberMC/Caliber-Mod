@@ -555,6 +555,62 @@
       "required": false
     },
     {
+      "id": "create:asurine_arch",
+      "required": false
+    },
+    {
+      "id": "create:asurine_arch",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_arch",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_arch",
+      "required": false
+    },
+    {
+      "id": "create:limestone_arch",
+      "required": false
+    },
+    {
+      "id": "create:limestone_arch",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_arch",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_arch",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_arch",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_arch",
+      "required": false
+    },
+    {
+      "id": "create:scoria_arch",
+      "required": false
+    },
+    {
+      "id": "create:scoria_arch",
+      "required": false
+    },
+    {
+      "id": "create:veridium_arch",
+      "required": false
+    },
+    {
+      "id": "create:veridium_arch",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:argillite_arch",
       "required": false
     },

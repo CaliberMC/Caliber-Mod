@@ -143,6 +143,34 @@
       "required": false
     },
     {
+      "id": "create:asurine_slab",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_slab",
+      "required": false
+    },
+    {
+      "id": "create:limestone_slab",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_slab",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_slab",
+      "required": false
+    },
+    {
+      "id": "create:scoria_slab",
+      "required": false
+    },
+    {
+      "id": "create:veridium_slab",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:chalk_pillar_slab",
       "required": false
     },

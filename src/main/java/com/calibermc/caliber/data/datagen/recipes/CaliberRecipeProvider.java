@@ -86,6 +86,8 @@ public class CaliberRecipeProvider extends RecipeProvider implements IConditionB
             prefix = "bop_";
         } else if (blockManagerKey.equals("regions_unexplored")) {
             prefix = "ru_";
+        } else if (blockManagerKey.equals("create")) {
+            prefix = "create_";
         }
 
         Function3<Ingredient, ItemLike, Integer, SingleItemRecipeBuilder> stoneOrWoodcutting = (a, b, c) -> {

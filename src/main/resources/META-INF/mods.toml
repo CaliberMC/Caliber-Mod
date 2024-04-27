@@ -79,6 +79,13 @@ side="BOTH"
 
 # Optional Dependencies - Mod Compatibility
 [[dependencies.${mod_id}]]
+modId="biomesoplenty"
+mandatory=false
+versionRange="${biomesoplenty_version_range}"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.${mod_id}]]
 modId="regions_unexplored"
 mandatory=false
 versionRange="${regions_unexplored_version_range}"
@@ -86,8 +93,8 @@ ordering="AFTER"
 side="BOTH"
 
 [[dependencies.${mod_id}]]
-modId="biomesoplenty"
+modId="create"
 mandatory=false
-versionRange="${biomesoplenty_version_range}"
+versionRange="${create_version_range}"
 ordering="AFTER"
 side="BOTH"

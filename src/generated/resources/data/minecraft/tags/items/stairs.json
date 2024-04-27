@@ -106,6 +106,34 @@
       "required": false
     },
     {
+      "id": "create:asurine_stairs",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_stairs",
+      "required": false
+    },
+    {
+      "id": "create:limestone_stairs",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_stairs",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_stairs",
+      "required": false
+    },
+    {
+      "id": "create:scoria_stairs",
+      "required": false
+    },
+    {
+      "id": "create:veridium_stairs",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:chalk_pillar_stairs",
       "required": false
     },

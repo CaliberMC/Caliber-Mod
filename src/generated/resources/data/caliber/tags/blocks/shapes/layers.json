@@ -262,6 +262,34 @@
       "required": false
     },
     {
+      "id": "create:asurine_layer",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_layer",
+      "required": false
+    },
+    {
+      "id": "create:limestone_layer",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_layer",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_layer",
+      "required": false
+    },
+    {
+      "id": "create:scoria_layer",
+      "required": false
+    },
+    {
+      "id": "create:veridium_layer",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:argillite_layer",
       "required": false
     },

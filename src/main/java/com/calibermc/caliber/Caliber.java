@@ -2,7 +2,9 @@ package com.calibermc.caliber;
 
 import com.calibermc.caliber.block.CaliberBlocks;
 import com.calibermc.caliber.compat.block.BiomesOPlentyBlocks;
+import com.calibermc.caliber.compat.block.CreateBlocks;
 import com.calibermc.caliber.compat.block.RegionsUnexploredBlocks;
+import com.calibermc.caliber.compat.item.CreateItems;
 import com.calibermc.caliber.config.CaliberClientConfigs;
 import com.calibermc.caliber.config.CaliberCommonConfigs;
 import com.calibermc.caliber.crafting.CaliberRecipeSerializers;
@@ -44,6 +46,11 @@ public class Caliber {
         if (ModCompats.BOP) {
             BiomesOPlentyItems.register(eventBus);
             BiomesOPlentyBlocks.register(eventBus);
+        }
+
+        if (ModCompats.CREATE) {
+            CreateItems.register(eventBus);
+            CreateBlocks.register(eventBus);
         }
 
         if (ModCompats.REGIONS_UNEXPLORED) {
