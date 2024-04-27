@@ -59,6 +59,7 @@
     "caliber:black_terracotta_roof_45",
     "caliber:black_terracotta_roof_67",
     "caliber:black_terracotta_roof_peak",
+    "caliber:black_terracotta_slab",
     "caliber:black_terracotta_stairs",
     "caliber:black_terracotta_wall",
     "caliber:black_terracotta_window",
@@ -101,6 +102,7 @@
     "caliber:blue_terracotta_roof_45",
     "caliber:blue_terracotta_roof_67",
     "caliber:blue_terracotta_roof_peak",
+    "caliber:blue_terracotta_slab",
     "caliber:blue_terracotta_stairs",
     "caliber:blue_terracotta_wall",
     "caliber:blue_terracotta_window",
@@ -143,6 +145,7 @@
     "caliber:brown_terracotta_roof_45",
     "caliber:brown_terracotta_roof_67",
     "caliber:brown_terracotta_roof_peak",
+    "caliber:brown_terracotta_slab",
     "caliber:brown_terracotta_stairs",
     "caliber:brown_terracotta_wall",
     "caliber:brown_terracotta_window",
@@ -393,6 +396,7 @@
     "caliber:cyan_terracotta_roof_45",
     "caliber:cyan_terracotta_roof_67",
     "caliber:cyan_terracotta_roof_peak",
+    "caliber:cyan_terracotta_slab",
     "caliber:cyan_terracotta_stairs",
     "caliber:cyan_terracotta_wall",
     "caliber:cyan_terracotta_window",
@@ -571,6 +575,7 @@
     "caliber:gray_terracotta_roof_45",
     "caliber:gray_terracotta_roof_67",
     "caliber:gray_terracotta_roof_peak",
+    "caliber:gray_terracotta_slab",
     "caliber:gray_terracotta_stairs",
     "caliber:gray_terracotta_wall",
     "caliber:gray_terracotta_window",
@@ -595,6 +600,7 @@
     "caliber:green_terracotta_roof_45",
     "caliber:green_terracotta_roof_67",
     "caliber:green_terracotta_roof_peak",
+    "caliber:green_terracotta_slab",
     "caliber:green_terracotta_stairs",
     "caliber:green_terracotta_wall",
     "caliber:green_terracotta_window",
@@ -619,6 +625,7 @@
     "caliber:light_blue_terracotta_roof_45",
     "caliber:light_blue_terracotta_roof_67",
     "caliber:light_blue_terracotta_roof_peak",
+    "caliber:light_blue_terracotta_slab",
     "caliber:light_blue_terracotta_stairs",
     "caliber:light_blue_terracotta_wall",
     "caliber:light_blue_terracotta_window",
@@ -643,6 +650,7 @@
     "caliber:light_gray_terracotta_roof_45",
     "caliber:light_gray_terracotta_roof_67",
     "caliber:light_gray_terracotta_roof_peak",
+    "caliber:light_gray_terracotta_slab",
     "caliber:light_gray_terracotta_stairs",
     "caliber:light_gray_terracotta_wall",
     "caliber:light_gray_terracotta_window",
@@ -667,6 +675,7 @@
     "caliber:lime_terracotta_roof_45",
     "caliber:lime_terracotta_roof_67",
     "caliber:lime_terracotta_roof_peak",
+    "caliber:lime_terracotta_slab",
     "caliber:lime_terracotta_stairs",
     "caliber:lime_terracotta_wall",
     "caliber:lime_terracotta_window",
@@ -691,6 +700,7 @@
     "caliber:magenta_terracotta_roof_45",
     "caliber:magenta_terracotta_roof_67",
     "caliber:magenta_terracotta_roof_peak",
+    "caliber:magenta_terracotta_slab",
     "caliber:magenta_terracotta_stairs",
     "caliber:magenta_terracotta_wall",
     "caliber:magenta_terracotta_window",
@@ -829,6 +839,7 @@
     "caliber:orange_terracotta_roof_45",
     "caliber:orange_terracotta_roof_67",
     "caliber:orange_terracotta_roof_peak",
+    "caliber:orange_terracotta_slab",
     "caliber:orange_terracotta_stairs",
     "caliber:orange_terracotta_wall",
     "caliber:orange_terracotta_window",
@@ -853,6 +864,7 @@
     "caliber:pink_terracotta_roof_45",
     "caliber:pink_terracotta_roof_67",
     "caliber:pink_terracotta_roof_peak",
+    "caliber:pink_terracotta_slab",
     "caliber:pink_terracotta_stairs",
     "caliber:pink_terracotta_wall",
     "caliber:pink_terracotta_window",
@@ -1028,6 +1040,7 @@
     "caliber:purple_terracotta_roof_45",
     "caliber:purple_terracotta_roof_67",
     "caliber:purple_terracotta_roof_peak",
+    "caliber:purple_terracotta_slab",
     "caliber:purple_terracotta_stairs",
     "caliber:purple_terracotta_wall",
     "caliber:purple_terracotta_window",
@@ -1147,6 +1160,7 @@
     "caliber:red_terracotta_roof_45",
     "caliber:red_terracotta_roof_67",
     "caliber:red_terracotta_roof_peak",
+    "caliber:red_terracotta_slab",
     "caliber:red_terracotta_stairs",
     "caliber:red_terracotta_wall",
     "caliber:red_terracotta_window",
@@ -1348,6 +1362,7 @@
     "caliber:terracotta_roof_45",
     "caliber:terracotta_roof_67",
     "caliber:terracotta_roof_peak",
+    "caliber:terracotta_slab",
     "caliber:terracotta_stairs",
     "caliber:terracotta_wall",
     "caliber:terracotta_window",
@@ -1412,6 +1427,7 @@
     "caliber:white_terracotta_roof_45",
     "caliber:white_terracotta_roof_67",
     "caliber:white_terracotta_roof_peak",
+    "caliber:white_terracotta_slab",
     "caliber:white_terracotta_stairs",
     "caliber:white_terracotta_wall",
     "caliber:white_terracotta_window",
@@ -1436,6 +1452,7 @@
     "caliber:yellow_terracotta_roof_45",
     "caliber:yellow_terracotta_roof_67",
     "caliber:yellow_terracotta_roof_peak",
+    "caliber:yellow_terracotta_slab",
     "caliber:yellow_terracotta_stairs",
     "caliber:yellow_terracotta_wall",
     "caliber:yellow_terracotta_window",
@@ -2309,10 +2326,6 @@
       "required": false
     },
     {
-      "id": "biomesoplenty:smooth_black_sandstone_stairs",
-      "required": false
-    },
-    {
       "id": "biomesoplenty:smooth_black_sandstone_wall",
       "required": false
     },
@@ -2389,10 +2402,6 @@
       "required": false
     },
     {
-      "id": "biomesoplenty:smooth_orange_sandstone_stairs",
-      "required": false
-    },
-    {
       "id": "biomesoplenty:smooth_orange_sandstone_wall",
       "required": false
     },
@@ -2466,10 +2475,6 @@
     },
     {
       "id": "biomesoplenty:smooth_white_sandstone_quarter_vertical",
-      "required": false
-    },
-    {
-      "id": "biomesoplenty:smooth_white_sandstone_stairs",
       "required": false
     },
     {

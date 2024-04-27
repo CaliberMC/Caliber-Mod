@@ -117,18 +117,6 @@
       "required": false
     },
     {
-      "id": "biomesoplenty:smooth_black_sandstone_stairs",
-      "required": false
-    },
-    {
-      "id": "biomesoplenty:smooth_orange_sandstone_stairs",
-      "required": false
-    },
-    {
-      "id": "biomesoplenty:smooth_white_sandstone_stairs",
-      "required": false
-    },
-    {
       "id": "biomesoplenty:stripped_dead_stairs",
       "required": false
     },

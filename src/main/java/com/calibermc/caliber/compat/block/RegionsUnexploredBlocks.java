@@ -23,35 +23,35 @@ public class RegionsUnexploredBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, "regions_unexplored");
 
     /* Stone */
-    public static final BlockManager RU_ARGILLITE = CaliberBlockManager.registerRU("argillite", () -> BlockBehaviour.Properties.copy(RuBlocks.ARGILLITE.get()), () -> RuBlocks.ARGILLITE.get(), STONE_VARIANTS_WITHOUT_STAIRS);
-    public static final BlockManager RU_CHALK = CaliberBlockManager.registerRU("chalk_block", () -> BlockBehaviour.Properties.copy(RuBlocks.CHALK.get()), () -> RuBlocks.CHALK.get(), STONE_VARIANTS_WITHOUT_STAIRS);
-    public static final BlockManager RU_CHALK_BRICKS = CaliberBlockManager.registerRU("chalk_bricks", () -> BlockBehaviour.Properties.copy(RuBlocks.CHALK_BRICKS.get()), () -> RuBlocks.CHALK_BRICKS.get(), STONE_VARIANTS_WITHOUT_STAIRS);
+    public static final BlockManager RU_ARGILLITE = CaliberBlockManager.registerRU("argillite", () -> BlockBehaviour.Properties.copy(RuBlocks.ARGILLITE.get()), () -> RuBlocks.ARGILLITE.get(), STONE_VARIANTS_WITHOUT_SLAB_STAIRS);
+    public static final BlockManager RU_CHALK = CaliberBlockManager.registerRU("chalk_block", () -> BlockBehaviour.Properties.copy(RuBlocks.CHALK.get()), () -> RuBlocks.CHALK.get(), STONE_VARIANTS_WITHOUT_SLAB_STAIRS);
+    public static final BlockManager RU_CHALK_BRICKS = CaliberBlockManager.registerRU("chalk_bricks", () -> BlockBehaviour.Properties.copy(RuBlocks.CHALK_BRICKS.get()), () -> RuBlocks.CHALK_BRICKS.get(), STONE_VARIANTS_WITHOUT_SLAB_STAIRS);
     public static final BlockManager RU_CHALK_PILLAR = CaliberBlockManager.registerRU("chalk_pillar", () -> BlockBehaviour.Properties.copy(RuBlocks.CHALK_PILLAR.get()), () -> RuBlocks.CHALK_PILLAR.get(), STONE_VARIANTS);
     public static final BlockManager RU_MOSSY_STONE = CaliberBlockManager.registerRU("mossy_stone", () -> BlockBehaviour.Properties.copy(RuBlocks.MOSSY_STONE.get()), () -> RuBlocks.MOSSY_STONE.get(), STONE_VARIANTS);
-    public static final BlockManager RU_POLISHED_CHALK = CaliberBlockManager.registerRU("polished_chalk", () -> BlockBehaviour.Properties.copy(RuBlocks.POLISHED_CHALK.get()), () -> RuBlocks.POLISHED_CHALK.get(), STONE_VARIANTS_WITHOUT_STAIRS);
+    public static final BlockManager RU_POLISHED_CHALK = CaliberBlockManager.registerRU("polished_chalk", () -> BlockBehaviour.Properties.copy(RuBlocks.POLISHED_CHALK.get()), () -> RuBlocks.POLISHED_CHALK.get(), STONE_VARIANTS_WITHOUT_SLAB_STAIRS);
 
     /* Planks */
-    public static final BlockManager RU_BAOBAB = CaliberBlockManager.registerRU("baobab_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.BAOBAB_PLANKS.get()), () -> RuBlocks.BAOBAB_PLANKS.get(), VANILLA_PLANK_VARIANTS);
-    public static final BlockManager RU_BLACKWOOD = CaliberBlockManager.registerRU("blackwood_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.BLACKWOOD_PLANKS.get()), () -> RuBlocks.BLACKWOOD_PLANKS.get(), VANILLA_PLANK_VARIANTS);
+    public static final BlockManager RU_BAOBAB = CaliberBlockManager.registerRU("baobab_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.BAOBAB_PLANKS.get()), () -> RuBlocks.BAOBAB_PLANKS.get(), PLANK_VARIANTS);
+    public static final BlockManager RU_BLACKWOOD = CaliberBlockManager.registerRU("blackwood_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.BLACKWOOD_PLANKS.get()), () -> RuBlocks.BLACKWOOD_PLANKS.get(), PLANK_VARIANTS);
     public static final BlockManager RU_BLUE_BIOSHROOM = CaliberBlockManager.registerRU("blue_bioshroom_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.BLUE_BIOSHROOM_PLANKS.get()), () -> RuBlocks.BLUE_BIOSHROOM_PLANKS.get(), COMPAT_PLANK_VARIANTS);//
-    public static final BlockManager RU_BRIMWOOD = CaliberBlockManager.registerRU("brimwood_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.BRIMWOOD_PLANKS.get()), () -> RuBlocks.BRIMWOOD_PLANKS.get(), VANILLA_PLANK_VARIANTS);
+    public static final BlockManager RU_BRIMWOOD = CaliberBlockManager.registerRU("brimwood_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.BRIMWOOD_PLANKS.get()), () -> RuBlocks.BRIMWOOD_PLANKS.get(), PLANK_VARIANTS);
     public static final BlockManager RU_COBALT = CaliberBlockManager.registerRU("cobalt_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.COBALT_PLANKS.get()), () -> RuBlocks.COBALT_PLANKS.get(), COMPAT_PLANK_VARIANTS);//
-    public static final BlockManager RU_CYPRESS = CaliberBlockManager.registerRU("cypress_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.CYPRESS_PLANKS.get()), () -> RuBlocks.CYPRESS_PLANKS.get(), VANILLA_PLANK_VARIANTS);
-    public static final BlockManager RU_DEAD = CaliberBlockManager.registerRU("dead_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.DEAD_PLANKS.get()), () -> RuBlocks.DEAD_PLANKS.get(), VANILLA_PLANK_VARIANTS);
-    public static final BlockManager RU_EUCALYPTUS = CaliberBlockManager.registerRU("eucalyptus_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.EUCALYPTUS_PLANKS.get()), () -> RuBlocks.EUCALYPTUS_PLANKS.get(), VANILLA_PLANK_VARIANTS);
+    public static final BlockManager RU_CYPRESS = CaliberBlockManager.registerRU("cypress_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.CYPRESS_PLANKS.get()), () -> RuBlocks.CYPRESS_PLANKS.get(), PLANK_VARIANTS);
+    public static final BlockManager RU_DEAD = CaliberBlockManager.registerRU("dead_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.DEAD_PLANKS.get()), () -> RuBlocks.DEAD_PLANKS.get(), PLANK_VARIANTS);
+    public static final BlockManager RU_EUCALYPTUS = CaliberBlockManager.registerRU("eucalyptus_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.EUCALYPTUS_PLANKS.get()), () -> RuBlocks.EUCALYPTUS_PLANKS.get(), PLANK_VARIANTS);
     public static final BlockManager RU_GREEN_BIOSHROOM = CaliberBlockManager.registerRU("green_bioshroom_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.GREEN_BIOSHROOM_PLANKS.get()), () -> RuBlocks.GREEN_BIOSHROOM_PLANKS.get(), COMPAT_PLANK_VARIANTS);//
-    public static final BlockManager RU_JOSHUA = CaliberBlockManager.registerRU("joshua_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.JOSHUA_PLANKS.get()), () -> RuBlocks.JOSHUA_PLANKS.get(), VANILLA_PLANK_VARIANTS);
+    public static final BlockManager RU_JOSHUA = CaliberBlockManager.registerRU("joshua_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.JOSHUA_PLANKS.get()), () -> RuBlocks.JOSHUA_PLANKS.get(), PLANK_VARIANTS);
     public static final BlockManager RU_KAPOK = CaliberBlockManager.registerRU("kapok_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.KAPOK_PLANKS.get()), () -> RuBlocks.KAPOK_PLANKS.get(), COMPAT_PLANK_VARIANTS);//
-    public static final BlockManager RU_LARCH = CaliberBlockManager.registerRU("larch_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.LARCH_PLANKS.get()), () -> RuBlocks.LARCH_PLANKS.get(), VANILLA_PLANK_VARIANTS);
+    public static final BlockManager RU_LARCH = CaliberBlockManager.registerRU("larch_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.LARCH_PLANKS.get()), () -> RuBlocks.LARCH_PLANKS.get(), PLANK_VARIANTS);
     public static final BlockManager RU_MAGNOLIA = CaliberBlockManager.registerRU("magnolia_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.MAGNOLIA_PLANKS.get()), () -> RuBlocks.MAGNOLIA_PLANKS.get(), COMPAT_PLANK_VARIANTS);//
-    public static final BlockManager RU_MAPLE = CaliberBlockManager.registerRU("maple_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.MAPLE_PLANKS.get()), () -> RuBlocks.MAPLE_PLANKS.get(), VANILLA_PLANK_VARIANTS);
-    public static final BlockManager RU_MAUVE = CaliberBlockManager.registerRU("mauve_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.MAUVE_PLANKS.get()), () -> RuBlocks.MAUVE_PLANKS.get(), VANILLA_PLANK_VARIANTS);
-    public static final BlockManager RU_PALM = CaliberBlockManager.registerRU("palm_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.PALM_PLANKS.get()), () -> RuBlocks.PALM_PLANKS.get(), VANILLA_PLANK_VARIANTS);
-    public static final BlockManager RU_PINE = CaliberBlockManager.registerRU("pine_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.PINE_PLANKS.get()), () -> RuBlocks.PINE_PLANKS.get(), VANILLA_PLANK_VARIANTS);
+    public static final BlockManager RU_MAPLE = CaliberBlockManager.registerRU("maple_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.MAPLE_PLANKS.get()), () -> RuBlocks.MAPLE_PLANKS.get(), PLANK_VARIANTS);
+    public static final BlockManager RU_MAUVE = CaliberBlockManager.registerRU("mauve_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.MAUVE_PLANKS.get()), () -> RuBlocks.MAUVE_PLANKS.get(), PLANK_VARIANTS);
+    public static final BlockManager RU_PALM = CaliberBlockManager.registerRU("palm_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.PALM_PLANKS.get()), () -> RuBlocks.PALM_PLANKS.get(), PLANK_VARIANTS);
+    public static final BlockManager RU_PINE = CaliberBlockManager.registerRU("pine_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.PINE_PLANKS.get()), () -> RuBlocks.PINE_PLANKS.get(), PLANK_VARIANTS);
     public static final BlockManager RU_PINK_BIOSHROOM = CaliberBlockManager.registerRU("pink_bioshroom_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.PINK_BIOSHROOM_PLANKS.get()), () -> RuBlocks.PINK_BIOSHROOM_PLANKS.get(), COMPAT_PLANK_VARIANTS);//
-    public static final BlockManager RU_REDWOOD = CaliberBlockManager.registerRU("redwood_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.REDWOOD_PLANKS.get()), () -> RuBlocks.REDWOOD_PLANKS.get(), VANILLA_PLANK_VARIANTS);
+    public static final BlockManager RU_REDWOOD = CaliberBlockManager.registerRU("redwood_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.REDWOOD_PLANKS.get()), () -> RuBlocks.REDWOOD_PLANKS.get(), PLANK_VARIANTS);
     public static final BlockManager RU_SOCOTRA = CaliberBlockManager.registerRU("socotra_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.SOCOTRA_PLANKS.get()), () -> RuBlocks.SOCOTRA_PLANKS.get(), COMPAT_PLANK_VARIANTS);//
-    public static final BlockManager RU_WILLOW = CaliberBlockManager.registerRU("willow_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.WILLOW_PLANKS.get()), () -> RuBlocks.WILLOW_PLANKS.get(), VANILLA_PLANK_VARIANTS);
+    public static final BlockManager RU_WILLOW = CaliberBlockManager.registerRU("willow_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.WILLOW_PLANKS.get()), () -> RuBlocks.WILLOW_PLANKS.get(), PLANK_VARIANTS);
     public static final BlockManager RU_YELLOW_BIOSHROOM = CaliberBlockManager.registerRU("yellow_bioshroom_planks", () -> BlockBehaviour.Properties.copy(RuBlocks.YELLOW_BIOSHROOM_PLANKS.get()), () -> RuBlocks.YELLOW_BIOSHROOM_PLANKS.get(), COMPAT_PLANK_VARIANTS);//
 
     /* Roofing */
