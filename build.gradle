@@ -206,24 +206,17 @@ dependencies {
     // then special handling is done to allow a setup of a vanilla dependency without the use of an external repository.
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 
-    // Example mod dependency with JEI - using fg.deobf() ensures the dependency is remapped to your development mappings
-    // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
-    // compileOnly fg.deobf("mezz.jei:jei-${mc_version}-common-api:${jei_version}")
-    // compileOnly fg.deobf("mezz.jei:jei-${mc_version}-forge-api:${jei_version}")
-    // runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}-forge:${jei_version}")
-
-    // compile against the JEI API but do not include it at runtime
-//    compileOnly(fg.deobf("mezz.jei:jei-${minecraft_version}-common-api:${jei_version}"))
-//    compileOnly(fg.deobf("mezz.jei:jei-${minecraft_version}-forge-api:${jei_version}"))
-//    // at runtime, use the full JEI jar for Forge
-//    runtimeOnly(fg.deobf("mezz.jei:jei-${minecraft_version}-forge:${jei_version}"))
-
+    // CALIBER MC DEPENDENCIES
 //    implementation fg.deobf("maven.modrinth:buildify:${buildify_version}-${minecraft_version}") // modrinth variant
 //    implementation fg.deobf("maven.modrinth:caliberlib:${caliber_lib_version}-${minecraft_version}") // modrinth variant
     implementation fg.deobf("com.calibermc.buildify:buildify:${buildify_version}-${minecraft_version}") // maven local
     implementation fg.deobf("com.calibermc.caliberlib:caliberlib:${caliber_lib_version}-${minecraft_version}") // maven local
 
     // COMPAT
+    compileOnly(fg.deobf("mezz.jei:jei-${minecraft_version}-common-api:${jei_version}"))
+    compileOnly(fg.deobf("mezz.jei:jei-${minecraft_version}-forge-api:${jei_version}"))
+    runtimeOnly(fg.deobf("mezz.jei:jei-${minecraft_version}-forge:${jei_version}"))
+
     implementation fg.deobf("curse.maven:terrablender-563928:4573003")
     implementation fg.deobf("curse.maven:biomesoplenty-220318:4764804")
     implementation fg.deobf("curse.maven:regions-unexplored-659110:5151869")
@@ -231,7 +224,6 @@ dependencies {
     implementation fg.deobf("curse.maven:create-328085:4835191")
     compileOnly fg.deobf("com.tterrag.registrate:Registrate:${registrate_version}")
     compileOnly fg.deobf("com.jozufozu.flywheel:flywheel-forge-${minecraft_version}:${flywheel_version}")
-//    implementation fg.deobf("maven.modrinth:regions-unexplored:${regions_unexplored_version}+${minecraft_version}-forge")
 
     // jarJar
 //    implementation(fg.deobf(jarJar("com.calibermc.caliberlib:caliberlib:0.0.1") {

@@ -6,6 +6,7 @@
 
     "container.caliber.woodcutter": "Woodcutter",
     "block.caliber.woodcutter": "Woodcutter",
+    "caliber.recipe_type.woodcutting": "Woodcutting",
 
     "block.caliber.andesite_arch": "Andesite Arch",
     "block.caliber.andesite_arch_half": "Andesite Half Arch",

@@ -18,6 +18,7 @@
 - Renamed Regions Unexplored Chalk variants to Chalk Block _(this is to allow the Chalk Pillar variants to be added)_
 - Added BOP Smooth (Black, Orange, White) Sandstone variants
 - Added mod compatibility variants for Create Natural Stone types
+- Added JEI mod compatibility for woodcutting recipes
 
 [//]: # (- Added mod compatibility variants for Stone Works)
 [//]: # (- Added mod compatibility variants for Quark)

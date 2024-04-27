@@ -2,6 +2,7 @@ package com.calibermc.caliber.crafting;
 
 import com.calibermc.caliber.block.CaliberBlocks;
 import com.google.gson.JsonObject;
+import net.minecraft.core.NonNullList;
 import net.minecraft.core.RegistryAccess;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.resources.ResourceLocation;
@@ -23,6 +24,13 @@ public class WoodcutterRecipe extends SingleItemRecipe {
     @Override
     public boolean matches(Container pInv, Level pLevel) {
         return this.ingredient.test(pInv.getItem(0));
+    }
+
+    @Override
+    public NonNullList<Ingredient> getIngredients() {
+        NonNullList<Ingredient> inputItems = NonNullList.create();
+        inputItems.add(this.ingredient);
+        return inputItems;
     }
 
     @Override
