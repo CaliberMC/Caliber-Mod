@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "caliber:purpur_block_layer_vertical"
+  },
+  "result": "caliber:purpur_block_layer"
+}

@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "facing=east,type=bottom": {
+      "model": "caliber:block/purpur_pillar_window_bottom",
+      "y": 90
+    },
+    "facing=east,type=full_block": {
+      "model": "caliber:block/purpur_pillar_window",
+      "y": 90
+    },
+    "facing=east,type=middle": {
+      "model": "caliber:block/purpur_pillar_window_middle",
+      "y": 90
+    },
+    "facing=east,type=top": {
+      "model": "caliber:block/purpur_pillar_window_top",
+      "y": 90
+    },
+    "facing=north,type=bottom": {
+      "model": "caliber:block/purpur_pillar_window_bottom"
+    },
+    "facing=north,type=full_block": {
+      "model": "caliber:block/purpur_pillar_window"
+    },
+    "facing=north,type=middle": {
+      "model": "caliber:block/purpur_pillar_window_middle"
+    },
+    "facing=north,type=top": {
+      "model": "caliber:block/purpur_pillar_window_top"
+    },
+    "facing=south,type=bottom": {
+      "model": "caliber:block/purpur_pillar_window_bottom",
+      "y": 180
+    },
+    "facing=south,type=full_block": {
+      "model": "caliber:block/purpur_pillar_window",
+      "y": 180
+    },
+    "facing=south,type=middle": {
+      "model": "caliber:block/purpur_pillar_window_middle",
+      "y": 180
+    },
+    "facing=south,type=top": {
+      "model": "caliber:block/purpur_pillar_window_top",
+      "y": 180
+    },
+    "facing=west,type=bottom": {
+      "model": "caliber:block/purpur_pillar_window_bottom",
+      "y": 270
+    },
+    "facing=west,type=full_block": {
+      "model": "caliber:block/purpur_pillar_window",
+      "y": 270
+    },
+    "facing=west,type=middle": {
+      "model": "caliber:block/purpur_pillar_window_middle",
+      "y": 270
+    },
+    "facing=west,type=top": {
+      "model": "caliber:block/purpur_pillar_window_top",
+      "y": 270
+    }
+  }
+}

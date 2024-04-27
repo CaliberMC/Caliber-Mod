@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "caliber:purpur_block_arrowslit"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "caliber:blocks/purpur_block_arrowslit"
+}

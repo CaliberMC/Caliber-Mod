@@ -15,6 +15,7 @@
 - Added Chiseled Red Sandstone variants
 - Added Purpur Pillar Variants
 - Added Regions Unexplored Chalk Pillar variants
+- Renamed Purpur variants to Purpur Block _(this is to allow the Purpur Pillar variants to be added)_
 - Renamed Regions Unexplored Chalk variants to Chalk Block _(this is to allow the Chalk Pillar variants to be added)_
 - Added BOP Smooth (Black, Orange, White) Sandstone variants
 - Added mod compatibility variants for Create Natural Stone types

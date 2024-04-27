@@ -346,10 +346,15 @@
     },
     "caliber:purple_terracotta_arch",
     {
-      "id": "caliber:purpur_arch",
+      "id": "caliber:purpur_block_arch",
       "required": false
     },
-    "caliber:purpur_arch",
+    "caliber:purpur_block_arch",
+    {
+      "id": "caliber:purpur_pillar_arch",
+      "required": false
+    },
+    "caliber:purpur_pillar_arch",
     {
       "id": "caliber:quartz_arch",
       "required": false

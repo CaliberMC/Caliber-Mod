@@ -46,7 +46,6 @@ public class CaliberBlocks {
     public static final BlockManager CHISELED_POLISHED_BLACKSTONE = CaliberBlockManager.register("chiseled_polished_blackstone", BlockProps.POLISHED_BLACKSTONE.get(), () -> Blocks.CHISELED_POLISHED_BLACKSTONE, STONE_VARIANTS);
     public static final BlockManager CRACKED_POLISHED_BLACKSTONE_BRICK = CaliberBlockManager.register("cracked_polished_blackstone_brick", BlockProps.POLISHED_BLACKSTONE_BRICK.get(), () -> Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS, STONE_VARIANTS);
 
-
     /* Bricks */
     public static final BlockManager BRICK = CaliberBlockManager.register("brick", BlockProps.BRICK.get(), () -> Blocks.BRICKS, STONE_VARIANTS_WITHOUT_SLAB_STAIRS_WALL);
 
@@ -97,8 +96,8 @@ public class CaliberBlocks {
     public static final BlockManager DARK_PRISMARINE = CaliberBlockManager.register("dark_prismarine", BlockProps.PRISMARINE.get(), () -> Blocks.DARK_PRISMARINE, STONE_VARIANTS_WITHOUT_SLAB_STAIRS);
 
     /* Purpur */
-    public static final BlockManager PURPUR = CaliberBlockManager.register("purpur", BlockProps.PURPUR.get(), () -> Blocks.PURPUR_BLOCK, STONE_VARIANTS_WITHOUT_SLAB_STAIRS);
-//    public static final BlockManager PURPUR_PILLAR = CaliberBlockManager.register("purpur_pillar", BlockProps.PURPUR.get(), () -> Blocks.PURPUR_PILLAR, STONE_VARIANTS_WITHOUT_SLAB);
+    public static final BlockManager PURPUR = CaliberBlockManager.register("purpur_block", BlockProps.PURPUR.get(), () -> Blocks.PURPUR_BLOCK, STONE_VARIANTS_WITHOUT_SLAB_STAIRS);
+    public static final BlockManager PURPUR_PILLAR = CaliberBlockManager.register("purpur_pillar", BlockProps.PURPUR.get(), () -> Blocks.PURPUR_PILLAR, STONE_VARIANTS);
 
     /* Quartz */
     public static final BlockManager QUARTZ = CaliberBlockManager.register("quartz", BlockProps.QUARTZ.get(), () -> Blocks.QUARTZ_BLOCK, STONE_VARIANTS_WITHOUT_SLAB_STAIRS);

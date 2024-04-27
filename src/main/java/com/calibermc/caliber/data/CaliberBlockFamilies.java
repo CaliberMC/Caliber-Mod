@@ -219,6 +219,12 @@ public class CaliberBlockFamilies {
     /* Purpur */
     public static final ModBlockFamily PURPUR = familyBuilder(Blocks.PURPUR_BLOCK)
             .fromManager(CaliberBlocks.PURPUR)
+            .slab(Blocks.PURPUR_SLAB)
+            .stairs(Blocks.PURPUR_STAIRS)
+            .getFamily();
+
+    public static final ModBlockFamily PURPUR_PILLAR = familyBuilder(Blocks.PURPUR_PILLAR)
+            .fromManager(CaliberBlocks.PURPUR_PILLAR)
             .getFamily();
 
     /* Quartz */
