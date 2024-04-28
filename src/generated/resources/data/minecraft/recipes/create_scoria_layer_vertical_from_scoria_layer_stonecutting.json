@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "create:scoria_layer"
-  },
-  "result": "create:scoria_layer_vertical"
-}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "layers=1": {
+      "model": "create:block/limestone_block_pillar_layer_1"
+    },
+    "layers=2": {
+      "model": "create:block/limestone_block_pillar_layer_2"
+    },
+    "layers=3": {
+      "model": "create:block/limestone_block_pillar_layer_3"
+    },
+    "layers=4": {
+      "model": "create:block/limestone_block_pillar_layer_4"
+    },
+    "layers=5": {
+      "model": "create:block/limestone"
+    }
+  }
+}

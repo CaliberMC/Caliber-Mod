@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "create:limestone"
+  },
+  "result": "create:limestone_block_quarter_vertical"
+}

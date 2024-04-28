@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "create:block/veridium_block_capital"
+    },
+    "type=top": {
+      "model": "create:block/veridium_block_capital_top"
+    }
+  }
+}

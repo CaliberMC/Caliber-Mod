@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_scoria_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:scoria"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:create_scoria_block_eighth_from_scoria_block_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_scoria_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:create_scoria_block_eighth_from_scoria_block_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

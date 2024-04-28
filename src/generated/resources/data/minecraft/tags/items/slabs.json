@@ -93,31 +93,31 @@
       "required": false
     },
     {
-      "id": "create:asurine_slab",
+      "id": "create:asurine_block_slab",
       "required": false
     },
     {
-      "id": "create:crimsite_slab",
+      "id": "create:crimsite_block_slab",
       "required": false
     },
     {
-      "id": "create:limestone_slab",
+      "id": "create:limestone_block_slab",
       "required": false
     },
     {
-      "id": "create:ochrum_slab",
+      "id": "create:ochrum_block_slab",
       "required": false
     },
     {
-      "id": "create:scorchia_slab",
+      "id": "create:scorchia_block_slab",
       "required": false
     },
     {
-      "id": "create:scoria_slab",
+      "id": "create:scoria_block_slab",
       "required": false
     },
     {
-      "id": "create:veridium_slab",
+      "id": "create:veridium_block_slab",
       "required": false
     },
     {

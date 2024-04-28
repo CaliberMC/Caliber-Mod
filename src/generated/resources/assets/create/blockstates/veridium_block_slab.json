@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "create:block/veridium_block_slab"
+    },
+    "type=double": {
+      "model": "create:block/veridium_natural_0"
+    },
+    "type=top": {
+      "model": "create:block/veridium_block_slab_top"
+    }
+  }
+}

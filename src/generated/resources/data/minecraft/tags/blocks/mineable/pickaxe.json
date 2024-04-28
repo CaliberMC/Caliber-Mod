@@ -171,6 +171,27 @@
     "caliber:calcite_wall",
     "caliber:calcite_window",
     "caliber:calcite_window_half",
+    "caliber:chiseled_deepslate_arch",
+    "caliber:chiseled_deepslate_arch_half",
+    "caliber:chiseled_deepslate_arch_large",
+    "caliber:chiseled_deepslate_arch_large_half",
+    "caliber:chiseled_deepslate_arrowslit",
+    "caliber:chiseled_deepslate_balustrade",
+    "caliber:chiseled_deepslate_capital",
+    "caliber:chiseled_deepslate_corner",
+    "caliber:chiseled_deepslate_corner_slab",
+    "caliber:chiseled_deepslate_corner_slab_vertical",
+    "caliber:chiseled_deepslate_eighth",
+    "caliber:chiseled_deepslate_layer",
+    "caliber:chiseled_deepslate_layer_vertical",
+    "caliber:chiseled_deepslate_pillar",
+    "caliber:chiseled_deepslate_quarter",
+    "caliber:chiseled_deepslate_quarter_vertical",
+    "caliber:chiseled_deepslate_slab",
+    "caliber:chiseled_deepslate_stairs",
+    "caliber:chiseled_deepslate_wall",
+    "caliber:chiseled_deepslate_window",
+    "caliber:chiseled_deepslate_window_half",
     "caliber:chiseled_polished_blackstone_arch",
     "caliber:chiseled_polished_blackstone_arch_half",
     "caliber:chiseled_polished_blackstone_arch_large",
@@ -255,6 +276,24 @@
     "caliber:chiseled_stone_brick_wall",
     "caliber:chiseled_stone_brick_window",
     "caliber:chiseled_stone_brick_window_half",
+    "caliber:cobbled_deepslate_arch",
+    "caliber:cobbled_deepslate_arch_half",
+    "caliber:cobbled_deepslate_arch_large",
+    "caliber:cobbled_deepslate_arch_large_half",
+    "caliber:cobbled_deepslate_arrowslit",
+    "caliber:cobbled_deepslate_balustrade",
+    "caliber:cobbled_deepslate_capital",
+    "caliber:cobbled_deepslate_corner",
+    "caliber:cobbled_deepslate_corner_slab",
+    "caliber:cobbled_deepslate_corner_slab_vertical",
+    "caliber:cobbled_deepslate_eighth",
+    "caliber:cobbled_deepslate_layer",
+    "caliber:cobbled_deepslate_layer_vertical",
+    "caliber:cobbled_deepslate_pillar",
+    "caliber:cobbled_deepslate_quarter",
+    "caliber:cobbled_deepslate_quarter_vertical",
+    "caliber:cobbled_deepslate_window",
+    "caliber:cobbled_deepslate_window_half",
     "caliber:cobblestone_arch",
     "caliber:cobblestone_arch_half",
     "caliber:cobblestone_arch_large",
@@ -294,6 +333,27 @@
     "caliber:cracked_deepslate_brick_wall",
     "caliber:cracked_deepslate_brick_window",
     "caliber:cracked_deepslate_brick_window_half",
+    "caliber:cracked_deepslate_tile_arch",
+    "caliber:cracked_deepslate_tile_arch_half",
+    "caliber:cracked_deepslate_tile_arch_large",
+    "caliber:cracked_deepslate_tile_arch_large_half",
+    "caliber:cracked_deepslate_tile_arrowslit",
+    "caliber:cracked_deepslate_tile_balustrade",
+    "caliber:cracked_deepslate_tile_capital",
+    "caliber:cracked_deepslate_tile_corner",
+    "caliber:cracked_deepslate_tile_corner_slab",
+    "caliber:cracked_deepslate_tile_corner_slab_vertical",
+    "caliber:cracked_deepslate_tile_eighth",
+    "caliber:cracked_deepslate_tile_layer",
+    "caliber:cracked_deepslate_tile_layer_vertical",
+    "caliber:cracked_deepslate_tile_pillar",
+    "caliber:cracked_deepslate_tile_quarter",
+    "caliber:cracked_deepslate_tile_quarter_vertical",
+    "caliber:cracked_deepslate_tile_slab",
+    "caliber:cracked_deepslate_tile_stairs",
+    "caliber:cracked_deepslate_tile_wall",
+    "caliber:cracked_deepslate_tile_window",
+    "caliber:cracked_deepslate_tile_window_half",
     "caliber:cracked_polished_blackstone_brick_arch",
     "caliber:cracked_polished_blackstone_brick_arch_half",
     "caliber:cracked_polished_blackstone_brick_arch_large",
@@ -420,6 +480,27 @@
     "caliber:dark_prismarine_wall",
     "caliber:dark_prismarine_window",
     "caliber:dark_prismarine_window_half",
+    "caliber:deepslate_arch",
+    "caliber:deepslate_arch_half",
+    "caliber:deepslate_arch_large",
+    "caliber:deepslate_arch_large_half",
+    "caliber:deepslate_arrowslit",
+    "caliber:deepslate_balustrade",
+    "caliber:deepslate_capital",
+    "caliber:deepslate_corner",
+    "caliber:deepslate_corner_slab",
+    "caliber:deepslate_corner_slab_vertical",
+    "caliber:deepslate_eighth",
+    "caliber:deepslate_layer",
+    "caliber:deepslate_layer_vertical",
+    "caliber:deepslate_pillar",
+    "caliber:deepslate_quarter",
+    "caliber:deepslate_quarter_vertical",
+    "caliber:deepslate_slab",
+    "caliber:deepslate_stairs",
+    "caliber:deepslate_wall",
+    "caliber:deepslate_window",
+    "caliber:deepslate_window_half",
     "caliber:deepslate_brick_arch",
     "caliber:deepslate_brick_arch_half",
     "caliber:deepslate_brick_arch_large",
@@ -438,6 +519,24 @@
     "caliber:deepslate_brick_quarter_vertical",
     "caliber:deepslate_brick_window",
     "caliber:deepslate_brick_window_half",
+    "caliber:deepslate_tile_arch",
+    "caliber:deepslate_tile_arch_half",
+    "caliber:deepslate_tile_arch_large",
+    "caliber:deepslate_tile_arch_large_half",
+    "caliber:deepslate_tile_arrowslit",
+    "caliber:deepslate_tile_balustrade",
+    "caliber:deepslate_tile_capital",
+    "caliber:deepslate_tile_corner",
+    "caliber:deepslate_tile_corner_slab",
+    "caliber:deepslate_tile_corner_slab_vertical",
+    "caliber:deepslate_tile_eighth",
+    "caliber:deepslate_tile_layer",
+    "caliber:deepslate_tile_layer_vertical",
+    "caliber:deepslate_tile_pillar",
+    "caliber:deepslate_tile_quarter",
+    "caliber:deepslate_tile_quarter_vertical",
+    "caliber:deepslate_tile_window",
+    "caliber:deepslate_tile_window_half",
     "caliber:diorite_arch",
     "caliber:diorite_arch_half",
     "caliber:diorite_arch_large",
@@ -945,6 +1044,24 @@
     "caliber:polished_blackstone_brick_quarter_vertical",
     "caliber:polished_blackstone_brick_window",
     "caliber:polished_blackstone_brick_window_half",
+    "caliber:polished_deepslate_arch",
+    "caliber:polished_deepslate_arch_half",
+    "caliber:polished_deepslate_arch_large",
+    "caliber:polished_deepslate_arch_large_half",
+    "caliber:polished_deepslate_arrowslit",
+    "caliber:polished_deepslate_balustrade",
+    "caliber:polished_deepslate_capital",
+    "caliber:polished_deepslate_corner",
+    "caliber:polished_deepslate_corner_slab",
+    "caliber:polished_deepslate_corner_slab_vertical",
+    "caliber:polished_deepslate_eighth",
+    "caliber:polished_deepslate_layer",
+    "caliber:polished_deepslate_layer_vertical",
+    "caliber:polished_deepslate_pillar",
+    "caliber:polished_deepslate_quarter",
+    "caliber:polished_deepslate_quarter_vertical",
+    "caliber:polished_deepslate_window",
+    "caliber:polished_deepslate_window_half",
     "caliber:polished_diorite_arch",
     "caliber:polished_diorite_arch_half",
     "caliber:polished_diorite_arch_large",
@@ -1204,6 +1321,10 @@
     "caliber:sandstone_quarter_vertical",
     "caliber:sandstone_window",
     "caliber:sandstone_window_half",
+    "caliber:slate_tile_roof_22",
+    "caliber:slate_tile_roof_45",
+    "caliber:slate_tile_roof_67",
+    "caliber:slate_tile_roof_peak",
     "caliber:smooth_basalt_arch",
     "caliber:smooth_basalt_arch_half",
     "caliber:smooth_basalt_arch_large",
@@ -2511,87 +2632,667 @@
       "required": false
     },
     {
-      "id": "create:limestone_arch",
+      "id": "create:asurine_block_arch",
       "required": false
     },
     {
-      "id": "create:limestone_arch_half",
+      "id": "create:asurine_block_arch_half",
       "required": false
     },
     {
-      "id": "create:limestone_arch_large",
+      "id": "create:asurine_block_arch_large",
       "required": false
     },
     {
-      "id": "create:limestone_arch_large_half",
+      "id": "create:asurine_block_arch_large_half",
       "required": false
     },
     {
-      "id": "create:limestone_arrowslit",
+      "id": "create:asurine_block_arrowslit",
       "required": false
     },
     {
-      "id": "create:limestone_balustrade",
+      "id": "create:asurine_block_balustrade",
       "required": false
     },
     {
-      "id": "create:limestone_capital",
+      "id": "create:asurine_block_capital",
       "required": false
     },
     {
-      "id": "create:limestone_corner",
+      "id": "create:asurine_block_corner",
       "required": false
     },
     {
-      "id": "create:limestone_corner_slab",
+      "id": "create:asurine_block_corner_slab",
       "required": false
     },
     {
-      "id": "create:limestone_corner_slab_vertical",
+      "id": "create:asurine_block_corner_slab_vertical",
       "required": false
     },
     {
-      "id": "create:limestone_eighth",
+      "id": "create:asurine_block_eighth",
       "required": false
     },
     {
-      "id": "create:limestone_layer",
+      "id": "create:asurine_block_layer",
       "required": false
     },
     {
-      "id": "create:limestone_layer_vertical",
+      "id": "create:asurine_block_layer_vertical",
       "required": false
     },
     {
-      "id": "create:limestone_pillar",
+      "id": "create:asurine_block_pillar",
       "required": false
     },
     {
-      "id": "create:limestone_quarter",
+      "id": "create:asurine_block_quarter",
       "required": false
     },
     {
-      "id": "create:limestone_quarter_vertical",
+      "id": "create:asurine_block_quarter_vertical",
       "required": false
     },
     {
-      "id": "create:limestone_slab",
+      "id": "create:asurine_block_slab",
       "required": false
     },
     {
-      "id": "create:limestone_stairs",
+      "id": "create:asurine_block_stairs",
       "required": false
     },
     {
-      "id": "create:limestone_wall",
+      "id": "create:asurine_block_wall",
       "required": false
     },
     {
-      "id": "create:limestone_window",
+      "id": "create:asurine_block_window",
       "required": false
     },
     {
-      "id": "create:limestone_window_half",
+      "id": "create:asurine_block_window_half",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_block_arch",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_block_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_block_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_block_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_block_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_block_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_block_capital",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_block_corner",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_block_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_block_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_block_eighth",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_block_layer",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_block_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_block_pillar",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_block_quarter",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_block_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_block_slab",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_block_stairs",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_block_wall",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_block_window",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_block_window_half",
+      "required": false
+    },
+    {
+      "id": "create:limestone_block_arch",
+      "required": false
+    },
+    {
+      "id": "create:limestone_block_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:limestone_block_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:limestone_block_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:limestone_block_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:limestone_block_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:limestone_block_capital",
+      "required": false
+    },
+    {
+      "id": "create:limestone_block_corner",
+      "required": false
+    },
+    {
+      "id": "create:limestone_block_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:limestone_block_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:limestone_block_eighth",
+      "required": false
+    },
+    {
+      "id": "create:limestone_block_layer",
+      "required": false
+    },
+    {
+      "id": "create:limestone_block_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:limestone_block_pillar",
+      "required": false
+    },
+    {
+      "id": "create:limestone_block_quarter",
+      "required": false
+    },
+    {
+      "id": "create:limestone_block_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:limestone_block_slab",
+      "required": false
+    },
+    {
+      "id": "create:limestone_block_stairs",
+      "required": false
+    },
+    {
+      "id": "create:limestone_block_wall",
+      "required": false
+    },
+    {
+      "id": "create:limestone_block_window",
+      "required": false
+    },
+    {
+      "id": "create:limestone_block_window_half",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_block_arch",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_block_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_block_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_block_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_block_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_block_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_block_capital",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_block_corner",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_block_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_block_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_block_eighth",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_block_layer",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_block_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_block_pillar",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_block_quarter",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_block_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_block_slab",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_block_stairs",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_block_wall",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_block_window",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_block_window_half",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_block_arch",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_block_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_block_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_block_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_block_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_block_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_block_capital",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_block_corner",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_block_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_block_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_block_eighth",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_block_layer",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_block_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_block_pillar",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_block_quarter",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_block_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_block_slab",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_block_stairs",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_block_wall",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_block_window",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_block_window_half",
+      "required": false
+    },
+    {
+      "id": "create:scoria_block_arch",
+      "required": false
+    },
+    {
+      "id": "create:scoria_block_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:scoria_block_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:scoria_block_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:scoria_block_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:scoria_block_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:scoria_block_capital",
+      "required": false
+    },
+    {
+      "id": "create:scoria_block_corner",
+      "required": false
+    },
+    {
+      "id": "create:scoria_block_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:scoria_block_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:scoria_block_eighth",
+      "required": false
+    },
+    {
+      "id": "create:scoria_block_layer",
+      "required": false
+    },
+    {
+      "id": "create:scoria_block_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:scoria_block_pillar",
+      "required": false
+    },
+    {
+      "id": "create:scoria_block_quarter",
+      "required": false
+    },
+    {
+      "id": "create:scoria_block_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:scoria_block_slab",
+      "required": false
+    },
+    {
+      "id": "create:scoria_block_stairs",
+      "required": false
+    },
+    {
+      "id": "create:scoria_block_wall",
+      "required": false
+    },
+    {
+      "id": "create:scoria_block_window",
+      "required": false
+    },
+    {
+      "id": "create:scoria_block_window_half",
+      "required": false
+    },
+    {
+      "id": "create:veridium_block_arch",
+      "required": false
+    },
+    {
+      "id": "create:veridium_block_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:veridium_block_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:veridium_block_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:veridium_block_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:veridium_block_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:veridium_block_capital",
+      "required": false
+    },
+    {
+      "id": "create:veridium_block_corner",
+      "required": false
+    },
+    {
+      "id": "create:veridium_block_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:veridium_block_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:veridium_block_eighth",
+      "required": false
+    },
+    {
+      "id": "create:veridium_block_layer",
+      "required": false
+    },
+    {
+      "id": "create:veridium_block_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:veridium_block_pillar",
+      "required": false
+    },
+    {
+      "id": "create:veridium_block_quarter",
+      "required": false
+    },
+    {
+      "id": "create:veridium_block_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:veridium_block_slab",
+      "required": false
+    },
+    {
+      "id": "create:veridium_block_stairs",
+      "required": false
+    },
+    {
+      "id": "create:veridium_block_wall",
+      "required": false
+    },
+    {
+      "id": "create:veridium_block_window",
+      "required": false
+    },
+    {
+      "id": "create:veridium_block_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_block_arch",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_block_arch_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_block_arch_large",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_block_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_block_arrowslit",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_block_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_block_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_block_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_block_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_block_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_block_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_block_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_block_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_block_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_block_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_block_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_block_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_block_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_block_window_half",
       "required": false
     },
     {
@@ -2668,6 +3369,90 @@
     },
     {
       "id": "regions_unexplored:chalk_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_arch",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_arch_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_arch_large",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_arrowslit",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_window_half",
       "required": false
     },
     {
@@ -2752,6 +3537,82 @@
     },
     {
       "id": "regions_unexplored:mossy_stone_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:polished_chalk_arch",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:polished_chalk_arch_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:polished_chalk_arch_large",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:polished_chalk_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:polished_chalk_arrowslit",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:polished_chalk_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:polished_chalk_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:polished_chalk_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:polished_chalk_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:polished_chalk_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:polished_chalk_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:polished_chalk_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:polished_chalk_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:polished_chalk_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:polished_chalk_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:polished_chalk_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:polished_chalk_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:polished_chalk_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:polished_chalk_window_half",
       "required": false
     }
   ]

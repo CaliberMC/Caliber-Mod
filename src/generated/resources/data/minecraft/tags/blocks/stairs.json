@@ -158,31 +158,31 @@
       "required": false
     },
     {
-      "id": "create:asurine_stairs",
+      "id": "create:asurine_block_stairs",
       "required": false
     },
     {
-      "id": "create:crimsite_stairs",
+      "id": "create:crimsite_block_stairs",
       "required": false
     },
     {
-      "id": "create:limestone_stairs",
+      "id": "create:limestone_block_stairs",
       "required": false
     },
     {
-      "id": "create:ochrum_stairs",
+      "id": "create:ochrum_block_stairs",
       "required": false
     },
     {
-      "id": "create:scorchia_stairs",
+      "id": "create:scorchia_block_stairs",
       "required": false
     },
     {
-      "id": "create:scoria_stairs",
+      "id": "create:scoria_block_stairs",
       "required": false
     },
     {
-      "id": "create:veridium_stairs",
+      "id": "create:veridium_block_stairs",
       "required": false
     },
     {

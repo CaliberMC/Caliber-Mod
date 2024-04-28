@@ -38,13 +38,13 @@ public class CreateBlocks {
     }
 
     /* Natural Stone */
-    public static final BlockManager CREATE_ASURINE = CaliberBlockManager.registerCreate("asurine", () -> BlockBehaviour.Properties.copy(Blocks.DEEPSLATE), () -> AllPaletteStoneTypes.ASURINE.baseBlock.get(), STONE_VARIANTS);
-    public static final BlockManager CREATE_CRIMSITE = CaliberBlockManager.registerCreate("crimsite", () -> BlockBehaviour.Properties.copy(Blocks.DEEPSLATE), () -> AllPaletteStoneTypes.CRIMSITE.baseBlock.get(), STONE_VARIANTS);
-    public static final BlockManager CREATE_LIMESTONE = CaliberBlockManager.registerCreate("limestone", () -> BlockBehaviour.Properties.copy(Blocks.SANDSTONE), () -> AllPaletteStoneTypes.LIMESTONE.baseBlock.get(), STONE_VARIANTS);
-    public static final BlockManager CREATE_OCHRUM = CaliberBlockManager.registerCreate("ochrum", () -> BlockBehaviour.Properties.copy(Blocks.CALCITE), () -> AllPaletteStoneTypes.OCHRUM.baseBlock.get(), STONE_VARIANTS);
-    public static final BlockManager CREATE_SCORIA = CaliberBlockManager.registerCreate("scoria", () -> BlockBehaviour.Properties.copy(Blocks.BLACKSTONE), () -> AllPaletteStoneTypes.SCORIA.baseBlock.get(), STONE_VARIANTS);
-    public static final BlockManager CREATE_SCORCHIA = CaliberBlockManager.registerCreate("scorchia", () -> BlockBehaviour.Properties.copy(Blocks.BLACKSTONE), () -> AllPaletteStoneTypes.SCORCHIA.baseBlock.get(), STONE_VARIANTS);
-    public static final BlockManager CREATE_VERIDIUM = CaliberBlockManager.registerCreate("veridium", () -> BlockBehaviour.Properties.copy(Blocks.TUFF), () -> AllPaletteStoneTypes.VERIDIUM.baseBlock.get(), STONE_VARIANTS);
+    public static final BlockManager CREATE_ASURINE = CaliberBlockManager.registerCreate("asurine_block", () -> BlockBehaviour.Properties.copy(Blocks.DEEPSLATE), () -> AllPaletteStoneTypes.ASURINE.baseBlock.get(), STONE_VARIANTS);
+    public static final BlockManager CREATE_CRIMSITE = CaliberBlockManager.registerCreate("crimsite_block", () -> BlockBehaviour.Properties.copy(Blocks.DEEPSLATE), () -> AllPaletteStoneTypes.CRIMSITE.baseBlock.get(), STONE_VARIANTS);
+    public static final BlockManager CREATE_LIMESTONE = CaliberBlockManager.registerCreate("limestone_block", () -> BlockBehaviour.Properties.copy(Blocks.SANDSTONE), () -> AllPaletteStoneTypes.LIMESTONE.baseBlock.get(), STONE_VARIANTS);
+    public static final BlockManager CREATE_OCHRUM = CaliberBlockManager.registerCreate("ochrum_block", () -> BlockBehaviour.Properties.copy(Blocks.CALCITE), () -> AllPaletteStoneTypes.OCHRUM.baseBlock.get(), STONE_VARIANTS);
+    public static final BlockManager CREATE_SCORIA = CaliberBlockManager.registerCreate("scoria_block", () -> BlockBehaviour.Properties.copy(Blocks.BLACKSTONE), () -> AllPaletteStoneTypes.SCORIA.baseBlock.get(), STONE_VARIANTS);
+    public static final BlockManager CREATE_SCORCHIA = CaliberBlockManager.registerCreate("scorchia_block", () -> BlockBehaviour.Properties.copy(Blocks.BLACKSTONE), () -> AllPaletteStoneTypes.SCORCHIA.baseBlock.get(), STONE_VARIANTS);
+    public static final BlockManager CREATE_VERIDIUM = CaliberBlockManager.registerCreate("veridium_block", () -> BlockBehaviour.Properties.copy(Blocks.TUFF), () -> AllPaletteStoneTypes.VERIDIUM.baseBlock.get(), STONE_VARIANTS);
 
     /* Cut Stone */
 //    public static final BlockManager CREATE_CUT_ASURINE = CaliberBlockManager.registerCreate("cut_asurine", () -> BlockBehaviour.Properties.copy(Blocks.DEEPSLATE), () -> CUT_ASURINE, STONE_VARIANTS_WITHOUT_SLAB_STAIRS_WALL);

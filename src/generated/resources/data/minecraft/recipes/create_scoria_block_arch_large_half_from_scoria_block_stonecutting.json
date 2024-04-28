@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "create:scoria"
+  },
+  "result": "create:scoria_block_arch_large_half"
+}

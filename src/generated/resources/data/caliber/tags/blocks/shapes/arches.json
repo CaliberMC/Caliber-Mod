@@ -560,59 +560,59 @@
       "required": false
     },
     {
-      "id": "create:asurine_arch",
+      "id": "create:asurine_block_arch",
       "required": false
     },
     {
-      "id": "create:asurine_arch",
+      "id": "create:asurine_block_arch",
       "required": false
     },
     {
-      "id": "create:crimsite_arch",
+      "id": "create:crimsite_block_arch",
       "required": false
     },
     {
-      "id": "create:crimsite_arch",
+      "id": "create:crimsite_block_arch",
       "required": false
     },
     {
-      "id": "create:limestone_arch",
+      "id": "create:limestone_block_arch",
       "required": false
     },
     {
-      "id": "create:limestone_arch",
+      "id": "create:limestone_block_arch",
       "required": false
     },
     {
-      "id": "create:ochrum_arch",
+      "id": "create:ochrum_block_arch",
       "required": false
     },
     {
-      "id": "create:ochrum_arch",
+      "id": "create:ochrum_block_arch",
       "required": false
     },
     {
-      "id": "create:scorchia_arch",
+      "id": "create:scorchia_block_arch",
       "required": false
     },
     {
-      "id": "create:scorchia_arch",
+      "id": "create:scorchia_block_arch",
       "required": false
     },
     {
-      "id": "create:scoria_arch",
+      "id": "create:scoria_block_arch",
       "required": false
     },
     {
-      "id": "create:scoria_arch",
+      "id": "create:scoria_block_arch",
       "required": false
     },
     {
-      "id": "create:veridium_arch",
+      "id": "create:veridium_block_arch",
       "required": false
     },
     {
-      "id": "create:veridium_arch",
+      "id": "create:veridium_block_arch",
       "required": false
     },
     {

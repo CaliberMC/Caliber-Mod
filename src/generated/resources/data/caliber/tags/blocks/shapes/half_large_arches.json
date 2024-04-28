@@ -144,31 +144,31 @@
       "required": false
     },
     {
-      "id": "create:asurine_arch_large_half",
+      "id": "create:asurine_block_arch_large_half",
       "required": false
     },
     {
-      "id": "create:crimsite_arch_large_half",
+      "id": "create:crimsite_block_arch_large_half",
       "required": false
     },
     {
-      "id": "create:limestone_arch_large_half",
+      "id": "create:limestone_block_arch_large_half",
       "required": false
     },
     {
-      "id": "create:ochrum_arch_large_half",
+      "id": "create:ochrum_block_arch_large_half",
       "required": false
     },
     {
-      "id": "create:scorchia_arch_large_half",
+      "id": "create:scorchia_block_arch_large_half",
       "required": false
     },
     {
-      "id": "create:scoria_arch_large_half",
+      "id": "create:scoria_block_arch_large_half",
       "required": false
     },
     {
-      "id": "create:veridium_arch_large_half",
+      "id": "create:veridium_block_arch_large_half",
       "required": false
     },
     {
