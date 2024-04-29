@@ -41,10 +41,6 @@ public class CaliberRecipeProvider extends RecipeProvider implements IConditionB
             for (BlockManager blockManager : BlockManager.BLOCK_MANAGERS.get(blockManagerKey)) {
                 try {
                     if (blockManager.baseBlock() != null) {
-//                        boolean wood = ModWoodType.getWoodTypes().stream().anyMatch(p -> p.name().contains(blockManager.blockType().name()))
-//                                || WoodType.values().anyMatch(p -> p.name().equals(blockManager.blockType().name()));
-//                        generateRecipes(blockManager, wood, recipeConsumer);
-
                         boolean wood = Arrays.stream(RecipeWoodTypes.values()).anyMatch(p -> blockManager.getName().contains(p.getName()))
                                 || WoodType.values().anyMatch(p -> p.name().equals(blockManager.blockType().name()));
                         if (blockManager.getName().contains("maple")) {
@@ -59,18 +55,6 @@ public class CaliberRecipeProvider extends RecipeProvider implements IConditionB
                 }
             }
         }
-
-        // pre-compat
-//        for (BlockManager blockManager : BlockManager.BLOCK_MANAGERS.get(Caliber.MOD_ID)) {
-//            try {
-//                if (blockManager.baseBlock() != null) {
-//                    boolean wood = WoodType.values().anyMatch(p -> p.name().equals(blockManager.blockType().name()));
-//                    generateRecipes(blockManager, wood, recipeConsumer);
-//                }
-//            } catch (Exception e) {
-//                e.printStackTrace();
-//            }
-//        }
     }
 
     private void generateRecipes(BlockManager manager, boolean wood, Consumer<FinishedRecipe> finished, String blockManagerKey) {

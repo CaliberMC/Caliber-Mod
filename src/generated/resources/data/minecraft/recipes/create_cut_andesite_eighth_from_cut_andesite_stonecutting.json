@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "create:cut_andesite"
+  },
+  "result": "create:cut_andesite_eighth"
+}

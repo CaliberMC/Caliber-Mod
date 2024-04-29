@@ -140,7 +140,7 @@ public class RegionsUnexploredBlocks {
 
 
     public static void printBlockCounts() {
-        System.out.println("Regions Unexplored blocks registered: " + blockCount);
+        System.out.println("Caliber Mod registered " + blockCount + " new Regions Unexplored blocks.");
     }
 
     private static <T extends Block> RegistryObject<T> registerBlockWithoutBlockItem(String name, Supplier<T> block) {

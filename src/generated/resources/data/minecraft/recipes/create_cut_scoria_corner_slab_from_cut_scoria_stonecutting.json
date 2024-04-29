@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "create:cut_scoria"
+  },
+  "result": "create:cut_scoria_corner_slab"
+}

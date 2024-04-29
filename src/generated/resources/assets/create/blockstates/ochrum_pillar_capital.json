@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "create:block/ochrum_pillar_capital"
+    },
+    "type=top": {
+      "model": "create:block/ochrum_pillar_capital_top"
+    }
+  }
+}

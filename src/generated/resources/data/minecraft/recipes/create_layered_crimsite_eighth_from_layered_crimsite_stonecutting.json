@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "create:layered_crimsite"
+  },
+  "result": "create:layered_crimsite_eighth"
+}

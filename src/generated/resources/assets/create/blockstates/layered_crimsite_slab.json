@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "create:block/layered_crimsite_slab"
+    },
+    "type=double": {
+      "model": "create:block/layered_crimsite"
+    },
+    "type=top": {
+      "model": "create:block/layered_crimsite_slab_top"
+    }
+  }
+}

@@ -41,21 +41,25 @@ public class Caliber {
 
         CaliberItems.register(eventBus);
         CaliberBlocks.register(eventBus);
+        CaliberBlocks.printBlockCounts();
 
         // COMPAT // || DataGenUtil.isDataGen
         if (ModCompats.BOP) {
             BiomesOPlentyItems.register(eventBus);
             BiomesOPlentyBlocks.register(eventBus);
+            BiomesOPlentyBlocks.printBlockCounts();
         }
 
         if (ModCompats.CREATE) {
             CreateItems.register(eventBus);
             CreateBlocks.register(eventBus);
+            CreateBlocks.printBlockCounts();
         }
 
         if (ModCompats.REGIONS_UNEXPLORED) {
             RegionsUnexploredItems.register(eventBus);
             RegionsUnexploredBlocks.register(eventBus);
+            RegionsUnexploredBlocks.printBlockCounts();
         }
 
         CaliberMenuTypes.register(eventBus);

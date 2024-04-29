@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "create:layered_dripstone"
+  },
+  "result": "create:layered_dripstone_arch"
+}

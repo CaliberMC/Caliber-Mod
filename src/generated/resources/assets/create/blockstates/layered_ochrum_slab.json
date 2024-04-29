@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "create:block/layered_ochrum_slab"
+    },
+    "type=double": {
+      "model": "create:block/layered_ochrum"
+    },
+    "type=top": {
+      "model": "create:block/layered_ochrum_slab_top"
+    }
+  }
+}

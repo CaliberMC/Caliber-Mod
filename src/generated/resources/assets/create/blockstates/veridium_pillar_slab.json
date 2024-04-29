@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "create:block/veridium_pillar_slab"
+    },
+    "type=double": {
+      "model": "create:block/veridium_pillar"
+    },
+    "type=top": {
+      "model": "create:block/veridium_pillar_slab_top"
+    }
+  }
+}

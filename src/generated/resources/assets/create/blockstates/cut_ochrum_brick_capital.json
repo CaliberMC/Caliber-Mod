@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "create:block/cut_ochrum_brick_capital"
+    },
+    "type=top": {
+      "model": "create:block/cut_ochrum_brick_capital_top"
+    }
+  }
+}

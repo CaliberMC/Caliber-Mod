@@ -1,0 +1,8 @@
+{
+  "parent": "caliberlib:block/templates/corner_slab_top_layer_4",
+  "textures": {
+    "bottom": "create:block/palettes/stone_types/small_brick/granite_cut_small_brick",
+    "side": "create:block/palettes/stone_types/small_brick/granite_cut_small_brick",
+    "top": "create:block/palettes/stone_types/small_brick/granite_cut_small_brick"
+  }
+}

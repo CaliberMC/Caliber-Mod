@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "create:block/layered_diorite_slab"
+    },
+    "type=double": {
+      "model": "create:block/layered_diorite"
+    },
+    "type=top": {
+      "model": "create:block/layered_diorite_slab_top"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cut_diorite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:cut_diorite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:create_cut_diorite_eighth_from_cut_diorite_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_cut_diorite",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:create_cut_diorite_eighth_from_cut_diorite_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

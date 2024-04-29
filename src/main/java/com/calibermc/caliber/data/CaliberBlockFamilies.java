@@ -669,7 +669,7 @@ public class CaliberBlockFamilies {
 
 
     // COMPAT
-    static {
+    public static void compat() {
         if (ModCompats.BOP) MAP.putAll(BiomesOPlentyBlockFamilies.getAllFamiliesAsMap());
         if (ModCompats.CREATE) MAP.putAll(CreateBlockFamilies.getAllFamiliesAsMap());
         if (ModCompats.REGIONS_UNEXPLORED) MAP.putAll(RegionsUnexploredBlockFamilies.getAllFamiliesAsMap());

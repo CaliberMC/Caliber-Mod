@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "create:scorchia_pillar"
+  },
+  "result": "create:scorchia_pillar_corner"
+}

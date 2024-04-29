@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "create:layered_diorite"
+  },
+  "result": "create:layered_diorite_arch_large"
+}

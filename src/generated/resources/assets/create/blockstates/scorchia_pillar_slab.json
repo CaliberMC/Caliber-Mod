@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "create:block/scorchia_pillar_slab"
+    },
+    "type=double": {
+      "model": "create:block/scorchia_pillar"
+    },
+    "type=top": {
+      "model": "create:block/scorchia_pillar_slab_top"
+    }
+  }
+}

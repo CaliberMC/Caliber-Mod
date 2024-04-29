@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "create:layered_calcite"
+  },
+  "result": "create:layered_calcite_corner_slab"
+}

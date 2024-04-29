@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "create:crimsite_pillar"
+  },
+  "result": "create:crimsite_pillar_quarter"
+}

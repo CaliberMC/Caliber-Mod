@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "create:block/layered_asurine_slab"
+    },
+    "type=double": {
+      "model": "create:block/layered_asurine"
+    },
+    "type=top": {
+      "model": "create:block/layered_asurine_slab_top"
+    }
+  }
+}

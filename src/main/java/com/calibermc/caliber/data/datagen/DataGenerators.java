@@ -36,7 +36,7 @@ import java.util.concurrent.CompletableFuture;
 @Mod.EventBusSubscriber(modid = Caliber.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class DataGenerators {
 
-
+   // TODO: Add Fusion Data Generators for connected textures in Create Blocks
 
     @SubscribeEvent
     public static void gatherData(GatherDataEvent event) {

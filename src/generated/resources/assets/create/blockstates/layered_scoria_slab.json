@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "create:block/layered_scoria_slab"
+    },
+    "type=double": {
+      "model": "create:block/layered_scoria"
+    },
+    "type=top": {
+      "model": "create:block/layered_scoria_slab_top"
+    }
+  }
+}

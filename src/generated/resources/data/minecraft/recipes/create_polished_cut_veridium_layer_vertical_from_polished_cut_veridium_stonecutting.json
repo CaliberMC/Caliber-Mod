@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "create:polished_cut_veridium"
+  },
+  "result": "create:polished_cut_veridium_layer_vertical"
+}

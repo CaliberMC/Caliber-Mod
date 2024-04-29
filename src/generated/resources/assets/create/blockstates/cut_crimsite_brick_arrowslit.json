@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "create:block/cut_crimsite_brick_arrowslit",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "create:block/cut_crimsite_brick_arrowslit"
+    },
+    "facing=south": {
+      "model": "create:block/cut_crimsite_brick_arrowslit",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "create:block/cut_crimsite_brick_arrowslit",
+      "y": 270
+    }
+  }
+}

@@ -225,6 +225,7 @@ dependencies {
     compileOnly fg.deobf("com.tterrag.registrate:Registrate:${registrate_version}")
     compileOnly fg.deobf("com.jozufozu.flywheel:flywheel-forge-${minecraft_version}:${flywheel_version}")
 
+    // TODO: Add Fusion Dependency
     // jarJar
 //    implementation(fg.deobf(jarJar("com.calibermc.caliberlib:caliberlib:0.0.1") {
 //        jarJar.ranged(it, "[0.0,)")

@@ -2632,6 +2632,90 @@
       "required": false
     },
     {
+      "id": "create:andesite_pillar_arch",
+      "required": false
+    },
+    {
+      "id": "create:andesite_pillar_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:andesite_pillar_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:andesite_pillar_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:andesite_pillar_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:andesite_pillar_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:andesite_pillar_capital",
+      "required": false
+    },
+    {
+      "id": "create:andesite_pillar_corner",
+      "required": false
+    },
+    {
+      "id": "create:andesite_pillar_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:andesite_pillar_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:andesite_pillar_eighth",
+      "required": false
+    },
+    {
+      "id": "create:andesite_pillar_layer",
+      "required": false
+    },
+    {
+      "id": "create:andesite_pillar_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:andesite_pillar_pillar",
+      "required": false
+    },
+    {
+      "id": "create:andesite_pillar_quarter",
+      "required": false
+    },
+    {
+      "id": "create:andesite_pillar_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:andesite_pillar_slab",
+      "required": false
+    },
+    {
+      "id": "create:andesite_pillar_stairs",
+      "required": false
+    },
+    {
+      "id": "create:andesite_pillar_wall",
+      "required": false
+    },
+    {
+      "id": "create:andesite_pillar_window",
+      "required": false
+    },
+    {
+      "id": "create:andesite_pillar_window_half",
+      "required": false
+    },
+    {
       "id": "create:asurine_block_arch",
       "required": false
     },
@@ -2713,6 +2797,174 @@
     },
     {
       "id": "create:asurine_block_window_half",
+      "required": false
+    },
+    {
+      "id": "create:asurine_pillar_arch",
+      "required": false
+    },
+    {
+      "id": "create:asurine_pillar_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:asurine_pillar_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:asurine_pillar_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:asurine_pillar_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:asurine_pillar_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:asurine_pillar_capital",
+      "required": false
+    },
+    {
+      "id": "create:asurine_pillar_corner",
+      "required": false
+    },
+    {
+      "id": "create:asurine_pillar_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:asurine_pillar_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:asurine_pillar_eighth",
+      "required": false
+    },
+    {
+      "id": "create:asurine_pillar_layer",
+      "required": false
+    },
+    {
+      "id": "create:asurine_pillar_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:asurine_pillar_pillar",
+      "required": false
+    },
+    {
+      "id": "create:asurine_pillar_quarter",
+      "required": false
+    },
+    {
+      "id": "create:asurine_pillar_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:asurine_pillar_slab",
+      "required": false
+    },
+    {
+      "id": "create:asurine_pillar_stairs",
+      "required": false
+    },
+    {
+      "id": "create:asurine_pillar_wall",
+      "required": false
+    },
+    {
+      "id": "create:asurine_pillar_window",
+      "required": false
+    },
+    {
+      "id": "create:asurine_pillar_window_half",
+      "required": false
+    },
+    {
+      "id": "create:calcite_pillar_arch",
+      "required": false
+    },
+    {
+      "id": "create:calcite_pillar_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:calcite_pillar_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:calcite_pillar_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:calcite_pillar_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:calcite_pillar_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:calcite_pillar_capital",
+      "required": false
+    },
+    {
+      "id": "create:calcite_pillar_corner",
+      "required": false
+    },
+    {
+      "id": "create:calcite_pillar_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:calcite_pillar_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:calcite_pillar_eighth",
+      "required": false
+    },
+    {
+      "id": "create:calcite_pillar_layer",
+      "required": false
+    },
+    {
+      "id": "create:calcite_pillar_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:calcite_pillar_pillar",
+      "required": false
+    },
+    {
+      "id": "create:calcite_pillar_quarter",
+      "required": false
+    },
+    {
+      "id": "create:calcite_pillar_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:calcite_pillar_slab",
+      "required": false
+    },
+    {
+      "id": "create:calcite_pillar_stairs",
+      "required": false
+    },
+    {
+      "id": "create:calcite_pillar_wall",
+      "required": false
+    },
+    {
+      "id": "create:calcite_pillar_window",
+      "required": false
+    },
+    {
+      "id": "create:calcite_pillar_window_half",
       "required": false
     },
     {
@@ -2800,6 +3052,3618 @@
       "required": false
     },
     {
+      "id": "create:crimsite_pillar_arch",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_pillar_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_pillar_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_pillar_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_pillar_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_pillar_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_pillar_capital",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_pillar_corner",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_pillar_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_pillar_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_pillar_eighth",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_pillar_layer",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_pillar_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_pillar_pillar",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_pillar_quarter",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_pillar_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_pillar_slab",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_pillar_stairs",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_pillar_wall",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_pillar_window",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_pillar_window_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_arch",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_capital",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_corner",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_eighth",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_layer",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_quarter",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_window",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_window_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_brick_arch",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_brick_capital",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_brick_corner",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_brick_layer",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_brick_window",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_arch",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_capital",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_corner",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_eighth",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_layer",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_quarter",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_window",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_window_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_brick_arch",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_brick_capital",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_brick_corner",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_brick_layer",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_brick_window",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_arch",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_capital",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_corner",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_eighth",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_layer",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_quarter",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_window",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_window_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_brick_arch",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_brick_capital",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_brick_corner",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_brick_layer",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_brick_window",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_arch",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_capital",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_corner",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_eighth",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_layer",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_quarter",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_window",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_window_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_brick_arch",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_brick_capital",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_brick_corner",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_brick_layer",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_brick_window",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_arch",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_capital",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_corner",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_eighth",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_layer",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_quarter",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_window",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_window_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_brick_arch",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_brick_capital",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_brick_corner",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_brick_layer",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_brick_window",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_arch",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_capital",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_corner",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_eighth",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_layer",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_quarter",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_window",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_window_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_brick_arch",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_brick_capital",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_brick_corner",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_brick_layer",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_brick_window",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_arch",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_capital",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_corner",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_eighth",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_layer",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_quarter",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_window",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_window_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_brick_arch",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_brick_capital",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_brick_corner",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_brick_layer",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_brick_window",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_arch",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_capital",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_corner",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_eighth",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_layer",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_quarter",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_window",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_window_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_brick_arch",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_brick_capital",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_brick_corner",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_brick_layer",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_brick_window",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_arch",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_capital",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_corner",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_eighth",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_layer",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_quarter",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_window",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_window_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_brick_arch",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_brick_capital",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_brick_corner",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_brick_layer",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_brick_window",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_arch",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_capital",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_corner",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_eighth",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_layer",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_quarter",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_window",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_window_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_brick_arch",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_brick_capital",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_brick_corner",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_brick_layer",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_brick_window",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_arch",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_capital",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_corner",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_eighth",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_layer",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_quarter",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_window",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_window_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_brick_arch",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_brick_capital",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_brick_corner",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_brick_layer",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_brick_window",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_arch",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_capital",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_corner",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_eighth",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_layer",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_quarter",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_window",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_window_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_brick_arch",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_brick_capital",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_brick_corner",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_brick_layer",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_brick_window",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_arch",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_capital",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_corner",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_eighth",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_layer",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_quarter",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_window",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_window_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_brick_arch",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_brick_capital",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_brick_corner",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_brick_layer",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_brick_window",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_arch",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_capital",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_corner",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_eighth",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_layer",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_quarter",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_window",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_window_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_brick_arch",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_brick_capital",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_brick_corner",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_brick_layer",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_brick_window",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "create:deepslate_pillar_arch",
+      "required": false
+    },
+    {
+      "id": "create:deepslate_pillar_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:deepslate_pillar_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:deepslate_pillar_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:deepslate_pillar_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:deepslate_pillar_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:deepslate_pillar_capital",
+      "required": false
+    },
+    {
+      "id": "create:deepslate_pillar_corner",
+      "required": false
+    },
+    {
+      "id": "create:deepslate_pillar_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:deepslate_pillar_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:deepslate_pillar_eighth",
+      "required": false
+    },
+    {
+      "id": "create:deepslate_pillar_layer",
+      "required": false
+    },
+    {
+      "id": "create:deepslate_pillar_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:deepslate_pillar_pillar",
+      "required": false
+    },
+    {
+      "id": "create:deepslate_pillar_quarter",
+      "required": false
+    },
+    {
+      "id": "create:deepslate_pillar_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:deepslate_pillar_slab",
+      "required": false
+    },
+    {
+      "id": "create:deepslate_pillar_stairs",
+      "required": false
+    },
+    {
+      "id": "create:deepslate_pillar_wall",
+      "required": false
+    },
+    {
+      "id": "create:deepslate_pillar_window",
+      "required": false
+    },
+    {
+      "id": "create:deepslate_pillar_window_half",
+      "required": false
+    },
+    {
+      "id": "create:diorite_pillar_arch",
+      "required": false
+    },
+    {
+      "id": "create:diorite_pillar_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:diorite_pillar_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:diorite_pillar_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:diorite_pillar_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:diorite_pillar_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:diorite_pillar_capital",
+      "required": false
+    },
+    {
+      "id": "create:diorite_pillar_corner",
+      "required": false
+    },
+    {
+      "id": "create:diorite_pillar_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:diorite_pillar_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:diorite_pillar_eighth",
+      "required": false
+    },
+    {
+      "id": "create:diorite_pillar_layer",
+      "required": false
+    },
+    {
+      "id": "create:diorite_pillar_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:diorite_pillar_pillar",
+      "required": false
+    },
+    {
+      "id": "create:diorite_pillar_quarter",
+      "required": false
+    },
+    {
+      "id": "create:diorite_pillar_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:diorite_pillar_slab",
+      "required": false
+    },
+    {
+      "id": "create:diorite_pillar_stairs",
+      "required": false
+    },
+    {
+      "id": "create:diorite_pillar_wall",
+      "required": false
+    },
+    {
+      "id": "create:diorite_pillar_window",
+      "required": false
+    },
+    {
+      "id": "create:diorite_pillar_window_half",
+      "required": false
+    },
+    {
+      "id": "create:dripstone_pillar_arch",
+      "required": false
+    },
+    {
+      "id": "create:dripstone_pillar_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:dripstone_pillar_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:dripstone_pillar_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:dripstone_pillar_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:dripstone_pillar_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:dripstone_pillar_capital",
+      "required": false
+    },
+    {
+      "id": "create:dripstone_pillar_corner",
+      "required": false
+    },
+    {
+      "id": "create:dripstone_pillar_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:dripstone_pillar_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:dripstone_pillar_eighth",
+      "required": false
+    },
+    {
+      "id": "create:dripstone_pillar_layer",
+      "required": false
+    },
+    {
+      "id": "create:dripstone_pillar_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:dripstone_pillar_pillar",
+      "required": false
+    },
+    {
+      "id": "create:dripstone_pillar_quarter",
+      "required": false
+    },
+    {
+      "id": "create:dripstone_pillar_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:dripstone_pillar_slab",
+      "required": false
+    },
+    {
+      "id": "create:dripstone_pillar_stairs",
+      "required": false
+    },
+    {
+      "id": "create:dripstone_pillar_wall",
+      "required": false
+    },
+    {
+      "id": "create:dripstone_pillar_window",
+      "required": false
+    },
+    {
+      "id": "create:dripstone_pillar_window_half",
+      "required": false
+    },
+    {
+      "id": "create:granite_pillar_arch",
+      "required": false
+    },
+    {
+      "id": "create:granite_pillar_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:granite_pillar_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:granite_pillar_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:granite_pillar_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:granite_pillar_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:granite_pillar_capital",
+      "required": false
+    },
+    {
+      "id": "create:granite_pillar_corner",
+      "required": false
+    },
+    {
+      "id": "create:granite_pillar_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:granite_pillar_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:granite_pillar_eighth",
+      "required": false
+    },
+    {
+      "id": "create:granite_pillar_layer",
+      "required": false
+    },
+    {
+      "id": "create:granite_pillar_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:granite_pillar_pillar",
+      "required": false
+    },
+    {
+      "id": "create:granite_pillar_quarter",
+      "required": false
+    },
+    {
+      "id": "create:granite_pillar_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:granite_pillar_slab",
+      "required": false
+    },
+    {
+      "id": "create:granite_pillar_stairs",
+      "required": false
+    },
+    {
+      "id": "create:granite_pillar_wall",
+      "required": false
+    },
+    {
+      "id": "create:granite_pillar_window",
+      "required": false
+    },
+    {
+      "id": "create:granite_pillar_window_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_andesite_arch",
+      "required": false
+    },
+    {
+      "id": "create:layered_andesite_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_andesite_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:layered_andesite_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_andesite_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:layered_andesite_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:layered_andesite_capital",
+      "required": false
+    },
+    {
+      "id": "create:layered_andesite_corner",
+      "required": false
+    },
+    {
+      "id": "create:layered_andesite_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:layered_andesite_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_andesite_eighth",
+      "required": false
+    },
+    {
+      "id": "create:layered_andesite_layer",
+      "required": false
+    },
+    {
+      "id": "create:layered_andesite_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_andesite_pillar",
+      "required": false
+    },
+    {
+      "id": "create:layered_andesite_quarter",
+      "required": false
+    },
+    {
+      "id": "create:layered_andesite_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_andesite_slab",
+      "required": false
+    },
+    {
+      "id": "create:layered_andesite_stairs",
+      "required": false
+    },
+    {
+      "id": "create:layered_andesite_wall",
+      "required": false
+    },
+    {
+      "id": "create:layered_andesite_window",
+      "required": false
+    },
+    {
+      "id": "create:layered_andesite_window_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_asurine_arch",
+      "required": false
+    },
+    {
+      "id": "create:layered_asurine_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_asurine_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:layered_asurine_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_asurine_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:layered_asurine_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:layered_asurine_capital",
+      "required": false
+    },
+    {
+      "id": "create:layered_asurine_corner",
+      "required": false
+    },
+    {
+      "id": "create:layered_asurine_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:layered_asurine_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_asurine_eighth",
+      "required": false
+    },
+    {
+      "id": "create:layered_asurine_layer",
+      "required": false
+    },
+    {
+      "id": "create:layered_asurine_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_asurine_pillar",
+      "required": false
+    },
+    {
+      "id": "create:layered_asurine_quarter",
+      "required": false
+    },
+    {
+      "id": "create:layered_asurine_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_asurine_slab",
+      "required": false
+    },
+    {
+      "id": "create:layered_asurine_stairs",
+      "required": false
+    },
+    {
+      "id": "create:layered_asurine_wall",
+      "required": false
+    },
+    {
+      "id": "create:layered_asurine_window",
+      "required": false
+    },
+    {
+      "id": "create:layered_asurine_window_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_calcite_arch",
+      "required": false
+    },
+    {
+      "id": "create:layered_calcite_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_calcite_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:layered_calcite_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_calcite_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:layered_calcite_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:layered_calcite_capital",
+      "required": false
+    },
+    {
+      "id": "create:layered_calcite_corner",
+      "required": false
+    },
+    {
+      "id": "create:layered_calcite_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:layered_calcite_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_calcite_eighth",
+      "required": false
+    },
+    {
+      "id": "create:layered_calcite_layer",
+      "required": false
+    },
+    {
+      "id": "create:layered_calcite_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_calcite_pillar",
+      "required": false
+    },
+    {
+      "id": "create:layered_calcite_quarter",
+      "required": false
+    },
+    {
+      "id": "create:layered_calcite_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_calcite_slab",
+      "required": false
+    },
+    {
+      "id": "create:layered_calcite_stairs",
+      "required": false
+    },
+    {
+      "id": "create:layered_calcite_wall",
+      "required": false
+    },
+    {
+      "id": "create:layered_calcite_window",
+      "required": false
+    },
+    {
+      "id": "create:layered_calcite_window_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_crimsite_arch",
+      "required": false
+    },
+    {
+      "id": "create:layered_crimsite_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_crimsite_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:layered_crimsite_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_crimsite_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:layered_crimsite_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:layered_crimsite_capital",
+      "required": false
+    },
+    {
+      "id": "create:layered_crimsite_corner",
+      "required": false
+    },
+    {
+      "id": "create:layered_crimsite_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:layered_crimsite_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_crimsite_eighth",
+      "required": false
+    },
+    {
+      "id": "create:layered_crimsite_layer",
+      "required": false
+    },
+    {
+      "id": "create:layered_crimsite_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_crimsite_pillar",
+      "required": false
+    },
+    {
+      "id": "create:layered_crimsite_quarter",
+      "required": false
+    },
+    {
+      "id": "create:layered_crimsite_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_crimsite_slab",
+      "required": false
+    },
+    {
+      "id": "create:layered_crimsite_stairs",
+      "required": false
+    },
+    {
+      "id": "create:layered_crimsite_wall",
+      "required": false
+    },
+    {
+      "id": "create:layered_crimsite_window",
+      "required": false
+    },
+    {
+      "id": "create:layered_crimsite_window_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_deepslate_arch",
+      "required": false
+    },
+    {
+      "id": "create:layered_deepslate_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_deepslate_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:layered_deepslate_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_deepslate_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:layered_deepslate_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:layered_deepslate_capital",
+      "required": false
+    },
+    {
+      "id": "create:layered_deepslate_corner",
+      "required": false
+    },
+    {
+      "id": "create:layered_deepslate_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:layered_deepslate_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_deepslate_eighth",
+      "required": false
+    },
+    {
+      "id": "create:layered_deepslate_layer",
+      "required": false
+    },
+    {
+      "id": "create:layered_deepslate_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_deepslate_pillar",
+      "required": false
+    },
+    {
+      "id": "create:layered_deepslate_quarter",
+      "required": false
+    },
+    {
+      "id": "create:layered_deepslate_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_deepslate_slab",
+      "required": false
+    },
+    {
+      "id": "create:layered_deepslate_stairs",
+      "required": false
+    },
+    {
+      "id": "create:layered_deepslate_wall",
+      "required": false
+    },
+    {
+      "id": "create:layered_deepslate_window",
+      "required": false
+    },
+    {
+      "id": "create:layered_deepslate_window_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_diorite_arch",
+      "required": false
+    },
+    {
+      "id": "create:layered_diorite_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_diorite_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:layered_diorite_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_diorite_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:layered_diorite_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:layered_diorite_capital",
+      "required": false
+    },
+    {
+      "id": "create:layered_diorite_corner",
+      "required": false
+    },
+    {
+      "id": "create:layered_diorite_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:layered_diorite_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_diorite_eighth",
+      "required": false
+    },
+    {
+      "id": "create:layered_diorite_layer",
+      "required": false
+    },
+    {
+      "id": "create:layered_diorite_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_diorite_pillar",
+      "required": false
+    },
+    {
+      "id": "create:layered_diorite_quarter",
+      "required": false
+    },
+    {
+      "id": "create:layered_diorite_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_diorite_slab",
+      "required": false
+    },
+    {
+      "id": "create:layered_diorite_stairs",
+      "required": false
+    },
+    {
+      "id": "create:layered_diorite_wall",
+      "required": false
+    },
+    {
+      "id": "create:layered_diorite_window",
+      "required": false
+    },
+    {
+      "id": "create:layered_diorite_window_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_dripstone_arch",
+      "required": false
+    },
+    {
+      "id": "create:layered_dripstone_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_dripstone_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:layered_dripstone_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_dripstone_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:layered_dripstone_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:layered_dripstone_capital",
+      "required": false
+    },
+    {
+      "id": "create:layered_dripstone_corner",
+      "required": false
+    },
+    {
+      "id": "create:layered_dripstone_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:layered_dripstone_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_dripstone_eighth",
+      "required": false
+    },
+    {
+      "id": "create:layered_dripstone_layer",
+      "required": false
+    },
+    {
+      "id": "create:layered_dripstone_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_dripstone_pillar",
+      "required": false
+    },
+    {
+      "id": "create:layered_dripstone_quarter",
+      "required": false
+    },
+    {
+      "id": "create:layered_dripstone_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_dripstone_slab",
+      "required": false
+    },
+    {
+      "id": "create:layered_dripstone_stairs",
+      "required": false
+    },
+    {
+      "id": "create:layered_dripstone_wall",
+      "required": false
+    },
+    {
+      "id": "create:layered_dripstone_window",
+      "required": false
+    },
+    {
+      "id": "create:layered_dripstone_window_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_granite_arch",
+      "required": false
+    },
+    {
+      "id": "create:layered_granite_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_granite_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:layered_granite_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_granite_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:layered_granite_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:layered_granite_capital",
+      "required": false
+    },
+    {
+      "id": "create:layered_granite_corner",
+      "required": false
+    },
+    {
+      "id": "create:layered_granite_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:layered_granite_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_granite_eighth",
+      "required": false
+    },
+    {
+      "id": "create:layered_granite_layer",
+      "required": false
+    },
+    {
+      "id": "create:layered_granite_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_granite_pillar",
+      "required": false
+    },
+    {
+      "id": "create:layered_granite_quarter",
+      "required": false
+    },
+    {
+      "id": "create:layered_granite_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_granite_slab",
+      "required": false
+    },
+    {
+      "id": "create:layered_granite_stairs",
+      "required": false
+    },
+    {
+      "id": "create:layered_granite_wall",
+      "required": false
+    },
+    {
+      "id": "create:layered_granite_window",
+      "required": false
+    },
+    {
+      "id": "create:layered_granite_window_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_limestone_arch",
+      "required": false
+    },
+    {
+      "id": "create:layered_limestone_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_limestone_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:layered_limestone_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_limestone_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:layered_limestone_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:layered_limestone_capital",
+      "required": false
+    },
+    {
+      "id": "create:layered_limestone_corner",
+      "required": false
+    },
+    {
+      "id": "create:layered_limestone_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:layered_limestone_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_limestone_eighth",
+      "required": false
+    },
+    {
+      "id": "create:layered_limestone_layer",
+      "required": false
+    },
+    {
+      "id": "create:layered_limestone_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_limestone_pillar",
+      "required": false
+    },
+    {
+      "id": "create:layered_limestone_quarter",
+      "required": false
+    },
+    {
+      "id": "create:layered_limestone_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_limestone_slab",
+      "required": false
+    },
+    {
+      "id": "create:layered_limestone_stairs",
+      "required": false
+    },
+    {
+      "id": "create:layered_limestone_wall",
+      "required": false
+    },
+    {
+      "id": "create:layered_limestone_window",
+      "required": false
+    },
+    {
+      "id": "create:layered_limestone_window_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_ochrum_arch",
+      "required": false
+    },
+    {
+      "id": "create:layered_ochrum_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_ochrum_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:layered_ochrum_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_ochrum_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:layered_ochrum_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:layered_ochrum_capital",
+      "required": false
+    },
+    {
+      "id": "create:layered_ochrum_corner",
+      "required": false
+    },
+    {
+      "id": "create:layered_ochrum_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:layered_ochrum_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_ochrum_eighth",
+      "required": false
+    },
+    {
+      "id": "create:layered_ochrum_layer",
+      "required": false
+    },
+    {
+      "id": "create:layered_ochrum_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_ochrum_pillar",
+      "required": false
+    },
+    {
+      "id": "create:layered_ochrum_quarter",
+      "required": false
+    },
+    {
+      "id": "create:layered_ochrum_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_ochrum_slab",
+      "required": false
+    },
+    {
+      "id": "create:layered_ochrum_stairs",
+      "required": false
+    },
+    {
+      "id": "create:layered_ochrum_wall",
+      "required": false
+    },
+    {
+      "id": "create:layered_ochrum_window",
+      "required": false
+    },
+    {
+      "id": "create:layered_ochrum_window_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_scorchia_arch",
+      "required": false
+    },
+    {
+      "id": "create:layered_scorchia_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_scorchia_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:layered_scorchia_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_scorchia_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:layered_scorchia_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:layered_scorchia_capital",
+      "required": false
+    },
+    {
+      "id": "create:layered_scorchia_corner",
+      "required": false
+    },
+    {
+      "id": "create:layered_scorchia_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:layered_scorchia_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_scorchia_eighth",
+      "required": false
+    },
+    {
+      "id": "create:layered_scorchia_layer",
+      "required": false
+    },
+    {
+      "id": "create:layered_scorchia_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_scorchia_pillar",
+      "required": false
+    },
+    {
+      "id": "create:layered_scorchia_quarter",
+      "required": false
+    },
+    {
+      "id": "create:layered_scorchia_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_scorchia_slab",
+      "required": false
+    },
+    {
+      "id": "create:layered_scorchia_stairs",
+      "required": false
+    },
+    {
+      "id": "create:layered_scorchia_wall",
+      "required": false
+    },
+    {
+      "id": "create:layered_scorchia_window",
+      "required": false
+    },
+    {
+      "id": "create:layered_scorchia_window_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_scoria_arch",
+      "required": false
+    },
+    {
+      "id": "create:layered_scoria_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_scoria_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:layered_scoria_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_scoria_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:layered_scoria_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:layered_scoria_capital",
+      "required": false
+    },
+    {
+      "id": "create:layered_scoria_corner",
+      "required": false
+    },
+    {
+      "id": "create:layered_scoria_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:layered_scoria_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_scoria_eighth",
+      "required": false
+    },
+    {
+      "id": "create:layered_scoria_layer",
+      "required": false
+    },
+    {
+      "id": "create:layered_scoria_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_scoria_pillar",
+      "required": false
+    },
+    {
+      "id": "create:layered_scoria_quarter",
+      "required": false
+    },
+    {
+      "id": "create:layered_scoria_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_scoria_slab",
+      "required": false
+    },
+    {
+      "id": "create:layered_scoria_stairs",
+      "required": false
+    },
+    {
+      "id": "create:layered_scoria_wall",
+      "required": false
+    },
+    {
+      "id": "create:layered_scoria_window",
+      "required": false
+    },
+    {
+      "id": "create:layered_scoria_window_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_tuff_arch",
+      "required": false
+    },
+    {
+      "id": "create:layered_tuff_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_tuff_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:layered_tuff_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_tuff_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:layered_tuff_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:layered_tuff_capital",
+      "required": false
+    },
+    {
+      "id": "create:layered_tuff_corner",
+      "required": false
+    },
+    {
+      "id": "create:layered_tuff_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:layered_tuff_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_tuff_eighth",
+      "required": false
+    },
+    {
+      "id": "create:layered_tuff_layer",
+      "required": false
+    },
+    {
+      "id": "create:layered_tuff_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_tuff_pillar",
+      "required": false
+    },
+    {
+      "id": "create:layered_tuff_quarter",
+      "required": false
+    },
+    {
+      "id": "create:layered_tuff_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_tuff_slab",
+      "required": false
+    },
+    {
+      "id": "create:layered_tuff_stairs",
+      "required": false
+    },
+    {
+      "id": "create:layered_tuff_wall",
+      "required": false
+    },
+    {
+      "id": "create:layered_tuff_window",
+      "required": false
+    },
+    {
+      "id": "create:layered_tuff_window_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_veridium_arch",
+      "required": false
+    },
+    {
+      "id": "create:layered_veridium_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_veridium_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:layered_veridium_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:layered_veridium_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:layered_veridium_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:layered_veridium_capital",
+      "required": false
+    },
+    {
+      "id": "create:layered_veridium_corner",
+      "required": false
+    },
+    {
+      "id": "create:layered_veridium_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:layered_veridium_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_veridium_eighth",
+      "required": false
+    },
+    {
+      "id": "create:layered_veridium_layer",
+      "required": false
+    },
+    {
+      "id": "create:layered_veridium_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_veridium_pillar",
+      "required": false
+    },
+    {
+      "id": "create:layered_veridium_quarter",
+      "required": false
+    },
+    {
+      "id": "create:layered_veridium_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:layered_veridium_slab",
+      "required": false
+    },
+    {
+      "id": "create:layered_veridium_stairs",
+      "required": false
+    },
+    {
+      "id": "create:layered_veridium_wall",
+      "required": false
+    },
+    {
+      "id": "create:layered_veridium_window",
+      "required": false
+    },
+    {
+      "id": "create:layered_veridium_window_half",
+      "required": false
+    },
+    {
       "id": "create:limestone_block_arch",
       "required": false
     },
@@ -2881,6 +6745,90 @@
     },
     {
       "id": "create:limestone_block_window_half",
+      "required": false
+    },
+    {
+      "id": "create:limestone_pillar_arch",
+      "required": false
+    },
+    {
+      "id": "create:limestone_pillar_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:limestone_pillar_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:limestone_pillar_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:limestone_pillar_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:limestone_pillar_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:limestone_pillar_capital",
+      "required": false
+    },
+    {
+      "id": "create:limestone_pillar_corner",
+      "required": false
+    },
+    {
+      "id": "create:limestone_pillar_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:limestone_pillar_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:limestone_pillar_eighth",
+      "required": false
+    },
+    {
+      "id": "create:limestone_pillar_layer",
+      "required": false
+    },
+    {
+      "id": "create:limestone_pillar_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:limestone_pillar_pillar",
+      "required": false
+    },
+    {
+      "id": "create:limestone_pillar_quarter",
+      "required": false
+    },
+    {
+      "id": "create:limestone_pillar_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:limestone_pillar_slab",
+      "required": false
+    },
+    {
+      "id": "create:limestone_pillar_stairs",
+      "required": false
+    },
+    {
+      "id": "create:limestone_pillar_wall",
+      "required": false
+    },
+    {
+      "id": "create:limestone_pillar_window",
+      "required": false
+    },
+    {
+      "id": "create:limestone_pillar_window_half",
       "required": false
     },
     {
@@ -2968,6 +6916,1098 @@
       "required": false
     },
     {
+      "id": "create:ochrum_pillar_arch",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_pillar_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_pillar_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_pillar_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_pillar_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_pillar_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_pillar_capital",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_pillar_corner",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_pillar_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_pillar_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_pillar_eighth",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_pillar_layer",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_pillar_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_pillar_pillar",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_pillar_quarter",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_pillar_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_pillar_slab",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_pillar_stairs",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_pillar_wall",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_pillar_window",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_pillar_window_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_andesite_arch",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_andesite_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_andesite_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_andesite_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_andesite_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_andesite_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_andesite_capital",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_andesite_corner",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_andesite_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_andesite_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_andesite_eighth",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_andesite_layer",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_andesite_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_andesite_pillar",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_andesite_quarter",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_andesite_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_andesite_window",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_andesite_window_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_asurine_arch",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_asurine_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_asurine_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_asurine_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_asurine_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_asurine_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_asurine_capital",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_asurine_corner",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_asurine_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_asurine_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_asurine_eighth",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_asurine_layer",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_asurine_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_asurine_pillar",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_asurine_quarter",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_asurine_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_asurine_window",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_asurine_window_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_calcite_arch",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_calcite_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_calcite_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_calcite_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_calcite_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_calcite_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_calcite_capital",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_calcite_corner",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_calcite_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_calcite_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_calcite_eighth",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_calcite_layer",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_calcite_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_calcite_pillar",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_calcite_quarter",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_calcite_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_calcite_window",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_calcite_window_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_crimsite_arch",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_crimsite_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_crimsite_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_crimsite_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_crimsite_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_crimsite_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_crimsite_capital",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_crimsite_corner",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_crimsite_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_crimsite_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_crimsite_eighth",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_crimsite_layer",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_crimsite_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_crimsite_pillar",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_crimsite_quarter",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_crimsite_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_crimsite_window",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_crimsite_window_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_deepslate_arch",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_deepslate_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_deepslate_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_deepslate_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_deepslate_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_deepslate_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_deepslate_capital",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_deepslate_corner",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_deepslate_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_deepslate_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_deepslate_eighth",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_deepslate_layer",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_deepslate_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_deepslate_pillar",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_deepslate_quarter",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_deepslate_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_deepslate_window",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_deepslate_window_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_diorite_arch",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_diorite_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_diorite_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_diorite_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_diorite_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_diorite_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_diorite_capital",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_diorite_corner",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_diorite_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_diorite_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_diorite_eighth",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_diorite_layer",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_diorite_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_diorite_pillar",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_diorite_quarter",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_diorite_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_diorite_window",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_diorite_window_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_dripstone_arch",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_dripstone_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_dripstone_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_dripstone_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_dripstone_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_dripstone_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_dripstone_capital",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_dripstone_corner",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_dripstone_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_dripstone_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_dripstone_eighth",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_dripstone_layer",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_dripstone_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_dripstone_pillar",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_dripstone_quarter",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_dripstone_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_dripstone_window",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_dripstone_window_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_granite_arch",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_granite_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_granite_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_granite_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_granite_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_granite_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_granite_capital",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_granite_corner",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_granite_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_granite_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_granite_eighth",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_granite_layer",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_granite_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_granite_pillar",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_granite_quarter",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_granite_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_granite_window",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_granite_window_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_limestone_arch",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_limestone_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_limestone_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_limestone_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_limestone_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_limestone_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_limestone_capital",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_limestone_corner",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_limestone_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_limestone_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_limestone_eighth",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_limestone_layer",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_limestone_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_limestone_pillar",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_limestone_quarter",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_limestone_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_limestone_window",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_limestone_window_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_ochrum_arch",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_ochrum_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_ochrum_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_ochrum_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_ochrum_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_ochrum_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_ochrum_capital",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_ochrum_corner",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_ochrum_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_ochrum_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_ochrum_eighth",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_ochrum_layer",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_ochrum_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_ochrum_pillar",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_ochrum_quarter",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_ochrum_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_ochrum_window",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_ochrum_window_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scorchia_arch",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scorchia_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scorchia_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scorchia_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scorchia_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scorchia_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scorchia_capital",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scorchia_corner",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scorchia_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scorchia_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scorchia_eighth",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scorchia_layer",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scorchia_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scorchia_pillar",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scorchia_quarter",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scorchia_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scorchia_window",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scorchia_window_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scoria_arch",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scoria_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scoria_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scoria_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scoria_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scoria_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scoria_capital",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scoria_corner",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scoria_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scoria_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scoria_eighth",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scoria_layer",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scoria_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scoria_pillar",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scoria_quarter",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scoria_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scoria_window",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scoria_window_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_tuff_arch",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_tuff_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_tuff_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_tuff_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_tuff_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_tuff_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_tuff_capital",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_tuff_corner",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_tuff_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_tuff_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_tuff_eighth",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_tuff_layer",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_tuff_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_tuff_pillar",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_tuff_quarter",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_tuff_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_tuff_window",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_tuff_window_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_veridium_arch",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_veridium_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_veridium_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_veridium_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_veridium_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_veridium_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_veridium_capital",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_veridium_corner",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_veridium_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_veridium_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_veridium_eighth",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_veridium_layer",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_veridium_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_veridium_pillar",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_veridium_quarter",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_veridium_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_veridium_window",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_veridium_window_half",
+      "required": false
+    },
+    {
       "id": "create:scorchia_block_arch",
       "required": false
     },
@@ -3049,6 +8089,90 @@
     },
     {
       "id": "create:scorchia_block_window_half",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_pillar_arch",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_pillar_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_pillar_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_pillar_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_pillar_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_pillar_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_pillar_capital",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_pillar_corner",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_pillar_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_pillar_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_pillar_eighth",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_pillar_layer",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_pillar_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_pillar_pillar",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_pillar_quarter",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_pillar_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_pillar_slab",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_pillar_stairs",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_pillar_wall",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_pillar_window",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_pillar_window_half",
       "required": false
     },
     {
@@ -3136,6 +8260,1182 @@
       "required": false
     },
     {
+      "id": "create:scoria_pillar_arch",
+      "required": false
+    },
+    {
+      "id": "create:scoria_pillar_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:scoria_pillar_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:scoria_pillar_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:scoria_pillar_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:scoria_pillar_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:scoria_pillar_capital",
+      "required": false
+    },
+    {
+      "id": "create:scoria_pillar_corner",
+      "required": false
+    },
+    {
+      "id": "create:scoria_pillar_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:scoria_pillar_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:scoria_pillar_eighth",
+      "required": false
+    },
+    {
+      "id": "create:scoria_pillar_layer",
+      "required": false
+    },
+    {
+      "id": "create:scoria_pillar_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:scoria_pillar_pillar",
+      "required": false
+    },
+    {
+      "id": "create:scoria_pillar_quarter",
+      "required": false
+    },
+    {
+      "id": "create:scoria_pillar_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:scoria_pillar_slab",
+      "required": false
+    },
+    {
+      "id": "create:scoria_pillar_stairs",
+      "required": false
+    },
+    {
+      "id": "create:scoria_pillar_wall",
+      "required": false
+    },
+    {
+      "id": "create:scoria_pillar_window",
+      "required": false
+    },
+    {
+      "id": "create:scoria_pillar_window_half",
+      "required": false
+    },
+    {
+      "id": "create:small_andesite_brick_arch",
+      "required": false
+    },
+    {
+      "id": "create:small_andesite_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:small_andesite_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:small_andesite_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:small_andesite_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:small_andesite_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:small_andesite_brick_capital",
+      "required": false
+    },
+    {
+      "id": "create:small_andesite_brick_corner",
+      "required": false
+    },
+    {
+      "id": "create:small_andesite_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:small_andesite_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_andesite_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "create:small_andesite_brick_layer",
+      "required": false
+    },
+    {
+      "id": "create:small_andesite_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_andesite_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:small_andesite_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "create:small_andesite_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_andesite_brick_window",
+      "required": false
+    },
+    {
+      "id": "create:small_andesite_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "create:small_asurine_brick_arch",
+      "required": false
+    },
+    {
+      "id": "create:small_asurine_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:small_asurine_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:small_asurine_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:small_asurine_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:small_asurine_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:small_asurine_brick_capital",
+      "required": false
+    },
+    {
+      "id": "create:small_asurine_brick_corner",
+      "required": false
+    },
+    {
+      "id": "create:small_asurine_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:small_asurine_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_asurine_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "create:small_asurine_brick_layer",
+      "required": false
+    },
+    {
+      "id": "create:small_asurine_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_asurine_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:small_asurine_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "create:small_asurine_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_asurine_brick_window",
+      "required": false
+    },
+    {
+      "id": "create:small_asurine_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "create:small_calcite_brick_arch",
+      "required": false
+    },
+    {
+      "id": "create:small_calcite_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:small_calcite_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:small_calcite_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:small_calcite_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:small_calcite_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:small_calcite_brick_capital",
+      "required": false
+    },
+    {
+      "id": "create:small_calcite_brick_corner",
+      "required": false
+    },
+    {
+      "id": "create:small_calcite_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:small_calcite_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_calcite_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "create:small_calcite_brick_layer",
+      "required": false
+    },
+    {
+      "id": "create:small_calcite_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_calcite_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:small_calcite_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "create:small_calcite_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_calcite_brick_window",
+      "required": false
+    },
+    {
+      "id": "create:small_calcite_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "create:small_crimsite_brick_arch",
+      "required": false
+    },
+    {
+      "id": "create:small_crimsite_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:small_crimsite_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:small_crimsite_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:small_crimsite_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:small_crimsite_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:small_crimsite_brick_capital",
+      "required": false
+    },
+    {
+      "id": "create:small_crimsite_brick_corner",
+      "required": false
+    },
+    {
+      "id": "create:small_crimsite_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:small_crimsite_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_crimsite_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "create:small_crimsite_brick_layer",
+      "required": false
+    },
+    {
+      "id": "create:small_crimsite_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_crimsite_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:small_crimsite_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "create:small_crimsite_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_crimsite_brick_window",
+      "required": false
+    },
+    {
+      "id": "create:small_crimsite_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "create:small_deepslate_brick_arch",
+      "required": false
+    },
+    {
+      "id": "create:small_deepslate_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:small_deepslate_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:small_deepslate_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:small_deepslate_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:small_deepslate_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:small_deepslate_brick_capital",
+      "required": false
+    },
+    {
+      "id": "create:small_deepslate_brick_corner",
+      "required": false
+    },
+    {
+      "id": "create:small_deepslate_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:small_deepslate_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_deepslate_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "create:small_deepslate_brick_layer",
+      "required": false
+    },
+    {
+      "id": "create:small_deepslate_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_deepslate_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:small_deepslate_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "create:small_deepslate_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_deepslate_brick_window",
+      "required": false
+    },
+    {
+      "id": "create:small_deepslate_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "create:small_diorite_brick_arch",
+      "required": false
+    },
+    {
+      "id": "create:small_diorite_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:small_diorite_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:small_diorite_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:small_diorite_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:small_diorite_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:small_diorite_brick_capital",
+      "required": false
+    },
+    {
+      "id": "create:small_diorite_brick_corner",
+      "required": false
+    },
+    {
+      "id": "create:small_diorite_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:small_diorite_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_diorite_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "create:small_diorite_brick_layer",
+      "required": false
+    },
+    {
+      "id": "create:small_diorite_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_diorite_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:small_diorite_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "create:small_diorite_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_diorite_brick_window",
+      "required": false
+    },
+    {
+      "id": "create:small_diorite_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "create:small_dripstone_brick_arch",
+      "required": false
+    },
+    {
+      "id": "create:small_dripstone_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:small_dripstone_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:small_dripstone_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:small_dripstone_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:small_dripstone_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:small_dripstone_brick_capital",
+      "required": false
+    },
+    {
+      "id": "create:small_dripstone_brick_corner",
+      "required": false
+    },
+    {
+      "id": "create:small_dripstone_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:small_dripstone_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_dripstone_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "create:small_dripstone_brick_layer",
+      "required": false
+    },
+    {
+      "id": "create:small_dripstone_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_dripstone_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:small_dripstone_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "create:small_dripstone_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_dripstone_brick_window",
+      "required": false
+    },
+    {
+      "id": "create:small_dripstone_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "create:small_granite_brick_arch",
+      "required": false
+    },
+    {
+      "id": "create:small_granite_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:small_granite_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:small_granite_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:small_granite_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:small_granite_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:small_granite_brick_capital",
+      "required": false
+    },
+    {
+      "id": "create:small_granite_brick_corner",
+      "required": false
+    },
+    {
+      "id": "create:small_granite_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:small_granite_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_granite_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "create:small_granite_brick_layer",
+      "required": false
+    },
+    {
+      "id": "create:small_granite_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_granite_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:small_granite_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "create:small_granite_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_granite_brick_window",
+      "required": false
+    },
+    {
+      "id": "create:small_granite_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "create:small_limestone_brick_arch",
+      "required": false
+    },
+    {
+      "id": "create:small_limestone_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:small_limestone_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:small_limestone_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:small_limestone_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:small_limestone_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:small_limestone_brick_capital",
+      "required": false
+    },
+    {
+      "id": "create:small_limestone_brick_corner",
+      "required": false
+    },
+    {
+      "id": "create:small_limestone_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:small_limestone_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_limestone_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "create:small_limestone_brick_layer",
+      "required": false
+    },
+    {
+      "id": "create:small_limestone_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_limestone_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:small_limestone_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "create:small_limestone_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_limestone_brick_window",
+      "required": false
+    },
+    {
+      "id": "create:small_limestone_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "create:small_ochrum_brick_arch",
+      "required": false
+    },
+    {
+      "id": "create:small_ochrum_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:small_ochrum_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:small_ochrum_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:small_ochrum_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:small_ochrum_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:small_ochrum_brick_capital",
+      "required": false
+    },
+    {
+      "id": "create:small_ochrum_brick_corner",
+      "required": false
+    },
+    {
+      "id": "create:small_ochrum_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:small_ochrum_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_ochrum_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "create:small_ochrum_brick_layer",
+      "required": false
+    },
+    {
+      "id": "create:small_ochrum_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_ochrum_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:small_ochrum_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "create:small_ochrum_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_ochrum_brick_window",
+      "required": false
+    },
+    {
+      "id": "create:small_ochrum_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "create:small_scorchia_brick_arch",
+      "required": false
+    },
+    {
+      "id": "create:small_scorchia_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:small_scorchia_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:small_scorchia_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:small_scorchia_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:small_scorchia_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:small_scorchia_brick_capital",
+      "required": false
+    },
+    {
+      "id": "create:small_scorchia_brick_corner",
+      "required": false
+    },
+    {
+      "id": "create:small_scorchia_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:small_scorchia_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_scorchia_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "create:small_scorchia_brick_layer",
+      "required": false
+    },
+    {
+      "id": "create:small_scorchia_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_scorchia_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:small_scorchia_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "create:small_scorchia_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_scorchia_brick_window",
+      "required": false
+    },
+    {
+      "id": "create:small_scorchia_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "create:small_scoria_brick_arch",
+      "required": false
+    },
+    {
+      "id": "create:small_scoria_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:small_scoria_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:small_scoria_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:small_scoria_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:small_scoria_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:small_scoria_brick_capital",
+      "required": false
+    },
+    {
+      "id": "create:small_scoria_brick_corner",
+      "required": false
+    },
+    {
+      "id": "create:small_scoria_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:small_scoria_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_scoria_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "create:small_scoria_brick_layer",
+      "required": false
+    },
+    {
+      "id": "create:small_scoria_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_scoria_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:small_scoria_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "create:small_scoria_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_scoria_brick_window",
+      "required": false
+    },
+    {
+      "id": "create:small_scoria_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "create:small_tuff_brick_arch",
+      "required": false
+    },
+    {
+      "id": "create:small_tuff_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:small_tuff_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:small_tuff_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:small_tuff_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:small_tuff_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:small_tuff_brick_capital",
+      "required": false
+    },
+    {
+      "id": "create:small_tuff_brick_corner",
+      "required": false
+    },
+    {
+      "id": "create:small_tuff_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:small_tuff_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_tuff_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "create:small_tuff_brick_layer",
+      "required": false
+    },
+    {
+      "id": "create:small_tuff_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_tuff_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:small_tuff_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "create:small_tuff_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_tuff_brick_window",
+      "required": false
+    },
+    {
+      "id": "create:small_tuff_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "create:small_veridium_brick_arch",
+      "required": false
+    },
+    {
+      "id": "create:small_veridium_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:small_veridium_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:small_veridium_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:small_veridium_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:small_veridium_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:small_veridium_brick_capital",
+      "required": false
+    },
+    {
+      "id": "create:small_veridium_brick_corner",
+      "required": false
+    },
+    {
+      "id": "create:small_veridium_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:small_veridium_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_veridium_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "create:small_veridium_brick_layer",
+      "required": false
+    },
+    {
+      "id": "create:small_veridium_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_veridium_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:small_veridium_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "create:small_veridium_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_veridium_brick_window",
+      "required": false
+    },
+    {
+      "id": "create:small_veridium_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "create:tuff_pillar_arch",
+      "required": false
+    },
+    {
+      "id": "create:tuff_pillar_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:tuff_pillar_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:tuff_pillar_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:tuff_pillar_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:tuff_pillar_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:tuff_pillar_capital",
+      "required": false
+    },
+    {
+      "id": "create:tuff_pillar_corner",
+      "required": false
+    },
+    {
+      "id": "create:tuff_pillar_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:tuff_pillar_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:tuff_pillar_eighth",
+      "required": false
+    },
+    {
+      "id": "create:tuff_pillar_layer",
+      "required": false
+    },
+    {
+      "id": "create:tuff_pillar_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:tuff_pillar_pillar",
+      "required": false
+    },
+    {
+      "id": "create:tuff_pillar_quarter",
+      "required": false
+    },
+    {
+      "id": "create:tuff_pillar_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:tuff_pillar_slab",
+      "required": false
+    },
+    {
+      "id": "create:tuff_pillar_stairs",
+      "required": false
+    },
+    {
+      "id": "create:tuff_pillar_wall",
+      "required": false
+    },
+    {
+      "id": "create:tuff_pillar_window",
+      "required": false
+    },
+    {
+      "id": "create:tuff_pillar_window_half",
+      "required": false
+    },
+    {
       "id": "create:veridium_block_arch",
       "required": false
     },
@@ -3217,6 +9517,90 @@
     },
     {
       "id": "create:veridium_block_window_half",
+      "required": false
+    },
+    {
+      "id": "create:veridium_pillar_arch",
+      "required": false
+    },
+    {
+      "id": "create:veridium_pillar_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:veridium_pillar_arch_large",
+      "required": false
+    },
+    {
+      "id": "create:veridium_pillar_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "create:veridium_pillar_arrowslit",
+      "required": false
+    },
+    {
+      "id": "create:veridium_pillar_balustrade",
+      "required": false
+    },
+    {
+      "id": "create:veridium_pillar_capital",
+      "required": false
+    },
+    {
+      "id": "create:veridium_pillar_corner",
+      "required": false
+    },
+    {
+      "id": "create:veridium_pillar_corner_slab",
+      "required": false
+    },
+    {
+      "id": "create:veridium_pillar_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "create:veridium_pillar_eighth",
+      "required": false
+    },
+    {
+      "id": "create:veridium_pillar_layer",
+      "required": false
+    },
+    {
+      "id": "create:veridium_pillar_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "create:veridium_pillar_pillar",
+      "required": false
+    },
+    {
+      "id": "create:veridium_pillar_quarter",
+      "required": false
+    },
+    {
+      "id": "create:veridium_pillar_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:veridium_pillar_slab",
+      "required": false
+    },
+    {
+      "id": "create:veridium_pillar_stairs",
+      "required": false
+    },
+    {
+      "id": "create:veridium_pillar_wall",
+      "required": false
+    },
+    {
+      "id": "create:veridium_pillar_window",
+      "required": false
+    },
+    {
+      "id": "create:veridium_pillar_window_half",
       "required": false
     },
     {

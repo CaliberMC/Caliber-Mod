@@ -3,9 +3,11 @@ package com.calibermc.caliber.compat.data;
 import biomesoplenty.api.block.BOPBlocks;
 import com.calibermc.caliber.compat.block.BiomesOPlentyBlocks;
 import com.calibermc.caliber.compat.block.CreateBlocks;
+import com.calibermc.caliberlib.block.management.BlockManager;
 import com.calibermc.caliberlib.data.ModBlockFamily;
 import com.google.common.collect.Maps;
 import com.simibubi.create.content.decoration.palettes.AllPaletteStoneTypes;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.registries.ForgeRegistries;
 
@@ -16,35 +18,13 @@ public class CreateBlockFamilies {
     private static final Map<Block, ModBlockFamily> MAP = Maps.newHashMap();
 
 
-    /* Stone */
-
-    public static final ModBlockFamily CREATE_ASURINE = familyBuilder(AllPaletteStoneTypes.ASURINE.baseBlock.get())
-            .fromManager(CreateBlocks.CREATE_ASURINE)
-            .getFamily();
-
-    public static final ModBlockFamily CREATE_CRIMSITE = familyBuilder(AllPaletteStoneTypes.CRIMSITE.baseBlock.get())
-            .fromManager(CreateBlocks.CREATE_CRIMSITE)
-            .getFamily();
-
-    public static final ModBlockFamily CREATE_LIMESTONE = familyBuilder(AllPaletteStoneTypes.LIMESTONE.baseBlock.get())
-            .fromManager(CreateBlocks.CREATE_LIMESTONE)
-            .getFamily();
-
-    public static final ModBlockFamily CREATE_OCHRUM = familyBuilder(AllPaletteStoneTypes.OCHRUM.baseBlock.get())
-            .fromManager(CreateBlocks.CREATE_OCHRUM)
-            .getFamily();
-
-    public static final ModBlockFamily CREATE_SCORIA = familyBuilder(AllPaletteStoneTypes.SCORIA.baseBlock.get())
-            .fromManager(CreateBlocks.CREATE_SCORIA)
-            .getFamily();
-
-    public static final ModBlockFamily CREATE_SCORCHIA = familyBuilder(AllPaletteStoneTypes.SCORCHIA.baseBlock.get())
-            .fromManager(CreateBlocks.CREATE_SCORCHIA)
-            .getFamily();
-
-    public static final ModBlockFamily CREATE_VERIDIUM = familyBuilder(AllPaletteStoneTypes.VERIDIUM.baseBlock.get())
-            .fromManager(CreateBlocks.CREATE_VERIDIUM)
-            .getFamily();
+    // TODO: Add existing blocks (stairs, slab, wall) to the families
+    static {
+        for (BlockManager createManager : CreateBlocks.CREATE_MANAGERS) {
+//            BlockManager.BlockAdditional Stairs = createManager.getByVariant(ModBlockFamily.Variant.STAIRS);
+            familyBuilder(createManager.baseBlock()).fromManager(createManager).getFamily();
+        }
+    }
 
 
 

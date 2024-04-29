@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "create:limestone_pillar"
+  },
+  "result": "create:limestone_pillar_window"
+}

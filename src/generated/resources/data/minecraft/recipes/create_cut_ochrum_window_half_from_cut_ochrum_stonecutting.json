@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "create:cut_ochrum"
+  },
+  "result": "create:cut_ochrum_window_half"
+}

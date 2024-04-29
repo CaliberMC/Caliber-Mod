@@ -1,0 +1,150 @@
+{
+  "variants": {
+    "facing=east,layers=1,type=left": {
+      "model": "create:block/polished_cut_diorite_quarter_vertical_layer_1"
+    },
+    "facing=east,layers=1,type=right": {
+      "model": "create:block/polished_cut_diorite_quarter_vertical_layer_1",
+      "y": 90
+    },
+    "facing=east,layers=2,type=left": {
+      "model": "create:block/polished_cut_diorite_quarter_vertical_layer_2"
+    },
+    "facing=east,layers=2,type=right": {
+      "model": "create:block/polished_cut_diorite_quarter_vertical_layer_2",
+      "y": 90
+    },
+    "facing=east,layers=3,type=left": {
+      "model": "create:block/polished_cut_diorite_quarter_vertical_layer_3"
+    },
+    "facing=east,layers=3,type=right": {
+      "model": "create:block/polished_cut_diorite_quarter_vertical_layer_3",
+      "y": 90
+    },
+    "facing=east,layers=4,type=left": {
+      "model": "create:block/polished_cut_diorite_quarter_vertical_layer_4"
+    },
+    "facing=east,layers=4,type=right": {
+      "model": "create:block/polished_cut_diorite_quarter_vertical_layer_4",
+      "y": 90
+    },
+    "facing=east,layers=5,type=left": {
+      "model": "create:block/polished_cut_diorite"
+    },
+    "facing=east,layers=5,type=right": {
+      "model": "create:block/polished_cut_diorite",
+      "y": 90
+    },
+    "facing=north,layers=1,type=left": {
+      "model": "create:block/polished_cut_diorite_quarter_vertical_layer_1",
+      "y": 270
+    },
+    "facing=north,layers=1,type=right": {
+      "model": "create:block/polished_cut_diorite_quarter_vertical_layer_1"
+    },
+    "facing=north,layers=2,type=left": {
+      "model": "create:block/polished_cut_diorite_quarter_vertical_layer_2",
+      "y": 270
+    },
+    "facing=north,layers=2,type=right": {
+      "model": "create:block/polished_cut_diorite_quarter_vertical_layer_2"
+    },
+    "facing=north,layers=3,type=left": {
+      "model": "create:block/polished_cut_diorite_quarter_vertical_layer_3",
+      "y": 270
+    },
+    "facing=north,layers=3,type=right": {
+      "model": "create:block/polished_cut_diorite_quarter_vertical_layer_3"
+    },
+    "facing=north,layers=4,type=left": {
+      "model": "create:block/polished_cut_diorite_quarter_vertical_layer_4",
+      "y": 270
+    },
+    "facing=north,layers=4,type=right": {
+      "model": "create:block/polished_cut_diorite_quarter_vertical_layer_4"
+    },
+    "facing=north,layers=5,type=left": {
+      "model": "create:block/polished_cut_diorite",
+      "y": 270
+    },
+    "facing=north,layers=5,type=right": {
+      "model": "create:block/polished_cut_diorite"
+    },
+    "facing=south,layers=1,type=left": {
+      "model": "create:block/polished_cut_diorite_quarter_vertical_layer_1",
+      "y": 90
+    },
+    "facing=south,layers=1,type=right": {
+      "model": "create:block/polished_cut_diorite_quarter_vertical_layer_1",
+      "y": 180
+    },
+    "facing=south,layers=2,type=left": {
+      "model": "create:block/polished_cut_diorite_quarter_vertical_layer_2",
+      "y": 90
+    },
+    "facing=south,layers=2,type=right": {
+      "model": "create:block/polished_cut_diorite_quarter_vertical_layer_2",
+      "y": 180
+    },
+    "facing=south,layers=3,type=left": {
+      "model": "create:block/polished_cut_diorite_quarter_vertical_layer_3",
+      "y": 90
+    },
+    "facing=south,layers=3,type=right": {
+      "model": "create:block/polished_cut_diorite_quarter_vertical_layer_3",
+      "y": 180
+    },
+    "facing=south,layers=4,type=left": {
+      "model": "create:block/polished_cut_diorite_quarter_vertical_layer_4",
+      "y": 90
+    },
+    "facing=south,layers=4,type=right": {
+      "model": "create:block/polished_cut_diorite_quarter_vertical_layer_4",
+      "y": 180
+    },
+    "facing=south,layers=5,type=left": {
+      "model": "create:block/polished_cut_diorite"
+    },
+    "facing=south,layers=5,type=right": {
+      "model": "create:block/polished_cut_diorite"
+    },
+    "facing=west,layers=1,type=left": {
+      "model": "create:block/polished_cut_diorite_quarter_vertical_layer_1",
+      "y": 180
+    },
+    "facing=west,layers=1,type=right": {
+      "model": "create:block/polished_cut_diorite_quarter_vertical_layer_1",
+      "y": 270
+    },
+    "facing=west,layers=2,type=left": {
+      "model": "create:block/polished_cut_diorite_quarter_vertical_layer_2",
+      "y": 180
+    },
+    "facing=west,layers=2,type=right": {
+      "model": "create:block/polished_cut_diorite_quarter_vertical_layer_2",
+      "y": 270
+    },
+    "facing=west,layers=3,type=left": {
+      "model": "create:block/polished_cut_diorite_quarter_vertical_layer_3",
+      "y": 180
+    },
+    "facing=west,layers=3,type=right": {
+      "model": "create:block/polished_cut_diorite_quarter_vertical_layer_3",
+      "y": 270
+    },
+    "facing=west,layers=4,type=left": {
+      "model": "create:block/polished_cut_diorite_quarter_vertical_layer_4",
+      "y": 180
+    },
+    "facing=west,layers=4,type=right": {
+      "model": "create:block/polished_cut_diorite_quarter_vertical_layer_4",
+      "y": 270
+    },
+    "facing=west,layers=5,type=left": {
+      "model": "create:block/polished_cut_diorite"
+    },
+    "facing=west,layers=5,type=right": {
+      "model": "create:block/polished_cut_diorite"
+    }
+  }
+}

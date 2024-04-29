@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_layered_deepslate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:layered_deepslate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:create_layered_deepslate_slab_from_layered_deepslate_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_layered_deepslate",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:create_layered_deepslate_slab_from_layered_deepslate_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

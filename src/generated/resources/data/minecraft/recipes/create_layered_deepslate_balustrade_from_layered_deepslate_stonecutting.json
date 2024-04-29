@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "create:layered_deepslate"
+  },
+  "result": "create:layered_deepslate_balustrade"
+}

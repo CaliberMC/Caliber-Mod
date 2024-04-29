@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "create:layered_dripstone"
+  },
+  "result": "create:layered_dripstone_corner_slab"
+}

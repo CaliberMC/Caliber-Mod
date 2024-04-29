@@ -80,7 +80,7 @@ public class BiomesOPlentyBlocks {
 
 
     public static void printBlockCounts() {
-        System.out.println("Biomes O Plenty blocks registered: " + blockCount);
+        System.out.println("Caliber Mod registered " + blockCount + " new Biomes O' Plenty blocks.");
     }
 
     private static <T extends Block> RegistryObject<T> registerBlockWithoutBlockItem(String name, Supplier<T> block) {

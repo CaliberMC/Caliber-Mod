@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "create:polished_cut_dripstone"
+  },
+  "result": "create:polished_cut_dripstone_pillar"
+}

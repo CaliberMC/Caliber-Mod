@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "create:layered_andesite"
+  },
+  "result": "create:layered_andesite_window_half"
+}

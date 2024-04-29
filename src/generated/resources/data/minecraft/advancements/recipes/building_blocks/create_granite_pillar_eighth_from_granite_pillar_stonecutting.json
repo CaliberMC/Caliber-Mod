@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_granite_pillar": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:granite_pillar"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:create_granite_pillar_eighth_from_granite_pillar_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_granite_pillar",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:create_granite_pillar_eighth_from_granite_pillar_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

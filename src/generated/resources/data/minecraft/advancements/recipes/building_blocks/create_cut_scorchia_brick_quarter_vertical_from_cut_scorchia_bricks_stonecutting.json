@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cut_scorchia_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:cut_scorchia_bricks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:create_cut_scorchia_brick_quarter_vertical_from_cut_scorchia_bricks_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_cut_scorchia_bricks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:create_cut_scorchia_brick_quarter_vertical_from_cut_scorchia_bricks_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

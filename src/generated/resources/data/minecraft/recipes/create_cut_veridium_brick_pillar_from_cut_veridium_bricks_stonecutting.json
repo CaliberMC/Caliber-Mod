@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "create:cut_veridium_bricks"
+  },
+  "result": "create:cut_veridium_brick_pillar"
+}

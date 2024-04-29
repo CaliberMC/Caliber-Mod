@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "create:block/polished_cut_scorchia_arrowslit",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "create:block/polished_cut_scorchia_arrowslit"
+    },
+    "facing=south": {
+      "model": "create:block/polished_cut_scorchia_arrowslit",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "create:block/polished_cut_scorchia_arrowslit",
+      "y": 270
+    }
+  }
+}

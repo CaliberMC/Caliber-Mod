@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "create:block/cut_diorite_capital"
+    },
+    "type=top": {
+      "model": "create:block/cut_diorite_capital_top"
+    }
+  }
+}

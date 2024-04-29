@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "create:block/layered_scorchia_arch_half",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "create:block/layered_scorchia_arch_half"
+    },
+    "facing=south": {
+      "model": "create:block/layered_scorchia_arch_half",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "create:block/layered_scorchia_arch_half",
+      "uvlock": true,
+      "y": 270
+    }
+  }
+}

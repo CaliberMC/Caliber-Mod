@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "create:block/cut_andesite_capital"
+    },
+    "type=top": {
+      "model": "create:block/cut_andesite_capital_top"
+    }
+  }
+}

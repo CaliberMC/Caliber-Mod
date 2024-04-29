@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "create:block/dripstone_pillar_arch_half",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "create:block/dripstone_pillar_arch_half"
+    },
+    "facing=south": {
+      "model": "create:block/dripstone_pillar_arch_half",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "create:block/dripstone_pillar_arch_half",
+      "uvlock": true,
+      "y": 270
+    }
+  }
+}

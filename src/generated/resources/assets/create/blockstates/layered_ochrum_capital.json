@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "create:block/layered_ochrum_capital"
+    },
+    "type=top": {
+      "model": "create:block/layered_ochrum_capital_top"
+    }
+  }
+}

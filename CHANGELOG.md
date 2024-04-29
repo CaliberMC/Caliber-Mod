@@ -4,6 +4,8 @@
 ### 0.2.4 (in progress)
 #### Features
 - Added vanilla style slabs for all variants that don't have them
+- Added BOP Smooth (Black, Orange, White) Sandstone variants
+- Added mod compatibility variants for all Create Stone Types
 - Added Chiseled Polished Blackstone variants
 - Added Cracked Polished Blackstone variants
 - Added Chiseled Deeplate variants
@@ -17,8 +19,7 @@
 - Added Regions Unexplored Chalk Pillar variants
 - Renamed Purpur variants to Purpur Block _(this is to allow the Purpur Pillar variants to be added)_
 - Renamed Regions Unexplored Chalk variants to Chalk Block _(this is to allow the Chalk Pillar variants to be added)_
-- Added BOP Smooth (Black, Orange, White) Sandstone variants
-- Added mod compatibility variants for Create Natural Stone types
+
 - Added JEI mod compatibility for woodcutting recipes
 
 [//]: # (- Added mod compatibility variants for Stone Works)

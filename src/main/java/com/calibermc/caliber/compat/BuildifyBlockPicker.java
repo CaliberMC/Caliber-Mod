@@ -14,6 +14,8 @@ public class BuildifyBlockPicker {
 
         boolean useVanillaBlockFamilies = CommonConfigs.USE_VANILLA_BLOCK_FAMILIES.get();
 
+        CaliberBlockFamilies.compat();
+
         for (ModBlockFamily modBlockFamily : CaliberBlockFamilies.getAllFamilies().toList()) {
             BlockPickerStatesJson.registerBlockFamily(modBlockFamily.getBaseBlock(), () ->
                     new ArrayList<>(modBlockFamily.getVariants().entrySet().stream()
