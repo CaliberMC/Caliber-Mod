@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "create:layered_limestone"
-  },
-  "result": "create:layered_limestone_arch_large_half"
-}

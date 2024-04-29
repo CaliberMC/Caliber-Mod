@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "create:layered_veridium"
-  },
-  "result": "create:layered_veridium_arch_large_half"
-}

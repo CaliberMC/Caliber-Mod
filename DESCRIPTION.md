@@ -63,7 +63,7 @@ _Everything from furniture to decor and more are still in production_
 
 ## MOD COMPATIBILITY
 - **Biomes O' Plenty**: 678 new blocks have been added (version 0.2.3+)
-- **Create**: 1743 new blocks have been added (comming soon in version 0.2.4+)
+- **Create**: 1155 new blocks have been added (comming soon in version 0.2.4+)
 - **Regions Unexplored**: 1322 new blocks have been added (version 0.2.3+)
 - **More to come!**
 

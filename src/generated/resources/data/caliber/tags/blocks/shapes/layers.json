@@ -263,27 +263,11 @@
       "required": false
     },
     {
-      "id": "create:andesite_pillar_layer",
-      "required": false
-    },
-    {
       "id": "create:asurine_block_layer",
       "required": false
     },
     {
-      "id": "create:asurine_pillar_layer",
-      "required": false
-    },
-    {
-      "id": "create:calcite_pillar_layer",
-      "required": false
-    },
-    {
       "id": "create:crimsite_block_layer",
-      "required": false
-    },
-    {
-      "id": "create:crimsite_pillar_layer",
       "required": false
     },
     {
@@ -399,91 +383,11 @@
       "required": false
     },
     {
-      "id": "create:deepslate_pillar_layer",
-      "required": false
-    },
-    {
-      "id": "create:diorite_pillar_layer",
-      "required": false
-    },
-    {
-      "id": "create:dripstone_pillar_layer",
-      "required": false
-    },
-    {
-      "id": "create:granite_pillar_layer",
-      "required": false
-    },
-    {
-      "id": "create:layered_andesite_layer",
-      "required": false
-    },
-    {
-      "id": "create:layered_asurine_layer",
-      "required": false
-    },
-    {
-      "id": "create:layered_calcite_layer",
-      "required": false
-    },
-    {
-      "id": "create:layered_crimsite_layer",
-      "required": false
-    },
-    {
-      "id": "create:layered_deepslate_layer",
-      "required": false
-    },
-    {
-      "id": "create:layered_diorite_layer",
-      "required": false
-    },
-    {
-      "id": "create:layered_dripstone_layer",
-      "required": false
-    },
-    {
-      "id": "create:layered_granite_layer",
-      "required": false
-    },
-    {
-      "id": "create:layered_limestone_layer",
-      "required": false
-    },
-    {
-      "id": "create:layered_ochrum_layer",
-      "required": false
-    },
-    {
-      "id": "create:layered_scorchia_layer",
-      "required": false
-    },
-    {
-      "id": "create:layered_scoria_layer",
-      "required": false
-    },
-    {
-      "id": "create:layered_tuff_layer",
-      "required": false
-    },
-    {
-      "id": "create:layered_veridium_layer",
-      "required": false
-    },
-    {
       "id": "create:limestone_block_layer",
       "required": false
     },
     {
-      "id": "create:limestone_pillar_layer",
-      "required": false
-    },
-    {
       "id": "create:ochrum_block_layer",
-      "required": false
-    },
-    {
-      "id": "create:ochrum_pillar_layer",
       "required": false
     },
     {
@@ -547,15 +451,7 @@
       "required": false
     },
     {
-      "id": "create:scorchia_pillar_layer",
-      "required": false
-    },
-    {
       "id": "create:scoria_block_layer",
-      "required": false
-    },
-    {
-      "id": "create:scoria_pillar_layer",
       "required": false
     },
     {
@@ -615,15 +511,7 @@
       "required": false
     },
     {
-      "id": "create:tuff_pillar_layer",
-      "required": false
-    },
-    {
       "id": "create:veridium_block_layer",
-      "required": false
-    },
-    {
-      "id": "create:veridium_pillar_layer",
       "required": false
     },
     {

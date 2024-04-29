@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "create:layered_scoria"
-  },
-  "result": "create:layered_scoria_arch_large_half"
-}

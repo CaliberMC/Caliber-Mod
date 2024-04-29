@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "create:layered_diorite"
-  },
-  "result": "create:layered_diorite_stairs"
-}

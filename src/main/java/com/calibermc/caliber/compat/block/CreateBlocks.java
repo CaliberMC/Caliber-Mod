@@ -25,9 +25,6 @@ public class CreateBlocks {
     private static int blockCount = 0;
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, "create");
 
-//    List&lt;Block&gt; block = ForgeRegistries.BLOCKS.getValues().stream().filter(value -&gt; ForgeRegistries.BLOCKS.getKey(value).getNamespace().equals("create")).toList();
-    /* Stone */
-
     public static final ArrayList<BlockManager> CREATE_MANAGERS = new ArrayList<>();
     
     static {
@@ -52,6 +49,8 @@ public class CreateBlocks {
             CREATE_MANAGERS.add(CaliberBlockManager.registerCreate("%s_block".formatted(name), properties, () -> type.baseBlock.get(), variants));
         }
 
+        List<ModBlockFamily.Variant> none = new ArrayList<>();
+
         for (PaletteBlockPattern variantType : type.variantTypes) {
             String s = name;
             if (variantType == PaletteBlockPattern.CUT) {
@@ -67,10 +66,10 @@ public class CreateBlocks {
                 variants = STONE_VARIANTS_WITHOUT_SLAB_STAIRS_WALL;
                 s = "polished_cut_" + s;
             } else if (variantType == PaletteBlockPattern.LAYERED) {
-                variants = STONE_VARIANTS;
+                variants = none;
                 s = "layered_" + s;
             } else if (variantType == PaletteBlockPattern.PILLAR) {
-                variants = STONE_VARIANTS;
+                variants = none;
                 s = s + "_pillar";
             }
             String finalS = s;

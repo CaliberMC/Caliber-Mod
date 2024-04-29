@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 5,
-  "ingredient": {
-    "item": "create:layered_scorchia"
-  },
-  "result": "create:layered_scorchia_pillar"
-}

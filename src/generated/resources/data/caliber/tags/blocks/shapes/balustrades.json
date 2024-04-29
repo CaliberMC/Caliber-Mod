@@ -247,27 +247,11 @@
       "required": false
     },
     {
-      "id": "create:andesite_pillar_balustrade",
-      "required": false
-    },
-    {
       "id": "create:asurine_block_balustrade",
       "required": false
     },
     {
-      "id": "create:asurine_pillar_balustrade",
-      "required": false
-    },
-    {
-      "id": "create:calcite_pillar_balustrade",
-      "required": false
-    },
-    {
       "id": "create:crimsite_block_balustrade",
-      "required": false
-    },
-    {
-      "id": "create:crimsite_pillar_balustrade",
       "required": false
     },
     {
@@ -383,91 +367,11 @@
       "required": false
     },
     {
-      "id": "create:deepslate_pillar_balustrade",
-      "required": false
-    },
-    {
-      "id": "create:diorite_pillar_balustrade",
-      "required": false
-    },
-    {
-      "id": "create:dripstone_pillar_balustrade",
-      "required": false
-    },
-    {
-      "id": "create:granite_pillar_balustrade",
-      "required": false
-    },
-    {
-      "id": "create:layered_andesite_balustrade",
-      "required": false
-    },
-    {
-      "id": "create:layered_asurine_balustrade",
-      "required": false
-    },
-    {
-      "id": "create:layered_calcite_balustrade",
-      "required": false
-    },
-    {
-      "id": "create:layered_crimsite_balustrade",
-      "required": false
-    },
-    {
-      "id": "create:layered_deepslate_balustrade",
-      "required": false
-    },
-    {
-      "id": "create:layered_diorite_balustrade",
-      "required": false
-    },
-    {
-      "id": "create:layered_dripstone_balustrade",
-      "required": false
-    },
-    {
-      "id": "create:layered_granite_balustrade",
-      "required": false
-    },
-    {
-      "id": "create:layered_limestone_balustrade",
-      "required": false
-    },
-    {
-      "id": "create:layered_ochrum_balustrade",
-      "required": false
-    },
-    {
-      "id": "create:layered_scorchia_balustrade",
-      "required": false
-    },
-    {
-      "id": "create:layered_scoria_balustrade",
-      "required": false
-    },
-    {
-      "id": "create:layered_tuff_balustrade",
-      "required": false
-    },
-    {
-      "id": "create:layered_veridium_balustrade",
-      "required": false
-    },
-    {
       "id": "create:limestone_block_balustrade",
       "required": false
     },
     {
-      "id": "create:limestone_pillar_balustrade",
-      "required": false
-    },
-    {
       "id": "create:ochrum_block_balustrade",
-      "required": false
-    },
-    {
-      "id": "create:ochrum_pillar_balustrade",
       "required": false
     },
     {
@@ -531,15 +435,7 @@
       "required": false
     },
     {
-      "id": "create:scorchia_pillar_balustrade",
-      "required": false
-    },
-    {
       "id": "create:scoria_block_balustrade",
-      "required": false
-    },
-    {
-      "id": "create:scoria_pillar_balustrade",
       "required": false
     },
     {
@@ -599,15 +495,7 @@
       "required": false
     },
     {
-      "id": "create:tuff_pillar_balustrade",
-      "required": false
-    },
-    {
       "id": "create:veridium_block_balustrade",
-      "required": false
-    },
-    {
-      "id": "create:veridium_pillar_balustrade",
       "required": false
     },
     {

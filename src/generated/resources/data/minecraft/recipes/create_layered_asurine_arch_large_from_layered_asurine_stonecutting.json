@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "create:layered_asurine"
-  },
-  "result": "create:layered_asurine_arch_large"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "create:calcite_pillar"
-  },
-  "result": "create:calcite_pillar_arch_large_half"
-}

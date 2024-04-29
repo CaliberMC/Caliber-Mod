@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "create:veridium_pillar"
-  },
-  "result": "create:veridium_pillar_arch_half"
-}

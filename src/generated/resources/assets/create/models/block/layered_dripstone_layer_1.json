@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/slab_layer_1",
-  "textures": {
-    "bottom": "create:block/palettes/stone_types/cap/dripstone_cut_cap",
-    "side": "create:block/palettes/stone_types/layered/dripstone_cut_layered",
-    "top": "create:block/palettes/stone_types/cap/dripstone_cut_cap"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "create:layered_granite"
-  },
-  "result": "create:layered_granite_arch_half"
-}

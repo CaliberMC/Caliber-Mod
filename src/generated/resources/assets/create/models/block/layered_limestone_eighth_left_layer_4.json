@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/eighth_left_layer_4",
-  "textures": {
-    "bottom": "create:block/palettes/stone_types/cap/limestone_cut_cap",
-    "side": "create:block/palettes/stone_types/layered/limestone_cut_layered",
-    "top": "create:block/palettes/stone_types/cap/limestone_cut_cap"
-  }
-}

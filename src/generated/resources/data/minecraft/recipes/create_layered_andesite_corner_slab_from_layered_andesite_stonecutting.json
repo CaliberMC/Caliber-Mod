@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 5,
-  "ingredient": {
-    "item": "create:layered_andesite"
-  },
-  "result": "create:layered_andesite_corner_slab"
-}

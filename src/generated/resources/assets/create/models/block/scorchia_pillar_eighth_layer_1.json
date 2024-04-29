@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/eighth_layer_1",
-  "textures": {
-    "bottom": "create:block/palettes/stone_types/cap/scorchia_cut_cap",
-    "side": "create:block/palettes/stone_types/pillar/scorchia_cut_pillar",
-    "top": "create:block/palettes/stone_types/cap/scorchia_cut_cap"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/slab_vertical_layer_7",
-  "textures": {
-    "bottom": "create:block/palettes/stone_types/cap/veridium_cut_cap",
-    "side": "create:block/palettes/stone_types/pillar/veridium_cut_pillar",
-    "top": "create:block/palettes/stone_types/cap/veridium_cut_cap"
-  }
-}

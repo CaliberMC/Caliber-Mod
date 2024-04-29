@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "create:asurine_pillar_layer_vertical"
-  },
-  "result": "create:asurine_pillar_layer"
-}

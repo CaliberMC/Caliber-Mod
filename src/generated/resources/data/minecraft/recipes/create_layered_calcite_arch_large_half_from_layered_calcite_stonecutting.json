@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "create:layered_calcite"
-  },
-  "result": "create:layered_calcite_arch_large_half"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 5,
-  "ingredient": {
-    "item": "create:granite_pillar"
-  },
-  "result": "create:granite_pillar_corner_slab_vertical"
-}

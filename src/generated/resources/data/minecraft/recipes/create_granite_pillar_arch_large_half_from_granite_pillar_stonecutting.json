@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "create:granite_pillar"
-  },
-  "result": "create:granite_pillar_arch_large_half"
-}
