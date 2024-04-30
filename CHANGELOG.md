@@ -1,7 +1,17 @@
 # Change Log
 
 
-### 0.2.4 (in progress)
+### 0.2.5 (in progress)
+#### Features
+
+[//]: # (- Added mod compatibility variants for Stone Works)
+[//]: # (- Added mod compatibility variants for Quark)
+[//]: # (- Added mod compatibility variants for Ice and Fire)
+
+#### Bugfixes
+
+
+### 0.2.4
 #### Features
 - Added vanilla style slabs for all variants that don't have them
 - Added BOP Smooth (Black, Orange, White) Sandstone variants
@@ -19,12 +29,7 @@
 - Added Regions Unexplored Chalk Pillar variants
 - Renamed Purpur variants to Purpur Block _(this is to allow the Purpur Pillar variants to be added)_
 - Renamed Regions Unexplored Chalk variants to Chalk Block _(this is to allow the Chalk Pillar variants to be added)_
-
 - Added JEI mod compatibility for woodcutting recipes
-
-[//]: # (- Added mod compatibility variants for Stone Works)
-[//]: # (- Added mod compatibility variants for Quark)
-[//]: # (- Added mod compatibility variants for Ice and Fire)
 
 #### Bugfixes
 - Removed duplicate item models for mod compat variants _(this was causing some items to appear invisible in the inventory)_
