@@ -24,6 +24,10 @@ reobf {
 
 tasks.jarJar.finalizedBy('reobfJarJar')
 
+tasks.withType(Jar).configureEach {
+    zip64 true
+}
+
 // end of jarJar
 
 // Mojang ships Java 17 to end users in 1.18+, so your mod should target Java 17.
@@ -280,6 +284,7 @@ processResources {
 
 // Example for how to get properties into the manifest for reading at runtime.
 jar {
+    zip64 true
     manifest {
         attributes([
                 "Specification-Title"     : mod_id,
