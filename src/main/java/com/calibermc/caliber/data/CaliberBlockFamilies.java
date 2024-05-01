@@ -2,6 +2,7 @@ package com.calibermc.caliber.data;
 
 import com.calibermc.caliber.block.CaliberBlocks;
 import com.calibermc.caliber.compat.data.BiomesOPlentyBlockFamilies;
+import com.calibermc.caliber.compat.data.ChippedBlockFamilies;
 import com.calibermc.caliber.compat.data.CreateBlockFamilies;
 import com.calibermc.caliber.compat.data.RegionsUnexploredBlockFamilies;
 import com.calibermc.caliber.compat.ModCompats;
@@ -671,6 +672,7 @@ public class CaliberBlockFamilies {
     // COMPAT
     public static void compat() {
         if (ModCompats.BOP) MAP.putAll(BiomesOPlentyBlockFamilies.getAllFamiliesAsMap());
+        if (ModCompats.CHIPPED) MAP.putAll(ChippedBlockFamilies.getAllFamiliesAsMap());
         if (ModCompats.CREATE) MAP.putAll(CreateBlockFamilies.getAllFamiliesAsMap());
         if (ModCompats.REGIONS_UNEXPLORED) MAP.putAll(RegionsUnexploredBlockFamilies.getAllFamiliesAsMap());
 

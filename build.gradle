@@ -152,6 +152,7 @@ minecraft {
             args '--existing-mod', "biomesoplenty"
             args '--existing-mod', "regions_unexplored"
             args '--existing-mod', "create"
+            args "--existing-mod", "chipped"
 
             jvmArgs += '-Dmod.dataGen=true' // Allows for runData task to generate the extra blockstates and models used only when CaliberMod is loaded
 
@@ -185,6 +186,9 @@ repositories {
         // location of the maven for Registrate and Flywheel
         name = 'tterrag maven'
         url = 'https://maven.tterrag.com'
+    }
+    maven {
+        url "https://maven.teamresourceful.com/repository/maven-public/"
     }
     maven {
         url = 'https://www.cursemaven.com'
@@ -229,7 +233,15 @@ dependencies {
     compileOnly fg.deobf("com.tterrag.registrate:Registrate:${registrate_version}")
     compileOnly fg.deobf("com.jozufozu.flywheel:flywheel-forge-${minecraft_version}:${flywheel_version}")
 
-    // TODO: Add Fusion Dependency
+    implementation fg.deobf("curse.maven:chipped-456956:5270039")
+    implementation fg.deobf("curse.maven:resourceful-lib-570073:5210240")
+    implementation fg.deobf("curse.maven:athena-841890:5176879")
+
+//    implementation group: "earth.terrarium.chipped", name: "chipped-$mod_loader-$minecraft_version", version: chipped_version
+}
+
+
+// TODO: Add Fusion Dependency
     // jarJar
 //    implementation(fg.deobf(jarJar("com.calibermc.caliberlib:caliberlib:0.0.1") {
 //        jarJar.ranged(it, "[0.0,)")
@@ -244,7 +256,7 @@ dependencies {
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
-}
+
 
 // This block of code expands all declared replace properties in the specified resource targets.
 // A missing property will result in an error. Properties are expanded using ${} Groovy notation.
@@ -253,6 +265,7 @@ dependencies {
 def resourceTargets = ['META-INF/mods.toml', 'pack.mcmeta']
 def replaceProperties = [
         minecraft_version: minecraft_version, minecraft_version_range: minecraft_version_range,
+        mod_loader: mod_loader,
         forge_version: forge_version, forge_version_range: forge_version_range,
         loader_version_range: loader_version_range,
         mod_id: mod_id, mod_name: mod_name, mod_license: mod_license, mod_version: mod_version, pub_version: pub_version,
@@ -272,6 +285,8 @@ def replaceProperties = [
         flywheel_version: flywheel_version,
         flywheel_version_range: flywheel_version_range,
         registrate_version: registrate_version,
+        chipped_version: chipped_version,
+        chipped_version_range: chipped_version_range
 ]
 processResources {
     inputs.properties replaceProperties

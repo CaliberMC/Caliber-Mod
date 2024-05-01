@@ -43,10 +43,6 @@ public class CaliberRecipeProvider extends RecipeProvider implements IConditionB
                     if (blockManager.baseBlock() != null) {
                         boolean wood = Arrays.stream(RecipeWoodTypes.values()).anyMatch(p -> blockManager.getName().contains(p.getName()))
                                 || WoodType.values().anyMatch(p -> p.name().equals(blockManager.blockType().name()));
-                        if (blockManager.getName().contains("maple")) {
-                            LOGGER.info("BlockManager: " + blockManager.getName());
-//                            LOGGER.info("Wood: " + wood);
-                        }
 
                         generateRecipes(blockManager, wood, recipeConsumer, blockManagerKey);
                     }
@@ -72,6 +68,8 @@ public class CaliberRecipeProvider extends RecipeProvider implements IConditionB
             prefix = "ru_";
         } else if (blockManagerKey.equals("create")) {
             prefix = "create_";
+        } else if (blockManagerKey.equals("chipped")) {
+            prefix = "chipped_";
         }
 
         Function3<Ingredient, ItemLike, Integer, SingleItemRecipeBuilder> stoneOrWoodcutting = (a, b, c) -> {
@@ -149,6 +147,7 @@ public class CaliberRecipeProvider extends RecipeProvider implements IConditionB
                             inventoryTrigger(ItemPredicate.Builder.item().of(baseBlock).build())).save(finished, n);
                 }
 
+                // TODO: Add support for tall doors
 //                case TALL_DOOR, DOOR -> {
 //                    if (e.getKey().variant == ModBlockFamily.Variant.TALL_DOOR) {
 //                        ShapedRecipeBuilder.shaped(RecipeCategory.REDSTONE, block, 1).define('X', manager.get(ModBlockFamily.Variant.DOOR)).define('#', baseBlock).pattern("X").pattern("#").unlockedBy(criterionBy,

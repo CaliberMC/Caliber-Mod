@@ -2,8 +2,10 @@ package com.calibermc.caliber;
 
 import com.calibermc.caliber.block.CaliberBlocks;
 import com.calibermc.caliber.compat.block.BiomesOPlentyBlocks;
+import com.calibermc.caliber.compat.block.ChippedBlocks;
 import com.calibermc.caliber.compat.block.CreateBlocks;
 import com.calibermc.caliber.compat.block.RegionsUnexploredBlocks;
+import com.calibermc.caliber.compat.item.ChippedItems;
 import com.calibermc.caliber.compat.item.CreateItems;
 import com.calibermc.caliber.config.CaliberClientConfigs;
 import com.calibermc.caliber.config.CaliberCommonConfigs;
@@ -48,6 +50,12 @@ public class Caliber {
             BiomesOPlentyItems.register(eventBus);
             BiomesOPlentyBlocks.register(eventBus);
             BiomesOPlentyBlocks.printBlockCounts();
+        }
+
+        if (ModCompats.CHIPPED) {
+            ChippedItems.register(eventBus);
+            ChippedBlocks.register(eventBus);
+            ChippedBlocks.printBlockCounts();
         }
 
         if (ModCompats.CREATE) {

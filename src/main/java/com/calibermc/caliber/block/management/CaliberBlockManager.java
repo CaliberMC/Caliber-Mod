@@ -2,6 +2,7 @@ package com.calibermc.caliber.block.management;
 
 import com.calibermc.caliber.block.CaliberBlocks;
 import com.calibermc.caliber.compat.block.BiomesOPlentyBlocks;
+import com.calibermc.caliber.compat.block.ChippedBlocks;
 import com.calibermc.caliber.compat.block.CreateBlocks;
 import com.calibermc.caliber.compat.block.RegionsUnexploredBlocks;
 import com.calibermc.caliberlib.block.management.ModBlockHelper;
@@ -53,6 +54,17 @@ public class CaliberBlockManager {
 
             });
         }, BiomesOPlentyBlocks.BLOCKS, properties, blockSupplier, variants).registerBlockFunc(BiomesOPlentyBlocks::registerBlock).build();
+    }
+
+    public static BlockManager registerChipped(String name, Supplier<BlockBehaviour.Properties> properties, Supplier<Block> blockSupplier, Collection<ModBlockFamily.Variant> variants) {
+        return BlockManager.register(name, (b) -> {
+            BlockSetType.values().forEach((type) -> {
+                if (name.contains(type.name())) {
+                    b.type(type);
+                }
+
+            });
+        }, ChippedBlocks.BLOCKS, properties, blockSupplier, variants).registerBlockFunc(ChippedBlocks::registerBlock).build();
     }
 
     public static BlockManager registerCreate(String name, Supplier<BlockBehaviour.Properties> properties, Supplier<Block> blockSupplier, Collection<ModBlockFamily.Variant> variants) {

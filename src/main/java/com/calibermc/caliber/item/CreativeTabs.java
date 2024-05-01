@@ -3,6 +3,7 @@ package com.calibermc.caliber.item;
 import com.calibermc.caliber.Caliber;
 import com.calibermc.caliber.block.CaliberBlocks;
 import com.calibermc.caliber.compat.item.BiomesOPlentyItems;
+import com.calibermc.caliber.compat.item.ChippedItems;
 import com.calibermc.caliber.compat.item.CreateItems;
 import com.calibermc.caliber.compat.item.RegionsUnexploredItems;
 import com.calibermc.caliber.compat.ModCompats;
@@ -28,6 +29,11 @@ public class CreativeTabs {
                         }
                         if (ModCompats.BOP) {
                             for (RegistryObject<Item> entry : BiomesOPlentyItems.ITEMS.getEntries()) {
+                                pOutput.accept(entry.get());
+                            }
+                        }
+                        if (ModCompats.CHIPPED) {
+                            for (RegistryObject<Item> entry : ChippedItems.ITEMS.getEntries()) {
                                 pOutput.accept(entry.get());
                             }
                         }

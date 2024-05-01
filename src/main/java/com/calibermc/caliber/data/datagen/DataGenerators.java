@@ -2,6 +2,7 @@ package com.calibermc.caliber.data.datagen;
 
 import com.calibermc.caliber.Caliber;
 import com.calibermc.caliber.compat.block.BiomesOPlentyBlocks;
+import com.calibermc.caliber.compat.block.ChippedBlocks;
 import com.calibermc.caliber.compat.block.CreateBlocks;
 import com.calibermc.caliber.compat.block.RegionsUnexploredBlocks;
 import com.calibermc.caliber.data.datagen.loot.CaliberBlockLootTables;
@@ -68,6 +69,18 @@ public class DataGenerators {
                 @Override
                 protected @NotNull Iterable<Block> getKnownBlocks() {
                     return BiomesOPlentyBlocks.BLOCKS.getEntries().stream().map(RegistryObject::get)::iterator;
+                }
+            }));
+        }
+
+        if (ModCompats.CHIPPED) {
+            generator.addProvider(event.includeClient(), new ModBlockStateProvider(generator, "chipped", existingFileHelper));
+            generator.addProvider(event.includeClient(), new ModItemModelProvider(generator, "chipped", existingFileHelper));
+
+            generator.addProvider(event.includeServer(), new ModLootTableProvider(generator, () -> new ModBlockLootTables("chipped") {
+                @Override
+                protected @NotNull Iterable<Block> getKnownBlocks() {
+                    return ChippedBlocks.BLOCKS.getEntries().stream().map(RegistryObject::get)::iterator;
                 }
             }));
         }
