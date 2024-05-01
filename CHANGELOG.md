@@ -9,7 +9,7 @@
 [//]: # (- Added mod compatibility variants for Ice and Fire)
 
 #### Bugfixes
-
+- Fixed minecraft:mineable - shovel tags
 
 ### 0.2.4
 #### Features
