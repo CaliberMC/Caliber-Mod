@@ -1,12 +1,18 @@
 # Change Log
 
+### 0.3.0 (in progress)
+#### Features
+- Added support for Fabric Mod Loader
+- Added new BlockStates for Capital Block, they can now connect to eachother
+
+#### Bugfixes
+- Fixed minecraft:mineable - shovel tags
+
 
 ### 0.2.5 (in progress)
 #### Features
+- Added additional states to Capital Block to allow connection with neighboring Capital Blocks
 
-[//]: # (- Added mod compatibility variants for Stone Works)
-[//]: # (- Added mod compatibility variants for Quark)
-[//]: # (- Added mod compatibility variants for Ice and Fire)
 
 #### Bugfixes
 - Fixed minecraft:mineable - shovel tags

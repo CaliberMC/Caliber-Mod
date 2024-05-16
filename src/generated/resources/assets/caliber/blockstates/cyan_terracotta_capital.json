@@ -1,10 +1,412 @@
 {
   "variants": {
-    "type=bottom": {
+    "connect=connected,facing=east,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_connected",
+      "uvlock": true,
+      "y": 90
+    },
+    "connect=connected,facing=east,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_connected",
+      "uvlock": true,
+      "y": 90
+    },
+    "connect=connected,facing=north,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_connected"
+    },
+    "connect=connected,facing=north,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_connected"
+    },
+    "connect=connected,facing=south,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_connected",
+      "uvlock": true,
+      "y": 180
+    },
+    "connect=connected,facing=south,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_connected",
+      "uvlock": true,
+      "y": 180
+    },
+    "connect=connected,facing=west,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_connected",
+      "uvlock": true,
+      "y": 270
+    },
+    "connect=connected,facing=west,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_connected",
+      "uvlock": true,
+      "y": 270
+    },
+    "connect=cross,facing=east,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_cross"
+    },
+    "connect=cross,facing=east,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_cross"
+    },
+    "connect=cross,facing=north,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_cross"
+    },
+    "connect=cross,facing=north,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_cross"
+    },
+    "connect=cross,facing=south,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_cross"
+    },
+    "connect=cross,facing=south,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_cross"
+    },
+    "connect=cross,facing=west,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_cross"
+    },
+    "connect=cross,facing=west,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_cross"
+    },
+    "connect=end,facing=east,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_end",
+      "uvlock": true,
+      "y": 90
+    },
+    "connect=end,facing=east,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_end",
+      "uvlock": true,
+      "y": 90
+    },
+    "connect=end,facing=north,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_end"
+    },
+    "connect=end,facing=north,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_end"
+    },
+    "connect=end,facing=south,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_end",
+      "uvlock": true,
+      "y": 180
+    },
+    "connect=end,facing=south,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_end",
+      "uvlock": true,
+      "y": 180
+    },
+    "connect=end,facing=west,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_end",
+      "uvlock": true,
+      "y": 270
+    },
+    "connect=end,facing=west,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_end",
+      "uvlock": true,
+      "y": 270
+    },
+    "connect=inner_left,facing=east,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_corner",
+      "uvlock": true,
+      "y": 90
+    },
+    "connect=inner_left,facing=east,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_corner",
+      "uvlock": true,
+      "y": 90
+    },
+    "connect=inner_left,facing=north,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_corner"
+    },
+    "connect=inner_left,facing=north,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_corner"
+    },
+    "connect=inner_left,facing=south,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_corner",
+      "uvlock": true,
+      "y": 180
+    },
+    "connect=inner_left,facing=south,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_corner",
+      "uvlock": true,
+      "y": 180
+    },
+    "connect=inner_left,facing=west,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_corner",
+      "uvlock": true,
+      "y": 270
+    },
+    "connect=inner_left,facing=west,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_corner",
+      "uvlock": true,
+      "y": 270
+    },
+    "connect=inner_right,facing=east,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_corner"
+    },
+    "connect=inner_right,facing=east,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_corner"
+    },
+    "connect=inner_right,facing=north,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_corner",
+      "uvlock": true,
+      "y": 270
+    },
+    "connect=inner_right,facing=north,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_corner",
+      "uvlock": true,
+      "y": 270
+    },
+    "connect=inner_right,facing=south,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_corner",
+      "uvlock": true,
+      "y": 90
+    },
+    "connect=inner_right,facing=south,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_corner",
+      "uvlock": true,
+      "y": 90
+    },
+    "connect=inner_right,facing=west,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_corner",
+      "uvlock": true,
+      "y": 180
+    },
+    "connect=inner_right,facing=west,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_corner",
+      "uvlock": true,
+      "y": 180
+    },
+    "connect=outer_left,facing=east,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_corner",
+      "uvlock": true,
+      "y": 180
+    },
+    "connect=outer_left,facing=east,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_corner",
+      "uvlock": true,
+      "y": 180
+    },
+    "connect=outer_left,facing=north,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_corner",
+      "uvlock": true,
+      "y": 90
+    },
+    "connect=outer_left,facing=north,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_corner",
+      "uvlock": true,
+      "y": 90
+    },
+    "connect=outer_left,facing=south,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_corner",
+      "uvlock": true,
+      "y": 270
+    },
+    "connect=outer_left,facing=south,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_corner",
+      "uvlock": true,
+      "y": 270
+    },
+    "connect=outer_left,facing=west,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_corner"
+    },
+    "connect=outer_left,facing=west,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_corner"
+    },
+    "connect=outer_right,facing=east,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_corner",
+      "uvlock": true,
+      "y": 270
+    },
+    "connect=outer_right,facing=east,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_corner",
+      "uvlock": true,
+      "y": 270
+    },
+    "connect=outer_right,facing=north,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_corner",
+      "uvlock": true,
+      "y": 180
+    },
+    "connect=outer_right,facing=north,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_corner",
+      "uvlock": true,
+      "y": 180
+    },
+    "connect=outer_right,facing=south,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_corner"
+    },
+    "connect=outer_right,facing=south,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_corner"
+    },
+    "connect=outer_right,facing=west,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_corner",
+      "uvlock": true,
+      "y": 90
+    },
+    "connect=outer_right,facing=west,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_corner",
+      "uvlock": true,
+      "y": 90
+    },
+    "connect=single,facing=east,type=bottom": {
       "model": "caliber:block/cyan_terracotta_capital"
     },
-    "type=top": {
+    "connect=single,facing=east,type=top": {
       "model": "caliber:block/cyan_terracotta_capital_top"
+    },
+    "connect=single,facing=north,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital"
+    },
+    "connect=single,facing=north,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top"
+    },
+    "connect=single,facing=south,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital"
+    },
+    "connect=single,facing=south,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top"
+    },
+    "connect=single,facing=west,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital"
+    },
+    "connect=single,facing=west,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top"
+    },
+    "connect=t,facing=east,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_t",
+      "uvlock": true,
+      "y": 90
+    },
+    "connect=t,facing=east,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_t",
+      "uvlock": true,
+      "y": 90
+    },
+    "connect=t,facing=north,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_t"
+    },
+    "connect=t,facing=north,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_t"
+    },
+    "connect=t,facing=south,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_t",
+      "uvlock": true,
+      "y": 180
+    },
+    "connect=t,facing=south,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_t",
+      "uvlock": true,
+      "y": 180
+    },
+    "connect=t,facing=west,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_t",
+      "uvlock": true,
+      "y": 270
+    },
+    "connect=t,facing=west,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_t",
+      "uvlock": true,
+      "y": 270
+    },
+    "connect=t_left,facing=east,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_t",
+      "uvlock": true,
+      "y": 180
+    },
+    "connect=t_left,facing=east,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_t",
+      "uvlock": true,
+      "y": 180
+    },
+    "connect=t_left,facing=north,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_t",
+      "uvlock": true,
+      "y": 90
+    },
+    "connect=t_left,facing=north,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_t",
+      "uvlock": true,
+      "y": 90
+    },
+    "connect=t_left,facing=south,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_t",
+      "uvlock": true,
+      "y": 270
+    },
+    "connect=t_left,facing=south,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_t",
+      "uvlock": true,
+      "y": 270
+    },
+    "connect=t_left,facing=west,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_t"
+    },
+    "connect=t_left,facing=west,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_t"
+    },
+    "connect=t_opposite,facing=east,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_t",
+      "uvlock": true,
+      "y": 270
+    },
+    "connect=t_opposite,facing=east,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_t",
+      "uvlock": true,
+      "y": 270
+    },
+    "connect=t_opposite,facing=north,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_t",
+      "uvlock": true,
+      "y": 180
+    },
+    "connect=t_opposite,facing=north,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_t",
+      "uvlock": true,
+      "y": 180
+    },
+    "connect=t_opposite,facing=south,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_t"
+    },
+    "connect=t_opposite,facing=south,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_t"
+    },
+    "connect=t_opposite,facing=west,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_t",
+      "uvlock": true,
+      "y": 90
+    },
+    "connect=t_opposite,facing=west,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_t",
+      "uvlock": true,
+      "y": 90
+    },
+    "connect=t_right,facing=east,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_t"
+    },
+    "connect=t_right,facing=east,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_t"
+    },
+    "connect=t_right,facing=north,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_t",
+      "uvlock": true,
+      "y": 270
+    },
+    "connect=t_right,facing=north,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_t",
+      "uvlock": true,
+      "y": 270
+    },
+    "connect=t_right,facing=south,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_t",
+      "uvlock": true,
+      "y": 90
+    },
+    "connect=t_right,facing=south,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_t",
+      "uvlock": true,
+      "y": 90
+    },
+    "connect=t_right,facing=west,type=bottom": {
+      "model": "caliber:block/cyan_terracotta_capital_t",
+      "uvlock": true,
+      "y": 180
+    },
+    "connect=t_right,facing=west,type=top": {
+      "model": "caliber:block/cyan_terracotta_capital_top_t",
+      "uvlock": true,
+      "y": 180
     }
   }
 }

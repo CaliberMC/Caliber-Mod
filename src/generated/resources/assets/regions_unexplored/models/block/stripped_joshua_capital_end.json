@@ -1,0 +1,8 @@
+{
+  "parent": "caliberlib:block/templates/capital_end",
+  "textures": {
+    "bottom": "regions_unexplored:block/stripped_joshua_log",
+    "side": "regions_unexplored:block/stripped_joshua_log",
+    "top": "regions_unexplored:block/stripped_joshua_log"
+  }
+}

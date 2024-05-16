@@ -32,11 +32,11 @@ public class CreativeTabs {
                                 pOutput.accept(entry.get());
                             }
                         }
-                        if (ModCompats.CHIPPED) {
-                            for (RegistryObject<Item> entry : ChippedItems.ITEMS.getEntries()) {
-                                pOutput.accept(entry.get());
-                            }
-                        }
+//                        if (ModCompats.CHIPPED) {
+//                            for (RegistryObject<Item> entry : ChippedItems.ITEMS.getEntries()) {
+//                                pOutput.accept(entry.get());
+//                            }
+//                        }
                         if (ModCompats.CREATE) {
                             for (RegistryObject<Item> entry : CreateItems.ITEMS.getEntries()) {
                                 pOutput.accept(entry.get());

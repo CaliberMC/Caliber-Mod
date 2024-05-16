@@ -52,11 +52,11 @@ public class Caliber {
             BiomesOPlentyBlocks.printBlockCounts();
         }
 
-        if (ModCompats.CHIPPED) {
-            ChippedItems.register(eventBus);
-            ChippedBlocks.register(eventBus);
-            ChippedBlocks.printBlockCounts();
-        }
+//        if (ModCompats.CHIPPED) {
+//            ChippedItems.register(eventBus);
+//            ChippedBlocks.register(eventBus);
+//            ChippedBlocks.printBlockCounts();
+//        }
 
         if (ModCompats.CREATE) {
             CreateItems.register(eventBus);

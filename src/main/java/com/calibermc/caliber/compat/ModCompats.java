@@ -38,9 +38,9 @@ public class ModCompats {
         if (BYG) {
             blockManagerMODID.add("byg");
         }
-        if (CHIPPED) {
-            blockManagerMODID.add("chipped");
-        }
+//        if (CHIPPED) {
+//            blockManagerMODID.add("chipped");
+//        }
         if (CREATE) {
             blockManagerMODID.add("create");
         }

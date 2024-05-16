@@ -1,4 +1,4 @@
-// 1.20.1	2024-04-29T11:10:52.8458981	Tags for minecraft:block mod id caliber
+// 1.20.1	2024-05-13T11:56:24.4027137	Tags for minecraft:block mod id caliber
 87757623e094b38183e0575b9a8347fae3cc0c8e data/caliber/tags/blocks/shapes/arches.json
 33a347900b4972af9e10c7a4c3b9d3cedd23a43e data/caliber/tags/blocks/shapes/arrowslits.json
 6160418585445d5988c8267063a93990d0a28017 data/caliber/tags/blocks/shapes/balustrades.json
@@ -29,7 +29,6 @@ b0f780e39db468e8e65f65e823c08e8469bcdba5 data/caliber/tags/blocks/shapes/vertica
 01d58949508126dd1675e9db5b65ee53783f371e data/caliber/tags/blocks/shapes/vertical_layers.json
 5da01520dd07b8c4c1ec38c718319429f95173cb data/caliber/tags/blocks/shapes/vertical_quarters.json
 97cb70302e4f9bea6ca6d580fe54321b9e83e1da data/caliber/tags/blocks/shapes/windows.json
-3229b5ea774bf26690fa65c4a9e161baef7cde02 data/minecraft/tags/blocks/logs_that_burn.json
 e6cacbc351c5ce9f96d7bda5906b1725df44b196 data/minecraft/tags/blocks/mineable/axe.json
 bedbff1260fe9a6e233ffe4e5f78e121a71dccdf data/minecraft/tags/blocks/mineable/pickaxe.json
 7674667e31c93c738c94b7182dc42b357e432782 data/minecraft/tags/blocks/slabs.json

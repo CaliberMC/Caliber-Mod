@@ -73,17 +73,17 @@ public class DataGenerators {
             }));
         }
 
-        if (ModCompats.CHIPPED) {
-            generator.addProvider(event.includeClient(), new ModBlockStateProvider(generator, "chipped", existingFileHelper));
-            generator.addProvider(event.includeClient(), new ModItemModelProvider(generator, "chipped", existingFileHelper));
-
-            generator.addProvider(event.includeServer(), new ModLootTableProvider(generator, () -> new ModBlockLootTables("chipped") {
-                @Override
-                protected @NotNull Iterable<Block> getKnownBlocks() {
-                    return ChippedBlocks.BLOCKS.getEntries().stream().map(RegistryObject::get)::iterator;
-                }
-            }));
-        }
+//        if (ModCompats.CHIPPED) {
+//            generator.addProvider(event.includeClient(), new ModBlockStateProvider(generator, "chipped", existingFileHelper));
+//            generator.addProvider(event.includeClient(), new ModItemModelProvider(generator, "chipped", existingFileHelper));
+//
+//            generator.addProvider(event.includeServer(), new ModLootTableProvider(generator, () -> new ModBlockLootTables("chipped") {
+//                @Override
+//                protected @NotNull Iterable<Block> getKnownBlocks() {
+//                    return ChippedBlocks.BLOCKS.getEntries().stream().map(RegistryObject::get)::iterator;
+//                }
+//            }));
+//        }
 
         if (ModCompats.CREATE) {
             generator.addProvider(event.includeClient(), new ModBlockStateProvider(generator, "create", existingFileHelper));
