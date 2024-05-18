@@ -1,63 +1,123 @@
 {
   "variants": {
-    "facing=east,type=bottom": {
+    "arch=false,facing=east,type=bottom": {
       "model": "create:block/cut_limestone_window_half_cross",
       "y": 90
     },
-    "facing=east,type=full_block": {
+    "arch=false,facing=east,type=full_block": {
       "model": "create:block/cut_limestone_window_half",
       "y": 90
     },
-    "facing=east,type=middle": {
+    "arch=false,facing=east,type=middle": {
       "model": "create:block/cut_limestone_window_half_trim2",
       "y": 90
     },
-    "facing=east,type=top": {
+    "arch=false,facing=east,type=top": {
       "model": "create:block/cut_limestone_window_half_trim",
       "y": 90
     },
-    "facing=north,type=bottom": {
+    "arch=false,facing=north,type=bottom": {
       "model": "create:block/cut_limestone_window_half_cross"
     },
-    "facing=north,type=full_block": {
+    "arch=false,facing=north,type=full_block": {
       "model": "create:block/cut_limestone_window_half"
     },
-    "facing=north,type=middle": {
+    "arch=false,facing=north,type=middle": {
       "model": "create:block/cut_limestone_window_half_trim2"
     },
-    "facing=north,type=top": {
+    "arch=false,facing=north,type=top": {
       "model": "create:block/cut_limestone_window_half_trim"
     },
-    "facing=south,type=bottom": {
+    "arch=false,facing=south,type=bottom": {
       "model": "create:block/cut_limestone_window_half_cross",
       "y": 180
     },
-    "facing=south,type=full_block": {
+    "arch=false,facing=south,type=full_block": {
       "model": "create:block/cut_limestone_window_half",
       "y": 180
     },
-    "facing=south,type=middle": {
+    "arch=false,facing=south,type=middle": {
       "model": "create:block/cut_limestone_window_half_trim2",
       "y": 180
     },
-    "facing=south,type=top": {
+    "arch=false,facing=south,type=top": {
       "model": "create:block/cut_limestone_window_half_trim",
       "y": 180
     },
-    "facing=west,type=bottom": {
+    "arch=false,facing=west,type=bottom": {
       "model": "create:block/cut_limestone_window_half_cross",
       "y": 270
     },
-    "facing=west,type=full_block": {
+    "arch=false,facing=west,type=full_block": {
       "model": "create:block/cut_limestone_window_half",
       "y": 270
     },
-    "facing=west,type=middle": {
+    "arch=false,facing=west,type=middle": {
       "model": "create:block/cut_limestone_window_half_trim2",
       "y": 270
     },
-    "facing=west,type=top": {
+    "arch=false,facing=west,type=top": {
       "model": "create:block/cut_limestone_window_half_trim",
+      "y": 270
+    },
+    "arch=true,facing=east,type=bottom": {
+      "model": "create:block/cut_limestone_window_half_cross",
+      "y": 90
+    },
+    "arch=true,facing=east,type=full_block": {
+      "model": "create:block/cut_limestone_window_half_arch",
+      "y": 90
+    },
+    "arch=true,facing=east,type=middle": {
+      "model": "create:block/cut_limestone_window_half_trim2",
+      "y": 90
+    },
+    "arch=true,facing=east,type=top": {
+      "model": "create:block/cut_limestone_window_half_arch_top",
+      "y": 90
+    },
+    "arch=true,facing=north,type=bottom": {
+      "model": "create:block/cut_limestone_window_half_cross"
+    },
+    "arch=true,facing=north,type=full_block": {
+      "model": "create:block/cut_limestone_window_half_arch"
+    },
+    "arch=true,facing=north,type=middle": {
+      "model": "create:block/cut_limestone_window_half_trim2"
+    },
+    "arch=true,facing=north,type=top": {
+      "model": "create:block/cut_limestone_window_half_arch_top"
+    },
+    "arch=true,facing=south,type=bottom": {
+      "model": "create:block/cut_limestone_window_half_cross",
+      "y": 180
+    },
+    "arch=true,facing=south,type=full_block": {
+      "model": "create:block/cut_limestone_window_half_arch",
+      "y": 180
+    },
+    "arch=true,facing=south,type=middle": {
+      "model": "create:block/cut_limestone_window_half_trim2",
+      "y": 180
+    },
+    "arch=true,facing=south,type=top": {
+      "model": "create:block/cut_limestone_window_half_arch_top",
+      "y": 180
+    },
+    "arch=true,facing=west,type=bottom": {
+      "model": "create:block/cut_limestone_window_half_cross",
+      "y": 270
+    },
+    "arch=true,facing=west,type=full_block": {
+      "model": "create:block/cut_limestone_window_half_arch",
+      "y": 270
+    },
+    "arch=true,facing=west,type=middle": {
+      "model": "create:block/cut_limestone_window_half_trim2",
+      "y": 270
+    },
+    "arch=true,facing=west,type=top": {
+      "model": "create:block/cut_limestone_window_half_arch_top",
       "y": 270
     }
   }

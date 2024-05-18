@@ -1,0 +1,8 @@
+{
+  "parent": "caliberlib:block/templates/window_arch",
+  "textures": {
+    "bottom": "regions_unexplored:block/chalk_pillar_top",
+    "side": "regions_unexplored:block/chalk_pillar",
+    "top": "regions_unexplored:block/chalk_pillar_top"
+  }
+}

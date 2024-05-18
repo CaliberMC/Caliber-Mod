@@ -1,0 +1,423 @@
+{
+  "values": [
+    "caliber:andesite_arch_half",
+    "caliber:basalt_arch_half",
+    "caliber:black_concrete_arch_half",
+    "caliber:black_terracotta_arch_half",
+    "caliber:blackstone_arch_half",
+    "caliber:blue_concrete_arch_half",
+    "caliber:blue_terracotta_arch_half",
+    "caliber:brick_arch_half",
+    "caliber:brown_concrete_arch_half",
+    "caliber:brown_terracotta_arch_half",
+    "caliber:calcite_arch_half",
+    "caliber:chiseled_deepslate_arch_half",
+    "caliber:chiseled_polished_blackstone_arch_half",
+    "caliber:chiseled_red_sandstone_arch_half",
+    "caliber:chiseled_sandstone_arch_half",
+    "caliber:chiseled_stone_brick_arch_half",
+    "caliber:cobbled_deepslate_arch_half",
+    "caliber:cobblestone_arch_half",
+    "caliber:cracked_deepslate_brick_arch_half",
+    "caliber:cracked_deepslate_tile_arch_half",
+    "caliber:cracked_polished_blackstone_brick_arch_half",
+    "caliber:cracked_stone_brick_arch_half",
+    "caliber:cut_red_sandstone_arch_half",
+    "caliber:cut_sandstone_arch_half",
+    "caliber:cyan_concrete_arch_half",
+    "caliber:cyan_terracotta_arch_half",
+    "caliber:dark_prismarine_arch_half",
+    "caliber:deepslate_arch_half",
+    "caliber:deepslate_brick_arch_half",
+    "caliber:deepslate_tile_arch_half",
+    "caliber:diorite_arch_half",
+    "caliber:dripstone_arch_half",
+    "caliber:end_stone_arch_half",
+    "caliber:end_stone_brick_arch_half",
+    "caliber:gilded_blackstone_arch_half",
+    "caliber:granite_arch_half",
+    "caliber:gray_concrete_arch_half",
+    "caliber:gray_terracotta_arch_half",
+    "caliber:green_concrete_arch_half",
+    "caliber:green_terracotta_arch_half",
+    "caliber:light_blue_concrete_arch_half",
+    "caliber:light_blue_terracotta_arch_half",
+    "caliber:light_gray_concrete_arch_half",
+    "caliber:light_gray_terracotta_arch_half",
+    "caliber:lime_concrete_arch_half",
+    "caliber:lime_terracotta_arch_half",
+    "caliber:magenta_concrete_arch_half",
+    "caliber:magenta_terracotta_arch_half",
+    "caliber:mossy_cobblestone_arch_half",
+    "caliber:mossy_stone_brick_arch_half",
+    "caliber:mud_brick_arch_half",
+    "caliber:nether_brick_arch_half",
+    "caliber:netherite_arch_half",
+    "caliber:obsidian_arch_half",
+    "caliber:orange_concrete_arch_half",
+    "caliber:orange_terracotta_arch_half",
+    "caliber:pink_concrete_arch_half",
+    "caliber:pink_terracotta_arch_half",
+    "caliber:polished_andesite_arch_half",
+    "caliber:polished_basalt_arch_half",
+    "caliber:polished_blackstone_arch_half",
+    "caliber:polished_blackstone_brick_arch_half",
+    "caliber:polished_deepslate_arch_half",
+    "caliber:polished_diorite_arch_half",
+    "caliber:polished_granite_arch_half",
+    "caliber:prismarine_arch_half",
+    "caliber:prismarine_brick_arch_half",
+    "caliber:purple_concrete_arch_half",
+    "caliber:purple_terracotta_arch_half",
+    "caliber:purpur_block_arch_half",
+    "caliber:purpur_pillar_arch_half",
+    "caliber:quartz_arch_half",
+    "caliber:quartz_brick_arch_half",
+    "caliber:red_concrete_arch_half",
+    "caliber:red_nether_brick_arch_half",
+    "caliber:red_sandstone_arch_half",
+    "caliber:red_terracotta_arch_half",
+    "caliber:sandstone_arch_half",
+    "caliber:smooth_basalt_arch_half",
+    "caliber:smooth_quartz_arch_half",
+    "caliber:smooth_red_sandstone_arch_half",
+    "caliber:smooth_sandstone_arch_half",
+    "caliber:smooth_stone_arch_half",
+    "caliber:stone_arch_half",
+    "caliber:stone_brick_arch_half",
+    "caliber:terracotta_arch_half",
+    "caliber:tuff_arch_half",
+    "caliber:white_concrete_arch_half",
+    "caliber:white_terracotta_arch_half",
+    "caliber:yellow_concrete_arch_half",
+    "caliber:yellow_terracotta_arch_half",
+    {
+      "id": "biomesoplenty:black_sandstone_arch_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:brimstone_arch_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:brimstone_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_black_sandstone_arch_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_brimstone_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_orange_sandstone_arch_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_white_sandstone_arch_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_black_sandstone_arch_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_orange_sandstone_arch_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_white_sandstone_arch_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_black_sandstone_arch_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_orange_sandstone_arch_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_white_sandstone_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:asurine_block_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_block_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:limestone_block_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_block_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_andesite_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_asurine_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_calcite_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_crimsite_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_deepslate_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_diorite_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_dripstone_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_granite_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_limestone_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_ochrum_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scorchia_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scoria_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_tuff_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_veridium_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_block_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:scoria_block_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:small_andesite_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:small_asurine_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:small_calcite_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:small_crimsite_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:small_deepslate_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:small_diorite_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:small_dripstone_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:small_granite_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:small_limestone_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:small_ochrum_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:small_scorchia_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:small_scoria_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:small_tuff_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:small_veridium_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "create:veridium_block_arch_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:argillite_arch_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_block_arch_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_arch_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mossy_stone_arch_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:polished_chalk_arch_half",
+      "required": false
+    }
+  ]
+}

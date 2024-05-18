@@ -1,0 +1,8 @@
+{
+  "parent": "caliberlib:block/templates/window_half_arch_top",
+  "textures": {
+    "bottom": "minecraft:block/cracked_polished_blackstone_bricks",
+    "side": "minecraft:block/cracked_polished_blackstone_bricks",
+    "top": "minecraft:block/cracked_polished_blackstone_bricks"
+  }
+}

@@ -1,0 +1,782 @@
+{
+  "values": [
+    "caliber:acacia_pillar",
+    "caliber:andesite_pillar",
+    "caliber:bamboo_mosaic_pillar",
+    "caliber:bamboo_pillar",
+    "caliber:basalt_pillar",
+    "caliber:birch_pillar",
+    "caliber:black_concrete_pillar",
+    "caliber:black_terracotta_pillar",
+    "caliber:black_wool_pillar",
+    "caliber:blackstone_pillar",
+    "caliber:blue_concrete_pillar",
+    "caliber:blue_terracotta_pillar",
+    "caliber:blue_wool_pillar",
+    "caliber:brick_pillar",
+    "caliber:brown_concrete_pillar",
+    "caliber:brown_terracotta_pillar",
+    "caliber:brown_wool_pillar",
+    "caliber:calcite_pillar",
+    "caliber:cherry_pillar",
+    "caliber:chiseled_deepslate_pillar",
+    "caliber:chiseled_polished_blackstone_pillar",
+    "caliber:chiseled_red_sandstone_pillar",
+    "caliber:chiseled_sandstone_pillar",
+    "caliber:chiseled_stone_brick_pillar",
+    "caliber:cobbled_deepslate_pillar",
+    "caliber:cobblestone_pillar",
+    "caliber:cracked_deepslate_brick_pillar",
+    "caliber:cracked_deepslate_tile_pillar",
+    "caliber:cracked_polished_blackstone_brick_pillar",
+    "caliber:cracked_stone_brick_pillar",
+    "caliber:crimson_pillar",
+    "caliber:cut_red_sandstone_pillar",
+    "caliber:cut_sandstone_pillar",
+    "caliber:cyan_concrete_pillar",
+    "caliber:cyan_terracotta_pillar",
+    "caliber:cyan_wool_pillar",
+    "caliber:dark_oak_pillar",
+    "caliber:dark_prismarine_pillar",
+    "caliber:deepslate_pillar",
+    "caliber:deepslate_brick_pillar",
+    "caliber:deepslate_tile_pillar",
+    "caliber:diorite_pillar",
+    "caliber:dripstone_pillar",
+    "caliber:end_stone_pillar",
+    "caliber:end_stone_brick_pillar",
+    "caliber:gilded_blackstone_pillar",
+    "caliber:granite_pillar",
+    "caliber:gray_concrete_pillar",
+    "caliber:gray_terracotta_pillar",
+    "caliber:gray_wool_pillar",
+    "caliber:green_concrete_pillar",
+    "caliber:green_terracotta_pillar",
+    "caliber:green_wool_pillar",
+    "caliber:jungle_pillar",
+    "caliber:light_blue_concrete_pillar",
+    "caliber:light_blue_terracotta_pillar",
+    "caliber:light_blue_wool_pillar",
+    "caliber:light_gray_concrete_pillar",
+    "caliber:light_gray_terracotta_pillar",
+    "caliber:light_gray_wool_pillar",
+    "caliber:lime_concrete_pillar",
+    "caliber:lime_terracotta_pillar",
+    "caliber:lime_wool_pillar",
+    "caliber:magenta_concrete_pillar",
+    "caliber:magenta_terracotta_pillar",
+    "caliber:magenta_wool_pillar",
+    "caliber:mangrove_pillar",
+    "caliber:mossy_cobblestone_pillar",
+    "caliber:mossy_stone_brick_pillar",
+    "caliber:mud_brick_pillar",
+    "caliber:nether_brick_pillar",
+    "caliber:netherite_pillar",
+    "caliber:oak_pillar",
+    "caliber:obsidian_pillar",
+    "caliber:orange_concrete_pillar",
+    "caliber:orange_terracotta_pillar",
+    "caliber:orange_wool_pillar",
+    "caliber:pink_concrete_pillar",
+    "caliber:pink_terracotta_pillar",
+    "caliber:pink_wool_pillar",
+    "caliber:polished_andesite_pillar",
+    "caliber:polished_basalt_pillar",
+    "caliber:polished_blackstone_pillar",
+    "caliber:polished_blackstone_brick_pillar",
+    "caliber:polished_deepslate_pillar",
+    "caliber:polished_diorite_pillar",
+    "caliber:polished_granite_pillar",
+    "caliber:prismarine_pillar",
+    "caliber:prismarine_brick_pillar",
+    "caliber:purple_concrete_pillar",
+    "caliber:purple_terracotta_pillar",
+    "caliber:purple_wool_pillar",
+    "caliber:purpur_block_pillar",
+    "caliber:purpur_pillar_pillar",
+    "caliber:quartz_pillar",
+    "caliber:quartz_brick_pillar",
+    "caliber:red_concrete_pillar",
+    "caliber:red_nether_brick_pillar",
+    "caliber:red_sandstone_pillar",
+    "caliber:red_terracotta_pillar",
+    "caliber:red_wool_pillar",
+    "caliber:sandstone_pillar",
+    "caliber:smooth_basalt_pillar",
+    "caliber:smooth_quartz_pillar",
+    "caliber:smooth_red_sandstone_pillar",
+    "caliber:smooth_sandstone_pillar",
+    "caliber:smooth_stone_pillar",
+    "caliber:spruce_pillar",
+    "caliber:stone_pillar",
+    "caliber:stone_brick_pillar",
+    "caliber:stripped_acacia_pillar",
+    "caliber:stripped_bamboo_pillar",
+    "caliber:stripped_birch_pillar",
+    "caliber:stripped_cherry_pillar",
+    "caliber:stripped_crimson_pillar",
+    "caliber:stripped_dark_oak_pillar",
+    "caliber:stripped_jungle_pillar",
+    "caliber:stripped_mangrove_pillar",
+    "caliber:stripped_oak_pillar",
+    "caliber:stripped_spruce_pillar",
+    "caliber:stripped_warped_pillar",
+    "caliber:terracotta_pillar",
+    "caliber:tuff_pillar",
+    "caliber:warped_pillar",
+    "caliber:white_concrete_pillar",
+    "caliber:white_terracotta_pillar",
+    "caliber:white_wool_pillar",
+    "caliber:yellow_concrete_pillar",
+    "caliber:yellow_terracotta_pillar",
+    "caliber:yellow_wool_pillar",
+    {
+      "id": "biomesoplenty:black_sandstone_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:brimstone_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:brimstone_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_black_sandstone_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_brimstone_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_orange_sandstone_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_white_sandstone_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_black_sandstone_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_orange_sandstone_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_white_sandstone_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:dead_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:hellbark_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_black_sandstone_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_orange_sandstone_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_white_sandstone_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_dead_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_fir_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_hellbark_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_jacaranda_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_magic_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_mahogany_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_palm_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_umbran_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_willow_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_pillar",
+      "required": false
+    },
+    {
+      "id": "create:asurine_block_pillar",
+      "required": false
+    },
+    {
+      "id": "create:crimsite_block_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_pillar",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:limestone_block_pillar",
+      "required": false
+    },
+    {
+      "id": "create:ochrum_block_pillar",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_andesite_pillar",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_asurine_pillar",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_calcite_pillar",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_crimsite_pillar",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_deepslate_pillar",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_diorite_pillar",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_dripstone_pillar",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_granite_pillar",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_limestone_pillar",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_ochrum_pillar",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scorchia_pillar",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scoria_pillar",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_tuff_pillar",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_veridium_pillar",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_block_pillar",
+      "required": false
+    },
+    {
+      "id": "create:scoria_block_pillar",
+      "required": false
+    },
+    {
+      "id": "create:small_andesite_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:small_asurine_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:small_calcite_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:small_crimsite_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:small_deepslate_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:small_diorite_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:small_dripstone_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:small_granite_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:small_limestone_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:small_ochrum_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:small_scorchia_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:small_scoria_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:small_tuff_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:small_veridium_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "create:veridium_block_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:argillite_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:baobab_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:black_painted_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blackwood_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_bioshroom_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_painted_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brimwood_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brown_painted_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_block_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cobalt_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cyan_painted_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cypress_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:dead_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:eucalyptus_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:gray_painted_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:green_bioshroom_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:green_painted_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:joshua_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:larch_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_blue_painted_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_gray_painted_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:lime_painted_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magenta_painted_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magnolia_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:maple_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mauve_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mossy_stone_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:orange_painted_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:palm_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_bioshroom_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_painted_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:polished_chalk_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:purple_painted_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:red_painted_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redwood_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:socotra_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_baobab_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blackwood_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blue_bioshroom_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_brimwood_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cobalt_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cypress_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_dead_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_eucalyptus_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_green_bioshroom_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_joshua_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_kapok_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_larch_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_magnolia_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_maple_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_mauve_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_palm_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pine_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pink_bioshroom_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_redwood_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_socotra_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_willow_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_yellow_bioshroom_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:white_painted_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:willow_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_bioshroom_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_painted_pillar",
+      "required": false
+    }
+  ]
+}
