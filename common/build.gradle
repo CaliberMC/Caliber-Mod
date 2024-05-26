@@ -1,0 +1,62 @@
+architectury {
+    common(rootProject.enabled_platforms.split(","))
+}
+
+loom {
+    accessWidenerPath = file("src/main/resources/caliber.accesswidener")
+}
+
+dependencies {
+    // We depend on fabric loader here to use the fabric @Environment annotations and get the mixin dependencies
+    // Do NOT use other classes from fabric loader
+    modImplementation "net.fabricmc:fabric-loader:${rootProject.fabric_loader_version}"
+
+    modImplementation("curse.maven:selene-499980:5201141")
+    modImplementation("com.calibermc.caliberlib:caliberlib-common:${rootProject.caliber_lib_version}")
+    modImplementation("com.calibermc.buildify:buildify-common:${rootProject.buildify_version}")
+
+
+    annotationProcessor("com.github.LlamaLad7:MixinExtras:${mixin_extras_version}")
+    implementation("com.github.LlamaLad7:MixinExtras:${mixin_extras_version}")
+    annotationProcessor 'net.fabricmc:sponge-mixin:0.12.5+mixin.0.8.5'
+
+// ------------------------------------------------------------------------------
+
+    modCompileOnly("mezz.jei:jei-${minecraft_version}-common-api:${jei_version}")
+    modCompileOnly("mezz.jei:jei-${minecraft_version}-forge-api:${jei_version}")
+    modRuntimeOnly("mezz.jei:jei-${minecraft_version}-forge:${jei_version}")
+
+    modCompileOnly "curse.maven:terrablender-563928:4573003"
+    modImplementation "curse.maven:biomesoplenty-220318:5300401"
+
+    //modImplementation "curse.maven:biomesoplenty-220318:4764804"
+
+    modCompileOnly "curse.maven:regions-unexplored-659110:5127359"
+    //compileOnly "maven.modrinth:regions-unexplored:0.5.5+1.20.1"
+    //modCompileOnly "curse.maven:regions-unexplored-659110:5151869"
+
+    modCompileOnly "curse.maven:create-328085:4835191"
+    modCompileOnly "com.tterrag.registrate:Registrate:${registrate_version}"
+    modCompileOnly "com.jozufozu.flywheel:flywheel-forge-${minecraft_version}:${flywheel_version}"
+
+    modCompileOnly "curse.maven:chipped-456956:5270039"
+    modCompileOnly "curse.maven:resourceful-lib-570073:5210240"
+    modCompileOnly "curse.maven:athena-841890:5176879"
+
+}
+
+publishing {
+    publications {
+        mavenCommon(MavenPublication) {
+            groupId = mod_group_id
+            artifactId = mod_id + "-" + project.name
+            version = pub_version
+            from components.java
+        }
+    }
+
+    // See https://docs.gradle.org/current/userguide/publishing_maven.html for information on how to set up publishing.
+    repositories {
+        // Add repositories to publish to here.
+    }
+}

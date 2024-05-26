@@ -1,0 +1,9 @@
+accessWidener   v2  named
+
+accessible method net/minecraft/tags/BlockTags create (Ljava/lang/String;)Lnet/minecraft/tags/TagKey;
+accessible method net/minecraft/tags/ItemTags bind (Ljava/lang/String;)Lnet/minecraft/tags/TagKey;
+
+accessible method net/minecraft/world/entity/ai/behavior/InteractWithDoor rememberDoorToClose (Lnet/minecraft/world/entity/ai/behavior/declarative/MemoryAccessor;Ljava/util/Optional;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;)Ljava/util/Optional; # rememberDoorToClose
+accessible method net/minecraft/world/level/block/DoorBlock getHinge (Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/properties/DoorHingeSide; # getHinge
+accessible method net/minecraft/world/level/block/Block registerDefaultState (Lnet/minecraft/world/level/block/state/BlockState;)V
+accessible method net/minecraft/world/level/block/FenceGateBlock isWall (Lnet/minecraft/world/level/block/state/BlockState;)Z

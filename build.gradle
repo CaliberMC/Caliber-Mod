@@ -1,343 +1,212 @@
 plugins {
-    id 'eclipse'
-    id 'idea'
-    id 'maven-publish'
-    id 'net.minecraftforge.gradle' version '[6.0,6.2)'
-    id 'org.parchmentmc.librarian.forgegradle' version '1.+'
-    id 'org.spongepowered.mixin' version '0.7-SNAPSHOT' apply true
+    id "architectury-plugin" version "3.4-SNAPSHOT"
+    id "dev.architectury.loom" version "1.6-SNAPSHOT" apply false
+    id "com.matthewprenger.cursegradle" version "1.4.0"
+    id "com.modrinth.minotaur" version "2.8.4"
 }
 
-version = pub_version
-group = mod_group_id
-
-base {
-    archivesName = mod_id
+architectury {
+    minecraft = rootProject.minecraft_version
 }
 
-// jarJar
+version = "${rootProject.mod_version}-${rootProject.minecraft_version}"
 
-jarJar.enable()
+def trimChangelog(String text) {
+    // Define the regex pattern to match everything after `# Change Log` and up to but not including the first `---`
+    def pattern = /(?s)# Change Log\s*(.*?)(?=\n---|$)/
+    def matcher = text =~ pattern
 
-reobf {
-    jarJar { }
+    // Check if there are any matches
+    if (matcher.size() > 0) {
+        // Get the first match and remove leading spaces
+        def trimmedEntry = matcher[0][1].replaceAll(/(?m)^ */, '')
+        // Return the formatted result in a code block
+        return '\n' + trimmedEntry + '\n'
+    } else {
+        // Return a default message if no match is found
+        return '\nNo valid changelog entry found.\n'
+    }
 }
 
-tasks.jarJar.finalizedBy('reobfJarJar')
+subprojects {
+    apply plugin: "dev.architectury.loom"
+    apply plugin: "com.matthewprenger.cursegradle"
+    apply plugin: "com.modrinth.minotaur"
 
-tasks.withType(Jar).configureEach {
-    zip64 true
-}
+    loom {
+        silentMojangMappingsLicense()
+    }
 
-// end of jarJar
 
-// Mojang ships Java 17 to end users in 1.18+, so your mod should target Java 17.
-java.toolchain.languageVersion = JavaLanguageVersion.of(17)
-
-println "Java: ${System.getProperty 'java.version'}, JVM: ${System.getProperty 'java.vm.version'} (${System.getProperty 'java.vendor'}), Arch: ${System.getProperty 'os.arch'}"
-minecraft {
-    // The mappings can be changed at any time and must be in the following format.
-    // Channel:   Version:
-    // official   MCVersion             Official field/method names from Mojang mapping files
-    // parchment  YYYY.MM.DD-MCVersion  Open community-sourced parameter names and javadocs layered on top of official
-    //
-    // You must be aware of the Mojang license when using the 'official' or 'parchment' mappings.
-    // See more information here: https://github.com/MinecraftForge/MCPConfig/blob/master/Mojang.md
-    //
-    // Parchment is an unofficial project maintained by ParchmentMC, separate from MinecraftForge
-    // Additional setup is needed to use their mappings: https://parchmentmc.org/docs/getting-started
-    //
-    // Use non-default mappings at your own risk. They may not always work.
-    // Simply re-run your setup task after changing the mappings to update your workspace.
-    mappings channel: mapping_channel, version: mapping_version
-
-    // When true, this property will have all Eclipse run configurations run the "prepareX" task for the given run configuration before launching the game.
-    // In most cases, it is not necessary to enable.
-    // enableEclipsePrepareRuns = true
-
-    // When true, this property will have all IntelliJ IDEA run configurations run the "prepareX" task for the given run configuration before launching the game.
-    // In most cases, it is not necessary to enable.
-    // enableIdeaPrepareRuns = true
-
-    // This property allows configuring Gradle's ProcessResources task(s) to run on IDE output locations before launching the game.
-    // It is REQUIRED to be set to true for this template to function.
-    // See https://docs.gradle.org/current/dsl/org.gradle.language.jvm.tasks.ProcessResources.html
-    copyIdeResources = true
-
-    // When true, this property will add the folder name of all declared run configurations to generated IDE run configurations.
-    // The folder name can be set on a run configuration using the "folderName" property.
-    // By default, the folder name of a run configuration is the name of the Gradle project containing it.
-    // generateRunFolders = true
-
-    // This property enables access transformers for use in development.
-    // They will be applied to the Minecraft artifact.
-    // The access transformer file can be anywhere in the project.
-    // However, it must be at "META-INF/accesstransformer.cfg" in the final mod jar to be loaded by Forge.
-    // This default location is a best practice to automatically put the file in the right place in the final jar.
-    // See https://docs.minecraftforge.net/en/latest/advanced/accesstransformers/ for more information.
-    accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
-
-    // Default run configurations.
-    // These can be tweaked, removed, or duplicated as needed.
-    runs {
-        client {
-            workingDirectory project.file('run')
-
-            // Recommended logging data for a userdev environment
-            // The markers can be added/remove as needed separated by commas.
-            // "SCAN": For mods scan.
-            // "REGISTRIES": For firing of registry events.
-            // "REGISTRYDUMP": For getting the contents of all registries.
-            property 'forge.logging.markers', 'REGISTRIES'
-
-            // Recommended logging level for the console
-            // You can set various levels here.
-            // Please read: https://stackoverflow.com/questions/2031163/when-to-use-the-different-log-levels
-            property 'forge.logging.console.level', 'debug'
-
-            // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
-            property 'forge.enabledGameTestNamespaces', mod_id
-
-            mods {
-                "${mod_id}" {
-                    source sourceSets.main
-                }
+    dependencies {
+        minecraft "com.mojang:minecraft:${rootProject.minecraft_version}"
+        mappings loom.layered() {
+            it.parchment("org.parchmentmc.data:parchment-${rootProject.minecraft_version}:${rootProject.mapping_version}")
+            it.officialMojangMappings {
+                setNameSyntheticMembers(false)
             }
         }
+    }
 
-        server {
-            workingDirectory project.file('run')
+    version = "${project.name}-${rootProject.mod_version}-${rootProject.minecraft_version}"
 
-            property 'forge.logging.markers', 'REGISTRIES'
+    var env = System.getenv()
+    var modLoader = project.name
 
-            property 'forge.logging.console.level', 'debug'
+    var changelogFile = file("${rootProject.projectDir}/CHANGELOG.md")
+    var changelogText = trimChangelog(changelogFile.text)
 
-            property 'forge.enabledGameTestNamespaces', mod_id
+    if (env.MODRINTH_TOKEN) {
+        modrinth {
+            projectId = mod_id
+            uploadFile = tasks.remapJar
+            gameVersions = [minecraft_version]
+            if (modLoader == "forge") {
+                loaders = ["forge, neoforge"]
+            } else loaders = [modLoader]
 
-            mods {
-                "${mod_id}" {
-                    source sourceSets.main
+            changelog = changelogText
+            versionNumber = mod_name + " " + modLoader + " " + pub_version
+            versionType = "release_type"
+            syncBodyFrom = rootProject.file("${rootProject.projectDir}/DESCRIPTION.md").text
+
+            if (modLoader == "fabric") {
+                dependencies {
+                    required.project "fabric-api"
                 }
+            } else {
             }
         }
+    }
 
-        // This run config launches GameTestServer and runs all registered gametests, then exits.
-        // By default, the server will crash when no gametests are provided.
-        // The gametest system is also enabled by default for other run configs under the /test command.
-        gameTestServer {
-            workingDirectory project.file('run')
+    if (env.CURSEFORGE_TOKEN) {
+        curseforge {
+            apiKey = env.CURSEFORGE_TOKEN
+            project {
+                id = rootProject.project_id
+                changelog = changelogText
+                changelogType = 'markdown'
+                releaseType = 'release_type'
+                addGameVersion rootProject.minecraft_version
 
-            property 'forge.logging.markers', 'REGISTRIES'
-
-            property 'forge.logging.console.level', 'debug'
-
-            property 'forge.enabledGameTestNamespaces', mod_id
-
-            mods {
-                "${mod_id}" {
-                    source sourceSets.main
+                mainArtifact(tasks.remapJar) {
+                    displayName = "${mod_name} + \" \" + modLoader + \" \" + ${pub_version}"
                 }
-            }
-        }
 
-        data {
-            workingDirectory project.file('run')
-
-            property 'forge.logging.markers', 'REGISTRIES'
-
-            property 'forge.logging.console.level', 'debug'
-
-            // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
-            args '--mod', mod_id, '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
-            args '--existing-mod', "caliberlib"
-            args '--existing-mod', "biomesoplenty"
-            args '--existing-mod', "regions_unexplored"
-            args '--existing-mod', "create"
-            args "--existing-mod", "chipped"
-
-            jvmArgs += '-Dmod.dataGen=true' // Allows for runData task to generate the extra blockstates and models used only when CaliberMod is loaded
-
-            mods {
-                "${mod_id}" {
-                    source sourceSets.main
+                if (modLoader == "forge") {
+                    addGameVersion("NeoForge")
+                } else addGameVersion modLoader.capitalize()
+                if (modLoader == "fabric") {
+                    relations {
+                        requiredDependency "fabric-api"
+                    }
+                } else {
                 }
             }
         }
     }
 }
 
-// Include resources generated by data generators.
-sourceSets.main.resources { srcDir 'src/generated/resources' }
+allprojects {
+    apply plugin: "java"
+    apply plugin: "architectury-plugin"
+    apply plugin: "maven-publish"
 
-repositories {
-    // Put repositories for dependencies here
-    // ForgeGradle automatically adds the Forge maven and Maven Central for you
+    base {
+        archivesName = "${rootProject.mod_id}"
+    }
 
-    // If you have mod jar dependencies in ./libs, you can declare them as a repository like so.
-    // See https://docs.gradle.org/current/userguide/declaring_repositories.html#sub:flat_dir_resolver
-    // flatDir {
-    //     dir 'libs'
-    // }
-    maven {
-        // location of the maven that hosts JEI files since January 2023
-        name = "Jared's maven"
-        url = "https://maven.blamejared.com/"
-    }
-    maven {
-        // location of the maven for Registrate and Flywheel
-        name = 'tterrag maven'
-        url = 'https://maven.tterrag.com'
-    }
-    maven {
-        url "https://maven.teamresourceful.com/repository/maven-public/"
-    }
-    maven {
-        url = 'https://www.cursemaven.com'
-        content {
-            includeGroup "curse.maven"
+    group = rootProject.mod_group_id
+
+    def generatedResources = file("src/generated")
+
+    sourceSets {
+        main {
+            resources.srcDir generatedResources
         }
     }
-    maven {
-        name = "Modrinth"
-        url = "https://api.modrinth.com/maven"
-        content {
-            includeGroup "maven.modrinth"
-        }
-    }
-    mavenLocal()
-}
 
-dependencies {
-    // Specify the version of Minecraft to use.
-    // Any artifact can be supplied so long as it has a "userdev" classifier artifact and is a compatible patcher artifact.
-    // The "userdev" classifier will be requested and setup by ForgeGradle.
-    // If the group id is "net.minecraft" and the artifact id is one of ["client", "server", "joined"],
-    // then special handling is done to allow a setup of a vanilla dependency without the use of an external repository.
-    minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
-
-    // CALIBER MC DEPENDENCIES
-//    implementation fg.deobf("maven.modrinth:buildify:${buildify_version}-${minecraft_version}") // modrinth variant
-//    implementation fg.deobf("maven.modrinth:caliberlib:${caliber_lib_version}-${minecraft_version}") // modrinth variant
-    implementation fg.deobf("com.calibermc.buildify:buildify:${buildify_version}-${minecraft_version}") // maven local
-    implementation fg.deobf("com.calibermc.caliberlib:caliberlib:${caliber_lib_version}-${minecraft_version}") // maven local
-
-    // COMPAT
-    compileOnly(fg.deobf("mezz.jei:jei-${minecraft_version}-common-api:${jei_version}"))
-    compileOnly(fg.deobf("mezz.jei:jei-${minecraft_version}-forge-api:${jei_version}"))
-    runtimeOnly(fg.deobf("mezz.jei:jei-${minecraft_version}-forge:${jei_version}"))
-
-    implementation fg.deobf("curse.maven:terrablender-563928:4573003")
-    implementation fg.deobf("curse.maven:biomesoplenty-220318:4764804")
-    implementation fg.deobf("curse.maven:regions-unexplored-659110:5151869")
-
-    implementation fg.deobf("curse.maven:create-328085:4835191")
-    compileOnly fg.deobf("com.tterrag.registrate:Registrate:${registrate_version}")
-    compileOnly fg.deobf("com.jozufozu.flywheel:flywheel-forge-${minecraft_version}:${flywheel_version}")
-
-    implementation fg.deobf("curse.maven:chipped-456956:5270039")
-    implementation fg.deobf("curse.maven:resourceful-lib-570073:5210240")
-    implementation fg.deobf("curse.maven:athena-841890:5176879")
-
-//    implementation group: "earth.terrarium.chipped", name: "chipped-$mod_loader-$minecraft_version", version: chipped_version
-}
-
-
-// TODO: Add Fusion Dependency
-    // jarJar
-//    implementation(fg.deobf(jarJar("com.calibermc.caliberlib:caliberlib:0.0.1") {
-//        jarJar.ranged(it, "[0.0,)")
-//    }))
-    // end of jarJar
-
-    // Example mod dependency using a mod jar from ./libs with a flat dir repository
-    // This maps to ./libs/coolmod-${mc_version}-${coolmod_version}.jar
-    // The group id is ignored when searching -- in this case, it is "blank"
-    // implementation fg.deobf("blank:coolmod-${mc_version}:${coolmod_version}")
-
-    // For more info:
-    // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
-    // http://www.gradle.org/docs/current/userguide/dependency_management.html
-
-
-// This block of code expands all declared replace properties in the specified resource targets.
-// A missing property will result in an error. Properties are expanded using ${} Groovy notation.
-// When "copyIdeResources" is enabled, this will also run before the game launches in IDE environments.
-// See https://docs.gradle.org/current/dsl/org.gradle.language.jvm.tasks.ProcessResources.html
-def resourceTargets = ['META-INF/mods.toml', 'pack.mcmeta']
-def replaceProperties = [
-        minecraft_version: minecraft_version, minecraft_version_range: minecraft_version_range,
-        mod_loader: mod_loader,
-        forge_version: forge_version, forge_version_range: forge_version_range,
-        loader_version_range: loader_version_range,
-        mod_id: mod_id, mod_name: mod_name, mod_license: mod_license, mod_version: mod_version, pub_version: pub_version,
-        mod_authors: mod_authors, mod_description: mod_description,
-        buildify_version: buildify_version,
-        buildify_version_range: buildify_version_range,
-        caliber_lib_version: caliber_lib_version,
-        caliber_lib_version_range: caliber_lib_version_range,
-        terrablender_version: terrablender_version,
-        terrablender_version_range: terrablender_version_range,
-        biomesoplenty_version: biomesoplenty_version,
-        biomesoplenty_version_range: biomesoplenty_version_range,
-        regions_unexplored_version: regions_unexplored_version,
-        regions_unexplored_version_range: regions_unexplored_version_range,
-        create_version: create_version,
-        create_version_range: create_version_range,
-        flywheel_version: flywheel_version,
-        flywheel_version_range: flywheel_version_range,
-        registrate_version: registrate_version,
-        chipped_version: chipped_version,
-        chipped_version_range: chipped_version_range
-]
-processResources {
-    inputs.properties replaceProperties
-    replaceProperties.put 'project', project
-
-    filesMatching(resourceTargets) {
-        expand replaceProperties
-    }
-}
-
-// Example for how to get properties into the manifest for reading at runtime.
-jar {
-    zip64 true
-    manifest {
-        attributes([
-                "Specification-Title"     : mod_id,
-                "Specification-Vendor"    : mod_authors,
-                "Specification-Version"   : "1", // We are version 1 of ourselves
-                "Implementation-Title"    : project.name,
-                "Implementation-Version"  : project.jar.archiveVersion,
-                "Implementation-Vendor"   : mod_authors,
-                "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
-        ])
-    }
-}
-
-// Example configuration to allow publishing using the maven-publish plugin
-// This is the preferred method to reobfuscate your jar file
-jar.finalizedBy('reobfJar')
-// However if you are in a multi-project build, dev time needs unobfed jar files, so you can delay the obfuscation until publishing by doing
-// publish.dependsOn('reobfJar')
-
-publishing {
-    publications {
-        mavenJava(MavenPublication) {
-            artifact jar
-
-            // Define groupId, artifactId, and version
-            groupId = mod_group_id
-            artifactId = mod_id
-            version = pub_version
-        }
-    }
     repositories {
         mavenLocal()
+
+
+        maven { url "https://maven.parchmentmc.org" }
+
         maven {
-            url "file://${project.projectDir}/mcmodsrepo"
+            url = "https://www.cursemaven.com"
+            allowInsecureProtocol = true
+        }
+
+        maven {
+            url "https://maven.firstdarkdev.xyz/snapshots"
+        }
+        maven { url 'https://jitpack.io' }
+
+        maven {
+            name = "TerraformersMC"
+            url = "https://maven.terraformersmc.com/"
+        }
+        maven {
+            name = 'Ladysnake Mods'
+            url = 'https://maven.ladysnake.org/releases'
+        }
+        maven {
+            url = 'https://maven.neoforged.net'
+        }
+
+        repositories {
+            maven { url "https://api.modrinth.com/maven" }
+        }
+
+        maven {
+            // location of the maven that hosts JEI files since January 2023
+            name = "Jared's maven"
+            url = "https://maven.blamejared.com/"
+        }
+        maven {
+            // location of the maven for Registrate and Flywheel
+            name = 'tterrag maven'
+            url = 'https://maven.tterrag.com'
         }
     }
-}
 
-tasks.withType(JavaCompile).configureEach {
-    options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
+    tasks.withType(JavaCompile) {
+        options.encoding = "UTF-8"
+        options.release = 17
+    }
+
+    java {
+        withSourcesJar()
+    }
+
+    task testTrimChangelog {
+        doLast {
+            // Read the content of the CHANGELOG.md file from the project root
+            def changelogFile = file("${rootProject.projectDir}/CHANGELOG.md")
+            def changelogText = changelogFile.text
+
+            // Call the trimChangelog function
+            def result = trimChangelog(changelogText)
+
+            // Print the result to the console
+            println(result)
+        }
+    }
+
+    jar {
+        manifest {
+            attributes([
+                    'Specification-Title'     : mod_name,
+                    'Specification-Vendor'    : mod_authors,
+                    'Specification-Version'   : mod_version,
+                    'Implementation-Title'    : project.name,
+                    'Implementation-Version'  : mod_version,
+                    'Implementation-Vendor'   : mod_authors,
+                    'Implementation-Timestamp': new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
+                    'Timestamp'               : System.currentTimeMillis(),
+                    'Built-On-Java'           : "${System.getProperty('java.vm.version')} (${System.getProperty('java.vm.vendor')})",
+                    'Build-On-Minecraft'      : minecraft_version
+            ])
+        }
+    }
 }

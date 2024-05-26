@@ -1,22 +1,22 @@
 # Change Log
 
-### 0.3.0 (in progress)
+### 1.0.0 (in progress)
 #### Features
+- Complete overhaul for Multi-loader support
 - Added support for Fabric Mod Loader
-- Added new BlockStates for Capital Block, they can now connect to each other like stairs
-- Added new BlockStates for Window Block and Half Window Block:
-     - Click with an Arch Block to add an arched top
+- Overhauled Arch Blocks:
+  - Adjusted placement/update logic
+  - Re-designed models
+- Overhauled Balustrade Blocks:
+  - Balustrade Blocks can now connect to each other like walls
+  - Re-designed models
+- Overhauled Capital Blocks:
+  - Capital Blocks can now connect to each other like stairs
+  - Re-designed models
+- Overhauled Window and Half Window Blocks:
+  - Click with an Arch Block to add an arched top
 
 [//]: # (     - Click with a Glass Pane to add a glass pane)
-
-#### Bugfixes
-- Fixed minecraft:mineable - shovel tags
-
-
-### 0.2.5 (in progress)
-#### Features
-- Added additional states to Capital Block to allow connection with neighboring Capital Blocks
-
 
 #### Bugfixes
 - Fixed minecraft:mineable - shovel tags
