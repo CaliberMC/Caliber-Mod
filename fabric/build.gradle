@@ -32,9 +32,9 @@ dependencies {
     modImplementation "net.fabricmc:fabric-loader:${rootProject.fabric_loader_version}"
     modApi "net.fabricmc.fabric-api:fabric-api:${rootProject.fabric_api_version}+${rootProject.minecraft_version}"
 
-    modImplementation("com.calibermc.caliberlib:caliberlib-fabric:${rootProject.caliber_lib_version}")
-    modImplementation("com.calibermc.buildify:buildify-fabric:${rootProject.buildify_version}")
-    modCompileOnly("curse.maven:selene-499980:5201141")
+    modImplementation("com.calibermc.caliberlib:caliberlib-fabric:${rootProject.caliber_lib_version}-${rootProject.minecraft_version}")
+    modImplementation("com.calibermc.buildify:buildify-fabric:${rootProject.buildify_version}-${rootProject.minecraft_version}")
+    modCompileOnly("curse.maven:selene-499980:5370700")
 
     include(implementation(annotationProcessor("io.github.llamalad7:mixinextras-fabric:${mixin_extras_version}")))
     annotationProcessor 'net.fabricmc:sponge-mixin:0.12.5+mixin.0.8.5'

@@ -11,9 +11,9 @@ dependencies {
     // Do NOT use other classes from fabric loader
     modImplementation "net.fabricmc:fabric-loader:${rootProject.fabric_loader_version}"
 
-    modImplementation("curse.maven:selene-499980:5201141")
-    modImplementation("com.calibermc.caliberlib:caliberlib-common:${rootProject.caliber_lib_version}")
-    modImplementation("com.calibermc.buildify:buildify-common:${rootProject.buildify_version}")
+    modImplementation("curse.maven:selene-499980:5370700")
+    modImplementation("com.calibermc.caliberlib:caliberlib-common:${rootProject.caliber_lib_version}-${rootProject.minecraft_version}")
+    modImplementation("com.calibermc.buildify:buildify-common:${rootProject.buildify_version}-${rootProject.minecraft_version}")
 
 
     annotationProcessor("com.github.LlamaLad7:MixinExtras:${mixin_extras_version}")

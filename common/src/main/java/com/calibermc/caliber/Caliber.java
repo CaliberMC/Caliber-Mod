@@ -51,12 +51,12 @@ public class Caliber {
             registerResources("biomesoplenty");
         }
 
-        if (ModCompats.CHIPPED) {
-            ChippedItems.init();
-            ChippedBlocks.init();
-            ChippedBlocks.printBlockCounts();
-            registerResources("chipped");
-        }
+//        if (ModCompats.CHIPPED) {
+//            ChippedItems.init();
+//            ChippedBlocks.init();
+//            ChippedBlocks.printBlockCounts();
+//            registerResources("chipped");
+//        }
 
         if (ModCompats.CREATE) {
             CreateItems.init();

@@ -37,6 +37,14 @@ subprojects {
         silentMojangMappingsLicense()
     }
 
+    def generatedResources = file("src/generated")
+
+    sourceSets {
+        main {
+            resources.srcDir generatedResources
+        }
+    }
+
 
     dependencies {
         minecraft "com.mojang:minecraft:${rootProject.minecraft_version}"
@@ -117,14 +125,6 @@ allprojects {
     }
 
     group = rootProject.mod_group_id
-
-    def generatedResources = file("src/generated")
-
-    sourceSets {
-        main {
-            resources.srcDir generatedResources
-        }
-    }
 
     repositories {
         mavenLocal()

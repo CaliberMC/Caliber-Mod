@@ -1,9 +1,6 @@
 package com.calibermc.caliber.forge.data.datagen;
 
 import com.calibermc.caliber.Caliber;
-import com.calibermc.caliber.compat.block.BiomesOPlentyBlocks;
-import com.calibermc.caliber.compat.block.CreateBlocks;
-import com.calibermc.caliber.compat.block.RegionsUnexploredBlocks;
 import com.calibermc.caliber.forge.data.datagen.models.CaliberBlockStateProvider;
 import com.calibermc.caliber.forge.data.datagen.models.CaliberItemModelProvider;
 import com.calibermc.caliber.forge.data.datagen.recipes.CaliberRecipeProvider;
@@ -13,19 +10,14 @@ import com.calibermc.caliber.compat.ModCompats;
 import com.calibermc.caliber.forge.data.datagen.tags.CaliberBlockTagProvider;
 import com.calibermc.caliber.forge.data.datagen.tags.CaliberItemTagProvider;
 import com.calibermc.caliberlib.forge.data.datagen.ModBlockStateProvider;
-import com.calibermc.caliberlib.forge.data.datagen.ModBlockTagProvider;
 import com.calibermc.caliberlib.forge.data.datagen.ModItemModelProvider;
-import com.calibermc.caliberlib.forge.data.datagen.ModLootTableProvider;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
-import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.mehvahdjukaar.moonlight.api.misc.RegSupplier;
-import org.jetbrains.annotations.NotNull;
 
 import java.util.concurrent.CompletableFuture;
 

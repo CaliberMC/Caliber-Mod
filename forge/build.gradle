@@ -38,12 +38,11 @@ configurations {
 dependencies {
     forge "net.minecraftforge:forge:${rootProject.minecraft_version}-${rootProject.forge_version}"
 
-    modImplementation("com.calibermc.caliberlib:caliberlib-forge:${rootProject.caliber_lib_version}")
-    //modCompileOnly("com.calibermc.caliberlib:caliberlib-forge:${rootProject.caliber_lib_version}")
-    modImplementation("com.calibermc.buildify:buildify-forge:${rootProject.buildify_version}")
+    modImplementation("com.calibermc.caliberlib:caliberlib-forge:${rootProject.caliber_lib_version}-${rootProject.minecraft_version}")
+    //modCompileOnly("com.calibermc.caliberlib:caliberlib-forge:${rootProject.caliber_lib_version}-${rootProject.minecraft_version}")
+    modImplementation("com.calibermc.buildify:buildify-forge:${rootProject.buildify_version}-${rootProject.minecraft_version}")
 
-    //modImplementation("com.calibermc.caliber:caliber:${caliber_version}-${minecraft_version}") // maven local
-    modImplementation("curse.maven:selene-499980:5310094")
+    modImplementation("curse.maven:selene-499980:5370702")
 
     implementation(annotationProcessor("io.github.llamalad7:mixinextras-common:${mixin_extras_version}"))
     implementation("io.github.llamalad7:mixinextras-forge:${mixin_extras_version}")
@@ -52,6 +51,10 @@ dependencies {
     modCompileOnly "curse.maven:terrablender-563928:4573003"
     modCompileOnly "curse.maven:biomesoplenty-220318:4764804"
     modCompileOnly "curse.maven:regions-unexplored-659110:5151869"
+
+    implementation 'org.jetbrains:annotations:24.1.0'
+//    forgeRuntimeLibrary "com.google.code.gson:gson:2.10!!"
+//    forgeRuntimeLibrary "org.lwjgl:lwjgl-glfw:3.3.1"
 
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionForge")) { transitive = false }

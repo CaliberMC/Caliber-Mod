@@ -61,9 +61,9 @@ versionRange="${create_version_range}"
 ordering="AFTER"
 side="BOTH"
 
-[[dependencies."${mod_id}"]]
-modId="chipped"
-mandatory=false
-versionRange="${chipped_version_range}"
-ordering="AFTER"
-side="BOTH"
+#[[dependencies."${mod_id}"]]
+#modId="chipped"
+#mandatory=false
+#versionRange="${chipped_version_range}"
+#ordering="AFTER"
+#side="BOTH"
