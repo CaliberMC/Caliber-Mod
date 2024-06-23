@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "create:polished_cut_granite"
-  },
-  "result": "create:polished_cut_granite_arch_large_half"
-}

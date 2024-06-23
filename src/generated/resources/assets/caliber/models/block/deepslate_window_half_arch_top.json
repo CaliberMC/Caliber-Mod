@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/window_half_arch_top",
-  "textures": {
-    "bottom": "minecraft:block/deepslate",
-    "side": "minecraft:block/deepslate",
-    "top": "minecraft:block/deepslate"
-  }
-}

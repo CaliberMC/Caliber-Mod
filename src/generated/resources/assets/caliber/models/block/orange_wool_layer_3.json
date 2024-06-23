@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/slab_layer_3",
-  "textures": {
-    "bottom": "minecraft:block/orange_wool",
-    "side": "minecraft:block/orange_wool",
-    "top": "minecraft:block/orange_wool"
-  }
-}

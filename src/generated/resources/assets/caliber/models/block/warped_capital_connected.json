@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/capital_connected",
-  "textures": {
-    "bottom": "minecraft:block/warped_planks",
-    "side": "minecraft:block/warped_planks",
-    "top": "minecraft:block/warped_planks"
-  }
-}

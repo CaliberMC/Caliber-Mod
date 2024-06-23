@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/pillar_layer_3",
-  "textures": {
-    "bottom": "minecraft:block/dark_oak_planks",
-    "side": "minecraft:block/dark_oak_planks",
-    "top": "minecraft:block/dark_oak_planks"
-  }
-}

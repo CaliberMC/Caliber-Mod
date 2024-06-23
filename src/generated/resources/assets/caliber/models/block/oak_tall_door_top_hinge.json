@@ -1,6 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/door_top_rh",
-  "textures": {
-    "top": "caliber:block/oak_tall_door_top"
-  }
-}

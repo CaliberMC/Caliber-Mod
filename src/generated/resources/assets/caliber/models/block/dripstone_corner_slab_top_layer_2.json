@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/corner_slab_top_layer_2",
-  "textures": {
-    "bottom": "minecraft:block/dripstone_block",
-    "side": "minecraft:block/dripstone_block",
-    "top": "minecraft:block/dripstone_block"
-  }
-}

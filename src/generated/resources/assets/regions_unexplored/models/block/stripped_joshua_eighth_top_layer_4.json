@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/eighth_top_layer_4",
-  "textures": {
-    "bottom": "regions_unexplored:block/stripped_joshua_log",
-    "side": "regions_unexplored:block/stripped_joshua_log",
-    "top": "regions_unexplored:block/stripped_joshua_log"
-  }
-}

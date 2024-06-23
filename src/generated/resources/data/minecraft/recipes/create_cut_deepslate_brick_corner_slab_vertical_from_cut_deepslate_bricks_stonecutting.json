@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 5,
-  "ingredient": {
-    "item": "create:cut_deepslate_bricks"
-  },
-  "result": "create:cut_deepslate_brick_corner_slab_vertical"
-}

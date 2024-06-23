@@ -40,7 +40,6 @@ public class Caliber {
         CaliberItems.init();
         CaliberBlocks.init();
         CaliberBlocks.printBlockCounts();
-
         registerResources("caliber");
 
         // COMPAT // || DataGenUtil.isDataGen
@@ -80,13 +79,18 @@ public class Caliber {
 
         CaliberNetworking.init();
         CaliberBlocks.printBlockCounts();
-        BuildifyBlockPicker.init();
 
 
         CaliberClientConfigs.init();
         CaliberCommonConfigs.init();
         RegHelper.addCommandRegistration((d, c, s) -> CaliberCommands.register(d));
+        PlatHelper.addCommonSetup(Caliber::commonSetup);
     }
+
+    private static void commonSetup() {
+        BuildifyBlockPicker.init();
+    }
+
 
     private static void registerResources(String modid) {
         if (PlatHelper.getPhysicalSide().isClient()) {

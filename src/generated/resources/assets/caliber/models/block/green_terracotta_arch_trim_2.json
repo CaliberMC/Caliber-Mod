@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/arch_trim_2",
-  "textures": {
-    "bottom": "minecraft:block/green_terracotta",
-    "side": "minecraft:block/green_terracotta",
-    "top": "minecraft:block/green_terracotta"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/capital_top_end",
-  "textures": {
-    "bottom": "minecraft:block/prismarine_bricks",
-    "side": "minecraft:block/prismarine_bricks",
-    "top": "minecraft:block/prismarine_bricks"
-  }
-}

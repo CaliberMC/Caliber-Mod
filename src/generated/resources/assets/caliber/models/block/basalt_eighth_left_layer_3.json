@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/eighth_left_layer_3",
-  "textures": {
-    "bottom": "minecraft:block/basalt_top",
-    "side": "minecraft:block/basalt_side",
-    "top": "minecraft:block/basalt_top"
-  }
-}

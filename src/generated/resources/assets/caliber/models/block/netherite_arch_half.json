@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/arch_half",
-  "textures": {
-    "bottom": "minecraft:block/netherite_block",
-    "side": "minecraft:block/netherite_block",
-    "top": "minecraft:block/netherite_block"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/corner_slab_vertical_top_left_layer_1",
-  "textures": {
-    "bottom": "biomesoplenty:block/mahogany_planks",
-    "side": "biomesoplenty:block/mahogany_planks",
-    "top": "biomesoplenty:block/mahogany_planks"
-  }
-}

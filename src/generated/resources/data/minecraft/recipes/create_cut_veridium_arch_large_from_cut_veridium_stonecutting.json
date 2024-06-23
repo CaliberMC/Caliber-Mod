@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "create:cut_veridium"
-  },
-  "result": "create:cut_veridium_arch_large"
-}

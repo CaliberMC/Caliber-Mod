@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/balustrade_connected",
-  "textures": {
-    "bottom": "minecraft:block/obsidian",
-    "side": "minecraft:block/obsidian",
-    "top": "minecraft:block/obsidian"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/window_half_arch_top",
-  "textures": {
-    "bottom": "minecraft:block/gilded_blackstone",
-    "side": "minecraft:block/gilded_blackstone",
-    "top": "minecraft:block/gilded_blackstone"
-  }
-}

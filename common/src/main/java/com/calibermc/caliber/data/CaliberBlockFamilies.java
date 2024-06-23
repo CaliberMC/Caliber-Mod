@@ -31,7 +31,7 @@ public class CaliberBlockFamilies {
             .slab(Blocks.POLISHED_ANDESITE_SLAB)
             .stairs(Blocks.POLISHED_ANDESITE_STAIRS)
             .getFamily();
-    
+
     /* Basalt */
     public static final ModBlockFamily BASALT = familyBuilder(Blocks.BASALT)
             .fromManager(CaliberBlocks.BASALT)
@@ -42,7 +42,7 @@ public class CaliberBlockFamilies {
     public static final ModBlockFamily POLISHED_BASALT = familyBuilder(Blocks.POLISHED_BASALT)
             .fromManager(CaliberBlocks.POLISHED_BASALT)
             .getFamily();
-    
+
     /* Blackstone */
     public static final ModBlockFamily BLACKSTONE = familyBuilder(Blocks.BLACKSTONE)
             .fromManager(CaliberBlocks.BLACKSTONE)
@@ -80,12 +80,12 @@ public class CaliberBlockFamilies {
             .stairs(Blocks.BRICK_STAIRS)
             .wall(Blocks.BRICK_WALL)
             .getFamily();
-    
+
     /* Calcite */
     public static final ModBlockFamily CALCITE = familyBuilder(Blocks.CALCITE)
             .fromManager(CaliberBlocks.CALCITE)
             .getFamily();
-    
+
     /* Deepslate */
     public static final ModBlockFamily DEEPSLATE = familyBuilder(Blocks.DEEPSLATE)
             .fromManager(CaliberBlocks.DEEPSLATE)
@@ -124,7 +124,7 @@ public class CaliberBlockFamilies {
             .stairs(Blocks.POLISHED_DEEPSLATE_STAIRS)
             .wall(Blocks.POLISHED_DEEPSLATE_WALL)
             .getFamily();
-    
+
     /* Diorite */
     public static final ModBlockFamily DIORITE = familyBuilder(Blocks.DIORITE)
             .fromManager(CaliberBlocks.DIORITE)
@@ -137,12 +137,12 @@ public class CaliberBlockFamilies {
             .slab(Blocks.POLISHED_DIORITE_SLAB)
             .stairs(Blocks.POLISHED_DIORITE_STAIRS)
             .getFamily();
-    
+
     /* Dripstone */
     public static final ModBlockFamily DRIPSTONE = familyBuilder(Blocks.DRIPSTONE_BLOCK)
             .fromManager(CaliberBlocks.DRIPSTONE)
             .getFamily();
-    
+
     /* End Stone */
     public static final ModBlockFamily END_STONE = familyBuilder(Blocks.END_STONE)
             .fromManager(CaliberBlocks.END_STONE)
@@ -166,7 +166,7 @@ public class CaliberBlockFamilies {
             .slab(Blocks.POLISHED_GRANITE_SLAB)
             .stairs(Blocks.POLISHED_GRANITE_STAIRS)
             .getFamily();
-    
+
     /* Mud Bricks */
     public static final ModBlockFamily MUD_BRICKS = familyBuilder(Blocks.MUD_BRICKS)
             .fromManager(CaliberBlocks.MUD_BRICK)
@@ -174,12 +174,12 @@ public class CaliberBlockFamilies {
             .stairs(Blocks.MUD_BRICK_STAIRS)
             .wall(Blocks.MUD_BRICK_WALL)
             .getFamily();
-    
+
     /* Netherite */
     public static final ModBlockFamily NETHERITE = familyBuilder(Blocks.NETHERITE_BLOCK)
             .fromManager(CaliberBlocks.NETHERITE)
             .getFamily();
-    
+
     /* Nether Bricks */
     public static final ModBlockFamily NETHER_BRICKS = familyBuilder(Blocks.NETHER_BRICKS)
             .fromManager(CaliberBlocks.NETHER_BRICK)
@@ -193,12 +193,12 @@ public class CaliberBlockFamilies {
             .stairs(Blocks.RED_NETHER_BRICK_STAIRS)
             .wall(Blocks.RED_NETHER_BRICK_WALL)
             .getFamily();
-    
+
     /* Obsidian */
     public static final ModBlockFamily OBSIDIAN = familyBuilder(Blocks.OBSIDIAN)
             .fromManager(CaliberBlocks.OBSIDIAN)
             .getFamily();
-    
+
     /* Prismarine */
     public static final ModBlockFamily PRISMARINE = familyBuilder(Blocks.PRISMARINE)
             .fromManager(CaliberBlocks.PRISMARINE)
@@ -216,7 +216,7 @@ public class CaliberBlockFamilies {
             .slab(Blocks.DARK_PRISMARINE_SLAB)
             .stairs(Blocks.DARK_PRISMARINE_STAIRS)
             .getFamily();
-    
+
     /* Purpur */
     public static final ModBlockFamily PURPUR = familyBuilder(Blocks.PURPUR_BLOCK)
             .fromManager(CaliberBlocks.PURPUR)
@@ -564,7 +564,7 @@ public class CaliberBlockFamilies {
     public static final ModBlockFamily YELLOW_CONCRETE = familyBuilder(Blocks.YELLOW_CONCRETE)
             .fromManager(CaliberBlocks.YELLOW_CONCRETE)
             .getFamily();
-    
+
     /* Terracotta */
     public static final ModBlockFamily TERRACOTTA = familyBuilder(Blocks.TERRACOTTA)
             .fromManager(CaliberBlocks.TERRACOTTA)
@@ -617,7 +617,7 @@ public class CaliberBlockFamilies {
     public static final ModBlockFamily YELLOW_TERRACOTTA = familyBuilder(Blocks.YELLOW_TERRACOTTA)
             .fromManager(CaliberBlocks.YELLOW_TERRACOTTA)
             .getFamily();
-    
+
     /* Wool */
     public static final ModBlockFamily BLACK_WOOL = familyBuilder(Blocks.BLACK_WOOL)
             .fromManager(CaliberBlocks.BLACK_WOOL)

@@ -1,0 +1,530 @@
+{
+  "values": [
+    "caliber:acacia_window_half",
+    "caliber:andesite_window_half",
+    "caliber:bamboo_mosaic_window_half",
+    "caliber:bamboo_window_half",
+    "caliber:basalt_window_half",
+    "caliber:birch_window_half",
+    "caliber:black_concrete_window_half",
+    "caliber:black_terracotta_window_half",
+    "caliber:black_wool_window_half",
+    "caliber:blackstone_window_half",
+    "caliber:blue_concrete_window_half",
+    "caliber:blue_terracotta_window_half",
+    "caliber:blue_wool_window_half",
+    "caliber:brick_window_half",
+    "caliber:brown_concrete_window_half",
+    "caliber:brown_terracotta_window_half",
+    "caliber:brown_wool_window_half",
+    "caliber:calcite_window_half",
+    "caliber:cherry_window_half",
+    "caliber:chiseled_deepslate_window_half",
+    "caliber:chiseled_polished_blackstone_window_half",
+    "caliber:chiseled_red_sandstone_window_half",
+    "caliber:chiseled_sandstone_window_half",
+    "caliber:chiseled_stone_brick_window_half",
+    "caliber:cobbled_deepslate_window_half",
+    "caliber:cobblestone_window_half",
+    "caliber:cracked_deepslate_brick_window_half",
+    "caliber:cracked_deepslate_tile_window_half",
+    "caliber:cracked_polished_blackstone_brick_window_half",
+    "caliber:cracked_stone_brick_window_half",
+    "caliber:crimson_window_half",
+    "caliber:cut_red_sandstone_window_half",
+    "caliber:cut_sandstone_window_half",
+    "caliber:cyan_concrete_window_half",
+    "caliber:cyan_terracotta_window_half",
+    "caliber:cyan_wool_window_half",
+    "caliber:dark_oak_window_half",
+    "caliber:dark_prismarine_window_half",
+    "caliber:deepslate_window_half",
+    "caliber:deepslate_brick_window_half",
+    "caliber:deepslate_tile_window_half",
+    "caliber:diorite_window_half",
+    "caliber:dripstone_window_half",
+    "caliber:end_stone_window_half",
+    "caliber:end_stone_brick_window_half",
+    "caliber:gilded_blackstone_window_half",
+    "caliber:granite_window_half",
+    "caliber:gray_concrete_window_half",
+    "caliber:gray_terracotta_window_half",
+    "caliber:gray_wool_window_half",
+    "caliber:green_concrete_window_half",
+    "caliber:green_terracotta_window_half",
+    "caliber:green_wool_window_half",
+    "caliber:jungle_window_half",
+    "caliber:light_blue_concrete_window_half",
+    "caliber:light_blue_terracotta_window_half",
+    "caliber:light_blue_wool_window_half",
+    "caliber:light_gray_concrete_window_half",
+    "caliber:light_gray_terracotta_window_half",
+    "caliber:light_gray_wool_window_half",
+    "caliber:lime_concrete_window_half",
+    "caliber:lime_terracotta_window_half",
+    "caliber:lime_wool_window_half",
+    "caliber:magenta_concrete_window_half",
+    "caliber:magenta_terracotta_window_half",
+    "caliber:magenta_wool_window_half",
+    "caliber:mangrove_window_half",
+    "caliber:mossy_cobblestone_window_half",
+    "caliber:mossy_stone_brick_window_half",
+    "caliber:mud_brick_window_half",
+    "caliber:nether_brick_window_half",
+    "caliber:netherite_window_half",
+    "caliber:oak_window_half",
+    "caliber:obsidian_window_half",
+    "caliber:orange_concrete_window_half",
+    "caliber:orange_terracotta_window_half",
+    "caliber:orange_wool_window_half",
+    "caliber:pink_concrete_window_half",
+    "caliber:pink_terracotta_window_half",
+    "caliber:pink_wool_window_half",
+    "caliber:polished_andesite_window_half",
+    "caliber:polished_basalt_window_half",
+    "caliber:polished_blackstone_window_half",
+    "caliber:polished_blackstone_brick_window_half",
+    "caliber:polished_deepslate_window_half",
+    "caliber:polished_diorite_window_half",
+    "caliber:polished_granite_window_half",
+    "caliber:prismarine_window_half",
+    "caliber:prismarine_brick_window_half",
+    "caliber:purple_concrete_window_half",
+    "caliber:purple_terracotta_window_half",
+    "caliber:purple_wool_window_half",
+    "caliber:purpur_block_window_half",
+    "caliber:purpur_pillar_window_half",
+    "caliber:quartz_window_half",
+    "caliber:quartz_brick_window_half",
+    "caliber:red_concrete_window_half",
+    "caliber:red_nether_brick_window_half",
+    "caliber:red_sandstone_window_half",
+    "caliber:red_terracotta_window_half",
+    "caliber:red_wool_window_half",
+    "caliber:sandstone_window_half",
+    "caliber:smooth_basalt_window_half",
+    "caliber:smooth_quartz_window_half",
+    "caliber:smooth_red_sandstone_window_half",
+    "caliber:smooth_sandstone_window_half",
+    "caliber:smooth_stone_window_half",
+    "caliber:spruce_window_half",
+    "caliber:stone_window_half",
+    "caliber:stone_brick_window_half",
+    "caliber:stripped_acacia_window_half",
+    "caliber:stripped_bamboo_window_half",
+    "caliber:stripped_birch_window_half",
+    "caliber:stripped_cherry_window_half",
+    "caliber:stripped_crimson_window_half",
+    "caliber:stripped_dark_oak_window_half",
+    "caliber:stripped_jungle_window_half",
+    "caliber:stripped_mangrove_window_half",
+    "caliber:stripped_oak_window_half",
+    "caliber:stripped_spruce_window_half",
+    "caliber:stripped_warped_window_half",
+    "caliber:terracotta_window_half",
+    "caliber:tuff_window_half",
+    "caliber:warped_window_half",
+    "caliber:white_concrete_window_half",
+    "caliber:white_terracotta_window_half",
+    "caliber:white_wool_window_half",
+    "caliber:yellow_concrete_window_half",
+    "caliber:yellow_terracotta_window_half",
+    "caliber:yellow_wool_window_half",
+    {
+      "id": "biomesoplenty:black_sandstone_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:brimstone_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:brimstone_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_black_sandstone_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_brimstone_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_orange_sandstone_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_white_sandstone_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_black_sandstone_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_orange_sandstone_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_white_sandstone_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:dead_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:hellbark_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_black_sandstone_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_orange_sandstone_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_white_sandstone_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_dead_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_fir_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_hellbark_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_jacaranda_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_magic_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_mahogany_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_palm_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_umbran_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_willow_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:argillite_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:baobab_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:black_painted_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blackwood_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_bioshroom_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_painted_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brimwood_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brown_painted_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_block_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cobalt_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cyan_painted_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cypress_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:dead_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:eucalyptus_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:gray_painted_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:green_bioshroom_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:green_painted_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:joshua_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:larch_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_blue_painted_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_gray_painted_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:lime_painted_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magenta_painted_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magnolia_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:maple_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mauve_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mossy_stone_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:orange_painted_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:palm_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_bioshroom_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_painted_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:polished_chalk_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:purple_painted_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:red_painted_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redwood_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:socotra_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_baobab_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blackwood_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blue_bioshroom_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_brimwood_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cobalt_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cypress_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_dead_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_eucalyptus_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_green_bioshroom_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_joshua_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_kapok_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_larch_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_magnolia_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_maple_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_mauve_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_palm_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pine_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pink_bioshroom_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_redwood_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_socotra_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_willow_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_yellow_bioshroom_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:white_painted_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:willow_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_bioshroom_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_painted_window_half",
+      "required": false
+    }
+  ]
+}

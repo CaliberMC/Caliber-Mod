@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/eighth_top_layer_4",
-  "textures": {
-    "bottom": "biomesoplenty:block/black_sandstone_top",
-    "side": "biomesoplenty:block/black_sandstone_top",
-    "top": "biomesoplenty:block/black_sandstone_top"
-  }
-}

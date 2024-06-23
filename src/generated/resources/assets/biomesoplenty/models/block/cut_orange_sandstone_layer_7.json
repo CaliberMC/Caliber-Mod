@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/slab_layer_7",
-  "textures": {
-    "bottom": "biomesoplenty:block/orange_sandstone_top",
-    "side": "biomesoplenty:block/cut_orange_sandstone",
-    "top": "biomesoplenty:block/orange_sandstone_top"
-  }
-}

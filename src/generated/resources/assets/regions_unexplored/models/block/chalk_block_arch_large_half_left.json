@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/arch_large_half_left",
-  "textures": {
-    "bottom": "regions_unexplored:block/chalk",
-    "side": "regions_unexplored:block/chalk",
-    "top": "regions_unexplored:block/chalk"
-  }
-}

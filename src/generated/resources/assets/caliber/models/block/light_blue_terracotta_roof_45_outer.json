@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/roof_45_outer",
-  "textures": {
-    "bottom": "minecraft:block/light_blue_terracotta",
-    "side": "minecraft:block/light_blue_terracotta",
-    "top": "minecraft:block/light_blue_terracotta"
-  }
-}

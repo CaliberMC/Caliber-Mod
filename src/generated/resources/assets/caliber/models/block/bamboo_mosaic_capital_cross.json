@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/capital_cross",
-  "textures": {
-    "bottom": "minecraft:block/bamboo_mosaic",
-    "side": "minecraft:block/bamboo_mosaic",
-    "top": "minecraft:block/bamboo_mosaic"
-  }
-}

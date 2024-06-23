@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/capital_connected",
-  "textures": {
-    "bottom": "minecraft:block/diorite",
-    "side": "minecraft:block/diorite",
-    "top": "minecraft:block/diorite"
-  }
-}

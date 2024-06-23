@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/beam_diagonal_2_avn",
-  "textures": {
-    "bottom": "regions_unexplored:block/stripped_baobab_log",
-    "side": "regions_unexplored:block/stripped_baobab_log",
-    "top": "regions_unexplored:block/stripped_baobab_log"
-  }
-}

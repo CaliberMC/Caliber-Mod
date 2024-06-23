@@ -1,6 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/door_middle",
-  "textures": {
-    "middle": "biomesoplenty:block/umbran_tall_door_middle"
-  }
-}

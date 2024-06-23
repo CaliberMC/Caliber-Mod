@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "create:small_crimsite_brick_layer_vertical"
-  },
-  "result": "create:small_crimsite_brick_layer"
-}

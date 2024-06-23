@@ -1,6 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/door_middle_rh",
-  "textures": {
-    "middle": "caliber:block/mangrove_tall_door_middle"
-  }
-}

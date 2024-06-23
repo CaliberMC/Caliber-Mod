@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/corner_slab_vertical_top_layer_1",
-  "textures": {
-    "bottom": "regions_unexplored:block/palm_planks",
-    "side": "regions_unexplored:block/palm_planks",
-    "top": "regions_unexplored:block/palm_planks"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/corner_slab_vertical_left_layer_2",
-  "textures": {
-    "bottom": "minecraft:block/dark_prismarine",
-    "side": "minecraft:block/dark_prismarine",
-    "top": "minecraft:block/dark_prismarine"
-  }
-}

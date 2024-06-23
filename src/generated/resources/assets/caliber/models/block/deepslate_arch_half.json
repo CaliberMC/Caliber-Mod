@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/arch_half",
-  "textures": {
-    "bottom": "minecraft:block/deepslate",
-    "side": "minecraft:block/deepslate",
-    "top": "minecraft:block/deepslate"
-  }
-}

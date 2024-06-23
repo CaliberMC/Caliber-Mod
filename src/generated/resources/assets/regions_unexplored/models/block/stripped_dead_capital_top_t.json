@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/capital_top_t",
-  "textures": {
-    "bottom": "regions_unexplored:block/stripped_dead_log",
-    "side": "regions_unexplored:block/stripped_dead_log",
-    "top": "regions_unexplored:block/stripped_dead_log"
-  }
-}

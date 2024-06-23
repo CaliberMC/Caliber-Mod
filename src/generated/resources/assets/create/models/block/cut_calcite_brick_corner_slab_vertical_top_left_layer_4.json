@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/corner_slab_vertical_top_left_layer_4",
-  "textures": {
-    "bottom": "create:block/palettes/stone_types/brick/calcite_cut_brick",
-    "side": "create:block/palettes/stone_types/brick/calcite_cut_brick",
-    "top": "create:block/palettes/stone_types/brick/calcite_cut_brick"
-  }
-}

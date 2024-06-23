@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/inv/roof_67_top_inventory",
-  "textures": {
-    "bottom": "biomesoplenty:block/magic_planks",
-    "side": "biomesoplenty:block/magic_planks",
-    "top": "biomesoplenty:block/magic_planks"
-  }
-}

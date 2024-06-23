@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "create:small_diorite_brick_layer"
-  },
-  "result": "create:small_diorite_brick_layer_vertical"
-}

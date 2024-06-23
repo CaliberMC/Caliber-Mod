@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 5,
-  "ingredient": {
-    "item": "create:cut_ochrum"
-  },
-  "result": "create:cut_ochrum_quarter_vertical"
-}

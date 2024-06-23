@@ -21,6 +21,11 @@ loom {
         create("data") {
             data()
             programArgs("--all", "--mod", "caliber")
+            programArgs("--existing-mod", "caliberlib")
+            programArgs("--existing-mod", "biomesoplenty")
+            programArgs("--existing-mod", "regions_unexplored")
+            programArgs("--existing-mod", "create")
+            programArgs("--existing-mod", "chipped")
             programArgs("--output", project(":common").file("src/main/generated/resources").absolutePath)
             programArgs("--existing", project(":common").file("src/main/resources").absolutePath)
         }
@@ -48,11 +53,10 @@ dependencies {
     implementation("io.github.llamalad7:mixinextras-forge:${mixin_extras_version}")
     annotationProcessor 'net.fabricmc:sponge-mixin:0.12.5+mixin.0.8.5'
 
-    modCompileOnly "curse.maven:terrablender-563928:4573003"
-    modCompileOnly "curse.maven:biomesoplenty-220318:4764804"
-    modCompileOnly "curse.maven:regions-unexplored-659110:5151869"
+    modImplementation "curse.maven:terrablender-563928:4573003"
+    modImplementation "curse.maven:biomesoplenty-220318:4764805"
+    modImplementation "curse.maven:regions-unexplored-659110:5151869"
 
-    implementation 'org.jetbrains:annotations:24.1.0'
 //    forgeRuntimeLibrary "com.google.code.gson:gson:2.10!!"
 //    forgeRuntimeLibrary "org.lwjgl:lwjgl-glfw:3.3.1"
 

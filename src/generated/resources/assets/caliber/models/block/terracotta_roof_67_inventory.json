@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/inv/roof_67_top_inventory",
-  "textures": {
-    "bottom": "minecraft:block/terracotta",
-    "side": "minecraft:block/terracotta",
-    "top": "minecraft:block/terracotta"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/eighth_top_left_layer_2",
-  "textures": {
-    "bottom": "minecraft:block/spruce_planks",
-    "side": "minecraft:block/spruce_planks",
-    "top": "minecraft:block/spruce_planks"
-  }
-}

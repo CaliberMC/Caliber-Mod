@@ -1,6 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/door_middle_rh",
-  "textures": {
-    "middle": "biomesoplenty:block/jacaranda_tall_door_middle"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/window_arch",
-  "textures": {
-    "bottom": "minecraft:block/dark_oak_planks",
-    "side": "minecraft:block/dark_oak_planks",
-    "top": "minecraft:block/dark_oak_planks"
-  }
-}

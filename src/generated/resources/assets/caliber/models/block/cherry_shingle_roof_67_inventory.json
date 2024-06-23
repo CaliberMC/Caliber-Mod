@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/inv/roof_67_top_inventory",
-  "textures": {
-    "bottom": "minecraft:block/cherry_planks",
-    "side": "minecraft:block/cherry_planks",
-    "top": "minecraft:block/cherry_planks"
-  }
-}

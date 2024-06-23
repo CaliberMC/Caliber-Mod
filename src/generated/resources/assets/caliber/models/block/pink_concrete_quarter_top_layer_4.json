@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/quarter_top_layer_4",
-  "textures": {
-    "bottom": "minecraft:block/pink_concrete",
-    "side": "minecraft:block/pink_concrete",
-    "top": "minecraft:block/pink_concrete"
-  }
-}

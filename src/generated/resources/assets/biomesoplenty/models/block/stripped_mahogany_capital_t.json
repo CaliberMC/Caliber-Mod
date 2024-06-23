@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/capital_t",
-  "textures": {
-    "bottom": "biomesoplenty:block/stripped_mahogany_log",
-    "side": "biomesoplenty:block/stripped_mahogany_log",
-    "top": "biomesoplenty:block/stripped_mahogany_log"
-  }
-}

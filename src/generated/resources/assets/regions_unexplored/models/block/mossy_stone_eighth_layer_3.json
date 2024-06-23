@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/eighth_layer_3",
-  "textures": {
-    "bottom": "regions_unexplored:block/mossy_stone",
-    "side": "regions_unexplored:block/mossy_stone",
-    "top": "regions_unexplored:block/mossy_stone"
-  }
-}

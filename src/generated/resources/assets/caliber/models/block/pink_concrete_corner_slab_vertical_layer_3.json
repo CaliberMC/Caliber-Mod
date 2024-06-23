@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/corner_slab_vertical_layer_3",
-  "textures": {
-    "bottom": "minecraft:block/pink_concrete",
-    "side": "minecraft:block/pink_concrete",
-    "top": "minecraft:block/pink_concrete"
-  }
-}

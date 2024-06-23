@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/corner_slab_vertical_top_left_layer_3",
-  "textures": {
-    "bottom": "minecraft:block/jungle_planks",
-    "side": "minecraft:block/jungle_planks",
-    "top": "minecraft:block/jungle_planks"
-  }
-}

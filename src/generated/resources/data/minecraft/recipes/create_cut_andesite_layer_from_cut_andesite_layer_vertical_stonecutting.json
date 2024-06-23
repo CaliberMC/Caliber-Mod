@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "create:cut_andesite_layer_vertical"
-  },
-  "result": "create:cut_andesite_layer"
-}

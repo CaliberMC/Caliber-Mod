@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/beam_diagonal_2_dvm",
-  "textures": {
-    "bottom": "regions_unexplored:block/stripped_yellow_bioshroom_stem",
-    "side": "regions_unexplored:block/stripped_yellow_bioshroom_stem",
-    "top": "regions_unexplored:block/stripped_yellow_bioshroom_stem"
-  }
-}

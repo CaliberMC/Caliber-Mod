@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/arch_large_trim_right",
-  "textures": {
-    "bottom": "regions_unexplored:block/argillite",
-    "side": "regions_unexplored:block/argillite",
-    "top": "regions_unexplored:block/argillite"
-  }
-}

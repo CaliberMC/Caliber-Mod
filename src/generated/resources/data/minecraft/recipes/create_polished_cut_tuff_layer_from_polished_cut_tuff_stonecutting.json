@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 8,
-  "ingredient": {
-    "item": "create:polished_cut_tuff"
-  },
-  "result": "create:polished_cut_tuff_layer"
-}

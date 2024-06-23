@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 5,
-  "ingredient": {
-    "item": "create:polished_cut_scoria"
-  },
-  "result": "create:polished_cut_scoria_quarter_vertical"
-}

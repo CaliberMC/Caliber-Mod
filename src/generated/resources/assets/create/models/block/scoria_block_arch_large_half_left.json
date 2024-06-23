@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/arch_large_half_left",
-  "textures": {
-    "bottom": "create:block/palettes/stone_types/scoria",
-    "side": "create:block/palettes/stone_types/scoria",
-    "top": "create:block/palettes/stone_types/scoria"
-  }
-}

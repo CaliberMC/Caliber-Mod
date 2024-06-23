@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/window_half_arch_top",
-  "textures": {
-    "bottom": "minecraft:block/light_gray_terracotta",
-    "side": "minecraft:block/light_gray_terracotta",
-    "top": "minecraft:block/light_gray_terracotta"
-  }
-}

@@ -35,24 +35,24 @@ public class ModCompats {
         if (BOP) {
             blockManagerMODID.add("biomesoplenty");
         }
-        if (BYG) {
-            blockManagerMODID.add("byg");
-        }
+//        if (BYG) {
+//            blockManagerMODID.add("byg");
+//        }
 //        if (CHIPPED) {
 //            blockManagerMODID.add("chipped");
 //        }
-        if (CREATE) {
-            blockManagerMODID.add("create");
-        }
-        if (DOUBLE_DOORS) {
-            blockManagerMODID.add("doubledoors");
-        }
-        if (MANYIDEAS_DOORS) {
-            blockManagerMODID.add("manyideas_doors");
-        }
-        if (QUARK) {
-            blockManagerMODID.add("quark");
-        }
+//        if (CREATE) {
+//            blockManagerMODID.add("create");
+//        }
+//        if (DOUBLE_DOORS) {
+//            blockManagerMODID.add("doubledoors");
+//        }
+//        if (MANYIDEAS_DOORS) {
+//            blockManagerMODID.add("manyideas_doors");
+//        }
+//        if (QUARK) {
+//            blockManagerMODID.add("quark");
+//        }
         if (REGIONS_UNEXPLORED) {
             blockManagerMODID.add("regions_unexplored");
         }

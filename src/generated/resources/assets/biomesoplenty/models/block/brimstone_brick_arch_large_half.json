@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/arch_large_half",
-  "textures": {
-    "bottom": "biomesoplenty:block/brimstone_bricks",
-    "side": "biomesoplenty:block/brimstone_bricks",
-    "top": "biomesoplenty:block/brimstone_bricks"
-  }
-}

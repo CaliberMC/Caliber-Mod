@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/window_arch_top",
-  "textures": {
-    "bottom": "minecraft:block/end_stone",
-    "side": "minecraft:block/end_stone",
-    "top": "minecraft:block/end_stone"
-  }
-}

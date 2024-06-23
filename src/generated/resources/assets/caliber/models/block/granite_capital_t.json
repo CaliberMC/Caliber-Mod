@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/capital_t",
-  "textures": {
-    "bottom": "minecraft:block/granite",
-    "side": "minecraft:block/granite",
-    "top": "minecraft:block/granite"
-  }
-}

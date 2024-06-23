@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/quarter_top_layer_3",
-  "textures": {
-    "bottom": "biomesoplenty:block/stripped_dead_log",
-    "side": "biomesoplenty:block/stripped_dead_log",
-    "top": "biomesoplenty:block/stripped_dead_log"
-  }
-}

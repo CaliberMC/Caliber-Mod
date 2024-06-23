@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/window_half_middle",
-  "textures": {
-    "bottom": "biomesoplenty:block/white_sandstone_top",
-    "side": "biomesoplenty:block/cut_white_sandstone",
-    "top": "biomesoplenty:block/white_sandstone_top"
-  }
-}

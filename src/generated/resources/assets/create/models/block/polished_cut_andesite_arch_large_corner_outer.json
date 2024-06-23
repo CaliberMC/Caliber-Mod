@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/arch_large_corner_outer",
-  "textures": {
-    "bottom": "create:block/palettes/stone_types/polished/andesite_cut_polished",
-    "side": "create:block/palettes/stone_types/polished/andesite_cut_polished",
-    "top": "create:block/palettes/stone_types/polished/andesite_cut_polished"
-  }
-}

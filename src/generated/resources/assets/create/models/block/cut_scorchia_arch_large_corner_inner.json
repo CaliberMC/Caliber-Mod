@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/arch_large_corner_inner",
-  "textures": {
-    "bottom": "create:block/palettes/stone_types/cut/scorchia_cut",
-    "side": "create:block/palettes/stone_types/cut/scorchia_cut",
-    "top": "create:block/palettes/stone_types/cut/scorchia_cut"
-  }
-}

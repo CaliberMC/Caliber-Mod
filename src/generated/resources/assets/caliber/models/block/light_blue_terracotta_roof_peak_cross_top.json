@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/roof_peak_cross_top",
-  "textures": {
-    "bottom": "minecraft:block/light_blue_terracotta",
-    "side": "minecraft:block/light_blue_terracotta",
-    "top": "minecraft:block/light_blue_terracotta"
-  }
-}

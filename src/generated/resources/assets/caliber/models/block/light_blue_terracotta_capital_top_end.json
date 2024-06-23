@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/capital_top_end",
-  "textures": {
-    "bottom": "minecraft:block/light_blue_terracotta",
-    "side": "minecraft:block/light_blue_terracotta",
-    "top": "minecraft:block/light_blue_terracotta"
-  }
-}

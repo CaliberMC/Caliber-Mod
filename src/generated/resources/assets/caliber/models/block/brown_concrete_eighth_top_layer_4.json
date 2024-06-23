@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/eighth_top_layer_4",
-  "textures": {
-    "bottom": "minecraft:block/brown_concrete",
-    "side": "minecraft:block/brown_concrete",
-    "top": "minecraft:block/brown_concrete"
-  }
-}

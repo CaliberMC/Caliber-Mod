@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/slab_layer_6",
-  "textures": {
-    "bottom": "regions_unexplored:block/argillite",
-    "side": "regions_unexplored:block/argillite",
-    "top": "regions_unexplored:block/argillite"
-  }
-}

@@ -1,6 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/door_middle_rh",
-  "textures": {
-    "middle": "biomesoplenty:block/palm_tall_door_middle"
-  }
-}

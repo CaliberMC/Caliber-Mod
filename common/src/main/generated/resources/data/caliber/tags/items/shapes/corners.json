@@ -1,0 +1,530 @@
+{
+  "values": [
+    "caliber:acacia_corner",
+    "caliber:andesite_corner",
+    "caliber:bamboo_mosaic_corner",
+    "caliber:bamboo_corner",
+    "caliber:basalt_corner",
+    "caliber:birch_corner",
+    "caliber:black_concrete_corner",
+    "caliber:black_terracotta_corner",
+    "caliber:black_wool_corner",
+    "caliber:blackstone_corner",
+    "caliber:blue_concrete_corner",
+    "caliber:blue_terracotta_corner",
+    "caliber:blue_wool_corner",
+    "caliber:brick_corner",
+    "caliber:brown_concrete_corner",
+    "caliber:brown_terracotta_corner",
+    "caliber:brown_wool_corner",
+    "caliber:calcite_corner",
+    "caliber:cherry_corner",
+    "caliber:chiseled_deepslate_corner",
+    "caliber:chiseled_polished_blackstone_corner",
+    "caliber:chiseled_red_sandstone_corner",
+    "caliber:chiseled_sandstone_corner",
+    "caliber:chiseled_stone_brick_corner",
+    "caliber:cobbled_deepslate_corner",
+    "caliber:cobblestone_corner",
+    "caliber:cracked_deepslate_brick_corner",
+    "caliber:cracked_deepslate_tile_corner",
+    "caliber:cracked_polished_blackstone_brick_corner",
+    "caliber:cracked_stone_brick_corner",
+    "caliber:crimson_corner",
+    "caliber:cut_red_sandstone_corner",
+    "caliber:cut_sandstone_corner",
+    "caliber:cyan_concrete_corner",
+    "caliber:cyan_terracotta_corner",
+    "caliber:cyan_wool_corner",
+    "caliber:dark_oak_corner",
+    "caliber:dark_prismarine_corner",
+    "caliber:deepslate_corner",
+    "caliber:deepslate_brick_corner",
+    "caliber:deepslate_tile_corner",
+    "caliber:diorite_corner",
+    "caliber:dripstone_corner",
+    "caliber:end_stone_corner",
+    "caliber:end_stone_brick_corner",
+    "caliber:gilded_blackstone_corner",
+    "caliber:granite_corner",
+    "caliber:gray_concrete_corner",
+    "caliber:gray_terracotta_corner",
+    "caliber:gray_wool_corner",
+    "caliber:green_concrete_corner",
+    "caliber:green_terracotta_corner",
+    "caliber:green_wool_corner",
+    "caliber:jungle_corner",
+    "caliber:light_blue_concrete_corner",
+    "caliber:light_blue_terracotta_corner",
+    "caliber:light_blue_wool_corner",
+    "caliber:light_gray_concrete_corner",
+    "caliber:light_gray_terracotta_corner",
+    "caliber:light_gray_wool_corner",
+    "caliber:lime_concrete_corner",
+    "caliber:lime_terracotta_corner",
+    "caliber:lime_wool_corner",
+    "caliber:magenta_concrete_corner",
+    "caliber:magenta_terracotta_corner",
+    "caliber:magenta_wool_corner",
+    "caliber:mangrove_corner",
+    "caliber:mossy_cobblestone_corner",
+    "caliber:mossy_stone_brick_corner",
+    "caliber:mud_brick_corner",
+    "caliber:nether_brick_corner",
+    "caliber:netherite_corner",
+    "caliber:oak_corner",
+    "caliber:obsidian_corner",
+    "caliber:orange_concrete_corner",
+    "caliber:orange_terracotta_corner",
+    "caliber:orange_wool_corner",
+    "caliber:pink_concrete_corner",
+    "caliber:pink_terracotta_corner",
+    "caliber:pink_wool_corner",
+    "caliber:polished_andesite_corner",
+    "caliber:polished_basalt_corner",
+    "caliber:polished_blackstone_corner",
+    "caliber:polished_blackstone_brick_corner",
+    "caliber:polished_deepslate_corner",
+    "caliber:polished_diorite_corner",
+    "caliber:polished_granite_corner",
+    "caliber:prismarine_corner",
+    "caliber:prismarine_brick_corner",
+    "caliber:purple_concrete_corner",
+    "caliber:purple_terracotta_corner",
+    "caliber:purple_wool_corner",
+    "caliber:purpur_block_corner",
+    "caliber:purpur_pillar_corner",
+    "caliber:quartz_corner",
+    "caliber:quartz_brick_corner",
+    "caliber:red_concrete_corner",
+    "caliber:red_nether_brick_corner",
+    "caliber:red_sandstone_corner",
+    "caliber:red_terracotta_corner",
+    "caliber:red_wool_corner",
+    "caliber:sandstone_corner",
+    "caliber:smooth_basalt_corner",
+    "caliber:smooth_quartz_corner",
+    "caliber:smooth_red_sandstone_corner",
+    "caliber:smooth_sandstone_corner",
+    "caliber:smooth_stone_corner",
+    "caliber:spruce_corner",
+    "caliber:stone_corner",
+    "caliber:stone_brick_corner",
+    "caliber:stripped_acacia_corner",
+    "caliber:stripped_bamboo_corner",
+    "caliber:stripped_birch_corner",
+    "caliber:stripped_cherry_corner",
+    "caliber:stripped_crimson_corner",
+    "caliber:stripped_dark_oak_corner",
+    "caliber:stripped_jungle_corner",
+    "caliber:stripped_mangrove_corner",
+    "caliber:stripped_oak_corner",
+    "caliber:stripped_spruce_corner",
+    "caliber:stripped_warped_corner",
+    "caliber:terracotta_corner",
+    "caliber:tuff_corner",
+    "caliber:warped_corner",
+    "caliber:white_concrete_corner",
+    "caliber:white_terracotta_corner",
+    "caliber:white_wool_corner",
+    "caliber:yellow_concrete_corner",
+    "caliber:yellow_terracotta_corner",
+    "caliber:yellow_wool_corner",
+    {
+      "id": "biomesoplenty:black_sandstone_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:brimstone_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:brimstone_brick_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_black_sandstone_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_brimstone_brick_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_orange_sandstone_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_white_sandstone_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_black_sandstone_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_orange_sandstone_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_white_sandstone_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:dead_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:hellbark_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_black_sandstone_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_orange_sandstone_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_white_sandstone_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_dead_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_fir_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_hellbark_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_jacaranda_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_magic_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_mahogany_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_palm_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_umbran_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_willow_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:argillite_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:baobab_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:black_painted_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blackwood_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_bioshroom_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_painted_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brimwood_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brown_painted_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_block_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_brick_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cobalt_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cyan_painted_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cypress_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:dead_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:eucalyptus_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:gray_painted_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:green_bioshroom_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:green_painted_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:joshua_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:larch_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_blue_painted_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_gray_painted_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:lime_painted_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magenta_painted_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magnolia_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:maple_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mauve_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mossy_stone_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:orange_painted_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:palm_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_bioshroom_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_painted_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:polished_chalk_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:purple_painted_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:red_painted_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redwood_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:socotra_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_baobab_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blackwood_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blue_bioshroom_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_brimwood_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cobalt_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cypress_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_dead_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_eucalyptus_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_green_bioshroom_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_joshua_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_kapok_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_larch_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_magnolia_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_maple_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_mauve_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_palm_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pine_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pink_bioshroom_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_redwood_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_socotra_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_willow_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_yellow_bioshroom_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:white_painted_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:willow_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_bioshroom_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_painted_corner",
+      "required": false
+    }
+  ]
+}

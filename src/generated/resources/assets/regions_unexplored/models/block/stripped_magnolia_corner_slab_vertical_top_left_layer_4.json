@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/corner_slab_vertical_top_left_layer_4",
-  "textures": {
-    "bottom": "regions_unexplored:block/stripped_magnolia_log",
-    "side": "regions_unexplored:block/stripped_magnolia_log",
-    "top": "regions_unexplored:block/stripped_magnolia_log"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/quarter_top_layer_3",
-  "textures": {
-    "bottom": "regions_unexplored:block/chalk_pillar_top",
-    "side": "regions_unexplored:block/chalk_pillar",
-    "top": "regions_unexplored:block/chalk_pillar_top"
-  }
-}

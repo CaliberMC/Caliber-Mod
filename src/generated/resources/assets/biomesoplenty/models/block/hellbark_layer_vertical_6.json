@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/slab_vertical_layer_6",
-  "textures": {
-    "bottom": "biomesoplenty:block/hellbark_planks",
-    "side": "biomesoplenty:block/hellbark_planks",
-    "top": "biomesoplenty:block/hellbark_planks"
-  }
-}

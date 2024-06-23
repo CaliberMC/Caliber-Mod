@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/corner_slab_vertical_top_left_layer_4",
-  "textures": {
-    "bottom": "biomesoplenty:block/white_sandstone_top",
-    "side": "biomesoplenty:block/chiseled_white_sandstone",
-    "top": "biomesoplenty:block/white_sandstone_top"
-  }
-}

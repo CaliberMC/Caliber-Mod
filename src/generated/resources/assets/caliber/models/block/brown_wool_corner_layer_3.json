@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/corner_layer_3",
-  "textures": {
-    "bottom": "minecraft:block/brown_wool",
-    "side": "minecraft:block/brown_wool",
-    "top": "minecraft:block/brown_wool"
-  }
-}

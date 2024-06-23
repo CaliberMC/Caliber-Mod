@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/eighth_top_layer_3",
-  "textures": {
-    "bottom": "biomesoplenty:block/dead_planks",
-    "side": "biomesoplenty:block/dead_planks",
-    "top": "biomesoplenty:block/dead_planks"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/corner_slab_layer_3",
-  "textures": {
-    "bottom": "minecraft:block/stone",
-    "side": "minecraft:block/stone",
-    "top": "minecraft:block/stone"
-  }
-}

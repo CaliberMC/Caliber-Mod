@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "create:cut_tuff_brick_layer"
-  },
-  "result": "create:cut_tuff_brick_layer_vertical"
-}

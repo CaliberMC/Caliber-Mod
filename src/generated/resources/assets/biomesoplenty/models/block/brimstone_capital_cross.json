@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/capital_cross",
-  "textures": {
-    "bottom": "biomesoplenty:block/brimstone",
-    "side": "biomesoplenty:block/brimstone",
-    "top": "biomesoplenty:block/brimstone"
-  }
-}

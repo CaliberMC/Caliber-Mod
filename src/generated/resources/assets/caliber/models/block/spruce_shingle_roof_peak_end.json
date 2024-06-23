@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/roof_peak_end",
-  "textures": {
-    "bottom": "minecraft:block/spruce_planks",
-    "side": "minecraft:block/spruce_planks",
-    "top": "minecraft:block/spruce_planks"
-  }
-}

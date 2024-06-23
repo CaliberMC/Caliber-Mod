@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "create:polished_cut_ochrum_layer_vertical"
-  },
-  "result": "create:polished_cut_ochrum_layer"
-}

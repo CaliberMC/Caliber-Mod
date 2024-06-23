@@ -1,6 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/door_middle",
-  "textures": {
-    "middle": "regions_unexplored:block/eucalyptus_tall_door_middle"
-  }
-}

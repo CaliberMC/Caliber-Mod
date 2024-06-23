@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 8,
-  "ingredient": {
-    "item": "create:cut_dripstone"
-  },
-  "result": "create:cut_dripstone_layer_vertical"
-}

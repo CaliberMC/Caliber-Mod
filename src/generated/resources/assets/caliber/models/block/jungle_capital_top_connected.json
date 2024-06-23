@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/capital_top_connected",
-  "textures": {
-    "bottom": "minecraft:block/jungle_planks",
-    "side": "minecraft:block/jungle_planks",
-    "top": "minecraft:block/jungle_planks"
-  }
-}

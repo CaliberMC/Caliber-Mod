@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/eighth_top_left_layer_4",
-  "textures": {
-    "bottom": "create:block/palettes/stone_types/scorchia",
-    "side": "create:block/palettes/stone_types/scorchia",
-    "top": "create:block/palettes/stone_types/scorchia"
-  }
-}

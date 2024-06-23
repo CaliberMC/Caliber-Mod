@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/beam_lintel_4",
-  "textures": {
-    "bottom": "regions_unexplored:block/stripped_pine_log",
-    "side": "regions_unexplored:block/stripped_pine_log",
-    "top": "regions_unexplored:block/stripped_pine_log"
-  }
-}

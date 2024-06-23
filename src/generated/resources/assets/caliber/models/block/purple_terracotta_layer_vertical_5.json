@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/slab_vertical_layer_5",
-  "textures": {
-    "bottom": "minecraft:block/purple_terracotta",
-    "side": "minecraft:block/purple_terracotta",
-    "top": "minecraft:block/purple_terracotta"
-  }
-}

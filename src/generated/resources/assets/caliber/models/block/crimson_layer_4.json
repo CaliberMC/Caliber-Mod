@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/slab_layer_4",
-  "textures": {
-    "bottom": "minecraft:block/crimson_planks",
-    "side": "minecraft:block/crimson_planks",
-    "top": "minecraft:block/crimson_planks"
-  }
-}

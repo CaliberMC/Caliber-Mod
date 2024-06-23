@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/arch_large_corner_inner",
-  "textures": {
-    "bottom": "minecraft:block/purpur_pillar_top",
-    "side": "minecraft:block/purpur_pillar",
-    "top": "minecraft:block/purpur_pillar_top"
-  }
-}

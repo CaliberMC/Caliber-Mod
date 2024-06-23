@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/roof_peak_cap",
-  "textures": {
-    "bottom": "minecraft:block/bamboo_planks",
-    "side": "minecraft:block/bamboo_planks",
-    "top": "minecraft:block/bamboo_planks"
-  }
-}

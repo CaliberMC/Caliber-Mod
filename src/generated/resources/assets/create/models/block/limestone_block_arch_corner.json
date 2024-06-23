@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/arch_corner",
-  "textures": {
-    "bottom": "create:block/palettes/stone_types/limestone",
-    "side": "create:block/palettes/stone_types/limestone",
-    "top": "create:block/palettes/stone_types/limestone"
-  }
-}

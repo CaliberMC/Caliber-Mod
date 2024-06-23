@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/quarter_top_layer_2",
-  "textures": {
-    "bottom": "minecraft:block/warped_planks",
-    "side": "minecraft:block/warped_planks",
-    "top": "minecraft:block/warped_planks"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/arch_large_half_left",
-  "textures": {
-    "bottom": "minecraft:block/chiseled_deepslate",
-    "side": "minecraft:block/chiseled_deepslate",
-    "top": "minecraft:block/chiseled_deepslate"
-  }
-}

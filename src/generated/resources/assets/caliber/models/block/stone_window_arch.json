@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/window_arch",
-  "textures": {
-    "bottom": "minecraft:block/stone",
-    "side": "minecraft:block/stone",
-    "top": "minecraft:block/stone"
-  }
-}

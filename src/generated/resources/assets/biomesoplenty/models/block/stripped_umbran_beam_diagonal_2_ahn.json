@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/beam_diagonal_2_ahn",
-  "textures": {
-    "bottom": "biomesoplenty:block/stripped_umbran_log",
-    "side": "biomesoplenty:block/stripped_umbran_log",
-    "top": "biomesoplenty:block/stripped_umbran_log"
-  }
-}

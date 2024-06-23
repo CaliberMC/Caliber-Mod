@@ -39,6 +39,13 @@ dependencies {
     include(implementation(annotationProcessor("io.github.llamalad7:mixinextras-fabric:${mixin_extras_version}")))
     annotationProcessor 'net.fabricmc:sponge-mixin:0.12.5+mixin.0.8.5'
 
+    modCompileOnly "curse.maven:terrablender-563928:4573003"
+    modCompileOnly "curse.maven:biomesoplenty-220318:5300401"
+
+    //modImplementation "curse.maven:biomesoplenty-220318:4764804"
+
+    modCompileOnly "curse.maven:regions-unexplored-659110:5127359"
+
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionFabric")) { transitive false }
 }

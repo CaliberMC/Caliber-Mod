@@ -1,6 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/door_bottom_rh",
-  "textures": {
-    "bottom": "biomesoplenty:block/willow_tall_door_bottom"
-  }
-}

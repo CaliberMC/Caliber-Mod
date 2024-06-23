@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/capital_cross",
-  "textures": {
-    "bottom": "regions_unexplored:block/polished_chalk",
-    "side": "regions_unexplored:block/polished_chalk",
-    "top": "regions_unexplored:block/polished_chalk"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/quarter_top_layer_4",
-  "textures": {
-    "bottom": "minecraft:block/mangrove_planks",
-    "side": "minecraft:block/mangrove_planks",
-    "top": "minecraft:block/mangrove_planks"
-  }
-}

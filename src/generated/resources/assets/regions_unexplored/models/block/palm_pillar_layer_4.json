@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/pillar_layer_4",
-  "textures": {
-    "bottom": "regions_unexplored:block/palm_planks",
-    "side": "regions_unexplored:block/palm_planks",
-    "top": "regions_unexplored:block/palm_planks"
-  }
-}

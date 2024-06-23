@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "create:cut_diorite_bricks"
-  },
-  "result": "create:cut_diorite_brick_arch_large"
-}

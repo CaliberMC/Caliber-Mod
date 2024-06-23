@@ -1,0 +1,514 @@
+{
+  "values": [
+    "caliber:acacia_balustrade",
+    "caliber:andesite_balustrade",
+    "caliber:bamboo_mosaic_balustrade",
+    "caliber:bamboo_balustrade",
+    "caliber:basalt_balustrade",
+    "caliber:birch_balustrade",
+    "caliber:black_concrete_balustrade",
+    "caliber:black_terracotta_balustrade",
+    "caliber:blackstone_balustrade",
+    "caliber:blue_concrete_balustrade",
+    "caliber:blue_terracotta_balustrade",
+    "caliber:brick_balustrade",
+    "caliber:brown_concrete_balustrade",
+    "caliber:brown_terracotta_balustrade",
+    "caliber:calcite_balustrade",
+    "caliber:cherry_balustrade",
+    "caliber:chiseled_deepslate_balustrade",
+    "caliber:chiseled_polished_blackstone_balustrade",
+    "caliber:chiseled_red_sandstone_balustrade",
+    "caliber:chiseled_sandstone_balustrade",
+    "caliber:chiseled_stone_brick_balustrade",
+    "caliber:cobbled_deepslate_balustrade",
+    "caliber:cobblestone_balustrade",
+    "caliber:cracked_deepslate_brick_balustrade",
+    "caliber:cracked_deepslate_tile_balustrade",
+    "caliber:cracked_polished_blackstone_brick_balustrade",
+    "caliber:cracked_stone_brick_balustrade",
+    "caliber:crimson_balustrade",
+    "caliber:cut_red_sandstone_balustrade",
+    "caliber:cut_sandstone_balustrade",
+    "caliber:cyan_concrete_balustrade",
+    "caliber:cyan_terracotta_balustrade",
+    "caliber:dark_oak_balustrade",
+    "caliber:dark_prismarine_balustrade",
+    "caliber:deepslate_balustrade",
+    "caliber:deepslate_brick_balustrade",
+    "caliber:deepslate_tile_balustrade",
+    "caliber:diorite_balustrade",
+    "caliber:dripstone_balustrade",
+    "caliber:end_stone_balustrade",
+    "caliber:end_stone_brick_balustrade",
+    "caliber:gilded_blackstone_balustrade",
+    "caliber:granite_balustrade",
+    "caliber:gray_concrete_balustrade",
+    "caliber:gray_terracotta_balustrade",
+    "caliber:green_concrete_balustrade",
+    "caliber:green_terracotta_balustrade",
+    "caliber:jungle_balustrade",
+    "caliber:light_blue_concrete_balustrade",
+    "caliber:light_blue_terracotta_balustrade",
+    "caliber:light_gray_concrete_balustrade",
+    "caliber:light_gray_terracotta_balustrade",
+    "caliber:lime_concrete_balustrade",
+    "caliber:lime_terracotta_balustrade",
+    "caliber:magenta_concrete_balustrade",
+    "caliber:magenta_terracotta_balustrade",
+    "caliber:mangrove_balustrade",
+    "caliber:mossy_cobblestone_balustrade",
+    "caliber:mossy_stone_brick_balustrade",
+    "caliber:mud_brick_balustrade",
+    "caliber:nether_brick_balustrade",
+    "caliber:netherite_balustrade",
+    "caliber:oak_balustrade",
+    "caliber:obsidian_balustrade",
+    "caliber:orange_concrete_balustrade",
+    "caliber:orange_terracotta_balustrade",
+    "caliber:pink_concrete_balustrade",
+    "caliber:pink_terracotta_balustrade",
+    "caliber:polished_andesite_balustrade",
+    "caliber:polished_basalt_balustrade",
+    "caliber:polished_blackstone_balustrade",
+    "caliber:polished_blackstone_brick_balustrade",
+    "caliber:polished_deepslate_balustrade",
+    "caliber:polished_diorite_balustrade",
+    "caliber:polished_granite_balustrade",
+    "caliber:prismarine_balustrade",
+    "caliber:prismarine_brick_balustrade",
+    "caliber:purple_concrete_balustrade",
+    "caliber:purple_terracotta_balustrade",
+    "caliber:purpur_block_balustrade",
+    "caliber:purpur_pillar_balustrade",
+    "caliber:quartz_balustrade",
+    "caliber:quartz_brick_balustrade",
+    "caliber:red_concrete_balustrade",
+    "caliber:red_nether_brick_balustrade",
+    "caliber:red_sandstone_balustrade",
+    "caliber:red_terracotta_balustrade",
+    "caliber:sandstone_balustrade",
+    "caliber:smooth_basalt_balustrade",
+    "caliber:smooth_quartz_balustrade",
+    "caliber:smooth_red_sandstone_balustrade",
+    "caliber:smooth_sandstone_balustrade",
+    "caliber:smooth_stone_balustrade",
+    "caliber:spruce_balustrade",
+    "caliber:stone_balustrade",
+    "caliber:stone_brick_balustrade",
+    "caliber:stripped_acacia_balustrade",
+    "caliber:stripped_bamboo_balustrade",
+    "caliber:stripped_birch_balustrade",
+    "caliber:stripped_cherry_balustrade",
+    "caliber:stripped_crimson_balustrade",
+    "caliber:stripped_dark_oak_balustrade",
+    "caliber:stripped_jungle_balustrade",
+    "caliber:stripped_mangrove_balustrade",
+    "caliber:stripped_oak_balustrade",
+    "caliber:stripped_spruce_balustrade",
+    "caliber:stripped_warped_balustrade",
+    "caliber:terracotta_balustrade",
+    "caliber:tuff_balustrade",
+    "caliber:warped_balustrade",
+    "caliber:white_concrete_balustrade",
+    "caliber:white_terracotta_balustrade",
+    "caliber:yellow_concrete_balustrade",
+    "caliber:yellow_terracotta_balustrade",
+    {
+      "id": "biomesoplenty:black_sandstone_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:brimstone_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:brimstone_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_black_sandstone_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_brimstone_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_orange_sandstone_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_white_sandstone_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_black_sandstone_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_orange_sandstone_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_white_sandstone_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:dead_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:hellbark_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_black_sandstone_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_orange_sandstone_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_white_sandstone_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_dead_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_fir_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_hellbark_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_jacaranda_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_magic_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_mahogany_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_palm_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_umbran_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_willow_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:argillite_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:baobab_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:black_painted_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blackwood_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_bioshroom_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_painted_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brimwood_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brown_painted_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_block_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cobalt_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cyan_painted_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cypress_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:dead_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:eucalyptus_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:gray_painted_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:green_bioshroom_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:green_painted_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:joshua_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:larch_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_blue_painted_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_gray_painted_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:lime_painted_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magenta_painted_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magnolia_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:maple_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mauve_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mossy_stone_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:orange_painted_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:palm_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_bioshroom_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_painted_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:polished_chalk_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:purple_painted_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:red_painted_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redwood_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:socotra_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_baobab_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blackwood_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blue_bioshroom_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_brimwood_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cobalt_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cypress_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_dead_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_eucalyptus_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_green_bioshroom_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_joshua_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_kapok_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_larch_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_magnolia_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_maple_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_mauve_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_palm_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pine_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pink_bioshroom_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_redwood_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_socotra_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_willow_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_yellow_bioshroom_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:white_painted_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:willow_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_bioshroom_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_painted_balustrade",
+      "required": false
+    }
+  ]
+}

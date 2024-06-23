@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/window_half_arch_top",
-  "textures": {
-    "bottom": "biomesoplenty:block/stripped_magic_log",
-    "side": "biomesoplenty:block/stripped_magic_log",
-    "top": "biomesoplenty:block/stripped_magic_log"
-  }
-}

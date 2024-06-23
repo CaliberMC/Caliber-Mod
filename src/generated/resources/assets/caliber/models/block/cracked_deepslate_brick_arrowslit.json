@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/arrowslit",
-  "textures": {
-    "bottom": "minecraft:block/cracked_deepslate_bricks",
-    "side": "minecraft:block/cracked_deepslate_bricks",
-    "top": "minecraft:block/cracked_deepslate_bricks"
-  }
-}

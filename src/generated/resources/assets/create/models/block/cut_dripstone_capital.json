@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/capital",
-  "textures": {
-    "bottom": "create:block/palettes/stone_types/cut/dripstone_cut",
-    "side": "create:block/palettes/stone_types/cut/dripstone_cut",
-    "top": "create:block/palettes/stone_types/cut/dripstone_cut"
-  }
-}

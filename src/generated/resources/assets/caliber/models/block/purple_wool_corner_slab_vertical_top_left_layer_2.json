@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/corner_slab_vertical_top_left_layer_2",
-  "textures": {
-    "bottom": "minecraft:block/purple_wool",
-    "side": "minecraft:block/purple_wool",
-    "top": "minecraft:block/purple_wool"
-  }
-}

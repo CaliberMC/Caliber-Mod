@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/window_arch_top",
-  "textures": {
-    "bottom": "minecraft:block/acacia_planks",
-    "side": "minecraft:block/acacia_planks",
-    "top": "minecraft:block/acacia_planks"
-  }
-}

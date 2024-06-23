@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/eighth_layer_3",
-  "textures": {
-    "bottom": "minecraft:block/terracotta",
-    "side": "minecraft:block/terracotta",
-    "top": "minecraft:block/terracotta"
-  }
-}

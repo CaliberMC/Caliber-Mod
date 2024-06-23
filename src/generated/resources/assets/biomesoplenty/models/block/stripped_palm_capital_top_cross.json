@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/capital_top_cross",
-  "textures": {
-    "bottom": "biomesoplenty:block/stripped_palm_log",
-    "side": "biomesoplenty:block/stripped_palm_log",
-    "top": "biomesoplenty:block/stripped_palm_log"
-  }
-}

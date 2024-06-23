@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/corner_slab_vertical_layer_1",
-  "textures": {
-    "bottom": "minecraft:block/brown_terracotta",
-    "side": "minecraft:block/brown_terracotta",
-    "top": "minecraft:block/brown_terracotta"
-  }
-}

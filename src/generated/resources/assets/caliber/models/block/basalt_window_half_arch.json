@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/window_half_arch",
-  "textures": {
-    "bottom": "minecraft:block/basalt_top",
-    "side": "minecraft:block/basalt_side",
-    "top": "minecraft:block/basalt_top"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/pillar_layer_4",
-  "textures": {
-    "bottom": "create:block/palettes/stone_types/scoria",
-    "side": "create:block/palettes/stone_types/scoria",
-    "top": "create:block/palettes/stone_types/scoria"
-  }
-}

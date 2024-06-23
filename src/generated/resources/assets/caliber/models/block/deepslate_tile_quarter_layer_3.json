@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/quarter_layer_3",
-  "textures": {
-    "bottom": "minecraft:block/deepslate_tiles",
-    "side": "minecraft:block/deepslate_tiles",
-    "top": "minecraft:block/deepslate_tiles"
-  }
-}

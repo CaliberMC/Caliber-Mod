@@ -1,6 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/door_bottom",
-  "textures": {
-    "bottom": "regions_unexplored:block/pine_tall_door_bottom"
-  }
-}

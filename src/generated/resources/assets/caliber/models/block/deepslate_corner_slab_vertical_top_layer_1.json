@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/corner_slab_vertical_top_layer_1",
-  "textures": {
-    "bottom": "minecraft:block/deepslate",
-    "side": "minecraft:block/deepslate",
-    "top": "minecraft:block/deepslate"
-  }
-}

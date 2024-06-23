@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/slab_layer_3",
-  "textures": {
-    "bottom": "minecraft:block/light_blue_concrete",
-    "side": "minecraft:block/light_blue_concrete",
-    "top": "minecraft:block/light_blue_concrete"
-  }
-}

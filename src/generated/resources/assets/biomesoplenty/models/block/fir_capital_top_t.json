@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/capital_top_t",
-  "textures": {
-    "bottom": "biomesoplenty:block/fir_planks",
-    "side": "biomesoplenty:block/fir_planks",
-    "top": "biomesoplenty:block/fir_planks"
-  }
-}

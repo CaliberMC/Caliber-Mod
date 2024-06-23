@@ -1,0 +1,7403 @@
+{
+  "values": [
+    "caliber:acacia_balustrade",
+    "caliber:acacia_capital",
+    "caliber:acacia_corner",
+    "caliber:acacia_corner_slab",
+    "caliber:acacia_corner_slab_vertical",
+    "caliber:acacia_eighth",
+    "caliber:acacia_layer",
+    "caliber:acacia_layer_vertical",
+    "caliber:acacia_pillar",
+    "caliber:acacia_quarter",
+    "caliber:acacia_quarter_vertical",
+    "caliber:acacia_slab_vertical",
+    "caliber:acacia_tall_door",
+    "caliber:acacia_wall",
+    "caliber:acacia_window",
+    "caliber:acacia_window_half",
+    "caliber:acacia_shingle_roof_22",
+    "caliber:acacia_shingle_roof_45",
+    "caliber:acacia_shingle_roof_67",
+    "caliber:acacia_shingle_roof_peak",
+    "caliber:bamboo_mosaic_balustrade",
+    "caliber:bamboo_mosaic_capital",
+    "caliber:bamboo_mosaic_corner",
+    "caliber:bamboo_mosaic_corner_slab",
+    "caliber:bamboo_mosaic_corner_slab_vertical",
+    "caliber:bamboo_mosaic_eighth",
+    "caliber:bamboo_mosaic_layer",
+    "caliber:bamboo_mosaic_layer_vertical",
+    "caliber:bamboo_mosaic_pillar",
+    "caliber:bamboo_mosaic_quarter",
+    "caliber:bamboo_mosaic_quarter_vertical",
+    "caliber:bamboo_mosaic_slab_vertical",
+    "caliber:bamboo_mosaic_wall",
+    "caliber:bamboo_mosaic_window",
+    "caliber:bamboo_mosaic_window_half",
+    "caliber:bamboo_balustrade",
+    "caliber:bamboo_capital",
+    "caliber:bamboo_corner",
+    "caliber:bamboo_corner_slab",
+    "caliber:bamboo_corner_slab_vertical",
+    "caliber:bamboo_eighth",
+    "caliber:bamboo_layer",
+    "caliber:bamboo_layer_vertical",
+    "caliber:bamboo_pillar",
+    "caliber:bamboo_quarter",
+    "caliber:bamboo_quarter_vertical",
+    "caliber:bamboo_slab_vertical",
+    "caliber:bamboo_tall_door",
+    "caliber:bamboo_wall",
+    "caliber:bamboo_window",
+    "caliber:bamboo_window_half",
+    "caliber:bamboo_shingle_roof_22",
+    "caliber:bamboo_shingle_roof_45",
+    "caliber:bamboo_shingle_roof_67",
+    "caliber:bamboo_shingle_roof_peak",
+    "caliber:birch_balustrade",
+    "caliber:birch_capital",
+    "caliber:birch_corner",
+    "caliber:birch_corner_slab",
+    "caliber:birch_corner_slab_vertical",
+    "caliber:birch_eighth",
+    "caliber:birch_layer",
+    "caliber:birch_layer_vertical",
+    "caliber:birch_pillar",
+    "caliber:birch_quarter",
+    "caliber:birch_quarter_vertical",
+    "caliber:birch_slab_vertical",
+    "caliber:birch_tall_door",
+    "caliber:birch_wall",
+    "caliber:birch_window",
+    "caliber:birch_window_half",
+    "caliber:birch_shingle_roof_22",
+    "caliber:birch_shingle_roof_45",
+    "caliber:birch_shingle_roof_67",
+    "caliber:birch_shingle_roof_peak",
+    "caliber:black_wool_capital",
+    "caliber:black_wool_corner",
+    "caliber:black_wool_corner_slab",
+    "caliber:black_wool_corner_slab_vertical",
+    "caliber:black_wool_eighth",
+    "caliber:black_wool_layer",
+    "caliber:black_wool_layer_vertical",
+    "caliber:black_wool_pillar",
+    "caliber:black_wool_quarter",
+    "caliber:black_wool_quarter_vertical",
+    "caliber:black_wool_slab",
+    "caliber:black_wool_slab_vertical",
+    "caliber:black_wool_stairs",
+    "caliber:black_wool_wall",
+    "caliber:black_wool_window",
+    "caliber:black_wool_window_half",
+    "caliber:blue_wool_capital",
+    "caliber:blue_wool_corner",
+    "caliber:blue_wool_corner_slab",
+    "caliber:blue_wool_corner_slab_vertical",
+    "caliber:blue_wool_eighth",
+    "caliber:blue_wool_layer",
+    "caliber:blue_wool_layer_vertical",
+    "caliber:blue_wool_pillar",
+    "caliber:blue_wool_quarter",
+    "caliber:blue_wool_quarter_vertical",
+    "caliber:blue_wool_slab",
+    "caliber:blue_wool_slab_vertical",
+    "caliber:blue_wool_stairs",
+    "caliber:blue_wool_wall",
+    "caliber:blue_wool_window",
+    "caliber:blue_wool_window_half",
+    "caliber:brown_wool_capital",
+    "caliber:brown_wool_corner",
+    "caliber:brown_wool_corner_slab",
+    "caliber:brown_wool_corner_slab_vertical",
+    "caliber:brown_wool_eighth",
+    "caliber:brown_wool_layer",
+    "caliber:brown_wool_layer_vertical",
+    "caliber:brown_wool_pillar",
+    "caliber:brown_wool_quarter",
+    "caliber:brown_wool_quarter_vertical",
+    "caliber:brown_wool_slab",
+    "caliber:brown_wool_slab_vertical",
+    "caliber:brown_wool_stairs",
+    "caliber:brown_wool_wall",
+    "caliber:brown_wool_window",
+    "caliber:brown_wool_window_half",
+    "caliber:cherry_balustrade",
+    "caliber:cherry_capital",
+    "caliber:cherry_corner",
+    "caliber:cherry_corner_slab",
+    "caliber:cherry_corner_slab_vertical",
+    "caliber:cherry_eighth",
+    "caliber:cherry_layer",
+    "caliber:cherry_layer_vertical",
+    "caliber:cherry_pillar",
+    "caliber:cherry_quarter",
+    "caliber:cherry_quarter_vertical",
+    "caliber:cherry_slab_vertical",
+    "caliber:cherry_tall_door",
+    "caliber:cherry_wall",
+    "caliber:cherry_window",
+    "caliber:cherry_window_half",
+    "caliber:cherry_shingle_roof_22",
+    "caliber:cherry_shingle_roof_45",
+    "caliber:cherry_shingle_roof_67",
+    "caliber:cherry_shingle_roof_peak",
+    "caliber:crimson_balustrade",
+    "caliber:crimson_capital",
+    "caliber:crimson_corner",
+    "caliber:crimson_corner_slab",
+    "caliber:crimson_corner_slab_vertical",
+    "caliber:crimson_eighth",
+    "caliber:crimson_layer",
+    "caliber:crimson_layer_vertical",
+    "caliber:crimson_pillar",
+    "caliber:crimson_quarter",
+    "caliber:crimson_quarter_vertical",
+    "caliber:crimson_slab_vertical",
+    "caliber:crimson_tall_door",
+    "caliber:crimson_wall",
+    "caliber:crimson_window",
+    "caliber:crimson_window_half",
+    "caliber:crimson_shingle_roof_22",
+    "caliber:crimson_shingle_roof_45",
+    "caliber:crimson_shingle_roof_67",
+    "caliber:crimson_shingle_roof_peak",
+    "caliber:cyan_wool_capital",
+    "caliber:cyan_wool_corner",
+    "caliber:cyan_wool_corner_slab",
+    "caliber:cyan_wool_corner_slab_vertical",
+    "caliber:cyan_wool_eighth",
+    "caliber:cyan_wool_layer",
+    "caliber:cyan_wool_layer_vertical",
+    "caliber:cyan_wool_pillar",
+    "caliber:cyan_wool_quarter",
+    "caliber:cyan_wool_quarter_vertical",
+    "caliber:cyan_wool_slab",
+    "caliber:cyan_wool_slab_vertical",
+    "caliber:cyan_wool_stairs",
+    "caliber:cyan_wool_wall",
+    "caliber:cyan_wool_window",
+    "caliber:cyan_wool_window_half",
+    "caliber:dark_oak_balustrade",
+    "caliber:dark_oak_capital",
+    "caliber:dark_oak_corner",
+    "caliber:dark_oak_corner_slab",
+    "caliber:dark_oak_corner_slab_vertical",
+    "caliber:dark_oak_eighth",
+    "caliber:dark_oak_layer",
+    "caliber:dark_oak_layer_vertical",
+    "caliber:dark_oak_pillar",
+    "caliber:dark_oak_quarter",
+    "caliber:dark_oak_quarter_vertical",
+    "caliber:dark_oak_slab_vertical",
+    "caliber:dark_oak_tall_door",
+    "caliber:dark_oak_wall",
+    "caliber:dark_oak_window",
+    "caliber:dark_oak_window_half",
+    "caliber:dark_oak_shingle_roof_22",
+    "caliber:dark_oak_shingle_roof_45",
+    "caliber:dark_oak_shingle_roof_67",
+    "caliber:dark_oak_shingle_roof_peak",
+    "caliber:gray_wool_capital",
+    "caliber:gray_wool_corner",
+    "caliber:gray_wool_corner_slab",
+    "caliber:gray_wool_corner_slab_vertical",
+    "caliber:gray_wool_eighth",
+    "caliber:gray_wool_layer",
+    "caliber:gray_wool_layer_vertical",
+    "caliber:gray_wool_pillar",
+    "caliber:gray_wool_quarter",
+    "caliber:gray_wool_quarter_vertical",
+    "caliber:gray_wool_slab",
+    "caliber:gray_wool_slab_vertical",
+    "caliber:gray_wool_stairs",
+    "caliber:gray_wool_wall",
+    "caliber:gray_wool_window",
+    "caliber:gray_wool_window_half",
+    "caliber:green_wool_capital",
+    "caliber:green_wool_corner",
+    "caliber:green_wool_corner_slab",
+    "caliber:green_wool_corner_slab_vertical",
+    "caliber:green_wool_eighth",
+    "caliber:green_wool_layer",
+    "caliber:green_wool_layer_vertical",
+    "caliber:green_wool_pillar",
+    "caliber:green_wool_quarter",
+    "caliber:green_wool_quarter_vertical",
+    "caliber:green_wool_slab",
+    "caliber:green_wool_slab_vertical",
+    "caliber:green_wool_stairs",
+    "caliber:green_wool_wall",
+    "caliber:green_wool_window",
+    "caliber:green_wool_window_half",
+    "caliber:jungle_balustrade",
+    "caliber:jungle_capital",
+    "caliber:jungle_corner",
+    "caliber:jungle_corner_slab",
+    "caliber:jungle_corner_slab_vertical",
+    "caliber:jungle_eighth",
+    "caliber:jungle_layer",
+    "caliber:jungle_layer_vertical",
+    "caliber:jungle_pillar",
+    "caliber:jungle_quarter",
+    "caliber:jungle_quarter_vertical",
+    "caliber:jungle_slab_vertical",
+    "caliber:jungle_tall_door",
+    "caliber:jungle_wall",
+    "caliber:jungle_window",
+    "caliber:jungle_window_half",
+    "caliber:jungle_shingle_roof_22",
+    "caliber:jungle_shingle_roof_45",
+    "caliber:jungle_shingle_roof_67",
+    "caliber:jungle_shingle_roof_peak",
+    "caliber:light_blue_wool_capital",
+    "caliber:light_blue_wool_corner",
+    "caliber:light_blue_wool_corner_slab",
+    "caliber:light_blue_wool_corner_slab_vertical",
+    "caliber:light_blue_wool_eighth",
+    "caliber:light_blue_wool_layer",
+    "caliber:light_blue_wool_layer_vertical",
+    "caliber:light_blue_wool_pillar",
+    "caliber:light_blue_wool_quarter",
+    "caliber:light_blue_wool_quarter_vertical",
+    "caliber:light_blue_wool_slab",
+    "caliber:light_blue_wool_slab_vertical",
+    "caliber:light_blue_wool_stairs",
+    "caliber:light_blue_wool_wall",
+    "caliber:light_blue_wool_window",
+    "caliber:light_blue_wool_window_half",
+    "caliber:light_gray_wool_capital",
+    "caliber:light_gray_wool_corner",
+    "caliber:light_gray_wool_corner_slab",
+    "caliber:light_gray_wool_corner_slab_vertical",
+    "caliber:light_gray_wool_eighth",
+    "caliber:light_gray_wool_layer",
+    "caliber:light_gray_wool_layer_vertical",
+    "caliber:light_gray_wool_pillar",
+    "caliber:light_gray_wool_quarter",
+    "caliber:light_gray_wool_quarter_vertical",
+    "caliber:light_gray_wool_slab",
+    "caliber:light_gray_wool_slab_vertical",
+    "caliber:light_gray_wool_stairs",
+    "caliber:light_gray_wool_wall",
+    "caliber:light_gray_wool_window",
+    "caliber:light_gray_wool_window_half",
+    "caliber:lime_wool_capital",
+    "caliber:lime_wool_corner",
+    "caliber:lime_wool_corner_slab",
+    "caliber:lime_wool_corner_slab_vertical",
+    "caliber:lime_wool_eighth",
+    "caliber:lime_wool_layer",
+    "caliber:lime_wool_layer_vertical",
+    "caliber:lime_wool_pillar",
+    "caliber:lime_wool_quarter",
+    "caliber:lime_wool_quarter_vertical",
+    "caliber:lime_wool_slab",
+    "caliber:lime_wool_slab_vertical",
+    "caliber:lime_wool_stairs",
+    "caliber:lime_wool_wall",
+    "caliber:lime_wool_window",
+    "caliber:lime_wool_window_half",
+    "caliber:magenta_wool_capital",
+    "caliber:magenta_wool_corner",
+    "caliber:magenta_wool_corner_slab",
+    "caliber:magenta_wool_corner_slab_vertical",
+    "caliber:magenta_wool_eighth",
+    "caliber:magenta_wool_layer",
+    "caliber:magenta_wool_layer_vertical",
+    "caliber:magenta_wool_pillar",
+    "caliber:magenta_wool_quarter",
+    "caliber:magenta_wool_quarter_vertical",
+    "caliber:magenta_wool_slab",
+    "caliber:magenta_wool_slab_vertical",
+    "caliber:magenta_wool_stairs",
+    "caliber:magenta_wool_wall",
+    "caliber:magenta_wool_window",
+    "caliber:magenta_wool_window_half",
+    "caliber:mangrove_balustrade",
+    "caliber:mangrove_capital",
+    "caliber:mangrove_corner",
+    "caliber:mangrove_corner_slab",
+    "caliber:mangrove_corner_slab_vertical",
+    "caliber:mangrove_eighth",
+    "caliber:mangrove_layer",
+    "caliber:mangrove_layer_vertical",
+    "caliber:mangrove_pillar",
+    "caliber:mangrove_quarter",
+    "caliber:mangrove_quarter_vertical",
+    "caliber:mangrove_slab_vertical",
+    "caliber:mangrove_tall_door",
+    "caliber:mangrove_wall",
+    "caliber:mangrove_window",
+    "caliber:mangrove_window_half",
+    "caliber:mangrove_shingle_roof_22",
+    "caliber:mangrove_shingle_roof_45",
+    "caliber:mangrove_shingle_roof_67",
+    "caliber:mangrove_shingle_roof_peak",
+    "caliber:oak_balustrade",
+    "caliber:oak_capital",
+    "caliber:oak_corner",
+    "caliber:oak_corner_slab",
+    "caliber:oak_corner_slab_vertical",
+    "caliber:oak_eighth",
+    "caliber:oak_layer",
+    "caliber:oak_layer_vertical",
+    "caliber:oak_pillar",
+    "caliber:oak_quarter",
+    "caliber:oak_quarter_vertical",
+    "caliber:oak_slab_vertical",
+    "caliber:oak_tall_door",
+    "caliber:oak_wall",
+    "caliber:oak_window",
+    "caliber:oak_window_half",
+    "caliber:oak_shingle_roof_22",
+    "caliber:oak_shingle_roof_45",
+    "caliber:oak_shingle_roof_67",
+    "caliber:oak_shingle_roof_peak",
+    "caliber:orange_wool_capital",
+    "caliber:orange_wool_corner",
+    "caliber:orange_wool_corner_slab",
+    "caliber:orange_wool_corner_slab_vertical",
+    "caliber:orange_wool_eighth",
+    "caliber:orange_wool_layer",
+    "caliber:orange_wool_layer_vertical",
+    "caliber:orange_wool_pillar",
+    "caliber:orange_wool_quarter",
+    "caliber:orange_wool_quarter_vertical",
+    "caliber:orange_wool_slab",
+    "caliber:orange_wool_slab_vertical",
+    "caliber:orange_wool_stairs",
+    "caliber:orange_wool_wall",
+    "caliber:orange_wool_window",
+    "caliber:orange_wool_window_half",
+    "caliber:pink_wool_capital",
+    "caliber:pink_wool_corner",
+    "caliber:pink_wool_corner_slab",
+    "caliber:pink_wool_corner_slab_vertical",
+    "caliber:pink_wool_eighth",
+    "caliber:pink_wool_layer",
+    "caliber:pink_wool_layer_vertical",
+    "caliber:pink_wool_pillar",
+    "caliber:pink_wool_quarter",
+    "caliber:pink_wool_quarter_vertical",
+    "caliber:pink_wool_slab",
+    "caliber:pink_wool_slab_vertical",
+    "caliber:pink_wool_stairs",
+    "caliber:pink_wool_wall",
+    "caliber:pink_wool_window",
+    "caliber:pink_wool_window_half",
+    "caliber:purple_wool_capital",
+    "caliber:purple_wool_corner",
+    "caliber:purple_wool_corner_slab",
+    "caliber:purple_wool_corner_slab_vertical",
+    "caliber:purple_wool_eighth",
+    "caliber:purple_wool_layer",
+    "caliber:purple_wool_layer_vertical",
+    "caliber:purple_wool_pillar",
+    "caliber:purple_wool_quarter",
+    "caliber:purple_wool_quarter_vertical",
+    "caliber:purple_wool_slab",
+    "caliber:purple_wool_slab_vertical",
+    "caliber:purple_wool_stairs",
+    "caliber:purple_wool_wall",
+    "caliber:purple_wool_window",
+    "caliber:purple_wool_window_half",
+    "caliber:red_wool_capital",
+    "caliber:red_wool_corner",
+    "caliber:red_wool_corner_slab",
+    "caliber:red_wool_corner_slab_vertical",
+    "caliber:red_wool_eighth",
+    "caliber:red_wool_layer",
+    "caliber:red_wool_layer_vertical",
+    "caliber:red_wool_pillar",
+    "caliber:red_wool_quarter",
+    "caliber:red_wool_quarter_vertical",
+    "caliber:red_wool_slab",
+    "caliber:red_wool_slab_vertical",
+    "caliber:red_wool_stairs",
+    "caliber:red_wool_wall",
+    "caliber:red_wool_window",
+    "caliber:red_wool_window_half",
+    "caliber:spruce_balustrade",
+    "caliber:spruce_capital",
+    "caliber:spruce_corner",
+    "caliber:spruce_corner_slab",
+    "caliber:spruce_corner_slab_vertical",
+    "caliber:spruce_eighth",
+    "caliber:spruce_layer",
+    "caliber:spruce_layer_vertical",
+    "caliber:spruce_pillar",
+    "caliber:spruce_quarter",
+    "caliber:spruce_quarter_vertical",
+    "caliber:spruce_slab_vertical",
+    "caliber:spruce_tall_door",
+    "caliber:spruce_wall",
+    "caliber:spruce_window",
+    "caliber:spruce_window_half",
+    "caliber:spruce_shingle_roof_22",
+    "caliber:spruce_shingle_roof_45",
+    "caliber:spruce_shingle_roof_67",
+    "caliber:spruce_shingle_roof_peak",
+    "caliber:stripped_acacia_balustrade",
+    "caliber:stripped_acacia_beam_diagonal",
+    "caliber:stripped_acacia_beam_horizontal",
+    "caliber:stripped_acacia_beam_lintel",
+    "caliber:stripped_acacia_beam_posts",
+    "caliber:stripped_acacia_beam_vertical",
+    "caliber:stripped_acacia_capital",
+    "caliber:stripped_acacia_corner",
+    "caliber:stripped_acacia_corner_slab",
+    "caliber:stripped_acacia_corner_slab_vertical",
+    "caliber:stripped_acacia_door_frame",
+    "caliber:stripped_acacia_door_frame_lintel",
+    "caliber:stripped_acacia_eighth",
+    "caliber:stripped_acacia_layer",
+    "caliber:stripped_acacia_layer_vertical",
+    "caliber:stripped_acacia_pillar",
+    "caliber:stripped_acacia_quarter",
+    "caliber:stripped_acacia_quarter_vertical",
+    "caliber:stripped_acacia_slab",
+    "caliber:stripped_acacia_slab_vertical",
+    "caliber:stripped_acacia_stairs",
+    "caliber:stripped_acacia_wall",
+    "caliber:stripped_acacia_window",
+    "caliber:stripped_acacia_window_half",
+    "caliber:stripped_bamboo_balustrade",
+    "caliber:stripped_bamboo_beam_diagonal",
+    "caliber:stripped_bamboo_beam_horizontal",
+    "caliber:stripped_bamboo_beam_lintel",
+    "caliber:stripped_bamboo_beam_posts",
+    "caliber:stripped_bamboo_beam_vertical",
+    "caliber:stripped_bamboo_capital",
+    "caliber:stripped_bamboo_corner",
+    "caliber:stripped_bamboo_corner_slab",
+    "caliber:stripped_bamboo_corner_slab_vertical",
+    "caliber:stripped_bamboo_door_frame",
+    "caliber:stripped_bamboo_door_frame_lintel",
+    "caliber:stripped_bamboo_eighth",
+    "caliber:stripped_bamboo_layer",
+    "caliber:stripped_bamboo_layer_vertical",
+    "caliber:stripped_bamboo_pillar",
+    "caliber:stripped_bamboo_quarter",
+    "caliber:stripped_bamboo_quarter_vertical",
+    "caliber:stripped_bamboo_slab",
+    "caliber:stripped_bamboo_slab_vertical",
+    "caliber:stripped_bamboo_stairs",
+    "caliber:stripped_bamboo_wall",
+    "caliber:stripped_bamboo_window",
+    "caliber:stripped_bamboo_window_half",
+    "caliber:stripped_birch_balustrade",
+    "caliber:stripped_birch_beam_diagonal",
+    "caliber:stripped_birch_beam_horizontal",
+    "caliber:stripped_birch_beam_lintel",
+    "caliber:stripped_birch_beam_posts",
+    "caliber:stripped_birch_beam_vertical",
+    "caliber:stripped_birch_capital",
+    "caliber:stripped_birch_corner",
+    "caliber:stripped_birch_corner_slab",
+    "caliber:stripped_birch_corner_slab_vertical",
+    "caliber:stripped_birch_door_frame",
+    "caliber:stripped_birch_door_frame_lintel",
+    "caliber:stripped_birch_eighth",
+    "caliber:stripped_birch_layer",
+    "caliber:stripped_birch_layer_vertical",
+    "caliber:stripped_birch_pillar",
+    "caliber:stripped_birch_quarter",
+    "caliber:stripped_birch_quarter_vertical",
+    "caliber:stripped_birch_slab",
+    "caliber:stripped_birch_slab_vertical",
+    "caliber:stripped_birch_stairs",
+    "caliber:stripped_birch_wall",
+    "caliber:stripped_birch_window",
+    "caliber:stripped_birch_window_half",
+    "caliber:stripped_cherry_balustrade",
+    "caliber:stripped_cherry_beam_diagonal",
+    "caliber:stripped_cherry_beam_horizontal",
+    "caliber:stripped_cherry_beam_lintel",
+    "caliber:stripped_cherry_beam_posts",
+    "caliber:stripped_cherry_beam_vertical",
+    "caliber:stripped_cherry_capital",
+    "caliber:stripped_cherry_corner",
+    "caliber:stripped_cherry_corner_slab",
+    "caliber:stripped_cherry_corner_slab_vertical",
+    "caliber:stripped_cherry_door_frame",
+    "caliber:stripped_cherry_door_frame_lintel",
+    "caliber:stripped_cherry_eighth",
+    "caliber:stripped_cherry_layer",
+    "caliber:stripped_cherry_layer_vertical",
+    "caliber:stripped_cherry_pillar",
+    "caliber:stripped_cherry_quarter",
+    "caliber:stripped_cherry_quarter_vertical",
+    "caliber:stripped_cherry_slab",
+    "caliber:stripped_cherry_slab_vertical",
+    "caliber:stripped_cherry_stairs",
+    "caliber:stripped_cherry_wall",
+    "caliber:stripped_cherry_window",
+    "caliber:stripped_cherry_window_half",
+    "caliber:stripped_crimson_balustrade",
+    "caliber:stripped_crimson_beam_diagonal",
+    "caliber:stripped_crimson_beam_horizontal",
+    "caliber:stripped_crimson_beam_lintel",
+    "caliber:stripped_crimson_beam_posts",
+    "caliber:stripped_crimson_beam_vertical",
+    "caliber:stripped_crimson_capital",
+    "caliber:stripped_crimson_corner",
+    "caliber:stripped_crimson_corner_slab",
+    "caliber:stripped_crimson_corner_slab_vertical",
+    "caliber:stripped_crimson_door_frame",
+    "caliber:stripped_crimson_door_frame_lintel",
+    "caliber:stripped_crimson_eighth",
+    "caliber:stripped_crimson_layer",
+    "caliber:stripped_crimson_layer_vertical",
+    "caliber:stripped_crimson_pillar",
+    "caliber:stripped_crimson_quarter",
+    "caliber:stripped_crimson_quarter_vertical",
+    "caliber:stripped_crimson_slab",
+    "caliber:stripped_crimson_slab_vertical",
+    "caliber:stripped_crimson_stairs",
+    "caliber:stripped_crimson_wall",
+    "caliber:stripped_crimson_window",
+    "caliber:stripped_crimson_window_half",
+    "caliber:stripped_dark_oak_balustrade",
+    "caliber:stripped_dark_oak_beam_diagonal",
+    "caliber:stripped_dark_oak_beam_horizontal",
+    "caliber:stripped_dark_oak_beam_lintel",
+    "caliber:stripped_dark_oak_beam_posts",
+    "caliber:stripped_dark_oak_beam_vertical",
+    "caliber:stripped_dark_oak_capital",
+    "caliber:stripped_dark_oak_corner",
+    "caliber:stripped_dark_oak_corner_slab",
+    "caliber:stripped_dark_oak_corner_slab_vertical",
+    "caliber:stripped_dark_oak_door_frame",
+    "caliber:stripped_dark_oak_door_frame_lintel",
+    "caliber:stripped_dark_oak_eighth",
+    "caliber:stripped_dark_oak_layer",
+    "caliber:stripped_dark_oak_layer_vertical",
+    "caliber:stripped_dark_oak_pillar",
+    "caliber:stripped_dark_oak_quarter",
+    "caliber:stripped_dark_oak_quarter_vertical",
+    "caliber:stripped_dark_oak_slab",
+    "caliber:stripped_dark_oak_slab_vertical",
+    "caliber:stripped_dark_oak_stairs",
+    "caliber:stripped_dark_oak_wall",
+    "caliber:stripped_dark_oak_window",
+    "caliber:stripped_dark_oak_window_half",
+    "caliber:stripped_jungle_balustrade",
+    "caliber:stripped_jungle_beam_diagonal",
+    "caliber:stripped_jungle_beam_horizontal",
+    "caliber:stripped_jungle_beam_lintel",
+    "caliber:stripped_jungle_beam_posts",
+    "caliber:stripped_jungle_beam_vertical",
+    "caliber:stripped_jungle_capital",
+    "caliber:stripped_jungle_corner",
+    "caliber:stripped_jungle_corner_slab",
+    "caliber:stripped_jungle_corner_slab_vertical",
+    "caliber:stripped_jungle_door_frame",
+    "caliber:stripped_jungle_door_frame_lintel",
+    "caliber:stripped_jungle_eighth",
+    "caliber:stripped_jungle_layer",
+    "caliber:stripped_jungle_layer_vertical",
+    "caliber:stripped_jungle_pillar",
+    "caliber:stripped_jungle_quarter",
+    "caliber:stripped_jungle_quarter_vertical",
+    "caliber:stripped_jungle_slab",
+    "caliber:stripped_jungle_slab_vertical",
+    "caliber:stripped_jungle_stairs",
+    "caliber:stripped_jungle_wall",
+    "caliber:stripped_jungle_window",
+    "caliber:stripped_jungle_window_half",
+    "caliber:stripped_mangrove_balustrade",
+    "caliber:stripped_mangrove_beam_diagonal",
+    "caliber:stripped_mangrove_beam_horizontal",
+    "caliber:stripped_mangrove_beam_lintel",
+    "caliber:stripped_mangrove_beam_posts",
+    "caliber:stripped_mangrove_beam_vertical",
+    "caliber:stripped_mangrove_capital",
+    "caliber:stripped_mangrove_corner",
+    "caliber:stripped_mangrove_corner_slab",
+    "caliber:stripped_mangrove_corner_slab_vertical",
+    "caliber:stripped_mangrove_door_frame",
+    "caliber:stripped_mangrove_door_frame_lintel",
+    "caliber:stripped_mangrove_eighth",
+    "caliber:stripped_mangrove_layer",
+    "caliber:stripped_mangrove_layer_vertical",
+    "caliber:stripped_mangrove_pillar",
+    "caliber:stripped_mangrove_quarter",
+    "caliber:stripped_mangrove_quarter_vertical",
+    "caliber:stripped_mangrove_slab",
+    "caliber:stripped_mangrove_slab_vertical",
+    "caliber:stripped_mangrove_stairs",
+    "caliber:stripped_mangrove_wall",
+    "caliber:stripped_mangrove_window",
+    "caliber:stripped_mangrove_window_half",
+    "caliber:stripped_oak_balustrade",
+    "caliber:stripped_oak_beam_diagonal",
+    "caliber:stripped_oak_beam_horizontal",
+    "caliber:stripped_oak_beam_lintel",
+    "caliber:stripped_oak_beam_posts",
+    "caliber:stripped_oak_beam_vertical",
+    "caliber:stripped_oak_capital",
+    "caliber:stripped_oak_corner",
+    "caliber:stripped_oak_corner_slab",
+    "caliber:stripped_oak_corner_slab_vertical",
+    "caliber:stripped_oak_door_frame",
+    "caliber:stripped_oak_door_frame_lintel",
+    "caliber:stripped_oak_eighth",
+    "caliber:stripped_oak_layer",
+    "caliber:stripped_oak_layer_vertical",
+    "caliber:stripped_oak_pillar",
+    "caliber:stripped_oak_quarter",
+    "caliber:stripped_oak_quarter_vertical",
+    "caliber:stripped_oak_slab",
+    "caliber:stripped_oak_slab_vertical",
+    "caliber:stripped_oak_stairs",
+    "caliber:stripped_oak_wall",
+    "caliber:stripped_oak_window",
+    "caliber:stripped_oak_window_half",
+    "caliber:stripped_spruce_balustrade",
+    "caliber:stripped_spruce_beam_diagonal",
+    "caliber:stripped_spruce_beam_horizontal",
+    "caliber:stripped_spruce_beam_lintel",
+    "caliber:stripped_spruce_beam_posts",
+    "caliber:stripped_spruce_beam_vertical",
+    "caliber:stripped_spruce_capital",
+    "caliber:stripped_spruce_corner",
+    "caliber:stripped_spruce_corner_slab",
+    "caliber:stripped_spruce_corner_slab_vertical",
+    "caliber:stripped_spruce_door_frame",
+    "caliber:stripped_spruce_door_frame_lintel",
+    "caliber:stripped_spruce_eighth",
+    "caliber:stripped_spruce_layer",
+    "caliber:stripped_spruce_layer_vertical",
+    "caliber:stripped_spruce_pillar",
+    "caliber:stripped_spruce_quarter",
+    "caliber:stripped_spruce_quarter_vertical",
+    "caliber:stripped_spruce_slab",
+    "caliber:stripped_spruce_slab_vertical",
+    "caliber:stripped_spruce_stairs",
+    "caliber:stripped_spruce_wall",
+    "caliber:stripped_spruce_window",
+    "caliber:stripped_spruce_window_half",
+    "caliber:stripped_warped_balustrade",
+    "caliber:stripped_warped_beam_diagonal",
+    "caliber:stripped_warped_beam_horizontal",
+    "caliber:stripped_warped_beam_lintel",
+    "caliber:stripped_warped_beam_posts",
+    "caliber:stripped_warped_beam_vertical",
+    "caliber:stripped_warped_capital",
+    "caliber:stripped_warped_corner",
+    "caliber:stripped_warped_corner_slab",
+    "caliber:stripped_warped_corner_slab_vertical",
+    "caliber:stripped_warped_door_frame",
+    "caliber:stripped_warped_door_frame_lintel",
+    "caliber:stripped_warped_eighth",
+    "caliber:stripped_warped_layer",
+    "caliber:stripped_warped_layer_vertical",
+    "caliber:stripped_warped_pillar",
+    "caliber:stripped_warped_quarter",
+    "caliber:stripped_warped_quarter_vertical",
+    "caliber:stripped_warped_slab",
+    "caliber:stripped_warped_slab_vertical",
+    "caliber:stripped_warped_stairs",
+    "caliber:stripped_warped_wall",
+    "caliber:stripped_warped_window",
+    "caliber:stripped_warped_window_half",
+    "caliber:warped_balustrade",
+    "caliber:warped_capital",
+    "caliber:warped_corner",
+    "caliber:warped_corner_slab",
+    "caliber:warped_corner_slab_vertical",
+    "caliber:warped_eighth",
+    "caliber:warped_layer",
+    "caliber:warped_layer_vertical",
+    "caliber:warped_pillar",
+    "caliber:warped_quarter",
+    "caliber:warped_quarter_vertical",
+    "caliber:warped_slab_vertical",
+    "caliber:warped_tall_door",
+    "caliber:warped_wall",
+    "caliber:warped_window",
+    "caliber:warped_window_half",
+    "caliber:warped_shingle_roof_22",
+    "caliber:warped_shingle_roof_45",
+    "caliber:warped_shingle_roof_67",
+    "caliber:warped_shingle_roof_peak",
+    "caliber:white_wool_capital",
+    "caliber:white_wool_corner",
+    "caliber:white_wool_corner_slab",
+    "caliber:white_wool_corner_slab_vertical",
+    "caliber:white_wool_eighth",
+    "caliber:white_wool_layer",
+    "caliber:white_wool_layer_vertical",
+    "caliber:white_wool_pillar",
+    "caliber:white_wool_quarter",
+    "caliber:white_wool_quarter_vertical",
+    "caliber:white_wool_slab",
+    "caliber:white_wool_slab_vertical",
+    "caliber:white_wool_stairs",
+    "caliber:white_wool_wall",
+    "caliber:white_wool_window",
+    "caliber:white_wool_window_half",
+    "caliber:yellow_wool_capital",
+    "caliber:yellow_wool_corner",
+    "caliber:yellow_wool_corner_slab",
+    "caliber:yellow_wool_corner_slab_vertical",
+    "caliber:yellow_wool_eighth",
+    "caliber:yellow_wool_layer",
+    "caliber:yellow_wool_layer_vertical",
+    "caliber:yellow_wool_pillar",
+    "caliber:yellow_wool_quarter",
+    "caliber:yellow_wool_quarter_vertical",
+    "caliber:yellow_wool_slab",
+    "caliber:yellow_wool_slab_vertical",
+    "caliber:yellow_wool_stairs",
+    "caliber:yellow_wool_wall",
+    "caliber:yellow_wool_window",
+    "caliber:yellow_wool_window_half",
+    {
+      "id": "biomesoplenty:dead_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:dead_capital",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:dead_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:dead_corner_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:dead_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:dead_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:dead_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:dead_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:dead_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:dead_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:dead_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:dead_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:dead_tall_door",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:dead_wall",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:dead_window",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:dead_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:dead_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:dead_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:dead_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:dead_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_capital",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_corner_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_tall_door",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_wall",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_window",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:hellbark_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:hellbark_capital",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:hellbark_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:hellbark_corner_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:hellbark_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:hellbark_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:hellbark_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:hellbark_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:hellbark_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:hellbark_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:hellbark_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:hellbark_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:hellbark_tall_door",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:hellbark_wall",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:hellbark_window",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:hellbark_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:hellbark_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:hellbark_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:hellbark_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:hellbark_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_capital",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_corner_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_tall_door",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_wall",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_window",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_capital",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_corner_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_tall_door",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_wall",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_window",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_capital",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_corner_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_tall_door",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_wall",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_window",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_capital",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_corner_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_tall_door",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_wall",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_window",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_capital",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_corner_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_tall_door",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_wall",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_window",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_dead_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_dead_beam_diagonal",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_dead_beam_horizontal",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_dead_beam_lintel",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_dead_beam_posts",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_dead_beam_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_dead_capital",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_dead_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_dead_corner_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_dead_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_dead_door_frame",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_dead_door_frame_lintel",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_dead_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_dead_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_dead_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_dead_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_dead_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_dead_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_dead_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_dead_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_dead_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_dead_wall",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_dead_window",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_dead_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_fir_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_fir_beam_diagonal",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_fir_beam_horizontal",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_fir_beam_lintel",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_fir_beam_posts",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_fir_beam_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_fir_capital",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_fir_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_fir_corner_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_fir_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_fir_door_frame",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_fir_door_frame_lintel",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_fir_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_fir_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_fir_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_fir_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_fir_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_fir_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_fir_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_fir_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_fir_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_fir_wall",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_fir_window",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_fir_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_hellbark_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_hellbark_beam_diagonal",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_hellbark_beam_horizontal",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_hellbark_beam_lintel",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_hellbark_beam_posts",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_hellbark_beam_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_hellbark_capital",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_hellbark_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_hellbark_corner_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_hellbark_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_hellbark_door_frame",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_hellbark_door_frame_lintel",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_hellbark_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_hellbark_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_hellbark_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_hellbark_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_hellbark_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_hellbark_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_hellbark_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_hellbark_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_hellbark_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_hellbark_wall",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_hellbark_window",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_hellbark_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_jacaranda_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_jacaranda_beam_diagonal",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_jacaranda_beam_horizontal",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_jacaranda_beam_lintel",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_jacaranda_beam_posts",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_jacaranda_beam_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_jacaranda_capital",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_jacaranda_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_jacaranda_corner_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_jacaranda_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_jacaranda_door_frame",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_jacaranda_door_frame_lintel",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_jacaranda_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_jacaranda_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_jacaranda_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_jacaranda_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_jacaranda_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_jacaranda_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_jacaranda_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_jacaranda_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_jacaranda_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_jacaranda_wall",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_jacaranda_window",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_jacaranda_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_magic_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_magic_beam_diagonal",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_magic_beam_horizontal",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_magic_beam_lintel",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_magic_beam_posts",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_magic_beam_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_magic_capital",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_magic_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_magic_corner_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_magic_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_magic_door_frame",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_magic_door_frame_lintel",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_magic_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_magic_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_magic_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_magic_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_magic_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_magic_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_magic_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_magic_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_magic_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_magic_wall",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_magic_window",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_magic_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_mahogany_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_mahogany_beam_diagonal",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_mahogany_beam_horizontal",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_mahogany_beam_lintel",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_mahogany_beam_posts",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_mahogany_beam_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_mahogany_capital",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_mahogany_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_mahogany_corner_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_mahogany_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_mahogany_door_frame",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_mahogany_door_frame_lintel",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_mahogany_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_mahogany_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_mahogany_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_mahogany_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_mahogany_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_mahogany_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_mahogany_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_mahogany_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_mahogany_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_mahogany_wall",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_mahogany_window",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_mahogany_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_palm_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_palm_beam_diagonal",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_palm_beam_horizontal",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_palm_beam_lintel",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_palm_beam_posts",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_palm_beam_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_palm_capital",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_palm_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_palm_corner_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_palm_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_palm_door_frame",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_palm_door_frame_lintel",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_palm_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_palm_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_palm_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_palm_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_palm_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_palm_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_palm_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_palm_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_palm_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_palm_wall",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_palm_window",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_palm_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_beam_diagonal",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_beam_horizontal",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_beam_lintel",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_beam_posts",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_beam_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_capital",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_corner_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_door_frame",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_door_frame_lintel",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_wall",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_window",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_umbran_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_umbran_beam_diagonal",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_umbran_beam_horizontal",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_umbran_beam_lintel",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_umbran_beam_posts",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_umbran_beam_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_umbran_capital",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_umbran_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_umbran_corner_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_umbran_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_umbran_door_frame",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_umbran_door_frame_lintel",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_umbran_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_umbran_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_umbran_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_umbran_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_umbran_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_umbran_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_umbran_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_umbran_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_umbran_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_umbran_wall",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_umbran_window",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_umbran_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_willow_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_willow_beam_diagonal",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_willow_beam_horizontal",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_willow_beam_lintel",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_willow_beam_posts",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_willow_beam_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_willow_capital",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_willow_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_willow_corner_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_willow_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_willow_door_frame",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_willow_door_frame_lintel",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_willow_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_willow_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_willow_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_willow_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_willow_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_willow_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_willow_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_willow_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_willow_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_willow_wall",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_willow_window",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_willow_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_capital",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_corner_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_tall_door",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_wall",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_window",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_balustrade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_capital",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_corner",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_corner_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_eighth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_layer",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_pillar",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_tall_door",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_wall",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_window",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_window_half",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:baobab_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:baobab_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:baobab_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:baobab_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:baobab_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:baobab_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:baobab_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:baobab_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:baobab_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:baobab_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:baobab_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:baobab_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:baobab_tall_door",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:baobab_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:baobab_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:baobab_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:baobab_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:baobab_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:baobab_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:baobab_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:black_painted_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:black_painted_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:black_painted_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:black_painted_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:black_painted_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:black_painted_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:black_painted_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:black_painted_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:black_painted_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:black_painted_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:black_painted_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:black_painted_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:black_painted_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:black_painted_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:black_painted_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:black_painted_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:black_painted_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:black_painted_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:black_painted_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blackwood_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blackwood_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blackwood_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blackwood_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blackwood_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blackwood_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blackwood_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blackwood_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blackwood_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blackwood_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blackwood_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blackwood_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blackwood_tall_door",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blackwood_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blackwood_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blackwood_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blackwood_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blackwood_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blackwood_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blackwood_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_bioshroom_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_bioshroom_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_bioshroom_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_bioshroom_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_bioshroom_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_bioshroom_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_bioshroom_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_bioshroom_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_bioshroom_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_bioshroom_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_bioshroom_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_bioshroom_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_bioshroom_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_bioshroom_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_bioshroom_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_bioshroom_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_bioshroom_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_bioshroom_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_bioshroom_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_painted_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_painted_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_painted_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_painted_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_painted_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_painted_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_painted_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_painted_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_painted_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_painted_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_painted_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_painted_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_painted_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_painted_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_painted_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_painted_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_painted_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_painted_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_painted_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brimwood_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brimwood_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brimwood_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brimwood_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brimwood_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brimwood_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brimwood_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brimwood_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brimwood_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brimwood_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brimwood_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brimwood_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brimwood_tall_door",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brimwood_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brimwood_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brimwood_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brimwood_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brimwood_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brimwood_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brimwood_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brown_painted_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brown_painted_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brown_painted_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brown_painted_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brown_painted_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brown_painted_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brown_painted_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brown_painted_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brown_painted_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brown_painted_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brown_painted_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brown_painted_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brown_painted_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brown_painted_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brown_painted_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brown_painted_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brown_painted_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brown_painted_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brown_painted_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cobalt_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cobalt_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cobalt_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cobalt_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cobalt_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cobalt_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cobalt_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cobalt_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cobalt_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cobalt_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cobalt_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cobalt_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cobalt_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cobalt_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cobalt_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cobalt_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cobalt_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cobalt_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cobalt_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cyan_painted_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cyan_painted_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cyan_painted_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cyan_painted_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cyan_painted_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cyan_painted_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cyan_painted_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cyan_painted_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cyan_painted_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cyan_painted_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cyan_painted_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cyan_painted_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cyan_painted_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cyan_painted_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cyan_painted_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cyan_painted_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cyan_painted_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cyan_painted_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cyan_painted_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cypress_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cypress_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cypress_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cypress_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cypress_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cypress_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cypress_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cypress_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cypress_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cypress_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cypress_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cypress_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cypress_tall_door",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cypress_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cypress_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cypress_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cypress_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cypress_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cypress_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cypress_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:dead_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:dead_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:dead_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:dead_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:dead_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:dead_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:dead_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:dead_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:dead_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:dead_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:dead_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:dead_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:dead_tall_door",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:dead_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:dead_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:dead_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:dead_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:dead_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:dead_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:dead_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:eucalyptus_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:eucalyptus_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:eucalyptus_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:eucalyptus_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:eucalyptus_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:eucalyptus_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:eucalyptus_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:eucalyptus_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:eucalyptus_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:eucalyptus_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:eucalyptus_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:eucalyptus_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:eucalyptus_tall_door",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:eucalyptus_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:eucalyptus_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:eucalyptus_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:eucalyptus_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:eucalyptus_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:eucalyptus_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:eucalyptus_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:gray_painted_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:gray_painted_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:gray_painted_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:gray_painted_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:gray_painted_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:gray_painted_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:gray_painted_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:gray_painted_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:gray_painted_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:gray_painted_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:gray_painted_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:gray_painted_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:gray_painted_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:gray_painted_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:gray_painted_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:gray_painted_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:gray_painted_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:gray_painted_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:gray_painted_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:green_painted_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:green_painted_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:green_painted_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:green_painted_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:green_painted_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:green_painted_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:green_painted_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:green_painted_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:green_painted_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:green_painted_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:green_painted_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:green_painted_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:green_painted_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:green_painted_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:green_painted_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:green_painted_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:green_painted_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:green_painted_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:green_painted_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:joshua_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:joshua_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:joshua_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:joshua_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:joshua_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:joshua_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:joshua_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:joshua_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:joshua_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:joshua_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:joshua_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:joshua_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:joshua_tall_door",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:joshua_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:joshua_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:joshua_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:joshua_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:joshua_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:joshua_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:joshua_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:larch_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:larch_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:larch_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:larch_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:larch_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:larch_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:larch_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:larch_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:larch_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:larch_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:larch_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:larch_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:larch_tall_door",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:larch_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:larch_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:larch_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:larch_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:larch_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:larch_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:larch_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_blue_painted_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_blue_painted_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_blue_painted_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_blue_painted_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_blue_painted_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_blue_painted_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_blue_painted_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_blue_painted_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_blue_painted_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_blue_painted_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_blue_painted_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_blue_painted_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_blue_painted_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_blue_painted_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_blue_painted_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_blue_painted_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_blue_painted_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_blue_painted_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_blue_painted_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_gray_painted_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_gray_painted_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_gray_painted_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_gray_painted_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_gray_painted_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_gray_painted_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_gray_painted_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_gray_painted_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_gray_painted_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_gray_painted_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_gray_painted_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_gray_painted_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_gray_painted_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_gray_painted_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_gray_painted_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_gray_painted_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_gray_painted_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_gray_painted_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_gray_painted_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:lime_painted_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:lime_painted_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:lime_painted_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:lime_painted_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:lime_painted_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:lime_painted_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:lime_painted_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:lime_painted_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:lime_painted_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:lime_painted_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:lime_painted_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:lime_painted_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:lime_painted_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:lime_painted_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:lime_painted_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:lime_painted_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:lime_painted_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:lime_painted_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:lime_painted_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magenta_painted_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magenta_painted_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magenta_painted_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magenta_painted_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magenta_painted_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magenta_painted_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magenta_painted_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magenta_painted_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magenta_painted_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magenta_painted_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magenta_painted_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magenta_painted_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magenta_painted_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magenta_painted_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magenta_painted_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magenta_painted_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magenta_painted_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magenta_painted_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magenta_painted_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magnolia_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magnolia_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magnolia_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magnolia_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magnolia_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magnolia_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magnolia_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magnolia_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magnolia_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magnolia_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magnolia_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magnolia_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magnolia_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magnolia_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magnolia_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magnolia_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magnolia_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magnolia_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magnolia_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:maple_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:maple_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:maple_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:maple_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:maple_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:maple_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:maple_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:maple_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:maple_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:maple_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:maple_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:maple_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:maple_tall_door",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:maple_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:maple_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:maple_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:maple_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:maple_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:maple_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:maple_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mauve_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mauve_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mauve_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mauve_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mauve_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mauve_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mauve_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mauve_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mauve_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mauve_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mauve_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mauve_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mauve_tall_door",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mauve_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mauve_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mauve_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mauve_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mauve_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mauve_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mauve_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:orange_painted_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:orange_painted_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:orange_painted_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:orange_painted_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:orange_painted_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:orange_painted_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:orange_painted_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:orange_painted_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:orange_painted_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:orange_painted_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:orange_painted_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:orange_painted_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:orange_painted_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:orange_painted_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:orange_painted_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:orange_painted_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:orange_painted_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:orange_painted_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:orange_painted_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:palm_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:palm_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:palm_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:palm_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:palm_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:palm_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:palm_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:palm_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:palm_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:palm_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:palm_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:palm_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:palm_tall_door",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:palm_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:palm_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:palm_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:palm_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:palm_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:palm_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:palm_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_tall_door",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_bioshroom_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_bioshroom_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_bioshroom_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_bioshroom_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_bioshroom_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_bioshroom_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_bioshroom_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_bioshroom_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_bioshroom_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_bioshroom_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_bioshroom_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_bioshroom_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_bioshroom_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_bioshroom_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_bioshroom_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_bioshroom_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_bioshroom_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_bioshroom_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_bioshroom_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_painted_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_painted_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_painted_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_painted_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_painted_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_painted_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_painted_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_painted_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_painted_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_painted_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_painted_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_painted_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_painted_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_painted_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_painted_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_painted_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_painted_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_painted_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_painted_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:purple_painted_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:purple_painted_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:purple_painted_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:purple_painted_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:purple_painted_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:purple_painted_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:purple_painted_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:purple_painted_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:purple_painted_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:purple_painted_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:purple_painted_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:purple_painted_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:purple_painted_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:purple_painted_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:purple_painted_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:purple_painted_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:purple_painted_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:purple_painted_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:purple_painted_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:red_painted_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:red_painted_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:red_painted_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:red_painted_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:red_painted_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:red_painted_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:red_painted_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:red_painted_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:red_painted_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:red_painted_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:red_painted_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:red_painted_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:red_painted_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:red_painted_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:red_painted_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:red_painted_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:red_painted_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:red_painted_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:red_painted_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redwood_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redwood_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redwood_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redwood_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redwood_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redwood_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redwood_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redwood_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redwood_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redwood_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redwood_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redwood_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redwood_tall_door",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redwood_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redwood_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redwood_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redwood_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redwood_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redwood_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redwood_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:socotra_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:socotra_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:socotra_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:socotra_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:socotra_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:socotra_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:socotra_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:socotra_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:socotra_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:socotra_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:socotra_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:socotra_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:socotra_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:socotra_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:socotra_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:socotra_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:socotra_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:socotra_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:socotra_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_baobab_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_baobab_beam_diagonal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_baobab_beam_horizontal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_baobab_beam_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_baobab_beam_posts",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_baobab_beam_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_baobab_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_baobab_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_baobab_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_baobab_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_baobab_door_frame",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_baobab_door_frame_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_baobab_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_baobab_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_baobab_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_baobab_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_baobab_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_baobab_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_baobab_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_baobab_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_baobab_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_baobab_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_baobab_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_baobab_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blackwood_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blackwood_beam_diagonal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blackwood_beam_horizontal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blackwood_beam_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blackwood_beam_posts",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blackwood_beam_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blackwood_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blackwood_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blackwood_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blackwood_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blackwood_door_frame",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blackwood_door_frame_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blackwood_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blackwood_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blackwood_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blackwood_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blackwood_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blackwood_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blackwood_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blackwood_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blackwood_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blackwood_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blackwood_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blackwood_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blue_bioshroom_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blue_bioshroom_beam_diagonal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blue_bioshroom_beam_horizontal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blue_bioshroom_beam_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blue_bioshroom_beam_posts",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blue_bioshroom_beam_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blue_bioshroom_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blue_bioshroom_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blue_bioshroom_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blue_bioshroom_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blue_bioshroom_door_frame",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blue_bioshroom_door_frame_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blue_bioshroom_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blue_bioshroom_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blue_bioshroom_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blue_bioshroom_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blue_bioshroom_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blue_bioshroom_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blue_bioshroom_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blue_bioshroom_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blue_bioshroom_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blue_bioshroom_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blue_bioshroom_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blue_bioshroom_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_brimwood_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_brimwood_beam_diagonal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_brimwood_beam_horizontal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_brimwood_beam_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_brimwood_beam_posts",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_brimwood_beam_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_brimwood_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_brimwood_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_brimwood_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_brimwood_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_brimwood_door_frame",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_brimwood_door_frame_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_brimwood_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_brimwood_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_brimwood_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_brimwood_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_brimwood_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_brimwood_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_brimwood_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_brimwood_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_brimwood_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_brimwood_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_brimwood_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_brimwood_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cobalt_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cobalt_beam_diagonal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cobalt_beam_horizontal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cobalt_beam_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cobalt_beam_posts",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cobalt_beam_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cobalt_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cobalt_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cobalt_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cobalt_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cobalt_door_frame",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cobalt_door_frame_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cobalt_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cobalt_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cobalt_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cobalt_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cobalt_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cobalt_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cobalt_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cobalt_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cobalt_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cobalt_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cobalt_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cobalt_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cypress_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cypress_beam_diagonal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cypress_beam_horizontal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cypress_beam_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cypress_beam_posts",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cypress_beam_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cypress_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cypress_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cypress_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cypress_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cypress_door_frame",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cypress_door_frame_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cypress_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cypress_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cypress_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cypress_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cypress_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cypress_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cypress_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cypress_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cypress_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cypress_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cypress_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cypress_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_dead_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_dead_beam_diagonal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_dead_beam_horizontal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_dead_beam_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_dead_beam_posts",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_dead_beam_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_dead_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_dead_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_dead_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_dead_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_dead_door_frame",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_dead_door_frame_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_dead_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_dead_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_dead_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_dead_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_dead_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_dead_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_dead_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_dead_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_dead_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_dead_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_dead_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_dead_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_eucalyptus_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_eucalyptus_beam_diagonal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_eucalyptus_beam_horizontal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_eucalyptus_beam_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_eucalyptus_beam_posts",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_eucalyptus_beam_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_eucalyptus_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_eucalyptus_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_eucalyptus_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_eucalyptus_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_eucalyptus_door_frame",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_eucalyptus_door_frame_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_eucalyptus_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_eucalyptus_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_eucalyptus_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_eucalyptus_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_eucalyptus_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_eucalyptus_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_eucalyptus_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_eucalyptus_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_eucalyptus_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_eucalyptus_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_eucalyptus_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_eucalyptus_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_joshua_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_joshua_beam_diagonal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_joshua_beam_horizontal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_joshua_beam_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_joshua_beam_posts",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_joshua_beam_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_joshua_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_joshua_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_joshua_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_joshua_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_joshua_door_frame",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_joshua_door_frame_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_joshua_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_joshua_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_joshua_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_joshua_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_joshua_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_joshua_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_joshua_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_joshua_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_joshua_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_joshua_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_joshua_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_joshua_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_kapok_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_kapok_beam_diagonal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_kapok_beam_horizontal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_kapok_beam_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_kapok_beam_posts",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_kapok_beam_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_kapok_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_kapok_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_kapok_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_kapok_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_kapok_door_frame",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_kapok_door_frame_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_kapok_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_kapok_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_kapok_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_kapok_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_kapok_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_kapok_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_kapok_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_kapok_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_kapok_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_kapok_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_kapok_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_kapok_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_larch_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_larch_beam_diagonal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_larch_beam_horizontal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_larch_beam_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_larch_beam_posts",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_larch_beam_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_larch_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_larch_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_larch_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_larch_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_larch_door_frame",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_larch_door_frame_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_larch_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_larch_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_larch_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_larch_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_larch_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_larch_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_larch_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_larch_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_larch_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_larch_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_larch_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_larch_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_magnolia_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_magnolia_beam_diagonal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_magnolia_beam_horizontal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_magnolia_beam_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_magnolia_beam_posts",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_magnolia_beam_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_magnolia_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_magnolia_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_magnolia_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_magnolia_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_magnolia_door_frame",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_magnolia_door_frame_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_magnolia_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_magnolia_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_magnolia_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_magnolia_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_magnolia_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_magnolia_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_magnolia_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_magnolia_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_magnolia_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_magnolia_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_magnolia_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_magnolia_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_maple_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_maple_beam_diagonal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_maple_beam_horizontal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_maple_beam_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_maple_beam_posts",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_maple_beam_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_maple_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_maple_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_maple_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_maple_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_maple_door_frame",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_maple_door_frame_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_maple_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_maple_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_maple_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_maple_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_maple_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_maple_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_maple_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_maple_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_maple_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_maple_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_maple_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_maple_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_mauve_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_mauve_beam_diagonal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_mauve_beam_horizontal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_mauve_beam_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_mauve_beam_posts",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_mauve_beam_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_mauve_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_mauve_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_mauve_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_mauve_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_mauve_door_frame",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_mauve_door_frame_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_mauve_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_mauve_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_mauve_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_mauve_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_mauve_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_mauve_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_mauve_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_mauve_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_mauve_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_mauve_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_mauve_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_mauve_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_palm_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_palm_beam_diagonal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_palm_beam_horizontal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_palm_beam_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_palm_beam_posts",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_palm_beam_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_palm_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_palm_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_palm_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_palm_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_palm_door_frame",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_palm_door_frame_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_palm_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_palm_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_palm_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_palm_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_palm_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_palm_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_palm_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_palm_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_palm_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_palm_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_palm_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_palm_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pine_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pine_beam_diagonal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pine_beam_horizontal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pine_beam_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pine_beam_posts",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pine_beam_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pine_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pine_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pine_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pine_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pine_door_frame",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pine_door_frame_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pine_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pine_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pine_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pine_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pine_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pine_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pine_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pine_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pine_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pine_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pine_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pine_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pink_bioshroom_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pink_bioshroom_beam_diagonal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pink_bioshroom_beam_horizontal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pink_bioshroom_beam_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pink_bioshroom_beam_posts",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pink_bioshroom_beam_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pink_bioshroom_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pink_bioshroom_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pink_bioshroom_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pink_bioshroom_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pink_bioshroom_door_frame",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pink_bioshroom_door_frame_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pink_bioshroom_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pink_bioshroom_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pink_bioshroom_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pink_bioshroom_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pink_bioshroom_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pink_bioshroom_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pink_bioshroom_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pink_bioshroom_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pink_bioshroom_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pink_bioshroom_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pink_bioshroom_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pink_bioshroom_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_redwood_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_redwood_beam_diagonal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_redwood_beam_horizontal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_redwood_beam_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_redwood_beam_posts",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_redwood_beam_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_redwood_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_redwood_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_redwood_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_redwood_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_redwood_door_frame",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_redwood_door_frame_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_redwood_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_redwood_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_redwood_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_redwood_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_redwood_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_redwood_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_redwood_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_redwood_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_redwood_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_redwood_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_redwood_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_redwood_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_socotra_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_socotra_beam_diagonal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_socotra_beam_horizontal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_socotra_beam_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_socotra_beam_posts",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_socotra_beam_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_socotra_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_socotra_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_socotra_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_socotra_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_socotra_door_frame",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_socotra_door_frame_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_socotra_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_socotra_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_socotra_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_socotra_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_socotra_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_socotra_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_socotra_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_socotra_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_socotra_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_socotra_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_socotra_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_socotra_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_willow_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_willow_beam_diagonal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_willow_beam_horizontal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_willow_beam_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_willow_beam_posts",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_willow_beam_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_willow_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_willow_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_willow_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_willow_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_willow_door_frame",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_willow_door_frame_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_willow_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_willow_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_willow_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_willow_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_willow_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_willow_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_willow_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_willow_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_willow_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_willow_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_willow_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_willow_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_yellow_bioshroom_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_yellow_bioshroom_beam_diagonal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_yellow_bioshroom_beam_horizontal",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_yellow_bioshroom_beam_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_yellow_bioshroom_beam_posts",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_yellow_bioshroom_beam_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_yellow_bioshroom_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_yellow_bioshroom_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_yellow_bioshroom_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_yellow_bioshroom_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_yellow_bioshroom_door_frame",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_yellow_bioshroom_door_frame_lintel",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_yellow_bioshroom_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_yellow_bioshroom_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_yellow_bioshroom_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_yellow_bioshroom_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_yellow_bioshroom_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_yellow_bioshroom_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_yellow_bioshroom_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_yellow_bioshroom_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_yellow_bioshroom_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_yellow_bioshroom_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_yellow_bioshroom_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_yellow_bioshroom_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:white_painted_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:white_painted_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:white_painted_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:white_painted_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:white_painted_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:white_painted_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:white_painted_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:white_painted_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:white_painted_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:white_painted_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:white_painted_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:white_painted_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:white_painted_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:white_painted_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:white_painted_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:white_painted_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:white_painted_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:white_painted_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:white_painted_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:willow_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:willow_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:willow_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:willow_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:willow_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:willow_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:willow_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:willow_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:willow_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:willow_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:willow_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:willow_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:willow_tall_door",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:willow_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:willow_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:willow_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:willow_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:willow_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:willow_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:willow_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_bioshroom_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_bioshroom_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_bioshroom_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_bioshroom_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_bioshroom_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_bioshroom_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_bioshroom_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_bioshroom_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_bioshroom_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_bioshroom_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_bioshroom_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_bioshroom_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_bioshroom_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_bioshroom_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_bioshroom_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_bioshroom_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_bioshroom_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_bioshroom_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_bioshroom_shingle_roof_peak",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_painted_balustrade",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_painted_capital",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_painted_corner",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_painted_corner_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_painted_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_painted_eighth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_painted_layer",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_painted_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_painted_pillar",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_painted_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_painted_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_painted_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_painted_wall",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_painted_window",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_painted_window_half",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_painted_shingle_roof_22",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_painted_shingle_roof_45",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_painted_shingle_roof_67",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_painted_shingle_roof_peak",
+      "required": false
+    }
+  ]
+}

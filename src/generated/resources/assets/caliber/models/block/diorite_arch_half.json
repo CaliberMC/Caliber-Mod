@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/arch_half",
-  "textures": {
-    "bottom": "minecraft:block/diorite",
-    "side": "minecraft:block/diorite",
-    "top": "minecraft:block/diorite"
-  }
-}

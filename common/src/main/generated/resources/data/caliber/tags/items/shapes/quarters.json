@@ -1,0 +1,530 @@
+{
+  "values": [
+    "caliber:acacia_quarter",
+    "caliber:andesite_quarter",
+    "caliber:bamboo_mosaic_quarter",
+    "caliber:bamboo_quarter",
+    "caliber:basalt_quarter",
+    "caliber:birch_quarter",
+    "caliber:black_concrete_quarter",
+    "caliber:black_terracotta_quarter",
+    "caliber:black_wool_quarter",
+    "caliber:blackstone_quarter",
+    "caliber:blue_concrete_quarter",
+    "caliber:blue_terracotta_quarter",
+    "caliber:blue_wool_quarter",
+    "caliber:brick_quarter",
+    "caliber:brown_concrete_quarter",
+    "caliber:brown_terracotta_quarter",
+    "caliber:brown_wool_quarter",
+    "caliber:calcite_quarter",
+    "caliber:cherry_quarter",
+    "caliber:chiseled_deepslate_quarter",
+    "caliber:chiseled_polished_blackstone_quarter",
+    "caliber:chiseled_red_sandstone_quarter",
+    "caliber:chiseled_sandstone_quarter",
+    "caliber:chiseled_stone_brick_quarter",
+    "caliber:cobbled_deepslate_quarter",
+    "caliber:cobblestone_quarter",
+    "caliber:cracked_deepslate_brick_quarter",
+    "caliber:cracked_deepslate_tile_quarter",
+    "caliber:cracked_polished_blackstone_brick_quarter",
+    "caliber:cracked_stone_brick_quarter",
+    "caliber:crimson_quarter",
+    "caliber:cut_red_sandstone_quarter",
+    "caliber:cut_sandstone_quarter",
+    "caliber:cyan_concrete_quarter",
+    "caliber:cyan_terracotta_quarter",
+    "caliber:cyan_wool_quarter",
+    "caliber:dark_oak_quarter",
+    "caliber:dark_prismarine_quarter",
+    "caliber:deepslate_quarter",
+    "caliber:deepslate_brick_quarter",
+    "caliber:deepslate_tile_quarter",
+    "caliber:diorite_quarter",
+    "caliber:dripstone_quarter",
+    "caliber:end_stone_quarter",
+    "caliber:end_stone_brick_quarter",
+    "caliber:gilded_blackstone_quarter",
+    "caliber:granite_quarter",
+    "caliber:gray_concrete_quarter",
+    "caliber:gray_terracotta_quarter",
+    "caliber:gray_wool_quarter",
+    "caliber:green_concrete_quarter",
+    "caliber:green_terracotta_quarter",
+    "caliber:green_wool_quarter",
+    "caliber:jungle_quarter",
+    "caliber:light_blue_concrete_quarter",
+    "caliber:light_blue_terracotta_quarter",
+    "caliber:light_blue_wool_quarter",
+    "caliber:light_gray_concrete_quarter",
+    "caliber:light_gray_terracotta_quarter",
+    "caliber:light_gray_wool_quarter",
+    "caliber:lime_concrete_quarter",
+    "caliber:lime_terracotta_quarter",
+    "caliber:lime_wool_quarter",
+    "caliber:magenta_concrete_quarter",
+    "caliber:magenta_terracotta_quarter",
+    "caliber:magenta_wool_quarter",
+    "caliber:mangrove_quarter",
+    "caliber:mossy_cobblestone_quarter",
+    "caliber:mossy_stone_brick_quarter",
+    "caliber:mud_brick_quarter",
+    "caliber:nether_brick_quarter",
+    "caliber:netherite_quarter",
+    "caliber:oak_quarter",
+    "caliber:obsidian_quarter",
+    "caliber:orange_concrete_quarter",
+    "caliber:orange_terracotta_quarter",
+    "caliber:orange_wool_quarter",
+    "caliber:pink_concrete_quarter",
+    "caliber:pink_terracotta_quarter",
+    "caliber:pink_wool_quarter",
+    "caliber:polished_andesite_quarter",
+    "caliber:polished_basalt_quarter",
+    "caliber:polished_blackstone_quarter",
+    "caliber:polished_blackstone_brick_quarter",
+    "caliber:polished_deepslate_quarter",
+    "caliber:polished_diorite_quarter",
+    "caliber:polished_granite_quarter",
+    "caliber:prismarine_quarter",
+    "caliber:prismarine_brick_quarter",
+    "caliber:purple_concrete_quarter",
+    "caliber:purple_terracotta_quarter",
+    "caliber:purple_wool_quarter",
+    "caliber:purpur_block_quarter",
+    "caliber:purpur_pillar_quarter",
+    "caliber:quartz_quarter",
+    "caliber:quartz_brick_quarter",
+    "caliber:red_concrete_quarter",
+    "caliber:red_nether_brick_quarter",
+    "caliber:red_sandstone_quarter",
+    "caliber:red_terracotta_quarter",
+    "caliber:red_wool_quarter",
+    "caliber:sandstone_quarter",
+    "caliber:smooth_basalt_quarter",
+    "caliber:smooth_quartz_quarter",
+    "caliber:smooth_red_sandstone_quarter",
+    "caliber:smooth_sandstone_quarter",
+    "caliber:smooth_stone_quarter",
+    "caliber:spruce_quarter",
+    "caliber:stone_quarter",
+    "caliber:stone_brick_quarter",
+    "caliber:stripped_acacia_quarter",
+    "caliber:stripped_bamboo_quarter",
+    "caliber:stripped_birch_quarter",
+    "caliber:stripped_cherry_quarter",
+    "caliber:stripped_crimson_quarter",
+    "caliber:stripped_dark_oak_quarter",
+    "caliber:stripped_jungle_quarter",
+    "caliber:stripped_mangrove_quarter",
+    "caliber:stripped_oak_quarter",
+    "caliber:stripped_spruce_quarter",
+    "caliber:stripped_warped_quarter",
+    "caliber:terracotta_quarter",
+    "caliber:tuff_quarter",
+    "caliber:warped_quarter",
+    "caliber:white_concrete_quarter",
+    "caliber:white_terracotta_quarter",
+    "caliber:white_wool_quarter",
+    "caliber:yellow_concrete_quarter",
+    "caliber:yellow_terracotta_quarter",
+    "caliber:yellow_wool_quarter",
+    {
+      "id": "biomesoplenty:black_sandstone_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:brimstone_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:brimstone_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_black_sandstone_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_brimstone_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_orange_sandstone_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_white_sandstone_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_black_sandstone_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_orange_sandstone_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_white_sandstone_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:dead_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:hellbark_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_black_sandstone_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_orange_sandstone_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_white_sandstone_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_dead_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_fir_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_hellbark_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_jacaranda_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_magic_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_mahogany_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_palm_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_umbran_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_willow_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_quarter",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:argillite_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:baobab_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:black_painted_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blackwood_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_bioshroom_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_painted_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brimwood_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brown_painted_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_block_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cobalt_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cyan_painted_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cypress_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:dead_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:eucalyptus_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:gray_painted_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:green_bioshroom_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:green_painted_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:joshua_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:larch_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_blue_painted_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:light_gray_painted_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:lime_painted_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magenta_painted_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magnolia_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:maple_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mauve_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mossy_stone_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:orange_painted_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:palm_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_bioshroom_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pink_painted_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:polished_chalk_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:purple_painted_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:red_painted_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redwood_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:socotra_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_baobab_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blackwood_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blue_bioshroom_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_brimwood_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cobalt_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cypress_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_dead_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_eucalyptus_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_green_bioshroom_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_joshua_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_kapok_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_larch_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_magnolia_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_maple_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_mauve_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_palm_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pine_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pink_bioshroom_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_redwood_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_socotra_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_willow_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_yellow_bioshroom_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:white_painted_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:willow_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_bioshroom_quarter",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:yellow_painted_quarter",
+      "required": false
+    }
+  ]
+}

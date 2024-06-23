@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/window_half_arch",
-  "textures": {
-    "bottom": "create:block/palettes/stone_types/natural/ochrum_0",
-    "side": "create:block/palettes/stone_types/natural/ochrum_0",
-    "top": "create:block/palettes/stone_types/natural/ochrum_0"
-  }
-}

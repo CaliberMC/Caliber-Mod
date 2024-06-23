@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/arch_large_half_left",
-  "textures": {
-    "bottom": "biomesoplenty:block/black_sandstone_top",
-    "side": "biomesoplenty:block/black_sandstone_top",
-    "top": "biomesoplenty:block/black_sandstone_top"
-  }
-}

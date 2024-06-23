@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/corner_layer_1",
-  "textures": {
-    "bottom": "biomesoplenty:block/chiseled_brimstone_bricks",
-    "side": "biomesoplenty:block/chiseled_brimstone_bricks",
-    "top": "biomesoplenty:block/chiseled_brimstone_bricks"
-  }
-}

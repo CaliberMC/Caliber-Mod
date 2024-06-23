@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/eighth_left_layer_3",
-  "textures": {
-    "bottom": "minecraft:block/polished_blackstone",
-    "side": "minecraft:block/polished_blackstone",
-    "top": "minecraft:block/polished_blackstone"
-  }
-}

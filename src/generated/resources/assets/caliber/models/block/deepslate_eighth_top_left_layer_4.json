@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/eighth_top_left_layer_4",
-  "textures": {
-    "bottom": "minecraft:block/deepslate",
-    "side": "minecraft:block/deepslate",
-    "top": "minecraft:block/deepslate"
-  }
-}

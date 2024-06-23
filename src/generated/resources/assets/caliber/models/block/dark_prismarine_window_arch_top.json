@@ -1,8 +1,0 @@
-{
-  "parent": "caliberlib:block/templates/window_arch_top",
-  "textures": {
-    "bottom": "minecraft:block/dark_prismarine",
-    "side": "minecraft:block/dark_prismarine",
-    "top": "minecraft:block/dark_prismarine"
-  }
-}
