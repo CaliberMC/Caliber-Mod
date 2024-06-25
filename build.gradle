@@ -37,7 +37,7 @@ subprojects {
         silentMojangMappingsLicense()
     }
 
-    def generatedResources = file("src/generated")
+    def generatedResources = file("src/main/generated/resources")
 
     sourceSets {
         main {
