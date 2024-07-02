@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_duh_obsidian": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:duh_obsidian"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:duh_obsidian_wall_from_duh_obsidian_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_duh_obsidian",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:duh_obsidian_wall_from_duh_obsidian_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

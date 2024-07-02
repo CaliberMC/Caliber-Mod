@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "chipped:sheet_waxed_oxidized_copper"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "item": "chipped:sheet_waxed_oxidized_copper_stairs"
+  },
+  "show_notification": true
+}

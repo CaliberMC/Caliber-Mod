@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:offset_blackstone_brick_layer"
+  },
+  "result": "chipped:offset_blackstone_brick_layer_vertical"
+}

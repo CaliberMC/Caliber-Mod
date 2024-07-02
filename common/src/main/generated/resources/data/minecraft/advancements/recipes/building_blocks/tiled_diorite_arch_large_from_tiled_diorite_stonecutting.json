@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:tiled_diorite_arch_large_from_tiled_diorite_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tiled_diorite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:tiled_diorite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_tiled_diorite",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:tiled_diorite_arch_large_from_tiled_diorite_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

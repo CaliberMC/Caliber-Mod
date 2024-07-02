@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:smoothed_double_inlayed_mossy_stone_bricks"
+  },
+  "result": "chipped:smoothed_double_inlayed_mossy_stone_brick_corner_slab_vertical"
+}

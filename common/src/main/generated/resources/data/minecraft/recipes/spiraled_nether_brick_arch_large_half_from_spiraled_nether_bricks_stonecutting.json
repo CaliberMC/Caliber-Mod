@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:spiraled_nether_bricks"
+  },
+  "result": "chipped:spiraled_nether_brick_arch_large_half"
+}

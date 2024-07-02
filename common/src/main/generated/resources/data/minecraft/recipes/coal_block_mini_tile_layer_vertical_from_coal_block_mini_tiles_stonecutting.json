@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:coal_block_mini_tiles"
+  },
+  "result": "chipped:coal_block_mini_tile_layer_vertical"
+}

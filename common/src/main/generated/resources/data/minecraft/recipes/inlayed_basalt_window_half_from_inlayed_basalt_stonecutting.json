@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:inlayed_basalt"
+  },
+  "result": "chipped:inlayed_basalt_window_half"
+}

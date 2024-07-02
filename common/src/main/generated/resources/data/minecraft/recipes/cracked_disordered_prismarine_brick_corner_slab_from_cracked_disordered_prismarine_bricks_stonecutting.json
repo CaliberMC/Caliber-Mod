@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:cracked_disordered_prismarine_bricks"
+  },
+  "result": "chipped:cracked_disordered_prismarine_brick_corner_slab"
+}

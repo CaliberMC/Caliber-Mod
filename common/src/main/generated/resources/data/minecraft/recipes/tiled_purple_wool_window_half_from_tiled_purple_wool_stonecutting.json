@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:tiled_purple_wool"
+  },
+  "result": "chipped:tiled_purple_wool_window_half"
+}

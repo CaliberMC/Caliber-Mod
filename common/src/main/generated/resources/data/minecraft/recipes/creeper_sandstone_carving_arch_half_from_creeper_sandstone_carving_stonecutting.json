@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:creeper_sandstone_carving"
+  },
+  "result": "chipped:creeper_sandstone_carving_arch_half"
+}

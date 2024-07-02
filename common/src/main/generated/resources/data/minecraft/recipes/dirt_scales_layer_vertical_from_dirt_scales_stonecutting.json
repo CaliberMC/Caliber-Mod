@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:dirt_scales"
+  },
+  "result": "chipped:dirt_scales_layer_vertical"
+}

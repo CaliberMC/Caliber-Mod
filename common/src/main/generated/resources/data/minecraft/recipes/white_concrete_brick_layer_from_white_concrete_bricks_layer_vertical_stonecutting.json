@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:white_concrete_brick_layer_vertical"
+  },
+  "result": "chipped:white_concrete_brick_layer"
+}

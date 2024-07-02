@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:loded_mossy_cobblestone"
+  },
+  "result": "chipped:loded_mossy_cobblestone_balustrade"
+}

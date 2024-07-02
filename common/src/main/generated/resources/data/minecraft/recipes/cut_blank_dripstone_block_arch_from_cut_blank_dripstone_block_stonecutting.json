@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:cut_blank_dripstone_block"
+  },
+  "result": "chipped:cut_blank_dripstone_block_arch"
+}

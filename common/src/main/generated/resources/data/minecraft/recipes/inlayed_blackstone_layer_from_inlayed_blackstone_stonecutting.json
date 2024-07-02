@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:inlayed_blackstone"
+  },
+  "result": "chipped:inlayed_blackstone_layer"
+}

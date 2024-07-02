@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:glad_crying_obsidian"
+  },
+  "result": "chipped:glad_crying_obsidian_window_half"
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_blank_raw_gold_block_carving": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:blank_raw_gold_block_carving"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:blank_raw_gold_block_carving_wall_from_blank_raw_gold_block_carving_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_blank_raw_gold_block_carving",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:blank_raw_gold_block_carving_wall_from_blank_raw_gold_block_carving_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

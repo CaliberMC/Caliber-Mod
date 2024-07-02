@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_shifted_mangrove_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:shifted_mangrove_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:shifted_mangrove_layer_vertical_from_shifted_mangrove_planks_layer_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_shifted_mangrove_planks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:shifted_mangrove_layer_vertical_from_shifted_mangrove_planks_layer_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

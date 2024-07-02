@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "chipped:smooth_inlayed_raw_iron_block"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "chipped:smooth_inlayed_raw_iron_block_slab"
+  },
+  "show_notification": true
+}

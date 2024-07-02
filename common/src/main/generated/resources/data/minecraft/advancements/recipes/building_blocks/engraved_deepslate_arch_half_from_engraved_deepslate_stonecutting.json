@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_engraved_deepslate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:engraved_deepslate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:engraved_deepslate_arch_half_from_engraved_deepslate_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_engraved_deepslate",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:engraved_deepslate_arch_half_from_engraved_deepslate_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

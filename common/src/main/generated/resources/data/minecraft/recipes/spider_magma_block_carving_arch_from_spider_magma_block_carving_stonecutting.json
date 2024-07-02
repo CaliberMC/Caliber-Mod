@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:spider_magma_block_carving"
+  },
+  "result": "chipped:spider_magma_block_carving_arch"
+}

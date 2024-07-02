@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:rough_diorite"
+  },
+  "result": "chipped:rough_diorite_arch"
+}

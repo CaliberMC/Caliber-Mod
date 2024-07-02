@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stop_purple_concrete": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:stop_purple_concrete"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:stop_purple_concrete_eighth_from_stop_purple_concrete_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_stop_purple_concrete",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:stop_purple_concrete_eighth_from_stop_purple_concrete_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:prismal_netherrack_remnants"
+  },
+  "result": "chipped:prismal_netherrack_remnants_wall"
+}

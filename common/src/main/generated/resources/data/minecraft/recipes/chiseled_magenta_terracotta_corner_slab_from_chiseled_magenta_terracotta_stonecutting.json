@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:chiseled_magenta_terracotta"
+  },
+  "result": "chipped:chiseled_magenta_terracotta_corner_slab"
+}

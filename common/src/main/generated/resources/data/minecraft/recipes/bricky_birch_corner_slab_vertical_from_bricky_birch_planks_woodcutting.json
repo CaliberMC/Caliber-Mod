@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:bricky_birch_planks"
+  },
+  "result": "chipped:bricky_birch_corner_slab_vertical"
+}

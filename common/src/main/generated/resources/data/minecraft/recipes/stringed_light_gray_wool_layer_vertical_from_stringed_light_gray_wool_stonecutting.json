@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:stringed_light_gray_wool"
+  },
+  "result": "chipped:stringed_light_gray_wool_layer_vertical"
+}

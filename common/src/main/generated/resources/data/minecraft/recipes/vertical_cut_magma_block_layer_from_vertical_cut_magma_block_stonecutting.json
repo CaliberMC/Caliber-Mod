@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:vertical_cut_magma_block"
+  },
+  "result": "chipped:vertical_cut_magma_block_layer"
+}

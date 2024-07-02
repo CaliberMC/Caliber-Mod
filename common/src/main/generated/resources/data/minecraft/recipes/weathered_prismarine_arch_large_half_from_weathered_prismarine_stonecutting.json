@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:weathered_prismarine"
+  },
+  "result": "chipped:weathered_prismarine_arch_large_half"
+}

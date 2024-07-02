@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:creeper_deepslate_carving"
+  },
+  "result": "chipped:creeper_deepslate_carving_arch_large_half"
+}

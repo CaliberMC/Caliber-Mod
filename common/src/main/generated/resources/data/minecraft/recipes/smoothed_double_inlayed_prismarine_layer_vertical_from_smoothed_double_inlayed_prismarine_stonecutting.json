@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:smoothed_double_inlayed_prismarine"
+  },
+  "result": "chipped:smoothed_double_inlayed_prismarine_layer_vertical"
+}

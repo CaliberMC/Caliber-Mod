@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:angry_crying_obsidian"
+  },
+  "result": "chipped:angry_crying_obsidian_layer"
+}

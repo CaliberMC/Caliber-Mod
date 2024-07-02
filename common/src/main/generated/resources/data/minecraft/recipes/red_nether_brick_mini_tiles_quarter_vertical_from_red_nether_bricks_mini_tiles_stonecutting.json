@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:red_nether_bricks_mini_tiles"
+  },
+  "result": "chipped:red_nether_brick_mini_tiles_quarter_vertical"
+}

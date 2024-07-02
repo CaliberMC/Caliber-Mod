@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_prismal_tuff_remnants": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:prismal_tuff_remnants"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:prismal_tuff_remnants_layer_vertical_from_prismal_tuff_remnants_layer_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_prismal_tuff_remnants",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:prismal_tuff_remnants_layer_vertical_from_prismal_tuff_remnants_layer_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

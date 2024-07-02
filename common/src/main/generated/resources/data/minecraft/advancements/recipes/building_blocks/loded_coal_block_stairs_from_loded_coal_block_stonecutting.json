@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_loded_coal_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:loded_coal_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:loded_coal_block_stairs_from_loded_coal_block_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_loded_coal_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:loded_coal_block_stairs_from_loded_coal_block_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

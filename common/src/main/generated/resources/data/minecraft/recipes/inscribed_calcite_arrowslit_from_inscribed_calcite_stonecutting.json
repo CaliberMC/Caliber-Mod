@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:inscribed_calcite"
+  },
+  "result": "chipped:inscribed_calcite_arrowslit"
+}

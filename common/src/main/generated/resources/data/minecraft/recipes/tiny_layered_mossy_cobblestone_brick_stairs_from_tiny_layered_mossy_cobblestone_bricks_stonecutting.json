@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:tiny_layered_mossy_cobblestone_bricks"
+  },
+  "result": "chipped:tiny_layered_mossy_cobblestone_brick_stairs"
+}

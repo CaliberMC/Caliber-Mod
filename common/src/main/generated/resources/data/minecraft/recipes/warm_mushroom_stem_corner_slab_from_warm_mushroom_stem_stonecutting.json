@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:warm_mushroom_stem"
+  },
+  "result": "chipped:warm_mushroom_stem_corner_slab"
+}

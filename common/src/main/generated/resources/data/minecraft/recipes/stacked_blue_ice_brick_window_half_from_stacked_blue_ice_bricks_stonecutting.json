@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:stacked_blue_ice_bricks"
+  },
+  "result": "chipped:stacked_blue_ice_brick_window_half"
+}

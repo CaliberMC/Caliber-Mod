@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_loded_diorite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:loded_diorite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:loded_diorite_layer_from_loded_diorite_layer_vertical_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_loded_diorite",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:loded_diorite_layer_from_loded_diorite_layer_vertical_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

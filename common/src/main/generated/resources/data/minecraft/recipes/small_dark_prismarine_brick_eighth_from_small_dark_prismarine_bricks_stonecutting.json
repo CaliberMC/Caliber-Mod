@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:small_dark_prismarine_bricks"
+  },
+  "result": "chipped:small_dark_prismarine_brick_eighth"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:blocky_brown_wool"
+  },
+  "result": "chipped:blocky_brown_wool_corner_slab"
+}

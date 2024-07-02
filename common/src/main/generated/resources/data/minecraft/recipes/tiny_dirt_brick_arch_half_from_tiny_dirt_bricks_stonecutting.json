@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:tiny_dirt_bricks"
+  },
+  "result": "chipped:tiny_dirt_brick_arch_half"
+}

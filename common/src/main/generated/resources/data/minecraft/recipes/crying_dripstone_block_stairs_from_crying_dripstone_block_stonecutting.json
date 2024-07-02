@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:crying_dripstone_block"
+  },
+  "result": "chipped:crying_dripstone_block_stairs"
+}

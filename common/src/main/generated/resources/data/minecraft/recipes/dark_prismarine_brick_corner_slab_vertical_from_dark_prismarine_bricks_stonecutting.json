@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:dark_prismarine_bricks"
+  },
+  "result": "chipped:dark_prismarine_brick_corner_slab_vertical"
+}

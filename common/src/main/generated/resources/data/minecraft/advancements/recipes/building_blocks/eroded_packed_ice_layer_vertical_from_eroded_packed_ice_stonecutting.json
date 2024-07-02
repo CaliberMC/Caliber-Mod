@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_eroded_packed_ice": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:eroded_packed_ice"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:eroded_packed_ice_layer_vertical_from_eroded_packed_ice_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_eroded_packed_ice",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:eroded_packed_ice_layer_vertical_from_eroded_packed_ice_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

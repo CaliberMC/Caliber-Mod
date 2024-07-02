@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:tuff_pillar"
+  },
+  "result": "chipped:tuff_pillar_corner_slab_vertical"
+}

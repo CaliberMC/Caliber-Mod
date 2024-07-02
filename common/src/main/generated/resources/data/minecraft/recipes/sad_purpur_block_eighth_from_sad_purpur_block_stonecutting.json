@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:sad_purpur_block"
+  },
+  "result": "chipped:sad_purpur_block_eighth"
+}

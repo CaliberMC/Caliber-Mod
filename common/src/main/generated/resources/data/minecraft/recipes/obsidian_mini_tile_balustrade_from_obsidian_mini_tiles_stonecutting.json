@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:obsidian_mini_tiles"
+  },
+  "result": "chipped:obsidian_mini_tile_balustrade"
+}

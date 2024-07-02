@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:calcite_mini_tiles"
+  },
+  "result": "chipped:calcite_mini_tile_stairs"
+}

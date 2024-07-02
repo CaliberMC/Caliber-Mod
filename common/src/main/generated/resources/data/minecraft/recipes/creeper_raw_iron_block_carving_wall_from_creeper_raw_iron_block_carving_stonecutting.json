@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:creeper_raw_iron_block_carving"
+  },
+  "result": "chipped:creeper_raw_iron_block_carving_wall"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:engraved_sandstone"
+  },
+  "result": "chipped:engraved_sandstone_layer"
+}

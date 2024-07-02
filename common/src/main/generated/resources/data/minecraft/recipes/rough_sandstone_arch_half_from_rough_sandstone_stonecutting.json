@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:rough_sandstone"
+  },
+  "result": "chipped:rough_sandstone_arch_half"
+}

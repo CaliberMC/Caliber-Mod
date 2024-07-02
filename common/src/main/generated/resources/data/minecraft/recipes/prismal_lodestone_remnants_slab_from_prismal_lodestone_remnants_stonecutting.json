@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:prismal_lodestone_remnants"
+  },
+  "result": "chipped:prismal_lodestone_remnants_slab"
+}

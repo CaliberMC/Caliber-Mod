@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_diamond_warped_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:diamond_warped_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:diamond_warped_corner_slab_vertical_from_diamond_warped_planks_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_diamond_warped_planks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:diamond_warped_corner_slab_vertical_from_diamond_warped_planks_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

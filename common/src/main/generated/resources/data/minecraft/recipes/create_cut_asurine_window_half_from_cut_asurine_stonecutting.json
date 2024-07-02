@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "create:cut_asurine"
+  },
+  "result": "create:cut_asurine_window_half"
+}

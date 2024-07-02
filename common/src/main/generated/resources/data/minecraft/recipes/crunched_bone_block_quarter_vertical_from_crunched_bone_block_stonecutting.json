@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:crunched_bone_block"
+  },
+  "result": "chipped:crunched_bone_block_quarter_vertical"
+}

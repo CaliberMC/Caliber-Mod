@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:runic_carved_blackstone"
+  },
+  "result": "chipped:runic_carved_blackstone_layer_vertical"
+}

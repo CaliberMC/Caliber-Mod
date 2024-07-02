@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:weathered_stone"
+  },
+  "result": "chipped:weathered_stone_balustrade"
+}

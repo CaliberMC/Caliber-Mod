@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:dirt_bricks"
+  },
+  "result": "chipped:dirt_brick_balustrade"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:granite_scales"
+  },
+  "result": "chipped:granite_scales_corner_slab"
+}

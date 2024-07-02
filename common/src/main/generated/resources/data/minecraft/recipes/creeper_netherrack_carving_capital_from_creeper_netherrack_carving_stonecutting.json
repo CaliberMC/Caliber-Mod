@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:creeper_netherrack_carving"
+  },
+  "result": "chipped:creeper_netherrack_carving_capital"
+}

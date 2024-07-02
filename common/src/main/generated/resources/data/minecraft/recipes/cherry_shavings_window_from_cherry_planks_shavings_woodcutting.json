@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:cherry_planks_shavings"
+  },
+  "result": "chipped:cherry_shavings_window"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:checkered_ice_tiles"
+  },
+  "result": "chipped:checkered_ice_tile_window"
+}

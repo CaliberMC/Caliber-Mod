@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:ring_lodestone"
+  },
+  "result": "chipped:ring_lodestone_arch_large"
+}

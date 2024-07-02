@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:angry_mud"
+  },
+  "result": "chipped:angry_mud_eighth"
+}

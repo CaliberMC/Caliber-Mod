@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:polished_warped_planks"
+  },
+  "result": "chipped:polished_warped_eighth"
+}

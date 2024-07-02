@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_small_mossy_cobblestone_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:small_mossy_cobblestone_bricks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:small_mossy_cobblestone_brick_corner_from_small_mossy_cobblestone_bricks_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_small_mossy_cobblestone_bricks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:small_mossy_cobblestone_brick_corner_from_small_mossy_cobblestone_bricks_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

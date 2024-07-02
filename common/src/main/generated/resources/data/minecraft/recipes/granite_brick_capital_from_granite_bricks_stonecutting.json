@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:granite_bricks"
+  },
+  "result": "chipped:granite_brick_capital"
+}

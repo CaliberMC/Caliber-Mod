@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:unamused_tuff"
+  },
+  "result": "chipped:unamused_tuff_arch_large_half"
+}

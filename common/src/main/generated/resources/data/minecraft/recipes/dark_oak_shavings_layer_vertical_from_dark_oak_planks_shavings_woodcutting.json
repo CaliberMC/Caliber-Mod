@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:dark_oak_planks_shavings"
+  },
+  "result": "chipped:dark_oak_shavings_layer_vertical"
+}

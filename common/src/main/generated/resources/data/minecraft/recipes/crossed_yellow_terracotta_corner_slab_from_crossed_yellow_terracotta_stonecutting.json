@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:crossed_yellow_terracotta"
+  },
+  "result": "chipped:crossed_yellow_terracotta_corner_slab"
+}

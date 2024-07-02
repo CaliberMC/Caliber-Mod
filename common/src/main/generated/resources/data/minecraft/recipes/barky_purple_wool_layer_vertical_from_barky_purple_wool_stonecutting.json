@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:barky_purple_wool"
+  },
+  "result": "chipped:barky_purple_wool_layer_vertical"
+}

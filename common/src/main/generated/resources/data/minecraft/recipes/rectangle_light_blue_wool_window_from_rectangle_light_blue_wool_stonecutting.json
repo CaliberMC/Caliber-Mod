@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:rectangle_light_blue_wool"
+  },
+  "result": "chipped:rectangle_light_blue_wool_window"
+}

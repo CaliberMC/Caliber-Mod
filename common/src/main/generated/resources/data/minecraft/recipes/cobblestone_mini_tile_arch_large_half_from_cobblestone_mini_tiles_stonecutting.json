@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:cobblestone_mini_tiles"
+  },
+  "result": "chipped:cobblestone_mini_tile_arch_large_half"
+}

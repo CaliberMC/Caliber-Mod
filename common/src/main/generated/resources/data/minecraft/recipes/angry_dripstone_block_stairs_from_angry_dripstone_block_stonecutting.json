@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:angry_dripstone_block"
+  },
+  "result": "chipped:angry_dripstone_block_stairs"
+}

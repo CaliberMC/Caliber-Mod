@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:cut_blank_raw_gold_block"
+  },
+  "result": "chipped:cut_blank_raw_gold_block_layer"
+}

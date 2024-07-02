@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sad_packed_mud": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:sad_packed_mud"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:sad_packed_mud_arch_half_from_sad_packed_mud_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_sad_packed_mud",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:sad_packed_mud_arch_half_from_sad_packed_mud_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

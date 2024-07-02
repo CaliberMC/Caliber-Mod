@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:small_obsidian_bricks"
+  },
+  "result": "chipped:small_obsidian_brick_stairs"
+}

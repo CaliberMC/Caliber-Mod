@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:glad_obsidian"
+  },
+  "result": "chipped:glad_obsidian_window"
+}

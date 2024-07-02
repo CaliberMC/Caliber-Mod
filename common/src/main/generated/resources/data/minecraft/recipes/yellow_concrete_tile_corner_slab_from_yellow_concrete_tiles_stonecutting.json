@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:yellow_concrete_tiles"
+  },
+  "result": "chipped:yellow_concrete_tile_corner_slab"
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_creeper_quartz_block_carving": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:creeper_quartz_block_carving"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:creeper_quartz_block_carving_pillar_from_creeper_quartz_block_carving_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_creeper_quartz_block_carving",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:creeper_quartz_block_carving_pillar_from_creeper_quartz_block_carving_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

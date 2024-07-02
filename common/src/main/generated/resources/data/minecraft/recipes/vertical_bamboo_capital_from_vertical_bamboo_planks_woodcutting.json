@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:vertical_bamboo_planks"
+  },
+  "result": "chipped:vertical_bamboo_capital"
+}

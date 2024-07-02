@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:inscribed_blackstone"
+  },
+  "result": "chipped:inscribed_blackstone_layer_vertical"
+}

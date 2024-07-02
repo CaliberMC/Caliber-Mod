@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cobbled_crying_obsidian": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:cobbled_crying_obsidian"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:cobbled_crying_obsidian_quarter_vertical_from_cobbled_crying_obsidian_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_cobbled_crying_obsidian",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:cobbled_crying_obsidian_quarter_vertical_from_cobbled_crying_obsidian_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

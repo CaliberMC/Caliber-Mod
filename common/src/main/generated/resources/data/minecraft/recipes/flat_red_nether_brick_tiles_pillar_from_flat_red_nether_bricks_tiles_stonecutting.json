@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:flat_red_nether_bricks_tiles"
+  },
+  "result": "chipped:flat_red_nether_brick_tiles_pillar"
+}

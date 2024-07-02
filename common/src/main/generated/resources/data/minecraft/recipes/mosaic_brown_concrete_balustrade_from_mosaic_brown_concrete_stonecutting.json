@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:mosaic_brown_concrete"
+  },
+  "result": "chipped:mosaic_brown_concrete_balustrade"
+}

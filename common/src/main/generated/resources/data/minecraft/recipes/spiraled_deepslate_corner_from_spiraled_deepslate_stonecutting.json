@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:spiraled_deepslate"
+  },
+  "result": "chipped:spiraled_deepslate_corner"
+}

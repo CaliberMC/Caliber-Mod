@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:woved_black_wool"
+  },
+  "result": "chipped:woved_black_wool_window"
+}

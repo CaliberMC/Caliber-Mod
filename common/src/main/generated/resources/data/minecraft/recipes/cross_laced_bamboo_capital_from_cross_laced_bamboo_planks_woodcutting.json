@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:cross_laced_bamboo_planks"
+  },
+  "result": "chipped:cross_laced_bamboo_capital"
+}

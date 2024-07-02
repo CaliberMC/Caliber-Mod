@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:slanted_bamboo_planks"
+  },
+  "result": "chipped:slanted_bamboo_balustrade"
+}

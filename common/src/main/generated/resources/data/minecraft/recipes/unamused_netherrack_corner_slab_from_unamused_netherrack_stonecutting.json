@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:unamused_netherrack"
+  },
+  "result": "chipped:unamused_netherrack_corner_slab"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:double_herringbone_cherry_planks"
+  },
+  "result": "chipped:double_herringbone_cherry_window"
+}

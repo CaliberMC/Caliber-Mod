@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:vertical_disordered_lapis_block_bricks"
+  },
+  "result": "chipped:vertical_disordered_lapis_block_brick_quarter"
+}

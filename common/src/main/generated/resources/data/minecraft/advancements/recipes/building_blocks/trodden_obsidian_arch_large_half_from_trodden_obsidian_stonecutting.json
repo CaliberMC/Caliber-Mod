@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:trodden_obsidian_arch_large_half_from_trodden_obsidian_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_trodden_obsidian": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:trodden_obsidian"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_trodden_obsidian",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:trodden_obsidian_arch_large_half_from_trodden_obsidian_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

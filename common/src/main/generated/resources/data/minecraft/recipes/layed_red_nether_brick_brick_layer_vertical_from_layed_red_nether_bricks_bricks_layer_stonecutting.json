@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:layed_red_nether_brick_brick_layer"
+  },
+  "result": "chipped:layed_red_nether_brick_brick_layer_vertical"
+}

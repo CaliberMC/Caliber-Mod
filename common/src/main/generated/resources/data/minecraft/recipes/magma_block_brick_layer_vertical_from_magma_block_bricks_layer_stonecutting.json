@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:magma_block_brick_layer"
+  },
+  "result": "chipped:magma_block_brick_layer_vertical"
+}

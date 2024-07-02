@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:glad_lapis_block"
+  },
+  "result": "chipped:glad_lapis_block_arch_half"
+}

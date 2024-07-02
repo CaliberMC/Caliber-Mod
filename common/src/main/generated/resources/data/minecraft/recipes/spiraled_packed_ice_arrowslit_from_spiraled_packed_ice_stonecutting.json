@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:spiraled_packed_ice"
+  },
+  "result": "chipped:spiraled_packed_ice_arrowslit"
+}

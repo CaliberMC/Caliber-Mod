@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:embossed_waxed_weathered_copper"
+  },
+  "result": "chipped:embossed_waxed_weathered_copper_corner_slab"
+}

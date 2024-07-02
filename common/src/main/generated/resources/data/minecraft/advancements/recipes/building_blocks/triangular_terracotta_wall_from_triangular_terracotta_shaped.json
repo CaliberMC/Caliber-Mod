@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:triangular_terracotta_wall_from_triangular_terracotta_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_triangular_terracotta": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:triangular_terracotta"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_triangular_terracotta",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:triangular_terracotta_wall_from_triangular_terracotta_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

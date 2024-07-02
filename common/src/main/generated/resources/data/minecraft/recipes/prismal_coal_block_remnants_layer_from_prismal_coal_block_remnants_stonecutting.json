@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:prismal_coal_block_remnants"
+  },
+  "result": "chipped:prismal_coal_block_remnants_layer"
+}

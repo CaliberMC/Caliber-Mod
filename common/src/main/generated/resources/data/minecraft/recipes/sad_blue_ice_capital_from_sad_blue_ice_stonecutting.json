@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:sad_blue_ice"
+  },
+  "result": "chipped:sad_blue_ice_capital"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:smooth_birch_planks"
+  },
+  "result": "chipped:smooth_birch_corner_slab"
+}

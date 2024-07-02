@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:tiled_nether_bricks"
+  },
+  "result": "chipped:tiled_nether_brick_wall"
+}

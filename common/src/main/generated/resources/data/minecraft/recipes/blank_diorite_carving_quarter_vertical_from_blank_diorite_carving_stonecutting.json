@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:blank_diorite_carving"
+  },
+  "result": "chipped:blank_diorite_carving_quarter_vertical"
+}

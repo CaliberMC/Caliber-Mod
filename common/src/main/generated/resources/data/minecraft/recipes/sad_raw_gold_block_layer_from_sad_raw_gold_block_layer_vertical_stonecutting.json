@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:sad_raw_gold_block_layer_vertical"
+  },
+  "result": "chipped:sad_raw_gold_block_layer"
+}

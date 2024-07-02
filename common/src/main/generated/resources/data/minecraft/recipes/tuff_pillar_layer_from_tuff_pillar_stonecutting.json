@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:tuff_pillar"
+  },
+  "result": "chipped:tuff_pillar_layer"
+}

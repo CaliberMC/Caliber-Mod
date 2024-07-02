@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:sad_tuff"
+  },
+  "result": "chipped:sad_tuff_arch_large"
+}

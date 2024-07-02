@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:glad_raw_copper_block"
+  },
+  "result": "chipped:glad_raw_copper_block_arch"
+}

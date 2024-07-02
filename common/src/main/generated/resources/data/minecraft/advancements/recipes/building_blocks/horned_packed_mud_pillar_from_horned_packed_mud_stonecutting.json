@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_horned_packed_mud": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:horned_packed_mud"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:horned_packed_mud_pillar_from_horned_packed_mud_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_horned_packed_mud",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:horned_packed_mud_pillar_from_horned_packed_mud_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

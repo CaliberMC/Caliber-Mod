@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:cracked_andesite_bricks"
+  },
+  "result": "chipped:cracked_andesite_brick_arrowslit"
+}

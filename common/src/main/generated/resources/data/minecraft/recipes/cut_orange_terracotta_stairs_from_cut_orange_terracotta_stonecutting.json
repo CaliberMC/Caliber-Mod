@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:cut_orange_terracotta"
+  },
+  "result": "chipped:cut_orange_terracotta_stairs"
+}

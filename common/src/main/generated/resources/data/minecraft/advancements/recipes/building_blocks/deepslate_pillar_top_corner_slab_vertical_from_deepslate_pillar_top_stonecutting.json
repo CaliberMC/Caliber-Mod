@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_deepslate_pillar_top": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:deepslate_pillar_top"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:deepslate_pillar_top_corner_slab_vertical_from_deepslate_pillar_top_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_deepslate_pillar_top",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:deepslate_pillar_top_corner_slab_vertical_from_deepslate_pillar_top_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

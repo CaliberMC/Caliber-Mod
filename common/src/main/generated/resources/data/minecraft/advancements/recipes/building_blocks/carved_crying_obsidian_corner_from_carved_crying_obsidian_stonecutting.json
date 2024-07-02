@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_carved_crying_obsidian": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:carved_crying_obsidian"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:carved_crying_obsidian_corner_from_carved_crying_obsidian_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_carved_crying_obsidian",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:carved_crying_obsidian_corner_from_carved_crying_obsidian_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

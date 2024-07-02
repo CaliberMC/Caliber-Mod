@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:amethyst_block_mini_tiles"
+  },
+  "result": "chipped:amethyst_block_mini_tile_window"
+}

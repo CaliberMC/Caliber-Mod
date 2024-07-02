@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:polished_acacia_planks"
+  },
+  "result": "chipped:polished_acacia_layer_vertical"
+}

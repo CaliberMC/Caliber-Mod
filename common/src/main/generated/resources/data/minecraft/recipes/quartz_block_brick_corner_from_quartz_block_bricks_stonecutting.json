@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:quartz_block_bricks"
+  },
+  "result": "chipped:quartz_block_brick_corner"
+}

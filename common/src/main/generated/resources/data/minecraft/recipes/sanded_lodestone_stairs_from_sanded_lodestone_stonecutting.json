@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:sanded_lodestone"
+  },
+  "result": "chipped:sanded_lodestone_stairs"
+}

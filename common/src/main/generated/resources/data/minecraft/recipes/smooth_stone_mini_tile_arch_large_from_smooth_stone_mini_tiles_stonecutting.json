@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:smooth_stone_mini_tiles"
+  },
+  "result": "chipped:smooth_stone_mini_tile_arch_large"
+}

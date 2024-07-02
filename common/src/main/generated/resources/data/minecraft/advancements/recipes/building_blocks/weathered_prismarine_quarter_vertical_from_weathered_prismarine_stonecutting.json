@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:weathered_prismarine_quarter_vertical_from_weathered_prismarine_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_weathered_prismarine": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:weathered_prismarine"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_weathered_prismarine",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:weathered_prismarine_quarter_vertical_from_weathered_prismarine_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

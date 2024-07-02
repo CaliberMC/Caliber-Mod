@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:weathered_cobblestone_corner_slab_vertical_from_weathered_cobblestone_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_weathered_cobblestone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:weathered_cobblestone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_weathered_cobblestone",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:weathered_cobblestone_corner_slab_vertical_from_weathered_cobblestone_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

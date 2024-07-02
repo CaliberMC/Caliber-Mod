@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:carved_raw_gold_block"
+  },
+  "result": "chipped:carved_raw_gold_block_capital"
+}

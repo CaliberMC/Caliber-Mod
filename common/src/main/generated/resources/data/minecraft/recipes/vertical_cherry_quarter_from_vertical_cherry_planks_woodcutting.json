@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:vertical_cherry_planks"
+  },
+  "result": "chipped:vertical_cherry_quarter"
+}

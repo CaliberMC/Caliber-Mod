@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:sad_quartz_block"
+  },
+  "result": "chipped:sad_quartz_block_window_half"
+}

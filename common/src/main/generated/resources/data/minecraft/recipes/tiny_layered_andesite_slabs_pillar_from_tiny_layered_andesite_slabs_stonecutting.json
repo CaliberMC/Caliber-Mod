@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:tiny_layered_andesite_slabs"
+  },
+  "result": "chipped:tiny_layered_andesite_slabs_pillar"
+}

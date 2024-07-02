@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:eroded_packed_ice"
+  },
+  "result": "chipped:eroded_packed_ice_arrowslit"
+}

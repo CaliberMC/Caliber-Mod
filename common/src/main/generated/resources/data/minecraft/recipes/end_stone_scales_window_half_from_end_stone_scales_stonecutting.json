@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:end_stone_scales"
+  },
+  "result": "chipped:end_stone_scales_window_half"
+}

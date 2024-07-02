@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_prismal_netherrack_remnants": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:prismal_netherrack_remnants"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:prismal_netherrack_remnants_arch_from_prismal_netherrack_remnants_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_prismal_netherrack_remnants",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:prismal_netherrack_remnants_arch_from_prismal_netherrack_remnants_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

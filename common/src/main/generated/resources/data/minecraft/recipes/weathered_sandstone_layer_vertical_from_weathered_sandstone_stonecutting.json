@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:weathered_sandstone"
+  },
+  "result": "chipped:weathered_sandstone_layer_vertical"
+}

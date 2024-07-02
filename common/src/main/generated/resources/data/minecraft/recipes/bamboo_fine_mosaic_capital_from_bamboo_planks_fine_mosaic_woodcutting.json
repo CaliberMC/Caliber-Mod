@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:bamboo_planks_fine_mosaic"
+  },
+  "result": "chipped:bamboo_fine_mosaic_capital"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:duh_granite"
+  },
+  "result": "chipped:duh_granite_arch_half"
+}

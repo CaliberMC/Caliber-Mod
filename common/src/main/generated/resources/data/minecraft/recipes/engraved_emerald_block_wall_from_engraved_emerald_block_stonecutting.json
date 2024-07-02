@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:engraved_emerald_block"
+  },
+  "result": "chipped:engraved_emerald_block_wall"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:trodden_andesite"
+  },
+  "result": "chipped:trodden_andesite_layer_vertical"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:weathered_packed_ice"
+  },
+  "result": "chipped:weathered_packed_ice_window"
+}

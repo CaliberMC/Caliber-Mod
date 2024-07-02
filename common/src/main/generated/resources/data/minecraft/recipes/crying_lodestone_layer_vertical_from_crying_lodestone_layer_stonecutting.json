@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:crying_lodestone_layer"
+  },
+  "result": "chipped:crying_lodestone_layer_vertical"
+}

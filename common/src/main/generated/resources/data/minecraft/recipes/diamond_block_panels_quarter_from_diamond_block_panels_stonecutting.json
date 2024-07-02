@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:diamond_block_panels"
+  },
+  "result": "chipped:diamond_block_panels_quarter"
+}

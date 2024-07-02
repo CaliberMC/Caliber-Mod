@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_lodestone_scales": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:lodestone_scales"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:lodestone_scales_layer_from_lodestone_scales_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_lodestone_scales",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:lodestone_scales_layer_from_lodestone_scales_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

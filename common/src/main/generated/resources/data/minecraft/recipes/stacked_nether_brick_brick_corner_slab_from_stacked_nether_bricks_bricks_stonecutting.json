@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:stacked_nether_bricks_bricks"
+  },
+  "result": "chipped:stacked_nether_brick_brick_corner_slab"
+}

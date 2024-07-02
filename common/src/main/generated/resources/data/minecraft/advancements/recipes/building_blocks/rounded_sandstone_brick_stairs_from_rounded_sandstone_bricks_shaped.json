@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_rounded_sandstone_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:rounded_sandstone_bricks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:rounded_sandstone_brick_stairs_from_rounded_sandstone_bricks_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_rounded_sandstone_bricks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:rounded_sandstone_brick_stairs_from_rounded_sandstone_bricks_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

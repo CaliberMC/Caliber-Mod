@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_blue_ice_mini_tiles": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:blue_ice_mini_tiles"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:blue_ice_mini_tile_layer_vertical_from_blue_ice_mini_tiles_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_blue_ice_mini_tiles",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:blue_ice_mini_tile_layer_vertical_from_blue_ice_mini_tiles_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

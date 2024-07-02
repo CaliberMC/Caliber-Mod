@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_duh_deepslate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:duh_deepslate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:duh_deepslate_balustrade_from_duh_deepslate_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_duh_deepslate",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:duh_deepslate_balustrade_from_duh_deepslate_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

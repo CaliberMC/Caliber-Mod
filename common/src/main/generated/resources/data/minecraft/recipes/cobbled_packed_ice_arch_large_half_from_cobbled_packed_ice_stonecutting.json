@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:cobbled_packed_ice"
+  },
+  "result": "chipped:cobbled_packed_ice_arch_large_half"
+}

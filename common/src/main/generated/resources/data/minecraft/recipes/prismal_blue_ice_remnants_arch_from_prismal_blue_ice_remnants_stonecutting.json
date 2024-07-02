@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:prismal_blue_ice_remnants"
+  },
+  "result": "chipped:prismal_blue_ice_remnants_arch"
+}

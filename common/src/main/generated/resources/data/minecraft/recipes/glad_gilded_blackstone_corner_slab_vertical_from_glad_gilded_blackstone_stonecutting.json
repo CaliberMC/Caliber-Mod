@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:glad_gilded_blackstone"
+  },
+  "result": "chipped:glad_gilded_blackstone_corner_slab_vertical"
+}

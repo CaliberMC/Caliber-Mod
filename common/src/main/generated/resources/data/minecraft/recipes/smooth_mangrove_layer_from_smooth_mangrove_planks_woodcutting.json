@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:smooth_mangrove_planks"
+  },
+  "result": "chipped:smooth_mangrove_layer"
+}

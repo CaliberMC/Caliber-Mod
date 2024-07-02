@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:triangular_white_terracotta_quarter_vertical_from_triangular_white_terracotta_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_triangular_white_terracotta": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:triangular_white_terracotta"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_triangular_white_terracotta",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:triangular_white_terracotta_quarter_vertical_from_triangular_white_terracotta_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

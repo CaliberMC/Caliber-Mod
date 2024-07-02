@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:pressed_iron_block_layer_vertical"
+  },
+  "result": "chipped:pressed_iron_block_layer"
+}

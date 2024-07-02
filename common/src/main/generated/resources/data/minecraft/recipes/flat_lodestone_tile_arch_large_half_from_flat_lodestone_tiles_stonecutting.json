@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:flat_lodestone_tiles"
+  },
+  "result": "chipped:flat_lodestone_tile_arch_large_half"
+}

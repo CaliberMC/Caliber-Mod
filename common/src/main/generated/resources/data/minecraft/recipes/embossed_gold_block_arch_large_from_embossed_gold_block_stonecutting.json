@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:embossed_gold_block"
+  },
+  "result": "chipped:embossed_gold_block_arch_large"
+}

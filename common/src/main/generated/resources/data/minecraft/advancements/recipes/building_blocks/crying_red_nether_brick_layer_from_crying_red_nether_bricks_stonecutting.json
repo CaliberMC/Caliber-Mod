@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_crying_red_nether_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:crying_red_nether_bricks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:crying_red_nether_brick_layer_from_crying_red_nether_bricks_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_crying_red_nether_bricks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:crying_red_nether_brick_layer_from_crying_red_nether_bricks_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

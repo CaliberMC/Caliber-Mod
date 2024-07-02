@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:blue_ice_scales"
+  },
+  "result": "chipped:blue_ice_scales_arch_half"
+}

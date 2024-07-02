@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:diagonal_oak_planks"
+  },
+  "result": "chipped:diagonal_oak_window"
+}

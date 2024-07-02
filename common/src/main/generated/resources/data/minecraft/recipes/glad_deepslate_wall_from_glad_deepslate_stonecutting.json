@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:glad_deepslate"
+  },
+  "result": "chipped:glad_deepslate_wall"
+}

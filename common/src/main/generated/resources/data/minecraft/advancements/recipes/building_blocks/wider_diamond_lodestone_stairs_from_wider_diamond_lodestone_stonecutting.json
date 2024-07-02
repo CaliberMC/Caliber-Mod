@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:wider_diamond_lodestone_stairs_from_wider_diamond_lodestone_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wider_diamond_lodestone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:wider_diamond_lodestone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_wider_diamond_lodestone",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:wider_diamond_lodestone_stairs_from_wider_diamond_lodestone_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:unamused_blue_ice_wall_from_unamused_blue_ice_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_unamused_blue_ice": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:unamused_blue_ice"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_unamused_blue_ice",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:unamused_blue_ice_wall_from_unamused_blue_ice_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

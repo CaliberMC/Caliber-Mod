@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:gilded_blackstone_mini_tiles"
+  },
+  "result": "chipped:gilded_blackstone_mini_tile_layer_vertical"
+}

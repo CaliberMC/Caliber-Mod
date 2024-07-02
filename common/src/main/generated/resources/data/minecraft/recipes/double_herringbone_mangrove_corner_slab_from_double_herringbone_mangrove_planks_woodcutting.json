@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:double_herringbone_mangrove_planks"
+  },
+  "result": "chipped:double_herringbone_mangrove_corner_slab"
+}

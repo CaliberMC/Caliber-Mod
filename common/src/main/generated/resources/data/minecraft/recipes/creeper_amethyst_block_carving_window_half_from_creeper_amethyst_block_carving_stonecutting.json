@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:creeper_amethyst_block_carving"
+  },
+  "result": "chipped:creeper_amethyst_block_carving_window_half"
+}

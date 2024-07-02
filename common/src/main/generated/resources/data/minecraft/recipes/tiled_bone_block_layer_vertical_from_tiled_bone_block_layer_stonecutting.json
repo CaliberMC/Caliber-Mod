@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:tiled_bone_block_layer"
+  },
+  "result": "chipped:tiled_bone_block_layer_vertical"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:offset_gilded_blackstone_bricks"
+  },
+  "result": "chipped:offset_gilded_blackstone_brick_arrowslit"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:stone_pillar_top"
+  },
+  "result": "chipped:stone_pillar_top_corner_slab"
+}

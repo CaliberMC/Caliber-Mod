@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:trodden_blue_ice_corner_slab_from_trodden_blue_ice_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_trodden_blue_ice": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:trodden_blue_ice"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_trodden_blue_ice",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:trodden_blue_ice_corner_slab_from_trodden_blue_ice_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

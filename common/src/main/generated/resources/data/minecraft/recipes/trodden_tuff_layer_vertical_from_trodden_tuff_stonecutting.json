@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:trodden_tuff"
+  },
+  "result": "chipped:trodden_tuff_layer_vertical"
+}

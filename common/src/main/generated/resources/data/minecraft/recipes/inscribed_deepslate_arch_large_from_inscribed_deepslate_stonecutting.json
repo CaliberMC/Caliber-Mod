@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:inscribed_deepslate"
+  },
+  "result": "chipped:inscribed_deepslate_arch_large"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:vertical_jungle_planks"
+  },
+  "result": "chipped:vertical_jungle_wall"
+}

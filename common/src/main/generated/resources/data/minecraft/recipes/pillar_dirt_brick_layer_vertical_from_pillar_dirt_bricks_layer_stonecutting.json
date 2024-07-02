@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:pillar_dirt_brick_layer"
+  },
+  "result": "chipped:pillar_dirt_brick_layer_vertical"
+}

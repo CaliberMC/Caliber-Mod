@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:smooth_ringed_granite"
+  },
+  "result": "chipped:smooth_ringed_granite_arch"
+}

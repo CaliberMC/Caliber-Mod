@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:railed_mangrove_planks"
+  },
+  "result": "chipped:railed_mangrove_quarter_vertical"
+}

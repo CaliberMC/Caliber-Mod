@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bundled_yellow_wool": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:bundled_yellow_wool"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:bundled_yellow_wool_corner_slab_vertical_from_bundled_yellow_wool_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_bundled_yellow_wool",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:bundled_yellow_wool_corner_slab_vertical_from_bundled_yellow_wool_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

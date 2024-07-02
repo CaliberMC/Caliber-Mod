@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:woved_cyan_wool"
+  },
+  "result": "chipped:woved_cyan_wool_window_half"
+}

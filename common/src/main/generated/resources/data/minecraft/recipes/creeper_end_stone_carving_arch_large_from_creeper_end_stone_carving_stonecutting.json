@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:creeper_end_stone_carving"
+  },
+  "result": "chipped:creeper_end_stone_carving_arch_large"
+}

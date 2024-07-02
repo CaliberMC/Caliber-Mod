@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:versailles_crimson_quarter_vertical_from_versailles_crimson_planks_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_versailles_crimson_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:versailles_crimson_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_versailles_crimson_planks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:versailles_crimson_quarter_vertical_from_versailles_crimson_planks_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

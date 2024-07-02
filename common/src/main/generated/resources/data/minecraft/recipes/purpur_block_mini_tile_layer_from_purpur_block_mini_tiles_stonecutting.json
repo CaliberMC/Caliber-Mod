@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:purpur_block_mini_tiles"
+  },
+  "result": "chipped:purpur_block_mini_tile_layer"
+}

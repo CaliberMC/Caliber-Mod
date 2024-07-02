@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_crying_diorite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:crying_diorite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:crying_diorite_layer_from_crying_diorite_layer_vertical_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_crying_diorite",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:crying_diorite_layer_from_crying_diorite_layer_vertical_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

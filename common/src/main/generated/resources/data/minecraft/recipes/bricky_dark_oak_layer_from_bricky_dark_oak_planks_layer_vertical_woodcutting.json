@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:bricky_dark_oak_layer_vertical"
+  },
+  "result": "chipped:bricky_dark_oak_layer"
+}

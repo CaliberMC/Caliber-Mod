@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:shifted_oak_planks"
+  },
+  "result": "chipped:shifted_oak_layer"
+}

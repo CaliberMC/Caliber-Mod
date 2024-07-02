@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:purple_concrete_tiles"
+  },
+  "result": "chipped:purple_concrete_tile_stairs"
+}

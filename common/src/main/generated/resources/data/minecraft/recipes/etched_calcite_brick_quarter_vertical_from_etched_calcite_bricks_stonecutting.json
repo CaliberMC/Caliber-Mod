@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:etched_calcite_bricks"
+  },
+  "result": "chipped:etched_calcite_brick_quarter_vertical"
+}

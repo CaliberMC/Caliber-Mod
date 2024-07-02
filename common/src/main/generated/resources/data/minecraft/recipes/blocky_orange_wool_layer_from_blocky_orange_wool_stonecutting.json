@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:blocky_orange_wool"
+  },
+  "result": "chipped:blocky_orange_wool_layer"
+}

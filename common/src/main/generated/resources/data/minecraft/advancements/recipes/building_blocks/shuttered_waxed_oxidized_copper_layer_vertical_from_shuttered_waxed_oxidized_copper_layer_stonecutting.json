@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_shuttered_waxed_oxidized_copper": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:shuttered_waxed_oxidized_copper"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:shuttered_waxed_oxidized_copper_layer_vertical_from_shuttered_waxed_oxidized_copper_layer_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_shuttered_waxed_oxidized_copper",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:shuttered_waxed_oxidized_copper_layer_vertical_from_shuttered_waxed_oxidized_copper_layer_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:carved_mossy_stone_bricks"
+  },
+  "result": "chipped:carved_mossy_stone_brick_arch"
+}

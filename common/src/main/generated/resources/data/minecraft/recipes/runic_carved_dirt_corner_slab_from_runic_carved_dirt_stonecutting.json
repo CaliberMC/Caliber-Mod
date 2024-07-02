@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:runic_carved_dirt"
+  },
+  "result": "chipped:runic_carved_dirt_corner_slab"
+}

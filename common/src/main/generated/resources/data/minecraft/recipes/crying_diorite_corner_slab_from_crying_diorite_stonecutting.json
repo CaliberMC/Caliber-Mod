@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:crying_diorite"
+  },
+  "result": "chipped:crying_diorite_corner_slab"
+}

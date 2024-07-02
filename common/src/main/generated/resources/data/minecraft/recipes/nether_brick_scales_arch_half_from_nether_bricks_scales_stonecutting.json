@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:nether_bricks_scales"
+  },
+  "result": "chipped:nether_brick_scales_arch_half"
+}

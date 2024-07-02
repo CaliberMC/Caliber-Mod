@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:small_dirt_bricks"
+  },
+  "result": "chipped:small_dirt_brick_wall"
+}

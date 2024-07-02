@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_patched_yellow_wool": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:patched_yellow_wool"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:patched_yellow_wool_slab_from_patched_yellow_wool_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_patched_yellow_wool",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:patched_yellow_wool_slab_from_patched_yellow_wool_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

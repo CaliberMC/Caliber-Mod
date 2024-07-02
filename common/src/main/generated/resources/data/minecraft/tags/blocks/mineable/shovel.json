@@ -1,0 +1,8540 @@
+{
+  "values": [
+    {
+      "id": "chipped:angry_clay_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_clay_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_clay_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_clay_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_clay_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_clay_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_clay_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_clay_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_clay_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_clay_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_clay_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_clay_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_clay_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_clay_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_clay_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_clay_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_clay_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_clay_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_clay_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_clay_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_clay_window",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_clay_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_dirt_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_dirt_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_dirt_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_dirt_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_dirt_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_dirt_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_dirt_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_dirt_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_dirt_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_dirt_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_dirt_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_dirt_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_dirt_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_dirt_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_dirt_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_dirt_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_dirt_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_dirt_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_dirt_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_dirt_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_dirt_window",
+      "required": false
+    },
+    {
+      "id": "chipped:angry_dirt_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_clay_carving_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_clay_carving_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_clay_carving_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_clay_carving_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_clay_carving_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_clay_carving_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_clay_carving_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_clay_carving_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_clay_carving_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_clay_carving_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_clay_carving_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_clay_carving_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_clay_carving_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_clay_carving_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_clay_carving_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_clay_carving_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_clay_carving_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_clay_carving_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_clay_carving_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_clay_carving_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_clay_carving_window",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_clay_carving_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_dirt_carving_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_dirt_carving_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_dirt_carving_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_dirt_carving_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_dirt_carving_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_dirt_carving_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_dirt_carving_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_dirt_carving_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_dirt_carving_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_dirt_carving_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_dirt_carving_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_dirt_carving_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_dirt_carving_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_dirt_carving_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_dirt_carving_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_dirt_carving_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_dirt_carving_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_dirt_carving_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_dirt_carving_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_dirt_carving_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_dirt_carving_window",
+      "required": false
+    },
+    {
+      "id": "chipped:blank_dirt_carving_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_clay_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_clay_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_clay_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_clay_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_clay_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_clay_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_clay_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_clay_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_clay_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_clay_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_clay_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_clay_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_clay_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_clay_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_clay_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_clay_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_clay_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_clay_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_clay_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_clay_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_clay_window",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_clay_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_dirt_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_dirt_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_dirt_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_dirt_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_dirt_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_dirt_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_dirt_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_dirt_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_dirt_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_dirt_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_dirt_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_dirt_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_dirt_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_dirt_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_dirt_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_dirt_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_dirt_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_dirt_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_dirt_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_dirt_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_dirt_window",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_dirt_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_clay_tile_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_clay_tile_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_clay_tile_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_clay_tile_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_clay_tile_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_clay_tile_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_clay_tile_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_clay_tile_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_clay_tile_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_clay_tile_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_clay_tile_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_clay_tile_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_clay_tile_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_clay_tile_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_clay_tile_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_clay_tile_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_clay_tile_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_clay_tile_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_clay_tile_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_clay_tile_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_clay_tile_window",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_clay_tile_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_dirt_tile_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_dirt_tile_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_dirt_tile_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_dirt_tile_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_dirt_tile_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_dirt_tile_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_dirt_tile_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_dirt_tile_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_dirt_tile_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_dirt_tile_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_dirt_tile_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_dirt_tile_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_dirt_tile_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_dirt_tile_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_dirt_tile_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_dirt_tile_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_dirt_tile_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_dirt_tile_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_dirt_tile_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_dirt_tile_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_dirt_tile_window",
+      "required": false
+    },
+    {
+      "id": "chipped:checkered_dirt_tile_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_brick_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_brick_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_brick_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_brick_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_brick_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_brick_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_brick_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_brick_window",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_mini_tile_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_mini_tile_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_mini_tile_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_mini_tile_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_mini_tile_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_mini_tile_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_mini_tile_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_mini_tile_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_mini_tile_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_mini_tile_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_mini_tile_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_mini_tile_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_mini_tile_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_mini_tile_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_mini_tile_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_mini_tile_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_mini_tile_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_mini_tile_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_mini_tile_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_mini_tile_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_mini_tile_window",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_mini_tile_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_window",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_top_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_top_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_top_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_top_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_top_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_top_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_top_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_top_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_top_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_top_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_top_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_top_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_top_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_top_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_top_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_top_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_top_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_top_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_top_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_top_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_top_window",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_pillar_top_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_scales_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_scales_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_scales_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_scales_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_scales_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_scales_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_scales_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_scales_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_scales_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_scales_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_scales_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_scales_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_scales_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_scales_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_scales_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_scales_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_scales_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_scales_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_scales_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_scales_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_scales_window",
+      "required": false
+    },
+    {
+      "id": "chipped:clay_scales_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_clay_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_clay_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_clay_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_clay_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_clay_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_clay_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_clay_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_clay_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_clay_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_clay_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_clay_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_clay_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_clay_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_clay_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_clay_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_clay_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_clay_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_clay_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_clay_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_clay_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_clay_window",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_clay_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_dirt_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_dirt_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_dirt_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_dirt_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_dirt_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_dirt_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_dirt_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_dirt_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_dirt_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_dirt_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_dirt_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_dirt_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_dirt_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_dirt_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_dirt_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_dirt_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_dirt_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_dirt_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_dirt_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_dirt_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_dirt_window",
+      "required": false
+    },
+    {
+      "id": "chipped:cobbled_dirt_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_clay_brick_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_clay_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_clay_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_clay_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_clay_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_clay_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_clay_brick_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_clay_brick_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_clay_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_clay_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_clay_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_clay_brick_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_clay_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_clay_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_clay_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_clay_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_clay_brick_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_clay_brick_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_clay_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_clay_brick_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_clay_brick_window",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_clay_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_dirt_brick_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_dirt_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_dirt_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_dirt_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_dirt_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_dirt_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_dirt_brick_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_dirt_brick_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_dirt_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_dirt_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_dirt_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_dirt_brick_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_dirt_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_dirt_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_dirt_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_dirt_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_dirt_brick_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_dirt_brick_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_dirt_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_dirt_brick_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_dirt_brick_window",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_dirt_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_clay_brick_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_clay_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_clay_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_clay_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_clay_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_clay_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_clay_brick_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_clay_brick_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_clay_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_clay_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_clay_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_clay_brick_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_clay_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_clay_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_clay_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_clay_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_clay_brick_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_clay_brick_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_clay_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_clay_brick_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_clay_brick_window",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_clay_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_dirt_brick_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_dirt_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_dirt_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_dirt_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_dirt_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_dirt_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_dirt_brick_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_dirt_brick_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_dirt_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_dirt_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_dirt_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_dirt_brick_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_dirt_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_dirt_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_dirt_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_dirt_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_dirt_brick_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_dirt_brick_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_dirt_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_dirt_brick_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_dirt_brick_window",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_disordered_dirt_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_clay_tile_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_clay_tile_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_clay_tile_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_clay_tile_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_clay_tile_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_clay_tile_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_clay_tile_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_clay_tile_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_clay_tile_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_clay_tile_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_clay_tile_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_clay_tile_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_clay_tile_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_clay_tile_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_clay_tile_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_clay_tile_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_clay_tile_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_clay_tile_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_clay_tile_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_clay_tile_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_clay_tile_window",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_clay_tile_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_dirt_tile_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_dirt_tile_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_dirt_tile_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_dirt_tile_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_dirt_tile_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_dirt_tile_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_dirt_tile_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_dirt_tile_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_dirt_tile_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_dirt_tile_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_dirt_tile_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_dirt_tile_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_dirt_tile_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_dirt_tile_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_dirt_tile_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_dirt_tile_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_dirt_tile_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_dirt_tile_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_dirt_tile_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_dirt_tile_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_dirt_tile_window",
+      "required": false
+    },
+    {
+      "id": "chipped:cracked_flat_dirt_tile_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_clay_carving_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_clay_carving_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_clay_carving_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_clay_carving_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_clay_carving_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_clay_carving_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_clay_carving_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_clay_carving_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_clay_carving_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_clay_carving_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_clay_carving_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_clay_carving_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_clay_carving_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_clay_carving_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_clay_carving_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_clay_carving_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_clay_carving_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_clay_carving_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_clay_carving_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_clay_carving_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_clay_carving_window",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_clay_carving_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_dirt_carving_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_dirt_carving_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_dirt_carving_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_dirt_carving_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_dirt_carving_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_dirt_carving_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_dirt_carving_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_dirt_carving_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_dirt_carving_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_dirt_carving_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_dirt_carving_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_dirt_carving_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_dirt_carving_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_dirt_carving_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_dirt_carving_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_dirt_carving_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_dirt_carving_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_dirt_carving_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_dirt_carving_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_dirt_carving_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_dirt_carving_window",
+      "required": false
+    },
+    {
+      "id": "chipped:creeper_dirt_carving_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_clay_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_clay_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_clay_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_clay_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_clay_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_clay_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_clay_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_clay_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_clay_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_clay_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_clay_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_clay_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_clay_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_clay_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_clay_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_clay_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_clay_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_clay_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_clay_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_clay_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_clay_window",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_clay_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_dirt_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_dirt_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_dirt_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_dirt_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_dirt_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_dirt_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_dirt_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_dirt_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_dirt_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_dirt_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_dirt_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_dirt_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_dirt_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_dirt_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_dirt_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_dirt_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_dirt_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_dirt_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_dirt_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_dirt_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_dirt_window",
+      "required": false
+    },
+    {
+      "id": "chipped:crying_dirt_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_clay_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_clay_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_clay_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_clay_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_clay_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_clay_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_clay_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_clay_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_clay_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_clay_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_clay_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_clay_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_clay_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_clay_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_clay_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_clay_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_clay_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_clay_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_clay_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_clay_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_clay_window",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_clay_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_dirt_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_dirt_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_dirt_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_dirt_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_dirt_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_dirt_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_dirt_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_dirt_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_dirt_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_dirt_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_dirt_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_dirt_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_dirt_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_dirt_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_dirt_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_dirt_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_dirt_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_dirt_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_dirt_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_dirt_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_dirt_window",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_blank_dirt_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_brick_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_brick_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_brick_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_brick_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_brick_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_brick_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_brick_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_brick_window",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_mini_tile_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_mini_tile_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_mini_tile_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_mini_tile_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_mini_tile_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_mini_tile_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_mini_tile_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_mini_tile_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_mini_tile_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_mini_tile_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_mini_tile_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_mini_tile_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_mini_tile_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_mini_tile_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_mini_tile_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_mini_tile_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_mini_tile_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_mini_tile_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_mini_tile_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_mini_tile_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_mini_tile_window",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_mini_tile_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_window",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_top_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_top_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_top_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_top_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_top_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_top_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_top_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_top_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_top_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_top_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_top_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_top_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_top_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_top_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_top_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_top_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_top_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_top_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_top_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_top_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_top_window",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_pillar_top_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_scales_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_scales_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_scales_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_scales_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_scales_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_scales_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_scales_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_scales_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_scales_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_scales_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_scales_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_scales_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_scales_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_scales_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_scales_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_scales_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_scales_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_scales_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_scales_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_scales_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_scales_window",
+      "required": false
+    },
+    {
+      "id": "chipped:dirt_scales_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_clay_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_clay_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_clay_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_clay_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_clay_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_clay_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_clay_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_clay_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_clay_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_clay_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_clay_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_clay_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_clay_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_clay_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_clay_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_clay_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_clay_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_clay_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_clay_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_clay_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_clay_window",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_clay_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_dirt_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_dirt_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_dirt_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_dirt_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_dirt_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_dirt_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_dirt_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_dirt_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_dirt_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_dirt_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_dirt_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_dirt_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_dirt_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_dirt_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_dirt_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_dirt_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_dirt_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_dirt_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_dirt_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_dirt_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_dirt_window",
+      "required": false
+    },
+    {
+      "id": "chipped:duh_dirt_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_clay_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_clay_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_clay_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_clay_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_clay_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_clay_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_clay_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_clay_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_clay_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_clay_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_clay_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_clay_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_clay_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_clay_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_clay_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_clay_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_clay_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_clay_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_clay_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_clay_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_clay_window",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_clay_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_dirt_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_dirt_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_dirt_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_dirt_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_dirt_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_dirt_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_dirt_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_dirt_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_dirt_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_dirt_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_dirt_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_dirt_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_dirt_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_dirt_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_dirt_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_dirt_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_dirt_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_dirt_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_dirt_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_dirt_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_dirt_window",
+      "required": false
+    },
+    {
+      "id": "chipped:engraved_dirt_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:eroded_dirt_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:eroded_dirt_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:eroded_dirt_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:eroded_dirt_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:eroded_dirt_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:eroded_dirt_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:eroded_dirt_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:eroded_dirt_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:eroded_dirt_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:eroded_dirt_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:eroded_dirt_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:eroded_dirt_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:eroded_dirt_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:eroded_dirt_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:eroded_dirt_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:eroded_dirt_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:eroded_dirt_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:eroded_dirt_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:eroded_dirt_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:eroded_dirt_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:eroded_dirt_window",
+      "required": false
+    },
+    {
+      "id": "chipped:eroded_dirt_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_clay_brick_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_clay_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_clay_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_clay_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_clay_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_clay_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_clay_brick_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_clay_brick_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_clay_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_clay_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_clay_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_clay_brick_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_clay_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_clay_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_clay_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_clay_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_clay_brick_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_clay_brick_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_clay_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_clay_brick_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_clay_brick_window",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_clay_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_dirt_brick_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_dirt_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_dirt_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_dirt_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_dirt_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_dirt_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_dirt_brick_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_dirt_brick_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_dirt_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_dirt_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_dirt_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_dirt_brick_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_dirt_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_dirt_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_dirt_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_dirt_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_dirt_brick_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_dirt_brick_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_dirt_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_dirt_brick_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_dirt_brick_window",
+      "required": false
+    },
+    {
+      "id": "chipped:etched_dirt_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_clay_tile_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_clay_tile_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_clay_tile_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_clay_tile_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_clay_tile_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_clay_tile_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_clay_tile_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_clay_tile_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_clay_tile_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_clay_tile_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_clay_tile_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_clay_tile_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_clay_tile_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_clay_tile_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_clay_tile_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_clay_tile_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_clay_tile_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_clay_tile_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_clay_tile_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_clay_tile_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_clay_tile_window",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_clay_tile_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_dirt_tile_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_dirt_tile_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_dirt_tile_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_dirt_tile_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_dirt_tile_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_dirt_tile_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_dirt_tile_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_dirt_tile_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_dirt_tile_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_dirt_tile_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_dirt_tile_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_dirt_tile_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_dirt_tile_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_dirt_tile_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_dirt_tile_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_dirt_tile_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_dirt_tile_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_dirt_tile_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_dirt_tile_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_dirt_tile_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_dirt_tile_window",
+      "required": false
+    },
+    {
+      "id": "chipped:flat_dirt_tile_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_clay_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_clay_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_clay_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_clay_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_clay_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_clay_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_clay_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_clay_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_clay_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_clay_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_clay_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_clay_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_clay_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_clay_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_clay_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_clay_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_clay_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_clay_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_clay_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_clay_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_clay_window",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_clay_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_dirt_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_dirt_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_dirt_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_dirt_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_dirt_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_dirt_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_dirt_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_dirt_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_dirt_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_dirt_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_dirt_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_dirt_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_dirt_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_dirt_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_dirt_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_dirt_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_dirt_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_dirt_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_dirt_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_dirt_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_dirt_window",
+      "required": false
+    },
+    {
+      "id": "chipped:glad_dirt_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_clay_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_clay_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_clay_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_clay_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_clay_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_clay_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_clay_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_clay_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_clay_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_clay_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_clay_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_clay_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_clay_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_clay_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_clay_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_clay_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_clay_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_clay_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_clay_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_clay_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_clay_window",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_clay_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_dirt_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_dirt_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_dirt_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_dirt_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_dirt_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_dirt_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_dirt_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_dirt_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_dirt_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_dirt_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_dirt_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_dirt_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_dirt_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_dirt_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_dirt_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_dirt_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_dirt_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_dirt_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_dirt_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_dirt_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_dirt_window",
+      "required": false
+    },
+    {
+      "id": "chipped:inlayed_dirt_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_clay_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_clay_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_clay_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_clay_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_clay_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_clay_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_clay_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_clay_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_clay_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_clay_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_clay_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_clay_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_clay_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_clay_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_clay_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_clay_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_clay_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_clay_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_clay_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_clay_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_clay_window",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_clay_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_dirt_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_dirt_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_dirt_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_dirt_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_dirt_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_dirt_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_dirt_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_dirt_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_dirt_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_dirt_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_dirt_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_dirt_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_dirt_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_dirt_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_dirt_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_dirt_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_dirt_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_dirt_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_dirt_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_dirt_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_dirt_window",
+      "required": false
+    },
+    {
+      "id": "chipped:inscribed_dirt_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_clay_brick_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_clay_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_clay_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_clay_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_clay_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_clay_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_clay_brick_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_clay_brick_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_clay_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_clay_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_clay_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_clay_brick_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_clay_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_clay_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_clay_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_clay_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_clay_brick_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_clay_brick_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_clay_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_clay_brick_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_clay_brick_window",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_clay_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_dirt_brick_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_dirt_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_dirt_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_dirt_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_dirt_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_dirt_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_dirt_brick_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_dirt_brick_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_dirt_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_dirt_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_dirt_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_dirt_brick_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_dirt_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_dirt_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_dirt_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_dirt_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_dirt_brick_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_dirt_brick_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_dirt_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_dirt_brick_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_dirt_brick_window",
+      "required": false
+    },
+    {
+      "id": "chipped:layed_dirt_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_clay_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_clay_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_clay_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_clay_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_clay_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_clay_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_clay_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_clay_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_clay_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_clay_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_clay_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_clay_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_clay_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_clay_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_clay_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_clay_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_clay_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_clay_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_clay_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_clay_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_clay_window",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_clay_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_dirt_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_dirt_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_dirt_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_dirt_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_dirt_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_dirt_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_dirt_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_dirt_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_dirt_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_dirt_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_dirt_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_dirt_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_dirt_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_dirt_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_dirt_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_dirt_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_dirt_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_dirt_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_dirt_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_dirt_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_dirt_window",
+      "required": false
+    },
+    {
+      "id": "chipped:loded_dirt_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_clay_brick_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_clay_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_clay_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_clay_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_clay_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_clay_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_clay_brick_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_clay_brick_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_clay_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_clay_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_clay_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_clay_brick_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_clay_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_clay_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_clay_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_clay_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_clay_brick_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_clay_brick_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_clay_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_clay_brick_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_clay_brick_window",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_clay_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_dirt_brick_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_dirt_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_dirt_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_dirt_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_dirt_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_dirt_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_dirt_brick_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_dirt_brick_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_dirt_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_dirt_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_dirt_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_dirt_brick_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_dirt_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_dirt_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_dirt_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_dirt_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_dirt_brick_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_dirt_brick_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_dirt_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_dirt_brick_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_dirt_brick_window",
+      "required": false
+    },
+    {
+      "id": "chipped:offset_dirt_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_clay_brick_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_clay_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_clay_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_clay_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_clay_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_clay_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_clay_brick_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_clay_brick_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_clay_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_clay_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_clay_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_clay_brick_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_clay_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_clay_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_clay_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_clay_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_clay_brick_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_clay_brick_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_clay_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_clay_brick_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_clay_brick_window",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_clay_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_dirt_brick_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_dirt_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_dirt_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_dirt_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_dirt_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_dirt_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_dirt_brick_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_dirt_brick_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_dirt_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_dirt_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_dirt_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_dirt_brick_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_dirt_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_dirt_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_dirt_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_dirt_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_dirt_brick_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_dirt_brick_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_dirt_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_dirt_brick_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_dirt_brick_window",
+      "required": false
+    },
+    {
+      "id": "chipped:pillar_dirt_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_clay_remnants_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_clay_remnants_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_clay_remnants_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_clay_remnants_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_clay_remnants_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_clay_remnants_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_clay_remnants_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_clay_remnants_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_clay_remnants_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_clay_remnants_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_clay_remnants_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_clay_remnants_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_clay_remnants_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_clay_remnants_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_clay_remnants_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_clay_remnants_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_clay_remnants_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_clay_remnants_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_clay_remnants_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_clay_remnants_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_clay_remnants_window",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_clay_remnants_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_dirt_remnants_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_dirt_remnants_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_dirt_remnants_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_dirt_remnants_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_dirt_remnants_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_dirt_remnants_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_dirt_remnants_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_dirt_remnants_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_dirt_remnants_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_dirt_remnants_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_dirt_remnants_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_dirt_remnants_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_dirt_remnants_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_dirt_remnants_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_dirt_remnants_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_dirt_remnants_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_dirt_remnants_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_dirt_remnants_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_dirt_remnants_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_dirt_remnants_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_dirt_remnants_window",
+      "required": false
+    },
+    {
+      "id": "chipped:prismal_dirt_remnants_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_clay_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_clay_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_clay_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_clay_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_clay_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_clay_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_clay_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_clay_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_clay_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_clay_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_clay_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_clay_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_clay_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_clay_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_clay_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_clay_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_clay_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_clay_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_clay_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_clay_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_clay_window",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_clay_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_dirt_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_dirt_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_dirt_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_dirt_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_dirt_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_dirt_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_dirt_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_dirt_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_dirt_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_dirt_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_dirt_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_dirt_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_dirt_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_dirt_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_dirt_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_dirt_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_dirt_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_dirt_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_dirt_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_dirt_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_dirt_window",
+      "required": false
+    },
+    {
+      "id": "chipped:rough_dirt_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_clay_brick_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_clay_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_clay_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_clay_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_clay_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_clay_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_clay_brick_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_clay_brick_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_clay_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_clay_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_clay_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_clay_brick_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_clay_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_clay_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_clay_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_clay_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_clay_brick_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_clay_brick_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_clay_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_clay_brick_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_clay_brick_window",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_clay_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_dirt_brick_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_dirt_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_dirt_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_dirt_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_dirt_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_dirt_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_dirt_brick_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_dirt_brick_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_dirt_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_dirt_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_dirt_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_dirt_brick_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_dirt_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_dirt_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_dirt_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_dirt_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_dirt_brick_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_dirt_brick_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_dirt_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_dirt_brick_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_dirt_brick_window",
+      "required": false
+    },
+    {
+      "id": "chipped:rounded_dirt_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_clay_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_clay_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_clay_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_clay_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_clay_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_clay_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_clay_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_clay_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_clay_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_clay_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_clay_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_clay_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_clay_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_clay_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_clay_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_clay_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_clay_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_clay_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_clay_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_clay_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_clay_window",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_clay_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_dirt_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_dirt_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_dirt_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_dirt_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_dirt_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_dirt_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_dirt_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_dirt_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_dirt_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_dirt_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_dirt_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_dirt_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_dirt_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_dirt_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_dirt_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_dirt_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_dirt_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_dirt_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_dirt_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_dirt_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_dirt_window",
+      "required": false
+    },
+    {
+      "id": "chipped:runic_carved_dirt_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_clay_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_clay_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_clay_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_clay_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_clay_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_clay_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_clay_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_clay_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_clay_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_clay_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_clay_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_clay_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_clay_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_clay_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_clay_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_clay_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_clay_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_clay_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_clay_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_clay_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_clay_window",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_clay_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_dirt_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_dirt_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_dirt_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_dirt_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_dirt_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_dirt_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_dirt_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_dirt_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_dirt_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_dirt_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_dirt_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_dirt_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_dirt_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_dirt_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_dirt_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_dirt_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_dirt_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_dirt_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_dirt_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_dirt_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_dirt_window",
+      "required": false
+    },
+    {
+      "id": "chipped:sad_dirt_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:small_clay_brick_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:small_clay_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:small_clay_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:small_clay_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:small_clay_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:small_clay_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:small_clay_brick_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:small_clay_brick_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:small_clay_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:small_clay_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:small_clay_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:small_clay_brick_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:small_clay_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:small_clay_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:small_clay_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:small_clay_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:small_clay_brick_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:small_clay_brick_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:small_clay_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:small_clay_brick_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:small_clay_brick_window",
+      "required": false
+    },
+    {
+      "id": "chipped:small_clay_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:small_dirt_brick_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:small_dirt_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:small_dirt_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:small_dirt_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:small_dirt_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:small_dirt_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:small_dirt_brick_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:small_dirt_brick_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:small_dirt_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:small_dirt_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:small_dirt_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:small_dirt_brick_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:small_dirt_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:small_dirt_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:small_dirt_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:small_dirt_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:small_dirt_brick_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:small_dirt_brick_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:small_dirt_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:small_dirt_brick_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:small_dirt_brick_window",
+      "required": false
+    },
+    {
+      "id": "chipped:small_dirt_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_clay_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_clay_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_clay_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_clay_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_clay_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_clay_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_clay_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_clay_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_clay_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_clay_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_clay_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_clay_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_clay_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_clay_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_clay_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_clay_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_clay_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_clay_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_clay_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_clay_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_clay_window",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_clay_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_dirt_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_dirt_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_dirt_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_dirt_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_dirt_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_dirt_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_dirt_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_dirt_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_dirt_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_dirt_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_dirt_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_dirt_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_dirt_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_dirt_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_dirt_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_dirt_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_dirt_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_dirt_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_dirt_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_dirt_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_dirt_window",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_inlayed_dirt_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_clay_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_clay_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_clay_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_clay_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_clay_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_clay_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_clay_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_clay_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_clay_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_clay_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_clay_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_clay_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_clay_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_clay_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_clay_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_clay_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_clay_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_clay_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_clay_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_clay_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_clay_window",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_clay_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_dirt_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_dirt_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_dirt_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_dirt_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_dirt_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_dirt_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_dirt_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_dirt_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_dirt_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_dirt_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_dirt_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_dirt_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_dirt_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_dirt_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_dirt_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_dirt_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_dirt_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_dirt_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_dirt_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_dirt_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_dirt_window",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_ringed_dirt_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_clay_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_clay_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_clay_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_clay_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_clay_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_clay_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_clay_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_clay_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_clay_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_clay_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_clay_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_clay_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_clay_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_clay_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_clay_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_clay_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_clay_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_clay_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_clay_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_clay_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_clay_window",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_clay_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_dirt_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_dirt_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_dirt_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_dirt_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_dirt_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_dirt_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_dirt_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_dirt_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_dirt_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_dirt_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_dirt_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_dirt_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_dirt_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_dirt_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_dirt_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_dirt_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_dirt_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_dirt_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_dirt_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_dirt_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_dirt_window",
+      "required": false
+    },
+    {
+      "id": "chipped:smoothed_double_inlayed_dirt_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_clay_carving_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_clay_carving_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_clay_carving_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_clay_carving_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_clay_carving_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_clay_carving_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_clay_carving_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_clay_carving_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_clay_carving_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_clay_carving_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_clay_carving_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_clay_carving_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_clay_carving_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_clay_carving_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_clay_carving_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_clay_carving_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_clay_carving_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_clay_carving_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_clay_carving_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_clay_carving_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_clay_carving_window",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_clay_carving_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_dirt_carving_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_dirt_carving_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_dirt_carving_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_dirt_carving_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_dirt_carving_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_dirt_carving_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_dirt_carving_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_dirt_carving_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_dirt_carving_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_dirt_carving_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_dirt_carving_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_dirt_carving_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_dirt_carving_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_dirt_carving_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_dirt_carving_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_dirt_carving_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_dirt_carving_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_dirt_carving_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_dirt_carving_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_dirt_carving_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_dirt_carving_window",
+      "required": false
+    },
+    {
+      "id": "chipped:spider_dirt_carving_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_clay_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_clay_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_clay_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_clay_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_clay_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_clay_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_clay_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_clay_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_clay_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_clay_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_clay_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_clay_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_clay_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_clay_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_clay_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_clay_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_clay_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_clay_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_clay_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_clay_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_clay_window",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_clay_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_dirt_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_dirt_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_dirt_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_dirt_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_dirt_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_dirt_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_dirt_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_dirt_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_dirt_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_dirt_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_dirt_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_dirt_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_dirt_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_dirt_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_dirt_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_dirt_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_dirt_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_dirt_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_dirt_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_dirt_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_dirt_window",
+      "required": false
+    },
+    {
+      "id": "chipped:spiraled_dirt_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_clay_brick_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_clay_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_clay_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_clay_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_clay_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_clay_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_clay_brick_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_clay_brick_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_clay_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_clay_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_clay_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_clay_brick_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_clay_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_clay_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_clay_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_clay_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_clay_brick_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_clay_brick_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_clay_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_clay_brick_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_clay_brick_window",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_clay_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_dirt_brick_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_dirt_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_dirt_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_dirt_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_dirt_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_dirt_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_dirt_brick_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_dirt_brick_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_dirt_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_dirt_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_dirt_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_dirt_brick_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_dirt_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_dirt_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_dirt_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_dirt_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_dirt_brick_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_dirt_brick_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_dirt_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_dirt_brick_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_dirt_brick_window",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_dirt_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_clay_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_clay_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_clay_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_clay_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_clay_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_clay_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_clay_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_clay_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_clay_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_clay_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_clay_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_clay_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_clay_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_clay_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_clay_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_clay_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_clay_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_clay_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_clay_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_clay_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_clay_window",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_clay_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_dirt_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_dirt_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_dirt_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_dirt_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_dirt_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_dirt_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_dirt_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_dirt_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_dirt_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_dirt_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_dirt_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_dirt_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_dirt_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_dirt_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_dirt_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_dirt_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_dirt_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_dirt_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_dirt_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_dirt_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_dirt_window",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_dirt_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_clay_brick_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_clay_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_clay_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_clay_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_clay_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_clay_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_clay_brick_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_clay_brick_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_clay_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_clay_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_clay_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_clay_brick_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_clay_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_clay_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_clay_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_clay_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_clay_brick_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_clay_brick_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_clay_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_clay_brick_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_clay_brick_window",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_clay_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_dirt_brick_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_dirt_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_dirt_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_dirt_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_dirt_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_dirt_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_dirt_brick_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_dirt_brick_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_dirt_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_dirt_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_dirt_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_dirt_brick_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_dirt_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_dirt_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_dirt_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_dirt_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_dirt_brick_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_dirt_brick_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_dirt_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_dirt_brick_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_dirt_brick_window",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_dirt_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_brick_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_brick_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_brick_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_brick_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_brick_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_brick_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_brick_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_brick_window",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_slabs_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_slabs_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_slabs_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_slabs_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_slabs_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_slabs_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_slabs_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_slabs_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_slabs_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_slabs_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_slabs_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_slabs_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_slabs_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_slabs_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_slabs_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_slabs_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_slabs_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_slabs_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_slabs_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_slabs_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_slabs_window",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_clay_slabs_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_brick_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_brick_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_brick_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_brick_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_brick_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_brick_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_brick_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_brick_window",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_slabs_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_slabs_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_slabs_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_slabs_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_slabs_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_slabs_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_slabs_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_slabs_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_slabs_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_slabs_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_slabs_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_slabs_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_slabs_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_slabs_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_slabs_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_slabs_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_slabs_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_slabs_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_slabs_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_slabs_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_slabs_window",
+      "required": false
+    },
+    {
+      "id": "chipped:tiny_layered_dirt_slabs_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_clay_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_clay_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_clay_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_clay_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_clay_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_clay_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_clay_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_clay_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_clay_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_clay_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_clay_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_clay_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_clay_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_clay_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_clay_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_clay_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_clay_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_clay_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_clay_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_clay_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_clay_window",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_clay_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_dirt_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_dirt_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_dirt_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_dirt_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_dirt_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_dirt_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_dirt_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_dirt_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_dirt_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_dirt_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_dirt_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_dirt_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_dirt_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_dirt_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_dirt_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_dirt_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_dirt_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_dirt_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_dirt_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_dirt_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_dirt_window",
+      "required": false
+    },
+    {
+      "id": "chipped:trodden_dirt_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_clay_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_clay_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_clay_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_clay_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_clay_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_clay_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_clay_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_clay_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_clay_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_clay_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_clay_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_clay_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_clay_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_clay_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_clay_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_clay_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_clay_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_clay_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_clay_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_clay_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_clay_window",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_clay_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_dirt_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_dirt_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_dirt_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_dirt_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_dirt_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_dirt_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_dirt_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_dirt_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_dirt_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_dirt_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_dirt_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_dirt_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_dirt_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_dirt_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_dirt_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_dirt_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_dirt_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_dirt_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_dirt_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_dirt_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_dirt_window",
+      "required": false
+    },
+    {
+      "id": "chipped:unamused_dirt_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_clay_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_clay_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_clay_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_clay_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_clay_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_clay_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_clay_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_clay_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_clay_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_clay_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_clay_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_clay_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_clay_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_clay_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_clay_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_clay_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_clay_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_clay_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_clay_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_clay_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_clay_window",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_clay_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_dirt_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_dirt_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_dirt_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_dirt_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_dirt_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_dirt_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_dirt_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_dirt_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_dirt_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_dirt_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_dirt_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_dirt_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_dirt_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_dirt_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_dirt_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_dirt_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_dirt_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_dirt_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_dirt_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_dirt_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_dirt_window",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cut_dirt_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_clay_brick_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_clay_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_clay_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_clay_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_clay_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_clay_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_clay_brick_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_clay_brick_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_clay_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_clay_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_clay_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_clay_brick_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_clay_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_clay_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_clay_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_clay_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_clay_brick_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_clay_brick_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_clay_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_clay_brick_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_clay_brick_window",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_clay_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_dirt_brick_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_dirt_brick_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_dirt_brick_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_dirt_brick_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_dirt_brick_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_dirt_brick_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_dirt_brick_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_dirt_brick_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_dirt_brick_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_dirt_brick_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_dirt_brick_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_dirt_brick_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_dirt_brick_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_dirt_brick_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_dirt_brick_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_dirt_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_dirt_brick_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_dirt_brick_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_dirt_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_dirt_brick_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_dirt_brick_window",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_disordered_dirt_brick_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_clay_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_clay_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_clay_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_clay_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_clay_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_clay_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_clay_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_clay_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_clay_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_clay_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_clay_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_clay_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_clay_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_clay_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_clay_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_clay_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_clay_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_clay_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_clay_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_clay_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_clay_window",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_clay_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_dirt_arch",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_dirt_arch_half",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_dirt_arch_large",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_dirt_arch_large_half",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_dirt_arrowslit",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_dirt_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_dirt_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_dirt_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_dirt_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_dirt_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_dirt_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_dirt_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_dirt_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_dirt_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_dirt_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_dirt_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_dirt_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_dirt_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_dirt_stairs",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_dirt_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_dirt_window",
+      "required": false
+    },
+    {
+      "id": "chipped:weathered_dirt_window_half",
+      "required": false
+    }
+  ]
+}

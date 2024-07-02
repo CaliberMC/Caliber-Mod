@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:raw_iron_block_bricks"
+  },
+  "result": "chipped:raw_iron_block_brick_window"
+}

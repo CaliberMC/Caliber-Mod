@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:prismal_red_nether_bricks_remnants"
+  },
+  "result": "chipped:prismal_red_nether_brick_remnants_corner"
+}

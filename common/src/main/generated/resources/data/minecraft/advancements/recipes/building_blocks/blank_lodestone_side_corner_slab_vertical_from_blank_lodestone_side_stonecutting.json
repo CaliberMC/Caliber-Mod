@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_blank_lodestone_side": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:blank_lodestone_side"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:blank_lodestone_side_corner_slab_vertical_from_blank_lodestone_side_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_blank_lodestone_side",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:blank_lodestone_side_corner_slab_vertical_from_blank_lodestone_side_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:sad_blackstone"
+  },
+  "result": "chipped:sad_blackstone_window_half"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:fine_vertical_dark_oak_layer"
+  },
+  "result": "chipped:fine_vertical_dark_oak_layer_vertical"
+}

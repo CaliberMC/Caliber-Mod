@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_duh_tuff": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:duh_tuff"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:duh_tuff_balustrade_from_duh_tuff_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_duh_tuff",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:duh_tuff_balustrade_from_duh_tuff_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_layed_lodestone_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:layed_lodestone_bricks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:layed_lodestone_brick_pillar_from_layed_lodestone_bricks_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_layed_lodestone_bricks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:layed_lodestone_brick_pillar_from_layed_lodestone_bricks_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

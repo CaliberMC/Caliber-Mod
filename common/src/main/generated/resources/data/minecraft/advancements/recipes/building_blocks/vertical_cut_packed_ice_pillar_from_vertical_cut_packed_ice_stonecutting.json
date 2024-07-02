@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:vertical_cut_packed_ice_pillar_from_vertical_cut_packed_ice_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_vertical_cut_packed_ice": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:vertical_cut_packed_ice"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_vertical_cut_packed_ice",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:vertical_cut_packed_ice_pillar_from_vertical_cut_packed_ice_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

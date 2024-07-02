@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:eroded_ice"
+  },
+  "result": "chipped:eroded_ice_stairs"
+}

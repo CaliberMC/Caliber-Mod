@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:layered_yellow_terracotta"
+  },
+  "result": "chipped:layered_yellow_terracotta_arch_large_half"
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_smooth_brown_mushroom_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:smooth_brown_mushroom_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:smooth_brown_mushroom_block_capital_from_smooth_brown_mushroom_block_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_smooth_brown_mushroom_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:smooth_brown_mushroom_block_capital_from_smooth_brown_mushroom_block_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

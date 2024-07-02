@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:spiraled_dripstone_block"
+  },
+  "result": "chipped:spiraled_dripstone_block_capital"
+}

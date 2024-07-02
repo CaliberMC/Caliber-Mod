@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:sanded_coal_block"
+  },
+  "result": "chipped:sanded_coal_block_window"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:offset_snow_block_bricks"
+  },
+  "result": "chipped:offset_snow_block_brick_arch_half"
+}

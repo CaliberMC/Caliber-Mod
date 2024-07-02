@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:inlayed_andesite"
+  },
+  "result": "chipped:inlayed_andesite_layer"
+}

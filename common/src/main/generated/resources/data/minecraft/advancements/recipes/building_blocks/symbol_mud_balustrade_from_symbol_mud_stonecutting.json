@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_symbol_mud": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:symbol_mud"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:symbol_mud_balustrade_from_symbol_mud_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_symbol_mud",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:symbol_mud_balustrade_from_symbol_mud_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

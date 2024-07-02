@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:spider_nether_bricks_carving"
+  },
+  "result": "chipped:spider_nether_brick_carving_quarter_vertical"
+}

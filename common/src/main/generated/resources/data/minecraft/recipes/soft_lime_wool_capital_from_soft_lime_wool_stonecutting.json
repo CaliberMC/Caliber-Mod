@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:soft_lime_wool"
+  },
+  "result": "chipped:soft_lime_wool_capital"
+}

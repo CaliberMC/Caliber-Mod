@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:spider_mossy_stone_bricks_carving"
+  },
+  "result": "chipped:spider_mossy_stone_brick_carving_arch_large"
+}

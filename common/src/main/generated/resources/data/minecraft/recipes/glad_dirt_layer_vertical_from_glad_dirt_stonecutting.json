@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:glad_dirt"
+  },
+  "result": "chipped:glad_dirt_layer_vertical"
+}

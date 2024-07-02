@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:loded_purpur_block"
+  },
+  "result": "chipped:loded_purpur_block_balustrade"
+}

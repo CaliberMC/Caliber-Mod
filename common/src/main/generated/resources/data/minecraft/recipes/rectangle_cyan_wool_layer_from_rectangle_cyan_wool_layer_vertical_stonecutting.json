@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:rectangle_cyan_wool_layer_vertical"
+  },
+  "result": "chipped:rectangle_cyan_wool_layer"
+}

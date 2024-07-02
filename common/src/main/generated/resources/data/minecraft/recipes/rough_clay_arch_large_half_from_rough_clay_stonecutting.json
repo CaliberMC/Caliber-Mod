@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:rough_clay"
+  },
+  "result": "chipped:rough_clay_arch_large_half"
+}

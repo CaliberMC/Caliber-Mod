@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:basket_woven_warped_layer"
+  },
+  "result": "chipped:basket_woven_warped_layer_vertical"
+}

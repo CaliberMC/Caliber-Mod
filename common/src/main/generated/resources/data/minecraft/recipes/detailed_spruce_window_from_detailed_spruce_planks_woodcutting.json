@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:detailed_spruce_planks"
+  },
+  "result": "chipped:detailed_spruce_window"
+}

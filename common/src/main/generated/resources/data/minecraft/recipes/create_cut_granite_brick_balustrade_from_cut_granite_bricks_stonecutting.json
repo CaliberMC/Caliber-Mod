@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "create:cut_granite_bricks"
+  },
+  "result": "create:cut_granite_brick_balustrade"
+}

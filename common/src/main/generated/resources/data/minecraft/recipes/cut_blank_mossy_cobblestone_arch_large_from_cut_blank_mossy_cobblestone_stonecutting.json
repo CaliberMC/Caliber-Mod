@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:cut_blank_mossy_cobblestone"
+  },
+  "result": "chipped:cut_blank_mossy_cobblestone_arch_large"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "chipped:tiny_layered_mossy_cobblestone_slabs"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "item": "chipped:tiny_layered_mossy_cobblestone_slabs_stairs"
+  },
+  "show_notification": true
+}

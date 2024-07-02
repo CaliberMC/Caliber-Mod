@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:triangular_cyan_terracotta"
+  },
+  "result": "chipped:triangular_cyan_terracotta_arrowslit"
+}

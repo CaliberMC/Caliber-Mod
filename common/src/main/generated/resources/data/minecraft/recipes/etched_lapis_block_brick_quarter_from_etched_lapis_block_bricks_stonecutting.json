@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:etched_lapis_block_bricks"
+  },
+  "result": "chipped:etched_lapis_block_brick_quarter"
+}

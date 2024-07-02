@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_prismal_dirt_remnants": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:prismal_dirt_remnants"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:prismal_dirt_remnants_slab_from_prismal_dirt_remnants_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_prismal_dirt_remnants",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:prismal_dirt_remnants_slab_from_prismal_dirt_remnants_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

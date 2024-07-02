@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_creeper_gilded_blackstone_carving": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:creeper_gilded_blackstone_carving"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:creeper_gilded_blackstone_carving_stairs_from_creeper_gilded_blackstone_carving_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_creeper_gilded_blackstone_carving",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:creeper_gilded_blackstone_carving_stairs_from_creeper_gilded_blackstone_carving_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

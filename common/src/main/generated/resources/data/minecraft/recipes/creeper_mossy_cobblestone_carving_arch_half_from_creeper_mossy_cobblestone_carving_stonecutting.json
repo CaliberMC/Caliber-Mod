@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:creeper_mossy_cobblestone_carving"
+  },
+  "result": "chipped:creeper_mossy_cobblestone_carving_arch_half"
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cut_blank_quartz_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:cut_blank_quartz_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:cut_blank_quartz_block_stairs_from_cut_blank_quartz_block_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_cut_blank_quartz_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:cut_blank_quartz_block_stairs_from_cut_blank_quartz_block_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

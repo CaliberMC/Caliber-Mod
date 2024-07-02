@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:blank_red_sandstone_carving"
+  },
+  "result": "chipped:blank_red_sandstone_carving_arch_large"
+}

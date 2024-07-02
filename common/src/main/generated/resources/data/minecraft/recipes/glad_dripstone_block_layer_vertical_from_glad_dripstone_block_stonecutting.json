@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:glad_dripstone_block"
+  },
+  "result": "chipped:glad_dripstone_block_layer_vertical"
+}

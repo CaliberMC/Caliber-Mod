@@ -46,6 +46,12 @@ dependencies {
 
     modCompileOnly "curse.maven:regions-unexplored-659110:5127359"
 
+    modCompileOnly "curse.maven:create-624165:5245234"
+
+    modCompileOnly "curse.maven:chipped-456956:5270040"
+    modCompileOnly "curse.maven:resourceful-lib-570073:5361261"
+    modCompileOnly "curse.maven:athena-841890:5176880"
+
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionFabric")) { transitive false }
 }

@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:railed_dark_oak_planks"
+  },
+  "result": "chipped:railed_dark_oak_window"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:eroded_andesite"
+  },
+  "result": "chipped:eroded_andesite_corner_slab"
+}

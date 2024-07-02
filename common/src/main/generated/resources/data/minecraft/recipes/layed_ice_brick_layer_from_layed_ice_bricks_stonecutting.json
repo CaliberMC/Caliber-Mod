@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:layed_ice_bricks"
+  },
+  "result": "chipped:layed_ice_brick_layer"
+}

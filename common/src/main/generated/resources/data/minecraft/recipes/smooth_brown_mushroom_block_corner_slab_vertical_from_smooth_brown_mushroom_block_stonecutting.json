@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:smooth_brown_mushroom_block"
+  },
+  "result": "chipped:smooth_brown_mushroom_block_corner_slab_vertical"
+}

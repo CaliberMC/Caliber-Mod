@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:angry_raw_iron_block"
+  },
+  "result": "chipped:angry_raw_iron_block_arch"
+}

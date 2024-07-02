@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:sea_lantern_lodestone"
+  },
+  "result": "chipped:sea_lantern_lodestone_stairs"
+}

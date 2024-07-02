@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:bundled_cyan_wool"
+  },
+  "result": "chipped:bundled_cyan_wool_corner_slab_vertical"
+}

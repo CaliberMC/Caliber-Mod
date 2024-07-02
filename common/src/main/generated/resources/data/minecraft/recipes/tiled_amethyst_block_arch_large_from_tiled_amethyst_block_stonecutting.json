@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:tiled_amethyst_block"
+  },
+  "result": "chipped:tiled_amethyst_block_arch_large"
+}

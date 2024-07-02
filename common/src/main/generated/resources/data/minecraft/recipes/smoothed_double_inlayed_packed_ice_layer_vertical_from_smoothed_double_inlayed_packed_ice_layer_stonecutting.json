@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:smoothed_double_inlayed_packed_ice_layer"
+  },
+  "result": "chipped:smoothed_double_inlayed_packed_ice_layer_vertical"
+}

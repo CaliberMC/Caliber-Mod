@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:tiled_deepslate_layer_from_tiled_deepslate_layer_vertical_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tiled_deepslate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:tiled_deepslate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_tiled_deepslate",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:tiled_deepslate_layer_from_tiled_deepslate_layer_vertical_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

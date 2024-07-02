@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:sad_lapis_block"
+  },
+  "result": "chipped:sad_lapis_block_balustrade"
+}

@@ -194,6 +194,7 @@ allprojects {
     }
 
     jar {
+        zip64 true
         manifest {
             attributes([
                     'Specification-Title'     : mod_name,

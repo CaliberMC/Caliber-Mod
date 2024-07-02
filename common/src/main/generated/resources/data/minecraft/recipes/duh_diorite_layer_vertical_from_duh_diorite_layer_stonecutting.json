@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:duh_diorite_layer"
+  },
+  "result": "chipped:duh_diorite_layer_vertical"
+}

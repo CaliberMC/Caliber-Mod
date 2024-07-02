@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_glad_basalt": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:glad_basalt"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:glad_basalt_slab_from_glad_basalt_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_glad_basalt",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:glad_basalt_slab_from_glad_basalt_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

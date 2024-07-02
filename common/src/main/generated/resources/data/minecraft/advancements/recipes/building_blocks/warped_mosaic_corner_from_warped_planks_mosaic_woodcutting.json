@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:warped_mosaic_corner_from_warped_planks_mosaic_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_warped_planks_mosaic": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:warped_planks_mosaic"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_warped_planks_mosaic",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:warped_mosaic_corner_from_warped_planks_mosaic_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

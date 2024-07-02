@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:weathered_raw_copper_block"
+  },
+  "result": "chipped:weathered_raw_copper_block_corner"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:blocky_light_blue_wool"
+  },
+  "result": "chipped:blocky_light_blue_wool_eighth"
+}

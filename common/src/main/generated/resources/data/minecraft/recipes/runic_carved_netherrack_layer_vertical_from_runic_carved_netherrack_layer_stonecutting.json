@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:runic_carved_netherrack_layer"
+  },
+  "result": "chipped:runic_carved_netherrack_layer_vertical"
+}

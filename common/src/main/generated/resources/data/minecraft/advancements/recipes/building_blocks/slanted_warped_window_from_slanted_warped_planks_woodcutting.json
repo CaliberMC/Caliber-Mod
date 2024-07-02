@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_slanted_warped_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:slanted_warped_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:slanted_warped_window_from_slanted_warped_planks_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_slanted_warped_planks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:slanted_warped_window_from_slanted_warped_planks_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

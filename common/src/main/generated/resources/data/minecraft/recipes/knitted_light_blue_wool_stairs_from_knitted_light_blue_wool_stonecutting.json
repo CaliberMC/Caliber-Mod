@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:knitted_light_blue_wool"
+  },
+  "result": "chipped:knitted_light_blue_wool_stairs"
+}

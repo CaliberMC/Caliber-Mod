@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:bricky_crimson_planks"
+  },
+  "result": "chipped:bricky_crimson_quarter_vertical"
+}

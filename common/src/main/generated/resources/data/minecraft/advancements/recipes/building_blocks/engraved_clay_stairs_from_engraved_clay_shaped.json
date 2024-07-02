@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_engraved_clay": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:engraved_clay"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:engraved_clay_stairs_from_engraved_clay_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_engraved_clay",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:engraved_clay_stairs_from_engraved_clay_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

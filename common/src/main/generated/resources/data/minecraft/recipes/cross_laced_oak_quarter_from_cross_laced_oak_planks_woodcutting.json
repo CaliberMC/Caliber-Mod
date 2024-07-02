@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:cross_laced_oak_planks"
+  },
+  "result": "chipped:cross_laced_oak_quarter"
+}

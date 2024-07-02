@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:calcite_scales"
+  },
+  "result": "chipped:calcite_scales_arch_half"
+}

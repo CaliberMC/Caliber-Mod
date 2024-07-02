@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_decorated_light_blue_terracotta": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:decorated_light_blue_terracotta"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:decorated_light_blue_terracotta_layer_from_decorated_light_blue_terracotta_layer_vertical_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_decorated_light_blue_terracotta",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:decorated_light_blue_terracotta_layer_from_decorated_light_blue_terracotta_layer_vertical_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

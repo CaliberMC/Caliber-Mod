@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:ribbled_orange_wool"
+  },
+  "result": "chipped:ribbled_orange_wool_layer"
+}

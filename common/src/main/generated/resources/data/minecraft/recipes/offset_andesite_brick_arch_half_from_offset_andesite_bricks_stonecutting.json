@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:offset_andesite_bricks"
+  },
+  "result": "chipped:offset_andesite_brick_arch_half"
+}

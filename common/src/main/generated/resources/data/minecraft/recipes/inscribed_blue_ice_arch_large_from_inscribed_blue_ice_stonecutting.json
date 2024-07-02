@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:inscribed_blue_ice"
+  },
+  "result": "chipped:inscribed_blue_ice_arch_large"
+}

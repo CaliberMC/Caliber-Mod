@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:weathered_granite"
+  },
+  "result": "chipped:weathered_granite_quarter_vertical"
+}

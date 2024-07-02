@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_shifted_jungle_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:shifted_jungle_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:shifted_jungle_corner_slab_from_shifted_jungle_planks_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_shifted_jungle_planks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:shifted_jungle_corner_slab_from_shifted_jungle_planks_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:triangular_blue_terracotta"
+  },
+  "result": "chipped:triangular_blue_terracotta_arch_large_half"
+}

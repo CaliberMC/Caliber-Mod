@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:inlayed_calcite"
+  },
+  "result": "chipped:inlayed_calcite_slab"
+}

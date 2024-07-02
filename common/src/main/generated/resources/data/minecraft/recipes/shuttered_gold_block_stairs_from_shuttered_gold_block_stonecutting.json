@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:shuttered_gold_block"
+  },
+  "result": "chipped:shuttered_gold_block_stairs"
+}

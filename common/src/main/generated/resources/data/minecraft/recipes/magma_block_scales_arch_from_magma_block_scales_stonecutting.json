@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:magma_block_scales"
+  },
+  "result": "chipped:magma_block_scales_arch"
+}

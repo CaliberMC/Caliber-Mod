@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_inscribed_tuff": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:inscribed_tuff"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:inscribed_tuff_eighth_from_inscribed_tuff_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_inscribed_tuff",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:inscribed_tuff_eighth_from_inscribed_tuff_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

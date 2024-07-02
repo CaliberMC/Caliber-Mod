@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:offset_lodestone_bricks"
+  },
+  "result": "chipped:offset_lodestone_brick_corner_slab_vertical"
+}

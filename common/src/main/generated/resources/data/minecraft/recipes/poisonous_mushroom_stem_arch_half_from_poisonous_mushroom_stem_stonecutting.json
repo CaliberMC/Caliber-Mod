@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:poisonous_mushroom_stem"
+  },
+  "result": "chipped:poisonous_mushroom_stem_arch_half"
+}

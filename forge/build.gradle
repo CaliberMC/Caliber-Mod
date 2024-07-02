@@ -40,6 +40,10 @@ configurations {
     developmentForge.extendsFrom common
 }
 
+repositories {
+    maven { url "https://maven.resourcefulbees.com/repository/maven-public/" }
+}
+
 dependencies {
     forge "net.minecraftforge:forge:${rootProject.minecraft_version}-${rootProject.forge_version}"
 
@@ -56,6 +60,16 @@ dependencies {
     modImplementation "curse.maven:terrablender-563928:4573003"
     modImplementation "curse.maven:biomesoplenty-220318:4764805"
     modImplementation "curse.maven:regions-unexplored-659110:5151869"
+
+    modImplementation "curse.maven:create-328085:4835191"
+    modImplementation "com.tterrag.registrate:Registrate:${registrate_version}"
+    modImplementation "com.jozufozu.flywheel:flywheel-forge-${minecraft_version}:${flywheel_version}"
+
+    modImplementation "curse.maven:chipped-456956:5270039"
+    modImplementation "curse.maven:resourceful-lib-570073:5210240"
+    forgeRuntimeLibrary("com.teamresourceful:bytecodecs:1.0.2")
+
+    modImplementation "curse.maven:athena-841890:5176879"
 
 //    forgeRuntimeLibrary "com.google.code.gson:gson:2.10!!"
 //    forgeRuntimeLibrary "org.lwjgl:lwjgl-glfw:3.3.1"

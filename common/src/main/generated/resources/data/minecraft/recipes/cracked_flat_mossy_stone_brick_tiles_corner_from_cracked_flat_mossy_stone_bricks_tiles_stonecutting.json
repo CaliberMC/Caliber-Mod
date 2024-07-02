@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:cracked_flat_mossy_stone_bricks_tiles"
+  },
+  "result": "chipped:cracked_flat_mossy_stone_brick_tiles_corner"
+}

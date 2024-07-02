@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:tiled_packed_ice_pillar_from_tiled_packed_ice_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tiled_packed_ice": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:tiled_packed_ice"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_tiled_packed_ice",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:tiled_packed_ice_pillar_from_tiled_packed_ice_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

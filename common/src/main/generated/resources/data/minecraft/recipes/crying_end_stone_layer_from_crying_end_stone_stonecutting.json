@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:crying_end_stone"
+  },
+  "result": "chipped:crying_end_stone_layer"
+}

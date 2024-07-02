@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:blank_end_stone_carving"
+  },
+  "result": "chipped:blank_end_stone_carving_wall"
+}

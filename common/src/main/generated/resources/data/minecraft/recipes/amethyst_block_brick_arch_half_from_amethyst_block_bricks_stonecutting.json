@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:amethyst_block_bricks"
+  },
+  "result": "chipped:amethyst_block_brick_arch_half"
+}

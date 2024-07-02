@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:rough_panelled_mud"
+  },
+  "result": "chipped:rough_panelled_mud_window"
+}

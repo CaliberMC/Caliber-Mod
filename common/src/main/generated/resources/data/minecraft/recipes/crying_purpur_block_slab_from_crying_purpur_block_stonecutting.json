@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:crying_purpur_block"
+  },
+  "result": "chipped:crying_purpur_block_slab"
+}

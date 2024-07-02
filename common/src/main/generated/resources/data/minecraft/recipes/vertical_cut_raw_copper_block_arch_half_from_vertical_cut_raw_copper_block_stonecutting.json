@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:vertical_cut_raw_copper_block"
+  },
+  "result": "chipped:vertical_cut_raw_copper_block_arch_half"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:rounded_raw_copper_block_bricks"
+  },
+  "result": "chipped:rounded_raw_copper_block_brick_quarter_vertical"
+}

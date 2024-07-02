@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:tiled_blue_wool"
+  },
+  "result": "chipped:tiled_blue_wool_pillar"
+}

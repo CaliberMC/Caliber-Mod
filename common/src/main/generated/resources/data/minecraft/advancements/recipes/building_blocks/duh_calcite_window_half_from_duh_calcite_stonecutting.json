@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_duh_calcite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:duh_calcite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:duh_calcite_window_half_from_duh_calcite_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_duh_calcite",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:duh_calcite_window_half_from_duh_calcite_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

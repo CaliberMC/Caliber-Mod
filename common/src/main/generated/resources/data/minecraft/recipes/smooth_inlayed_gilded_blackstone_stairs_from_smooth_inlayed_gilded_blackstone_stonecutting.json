@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:smooth_inlayed_gilded_blackstone"
+  },
+  "result": "chipped:smooth_inlayed_gilded_blackstone_stairs"
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_copper_block_scales": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:raw_copper_block_scales"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:raw_copper_block_scales_arch_from_raw_copper_block_scales_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_copper_block_scales",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:raw_copper_block_scales_arch_from_raw_copper_block_scales_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

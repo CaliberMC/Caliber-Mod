@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:plated_diamond_block_layer_vertical"
+  },
+  "result": "chipped:plated_diamond_block_layer"
+}

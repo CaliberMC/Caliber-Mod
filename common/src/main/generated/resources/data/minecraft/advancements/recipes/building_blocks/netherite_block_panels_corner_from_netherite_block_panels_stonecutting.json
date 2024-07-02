@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_netherite_block_panels": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:netherite_block_panels"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:netherite_block_panels_corner_from_netherite_block_panels_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_netherite_block_panels",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:netherite_block_panels_corner_from_netherite_block_panels_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

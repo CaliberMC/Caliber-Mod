@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:sad_lodestone"
+  },
+  "result": "chipped:sad_lodestone_window"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:brick_bond_acacia_layer_vertical"
+  },
+  "result": "chipped:brick_bond_acacia_layer"
+}

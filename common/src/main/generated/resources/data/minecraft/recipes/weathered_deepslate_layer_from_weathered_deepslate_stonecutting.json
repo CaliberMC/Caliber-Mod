@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:weathered_deepslate"
+  },
+  "result": "chipped:weathered_deepslate_layer"
+}

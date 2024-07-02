@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:sad_dirt"
+  },
+  "result": "chipped:sad_dirt_window_half"
+}

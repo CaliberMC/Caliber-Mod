@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:shuttered_diamond_block"
+  },
+  "result": "chipped:shuttered_diamond_block_layer_vertical"
+}

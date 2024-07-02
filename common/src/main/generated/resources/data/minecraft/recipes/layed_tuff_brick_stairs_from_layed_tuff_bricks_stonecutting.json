@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:layed_tuff_bricks"
+  },
+  "result": "chipped:layed_tuff_brick_stairs"
+}

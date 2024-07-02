@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:angry_raw_gold_block"
+  },
+  "result": "chipped:angry_raw_gold_block_eighth"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:oak_planks_mosaic"
+  },
+  "result": "chipped:oak_mosaic_quarter_vertical"
+}

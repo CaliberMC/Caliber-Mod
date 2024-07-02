@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_acacia_planks_shavings": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:acacia_planks_shavings"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:acacia_shavings_window_from_acacia_planks_shavings_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_acacia_planks_shavings",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:acacia_shavings_window_from_acacia_planks_shavings_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

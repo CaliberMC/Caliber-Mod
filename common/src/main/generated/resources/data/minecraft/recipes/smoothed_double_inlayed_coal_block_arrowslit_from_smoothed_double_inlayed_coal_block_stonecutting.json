@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:smoothed_double_inlayed_coal_block"
+  },
+  "result": "chipped:smoothed_double_inlayed_coal_block_arrowslit"
+}

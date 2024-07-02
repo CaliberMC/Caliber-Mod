@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:etched_magma_block_bricks"
+  },
+  "result": "chipped:etched_magma_block_brick_corner_slab_vertical"
+}

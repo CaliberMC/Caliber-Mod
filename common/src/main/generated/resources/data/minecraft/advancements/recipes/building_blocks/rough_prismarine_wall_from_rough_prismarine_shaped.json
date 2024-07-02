@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_rough_prismarine": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:rough_prismarine"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:rough_prismarine_wall_from_rough_prismarine_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_rough_prismarine",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:rough_prismarine_wall_from_rough_prismarine_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:versailles_dark_oak_planks"
+  },
+  "result": "chipped:versailles_dark_oak_corner_slab"
+}

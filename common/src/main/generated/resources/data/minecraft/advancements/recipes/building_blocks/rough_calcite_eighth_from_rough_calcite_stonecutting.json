@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_rough_calcite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:rough_calcite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:rough_calcite_eighth_from_rough_calcite_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_rough_calcite",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:rough_calcite_eighth_from_rough_calcite_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

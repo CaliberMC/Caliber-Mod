@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:inscribed_ice"
+  },
+  "result": "chipped:inscribed_ice_layer"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:andesite_pillar_top"
+  },
+  "result": "chipped:andesite_pillar_top_stairs"
+}

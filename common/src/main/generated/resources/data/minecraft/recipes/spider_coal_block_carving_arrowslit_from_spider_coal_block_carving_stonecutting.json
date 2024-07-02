@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:spider_coal_block_carving"
+  },
+  "result": "chipped:spider_coal_block_carving_arrowslit"
+}

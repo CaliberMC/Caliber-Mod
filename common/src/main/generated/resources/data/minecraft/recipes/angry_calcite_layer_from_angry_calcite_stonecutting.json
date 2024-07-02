@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:angry_calcite"
+  },
+  "result": "chipped:angry_calcite_layer"
+}

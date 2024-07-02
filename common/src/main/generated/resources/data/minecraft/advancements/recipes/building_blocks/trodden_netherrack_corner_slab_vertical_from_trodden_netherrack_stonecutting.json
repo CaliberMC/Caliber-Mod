@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:trodden_netherrack_corner_slab_vertical_from_trodden_netherrack_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_trodden_netherrack": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:trodden_netherrack"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_trodden_netherrack",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:trodden_netherrack_corner_slab_vertical_from_trodden_netherrack_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

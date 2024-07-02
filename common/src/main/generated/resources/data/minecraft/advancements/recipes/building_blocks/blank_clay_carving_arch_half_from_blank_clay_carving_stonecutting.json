@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_blank_clay_carving": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:blank_clay_carving"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:blank_clay_carving_arch_half_from_blank_clay_carving_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_blank_clay_carving",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:blank_clay_carving_arch_half_from_blank_clay_carving_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:crying_prismarine"
+  },
+  "result": "chipped:crying_prismarine_arch"
+}

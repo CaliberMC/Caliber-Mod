@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:double_roped_bone_block"
+  },
+  "result": "chipped:double_roped_bone_block_layer_vertical"
+}

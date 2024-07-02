@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_spider_blue_ice_carving": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:spider_blue_ice_carving"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:spider_blue_ice_carving_corner_slab_from_spider_blue_ice_carving_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_spider_blue_ice_carving",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:spider_blue_ice_carving_corner_slab_from_spider_blue_ice_carving_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

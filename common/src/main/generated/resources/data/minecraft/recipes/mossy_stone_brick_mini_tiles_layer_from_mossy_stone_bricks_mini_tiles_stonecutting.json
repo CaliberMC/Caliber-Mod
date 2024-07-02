@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:mossy_stone_bricks_mini_tiles"
+  },
+  "result": "chipped:mossy_stone_brick_mini_tiles_layer"
+}

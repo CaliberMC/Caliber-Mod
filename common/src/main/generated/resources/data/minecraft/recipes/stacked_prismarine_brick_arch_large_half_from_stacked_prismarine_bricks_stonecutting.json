@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:stacked_prismarine_bricks"
+  },
+  "result": "chipped:stacked_prismarine_brick_arch_large_half"
+}

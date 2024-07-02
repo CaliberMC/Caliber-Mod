@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:nether_bricks_mini_tiles"
+  },
+  "result": "chipped:nether_brick_mini_tiles_arch_half"
+}

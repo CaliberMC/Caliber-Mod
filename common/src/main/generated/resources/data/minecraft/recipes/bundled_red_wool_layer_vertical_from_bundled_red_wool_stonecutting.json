@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:bundled_red_wool"
+  },
+  "result": "chipped:bundled_red_wool_layer_vertical"
+}

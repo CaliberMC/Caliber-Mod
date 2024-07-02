@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sad_tuff": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:sad_tuff"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:sad_tuff_layer_from_sad_tuff_layer_vertical_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_sad_tuff",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:sad_tuff_layer_from_sad_tuff_layer_vertical_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:warm_mushroom_stem_layer_vertical_from_warm_mushroom_stem_layer_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_warm_mushroom_stem": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:warm_mushroom_stem"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_warm_mushroom_stem",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:warm_mushroom_stem_layer_vertical_from_warm_mushroom_stem_layer_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

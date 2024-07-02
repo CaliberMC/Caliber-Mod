@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:trodden_clay"
+  },
+  "result": "chipped:trodden_clay_window"
+}

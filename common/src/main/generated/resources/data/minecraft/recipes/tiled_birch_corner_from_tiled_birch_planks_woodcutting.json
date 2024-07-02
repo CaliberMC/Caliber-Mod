@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:tiled_birch_planks"
+  },
+  "result": "chipped:tiled_birch_corner"
+}

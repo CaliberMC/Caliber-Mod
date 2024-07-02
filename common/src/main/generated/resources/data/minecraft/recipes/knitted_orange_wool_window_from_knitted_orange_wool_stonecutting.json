@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:knitted_orange_wool"
+  },
+  "result": "chipped:knitted_orange_wool_window"
+}

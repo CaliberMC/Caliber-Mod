@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_loded_clay": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:loded_clay"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:loded_clay_corner_slab_vertical_from_loded_clay_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_loded_clay",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:loded_clay_corner_slab_vertical_from_loded_clay_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

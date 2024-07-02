@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:sanded_tuff"
+  },
+  "result": "chipped:sanded_tuff_wall"
+}

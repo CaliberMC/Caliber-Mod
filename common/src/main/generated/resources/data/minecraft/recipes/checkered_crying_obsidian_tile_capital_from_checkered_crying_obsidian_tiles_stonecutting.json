@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:checkered_crying_obsidian_tiles"
+  },
+  "result": "chipped:checkered_crying_obsidian_tile_capital"
+}

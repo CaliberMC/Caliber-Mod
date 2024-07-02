@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:trodden_snow_block"
+  },
+  "result": "chipped:trodden_snow_block_arch_large_half"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:sanded_gilded_blackstone"
+  },
+  "result": "chipped:sanded_gilded_blackstone_arch_half"
+}

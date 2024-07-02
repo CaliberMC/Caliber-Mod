@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_crossed_jungle_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:crossed_jungle_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:crossed_jungle_window_from_crossed_jungle_planks_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_crossed_jungle_planks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:crossed_jungle_window_from_crossed_jungle_planks_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

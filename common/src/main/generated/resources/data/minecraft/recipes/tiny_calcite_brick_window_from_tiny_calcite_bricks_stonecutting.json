@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:tiny_calcite_bricks"
+  },
+  "result": "chipped:tiny_calcite_brick_window"
+}

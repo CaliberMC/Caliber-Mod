@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:chiseled_brown_terracotta"
+  },
+  "result": "chipped:chiseled_brown_terracotta_layer"
+}

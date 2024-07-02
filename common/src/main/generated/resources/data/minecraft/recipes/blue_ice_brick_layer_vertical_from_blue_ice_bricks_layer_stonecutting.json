@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:blue_ice_brick_layer"
+  },
+  "result": "chipped:blue_ice_brick_layer_vertical"
+}

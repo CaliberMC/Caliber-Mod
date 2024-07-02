@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:light_blue_concrete_bricks"
+  },
+  "result": "chipped:light_blue_concrete_brick_arch_half"
+}

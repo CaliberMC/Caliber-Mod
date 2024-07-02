@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:smooth_ringed_raw_gold_block"
+  },
+  "result": "chipped:smooth_ringed_raw_gold_block_corner_slab_vertical"
+}

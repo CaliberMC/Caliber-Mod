@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:clay_scales_layer"
+  },
+  "result": "chipped:clay_scales_layer_vertical"
+}

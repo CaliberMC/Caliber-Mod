@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:glad_packed_ice"
+  },
+  "result": "chipped:glad_packed_ice_balustrade"
+}

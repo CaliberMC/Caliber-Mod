@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:large_tiled_packed_mud"
+  },
+  "result": "chipped:large_tiled_packed_mud_window_half"
+}

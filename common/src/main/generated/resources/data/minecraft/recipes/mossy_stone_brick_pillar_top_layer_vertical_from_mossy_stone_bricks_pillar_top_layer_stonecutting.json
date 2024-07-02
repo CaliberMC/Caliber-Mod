@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:mossy_stone_brick_pillar_top_layer"
+  },
+  "result": "chipped:mossy_stone_brick_pillar_top_layer_vertical"
+}

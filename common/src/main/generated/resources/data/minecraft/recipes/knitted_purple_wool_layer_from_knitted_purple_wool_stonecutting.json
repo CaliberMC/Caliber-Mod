@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:knitted_purple_wool"
+  },
+  "result": "chipped:knitted_purple_wool_layer"
+}

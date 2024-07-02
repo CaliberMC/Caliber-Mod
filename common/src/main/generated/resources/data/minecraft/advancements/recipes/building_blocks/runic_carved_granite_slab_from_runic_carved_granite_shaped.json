@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_runic_carved_granite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:runic_carved_granite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:runic_carved_granite_slab_from_runic_carved_granite_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_runic_carved_granite",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:runic_carved_granite_slab_from_runic_carved_granite_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

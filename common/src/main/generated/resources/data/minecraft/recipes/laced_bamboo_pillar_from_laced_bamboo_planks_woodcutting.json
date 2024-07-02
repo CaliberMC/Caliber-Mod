@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:laced_bamboo_planks"
+  },
+  "result": "chipped:laced_bamboo_pillar"
+}

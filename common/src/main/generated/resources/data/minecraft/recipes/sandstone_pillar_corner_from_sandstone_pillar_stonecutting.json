@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:sandstone_pillar"
+  },
+  "result": "chipped:sandstone_pillar_corner"
+}

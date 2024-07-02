@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:offset_obsidian_bricks"
+  },
+  "result": "chipped:offset_obsidian_brick_arch_large"
+}

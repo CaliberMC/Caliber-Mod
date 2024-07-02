@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:eroded_lodestone"
+  },
+  "result": "chipped:eroded_lodestone_slab"
+}

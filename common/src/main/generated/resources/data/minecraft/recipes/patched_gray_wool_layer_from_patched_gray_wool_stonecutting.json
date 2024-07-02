@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:patched_gray_wool"
+  },
+  "result": "chipped:patched_gray_wool_layer"
+}

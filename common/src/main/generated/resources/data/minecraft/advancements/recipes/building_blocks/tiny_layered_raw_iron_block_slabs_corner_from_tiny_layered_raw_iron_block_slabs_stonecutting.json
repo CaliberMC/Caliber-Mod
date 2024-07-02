@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:tiny_layered_raw_iron_block_slabs_corner_from_tiny_layered_raw_iron_block_slabs_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tiny_layered_raw_iron_block_slabs": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:tiny_layered_raw_iron_block_slabs"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_tiny_layered_raw_iron_block_slabs",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:tiny_layered_raw_iron_block_slabs_corner_from_tiny_layered_raw_iron_block_slabs_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

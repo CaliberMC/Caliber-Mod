@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:stop_cyan_concrete_layer_vertical"
+  },
+  "result": "chipped:stop_cyan_concrete_layer"
+}

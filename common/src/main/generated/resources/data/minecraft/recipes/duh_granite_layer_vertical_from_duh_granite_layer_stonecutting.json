@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:duh_granite_layer"
+  },
+  "result": "chipped:duh_granite_layer_vertical"
+}

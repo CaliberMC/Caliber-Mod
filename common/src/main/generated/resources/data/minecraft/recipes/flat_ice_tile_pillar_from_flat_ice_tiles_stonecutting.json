@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:flat_ice_tiles"
+  },
+  "result": "chipped:flat_ice_tile_pillar"
+}

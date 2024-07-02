@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:glad_diorite"
+  },
+  "result": "chipped:glad_diorite_layer"
+}

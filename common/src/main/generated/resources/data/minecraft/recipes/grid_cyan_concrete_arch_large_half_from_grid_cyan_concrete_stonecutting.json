@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:grid_cyan_concrete"
+  },
+  "result": "chipped:grid_cyan_concrete_arch_large_half"
+}

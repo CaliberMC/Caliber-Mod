@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:wider_diamond_lodestone"
+  },
+  "result": "chipped:wider_diamond_lodestone_arch"
+}

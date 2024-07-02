@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:cut_blank_gilded_blackstone"
+  },
+  "result": "chipped:cut_blank_gilded_blackstone_quarter_vertical"
+}

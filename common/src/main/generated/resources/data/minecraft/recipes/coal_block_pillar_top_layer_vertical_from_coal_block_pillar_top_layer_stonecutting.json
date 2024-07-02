@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:coal_block_pillar_top_layer"
+  },
+  "result": "chipped:coal_block_pillar_top_layer_vertical"
+}

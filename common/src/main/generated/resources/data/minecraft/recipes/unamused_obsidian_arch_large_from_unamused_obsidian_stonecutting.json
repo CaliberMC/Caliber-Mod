@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:unamused_obsidian"
+  },
+  "result": "chipped:unamused_obsidian_arch_large"
+}

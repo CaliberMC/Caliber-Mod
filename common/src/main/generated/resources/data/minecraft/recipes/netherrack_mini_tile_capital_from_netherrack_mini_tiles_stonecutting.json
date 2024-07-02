@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:netherrack_mini_tiles"
+  },
+  "result": "chipped:netherrack_mini_tile_capital"
+}

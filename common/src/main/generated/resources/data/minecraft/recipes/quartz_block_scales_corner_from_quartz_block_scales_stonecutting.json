@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:quartz_block_scales"
+  },
+  "result": "chipped:quartz_block_scales_corner"
+}

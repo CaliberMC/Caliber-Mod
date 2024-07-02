@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:dusted_red_mushroom_block"
+  },
+  "result": "chipped:dusted_red_mushroom_block_quarter_vertical"
+}

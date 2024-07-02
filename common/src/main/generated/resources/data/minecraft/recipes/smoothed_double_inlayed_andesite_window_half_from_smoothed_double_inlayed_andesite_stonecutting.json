@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:smoothed_double_inlayed_andesite"
+  },
+  "result": "chipped:smoothed_double_inlayed_andesite_window_half"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:inscribed_crying_obsidian"
+  },
+  "result": "chipped:inscribed_crying_obsidian_window"
+}

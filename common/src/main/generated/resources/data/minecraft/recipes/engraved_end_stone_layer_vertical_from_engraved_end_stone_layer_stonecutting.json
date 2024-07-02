@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:engraved_end_stone_layer"
+  },
+  "result": "chipped:engraved_end_stone_layer_vertical"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:prismal_blackstone_remnants"
+  },
+  "result": "chipped:prismal_blackstone_remnants_corner_slab"
+}

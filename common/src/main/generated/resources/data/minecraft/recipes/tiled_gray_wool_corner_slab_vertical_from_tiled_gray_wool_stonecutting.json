@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:tiled_gray_wool"
+  },
+  "result": "chipped:tiled_gray_wool_corner_slab_vertical"
+}

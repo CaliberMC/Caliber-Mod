@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:inlayed_smooth_stone"
+  },
+  "result": "chipped:inlayed_smooth_stone_layer"
+}

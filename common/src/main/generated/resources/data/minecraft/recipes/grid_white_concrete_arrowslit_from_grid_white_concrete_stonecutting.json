@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:grid_white_concrete"
+  },
+  "result": "chipped:grid_white_concrete_arrowslit"
+}

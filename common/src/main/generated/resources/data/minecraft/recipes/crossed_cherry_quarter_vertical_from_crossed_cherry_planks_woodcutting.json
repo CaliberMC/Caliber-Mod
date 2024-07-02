@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:crossed_cherry_planks"
+  },
+  "result": "chipped:crossed_cherry_quarter_vertical"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:stacked_basalt_bricks"
+  },
+  "result": "chipped:stacked_basalt_brick_corner"
+}

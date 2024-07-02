@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_etched_ice_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:etched_ice_bricks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:etched_ice_brick_eighth_from_etched_ice_bricks_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_etched_ice_bricks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:etched_ice_brick_eighth_from_etched_ice_bricks_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:polished_mangrove_planks"
+  },
+  "result": "chipped:polished_mangrove_capital"
+}

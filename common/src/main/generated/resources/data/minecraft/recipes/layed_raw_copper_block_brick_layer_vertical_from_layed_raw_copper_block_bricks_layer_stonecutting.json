@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:layed_raw_copper_block_brick_layer"
+  },
+  "result": "chipped:layed_raw_copper_block_brick_layer_vertical"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:cut_blank_blue_ice"
+  },
+  "result": "chipped:cut_blank_blue_ice_corner_slab"
+}

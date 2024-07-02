@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:deepslate_pillar"
+  },
+  "result": "chipped:deepslate_pillar_layer"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:polished_iron_block"
+  },
+  "result": "chipped:polished_iron_block_quarter_vertical"
+}

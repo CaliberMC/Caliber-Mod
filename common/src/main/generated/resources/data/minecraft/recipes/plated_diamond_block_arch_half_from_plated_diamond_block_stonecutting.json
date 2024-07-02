@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:plated_diamond_block"
+  },
+  "result": "chipped:plated_diamond_block_arch_half"
+}

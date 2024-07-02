@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:spider_raw_copper_block_carving"
+  },
+  "result": "chipped:spider_raw_copper_block_carving_wall"
+}

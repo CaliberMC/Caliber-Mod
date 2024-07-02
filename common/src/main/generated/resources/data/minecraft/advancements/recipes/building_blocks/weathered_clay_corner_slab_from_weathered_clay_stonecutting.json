@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:weathered_clay_corner_slab_from_weathered_clay_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_weathered_clay": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:weathered_clay"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_weathered_clay",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:weathered_clay_corner_slab_from_weathered_clay_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

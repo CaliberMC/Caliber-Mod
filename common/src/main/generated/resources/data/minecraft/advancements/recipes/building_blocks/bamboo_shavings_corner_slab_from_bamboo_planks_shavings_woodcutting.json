@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bamboo_planks_shavings": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:bamboo_planks_shavings"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:bamboo_shavings_corner_slab_from_bamboo_planks_shavings_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_bamboo_planks_shavings",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:bamboo_shavings_corner_slab_from_bamboo_planks_shavings_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

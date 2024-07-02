@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:inlayed_packed_ice"
+  },
+  "result": "chipped:inlayed_packed_ice_capital"
+}

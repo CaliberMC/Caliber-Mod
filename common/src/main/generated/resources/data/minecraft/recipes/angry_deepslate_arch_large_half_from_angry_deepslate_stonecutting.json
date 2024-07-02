@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:angry_deepslate"
+  },
+  "result": "chipped:angry_deepslate_arch_large_half"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:knitted_red_wool"
+  },
+  "result": "chipped:knitted_red_wool_window_half"
+}

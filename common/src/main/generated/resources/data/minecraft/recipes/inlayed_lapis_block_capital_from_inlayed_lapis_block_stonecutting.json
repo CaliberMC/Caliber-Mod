@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:inlayed_lapis_block"
+  },
+  "result": "chipped:inlayed_lapis_block_capital"
+}

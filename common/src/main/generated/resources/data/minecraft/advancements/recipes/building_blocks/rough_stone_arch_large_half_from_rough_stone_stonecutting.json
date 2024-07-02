@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_rough_stone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:rough_stone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:rough_stone_arch_large_half_from_rough_stone_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_rough_stone",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:rough_stone_arch_large_half_from_rough_stone_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

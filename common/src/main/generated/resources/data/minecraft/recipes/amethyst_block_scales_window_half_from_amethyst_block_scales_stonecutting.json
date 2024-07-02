@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:amethyst_block_scales"
+  },
+  "result": "chipped:amethyst_block_scales_window_half"
+}

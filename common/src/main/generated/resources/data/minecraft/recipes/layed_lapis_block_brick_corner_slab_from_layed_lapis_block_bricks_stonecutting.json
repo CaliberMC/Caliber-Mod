@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:layed_lapis_block_bricks"
+  },
+  "result": "chipped:layed_lapis_block_brick_corner_slab"
+}

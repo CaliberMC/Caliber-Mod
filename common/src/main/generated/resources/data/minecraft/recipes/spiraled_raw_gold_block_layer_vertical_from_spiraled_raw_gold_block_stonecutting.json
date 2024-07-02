@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:spiraled_raw_gold_block"
+  },
+  "result": "chipped:spiraled_raw_gold_block_layer_vertical"
+}

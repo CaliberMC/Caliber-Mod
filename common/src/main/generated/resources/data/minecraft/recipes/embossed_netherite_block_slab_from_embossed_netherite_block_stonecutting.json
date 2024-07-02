@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:embossed_netherite_block"
+  },
+  "result": "chipped:embossed_netherite_block_slab"
+}

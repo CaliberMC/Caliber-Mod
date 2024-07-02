@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:tiled_granite"
+  },
+  "result": "chipped:tiled_granite_window_half"
+}

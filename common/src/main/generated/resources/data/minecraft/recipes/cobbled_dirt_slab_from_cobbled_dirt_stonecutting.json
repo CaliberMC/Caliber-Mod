@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:cobbled_dirt"
+  },
+  "result": "chipped:cobbled_dirt_slab"
+}

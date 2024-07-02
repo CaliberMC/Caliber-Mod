@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:sad_andesite"
+  },
+  "result": "chipped:sad_andesite_arch_half"
+}

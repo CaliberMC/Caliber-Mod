@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:cracked_packed_ice_bricks"
+  },
+  "result": "chipped:cracked_packed_ice_brick_arch_half"
+}

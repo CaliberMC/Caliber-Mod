@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:tiled_sandstone"
+  },
+  "result": "chipped:tiled_sandstone_arch_large_half"
+}

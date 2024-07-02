@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:boxed_spruce_planks"
+  },
+  "result": "chipped:boxed_spruce_eighth"
+}

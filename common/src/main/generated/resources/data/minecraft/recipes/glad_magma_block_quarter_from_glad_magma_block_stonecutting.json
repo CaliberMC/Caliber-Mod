@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:glad_magma_block"
+  },
+  "result": "chipped:glad_magma_block_quarter"
+}

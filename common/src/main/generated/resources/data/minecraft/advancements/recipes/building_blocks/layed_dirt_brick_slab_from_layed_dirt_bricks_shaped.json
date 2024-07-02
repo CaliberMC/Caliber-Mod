@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_layed_dirt_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:layed_dirt_bricks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:layed_dirt_brick_slab_from_layed_dirt_bricks_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_layed_dirt_bricks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:layed_dirt_brick_slab_from_layed_dirt_bricks_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:shuttered_emerald_block"
+  },
+  "result": "chipped:shuttered_emerald_block_slab"
+}

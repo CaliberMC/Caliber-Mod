@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:cracked_disordered_mossy_stone_bricks_bricks"
+  },
+  "result": "chipped:cracked_disordered_mossy_stone_brick_brick_stairs"
+}

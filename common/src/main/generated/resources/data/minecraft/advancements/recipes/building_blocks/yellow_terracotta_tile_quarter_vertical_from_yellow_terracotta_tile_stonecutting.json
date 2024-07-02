@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:yellow_terracotta_tile_quarter_vertical_from_yellow_terracotta_tile_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_yellow_terracotta_tile": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:yellow_terracotta_tile"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_yellow_terracotta_tile",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:yellow_terracotta_tile_quarter_vertical_from_yellow_terracotta_tile_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

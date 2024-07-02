@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:prismal_mud_remnants"
+  },
+  "result": "chipped:prismal_mud_remnants_layer_vertical"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:crying_netherrack"
+  },
+  "result": "chipped:crying_netherrack_capital"
+}

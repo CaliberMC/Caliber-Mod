@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:tiled_obsidian_layer_from_tiled_obsidian_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tiled_obsidian": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:tiled_obsidian"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_tiled_obsidian",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:tiled_obsidian_layer_from_tiled_obsidian_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

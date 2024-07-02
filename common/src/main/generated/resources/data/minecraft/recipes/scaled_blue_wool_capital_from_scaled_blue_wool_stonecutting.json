@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:scaled_blue_wool"
+  },
+  "result": "chipped:scaled_blue_wool_capital"
+}

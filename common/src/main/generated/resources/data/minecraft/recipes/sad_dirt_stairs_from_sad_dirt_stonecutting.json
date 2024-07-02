@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:sad_dirt"
+  },
+  "result": "chipped:sad_dirt_stairs"
+}

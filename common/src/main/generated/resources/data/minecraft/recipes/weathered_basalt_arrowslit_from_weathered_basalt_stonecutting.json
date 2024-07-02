@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:weathered_basalt"
+  },
+  "result": "chipped:weathered_basalt_arrowslit"
+}

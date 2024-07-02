@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:plated_gold_block"
+  },
+  "result": "chipped:plated_gold_block_stairs"
+}

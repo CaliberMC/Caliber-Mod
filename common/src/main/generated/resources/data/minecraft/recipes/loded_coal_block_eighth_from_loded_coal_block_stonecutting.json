@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:loded_coal_block"
+  },
+  "result": "chipped:loded_coal_block_eighth"
+}

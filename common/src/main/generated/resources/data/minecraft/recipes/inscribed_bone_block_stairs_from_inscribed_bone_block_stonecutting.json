@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:inscribed_bone_block"
+  },
+  "result": "chipped:inscribed_bone_block_stairs"
+}

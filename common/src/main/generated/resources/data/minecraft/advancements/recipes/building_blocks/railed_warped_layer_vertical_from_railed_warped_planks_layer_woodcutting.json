@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_railed_warped_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:railed_warped_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:railed_warped_layer_vertical_from_railed_warped_planks_layer_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_railed_warped_planks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:railed_warped_layer_vertical_from_railed_warped_planks_layer_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

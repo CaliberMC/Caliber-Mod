@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:light_dotted_red_mushroom_block"
+  },
+  "result": "chipped:light_dotted_red_mushroom_block_eighth"
+}

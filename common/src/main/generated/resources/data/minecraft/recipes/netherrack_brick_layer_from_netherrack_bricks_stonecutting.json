@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:netherrack_bricks"
+  },
+  "result": "chipped:netherrack_brick_layer"
+}

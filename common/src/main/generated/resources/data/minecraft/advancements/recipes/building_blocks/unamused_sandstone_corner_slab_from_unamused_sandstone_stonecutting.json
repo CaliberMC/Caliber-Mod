@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:unamused_sandstone_corner_slab_from_unamused_sandstone_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_unamused_sandstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:unamused_sandstone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_unamused_sandstone",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:unamused_sandstone_corner_slab_from_unamused_sandstone_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

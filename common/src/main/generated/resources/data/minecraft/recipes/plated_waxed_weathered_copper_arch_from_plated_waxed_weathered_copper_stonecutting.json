@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:plated_waxed_weathered_copper"
+  },
+  "result": "chipped:plated_waxed_weathered_copper_arch"
+}

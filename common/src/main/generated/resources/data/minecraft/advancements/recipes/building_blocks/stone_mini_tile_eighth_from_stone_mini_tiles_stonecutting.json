@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stone_mini_tiles": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:stone_mini_tiles"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:stone_mini_tile_eighth_from_stone_mini_tiles_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_stone_mini_tiles",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:stone_mini_tile_eighth_from_stone_mini_tiles_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

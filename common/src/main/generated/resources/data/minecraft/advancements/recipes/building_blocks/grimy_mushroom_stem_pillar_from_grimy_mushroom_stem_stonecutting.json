@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_grimy_mushroom_stem": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:grimy_mushroom_stem"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:grimy_mushroom_stem_pillar_from_grimy_mushroom_stem_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_grimy_mushroom_stem",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:grimy_mushroom_stem_pillar_from_grimy_mushroom_stem_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

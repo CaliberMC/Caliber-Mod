@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:duh_stone"
+  },
+  "result": "chipped:duh_stone_arch_large_half"
+}

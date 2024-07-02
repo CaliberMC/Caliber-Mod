@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:vertical_spruce_layer_vertical_from_vertical_spruce_planks_layer_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_vertical_spruce_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:vertical_spruce_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_vertical_spruce_planks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:vertical_spruce_layer_vertical_from_vertical_spruce_planks_layer_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

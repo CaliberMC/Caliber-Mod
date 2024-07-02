@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:spider_blackstone_carving_layer"
+  },
+  "result": "chipped:spider_blackstone_carving_layer_vertical"
+}

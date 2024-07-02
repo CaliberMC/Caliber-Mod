@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:flat_diorite_tiles"
+  },
+  "result": "chipped:flat_diorite_tile_pillar"
+}

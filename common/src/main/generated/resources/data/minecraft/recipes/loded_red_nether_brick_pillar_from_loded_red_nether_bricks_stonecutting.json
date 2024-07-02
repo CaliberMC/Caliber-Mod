@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:loded_red_nether_bricks"
+  },
+  "result": "chipped:loded_red_nether_brick_pillar"
+}

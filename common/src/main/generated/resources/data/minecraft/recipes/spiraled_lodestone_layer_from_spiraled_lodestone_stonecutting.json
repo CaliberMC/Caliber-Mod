@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:spiraled_lodestone"
+  },
+  "result": "chipped:spiraled_lodestone_layer"
+}

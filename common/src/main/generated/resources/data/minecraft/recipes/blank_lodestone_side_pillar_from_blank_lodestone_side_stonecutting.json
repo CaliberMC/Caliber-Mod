@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:blank_lodestone_side"
+  },
+  "result": "chipped:blank_lodestone_side_pillar"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:cut_blank_packed_ice"
+  },
+  "result": "chipped:cut_blank_packed_ice_stairs"
+}

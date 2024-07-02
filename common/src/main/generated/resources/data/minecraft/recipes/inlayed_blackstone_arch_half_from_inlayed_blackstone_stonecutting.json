@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:inlayed_blackstone"
+  },
+  "result": "chipped:inlayed_blackstone_arch_half"
+}

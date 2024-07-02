@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:trodden_obsidian"
+  },
+  "result": "chipped:trodden_obsidian_quarter"
+}

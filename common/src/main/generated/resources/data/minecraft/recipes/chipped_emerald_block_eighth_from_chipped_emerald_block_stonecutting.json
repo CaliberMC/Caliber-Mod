@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:chipped_emerald_block"
+  },
+  "result": "chipped:chipped_emerald_block_eighth"
+}

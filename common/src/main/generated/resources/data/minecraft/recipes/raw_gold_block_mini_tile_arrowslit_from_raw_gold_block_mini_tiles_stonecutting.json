@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:raw_gold_block_mini_tiles"
+  },
+  "result": "chipped:raw_gold_block_mini_tile_arrowslit"
+}

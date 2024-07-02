@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:angry_coal_block"
+  },
+  "result": "chipped:angry_coal_block_arch_large_half"
+}

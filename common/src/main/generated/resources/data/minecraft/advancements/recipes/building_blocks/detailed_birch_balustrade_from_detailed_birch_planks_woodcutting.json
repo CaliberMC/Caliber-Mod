@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_detailed_birch_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:detailed_birch_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:detailed_birch_balustrade_from_detailed_birch_planks_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_detailed_birch_planks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:detailed_birch_balustrade_from_detailed_birch_planks_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

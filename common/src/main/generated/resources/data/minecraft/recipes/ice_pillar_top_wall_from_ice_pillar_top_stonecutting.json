@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:ice_pillar_top"
+  },
+  "result": "chipped:ice_pillar_top_wall"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:inlayed_lodestone"
+  },
+  "result": "chipped:inlayed_lodestone_window"
+}

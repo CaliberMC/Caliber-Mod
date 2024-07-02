@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:brick_bond_warped_planks"
+  },
+  "result": "chipped:brick_bond_warped_pillar"
+}

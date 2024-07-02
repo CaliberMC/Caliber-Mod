@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_spiraled_andesite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:spiraled_andesite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:spiraled_andesite_layer_from_spiraled_andesite_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_spiraled_andesite",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:spiraled_andesite_layer_from_spiraled_andesite_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

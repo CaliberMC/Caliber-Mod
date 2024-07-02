@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:rough_packed_mud"
+  },
+  "result": "chipped:rough_packed_mud_arrowslit"
+}

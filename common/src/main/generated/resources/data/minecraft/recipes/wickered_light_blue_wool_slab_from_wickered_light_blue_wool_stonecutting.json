@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:wickered_light_blue_wool"
+  },
+  "result": "chipped:wickered_light_blue_wool_slab"
+}

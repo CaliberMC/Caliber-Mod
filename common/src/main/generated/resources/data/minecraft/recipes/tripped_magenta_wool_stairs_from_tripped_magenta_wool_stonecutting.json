@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:tripped_magenta_wool"
+  },
+  "result": "chipped:tripped_magenta_wool_stairs"
+}

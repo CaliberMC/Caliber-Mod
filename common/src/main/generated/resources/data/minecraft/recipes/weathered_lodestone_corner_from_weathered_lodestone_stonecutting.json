@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:weathered_lodestone"
+  },
+  "result": "chipped:weathered_lodestone_corner"
+}

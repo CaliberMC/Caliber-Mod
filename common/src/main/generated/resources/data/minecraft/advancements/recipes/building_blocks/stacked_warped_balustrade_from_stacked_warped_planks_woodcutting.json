@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stacked_warped_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:stacked_warped_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:stacked_warped_balustrade_from_stacked_warped_planks_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_stacked_warped_planks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:stacked_warped_balustrade_from_stacked_warped_planks_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

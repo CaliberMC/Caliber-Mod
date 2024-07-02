@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:vertically_railed_acacia_planks"
+  },
+  "result": "chipped:vertically_railed_acacia_window"
+}

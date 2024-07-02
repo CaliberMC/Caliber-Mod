@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:pink_terracotta_tiles"
+  },
+  "result": "chipped:pink_terracotta_tile_arrowslit"
+}

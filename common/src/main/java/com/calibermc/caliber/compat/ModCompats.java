@@ -38,12 +38,12 @@ public class ModCompats {
 //        if (BYG) {
 //            blockManagerMODID.add("byg");
 //        }
-//        if (CHIPPED) {
-//            blockManagerMODID.add("chipped");
-//        }
-//        if (CREATE) {
-//            blockManagerMODID.add("create");
-//        }
+        if (CHIPPED) {
+            blockManagerMODID.add("chipped");
+        }
+        if (CREATE) {
+            blockManagerMODID.add("create");
+        }
 //        if (DOUBLE_DOORS) {
 //            blockManagerMODID.add("doubledoors");
 //        }

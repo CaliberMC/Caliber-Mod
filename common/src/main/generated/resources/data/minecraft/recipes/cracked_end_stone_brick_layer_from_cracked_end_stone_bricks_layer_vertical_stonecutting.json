@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:cracked_end_stone_brick_layer_vertical"
+  },
+  "result": "chipped:cracked_end_stone_brick_layer"
+}

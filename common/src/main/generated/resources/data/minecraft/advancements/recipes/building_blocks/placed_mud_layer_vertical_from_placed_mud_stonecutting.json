@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_placed_mud": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:placed_mud"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:placed_mud_layer_vertical_from_placed_mud_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_placed_mud",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:placed_mud_layer_vertical_from_placed_mud_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

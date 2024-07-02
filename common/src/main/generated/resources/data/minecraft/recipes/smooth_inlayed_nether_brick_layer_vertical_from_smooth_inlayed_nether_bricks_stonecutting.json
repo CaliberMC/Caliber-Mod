@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:smooth_inlayed_nether_bricks"
+  },
+  "result": "chipped:smooth_inlayed_nether_brick_layer_vertical"
+}

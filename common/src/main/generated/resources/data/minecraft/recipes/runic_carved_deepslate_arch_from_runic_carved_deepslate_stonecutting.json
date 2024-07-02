@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:runic_carved_deepslate"
+  },
+  "result": "chipped:runic_carved_deepslate_arch"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:inlayed_cobblestone"
+  },
+  "result": "chipped:inlayed_cobblestone_arch_half"
+}

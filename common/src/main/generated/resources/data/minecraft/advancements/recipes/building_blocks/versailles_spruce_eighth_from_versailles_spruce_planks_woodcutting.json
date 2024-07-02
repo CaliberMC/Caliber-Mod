@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:versailles_spruce_eighth_from_versailles_spruce_planks_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_versailles_spruce_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:versailles_spruce_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_versailles_spruce_planks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:versailles_spruce_eighth_from_versailles_spruce_planks_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

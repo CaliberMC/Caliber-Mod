@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:engraved_gold_block"
+  },
+  "result": "chipped:engraved_gold_block_slab"
+}

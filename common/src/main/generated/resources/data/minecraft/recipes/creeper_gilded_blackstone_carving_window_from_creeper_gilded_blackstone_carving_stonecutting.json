@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:creeper_gilded_blackstone_carving"
+  },
+  "result": "chipped:creeper_gilded_blackstone_carving_window"
+}

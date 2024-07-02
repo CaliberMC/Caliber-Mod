@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:sanded_lapis_block"
+  },
+  "result": "chipped:sanded_lapis_block_wall"
+}

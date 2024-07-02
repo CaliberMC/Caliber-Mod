@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:layered_waxed_copper_block_layer"
+  },
+  "result": "chipped:layered_waxed_copper_block_layer_vertical"
+}

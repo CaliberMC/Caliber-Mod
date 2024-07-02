@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_diamond_bamboo_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:diamond_bamboo_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:diamond_bamboo_layer_vertical_from_diamond_bamboo_planks_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_diamond_bamboo_planks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:diamond_bamboo_layer_vertical_from_diamond_bamboo_planks_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

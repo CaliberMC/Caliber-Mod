@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:eroded_lodestone"
+  },
+  "result": "chipped:eroded_lodestone_layer_vertical"
+}

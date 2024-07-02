@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:grid_yellow_concrete"
+  },
+  "result": "chipped:grid_yellow_concrete_corner"
+}

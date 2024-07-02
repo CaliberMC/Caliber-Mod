@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:nailed_mangrove_planks"
+  },
+  "result": "chipped:nailed_mangrove_window"
+}

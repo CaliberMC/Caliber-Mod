@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:blank_prismarine_carving"
+  },
+  "result": "chipped:blank_prismarine_carving_quarter_vertical"
+}

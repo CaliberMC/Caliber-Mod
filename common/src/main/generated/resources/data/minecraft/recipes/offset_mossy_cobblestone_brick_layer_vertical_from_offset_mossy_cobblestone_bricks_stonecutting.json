@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:offset_mossy_cobblestone_bricks"
+  },
+  "result": "chipped:offset_mossy_cobblestone_brick_layer_vertical"
+}

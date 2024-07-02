@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:cobbled_crying_obsidian"
+  },
+  "result": "chipped:cobbled_crying_obsidian_arch"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:blank_smooth_stone_carving_layer"
+  },
+  "result": "chipped:blank_smooth_stone_carving_layer_vertical"
+}

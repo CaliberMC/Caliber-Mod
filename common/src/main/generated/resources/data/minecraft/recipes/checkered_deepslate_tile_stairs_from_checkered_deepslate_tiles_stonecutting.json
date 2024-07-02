@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:checkered_deepslate_tiles"
+  },
+  "result": "chipped:checkered_deepslate_tile_stairs"
+}

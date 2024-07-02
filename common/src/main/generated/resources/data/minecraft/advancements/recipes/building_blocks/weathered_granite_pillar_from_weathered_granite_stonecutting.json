@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:weathered_granite_pillar_from_weathered_granite_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_weathered_granite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:weathered_granite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_weathered_granite",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:weathered_granite_pillar_from_weathered_granite_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

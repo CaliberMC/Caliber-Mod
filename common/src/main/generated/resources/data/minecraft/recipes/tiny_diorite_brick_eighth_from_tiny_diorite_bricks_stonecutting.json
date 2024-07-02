@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:tiny_diorite_bricks"
+  },
+  "result": "chipped:tiny_diorite_brick_eighth"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:sanded_cobblestone"
+  },
+  "result": "chipped:sanded_cobblestone_arch_large"
+}

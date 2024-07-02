@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_reinforced_waxed_oxidized_copper": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:reinforced_waxed_oxidized_copper"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:reinforced_waxed_oxidized_copper_arch_large_from_reinforced_waxed_oxidized_copper_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_reinforced_waxed_oxidized_copper",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:reinforced_waxed_oxidized_copper_arch_large_from_reinforced_waxed_oxidized_copper_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

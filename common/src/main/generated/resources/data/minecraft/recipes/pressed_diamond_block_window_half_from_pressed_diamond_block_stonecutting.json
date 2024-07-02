@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:pressed_diamond_block"
+  },
+  "result": "chipped:pressed_diamond_block_window_half"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:chiseled_cyan_terracotta"
+  },
+  "result": "chipped:chiseled_cyan_terracotta_arch_half"
+}

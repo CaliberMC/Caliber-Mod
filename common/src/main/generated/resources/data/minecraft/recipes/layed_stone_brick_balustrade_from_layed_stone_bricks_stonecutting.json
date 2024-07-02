@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:layed_stone_bricks"
+  },
+  "result": "chipped:layed_stone_brick_balustrade"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:tiny_basalt_bricks"
+  },
+  "result": "chipped:tiny_basalt_brick_eighth"
+}

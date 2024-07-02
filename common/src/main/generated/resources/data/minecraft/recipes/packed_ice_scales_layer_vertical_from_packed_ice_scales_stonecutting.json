@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:packed_ice_scales"
+  },
+  "result": "chipped:packed_ice_scales_layer_vertical"
+}

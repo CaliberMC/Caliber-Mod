@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:stacked_green_concrete"
+  },
+  "result": "chipped:stacked_green_concrete_slab"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:spiraled_andesite"
+  },
+  "result": "chipped:spiraled_andesite_window"
+}

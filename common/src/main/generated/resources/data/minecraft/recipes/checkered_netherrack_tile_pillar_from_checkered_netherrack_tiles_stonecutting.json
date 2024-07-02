@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:checkered_netherrack_tiles"
+  },
+  "result": "chipped:checkered_netherrack_tile_pillar"
+}

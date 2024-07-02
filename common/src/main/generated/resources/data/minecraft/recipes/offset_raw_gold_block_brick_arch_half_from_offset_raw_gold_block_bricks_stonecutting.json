@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:offset_raw_gold_block_bricks"
+  },
+  "result": "chipped:offset_raw_gold_block_brick_arch_half"
+}

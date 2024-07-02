@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:crying_red_sandstone"
+  },
+  "result": "chipped:crying_red_sandstone_window_half"
+}

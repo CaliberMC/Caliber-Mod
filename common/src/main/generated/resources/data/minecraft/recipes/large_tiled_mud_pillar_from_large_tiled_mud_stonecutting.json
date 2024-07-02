@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:large_tiled_mud"
+  },
+  "result": "chipped:large_tiled_mud_pillar"
+}

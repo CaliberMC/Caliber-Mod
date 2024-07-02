@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:scaled_purple_wool"
+  },
+  "result": "chipped:scaled_purple_wool_layer_vertical"
+}

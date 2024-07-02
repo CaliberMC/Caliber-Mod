@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:keyhole_mud"
+  },
+  "result": "chipped:keyhole_mud_arrowslit"
+}

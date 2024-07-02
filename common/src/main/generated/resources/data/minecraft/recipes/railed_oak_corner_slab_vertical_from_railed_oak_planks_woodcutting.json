@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:railed_oak_planks"
+  },
+  "result": "chipped:railed_oak_corner_slab_vertical"
+}

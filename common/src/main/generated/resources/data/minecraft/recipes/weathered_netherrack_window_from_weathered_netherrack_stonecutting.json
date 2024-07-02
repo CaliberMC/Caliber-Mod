@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:weathered_netherrack"
+  },
+  "result": "chipped:weathered_netherrack_window"
+}

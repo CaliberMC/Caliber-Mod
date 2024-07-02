@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:herringbone_bamboo_planks"
+  },
+  "result": "chipped:herringbone_bamboo_capital"
+}

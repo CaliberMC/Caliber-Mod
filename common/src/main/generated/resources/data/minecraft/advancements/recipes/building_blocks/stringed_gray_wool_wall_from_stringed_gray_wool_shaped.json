@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stringed_gray_wool": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:stringed_gray_wool"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:stringed_gray_wool_wall_from_stringed_gray_wool_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_stringed_gray_wool",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:stringed_gray_wool_wall_from_stringed_gray_wool_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

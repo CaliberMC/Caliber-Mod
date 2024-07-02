@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:crossed_pink_terracotta"
+  },
+  "result": "chipped:crossed_pink_terracotta_balustrade"
+}

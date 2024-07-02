@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:weathered_crying_obsidian"
+  },
+  "result": "chipped:weathered_crying_obsidian_arch_half"
+}

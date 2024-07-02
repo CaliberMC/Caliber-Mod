@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_duh_mossy_cobblestone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:duh_mossy_cobblestone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:duh_mossy_cobblestone_wall_from_duh_mossy_cobblestone_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_duh_mossy_cobblestone",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:duh_mossy_cobblestone_wall_from_duh_mossy_cobblestone_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

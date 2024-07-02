@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:eroded_diorite"
+  },
+  "result": "chipped:eroded_diorite_slab"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:lodestone_pillar"
+  },
+  "result": "chipped:lodestone_pillar_quarter_vertical"
+}

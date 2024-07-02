@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:angry_blackstone"
+  },
+  "result": "chipped:angry_blackstone_balustrade"
+}

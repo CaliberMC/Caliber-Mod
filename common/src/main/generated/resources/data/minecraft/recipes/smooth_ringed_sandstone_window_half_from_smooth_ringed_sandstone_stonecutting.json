@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:smooth_ringed_sandstone"
+  },
+  "result": "chipped:smooth_ringed_sandstone_window_half"
+}

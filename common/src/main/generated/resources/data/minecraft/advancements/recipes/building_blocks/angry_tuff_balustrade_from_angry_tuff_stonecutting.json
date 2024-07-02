@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_angry_tuff": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:angry_tuff"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:angry_tuff_balustrade_from_angry_tuff_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_angry_tuff",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:angry_tuff_balustrade_from_angry_tuff_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

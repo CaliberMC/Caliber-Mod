@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stacked_waxed_copper_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:stacked_waxed_copper_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:stacked_waxed_copper_block_arch_large_half_from_stacked_waxed_copper_block_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_stacked_waxed_copper_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:stacked_waxed_copper_block_arch_large_half_from_stacked_waxed_copper_block_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_glad_deepslate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:glad_deepslate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:glad_deepslate_slab_from_glad_deepslate_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_glad_deepslate",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:glad_deepslate_slab_from_glad_deepslate_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

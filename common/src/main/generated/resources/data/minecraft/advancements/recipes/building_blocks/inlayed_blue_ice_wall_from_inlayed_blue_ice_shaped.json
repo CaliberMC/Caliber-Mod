@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_inlayed_blue_ice": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:inlayed_blue_ice"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:inlayed_blue_ice_wall_from_inlayed_blue_ice_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_inlayed_blue_ice",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:inlayed_blue_ice_wall_from_inlayed_blue_ice_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

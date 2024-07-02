@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:duh_mud"
+  },
+  "result": "chipped:duh_mud_wall"
+}

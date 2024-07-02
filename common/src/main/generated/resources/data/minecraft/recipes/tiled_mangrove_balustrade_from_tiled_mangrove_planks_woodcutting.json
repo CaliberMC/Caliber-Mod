@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:tiled_mangrove_planks"
+  },
+  "result": "chipped:tiled_mangrove_balustrade"
+}

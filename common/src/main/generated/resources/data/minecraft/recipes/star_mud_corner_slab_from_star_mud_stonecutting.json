@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:star_mud"
+  },
+  "result": "chipped:star_mud_corner_slab"
+}

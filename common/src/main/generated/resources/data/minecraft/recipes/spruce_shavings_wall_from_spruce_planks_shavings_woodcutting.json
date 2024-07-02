@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:spruce_planks_shavings"
+  },
+  "result": "chipped:spruce_shavings_wall"
+}

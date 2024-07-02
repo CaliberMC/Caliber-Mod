@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:inlayed_mud"
+  },
+  "result": "chipped:inlayed_mud_pillar"
+}

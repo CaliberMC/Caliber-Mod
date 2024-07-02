@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:glad_mud"
+  },
+  "result": "chipped:glad_mud_capital"
+}

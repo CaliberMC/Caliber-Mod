@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_angry_netherrack": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:angry_netherrack"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:angry_netherrack_arrowslit_from_angry_netherrack_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_angry_netherrack",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:angry_netherrack_arrowslit_from_angry_netherrack_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

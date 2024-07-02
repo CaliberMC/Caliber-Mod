@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:offset_netherrack_bricks"
+  },
+  "result": "chipped:offset_netherrack_brick_capital"
+}

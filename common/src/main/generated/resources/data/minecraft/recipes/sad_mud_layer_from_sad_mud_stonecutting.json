@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:sad_mud"
+  },
+  "result": "chipped:sad_mud_layer"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:dot_lodestone"
+  },
+  "result": "chipped:dot_lodestone_corner_slab_vertical"
+}

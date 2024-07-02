@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:cubed_pink_wool"
+  },
+  "result": "chipped:cubed_pink_wool_layer"
+}

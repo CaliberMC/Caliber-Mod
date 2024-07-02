@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sheet_waxed_exposed_copper": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:sheet_waxed_exposed_copper"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:sheet_waxed_exposed_copper_arrowslit_from_sheet_waxed_exposed_copper_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_sheet_waxed_exposed_copper",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:sheet_waxed_exposed_copper_arrowslit_from_sheet_waxed_exposed_copper_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

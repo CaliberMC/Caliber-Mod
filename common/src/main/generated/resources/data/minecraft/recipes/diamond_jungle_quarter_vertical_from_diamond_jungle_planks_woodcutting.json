@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:diamond_jungle_planks"
+  },
+  "result": "chipped:diamond_jungle_quarter_vertical"
+}

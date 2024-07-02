@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:glad_coal_block"
+  },
+  "result": "chipped:glad_coal_block_eighth"
+}

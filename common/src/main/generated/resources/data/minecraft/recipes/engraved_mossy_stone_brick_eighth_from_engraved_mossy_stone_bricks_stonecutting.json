@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:engraved_mossy_stone_bricks"
+  },
+  "result": "chipped:engraved_mossy_stone_brick_eighth"
+}

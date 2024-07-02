@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:bricky_mangrove_planks"
+  },
+  "result": "chipped:bricky_mangrove_layer"
+}

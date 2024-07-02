@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:quartz_block_pillar"
+  },
+  "result": "chipped:quartz_block_pillar_balustrade"
+}

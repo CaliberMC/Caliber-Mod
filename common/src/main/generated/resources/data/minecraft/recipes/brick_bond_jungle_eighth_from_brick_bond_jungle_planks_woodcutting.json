@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:brick_bond_jungle_planks"
+  },
+  "result": "chipped:brick_bond_jungle_eighth"
+}

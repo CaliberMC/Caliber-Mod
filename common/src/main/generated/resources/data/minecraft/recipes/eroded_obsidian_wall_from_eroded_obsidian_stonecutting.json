@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:eroded_obsidian"
+  },
+  "result": "chipped:eroded_obsidian_wall"
+}

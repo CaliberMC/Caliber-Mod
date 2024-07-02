@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:trodden_prismarine"
+  },
+  "result": "chipped:trodden_prismarine_arrowslit"
+}

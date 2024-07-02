@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:tiled_spruce_planks"
+  },
+  "result": "chipped:tiled_spruce_corner_slab"
+}

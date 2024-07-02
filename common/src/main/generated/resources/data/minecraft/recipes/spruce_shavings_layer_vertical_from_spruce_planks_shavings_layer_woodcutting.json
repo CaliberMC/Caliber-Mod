@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:spruce_shavings_layer"
+  },
+  "result": "chipped:spruce_shavings_layer_vertical"
+}

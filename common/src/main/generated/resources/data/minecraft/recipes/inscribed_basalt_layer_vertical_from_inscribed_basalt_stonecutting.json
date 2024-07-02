@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:inscribed_basalt"
+  },
+  "result": "chipped:inscribed_basalt_layer_vertical"
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_layered_purple_terracotta": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:layered_purple_terracotta"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:layered_purple_terracotta_layer_from_layered_purple_terracotta_layer_vertical_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_layered_purple_terracotta",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:layered_purple_terracotta_layer_from_layered_purple_terracotta_layer_vertical_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

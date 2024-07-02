@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:orange_concrete_bricks"
+  },
+  "result": "chipped:orange_concrete_brick_layer"
+}

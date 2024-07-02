@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:prismal_mossy_stone_brick_remnants_layer"
+  },
+  "result": "chipped:prismal_mossy_stone_brick_remnants_layer_vertical"
+}

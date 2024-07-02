@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:decorated_lime_terracotta"
+  },
+  "result": "chipped:decorated_lime_terracotta_quarter_vertical"
+}

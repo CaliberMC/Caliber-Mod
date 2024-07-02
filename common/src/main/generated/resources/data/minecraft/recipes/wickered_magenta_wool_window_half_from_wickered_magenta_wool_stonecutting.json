@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:wickered_magenta_wool"
+  },
+  "result": "chipped:wickered_magenta_wool_window_half"
+}

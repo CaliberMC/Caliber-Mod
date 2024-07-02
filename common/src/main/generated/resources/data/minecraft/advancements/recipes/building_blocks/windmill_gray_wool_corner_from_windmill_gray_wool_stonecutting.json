@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:windmill_gray_wool_corner_from_windmill_gray_wool_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_windmill_gray_wool": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:windmill_gray_wool"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_windmill_gray_wool",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:windmill_gray_wool_corner_from_windmill_gray_wool_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

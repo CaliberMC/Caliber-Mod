@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sad_clay": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:sad_clay"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:sad_clay_corner_from_sad_clay_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_sad_clay",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:sad_clay_corner_from_sad_clay_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

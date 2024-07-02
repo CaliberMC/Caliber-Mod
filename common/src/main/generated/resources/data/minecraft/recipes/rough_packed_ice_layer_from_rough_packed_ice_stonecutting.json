@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:rough_packed_ice"
+  },
+  "result": "chipped:rough_packed_ice_layer"
+}

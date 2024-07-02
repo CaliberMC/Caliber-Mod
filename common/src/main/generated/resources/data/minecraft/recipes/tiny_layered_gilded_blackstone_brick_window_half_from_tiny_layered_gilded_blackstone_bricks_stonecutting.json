@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:tiny_layered_gilded_blackstone_bricks"
+  },
+  "result": "chipped:tiny_layered_gilded_blackstone_brick_window_half"
+}

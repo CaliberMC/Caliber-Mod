@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:sanded_basalt"
+  },
+  "result": "chipped:sanded_basalt_corner_slab"
+}

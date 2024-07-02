@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:reinforced_emerald_block"
+  },
+  "result": "chipped:reinforced_emerald_block_arrowslit"
+}

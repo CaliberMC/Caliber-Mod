@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:tiny_red_nether_bricks_bricks"
+  },
+  "result": "chipped:tiny_red_nether_brick_brick_capital"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:tiled_deepslate"
+  },
+  "result": "chipped:tiled_deepslate_corner"
+}

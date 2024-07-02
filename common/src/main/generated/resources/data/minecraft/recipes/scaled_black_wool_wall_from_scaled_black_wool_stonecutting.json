@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:scaled_black_wool"
+  },
+  "result": "chipped:scaled_black_wool_wall"
+}

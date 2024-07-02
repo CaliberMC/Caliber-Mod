@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:tiled_cyan_wool_corner_slab_vertical_from_tiled_cyan_wool_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tiled_cyan_wool": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:tiled_cyan_wool"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_tiled_cyan_wool",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:tiled_cyan_wool_corner_slab_vertical_from_tiled_cyan_wool_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

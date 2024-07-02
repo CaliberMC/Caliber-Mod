@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:glad_dark_prismarine"
+  },
+  "result": "chipped:glad_dark_prismarine_layer_vertical"
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_fine_vertical_cherry_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:fine_vertical_cherry_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:fine_vertical_cherry_layer_vertical_from_fine_vertical_cherry_planks_layer_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_fine_vertical_cherry_planks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:fine_vertical_cherry_layer_vertical_from_fine_vertical_cherry_planks_layer_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

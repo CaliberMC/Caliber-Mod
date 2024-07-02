@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:sad_gilded_blackstone"
+  },
+  "result": "chipped:sad_gilded_blackstone_wall"
+}

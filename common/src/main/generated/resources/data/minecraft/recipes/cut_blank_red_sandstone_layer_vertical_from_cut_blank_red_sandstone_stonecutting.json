@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:cut_blank_red_sandstone"
+  },
+  "result": "chipped:cut_blank_red_sandstone_layer_vertical"
+}

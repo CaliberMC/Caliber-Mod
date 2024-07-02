@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:fine_crimson_planks"
+  },
+  "result": "chipped:fine_crimson_quarter"
+}

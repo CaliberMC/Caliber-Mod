@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:lapis_block_scales"
+  },
+  "result": "chipped:lapis_block_scales_arch"
+}

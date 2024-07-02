@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:plated_waxed_copper_block"
+  },
+  "result": "chipped:plated_waxed_copper_block_eighth"
+}

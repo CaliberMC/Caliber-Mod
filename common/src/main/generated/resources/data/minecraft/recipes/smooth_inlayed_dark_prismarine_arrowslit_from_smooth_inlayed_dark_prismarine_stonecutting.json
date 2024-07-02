@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:smooth_inlayed_dark_prismarine"
+  },
+  "result": "chipped:smooth_inlayed_dark_prismarine_arrowslit"
+}

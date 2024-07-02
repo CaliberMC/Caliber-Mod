@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:creeper_magenta_concrete"
+  },
+  "result": "chipped:creeper_magenta_concrete_balustrade"
+}

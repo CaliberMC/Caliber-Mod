@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:nether_bricks_pillar"
+  },
+  "result": "chipped:nether_brick_pillar_balustrade"
+}

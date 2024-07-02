@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:flat_blue_ice_tiles"
+  },
+  "result": "chipped:flat_blue_ice_tile_window"
+}

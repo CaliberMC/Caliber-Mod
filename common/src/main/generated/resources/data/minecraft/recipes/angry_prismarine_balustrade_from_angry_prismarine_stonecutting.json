@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:angry_prismarine"
+  },
+  "result": "chipped:angry_prismarine_balustrade"
+}

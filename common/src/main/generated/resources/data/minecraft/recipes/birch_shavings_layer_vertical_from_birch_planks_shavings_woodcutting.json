@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:birch_planks_shavings"
+  },
+  "result": "chipped:birch_shavings_layer_vertical"
+}

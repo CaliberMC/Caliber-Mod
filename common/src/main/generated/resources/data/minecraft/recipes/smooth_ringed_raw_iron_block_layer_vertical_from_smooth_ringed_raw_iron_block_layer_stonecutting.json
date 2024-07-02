@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:smooth_ringed_raw_iron_block_layer"
+  },
+  "result": "chipped:smooth_ringed_raw_iron_block_layer_vertical"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:gilded_basalt_bone_block"
+  },
+  "result": "chipped:gilded_basalt_bone_block_corner"
+}

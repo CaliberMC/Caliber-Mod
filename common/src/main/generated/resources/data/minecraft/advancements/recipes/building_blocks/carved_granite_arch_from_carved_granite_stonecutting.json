@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_carved_granite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:carved_granite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:carved_granite_arch_from_carved_granite_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_carved_granite",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:carved_granite_arch_from_carved_granite_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

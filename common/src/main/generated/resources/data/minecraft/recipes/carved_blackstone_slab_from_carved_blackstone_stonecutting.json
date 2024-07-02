@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:carved_blackstone"
+  },
+  "result": "chipped:carved_blackstone_slab"
+}

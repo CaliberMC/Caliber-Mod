@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:acacia_planks_shavings"
+  },
+  "result": "chipped:acacia_shavings_wall"
+}

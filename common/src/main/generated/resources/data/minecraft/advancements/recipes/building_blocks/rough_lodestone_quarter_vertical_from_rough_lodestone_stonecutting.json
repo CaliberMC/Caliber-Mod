@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_rough_lodestone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:rough_lodestone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:rough_lodestone_quarter_vertical_from_rough_lodestone_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_rough_lodestone",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:rough_lodestone_quarter_vertical_from_rough_lodestone_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

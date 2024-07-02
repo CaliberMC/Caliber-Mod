@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:wickered_birch_planks"
+  },
+  "result": "chipped:wickered_birch_quarter_vertical"
+}

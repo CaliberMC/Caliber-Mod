@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:warped_planks_shavings"
+  },
+  "result": "chipped:warped_shavings_corner_slab_vertical"
+}

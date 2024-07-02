@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:engraved_quartz_block"
+  },
+  "result": "chipped:engraved_quartz_block_quarter_vertical"
+}

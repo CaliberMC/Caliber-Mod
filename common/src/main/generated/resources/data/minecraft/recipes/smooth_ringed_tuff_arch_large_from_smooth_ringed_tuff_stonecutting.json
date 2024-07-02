@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:smooth_ringed_tuff"
+  },
+  "result": "chipped:smooth_ringed_tuff_arch_large"
+}

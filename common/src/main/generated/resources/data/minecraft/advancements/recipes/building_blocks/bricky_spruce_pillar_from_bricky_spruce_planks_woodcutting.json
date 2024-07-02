@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bricky_spruce_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:bricky_spruce_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:bricky_spruce_pillar_from_bricky_spruce_planks_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_bricky_spruce_planks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:bricky_spruce_pillar_from_bricky_spruce_planks_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

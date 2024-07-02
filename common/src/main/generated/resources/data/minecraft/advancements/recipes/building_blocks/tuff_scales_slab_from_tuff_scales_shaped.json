@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:tuff_scales_slab_from_tuff_scales_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tuff_scales": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:tuff_scales"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_tuff_scales",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:tuff_scales_slab_from_tuff_scales_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

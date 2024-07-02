@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:unamused_blue_ice"
+  },
+  "result": "chipped:unamused_blue_ice_pillar"
+}

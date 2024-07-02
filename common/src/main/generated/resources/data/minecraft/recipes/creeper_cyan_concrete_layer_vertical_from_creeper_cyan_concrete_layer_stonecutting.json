@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:creeper_cyan_concrete_layer"
+  },
+  "result": "chipped:creeper_cyan_concrete_layer_vertical"
+}

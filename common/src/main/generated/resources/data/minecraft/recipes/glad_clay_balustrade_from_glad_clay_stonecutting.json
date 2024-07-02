@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:glad_clay"
+  },
+  "result": "chipped:glad_clay_balustrade"
+}

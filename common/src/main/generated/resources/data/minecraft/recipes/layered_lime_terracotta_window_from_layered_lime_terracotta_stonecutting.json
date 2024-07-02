@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:layered_lime_terracotta"
+  },
+  "result": "chipped:layered_lime_terracotta_window"
+}

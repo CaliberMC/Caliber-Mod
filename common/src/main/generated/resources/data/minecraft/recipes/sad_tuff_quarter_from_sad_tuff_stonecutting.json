@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:sad_tuff"
+  },
+  "result": "chipped:sad_tuff_quarter"
+}

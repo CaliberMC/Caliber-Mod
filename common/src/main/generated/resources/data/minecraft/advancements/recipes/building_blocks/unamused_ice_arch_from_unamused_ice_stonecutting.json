@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:unamused_ice_arch_from_unamused_ice_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_unamused_ice": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:unamused_ice"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_unamused_ice",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:unamused_ice_arch_from_unamused_ice_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

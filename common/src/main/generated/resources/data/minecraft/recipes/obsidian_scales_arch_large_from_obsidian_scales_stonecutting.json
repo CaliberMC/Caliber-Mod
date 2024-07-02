@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:obsidian_scales"
+  },
+  "result": "chipped:obsidian_scales_arch_large"
+}

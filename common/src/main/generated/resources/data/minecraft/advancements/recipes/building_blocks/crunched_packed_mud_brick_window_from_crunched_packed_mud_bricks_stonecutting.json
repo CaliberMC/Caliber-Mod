@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_crunched_packed_mud_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:crunched_packed_mud_bricks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:crunched_packed_mud_brick_window_from_crunched_packed_mud_bricks_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_crunched_packed_mud_bricks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:crunched_packed_mud_brick_window_from_crunched_packed_mud_bricks_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

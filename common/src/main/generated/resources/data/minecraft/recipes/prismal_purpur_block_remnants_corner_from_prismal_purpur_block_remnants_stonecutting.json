@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:prismal_purpur_block_remnants"
+  },
+  "result": "chipped:prismal_purpur_block_remnants_corner"
+}

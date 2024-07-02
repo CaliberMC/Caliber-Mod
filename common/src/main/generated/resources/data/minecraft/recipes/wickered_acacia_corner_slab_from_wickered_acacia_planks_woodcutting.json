@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:wickered_acacia_planks"
+  },
+  "result": "chipped:wickered_acacia_corner_slab"
+}

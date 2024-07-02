@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:smooth_inlayed_raw_copper_block_layer"
+  },
+  "result": "chipped:smooth_inlayed_raw_copper_block_layer_vertical"
+}

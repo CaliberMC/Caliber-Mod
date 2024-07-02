@@ -87,6 +87,3846 @@
     "caliber:warped_shingle_roof_22",
     "caliber:warped_shingle_roof_45",
     "caliber:warped_shingle_roof_67",
-    "caliber:warped_shingle_roof_peak"
+    "caliber:warped_shingle_roof_peak",
+    {
+      "id": "chipped:basket_woven_crimson_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_crimson_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_crimson_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_crimson_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_crimson_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_crimson_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_crimson_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_crimson_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_crimson_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_crimson_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_crimson_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_crimson_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_crimson_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_crimson_window",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_crimson_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_warped_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_warped_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_warped_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_warped_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_warped_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_warped_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_warped_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_warped_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_warped_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_warped_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_warped_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_warped_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_warped_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_warped_window",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_warped_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_crimson_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_crimson_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_crimson_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_crimson_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_crimson_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_crimson_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_crimson_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_crimson_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_crimson_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_crimson_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_crimson_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_crimson_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_crimson_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_crimson_window",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_crimson_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_warped_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_warped_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_warped_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_warped_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_warped_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_warped_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_warped_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_warped_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_warped_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_warped_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_warped_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_warped_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_warped_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_warped_window",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_warped_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_crimson_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_crimson_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_crimson_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_crimson_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_crimson_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_crimson_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_crimson_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_crimson_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_crimson_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_crimson_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_crimson_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_crimson_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_crimson_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_crimson_window",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_crimson_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_warped_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_warped_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_warped_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_warped_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_warped_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_warped_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_warped_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_warped_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_warped_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_warped_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_warped_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_warped_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_warped_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_warped_window",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_warped_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_crimson_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_crimson_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_crimson_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_crimson_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_crimson_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_crimson_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_crimson_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_crimson_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_crimson_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_crimson_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_crimson_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_crimson_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_crimson_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_crimson_window",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_crimson_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_warped_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_warped_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_warped_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_warped_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_warped_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_warped_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_warped_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_warped_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_warped_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_warped_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_warped_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_warped_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_warped_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_warped_window",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_warped_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:crimson_mosaic_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:crimson_mosaic_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:crimson_mosaic_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:crimson_mosaic_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:crimson_mosaic_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:crimson_mosaic_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:crimson_mosaic_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:crimson_mosaic_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:crimson_mosaic_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:crimson_mosaic_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:crimson_mosaic_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:crimson_mosaic_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:crimson_mosaic_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:crimson_mosaic_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:crimson_mosaic_window",
+      "required": false
+    },
+    {
+      "id": "chipped:crimson_mosaic_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:crimson_shavings_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:crimson_shavings_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:crimson_shavings_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:crimson_shavings_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:crimson_shavings_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:crimson_shavings_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:crimson_shavings_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:crimson_shavings_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:crimson_shavings_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:crimson_shavings_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:crimson_shavings_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:crimson_shavings_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:crimson_shavings_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:crimson_shavings_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:crimson_shavings_window",
+      "required": false
+    },
+    {
+      "id": "chipped:crimson_shavings_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_crimson_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_crimson_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_crimson_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_crimson_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_crimson_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_crimson_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_crimson_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_crimson_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_crimson_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_crimson_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_crimson_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_crimson_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_crimson_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_crimson_window",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_crimson_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_warped_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_warped_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_warped_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_warped_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_warped_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_warped_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_warped_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_warped_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_warped_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_warped_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_warped_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_warped_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_warped_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_warped_window",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_warped_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_crimson_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_crimson_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_crimson_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_crimson_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_crimson_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_crimson_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_crimson_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_crimson_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_crimson_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_crimson_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_crimson_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_crimson_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_crimson_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_crimson_window",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_crimson_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_warped_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_warped_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_warped_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_warped_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_warped_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_warped_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_warped_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_warped_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_warped_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_warped_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_warped_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_warped_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_warped_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_warped_window",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_warped_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_crimson_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_crimson_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_crimson_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_crimson_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_crimson_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_crimson_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_crimson_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_crimson_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_crimson_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_crimson_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_crimson_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_crimson_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_crimson_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_crimson_window",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_crimson_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_warped_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_warped_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_warped_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_warped_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_warped_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_warped_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_warped_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_warped_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_warped_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_warped_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_warped_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_warped_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_warped_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_warped_window",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_warped_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_crimson_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_crimson_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_crimson_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_crimson_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_crimson_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_crimson_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_crimson_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_crimson_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_crimson_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_crimson_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_crimson_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_crimson_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_crimson_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_crimson_window",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_crimson_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_warped_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_warped_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_warped_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_warped_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_warped_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_warped_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_warped_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_warped_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_warped_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_warped_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_warped_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_warped_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_warped_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_warped_window",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_warped_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_crimson_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_crimson_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_crimson_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_crimson_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_crimson_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_crimson_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_crimson_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_crimson_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_crimson_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_crimson_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_crimson_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_crimson_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_crimson_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_crimson_window",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_crimson_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_warped_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_warped_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_warped_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_warped_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_warped_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_warped_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_warped_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_warped_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_warped_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_warped_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_warped_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_warped_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_warped_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_warped_window",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_warped_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_crimson_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_crimson_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_crimson_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_crimson_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_crimson_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_crimson_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_crimson_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_crimson_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_crimson_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_crimson_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_crimson_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_crimson_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_crimson_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_crimson_window",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_crimson_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_warped_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_warped_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_warped_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_warped_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_warped_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_warped_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_warped_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_warped_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_warped_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_warped_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_warped_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_warped_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_warped_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_warped_window",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_warped_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_crimson_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_crimson_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_crimson_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_crimson_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_crimson_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_crimson_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_crimson_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_crimson_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_crimson_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_crimson_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_crimson_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_crimson_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_crimson_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_crimson_window",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_crimson_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_crimson_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_crimson_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_crimson_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_crimson_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_crimson_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_crimson_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_crimson_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_crimson_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_crimson_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_crimson_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_crimson_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_crimson_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_crimson_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_crimson_window",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_crimson_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_warped_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_warped_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_warped_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_warped_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_warped_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_warped_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_warped_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_warped_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_warped_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_warped_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_warped_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_warped_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_warped_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_warped_window",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_warped_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_warped_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_warped_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_warped_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_warped_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_warped_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_warped_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_warped_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_warped_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_warped_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_warped_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_warped_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_warped_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_warped_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_warped_window",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_warped_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_crimson_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_crimson_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_crimson_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_crimson_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_crimson_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_crimson_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_crimson_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_crimson_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_crimson_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_crimson_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_crimson_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_crimson_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_crimson_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_crimson_window",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_crimson_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_warped_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_warped_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_warped_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_warped_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_warped_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_warped_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_warped_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_warped_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_warped_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_warped_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_warped_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_warped_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_warped_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_warped_window",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_warped_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_crimson_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_crimson_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_crimson_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_crimson_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_crimson_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_crimson_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_crimson_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_crimson_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_crimson_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_crimson_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_crimson_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_crimson_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_crimson_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_crimson_window",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_crimson_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_warped_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_warped_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_warped_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_warped_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_warped_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_warped_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_warped_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_warped_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_warped_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_warped_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_warped_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_warped_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_warped_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_warped_window",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_warped_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_crimson_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_crimson_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_crimson_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_crimson_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_crimson_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_crimson_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_crimson_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_crimson_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_crimson_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_crimson_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_crimson_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_crimson_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_crimson_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_crimson_window",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_crimson_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_warped_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_warped_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_warped_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_warped_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_warped_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_warped_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_warped_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_warped_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_warped_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_warped_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_warped_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_warped_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_warped_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_warped_window",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_warped_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_crimson_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_crimson_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_crimson_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_crimson_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_crimson_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_crimson_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_crimson_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_crimson_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_crimson_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_crimson_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_crimson_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_crimson_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_crimson_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_crimson_window",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_crimson_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_warped_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_warped_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_warped_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_warped_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_warped_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_warped_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_warped_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_warped_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_warped_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_warped_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_warped_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_warped_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_warped_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_warped_window",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_warped_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_crimson_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_crimson_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_crimson_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_crimson_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_crimson_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_crimson_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_crimson_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_crimson_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_crimson_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_crimson_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_crimson_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_crimson_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_crimson_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_crimson_window",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_crimson_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_warped_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_warped_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_warped_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_warped_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_warped_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_warped_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_warped_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_warped_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_warped_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_warped_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_warped_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_warped_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_warped_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_warped_window",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_warped_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_crimson_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_crimson_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_crimson_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_crimson_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_crimson_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_crimson_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_crimson_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_crimson_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_crimson_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_crimson_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_crimson_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_crimson_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_crimson_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_crimson_window",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_crimson_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_warped_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_warped_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_warped_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_warped_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_warped_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_warped_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_warped_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_warped_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_warped_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_warped_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_warped_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_warped_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_warped_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_warped_window",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_warped_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_crimson_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_crimson_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_crimson_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_crimson_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_crimson_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_crimson_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_crimson_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_crimson_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_crimson_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_crimson_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_crimson_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_crimson_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_crimson_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_crimson_window",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_crimson_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_warped_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_warped_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_warped_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_warped_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_warped_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_warped_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_warped_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_warped_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_warped_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_warped_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_warped_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_warped_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_warped_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_warped_window",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_warped_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_crimson_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_crimson_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_crimson_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_crimson_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_crimson_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_crimson_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_crimson_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_crimson_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_crimson_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_crimson_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_crimson_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_crimson_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_crimson_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_crimson_window",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_crimson_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_warped_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_warped_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_warped_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_warped_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_warped_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_warped_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_warped_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_warped_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_warped_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_warped_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_warped_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_warped_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_warped_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_warped_window",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_warped_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_crimson_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_crimson_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_crimson_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_crimson_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_crimson_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_crimson_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_crimson_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_crimson_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_crimson_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_crimson_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_crimson_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_crimson_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_crimson_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_crimson_window",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_crimson_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_warped_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_warped_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_warped_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_warped_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_warped_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_warped_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_warped_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_warped_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_warped_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_warped_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_warped_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_warped_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_warped_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_warped_window",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_warped_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_crimson_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_crimson_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_crimson_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_crimson_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_crimson_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_crimson_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_crimson_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_crimson_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_crimson_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_crimson_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_crimson_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_crimson_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_crimson_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_crimson_window",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_crimson_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_warped_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_warped_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_warped_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_warped_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_warped_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_warped_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_warped_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_warped_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_warped_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_warped_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_warped_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_warped_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_warped_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_warped_window",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_warped_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_crimson_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_crimson_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_crimson_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_crimson_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_crimson_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_crimson_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_crimson_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_crimson_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_crimson_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_crimson_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_crimson_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_crimson_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_crimson_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_crimson_window",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_crimson_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_warped_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_warped_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_warped_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_warped_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_warped_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_warped_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_warped_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_warped_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_warped_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_warped_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_warped_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_warped_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_warped_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_warped_window",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_warped_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_crimson_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_crimson_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_crimson_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_crimson_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_crimson_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_crimson_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_crimson_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_crimson_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_crimson_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_crimson_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_crimson_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_crimson_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_crimson_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_crimson_window",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_crimson_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_warped_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_warped_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_warped_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_warped_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_warped_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_warped_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_warped_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_warped_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_warped_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_warped_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_warped_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_warped_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_warped_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_warped_window",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_warped_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_crimson_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_crimson_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_crimson_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_crimson_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_crimson_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_crimson_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_crimson_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_crimson_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_crimson_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_crimson_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_crimson_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_crimson_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_crimson_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_crimson_window",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_crimson_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_warped_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_warped_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_warped_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_warped_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_warped_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_warped_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_warped_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_warped_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_warped_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_warped_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_warped_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_warped_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_warped_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_warped_window",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_warped_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_crimson_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_crimson_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_crimson_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_crimson_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_crimson_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_crimson_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_crimson_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_crimson_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_crimson_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_crimson_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_crimson_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_crimson_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_crimson_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_crimson_window",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_crimson_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_warped_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_warped_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_warped_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_warped_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_warped_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_warped_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_warped_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_warped_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_warped_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_warped_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_warped_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_warped_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_warped_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_warped_window",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_warped_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_crimson_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_crimson_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_crimson_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_crimson_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_crimson_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_crimson_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_crimson_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_crimson_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_crimson_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_crimson_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_crimson_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_crimson_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_crimson_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_crimson_window",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_crimson_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_warped_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_warped_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_warped_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_warped_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_warped_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_warped_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_warped_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_warped_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_warped_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_warped_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_warped_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_warped_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_warped_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_warped_window",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_warped_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:warped_mosaic_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:warped_mosaic_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:warped_mosaic_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:warped_mosaic_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:warped_mosaic_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:warped_mosaic_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:warped_mosaic_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:warped_mosaic_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:warped_mosaic_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:warped_mosaic_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:warped_mosaic_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:warped_mosaic_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:warped_mosaic_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:warped_mosaic_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:warped_mosaic_window",
+      "required": false
+    },
+    {
+      "id": "chipped:warped_mosaic_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:warped_shavings_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:warped_shavings_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:warped_shavings_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:warped_shavings_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:warped_shavings_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:warped_shavings_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:warped_shavings_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:warped_shavings_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:warped_shavings_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:warped_shavings_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:warped_shavings_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:warped_shavings_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:warped_shavings_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:warped_shavings_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:warped_shavings_window",
+      "required": false
+    },
+    {
+      "id": "chipped:warped_shavings_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_crimson_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_crimson_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_crimson_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_crimson_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_crimson_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_crimson_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_crimson_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_crimson_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_crimson_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_crimson_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_crimson_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_crimson_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_crimson_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_crimson_window",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_crimson_window_half",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_warped_balustrade",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_warped_capital",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_warped_corner",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_warped_corner_slab",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_warped_corner_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_warped_eighth",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_warped_layer",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_warped_layer_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_warped_pillar",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_warped_quarter",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_warped_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_warped_slab_vertical",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_warped_wall",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_warped_window",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_warped_window_half",
+      "required": false
+    }
   ]
 }

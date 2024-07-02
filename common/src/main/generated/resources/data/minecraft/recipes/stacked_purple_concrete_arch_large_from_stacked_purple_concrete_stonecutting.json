@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:stacked_purple_concrete"
+  },
+  "result": "chipped:stacked_purple_concrete_arch_large"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:stop_black_concrete"
+  },
+  "result": "chipped:stop_black_concrete_arch_half"
+}

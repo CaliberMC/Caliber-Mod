@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:cracked_calcite_bricks"
+  },
+  "result": "chipped:cracked_calcite_brick_window_half"
+}

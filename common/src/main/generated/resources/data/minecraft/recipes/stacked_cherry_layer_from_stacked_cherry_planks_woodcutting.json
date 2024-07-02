@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:stacked_cherry_planks"
+  },
+  "result": "chipped:stacked_cherry_layer"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:cracked_flat_quartz_block_tile_layer"
+  },
+  "result": "chipped:cracked_flat_quartz_block_tile_layer_vertical"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:grid_brown_concrete"
+  },
+  "result": "chipped:grid_brown_concrete_pillar"
+}

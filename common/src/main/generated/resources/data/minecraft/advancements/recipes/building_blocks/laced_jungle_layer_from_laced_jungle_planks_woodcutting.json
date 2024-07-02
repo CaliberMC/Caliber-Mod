@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_laced_jungle_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:laced_jungle_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:laced_jungle_layer_from_laced_jungle_planks_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_laced_jungle_planks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:laced_jungle_layer_from_laced_jungle_planks_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:flat_smooth_stone_tiles"
+  },
+  "result": "chipped:flat_smooth_stone_tile_eighth"
+}

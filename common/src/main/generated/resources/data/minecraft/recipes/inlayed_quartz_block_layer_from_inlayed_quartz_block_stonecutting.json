@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:inlayed_quartz_block"
+  },
+  "result": "chipped:inlayed_quartz_block_layer"
+}

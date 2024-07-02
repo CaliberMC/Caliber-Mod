@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:sheet_waxed_copper_block"
+  },
+  "result": "chipped:sheet_waxed_copper_block_stairs"
+}

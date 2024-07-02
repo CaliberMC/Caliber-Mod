@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:flat_raw_copper_block_tiles"
+  },
+  "result": "chipped:flat_raw_copper_block_tile_corner_slab_vertical"
+}

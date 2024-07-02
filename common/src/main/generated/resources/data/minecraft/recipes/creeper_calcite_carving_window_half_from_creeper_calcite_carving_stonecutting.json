@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:creeper_calcite_carving"
+  },
+  "result": "chipped:creeper_calcite_carving_window_half"
+}

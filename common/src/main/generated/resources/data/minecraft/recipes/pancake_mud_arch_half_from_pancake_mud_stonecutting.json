@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:pancake_mud"
+  },
+  "result": "chipped:pancake_mud_arch_half"
+}

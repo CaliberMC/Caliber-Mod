@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:mossy_cobblestone_scales"
+  },
+  "result": "chipped:mossy_cobblestone_scales_window"
+}

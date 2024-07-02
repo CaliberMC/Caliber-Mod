@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:blank_raw_iron_block_carving"
+  },
+  "result": "chipped:blank_raw_iron_block_carving_quarter"
+}

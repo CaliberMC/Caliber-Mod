@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:vertical_cut_raw_iron_block"
+  },
+  "result": "chipped:vertical_cut_raw_iron_block_corner_slab"
+}

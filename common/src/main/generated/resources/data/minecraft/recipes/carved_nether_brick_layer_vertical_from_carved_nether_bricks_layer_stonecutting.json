@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:carved_nether_brick_layer"
+  },
+  "result": "chipped:carved_nether_brick_layer_vertical"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:barky_red_wool"
+  },
+  "result": "chipped:barky_red_wool_corner"
+}

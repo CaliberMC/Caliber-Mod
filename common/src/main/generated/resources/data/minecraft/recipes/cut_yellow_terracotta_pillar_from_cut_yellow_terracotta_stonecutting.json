@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:cut_yellow_terracotta"
+  },
+  "result": "chipped:cut_yellow_terracotta_pillar"
+}

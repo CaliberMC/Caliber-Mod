@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:small_mossy_cobblestone_bricks"
+  },
+  "result": "chipped:small_mossy_cobblestone_brick_capital"
+}

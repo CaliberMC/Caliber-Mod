@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sanded_granite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:sanded_granite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:sanded_granite_quarter_from_sanded_granite_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_sanded_granite",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:sanded_granite_quarter_from_sanded_granite_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

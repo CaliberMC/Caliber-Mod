@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:unamused_mud"
+  },
+  "result": "chipped:unamused_mud_arch_large"
+}

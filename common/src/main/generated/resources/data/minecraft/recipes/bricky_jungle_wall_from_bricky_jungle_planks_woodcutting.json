@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:bricky_jungle_planks"
+  },
+  "result": "chipped:bricky_jungle_wall"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:sad_calcite"
+  },
+  "result": "chipped:sad_calcite_stairs"
+}

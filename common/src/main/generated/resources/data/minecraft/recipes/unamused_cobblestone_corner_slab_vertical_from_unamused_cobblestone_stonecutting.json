@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:unamused_cobblestone"
+  },
+  "result": "chipped:unamused_cobblestone_corner_slab_vertical"
+}

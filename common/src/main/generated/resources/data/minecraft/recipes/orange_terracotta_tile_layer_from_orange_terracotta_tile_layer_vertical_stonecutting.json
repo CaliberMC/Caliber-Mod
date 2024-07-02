@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:orange_terracotta_tile_layer_vertical"
+  },
+  "result": "chipped:orange_terracotta_tile_layer"
+}

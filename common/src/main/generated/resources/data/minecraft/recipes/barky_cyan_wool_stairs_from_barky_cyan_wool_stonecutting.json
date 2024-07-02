@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:barky_cyan_wool"
+  },
+  "result": "chipped:barky_cyan_wool_stairs"
+}

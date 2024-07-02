@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:diorite_bricks"
+  },
+  "result": "chipped:diorite_brick_arch_half"
+}

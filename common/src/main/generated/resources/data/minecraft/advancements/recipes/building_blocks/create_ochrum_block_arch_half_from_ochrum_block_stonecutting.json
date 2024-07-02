@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ochrum_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:ochrum"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:create_ochrum_block_arch_half_from_ochrum_block_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_ochrum_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:create_ochrum_block_arch_half_from_ochrum_block_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

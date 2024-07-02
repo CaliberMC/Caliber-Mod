@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:tiled_dirt"
+  },
+  "result": "chipped:tiled_dirt_capital"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:smooth_inlayed_raw_iron_block"
+  },
+  "result": "chipped:smooth_inlayed_raw_iron_block_slab"
+}

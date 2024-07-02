@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:shelved_mangrove_planks"
+  },
+  "result": "chipped:shelved_mangrove_corner_slab"
+}

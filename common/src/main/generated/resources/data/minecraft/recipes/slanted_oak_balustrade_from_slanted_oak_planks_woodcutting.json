@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:slanted_oak_planks"
+  },
+  "result": "chipped:slanted_oak_balustrade"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:prismal_calcite_remnants"
+  },
+  "result": "chipped:prismal_calcite_remnants_window_half"
+}

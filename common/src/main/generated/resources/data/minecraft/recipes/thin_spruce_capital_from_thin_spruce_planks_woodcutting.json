@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:thin_spruce_planks"
+  },
+  "result": "chipped:thin_spruce_capital"
+}

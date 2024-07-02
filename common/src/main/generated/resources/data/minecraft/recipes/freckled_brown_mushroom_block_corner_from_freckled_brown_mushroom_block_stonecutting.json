@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:freckled_brown_mushroom_block"
+  },
+  "result": "chipped:freckled_brown_mushroom_block_corner"
+}

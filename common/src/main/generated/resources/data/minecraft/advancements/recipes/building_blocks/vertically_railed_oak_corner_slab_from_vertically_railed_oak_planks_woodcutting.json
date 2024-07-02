@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:vertically_railed_oak_corner_slab_from_vertically_railed_oak_planks_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_vertically_railed_oak_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:vertically_railed_oak_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_vertically_railed_oak_planks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:vertically_railed_oak_corner_slab_from_vertically_railed_oak_planks_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

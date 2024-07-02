@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:flat_mossy_stone_bricks_tiles"
+  },
+  "result": "chipped:flat_mossy_stone_brick_tiles_capital"
+}

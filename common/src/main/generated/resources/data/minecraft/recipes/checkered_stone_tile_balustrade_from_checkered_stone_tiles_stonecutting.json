@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:checkered_stone_tiles"
+  },
+  "result": "chipped:checkered_stone_tile_balustrade"
+}

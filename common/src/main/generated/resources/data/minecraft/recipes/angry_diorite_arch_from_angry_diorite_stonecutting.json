@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:angry_diorite"
+  },
+  "result": "chipped:angry_diorite_arch"
+}

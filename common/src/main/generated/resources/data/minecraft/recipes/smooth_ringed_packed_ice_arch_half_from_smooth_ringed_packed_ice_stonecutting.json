@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:smooth_ringed_packed_ice"
+  },
+  "result": "chipped:smooth_ringed_packed_ice_arch_half"
+}

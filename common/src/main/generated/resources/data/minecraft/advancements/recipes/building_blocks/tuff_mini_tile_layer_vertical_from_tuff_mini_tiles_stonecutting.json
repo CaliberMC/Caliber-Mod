@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:tuff_mini_tile_layer_vertical_from_tuff_mini_tiles_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tuff_mini_tiles": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:tuff_mini_tiles"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_tuff_mini_tiles",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:tuff_mini_tile_layer_vertical_from_tuff_mini_tiles_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

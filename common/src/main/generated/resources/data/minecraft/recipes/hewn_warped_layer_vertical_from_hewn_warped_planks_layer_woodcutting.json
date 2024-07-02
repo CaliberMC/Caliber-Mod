@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:hewn_warped_layer"
+  },
+  "result": "chipped:hewn_warped_layer_vertical"
+}

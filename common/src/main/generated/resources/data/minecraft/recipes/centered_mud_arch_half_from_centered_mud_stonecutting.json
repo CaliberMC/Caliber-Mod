@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:centered_mud"
+  },
+  "result": "chipped:centered_mud_arch_half"
+}

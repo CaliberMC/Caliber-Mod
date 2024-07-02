@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:spiraled_calcite"
+  },
+  "result": "chipped:spiraled_calcite_arrowslit"
+}

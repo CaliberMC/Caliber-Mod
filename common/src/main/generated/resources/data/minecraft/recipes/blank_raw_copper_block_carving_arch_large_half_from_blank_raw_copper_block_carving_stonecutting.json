@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:blank_raw_copper_block_carving"
+  },
+  "result": "chipped:blank_raw_copper_block_carving_arch_large_half"
+}

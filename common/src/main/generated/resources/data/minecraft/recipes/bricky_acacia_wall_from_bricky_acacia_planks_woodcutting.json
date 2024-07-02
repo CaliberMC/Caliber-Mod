@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:bricky_acacia_planks"
+  },
+  "result": "chipped:bricky_acacia_wall"
+}

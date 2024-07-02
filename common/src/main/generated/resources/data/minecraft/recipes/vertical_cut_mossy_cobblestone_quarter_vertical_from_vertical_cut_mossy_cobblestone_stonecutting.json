@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:vertical_cut_mossy_cobblestone"
+  },
+  "result": "chipped:vertical_cut_mossy_cobblestone_quarter_vertical"
+}

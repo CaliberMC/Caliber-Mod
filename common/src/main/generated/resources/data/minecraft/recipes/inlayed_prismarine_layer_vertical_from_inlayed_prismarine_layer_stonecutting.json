@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:inlayed_prismarine_layer"
+  },
+  "result": "chipped:inlayed_prismarine_layer_vertical"
+}

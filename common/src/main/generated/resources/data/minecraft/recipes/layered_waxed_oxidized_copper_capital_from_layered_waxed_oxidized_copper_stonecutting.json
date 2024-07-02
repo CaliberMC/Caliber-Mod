@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:layered_waxed_oxidized_copper"
+  },
+  "result": "chipped:layered_waxed_oxidized_copper_capital"
+}

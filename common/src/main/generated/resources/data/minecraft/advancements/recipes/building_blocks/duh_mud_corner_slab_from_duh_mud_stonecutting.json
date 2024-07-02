@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_duh_mud": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:duh_mud"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:duh_mud_corner_slab_from_duh_mud_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_duh_mud",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:duh_mud_corner_slab_from_duh_mud_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

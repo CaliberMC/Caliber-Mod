@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:carved_deepslate"
+  },
+  "result": "chipped:carved_deepslate_wall"
+}

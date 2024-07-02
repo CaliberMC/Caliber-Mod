@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:spider_tuff_carving"
+  },
+  "result": "chipped:spider_tuff_carving_stairs"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:eroded_dirt"
+  },
+  "result": "chipped:eroded_dirt_arrowslit"
+}

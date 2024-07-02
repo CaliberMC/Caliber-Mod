@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:cobblestone_scales"
+  },
+  "result": "chipped:cobblestone_scales_stairs"
+}

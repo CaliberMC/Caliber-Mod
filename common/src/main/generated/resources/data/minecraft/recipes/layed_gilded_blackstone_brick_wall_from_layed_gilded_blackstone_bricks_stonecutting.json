@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:layed_gilded_blackstone_bricks"
+  },
+  "result": "chipped:layed_gilded_blackstone_brick_wall"
+}

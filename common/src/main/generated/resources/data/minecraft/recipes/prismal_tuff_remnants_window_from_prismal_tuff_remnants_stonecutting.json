@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:prismal_tuff_remnants"
+  },
+  "result": "chipped:prismal_tuff_remnants_window"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:crying_lodestone"
+  },
+  "result": "chipped:crying_lodestone_eighth"
+}

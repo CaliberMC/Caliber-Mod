@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:flat_cobblestone_tiles"
+  },
+  "result": "chipped:flat_cobblestone_tile_slab"
+}

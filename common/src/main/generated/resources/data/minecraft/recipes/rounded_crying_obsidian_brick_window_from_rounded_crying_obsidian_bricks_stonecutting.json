@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:rounded_crying_obsidian_bricks"
+  },
+  "result": "chipped:rounded_crying_obsidian_brick_window"
+}

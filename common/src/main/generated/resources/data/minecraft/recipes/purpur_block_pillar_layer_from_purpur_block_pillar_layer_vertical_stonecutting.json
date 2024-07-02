@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:purpur_block_pillar_layer_vertical"
+  },
+  "result": "chipped:purpur_block_pillar_layer"
+}

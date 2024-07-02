@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:knitted_magenta_wool"
+  },
+  "result": "chipped:knitted_magenta_wool_pillar"
+}

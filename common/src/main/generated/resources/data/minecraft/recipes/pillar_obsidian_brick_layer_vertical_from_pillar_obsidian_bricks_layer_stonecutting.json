@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:pillar_obsidian_brick_layer"
+  },
+  "result": "chipped:pillar_obsidian_brick_layer_vertical"
+}

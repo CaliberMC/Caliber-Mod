@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:patched_pink_wool"
+  },
+  "result": "chipped:patched_pink_wool_corner_slab"
+}

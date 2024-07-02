@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:prismal_diorite_remnants"
+  },
+  "result": "chipped:prismal_diorite_remnants_window"
+}

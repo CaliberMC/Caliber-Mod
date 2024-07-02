@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:carved_purpur_block"
+  },
+  "result": "chipped:carved_purpur_block_corner_slab"
+}

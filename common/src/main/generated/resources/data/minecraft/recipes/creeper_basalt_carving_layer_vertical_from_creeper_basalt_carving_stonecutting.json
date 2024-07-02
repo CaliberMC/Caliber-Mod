@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:creeper_basalt_carving"
+  },
+  "result": "chipped:creeper_basalt_carving_layer_vertical"
+}

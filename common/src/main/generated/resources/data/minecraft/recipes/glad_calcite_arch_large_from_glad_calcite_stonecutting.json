@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:glad_calcite"
+  },
+  "result": "chipped:glad_calcite_arch_large"
+}

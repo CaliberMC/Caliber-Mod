@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:glad_basalt"
+  },
+  "result": "chipped:glad_basalt_window"
+}

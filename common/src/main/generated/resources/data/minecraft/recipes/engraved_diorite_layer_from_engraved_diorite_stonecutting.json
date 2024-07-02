@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:engraved_diorite"
+  },
+  "result": "chipped:engraved_diorite_layer"
+}

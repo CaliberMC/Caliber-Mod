@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:etched_end_stone_bricks"
+  },
+  "result": "chipped:etched_end_stone_brick_layer"
+}

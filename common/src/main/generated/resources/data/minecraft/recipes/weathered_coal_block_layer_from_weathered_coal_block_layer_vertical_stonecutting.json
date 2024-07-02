@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:weathered_coal_block_layer_vertical"
+  },
+  "result": "chipped:weathered_coal_block_layer"
+}

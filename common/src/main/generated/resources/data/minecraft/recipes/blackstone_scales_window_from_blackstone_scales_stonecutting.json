@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:blackstone_scales"
+  },
+  "result": "chipped:blackstone_scales_window"
+}

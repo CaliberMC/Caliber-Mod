@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:rough_amethyst_block"
+  },
+  "result": "chipped:rough_amethyst_block_quarter"
+}

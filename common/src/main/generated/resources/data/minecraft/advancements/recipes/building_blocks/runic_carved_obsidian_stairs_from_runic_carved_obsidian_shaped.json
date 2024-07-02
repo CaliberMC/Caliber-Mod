@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_runic_carved_obsidian": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:runic_carved_obsidian"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:runic_carved_obsidian_stairs_from_runic_carved_obsidian_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_runic_carved_obsidian",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:runic_carved_obsidian_stairs_from_runic_carved_obsidian_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

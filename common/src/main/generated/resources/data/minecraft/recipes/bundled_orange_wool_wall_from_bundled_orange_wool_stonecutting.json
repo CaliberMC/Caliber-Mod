@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:bundled_orange_wool"
+  },
+  "result": "chipped:bundled_orange_wool_wall"
+}

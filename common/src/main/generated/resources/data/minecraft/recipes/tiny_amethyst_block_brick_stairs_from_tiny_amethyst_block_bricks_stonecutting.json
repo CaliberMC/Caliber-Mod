@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:tiny_amethyst_block_bricks"
+  },
+  "result": "chipped:tiny_amethyst_block_brick_stairs"
+}

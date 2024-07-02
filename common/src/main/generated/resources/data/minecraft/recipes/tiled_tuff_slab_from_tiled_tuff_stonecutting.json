@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:tiled_tuff"
+  },
+  "result": "chipped:tiled_tuff_slab"
+}

@@ -52,6 +52,1346 @@
       "required": false
     },
     {
+      "id": "chipped:acacia_mosaic_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:acacia_shavings_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:bamboo_fine_mosaic_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:bamboo_shavings_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_acacia_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_bamboo_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_birch_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_cherry_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_dark_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_jungle_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_mangrove_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_spruce_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:basket_woven_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:birch_mosaic_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:birch_shavings_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_acacia_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_bamboo_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_birch_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_cherry_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_dark_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_jungle_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_mangrove_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_spruce_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:boxed_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_acacia_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_bamboo_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_birch_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_cherry_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_dark_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_jungle_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_mangrove_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_spruce_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:brick_bond_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_acacia_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_bamboo_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_birch_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_cherry_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_dark_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_jungle_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_mangrove_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_spruce_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:bricky_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:carved_mangrove_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:cherry_mosaic_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:cherry_shavings_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:chiseled_mangrove_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:crimson_mosaic_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:crimson_shavings_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_acacia_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_bamboo_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_birch_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_cherry_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_dark_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_jungle_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_mangrove_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_spruce_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:cross_laced_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_acacia_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_bamboo_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_birch_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_cherry_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_dark_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_jungle_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_mangrove_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_spruce_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:crossed_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:cut_mangrove_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:dark_oak_mosaic_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:dark_oak_shavings_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_acacia_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_bamboo_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_birch_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_cherry_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_dark_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_jungle_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_mangrove_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_spruce_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:detailed_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_acacia_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_bamboo_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_birch_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_cherry_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_dark_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_jungle_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_mangrove_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_spruce_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:diagonal_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_acacia_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_bamboo_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_birch_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_cherry_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_dark_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_jungle_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_mangrove_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_spruce_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:diamond_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_acacia_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_bamboo_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_birch_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_cherry_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_dark_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_jungle_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_mangrove_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_spruce_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:double_herringbone_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_acacia_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_bamboo_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_birch_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_cherry_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_dark_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_jungle_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_mangrove_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_spruce_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_acacia_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_bamboo_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_birch_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_cherry_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_dark_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_jungle_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_mangrove_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_spruce_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_vertical_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:fine_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_acacia_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_bamboo_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_birch_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_cherry_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_dark_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_jungle_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_mangrove_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_spruce_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:herringbone_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_acacia_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_bamboo_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_birch_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_cherry_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_dark_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_jungle_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_mangrove_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_spruce_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:hewn_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:jungle_mosaic_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:jungle_shavings_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_acacia_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_bamboo_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_birch_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_cherry_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_dark_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_jungle_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_mangrove_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_spruce_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:laced_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:mangrove_mosaic_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:mangrove_shavings_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_acacia_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_birch_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_cherry_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_dark_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_jungle_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_mangrove_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_spruce_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:nailed_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:oak_mosaic_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:oak_shavings_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_acacia_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_bamboo_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_birch_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_cherry_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_dark_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_jungle_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_mangrove_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_spruce_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:polished_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_acacia_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_bamboo_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_birch_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_cherry_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_dark_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_jungle_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_mangrove_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_spruce_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:railed_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:reinforced_bamboo_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:ringed_mangrove_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:shelved_mangrove_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_acacia_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_bamboo_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_birch_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_cherry_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_dark_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_jungle_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_mangrove_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_spruce_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:shifted_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:sided_mangrove_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_acacia_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_bamboo_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_birch_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_cherry_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_dark_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_jungle_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_mangrove_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_spruce_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:slanted_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_acacia_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_bamboo_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_birch_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_cherry_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_dark_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_jungle_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_mangrove_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_spruce_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:smooth_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:spruce_mosaic_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:spruce_shavings_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_acacia_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_bamboo_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_birch_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_cherry_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_dark_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_jungle_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_mangrove_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_spruce_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:stacked_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_acacia_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_bamboo_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_birch_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_cherry_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_dark_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_jungle_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_mangrove_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_spruce_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:thin_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_acacia_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_bamboo_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_birch_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_cherry_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_dark_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_jungle_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_mangrove_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_spruce_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:tiled_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_acacia_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_bamboo_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_birch_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_cherry_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_dark_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_jungle_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_mangrove_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_spruce_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:versailles_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_acacia_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_bamboo_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_birch_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_cherry_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_dark_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_jungle_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_mangrove_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_spruce_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:vertical_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_acacia_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_bamboo_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_birch_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_cherry_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_dark_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_jungle_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_mangrove_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_spruce_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:vertically_railed_warped_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:warped_mosaic_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:warped_shavings_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_acacia_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_bamboo_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_birch_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_cherry_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_crimson_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_dark_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_jungle_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_oak_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_spruce_tall_door",
+      "required": false
+    },
+    {
+      "id": "chipped:wickered_warped_tall_door",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:baobab_tall_door",
       "required": false
     },

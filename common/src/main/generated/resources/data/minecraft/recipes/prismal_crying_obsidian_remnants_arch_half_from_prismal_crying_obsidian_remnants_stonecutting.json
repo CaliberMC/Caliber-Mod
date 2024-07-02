@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:prismal_crying_obsidian_remnants"
+  },
+  "result": "chipped:prismal_crying_obsidian_remnants_arch_half"
+}

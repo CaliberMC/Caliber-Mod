@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:basalt_bricks"
+  },
+  "result": "chipped:basalt_brick_pillar"
+}

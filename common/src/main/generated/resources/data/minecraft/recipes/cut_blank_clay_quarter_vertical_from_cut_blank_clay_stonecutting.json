@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:cut_blank_clay"
+  },
+  "result": "chipped:cut_blank_clay_quarter_vertical"
+}

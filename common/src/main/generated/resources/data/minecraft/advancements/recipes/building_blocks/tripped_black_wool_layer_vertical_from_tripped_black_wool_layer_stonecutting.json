@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:tripped_black_wool_layer_vertical_from_tripped_black_wool_layer_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tripped_black_wool": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:tripped_black_wool"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_tripped_black_wool",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:tripped_black_wool_layer_vertical_from_tripped_black_wool_layer_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

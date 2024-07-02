@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:duh_blackstone"
+  },
+  "result": "chipped:duh_blackstone_balustrade"
+}

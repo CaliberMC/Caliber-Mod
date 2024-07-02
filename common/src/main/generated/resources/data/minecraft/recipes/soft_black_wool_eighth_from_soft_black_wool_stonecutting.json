@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:soft_black_wool"
+  },
+  "result": "chipped:soft_black_wool_eighth"
+}

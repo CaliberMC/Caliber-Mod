@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:end_stone_pillar"
+  },
+  "result": "chipped:end_stone_pillar_arch_large_half"
+}

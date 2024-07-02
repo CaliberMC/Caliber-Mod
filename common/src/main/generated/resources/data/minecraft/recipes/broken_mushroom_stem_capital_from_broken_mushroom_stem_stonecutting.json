@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:broken_mushroom_stem"
+  },
+  "result": "chipped:broken_mushroom_stem_capital"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:weathered_blue_ice"
+  },
+  "result": "chipped:weathered_blue_ice_arch_large"
+}

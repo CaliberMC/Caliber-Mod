@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:cobbled_granite"
+  },
+  "result": "chipped:cobbled_granite_layer_vertical"
+}

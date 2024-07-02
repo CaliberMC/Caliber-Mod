@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:cobbled_gilded_blackstone"
+  },
+  "result": "chipped:cobbled_gilded_blackstone_window"
+}

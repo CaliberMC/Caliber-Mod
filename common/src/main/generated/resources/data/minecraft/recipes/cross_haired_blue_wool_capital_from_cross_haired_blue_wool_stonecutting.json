@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:cross_haired_blue_wool"
+  },
+  "result": "chipped:cross_haired_blue_wool_capital"
+}

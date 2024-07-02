@@ -3,15 +3,12 @@ package com.calibermc.caliber.compat.block;
 import com.calibermc.caliberlib.data.ModBlockFamily;
 import com.simibubi.create.content.decoration.palettes.*;
 import com.calibermc.caliber.block.management.CaliberBlockManager;
-import com.calibermc.caliber.compat.item.CreateItems;
 import com.calibermc.caliberlib.block.management.BlockManager;
+import dev.architectury.injectables.annotations.ExpectPlatform;
 import net.mehvahdjukaar.moonlight.api.platform.RegHelper;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.mehvahdjukaar.moonlight.api.misc.RegSupplier;
 
@@ -25,22 +22,9 @@ public class CreateBlocks {
     private static int blockCount = 0;
 
     public static final ArrayList<BlockManager> CREATE_MANAGERS = new ArrayList<>();
-    
-    static {
-        registerManagersFor("andesite", () -> BlockBehaviour.Properties.copy(Blocks.ANDESITE), AllPaletteStoneTypes.ANDESITE, STONE_VARIANTS_WITHOUT_SLAB_STAIRS_WALL);
-        registerManagersFor("asurine", () -> BlockBehaviour.Properties.copy(Blocks.DEEPSLATE), AllPaletteStoneTypes.ASURINE, STONE_VARIANTS);
-        registerManagersFor("calcite", () -> BlockBehaviour.Properties.copy(Blocks.CALCITE), AllPaletteStoneTypes.CALCITE, STONE_VARIANTS_WITHOUT_SLAB_STAIRS_WALL);
-        registerManagersFor("crimsite", () -> BlockBehaviour.Properties.copy(Blocks.DEEPSLATE), AllPaletteStoneTypes.CRIMSITE, STONE_VARIANTS);
-        registerManagersFor("deepslate", () -> BlockBehaviour.Properties.copy(Blocks.DEEPSLATE), AllPaletteStoneTypes.DEEPSLATE, STONE_VARIANTS_WITHOUT_SLAB_STAIRS_WALL);
-        registerManagersFor("diorite", () -> BlockBehaviour.Properties.copy(Blocks.DIORITE), AllPaletteStoneTypes.DIORITE, STONE_VARIANTS_WITHOUT_SLAB_STAIRS_WALL);
-        registerManagersFor("dripstone", () -> BlockBehaviour.Properties.copy(Blocks.DRIPSTONE_BLOCK), AllPaletteStoneTypes.DRIPSTONE, STONE_VARIANTS_WITHOUT_SLAB_STAIRS_WALL);
-        registerManagersFor("granite", () -> BlockBehaviour.Properties.copy(Blocks.GRANITE), AllPaletteStoneTypes.GRANITE, STONE_VARIANTS_WITHOUT_SLAB_STAIRS_WALL);
-        registerManagersFor("limestone", () -> BlockBehaviour.Properties.copy(Blocks.SANDSTONE), AllPaletteStoneTypes.LIMESTONE, STONE_VARIANTS);
-        registerManagersFor("ochrum", () -> BlockBehaviour.Properties.copy(Blocks.CALCITE), AllPaletteStoneTypes.OCHRUM, STONE_VARIANTS);
-        registerManagersFor("scoria", () -> BlockBehaviour.Properties.copy(Blocks.BLACKSTONE), AllPaletteStoneTypes.SCORIA, STONE_VARIANTS);
-        registerManagersFor("scorchia", () -> BlockBehaviour.Properties.copy(Blocks.BLACKSTONE), AllPaletteStoneTypes.SCORCHIA, STONE_VARIANTS);
-        registerManagersFor("tuff", () -> BlockBehaviour.Properties.copy(Blocks.TUFF), AllPaletteStoneTypes.TUFF, STONE_VARIANTS_WITHOUT_SLAB_STAIRS_WALL);
-        registerManagersFor("veridium", () -> BlockBehaviour.Properties.copy(Blocks.TUFF), AllPaletteStoneTypes.VERIDIUM, STONE_VARIANTS);
+
+    @ExpectPlatform
+    public static void init() {
     }
 
     public static void registerManagersFor(String name, Supplier<BlockBehaviour.Properties> properties, AllPaletteStoneTypes type, Collection<ModBlockFamily.Variant> variants) {
@@ -89,9 +73,6 @@ public class CreateBlocks {
         RegSupplier<T> toReturn = RegHelper.registerBlockWithItem(new ResourceLocation("create", name), block);
         blockCount++;
         return toReturn;
-    }
-
-    public static void init() {
     }
 }
 

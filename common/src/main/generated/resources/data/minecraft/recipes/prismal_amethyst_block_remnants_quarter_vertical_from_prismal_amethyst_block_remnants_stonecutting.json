@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:prismal_amethyst_block_remnants"
+  },
+  "result": "chipped:prismal_amethyst_block_remnants_quarter_vertical"
+}

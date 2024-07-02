@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:trodden_lodestone_wall_from_trodden_lodestone_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_trodden_lodestone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:trodden_lodestone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_trodden_lodestone",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:trodden_lodestone_wall_from_trodden_lodestone_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:cobbled_purpur_block"
+  },
+  "result": "chipped:cobbled_purpur_block_arch_large"
+}

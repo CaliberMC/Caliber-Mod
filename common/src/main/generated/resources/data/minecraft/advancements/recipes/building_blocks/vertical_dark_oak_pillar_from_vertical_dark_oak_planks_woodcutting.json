@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:vertical_dark_oak_pillar_from_vertical_dark_oak_planks_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_vertical_dark_oak_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:vertical_dark_oak_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_vertical_dark_oak_planks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:vertical_dark_oak_pillar_from_vertical_dark_oak_planks_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

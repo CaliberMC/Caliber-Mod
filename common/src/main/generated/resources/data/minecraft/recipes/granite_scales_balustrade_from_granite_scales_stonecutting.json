@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:granite_scales"
+  },
+  "result": "chipped:granite_scales_balustrade"
+}

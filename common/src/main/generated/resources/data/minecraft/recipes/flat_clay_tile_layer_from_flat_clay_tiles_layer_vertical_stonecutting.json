@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:flat_clay_tile_layer_vertical"
+  },
+  "result": "chipped:flat_clay_tile_layer"
+}

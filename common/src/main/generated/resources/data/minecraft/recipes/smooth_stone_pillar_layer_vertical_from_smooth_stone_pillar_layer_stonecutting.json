@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:smooth_stone_pillar_layer"
+  },
+  "result": "chipped:smooth_stone_pillar_layer_vertical"
+}

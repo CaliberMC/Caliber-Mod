@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:offset_tuff_bricks"
+  },
+  "result": "chipped:offset_tuff_brick_arch_large_half"
+}

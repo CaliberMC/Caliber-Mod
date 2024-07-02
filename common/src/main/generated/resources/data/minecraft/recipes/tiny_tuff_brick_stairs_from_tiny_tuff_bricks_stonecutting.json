@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:tiny_tuff_bricks"
+  },
+  "result": "chipped:tiny_tuff_brick_stairs"
+}

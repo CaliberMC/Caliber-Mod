@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:tiny_raw_iron_block_brick_capital_from_tiny_raw_iron_block_bricks_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tiny_raw_iron_block_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:tiny_raw_iron_block_bricks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_tiny_raw_iron_block_bricks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:tiny_raw_iron_block_brick_capital_from_tiny_raw_iron_block_bricks_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

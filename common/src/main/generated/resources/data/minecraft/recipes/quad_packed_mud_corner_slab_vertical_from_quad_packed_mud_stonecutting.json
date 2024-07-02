@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:quad_packed_mud"
+  },
+  "result": "chipped:quad_packed_mud_corner_slab_vertical"
+}

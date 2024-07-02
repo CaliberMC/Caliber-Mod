@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:iron_block_panels"
+  },
+  "result": "chipped:iron_block_panels_layer_vertical"
+}

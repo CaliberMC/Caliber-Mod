@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "create:cut_asurine_bricks"
+  },
+  "result": "create:cut_asurine_brick_layer_vertical"
+}

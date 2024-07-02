@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:glad_granite"
+  },
+  "result": "chipped:glad_granite_window"
+}

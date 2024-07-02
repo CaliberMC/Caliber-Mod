@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:wickered_magenta_wool_corner_slab_from_wickered_magenta_wool_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wickered_magenta_wool": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:wickered_magenta_wool"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_wickered_magenta_wool",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:wickered_magenta_wool_corner_slab_from_wickered_magenta_wool_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:spiraled_clay_layer_vertical"
+  },
+  "result": "chipped:spiraled_clay_layer"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:versailles_oak_planks"
+  },
+  "result": "chipped:versailles_oak_window_half"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:checkered_amethyst_block_tiles"
+  },
+  "result": "chipped:checkered_amethyst_block_tile_slab"
+}

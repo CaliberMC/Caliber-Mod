@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:thick_inlayed_packed_mud"
+  },
+  "result": "chipped:thick_inlayed_packed_mud_wall"
+}

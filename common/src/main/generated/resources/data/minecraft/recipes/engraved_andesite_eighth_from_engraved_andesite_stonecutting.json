@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:engraved_andesite"
+  },
+  "result": "chipped:engraved_andesite_eighth"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:shifted_mangrove_planks"
+  },
+  "result": "chipped:shifted_mangrove_wall"
+}

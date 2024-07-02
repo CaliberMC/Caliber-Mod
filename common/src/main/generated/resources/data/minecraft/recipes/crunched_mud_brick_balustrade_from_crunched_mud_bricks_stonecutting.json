@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:crunched_mud_bricks"
+  },
+  "result": "chipped:crunched_mud_brick_balustrade"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:chiseled_black_terracotta"
+  },
+  "result": "chipped:chiseled_black_terracotta_capital"
+}

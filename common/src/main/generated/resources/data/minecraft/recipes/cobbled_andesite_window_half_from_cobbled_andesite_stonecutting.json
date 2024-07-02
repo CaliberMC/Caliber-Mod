@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:cobbled_andesite"
+  },
+  "result": "chipped:cobbled_andesite_window_half"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:trodden_netherrack"
+  },
+  "result": "chipped:trodden_netherrack_window_half"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:smooth_bamboo_planks"
+  },
+  "result": "chipped:smooth_bamboo_capital"
+}

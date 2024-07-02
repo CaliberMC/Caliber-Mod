@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:stacked_netherrack_bricks"
+  },
+  "result": "chipped:stacked_netherrack_brick_arch_large"
+}

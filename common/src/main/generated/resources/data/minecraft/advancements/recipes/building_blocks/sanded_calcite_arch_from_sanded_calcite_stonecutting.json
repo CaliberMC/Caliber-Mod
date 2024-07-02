@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sanded_calcite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:sanded_calcite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:sanded_calcite_arch_from_sanded_calcite_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_sanded_calcite",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:sanded_calcite_arch_from_sanded_calcite_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

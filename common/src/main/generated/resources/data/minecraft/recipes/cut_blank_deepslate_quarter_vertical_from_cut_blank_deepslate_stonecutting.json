@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:cut_blank_deepslate"
+  },
+  "result": "chipped:cut_blank_deepslate_quarter_vertical"
+}

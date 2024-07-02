@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:soft_yellow_wool"
+  },
+  "result": "chipped:soft_yellow_wool_stairs"
+}

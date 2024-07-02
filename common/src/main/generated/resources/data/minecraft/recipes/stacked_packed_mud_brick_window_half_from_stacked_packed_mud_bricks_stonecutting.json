@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:stacked_packed_mud_bricks"
+  },
+  "result": "chipped:stacked_packed_mud_brick_window_half"
+}

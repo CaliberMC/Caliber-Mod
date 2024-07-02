@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:ancient_gold_block"
+  },
+  "result": "chipped:ancient_gold_block_quarter"
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cut_blank_prismarine": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:cut_blank_prismarine"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:cut_blank_prismarine_arch_from_cut_blank_prismarine_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_cut_blank_prismarine",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:cut_blank_prismarine_arch_from_cut_blank_prismarine_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:railed_acacia_planks"
+  },
+  "result": "chipped:railed_acacia_balustrade"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:trodden_sandstone"
+  },
+  "result": "chipped:trodden_sandstone_arrowslit"
+}

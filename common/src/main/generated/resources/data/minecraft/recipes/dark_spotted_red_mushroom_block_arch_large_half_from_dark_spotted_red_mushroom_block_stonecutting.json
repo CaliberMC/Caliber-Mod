@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:dark_spotted_red_mushroom_block"
+  },
+  "result": "chipped:dark_spotted_red_mushroom_block_arch_large_half"
+}

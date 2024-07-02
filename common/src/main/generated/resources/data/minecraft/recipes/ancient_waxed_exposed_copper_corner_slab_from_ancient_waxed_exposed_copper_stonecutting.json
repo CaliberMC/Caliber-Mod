@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:ancient_waxed_exposed_copper"
+  },
+  "result": "chipped:ancient_waxed_exposed_copper_corner_slab"
+}

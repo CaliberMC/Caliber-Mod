@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:boxed_cherry_layer"
+  },
+  "result": "chipped:boxed_cherry_layer_vertical"
+}

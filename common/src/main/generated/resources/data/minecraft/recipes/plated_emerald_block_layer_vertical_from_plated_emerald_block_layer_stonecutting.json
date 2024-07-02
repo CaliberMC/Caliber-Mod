@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:plated_emerald_block_layer"
+  },
+  "result": "chipped:plated_emerald_block_layer_vertical"
+}

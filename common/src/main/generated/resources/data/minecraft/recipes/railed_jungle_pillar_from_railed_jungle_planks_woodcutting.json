@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:railed_jungle_planks"
+  },
+  "result": "chipped:railed_jungle_pillar"
+}

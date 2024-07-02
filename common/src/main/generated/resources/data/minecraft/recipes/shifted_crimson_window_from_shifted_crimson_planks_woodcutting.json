@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:shifted_crimson_planks"
+  },
+  "result": "chipped:shifted_crimson_window"
+}

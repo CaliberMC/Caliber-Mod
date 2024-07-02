@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:sanded_netherrack"
+  },
+  "result": "chipped:sanded_netherrack_layer_vertical"
+}

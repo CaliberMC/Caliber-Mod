@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:glad_quartz_block"
+  },
+  "result": "chipped:glad_quartz_block_wall"
+}

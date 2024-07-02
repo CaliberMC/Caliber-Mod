@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:inlayed_snow_block"
+  },
+  "result": "chipped:inlayed_snow_block_slab"
+}

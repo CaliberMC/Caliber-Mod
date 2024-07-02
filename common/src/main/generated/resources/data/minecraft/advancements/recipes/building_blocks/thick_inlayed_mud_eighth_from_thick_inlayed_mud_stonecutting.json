@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:thick_inlayed_mud_eighth_from_thick_inlayed_mud_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_thick_inlayed_mud": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:thick_inlayed_mud"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_thick_inlayed_mud",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:thick_inlayed_mud_eighth_from_thick_inlayed_mud_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

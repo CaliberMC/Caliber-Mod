@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:hewn_birch_planks"
+  },
+  "result": "chipped:hewn_birch_window"
+}

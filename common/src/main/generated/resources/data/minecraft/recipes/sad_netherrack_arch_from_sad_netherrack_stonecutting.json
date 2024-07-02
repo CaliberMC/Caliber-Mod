@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:sad_netherrack"
+  },
+  "result": "chipped:sad_netherrack_arch"
+}

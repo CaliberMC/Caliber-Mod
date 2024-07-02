@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:knitted_white_wool"
+  },
+  "result": "chipped:knitted_white_wool_layer_vertical"
+}

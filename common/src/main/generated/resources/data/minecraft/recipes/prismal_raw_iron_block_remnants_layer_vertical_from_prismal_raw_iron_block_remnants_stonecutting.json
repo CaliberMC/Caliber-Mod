@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:prismal_raw_iron_block_remnants"
+  },
+  "result": "chipped:prismal_raw_iron_block_remnants_layer_vertical"
+}

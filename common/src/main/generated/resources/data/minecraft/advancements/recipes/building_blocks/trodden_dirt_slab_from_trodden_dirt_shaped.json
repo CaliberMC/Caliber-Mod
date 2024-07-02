@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:trodden_dirt_slab_from_trodden_dirt_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_trodden_dirt": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:trodden_dirt"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_trodden_dirt",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:trodden_dirt_slab_from_trodden_dirt_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

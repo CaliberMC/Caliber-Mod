@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:runic_carved_cobblestone"
+  },
+  "result": "chipped:runic_carved_cobblestone_balustrade"
+}

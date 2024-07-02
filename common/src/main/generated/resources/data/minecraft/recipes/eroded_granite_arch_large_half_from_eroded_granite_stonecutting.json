@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:eroded_granite"
+  },
+  "result": "chipped:eroded_granite_arch_large_half"
+}

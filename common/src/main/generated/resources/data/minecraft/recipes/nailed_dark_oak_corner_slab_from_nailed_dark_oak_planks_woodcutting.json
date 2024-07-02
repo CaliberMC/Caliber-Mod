@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:nailed_dark_oak_planks"
+  },
+  "result": "chipped:nailed_dark_oak_corner_slab"
+}

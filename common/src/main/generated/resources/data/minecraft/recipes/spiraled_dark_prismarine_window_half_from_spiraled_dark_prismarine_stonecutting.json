@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:spiraled_dark_prismarine"
+  },
+  "result": "chipped:spiraled_dark_prismarine_window_half"
+}

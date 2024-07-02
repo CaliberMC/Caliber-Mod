@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:netherite_block_panels"
+  },
+  "result": "chipped:netherite_block_panels_eighth"
+}

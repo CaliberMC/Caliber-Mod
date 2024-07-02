@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:cut_blank_netherrack"
+  },
+  "result": "chipped:cut_blank_netherrack_quarter_vertical"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:dark_oak_planks_mosaic"
+  },
+  "result": "chipped:dark_oak_mosaic_wall"
+}

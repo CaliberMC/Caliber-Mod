@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:prismal_granite_remnants"
+  },
+  "result": "chipped:prismal_granite_remnants_quarter_vertical"
+}

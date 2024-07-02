@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:glad_deepslate"
+  },
+  "result": "chipped:glad_deepslate_quarter_vertical"
+}

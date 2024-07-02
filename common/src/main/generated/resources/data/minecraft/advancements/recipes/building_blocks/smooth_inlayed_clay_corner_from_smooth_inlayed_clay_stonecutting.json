@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_smooth_inlayed_clay": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:smooth_inlayed_clay"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:smooth_inlayed_clay_corner_from_smooth_inlayed_clay_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_smooth_inlayed_clay",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:smooth_inlayed_clay_corner_from_smooth_inlayed_clay_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

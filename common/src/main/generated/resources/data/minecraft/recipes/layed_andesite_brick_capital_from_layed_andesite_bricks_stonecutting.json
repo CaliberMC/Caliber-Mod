@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:layed_andesite_bricks"
+  },
+  "result": "chipped:layed_andesite_brick_capital"
+}

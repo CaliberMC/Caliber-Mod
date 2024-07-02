@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:cracked_disordered_obsidian_brick_layer_vertical"
+  },
+  "result": "chipped:cracked_disordered_obsidian_brick_layer"
+}

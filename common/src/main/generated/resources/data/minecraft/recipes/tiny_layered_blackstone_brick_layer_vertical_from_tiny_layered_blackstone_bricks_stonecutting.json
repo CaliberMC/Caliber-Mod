@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:tiny_layered_blackstone_bricks"
+  },
+  "result": "chipped:tiny_layered_blackstone_brick_layer_vertical"
+}

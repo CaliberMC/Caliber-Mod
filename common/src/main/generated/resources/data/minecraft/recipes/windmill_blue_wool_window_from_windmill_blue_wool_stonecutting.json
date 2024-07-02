@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:windmill_blue_wool"
+  },
+  "result": "chipped:windmill_blue_wool_window"
+}

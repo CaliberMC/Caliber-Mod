@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:weathered_dirt"
+  },
+  "result": "chipped:weathered_dirt_arch_half"
+}

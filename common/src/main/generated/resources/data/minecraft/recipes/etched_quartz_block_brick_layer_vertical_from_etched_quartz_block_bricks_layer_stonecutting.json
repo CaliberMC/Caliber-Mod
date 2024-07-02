@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:etched_quartz_block_brick_layer"
+  },
+  "result": "chipped:etched_quartz_block_brick_layer_vertical"
+}

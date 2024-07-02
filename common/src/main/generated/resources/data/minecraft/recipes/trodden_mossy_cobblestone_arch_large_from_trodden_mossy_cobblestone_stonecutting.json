@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:trodden_mossy_cobblestone"
+  },
+  "result": "chipped:trodden_mossy_cobblestone_arch_large"
+}

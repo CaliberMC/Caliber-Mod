@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dripstone_block_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:dripstone_block_bricks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:dripstone_block_brick_window_from_dripstone_block_bricks_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_dripstone_block_bricks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:dripstone_block_brick_window_from_dripstone_block_bricks_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

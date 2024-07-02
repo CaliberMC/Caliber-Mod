@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:watching_lodestone"
+  },
+  "result": "chipped:watching_lodestone_layer"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:rough_calcite"
+  },
+  "result": "chipped:rough_calcite_slab"
+}

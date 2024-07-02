@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:spider_prismarine_carving"
+  },
+  "result": "chipped:spider_prismarine_carving_layer"
+}

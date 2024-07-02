@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:trodden_stone_pillar_from_trodden_stone_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_trodden_stone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:trodden_stone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_trodden_stone",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:trodden_stone_pillar_from_trodden_stone_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

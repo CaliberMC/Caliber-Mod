@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:cracked_flat_dirt_tiles"
+  },
+  "result": "chipped:cracked_flat_dirt_tile_window_half"
+}

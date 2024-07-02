@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_spiraled_deepslate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:spiraled_deepslate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:spiraled_deepslate_arch_large_from_spiraled_deepslate_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_spiraled_deepslate",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:spiraled_deepslate_arch_large_from_spiraled_deepslate_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

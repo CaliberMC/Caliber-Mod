@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:duh_obsidian"
+  },
+  "result": "chipped:duh_obsidian_arrowslit"
+}

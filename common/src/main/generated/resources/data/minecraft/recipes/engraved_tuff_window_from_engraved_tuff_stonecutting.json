@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:engraved_tuff"
+  },
+  "result": "chipped:engraved_tuff_window"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:creeper_crying_obsidian_carving"
+  },
+  "result": "chipped:creeper_crying_obsidian_carving_capital"
+}

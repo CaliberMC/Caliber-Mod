@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:inlayed_obsidian"
+  },
+  "result": "chipped:inlayed_obsidian_stairs"
+}

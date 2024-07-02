@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:eroded_smooth_stone_layer"
+  },
+  "result": "chipped:eroded_smooth_stone_layer_vertical"
+}

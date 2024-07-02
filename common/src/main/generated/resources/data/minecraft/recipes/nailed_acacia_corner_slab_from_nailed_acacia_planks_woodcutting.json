@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:nailed_acacia_planks"
+  },
+  "result": "chipped:nailed_acacia_corner_slab"
+}

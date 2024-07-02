@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:blank_amethyst_block_carving"
+  },
+  "result": "chipped:blank_amethyst_block_carving_window"
+}

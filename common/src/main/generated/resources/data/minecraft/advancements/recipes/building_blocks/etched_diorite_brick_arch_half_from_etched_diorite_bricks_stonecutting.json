@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_etched_diorite_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:etched_diorite_bricks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:etched_diorite_brick_arch_half_from_etched_diorite_bricks_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_etched_diorite_bricks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:etched_diorite_brick_arch_half_from_etched_diorite_bricks_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

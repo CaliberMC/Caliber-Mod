@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:engraved_granite"
+  },
+  "result": "chipped:engraved_granite_capital"
+}

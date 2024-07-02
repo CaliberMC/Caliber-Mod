@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_creeper_brown_concrete": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:creeper_brown_concrete"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:creeper_brown_concrete_arch_large_half_from_creeper_brown_concrete_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_creeper_brown_concrete",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:creeper_brown_concrete_arch_large_half_from_creeper_brown_concrete_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

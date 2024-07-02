@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "create:polished_cut_deepslate"
+  },
+  "result": "create:polished_cut_deepslate_window_half"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:roped_bone_block"
+  },
+  "result": "chipped:roped_bone_block_arch"
+}

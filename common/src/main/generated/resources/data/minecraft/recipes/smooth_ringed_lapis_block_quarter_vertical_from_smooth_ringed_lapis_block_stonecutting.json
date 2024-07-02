@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:smooth_ringed_lapis_block"
+  },
+  "result": "chipped:smooth_ringed_lapis_block_quarter_vertical"
+}

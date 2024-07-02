@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:rounded_red_nether_bricks_bricks"
+  },
+  "result": "chipped:rounded_red_nether_brick_brick_arrowslit"
+}

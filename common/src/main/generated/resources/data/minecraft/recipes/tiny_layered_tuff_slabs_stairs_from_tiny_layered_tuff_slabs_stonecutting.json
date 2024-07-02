@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:tiny_layered_tuff_slabs"
+  },
+  "result": "chipped:tiny_layered_tuff_slabs_stairs"
+}

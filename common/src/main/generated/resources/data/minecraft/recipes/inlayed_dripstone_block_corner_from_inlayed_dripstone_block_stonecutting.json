@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:inlayed_dripstone_block"
+  },
+  "result": "chipped:inlayed_dripstone_block_corner"
+}

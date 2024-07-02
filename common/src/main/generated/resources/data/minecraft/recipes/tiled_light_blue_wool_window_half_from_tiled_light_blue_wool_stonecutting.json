@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:tiled_light_blue_wool"
+  },
+  "result": "chipped:tiled_light_blue_wool_window_half"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:blank_ice_carving"
+  },
+  "result": "chipped:blank_ice_carving_stairs"
+}

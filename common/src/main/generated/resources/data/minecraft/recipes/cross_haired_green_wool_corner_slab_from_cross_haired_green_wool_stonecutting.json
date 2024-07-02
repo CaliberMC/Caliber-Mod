@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:cross_haired_green_wool"
+  },
+  "result": "chipped:cross_haired_green_wool_corner_slab"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:weathered_tuff"
+  },
+  "result": "chipped:weathered_tuff_corner_slab"
+}

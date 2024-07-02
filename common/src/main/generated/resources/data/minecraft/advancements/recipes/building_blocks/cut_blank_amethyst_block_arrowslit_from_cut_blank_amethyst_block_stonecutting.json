@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cut_blank_amethyst_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:cut_blank_amethyst_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:cut_blank_amethyst_block_arrowslit_from_cut_blank_amethyst_block_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_cut_blank_amethyst_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:cut_blank_amethyst_block_arrowslit_from_cut_blank_amethyst_block_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:small_purpur_block_bricks"
+  },
+  "result": "chipped:small_purpur_block_brick_window_half"
+}

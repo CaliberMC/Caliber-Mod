@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_double_herringbone_cherry_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:double_herringbone_cherry_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:double_herringbone_cherry_quarter_vertical_from_double_herringbone_cherry_planks_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_double_herringbone_cherry_planks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:double_herringbone_cherry_quarter_vertical_from_double_herringbone_cherry_planks_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

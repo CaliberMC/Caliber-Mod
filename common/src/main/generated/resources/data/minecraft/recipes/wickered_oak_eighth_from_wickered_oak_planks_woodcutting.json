@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:wickered_oak_planks"
+  },
+  "result": "chipped:wickered_oak_eighth"
+}

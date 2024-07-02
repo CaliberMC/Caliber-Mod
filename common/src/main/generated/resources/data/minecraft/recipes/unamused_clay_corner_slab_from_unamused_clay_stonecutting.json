@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:unamused_clay"
+  },
+  "result": "chipped:unamused_clay_corner_slab"
+}

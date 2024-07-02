@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:stacked_snow_block_bricks"
+  },
+  "result": "chipped:stacked_snow_block_brick_arrowslit"
+}

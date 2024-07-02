@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_embossed_waxed_weathered_copper": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:embossed_waxed_weathered_copper"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:embossed_waxed_weathered_copper_arch_half_from_embossed_waxed_weathered_copper_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_embossed_waxed_weathered_copper",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:embossed_waxed_weathered_copper_arch_half_from_embossed_waxed_weathered_copper_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

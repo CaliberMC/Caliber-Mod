@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cut_blank_dirt": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:cut_blank_dirt"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:cut_blank_dirt_arch_half_from_cut_blank_dirt_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_cut_blank_dirt",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:cut_blank_dirt_arch_half_from_cut_blank_dirt_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

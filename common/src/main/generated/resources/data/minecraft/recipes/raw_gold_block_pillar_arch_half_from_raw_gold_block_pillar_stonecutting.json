@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:raw_gold_block_pillar"
+  },
+  "result": "chipped:raw_gold_block_pillar_arch_half"
+}

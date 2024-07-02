@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bamboo_planks_fine_mosaic": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:bamboo_planks_fine_mosaic"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:bamboo_fine_mosaic_quarter_from_bamboo_planks_fine_mosaic_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_bamboo_planks_fine_mosaic",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:bamboo_fine_mosaic_quarter_from_bamboo_planks_fine_mosaic_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:woved_black_wool_layer_vertical"
+  },
+  "result": "chipped:woved_black_wool_layer"
+}

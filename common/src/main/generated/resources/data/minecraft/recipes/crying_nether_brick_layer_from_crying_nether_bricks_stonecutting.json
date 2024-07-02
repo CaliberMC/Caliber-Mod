@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:crying_nether_bricks"
+  },
+  "result": "chipped:crying_nether_brick_layer"
+}

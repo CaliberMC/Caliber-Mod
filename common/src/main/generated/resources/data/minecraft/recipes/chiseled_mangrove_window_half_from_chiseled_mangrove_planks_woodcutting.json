@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:chiseled_mangrove_planks"
+  },
+  "result": "chipped:chiseled_mangrove_window_half"
+}

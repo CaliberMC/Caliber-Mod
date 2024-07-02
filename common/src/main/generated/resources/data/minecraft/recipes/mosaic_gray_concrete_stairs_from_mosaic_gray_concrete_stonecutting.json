@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:mosaic_gray_concrete"
+  },
+  "result": "chipped:mosaic_gray_concrete_stairs"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:layered_waxed_exposed_copper"
+  },
+  "result": "chipped:layered_waxed_exposed_copper_arch_large_half"
+}

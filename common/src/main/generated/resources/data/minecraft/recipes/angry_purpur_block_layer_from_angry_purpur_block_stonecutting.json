@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:angry_purpur_block"
+  },
+  "result": "chipped:angry_purpur_block_layer"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:ribbled_lime_wool"
+  },
+  "result": "chipped:ribbled_lime_wool_layer_vertical"
+}

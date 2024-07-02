@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "create:small_limestone_bricks"
+  },
+  "result": "create:small_limestone_brick_layer_vertical"
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_inscribed_obsidian": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:inscribed_obsidian"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:inscribed_obsidian_stairs_from_inscribed_obsidian_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_inscribed_obsidian",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:inscribed_obsidian_stairs_from_inscribed_obsidian_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

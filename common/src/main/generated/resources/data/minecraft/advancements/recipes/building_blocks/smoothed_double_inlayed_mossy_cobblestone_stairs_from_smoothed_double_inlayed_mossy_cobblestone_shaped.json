@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_smoothed_double_inlayed_mossy_cobblestone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:smoothed_double_inlayed_mossy_cobblestone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:smoothed_double_inlayed_mossy_cobblestone_stairs_from_smoothed_double_inlayed_mossy_cobblestone_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_smoothed_double_inlayed_mossy_cobblestone",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:smoothed_double_inlayed_mossy_cobblestone_stairs_from_smoothed_double_inlayed_mossy_cobblestone_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

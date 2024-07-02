@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:vertical_cut_granite"
+  },
+  "result": "chipped:vertical_cut_granite_arch_large_half"
+}

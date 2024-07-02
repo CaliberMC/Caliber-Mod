@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:duh_lodestone"
+  },
+  "result": "chipped:duh_lodestone_layer"
+}

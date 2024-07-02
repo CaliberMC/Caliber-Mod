@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_duh_lodestone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:duh_lodestone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:duh_lodestone_arch_large_half_from_duh_lodestone_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_duh_lodestone",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:duh_lodestone_arch_large_half_from_duh_lodestone_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

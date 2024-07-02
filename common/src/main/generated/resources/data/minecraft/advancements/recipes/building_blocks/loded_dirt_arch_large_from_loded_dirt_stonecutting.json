@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_loded_dirt": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:loded_dirt"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:loded_dirt_arch_large_from_loded_dirt_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_loded_dirt",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:loded_dirt_arch_large_from_loded_dirt_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:rune_mud"
+  },
+  "result": "chipped:rune_mud_eighth"
+}

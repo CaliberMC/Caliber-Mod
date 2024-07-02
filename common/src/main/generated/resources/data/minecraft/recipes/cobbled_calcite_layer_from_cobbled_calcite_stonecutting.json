@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:cobbled_calcite"
+  },
+  "result": "chipped:cobbled_calcite_layer"
+}

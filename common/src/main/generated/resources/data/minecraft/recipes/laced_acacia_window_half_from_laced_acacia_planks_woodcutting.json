@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:laced_acacia_planks"
+  },
+  "result": "chipped:laced_acacia_window_half"
+}

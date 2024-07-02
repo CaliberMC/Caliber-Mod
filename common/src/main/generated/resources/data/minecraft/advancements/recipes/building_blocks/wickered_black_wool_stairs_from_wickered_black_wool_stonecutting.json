@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:wickered_black_wool_stairs_from_wickered_black_wool_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wickered_black_wool": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:wickered_black_wool"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_wickered_black_wool",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:wickered_black_wool_stairs_from_wickered_black_wool_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

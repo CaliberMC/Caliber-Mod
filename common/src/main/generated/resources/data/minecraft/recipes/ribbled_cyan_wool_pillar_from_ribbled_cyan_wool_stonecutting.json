@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:ribbled_cyan_wool"
+  },
+  "result": "chipped:ribbled_cyan_wool_pillar"
+}

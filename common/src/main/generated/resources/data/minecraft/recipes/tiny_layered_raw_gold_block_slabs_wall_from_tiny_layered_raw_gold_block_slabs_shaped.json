@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "chipped:tiny_layered_raw_gold_block_slabs"
+    }
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "chipped:tiny_layered_raw_gold_block_slabs_wall"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sanded_blackstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:sanded_blackstone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:sanded_blackstone_quarter_vertical_from_sanded_blackstone_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_sanded_blackstone",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:sanded_blackstone_quarter_vertical_from_sanded_blackstone_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:flat_snow_block_tiles"
+  },
+  "result": "chipped:flat_snow_block_tile_stairs"
+}

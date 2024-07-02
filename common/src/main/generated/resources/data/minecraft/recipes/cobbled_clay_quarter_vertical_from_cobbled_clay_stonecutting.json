@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:cobbled_clay"
+  },
+  "result": "chipped:cobbled_clay_quarter_vertical"
+}

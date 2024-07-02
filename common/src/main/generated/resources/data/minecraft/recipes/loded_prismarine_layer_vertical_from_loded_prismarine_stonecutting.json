@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:loded_prismarine"
+  },
+  "result": "chipped:loded_prismarine_layer_vertical"
+}

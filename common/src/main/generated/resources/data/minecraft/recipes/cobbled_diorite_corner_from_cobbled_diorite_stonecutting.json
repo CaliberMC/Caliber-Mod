@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:cobbled_diorite"
+  },
+  "result": "chipped:cobbled_diorite_corner"
+}

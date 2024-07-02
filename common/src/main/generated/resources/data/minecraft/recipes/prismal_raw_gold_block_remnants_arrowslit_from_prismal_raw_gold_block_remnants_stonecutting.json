@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:prismal_raw_gold_block_remnants"
+  },
+  "result": "chipped:prismal_raw_gold_block_remnants_arrowslit"
+}

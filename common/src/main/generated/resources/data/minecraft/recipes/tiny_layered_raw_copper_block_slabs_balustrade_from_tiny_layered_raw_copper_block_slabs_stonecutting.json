@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:tiny_layered_raw_copper_block_slabs"
+  },
+  "result": "chipped:tiny_layered_raw_copper_block_slabs_balustrade"
+}

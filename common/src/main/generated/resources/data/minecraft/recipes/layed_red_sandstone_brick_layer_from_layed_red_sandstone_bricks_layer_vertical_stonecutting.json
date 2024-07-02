@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:layed_red_sandstone_brick_layer_vertical"
+  },
+  "result": "chipped:layed_red_sandstone_brick_layer"
+}

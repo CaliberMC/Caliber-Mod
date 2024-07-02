@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:spider_obsidian_carving"
+  },
+  "result": "chipped:spider_obsidian_carving_wall"
+}

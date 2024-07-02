@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:bundled_brown_wool"
+  },
+  "result": "chipped:bundled_brown_wool_eighth"
+}

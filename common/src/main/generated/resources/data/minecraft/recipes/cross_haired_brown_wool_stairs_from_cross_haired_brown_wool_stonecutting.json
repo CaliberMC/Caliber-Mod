@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:cross_haired_brown_wool"
+  },
+  "result": "chipped:cross_haired_brown_wool_stairs"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:prismarine_mini_tile_layer"
+  },
+  "result": "chipped:prismarine_mini_tile_layer_vertical"
+}

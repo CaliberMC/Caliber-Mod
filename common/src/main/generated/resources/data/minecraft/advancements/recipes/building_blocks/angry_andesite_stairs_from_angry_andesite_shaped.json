@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_angry_andesite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:angry_andesite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:angry_andesite_stairs_from_angry_andesite_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_angry_andesite",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:angry_andesite_stairs_from_angry_andesite_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

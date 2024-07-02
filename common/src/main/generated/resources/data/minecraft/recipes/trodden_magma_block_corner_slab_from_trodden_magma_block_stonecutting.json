@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:trodden_magma_block"
+  },
+  "result": "chipped:trodden_magma_block_corner_slab"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:tiny_layered_lapis_block_slabs_layer_vertical"
+  },
+  "result": "chipped:tiny_layered_lapis_block_slabs_layer"
+}

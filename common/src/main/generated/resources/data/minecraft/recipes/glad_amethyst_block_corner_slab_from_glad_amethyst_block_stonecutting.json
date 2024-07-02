@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:glad_amethyst_block"
+  },
+  "result": "chipped:glad_amethyst_block_corner_slab"
+}

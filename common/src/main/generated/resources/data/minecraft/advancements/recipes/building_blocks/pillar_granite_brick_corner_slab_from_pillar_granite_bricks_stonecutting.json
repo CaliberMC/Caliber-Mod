@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_pillar_granite_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:pillar_granite_bricks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:pillar_granite_brick_corner_slab_from_pillar_granite_bricks_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_pillar_granite_bricks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:pillar_granite_brick_corner_slab_from_pillar_granite_bricks_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cyan_terracotta_tile": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:cyan_terracotta_tile"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:cyan_terracotta_tile_stairs_from_cyan_terracotta_tile_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_cyan_terracotta_tile",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:cyan_terracotta_tile_stairs_from_cyan_terracotta_tile_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

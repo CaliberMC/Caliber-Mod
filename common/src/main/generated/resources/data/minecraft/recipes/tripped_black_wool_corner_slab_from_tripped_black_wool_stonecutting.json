@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:tripped_black_wool"
+  },
+  "result": "chipped:tripped_black_wool_corner_slab"
+}

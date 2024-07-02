@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:creeper_mossy_stone_bricks_carving"
+  },
+  "result": "chipped:creeper_mossy_stone_brick_carving_window_half"
+}

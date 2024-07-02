@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:creeper_andesite_carving"
+  },
+  "result": "chipped:creeper_andesite_carving_slab"
+}

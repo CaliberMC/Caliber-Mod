@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:prismal_sandstone_remnants"
+  },
+  "result": "chipped:prismal_sandstone_remnants_arrowslit"
+}

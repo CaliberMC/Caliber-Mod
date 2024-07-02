@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:dark_prismarine_scales"
+  },
+  "result": "chipped:dark_prismarine_scales_window"
+}

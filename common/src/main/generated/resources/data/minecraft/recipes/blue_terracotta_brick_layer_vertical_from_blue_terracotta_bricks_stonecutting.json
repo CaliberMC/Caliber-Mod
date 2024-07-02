@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:blue_terracotta_bricks"
+  },
+  "result": "chipped:blue_terracotta_brick_layer_vertical"
+}

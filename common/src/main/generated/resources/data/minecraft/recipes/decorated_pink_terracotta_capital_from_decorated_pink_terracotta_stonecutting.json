@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:decorated_pink_terracotta"
+  },
+  "result": "chipped:decorated_pink_terracotta_capital"
+}

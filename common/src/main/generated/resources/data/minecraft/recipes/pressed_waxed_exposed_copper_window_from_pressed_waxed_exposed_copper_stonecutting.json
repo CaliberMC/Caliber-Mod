@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:pressed_waxed_exposed_copper"
+  },
+  "result": "chipped:pressed_waxed_exposed_copper_window"
+}

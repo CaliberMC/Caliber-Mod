@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:loded_sandstone_layer"
+  },
+  "result": "chipped:loded_sandstone_layer_vertical"
+}

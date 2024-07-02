@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:packed_ice_pillar_top_layer"
+  },
+  "result": "chipped:packed_ice_pillar_top_layer_vertical"
+}

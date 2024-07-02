@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:triangular_black_terracotta"
+  },
+  "result": "chipped:triangular_black_terracotta_balustrade"
+}

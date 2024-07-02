@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:crossed_spruce_planks"
+  },
+  "result": "chipped:crossed_spruce_balustrade"
+}

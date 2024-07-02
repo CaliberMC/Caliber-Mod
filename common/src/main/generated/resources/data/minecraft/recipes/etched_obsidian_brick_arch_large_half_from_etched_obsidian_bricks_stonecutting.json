@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:etched_obsidian_bricks"
+  },
+  "result": "chipped:etched_obsidian_brick_arch_large_half"
+}

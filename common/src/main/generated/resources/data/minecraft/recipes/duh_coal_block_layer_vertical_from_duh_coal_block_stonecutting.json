@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:duh_coal_block"
+  },
+  "result": "chipped:duh_coal_block_layer_vertical"
+}

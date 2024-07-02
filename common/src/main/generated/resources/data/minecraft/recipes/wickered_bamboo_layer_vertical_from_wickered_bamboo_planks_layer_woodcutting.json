@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:wickered_bamboo_layer"
+  },
+  "result": "chipped:wickered_bamboo_layer_vertical"
+}

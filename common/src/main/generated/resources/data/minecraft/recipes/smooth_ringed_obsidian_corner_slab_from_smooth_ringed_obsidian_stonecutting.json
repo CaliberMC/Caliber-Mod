@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:smooth_ringed_obsidian"
+  },
+  "result": "chipped:smooth_ringed_obsidian_corner_slab"
+}

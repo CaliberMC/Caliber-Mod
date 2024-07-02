@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:prismal_nether_bricks_remnants"
+  },
+  "result": "chipped:prismal_nether_brick_remnants_arch_large"
+}

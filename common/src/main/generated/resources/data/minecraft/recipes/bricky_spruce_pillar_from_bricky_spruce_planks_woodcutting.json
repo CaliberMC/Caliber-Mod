@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:bricky_spruce_planks"
+  },
+  "result": "chipped:bricky_spruce_pillar"
+}

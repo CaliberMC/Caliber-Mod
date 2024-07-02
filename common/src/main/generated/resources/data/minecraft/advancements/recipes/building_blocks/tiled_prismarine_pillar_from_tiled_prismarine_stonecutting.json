@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:tiled_prismarine_pillar_from_tiled_prismarine_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tiled_prismarine": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:tiled_prismarine"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_tiled_prismarine",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:tiled_prismarine_pillar_from_tiled_prismarine_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

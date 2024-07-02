@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_brown_terracotta_tile": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:brown_terracotta_tile"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:brown_terracotta_tile_corner_from_brown_terracotta_tile_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_brown_terracotta_tile",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:brown_terracotta_tile_corner_from_brown_terracotta_tile_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

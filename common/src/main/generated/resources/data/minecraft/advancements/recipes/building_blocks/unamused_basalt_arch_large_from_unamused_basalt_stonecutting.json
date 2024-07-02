@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:unamused_basalt_arch_large_from_unamused_basalt_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_unamused_basalt": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:unamused_basalt"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_unamused_basalt",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:unamused_basalt_arch_large_from_unamused_basalt_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

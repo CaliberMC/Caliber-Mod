@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:tiny_obsidian_brick_arch_large_half_from_tiny_obsidian_bricks_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tiny_obsidian_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:tiny_obsidian_bricks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_tiny_obsidian_bricks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:tiny_obsidian_brick_arch_large_half_from_tiny_obsidian_bricks_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

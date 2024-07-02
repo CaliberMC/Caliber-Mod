@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:carved_ice"
+  },
+  "result": "chipped:carved_ice_eighth"
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_inscribed_granite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:inscribed_granite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:inscribed_granite_wall_from_inscribed_granite_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_inscribed_granite",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:inscribed_granite_wall_from_inscribed_granite_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

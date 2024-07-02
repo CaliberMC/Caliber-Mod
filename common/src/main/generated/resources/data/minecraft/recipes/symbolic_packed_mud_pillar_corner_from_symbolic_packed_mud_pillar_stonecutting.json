@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:symbolic_packed_mud_pillar"
+  },
+  "result": "chipped:symbolic_packed_mud_pillar_corner"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:blank_snow_block_carving"
+  },
+  "result": "chipped:blank_snow_block_carving_layer"
+}

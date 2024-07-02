@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:sheet_netherite_block"
+  },
+  "result": "chipped:sheet_netherite_block_window"
+}

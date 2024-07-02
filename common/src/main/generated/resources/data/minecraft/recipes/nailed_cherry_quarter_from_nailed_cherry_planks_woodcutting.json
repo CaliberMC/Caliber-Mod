@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:nailed_cherry_planks"
+  },
+  "result": "chipped:nailed_cherry_quarter"
+}

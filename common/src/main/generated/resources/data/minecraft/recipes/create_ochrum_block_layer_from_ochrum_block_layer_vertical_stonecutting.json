@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "create:ochrum_block_layer_vertical"
+  },
+  "result": "create:ochrum_block_layer"
+}

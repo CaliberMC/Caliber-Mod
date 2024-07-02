@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_nether_bricks_pillar": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:nether_bricks_pillar"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:nether_brick_pillar_arch_large_half_from_nether_bricks_pillar_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_nether_bricks_pillar",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:nether_brick_pillar_arch_large_half_from_nether_bricks_pillar_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_carved_calcite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:carved_calcite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:carved_calcite_slab_from_carved_calcite_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_carved_calcite",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:carved_calcite_slab_from_carved_calcite_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:stacked_waxed_copper_block"
+  },
+  "result": "chipped:stacked_waxed_copper_block_window_half"
+}

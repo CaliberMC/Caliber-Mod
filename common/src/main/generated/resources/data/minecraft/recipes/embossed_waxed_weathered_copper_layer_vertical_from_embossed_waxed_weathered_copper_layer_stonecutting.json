@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:embossed_waxed_weathered_copper_layer"
+  },
+  "result": "chipped:embossed_waxed_weathered_copper_layer_vertical"
+}

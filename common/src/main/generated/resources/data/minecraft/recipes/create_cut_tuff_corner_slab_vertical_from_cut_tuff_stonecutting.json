@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "create:cut_tuff"
+  },
+  "result": "create:cut_tuff_corner_slab_vertical"
+}

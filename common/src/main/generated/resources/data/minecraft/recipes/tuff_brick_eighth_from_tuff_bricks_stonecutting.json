@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:tuff_bricks"
+  },
+  "result": "chipped:tuff_brick_eighth"
+}

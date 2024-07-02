@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:blocky_green_wool"
+  },
+  "result": "chipped:blocky_green_wool_capital"
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cut_blank_lodestone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:cut_blank_lodestone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:cut_blank_lodestone_slab_from_cut_blank_lodestone_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_cut_blank_lodestone",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:cut_blank_lodestone_slab_from_cut_blank_lodestone_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:smooth_ringed_coal_block"
+  },
+  "result": "chipped:smooth_ringed_coal_block_window_half"
+}

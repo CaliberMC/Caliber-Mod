@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:tiny_lodestone_bricks"
+  },
+  "result": "chipped:tiny_lodestone_brick_arrowslit"
+}

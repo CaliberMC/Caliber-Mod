@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:lime_terracotta_tiles"
+  },
+  "result": "chipped:lime_terracotta_tile_capital"
+}

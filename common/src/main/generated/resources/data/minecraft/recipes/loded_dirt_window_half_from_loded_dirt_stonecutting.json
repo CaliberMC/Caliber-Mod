@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:loded_dirt"
+  },
+  "result": "chipped:loded_dirt_window_half"
+}

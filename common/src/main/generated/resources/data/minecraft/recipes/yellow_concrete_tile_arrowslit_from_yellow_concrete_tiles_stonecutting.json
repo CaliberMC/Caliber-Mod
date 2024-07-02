@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:yellow_concrete_tiles"
+  },
+  "result": "chipped:yellow_concrete_tile_arrowslit"
+}

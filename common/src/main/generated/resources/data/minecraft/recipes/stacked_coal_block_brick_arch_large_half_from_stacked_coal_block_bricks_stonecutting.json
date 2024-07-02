@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:stacked_coal_block_bricks"
+  },
+  "result": "chipped:stacked_coal_block_brick_arch_large_half"
+}

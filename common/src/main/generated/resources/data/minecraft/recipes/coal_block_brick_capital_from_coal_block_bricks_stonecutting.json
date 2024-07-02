@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:coal_block_bricks"
+  },
+  "result": "chipped:coal_block_brick_capital"
+}

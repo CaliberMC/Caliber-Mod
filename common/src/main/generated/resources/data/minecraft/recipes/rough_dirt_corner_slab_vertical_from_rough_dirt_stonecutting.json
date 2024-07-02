@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:rough_dirt"
+  },
+  "result": "chipped:rough_dirt_corner_slab_vertical"
+}

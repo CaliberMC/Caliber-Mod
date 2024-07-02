@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:runic_carved_basalt"
+  },
+  "result": "chipped:runic_carved_basalt_window"
+}

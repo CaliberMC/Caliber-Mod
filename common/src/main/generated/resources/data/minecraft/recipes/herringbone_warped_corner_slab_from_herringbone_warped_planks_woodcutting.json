@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:herringbone_warped_planks"
+  },
+  "result": "chipped:herringbone_warped_corner_slab"
+}

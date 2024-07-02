@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:blank_dark_prismarine_carving"
+  },
+  "result": "chipped:blank_dark_prismarine_carving_arch_half"
+}

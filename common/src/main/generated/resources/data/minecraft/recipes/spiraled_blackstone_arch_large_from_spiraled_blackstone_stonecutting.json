@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:spiraled_blackstone"
+  },
+  "result": "chipped:spiraled_blackstone_arch_large"
+}

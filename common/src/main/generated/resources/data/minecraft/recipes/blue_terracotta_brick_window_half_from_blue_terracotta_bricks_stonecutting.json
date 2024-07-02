@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:blue_terracotta_bricks"
+  },
+  "result": "chipped:blue_terracotta_brick_window_half"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:dripstone_block_mini_tiles"
+  },
+  "result": "chipped:dripstone_block_mini_tile_wall"
+}

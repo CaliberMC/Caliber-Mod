@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:engraved_packed_ice_layer"
+  },
+  "result": "chipped:engraved_packed_ice_layer_vertical"
+}

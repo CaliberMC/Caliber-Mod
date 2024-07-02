@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:smooth_inlayed_red_nether_bricks"
+  },
+  "result": "chipped:smooth_inlayed_red_nether_brick_pillar"
+}

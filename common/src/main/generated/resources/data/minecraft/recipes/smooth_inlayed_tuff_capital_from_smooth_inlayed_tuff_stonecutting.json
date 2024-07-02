@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:smooth_inlayed_tuff"
+  },
+  "result": "chipped:smooth_inlayed_tuff_capital"
+}

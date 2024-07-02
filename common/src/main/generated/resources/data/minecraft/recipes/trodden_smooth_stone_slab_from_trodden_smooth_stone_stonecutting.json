@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:trodden_smooth_stone"
+  },
+  "result": "chipped:trodden_smooth_stone_slab"
+}

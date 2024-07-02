@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:loded_crying_obsidian"
+  },
+  "result": "chipped:loded_crying_obsidian_arch_large_half"
+}

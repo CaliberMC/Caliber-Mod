@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:stacked_mossy_cobblestone_bricks"
+  },
+  "result": "chipped:stacked_mossy_cobblestone_brick_arch"
+}

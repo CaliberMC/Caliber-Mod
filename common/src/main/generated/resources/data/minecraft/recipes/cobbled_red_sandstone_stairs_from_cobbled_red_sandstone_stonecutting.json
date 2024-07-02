@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:cobbled_red_sandstone"
+  },
+  "result": "chipped:cobbled_red_sandstone_stairs"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:runic_carved_andesite"
+  },
+  "result": "chipped:runic_carved_andesite_stairs"
+}

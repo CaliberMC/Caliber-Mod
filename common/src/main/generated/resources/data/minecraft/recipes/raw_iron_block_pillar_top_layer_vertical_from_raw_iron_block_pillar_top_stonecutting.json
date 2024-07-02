@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:raw_iron_block_pillar_top"
+  },
+  "result": "chipped:raw_iron_block_pillar_top_layer_vertical"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:blue_ice_pillar_top"
+  },
+  "result": "chipped:blue_ice_pillar_top_arrowslit"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:loded_packed_ice"
+  },
+  "result": "chipped:loded_packed_ice_wall"
+}

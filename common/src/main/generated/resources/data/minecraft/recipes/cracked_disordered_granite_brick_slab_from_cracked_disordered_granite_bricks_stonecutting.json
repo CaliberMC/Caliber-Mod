@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:cracked_disordered_granite_bricks"
+  },
+  "result": "chipped:cracked_disordered_granite_brick_slab"
+}

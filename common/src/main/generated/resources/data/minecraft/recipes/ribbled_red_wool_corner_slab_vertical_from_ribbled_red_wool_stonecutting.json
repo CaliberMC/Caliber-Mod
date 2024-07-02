@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:ribbled_red_wool"
+  },
+  "result": "chipped:ribbled_red_wool_corner_slab_vertical"
+}

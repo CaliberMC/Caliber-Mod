@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:angry_smooth_stone"
+  },
+  "result": "chipped:angry_smooth_stone_capital"
+}

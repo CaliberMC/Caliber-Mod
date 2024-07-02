@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:angry_lapis_block"
+  },
+  "result": "chipped:angry_lapis_block_arrowslit"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:offset_clay_bricks"
+  },
+  "result": "chipped:offset_clay_brick_layer"
+}

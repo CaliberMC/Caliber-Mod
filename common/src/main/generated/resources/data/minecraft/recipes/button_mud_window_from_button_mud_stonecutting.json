@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:button_mud"
+  },
+  "result": "chipped:button_mud_window"
+}

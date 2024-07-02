@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:sad_blackstone"
+  },
+  "result": "chipped:sad_blackstone_layer_vertical"
+}

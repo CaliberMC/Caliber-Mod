@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:layed_dark_prismarine_bricks"
+  },
+  "result": "chipped:layed_dark_prismarine_brick_arch"
+}

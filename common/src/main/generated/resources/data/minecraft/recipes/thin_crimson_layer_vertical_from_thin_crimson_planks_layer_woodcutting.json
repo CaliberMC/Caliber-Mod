@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:thin_crimson_layer"
+  },
+  "result": "chipped:thin_crimson_layer_vertical"
+}

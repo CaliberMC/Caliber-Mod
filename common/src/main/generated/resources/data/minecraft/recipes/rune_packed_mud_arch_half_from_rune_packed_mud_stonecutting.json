@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:rune_packed_mud"
+  },
+  "result": "chipped:rune_packed_mud_arch_half"
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sanded_tuff": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:sanded_tuff"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:sanded_tuff_window_from_sanded_tuff_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_sanded_tuff",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:sanded_tuff_window_from_sanded_tuff_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

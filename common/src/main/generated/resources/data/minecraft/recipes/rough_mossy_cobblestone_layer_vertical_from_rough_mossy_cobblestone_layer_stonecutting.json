@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:rough_mossy_cobblestone_layer"
+  },
+  "result": "chipped:rough_mossy_cobblestone_layer_vertical"
+}

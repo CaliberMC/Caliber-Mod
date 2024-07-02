@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_crying_dirt": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:crying_dirt"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:crying_dirt_window_half_from_crying_dirt_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_crying_dirt",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:crying_dirt_window_half_from_crying_dirt_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

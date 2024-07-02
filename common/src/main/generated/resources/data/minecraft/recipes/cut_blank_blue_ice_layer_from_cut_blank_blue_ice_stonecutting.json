@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:cut_blank_blue_ice"
+  },
+  "result": "chipped:cut_blank_blue_ice_layer"
+}

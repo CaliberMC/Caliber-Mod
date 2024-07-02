@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:spiral_mud"
+  },
+  "result": "chipped:spiral_mud_arch_large_half"
+}

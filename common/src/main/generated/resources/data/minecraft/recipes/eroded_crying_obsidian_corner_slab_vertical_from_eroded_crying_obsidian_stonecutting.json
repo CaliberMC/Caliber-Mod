@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:eroded_crying_obsidian"
+  },
+  "result": "chipped:eroded_crying_obsidian_corner_slab_vertical"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:white_sprinkled_brown_mushroom_block"
+  },
+  "result": "chipped:white_sprinkled_brown_mushroom_block_pillar"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:prismal_gilded_blackstone_remnants"
+  },
+  "result": "chipped:prismal_gilded_blackstone_remnants_layer"
+}

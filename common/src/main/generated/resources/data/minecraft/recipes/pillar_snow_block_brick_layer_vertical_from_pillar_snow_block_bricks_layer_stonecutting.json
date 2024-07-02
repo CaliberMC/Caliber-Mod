@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:pillar_snow_block_brick_layer"
+  },
+  "result": "chipped:pillar_snow_block_brick_layer_vertical"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:inlayed_lodestone"
+  },
+  "result": "chipped:inlayed_lodestone_eighth"
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:tiled_blackstone_corner_slab_from_tiled_blackstone_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tiled_blackstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:tiled_blackstone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_tiled_blackstone",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:tiled_blackstone_corner_slab_from_tiled_blackstone_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

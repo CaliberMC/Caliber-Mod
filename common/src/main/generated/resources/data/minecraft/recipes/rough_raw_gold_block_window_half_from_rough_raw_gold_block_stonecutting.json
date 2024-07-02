@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:rough_raw_gold_block"
+  },
+  "result": "chipped:rough_raw_gold_block_window_half"
+}

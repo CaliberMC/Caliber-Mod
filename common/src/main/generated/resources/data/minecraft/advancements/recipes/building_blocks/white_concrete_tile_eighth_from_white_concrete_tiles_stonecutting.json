@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:white_concrete_tile_eighth_from_white_concrete_tiles_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_white_concrete_tiles": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:white_concrete_tiles"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_white_concrete_tiles",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:white_concrete_tile_eighth_from_white_concrete_tiles_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

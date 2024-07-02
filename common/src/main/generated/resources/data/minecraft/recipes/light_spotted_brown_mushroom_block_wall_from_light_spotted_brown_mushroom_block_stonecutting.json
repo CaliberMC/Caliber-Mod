@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:light_spotted_brown_mushroom_block"
+  },
+  "result": "chipped:light_spotted_brown_mushroom_block_wall"
+}

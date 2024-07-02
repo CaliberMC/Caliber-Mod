@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:creeper_blue_concrete"
+  },
+  "result": "chipped:creeper_blue_concrete_arch"
+}

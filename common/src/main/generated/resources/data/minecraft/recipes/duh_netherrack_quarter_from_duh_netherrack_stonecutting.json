@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:duh_netherrack"
+  },
+  "result": "chipped:duh_netherrack_quarter"
+}

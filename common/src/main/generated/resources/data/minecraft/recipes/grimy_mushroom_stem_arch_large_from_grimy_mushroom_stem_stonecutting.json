@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:grimy_mushroom_stem"
+  },
+  "result": "chipped:grimy_mushroom_stem_arch_large"
+}

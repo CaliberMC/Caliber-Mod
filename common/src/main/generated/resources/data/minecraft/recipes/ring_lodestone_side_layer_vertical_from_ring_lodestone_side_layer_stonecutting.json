@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:ring_lodestone_side_layer"
+  },
+  "result": "chipped:ring_lodestone_side_layer_vertical"
+}

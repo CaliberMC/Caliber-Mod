@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_jungle_planks_shavings": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:jungle_planks_shavings"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:jungle_shavings_capital_from_jungle_planks_shavings_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_jungle_planks_shavings",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:jungle_shavings_capital_from_jungle_planks_shavings_woodcutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

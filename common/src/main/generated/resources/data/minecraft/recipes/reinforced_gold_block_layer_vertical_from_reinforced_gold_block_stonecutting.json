@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:reinforced_gold_block"
+  },
+  "result": "chipped:reinforced_gold_block_layer_vertical"
+}

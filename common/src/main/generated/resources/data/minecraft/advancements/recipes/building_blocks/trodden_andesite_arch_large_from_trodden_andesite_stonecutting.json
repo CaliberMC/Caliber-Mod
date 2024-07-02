@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:trodden_andesite_arch_large_from_trodden_andesite_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_trodden_andesite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:trodden_andesite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_trodden_andesite",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:trodden_andesite_arch_large_from_trodden_andesite_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

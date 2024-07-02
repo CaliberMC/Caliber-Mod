@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:herringbone_oak_layer_vertical"
+  },
+  "result": "chipped:herringbone_oak_layer"
+}

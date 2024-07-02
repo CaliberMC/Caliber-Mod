@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:crying_amethyst_block"
+  },
+  "result": "chipped:crying_amethyst_block_layer_vertical"
+}

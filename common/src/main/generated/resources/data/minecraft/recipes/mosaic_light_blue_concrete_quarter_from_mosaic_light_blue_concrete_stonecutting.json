@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:mosaic_light_blue_concrete"
+  },
+  "result": "chipped:mosaic_light_blue_concrete_quarter"
+}

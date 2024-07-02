@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cracked_lapis_block_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:cracked_lapis_block_bricks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:cracked_lapis_block_brick_corner_slab_vertical_from_cracked_lapis_block_bricks_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_cracked_lapis_block_bricks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:cracked_lapis_block_brick_corner_slab_vertical_from_cracked_lapis_block_bricks_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

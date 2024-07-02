@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cross_haired_magenta_wool": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:cross_haired_magenta_wool"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:cross_haired_magenta_wool_stairs_from_cross_haired_magenta_wool_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_cross_haired_magenta_wool",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:cross_haired_magenta_wool_stairs_from_cross_haired_magenta_wool_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

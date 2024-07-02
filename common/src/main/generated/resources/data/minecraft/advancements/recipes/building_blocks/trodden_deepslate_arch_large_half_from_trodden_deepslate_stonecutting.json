@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:trodden_deepslate_arch_large_half_from_trodden_deepslate_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_trodden_deepslate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:trodden_deepslate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_trodden_deepslate",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:trodden_deepslate_arch_large_half_from_trodden_deepslate_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

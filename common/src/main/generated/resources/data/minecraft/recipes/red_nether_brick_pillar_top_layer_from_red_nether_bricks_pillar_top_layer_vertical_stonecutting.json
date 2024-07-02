@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:red_nether_brick_pillar_top_layer_vertical"
+  },
+  "result": "chipped:red_nether_brick_pillar_top_layer"
+}

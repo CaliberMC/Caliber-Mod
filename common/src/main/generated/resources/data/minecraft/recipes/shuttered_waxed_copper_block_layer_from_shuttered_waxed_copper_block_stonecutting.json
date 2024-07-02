@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:shuttered_waxed_copper_block"
+  },
+  "result": "chipped:shuttered_waxed_copper_block_layer"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:creeper_lapis_block_carving_layer"
+  },
+  "result": "chipped:creeper_lapis_block_carving_layer_vertical"
+}

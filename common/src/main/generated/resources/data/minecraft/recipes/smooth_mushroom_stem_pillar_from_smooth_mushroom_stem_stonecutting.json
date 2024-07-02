@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:smooth_mushroom_stem"
+  },
+  "result": "chipped:smooth_mushroom_stem_pillar"
+}

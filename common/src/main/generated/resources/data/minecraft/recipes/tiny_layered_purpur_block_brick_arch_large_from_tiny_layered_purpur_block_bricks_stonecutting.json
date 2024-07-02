@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:tiny_layered_purpur_block_bricks"
+  },
+  "result": "chipped:tiny_layered_purpur_block_brick_arch_large"
+}

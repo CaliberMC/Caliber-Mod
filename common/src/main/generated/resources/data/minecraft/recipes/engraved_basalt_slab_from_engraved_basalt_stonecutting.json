@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:engraved_basalt"
+  },
+  "result": "chipped:engraved_basalt_slab"
+}

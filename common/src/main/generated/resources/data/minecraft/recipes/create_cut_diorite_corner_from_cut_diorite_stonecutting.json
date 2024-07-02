@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "create:cut_diorite"
+  },
+  "result": "create:cut_diorite_corner"
+}

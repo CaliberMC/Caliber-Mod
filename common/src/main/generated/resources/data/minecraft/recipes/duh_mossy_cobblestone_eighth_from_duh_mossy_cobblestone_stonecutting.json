@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:duh_mossy_cobblestone"
+  },
+  "result": "chipped:duh_mossy_cobblestone_eighth"
+}

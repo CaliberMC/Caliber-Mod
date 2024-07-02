@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:emerald_block_panels"
+  },
+  "result": "chipped:emerald_block_panels_slab"
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ring_lodestone_side": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:ring_lodestone_side"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:ring_lodestone_side_slab_from_ring_lodestone_side_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_ring_lodestone_side",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:ring_lodestone_side_slab_from_ring_lodestone_side_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

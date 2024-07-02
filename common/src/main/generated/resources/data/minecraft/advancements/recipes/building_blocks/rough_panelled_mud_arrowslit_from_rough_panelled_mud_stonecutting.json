@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_rough_panelled_mud": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:rough_panelled_mud"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:rough_panelled_mud_arrowslit_from_rough_panelled_mud_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_rough_panelled_mud",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:rough_panelled_mud_arrowslit_from_rough_panelled_mud_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

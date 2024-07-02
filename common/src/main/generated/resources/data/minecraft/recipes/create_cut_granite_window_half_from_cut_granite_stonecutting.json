@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "create:cut_granite"
+  },
+  "result": "create:cut_granite_window_half"
+}

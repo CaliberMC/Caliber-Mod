@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:crying_calcite"
+  },
+  "result": "chipped:crying_calcite_arch_half"
+}

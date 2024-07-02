@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:ice_mini_tiles"
+  },
+  "result": "chipped:ice_mini_tile_capital"
+}

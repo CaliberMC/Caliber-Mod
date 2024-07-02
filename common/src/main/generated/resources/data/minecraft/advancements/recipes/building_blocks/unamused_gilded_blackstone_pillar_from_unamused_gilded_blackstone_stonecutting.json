@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:unamused_gilded_blackstone_pillar_from_unamused_gilded_blackstone_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_unamused_gilded_blackstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:unamused_gilded_blackstone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_unamused_gilded_blackstone",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:unamused_gilded_blackstone_pillar_from_unamused_gilded_blackstone_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

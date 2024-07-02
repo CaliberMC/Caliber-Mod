@@ -1,0 +1,8 @@
+{
+  "type": "caliber:woodcutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:tiled_dark_oak_planks"
+  },
+  "result": "chipped:tiled_dark_oak_layer_vertical"
+}

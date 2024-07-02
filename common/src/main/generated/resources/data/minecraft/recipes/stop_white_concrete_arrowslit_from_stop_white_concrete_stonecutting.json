@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:stop_white_concrete"
+  },
+  "result": "chipped:stop_white_concrete_arrowslit"
+}

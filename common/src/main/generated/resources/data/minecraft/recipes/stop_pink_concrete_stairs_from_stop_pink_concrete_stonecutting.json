@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:stop_pink_concrete"
+  },
+  "result": "chipped:stop_pink_concrete_stairs"
+}
