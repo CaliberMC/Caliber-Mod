@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_heart_mud_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:heart_mud_bricks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:heart_mud_brick_slab_from_heart_mud_bricks_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_heart_mud_bricks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:heart_mud_brick_slab_from_heart_mud_bricks_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:bricks_pillar"
+  },
+  "result": "chipped:bricks_pillar_window_half"
+}

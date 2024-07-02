@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:bricks_scales"
+  },
+  "result": "chipped:bricks_scales_slab"
+}

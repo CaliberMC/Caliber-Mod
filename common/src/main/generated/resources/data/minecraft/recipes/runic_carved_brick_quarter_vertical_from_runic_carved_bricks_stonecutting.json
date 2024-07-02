@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:runic_carved_bricks"
+  },
+  "result": "chipped:runic_carved_brick_quarter_vertical"
+}

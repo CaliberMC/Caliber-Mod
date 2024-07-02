@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:tiny_mud_bricks_bricks"
+  },
+  "result": "chipped:tiny_mud_brick_brick_arch_half"
+}

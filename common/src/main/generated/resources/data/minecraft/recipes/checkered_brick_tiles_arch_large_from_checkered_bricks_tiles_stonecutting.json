@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:checkered_bricks_tiles"
+  },
+  "result": "chipped:checkered_brick_tiles_arch_large"
+}

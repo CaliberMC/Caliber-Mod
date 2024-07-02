@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:redstone_block_scales"
+  },
+  "result": "chipped:redstone_block_scales_wall"
+}

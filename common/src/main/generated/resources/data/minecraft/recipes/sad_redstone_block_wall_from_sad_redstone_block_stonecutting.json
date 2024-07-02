@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:sad_redstone_block"
+  },
+  "result": "chipped:sad_redstone_block_wall"
+}

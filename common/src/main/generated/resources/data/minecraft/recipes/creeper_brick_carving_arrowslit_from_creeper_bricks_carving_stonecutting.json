@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:creeper_bricks_carving"
+  },
+  "result": "chipped:creeper_brick_carving_arrowslit"
+}

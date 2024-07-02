@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:inscribed_redstone_block"
+  },
+  "result": "chipped:inscribed_redstone_block_window"
+}

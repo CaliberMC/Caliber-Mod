@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:mud_bricks_scales"
+  },
+  "result": "chipped:mud_brick_scales_corner_slab"
+}

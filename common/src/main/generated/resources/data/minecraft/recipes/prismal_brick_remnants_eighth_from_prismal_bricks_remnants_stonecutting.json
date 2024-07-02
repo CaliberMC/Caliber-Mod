@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:prismal_bricks_remnants"
+  },
+  "result": "chipped:prismal_brick_remnants_eighth"
+}

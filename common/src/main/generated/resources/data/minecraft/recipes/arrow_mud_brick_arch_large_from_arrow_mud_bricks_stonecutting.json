@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:arrow_mud_bricks"
+  },
+  "result": "chipped:arrow_mud_brick_arch_large"
+}

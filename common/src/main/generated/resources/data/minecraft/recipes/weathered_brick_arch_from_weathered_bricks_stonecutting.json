@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:weathered_bricks"
+  },
+  "result": "chipped:weathered_brick_arch"
+}

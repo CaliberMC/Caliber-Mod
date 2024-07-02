@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:small_bricks_bricks"
+  },
+  "result": "chipped:small_brick_brick_arch_large_half"
+}

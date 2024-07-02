@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:trodden_redstone_block"
+  },
+  "result": "chipped:trodden_redstone_block_layer_vertical"
+}

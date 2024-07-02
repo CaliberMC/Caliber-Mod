@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:vertical_disordered_bricks_bricks"
+  },
+  "result": "chipped:vertical_disordered_brick_brick_wall"
+}

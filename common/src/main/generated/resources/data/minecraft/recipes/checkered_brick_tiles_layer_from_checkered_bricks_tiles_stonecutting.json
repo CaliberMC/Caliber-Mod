@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:checkered_bricks_tiles"
+  },
+  "result": "chipped:checkered_brick_tiles_layer"
+}

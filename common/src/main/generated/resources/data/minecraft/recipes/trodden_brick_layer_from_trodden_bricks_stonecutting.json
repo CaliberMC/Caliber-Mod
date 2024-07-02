@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:trodden_bricks"
+  },
+  "result": "chipped:trodden_brick_layer"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:smooth_inlayed_bricks"
+  },
+  "result": "chipped:smooth_inlayed_brick_arch"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:mud_bricks_pillar"
+  },
+  "result": "chipped:mud_brick_pillar_wall"
+}

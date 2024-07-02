@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:rough_panelled_mud_bricks"
+  },
+  "result": "chipped:rough_panelled_mud_brick_pillar"
+}

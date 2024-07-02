@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:thick_inlayed_mud_brick_layer_vertical_from_thick_inlayed_mud_bricks_layer_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_thick_inlayed_mud_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:thick_inlayed_mud_bricks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_thick_inlayed_mud_bricks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:thick_inlayed_mud_brick_layer_vertical_from_thick_inlayed_mud_bricks_layer_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:pancake_mud_brick_layer_vertical"
+  },
+  "result": "chipped:pancake_mud_brick_layer"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:cut_blank_mud_bricks"
+  },
+  "result": "chipped:cut_blank_mud_brick_window"
+}

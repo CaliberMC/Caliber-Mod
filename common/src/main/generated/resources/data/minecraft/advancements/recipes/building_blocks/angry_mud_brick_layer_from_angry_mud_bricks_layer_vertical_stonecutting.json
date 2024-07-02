@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_angry_mud_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:angry_mud_bricks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:angry_mud_brick_layer_from_angry_mud_bricks_layer_vertical_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_angry_mud_bricks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:angry_mud_brick_layer_from_angry_mud_bricks_layer_vertical_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

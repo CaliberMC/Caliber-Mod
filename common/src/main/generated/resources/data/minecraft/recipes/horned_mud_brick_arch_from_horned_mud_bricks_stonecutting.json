@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:horned_mud_bricks"
+  },
+  "result": "chipped:horned_mud_brick_arch"
+}

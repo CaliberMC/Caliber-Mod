@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:prismal_mud_bricks_remnants"
+  },
+  "result": "chipped:prismal_mud_brick_remnants_pillar"
+}

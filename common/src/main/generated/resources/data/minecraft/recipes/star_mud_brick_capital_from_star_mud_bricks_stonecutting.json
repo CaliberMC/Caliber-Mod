@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:star_mud_bricks"
+  },
+  "result": "chipped:star_mud_brick_capital"
+}

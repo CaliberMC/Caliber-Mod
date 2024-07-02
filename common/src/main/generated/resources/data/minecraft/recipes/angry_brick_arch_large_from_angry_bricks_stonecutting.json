@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:angry_bricks"
+  },
+  "result": "chipped:angry_brick_arch_large"
+}

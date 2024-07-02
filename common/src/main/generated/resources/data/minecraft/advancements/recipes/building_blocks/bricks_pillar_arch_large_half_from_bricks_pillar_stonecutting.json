@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bricks_pillar": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:bricks_pillar"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:bricks_pillar_arch_large_half_from_bricks_pillar_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_bricks_pillar",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:bricks_pillar_arch_large_half_from_bricks_pillar_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

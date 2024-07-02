@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:vertical_disordered_mud_brick_brick_stairs_from_vertical_disordered_mud_bricks_bricks_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_vertical_disordered_mud_bricks_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:vertical_disordered_mud_bricks_bricks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_vertical_disordered_mud_bricks_bricks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:vertical_disordered_mud_brick_brick_stairs_from_vertical_disordered_mud_bricks_bricks_shaped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

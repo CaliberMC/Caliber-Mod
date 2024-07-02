@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "chipped:fancy_chiseled_mud_bricks"
+  },
+  "result": "chipped:fancy_chiseled_mud_brick_stairs"
+}

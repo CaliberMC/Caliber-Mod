@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:spider_mud_bricks_carving"
+  },
+  "result": "chipped:spider_mud_brick_carving_layer"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:unamused_bricks"
+  },
+  "result": "chipped:unamused_brick_quarter"
+}

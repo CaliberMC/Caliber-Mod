@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:rough_redstone_block"
+  },
+  "result": "chipped:rough_redstone_block_layer"
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_spiraled_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:spiraled_bricks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:spiraled_brick_balustrade_from_spiraled_bricks_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_spiraled_bricks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:spiraled_brick_balustrade_from_spiraled_bricks_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

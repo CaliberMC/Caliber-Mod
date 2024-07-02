@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:etched_bricks_bricks"
+  },
+  "result": "chipped:etched_brick_brick_pillar"
+}

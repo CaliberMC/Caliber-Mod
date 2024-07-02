@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:smoothed_double_inlayed_mud_bricks"
+  },
+  "result": "chipped:smoothed_double_inlayed_mud_brick_balustrade"
+}

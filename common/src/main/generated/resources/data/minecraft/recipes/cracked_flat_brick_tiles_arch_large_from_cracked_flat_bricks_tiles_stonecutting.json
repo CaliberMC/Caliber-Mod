@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:cracked_flat_bricks_tiles"
+  },
+  "result": "chipped:cracked_flat_brick_tiles_arch_large"
+}

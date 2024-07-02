@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "chipped:heart_mud_bricks"
+  },
+  "result": "chipped:heart_mud_brick_arch_large_half"
+}

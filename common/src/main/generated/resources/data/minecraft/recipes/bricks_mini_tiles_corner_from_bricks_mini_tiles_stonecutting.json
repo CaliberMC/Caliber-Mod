@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 5,
+  "ingredient": {
+    "item": "chipped:bricks_mini_tiles"
+  },
+  "result": "chipped:bricks_mini_tiles_corner"
+}

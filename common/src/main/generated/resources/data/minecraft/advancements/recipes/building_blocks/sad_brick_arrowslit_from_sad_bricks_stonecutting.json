@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sad_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chipped:sad_bricks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:sad_brick_arrowslit_from_sad_bricks_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_sad_bricks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:sad_brick_arrowslit_from_sad_bricks_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

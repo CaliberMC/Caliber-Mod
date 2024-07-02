@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "chipped:stacked_mud_bricks_bricks"
+  },
+  "result": "chipped:stacked_mud_brick_brick_layer_vertical"
+}
