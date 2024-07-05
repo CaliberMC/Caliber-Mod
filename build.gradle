@@ -175,6 +175,10 @@ allprojects {
         options.release = 17
     }
 
+    tasks.withType(Jar) {
+        zip64 true
+    }
+
     java {
         withSourcesJar()
     }
@@ -194,7 +198,6 @@ allprojects {
     }
 
     jar {
-        zip64 true
         manifest {
             attributes([
                     'Specification-Title'     : mod_name,
