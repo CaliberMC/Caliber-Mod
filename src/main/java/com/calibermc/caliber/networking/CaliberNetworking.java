@@ -11,7 +11,7 @@ public class CaliberNetworking {
     private static int id = 0;
 
     public static void registerMessages() {
-        INSTANCE = NetworkRegistry.newSimpleChannel(new ResourceLocation(Caliber.MOD_ID, "network"), () -> "1.0", s -> true, s -> true);
+        INSTANCE = NetworkRegistry.newSimpleChannel(ResourceLocation.fromNamespaceAndPath(Caliber.MOD_ID, "network"), () -> "1.0", s -> true, s -> true);
         INSTANCE.registerMessage(id++, ServerPressAdditionalKey.class, ServerPressAdditionalKey::toBytes, ServerPressAdditionalKey::new, ServerPressAdditionalKey::handle);
     }
 }

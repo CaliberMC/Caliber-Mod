@@ -273,7 +273,7 @@ public class ChippedBlocks {
             }
 
             String finalS = s;
-            CHIPPED_MANAGERS.add(CaliberBlockManager.registerChipped("%s".formatted(s), properties, () -> ForgeRegistries.BLOCKS.getValue(new ResourceLocation("chipped", finalS)), variants));
+            CHIPPED_MANAGERS.add(CaliberBlockManager.registerChipped("%s".formatted(s), properties, () -> ForgeRegistries.BLOCKS.getValue(ResourceLocation.fromNamespaceAndPath("chipped", finalS)), variants));
         }
     }
 

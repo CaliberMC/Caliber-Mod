@@ -18,7 +18,7 @@ import java.util.List;
 public class JEIPlugin implements IModPlugin {
     @Override
     public ResourceLocation getPluginUid() {
-        return new ResourceLocation(Caliber.MOD_ID, "jei_plugin");
+        return ResourceLocation.fromNamespaceAndPath(Caliber.MOD_ID, "jei_plugin");
     }
 
     @Override

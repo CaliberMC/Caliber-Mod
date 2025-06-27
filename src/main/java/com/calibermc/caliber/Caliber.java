@@ -38,8 +38,8 @@ public class Caliber {
 //        return new ResourceLocation(MOD_ID, name);
 //    }
 
-    public Caliber() {
-        IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
+    public Caliber(FMLJavaModLoadingContext context) {
+        IEventBus eventBus = context.getModEventBus();
 
         CaliberItems.register(eventBus);
         CaliberBlocks.register(eventBus);
@@ -76,8 +76,8 @@ public class Caliber {
 
         eventBus.addListener(this::setup);
 
-        ModLoadingContext.get().registerConfig(ModConfig.Type.CLIENT, CaliberClientConfigs.SPEC, "calibermod-client.toml");
-        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, CaliberCommonConfigs.SPEC, "calibermod-common.toml");
+        context.registerConfig(ModConfig.Type.CLIENT, CaliberClientConfigs.SPEC, "calibermod-client.toml");
+        context.registerConfig(ModConfig.Type.COMMON, CaliberCommonConfigs.SPEC, "calibermod-common.toml");
 
         MinecraftForge.EVENT_BUS.register(this);
     }

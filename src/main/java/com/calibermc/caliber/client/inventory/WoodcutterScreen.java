@@ -19,7 +19,7 @@ import java.util.List;
 
 @OnlyIn(Dist.CLIENT)
 public class WoodcutterScreen extends AbstractContainerScreen<WoodcutterMenu> {
-    private static final ResourceLocation BG_LOCATION = new ResourceLocation("textures/gui/container/stonecutter.png");
+    private static final ResourceLocation BG_LOCATION = ResourceLocation.withDefaultNamespace("textures/gui/container/stonecutter.png");
     private float scrollOffs;
     /**
      * Is {@code true} if the player clicked on the scroll wheel in the GUI.

@@ -73,7 +73,7 @@ public class CreateBlocks {
                 s = s + "_pillar";
             }
             String finalS = s;
-            CREATE_MANAGERS.add(CaliberBlockManager.registerCreate("%s".formatted(s), properties, () -> ForgeRegistries.BLOCKS.getValue(new ResourceLocation("create", finalS)), variants));
+            CREATE_MANAGERS.add(CaliberBlockManager.registerCreate("%s".formatted(s), properties, () -> ForgeRegistries.BLOCKS.getValue(ResourceLocation.fromNamespaceAndPath("create", finalS)), variants));
         }
     }
 

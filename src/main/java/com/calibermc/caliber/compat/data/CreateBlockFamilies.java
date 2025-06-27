@@ -30,9 +30,9 @@ public class CreateBlockFamilies {
                 if (name.contains("bricks")) {
                     name = name.replace("bricks", "brick");
                 }
-                builder.slab(ForgeRegistries.BLOCKS.getValue(new ResourceLocation("create", name + "_slab")));
-                builder.stairs(ForgeRegistries.BLOCKS.getValue(new ResourceLocation("create", name + "_stairs")));
-                builder.wall(ForgeRegistries.BLOCKS.getValue(new ResourceLocation("create", name + "_wall")));
+                builder.slab(ForgeRegistries.BLOCKS.getValue(ResourceLocation.fromNamespaceAndPath("create", name + "_slab")));
+                builder.stairs(ForgeRegistries.BLOCKS.getValue(ResourceLocation.fromNamespaceAndPath("create", name + "_stairs")));
+                builder.wall(ForgeRegistries.BLOCKS.getValue(ResourceLocation.fromNamespaceAndPath("create", name + "_wall")));
             }
             builder.getFamily();
         }

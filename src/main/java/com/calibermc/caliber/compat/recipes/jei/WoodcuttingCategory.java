@@ -17,8 +17,8 @@ import net.minecraft.world.item.ItemStack;
 
 public class WoodcuttingCategory implements IRecipeCategory<WoodcutterRecipe> {
 
-    public static final ResourceLocation UID = new ResourceLocation(Caliber.MOD_ID, "woodcutting");
-    private static final ResourceLocation TEXTURE = new ResourceLocation("textures/gui/container/stonecutter.png");
+    public static final ResourceLocation UID = ResourceLocation.fromNamespaceAndPath(Caliber.MOD_ID, "woodcutting");
+    private static final ResourceLocation TEXTURE = ResourceLocation.withDefaultNamespace("textures/gui/container/stonecutter.png");
 
     public static final RecipeType<WoodcutterRecipe> WOODCUTTING_TYPE = new RecipeType<>(UID,WoodcutterRecipe.class);
 
