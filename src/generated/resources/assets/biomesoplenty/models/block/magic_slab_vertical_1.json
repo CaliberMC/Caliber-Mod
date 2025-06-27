@@ -1,0 +1,8 @@
+{
+  "parent": "caliberlib:block/templates/slab_vertical",
+  "textures": {
+    "bottom": "biomesoplenty:block/magic_planks",
+    "side": "biomesoplenty:block/magic_planks",
+    "top": "biomesoplenty:block/magic_planks"
+  }
+}

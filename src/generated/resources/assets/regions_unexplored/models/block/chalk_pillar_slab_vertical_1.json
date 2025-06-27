@@ -1,0 +1,8 @@
+{
+  "parent": "caliberlib:block/templates/slab_vertical",
+  "textures": {
+    "bottom": "regions_unexplored:block/chalk_pillar_top",
+    "side": "regions_unexplored:block/chalk_pillar",
+    "top": "regions_unexplored:block/chalk_pillar_top"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=east,waterlogged=false": {
+      "model": "biomesoplenty:block/cut_orange_sandstone_slab_vertical_1"
+    },
+    "facing=east,waterlogged=true": {
+      "model": "biomesoplenty:block/cut_orange_sandstone_slab_vertical_1"
+    },
+    "facing=north,waterlogged=false": {
+      "model": "biomesoplenty:block/cut_orange_sandstone_slab_vertical_1"
+    },
+    "facing=north,waterlogged=true": {
+      "model": "biomesoplenty:block/cut_orange_sandstone_slab_vertical_1"
+    },
+    "facing=south,waterlogged=false": {
+      "model": "biomesoplenty:block/cut_orange_sandstone_slab_vertical_1"
+    },
+    "facing=south,waterlogged=true": {
+      "model": "biomesoplenty:block/cut_orange_sandstone_slab_vertical_1"
+    },
+    "facing=west,waterlogged=false": {
+      "model": "biomesoplenty:block/cut_orange_sandstone_slab_vertical_1"
+    },
+    "facing=west,waterlogged=true": {
+      "model": "biomesoplenty:block/cut_orange_sandstone_slab_vertical_1"
+    }
+  }
+}

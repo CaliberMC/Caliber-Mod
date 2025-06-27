@@ -1,0 +1,8 @@
+{
+  "parent": "caliberlib:block/templates/slab_vertical",
+  "textures": {
+    "bottom": "minecraft:block/chiseled_stone_bricks",
+    "side": "minecraft:block/chiseled_stone_bricks",
+    "top": "minecraft:block/chiseled_stone_bricks"
+  }
+}

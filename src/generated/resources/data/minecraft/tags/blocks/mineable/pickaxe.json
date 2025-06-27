@@ -16,6 +16,7 @@
     "caliber:andesite_pillar",
     "caliber:andesite_quarter",
     "caliber:andesite_quarter_vertical",
+    "caliber:andesite_slab_vertical",
     "caliber:andesite_window",
     "caliber:andesite_window_half",
     "caliber:basalt_arch",
@@ -35,6 +36,7 @@
     "caliber:basalt_quarter",
     "caliber:basalt_quarter_vertical",
     "caliber:basalt_slab",
+    "caliber:basalt_slab_vertical",
     "caliber:basalt_stairs",
     "caliber:basalt_wall",
     "caliber:basalt_window",
@@ -60,6 +62,7 @@
     "caliber:black_terracotta_roof_67",
     "caliber:black_terracotta_roof_peak",
     "caliber:black_terracotta_slab",
+    "caliber:black_terracotta_slab_vertical",
     "caliber:black_terracotta_stairs",
     "caliber:black_terracotta_wall",
     "caliber:black_terracotta_window",
@@ -80,6 +83,7 @@
     "caliber:blackstone_pillar",
     "caliber:blackstone_quarter",
     "caliber:blackstone_quarter_vertical",
+    "caliber:blackstone_slab_vertical",
     "caliber:blackstone_window",
     "caliber:blackstone_window_half",
     "caliber:blue_terracotta_arch",
@@ -103,6 +107,7 @@
     "caliber:blue_terracotta_roof_67",
     "caliber:blue_terracotta_roof_peak",
     "caliber:blue_terracotta_slab",
+    "caliber:blue_terracotta_slab_vertical",
     "caliber:blue_terracotta_stairs",
     "caliber:blue_terracotta_wall",
     "caliber:blue_terracotta_window",
@@ -123,6 +128,7 @@
     "caliber:brick_pillar",
     "caliber:brick_quarter",
     "caliber:brick_quarter_vertical",
+    "caliber:brick_slab_vertical",
     "caliber:brick_window",
     "caliber:brick_window_half",
     "caliber:brown_terracotta_arch",
@@ -146,6 +152,7 @@
     "caliber:brown_terracotta_roof_67",
     "caliber:brown_terracotta_roof_peak",
     "caliber:brown_terracotta_slab",
+    "caliber:brown_terracotta_slab_vertical",
     "caliber:brown_terracotta_stairs",
     "caliber:brown_terracotta_wall",
     "caliber:brown_terracotta_window",
@@ -167,6 +174,7 @@
     "caliber:calcite_quarter",
     "caliber:calcite_quarter_vertical",
     "caliber:calcite_slab",
+    "caliber:calcite_slab_vertical",
     "caliber:calcite_stairs",
     "caliber:calcite_wall",
     "caliber:calcite_window",
@@ -188,6 +196,7 @@
     "caliber:chiseled_deepslate_quarter",
     "caliber:chiseled_deepslate_quarter_vertical",
     "caliber:chiseled_deepslate_slab",
+    "caliber:chiseled_deepslate_slab_vertical",
     "caliber:chiseled_deepslate_stairs",
     "caliber:chiseled_deepslate_wall",
     "caliber:chiseled_deepslate_window",
@@ -209,6 +218,7 @@
     "caliber:chiseled_polished_blackstone_quarter",
     "caliber:chiseled_polished_blackstone_quarter_vertical",
     "caliber:chiseled_polished_blackstone_slab",
+    "caliber:chiseled_polished_blackstone_slab_vertical",
     "caliber:chiseled_polished_blackstone_stairs",
     "caliber:chiseled_polished_blackstone_wall",
     "caliber:chiseled_polished_blackstone_window",
@@ -230,6 +240,7 @@
     "caliber:chiseled_red_sandstone_quarter",
     "caliber:chiseled_red_sandstone_quarter_vertical",
     "caliber:chiseled_red_sandstone_slab",
+    "caliber:chiseled_red_sandstone_slab_vertical",
     "caliber:chiseled_red_sandstone_stairs",
     "caliber:chiseled_red_sandstone_wall",
     "caliber:chiseled_red_sandstone_window",
@@ -251,6 +262,7 @@
     "caliber:chiseled_sandstone_quarter",
     "caliber:chiseled_sandstone_quarter_vertical",
     "caliber:chiseled_sandstone_slab",
+    "caliber:chiseled_sandstone_slab_vertical",
     "caliber:chiseled_sandstone_stairs",
     "caliber:chiseled_sandstone_wall",
     "caliber:chiseled_sandstone_window",
@@ -272,6 +284,7 @@
     "caliber:chiseled_stone_brick_quarter",
     "caliber:chiseled_stone_brick_quarter_vertical",
     "caliber:chiseled_stone_brick_slab",
+    "caliber:chiseled_stone_brick_slab_vertical",
     "caliber:chiseled_stone_brick_stairs",
     "caliber:chiseled_stone_brick_wall",
     "caliber:chiseled_stone_brick_window",
@@ -292,6 +305,7 @@
     "caliber:cobbled_deepslate_pillar",
     "caliber:cobbled_deepslate_quarter",
     "caliber:cobbled_deepslate_quarter_vertical",
+    "caliber:cobbled_deepslate_slab_vertical",
     "caliber:cobbled_deepslate_window",
     "caliber:cobbled_deepslate_window_half",
     "caliber:cobblestone_arch",
@@ -310,6 +324,7 @@
     "caliber:cobblestone_pillar",
     "caliber:cobblestone_quarter",
     "caliber:cobblestone_quarter_vertical",
+    "caliber:cobblestone_slab_vertical",
     "caliber:cobblestone_window",
     "caliber:cobblestone_window_half",
     "caliber:cracked_deepslate_brick_arch",
@@ -329,6 +344,7 @@
     "caliber:cracked_deepslate_brick_quarter",
     "caliber:cracked_deepslate_brick_quarter_vertical",
     "caliber:cracked_deepslate_brick_slab",
+    "caliber:cracked_deepslate_brick_slab_vertical",
     "caliber:cracked_deepslate_brick_stairs",
     "caliber:cracked_deepslate_brick_wall",
     "caliber:cracked_deepslate_brick_window",
@@ -350,6 +366,7 @@
     "caliber:cracked_deepslate_tile_quarter",
     "caliber:cracked_deepslate_tile_quarter_vertical",
     "caliber:cracked_deepslate_tile_slab",
+    "caliber:cracked_deepslate_tile_slab_vertical",
     "caliber:cracked_deepslate_tile_stairs",
     "caliber:cracked_deepslate_tile_wall",
     "caliber:cracked_deepslate_tile_window",
@@ -371,6 +388,7 @@
     "caliber:cracked_polished_blackstone_brick_quarter",
     "caliber:cracked_polished_blackstone_brick_quarter_vertical",
     "caliber:cracked_polished_blackstone_brick_slab",
+    "caliber:cracked_polished_blackstone_brick_slab_vertical",
     "caliber:cracked_polished_blackstone_brick_stairs",
     "caliber:cracked_polished_blackstone_brick_wall",
     "caliber:cracked_polished_blackstone_brick_window",
@@ -392,6 +410,7 @@
     "caliber:cracked_stone_brick_quarter",
     "caliber:cracked_stone_brick_quarter_vertical",
     "caliber:cracked_stone_brick_slab",
+    "caliber:cracked_stone_brick_slab_vertical",
     "caliber:cracked_stone_brick_stairs",
     "caliber:cracked_stone_brick_wall",
     "caliber:cracked_stone_brick_window",
@@ -412,6 +431,7 @@
     "caliber:cut_red_sandstone_pillar",
     "caliber:cut_red_sandstone_quarter",
     "caliber:cut_red_sandstone_quarter_vertical",
+    "caliber:cut_red_sandstone_slab_vertical",
     "caliber:cut_red_sandstone_stairs",
     "caliber:cut_red_sandstone_wall",
     "caliber:cut_red_sandstone_window",
@@ -432,6 +452,7 @@
     "caliber:cut_sandstone_pillar",
     "caliber:cut_sandstone_quarter",
     "caliber:cut_sandstone_quarter_vertical",
+    "caliber:cut_sandstone_slab_vertical",
     "caliber:cut_sandstone_stairs",
     "caliber:cut_sandstone_wall",
     "caliber:cut_sandstone_window",
@@ -457,6 +478,7 @@
     "caliber:cyan_terracotta_roof_67",
     "caliber:cyan_terracotta_roof_peak",
     "caliber:cyan_terracotta_slab",
+    "caliber:cyan_terracotta_slab_vertical",
     "caliber:cyan_terracotta_stairs",
     "caliber:cyan_terracotta_wall",
     "caliber:cyan_terracotta_window",
@@ -477,6 +499,7 @@
     "caliber:dark_prismarine_pillar",
     "caliber:dark_prismarine_quarter",
     "caliber:dark_prismarine_quarter_vertical",
+    "caliber:dark_prismarine_slab_vertical",
     "caliber:dark_prismarine_wall",
     "caliber:dark_prismarine_window",
     "caliber:dark_prismarine_window_half",
@@ -497,6 +520,7 @@
     "caliber:deepslate_quarter",
     "caliber:deepslate_quarter_vertical",
     "caliber:deepslate_slab",
+    "caliber:deepslate_slab_vertical",
     "caliber:deepslate_stairs",
     "caliber:deepslate_wall",
     "caliber:deepslate_window",
@@ -517,6 +541,7 @@
     "caliber:deepslate_brick_pillar",
     "caliber:deepslate_brick_quarter",
     "caliber:deepslate_brick_quarter_vertical",
+    "caliber:deepslate_brick_slab_vertical",
     "caliber:deepslate_brick_window",
     "caliber:deepslate_brick_window_half",
     "caliber:deepslate_tile_arch",
@@ -535,6 +560,7 @@
     "caliber:deepslate_tile_pillar",
     "caliber:deepslate_tile_quarter",
     "caliber:deepslate_tile_quarter_vertical",
+    "caliber:deepslate_tile_slab_vertical",
     "caliber:deepslate_tile_window",
     "caliber:deepslate_tile_window_half",
     "caliber:diorite_arch",
@@ -553,6 +579,7 @@
     "caliber:diorite_pillar",
     "caliber:diorite_quarter",
     "caliber:diorite_quarter_vertical",
+    "caliber:diorite_slab_vertical",
     "caliber:diorite_window",
     "caliber:diorite_window_half",
     "caliber:dripstone_arch",
@@ -572,6 +599,7 @@
     "caliber:dripstone_quarter",
     "caliber:dripstone_quarter_vertical",
     "caliber:dripstone_slab",
+    "caliber:dripstone_slab_vertical",
     "caliber:dripstone_stairs",
     "caliber:dripstone_wall",
     "caliber:dripstone_window",
@@ -593,6 +621,7 @@
     "caliber:end_stone_quarter",
     "caliber:end_stone_quarter_vertical",
     "caliber:end_stone_slab",
+    "caliber:end_stone_slab_vertical",
     "caliber:end_stone_stairs",
     "caliber:end_stone_wall",
     "caliber:end_stone_window",
@@ -613,6 +642,7 @@
     "caliber:end_stone_brick_pillar",
     "caliber:end_stone_brick_quarter",
     "caliber:end_stone_brick_quarter_vertical",
+    "caliber:end_stone_brick_slab_vertical",
     "caliber:end_stone_brick_window",
     "caliber:end_stone_brick_window_half",
     "caliber:gilded_blackstone_arch",
@@ -632,6 +662,7 @@
     "caliber:gilded_blackstone_quarter",
     "caliber:gilded_blackstone_quarter_vertical",
     "caliber:gilded_blackstone_slab",
+    "caliber:gilded_blackstone_slab_vertical",
     "caliber:gilded_blackstone_stairs",
     "caliber:gilded_blackstone_wall",
     "caliber:gilded_blackstone_window",
@@ -652,6 +683,7 @@
     "caliber:granite_pillar",
     "caliber:granite_quarter",
     "caliber:granite_quarter_vertical",
+    "caliber:granite_slab_vertical",
     "caliber:granite_window",
     "caliber:granite_window_half",
     "caliber:gray_terracotta_arch",
@@ -675,6 +707,7 @@
     "caliber:gray_terracotta_roof_67",
     "caliber:gray_terracotta_roof_peak",
     "caliber:gray_terracotta_slab",
+    "caliber:gray_terracotta_slab_vertical",
     "caliber:gray_terracotta_stairs",
     "caliber:gray_terracotta_wall",
     "caliber:gray_terracotta_window",
@@ -700,6 +733,7 @@
     "caliber:green_terracotta_roof_67",
     "caliber:green_terracotta_roof_peak",
     "caliber:green_terracotta_slab",
+    "caliber:green_terracotta_slab_vertical",
     "caliber:green_terracotta_stairs",
     "caliber:green_terracotta_wall",
     "caliber:green_terracotta_window",
@@ -725,6 +759,7 @@
     "caliber:light_blue_terracotta_roof_67",
     "caliber:light_blue_terracotta_roof_peak",
     "caliber:light_blue_terracotta_slab",
+    "caliber:light_blue_terracotta_slab_vertical",
     "caliber:light_blue_terracotta_stairs",
     "caliber:light_blue_terracotta_wall",
     "caliber:light_blue_terracotta_window",
@@ -750,6 +785,7 @@
     "caliber:light_gray_terracotta_roof_67",
     "caliber:light_gray_terracotta_roof_peak",
     "caliber:light_gray_terracotta_slab",
+    "caliber:light_gray_terracotta_slab_vertical",
     "caliber:light_gray_terracotta_stairs",
     "caliber:light_gray_terracotta_wall",
     "caliber:light_gray_terracotta_window",
@@ -775,6 +811,7 @@
     "caliber:lime_terracotta_roof_67",
     "caliber:lime_terracotta_roof_peak",
     "caliber:lime_terracotta_slab",
+    "caliber:lime_terracotta_slab_vertical",
     "caliber:lime_terracotta_stairs",
     "caliber:lime_terracotta_wall",
     "caliber:lime_terracotta_window",
@@ -800,6 +837,7 @@
     "caliber:magenta_terracotta_roof_67",
     "caliber:magenta_terracotta_roof_peak",
     "caliber:magenta_terracotta_slab",
+    "caliber:magenta_terracotta_slab_vertical",
     "caliber:magenta_terracotta_stairs",
     "caliber:magenta_terracotta_wall",
     "caliber:magenta_terracotta_window",
@@ -820,6 +858,7 @@
     "caliber:mossy_cobblestone_pillar",
     "caliber:mossy_cobblestone_quarter",
     "caliber:mossy_cobblestone_quarter_vertical",
+    "caliber:mossy_cobblestone_slab_vertical",
     "caliber:mossy_cobblestone_window",
     "caliber:mossy_cobblestone_window_half",
     "caliber:mossy_stone_brick_arch",
@@ -838,6 +877,7 @@
     "caliber:mossy_stone_brick_pillar",
     "caliber:mossy_stone_brick_quarter",
     "caliber:mossy_stone_brick_quarter_vertical",
+    "caliber:mossy_stone_brick_slab_vertical",
     "caliber:mossy_stone_brick_window",
     "caliber:mossy_stone_brick_window_half",
     "caliber:mud_brick_arch",
@@ -856,6 +896,7 @@
     "caliber:mud_brick_pillar",
     "caliber:mud_brick_quarter",
     "caliber:mud_brick_quarter_vertical",
+    "caliber:mud_brick_slab_vertical",
     "caliber:mud_brick_window",
     "caliber:mud_brick_window_half",
     "caliber:nether_brick_arch",
@@ -874,6 +915,7 @@
     "caliber:nether_brick_pillar",
     "caliber:nether_brick_quarter",
     "caliber:nether_brick_quarter_vertical",
+    "caliber:nether_brick_slab_vertical",
     "caliber:nether_brick_window",
     "caliber:nether_brick_window_half",
     "caliber:netherite_arch",
@@ -893,6 +935,7 @@
     "caliber:netherite_quarter",
     "caliber:netherite_quarter_vertical",
     "caliber:netherite_slab",
+    "caliber:netherite_slab_vertical",
     "caliber:netherite_stairs",
     "caliber:netherite_wall",
     "caliber:netherite_window",
@@ -914,6 +957,7 @@
     "caliber:obsidian_quarter",
     "caliber:obsidian_quarter_vertical",
     "caliber:obsidian_slab",
+    "caliber:obsidian_slab_vertical",
     "caliber:obsidian_stairs",
     "caliber:obsidian_wall",
     "caliber:obsidian_window",
@@ -939,6 +983,7 @@
     "caliber:orange_terracotta_roof_67",
     "caliber:orange_terracotta_roof_peak",
     "caliber:orange_terracotta_slab",
+    "caliber:orange_terracotta_slab_vertical",
     "caliber:orange_terracotta_stairs",
     "caliber:orange_terracotta_wall",
     "caliber:orange_terracotta_window",
@@ -964,6 +1009,7 @@
     "caliber:pink_terracotta_roof_67",
     "caliber:pink_terracotta_roof_peak",
     "caliber:pink_terracotta_slab",
+    "caliber:pink_terracotta_slab_vertical",
     "caliber:pink_terracotta_stairs",
     "caliber:pink_terracotta_wall",
     "caliber:pink_terracotta_window",
@@ -984,6 +1030,7 @@
     "caliber:polished_andesite_pillar",
     "caliber:polished_andesite_quarter",
     "caliber:polished_andesite_quarter_vertical",
+    "caliber:polished_andesite_slab_vertical",
     "caliber:polished_andesite_wall",
     "caliber:polished_andesite_window",
     "caliber:polished_andesite_window_half",
@@ -1004,6 +1051,7 @@
     "caliber:polished_basalt_quarter",
     "caliber:polished_basalt_quarter_vertical",
     "caliber:polished_basalt_slab",
+    "caliber:polished_basalt_slab_vertical",
     "caliber:polished_basalt_stairs",
     "caliber:polished_basalt_wall",
     "caliber:polished_basalt_window",
@@ -1024,6 +1072,7 @@
     "caliber:polished_blackstone_pillar",
     "caliber:polished_blackstone_quarter",
     "caliber:polished_blackstone_quarter_vertical",
+    "caliber:polished_blackstone_slab_vertical",
     "caliber:polished_blackstone_window",
     "caliber:polished_blackstone_window_half",
     "caliber:polished_blackstone_brick_arch",
@@ -1042,6 +1091,7 @@
     "caliber:polished_blackstone_brick_pillar",
     "caliber:polished_blackstone_brick_quarter",
     "caliber:polished_blackstone_brick_quarter_vertical",
+    "caliber:polished_blackstone_brick_slab_vertical",
     "caliber:polished_blackstone_brick_window",
     "caliber:polished_blackstone_brick_window_half",
     "caliber:polished_deepslate_arch",
@@ -1060,6 +1110,7 @@
     "caliber:polished_deepslate_pillar",
     "caliber:polished_deepslate_quarter",
     "caliber:polished_deepslate_quarter_vertical",
+    "caliber:polished_deepslate_slab_vertical",
     "caliber:polished_deepslate_window",
     "caliber:polished_deepslate_window_half",
     "caliber:polished_diorite_arch",
@@ -1078,6 +1129,7 @@
     "caliber:polished_diorite_pillar",
     "caliber:polished_diorite_quarter",
     "caliber:polished_diorite_quarter_vertical",
+    "caliber:polished_diorite_slab_vertical",
     "caliber:polished_diorite_wall",
     "caliber:polished_diorite_window",
     "caliber:polished_diorite_window_half",
@@ -1097,6 +1149,7 @@
     "caliber:polished_granite_pillar",
     "caliber:polished_granite_quarter",
     "caliber:polished_granite_quarter_vertical",
+    "caliber:polished_granite_slab_vertical",
     "caliber:polished_granite_wall",
     "caliber:polished_granite_window",
     "caliber:polished_granite_window_half",
@@ -1116,6 +1169,7 @@
     "caliber:prismarine_pillar",
     "caliber:prismarine_quarter",
     "caliber:prismarine_quarter_vertical",
+    "caliber:prismarine_slab_vertical",
     "caliber:prismarine_window",
     "caliber:prismarine_window_half",
     "caliber:prismarine_brick_arch",
@@ -1134,6 +1188,7 @@
     "caliber:prismarine_brick_pillar",
     "caliber:prismarine_brick_quarter",
     "caliber:prismarine_brick_quarter_vertical",
+    "caliber:prismarine_brick_slab_vertical",
     "caliber:prismarine_brick_wall",
     "caliber:prismarine_brick_window",
     "caliber:prismarine_brick_window_half",
@@ -1158,6 +1213,7 @@
     "caliber:purple_terracotta_roof_67",
     "caliber:purple_terracotta_roof_peak",
     "caliber:purple_terracotta_slab",
+    "caliber:purple_terracotta_slab_vertical",
     "caliber:purple_terracotta_stairs",
     "caliber:purple_terracotta_wall",
     "caliber:purple_terracotta_window",
@@ -1178,6 +1234,7 @@
     "caliber:purpur_block_pillar",
     "caliber:purpur_block_quarter",
     "caliber:purpur_block_quarter_vertical",
+    "caliber:purpur_block_slab_vertical",
     "caliber:purpur_block_wall",
     "caliber:purpur_block_window",
     "caliber:purpur_block_window_half",
@@ -1198,6 +1255,7 @@
     "caliber:purpur_pillar_quarter",
     "caliber:purpur_pillar_quarter_vertical",
     "caliber:purpur_pillar_slab",
+    "caliber:purpur_pillar_slab_vertical",
     "caliber:purpur_pillar_stairs",
     "caliber:purpur_pillar_wall",
     "caliber:purpur_pillar_window",
@@ -1218,6 +1276,7 @@
     "caliber:quartz_pillar",
     "caliber:quartz_quarter",
     "caliber:quartz_quarter_vertical",
+    "caliber:quartz_slab_vertical",
     "caliber:quartz_wall",
     "caliber:quartz_window",
     "caliber:quartz_window_half",
@@ -1238,6 +1297,7 @@
     "caliber:quartz_brick_quarter",
     "caliber:quartz_brick_quarter_vertical",
     "caliber:quartz_brick_slab",
+    "caliber:quartz_brick_slab_vertical",
     "caliber:quartz_brick_stairs",
     "caliber:quartz_brick_wall",
     "caliber:quartz_brick_window",
@@ -1258,6 +1318,7 @@
     "caliber:red_nether_brick_pillar",
     "caliber:red_nether_brick_quarter",
     "caliber:red_nether_brick_quarter_vertical",
+    "caliber:red_nether_brick_slab_vertical",
     "caliber:red_nether_brick_window",
     "caliber:red_nether_brick_window_half",
     "caliber:red_sandstone_arch",
@@ -1276,6 +1337,7 @@
     "caliber:red_sandstone_pillar",
     "caliber:red_sandstone_quarter",
     "caliber:red_sandstone_quarter_vertical",
+    "caliber:red_sandstone_slab_vertical",
     "caliber:red_sandstone_window",
     "caliber:red_sandstone_window_half",
     "caliber:red_terracotta_arch",
@@ -1299,6 +1361,7 @@
     "caliber:red_terracotta_roof_67",
     "caliber:red_terracotta_roof_peak",
     "caliber:red_terracotta_slab",
+    "caliber:red_terracotta_slab_vertical",
     "caliber:red_terracotta_stairs",
     "caliber:red_terracotta_wall",
     "caliber:red_terracotta_window",
@@ -1319,6 +1382,7 @@
     "caliber:sandstone_pillar",
     "caliber:sandstone_quarter",
     "caliber:sandstone_quarter_vertical",
+    "caliber:sandstone_slab_vertical",
     "caliber:sandstone_window",
     "caliber:sandstone_window_half",
     "caliber:slate_tile_roof_22",
@@ -1342,6 +1406,7 @@
     "caliber:smooth_basalt_quarter",
     "caliber:smooth_basalt_quarter_vertical",
     "caliber:smooth_basalt_slab",
+    "caliber:smooth_basalt_slab_vertical",
     "caliber:smooth_basalt_stairs",
     "caliber:smooth_basalt_wall",
     "caliber:smooth_basalt_window",
@@ -1362,6 +1427,7 @@
     "caliber:smooth_quartz_pillar",
     "caliber:smooth_quartz_quarter",
     "caliber:smooth_quartz_quarter_vertical",
+    "caliber:smooth_quartz_slab_vertical",
     "caliber:smooth_quartz_wall",
     "caliber:smooth_quartz_window",
     "caliber:smooth_quartz_window_half",
@@ -1381,6 +1447,7 @@
     "caliber:smooth_red_sandstone_pillar",
     "caliber:smooth_red_sandstone_quarter",
     "caliber:smooth_red_sandstone_quarter_vertical",
+    "caliber:smooth_red_sandstone_slab_vertical",
     "caliber:smooth_red_sandstone_wall",
     "caliber:smooth_red_sandstone_window",
     "caliber:smooth_red_sandstone_window_half",
@@ -1400,6 +1467,7 @@
     "caliber:smooth_sandstone_pillar",
     "caliber:smooth_sandstone_quarter",
     "caliber:smooth_sandstone_quarter_vertical",
+    "caliber:smooth_sandstone_slab_vertical",
     "caliber:smooth_sandstone_wall",
     "caliber:smooth_sandstone_window",
     "caliber:smooth_sandstone_window_half",
@@ -1420,6 +1488,7 @@
     "caliber:smooth_stone_quarter",
     "caliber:smooth_stone_quarter_vertical",
     "caliber:smooth_stone_slab",
+    "caliber:smooth_stone_slab_vertical",
     "caliber:smooth_stone_stairs",
     "caliber:smooth_stone_wall",
     "caliber:smooth_stone_window",
@@ -1440,6 +1509,7 @@
     "caliber:stone_pillar",
     "caliber:stone_quarter",
     "caliber:stone_quarter_vertical",
+    "caliber:stone_slab_vertical",
     "caliber:stone_wall",
     "caliber:stone_window",
     "caliber:stone_window_half",
@@ -1459,6 +1529,7 @@
     "caliber:stone_brick_pillar",
     "caliber:stone_brick_quarter",
     "caliber:stone_brick_quarter_vertical",
+    "caliber:stone_brick_slab_vertical",
     "caliber:stone_brick_window",
     "caliber:stone_brick_window_half",
     "caliber:stripped_warped_balustrade",
@@ -1480,6 +1551,7 @@
     "caliber:stripped_warped_quarter",
     "caliber:stripped_warped_quarter_vertical",
     "caliber:stripped_warped_slab",
+    "caliber:stripped_warped_slab_vertical",
     "caliber:stripped_warped_stairs",
     "caliber:stripped_warped_wall",
     "caliber:stripped_warped_window",
@@ -1505,6 +1577,7 @@
     "caliber:terracotta_roof_67",
     "caliber:terracotta_roof_peak",
     "caliber:terracotta_slab",
+    "caliber:terracotta_slab_vertical",
     "caliber:terracotta_stairs",
     "caliber:terracotta_wall",
     "caliber:terracotta_window",
@@ -1526,6 +1599,7 @@
     "caliber:tuff_quarter",
     "caliber:tuff_quarter_vertical",
     "caliber:tuff_slab",
+    "caliber:tuff_slab_vertical",
     "caliber:tuff_stairs",
     "caliber:tuff_wall",
     "caliber:tuff_window",
@@ -1541,6 +1615,7 @@
     "caliber:warped_pillar",
     "caliber:warped_quarter",
     "caliber:warped_quarter_vertical",
+    "caliber:warped_slab_vertical",
     "caliber:warped_tall_door",
     "caliber:warped_wall",
     "caliber:warped_window",
@@ -1570,6 +1645,7 @@
     "caliber:white_terracotta_roof_67",
     "caliber:white_terracotta_roof_peak",
     "caliber:white_terracotta_slab",
+    "caliber:white_terracotta_slab_vertical",
     "caliber:white_terracotta_stairs",
     "caliber:white_terracotta_wall",
     "caliber:white_terracotta_window",
@@ -1595,6 +1671,7 @@
     "caliber:yellow_terracotta_roof_67",
     "caliber:yellow_terracotta_roof_peak",
     "caliber:yellow_terracotta_slab",
+    "caliber:yellow_terracotta_slab_vertical",
     "caliber:yellow_terracotta_stairs",
     "caliber:yellow_terracotta_wall",
     "caliber:yellow_terracotta_window",
@@ -1661,6 +1738,10 @@
     },
     {
       "id": "biomesoplenty:black_sandstone_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:black_sandstone_slab_vertical",
       "required": false
     },
     {
@@ -1737,6 +1818,10 @@
     },
     {
       "id": "biomesoplenty:brimstone_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:brimstone_slab_vertical",
       "required": false
     },
     {
@@ -1820,6 +1905,10 @@
       "required": false
     },
     {
+      "id": "biomesoplenty:brimstone_brick_slab_vertical",
+      "required": false
+    },
+    {
       "id": "biomesoplenty:brimstone_brick_window",
       "required": false
     },
@@ -1893,6 +1982,10 @@
     },
     {
       "id": "biomesoplenty:chiseled_black_sandstone_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_black_sandstone_slab_vertical",
       "required": false
     },
     {
@@ -1980,6 +2073,10 @@
       "required": false
     },
     {
+      "id": "biomesoplenty:chiseled_brimstone_brick_slab_vertical",
+      "required": false
+    },
+    {
       "id": "biomesoplenty:chiseled_brimstone_brick_stairs",
       "required": false
     },
@@ -2061,6 +2158,10 @@
     },
     {
       "id": "biomesoplenty:chiseled_orange_sandstone_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_orange_sandstone_slab_vertical",
       "required": false
     },
     {
@@ -2148,6 +2249,10 @@
       "required": false
     },
     {
+      "id": "biomesoplenty:chiseled_white_sandstone_slab_vertical",
+      "required": false
+    },
+    {
       "id": "biomesoplenty:chiseled_white_sandstone_stairs",
       "required": false
     },
@@ -2225,6 +2330,10 @@
     },
     {
       "id": "biomesoplenty:cut_black_sandstone_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_black_sandstone_slab_vertical",
       "required": false
     },
     {
@@ -2308,6 +2417,10 @@
       "required": false
     },
     {
+      "id": "biomesoplenty:cut_orange_sandstone_slab_vertical",
+      "required": false
+    },
+    {
       "id": "biomesoplenty:cut_orange_sandstone_stairs",
       "required": false
     },
@@ -2385,6 +2498,10 @@
     },
     {
       "id": "biomesoplenty:cut_white_sandstone_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_white_sandstone_slab_vertical",
       "required": false
     },
     {
@@ -2468,6 +2585,10 @@
       "required": false
     },
     {
+      "id": "biomesoplenty:smooth_black_sandstone_slab_vertical",
+      "required": false
+    },
+    {
       "id": "biomesoplenty:smooth_black_sandstone_wall",
       "required": false
     },
@@ -2544,6 +2665,10 @@
       "required": false
     },
     {
+      "id": "biomesoplenty:smooth_orange_sandstone_slab_vertical",
+      "required": false
+    },
+    {
       "id": "biomesoplenty:smooth_orange_sandstone_wall",
       "required": false
     },
@@ -2617,6 +2742,10 @@
     },
     {
       "id": "biomesoplenty:smooth_white_sandstone_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_white_sandstone_slab_vertical",
       "required": false
     },
     {
@@ -2697,6 +2826,10 @@
     },
     {
       "id": "create:asurine_block_slab",
+      "required": false
+    },
+    {
+      "id": "create:asurine_block_slab_vertical",
       "required": false
     },
     {
@@ -2784,6 +2917,10 @@
       "required": false
     },
     {
+      "id": "create:crimsite_block_slab_vertical",
+      "required": false
+    },
+    {
       "id": "create:crimsite_block_stairs",
       "required": false
     },
@@ -2864,6 +3001,10 @@
       "required": false
     },
     {
+      "id": "create:cut_andesite_slab_vertical",
+      "required": false
+    },
+    {
       "id": "create:cut_andesite_window",
       "required": false
     },
@@ -2933,6 +3074,10 @@
     },
     {
       "id": "create:cut_andesite_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_andesite_brick_slab_vertical",
       "required": false
     },
     {
@@ -3008,6 +3153,10 @@
       "required": false
     },
     {
+      "id": "create:cut_asurine_slab_vertical",
+      "required": false
+    },
+    {
       "id": "create:cut_asurine_window",
       "required": false
     },
@@ -3077,6 +3226,10 @@
     },
     {
       "id": "create:cut_asurine_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_asurine_brick_slab_vertical",
       "required": false
     },
     {
@@ -3152,6 +3305,10 @@
       "required": false
     },
     {
+      "id": "create:cut_calcite_slab_vertical",
+      "required": false
+    },
+    {
       "id": "create:cut_calcite_window",
       "required": false
     },
@@ -3221,6 +3378,10 @@
     },
     {
       "id": "create:cut_calcite_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_calcite_brick_slab_vertical",
       "required": false
     },
     {
@@ -3296,6 +3457,10 @@
       "required": false
     },
     {
+      "id": "create:cut_crimsite_slab_vertical",
+      "required": false
+    },
+    {
       "id": "create:cut_crimsite_window",
       "required": false
     },
@@ -3365,6 +3530,10 @@
     },
     {
       "id": "create:cut_crimsite_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_crimsite_brick_slab_vertical",
       "required": false
     },
     {
@@ -3440,6 +3609,10 @@
       "required": false
     },
     {
+      "id": "create:cut_deepslate_slab_vertical",
+      "required": false
+    },
+    {
       "id": "create:cut_deepslate_window",
       "required": false
     },
@@ -3509,6 +3682,10 @@
     },
     {
       "id": "create:cut_deepslate_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_deepslate_brick_slab_vertical",
       "required": false
     },
     {
@@ -3584,6 +3761,10 @@
       "required": false
     },
     {
+      "id": "create:cut_diorite_slab_vertical",
+      "required": false
+    },
+    {
       "id": "create:cut_diorite_window",
       "required": false
     },
@@ -3653,6 +3834,10 @@
     },
     {
       "id": "create:cut_diorite_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_diorite_brick_slab_vertical",
       "required": false
     },
     {
@@ -3728,6 +3913,10 @@
       "required": false
     },
     {
+      "id": "create:cut_dripstone_slab_vertical",
+      "required": false
+    },
+    {
       "id": "create:cut_dripstone_window",
       "required": false
     },
@@ -3797,6 +3986,10 @@
     },
     {
       "id": "create:cut_dripstone_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_dripstone_brick_slab_vertical",
       "required": false
     },
     {
@@ -3872,6 +4065,10 @@
       "required": false
     },
     {
+      "id": "create:cut_granite_slab_vertical",
+      "required": false
+    },
+    {
       "id": "create:cut_granite_window",
       "required": false
     },
@@ -3941,6 +4138,10 @@
     },
     {
       "id": "create:cut_granite_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_granite_brick_slab_vertical",
       "required": false
     },
     {
@@ -4016,6 +4217,10 @@
       "required": false
     },
     {
+      "id": "create:cut_limestone_slab_vertical",
+      "required": false
+    },
+    {
       "id": "create:cut_limestone_window",
       "required": false
     },
@@ -4085,6 +4290,10 @@
     },
     {
       "id": "create:cut_limestone_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_limestone_brick_slab_vertical",
       "required": false
     },
     {
@@ -4160,6 +4369,10 @@
       "required": false
     },
     {
+      "id": "create:cut_ochrum_slab_vertical",
+      "required": false
+    },
+    {
       "id": "create:cut_ochrum_window",
       "required": false
     },
@@ -4229,6 +4442,10 @@
     },
     {
       "id": "create:cut_ochrum_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_ochrum_brick_slab_vertical",
       "required": false
     },
     {
@@ -4304,6 +4521,10 @@
       "required": false
     },
     {
+      "id": "create:cut_scorchia_slab_vertical",
+      "required": false
+    },
+    {
       "id": "create:cut_scorchia_window",
       "required": false
     },
@@ -4373,6 +4594,10 @@
     },
     {
       "id": "create:cut_scorchia_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_scorchia_brick_slab_vertical",
       "required": false
     },
     {
@@ -4448,6 +4673,10 @@
       "required": false
     },
     {
+      "id": "create:cut_scoria_slab_vertical",
+      "required": false
+    },
+    {
       "id": "create:cut_scoria_window",
       "required": false
     },
@@ -4517,6 +4746,10 @@
     },
     {
       "id": "create:cut_scoria_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_scoria_brick_slab_vertical",
       "required": false
     },
     {
@@ -4592,6 +4825,10 @@
       "required": false
     },
     {
+      "id": "create:cut_tuff_slab_vertical",
+      "required": false
+    },
+    {
       "id": "create:cut_tuff_window",
       "required": false
     },
@@ -4661,6 +4898,10 @@
     },
     {
       "id": "create:cut_tuff_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_tuff_brick_slab_vertical",
       "required": false
     },
     {
@@ -4736,6 +4977,10 @@
       "required": false
     },
     {
+      "id": "create:cut_veridium_slab_vertical",
+      "required": false
+    },
+    {
       "id": "create:cut_veridium_window",
       "required": false
     },
@@ -4805,6 +5050,10 @@
     },
     {
       "id": "create:cut_veridium_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:cut_veridium_brick_slab_vertical",
       "required": false
     },
     {
@@ -4881,6 +5130,10 @@
     },
     {
       "id": "create:limestone_block_slab",
+      "required": false
+    },
+    {
+      "id": "create:limestone_block_slab_vertical",
       "required": false
     },
     {
@@ -4968,6 +5221,10 @@
       "required": false
     },
     {
+      "id": "create:ochrum_block_slab_vertical",
+      "required": false
+    },
+    {
       "id": "create:ochrum_block_stairs",
       "required": false
     },
@@ -5048,6 +5305,10 @@
       "required": false
     },
     {
+      "id": "create:polished_cut_andesite_slab_vertical",
+      "required": false
+    },
+    {
       "id": "create:polished_cut_andesite_window",
       "required": false
     },
@@ -5117,6 +5378,10 @@
     },
     {
       "id": "create:polished_cut_asurine_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_asurine_slab_vertical",
       "required": false
     },
     {
@@ -5192,6 +5457,10 @@
       "required": false
     },
     {
+      "id": "create:polished_cut_calcite_slab_vertical",
+      "required": false
+    },
+    {
       "id": "create:polished_cut_calcite_window",
       "required": false
     },
@@ -5261,6 +5530,10 @@
     },
     {
       "id": "create:polished_cut_crimsite_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_crimsite_slab_vertical",
       "required": false
     },
     {
@@ -5336,6 +5609,10 @@
       "required": false
     },
     {
+      "id": "create:polished_cut_deepslate_slab_vertical",
+      "required": false
+    },
+    {
       "id": "create:polished_cut_deepslate_window",
       "required": false
     },
@@ -5405,6 +5682,10 @@
     },
     {
       "id": "create:polished_cut_diorite_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_diorite_slab_vertical",
       "required": false
     },
     {
@@ -5480,6 +5761,10 @@
       "required": false
     },
     {
+      "id": "create:polished_cut_dripstone_slab_vertical",
+      "required": false
+    },
+    {
       "id": "create:polished_cut_dripstone_window",
       "required": false
     },
@@ -5549,6 +5834,10 @@
     },
     {
       "id": "create:polished_cut_granite_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_granite_slab_vertical",
       "required": false
     },
     {
@@ -5624,6 +5913,10 @@
       "required": false
     },
     {
+      "id": "create:polished_cut_limestone_slab_vertical",
+      "required": false
+    },
+    {
       "id": "create:polished_cut_limestone_window",
       "required": false
     },
@@ -5693,6 +5986,10 @@
     },
     {
       "id": "create:polished_cut_ochrum_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_ochrum_slab_vertical",
       "required": false
     },
     {
@@ -5768,6 +6065,10 @@
       "required": false
     },
     {
+      "id": "create:polished_cut_scorchia_slab_vertical",
+      "required": false
+    },
+    {
       "id": "create:polished_cut_scorchia_window",
       "required": false
     },
@@ -5837,6 +6138,10 @@
     },
     {
       "id": "create:polished_cut_scoria_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_scoria_slab_vertical",
       "required": false
     },
     {
@@ -5912,6 +6217,10 @@
       "required": false
     },
     {
+      "id": "create:polished_cut_tuff_slab_vertical",
+      "required": false
+    },
+    {
       "id": "create:polished_cut_tuff_window",
       "required": false
     },
@@ -5981,6 +6290,10 @@
     },
     {
       "id": "create:polished_cut_veridium_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:polished_cut_veridium_slab_vertical",
       "required": false
     },
     {
@@ -6057,6 +6370,10 @@
     },
     {
       "id": "create:scorchia_block_slab",
+      "required": false
+    },
+    {
+      "id": "create:scorchia_block_slab_vertical",
       "required": false
     },
     {
@@ -6144,6 +6461,10 @@
       "required": false
     },
     {
+      "id": "create:scoria_block_slab_vertical",
+      "required": false
+    },
+    {
       "id": "create:scoria_block_stairs",
       "required": false
     },
@@ -6224,6 +6545,10 @@
       "required": false
     },
     {
+      "id": "create:small_andesite_brick_slab_vertical",
+      "required": false
+    },
+    {
       "id": "create:small_andesite_brick_window",
       "required": false
     },
@@ -6293,6 +6618,10 @@
     },
     {
       "id": "create:small_asurine_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_asurine_brick_slab_vertical",
       "required": false
     },
     {
@@ -6368,6 +6697,10 @@
       "required": false
     },
     {
+      "id": "create:small_calcite_brick_slab_vertical",
+      "required": false
+    },
+    {
       "id": "create:small_calcite_brick_window",
       "required": false
     },
@@ -6437,6 +6770,10 @@
     },
     {
       "id": "create:small_crimsite_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_crimsite_brick_slab_vertical",
       "required": false
     },
     {
@@ -6512,6 +6849,10 @@
       "required": false
     },
     {
+      "id": "create:small_deepslate_brick_slab_vertical",
+      "required": false
+    },
+    {
       "id": "create:small_deepslate_brick_window",
       "required": false
     },
@@ -6581,6 +6922,10 @@
     },
     {
       "id": "create:small_diorite_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_diorite_brick_slab_vertical",
       "required": false
     },
     {
@@ -6656,6 +7001,10 @@
       "required": false
     },
     {
+      "id": "create:small_dripstone_brick_slab_vertical",
+      "required": false
+    },
+    {
       "id": "create:small_dripstone_brick_window",
       "required": false
     },
@@ -6725,6 +7074,10 @@
     },
     {
       "id": "create:small_granite_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_granite_brick_slab_vertical",
       "required": false
     },
     {
@@ -6800,6 +7153,10 @@
       "required": false
     },
     {
+      "id": "create:small_limestone_brick_slab_vertical",
+      "required": false
+    },
+    {
       "id": "create:small_limestone_brick_window",
       "required": false
     },
@@ -6869,6 +7226,10 @@
     },
     {
       "id": "create:small_ochrum_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_ochrum_brick_slab_vertical",
       "required": false
     },
     {
@@ -6944,6 +7305,10 @@
       "required": false
     },
     {
+      "id": "create:small_scorchia_brick_slab_vertical",
+      "required": false
+    },
+    {
       "id": "create:small_scorchia_brick_window",
       "required": false
     },
@@ -7013,6 +7378,10 @@
     },
     {
       "id": "create:small_scoria_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_scoria_brick_slab_vertical",
       "required": false
     },
     {
@@ -7088,6 +7457,10 @@
       "required": false
     },
     {
+      "id": "create:small_tuff_brick_slab_vertical",
+      "required": false
+    },
+    {
       "id": "create:small_tuff_brick_window",
       "required": false
     },
@@ -7157,6 +7530,10 @@
     },
     {
       "id": "create:small_veridium_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "create:small_veridium_brick_slab_vertical",
       "required": false
     },
     {
@@ -7233,6 +7610,10 @@
     },
     {
       "id": "create:veridium_block_slab",
+      "required": false
+    },
+    {
+      "id": "create:veridium_block_slab_vertical",
       "required": false
     },
     {
@@ -7316,6 +7697,10 @@
       "required": false
     },
     {
+      "id": "regions_unexplored:chalk_block_slab_vertical",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:chalk_block_wall",
       "required": false
     },
@@ -7389,6 +7774,10 @@
     },
     {
       "id": "regions_unexplored:chalk_brick_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_brick_slab_vertical",
       "required": false
     },
     {
@@ -7469,6 +7858,10 @@
     },
     {
       "id": "regions_unexplored:chalk_pillar_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_pillar_slab_vertical",
       "required": false
     },
     {
@@ -7556,6 +7949,10 @@
       "required": false
     },
     {
+      "id": "regions_unexplored:mossy_stone_slab_vertical",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:mossy_stone_stairs",
       "required": false
     },
@@ -7633,6 +8030,10 @@
     },
     {
       "id": "regions_unexplored:polished_chalk_quarter_vertical",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:polished_chalk_slab_vertical",
       "required": false
     },
     {
