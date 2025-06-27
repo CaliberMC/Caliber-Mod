@@ -57,7 +57,7 @@ public class WoodcutterRecipe extends SingleItemRecipe {
 
             String s1 = GsonHelper.getAsString(pJson, "result");
             int i = GsonHelper.getAsInt(pJson, "count");
-            ItemStack itemstack = new ItemStack(ForgeRegistries.ITEMS.getValue(ResourceLocation.withDefaultNamespace(s1)), i);
+            ItemStack itemstack = new ItemStack(ForgeRegistries.ITEMS.getValue(ResourceLocation.parse(s1)), i);
             return this.factory.create(pRecipeId, s, ingredient, itemstack);
         }
 
